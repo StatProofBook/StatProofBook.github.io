@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The Book of Statistical Proofs
-email: joram.soch@bccn-berlin.de, statproofbook@gmail.com
+email: joram.soch@bccn-berlin.de
 description: >- # this means to ignore newlines until "baseurl:"
   The Book of Statistical Proofs, a centralized, open and collaboratively
   edited archive of statistical theorems for the computational sciences.
@@ -31,7 +31,7 @@ github_username: StatProofBook
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

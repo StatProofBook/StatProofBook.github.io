@@ -5,8 +5,6 @@
 layout: home
 ---
 
-# The Book of Statistical Proofs
-
 *Test*
 
 **Test**
