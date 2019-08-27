@@ -5,12 +5,8 @@
 layout: home
 ---
 
-*Test*
+Welcome to **The Book of Statistical Proofs** -- *a centralized, open and collaboratively edited archive of statistical theorems for the computational sciences*!
 
-**Test**
+Here's an example:
 
-~~Test~~
-
-[Test](test.md)
-
-<a href="https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/The_Book_of_Statistical_Proofs">TBSP</a>
+- [Multivariate normal distribution: Linear transformation theorem](Proofs/mvn-ltt.md)

@@ -11,12 +11,8 @@ permalink: /about/
 
 - Click [here](https://github.com/JoramSoch/TBSP) for the old project repository.
 
+- Click [here](https://github.com/StatProofBook/StatProofBook.github.io) for the new project repository.
 
-**The Book of Statistical Proofs** is run by *Joram Soch*.
+The project, website and repository are maintained by *Joram Soch* ([ORCID](https://orcid.org/0000-0002-8879-5666)), [GitHub](https://github.com/JoramSoch), [Twitter](https://twitter.com/JoramSoch)).
 
-- Click [here](https://orcid.org/0000-0002-8879-5666) for ORCID profile.
-
-- Click [here](https://github.com/JoramSoch) for GitHub profile.
-
-
-This website is generated with [GitHub pages](https://pages.github.com/), [Jekyll](https://github.com/jekyll/jekyll) and [MathJax](https://tba.com).
+This website is generated with [GitHub Pages](https://pages.github.com/), [Jekyll](https://github.com/jekyll/jekyll) and [MathJax](https://www.mathjax.org/).
