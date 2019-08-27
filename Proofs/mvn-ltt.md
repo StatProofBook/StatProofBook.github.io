@@ -72,9 +72,9 @@ $$\tag*{$\blacksquare$}$$
 **Dependencies:**
 - moment-generating function of a random vector
 - joint moment-generating function of the multivariate normal distribution
-<br>
+<br><br>
 
 
 **Source:**
-- Taboga, Marco (2010): "Linear combinations of normal random variables"; in: *Lectures on probability and statistics*; URL: [https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations].
-<br>
+- Taboga, Marco (2010): "Linear combinations of normal random variables"; in: *Lectures on probability and statistics*; URL: <https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations>.
+<br><br>

@@ -21,7 +21,7 @@
 title: The Book of Statistical Proofs
 email: joram.soch@bccn-berlin.de
 description: >- # this means to ignore newlines until "baseurl:"
-  The Book of Statistical Proofs -- a centralized, open and collaboratively
+  The Book of Statistical Proofs – a centralized, open and collaboratively
   edited archive of statistical theorems for the computational sciences.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
