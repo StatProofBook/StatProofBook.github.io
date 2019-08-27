@@ -5,7 +5,7 @@
 # E-Mail: joram.soch@bccn-berlin.de
 # Edited: 02/05/2019, 14:45
 
-layout: page
+layout: proof
 mathjax: true
 
 author: "Joram Soch"
@@ -29,13 +29,13 @@ username: "JoramSoch"
 
 $$ \label{eq:mvn}
 x \sim \mathrm{N}(\mu, \Sigma) \; .
-\end{equation}
+$$
 
 Then, any linear transformation of $x$ is also multivariate normally distributed:
 
-\begin{equation} \label{eq:mvn-lt}
+$$ \label{eq:mvn-lt}
 y = Ax + b \sim \mathrm{N}(A\mu + b, A \Sigma A^T) \; .
-\end{equation}
+$$
 
 
 **Proof:** The moment-generating function of a random vector $x$ is
@@ -71,16 +71,18 @@ M_y(t) &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \\
 \end{split}
 $$
 
-Because moment-generating function and probability density function of a random variable are equivalent, this demonstrates that $y$ is following a multivariate normal distribution with mean $A \mu + b$ and covariance $A \Sigma A^\mathrm{T}$. \hspace\fill $\blacksquare$
+Because moment-generating function and probability density function of a random variable are equivalent, this demonstrates that $y$ is following a multivariate normal distribution with mean $A \mu + b$ and covariance $A \Sigma A^\mathrm{T}$.
+$$\tag*{$\blacksquare$}$$
 
 
-**Dependencies:**
+#### Dependencies:
 - moment-generating function of a random vector
 - joint moment-generating function of the multivariate normal distribution
 
 
-**Source:**
+#### Source:
 - Taboga, Marco (2010): "Linear combinations of normal random variables"; in: *Lectures on probability and statistics*; URL: https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations.
 
 
-**Metadata:** ID: A001 | name: mvn-ltt | author: JoramSoch | date: 2019-05-02.
+#### Metadata:
+| ID: A001 | name: mvn-ltt | author: JoramSoch | date: 2019-05-02 |
