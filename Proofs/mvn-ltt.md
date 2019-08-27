@@ -1,16 +1,10 @@
 ---
-# Linear transformation theorem for the multivariate normal distribution
-# _
-# Author: Joram Soch, BCCN Berlin
-# E-Mail: joram.soch@bccn-berlin.de
-# Edited: 02/05/2019, 14:45
-
 layout: proof
 mathjax: true
 
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
-e-mail: "joram.soch@bccn-berlin.de"
+e_mail: "joram.soch@bccn-berlin.de"
 date: 2019-05-02 14:45:00 +0000
 
 title: "Linear transformation theorem for the multivariate normal distribution"
@@ -19,7 +13,7 @@ section: "Multivariate continuous distributions"
 topic: "Multivariate normal distribution"
 proof: "Linear transformation"
 
-proof-id: "A001"
+proof_id: "A001"
 shortcut: "mvn-ltt"
 username: "JoramSoch"
 ---
@@ -75,14 +69,14 @@ Because moment-generating function and probability density function of a random 
 $$\tag*{$\blacksquare$}$$
 
 
-#### Dependencies:
+**Dependencies:**
 - moment-generating function of a random vector
 - joint moment-generating function of the multivariate normal distribution
 
 
-#### Source:
+**Source:**
 - Taboga, Marco (2010): "Linear combinations of normal random variables"; in: *Lectures on probability and statistics*; URL: https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations.
 
 
-#### Metadata:
-| ID: A001 | name: mvn-ltt | author: JoramSoch | date: 2019-05-02 |
+**Metadata:**
+ID: A001 | name: mvn-ltt | author: JoramSoch | date: 2019-05-02

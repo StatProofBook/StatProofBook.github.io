@@ -6,9 +6,7 @@ layout: home
 ---
 
 
-Welcome to **The Book of Statistical Proofs** --
-
-*a centralized, open and collaboratively edited archive of statistical theorems for the computational sciences*!
+Welcome to **The Book of Statistical Proofs** -- *a centralized, open and collaboratively edited archive of statistical theorems for the computational sciences*!
 
 Here's an example:
 
