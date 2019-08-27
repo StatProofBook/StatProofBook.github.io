@@ -9,7 +9,12 @@ layout: default
   </header>
 
   <div class="post-content">
+	
+	<a href="https://statproofbook.github.io">The Book of Statistical Proofs</a> >> {{ proof.chapter }} >> {{ proof.section }} >> {{ proof.topic }} >> {{ proof.theorem }}
+	<!-- <h1>{{ proof.title }}</h1> -->
     {{ content }}
+	<b>Metadata:</b> ID: {{ proof.proof_id }} | name: {{ proof.shortcut }} | author: {{ proof.username }} | date: {{ post.date | date: "%Y-%m-%d" }}.
+	
   </div>
 
 </article>

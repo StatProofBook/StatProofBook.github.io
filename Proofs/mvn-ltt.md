@@ -11,7 +11,7 @@ title: "Linear transformation theorem for the multivariate normal distribution"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
 topic: "Multivariate normal distribution"
-proof: "Linear transformation"
+theorem: "Linear transformation"
 
 proof_id: "A001"
 shortcut: "mvn-ltt"
