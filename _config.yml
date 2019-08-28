@@ -30,8 +30,10 @@ github_username: StatProofBook
 
 # Build settings
 theme: minima
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-seo-tag
+# - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
