@@ -11,4 +11,4 @@ Welcome to **The Book of Statistical Proofs** -- *a centralized, open and collab
 
 Here's an example:
 
-- [Multivariate normal distribution: Linear transformation theorem](Proofs/mvn-ltt.md)
+- [Linear transformation theorem for the multivariate normal distribution](Proofs/mvn-ltt.md)
