@@ -13,7 +13,7 @@ section: "Multivariate continuous distributions"
 topic: "Multivariate normal distribution"
 theorem: "Linear transformation"
 
-proof_id: "A001"
+proof_id: "P1"
 shortcut: "mvn-ltt"
 username: "JoramSoch"
 ---
