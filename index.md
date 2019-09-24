@@ -15,8 +15,8 @@ Here is an example:
 
 - [Linear transformation theorem for the multivariate normal distribution](Proofs/mvn-ltt.md)
 
-Here are some overviews:
+Here are some indexes:
 
-- [Table of Contents](Indexes/Table_of_Contents.md) (structured overview)
-- [Proof by Number](Indexes/Proof_by_Number.md) (chronological list)
-- [Proof by Topic](Indexes/Proof_by_Topic.md) (alphabetical list)
+- [Table of Contents](Indexes/Table_of_Contents.md), a structured overview
+- [Proof by Number](Indexes/Proof_by_Number.md), a chronological list (not yet available)
+- [Proof by Topic](Indexes/Proof_by_Topic.md), an alphabetical list (not yet available)
