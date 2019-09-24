@@ -18,7 +18,7 @@ title: "Table of Contents"
 4. Multivariate continuous distributions
 
    4.1. Multivariate normal distribution <br>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.1.1. [Linear transformation](/Proofs/mvn-ltt.html) <br>
+   &emsp;&ensp; 4.1.1. [Linear transformation](/Proofs/mvn-ltt.html) <br>
 
 
 ### Statistical Models
