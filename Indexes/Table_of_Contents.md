@@ -4,7 +4,7 @@ title: "Table of Contents"
 ---
 
 
-[Proof Template for The Book of Statistical Proofs](/Proofs/-temp-.html) <br>
+[Template for The Book of Statistical Proofs](/Proofs/-temp-.html) <br>
 
 
 ### General Theorems

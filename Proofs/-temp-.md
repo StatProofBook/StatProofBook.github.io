@@ -7,11 +7,11 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2019-05-07 16:30:00
 
-title: "Proof Template for The Book of Statistical Proofs"
-chapter: "<Chapter>"
-section: "<Section>"
-topic: "<Topic>"
-theorem: "<Theorem>"
+title: "Template for The Book of Statistical Proofs"
+chapter: "enter chapter here"
+section: "enter section here"
+topic: "enter topic here"
+theorem: "enter theorem here"
 
 proof_id: "P0"
 shortcut: "-temp-"
