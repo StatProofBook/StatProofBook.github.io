@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-05-02 16:30:00
+date: 2019-05-03 07:55:00
 
 title: "Bayes' theorem"
 chapter: "General Theorems"

@@ -4,6 +4,9 @@ title: "Table of Contents"
 ---
 
 
+[\_Proof Template for The Book of Statistical Proofs\_](/Proofs/_temp_.html) <br>
+
+
 ### General Theorems
 
 1. Probability theory
