@@ -32,8 +32,8 @@ github_username: StatProofBook
 theme: minima
 plugins:
   - jekyll-seo-tag
-# - jekyll-feed
-
+include:
+  - Proofs/_temp_.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
