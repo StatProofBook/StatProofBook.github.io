@@ -1,4 +1,8 @@
 {% if page.mathjax %}
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });
+</script>
+<script type="text/javascript" src="../MathJax.js?config=TeX-AMS_HTML"></script>
 <!--
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -12,7 +16,6 @@
     }
   });
 </script>
--->
 <script
   type="text/javascript"
   charset="utf-8"
@@ -25,4 +28,5 @@
   src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
 >
 </script>
+-->
 {% endif %}
