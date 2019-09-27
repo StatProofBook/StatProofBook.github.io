@@ -9,14 +9,10 @@ title: "The Book of Statistical Proofs"
 
 Welcome to **The Book of Statistical Proofs** -- <br>
 *a centralized, open and collaboratively edited archive <br>
-of statistical theorems for the computational sciences*!
+of statistical theorems for the computational sciences*! <br>
 
-Here is an example:
+Browse one of these indexes to find statistical proofs:
 
-- [Linear transformation theorem for the multivariate normal distribution](Proofs/mvn-ltt.md)
-
-Here are some indexes:
-
-- [Table of Contents](Indexes/Table_of_Contents.md), a structured overview
-- [Proof by Number](Indexes/Proof_by_Number.md), a chronological list (not yet available)
-- [Proof by Topic](Indexes/Proof_by_Topic.md), an alphabetical list (not yet available)
+- [Table of Contents](Indexes/Table_of_Contents.md) -- a structured overview
+- [Proof by Number](Indexes/Proof_by_Number.md) -- a chronological list
+- [Proof by Topic](Indexes/Proof_by_Topic.md) -- an alphabetical list
