@@ -38,3 +38,12 @@ title: "Table of Contents"
 
 
 ### Model Selection
+
+1. Goodness-of-fit measures
+
+2. Classical information criteria
+
+3. Bayesian model selection 
+
+   3.1. Log model evidence <br>
+   &emsp;&ensp; 3.1.1. [Partition into accuracy and complexity](/Proofs/lme-anc.html) <br>
