@@ -27,8 +27,8 @@ title: "Table of Contents"
 
 1. Normal data
 
-   1.1. Multiple linear regression <br>
-   &emsp;&ensp; 1.1.1. [Ordinary least squares](/Proofs/mlr-ols.html) <br>
+   1.2. Multiple linear regression <br>
+   &emsp;&ensp; 1.2.1. [Ordinary least squares](/Proofs/mlr-ols.html) <br>
 
 2. Poisson data
 
