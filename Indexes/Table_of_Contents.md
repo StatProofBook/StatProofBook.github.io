@@ -6,6 +6,15 @@ title: "Table of Contents"
 
 ### General Theorems
 
+1. Probability theory
+
+   1.1. Bayesian inference <br>
+   &emsp;&ensp; 1.1.1. [Bayes' theorem](/Proofs/bayes-th.html) <br>
+
+2. Estimation theory
+
+3. Information theory
+
 
 ### Probability Distributions
 

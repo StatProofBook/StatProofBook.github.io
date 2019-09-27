@@ -69,6 +69,7 @@ $$ \label{eq:LME-AnC}
 $$
 
 which proofs the partition given by (\ref{eq:LME}).
+
 $$\tag*{$\blacksquare$}$$
 
 
