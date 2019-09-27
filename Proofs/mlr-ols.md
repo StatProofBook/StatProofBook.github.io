@@ -38,7 +38,7 @@ $$ \label{eq:X-e-orth}
 X^\mathrm{T} \hat{\varepsilon} = 0 \; ,
 $$
 
-because if it wasn't, there would be another solution $\tilde{\beta}$ giving another vector $\tilde{\varepsilon}$ with a smaller residual sum of squares. From (\ref{eq:X-e-orth}), the OLS formula can be directly derived:
+because if it wasn't, there would be another solution $\tilde{\beta}$ giving another vector $\tilde{\varepsilon}$ with a smaller residual sum of squares. From ($\ref{eq:X-e-orth}$), the OLS formula can be directly derived:
 
 $$ \label{eq:OLS-proof}
 \begin{split}
