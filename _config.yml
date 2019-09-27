@@ -34,6 +34,7 @@ plugins:
   - jekyll-seo-tag
 include:
   - Proofs/_temp_.md
+  - Proofs/_temp_.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
