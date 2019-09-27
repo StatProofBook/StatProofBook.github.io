@@ -11,7 +11,8 @@
 # If you need help with YAML syntax, here are some quick references for you: 
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-#
+
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -28,13 +29,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JoramSoch
 github_username: StatProofBook
 
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-seo-tag
-include:
-  - Proofs/_temp_.md
-  - Proofs/_temp_.html
+
+
+# Include into processing.  
+include: ['Proofs/_temp_.md', 'Proofs/_temp_.html']
 
 # Exclude from processing.
 # The following items will not be processed, by default.
