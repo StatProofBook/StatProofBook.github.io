@@ -36,9 +36,6 @@ plugins:
   - jekyll-seo-tag
 
 
-# Include into processing.  
-include: ["Proofs/_temp_.md"]
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -57,3 +54,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Include into processing.  
+include:
+  - Proofs/_temp_.md
