@@ -11,7 +11,7 @@ Author: Joram Soch, BCCN Berlin
 E-Mail: joram.soch@bccn-berlin.de
 
 First edit: 2019-09-27 12:55:00
- Last edit: 2019-09-27 15:15:00
+ Last edit: 2019-09-27 16:00:00
 """
 
 
@@ -92,8 +92,8 @@ if all(incl):
 print('\n2. "Proof_by_Number.md":')
 ind2 = open('Indexes/Proof_by_Number.md', 'w')
 ind2.write('---\nlayout: page\ntitle: "Proof by Number"\n---\n\n\n')
-ind2.write('| ID | Name | Theorem | Author | Date |\n')
-ind2.write('|:-- |:---- |:------- |:------ |:---- |\n')
+ind2.write('| ID | Shortcut | Theorem | Author | Date |\n')
+ind2.write('|:-- |:-------- |:------- |:------ |:---- |\n')
 
 # Proof by Number: sort by Proof ID
 #-----------------------------------------------------------------------------#
