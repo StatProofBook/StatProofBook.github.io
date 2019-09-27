@@ -49,6 +49,7 @@ X^\mathrm{T} X\hat{\beta} &= X^\mathrm{T} y \\
 \hat{\beta} &= (X^\mathrm{T} X)^{-1} X^\mathrm{T} y \; .
 \end{split}
 $$
+
 $$\tag*{$\blacksquare$}$$
 
 
