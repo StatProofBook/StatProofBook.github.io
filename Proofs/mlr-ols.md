@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-05-02 15:50:00 +0000
+date: 2019-05-02 15:50:00
 
 title: "Ordinary least squares for multiple linear regression"
 chapter: "Statistical Models"

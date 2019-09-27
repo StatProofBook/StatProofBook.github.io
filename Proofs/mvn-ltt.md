@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-05-02 14:45:00 +0000
+date: 2019-05-02 14:45:00
 
 title: "Linear transformation theorem for the multivariate normal distribution"
 chapter: "Probability Distributions"
