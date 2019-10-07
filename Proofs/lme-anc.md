@@ -75,7 +75,7 @@ $$\tag*{$\blacksquare$}$$
 
 **Dependencies:**
 
-- [Bayes' theorem](/Proof/bayes-th.html)
+- [Bayes' theorem](/Proofs/bayes-th.html)
 - derivation of the log model evidence
 - expectation with respect to a random variable
 - Kullback-Leibler divergence of two random variables
