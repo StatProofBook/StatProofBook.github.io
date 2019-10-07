@@ -36,7 +36,7 @@ $$
 
 This completes the proof.
 
-$$\tag*{$\blacksquare$}$$
+<div align="right">&#8718;</div>
 
 
 **Dependencies:**
