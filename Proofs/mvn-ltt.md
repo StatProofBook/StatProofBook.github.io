@@ -67,7 +67,7 @@ $$
 
 Because moment-generating function and probability density function of a random variable are equivalent, this demonstrates that $y$ is following a multivariate normal distribution with mean $A \mu + b$ and covariance $A \Sigma A^\mathrm{T}$.
 
-$$\tag*{$\blacksquare$}$$
+<div align="right">&#8718;</div>
 
 
 **Dependencies:**

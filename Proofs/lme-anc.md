@@ -70,7 +70,7 @@ $$
 
 which proofs the partition given by (\ref{eq:LME}).
 
-$$\tag*{$\blacksquare$}$$
+<div align="right">&#8718;</div>
 
 
 **Dependencies:**

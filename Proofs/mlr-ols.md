@@ -50,7 +50,7 @@ X^\mathrm{T} X\hat{\beta} &= X^\mathrm{T} y \\
 \end{split}
 $$
 
-$$\tag*{$\blacksquare$}$$
+<div align="right">&#8718;</div>
 
 
 **Source:**

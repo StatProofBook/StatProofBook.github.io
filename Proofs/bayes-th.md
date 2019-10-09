@@ -50,7 +50,7 @@ $$ \label{eq:BT-proof}
 p(A|B) \overset{(\ref{eq:JP})}{=} \frac{p(B|A) \, p(A)}{p(B)} \; .
 $$
 
-$$\tag*{$\blacksquare$}$$
+<div align="right">&#8718;</div>
 
 
 **Dependencies:**
