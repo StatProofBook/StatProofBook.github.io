@@ -29,6 +29,7 @@ proofs = dict()
 pr_ids = []
 pr_nos = []
 titles = []
+users  = []
 
 # Browse through list of files
 #-----------------------------------------------------------------------------#
@@ -62,11 +63,13 @@ for file in files:
         pr_ids.append(proof_id)
         pr_nos.append(int(proof_id[1:]))
         titles.append(title)
+        users.append(username)
 
 # Output number of proof files
 #-----------------------------------------------------------------------------#
 print('\n-> TBSP Index Generator:')
 print('   - ' + str(len(proofs)) + ' files found in proof directory!')
+
 
 # Table of Contents: read index file
 #-----------------------------------------------------------------------------#
@@ -87,6 +90,7 @@ for (i, proof) in enumerate(proofs):
 if all(incl):
     print('   - ' + str(sum(incl)) + ' proofs found in table of contents!')
 
+
 # Proof by Number: prepare index file
 #-----------------------------------------------------------------------------#
 print('\n2. "Proof_by_Number.md":')
@@ -104,6 +108,7 @@ for i in sort_ind:
                proofs[pr_ids[i]]['username'] + ' | ' + proofs[pr_ids[i]]['date'].strftime('%Y-%m-%d') + ' |\n')
 ind2.close()
 print('   - successfully written to disk!')
+
 
 # Proof by Topic: prepare index file
 #-----------------------------------------------------------------------------#
@@ -123,5 +128,29 @@ for i in range(0,len(titles)):
         if title[0] != proofs[pr_ids[sort_ind[i-1]]]['title'][0]:
             ind3.write('\n### ' + title[0] + '\n\n')
     ind3.write('- [' + title + '](/Proofs/' + shortcut + '.html)\n')
+ind3.close()
+print('   - successfully written to disk!')
+
+
+# Proof by Author: prepare index file
+#-----------------------------------------------------------------------------#
+print('\n4. "Proof_by_Author.md":')
+ind3 = open('Indexes/Proof_by_Author.md', 'w')
+ind3.write('---\nlayout: page\ntitle: "Proof by Author"\n---\n\n\n')
+
+# Proof by Authors: sort by Username
+#-----------------------------------------------------------------------------#
+unique_users = list(set(users))
+for user in unique_users:
+    user_proofs = [proof for proof in proofs.values() if proof['username'] == user]
+    ind3.write('### ' + user + ' (' + str(len(user_proofs)) + ' proofs)\n\n')
+    user_titles = []
+    for proof in user_proofs:
+        user_titles.append(proof['title'])
+    sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(user_titles)])]
+    for i in range(0,len(user_titles)):
+        shortcut = user_proofs[sort_ind[i]]['shortcut']
+        title    = user_proofs[sort_ind[i]]['title']
+        ind3.write('- [' + title + '](/Proofs/' + shortcut + '.html)\n')
 ind3.close()
 print('   - successfully written to disk!')
