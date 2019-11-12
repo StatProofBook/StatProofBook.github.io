@@ -7,7 +7,9 @@ title: "Table of Contents"
 [Template for The Book of Statistical Proofs](/Proofs/-temp-.html) <br>
 
 
+<div id="General Theorems">
 ### General Theorems
+</div>
 
 1. Probability theory
 
