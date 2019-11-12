@@ -21,7 +21,9 @@ title: "Table of Contents"
 3. Information theory
 
 
-### Probability Distributions
+<section class="chapter" id="Probability Distributions">
+<h3>Probability Distributions</h3>
+</section>
 
 1. Univariate discrete distributions
 
@@ -37,7 +39,9 @@ title: "Table of Contents"
 5. Matrix-variate continuous distributions
 
 
-### Statistical Models
+<section class="chapter" id="Statistical Models">
+<h3>Statistical Models</h3>
+</section>
 
 1. Normal data
 
@@ -51,7 +55,9 @@ title: "Table of Contents"
 4. Categorical data
 
 
-### Model Selection
+<section class="chapter" id="Model Selection">
+<h3>Model Selection</h3>
+</section>
 
 1. Goodness-of-fit measures
 
