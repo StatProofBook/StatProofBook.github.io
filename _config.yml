@@ -32,6 +32,7 @@ github_username: StatProofBook
 
 # Build settings
 theme: minima
+markdown: maruku
 plugins:
   - jekyll-seo-tag
 
