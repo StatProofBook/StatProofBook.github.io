@@ -50,8 +50,8 @@ $$
 
 because if it wasn't, there would be another solution $\tilde{\beta}$ giving another vector $\tilde{\varepsilon}$ with a smaller residual sum of squares. From \eqref{eq:X-e-orth}, the OLS formula can be directly derived:
 
-$$ \label{eq:OLS-proof}\tag{4}
-\begin{split}
+$$ \label{eq:OLS-proof}
+\begin{split} \tag{4}
 X^\mathrm{T} \hat{\varepsilon} &= 0 \\
 X^\mathrm{T} \left( y - X\hat{\beta} \right) &= 0 \\
 X^\mathrm{T} y - X^\mathrm{T} X\hat{\beta} &= 0 \\
