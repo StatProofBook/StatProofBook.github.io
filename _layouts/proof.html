@@ -18,12 +18,13 @@ layout: default
 	
 	<b>Dependencies:</b> <br><ul>
 	{% for item in page.dependencies %}
-	  {% if item.shortcut %}
-	    <li><a href="/Proofs/{{ item.shortcut }}.html">{{item.theorem}}</a></li>
-	  {% endif %}
-	  {% unless item.shortcut %}
-	    <li>{{item.theorem}}</li>
-	  {% endunless %}
+	  <li>
+	    {% if item.shortcut %}
+	      <a href="/Proofs/{{ item.shortcut }}.html">{{item.theorem}}</a>
+	    {% else %}
+	      {{item.theorem}}
+	    {% endif %}
+	  </li>
 	{% endfor %} </ul><br>
 	
 	<!--
