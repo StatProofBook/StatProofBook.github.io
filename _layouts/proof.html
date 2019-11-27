@@ -20,11 +20,13 @@ layout: default
 	{% for item in page.dependencies %}
 	  {% if item.shortcut %}
 	    <li><a href="/Proofs/{{ item.shortcut }}.html">{{item.theorem}}</a></li>
-	  {% else %}
-	    <li>{{item.theorem}}</li>
 	  {% endif %}
+	  {% unless item.shortcut %}
+	    <li>{{item.theorem}}</li>
+	  {% endunless %}
 	{% endfor %} </ul><br>
 	
+	<!--
 	<b>Sources:</b> <br><ul>
 	{% for item in page.sources %}
 	  <li>
@@ -41,6 +43,7 @@ layout: default
 		.
 	  </li>
 	{% endfor %} </ul><br>
+	-->
 	
 	<b>Metadata:</b> ID: {{ page.proof_id }} | shortcut: {{ page.shortcut }} | author: <a href="https://github.com/{{ page.username }}">{{ page.username }}</a> | date: {{ page.date | date: "%Y-%m-%d" }}.
 	
