@@ -31,26 +31,26 @@ username: "JoramSoch"
 
 **Theorem:** Given a linear regression model with independent observations
 
-$$ \label{eq:MLR}
+$$ \label{eq:MLR}\tag{1}
 y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; ,
 $$
 
 the parameters minimizing the residual sum of squares are given by
 
-$$ \label{eq:OLS}
+$$ \label{eq:OLS}\tag{2}
 \hat{\beta} = (X^\mathrm{T} X)^{-1} X^\mathrm{T} y \; .
 $$
 
 
 **Proof:** Let $\hat{\beta}$ be the ordinary least squares (OLS) solution and let $\hat{\varepsilon} = y - X\hat{\beta}$ be the resulting vector of residuals. Then, this vector must be orthogonal to the design matrix,
 
-$$ \label{eq:X-e-orth}\tag{1}
+$$ \label{eq:X-e-orth}\tag{3}
 X^\mathrm{T} \hat{\varepsilon} = 0 \; ,
 $$
 
 because if it wasn't, there would be another solution $\tilde{\beta}$ giving another vector $\tilde{\varepsilon}$ with a smaller residual sum of squares. From \eqref{eq:X-e-orth}, the OLS formula can be directly derived:
 
-$$ \label{eq:OLS-proof}
+$$ \label{eq:OLS-proof}\tag{4}
 \begin{split}
 X^\mathrm{T} \hat{\varepsilon} &= 0 \\
 X^\mathrm{T} \left( y - X\hat{\beta} \right) &= 0 \\
