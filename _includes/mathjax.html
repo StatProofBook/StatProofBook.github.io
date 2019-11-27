@@ -3,9 +3,8 @@
     extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
     jax: ["input/TeX","output/HTML-CSS"],
     tex: {
-	  tags: 'ams'
-	  <!-- equationNumbers: { autoNumber: "AMS" }, -->
-	  <!-- tagSide: "right", -->
+	  equationNumbers: { autoNumber: "AMS" },
+	  tagSide: "right"
 	},
 	tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
@@ -16,6 +15,5 @@
 </script>
 <script type="text/javascript"
   charset="utf-8"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
-  <!-- src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> -->
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
