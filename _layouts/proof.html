@@ -16,8 +16,8 @@ layout: default
 	
 	{{ content }}
 	
-	<b>Dependencies:</b> <br><br>
-	{% for item in page.dependencies %}
+	<b>Dependencies:</b> <br>
+	{% for item in page.data.dependencies %}
 	* {{item.title}} <br>
 	{% endfor %} <br>
 
