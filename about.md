@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About StatProofBook
 permalink: /about/
 ---
 
@@ -10,7 +10,8 @@ permalink: /about/
 - [scholarship programme website](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen)
 - [original project description](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/The_Book_of_Statistical_Proofs)
 - [current project repository](https://github.com/StatProofBook/StatProofBook.github.io)
-- [the contribution guide](https://statproofbook.github.io/contribute/) (under construction)
+- [the project's contribution guide](https://statproofbook.github.io/contribute/)
+- [the project's Twitter profile](https://twitter.com/statproofbook)
 
 The project and repository are maintained by *Joram Soch* ([ORCID](https://orcid.org/0000-0002-8879-5666), [GitHub](https://github.com/JoramSoch), [Twitter](https://twitter.com/JoramSoch)).
 
