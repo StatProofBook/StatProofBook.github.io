@@ -16,4 +16,6 @@ Browse one of these indexes to find statistical proofs:
 - [Table of Contents](Indexes/Table_of_Contents.md) -- a structured overview
 - [Proof by Number](Indexes/Proof_by_Number.md) -- a chronological list
 - [Proof by Topic](Indexes/Proof_by_Topic.md) -- an alphabetical list
+<!--
 - [Proof by Author](Indexes/Proof_by_Author.md) -- sorted by contributor
+-->

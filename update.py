@@ -143,7 +143,10 @@ ind3.write('---\nlayout: page\ntitle: "Proof by Author"\n---\n\n\n')
 unique_users = list(set(users))
 for user in unique_users:
     user_proofs = [proof for proof in proofs.values() if proof['username'] == user]
-    ind3.write('### ' + user + ' (' + str(len(user_proofs)) + ' proofs)\n\n')
+    if len(user_proofs) == 1:
+        ind3.write('### ' + user + ' (' + str(len(user_proofs)) + ' proof)\n\n')
+    else:
+        ind3.write('### ' + user + ' (' + str(len(user_proofs)) + ' proofs)\n\n')
     user_titles = []
     for proof in user_proofs:
         user_titles.append(proof['title'])
