@@ -11,3 +11,4 @@ title: "Proof by Number"
 | P2 | mlr-ols | [Ordinary least squares for multiple linear regression](/Proofs/mlr-ols.html) | JoramSoch | 2019-09-27 |
 | P3 | lme-anc | [Partition of the log model evidence into accuracy and complexity](/Proofs/lme-anc.html) | JoramSoch | 2019-09-27 |
 | P4 | bayes-th | [Bayes' theorem](/Proofs/bayes-th.html) | JoramSoch | 2019-09-27 |
+| P5 | mse-bnv | [Partition of mean squared error into bias and variance](/Proofs/mse-bnv.html) | JoramSoch | 2019-11-27 |
