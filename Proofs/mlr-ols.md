@@ -44,11 +44,11 @@ $$
 
 **Proof:** Let $\hat{\beta}$ be the ordinary least squares (OLS) solution and let $\hat{\varepsilon} = y - X\hat{\beta}$ be the resulting vector of residuals. Then, this vector must be orthogonal to the design matrix,
 
-$$ \label{eq:X-e-orth}
+$$ \tag{1}
 X^\mathrm{T} \hat{\varepsilon} = 0 \; ,
 $$
 
-because if it wasn't, there would be another solution $\tilde{\beta}$ giving another vector $\tilde{\varepsilon}$ with a smaller residual sum of squares. From (\eqref{eq:X-e-orth}), the OLS formula can be directly derived:
+because if it wasn't, there would be another solution $\tilde{\beta}$ giving another vector $\tilde{\varepsilon}$ with a smaller residual sum of squares. From \eqref{1}, the OLS formula can be directly derived:
 
 $$ \label{eq:OLS-proof}
 \begin{split}
