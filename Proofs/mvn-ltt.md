@@ -32,26 +32,26 @@ username: "JoramSoch"
 
 **Theorem:** Let $x$ follow a multivariate normal distribution:
 
-$$ \label{eq:mvn}
+$$ \label{eq:mvn}\tag{1}
 x \sim \mathrm{N}(\mu, \Sigma) \; .
 $$
 
 Then, any linear transformation of $x$ is also multivariate normally distributed:
 
-$$ \label{eq:mvn-lt}
+$$ \label{eq:mvn-lt}\tag{2}
 y = Ax + b \sim \mathrm{N}(A\mu + b, A \Sigma A^T) \; .
 $$
 
 
 **Proof:** The moment-generating function of a random vector $x$ is
 
-$$ \label{eq:vect-mgf}
+$$ \label{eq:vect-mgf}\tag{3}
 M_x(t) = \mathbb{E} \left( \exp \left[ t^\mathrm{T} x \right] \right)
 $$
 
 and therefore the moment-generating function of the random vector $y$ is given by
 
-$$ \label{eq:y-mfg-s1}
+$$ \label{eq:y-mfg-s1}\tag{4}
 \begin{split}
 M_y(t) &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
 &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \cdot \exp \left[ t^\mathrm{T} b \right] \right) \\
@@ -62,13 +62,13 @@ $$
 
 The joint moment-generating function of the multivariate normal distribution is
 
-$$ \label{eq:mvn-mgf}
+$$ \label{eq:mvn-mgf}\tag{5}
 M_x(t) = \exp \left[ t^\mathrm{T} \mu + \frac{1}{2} t^\mathrm{T} \Sigma t \right]
 $$
 
 and therefore the moment-generating function of the random vector $y$ becomes
 
-$$ \label{eq:y-mfg-ss}
+$$ \label{eq:y-mfg-ss}\tag{6}
 \begin{split}
 M_y(t) &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \exp \left[ t^\mathrm{T} A \mu + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \\

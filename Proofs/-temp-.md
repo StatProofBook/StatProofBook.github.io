@@ -36,7 +36,7 @@ username: "JoramSoch"
 
 **Theorem:** Statement of the theorem.
 
-$$ \label{eq:Theorem}
+$$ \label{eq:Theorem}\tag{1}
 \textbf{an equation belonging to the theorem}
 $$
 
@@ -45,8 +45,8 @@ This holds under some conditions.
 
 **Proof:** Statement of the proof.
 
-$$ \label{eq:Proof}
+$$ \label{eq:Proof}\tag{2}
 \textbf{an equation belonging to the proof}
 $$
 
-This completes the proof.
+This completes the proof of \eqref{eq:Theorem}.
