@@ -5,13 +5,24 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-05-03 07:55:00
+date: 2019-09-27 16:24:00
 
 title: "Bayes' theorem"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Bayesian inference"
 theorem: "Bayes' theorem"
+
+dependencies:
+  - theorem: "law of conditional probability, also called 'product rule of probability'"
+
+sources:
+  - authors: "Koch, Karl-Rudolf"
+    year: 2007
+    title: "Introduction to Bayesian Statistics"
+    pages: "Springer, Berlin/Heidelberg, 2007, pp. 6/13, eqs. 2.12/2.38"
+    url: "https://www.springer.com/de/book/9783540727231"
+    doi: "10.1007/978-3-540-72726-2"
 
 proof_id: "P4"
 shortcut: "bayes-th"
@@ -49,15 +60,3 @@ from which Bayes' theorem can be directly derived:
 $$ \label{eq:BT-proof}
 p(A|B) \overset{(\ref{eq:JP})}{=} \frac{p(B|A) \, p(A)}{p(B)} \; .
 $$
-
-<div align="right">&#8718;</div>
-
-
-**Dependencies:**
-
-- law of conditional probability, also called "product rule of probability"
-
-
-**Source:**
-
-- Koch, Karl-Rudolf (2007): *Introduction to Bayesian Statistics*, second edition, Springer, Berlin/Heidelberg, 2007, pp. 6/13, eqs. 2.12/2.38.

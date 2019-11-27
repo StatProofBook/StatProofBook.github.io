@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-05-07 16:30:00
+date: 2019-09-27 16:40:00
 
 title: "Template for The Book of Statistical Proofs"
 chapter: "enter chapter here"

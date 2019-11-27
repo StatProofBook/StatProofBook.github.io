@@ -5,13 +5,36 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-05-02 16:30:00
+date: 2019-09-27 16:13:00
 
 title: "Partition of the log model evidence into accuracy and complexity"
 chapter: "Model Selection"
 section: "Bayesian model selection"
 topic: "Log model evidence"
 theorem: "Partition into accuracy and complexity"
+
+dependencies:
+  - theorem: "Bayes' theorem"
+    shortcut: bayes-th
+  - theorem: "derivation of the log model evidence"
+  - theorem: "expectation with respect to a random variable"
+  - theorem: "Kullback-Leibler divergence of two random variables"
+
+sources:
+  - authors: "Penny et al."
+    year: 2007
+    title: "Bayesian Comparison of Spatially Regularised General Linear Models"
+    in: "Human Brain Mapping"
+    pages: "vol. 28, pp. 275–293"
+    url: "https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.20327"
+    doi: "10.1002/hbm.20327"
+  - authors: "Soch et al."
+    year: 2016
+    title: "How to avoid mismodelling in GLM-based fMRI data analysis: cross-validated Bayesian model selection"
+    in: "NeuroImage"
+    pages: "vol. 141, pp. 469–489"
+    url: "https://www.sciencedirect.com/science/article/pii/S1053811916303615"
+    doi: "10.1016/j.neuroimage.2016.07.047"
 
 proof_id: "P3"
 shortcut: "lme-anc"
@@ -69,19 +92,3 @@ $$ \label{eq:LME-AnC}
 $$
 
 which proofs the partition given by (\ref{eq:LME}).
-
-<div align="right">&#8718;</div>
-
-
-**Dependencies:**
-
-- [Bayes' theorem](/Proofs/bayes-th.html)
-- derivation of the log model evidence
-- expectation with respect to a random variable
-- Kullback-Leibler divergence of two random variables
-
-
-**Source:**
-
-- Penny et al. (2007): "Bayesian Comparison of Spatially Regularised General Linear Models". *Human Brain Mapping*, vol. 28, pp. 275–293.
-- Soch et al. (2016): "How to avoid mismodelling in GLM-based fMRI data analysis: cross-validated Bayesian model selection". *NeuroImage*, vol. 141, pp. 469–489.

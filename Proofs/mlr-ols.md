@@ -5,13 +5,23 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-05-02 15:50:00
+date: 2019-09-27 07:18:00
 
 title: "Ordinary least squares for multiple linear regression"
 chapter: "Statistical Models"
 section: "Normal data"
 topic: "Multiple linear regression"
 theorem: "Ordinary least squares"
+
+dependencies:
+  - theorem: "geometric interpretation of the general linear model"
+
+sources:
+  - authors: "Stephan, Klaas Enno"
+    year: 2010
+    title: "The General Linear Model (GLM)"
+    in: "Methods and models for fMRI data analysis in neuroeconomics"
+    url: "http://www.socialbehavior.uzh.ch/teaching/methodsspring10.html"
 
 proof_id: "P2"
 shortcut: "mlr-ols"
@@ -49,9 +59,3 @@ X^\mathrm{T} X\hat{\beta} &= X^\mathrm{T} y \\
 \hat{\beta} &= (X^\mathrm{T} X)^{-1} X^\mathrm{T} y \; .
 \end{split}
 $$
-
-<div align="right">&#8718;</div>
-
-
-**Source:**
-- Stephen, Klaas Enno (2010): "The General Linear Model (GLM)"; in: *Methods and models for fMRI data analysis in neuroeconomics*; URL: <http://www.socialbehavior.uzh.ch/teaching/methodsspring10.html>.
