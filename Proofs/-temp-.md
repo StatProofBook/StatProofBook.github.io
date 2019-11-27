@@ -13,6 +13,20 @@ section: "enter section here"
 topic: "enter topic here"
 theorem: "enter theorem here"
 
+dependencies:
+  - theorem: "a theorem this proof depends on (with internal reference)"
+    shortcut: "-temp-"
+  - theorem: "another theorem this proof requires (without reference)"
+    shortcut: 
+
+sources:
+  - authors: "authors of the source of the proof"
+    year: "year when published"
+    title: "title of the source of the proof"
+    in: "either a monography or a journal"
+	pages: "volume, issue and/or page information"
+    url: "https://optional.url/to-source/"
+
 proof_id: "P0"
 shortcut: "-temp-"
 username: "JoramSoch"
@@ -35,16 +49,3 @@ $$ \label{eq:Proof}
 $$
 
 This completes the proof.
-
-<div align="right">&#8718;</div>
-
-
-**Dependencies:**
-
-- a theorem this proof depends on
-- another theorem this proof requires
-
-
-**Source:**
-
-- source of the proof as bibliographic entry
