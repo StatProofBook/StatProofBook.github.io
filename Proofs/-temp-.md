@@ -20,12 +20,13 @@ dependencies:
     shortcut: 
 
 sources:
-  - authors: "authors of the source of the proof"
-    year: "year when published"
-    title: "title of the source of the proof"
-    in: "either a monography or a journal"
-	pages: "volume, issue and/or page information"
+  - authors: "author(s) of the source of the proof [required]"
+    year: year when published [required]
+    title: "title of the source of the proof [required]"
+    in: "either a monography or a journal [optional]"
+    pages: "volume, issue and/or page information [optional]"
     url: "https://optional.url/to-source/"
+    doi: "optional.doi/of.source"
 
 proof_id: "P0"
 shortcut: "-temp-"

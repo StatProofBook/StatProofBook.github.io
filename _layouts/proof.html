@@ -24,7 +24,7 @@ layout: default
 	{% for item in page.dependencies %}
 	  <li>
 	    {% if item.shortcut %}
-	      <a href="/Proofs/{{ item.shortcut }}.html">{{item.theorem}}</a>
+	      <a href="/Proofs/{{item.shortcut}}.html">{{item.theorem}}</a>
 	    {% else %}
 	      {{item.theorem}}
 	    {% endif %}
@@ -44,6 +44,9 @@ layout: default
 		{% endif %}
 		{% if item.url %}
 		  ; URL: <a href="{{item.url}}">{{item.url}}</a>
+		{% endif %}
+		{% if item.doi %}
+		  ; DOI: <a href="https://doi.org/{{item.doi}}">{{item.doi}}</a>
 		{% endif %}
 		.
 	  </li>
