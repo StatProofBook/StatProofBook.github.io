@@ -14,8 +14,8 @@ topic: "Multivariate normal distribution"
 theorem: "Linear transformation theorem"
 
 dependencies:
-  - moment-generating function of a random vector
-  - joint moment-generating function of the multivariate normal distribution
+  - title: moment-generating function of a random vector
+  - title: joint moment-generating function of the multivariate normal distribution
 
 proof_id: "P1"
 shortcut: "mvn-ltt"
