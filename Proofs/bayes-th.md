@@ -19,7 +19,8 @@ dependencies:
 sources:
   - authors: "Koch, Karl-Rudolf"
     year: 2007
-    title: "Introduction to Bayesian Statistics"
+    title: "Rules of Probability"
+    in: "Introduction to Bayesian Statistics"
     pages: "Springer, Berlin/Heidelberg, 2007, pp. 6/13, eqs. 2.12/2.38"
     url: "https://www.springer.com/de/book/9783540727231"
     doi: "10.1007/978-3-540-72726-2"
