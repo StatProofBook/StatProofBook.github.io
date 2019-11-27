@@ -14,11 +14,18 @@ topic: "Multivariate normal distribution"
 theorem: "Linear transformation theorem"
 
 dependencies:
-  - dep: "moment-generating function of a random vector"
-  - dep: "joint moment-generating function of the multivariate normal distribution"
+  - theorem: "moment-generating function of a random vector"
+    shortcut: 
+  - theorem: "joint moment-generating function of the multivariate normal distribution"
+    shortcut: 
 
 sources:
-  - src: 'Taboga, Marco (2010): "Linear combinations of normal random variables"; in: *Lectures on probability and statistics*; URL: <https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations>.'
+  - authors: "Taboga, Marco"
+    year: 2010
+	title: "Linear combinations of normal random variables"
+	in: "Lectures on probability and statistics"
+	pages: 
+	url: https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations
 
 proof_id: "P1"
 shortcut: "mvn-ltt"
