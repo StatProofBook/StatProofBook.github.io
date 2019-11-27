@@ -17,13 +17,6 @@ dependencies:
   - theorem: "moment-generating function of a random vector"
   - theorem: "joint moment-generating function of the multivariate normal distribution"
 
-sources:
-  - authors: "Taboga, Marco"
-    year: 2010
-	title: "Linear combinations of normal random variables"
-	in: "Lectures on probability and statistics"
-	url: "https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations"
-
 proof_id: "P1"
 shortcut: "mvn-ltt"
 username: "JoramSoch"
