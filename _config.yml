@@ -32,7 +32,6 @@ github_username: StatProofBook
 
 # Build settings
 theme: minima
-markdown: kramdown
 plugins:
   - jekyll-seo-tag
 
