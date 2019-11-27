@@ -15,17 +15,14 @@ theorem: "Linear transformation theorem"
 
 dependencies:
   - theorem: "moment-generating function of a random vector"
-    shortcut: 
   - theorem: "joint moment-generating function of the multivariate normal distribution"
-    shortcut: 
 
 sources:
   - authors: "Taboga, Marco"
     year: 2010
 	title: "Linear combinations of normal random variables"
 	in: "Lectures on probability and statistics"
-	pages: 
-	url: https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations
+	url: "https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations"
 
 proof_id: "P1"
 shortcut: "mvn-ltt"
