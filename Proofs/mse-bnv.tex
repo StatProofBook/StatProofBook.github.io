@@ -1,0 +1,79 @@
+% Partition of mean squared error into bias and variance
+% _
+% Author: Joram Soch, BCCN Berlin
+% E-Mail: joram.soch@bccn-berlin.de
+% Edited: 06/05/2019, 15:55
+
+
+\setcounter{equation}{0}
+\input{Index}
+
+
+\paragraph{Theorem:}
+
+The mean squared error can be partitioned into variance and squared bias
+
+\begin{equation} \label{eq:MSE}
+\mathrm{MSE}(\hat{\theta}) = \mathrm{Var}(\hat{\theta}) - \mathrm{Bias}(\hat{\theta},\theta)^2
+\end{equation}
+
+where the variance is given by
+
+\begin{equation} \label{eq:Var}
+\mathrm{Var}(\hat{\theta}) = \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right]
+\end{equation}
+
+and the bias is given by
+
+\begin{equation} \label{eq:Bias}
+\mathrm{Bias}(\hat{\theta},\theta) = \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \; .
+\end{equation}
+
+
+\paragraph{Proof:} The mean squared error (MSE) is defined as the expected value of the squared deviation of the estimated value $\hat{\theta}$ from the true value $\theta$ of a parameter, over all values $\hat{\theta}$:
+
+\begin{equation} \label{eq:MSE-def}
+\mathrm{MSE}(\hat{\theta}) = \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \theta \right)^2 \right] \; .
+\end{equation}
+
+This formula can be evaluated in the following way:
+
+\vspace{-0.5em}
+\begin{equation} \label{eq:MSE-ref1}
+\begin{split}
+\mathrm{MSE}(\hat{\theta}) &= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \theta \right)^2 \right] \\
+&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) + \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \right] \\
+&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 + 2 \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right) \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) + \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \right] \\
+&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + \mathbb{E}_{\hat{\theta}}\left[ 2 \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right) \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \right] + \mathbb{E}_{\hat{\theta}}\left[ \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \right] \; . \\
+\end{split}
+\end{equation}
+
+Because $\mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta$ is constant as a function of $\hat{\theta}$, we have:
+
+\vspace{-0.5em}
+\begin{equation} \label{eq:MSE-ref2}
+\begin{split}
+\mathrm{MSE}(\hat{\theta}) &= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + 2  \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \mathbb{E}_{\hat{\theta}}\left[ \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right] + \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \\
+&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + 2  \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right) + \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \\
+&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \\
+\end{split}
+\end{equation}
+
+This proofs the partition given by (\ref{eq:MSE}). \hspace\fill $\blacksquare$
+
+
+\paragraph{Dependencies:}
+\begin{itemize}
+\item definition of the mean squared error
+\item expectation with respect to a random variable
+\end{itemize}
+
+
+\paragraph{Source:}
+\begin{itemize}
+\item Wikipedia: "Mean squared error"; in: \textit{Wikipedia, the free encyclopedia}; URL: \url{https://en.wikipedia.org/wiki/Mean_squared_error#Proof_of_variance_and_bias_relationship}.
+\end{itemize}
+
+
+\input{Meta}
+\Meta{A005}{mse-bnv}{JoramSoch}{2019-05-06}
