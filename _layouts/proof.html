@@ -18,7 +18,12 @@ layout: default
 	
 	<b>Dependencies:</b> <br><ul>
 	{% for item in page.dependencies %}
-	<li>{{item.title}}</li>
+	<li>{{item.dep}}</li>
+	{% endfor %} </ul><br>
+	
+	<b>Sources:</b> <br><ul>
+	{% for item in page.sources %}
+	<li>{{item.src}}</li>
 	{% endfor %} </ul><br>
 
 	<b>Metadata:</b> ID: {{ page.proof_id }} | shortcut: {{ page.shortcut }} | author: <a href="https://github.com/{{ page.username }}">{{ page.username }}</a> | date: {{ page.date | date: "%Y-%m-%d" }}.
