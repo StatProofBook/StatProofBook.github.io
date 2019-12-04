@@ -36,17 +36,17 @@ username: "JoramSoch"
 
 **Theorem:** Statement of the theorem.
 
-\begin{equation} \label{eq:Theorem}
+$$ \label{eq:Theorem}
 \textbf{an equation belonging to the theorem}
-\end{equation}
+$$
 
 This holds under some conditions.
 
 
 **Proof:** Statement of the proof.
 
-\begin{equation} \label{eq:Proof}
+$$ \label{eq:Proof}
 \textbf{an equation belonging to the proof}
-\end{equation}
+$$
 
 This completes the proof of \eqref{eq:Theorem}.
