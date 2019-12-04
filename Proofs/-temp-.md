@@ -22,21 +22,21 @@ dependencies:
 sources:
   - authors: "Author(s) of the source of the proof*"
     year: year when published*
-    title: "title of the source of the proof*"
-    in: "title of monography or name of journal**"
-    pages: "volume, issue and/or page information** (* required, ** optional)"
+    title: "Title of the source of the proof*"
+    in: "Title of monography or name of journal**"
+    pages: "volume, issue and/or page information** [* required, ** optional]"
     url: "https://optional.url/to-source/"
     doi: "optional.doi/of.source"
 
 proof_id: "P0"
 shortcut: "-temp-"
-username: "JoramSoch"
+username: "StatProofBook"
 ---
 
 
 **Theorem:** Statement of the theorem.
 
-$$ \label{eq:Theorem}
+$$ \label{eq:Theorem}\tag{1}
 \textbf{an equation belonging to the theorem}
 $$
 
@@ -45,7 +45,7 @@ This holds under some conditions.
 
 **Proof:** Statement of the proof.
 
-$$ \label{eq:Proof}
+$$ \label{eq:Proof}\tag{2}
 \textbf{an equation belonging to the proof}
 $$
 
