@@ -51,12 +51,14 @@ $$
 
 and therefore the moment-generating function of the random vector $y$ is given by
 
-\begin{align} \label{eq:y-mfg-s1}\tag{4}
+$$ \label{eq:y-mfg-s1}\tag{4}
+\begin{split}
 M_y(t) &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
 &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \cdot \exp \left[ t^\mathrm{T} b \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \; .
-\end{align}
+\end{split}
+$$
 
 The joint moment-generating function of the multivariate normal distribution is
 
@@ -66,10 +68,12 @@ $$
 
 and therefore the moment-generating function of the random vector $y$ becomes
 
-\begin{align} \label{eq:y-mfg-ss}\tag{6}
+$$ \label{eq:y-mfg-ss}\tag{6}
+\begin{split}
 M_y(t) &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \exp \left[ t^\mathrm{T} A \mu + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \\
 &= \exp \left[ t^\mathrm{T} \left( A \mu + b \right) + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \; .
-\end{align}
+\end{split}
+$$
 
 Because moment-generating function and probability density function of a random variable are equivalent, this demonstrates that $y$ is following a multivariate normal distribution with mean $A \mu + b$ and covariance $A \Sigma A^\mathrm{T}$.
