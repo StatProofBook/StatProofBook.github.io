@@ -8,9 +8,21 @@ title: "Proof by Topic"
 
 - [Bayes' theorem](/Proofs/bayes-th.html)
 
+### D
+
+- [Derivation of R^2 and adjusted R^2](/Proofs/rsq-der.html)
+
+### K
+
+- [Kullback-Leibler divergence for the normal-gamma distributions](/Proofs/ng-kl.html)
+
 ### L
 
 - [Linear transformation theorem for the multivariate normal distribution](/Proofs/mvn-ltt.html)
+
+### M
+
+- [Maximum likelihood estimation for the general linear model](/Proofs/glm-mle.html)
 
 ### O
 

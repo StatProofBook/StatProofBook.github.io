@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2019-12-06 09:35:00
 
-title: "Kullback-Leibler divergence for the normal-gamma distributions"
+title: "Kullback-Leibler divergence for the normal-gamma distribution"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
 topic: "Normal-gamma distribution"
@@ -101,7 +101,7 @@ $$
 In other words, the KL divergence between two normal-gamma distributions over $x$ and $y$ is equal to the sum of a multivariate normal KL divergence regarding $x$ conditional on $y$, expected over $y$, and a univariate gamma KL divergence regarding $y$.
 
 <br>
-From equations (\eqref{eq:NG-pdf}) and (\eqref{eq:mvn-KL}), the first term becomes
+From equations \eqref{eq:NG-pdf} and \eqref{eq:mvn-KL}, the first term becomes
 
 $$ \label{eq:exp-mvn-KL-s1}
 \begin{align}
@@ -119,4 +119,4 @@ $$ \label{eq:exp-mvn-KL-s2}
 \end{align}
 $$
 
-By plugging (\eqref{eq:exp-mvn-KL-s2}) and (\eqref{eq:gam-KL}) into (\eqref{eq:NG-KL1}), one arrives at the KL divergence given by (\eqref{eq:NG-KL}).
+By plugging \eqref{eq:exp-mvn-KL-s2} and \eqref{eq:gam-KL} into \eqref{eq:NG-KL1}, one arrives at the KL divergence given by \eqref{eq:NG-KL}.
