@@ -54,12 +54,12 @@ $$
 
 where the residual and total sum of squares are
 
-\begin{equation} \label{eq:SS}
-\begin{split}
+$$ \label{eq:SS}
+\begin{align}
 \mathrm{RSS} &= \sum_{i=1}^{n} (y_i - \hat{y}_i)^2, \quad \hat{y} = X\hat{\beta} \\
 \mathrm{TSS} &= \sum_{i=1}^{n} (y_i - \bar{y})^2\;, \quad \bar{y} = \frac{1}{n} \sum_{i=1}^n y_i \\
-\end{split}
-\end{equation}
+\end{align}
+$$
 
 where $X$ is the $n \times p$ design matrix and $\hat{\beta}$ are the ordinary least squares estimates.
 
