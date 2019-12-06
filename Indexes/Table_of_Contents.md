@@ -40,7 +40,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.1. [Linear transformation theorem](/Proofs/mvn-ltt.html) <br>
    
    4.2. Normal-gamma distribution <br>
-   &emsp;&ensp; 4.1.1. [Kullback-Leibler divergence](/Proofs/ng-kl.html) <br>
+   &emsp;&ensp; 4.2.1. [Kullback-Leibler divergence](/Proofs/ng-kl.html) <br>
 
 5. Matrix-variate continuous distributions
 
@@ -51,8 +51,11 @@ title: "Table of Contents"
 
 1. Normal data
 
-   1.2. Multiple linear regression <br>
-   &emsp;&ensp; 1.2.1. [Ordinary least squares](/Proofs/mlr-ols.html) <br>
+   1.1. Multiple linear regression <br>
+   &emsp;&ensp; 1.1.1. [Ordinary least squares](/Proofs/mlr-ols.html) <br>
+   
+   1.2. General linear model <br>
+   &emsp;&ensp; 1.2.1. [Maximum likelihood estimation](/Proofs/glm-mle.html) <br>
 
 2. Poisson data
 
