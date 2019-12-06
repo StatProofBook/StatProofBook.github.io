@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Bayes' theorem](/Proofs/bayes-th.html)
 - [Derivation of R^2 and adjusted R^2](/Proofs/rsq-der.html)
-- [Kullback-Leibler divergence for the normal-gamma distributions](/Proofs/ng-kl.html)
+- [Kullback-Leibler divergence for the normal-gamma distribution](/Proofs/ng-kl.html)
 - [Linear transformation theorem for the multivariate normal distribution](/Proofs/mvn-ltt.html)
 - [Maximum likelihood estimation for the general linear model](/Proofs/glm-mle.html)
 - [Ordinary least squares for multiple linear regression](/Proofs/mlr-ols.html)

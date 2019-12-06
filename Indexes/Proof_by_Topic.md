@@ -14,7 +14,7 @@ title: "Proof by Topic"
 
 ### K
 
-- [Kullback-Leibler divergence for the normal-gamma distributions](/Proofs/ng-kl.html)
+- [Kullback-Leibler divergence for the normal-gamma distribution](/Proofs/ng-kl.html)
 
 ### L
 
