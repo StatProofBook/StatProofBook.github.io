@@ -38,6 +38,9 @@ title: "Table of Contents"
 
    4.1. Multivariate normal distribution <br>
    &emsp;&ensp; 4.1.1. [Linear transformation theorem](/Proofs/mvn-ltt.html) <br>
+   
+   4.2. Normal-gamma distribution <br>
+   &emsp;&ensp; 4.1.1. [Kullback-Leibler divergence](/Proofs/ng-kl.html) <br>
 
 5. Matrix-variate continuous distributions
 
