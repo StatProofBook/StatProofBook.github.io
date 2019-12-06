@@ -33,31 +33,31 @@ username: "JoramSoch"
 
 **Theorem:** Let $A$ and $B$ be two arbitrary statements about random variables, such as statements about the presence or absence of an event or about the value of a scalar, vector or matrix. Then, the conditional probability that $A$ is true, given that $B$ is true, is equal to
 
-$$ \label{eq:BT}\tag{1}
+$$ \label{eq:BT}
 p(A|B) = \frac{p(B|A) \, p(A)}{p(B)} \; .
 $$
 
 
 **Proof:** The conditional probability is defined as the ratio of joint probability, i.e. the probability of both statements being true, and marginal probability, i.e. the probability of only the second one being true:
 
-$$ \label{eq:LCP}\tag{2}
+$$ \label{eq:LCP}
 p(A|B) = \frac{p(A,B)}{p(B)} \; .
 $$
 
 It can also be written down for the reverse situation, i.e. to calculate the probability that $B$ is true, given that $A$ is true:
 
-$$ \label{eq:LCP-rev}\tag{3}
+$$ \label{eq:LCP-rev}
 p(B|A) = \frac{p(A,B)}{p(A)} \; .
 $$
 
 Both equations can be rearranged for the joint probability
 
-$$ \label{eq:JP}\tag{4}
+$$ \label{eq:JP}
 p(A|B) \, p(B) \overset{\eqref{eq:LCP}}{=} p(A,B) \overset{\eqref{eq:LCP-rev}}{=} p(B|A) \, p(A)
 $$
 
 from which Bayes' theorem can be directly derived:
 
-$$ \label{eq:BT-proof}\tag{5}
+$$ \label{eq:BT-proof}
 p(A|B) \overset{\eqref{eq:JP}}{=} \frac{p(B|A) \, p(A)}{p(B)} \; .
 $$

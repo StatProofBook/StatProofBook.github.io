@@ -51,7 +51,7 @@ $$
 
 and therefore the moment-generating function of the random vector $y$ is given by
 
-$$ \label{eq:y-mfg-s1}
+$$ \label{eq:y-mgf-s1}
 \begin{align}
 M_y(t) &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
 &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \cdot \exp \left[ t^\mathrm{T} b \right] \right) \\
@@ -68,7 +68,7 @@ $$
 
 and therefore the moment-generating function of the random vector $y$ becomes
 
-$$ \label{eq:y-mfg-ss}
+$$ \label{eq:y-mgf-s2}
 \begin{align}
 M_y(t) &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \exp \left[ t^\mathrm{T} A \mu + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \\

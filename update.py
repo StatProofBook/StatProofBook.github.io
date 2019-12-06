@@ -136,7 +136,7 @@ print('   - successfully written to disk!')
 #-----------------------------------------------------------------------------#
 print('\n4. "Proof_by_Author.md":')
 ind3 = open('Indexes/Proof_by_Author.md', 'w')
-ind3.write('---\nlayout: page\ntitle: "Proof by Author"\n---\n\n\n')
+ind3.write('---\nlayout: page\ntitle: "Proof by Author"\n---\n\n')
 
 # Proof by Authors: sort by Username
 #-----------------------------------------------------------------------------#
@@ -144,9 +144,9 @@ unique_users = list(set(users))
 for user in unique_users:
     user_proofs = [proof for proof in proofs.values() if proof['username'] == user]
     if len(user_proofs) == 1:
-        ind3.write('### ' + user + ' (' + str(len(user_proofs)) + ' proof)\n\n')
+        ind3.write('\n### ' + user + ' (1 proof)\n\n')
     else:
-        ind3.write('### ' + user + ' (' + str(len(user_proofs)) + ' proofs)\n\n')
+        ind3.write('\n### ' + user + ' (' + str(len(user_proofs)) + ' proofs)\n\n')
     user_titles = []
     for proof in user_proofs:
         user_titles.append(proof['title'])
