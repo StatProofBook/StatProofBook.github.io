@@ -11,11 +11,12 @@ Welcome to **The Book of Statistical Proofs** -- <br>
 *a centralized, open and collaboratively edited archive <br>
 of statistical theorems for the computational sciences*! <br>
 
-<table border=0>
+<br>
+<table style="border:0px">
   <tr>
-    <td> <a href="/Indexes/Table_of_Contents.html">Table of Contents</a> <br> <a href="/Indexes/Table_of_Contents.html"><img src="/Images/Index1.png"></a> </td>
-    <td> <a href="/Indexes/Proof_by_Number.html">Proof by Number</a> <br> <a href="/Indexes/Proof_by_Number.html"><img src="/Images/Index2.png"></a> </td>
-    <td> <a href="/Indexes/Proof_by_Topic.html">Proof by Topic</a> <br> <a href="/Indexes/Proof_by_Topic.html"><img src="/Images/Index3.png"></a> </td>
+    <td style="text-align:center"> <a href="/Indexes/Table_of_Contents.html">Table of Contents</a> <br> <a href="/Indexes/Table_of_Contents.html"><img src="/Images/Index1.png"></a> </td>
+    <td style="text-align:center"> <a href="/Indexes/Proof_by_Number.html">Proof by Number</a> <br> <a href="/Indexes/Proof_by_Number.html"><img src="/Images/Index2.png"></a> </td>
+    <td style="text-align:center"> <a href="/Indexes/Proof_by_Topic.html">Proof by Topic</a> <br> <a href="/Indexes/Proof_by_Topic.html"><img src="/Images/Index3.png"></a> </td>
   </tr>
 </table>
 
