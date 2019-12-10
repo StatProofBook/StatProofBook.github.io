@@ -18,7 +18,7 @@ Everyone can contribute to **The Book of Statistical Proofs**! Depending on your
 <br>
 ### Level 2: send a formatted file to the archive
 
-*Required: LaTeX processing software and an e-mail address*
+*Required: LaTeX processing software and a Google Drive account*
 
 1. Pick a theorem of your choice and write (or retrieve) a [LaTeX document](https://www.latex-project.org/) proving this theorem.
 2. Optionally, [embed your proof](/Tutorials/Template.md) into the [Markdown template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/Proofs/-temp-.md) for "The Book of Statistical Proofs".
@@ -30,11 +30,11 @@ Everyone can contribute to **The Book of Statistical Proofs**! Depending on your
 *Required: Markdown processing software and a GitHub account*
 
 1. Login to GitHub and fork the [repository](https://github.com/StatProofBook/StatProofBook.github.io) belonging to this website.
-2. In the subfolder `Proofs`, duplicate the file `-temp-.md` and rename it to `\[shortcut\].md` where `\[shortcut\]` is an abbreviation of your proof.
+2. In the subfolder `Proofs`, duplicate the file `-temp-.md` and rename it to `[shortcut].md` where `[shortcut]` is an abbreviation of your proof.
 3. Now [rewrite this template](/Tutorials/Template.md) to become the proof of your theorem and [fill in the metadata](/Tutorials/Metadata.md) in the header of that document (enclosed by "– – –").
-4. Optionally, edit the file `/Indexes/Table_of_Contents.md` to include a link to `/Proofs/\[shortcut\].html` in the corresponding section.
+4. Optionally, edit the file `/Indexes/Table_of_Contents.md` to include a link to `/Proofs/[shortcut].html` in the corresponding section.
 5. Optionally, run the Python script `update.py` in the main folder to rewrite the index pages which are linked to [on the homepage](/).
-6. Commit your changes and launch a pull request using the subject `added proof "\[shortcut\]"`.
+6. Commit your changes and launch a pull request using the subject `added proof "[shortcut]"`.
 
 * Your branch with the new proof will then be merged into the [master branch](https://github.com/StatProofBook/StatProofBook.github.io) and become live.
 * The proof that you wrote will [link to your GitHub profile](/credits/). Additionally, you can [earn money](/credits/)!
