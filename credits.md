@@ -5,9 +5,9 @@ permalink: /credits/
 ---
 
 
-If you have submitted a proof via GitHub and entered your username into the metadata, this proof's page will automatically link to your GitHub profile. Here's an example:
+If you have [submitted a proof via GitHub](/contribute/) and entered your username [into the metadata](/Tutorials/Metadata.md), this proof's page will automatically link to your GitHub profile. Here's [an example](/Proofs/mvn-ltt.html):
 
-> **Metadata:** ID: P1 | shortcut: [mvn-ltt](/Proofs/mvn-ltt.html) | author: [JoramSoch](https://github.com/JoramSoch) | date: 2019-08-27. 
+> **Metadata:** ID: P1 \| shortcut: mvn-ltt \| author: [JoramSoch](https://github.com/JoramSoch) \| date: 2019-08-27.
 
 Your username will also appear on the [Proof by Number](/Indexes/Proof_by_Number.md) and [Proof by Author](/Indexes/Proof_by_Author.md) index pages.
 
