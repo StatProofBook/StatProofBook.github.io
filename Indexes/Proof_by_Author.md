@@ -12,8 +12,8 @@ title: "Proof by Author"
 - [Linear transformation theorem for the multivariate normal distribution](/Proofs/mvn-ltt.html)
 - [Maximum likelihood estimation for the general linear model](/Proofs/glm-mle.html)
 - [Ordinary least squares for multiple linear regression](/Proofs/mlr-ols.html)
-- [Partition of mean squared error into bias and variance](/Proofs/mse-bnv.html)
 - [Partition of the log model evidence into accuracy and complexity](/Proofs/lme-anc.html)
+- [Partition of the mean squared error into bias and variance](/Proofs/mse-bnv.html)
 
 ### StatProofBook (1 proof)
 
