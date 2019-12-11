@@ -6,7 +6,7 @@ permalink: /credits/
 
 
 <br>
-### Reward 1: Fame
+### Credit 1: Fame
 
 If you have [submitted a proof via GitHub](/contribute/) and entered your username [into the metadata](/Tutorials/Metadata.md), this proof's page will automatically link to your GitHub profile. Here's [an example](/Proofs/mvn-ltt.html):
 
@@ -15,9 +15,9 @@ If you have [submitted a proof via GitHub](/contribute/) and entered your userna
 Your username will also appear on the [Proof by Number](/Indexes/Proof_by_Number.md) and [Proof by Author](/Indexes/Proof_by_Author.md) index pages.
 
 <br>
-### Reward 2: Money
+### Credit 2: Money
 
-Additionally, *you can earn money*, as stated in the [project application](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/The_Book_of_Statistical_Proofs#Mittelverwendung):
+By submitting to the archive, you can also earn money, as stated in the [project application](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/The_Book_of_Statistical_Proofs#Mittelverwendung):
 
 > To facilitate and incentivize the unpaid work going into this open science resource, for the first 200 proofs submitted to **The Book of Statistical Proofs**, each submitter will receive 25 € per proof.
 

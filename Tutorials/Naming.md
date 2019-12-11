@@ -6,7 +6,7 @@ title: Naming Conventions
 
 When adding a proof to "The Book of Statistical Proofs", please try to adhere to the following rules:
 
-1. The *title of a proof* typically combines the [name of the theorem](/Tutorials/Metadata.html) with the [topic it belongs to](/Tutorials/Metadata.html).
+1. The *title of a proof* typically combines the [name of the theorem](/Tutorials/Metadata.html#Taxonomy) with the [topic it belongs to](/Tutorials/Metadata.html#Taxonomy).
  
    Example: "Linear transformation theorem \[theorem\] for the multivariate normal distribution \[topic\]".
 
