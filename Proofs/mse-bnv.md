@@ -7,11 +7,11 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2019-11-27 14:26:00
 
-title: "Partition of mean squared error into bias and variance"
+title: "Partition of the mean squared error into bias and variance"
 chapter: "General Theorems"
 section: "Estimation theory"
 topic: "Point estimates"
-theorem: "Partition of mean squared error into bias and variance"
+theorem: "Partition of the mean squared error into bias and variance"
 
 dependencies:
   - theorem: "definition of the mean squared error"

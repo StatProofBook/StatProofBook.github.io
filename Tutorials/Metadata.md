@@ -4,10 +4,10 @@ title: Metadata Fields
 ---
 
 
-The metadata specification in the header of the [template proof](/Tutorials/Template.md) helps to automatically generate a proof page and makes proof properties machine-readable. It consists of the following six sections.
+The metadata specification in the header of the [template proof](/Tutorials/Template.html) helps to automatically generate a proof page and makes proof properties machine-readable. It consists of the following six sections.
 
 
-1. Default properties that may not be changed:
+1\. Default properties that may not be changed:
 
 ```yaml
 layout: proof
@@ -15,7 +15,7 @@ mathjax: true
 ```
 
 
-2. Information about the submitter of the proof:
+2\. Information about the submitter of the proof:
 
 ```yaml
 author: "Joram Soch"
@@ -25,7 +25,7 @@ date: 2019-09-27 16:40:00
 ```
 
 
-3. Taxonomy information locating a proof in the [Table of Contents](/Indexes/Table_of_Contents.md):
+3\. Taxonomy information locating a proof in the [Table of Contents](/Indexes/Table_of_Contents.html):
 
 ```yaml
 title: "Template for The Book of Statistical Proofs"
@@ -36,7 +36,7 @@ theorem: "enter theorem here"
 ```
 
 
-4. Other theorems this proof depends on (with shortcut, if already in the archive):
+4\. Other theorems this proof depends on (with shortcut, if already in the archive):
 
 ```yaml
 dependencies:
@@ -47,7 +47,7 @@ dependencies:
 ```
 
 
-5. Sources used when writing down this proof (the first three are required):
+5\. Sources used when writing down this proof (author/year/title are required):
 
 ```yaml
 sources:
@@ -61,7 +61,7 @@ sources:
 ```
 
 
-6. Metadata that is displayed at the bottom of a proof page:
+6\. Metadata that is displayed at the bottom of a proof page:
 
 ```yaml
 proof_id: "P0"

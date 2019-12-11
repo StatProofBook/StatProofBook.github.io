@@ -40,7 +40,7 @@ $$ \label{eq:Theorem}
 \textbf{an equation belonging to the theorem}
 $$
 
-This holds under some conditions.
+This holds under $\textbf{some conditions}$.
 
 
 **Proof:** Statement of the proof.

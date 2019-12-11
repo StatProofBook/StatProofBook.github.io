@@ -19,7 +19,7 @@ title: "Table of Contents"
 2. Estimation theory
 
    2.1. Point estimates <br>
-   &emsp;&ensp; 2.1.1. [Partition of mean squared error into bias and variance](/Proofs/mse-bnv.html) <br>
+   &emsp;&ensp; 2.1.1. [Partition of the mean squared error into bias and variance](/Proofs/mse-bnv.html) <br>
 
 3. Information theory
 

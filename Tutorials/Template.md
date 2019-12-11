@@ -7,7 +7,7 @@ title: Template File
 The easiest way to write a proof for "The Book of Statistical Proofs" is to duplicate the [template file](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/Proofs/-temp-.md), go through and edit it from top to bottom. Essentially, this proof template consists of two sections.
 
 
-The first section (currently up to line 34) consists of **proof metadata** and is written in [YAML](https://en.wikipedia.org/wiki/YAML). When you edit this section, fill in as many fields of the [metadata specification](/Tutorials/Metadata.md) as you can, because this will ease cross-referencing in the archive and make proof properties machine-readable.
+The first section (currently up to line 34) consists of **proof metadata** and is written in [YAML](https://en.wikipedia.org/wiki/YAML). When you edit this section, fill in as many fields of the [metadata specification](/Tutorials/Metadata.html) as you can, because this will ease cross-referencing in the archive and make proof properties machine-readable.
 
 ```yaml
 ---
@@ -56,7 +56,7 @@ $$ \label{eq:Theorem}
 \textbf{an equation belonging to the theorem}
 $$
 
-This holds under some conditions.
+This holds under $\textbf{some conditions}$.
 
 
 **Proof:** Statement of the proof.

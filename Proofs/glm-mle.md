@@ -94,7 +94,7 @@ X^\mathrm{T} P X \hat{B} &= X^\mathrm{T} P Y \\
 $$
 
 <br>
-The derivative of the log-likelihood function \eqref{eq:GLM-LL1} with respect to $B$ is
+The derivative of the log-likelihood function \eqref{eq:GLM-LL1} with respect to $\Sigma$ is
 
 $$ \label{eq:dLL-dS}
 \begin{align}
