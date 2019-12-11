@@ -25,9 +25,8 @@ date: 2019-09-27 16:40:00
 ```
 
 
-<section class="chapter" id="Taxonomy">
+<section class="chapter" id="Taxonomy"> </section>
 3\. Taxonomy information locating a proof in the [Table of Contents](/Indexes/Table_of_Contents.html):
-</section>
 
 ```yaml
 title: "Template for The Book of Statistical Proofs"
