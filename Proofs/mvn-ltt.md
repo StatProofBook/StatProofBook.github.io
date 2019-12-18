@@ -33,13 +33,13 @@ username: "JoramSoch"
 **Theorem:** Let $x$ follow a multivariate normal distribution:
 
 $$ \label{eq:mvn}
-x \sim \mathrm{N}(\mu, \Sigma) \; .
+x \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
 Then, any linear transformation of $x$ is also multivariate normally distributed:
 
 $$ \label{eq:mvn-lt}
-y = Ax + b \sim \mathrm{N}(A\mu + b, A \Sigma A^T) \; .
+y = Ax + b \sim \mathcal{N}(A\mu + b, A \Sigma A^T) \; .
 $$
 
 
