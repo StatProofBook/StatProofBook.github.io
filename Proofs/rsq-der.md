@@ -7,11 +7,11 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2019-12-06 11:19:00
 
-title: "Derivation of R^2 and adjusted R^2"
+title: "Derivation of R² and adjusted R²"
 chapter: "Model Selection"
 section: "Goodness-of-fit measures"
 topic: "R-squared"
-theorem: "Derivation of R^2 and adjusted R^2"
+theorem: "Derivation of R² and adjusted R²"
 
 dependencies:
   - theorem: "ordinary least squares for multiple linear regression"
