@@ -141,6 +141,7 @@ ind3.write('---\nlayout: page\ntitle: "Proof by Author"\n---\n\n')
 # Proof by Authors: sort by Username
 #-----------------------------------------------------------------------------#
 unique_users = list(set(users))
+unique_users.sort()
 for user in unique_users:
     user_proofs = [proof for proof in proofs.values() if proof['username'] == user]
     if len(user_proofs) == 1:

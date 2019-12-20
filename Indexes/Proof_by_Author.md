@@ -4,10 +4,6 @@ title: "Proof by Author"
 ---
 
 
-### StatProofBook (1 proof)
-
-- [Template for The Book of Statistical Proofs](/Proofs/-temp-.html)
-
 ### JoramSoch (8 proofs)
 
 - [Bayes' theorem](/Proofs/bayes-th.html)
@@ -18,3 +14,7 @@ title: "Proof by Author"
 - [Ordinary least squares for multiple linear regression](/Proofs/mlr-ols.html)
 - [Partition of the log model evidence into accuracy and complexity](/Proofs/lme-anc.html)
 - [Partition of the mean squared error into bias and variance](/Proofs/mse-bnv.html)
+
+### StatProofBook (1 proof)
+
+- [Template for The Book of Statistical Proofs](/Proofs/-temp-.html)
