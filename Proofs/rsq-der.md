@@ -15,6 +15,7 @@ theorem: "Derivation of R² and adjusted R²"
 
 dependencies:
   - theorem: "ordinary least squares for multiple linear regression"
+    shortcut: "mlr-ols"
   - theorem: "total, explained and residual sum of squares"
   - theorem: "unbiased estimator for the residual variance"
 

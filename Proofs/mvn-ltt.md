@@ -52,12 +52,12 @@ $$
 and therefore the moment-generating function of the random vector $y$ is given by
 
 $$ \label{eq:y-mgf-s1}
-\begin{align}
+\begin{split}
 M_y(t) &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
 &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \cdot \exp \left[ t^\mathrm{T} b \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \; .
-\end{align}
+\end{split}
 $$
 
 The joint moment-generating function of the multivariate normal distribution is
