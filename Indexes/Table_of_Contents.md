@@ -71,7 +71,7 @@ title: "Table of Contents"
 1. Goodness-of-fit measures
 
    1.1. R-squared <br>
-   &emsp;&ensp; 1.1.1. [Derivation of R^2 and adjusted R^2](/Proofs/rsq-der.html) <br>
+   &emsp;&ensp; 1.1.1. [Derivation of R² and adjusted R²](/Proofs/rsq-der.html) <br>
 
 2. Classical information criteria
 

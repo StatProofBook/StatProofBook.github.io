@@ -14,4 +14,4 @@ title: "Proof by Number"
 | P5 | mse-bnv | [Partition of the mean squared error into bias and variance](/Proofs/mse-bnv.html) | JoramSoch | 2019-11-27 |
 | P6 | ng-kl | [Kullback-Leibler divergence for the normal-gamma distribution](/Proofs/ng-kl.html) | JoramSoch | 2019-12-06 |
 | P7 | glm-mle | [Maximum likelihood estimation for the general linear model](/Proofs/glm-mle.html) | JoramSoch | 2019-12-06 |
-| P8 | rsq-der | [Derivation of R^2 and adjusted R^2](/Proofs/rsq-der.html) | JoramSoch | 2019-12-06 |
+| P8 | rsq-der | [Derivation of R² and adjusted R²](/Proofs/rsq-der.html) | JoramSoch | 2019-12-06 |

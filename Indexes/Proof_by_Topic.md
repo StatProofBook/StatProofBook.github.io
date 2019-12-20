@@ -10,7 +10,7 @@ title: "Proof by Topic"
 
 ### D
 
-- [Derivation of R^2 and adjusted R^2](/Proofs/rsq-der.html)
+- [Derivation of R² and adjusted R²](/Proofs/rsq-der.html)
 
 ### K
 
