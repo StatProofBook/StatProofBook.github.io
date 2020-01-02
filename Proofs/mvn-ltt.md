@@ -30,7 +30,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ follow a multivariate normal distribution:
+**Theorem:** Let $$x$$ follow a multivariate normal distribution:
 
 $$ \label{eq:mvn}
 x \sim \mathcal{N}(\mu, \Sigma) \; .
@@ -51,13 +51,15 @@ $$
 
 and therefore the moment-generating function of the random vector $y$ is given by
 
-$$ \label{eq:y-mgf-s1}
+$$
+\begin{equation} \label{eq:y-mgf-s1}
 \begin{split}
 M_y(t) &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
 &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \cdot \exp \left[ t^\mathrm{T} b \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \; .
 \end{split}
+\end{equation}
 $$
 
 The joint moment-generating function of the multivariate normal distribution is
