@@ -11,4 +11,4 @@ permalink: /about/
 
 "StatProofBook.github.io" is generated with *GitHub* ([GitHub Pages](https://pages.github.com/), [Jekyll](https://github.com/jekyll/jekyll), [MathJax](https://www.mathjax.org/)).
 
-Unless otherwise noted, all content on this website is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-sa/4.0/) ![CC-BY-SA compact icon](https://licensebuttons.net/l/by-sa/4.0/80x15.png).
+Unless otherwise noted, all content on this website is licensed under the ![CC-BY-SA compact icon](https://licensebuttons.net/l/by-sa/4.0/80x15.png) [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Read the [license summary](https://creativecommons.org/licenses/by-sa/4.0/) for more details.
