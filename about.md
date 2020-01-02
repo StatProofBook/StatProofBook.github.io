@@ -10,3 +10,5 @@ permalink: /about/
 "The Book of Statistical Proofs" is maintained by *Joram Soch* ([ORCID](https://orcid.org/0000-0002-8879-5666), [GitHub](https://github.com/JoramSoch), [Twitter](https://twitter.com/JoramSoch)).
 
 "StatProofBook.github.io" is generated with *GitHub* ([GitHub Pages](https://pages.github.com/), [Jekyll](https://github.com/jekyll/jekyll), [MathJax](https://www.mathjax.org/)).
+
+Unless otherwise noted, all content on this website is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-sa/4.0/) ![CC-BY-SA compact icon](https://licensebuttons.net/l/by-sa/4.0/80x15.png).
