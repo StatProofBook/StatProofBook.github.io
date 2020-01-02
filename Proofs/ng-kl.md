@@ -37,20 +37,24 @@ username: "JoramSoch"
 
 **Theorem:** Let $x \in \mathbb{R}^k$ be a random vector and $y > 0$ be a random variable. Assume two normal-gamma distributions $P$ and $Q$ specifying the joint distribution of $x$ and $y$ as
 
-$$ \label{eq:NGs}
-\begin{align}
+$$
+\begin{equation} \label{eq:NGs}
+\begin{split}
 P: \; (x,y) &\sim \mathrm{NG}(\mu_1, \Lambda_1^{-1}, a_1, b_1) \\
 Q: \; (x,y) &\sim \mathrm{NG}(\mu_2, \Lambda_2^{-1}, a_2, b_2) \; . \\
-\end{align}
+\end{split}
+\end{equation}
 $$
 
 Then, the Kullback-Leibler divergence of $P$ from $Q$ is given by
 
-$$ \label{eq:NG-KL}
-\begin{align}
+$$
+\begin{equation} \label{eq:NG-KL}
+\begin{split}
 \mathrm{KL}[P\,||\,Q] &= \frac{1}{2} \frac{a_1}{b_1} \left[ (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) \right] + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{k}{2} \\
 &+ a_2 \, \ln \frac{b_1}{b_2} - \ln \frac{\Gamma(a_1)}{\Gamma(a_2)} + (a_1 - a_2) \, \psi(a_1) - (b_1 - b_2) \, \frac{a_1}{b_1} \; .
-\end{align}
+\end{split}
+\end{equation}
 $$
 
 
@@ -89,13 +93,15 @@ $$
 
 Using the law of conditional probability, this can be evaluated as follows:
 
-$$ \label{eq:NG-KL1}
-\begin{align}
+$$
+\begin{equation} \label{eq:NG-KL1}
+\begin{split}
 \mathrm{KL}[P\,||\,Q] &= \int_{0}^{\infty} \int_{\mathbb{R}^k} p(x|y) \, p(y) \, \ln \frac{p(x|y) \, p(y)}{q(x|y) \, q(y)} \, \mathrm{d}x \, \mathrm{d}y \\
 &= \int_{0}^{\infty} \int_{\mathbb{R}^k} p(x|y)\, p(y) \, \ln \frac{p(x|y)}{q(x|y)} \, \mathrm{d}x \, \mathrm{d}y + \int_{0}^{\infty} \int_{\mathbb{R}^k} p(x|y)\, p(y) \, \ln \frac{p(y)}{q(y)} \, \mathrm{d}x \, \mathrm{d}y \\
 &= \int_{0}^{\infty} p(y) \int_{\mathbb{R}^k} p(x|y) \, \ln \frac{p(x|y)}{q(x|y)} \, \mathrm{d}x \, \mathrm{d}y + \int_{0}^{\infty} p(y) \, \ln \frac{p(y)}{q(y)} \int_{\mathbb{R}^k} p(x|y) \, \mathrm{d}x \, \mathrm{d}y \\
 &= \left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} + \mathrm{KL}[p(y)\,||\,q(y)] \; .
-\end{align}
+\end{split}
+\end{equation}
 $$
 
 In other words, the KL divergence between two normal-gamma distributions over $x$ and $y$ is equal to the sum of a multivariate normal KL divergence regarding $x$ conditional on $y$, expected over $y$, and a univariate gamma KL divergence regarding $y$.
@@ -103,20 +109,24 @@ In other words, the KL divergence between two normal-gamma distributions over $x
 <br>
 From equations \eqref{eq:NG-pdf} and \eqref{eq:mvn-KL}, the first term becomes
 
-$$ \label{eq:exp-mvn-KL-s1}
-\begin{align}
+$$
+\begin{equation} \label{eq:exp-mvn-KL-s1}
+\begin{split}
 &\left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} \\
 &= \left\langle \frac{1}{2} \left[ (\mu_2 - \mu_1)^T (y \Lambda_2) (\mu_2 - \mu_1) + \mathrm{tr}\left( (y \Lambda_2) (y \Lambda_1)^{-1} \right) - \ln \frac{|(y \Lambda_1)^{-1}|}{|(y \Lambda_2)^{-1}|} - k \right] \right\rangle_{p(y)} \\
 &= \left\langle \frac{y}{2} (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{k}{2} \right\rangle_{p(y)} \\
-\end{align}
+\end{split}
+\end{equation}
 $$
 
 and using the relation $y \sim \mathrm{Gam}(a,b) \Rightarrow \left\langle y \right\rangle = a/b$, we have
 
-$$ \label{eq:exp-mvn-KL-s2}
-\begin{align}
+$$
+\begin{equation} \label{eq:exp-mvn-KL-s2}
+\begin{split}
 \left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} = \frac{1}{2} \frac{a_1}{b_1} (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{k}{2} \; .
-\end{align}
+\end{split}
+\end{equation}
 $$
 
 By plugging \eqref{eq:exp-mvn-KL-s2} and \eqref{eq:gam-KL} into \eqref{eq:NG-KL1}, one arrives at the KL divergence given by \eqref{eq:NG-KL}.
