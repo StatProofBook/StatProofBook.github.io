@@ -104,7 +104,7 @@ $$
 whose probability density function
 
 $$ \label{eq:BLR-prior-s2}
-p(\beta,\tau) = \sqrt{\frac{|\tau \Lambda_0|}{(2 \pi)^p}} \exp\left[ -\frac{\tau}{2} (\beta-\mu_0)^\mathrm{T} \Lambda_0 (\beta-\mu_0) \right] \cdot \frac{{b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau]
+p(\beta,\tau) = \sqrt{\frac{|\tau \Lambda_0|}{(2 \pi)^p}} \exp\left[ -\frac{\tau}{2} (\beta-\mu_0)^\mathrm{T} \Lambda_0 (\beta-\mu_0) \right] \cdot \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau]
 $$
 
 exhibits the same proportionality
