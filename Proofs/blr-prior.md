@@ -16,9 +16,7 @@ theorem: "Conjugate prior distribution"
 dependencies:
   - theorem: "definition of conjugate priors"
   - theorem: "probability density function for the multivariate normal distribution"
-    shortcut: "mvn-pdf"
   - theorem: "probability density function for the normal-gamma distribution"
-    shortcut: "ng-pdf"
 
 sources:
   - authors: "Bishop CM"
@@ -51,7 +49,7 @@ $$
 where $\tau = 1/\sigma^2$ is the inverse noise variance or noise precision.
 
 
-**Proof:** By definition, a conjugate prior is a prior distribution that, when combined with the likelihood function, leads to a posterior distribution that belongs to the same family of probability distributions. This is fulfilled when the prior density and the likelihood function are proportional to the model model parameters in the same way, i.e. the model parameters appear in the same functional form in both.
+**Proof:** By definition, a conjugate prior is a prior distribution that, when combined with the likelihood function, leads to a posterior distribution that belongs to the same family of probability distributions. This is fulfilled when the prior density and the likelihood function are proportional to the model parameters in the same way, i.e. the model parameters appear in the same functional form in both.
 
 Equation \eqref{eq:GLM} implies the following likelihood function
 
@@ -104,7 +102,7 @@ $$
 whose probability density function
 
 $$ \label{eq:BLR-prior-s2}
-p(\beta,\tau) = \sqrt{\frac{|\tau \Lambda_0|}{(2 \pi)^p}} \exp\left[ -\frac{\tau}{2} (\beta-\mu_0)^\mathrm{T} \Lambda_0 (\beta-\mu_0) \right] \cdot \frac{{b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau]
+p(\beta,\tau) = \sqrt{\frac{|\tau \Lambda_0|}{(2 \pi)^p}} \exp\left[ -\frac{\tau}{2} (\beta-\mu_0)^\mathrm{T} \Lambda_0 (\beta-\mu_0) \right] \cdot \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau]
 $$
 
 exhibits the same proportionality
