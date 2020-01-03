@@ -33,13 +33,13 @@ username: "JoramSoch"
 **Theorem:** Let $x$ follow a multivariate normal distribution:
 
 $$ \label{eq:mvn}
-x \sim \mathrm{N}(\mu, \Sigma) \; .
+x \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
 Then, any linear transformation of $x$ is also multivariate normally distributed:
 
 $$ \label{eq:mvn-lt}
-y = Ax + b \sim \mathrm{N}(A\mu + b, A \Sigma A^T) \; .
+y = Ax + b \sim \mathcal{N}(A\mu + b, A \Sigma A^T) \; .
 $$
 
 
@@ -51,13 +51,15 @@ $$
 
 and therefore the moment-generating function of the random vector $y$ is given by
 
-$$ \label{eq:y-mgf-s1}
-\begin{align}
+$$
+\begin{equation} \label{eq:y-mgf-s1}
+\begin{split}
 M_y(t) &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
 &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \cdot \exp \left[ t^\mathrm{T} b \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \; .
-\end{align}
+\end{split}
+\end{equation}
 $$
 
 The joint moment-generating function of the multivariate normal distribution is
@@ -68,12 +70,14 @@ $$
 
 and therefore the moment-generating function of the random vector $y$ becomes
 
-$$ \label{eq:y-mgf-s2}
-\begin{align}
+$$
+\begin{equation} \label{eq:y-mgf-s2}
+\begin{split}
 M_y(t) &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \exp \left[ t^\mathrm{T} A \mu + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \\
 &= \exp \left[ t^\mathrm{T} \left( A \mu + b \right) + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \; .
-\end{align}
+\end{split}
+\end{equation}
 $$
 
 Because moment-generating function and probability density function of a random variable are equivalent, this demonstrates that $y$ is following a multivariate normal distribution with mean $A \mu + b$ and covariance $A \Sigma A^\mathrm{T}$.

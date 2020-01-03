@@ -8,9 +8,21 @@ title: "Proof by Topic"
 
 - [Bayes' theorem](/Proofs/bayes-th.html)
 
+### D
+
+- [Derivation of R² and adjusted R²](/Proofs/rsq-der.html)
+
+### K
+
+- [Kullback-Leibler divergence for the normal-gamma distribution](/Proofs/ng-kl.html)
+
 ### L
 
 - [Linear transformation theorem for the multivariate normal distribution](/Proofs/mvn-ltt.html)
+
+### M
+
+- [Maximum likelihood estimation for the general linear model](/Proofs/glm-mle.html)
 
 ### O
 
@@ -18,8 +30,8 @@ title: "Proof by Topic"
 
 ### P
 
-- [Partition of mean squared error into bias and variance](/Proofs/mse-bnv.html)
 - [Partition of the log model evidence into accuracy and complexity](/Proofs/lme-anc.html)
+- [Partition of the mean squared error into bias and variance](/Proofs/mse-bnv.html)
 
 ### T
 

@@ -19,7 +19,7 @@ title: "Table of Contents"
 2. Estimation theory
 
    2.1. Point estimates <br>
-   &emsp;&ensp; 2.1.1. [Partition of mean squared error into bias and variance](/Proofs/mse-bnv.html) <br>
+   &emsp;&ensp; 2.1.1. [Partition of the mean squared error into bias and variance](/Proofs/mse-bnv.html) <br>
 
 3. Information theory
 
@@ -70,8 +70,8 @@ title: "Table of Contents"
 
 1. Goodness-of-fit measures
 
-  1.1. R-squared <br>
-  &emsp;&ensp; 1.1.1. [Derivation of R^2 and adjusted R^2](/Proofs/rsq-der.html) <br>
+   1.1. R-squared <br>
+   &emsp;&ensp; 1.1.1. [Derivation of R² and adjusted R²](/Proofs/rsq-der.html) <br>
 
 2. Classical information criteria
 

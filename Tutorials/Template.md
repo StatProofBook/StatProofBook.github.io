@@ -1,4 +1,16 @@
 ---
+layout: page
+title: Template File
+---
+
+
+The easiest way to write a proof for "The Book of Statistical Proofs" is to duplicate the [template file](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/Proofs/-temp-.md), go through and edit it from top to bottom. Essentially, this proof template consists of two sections.
+
+
+The first section (currently up to line 34) consists of **proof metadata** and is written in [YAML](https://en.wikipedia.org/wiki/YAML). When you edit this section, fill in as many fields of the [metadata specification](/Tutorials/Metadata.html) as you can, because this will ease cross-referencing in the archive and make proof properties machine-readable.
+
+```yaml
+---
 layout: proof
 mathjax: true
 
@@ -32,8 +44,12 @@ proof_id: "P0"
 shortcut: "-temp-"
 username: "StatProofBook"
 ---
+```
 
 
+The second section (currently starting from line 35) consists of the **proof itself** and is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and [LaTeX](https://en.wikipedia.org/wiki/LaTeX). When you edit this section, be sure to use `$...$` for in-line math, `$$...$$` for stand-alone equations and give a label to each equation.
+
+```tex
 **Theorem:** Statement of the theorem.
 
 $$ \label{eq:Theorem}
@@ -50,3 +66,4 @@ $$ \label{eq:Proof}
 $$
 
 This completes the proof of \eqref{eq:Theorem}.
+```

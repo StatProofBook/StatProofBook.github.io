@@ -7,14 +7,15 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2019-12-06 11:19:00
 
-title: "Derivation of R^2 and adjusted R^2"
+title: "Derivation of R² and adjusted R²"
 chapter: "Model Selection"
 section: "Goodness-of-fit measures"
 topic: "R-squared"
-theorem: "Derivation of R^2 and adjusted R^2"
+theorem: "Derivation of R² and adjusted R²"
 
 dependencies:
   - theorem: "ordinary least squares for multiple linear regression"
+    shortcut: "mlr-ols"
   - theorem: "total, explained and residual sum of squares"
   - theorem: "unbiased estimator for the residual variance"
 
@@ -54,12 +55,12 @@ $$
 
 where the residual and total sum of squares are
 
-\begin{equation} \label{eq:SS}
+$$ \label{eq:SS}
 \begin{split}
 \mathrm{RSS} &= \sum_{i=1}^{n} (y_i - \hat{y}_i)^2, \quad \hat{y} = X\hat{\beta} \\
 \mathrm{TSS} &= \sum_{i=1}^{n} (y_i - \bar{y})^2\;, \quad \bar{y} = \frac{1}{n} \sum_{i=1}^n y_i \\
 \end{split}
-\end{equation}
+$$
 
 where $X$ is the $n \times p$ design matrix and $\hat{\beta}$ are the ordinary least squares estimates.
 

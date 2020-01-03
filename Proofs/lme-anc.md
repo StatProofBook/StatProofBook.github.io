@@ -15,7 +15,7 @@ theorem: "Partition into accuracy and complexity"
 
 dependencies:
   - theorem: "Bayes' theorem"
-    shortcut: bayes-th
+    shortcut: "bayes-th"
   - theorem: "derivation of the log model evidence"
   - theorem: "expectation with respect to a random variable"
   - theorem: "Kullback-Leibler divergence of two random variables"
