@@ -57,6 +57,7 @@ title: "Table of Contents"
    1.2. Bayesian linear regression <br>
    &emsp;&ensp; 1.2.1. [Conjugate prior distribution](/Proofs/blr-prior.html) <br>
    &emsp;&ensp; 1.2.2. [Posterior distribution](/Proofs/blr-post.html) <br>
+   &emsp;&ensp; 1.2.3. [Log model evidence](/Proofs/blr-lme.html) <br>
    
    1.3. General linear model <br>
    &emsp;&ensp; 1.3.1. [Maximum likelihood estimation](/Proofs/glm-mle.html) <br>
