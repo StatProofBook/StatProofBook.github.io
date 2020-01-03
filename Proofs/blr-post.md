@@ -119,12 +119,12 @@ p(y,\beta,\tau) = \; & \sqrt{\frac{\tau^{n+p}}{(2 \pi)^{n+p}} |P| |\Lambda_0|} \
 \end{split}
 $$
 
-Completing the square over $\beta$, we finally have:
+Completing the square over $\beta$, we finally have
 
 $$ \label{eq:GLM-NG-JL-s4}
 \begin{split}
 p(y,\beta,\tau) = \; & \sqrt{\frac{\tau^{n+p}}{(2 \pi)^{n+p}} |P| |\Lambda_0|} \, \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau] \cdot \\
-& \exp\left[ -\frac{\tau}{2} \left( (\beta-\mu_n)^\mathrm{T} \Lambda_n (\beta-\mu_n) + (y^\mathrm{T} P y + \mu_0^\mathrm{T} \Lambda_0 \mu_0 - \mu_n^\mathrm{T} \Lambda_n \mu_n) \right) \right] \; .
+& \exp\left[ -\frac{\tau}{2} \left( (\beta-\mu_n)^\mathrm{T} \Lambda_n (\beta-\mu_n) + (y^\mathrm{T} P y + \mu_0^\mathrm{T} \Lambda_0 \mu_0 - \mu_n^\mathrm{T} \Lambda_n \mu_n) \right) \right]
 \end{split}
 $$
 
@@ -155,13 +155,13 @@ $$
 From the term in \eqref{eq:GLM-NG-JL-s5}, we can isolate the posterior distribution over $\beta$ given $\tau$:
 
 $$ \label{eq:GLM-NG-post-beta}
-p(\beta|\tau,y) = \mathcal{N}(\beta; \mu_n, (\tau \Lambda_n)^{-1})
+p(\beta|\tau,y) = \mathcal{N}(\beta; \mu_n, (\tau \Lambda_n)^{-1}) \; .
 $$
 
 From the remaining term, we can isolate the posterior distribution over $\tau$:
 
 $$ \label{eq:GLM-NG-post-tau}
-p(\tau|y) = \mathrm{Gam}(\tau; a_n, b_n)
+p(\tau|y) = \mathrm{Gam}(\tau; a_n, b_n) \; .
 $$
 
 Together, \eqref{eq:GLM-NG-post-beta} and \eqref{eq:GLM-NG-post-tau} constitute the joint posterior distribution of $\beta$ and $\tau$.
