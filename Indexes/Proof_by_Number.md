@@ -15,3 +15,6 @@ title: "Proof by Number"
 | P6 | ng-kl | [Kullback-Leibler divergence for the normal-gamma distribution](/Proofs/ng-kl.html) | JoramSoch | 2019-12-06 |
 | P7 | glm-mle | [Maximum likelihood estimation for the general linear model](/Proofs/glm-mle.html) | JoramSoch | 2019-12-06 |
 | P8 | rsq-der | [Derivation of R² and adjusted R²](/Proofs/rsq-der.html) | JoramSoch | 2019-12-06 |
+| P9 | blr-prior | [Conjugate prior distribution for Bayesian linear regression](/Proofs/blr-prior.html) | JoramSoch | 2020-01-03 |
+| P10 | blr-post | [Posterior distribution for Bayesian linear regression](/Proofs/blr-post.html) | JoramSoch | 2020-01-03 |
+| P11 | blr-lme | [Log model evidence for Bayesian linear regression](/Proofs/blr-lme.html) | JoramSoch | 2020-01-03 |
