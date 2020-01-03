@@ -97,7 +97,7 @@ When deriving the posterior distribution $p(\beta,\tau|y)$, the joint likelihood
 
 $$ \label{eq:GLM-NG-LME-s1}
 \begin{split}
-p(y,\beta,\tau) = \; & \sqrt{\frac{\tau^n |P|}{(2 \pi)^n}} \, \sqrt{\frac{\tau^p |\Lambda_0|}{(2 \pi)^p}} \, \frac{{b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau] \cdot \\
+p(y,\beta,\tau) = \; & \sqrt{\frac{\tau^n |P|}{(2 \pi)^n}} \, \sqrt{\frac{\tau^p |\Lambda_0|}{(2 \pi)^p}} \, \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau] \cdot \\
 & \exp\left[ -\frac{\tau}{2} \left( (\beta-\mu_n)^T \Lambda_n (\beta-\mu_n) + (y^T P y + \mu_0^T \Lambda_0 \mu_0 - \mu_n^T \Lambda_n \mu_n) \right) \right] \; .
 \end{split}
 $$
@@ -106,7 +106,7 @@ Using the probability density function of the multivariate normal distribution, 
 
 $$ \label{eq:GLM-NG-LME-s2}
 \begin{split}
-p(y,\beta,\tau) = \; & \sqrt{\frac{\tau^n |P|}{(2 \pi)^n}} \, \sqrt{\frac{\tau^p |\Lambda_0|}{(2 \pi)^p}} \, \sqrt{\frac{(2 \pi)^p}{\tau^p |\Lambda_n|}} \, \frac{{b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau] \cdot \\
+p(y,\beta,\tau) = \; & \sqrt{\frac{\tau^n |P|}{(2 \pi)^n}} \, \sqrt{\frac{\tau^p |\Lambda_0|}{(2 \pi)^p}} \, \sqrt{\frac{(2 \pi)^p}{\tau^p |\Lambda_n|}} \, \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau] \cdot \\
 & \mathcal{N}(\beta; \mu_n, (\tau \Lambda_n)^{-1}) \, \exp\left[ -\frac{\tau}{2} (y^T P y + \mu_0^T \Lambda_0 \mu_0 - \mu_n^T \Lambda_n \mu_n) \right] \; .
 \end{split}
 $$
@@ -115,7 +115,7 @@ Now, $\beta$ can be integrated out easily:
 
 $$ \label{eq:GLM-NG-LME-s3}
 \begin{split}
-\int p(y,\beta,\tau) \, \mathrm{d}\beta = \; & \sqrt{\frac{\tau^n |P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{{b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau] \cdot \\
+\int p(y,\beta,\tau) \, \mathrm{d}\beta = \; & \sqrt{\frac{\tau^n |P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau] \cdot \\
 & \exp\left[ -\frac{\tau}{2} (y^T P y + \mu_0^T \Lambda_0 \mu_0 - \mu_n^T \Lambda_n \mu_n) \right] \; .
 \end{split}
 $$
@@ -123,13 +123,13 @@ $$
 Using the probability density function of the gamma distribution, we can rewrite this as
 
 $$\label{eq:GLM-NG-LME-s4}
-\int p(y,\beta,\tau) \, \mathrm{d}\beta = \; \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{{b_0}^{a_0}}{\Gamma(a_0)} \, \frac{\Gamma(a_n)}{{b_n}^{a_n}} \, \mathrm{Gam}(\tau; a_n, b_n) \; .
+\int p(y,\beta,\tau) \, \mathrm{d}\beta = \; \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \frac{\Gamma(a_n)}{ {b_n}^{a_n}} \, \mathrm{Gam}(\tau; a_n, b_n) \; .
 $$
 
 Finally, $\tau$ can also be integrated out:
 
 $$ \label{eq:GLM-NG-LME-s5}
-\iint p(y,\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau = \; \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{\Gamma(a_n)}{\Gamma(a_0)} \, \frac{{b_0}^{a_0}}{{b_n}^{a_n}} = p(y|m) \; .
+\iint p(y,\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau = \; \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{\Gamma(a_n)}{\Gamma(a_0)} \, \frac{ {b_0}^{a_0}}{ {b_n}^{a_n}} = p(y|m) \; .
 $$
 
 Thus, the log model evidence of this model is given by
