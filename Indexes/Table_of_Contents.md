@@ -54,8 +54,11 @@ title: "Table of Contents"
    1.1. Multiple linear regression <br>
    &emsp;&ensp; 1.1.1. [Ordinary least squares](/Proofs/mlr-ols.html) <br>
    
-   1.2. General linear model <br>
-   &emsp;&ensp; 1.2.1. [Maximum likelihood estimation](/Proofs/glm-mle.html) <br>
+   1.2. Bayesian linear regression <br>
+   &emsp;&ensp; 1.2.1. [Conjugate prior distribution](/Proofs/blr-prior.html) <br>
+   
+   1.3. General linear model <br>
+   &emsp;&ensp; 1.3.1. [Maximum likelihood estimation](/Proofs/glm-mle.html) <br>
 
 2. Poisson data
 
