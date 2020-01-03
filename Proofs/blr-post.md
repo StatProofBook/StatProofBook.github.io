@@ -41,7 +41,7 @@ $$
 be a linear regression model with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$, known $n \times n$ covariance structure $V$ and unknown $p \times 1$ regression coefficients $\beta$ and noise variance $\sigma^2$.  Moreover, assume a normal-gamma prior distribution over the model parameters $\beta$ and $\tau = 1/\sigma^2$:
 
 $$ \label{eq:GLM-NG-prior}
-p(\beta,\tau) = \mathcal{N}(\beta; \mu_0, (\tau \Lambda_0)^{-1}) \cdot \mathrm{Gam}(\tau; a_0, b_0)
+p(\beta,\tau) = \mathcal{N}(\beta; \mu_0, (\tau \Lambda_0)^{-1}) \cdot \mathrm{Gam}(\tau; a_0, b_0) \; .
 $$
 
 Then, the posterior distribution is also a normal-gamma distribution
