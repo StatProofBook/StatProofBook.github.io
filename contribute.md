@@ -7,6 +7,9 @@ permalink: /contribute/
 
 Everyone can contribute to **The Book of Statistical Proofs**! Depending on your mathematical knowledge, your computer science skills and the time you are willing to invest, there are three different levels of contributing to the project, with contribution intensity increasing from first to last level.
 
+Quick Start: [GitHub Repository](https://github.com/StatProofBook/StatProofBook.github.io) – [Proof Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/Proofs/-temp-.md) – [Table of Contents](/Indexes/Table_of_Contents.md) – [Table of Contents (old)](https://github.com/JoramSoch/TBSP/blob/master/Contents.pdf) – [Wanted Theorems](https://docs.google.com/spreadsheets/d/1MIqVvAgcQL72HCPZ9KDaCZXZRVxBhkrEiLX1Dr7p4Kg/edit?usp=sharing) – [Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdxak_oUsAMws6Xjs7wGNNPdxLwO8Qez0IdZRvLoTuiycibpg/viewform?usp=sf_link)
+
+
 <br>
 ### Level 1: suggest a theorem to be proven
 
