@@ -84,4 +84,5 @@ title: "Table of Contents"
 3. Bayesian model selection 
 
    3.1. Log model evidence <br>
+   &emsp;&ensp; 3.1.1. [Derivation](/Proofs/lme-der.html) <br>
    &emsp;&ensp; 3.1.1. [Partition into accuracy and complexity](/Proofs/lme-anc.html) <br>
