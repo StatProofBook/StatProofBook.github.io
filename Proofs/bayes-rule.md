@@ -45,10 +45,10 @@ p(A_1|B) = \frac{p(B|A_1) \cdot p(A_1)}{p(B)}
 $$
 
 $$ \label{eq:bayes-th-A2}
-p(A_2|B) = \frac{p(B|A_2) \cdot p(A_2)}{p(B)}
+p(A_2|B) = \frac{p(B|A_2) \cdot p(A_2)}{p(B)} \; .
 $$
 
-Diving the two condition probabilities
+Dividing the two condition probabilities by each other
 
 $$ \label{eq:bayes-rule-pr}
 \begin{split}
