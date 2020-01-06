@@ -15,6 +15,7 @@ title: "Table of Contents"
 
    1.1. Bayesian inference <br>
    &emsp;&ensp; 1.1.1. [Bayes' theorem](/Proofs/bayes-th.html) <br>
+   &emsp;&ensp; 1.1.2. [Bayes' rule](/Proofs/bayes-rule.html) <br>
 
 2. Estimation theory
 
