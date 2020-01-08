@@ -8,7 +8,7 @@ permalink: /credits/
 <br>
 ### Credit 1: Fame
 
-If you have [submitted a proof via GitHub](/contribute/) and entered your username [into the metadata](/Tutorials/Metadata.md), this proof's page will automatically link to your GitHub profile. Here's [an example](/Proofs/mvn-ltt.html):
+If you have [submitted a proof via GitHub](/contribute/) and entered your username [into the metadata](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Metadata-Fields), this proof's page will automatically link to your GitHub profile. Here's [an example](/Proofs/mvn-ltt.html):
 
 > **Metadata:** ID: P1 \| shortcut: mvn-ltt \| author: [JoramSoch](https://github.com/JoramSoch) \| date: 2019-08-27.
 
