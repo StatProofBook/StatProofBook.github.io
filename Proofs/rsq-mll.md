@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-12-08 04:46:00
+date: 2020-01-08 04:46:00
 
 title: "Relationship between R² and maximum log-likelihood"
 chapter: "Model Selection"
