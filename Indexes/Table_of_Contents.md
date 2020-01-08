@@ -78,6 +78,7 @@ title: "Table of Contents"
 
    1.1. R-squared <br>
    &emsp;&ensp; 1.1.1. [Derivation of R² and adjusted R²](/Proofs/rsq-der.html) <br>
+   &emsp;&ensp; 1.1.2. [Relationship to maximum log-likelihood](/Proofs/rsq-mll.html) <br>
 
 2. Classical information criteria
 
@@ -85,4 +86,4 @@ title: "Table of Contents"
 
    3.1. Log model evidence <br>
    &emsp;&ensp; 3.1.1. [Derivation](/Proofs/lme-der.html) <br>
-   &emsp;&ensp; 3.1.1. [Partition into accuracy and complexity](/Proofs/lme-anc.html) <br>
+   &emsp;&ensp; 3.1.2. [Partition into accuracy and complexity](/Proofs/lme-anc.html) <br>
