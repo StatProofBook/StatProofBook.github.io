@@ -18,3 +18,6 @@ title: "Proof by Number"
 | P9 | blr-prior | [Conjugate prior distribution for Bayesian linear regression](/Proofs/blr-prior.html) | JoramSoch | 2020-01-03 |
 | P10 | blr-post | [Posterior distribution for Bayesian linear regression](/Proofs/blr-post.html) | JoramSoch | 2020-01-03 |
 | P11 | blr-lme | [Log model evidence for Bayesian linear regression](/Proofs/blr-lme.html) | JoramSoch | 2020-01-03 |
+| P12 | bayes-rule | [Bayes' rule](/Proofs/bayes-rule.html) | JoramSoch | 2020-01-06 |
+| P13 | lme-der | [Derivation of the log model evidence](/Proofs/lme-der.html) | JoramSoch | 2020-01-06 |
+| P14 | rsq-mll | [Relationship between R² and maximum log-likelihood](/Proofs/rsq-mll.html) | JoramSoch | 2019-12-08 |
