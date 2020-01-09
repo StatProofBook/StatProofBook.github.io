@@ -31,9 +31,12 @@ title: "Table of Contents"
 
 1. Univariate discrete distributions
 
-2. Univariate continuous distributions
+2. Multivariate discrete distributions
 
-3. Multivariate discrete distributions
+3. Univariate continuous distributions
+
+   3.1. Normal distribution <br>
+   &emsp;&ensp; 3.1.1. [Mean](/Proofs/norm-mean.html) <br>
 
 4. Multivariate continuous distributions
 
