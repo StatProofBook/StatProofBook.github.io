@@ -39,6 +39,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.1. [Mean](/Proofs/norm-mean.html) <br>
    &emsp;&ensp; 3.1.2. [Median](/Proofs/norm-med.html) <br>
    &emsp;&ensp; 3.1.3. [Mode](/Proofs/norm-mode.html) <br>
+   &emsp;&ensp; 3.1.4. [Variance](/Proofs/norm-var.html) <br>
 
 4. Multivariate continuous distributions
 
