@@ -6,6 +6,7 @@ title: "Proof by Topic"
 
 ### B
 
+- [Bayes' rule](/Proofs/bayes-rule.html)
 - [Bayes' theorem](/Proofs/bayes-th.html)
 
 ### C
@@ -15,6 +16,7 @@ title: "Proof by Topic"
 ### D
 
 - [Derivation of R² and adjusted R²](/Proofs/rsq-der.html)
+- [Derivation of the log model evidence](/Proofs/lme-der.html)
 
 ### K
 
@@ -38,6 +40,10 @@ title: "Proof by Topic"
 - [Partition of the log model evidence into accuracy and complexity](/Proofs/lme-anc.html)
 - [Partition of the mean squared error into bias and variance](/Proofs/mse-bnv.html)
 - [Posterior distribution for Bayesian linear regression](/Proofs/blr-post.html)
+
+### R
+
+- [Relationship between R² and maximum log-likelihood](/Proofs/rsq-mll.html)
 
 ### T
 

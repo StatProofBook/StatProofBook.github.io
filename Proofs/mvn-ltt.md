@@ -39,7 +39,7 @@ $$
 Then, any linear transformation of $x$ is also multivariate normally distributed:
 
 $$ \label{eq:mvn-lt}
-y = Ax + b \sim \mathcal{N}(A\mu + b, A \Sigma A^T) \; .
+y = Ax + b \sim \mathcal{N}(A\mu + b, A \Sigma A^\mathrm{T}) \; .
 $$
 
 

@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-12-08 04:46:00
+date: 2020-01-08 04:46:00
 
 title: "Relationship between R² and maximum log-likelihood"
 chapter: "Model Selection"
@@ -76,7 +76,7 @@ $$ \label{eq:MLR-MLL-RSS}
 \mathrm{MLL} = - \frac{n}{2} \log(\mathrm{RSS}) - \frac{n}{2} \log \left( \frac{2\pi}{n} \right) - \frac{n}{2} \; .
 $$
 
-Second, we establish the relationship between maximum log-likelihood (MLL) and coefficient of determination ($R^2$). Consider the two models
+Second, we establish the relationship between maximum log-likelihood (MLL) and coefficient of determination (R²). Consider the two models
 
 $$ \label{eq:m0-m1}
 \begin{split}
@@ -85,7 +85,7 @@ m_1: \; X_1 &= X
 \end{split}
 $$
 
-For $m_1$, the residual sum of squares is given by \eqref{eq:RSS}; and for $m_0$, the residual sum of squares if equal to the total sum of squares:
+For $m_1$, the residual sum of squares is given by \eqref{eq:RSS}; and for $m_0$, the residual sum of squares is equal to the total sum of squares:
 
 $$ \label{eq:TSS}
 \mathrm{TSS} = \sum_{i=1}^n (y_i - \bar{y})^2 \; .
