@@ -26,6 +26,8 @@ title: "Table of Contents"
 
    3.1. Mutual information <br>
    &emsp;&ensp; 3.1.1. [Relation to marginal and conditional entropy](/Proofs/dmi-mce.html) <br>
+   &emsp;&ensp; 3.1.2. [Relation to marginal and joint entropy](/Proofs/dmi-mje.html) <br>
+
 
 <section class="chapter" id="Probability Distributions">
 <h3>Probability Distributions</h3>
