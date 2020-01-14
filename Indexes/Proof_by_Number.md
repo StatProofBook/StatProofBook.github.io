@@ -21,3 +21,10 @@ title: "Proof by Number"
 | P12 | bayes-rule | [Bayes' rule](/Proofs/bayes-rule.html) | JoramSoch | 2020-01-06 |
 | P13 | lme-der | [Derivation of the log model evidence](/Proofs/lme-der.html) | JoramSoch | 2020-01-06 |
 | P14 | rsq-mll | [Relationship between R² and maximum log-likelihood](/Proofs/rsq-mll.html) | JoramSoch | 2020-01-08 |
+| P15 | norm-mean | [Mean of the normal distribution](/Proofs/norm-mean.html) | JoramSoch | 2020-01-09 |
+| P16 | norm-med | [Median of the normal distribution](/Proofs/norm-med.html) | JoramSoch | 2020-01-09 |
+| P17 | norm-mode | [Mode of the normal distribution](/Proofs/norm-mode.html) | JoramSoch | 2020-01-09 |
+| P18 | norm-var | [Variance of the normal distribution](/Proofs/norm-var.html) | JoramSoch | 2020-01-09 |
+| P19 | dmi-mce | [Relation of mutual information to marginal and conditional entropy](/Proofs/dmi-mce.html) | JoramSoch | 2020-01-13 |
+| P20 | dmi-mje | [Relation of mutual information to marginal and joint entropy](/Proofs/dmi-mje.html) | JoramSoch | 2020-01-13 |
+| P21 | dmi-jce | [Relation of mutual information to joint and conditional entropy](/Proofs/dmi-jce.html) | JoramSoch | 2020-01-13 |
