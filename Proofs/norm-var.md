@@ -14,6 +14,8 @@ topic: "Normal distribution"
 theorem: "Variance"
 
 dependencies:
+  - theorem: "mean of the normal distribution"
+    shortcut: "norm-mean"
   - theorem: "probability density function of the normal distribution"
 
 sources:

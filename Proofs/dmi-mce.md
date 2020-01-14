@@ -32,14 +32,14 @@ username: "JoramSoch"
 
 **Theorem:** Let $X$ and $Y$ be discrete random variables with the joint probability $p(x,y)$ for $x \in \mathcal{X}$ and $y \in \mathcal{Y}$. Then, the mutual information of $X$ and $Y$ can be expressed as
 
-\begin{equation} \label{eq:dmi-mce}
+$$ \label{eq:dmi-mce}
 \begin{split}
 \mathrm{I}(X,Y) &= \mathrm{H}(X) - \mathrm{H}(X|Y) \\
 &= \mathrm{H}(Y) - \mathrm{H}(Y|X)
 \end{split}
-\end{equation}
+$$
 
-where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the marginal entropies of $X$ and $Y$ and $\mathrm{H}(X|Y)$ and $\mathrm{H}(Y|X)$ are the conditional entropies.
+where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the marginal entropies of $X$ and $Y$ and $\mathrm{H}(X \mid Y)$ and $\mathrm{H}(Y \mid X)$ are the conditional entropies.
 
 
 **Proof:** The mutual information of $X$ and $Y$ is defined as
@@ -85,7 +85,10 @@ $$
 we can finally show:
 
 $$ \label{eq:MI-qed}
-\mathrm{I}(X,Y) = - \mathrm{H}(X|Y) + \mathrm{H}(X) = \mathrm{H}(X) - \mathrm{H}(X|Y) \; .
+\begin{split}
+\mathrm{I}(X,Y) &= - \mathrm{H}(X|Y) + \mathrm{H}(X) \\
+&= \mathrm{H}(X) - \mathrm{H}(X|Y) \; .
+\end{split}
 $$
 
 The conditioning of $X$ on $Y$ in this proof is without loss of generality. Thus, the proof for the expression using the reverse conditional entropy of $Y$ given $X$ is obtained by simply switching $x$ and $y$ in the derivation.

@@ -54,7 +54,7 @@ $$
 Regrouping the variables, this reads:
 
 $$ \label{eq:MI-s2}
-\mathrm{I}(X,Y) = \sum_y p(y) \sum_x p(x|y) \log p(x|y) - \sum_x \left( \sum_y p(x,y) \right) \log p(x) - \sum_y \left( \sum_x p(x,y) \right) \log p(y) \; .
+\mathrm{I}(X,Y) = \sum_x \sum_y p(x,y) \log p(x,y) - \sum_x \left( \sum_y p(x,y) \right) \log p(x) - \sum_y \left( \sum_x p(x,y) \right) \log p(y) \; .
 $$
 
 Applying the law of marginal probability, i.e. $p(x) = \sum_y p(x,y)$, we get:
@@ -76,5 +76,8 @@ $$
 we can finally show:
 
 $$ \label{eq:MI-qed}
-\mathrm{I}(X,Y) = - \mathrm{H}(X,Y) + \mathrm{H}(X) + \mathrm{H}(Y) = \mathrm{H}(X) + \mathrm{H}(Y) - \mathrm{H}(X,Y) \; .
+\begin{split}
+\mathrm{I}(X,Y) &= - \mathrm{H}(X,Y) + \mathrm{H}(X) + \mathrm{H}(Y) \\
+&= \mathrm{H}(X) + \mathrm{H}(Y) - \mathrm{H}(X,Y) \; .
+\end{split}
 $$

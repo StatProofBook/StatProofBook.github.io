@@ -15,7 +15,9 @@ theorem: "Relation to joint and conditional entropy"
 
 dependencies:
   - theorem: "relation of mutual information to marginal and conditional entropy"
+    shortcut: "dmi-mce"
   - theorem: "relation of mutual information to marginal and joint entropy"
+    shortcut: "dmi-mje"
 
 sources:
   - authors: "Wikipedia"
@@ -70,11 +72,11 @@ $$
 
 Plugging in \eqref{eq:dmi-mce1}, \eqref{eq:dmi-mce2} and \eqref{eq:dmi-mje} on the right-hand side, we have
 
-\begin{equation} \label{eq:MI-s2}
+$$ \label{eq:MI-s2}
 \begin{split}
 \mathrm{I}(X,Y) &= \mathrm{H}(X) - \mathrm{H}(X|Y) + \mathrm{H}(Y) - \mathrm{H}(Y|X) - \mathrm{H}(X) - \mathrm{H}(Y) + \mathrm{H}(X,Y) \\
 &= \mathrm{H}(X,Y) - \mathrm{H}(X|Y) - \mathrm{H}(Y|X)
 \end{split}
-\end{equation}
+$$
 
 which proves the identity given above.
