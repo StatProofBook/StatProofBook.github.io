@@ -17,9 +17,8 @@ dependencies:
   - theorem: "probability density function of the normal-gamma distribution"
   - theorem: "Kullback-Leibler divergence of the multivariate normal distribution"
   - theorem: "Kullback-Leibler divergence of the univariate gamma distribution"
-  - theorem: "Kullback-Leibler divergence for a continuous random variable"
-  - theorem: "law of conditional probability, also called 'product rule of probability'"
-  - theorem: "expected value of a gamma random variable"
+  - theorem: "law of conditional probability"
+  - theorem: "mean of the gamma distribution"
 
 sources:
   - authors: "Soch & Allefeld"
@@ -82,7 +81,7 @@ where $\Gamma(x)$ is the gamma function and $\psi(x)$ is the digamma function.
 The KL divergence for a continuous random variable is given by 
 
 $$ \label{eq:KL-cont}
-\mathrm{KL}[P\,||\,Q] = \int_{Z} p(z) \, \ln \frac{p(z)}{q(z)} \, \mathrm{d}z
+\mathrm{KL}[P\,||\,Q] = \int_{\mathcal{Z}} p(z) \, \ln \frac{p(z)}{q(z)} \, \mathrm{d}z
 $$
 
 which, applied to the normal-gamma distribution over $x$ and $y$, yields

@@ -106,14 +106,14 @@ X^\mathrm{T} P X \hat{B} &= X^\mathrm{T} P Y \\
 $$
 
 <br>
-The derivative of the log-likelihood function \eqref{eq:GLM-LL1} with respect to $\Sigma$ is
+The derivative of the log-likelihood function \eqref{eq:GLM-LL1} at $\hat{B}$ with respect to $\Sigma$ is
 
 $$
 \begin{equation} \label{eq:dLL-dS}
 \begin{split}
-\frac{\mathrm{d}\mathrm{LL}(B,\Sigma)}{\mathrm{d}\Sigma} &= \frac{\mathrm{d}}{\mathrm{d}\Sigma} \left( - \frac{n}{2} \log |\Sigma| - \frac{1}{2} \, \mathrm{tr}\left[ \Sigma^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \right] \right) \\
-&= - \frac{n}{2} \left( \Sigma^{-1} \right)^\mathrm{T} + \frac{1}{2} \left( \Sigma^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \, \Sigma^{-1} \right)^\mathrm{T} \\
-&= - \frac{n}{2} \, \Sigma^{-1} + \frac{1}{2} \, \Sigma^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \, \Sigma^{-1} \\
+\frac{\mathrm{d}\mathrm{LL}(\hat{B},\Sigma)}{\mathrm{d}\Sigma} &= \frac{\mathrm{d}}{\mathrm{d}\Sigma} \left( - \frac{n}{2} \log |\Sigma| - \frac{1}{2} \, \mathrm{tr}\left[ \Sigma^{-1} (Y - X\hat{B})^\mathrm{T} V^{-1} (Y - X\hat{B}) \right] \right) \\
+&= - \frac{n}{2} \left( \Sigma^{-1} \right)^\mathrm{T} + \frac{1}{2} \left( \Sigma^{-1} (Y - X\hat{B})^\mathrm{T} V^{-1} (Y - X\hat{B}) \, \Sigma^{-1} \right)^\mathrm{T} \\
+&= - \frac{n}{2} \, \Sigma^{-1} + \frac{1}{2} \, \Sigma^{-1} (Y - X\hat{B})^\mathrm{T} V^{-1} (Y - X\hat{B}) \, \Sigma^{-1} \\
 \end{split}
 \end{equation} 
 $$
@@ -123,12 +123,12 @@ and setting this derivative to zero gives the MLE for $\Sigma$:
 $$
 \begin{equation} \label{eq:S-MLE}
 \begin{split}
-\frac{\mathrm{d}\mathrm{LL}(B,\hat{\Sigma})}{\mathrm{d}\Sigma} &= 0 \\
-0 &= - \frac{n}{2} \, \hat{\Sigma}^{-1} + \frac{1}{2} \, \hat{\Sigma}^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \, \hat{\Sigma}^{-1} \\
-\frac{n}{2} \, \hat{\Sigma}^{-1} &= \frac{1}{2} \, \hat{\Sigma}^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \, \hat{\Sigma}^{-1} \\
-\hat{\Sigma}^{-1} &= \frac{1}{n} \, \hat{\Sigma}^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \, \hat{\Sigma}^{-1} \\
-I_v &= \frac{1}{n} \, (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \, \hat{\Sigma}^{-1} \\
-\hat{\Sigma} &= \frac{1}{n} \, (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \\
+\frac{\mathrm{d}\mathrm{LL}(\hat{B},\hat{\Sigma})}{\mathrm{d}\Sigma} &= 0 \\
+0 &= - \frac{n}{2} \, \hat{\Sigma}^{-1} + \frac{1}{2} \, \hat{\Sigma}^{-1} (Y - X\hat{B})^\mathrm{T} V^{-1} (Y - X\hat{B}) \, \hat{\Sigma}^{-1} \\
+\frac{n}{2} \, \hat{\Sigma}^{-1} &= \frac{1}{2} \, \hat{\Sigma}^{-1} (Y - X\hat{B})^\mathrm{T} V^{-1} (Y - X\hat{B}) \, \hat{\Sigma}^{-1} \\
+\hat{\Sigma}^{-1} &= \frac{1}{n} \, \hat{\Sigma}^{-1} (Y - X\hat{B})^\mathrm{T} V^{-1} (Y - X\hat{B}) \, \hat{\Sigma}^{-1} \\
+I_v &= \frac{1}{n} \, (Y - X\hat{B})^\mathrm{T} V^{-1} (Y - X\hat{B}) \, \hat{\Sigma}^{-1} \\
+\hat{\Sigma} &= \frac{1}{n} \, (Y - X\hat{B})^\mathrm{T} V^{-1} (Y - X\hat{B}) \\
 \end{split}
 \end{equation}
 $$
