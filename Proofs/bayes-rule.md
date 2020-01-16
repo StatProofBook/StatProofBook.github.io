@@ -19,7 +19,7 @@ dependencies:
 
 sources:
   - authors: "Wikipedia"
-    year: "2019"
+    year: 2019
     title: "Bayes' theorem"
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-01-06"
@@ -50,7 +50,7 @@ $$
 
 Dividing the two condition probabilities by each other
 
-$$ \label{eq:bayes-rule-pr}
+$$ \label{eq:bayes-rule-qed}
 \begin{split}
 \frac{p(A_1|B)}{p(A_2|B)} &= \frac{p(B|A_1) \cdot p(A_1) / p(B)}{p(B|A_2) \cdot p(A_2) / p(B)} \\
 &= \frac{p(B|A_1)}{p(B|A_2)} \cdot \frac{p(A_1)}{p(A_2)} \; ,

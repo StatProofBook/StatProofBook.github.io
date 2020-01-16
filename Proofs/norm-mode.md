@@ -59,7 +59,7 @@ $$ \label{eq:norm-pdf-der2}
 f''_X(x) = \frac{\mathrm{d}^2f_X(x)}{\mathrm{d}x^2} = -\frac{1}{\sqrt{2 \pi} \sigma^3} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] + \frac{1}{\sqrt{2 \pi} \sigma^5} \cdot (-x + \mu)^2 \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] \; .
 $$
 
-We now calculate the root first derivative:
+We now calculate the root of the first derivative:
 
 $$ \label{eq:norm-med-s1}
 \begin{split}

@@ -14,7 +14,7 @@ topic: "Normal distribution"
 theorem: "Mean"
 
 dependencies:
-  - theorem: "probability density of the normal distribution"
+  - theorem: "probability density function of the normal distribution"
 
 sources:
   - authors: "Papadopoulos, Alecos"
@@ -45,7 +45,7 @@ $$
 **Proof:** The expected value is the probability-weighted average over all possible values:
 
 $$ \label{eq:mean}
-\mathrm{E}(X) = \int_{\mathbb{R}} x \cdot f_\mathrm{X}(x) \, \mathrm{d}x \; .
+\mathrm{E}(X) = \int_{\mathbb{R}} x \cdot f_X(x) \, \mathrm{d}x \; .
 $$
 
 With the probability density function of the normal distribution, this reads:

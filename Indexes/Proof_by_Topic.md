@@ -30,6 +30,9 @@ title: "Proof by Topic"
 ### M
 
 - [Maximum likelihood estimation for the general linear model](/Proofs/glm-mle.html)
+- [Mean of the normal distribution](/Proofs/norm-mean.html)
+- [Median of the normal distribution](/Proofs/norm-med.html)
+- [Mode of the normal distribution](/Proofs/norm-mode.html)
 
 ### O
 
@@ -43,8 +46,15 @@ title: "Proof by Topic"
 
 ### R
 
+- [Relation of mutual information to joint and conditional entropy](/Proofs/dmi-jce.html)
+- [Relation of mutual information to marginal and conditional entropy](/Proofs/dmi-mce.html)
+- [Relation of mutual information to marginal and joint entropy](/Proofs/dmi-mje.html)
 - [Relationship between R² and maximum log-likelihood](/Proofs/rsq-mll.html)
 
 ### T
 
 - [Template for The Book of Statistical Proofs](/Proofs/-temp-.html)
+
+### V
+
+- [Variance of the normal distribution](/Proofs/norm-var.html)
