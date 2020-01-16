@@ -31,25 +31,20 @@ layout: default
 	{% endfor %} </ul><br>
 	
 	<!-- Sources -->
-	<b>Sources:</b> <br><ul>
-	{% for item in page.sources %}
-	  <li>
-	    {{item.authors}} ({{item.year}}): "{{item.title}}"
-		{% if item.in %}
-		  ; in: <i>{{item.in}}</i>
-		{% endif %}
-		{% if item.pages %}
-		  , {{item.pages}}
-		{% endif %}
-		{% if item.url %}
-		  ; URL: <a href="{{item.url}}">{{item.url}}</a>
-		{% endif %}
-		{% if item.doi %}
-		  ; DOI: <a href="https://doi.org/{{item.doi}}">{{item.doi}}</a>
-		{% endif %}
-		.
-	  </li>
-	{% endfor %} </ul><br>
+	{% if page.sources %}
+	  <b>Sources:</b> <br><ul>
+	  {% for item in page.sources %}
+	    <li>
+	      {{item.authors}} ({{item.year}}): "{{item.title}}"
+		  {% if item.in %} ; in: <i>{{item.in}}</i> {% endif %}
+		  {% if item.pages %} , {{item.pages}} {% endif %}
+		  {% if item.url %} ; URL: <a href="{{item.url}}">{{item.url}}</a> {% endif %}
+		  {% if item.doi %} ; DOI: <a href="https://doi.org/{{item.doi}}">{{item.doi}}</a> {% endif %} .
+	    </li>
+	  {% endfor %} </ul><br>
+	{% else %}
+	  <b>Sources:</b> <br><ul><li>own work</li><br>
+    {% endif %}
 	
 	<!-- Metadata -->
 	<b>Metadata:</b> ID: {{ page.proof_id }} | shortcut: {{ page.shortcut }} | author: <a href="https://github.com/{{ page.username }}">{{ page.username }}</a> | date: {{ page.date | date: "%Y-%m-%d" }}.
