@@ -36,7 +36,19 @@ title: "Table of Contents"
 
 1. Univariate discrete distributions
 
+   1.1. Bernoulli distribution <br>
+   &emsp;&ensp; 1.1.1. [Mean](/Proofs/bern-mean.html) <br>
+
+   1.2. Binomial distribution <br>
+   &emsp;&ensp; 1.2.1. [Mean](/Proofs/bin-mean.html) <br>
+
 2. Multivariate discrete distributions
+
+   2.1. Categorical distribution <br>
+   &emsp;&ensp; 2.1.1. [Mean](/Proofs/cat-mean.html) <br>
+
+   2.2. Multinomial distribution <br>
+   &emsp;&ensp; 2.2.1. [Mean](/Proofs/mult-mean.html) <br>
 
 3. Univariate continuous distributions
 
