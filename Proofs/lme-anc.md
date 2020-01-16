@@ -17,8 +17,9 @@ dependencies:
   - theorem: "Bayes' theorem"
     shortcut: "bayes-th"
   - theorem: "derivation of the log model evidence"
+    shortcut: "lme-der"
   - theorem: "expectation with respect to a random variable"
-  - theorem: "Kullback-Leibler divergence of two random variables"
+  - theorem: "Kullback-Leibler divergence of two probability distributions"
 
 sources:
   - authors: "Penny et al."
