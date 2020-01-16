@@ -30,6 +30,10 @@ title: "Proof by Topic"
 ### M
 
 - [Maximum likelihood estimation for the general linear model](/Proofs/glm-mle.html)
+- [Mean of the Bernoulli distribution](/Proofs/bern-mean.html)
+- [Mean of the binomial distribution](/Proofs/bin-mean.html)
+- [Mean of the categorical distribution](/Proofs/cat-mean.html)
+- [Mean of the multinomial distribution](/Proofs/mult-mean.html)
 - [Mean of the normal distribution](/Proofs/norm-mean.html)
 - [Median of the normal distribution](/Proofs/norm-med.html)
 - [Mode of the normal distribution](/Proofs/norm-mode.html)
