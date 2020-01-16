@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-01-16 11:17:00
 
-title: "Mean of the Bernoulli distribution"
+title: "Mean of the categorical distribution"
 chapter: "Probability Distributions"
 section: "Multivariate discrete distributions"
 topic: "Categorical distribution"

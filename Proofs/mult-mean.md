@@ -47,12 +47,12 @@ $$
 
 and because the expected value is a linear operator, this is equal to
 
-\begin{equation} \label{eq:mult-mean-s2}
+$$ \label{eq:mult-mean-s2}
 \begin{split}
 \mathrm{E}(X) &= \mathrm{E}(X_1) + \ldots + \mathrm{E}(X_n) \\
 &= \sum_{i=1}^{n} \mathrm{E}(X_i) \; .
 \end{split}
-\end{equation}
+$$
 
 With the expected value of the categorical distribution, we have:
 
