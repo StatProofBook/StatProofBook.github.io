@@ -68,6 +68,9 @@ title: "Table of Contents"
 
 5. Matrix-variate continuous distributions
 
+   5.1. Matrix-normal distribution <br>
+   &emsp;&ensp; 5.1.1. [Equivalence to multivariate normal distribution](/Proofs/matn-mvn.html) <br>
+
 
 <section class="chapter" id="Statistical Models">
 <h3>Statistical Models</h3>
