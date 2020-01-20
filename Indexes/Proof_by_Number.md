@@ -28,3 +28,7 @@ title: "Proof by Number"
 | P19 | dmi-mce | [Relation of mutual information to marginal and conditional entropy](/Proofs/dmi-mce.html) | JoramSoch | 2020-01-13 |
 | P20 | dmi-mje | [Relation of mutual information to marginal and joint entropy](/Proofs/dmi-mje.html) | JoramSoch | 2020-01-13 |
 | P21 | dmi-jce | [Relation of mutual information to joint and conditional entropy](/Proofs/dmi-jce.html) | JoramSoch | 2020-01-13 |
+| P22 | bern-mean | [Mean of the Bernoulli distribution](/Proofs/bern-mean.html) | JoramSoch | 2020-01-16 |
+| P23 | bin-mean | [Mean of the binomial distribution](/Proofs/bin-mean.html) | JoramSoch | 2020-01-16 |
+| P24 | cat-mean | [Mean of the categorical distribution](/Proofs/cat-mean.html) | JoramSoch | 2020-01-16 |
+| P25 | mult-mean | [Mean of the multinomial distribution](/Proofs/mult-mean.html) | JoramSoch | 2020-01-16 |

@@ -30,6 +30,7 @@ shortcut: "dmi-mce"
 username: "JoramSoch"
 ---
 
+
 **Theorem:** Let $X$ and $Y$ be discrete random variables with the joint probability $p(x,y)$ for $x \in \mathcal{X}$ and $y \in \mathcal{Y}$. Then, the mutual information of $X$ and $Y$ can be expressed as
 
 $$ \label{eq:dmi-mce}
