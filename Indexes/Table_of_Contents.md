@@ -91,6 +91,9 @@ title: "Table of Contents"
 
 2. Poisson data
 
+   2.1. Poisson-distributed data <br>
+   &emsp;&ensp; 2.1.1. [Maximum likelihood estimation](/Proofs/poiss-mle.html) <br>
+   
 3. Probability data
 
 4. Categorical data
