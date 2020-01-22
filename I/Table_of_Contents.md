@@ -13,9 +13,12 @@ title: "Table of Contents"
 
 1. Probability theory
 
-   1.1. Bayesian inference <br>
-   &emsp;&ensp; 1.1.1. **[Bayes' theorem](/P/bayes-th.html)** <br>
-   &emsp;&ensp; 1.1.2. **[Bayes' rule](/P/bayes-rule.html)** <br>
+   1.1. Probability distributions <br>
+   &emsp;&ensp; 1.1.1. *[Moment-generating function](/D/mgf.html)* <br>
+   
+   1.2. Bayesian inference <br>
+   &emsp;&ensp; 1.2.1. **[Bayes' theorem](/P/bayes-th.html)** <br>
+   &emsp;&ensp; 1.2.2. **[Bayes' rule](/P/bayes-rule.html)** <br>
 
 2. Estimation theory
 

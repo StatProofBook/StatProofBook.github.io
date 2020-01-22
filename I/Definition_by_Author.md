@@ -4,8 +4,9 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (1 definition)
+### JoramSoch (2 definitions)
 
+- [Moment-generating function](/D/mgf.html)
 - [Multivariate normal distribution](/D/mvn.html)
 
 ### StatProofBook (1 definition)
