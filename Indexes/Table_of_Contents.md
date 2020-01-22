@@ -96,6 +96,9 @@ title: "Table of Contents"
    
 3. Probability data
 
+   3.1. Beta-distributed data <br>
+   &emsp;&ensp; 3.1.1. [Method of moments](/Proofs/beta-mom.html) <br>
+
 4. Categorical data
 
 
