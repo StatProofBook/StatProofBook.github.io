@@ -61,8 +61,8 @@ title: "Table of Contents"
 4. Multivariate continuous distributions
 
    4.1. Multivariate normal distribution <br>
-   &emsp;&ensp; 4.1.1. ***[Definition](/D/mvn.html)*** <br>
-   &emsp;&ensp; 4.1.2. ****[Linear transformation theorem](/P/mvn-ltt.html)**** <br>
+   &emsp;&ensp; 4.1.1. *[Definition](/D/mvn.html)* <br>
+   &emsp;&ensp; 4.1.2. **[Linear transformation theorem](/P/mvn-ltt.html)** <br>
    
    4.2. Normal-gamma distribution <br>
    &emsp;&ensp; 4.2.1. **[Kullback-Leibler divergence](/P/ng-kl.html)** <br>

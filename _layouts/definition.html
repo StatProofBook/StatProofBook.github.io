@@ -36,11 +36,11 @@ layout: default
 	
 	<!-- Metadata -->
 	{% if page.username %}
-	  <b>Metadata:</b> ID: {{ page.definition_id }} | shortcut: {{ page.shortcut }} | author: <a href="https://github.com/{{ page.username }}">{{ page.username }}</a> | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
+	  <b>Metadata:</b> ID: {{ page.def_id }} | shortcut: {{ page.shortcut }} | author: <a href="https://github.com/{{ page.username }}">{{ page.username }}</a> | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
 	{% elsif page.author %}
-	  <b>Metadata:</b> ID: {{ page.definition_id }} | shortcut: {{ page.shortcut }} | author: {{ page.author }} | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
+	  <b>Metadata:</b> ID: {{ page.def_id }} | shortcut: {{ page.shortcut }} | author: {{ page.author }} | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
 	{% else %}
-	  <b>Metadata:</b> ID: {{ page.definition_id }} | shortcut: {{ page.shortcut }} | author: unknown | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
+	  <b>Metadata:</b> ID: {{ page.def_id }} | shortcut: {{ page.shortcut }} | author: unknown | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
 	{% endif %}
 	
   </div>
