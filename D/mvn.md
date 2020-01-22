@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-01-20 05:20:00
+date: 2020-01-22 05:20:00
 
 title: "Multivariate normal distribution"
 chapter: "Probability Distributions"

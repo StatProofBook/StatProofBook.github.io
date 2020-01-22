@@ -4,10 +4,6 @@ title: "Proof by Author"
 ---
 
 
-### Joram Soch (1 proof)
-
-- [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt.html)
-
 ### JoramSoch (27 proofs)
 
 - [Bayes' rule](/P/bayes-rule.html)
@@ -41,3 +37,7 @@ title: "Proof by Author"
 ### StatProofBook (1 proof)
 
 - [Proof Template](/P/-temp-.html)
+
+### unknown (1 proof)
+
+- [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt.html)

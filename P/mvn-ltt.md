@@ -2,7 +2,7 @@
 layout: proof
 mathjax: true
 
-author: "Joram Soch"
+author: 
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2019-08-27 12:14:00
