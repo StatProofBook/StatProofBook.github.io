@@ -4,7 +4,7 @@ title: "Table of Contents"
 ---
 
 
-[Template for The Book of Statistical Proofs](/Proofs/-temp-.html) <br>
+**[Proofs](/P/-temp-.html)** are printed in bold – *[Definitions](/D/-temp-.html)* are set in italics <br>
 
 
 <section class="chapter" id="General Theorems">

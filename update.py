@@ -128,7 +128,7 @@ for file in files:
 
 # Output number of proof files
 #-----------------------------------------------------------------------------#
-print('\n-> TBSP Index Generator:')
+print('\n-> StatProofBook Index Generator:')
 print('   - ' + str(len(proofs)) + ' files found in proof directory!')
 print('   - ' + str(len(definitions)) + ' files found in definition directory!')
 
@@ -162,7 +162,7 @@ for (i, definition) in enumerate(definitions):
     if ~incl[i]:
         print('   - WARNING: definition "' + definitions[definition]['shortcut'] + '" is not in table of contents!')
 if all(incl):
-    print('   - ' + str(sum(incl)) + ' proofs found in table of contents!')
+    print('   - ' + str(sum(incl)) + ' definitions found in table of contents!')
 
 
 # Proof by Number: prepare index file
@@ -277,7 +277,7 @@ print('   - successfully written to disk!')
 
 # Definition by Author: prepare index file
 #-----------------------------------------------------------------------------#
-print('\n4a."Definition_by_Author.md":')
+print('\n4b."Definition_by_Author.md":')
 ind4a = open('I/Definition_by_Author.md', 'w')
 ind4a.write('---\nlayout: page\ntitle: "Definition by Author"\n---\n\n')
 
