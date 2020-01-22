@@ -18,6 +18,10 @@ title: "Proof by Topic"
 - [Derivation of R² and adjusted R²](/Proofs/rsq-der.html)
 - [Derivation of the log model evidence](/Proofs/lme-der.html)
 
+### E
+
+- [Equivalence of matrix-normal distribution and multivariate normal distribution](/Proofs/matn-mvn.html)
+
 ### K
 
 - [Kullback-Leibler divergence for the normal-gamma distribution](/Proofs/ng-kl.html)
@@ -29,6 +33,7 @@ title: "Proof by Topic"
 
 ### M
 
+- [Maximum likelihood estimation for Poisson-distributed data](/Proofs/poiss-mle.html)
 - [Maximum likelihood estimation for the general linear model](/Proofs/glm-mle.html)
 - [Mean of the Bernoulli distribution](/Proofs/bern-mean.html)
 - [Mean of the binomial distribution](/Proofs/bin-mean.html)
@@ -36,6 +41,7 @@ title: "Proof by Topic"
 - [Mean of the multinomial distribution](/Proofs/mult-mean.html)
 - [Mean of the normal distribution](/Proofs/norm-mean.html)
 - [Median of the normal distribution](/Proofs/norm-med.html)
+- [Method of moments for beta-distributed data](/Proofs/beta-mom.html)
 - [Mode of the normal distribution](/Proofs/norm-mode.html)
 
 ### O

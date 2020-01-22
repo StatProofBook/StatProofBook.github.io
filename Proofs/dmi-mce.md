@@ -79,7 +79,7 @@ $$ \label{eq:ME-CE}
 \begin{split}
 \mathrm{H}(X) &= - \sum_{x \in \mathcal{X}} p(x) \log p(x) \\
 \mathrm{H}(X|Y) &= \sum_{y \in \mathcal{Y}} p(y) \, \mathrm{H}(X|Y=y) \; ,
-\begin{split}
+\end{split}
 $$
 
 we can finally show:

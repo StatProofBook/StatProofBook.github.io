@@ -32,3 +32,6 @@ title: "Proof by Number"
 | P23 | bin-mean | [Mean of the binomial distribution](/Proofs/bin-mean.html) | JoramSoch | 2020-01-16 |
 | P24 | cat-mean | [Mean of the categorical distribution](/Proofs/cat-mean.html) | JoramSoch | 2020-01-16 |
 | P25 | mult-mean | [Mean of the multinomial distribution](/Proofs/mult-mean.html) | JoramSoch | 2020-01-16 |
+| P26 | matn-mvn | [Equivalence of matrix-normal distribution and multivariate normal distribution](/Proofs/matn-mvn.html) | JoramSoch | 2020-01-20 |
+| P27 | poiss-mle | [Maximum likelihood estimation for Poisson-distributed data](/Proofs/poiss-mle.html) | JoramSoch | 2020-01-20 |
+| P28 | beta-mom | [Method of moments for beta-distributed data](/Proofs/beta-mom.html) | JoramSoch | 2020-01-22 |

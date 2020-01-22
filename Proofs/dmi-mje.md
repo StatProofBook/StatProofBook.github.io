@@ -68,7 +68,7 @@ Now considering the definitions of marginal and joint entropy
 $$ \label{eq:ME-JE}
 \begin{split}
 \mathrm{H}(X) &= - \sum_{x \in \mathcal{X}} p(x) \log p(x) \\
-\mathrm{H}(X,Y) = - \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} p(x,y) \log p(x,y) \; ,
+\mathrm{H}(X,Y) &= - \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} p(x,y) \log p(x,y) \; ,
 \end{split}
 $$
 
