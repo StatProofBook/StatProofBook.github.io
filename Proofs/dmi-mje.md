@@ -72,6 +72,8 @@ $$ \label{eq:ME-JE}
 \end{split}
 $$
 
+we can finally show:
+
 $$ \label{eq:MI-qed}
 \begin{split}
 \mathrm{I}(X,Y) &= - \mathrm{H}(X,Y) + \mathrm{H}(X) + \mathrm{H}(Y) \\
