@@ -59,9 +59,9 @@ $$ \label{eq:norm-pdf-der2}
 f''_X(x) = \frac{\mathrm{d}^2f_X(x)}{\mathrm{d}x^2} = -\frac{1}{\sqrt{2 \pi} \sigma^3} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] + \frac{1}{\sqrt{2 \pi} \sigma^5} \cdot (-x + \mu)^2 \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] \; .
 $$
 
-We now calculate the root of the first derivative:
+We now calculate the root of the first derivative \eqref{eq:norm-pdf-der1}:
 
-$$ \label{eq:norm-med-s1}
+$$ \label{eq:norm-mode-s1}
 \begin{split}
 f'_X(x) = 0 &= \frac{1}{\sqrt{2 \pi} \sigma^3} \cdot (-x + \mu) \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] \\
 0 &= -x + \mu \\
@@ -69,9 +69,9 @@ x &= \mu \; .
 \end{split}
 $$
 
-By plugging this value into the second deriative,
+By plugging this value into the second deriative \eqref{eq:norm-pdf-der2},
 
-$$ \label{eq:norm-med-s2}
+$$ \label{eq:norm-mode-s2}
 \begin{split}
 f''_X(\mu) &= -\frac{1}{\sqrt{2 \pi} \sigma^3} \cdot \exp(0) + \frac{1}{\sqrt{2 \pi} \sigma^5} \cdot (0)^2 \cdot \exp(0) \\
 &= -\frac{1}{\sqrt{2 \pi} \sigma^3} < 0 \; ,
