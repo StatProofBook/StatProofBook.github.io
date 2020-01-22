@@ -35,9 +35,9 @@ layout: default
     {% endif %}
 	
 	<!-- Metadata -->
-	{% if page.username %}
+	{% if page.username and page.username != blank %}
 	  <b>Metadata:</b> ID: {{ page.proof_id }} | shortcut: {{ page.shortcut }} | author: <a href="https://github.com/{{ page.username }}">{{ page.username }}</a> | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
-	{% elsif page.author %}
+	{% elsif page.author and page.author != blank %}
 	  <b>Metadata:</b> ID: {{ page.proof_id }} | shortcut: {{ page.shortcut }} | author: {{ page.author }} | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
 	{% else %}
 	  <b>Metadata:</b> ID: {{ page.proof_id }} | shortcut: {{ page.shortcut }} | author: unknown | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.

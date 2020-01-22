@@ -22,7 +22,7 @@ sources:
     url: "https://www.springer.com/gp/book/9783540727231"
     doi: "10.1007/978-3-540-72726-2"
 
-definition_id: "D1"
+def_id: "D1"
 shortcut: "mvn"
 username: "JoramSoch"
 ---
