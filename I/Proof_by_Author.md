@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (27 proofs)
+### JoramSoch (28 proofs)
 
 - [Bayes' rule](/P/bayes-rule.html)
 - [Bayes' theorem](/P/bayes-th.html)
@@ -13,6 +13,7 @@ title: "Proof by Author"
 - [Derivation of the log model evidence](/P/lme-der.html)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn.html)
 - [Kullback-Leibler divergence for the normal-gamma distribution](/P/ng-kl.html)
+- [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt.html)
 - [Log model evidence for Bayesian linear regression](/P/blr-lme.html)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle.html)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle.html)
@@ -37,7 +38,3 @@ title: "Proof by Author"
 ### StatProofBook (1 proof)
 
 - [Proof Template](/P/-temp-.html)
-
-### unknown (1 proof)
-
-- [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt.html)
