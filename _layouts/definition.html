@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<article class="post">
+
+  <!-- Title -->
+  <header class="post-header">
+    <h1 class="post-title">Definition: {{ page.title }}</h1>
+  </header>
+
+  <!-- Contents -->
+  <div class="post-content">
+	
+	<!-- Index -->
+	<b>Index:</b> <a href="https://StatProofBook.github.io">The Book of Statistical Proofs</a> &#x25B7; <a href="https://statproofbook.github.io/I/Table_of_Contents.html#{{ page.chapter }}">{{ page.chapter }}</a> &#x25B7; {{ page.section }} &#x25B7; {{ page.topic }} &#x25B7; {{ page.definition }} <br><br>
+	
+	<!-- Definition -->
+	{{ content }}
+	
+	<!-- Sources -->
+	{% if page.sources %}
+	  <b>Sources:</b> <br><ul>
+	  {% for item in page.sources %}
+	    <li>
+	      {{item.authors}} ({{item.year}}): "{{item.title}}"
+		  {% if item.in %}; in: <i>{{item.in}}</i> {% endif %}
+		  {% if item.pages %}, {{item.pages}} {% endif %}
+		  {% if item.url %}; URL: <a href="{{item.url}}">{{item.url}}</a> {% endif %}
+		  {% if item.doi %}; DOI: <a href="https://doi.org/{{item.doi}}">{{item.doi}}</a> {% endif %}.
+	    </li>
+	  {% endfor %} </ul><br>
+	{% else %}
+	  <b>Sources:</b> <br><ul><li>own work</li></ul><br>
+    {% endif %}
+	
+	<!-- Metadata -->
+	{% if page.username %}
+	  <b>Metadata:</b> ID: {{ page.definition_id }} | shortcut: {{ page.shortcut }} | author: <a href="https://github.com/{{ page.username }}">{{ page.username }}</a> | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
+	{% elsif page.author %}
+	  <b>Metadata:</b> ID: {{ page.definition_id }} | shortcut: {{ page.shortcut }} | author: {{ page.author }} | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
+	{% else %}
+	  <b>Metadata:</b> ID: {{ page.definition_id }} | shortcut: {{ page.shortcut }} | author: unknown | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
+	{% endif %}
+	
+  </div>
+
+  <!-- "edit this definition" -->
+  <div style="text-align:right">
+    <small><a href="https://github.com/StatProofBook/StatProofBook.github.io/blob/master/D/{{ page.shortcut }}.md">view/edit this definition</a></small>
+  </div>
+
+</article>
