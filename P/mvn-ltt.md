@@ -22,7 +22,7 @@ sources:
 
 proof_id: "P1"
 shortcut: "mvn-ltt"
-username: "JoramSoch"
+username: ""
 ---
 
 
