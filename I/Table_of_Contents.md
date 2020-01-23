@@ -105,6 +105,9 @@ title: "Table of Contents"
 
 4. Categorical data
 
+   4.1. Binomial observations <br>
+   &emsp;&ensp; 4.1.1. **[Conjugate prior distribution](/P/bin-prior.html)** <br>
+
 
 <section class="chapter" id="Model Selection">
 <h3>Model Selection</h3>
