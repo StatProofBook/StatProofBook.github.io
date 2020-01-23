@@ -82,7 +82,7 @@ $$ \label{eq:matn-mvn-s5}
 \mathcal{MN}(X; M, U, V) = \frac{1}{\sqrt{(2\pi)^{np} |V|^n |U|^p}} \cdot \exp\left[-\frac{1}{2} \left[ \mathrm{vec}(X) - \mathrm{vec}(M) \right]^\mathrm{T} \, \left( V \otimes U \right)^{-1} \left[ \mathrm{vec}(X) - \mathrm{vec}(M) \right] \right] \; .
 $$
 
-Using the Kronecker-determinant relation $\left| A \otimes B \right| = \left| A \right|^m \left| B \right|^n$, we have:
+Using the Kronecker-determinant relation $\lvert A \otimes B \rvert = \lvert A \rvert^m \lvert B \rvert^n$, we have:
 
 $$ \label{eq:matn-mvn-s6}
 \mathcal{MN}(X; M, U, V) = \frac{1}{\sqrt{(2\pi)^{np} |V \otimes U|}} \cdot \exp\left[-\frac{1}{2} \left[ \mathrm{vec}(X) - \mathrm{vec}(M) \right]^\mathrm{T} \, \left( V \otimes U \right)^{-1} \left[ \mathrm{vec}(X) - \mathrm{vec}(M) \right] \right] \; .

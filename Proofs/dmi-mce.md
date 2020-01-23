@@ -75,12 +75,11 @@ $$
 
 Now considering the definitions of marginal and conditional entropy
 
-$$ \label{eq:ME}
-\mathrm{H}(X) = - \sum_{x \in \mathcal{X}} p(x) \log p(x)
-$$
-
-$$ \label{eq:CE}
-\mathrm{H}(X|Y) = \sum_{y \in \mathcal{Y}} p(y) \, \mathrm{H}(X|Y=y) \; ,
+$$ \label{eq:ME-CE}
+\begin{split}
+\mathrm{H}(X) &= - \sum_{x \in \mathcal{X}} p(x) \log p(x) \\
+\mathrm{H}(X|Y) &= \sum_{y \in \mathcal{Y}} p(y) \, \mathrm{H}(X|Y=y) \; ,
+\end{split}
 $$
 
 we can finally show:

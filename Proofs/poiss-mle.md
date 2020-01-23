@@ -59,14 +59,14 @@ $$
 Thus, the log-likelihood function is
 
 $$ \label{eq:Poiss-LL}
-\mathrm{LL}(\lambda) = \log p(y|\lambda) = \log \left( \prod_{i=1}^n \frac{\lambda^{y_i} \cdot \exp(-\lambda)}{y_i !} \right) \; .
+\mathrm{LL}(\lambda) = \log p(y|\lambda) = \log \left[ \prod_{i=1}^n \frac{\lambda^{y_i} \cdot \exp(-\lambda)}{y_i !} \right]
 $$
 
 which can be developed into
 
 $$ \label{eq:Poiss-LL-der}
 \begin{split}
-\mathrm{LL}(\lambda) &= \sum_{i=1}^n \log \left( \frac{\lambda^{y_i} \cdot \exp(-\lambda)}{y_i !} \right) \\
+\mathrm{LL}(\lambda) &= \sum_{i=1}^n \log \left[ \frac{\lambda^{y_i} \cdot \exp(-\lambda)}{y_i !} \right] \\
 &= \sum_{i=1}^n \left[ y_i \cdot \log(\lambda) - \lambda - \log(y_i !) \right] \\
 &= - \sum_{i=1}^n \lambda + \sum_{i=1}^n y_i \cdot \log(\lambda) - \sum_{i=1}^n \log(y_i !) \\
 &= - n \lambda + \log(\lambda) \sum_{i=1}^n y_i - \sum_{i=1}^n \log(y_i !) \\

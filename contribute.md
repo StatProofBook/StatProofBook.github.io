@@ -7,7 +7,7 @@ permalink: /contribute/
 
 Everyone can contribute to **The Book of Statistical Proofs**! Depending on your mathematical knowledge, your computer science skills and the time you are willing to invest, there are three different levels of contributing to the project, with contribution intensity increasing from first to last level.
 
-*Quick Access:* [GitHub Repository](https://github.com/StatProofBook/StatProofBook.github.io) – [Repository Wiki](https://github.com/StatProofBook/StatProofBook.github.io/wiki) – [Proof Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/Proofs/-temp-.md) – [Template Guidelines](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-File) – [Table of Contents](/Indexes/Table_of_Contents.md) – [Old Table of Contents](https://github.com/JoramSoch/TBSP/blob/master/Contents.pdf) – [Wanted Theorems](https://docs.google.com/spreadsheets/d/1MIqVvAgcQL72HCPZ9KDaCZXZRVxBhkrEiLX1Dr7p4Kg/edit?usp=sharing) – [Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdxak_oUsAMws6Xjs7wGNNPdxLwO8Qez0IdZRvLoTuiycibpg/viewform?usp=sf_link)
+*Quick Access:* [GitHub Repository](https://github.com/StatProofBook/StatProofBook.github.io) – [Repository Wiki](https://github.com/StatProofBook/StatProofBook.github.io/wiki) – [Proof Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/P/-temp-.md) – [Definition Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/D/-temp-.md) – [Template Guidelines](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-File) – [Table of Contents](/I/Table_of_Contents.md) – [Old Table of Contents](https://github.com/JoramSoch/TBSP/blob/master/Contents.pdf) – [Wanted Theorems](https://docs.google.com/spreadsheets/d/1MIqVvAgcQL72HCPZ9KDaCZXZRVxBhkrEiLX1Dr7p4Kg/edit?usp=sharing) – [Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdxak_oUsAMws6Xjs7wGNNPdxLwO8Qez0IdZRvLoTuiycibpg/viewform?usp=sf_link)
 
 
 <br>
@@ -24,7 +24,7 @@ Everyone can contribute to **The Book of Statistical Proofs**! Depending on your
 *Required: LaTeX processing software and a Google Drive account*
 
 1. Pick a theorem of your choice and write (or retrieve) a [LaTeX document](https://en.wikipedia.org/wiki/LaTeX) proving this theorem.
-2. Optionally, [embed your proof](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-File) into the [Markdown template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/Proofs/-temp-.md) for "The Book of Statistical Proofs".
+2. Optionally, [embed your proof](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-File) into the [Markdown template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/P/-temp-.md) for "The Book of Statistical Proofs".
 3. Submit your LaTeX or Markdown file via the [online submission form](https://docs.google.com/forms/d/e/1FAIpQLSdxak_oUsAMws6Xjs7wGNNPdxLwO8Qez0IdZRvLoTuiycibpg/viewform?usp=sf_link).
 
 <br>
@@ -33,9 +33,9 @@ Everyone can contribute to **The Book of Statistical Proofs**! Depending on your
 *Required: Markdown processing software and a GitHub account*
 
 1. Login to GitHub and fork the [repository](https://github.com/StatProofBook/StatProofBook.github.io) belonging to this website.
-2. In the subfolder `Proofs`, duplicate the file `-temp-.md` and rename it to `[shortcut].md` where `[shortcut]` is [an abbreviation of your proof](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Naming-Conventions).
+2. In the subfolder `P`, duplicate the file `-temp-.md` and rename it to `[shortcut].md` where `[shortcut]` is [an abbreviation of your proof](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Naming-Conventions).
 3. Now [rewrite this template](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-File) to become the proof of your theorem and [fill in the metadata](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Metadata-Fields) in the header of that document (enclosed by "– – –").
-4. Optionally, edit the file `/Indexes/Table_of_Contents.md` to include a link to `/Proofs/[shortcut].html` in the corresponding section.
+4. Optionally, edit the file `/I/Table_of_Contents.md` to include a link to `/P/[shortcut].html` in the corresponding section.
 5. Optionally, run the Python script `update.py` in the main folder to rewrite the index pages which are linked to [on the homepage](/).
 6. Commit your changes and launch a pull request using the subject `added proof "[shortcut]"`.
 
