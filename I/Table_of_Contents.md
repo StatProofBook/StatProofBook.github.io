@@ -107,6 +107,7 @@ title: "Table of Contents"
 
    4.1. Binomial observations <br>
    &emsp;&ensp; 4.1.1. **[Conjugate prior distribution](/P/bin-prior.html)** <br>
+   &emsp;&ensp; 4.1.2. **[Posterior distribution](/P/bin-prior.html)** <br>
 
 
 <section class="chapter" id="Model Selection">
