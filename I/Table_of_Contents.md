@@ -123,6 +123,9 @@ title: "Table of Contents"
 
 2. Classical information criteria
 
+   2.1. Bayesian information criterion <br>
+   &emsp;&ensp; 2.1.1. **[Derivation of the Bayesian information criterion](/P/bic-der.html)** <br>
+
 3. Bayesian model selection 
 
    3.1. Log model evidence <br>
