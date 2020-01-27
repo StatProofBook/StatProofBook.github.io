@@ -58,7 +58,7 @@ $$ \label{eq:Bin-prior-s1}
 \mathrm{p}(p) = \mathrm{Bet}(p; \alpha_0, \beta_0)
 $$
 
-[whose probability density function](/P/beta-pdf.html)
+the [probability density function of which](/P/beta-pdf.html)
 
 $$ \label{eq:Bin-prior-s2}
 \mathrm{p}(p) = \frac{1}{B(\alpha_0,\beta_0)} \, p^{\alpha_0-1} \, (1-p)^{\beta_0-1}
