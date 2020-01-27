@@ -39,3 +39,5 @@ title: "Proof by Number"
 | P30 | bin-post | [Posterior distribution for binomial observations](/P/bin-post.html) | JoramSoch | 2020-01-24 |
 | P31 | bin-lme | [Log model evidence for binomial observations](/P/bin-lme.html) | JoramSoch | 2020-01-24 |
 | P32 | bic-der | [Derivation of the Bayesian information criterion](/P/bic-der.html) | JoramSoch | 2020-01-26 |
+| P33 | norm-pdf | [Probability density function of the normal distribution](/P/norm-pdf.html) | JoramSoch | 2020-01-27 |
+| P34 | mvn-pdf | [Probability density function of the multivariate normal distribution](/P/mvn-pdf.html) | JoramSoch | 2020-01-27 |

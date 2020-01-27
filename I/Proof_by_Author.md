@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (32 proofs)
+### JoramSoch (34 proofs)
 
 - [Bayes' rule](/P/bayes-rule.html)
 - [Bayes' theorem](/P/bayes-th.html)
@@ -33,6 +33,8 @@ title: "Proof by Author"
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv.html)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post.html)
 - [Posterior distribution for binomial observations](/P/bin-post.html)
+- [Probability density function of the multivariate normal distribution](/P/mvn-pdf.html)
+- [Probability density function of the normal distribution](/P/norm-pdf.html)
 - [Relation of mutual information to joint and conditional entropy](/P/dmi-jce.html)
 - [Relation of mutual information to marginal and conditional entropy](/P/dmi-mce.html)
 - [Relation of mutual information to marginal and joint entropy](/P/dmi-mje.html)

@@ -57,6 +57,8 @@ title: "Proof by Topic"
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv.html)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post.html)
 - [Posterior distribution for binomial observations](/P/bin-post.html)
+- [Probability density function of the multivariate normal distribution](/P/mvn-pdf.html)
+- [Probability density function of the normal distribution](/P/norm-pdf.html)
 - [Proof Template](/P/-temp-.html)
 
 ### R
