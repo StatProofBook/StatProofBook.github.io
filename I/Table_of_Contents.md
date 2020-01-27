@@ -5,7 +5,7 @@ title: "Table of Contents"
 
 
 **[Proofs](/P/-temp-.html)** are printed in **bold** – *[Definitions](/D/-temp-.html)* are set in *italics* <br>
-Proofs by **[[Number]](/I/Proof_by_Number.html)** and **[[Topic]](/I/Proof_by_Topic.html)** - Definitions by *[[Number]](/I/Definition_by_Number.html)* and *[[Topic]](/I/Definition_by_Topic.html)* <br>
+Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.html)** – Definitions by *[Number](/I/Definition_by_Number.html)* and *[Topic](/I/Definition_by_Topic.html)* <br>
 
 
 <section class="chapter" id="General Theorems">
@@ -125,7 +125,7 @@ Proofs by **[[Number]](/I/Proof_by_Number.html)** and **[[Topic]](/I/Proof_by_To
 2. Classical information criteria
 
    2.1. Bayesian information criterion <br>
-   &emsp;&ensp; 2.1.1. **[Derivation of the Bayesian information criterion](/P/bic-der.html)** <br>
+   &emsp;&ensp; 2.1.1. **[Derivation](/P/bic-der.html)** <br>
 
 3. Bayesian model selection 
 
