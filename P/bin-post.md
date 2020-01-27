@@ -66,7 +66,7 @@ Combining the likelihood function \eqref{eq:Bin-LF} with the prior distribution 
 $$ \label{eq:Bin-JL}
 \begin{split}
 \mathrm{p}(y,p) &= \mathrm{p}(y|p) \, \mathrm{p}(p) \\
-&= {n \choose y} \, p^y \, (1-p)^{n-y} \cdot  \, p^{\alpha_0-1} \, (1-p)^{\beta_0-1} \\
+&= {n \choose y} \, p^y \, (1-p)^{n-y} \cdot frac{1}{B(\alpha_0,\beta_0)} \, p^{\alpha_0-1} \, (1-p)^{\beta_0-1} \\
 &= \frac{1}{B(\alpha_0,\beta_0)} {n \choose y} \, p^{\alpha_0+y-1} \, (1-p)^{\beta_0+(n-y)-1} \; .
 \end{split}
 $$

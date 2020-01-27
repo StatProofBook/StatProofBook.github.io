@@ -5,6 +5,7 @@ title: "Table of Contents"
 
 
 **[Proofs](/P/-temp-.html)** are printed in **bold** – *[Definitions](/D/-temp-.html)* are set in *italics* <br>
+Proofs by **[[Number]](/I/Proof_by_Number.html)** and **[[Topic]](/I/Proof_by_Topic.html)** - Definitions by *[[Number]](/I/Definition_by_Number.html)* and *[[Topic]](/I/Definition_by_Topic.html)* <br>
 
 
 <section class="chapter" id="General Theorems">
