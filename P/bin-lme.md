@@ -47,12 +47,12 @@ $$
 
 where the posterior hyperparameters are given by
 
-\begin{equation} \label{eq:Bin-post-par}
+$$ \label{eq:Bin-post-par}
 \begin{split}
 \alpha_n &= \alpha_0 + y \\
 \beta_n &= \beta_0 + (n-y) \; .
 \end{split}
-\end{equation}
+$$
 
 
 **Proof:** With the [probability mass function of the binomial distribution](/P/bin-pmf.html), the likelihood function implied by \eqref{eq:Bin} is given by
@@ -63,13 +63,13 @@ $$
 
 Combining the likelihood function \eqref{eq:Bin-LF} with the prior distribution \eqref{eq:Bin-prior}, the joint likelihood of the model is given by
 
-\begin{equation} \label{eq:Bin-JL-s1}
+$$ \label{eq:Bin-JL-s1}
 \begin{split}
 \mathrm{p}(y,p) &= \mathrm{p}(y|p) \, \mathrm{p}(p) \\
-&= {n \choose y} \, p^y \, (1-p)^{n-y} \cdot  \, p^{\alpha_0-1} \, (1-p)^{\beta_0-1} \\
+&= {n \choose y} \, p^y \, (1-p)^{n-y} \cdot frac{1}{B(\alpha_0,\beta_0)} \, p^{\alpha_0-1} \, (1-p)^{\beta_0-1} \\
 &= {n \choose y} \, \frac{1}{B(\alpha_0,\beta_0)} \, p^{\alpha_0+y-1} \, (1-p)^{\beta_0+(n-y)-1} \; .
 \end{split}
-\end{equation}
+$$
 
 Note that the model evidence is the marginal density of the joint likelihood:
 
@@ -85,13 +85,13 @@ $$
 
 Using the [probability density function of the beta distribution](/P/beta-pdf.html), $p$ can now be integrated out easily
 
-\begin{equation} \label{eq:Bin-ME-qed}
+$$ \label{eq:Bin-ME-qed}
 \begin{split}
 \mathrm{p}(y) &= \int {n \choose y} \, \frac{1}{B(\alpha_0,\beta_0)} \, \frac{B(\alpha_n,\beta_n)}{1} \, \frac{1}{B(\alpha_n,\beta_n)} \, p^{\alpha_n-1} \, (1-p)^{\beta_n-1} \, \mathrm{d}p \\
 &= {n \choose y} \, \frac{B(\alpha_n,\beta_n)}{B(\alpha_0,\beta_0)} \int \mathrm{Bet}(p; \alpha_n, \beta_n) \, \mathrm{d}p \\
 &= {n \choose y} \, \frac{B(\alpha_n,\beta_n)}{B(\alpha_0,\beta_0)} \; ,
 \end{split}
-\end{equation}
+$$
 
 such that the log model evidence is shown to be
 

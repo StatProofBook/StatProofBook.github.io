@@ -35,3 +35,7 @@ title: "Proof by Number"
 | P26 | matn-mvn | [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn.html) | JoramSoch | 2020-01-20 |
 | P27 | poiss-mle | [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle.html) | JoramSoch | 2020-01-20 |
 | P28 | beta-mom | [Method of moments for beta-distributed data](/P/beta-mom.html) | JoramSoch | 2020-01-22 |
+| P29 | bin-prior | [Conjugate prior distribution for binomial observations](/P/bin-prior.html) | JoramSoch | 2020-01-23 |
+| P30 | bin-post | [Posterior distribution for binomial observations](/P/bin-post.html) | JoramSoch | 2020-01-24 |
+| P31 | bin-lme | [Log model evidence for binomial observations](/P/bin-lme.html) | JoramSoch | 2020-01-24 |
+| P32 | bic-der | [Derivation of the Bayesian information criterion](/P/bic-der.html) | JoramSoch | 2020-01-26 |

@@ -47,12 +47,12 @@ $$
 
 and the posterior hyperparameters are given by
 
-\begin{equation} \label{eq:Bin-post-par}
+$$ \label{eq:Bin-post-par}
 \begin{split}
 \alpha_n &= \alpha_0 + y \\
 \beta_n &= \beta_0 + (n-y) \; .
 \end{split}
-\end{equation}
+$$
 
 
 **Proof:** With the [probability mass function of the binomial distribution](/P/bin-pmf.html), the likelihood function implied by \eqref{eq:Bin} is given by
@@ -63,13 +63,13 @@ $$
 
 Combining the likelihood function \eqref{eq:Bin-LF} with the prior distribution \eqref{eq:Bin-prior}, the joint likelihood of the model is given by
 
-\begin{equation} \label{eq:Bin-JL}
+$$ \label{eq:Bin-JL}
 \begin{split}
 \mathrm{p}(y,p) &= \mathrm{p}(y|p) \, \mathrm{p}(p) \\
-&= {n \choose y} \, p^y \, (1-p)^{n-y} \cdot  \, p^{\alpha_0-1} \, (1-p)^{\beta_0-1} \\
+&= {n \choose y} \, p^y \, (1-p)^{n-y} \cdot frac{1}{B(\alpha_0,\beta_0)} \, p^{\alpha_0-1} \, (1-p)^{\beta_0-1} \\
 &= \frac{1}{B(\alpha_0,\beta_0)} {n \choose y} \, p^{\alpha_0+y-1} \, (1-p)^{\beta_0+(n-y)-1} \; .
 \end{split}
-\end{equation}
+$$
 
 Note that the posterior distribution is proportional to the joint likelihood:
 

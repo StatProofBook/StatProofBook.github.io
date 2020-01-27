@@ -12,10 +12,12 @@ title: "Proof by Topic"
 ### C
 
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior.html)
+- [Conjugate prior distribution for binomial observations](/P/bin-prior.html)
 
 ### D
 
 - [Derivation of R² and adjusted R²](/P/rsq-der.html)
+- [Derivation of the Bayesian information criterion](/P/bic-der.html)
 - [Derivation of the log model evidence](/P/lme-der.html)
 
 ### E
@@ -30,6 +32,7 @@ title: "Proof by Topic"
 
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt.html)
 - [Log model evidence for Bayesian linear regression](/P/blr-lme.html)
+- [Log model evidence for binomial observations](/P/bin-lme.html)
 
 ### M
 
@@ -53,6 +56,7 @@ title: "Proof by Topic"
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc.html)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv.html)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post.html)
+- [Posterior distribution for binomial observations](/P/bin-post.html)
 - [Proof Template](/P/-temp-.html)
 
 ### R

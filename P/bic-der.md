@@ -47,21 +47,21 @@ $$
 
 and define the functions $g$ and $h$ as follows:
 
-\begin{equation} \label{eq:gh}
+$$ \label{eq:gh}
 \begin{split}
 g(\theta) &= p(\theta|m) \\
 h(\theta) &= \frac{1}{n} \, \mathrm{LL}(\theta) \; .
 \end{split}
-\end{equation}
+$$
 
 Then, the marginal likelihood can be written as follows:
 
-\begin{equation} \label{eq:ML}
+$$ \label{eq:ML}
 \begin{split}
 p(y|m) &= \int_{\Theta} p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta \\
 &= \int_{\Theta} \mathrm{exp}\left[n \, h(\theta)\right] \, g(\theta) \, \mathrm{d}\theta \; .
 \end{split}
-\end{equation}
+$$
 
 This is an integral suitable for Laplace approximation which states that
 
@@ -69,7 +69,7 @@ $$ \label{eq:LA}
 \int_{\Theta} \mathrm{exp}\left[n \, h(\theta)\right] \, g(\theta) \, \mathrm{d}\theta = \left( \sqrt{\frac{2 \pi}{n}} \right)^p \mathrm{exp}\left[n \, h(\theta_0)\right] \left( g(\theta_0) \left| J(\theta_0) \right|^{-1/2} + O(1/n) \right)
 $$
 
-where $\theta_0$ is the value that maximises $h(\theta)$ and $J(\theta_0)$ is the Hessian matrix evaluated at $\theta_0$. In our case, we have $h(\theta) = 1/n \, \mathrm{LL}(\theta)$ such that $\theta_0$ is the maximum likelihood estimator $\hat{\theta}$:
+where $\theta_0$ is the value that maximizes $h(\theta)$ and $J(\theta_0)$ is the Hessian matrix evaluated at $\theta_0$. In our case, we have $h(\theta) = 1/n \, \mathrm{LL}(\theta)$ such that $\theta_0$ is the maximum likelihood estimator $\hat{\theta}$:
 
 $$ \label{eq:MLE}
 \hat{\theta} = \operatorname*{arg\,max}_\theta \mathrm{LL}(\theta) \; .
