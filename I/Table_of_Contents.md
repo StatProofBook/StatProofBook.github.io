@@ -56,25 +56,33 @@ Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.
 
 3. Univariate continuous distributions
 
-   3.1. Normal distribution <br>
-   &emsp;&ensp; 3.1.1. **[Mean](/P/norm-mean.html)** <br>
-   &emsp;&ensp; 3.1.2. **[Median](/P/norm-med.html)** <br>
-   &emsp;&ensp; 3.1.3. **[Mode](/P/norm-mode.html)** <br>
-   &emsp;&ensp; 3.1.4. **[Variance](/P/norm-var.html)** <br>
+   3.1. Continuous uniform distribution <br>
+   &emsp;&ensp; 3.1.1. *[Definition](/D/cuni.html)* <br>
+
+   3.2. Normal distribution <br>
+   &emsp;&ensp; 3.2.1. *[Definition](/D/norm.html)* <br>
+   &emsp;&ensp; 3.2.2. **[Probability density function](/P/norm-pdf.html)** <br>
+   &emsp;&ensp; 3.2.3. **[Mean](/P/norm-mean.html)** <br>
+   &emsp;&ensp; 3.2.4. **[Median](/P/norm-med.html)** <br>
+   &emsp;&ensp; 3.2.5. **[Mode](/P/norm-mode.html)** <br>
+   &emsp;&ensp; 3.2.6. **[Variance](/P/norm-var.html)** <br>
 
 4. Multivariate continuous distributions
 
    4.1. Multivariate normal distribution <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn.html)* <br>
-   &emsp;&ensp; 4.1.2. **[Linear transformation theorem](/P/mvn-ltt.html)** <br>
+   &emsp;&ensp; 4.1.2. **[Probability density function](/P/mvn-pdf.html)** <br>
+   &emsp;&ensp; 4.1.3. **[Linear transformation theorem](/P/mvn-ltt.html)** <br>
    
    4.2. Normal-gamma distribution <br>
-   &emsp;&ensp; 4.2.1. **[Kullback-Leibler divergence](/P/ng-kl.html)** <br>
+   &emsp;&ensp; 4.2.1. *[Definition](/D/ng.html)* <br>
+   &emsp;&ensp; 4.2.2. **[Kullback-Leibler divergence](/P/ng-kl.html)** <br>
 
 5. Matrix-variate continuous distributions
 
    5.1. Matrix-normal distribution <br>
-   &emsp;&ensp; 5.1.1. **[Equivalence to multivariate normal distribution](/P/matn-mvn.html)** <br>
+   &emsp;&ensp; 5.1.1. *[Definition](/D/matn.html)* <br>
+   &emsp;&ensp; 5.1.2. **[Equivalence to multivariate normal distribution](/P/matn-mvn.html)** <br>
 
 
 <section class="chapter" id="Statistical Models">
