@@ -73,10 +73,12 @@ Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn.html)* <br>
    &emsp;&ensp; 4.1.2. **[Probability density function](/P/mvn-pdf.html)** <br>
    &emsp;&ensp; 4.1.3. **[Linear transformation theorem](/P/mvn-ltt.html)** <br>
+   &emsp;&ensp; 4.1.4. **[Marginal distributions](/P/mvn-marg.html)** <br>
    
    4.2. Normal-gamma distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/ng.html)* <br>
-   &emsp;&ensp; 4.2.2. **[Kullback-Leibler divergence](/P/ng-kl.html)** <br>
+   &emsp;&ensp; 4.2.2. **[Marginal distributions](/P/ng-marg.html)** <br>
+   &emsp;&ensp; 4.2.3. **[Kullback-Leibler divergence](/P/ng-kl.html)** <br>
 
 5. Matrix-variate continuous distributions
 
