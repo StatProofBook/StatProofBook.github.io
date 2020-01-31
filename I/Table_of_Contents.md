@@ -58,6 +58,7 @@ Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.
 
    3.1. Continuous uniform distribution <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/cuni.html)* <br>
+   &emsp;&ensp; 3.1.2. **[Probability density function](/P/cuni-pdf.html)** <br>
 
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm.html)* <br>
