@@ -113,13 +113,18 @@ Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.
    2.1. Poisson-distributed data <br>
    &emsp;&ensp; 2.1.1. **[Maximum likelihood estimation](/P/poiss-mle.html)** <br>
    
+   2.2. Poisson distribution with exposure values <br>
+   &emsp;&ensp; 2.2.1. **[Conjugate prior distribution](/P/poissexp-prior.html)** <br>
+   &emsp;&ensp; 2.2.2. **[Posterior distribution](/P/poissexp-post.html)** <br>
+   &emsp;&ensp; 2.2.3. **[Log model evidence](/P/poissexp-lme.html)** <br>
+   
 3. Probability data
 
    3.1. Beta-distributed data <br>
    &emsp;&ensp; 3.1.1. **[Method of moments](/P/beta-mom.html)** <br>
 
 4. Categorical data
-
+   
    4.1. Binomial observations <br>
    &emsp;&ensp; 4.1.1. **[Conjugate prior distribution](/P/bin-prior.html)** <br>
    &emsp;&ensp; 4.1.2. **[Posterior distribution](/P/bin-post.html)** <br>
