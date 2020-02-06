@@ -11,7 +11,6 @@ Welcome to **The Book of Statistical Proofs** -- <br>
 *a centralized, open and collaboratively edited archive <br>
 of statistical theorems for the computational sciences*! <br>
 
-<br>
 <table style="border:none">
   <tr>
     <td style="text-align:center">
@@ -32,7 +31,6 @@ of statistical theorems for the computational sciences*! <br>
   </tr>
 </table>
 
-<br>
 <div align="center">
 You can also <a href="https://github.com/StatProofBook/StatProofBookTools/blob/master/write_book/StatProofBook.pdf">view</a> or <a href="https://github.com/StatProofBook/StatProofBookTools/raw/master/write_book/StatProofBook.pdf">download</a> the entire book as a single PDF.
 </div>
