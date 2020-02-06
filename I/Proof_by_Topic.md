@@ -13,6 +13,8 @@ title: "Proof by Topic"
 
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior.html)
 - [Conjugate prior distribution for binomial observations](/P/bin-prior.html)
+- [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior.html)
+- [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf.html)
 
 ### D
 
@@ -33,9 +35,12 @@ title: "Proof by Topic"
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt.html)
 - [Log model evidence for Bayesian linear regression](/P/blr-lme.html)
 - [Log model evidence for binomial observations](/P/bin-lme.html)
+- [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme.html)
 
 ### M
 
+- [Marginal distributions of the multivariate normal distribution](/P/mvn-marg.html)
+- [Marginal distributions of the normal-gamma distribution](/P/ng-marg.html)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle.html)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle.html)
 - [Mean of the Bernoulli distribution](/P/bern-mean.html)
@@ -50,6 +55,7 @@ title: "Proof by Topic"
 ### O
 
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols.html)
+- [Ordinary least squares for multiple linear regression](/P/mlr-ols2.html)
 
 ### P
 
@@ -57,9 +63,15 @@ title: "Proof by Topic"
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv.html)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post.html)
 - [Posterior distribution for binomial observations](/P/bin-post.html)
+- [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post.html)
+- [Probability density function of the continuous uniform distribution](/P/cuni-pdf.html)
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf.html)
 - [Probability density function of the normal distribution](/P/norm-pdf.html)
 - [Proof Template](/P/-temp-.html)
+
+### Q
+
+- [Quantile function of the continuous uniform distribution](/P/cuni-qf.html)
 
 ### R
 

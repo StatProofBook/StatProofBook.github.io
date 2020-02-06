@@ -41,3 +41,12 @@ title: "Proof by Number"
 | P32 | bic-der | [Derivation of the Bayesian information criterion](/P/bic-der.html) | JoramSoch | 2020-01-26 |
 | P33 | norm-pdf | [Probability density function of the normal distribution](/P/norm-pdf.html) | JoramSoch | 2020-01-27 |
 | P34 | mvn-pdf | [Probability density function of the multivariate normal distribution](/P/mvn-pdf.html) | JoramSoch | 2020-01-27 |
+| P35 | mvn-marg | [Marginal distributions of the multivariate normal distribution](/P/mvn-marg.html) | JoramSoch | 2020-01-29 |
+| P36 | ng-marg | [Marginal distributions of the normal-gamma distribution](/P/ng-marg.html) | JoramSoch | 2020-01-29 |
+| P37 | cuni-pdf | [Probability density function of the continuous uniform distribution](/P/cuni-pdf.html) | JoramSoch | 2020-01-31 |
+| P38 | cuni-cdf | [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf.html) | JoramSoch | 2020-01-02 |
+| P39 | cuni-qf | [Quantile function of the continuous uniform distribution](/P/cuni-qf.html) | JoramSoch | 2020-01-02 |
+| P40 | mlr-ols2 | [Ordinary least squares for multiple linear regression](/P/mlr-ols2.html) | JoramSoch | 2020-02-03 |
+| P41 | poissexp-prior | [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior.html) | JoramSoch | 2020-02-04 |
+| P42 | poissexp-post | [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post.html) | JoramSoch | 2020-02-04 |
+| P43 | poissexp-lme | [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme.html) | JoramSoch | 2020-02-04 |
