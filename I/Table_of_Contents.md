@@ -146,7 +146,7 @@ Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.
    2.1. Bayesian information criterion <br>
    &emsp;&ensp; 2.1.1. **[Derivation](/P/bic-der.html)** <br>
 
-3. Bayesian model selection 
+3. Bayesian model selection
 
    3.1. Log model evidence <br>
    &emsp;&ensp; 3.1.1. **[Derivation](/P/lme-der.html)** <br>

@@ -15,7 +15,7 @@ Author: Joram Soch, BCCN Berlin
 E-Mail: joram.soch@bccn-berlin.de
 
 First edit: 2019-09-27 12:55:00
- Last edit: 2020-01-22 XX:XX:00
+ Last edit: 2020-01-22 08:03:00
 """
 
 
@@ -61,7 +61,7 @@ for file in files:
                 username = re.sub('"', '', line[10:-1])
                 if not username:
                     if not author:
-                        username = "unknown"
+                        username = 'unknown'
                     else:
                         username = author
             if line.find('date:') == 0:
@@ -111,7 +111,7 @@ for file in files:
                 username = re.sub('"', '', line[10:-1])
                 if not username:
                     if not author:
-                        username = "unknown"
+                        username = 'unknown'
                     else:
                         username = author
             if line.find('date:') == 0:
