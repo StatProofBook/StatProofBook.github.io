@@ -37,7 +37,7 @@ $$
 if and only if its probability density function is given by
 
 $$ \label{eq:mvn-pdf}
-f_X(x) = \mathcal{N}(x; \mu, \Sigma) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right]
+\mathcal{N}(x; \mu, \Sigma) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right]
 $$
 
 where $\mu$ is an $n \times 1$ real vector and $\Sigma$ is an $n \times n$ positive definite matrix.

@@ -30,23 +30,25 @@ $$
 Then, the cumulative distribution function of $X$ is
 
 $$ \label{eq:cuni-cdf}
-F_X(x) =
-\begin{cases}
-\;\; 0 & , \text{if} \; x < a \\
-\frac{x-a}{b-a} & , \text{if} \; a \leq x \leq b \\
-\;\; 1 & , \text{if} \; x > b \; .
-\end{cases}
+F_X(x) = \left\{
+\begin{array}{rl}
+0 \; , & \text{if} \; x < a \\
+\frac{x-a}{b-a} \; , & \text{if} \; a \leq x \leq b \\
+1 \; , & \text{if} \; x > b \; .
+\end{array}
+\right.
 $$
 
 
 **Proof:** The [probability density function of the continuous uniform distribution](/P/cuni-pdf.html) is:
 
 $$ \label{eq:cuni-pdf}
-\mathcal{U}(x; a, b) =
-\begin{cases}
-\frac{1}{b-a} & , \text{if} \; a \leq x \leq b \\
-\;\; 0 & , \text{otherwise} \; .
-\end{cases}
+f_X(x) = \left\{
+\begin{array}{rl}
+\frac{1}{b-a} \; , & \text{if} \; a \leq x \leq b \\
+0 \; , & \text{otherwise} \; .
+\end{array}
+\right.
 $$
 
 Thus, the [cumulative distribution function](/D/cdf.html) is:
@@ -55,13 +57,13 @@ $$ \label{eq:cuni-cdf-s1}
 F_X(x) = \int_{-\infty}^{x} \mathcal{U}(z; a, b) \, \mathrm{d}z
 $$
 
-If $x < a$, we have
+First of all, if $x < a$, we have
 
 $$ \label{eq:cuni-cdf-s2a}
 F_X(x) = \int_{-\infty}^{x} 0 \, \mathrm{d}z = 0 \; .
 $$
 
-If $a \leq x \leq b$, we have
+Moreover, if $a \leq x \leq b$, we have using \eqref{eq:cuni-pdf}
 
 $$ \label{eq:cuni-cdf-s2b}
 \begin{split}
@@ -72,7 +74,7 @@ F_X(x) &= \int_{-\infty}^{a} \mathcal{U}(z; a, b) \, \mathrm{d}z + \int_{a}^{x} 
 \end{split}
 $$
 
-If $x > b$, we have
+Finally, if $x > b$, we have
 
 $$ \label{eq:cuni-cdf-s2c}
 \begin{split}

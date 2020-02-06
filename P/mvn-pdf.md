@@ -30,7 +30,7 @@ $$
 Then, the probability density function of $X$ is
 
 $$ \label{eq:mvn-pdf}
-f_X(x) = \mathcal{N}(x; \mu, \Sigma) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \; .
+f_X(x) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \; .
 $$
 
 

@@ -37,12 +37,13 @@ $$
 **Proof:** The [cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf.html) is:
 
 $$ \label{eq:cuni-cdf}
-F_X(x) =
-\begin{cases}
-\;\; 0 & , \text{if} \; x < a \\
-\frac{x-a}{b-a} & , \text{if} \; a \leq x \leq b \\
-\;\; 1 & , \text{if} \; x > b \; .
-\end{cases}
+F_X(x) = \left\{
+\begin{array}{rl}
+0 \; , & \text{if} \; x < a \\
+\frac{x-a}{b-a} \; , & \text{if} \; a \leq x \leq b \\
+1 \; , & \text{if} \; x > b \; .
+\end{array}
+\right.
 $$
 
 Thus, the [quantile function](/D/qf.html) is:

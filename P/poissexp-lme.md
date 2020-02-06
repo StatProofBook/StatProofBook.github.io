@@ -42,7 +42,7 @@ $$ \label{eq:Poiss-exp-LME}
 \end{split}
 $$
 
-and the posterior hyperparameters are given by
+where the posterior hyperparameters are given by
 
 $$ \label{eq:Poiss-exp-post-par}
 \begin{split}
