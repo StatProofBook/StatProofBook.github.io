@@ -73,7 +73,7 @@ $$
 
 Note that the model evidence is the marginal density of the joint likelihood:
 
-$$ \label{eq:Bin-ME-s1}
+$$ \label{eq:Bin-ME}
 \mathrm{p}(y) = \int \mathrm{p}(y,p) \, \mathrm{d}p \; .
 $$
 

@@ -14,6 +14,12 @@ topic: "Poisson distribution with exposure values"
 theorem: "Posterior distribution"
 
 sources:
+  - authors: "Gelman A, Carlin JB, Stern HS, Dunson DB, Vehtari A, Rubin DB"
+    year: 2014
+    title: "Other standard single-parameter models"
+    in: "Bayesian Data Analysis"
+    pages: "3rd edition, ch. 2.6, p. 45, eq. 2.15"
+    url: "http://www.stat.columbia.edu/~gelman/book/"
 
 proof_id: "P42"
 shortcut: "poissexp-post"

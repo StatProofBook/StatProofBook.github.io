@@ -30,11 +30,12 @@ $$
 Then, the probability density function of $X$ is
 
 $$ \label{eq:cuni-pdf}
-f_X(x) =
-\begin{cases}
-\frac{1}{b-a} & , \text{if} \; a \leq x \leq b \\
-\;\; 0 & , \text{otherwise} \; .
-\end{cases}
+f_X(x) = \left\{
+\begin{array}{rl}
+\frac{1}{b-a} \; , & \text{if} \; a \leq x \leq b \\
+0 \; , & \text{otherwise} \; .
+\end{array}
+\right.
 $$
 
 
