@@ -80,8 +80,9 @@ Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.
    
    4.2. Normal-gamma distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/ng.html)* <br>
-   &emsp;&ensp; 4.2.2. **[Marginal distributions](/P/ng-marg.html)** <br>
+   &emsp;&ensp; 4.2.2. **[Probability density function](/P/ng-pdf.html)** <br>
    &emsp;&ensp; 4.2.3. **[Kullback-Leibler divergence](/P/ng-kl.html)** <br>
+   &emsp;&ensp; 4.2.4. **[Marginal distributions](/P/ng-marg.html)** <br>
 
 5. Matrix-variate continuous distributions
 
