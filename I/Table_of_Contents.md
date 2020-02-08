@@ -70,6 +70,14 @@ Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.
    &emsp;&ensp; 3.2.5. **[Mode](/P/norm-mode.html)** <br>
    &emsp;&ensp; 3.2.6. **[Variance](/P/norm-var.html)** <br>
 
+   3.3. Gamma distribution <br>
+   &emsp;&ensp; 3.3.1. *[Definition](/D/gam.html)* <br>
+   &emsp;&ensp; 3.3.2. **[Probability density function](/P/gam-pdf.html)** <br>
+
+   3.4. Exponential distribution <br>
+   &emsp;&ensp; 3.4.1. *[Definition](/D/exp.html)* <br>
+   &emsp;&ensp; 3.4.2. **[Probability density function](/P/exp-pdf.html)** <br>
+
 4. Multivariate continuous distributions
 
    4.1. Multivariate normal distribution <br>
