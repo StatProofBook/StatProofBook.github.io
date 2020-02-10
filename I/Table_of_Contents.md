@@ -77,6 +77,7 @@ Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.
    3.4. Exponential distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/exp.html)* <br>
    &emsp;&ensp; 3.4.2. **[Probability density function](/P/exp-pdf.html)** <br>
+   &emsp;&ensp; 3.4.3. **[Mean](/P/exp-mean.html)** <br>
 
 4. Multivariate continuous distributions
 
