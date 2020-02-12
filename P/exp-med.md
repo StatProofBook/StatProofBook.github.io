@@ -27,41 +27,33 @@ $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; .
 $$
 
-Then, the mean or expected value of $X$ is
+Then, the median of $X$ is
 
-$$ \label{eq:exp-mean}
-\mathrm{E}(X) = \frac{1}{\lambda} \; .
+$$ \label{eq:exp-med}
+\mathrm{median}(X) = \frac{\ln 2}{\lambda} \; .
 $$
 
 
-**Proof:** The [expected value](/D/ev.html) is the probability-weighted average over all possible values:
+**Proof:** The [median](/D/med.html) is the value at which the cumulative distribution function is $1/2$:
 
-$$ \label{eq:mean}
-\mathrm{E}(X) = \int_{\mathbb{R}} x \cdot f_\mathrm{X}(x) \, \mathrm{d}x \; .
+$$ \label{eq:median}
+F_X(\mathrm{median}(X)) = \frac{1}{2} \; .
 $$
 
-With the [probability density function of the exponential distribution](/P/exp-pdf.html), this reads:
+The [cumulative distribution function of the exponential distribution](/D/exp-cdf.html) is
 
-$$ \label{eq:exp-mean-s1}
-\begin{split}
-\mathrm{E}(X) &= \int_{0}^{+\infty} x \cdot \lambda \exp(-\lambda x) \, \mathrm{d}x \\
-&= \lambda \int_{0}^{+\infty} x \cdot \exp(-\lambda x) \, \mathrm{d}x \; .
-\end{split}
+$$ \label{eq:exp-cdf}
+F_X(x) = 1 - \exp[-\lambda x], \quad x \geq 0 \; .
 $$
 
-Using the following anti-deriative
+Thus, the inverse CDF is
 
-$$ \label{eq:exp-mean-s2}
-\int x \cdot \exp(-\lambda x) \, \mathrm{d}x = \left( - \frac{1}{\lambda} x - \frac{1}{\lambda^2} \right) \exp(-\lambda x) \; ,
+$$ \label{eq:exp-cdf-inv}
+x = -\frac{\ln(1-p)}{\lambda}
 $$
 
-the expected value becomes
+and setting $p = 1/2$, we obtain:
 
-$$ \label{eq:exp-mean-s3}
-\begin{split}
-\mathrm{E}(X) &= \lambda \left[ \left( - \frac{1}{\lambda} x - \frac{1}{\lambda^2} \right) \exp(-\lambda x) \right]_{0}^{+\infty} \\
-&= \lambda \left[ \lim_{x \to \infty} \left( - \frac{1}{\lambda} x - \frac{1}{\lambda^2} \right) \exp(-\lambda x) - \left( - \frac{1}{\lambda} \cdot 0 - \frac{1}{\lambda^2} \right) \exp(-\lambda \cdot 0) \right] \\
-&= \lambda \left[ 0 + \frac{1}{\lambda^2} \right] \\
-&= \frac{1}{\lambda} \; .
-\end{split}
+$$ \label{eq:exp-med-qed}
+\mathrm{median}(X) = -\frac{\ln(1-\frac{1}{2})}{\lambda} = \frac{\ln 2}{\lambda} \; .
 $$
