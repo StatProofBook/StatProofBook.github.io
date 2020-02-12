@@ -78,8 +78,10 @@ Proofs by **[Number](/I/Proof_by_Number.html)** and **[Topic](/I/Proof_by_Topic.
    &emsp;&ensp; 3.4.1. *[Definition](/D/exp.html)* <br>
    &emsp;&ensp; 3.4.2. **[Probability density function](/P/exp-pdf.html)** <br>
    &emsp;&ensp; 3.4.3. **[Cumulative distribution function](/P/exp-cdf.html)** <br>
-   &emsp;&ensp; 3.4.4. **[Mean](/P/exp-mean.html)** <br>
-   &emsp;&ensp; 3.4.5. **[Median](/P/exp-med.html)** <br>
+   &emsp;&ensp; 3.4.4. **[Quantile function](/P/exp-qf.html)** <br>
+   &emsp;&ensp; 3.4.5. **[Mean](/P/exp-mean.html)** <br>
+   &emsp;&ensp; 3.4.6. **[Median](/P/exp-med.html)** <br>
+   &emsp;&ensp; 3.4.7. **[Mode](/P/exp-mode.html)** <br>
 
 4. Multivariate continuous distributions
 
