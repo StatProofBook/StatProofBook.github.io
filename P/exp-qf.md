@@ -21,20 +21,20 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following an [exponential distribution](/D/exp.html):
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following an [exponential distribution](/D/exp):
 
 $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; .
 $$
 
-Then, the [quantile function](/D/qf.html) of $X$ is
+Then, the [quantile function](/D/qf) of $X$ is
 
 $$ \label{eq:exp-qf}
 Q_X(p) = -\frac{\ln(1-p)}{\lambda} \; .
 $$
 
 
-**Proof:** The [cumulative distribution function of the exponential distribution](/P/exp-cdf.html) is:
+**Proof:** The [cumulative distribution function of the exponential distribution](/P/exp-cdf) is:
 
 $$ \label{eq:exp-cdf}
 F_X(x) = \left\{
@@ -45,7 +45,7 @@ F_X(x) = \left\{
 \right.
 $$
 
-Thus, the [quantile function](/D/qf.html) is:
+Thus, the [quantile function](/D/qf) is:
 
 $$ \label{eq:exp-qf-s1}
 Q_X(p) = F_X^{-1}(x) \; .

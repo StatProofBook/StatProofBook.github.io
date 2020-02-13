@@ -21,13 +21,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following an [exponential distribution](/D/exp.html):
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following an [exponential distribution](/D/exp):
 
 $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; .
 $$
 
-Then, the cumulative distribution function of $X$ is
+Then, the [cumulative distribution function](/D/cdf) of $X$ is
 
 $$ \label{eq:exp-cdf}
 F_X(x) = \left\{
@@ -39,7 +39,7 @@ F_X(x) = \left\{
 $$
 
 
-**Proof:**  The [probability density function of the exponential distribution](/P/exp-pdf.html) is:
+**Proof:**  The [probability density function of the exponential distribution](/P/exp-pdf) is:
 
 $$ \label{eq:exp-pdf}
 \mathrm{Exp}(x; \lambda) = \left\{
@@ -50,7 +50,7 @@ $$ \label{eq:exp-pdf}
 \right.
 $$
 
-Thus, the [cumulative distribution function](/D/cdf.html) is:
+Thus, the [cumulative distribution function](/D/cdf) is:
 
 $$ \label{eq:exp-cdf-s1}
 F_X(x) = \int_{-\infty}^{x} \mathrm{Exp}(z; \lambda) \, \mathrm{d}z \; .

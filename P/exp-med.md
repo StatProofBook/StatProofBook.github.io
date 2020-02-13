@@ -21,26 +21,26 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following an [exponential distribution](/D/exp.html):
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following an [exponential distribution](/D/exp):
 
 $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; .
 $$
 
-Then, the median of $X$ is
+Then, the [median](/D/med) of $X$ is
 
 $$ \label{eq:exp-med}
 \mathrm{median}(X) = \frac{\ln 2}{\lambda} \; .
 $$
 
 
-**Proof:** The [median](/D/med.html) is the value at which the cumulative distribution function is $1/2$:
+**Proof:** The [median](/D/med) is the value at which the [cumulative distribution function](/D/cdf) is $1/2$:
 
 $$ \label{eq:median}
 F_X(\mathrm{median}(X)) = \frac{1}{2} \; .
 $$
 
-The [cumulative distribution function of the exponential distribution](/D/exp-cdf.html) is
+The [cumulative distribution function of the exponential distribution](/D/exp-cdf) is
 
 $$ \label{eq:exp-cdf}
 F_X(x) = 1 - \exp[-\lambda x], \quad x \geq 0 \; .

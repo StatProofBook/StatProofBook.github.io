@@ -21,17 +21,17 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a positive random variable following a gamma distribution:
+**Theorem:** Let $X$ be a positive [random variable](/D/rvar) following a [gamma distribution](/D/gam):
 
 $$ \label{eq:gam}
 X \sim \mathrm{Gam}(a, b) \; .
 $$
 
-Then, the probability density function of $X$ is
+Then, the [probability density function](/D/pdf) of $X$ is
 
 $$ \label{eq:gam-pdf}
 f_X(x) = \frac{b^a}{\Gamma(a)} x^{a-1} \exp[-b x] \; .
 $$
 
 
-**Proof:** This follows directly from the [definition of the gamma distribution](/D/gam.html).
+**Proof:** This follows directly from the [definition of the gamma distribution](/D/gam).

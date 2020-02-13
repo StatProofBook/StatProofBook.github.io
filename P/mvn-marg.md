@@ -21,13 +21,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ follow a [multivariate normal distribution](/D/mvn.html):
+**Theorem:** Let $x$ follow a [multivariate normal distribution](/D/mvn):
 
 $$ \label{eq:mvn}
 x \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Then, the marginal distribution of any subset vector $x_s$ is also a multivariate normal distribution
+Then, the [marginal distribution](/D/md) of any subset vector $x_s$ is also a multivariate normal distribution
 
 $$ \label{eq:mvn-marg}
 x_s \sim \mathcal{N}(\mu_s, \Sigma_s)
@@ -42,7 +42,7 @@ $$ \label{eq:xs}
 x_s = S x
 $$
 
-and we can apply the [linear transformation theorem](/P/mvn-ltt.html) to give
+and we can apply the [linear transformation theorem](/P/mvn-ltt) to give
 
 $$ \label{eq:mvn-marg-qed}
 x_s \sim \mathcal{N}(S \mu, S \Sigma S^\mathrm{T}) \; .

@@ -27,26 +27,26 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a series of observed counts which are independently distributed according to a [Poisson distribution](/D/poiss.html) with common rate $\lambda$ and concurrent exposures $\left\lbrace x_1, \ldots, x_n \right\rbrace$:
+**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a series of observed counts which are independently distributed according to a [Poisson distribution](/D/poiss) with common rate $\lambda$ and concurrent exposures $\left\lbrace x_1, \ldots, x_n \right\rbrace$:
 
 $$ \label{eq:Poiss-exp}
 y_i \sim \mathrm{Poiss}(\lambda x_i), \quad i = 1, \ldots, n \; .
 $$
 
-Then, the [conjugate prior](/D/conj-prior.html) for the model parameter $\lambda$ is a gamma distribution:
+Then, the [conjugate prior](/D/prior-conj) for the model parameter $\lambda$ is a [gamma distribution](/D/gam):
 
 $$ \label{eq:Poiss-exp-prior}
 p(\lambda) = \mathrm{Gam}(\lambda; a_0, b_0) \; .
 $$
 
 
-**Proof:** With the [probability mass function of the Poisson distribution](/P/poiss-pmf.html), the likelihood function for each observation implied by \eqref{eq:Poiss-exp} is given by
+**Proof:** With the [probability mass function of the Poisson distribution](/P/poiss-pmf), the [likelihood function](/D/lf) for each observation implied by \eqref{eq:Poiss-exp} is given by
 
 $$ \label{eq:Poiss-exp-LF-s1}
 p(y_i|\lambda) = \mathrm{Poiss}(y_i; \lambda x_i) = \frac{(\lambda x_i)^{y_i} \cdot \exp\left[-\lambda x_i\right]}{y_i !}
 $$
 
-and because observations are independent, the [likelihood function](/D/lf.html) for all observations is the product of the individual ones:
+and because observations are [independent](/D/ind), the likelihood function for all observations is the product of the individual ones:
 
 $$ \label{eq:Poiss-exp-LF-s2}
 p(y|\lambda) = \prod_{i=1}^n p(y_i|\lambda) = \prod_{i=1}^n \frac{(\lambda x_i)^{y_i} \cdot \exp\left[-\lambda x_i\right]}{y_i !} \; .
@@ -62,7 +62,7 @@ p(y|\lambda) &= \prod_{i=1}^n \frac{ {x_i}^{y_i}}{y_i !} \cdot \prod_{i=1}^n \la
 \end{split}
 $$
 
-where $\bar{y}$ and $\bar{x}$ are the means of $y$ and $x$ respectively:
+where $\bar{y}$ and $\bar{x}$ are the [means](/P/ev-sample) of $y$ and $x$ respectively:
 
 $$ \label{eq:xy-mean}
 \begin{split}
@@ -83,7 +83,7 @@ $$ \label{eq:Poiss-exp-prior-s1}
 p(\lambda) = \mathrm{Gam}(\lambda; a_0, b_0)
 $$
 
-the [probability density function of which](/P/gamma-pdf.html)
+the [probability density function of which](/P/gam-pdf)
 
 $$ \label{eq:Poiss-exp-prior-s2}
 p(\lambda) = \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \lambda^{a_0-1} \exp[-b_0 \lambda]

@@ -21,26 +21,26 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ and $y$ follow a [normal-gamma distribution](/D/ng.html):
+**Theorem:** Let $x$ and $y$ follow a [normal-gamma distribution](/D/ng):
 
 $$ \label{eq:ng}
 x,y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
 $$
 
-Then, the marginal distribution of $y$ is a gamma distribution
+Then, the [marginal distribution](/D/md) of $y$ is a [gamma distribution](/D/gam)
 
 $$ \label{eq:ng-marg-y}
 y \sim \mathrm{Gam}(a, b)
 $$
 
-and the marginal distribution of $x$ is a multivariate t-distribution
+and the [marginal distribution](/D/md) of $x$ is a [multivariate t-distribution](/D/mvt)
 
 $$ \label{eq:ng-marg-x}
 x \sim \mathrm{t}\left( \mu, \left(\frac{a}{b} \Lambda \right)^{-1}, 2a \right) \; .
 $$
 
 
-**Proof:** The [probability density function of the normal-gamma distribution](/P/ng-pdf.html) is given by
+**Proof:** The [probability density function of the normal-gamma distribution](/P/ng-pdf) is given by
 
 $$ \label{eq:ng-pdf}
 \begin{split}
@@ -51,7 +51,7 @@ p(y) &= \mathrm{Gam}(y; a, b) \; .
 $$
 
 <br>
-Using the law of marginal probability, the marginal distribution of $y$ can be derived as
+Using the [law of marginal probability](/P/lmp), the marginal distribution of $y$ can be derived as
 
 $$ \label{eq:ng-marg-y-qed}
 \begin{split}
@@ -62,10 +62,10 @@ p(y) &= \int p(x,y) \, \mathrm{d}x \\
 \end{split}
 $$
 
-which is the [probability density function of the gamma distribution](/P/ng-pdf.html) with shape parameter $a$ and rate parameter $b$.
+which is the [probability density function of the gamma distribution](/P/gam-pdf) with shape parameter $a$ and rate parameter $b$.
 
 <br>
-Using the law of marginal probability, the marginal distribution of $x$ can be derived as
+Using the [law of marginal probability](/P/lmp), the marginal distribution of $x$ can be derived as
 
 $$ \label{eq:ng-marg-x-qed}
 \begin{split}
@@ -88,4 +88,4 @@ p(x) &= \int p(x,y) \, \mathrm{d}y \\
 \end{split}
 $$
 
-which is the [probability density function of a multivariate t-distribution](/P/mvt-pdf.html) with mean vector $\mu$, shape matrix $\left( \frac{a}{b}\Lambda \right)^{-1}$ and $2a$ degrees of freedom.
+which is the [probability density function of a multivariate t-distribution](/P/mvt-pdf) with mean vector $\mu$, shape matrix $\left( \frac{a}{b}\Lambda \right)^{-1}$ and $2a$ degrees of freedom.

@@ -21,17 +21,17 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a non-negative random variable following an exponential distribution:
+**Theorem:** Let $X$ be a non-negative [random variable](/D/rvar) following an [exponential distribution](/D/exp):
 
 $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; .
 $$
 
-Then, the probability density function of $X$ is
+Then, the [probability density function](/D/pdf) of $X$ is
 
 $$ \label{eq:gam-pdf}
 f_X(x) = \lambda \exp[-\lambda x] \; .
 $$
 
 
-**Proof:** This follows directly from the [definition of the exponential distribution](/D/exp.html).
+**Proof:** This follows directly from the [definition of the exponential distribution](/D/exp).

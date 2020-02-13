@@ -27,20 +27,20 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y$ be the number of successes resulting from $n$ independent trials with unknown success probability $p$, such that $y$ follows a binomial distribution:
+**Theorem:** Let $y$ be the number of successes resulting from $n$ independent trials with unknown success probability $p$, such that $y$ follows a [binomial distribution](/D/bin):
 
 $$ \label{eq:Bin}
 y \sim \mathrm{Bin}(n,p) \; .
 $$
 
-Then, the conjugate prior for the model parameter $p$ is a beta distribution:
+Then, the [conjugate prior](/D/prior-conj) for the model parameter $p$ is a [beta distribution](/D/beta):
 
 $$ \label{eq:Beta}
 \mathrm{p}(p) = \mathrm{Bet}(p; \alpha_0, \beta_0) \; .
 $$
 
 
-**Proof:** With the [probability mass function of the binomial distribution](/P/bin-pmf.html), the likelihood function implied by \eqref{eq:Bin} is given by
+**Proof:** With the [probability mass function of the binomial distribution](/P/bin-pmf), the [likelihood function](/D/lf) implied by \eqref{eq:Bin} is given by
 
 $$ \label{eq:Bin-LF}
 \mathrm{p}(y|p) = {n \choose y} \, p^y \, (1-p)^{n-y} \; .
@@ -58,7 +58,7 @@ $$ \label{eq:Bin-prior-s1}
 \mathrm{p}(p) = \mathrm{Bet}(p; \alpha_0, \beta_0)
 $$
 
-the [probability density function of which](/P/beta-pdf.html)
+the [probability density function of which](/P/beta-pdf)
 
 $$ \label{eq:Bin-prior-s2}
 \mathrm{p}(p) = \frac{1}{B(\alpha_0,\beta_0)} \, p^{\alpha_0-1} \, (1-p)^{\beta_0-1}

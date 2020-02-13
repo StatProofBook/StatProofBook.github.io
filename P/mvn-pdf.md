@@ -21,17 +21,17 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random vector following a multivariate normal distribution:
+**Theorem:** Let $X$ be a [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn):
 
-$$ \label{eq:norm}
+$$ \label{eq:mvn}
 X \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Then, the probability density function of $X$ is
+Then, the [probability density function](/D/pdf) of $X$ is
 
 $$ \label{eq:mvn-pdf}
 f_X(x) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \; .
 $$
 
 
-**Proof:** This follows directly from the [definition of the multivariate normal distribution](/D/mvn.html).
+**Proof:** This follows directly from the [definition of the multivariate normal distribution](/D/mvn).

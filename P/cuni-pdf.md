@@ -21,13 +21,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following a continuous uniform distribution:
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [continuous uniform distribution](/D/cuni):
 
 $$ \label{eq:cuni}
 X \sim \mathcal{U}(a, b) \; .
 $$
 
-Then, the probability density function of $X$ is
+Then, the [probability density function](/D/pdf) of $X$ is
 
 $$ \label{eq:cuni-pdf}
 f_X(x) = \left\{
@@ -39,7 +39,7 @@ f_X(x) = \left\{
 $$
 
 
-**Proof:** A [continuous uniform variable is defined as](/D/cuni.html) having a constant probability density between minimum $a$ and maximum $b$. Therefore,
+**Proof:** A [continuous uniform variable is defined as](/D/cuni) having a constant probability density between minimum $a$ and maximum $b$. Therefore,
 
 $$ \label{eq:cuni-pdf-s1}
 \begin{split}
@@ -48,7 +48,7 @@ f_X(x) &= 0, \quad\!\! \text{if} \quad x < a \quad \text{or} \quad x > b \; .
 \end{split}
 $$
 
-To ensure that $f_X(x)$ [is a proper probability density function](/D/pdf.html), the integral over all non-zero probabilities has to sum to $1$. Therefore,
+To ensure that $f_X(x)$ [is a proper probability density function](/D/pdf), the integral over all non-zero probabilities has to sum to $1$. Therefore,
 
 $$ \label{eq:cuni-pdf-s2}
 f_X(x) = \frac{1}{c(a,b)} \quad \text{for all} \quad x \in [a,b]

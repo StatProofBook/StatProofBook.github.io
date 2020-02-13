@@ -27,25 +27,25 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y$ be the number of successes resulting from $n$ independent trials with unknown success probability $p$, such that $y$ follows a binomial distribution:
+**Theorem:** Let $y$ be the number of successes resulting from $n$ independent trials with unknown success probability $p$, such that $y$ follows a [binomial distribution](/D/bin):
 
 $$ \label{eq:Bin}
 y \sim \mathrm{Bin}(n,p) \; .
 $$
 
-Moreover, assume a beta prior distribution over the model parameter $p$:
+Moreover, assume a [beta prior distribution](/P/bin-prior) over the model parameter $p$:
 
 $$ \label{eq:Bin-prior}
 \mathrm{p}(p) = \mathrm{Bet}(p; \alpha_0, \beta_0) \; .
 $$
 
-Then, the log model evidence for this model is
+Then, the [log model evidence](/D/lme) for this model is
 
 $$ \label{eq:Bin-LME}
 \log \mathrm{p}(y|m) = \log {n \choose y} + \log B(\alpha_n,\beta_n) - \log B(\alpha_0,\beta_0)
 $$
 
-where the posterior hyperparameters are given by
+where the [posterior hyperparameters](/D/post-hyp) are given by
 
 $$ \label{eq:Bin-post-par}
 \begin{split}
@@ -55,13 +55,13 @@ $$ \label{eq:Bin-post-par}
 $$
 
 
-**Proof:** With the [probability mass function of the binomial distribution](/P/bin-pmf.html), the likelihood function implied by \eqref{eq:Bin} is given by
+**Proof:** With the [probability mass function of the binomial distribution](/P/bin-pmf), the [likelihood function](/D/lf) implied by \eqref{eq:Bin} is given by
 
 $$ \label{eq:Bin-LF}
 \mathrm{p}(y|p) = {n \choose y} \, p^y \, (1-p)^{n-y} \; .
 $$
 
-Combining the likelihood function \eqref{eq:Bin-LF} with the prior distribution \eqref{eq:Bin-prior}, the joint likelihood of the model is given by
+Combining the likelihood function \eqref{eq:Bin-LF} with the prior distribution \eqref{eq:Bin-prior}, the [joint likelihood](/D/jl) of the model is given by
 
 $$ \label{eq:Bin-JL-s1}
 \begin{split}
@@ -71,7 +71,7 @@ $$ \label{eq:Bin-JL-s1}
 \end{split}
 $$
 
-Note that the model evidence is the marginal density of the joint likelihood:
+Note that the [model evidence is the marginal density of the joint likelihood](/D/ml):
 
 $$ \label{eq:Bin-ME}
 \mathrm{p}(y) = \int \mathrm{p}(y,p) \, \mathrm{d}p \; .
@@ -83,7 +83,7 @@ $$ \label{eq:Bin-JL-s2}
 \mathrm{p}(y,p) = {n \choose y} \, \frac{1}{B(\alpha_0,\beta_0)} \, \frac{B(\alpha_n,\beta_n)}{1} \, \frac{1}{B(\alpha_n,\beta_n)} \, p^{\alpha_n-1} \, (1-p)^{\beta_n-1} \; .
 $$
 
-Using the [probability density function of the beta distribution](/P/beta-pdf.html), $p$ can now be integrated out easily
+Using the [probability density function of the beta distribution](/P/beta-pdf), $p$ can now be integrated out easily
 
 $$ \label{eq:Bin-ME-qed}
 \begin{split}
@@ -93,7 +93,7 @@ $$ \label{eq:Bin-ME-qed}
 \end{split}
 $$
 
-such that the log model evidence is shown to be
+such that the [log model evidence](/D/lme) is shown to be
 
 $$ \label{eq:Bin-LME-qed}
 \log \mathrm{p}(y|m) = \log {n \choose y} + \log B(\alpha_n,\beta_n) - \log B(\alpha_0,\beta_0) \; .
