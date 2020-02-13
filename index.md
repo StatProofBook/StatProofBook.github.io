@@ -14,7 +14,7 @@ of statistical theorems for the computational sciences*! <br>
 <table style="border:none">
   <tr>
     <td style="text-align:center">
-	  <a href="/I/Table_of_Contents>Table of Contents</a> <br>
+	  <a href="/I/Table_of_Contents">Table of Contents</a> <br>
 	  <img src="Index1.png"> <br>
 	  Proofs & Definitions
 	</td>
