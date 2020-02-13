@@ -13,12 +13,6 @@ section: "Goodness-of-fit measures"
 topic: "R-squared"
 theorem: "Relationship to maximum log-likelihood"
 
-dependencies:
-  - theorem: "maximum likelihood estimation for multiple linear regression"
-  - theorem: "total, explained and residual sum of squares"
-  - theorem: "derivation of R² and adjusted R²"
-    shortcut: "rsq-der"
-
 sources:
 
 proof_id: "P14"
@@ -27,13 +21,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Given a linear regression model with independent observations
+**Theorem:** Given a [linear regression model](/D/mlr) with independent observations
 
 $$ \label{eq:MLR}
 y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; ,
 $$
 
-the coefficient of determination can be expressed in terms of the maximum log-likelihood as
+the [coefficient of determination](/D/rsq) can be expressed in terms of the [maximum log-likelihood](/D/mll) as
 
 $$ \label{eq:R2-MLL}
 R^2 = 1 - \left( \exp[\Delta\mathrm{MLL}] \right)^{-2/n}
@@ -42,13 +36,13 @@ $$
 where $n$ is the number of observations and $\Delta\mathrm{MLL}$ is the difference in maximum log-likelihood between the model given by \eqref{eq:MLR} and a linear regression model with only a constant regressor.
 
 
-**Proof:** First, we express the maximum log-likelihood (MLL) of a linear regression model in terms of its residual sum of squares (RSS). The model in \eqref{eq:MLR} implies the following log-likelihood function
+**Proof:** First, we express the [maximum log-likelihood](/D/mll) (MLL) of a linear regression model in terms of its [residual sum of squares](/D/rss) (RSS). The model in \eqref{eq:MLR} implies the following [log-likelihood function](/D/llf)
 
 $$ \label{eq:MLR-LL}
 \mathrm{LL}(\beta,\sigma^2) = \log p(y|\beta,\sigma^2) = - \frac{n}{2} \log(2\pi\sigma^2) - \frac{1}{2\sigma^2} (y - X\beta)^\mathrm{T} (y - X\beta) \; ,
 $$
 
-such that maximum likelihood estimates are
+such that [maximum likelihood estimates are](/P/mlr-mle)
 
 $$ \label{eq:MLR-MLE-beta}
 \hat{\beta} = (X^\mathrm{T} X)^{-1} X^\mathrm{T} y
@@ -58,13 +52,13 @@ $$ \label{eq:MLR-MLE-sigma2}
 \hat{\sigma}^2 = \frac{1}{n} (y - X\hat{\beta})^\mathrm{T} (y - X\hat{\beta})
 $$
 
-and the residual sum of squares is
+and the [residual sum of squares](/D/rss) is
 
 $$ \label{eq:RSS}
 \mathrm{RSS} = \sum_{i=1}^n \hat{\varepsilon}_i = \hat{\varepsilon}^\mathrm{T} \hat{\varepsilon} = (y - X\hat{\beta})^\mathrm{T} (y - X\hat{\beta}) = n \cdot \hat{\sigma}^2 \; .
 $$
 
-Since $\hat{\beta}$ and $\hat{\sigma}^2$ are maximum likelihood estimates, plugging them into the log-likelihood function gives the maximum log-likelihood:
+Since $\hat{\beta}$ and $\hat{\sigma}^2$ are [maximum likelihood estimates](/D/mle), plugging them into the log-likelihood function gives the maximum log-likelihood:
 
 $$ \label{eq:MLR-MLL}
 \mathrm{MLL} = \mathrm{LL}(\hat{\beta},\hat{\sigma}^2) = - \frac{n}{2} \log(2\pi\hat{\sigma}^2) - \frac{1}{2\hat{\sigma}^2} (y - X\hat{\beta})^\mathrm{T} (y - X\hat{\beta}) \; .
@@ -85,7 +79,7 @@ m_1: \; X_1 &= X
 \end{split}
 $$
 
-For $m_1$, the residual sum of squares is given by \eqref{eq:RSS}; and for $m_0$, the residual sum of squares is equal to the total sum of squares:
+For $m_1$, the residual sum of squares is given by \eqref{eq:RSS}; and for $m_0$, the residual sum of squares is equal to the [total sum of squares](/D/tss):
 
 $$ \label{eq:TSS}
 \mathrm{TSS} = \sum_{i=1}^n (y_i - \bar{y})^2 \; .

@@ -13,12 +13,6 @@ section: "Normal data"
 topic: "Bayesian linear regression"
 theorem: "Log model evidence"
 
-dependencies:
-  - theorem: "law of marginal probability, also called 'sum rule of probability'"
-  - theorem: "law of conditional probability, also called 'product rule of probability'"
-  - theorem: "probability density function for the multivariate normal distribution"
-  - theorem: "probability density function for the gamma distribution"
-
 sources:
   - authors: "Bishop CM"
     year: 2006
@@ -39,13 +33,13 @@ $$ \label{eq:GLM}
 m: \; y = X \beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \sigma^2 V)
 $$
 
-be a linear regression model with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$, known $n \times n$ covariance structure $V$ and unknown $p \times 1$ regression coefficients $\beta$ and noise variance $\sigma^2$.  Moreover, assume a normal-gamma prior distribution over the model parameters $\beta$ and $\tau = 1/\sigma^2$:
+be a [linear regression model](/D/mlr) with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$, known $n \times n$ covariance structure $V$ and unknown $p \times 1$ regression coefficients $\beta$ and noise variance $\sigma^2$.  Moreover, assume a [normal-gamma prior distribution](/P/blr-prior) over the model parameters $\beta$ and $\tau = 1/\sigma^2$:
 
 $$ \label{eq:GLM-NG-prior}
 p(\beta,\tau) = \mathcal{N}(\beta; \mu_0, (\tau \Lambda_0)^{-1}) \cdot \mathrm{Gam}(\tau; a_0, b_0) \; .
 $$
 
-Then, the log model evidence for this model is
+Then, the [log model evidence](/D/lme) for this model is
 
 $$ \label{eq:GLM-NG-LME}
 \begin{split}
@@ -54,7 +48,7 @@ $$ \label{eq:GLM-NG-LME}
 \end{split}
 $$
 
-where the posterior hyperparameters are given by
+where the [posterior hyperparameters](/D/post-hyp) are given by
 
 $$ \label{eq:GLM-NG-post-par}
 \begin{split}
@@ -66,19 +60,19 @@ b_n &= b_0 + \frac{1}{2} (y^\mathrm{T} P y + \mu_0^\mathrm{T} \Lambda_0 \mu_0 - 
 $$
 
 
-**Proof:** According to the law of marginal probability, the model evidence for this model is:
+**Proof:** According to the [law of marginal probability](/P/lmp), the [model evidence](/D/ml) for this model is:
 
 $$ \label{eq:GLM-NG-ME-s1}
 p(y|m) = \iint p(y|\beta,\tau) \, p(\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau \; .
 $$
 
-According to the law of conditional probability, the integrand is equivalent to the joint likelihood:
+According to the [law of conditional probability](/P/lcp), the integrand is equivalent to the [joint likelihood](/D/jl):
 
 $$ \label{eq:GLM-NG-ME-s2}
 p(y|m) = \iint p(y,\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau \; .
 $$
 
-Equation \eqref{eq:GLM} implies the following likelihood function
+Equation \eqref{eq:GLM} implies the following [likelihood function](/D/lf)
 
 $$ \label{eq:GLM-LF-class}
 p(y|\beta,\sigma^2) = \mathcal{N}(y; X \beta, \sigma^2 V) = \sqrt{\frac{1}{(2 \pi)^n |\sigma^2 V|}} \, \exp\left[ -\frac{1}{2 \sigma^2} (y-X\beta)^\mathrm{T} V^{-1} (y-X\beta) \right]
@@ -93,7 +87,7 @@ $$
 using the noise precision $\tau = 1/\sigma^2$ and the $n \times n$ precision matrix $P = V^{-1}$.
 
 <br>
-When deriving the posterior distribution $p(\beta,\tau|y)$, the joint likelihood $p(y,\beta,\tau)$ is obtained as
+When [deriving the posterior distribution](/P/blr-post) $p(\beta,\tau|y)$, the joint likelihood $p(y,\beta,\tau)$ is obtained as
 
 $$ \label{eq:GLM-NG-LME-s1}
 \begin{split}
@@ -102,7 +96,7 @@ p(y,\beta,\tau) = \; & \sqrt{\frac{\tau^n |P|}{(2 \pi)^n}} \, \sqrt{\frac{\tau^p
 \end{split}
 $$
 
-Using the probability density function of the multivariate normal distribution, we can rewrite this as
+Using the [probability density function of the multivariate normal distribution](/P/mvn-pdf), we can rewrite this as
 
 $$ \label{eq:GLM-NG-LME-s2}
 \begin{split}
@@ -120,7 +114,7 @@ $$ \label{eq:GLM-NG-LME-s3}
 \end{split}
 $$
 
-Using the probability density function of the gamma distribution, we can rewrite this as
+Using the [probability density function of the gamma distribution](/P/gam-pdf), we can rewrite this as
 
 $$\label{eq:GLM-NG-LME-s4}
 \int p(y,\beta,\tau) \, \mathrm{d}\beta = \; \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \frac{\Gamma(a_n)}{ {b_n}^{a_n}} \, \mathrm{Gam}(\tau; a_n, b_n) \; .
@@ -132,7 +126,7 @@ $$ \label{eq:GLM-NG-LME-s5}
 \iint p(y,\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau = \; \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{\Gamma(a_n)}{\Gamma(a_0)} \, \frac{ {b_0}^{a_0}}{ {b_n}^{a_n}} = p(y|m) \; .
 $$
 
-Thus, the log model evidence of this model is given by
+Thus, the [log model evidence](/D/lme) of this model is given by
 
 $$ \label{eq:GLM-NG-LME-s6}
 \begin{split}

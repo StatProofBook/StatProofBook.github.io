@@ -13,9 +13,6 @@ section: "Information theory"
 topic: "Discrete mutual information"
 theorem: "Relation to marginal and joint entropy"
 
-dependencies:
-  - theorem: "law of marginal probability"
-
 sources:
   - authors: "Wikipedia"
     year: 2020
@@ -30,16 +27,16 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ and $Y$ be discrete random variables with the joint probability $p(x,y)$ for $x \in \mathcal{X}$ and $y \in \mathcal{Y}$. Then, the mutual information of $X$ and $Y$ can be expressed as
+**Theorem:** Let $X$ and $Y$ be discrete [random variables](/D/rvar) with the [joint probability](/D/jp) $p(x,y)$ for $x \in \mathcal{X}$ and $y \in \mathcal{Y}$. Then, the [mutual information](/D/mi) of $X$ and $Y$ can be expressed as
 
 $$ \label{eq:dmi-mje}
 \mathrm{I}(X,Y) = \mathrm{H}(X) + \mathrm{H}(Y) - \mathrm{H}(X,Y)
 $$
 
-where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the marginal entropies of $X$ and $Y$ and $\mathrm{H}(X,Y)$ is the joint entropy.
+where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the [marginal entropies](/D/ent-marg) of $X$ and $Y$ and $\mathrm{H}(X,Y)$ is the [joint entropy](/D/ent-joint).
 
 
-**Proof:** The mutual information of $X$ and $Y$ is defined as
+**Proof:** The [mutual information](/D/mi) of $X$ and $Y$ is defined as
 
 $$ \label{eq:MI}
 \mathrm{I}(X,Y) = \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} p(x,y) \log \frac{p(x,y)}{p(x)\,p(y)} \; .
@@ -57,13 +54,13 @@ $$ \label{eq:MI-s2}
 \mathrm{I}(X,Y) = \sum_x \sum_y p(x,y) \log p(x,y) - \sum_x \left( \sum_y p(x,y) \right) \log p(x) - \sum_y \left( \sum_x p(x,y) \right) \log p(y) \; .
 $$
 
-Applying the law of marginal probability, i.e. $p(x) = \sum_y p(x,y)$, we get:
+Applying the [law of marginal probability](/P/lmp), i.e. $p(x) = \sum_y p(x,y)$, we get:
 
 $$ \label{eq:MI-s3}
 \mathrm{I}(X,Y) = \sum_x \sum_y p(x,y) \log p(x,y) - \sum_x p(x) \log p(x) - \sum_x p(y) \log p(y) \; .
 $$
 
-Now considering the definitions of marginal and joint entropy
+Now considering the definitions of [marginal](/D/ent-marg) and [joint](/D/ent-joint) entropy
 
 $$ \label{eq:ME-JE}
 \begin{split}

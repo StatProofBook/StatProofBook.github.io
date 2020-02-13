@@ -13,11 +13,6 @@ section: "Probability data"
 topic: "Beta-distributed data"
 theorem: "Method of moments"
 
-dependencies:
-  - theorem: "estimation using method of moments"
-  - theorem: "mean of the beta distribution"
-  - theorem: "variance of the beta distribution"
-
 sources:
   - authors: "Wikipedia"
     year: 2020
@@ -32,13 +27,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a set of observed counts independent and identically distributed according to a beta distribution with shapes $\alpha$ and $\beta$:
+**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a set of observed counts [independent and identically distributed](/D/iid) according to a [beta distribution](/D/beta) with shapes $\alpha$ and $\beta$:
 
 $$ \label{eq:Beta}
 y_i \sim \mathrm{Bet}(\alpha,\beta), \quad i = 1, \ldots, n \; .
 $$
 
-Then, the method-of-moments estimates for the shape parameters $\alpha$ and $\beta$ are given by
+Then, the [method-of-moments estimates](/D/mom) for the shape parameters $\alpha$ and $\beta$ are given by
 
 $$ \label{eq:Beta-MoM}
 \begin{split}
@@ -47,7 +42,7 @@ $$ \label{eq:Beta-MoM}
 \end{split}
 $$
 
-where $\bar{y}$ is the sample mean and $\bar{v}$ is the sample variance:
+where $\bar{y}$ is the [sample mean](/P/ev-sample) and $\bar{v}$ is the [unbiased sample variance](/P/var-unbias):
 
 $$ \label{eq:y-mean-var}
 \begin{split}
@@ -57,7 +52,7 @@ $$ \label{eq:y-mean-var}
 $$
 
 
-**Proof:** Mean and variance of the beta distribution in terms of the parameters $\alpha$ and $\beta$ are given by
+**Proof:** [Mean](/P/beta-mean) and [variance](/P/beta-var) of the [beta distribution](/D/beta) in terms of the parameters $\alpha$ and $\beta$ are given by
 
 $$ \label{eq:Beta-E-Var}
 \begin{split}
@@ -66,7 +61,7 @@ $$ \label{eq:Beta-E-Var}
 \end{split}
 $$
 
-Thus, matching the moments requires us to solve the following equation system for $\alpha$ and $\beta$:
+Thus, [matching the moments](/D/mom) requires us to solve the following equation system for $\alpha$ and $\beta$:
 
 $$ \label{eq:Beta-mean-var}
 \begin{split}
@@ -120,4 +115,4 @@ $$ \label{eq:Beta-MoM-beta}
 \end{split}
 $$
 
-Together, \eqref{eq:Beta-MoM-alpha} and \eqref{eq:Beta-MoM-beta} constitute the method-of-moment estimates of  $\alpha$ and $\beta$.
+Together, \eqref{eq:Beta-MoM-alpha} and \eqref{eq:Beta-MoM-beta} constitute the method-of-moment estimates of $\alpha$ and $\beta$.

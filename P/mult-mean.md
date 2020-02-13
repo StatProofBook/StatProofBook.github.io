@@ -13,11 +13,6 @@ section: "Multivariate discrete distributions"
 topic: "Multinomial distribution"
 theorem: "Mean"
 
-dependencies:
-  - theorem: "linearity of the expected value"
-  - theorem: "expected value of the categorical distribution"
-    shortcut: "cat-mean"
-
 sources:
 
 proof_id: "P25"
@@ -26,26 +21,26 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following a multinomial distribution:
+**Theorem:** Let $X$ be a [random vector](/D/rvec) following a [multinomial distribution](/D/mult):
 
 $$ \label{eq:mult}
 X \sim \mathrm{Mult}(n,\left[p_1, \ldots, p_k \right]) \; .
 $$
 
-Then, the mean or expected value of $X$ is
+Then, the [mean or expected value](/D/ev) of $X$ is
 
 $$ \label{eq:bin-mean}
 \mathrm{E}(X) = \left[n p_1, \ldots, n p_k \right] \; .
 $$
 
 
-**Proof:** By definition, a multinomial random variable is the sum of $n$ independent and identical categorical trials with category probabilities $p_1, \ldots, p_k$. Therefore, the expected value is
+**Proof:** By definition, [a multinomial random variable](/D/mult) is the sum of $n$ independent and identical [categorical trials](/D/cat) with category probabilities $p_1, \ldots, p_k$. Therefore, the expected value is
 
 $$ \label{eq:mult-mean-s1}
 \mathrm{E}(X) = \mathrm{E}(X_1 + \ldots + X_n)
 $$
 
-and because the expected value is a linear operator, this is equal to
+and because the [expected value is a linear operator](/P/ev-lin), this is equal to
 
 $$ \label{eq:mult-mean-s2}
 \begin{split}
@@ -54,7 +49,7 @@ $$ \label{eq:mult-mean-s2}
 \end{split}
 $$
 
-With the expected value of the categorical distribution, we have:
+With the [expected value of the categorical distribution](/P/cat-mean), we have:
 
 $$ \label{eq:mult-mean-s3}
 \mathrm{E}(X) = \sum_{i=1}^{n} \left[p_1, \ldots, p_k \right] = n \cdot \left[p_1, \ldots, p_k \right] = \left[n p_1, \ldots, n p_k \right] \; .

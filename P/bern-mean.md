@@ -13,9 +13,6 @@ section: "Univariate discrete distributions"
 topic: "Bernoulli distribution"
 theorem: "Mean"
 
-dependencies:
-  - theorem: "probability mass function of the Bernoulli distribution"
-
 sources:
   - authors: "Wikipedia"
     year: 2020
@@ -30,26 +27,26 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following a Bernoulli distribution:
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [Bernoulli distribution](/D/bern):
 
 $$ \label{eq:bern}
 X \sim \mathrm{Bern}(p) \; .
 $$
 
-Then, the mean or expected value of $X$ is
+Then, the [mean or expected value](/D/ev) of $X$ is
 
 $$ \label{eq:bern-mean}
 \mathrm{E}(X) = p \; .
 $$
 
 
-**Proof:** The expected value is the probability-weighted average of all possible values:
+**Proof:** The [expected value](/D/ev) is the probability-weighted average of all possible values:
 
 $$ \label{eq:mean}
 \mathrm{E}(X) = \sum_{x \in \mathcal{X}} x \cdot \mathrm{Pr}(X = x) \; .
 $$
 
-Since there are only two possible outcomes for a Bernoulli random variable, we have:
+Since there are only [two possible outcomes for a Bernoulli random variable](/P/bern-pmf), we have:
 
 $$ \label{eq:bern-mean-qed}
 \begin{split}

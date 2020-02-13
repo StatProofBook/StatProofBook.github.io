@@ -13,9 +13,6 @@ section: "Univariate continuous distributions"
 topic: "Normal distribution"
 theorem: "Mean"
 
-dependencies:
-  - theorem: "probability density function of the normal distribution"
-
 sources:
   - authors: "Papadopoulos, Alecos"
     year: 2013
@@ -29,26 +26,26 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following a normal distribution:
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [normal distribution](/D/norm):
 
 $$ \label{eq:norm}
 X \sim \mathcal{N}(\mu, \sigma^2) \; .
 $$
 
-Then, the mean or expected value of $X$ is
+Then, the [mean or expected value](/D/ev) of $X$ is
 
 $$ \label{eq:norm-mean}
 \mathrm{E}(X) = \mu \; .
 $$
 
 
-**Proof:** The expected value is the probability-weighted average over all possible values:
+**Proof:** The [expected value](/D/ev) is the probability-weighted average over all possible values:
 
 $$ \label{eq:mean}
 \mathrm{E}(X) = \int_{\mathbb{R}} x \cdot f_X(x) \, \mathrm{d}x \; .
 $$
 
-With the probability density function of the normal distribution, this reads:
+With the [probability density function of the normal distribution](/P/norm-pdf), this reads:
 
 $$ \label{eq:norm-mean-s1}
 \begin{split}

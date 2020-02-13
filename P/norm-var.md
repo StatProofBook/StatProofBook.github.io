@@ -13,11 +13,6 @@ section: "Univariate continuous distributions"
 topic: "Normal distribution"
 theorem: "Variance"
 
-dependencies:
-  - theorem: "mean of the normal distribution"
-    shortcut: "norm-mean"
-  - theorem: "probability density function of the normal distribution"
-
 sources:
   - authors: "Papadopoulos, Alecos"
     year: 2013
@@ -31,26 +26,26 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following a normal distribution:
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [normal distribution](/D/norm):
 
 $$ \label{eq:norm}
 X \sim \mathcal{N}(\mu, \sigma^2) \; .
 $$
 
-Then, the variance of $X$ is
+Then, the [variance](/D/var) of $X$ is
 
 $$ \label{eq:norm-mode}
 \mathrm{Var}(X) = \sigma^2 \; .
 $$
 
 
-**Proof:** The variance is the probability-weighted average of the squared deviation from the mean:
+**Proof:** The [variance](/D/var) is the probability-weighted average of the squared deviation from the [mean](/D/ev):
 
 $$ \label{eq:var}
 \mathrm{Var}(X) = \int_{\mathbb{R}} (x - \mathrm{E}(X))^2 \cdot f_\mathrm{X}(x) \, \mathrm{d}x \; .
 $$
 
-With the expeted value and probability density function of the normal distribution, this reads:
+With the [expected value](/P/norm-mean) and [probability density function](/P/norm-pdf) of the normal distribution, this reads:
 
 $$ \label{eq:norm-var-s1}
 \begin{split}
