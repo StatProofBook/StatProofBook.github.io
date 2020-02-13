@@ -6,27 +6,27 @@ title: "Definition by Topic"
 
 ### C
 
-- [Continuous uniform distribution](/D/cuni.html)
+- [Continuous uniform distribution](/D/cuni)
 
 ### D
 
-- [Definition Template](/D/-temp-.html)
+- [Definition Template](/D/-temp-)
 
 ### E
 
-- [Exponential distribution](/D/exp.html)
+- [Exponential distribution](/D/exp)
 
 ### G
 
-- [Gamma distribution](/D/gam.html)
+- [Gamma distribution](/D/gam)
 
 ### M
 
-- [Matrix-normal distribution](/D/matn.html)
-- [Moment-generating function](/D/mgf.html)
-- [Multivariate normal distribution](/D/mvn.html)
+- [Matrix-normal distribution](/D/matn)
+- [Moment-generating function](/D/mgf)
+- [Multivariate normal distribution](/D/mvn)
 
 ### N
 
-- [Normal distribution](/D/norm.html)
-- [Normal-gamma distribution](/D/ng.html)
+- [Normal distribution](/D/norm)
+- [Normal-gamma distribution](/D/ng)

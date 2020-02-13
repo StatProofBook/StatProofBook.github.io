@@ -145,7 +145,7 @@ ind1.close()
 incl = np.zeros(len(proofs), dtype=bool)
 for (i, proof) in enumerate(proofs):
     for line in tocs:
-        if line.find('(/P/' + proofs[proof]['shortcut'] + '.html)') > -1:
+        if line.find('(/P/' + proofs[proof]['shortcut'] + ')') > -1:
             incl[i] = True
     if ~incl[i]:
         print('   - WARNING: proof "' + proofs[proof]['shortcut'] + '" is not in table of contents!')
@@ -157,7 +157,7 @@ if all(incl):
 incl = np.zeros(len(definitions), dtype=bool)
 for (i, definition) in enumerate(definitions):
     for line in tocs:
-        if line.find('(/D/' + definitions[definition]['shortcut'] + '.html)') > -1:
+        if line.find('(/D/' + definitions[definition]['shortcut'] + ')') > -1:
             incl[i] = True
     if ~incl[i]:
         print('   - WARNING: definition "' + definitions[definition]['shortcut'] + '" is not in table of contents!')
@@ -178,7 +178,7 @@ ind2a.write('|:-- |:-------- |:------- |:------ |:---- |\n')
 sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(pr_nos)])]
 for i in sort_ind:
     ind2a.write('| ' + proofs[pr_ids[i]]['proof_id'] + ' | ' + proofs[pr_ids[i]]['shortcut'] + ' | [' + \
-                       proofs[pr_ids[i]]['title'] + '](/P/' + proofs[pr_ids[i]]['shortcut'] + '.html) | ' + \
+                       proofs[pr_ids[i]]['title'] + '](/P/' + proofs[pr_ids[i]]['shortcut'] + ') | ' + \
                        proofs[pr_ids[i]]['username'] + ' | ' + proofs[pr_ids[i]]['date'].strftime('%Y-%m-%d') + ' |\n')
 ind2a.close()
 print('   - successfully written to disk!')
@@ -197,7 +197,7 @@ ind2b.write('|:-- |:-------- |:------- |:------ |:---- |\n')
 sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(def_nos)])]
 for i in sort_ind:
     ind2b.write('| ' + definitions[def_ids[i]]['def_id'] + ' | ' + definitions[def_ids[i]]['shortcut'] + ' | [' + \
-                       definitions[def_ids[i]]['title'] + '](/D/' + definitions[def_ids[i]]['shortcut'] + '.html) | ' + \
+                       definitions[def_ids[i]]['title'] + '](/D/' + definitions[def_ids[i]]['shortcut'] + ') | ' + \
                        definitions[def_ids[i]]['username'] + ' | ' + definitions[def_ids[i]]['date'].strftime('%Y-%m-%d') + ' |\n')
 ind2b.close()
 print('   - successfully written to disk!')
@@ -220,7 +220,7 @@ for i in range(0,len(pr_titles)):
     else:
         if title[0] != proofs[pr_ids[sort_ind[i-1]]]['title'][0]:
             ind3a.write('\n### ' + title[0] + '\n\n')
-    ind3a.write('- [' + title + '](/P/' + shortcut + '.html)\n')
+    ind3a.write('- [' + title + '](/P/' + shortcut + ')\n')
 ind3a.close()
 print('   - successfully written to disk!')
 
@@ -242,7 +242,7 @@ for i in range(0,len(def_titles)):
     else:
         if title[0] != definitions[def_ids[sort_ind[i-1]]]['title'][0]:
             ind3b.write('\n### ' + title[0] + '\n\n')
-    ind3b.write('- [' + title + '](/D/' + shortcut + '.html)\n')
+    ind3b.write('- [' + title + '](/D/' + shortcut + ')\n')
 ind3b.close()
 print('   - successfully written to disk!')
 
@@ -270,7 +270,7 @@ for user in unique_users:
     for i in range(0,len(user_titles)):
         shortcut = user_proofs[sort_ind[i]]['shortcut']
         title    = user_proofs[sort_ind[i]]['title']
-        ind4a.write('- [' + title + '](/P/' + shortcut + '.html)\n')
+        ind4a.write('- [' + title + '](/P/' + shortcut + ')\n')
 ind4a.close()
 print('   - successfully written to disk!')
 
@@ -298,6 +298,6 @@ for user in unique_users:
     for i in range(0,len(user_titles)):
         shortcut = user_definitions[sort_ind[i]]['shortcut']
         title    = user_definitions[sort_ind[i]]['title']
-        ind4a.write('- [' + title + '](/D/' + shortcut + '.html)\n')
+        ind4a.write('- [' + title + '](/D/' + shortcut + ')\n')
 ind4a.close()
 print('   - successfully written to disk!')
