@@ -14,6 +14,13 @@ topic: "Normal-gamma distribution"
 theorem: "Probability density function"
 
 sources:
+  - authors: "Koch KR"
+    year: 2007
+    title: "Normal-Gamma Distribution"
+    in: "Introduction to Bayesian Statistics"
+    pages: "ch. 2.5.3, pp. 55-56, eq. 2.212"
+    url: "https://www.springer.com/gp/book/9783540727231"
+    doi: "10.1007/978-3-540-72726-2"
 
 proof_id: "P44"
 shortcut: "ng-pdf"

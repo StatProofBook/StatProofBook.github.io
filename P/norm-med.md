@@ -36,7 +36,7 @@ $$
 
 **Proof:** The [median](/D/med) is the value at which the [cumulative distribution function](/D/cdf) is $1/2$:
 
-$$ \label{eq:mean}
+$$ \label{eq:median}
 F_X(\mathrm{median}(X)) = \frac{1}{2} \; .
 $$
 

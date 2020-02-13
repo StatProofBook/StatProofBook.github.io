@@ -30,7 +30,7 @@ $$
 Then, the [probability density function](/D/pdf) of $X$ is
 
 $$ \label{eq:norm-pdf}
-f_X(x) = \mathcal{N}(x; \mu, \sigma^2) = \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] \; .
+f_X(x) = \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] \; .
 $$
 
 
