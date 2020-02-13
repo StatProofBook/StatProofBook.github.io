@@ -4,9 +4,11 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (6 definitions)
+### JoramSoch (8 definitions)
 
 - [Continuous uniform distribution](/D/cuni.html)
+- [Exponential distribution](/D/exp.html)
+- [Gamma distribution](/D/gam.html)
 - [Matrix-normal distribution](/D/matn.html)
 - [Moment-generating function](/D/mgf.html)
 - [Multivariate normal distribution](/D/mvn.html)

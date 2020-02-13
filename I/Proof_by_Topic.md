@@ -15,6 +15,7 @@ title: "Proof by Topic"
 - [Conjugate prior distribution for binomial observations](/P/bin-prior.html)
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior.html)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf.html)
+- [Cumulative distribution function of the exponential distribution](/P/exp-cdf.html)
 
 ### D
 
@@ -46,10 +47,13 @@ title: "Proof by Topic"
 - [Mean of the Bernoulli distribution](/P/bern-mean.html)
 - [Mean of the binomial distribution](/P/bin-mean.html)
 - [Mean of the categorical distribution](/P/cat-mean.html)
+- [Mean of the exponential distribution](/P/exp-mean.html)
 - [Mean of the multinomial distribution](/P/mult-mean.html)
 - [Mean of the normal distribution](/P/norm-mean.html)
+- [Median of the exponential distribution](/P/exp-med.html)
 - [Median of the normal distribution](/P/norm-med.html)
 - [Method of moments for beta-distributed data](/P/beta-mom.html)
+- [Mode of the exponential distribution](/P/exp-mode.html)
 - [Mode of the normal distribution](/P/norm-mode.html)
 
 ### O
@@ -65,13 +69,17 @@ title: "Proof by Topic"
 - [Posterior distribution for binomial observations](/P/bin-post.html)
 - [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post.html)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf.html)
+- [Probability density function of the exponential distribution](/P/exp-pdf.html)
+- [Probability density function of the gamma distribution](/P/gam-pdf.html)
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf.html)
 - [Probability density function of the normal distribution](/P/norm-pdf.html)
+- [Probability density function of the normal-gamma distribution](/P/mvn-pdf.html)
 - [Proof Template](/P/-temp-.html)
 
 ### Q
 
 - [Quantile function of the continuous uniform distribution](/P/cuni-qf.html)
+- [Quantile function of the exponential distribution](/P/exp-qf.html)
 
 ### R
 

@@ -50,3 +50,11 @@ title: "Proof by Number"
 | P41 | poissexp-prior | [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior.html) | JoramSoch | 2020-02-04 |
 | P42 | poissexp-post | [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post.html) | JoramSoch | 2020-02-04 |
 | P43 | poissexp-lme | [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme.html) | JoramSoch | 2020-02-04 |
+| P44 | mvn-pdf | [Probability density function of the normal-gamma distribution](/P/mvn-pdf.html) | JoramSoch | 2020-02-07 |
+| P45 | gam-pdf | [Probability density function of the gamma distribution](/P/gam-pdf.html) | JoramSoch | 2020-02-08 |
+| P46 | exp-pdf | [Probability density function of the exponential distribution](/P/exp-pdf.html) | JoramSoch | 2020-02-08 |
+| P47 | exp-mean | [Mean of the exponential distribution](/P/exp-mean.html) | JoramSoch | 2020-02-10 |
+| P48 | exp-cdf | [Cumulative distribution function of the exponential distribution](/P/exp-cdf.html) | JoramSoch | 2020-02-11 |
+| P49 | exp-med | [Median of the exponential distribution](/P/exp-med.html) | JoramSoch | 2020-02-11 |
+| P50 | exp-qf | [Quantile function of the exponential distribution](/P/exp-qf.html) | JoramSoch | 2020-02-12 |
+| P51 | exp-mode | [Mode of the exponential distribution](/P/exp-mode.html) | JoramSoch | 2020-02-12 |

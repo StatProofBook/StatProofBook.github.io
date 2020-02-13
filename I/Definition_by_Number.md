@@ -13,3 +13,5 @@ title: "Definition by Number"
 | D4 | norm | [Normal distribution](/D/norm.html) | JoramSoch | 2020-01-27 |
 | D5 | ng | [Normal-gamma distribution](/D/ng.html) | JoramSoch | 2020-01-27 |
 | D6 | matn | [Matrix-normal distribution](/D/matn.html) | JoramSoch | 2020-01-27 |
+| D7 | gam | [Gamma distribution](/D/gam.html) | JoramSoch | 2020-02-08 |
+| D8 | exp | [Exponential distribution](/D/exp.html) | JoramSoch | 2020-02-08 |

@@ -12,6 +12,14 @@ title: "Definition by Topic"
 
 - [Definition Template](/D/-temp-.html)
 
+### E
+
+- [Exponential distribution](/D/exp.html)
+
+### G
+
+- [Gamma distribution](/D/gam.html)
+
 ### M
 
 - [Matrix-normal distribution](/D/matn.html)
