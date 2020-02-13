@@ -13,9 +13,6 @@ section: "Probability theory"
 topic: "Bayesian inference"
 theorem: "Bayes' theorem"
 
-dependencies:
-  - theorem: "law of conditional probability, also called 'product rule of probability'"
-
 sources:
   - authors: "Koch, Karl-Rudolf"
     year: 2007
@@ -31,14 +28,14 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $A$ and $B$ be two arbitrary statements about random variables, such as statements about the presence or absence of an event or about the value of a scalar, vector or matrix. Then, the conditional probability that $A$ is true, given that $B$ is true, is equal to
+**Theorem:** Let $A$ and $B$ be two arbitrary statements about [random variables](/D/rvar), such as statements about the presence or absence of an event or about the value of a scalar, vector or matrix. Then, the conditional probability that $A$ is true, given that $B$ is true, is equal to
 
 $$ \label{eq:BT}
 p(A|B) = \frac{p(B|A) \, p(A)}{p(B)} \; .
 $$
 
 
-**Proof:** The conditional probability is defined as the ratio of joint probability, i.e. the probability of both statements being true, and marginal probability, i.e. the probability of only the second one being true:
+**Proof:** The [conditional probability](/D/cp) is defined as the ratio of [joint probability](/D/jp), i.e. the probability of both statements being true, and [marginal probability](/D/mp), i.e. the probability of only the second one being true:
 
 $$ \label{eq:LCP}
 p(A|B) = \frac{p(A,B)}{p(B)} \; .

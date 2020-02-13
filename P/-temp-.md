@@ -28,7 +28,7 @@ username: "StatProofBook"
 ---
 
 
-**Theorem:** Let there be [something](/D/-temp-.html). Then
+**Theorem:** Let there be [something](/D/-temp-). Then
 
 $$ \label{eq:Theorem}
 \textbf{an equation belonging to the theorem}
@@ -37,7 +37,7 @@ $$
 if $\textbf{some conditions}$ are fulfilled.
 
 
-**Proof:** Given [something](/D/-temp-.html), it holds that
+**Proof:** Given [something](/D/-temp-), it holds that
 
 $$ \label{eq:Proof}
 \textbf{an equation belonging to the proof}

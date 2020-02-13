@@ -26,7 +26,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ follow a [multivariate normal distribution](/D/mvn.html):
+**Theorem:** Let $x$ follow a [multivariate normal distribution](/D/mvn):
 
 $$ \label{eq:mvn}
 x \sim \mathcal{N}(\mu, \Sigma) \; .
@@ -39,7 +39,7 @@ y = Ax + b \sim \mathcal{N}(A\mu + b, A \Sigma A^\mathrm{T}) \; .
 $$
 
 
-**Proof:** The [moment-generating function of a random vector](/D/mgf.html) $x$ is
+**Proof:** The [moment-generating function of a random vector](/D/mgf) $x$ is
 
 $$ \label{eq:vect-mgf}
 M_x(t) = \mathbb{E} \left( \exp \left[ t^\mathrm{T} x \right] \right)
@@ -56,7 +56,7 @@ M_y(t) &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
 \end{split}
 $$
 
-The [moment-generating function of the multivariate normal distribution](/P/mvn-mgf.html) is
+The [moment-generating function of the multivariate normal distribution](/P/mvn-mgf) is
 
 $$ \label{eq:mvn-mgf}
 M_x(t) = \exp \left[ t^\mathrm{T} \mu + \frac{1}{2} t^\mathrm{T} \Sigma t \right]
