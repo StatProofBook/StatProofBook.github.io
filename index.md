@@ -14,19 +14,19 @@ of statistical theorems for the computational sciences*! <br>
 <table style="border:none">
   <tr>
     <td style="text-align:center">
-	  <a href="/I/Table_of_Contents.html">Table of Contents</a> <br>
+	  <a href="/I/Table_of_Contents>Table of Contents</a> <br>
 	  <img src="Index1.png"> <br>
 	  Proofs & Definitions
 	</td>
     <td style="text-align:center">
-	  <a href="/I/Proof_by_Number.html">Proof by Number</a> <br>
+	  <a href="/I/Proof_by_Number">Proof by Number</a> <br>
 	  <img src="Index2.png"> <br>
-	  <a href="/I/Definition_by_Number.html">Definition by Number</a>
+	  <a href="/I/Definition_by_Number">Definition by Number</a>
 	</td>
     <td style="text-align:center">
-	  <a href="/I/Proof_by_Topic.html">Proof by Topic</a> <br>
+	  <a href="/I/Proof_by_Topic">Proof by Topic</a> <br>
 	  <img src="Index3.png"> <br>
-	  <a href="/I/Definition_by_Topic.html">Definition by Topic</a>
+	  <a href="/I/Definition_by_Topic">Definition by Topic</a>
 	</td>
   </tr>
 </table>
@@ -35,5 +35,5 @@ of statistical theorems for the computational sciences*! <br>
 You can also <a href="https://github.com/StatProofBook/StatProofBookTools/blob/master/write_book/StatProofBook.pdf">view</a> or <a href="https://github.com/StatProofBook/StatProofBookTools/raw/master/write_book/StatProofBook.pdf">download</a> the entire book as a single PDF.
 </div>
 
-[//]: # (- [Proof by Author](I/Proof_by_Author.md) -- sorted by contributor)
-[//]: # (- [Definition by Author](I/Definition_by_Author.md) -- sorted by contributor)
+[//]: # (- [Proof by Author](I/Proof_by_Author) -- sorted by contributor)
+[//]: # (- [Definition by Author](I/Definition_by_Author) -- sorted by contributor)
