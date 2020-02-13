@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a continuous random variable. Then, $X$ is said to be uniformly distributed with minimum $a$ and maximum $b$
+**Definition:** Let $X$ be a continuous [random variable](/D/rvar). Then, $X$ is said to be uniformly distributed with minimum $a$ and maximum $b$
 
 $$ \label{eq:cuni}
 X \sim \mathcal{U}(a, b) \; ,

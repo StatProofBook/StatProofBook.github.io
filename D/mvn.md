@@ -28,13 +28,13 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be an $n \times 1$ random vector. Then, $X$ is said to be multivariate normally distributed with mean $\mu$ and covariance $\Sigma$
+**Definition:** Let $X$ be an $n \times 1$ [random vector](/D/rvec). Then, $X$ is said to be multivariate normally distributed with mean $\mu$ and covariance $\Sigma$
 
 $$ \label{eq:mvn}
 X \sim \mathcal{N}(\mu, \Sigma) \; ,
 $$
 
-if and only if its probability density function is given by
+if and only if its [probability density function](/D/pdf) is given by
 
 $$ \label{eq:mvn-pdf}
 \mathcal{N}(x; \mu, \Sigma) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right]

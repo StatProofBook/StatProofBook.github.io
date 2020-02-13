@@ -27,13 +27,13 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a random variable. Then, $X$ is said to be normally distributed with mean $\mu$ and variance $\sigma^2$ (or, standard deviation $\sigma$)
+**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to be normally distributed with mean $\mu$ and variance $\sigma^2$ (or, standard deviation $\sigma$)
 
 $$ \label{eq:norm}
 X \sim \mathcal{N}(\mu, \sigma^2) \; ,
 $$
 
-if and only if its probability density function is given by
+if and only if its [probability density function](/D/pdf) is given by
 
 $$ \label{eq:norm-pdf}
 f_X(x) = \mathcal{N}(x; \mu, \sigma^2) = \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right]
