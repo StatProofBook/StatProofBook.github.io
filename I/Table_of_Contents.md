@@ -15,23 +15,35 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 1. Probability theory
 
    1.1. Probability distributions <br>
-   &emsp;&ensp; 1.1.1. *[Moment-generating function](/D/mgf)* <br>
+   &emsp;&ensp; 1.1.1. *[Probability mass function](/D/pmf)* <br>
+   &emsp;&ensp; 1.1.2. *[Probability density function](/D/pdf)* <br>
+   &emsp;&ensp; 1.1.3. *[Moment-generating function](/D/mgf)* <br>
    
-   1.2. Bayesian inference <br>
-   &emsp;&ensp; 1.2.1. **[Bayes' theorem](/P/bayes-th)** <br>
-   &emsp;&ensp; 1.2.2. **[Bayes' rule](/P/bayes-rule)** <br>
+   1.2. Expected value <br>
+   &emsp;&ensp; 1.2.1. *[Definition](/D/mean)* <br>
+   &emsp;&ensp; 1.2.2. **[Non-negativity](/P/mean-nonneg)** <br>
+   &emsp;&ensp; 1.2.3. **[Linearity](/P/mean-lin)** <br>
+   
+   1.3. Variance <br>
+   &emsp;&ensp; 1.3.1. *[Definition](/D/var)* <br>
 
-2. Estimation theory
+2. Bayesian statistics
 
-   2.1. Point estimates <br>
-   &emsp;&ensp; 2.1.1. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
+   2.1. Bayesian inference <br>
+   &emsp;&ensp; 2.1.1. **[Bayes' theorem](/P/bayes-th)** <br>
+   &emsp;&ensp; 2.1.2. **[Bayes' rule](/P/bayes-rule)** <br>
 
-3. Information theory
+3. Estimation theory
 
-   3.1. Discrete mutual information <br>
-   &emsp;&ensp; 3.1.1. **[Relation to marginal and conditional entropy](/P/dmi-mce)** <br>
-   &emsp;&ensp; 3.1.2. **[Relation to marginal and joint entropy](/P/dmi-mje)** <br>
-   &emsp;&ensp; 3.1.3. **[Relation to joint and conditional entropy](/P/dmi-jce)** <br>
+   3.1. Point estimates <br>
+   &emsp;&ensp; 3.1.1. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
+
+4. Information theory
+
+   4.1. Discrete mutual information <br>
+   &emsp;&ensp; 4.1.1. **[Relation to marginal and conditional entropy](/P/dmi-mce)** <br>
+   &emsp;&ensp; 4.1.2. **[Relation to marginal and joint entropy](/P/dmi-mje)** <br>
+   &emsp;&ensp; 4.1.3. **[Relation to joint and conditional entropy](/P/dmi-jce)** <br>
 
 
 <section class="chapter" id="Probability Distributions">
