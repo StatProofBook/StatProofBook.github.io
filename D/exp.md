@@ -27,13 +27,13 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ be a random variable. Then, $X$ is said to be exponentially distributed with rate (or, inverse scale) $\lambda$
+**Definition**: Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to be exponentially distributed with rate (or, inverse scale) $\lambda$
 
 $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; ,
 $$
 
-if and only if its probability density function is given by
+if and only if its [probability density function](/D/pdf) is given by
 
 $$ \label{eq:exp-pdf}
 \mathrm{Exp}(x; \lambda) = \lambda \exp[-\lambda x], \quad x \geq 0

@@ -13,11 +13,6 @@ section: "Normal data"
 topic: "Bayesian linear regression"
 theorem: "Conjugate prior distribution"
 
-dependencies:
-  - theorem: "definition of conjugate priors"
-  - theorem: "probability density function for the multivariate normal distribution"
-  - theorem: "probability density function for the normal-gamma distribution"
-
 sources:
   - authors: "Bishop CM"
     year: 2006
@@ -38,9 +33,9 @@ $$ \label{eq:GLM}
 y = X \beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \sigma^2 V)
 $$
 
-be a linear regression model with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$, known $n \times n$ covariance structure $V$ and unknown $p \times 1$ regression coefficients $\beta$ and noise variance $\sigma^2$.
+be a [linear regression model](/P/mlr) with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$, known $n \times n$ covariance structure $V$ and unknown $p \times 1$ regression coefficients $\beta$ and noise variance $\sigma^2$.
 
-Then, the conjugate prior for this model is a normal-gamma distribution
+Then, the [conjugate prior](/D/prior-conj) for this model is a [normal-gamma distribution](/D/ng)
 
 $$ \label{eq:GLM-NG-prior}
 p(\beta,\tau) = \mathcal{N}(\beta; \mu_0, (\tau \Lambda_0)^{-1}) \cdot \mathrm{Gam}(\tau; a_0, b_0)
@@ -49,9 +44,9 @@ $$
 where $\tau = 1/\sigma^2$ is the inverse noise variance or noise precision.
 
 
-**Proof:** By definition, a conjugate prior is a prior distribution that, when combined with the likelihood function, leads to a posterior distribution that belongs to the same family of probability distributions. This is fulfilled when the prior density and the likelihood function are proportional to the model parameters in the same way, i.e. the model parameters appear in the same functional form in both.
+**Proof:** By definition, a [conjugate prior](/D/prior-conj) is a [prior distribution](/D/prior) that, when combined with the [likelihood function](/D/lf), leads to a [posterior distribution](/D/post) that belongs to the same family of [probability distributions](/D/pd). This is fulfilled when the prior density and the likelihood function are proportional to the model parameters in the same way, i.e. the model parameters appear in the same functional form in both.
 
-Equation \eqref{eq:GLM} implies the following likelihood function
+Equation \eqref{eq:GLM} implies the following [likelihood function](/D/lf)
 
 $$ \label{eq:GLM-LF-class}
 p(y|\beta,\sigma^2) = \mathcal{N}(y; X \beta, \sigma^2 V) = \sqrt{\frac{1}{(2 \pi)^n |\sigma^2 V|}} \, \exp\left[ -\frac{1}{2 \sigma^2} (y-X\beta)^\mathrm{T} V^{-1} (y-X\beta) \right]
@@ -87,7 +82,7 @@ $$
 where $\tilde{X} = \left( X^\mathrm{T} P X \right)^{-1} X^\mathrm{T} P$ and $Q = \tilde{X}^\mathrm{T} \left( X^\mathrm{T} P X \right) \tilde{X}$.
 
 <br>
-In other words, the likelihood function is proportional to a power of $\tau$ times an exponential of $\tau$ and an exponential of a squared form of $\beta$, weighted by $\tau$:
+In other words, the [likelihood function](/D/lf) is proportional to a power of $\tau$ times an exponential of $\tau$ and an exponential of a squared form of $\beta$, weighted by $\tau$:
 
 $$ \label{eq:GLM-LF-s4}
 p(y|\beta,\tau) \propto \tau^{n/2} \cdot \exp\left[ -\frac{\tau}{2} \left( y^\mathrm{T} P y - y^\mathrm{T} Q y \right) \right] \cdot \exp\left[ -\frac{\tau}{2} (\beta - \tilde{X}y)^\mathrm{T} X^\mathrm{T} P X (\beta - \tilde{X}y) \right] \; .
@@ -99,7 +94,7 @@ $$ \label{eq:BLR-prior-s1}
 p(\beta,\tau) = \mathcal{N}(\beta; \mu_0, (\tau \Lambda_0)^{-1}) \cdot \mathrm{Gam}(\tau; a_0, b_0)
 $$
 
-whose probability density function
+the [probability density function of which](/P/ng-pdf)
 
 $$ \label{eq:BLR-prior-s2}
 p(\beta,\tau) = \sqrt{\frac{|\tau \Lambda_0|}{(2 \pi)^p}} \exp\left[ -\frac{\tau}{2} (\beta-\mu_0)^\mathrm{T} \Lambda_0 (\beta-\mu_0) \right] \cdot \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \tau^{a_0-1} \exp[-b_0 \tau]

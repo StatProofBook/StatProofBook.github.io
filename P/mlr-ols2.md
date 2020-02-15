@@ -27,20 +27,20 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Given a [linear regression model](/D/mlr.html) with independent observations
+**Theorem:** Given a [linear regression model](/D/mlr) with independent observations
 
 $$ \label{eq:MLR}
 y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; ,
 $$
 
-the parameters minimizing the [residual sum of squares](/D/rss.html) are given by
+the parameters minimizing the [residual sum of squares](/D/rss) are given by
 
 $$ \label{eq:OLS}
 \hat{\beta} = (X^\mathrm{T} X)^{-1} X^\mathrm{T} y \; .
 $$
 
 
-**Proof:** The residual sum of squares is defined as
+**Proof:** The [residual sum of squares](/D/rss) is defined as
 
 $$ \label{eq:RSS}
 \mathrm{RSS}(\beta) = \sum_{i=1}^n \varepsilon_i = \varepsilon^\mathrm{T} \varepsilon = (y-X\beta)^\mathrm{T} (y-X\beta)

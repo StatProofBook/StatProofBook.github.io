@@ -21,26 +21,26 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following an [exponential distribution](/D/exp.html):
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following an [exponential distribution](/D/exp):
 
 $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; .
 $$
 
-Then, the [mode](/D/mode.html) of $X$ is
+Then, the [mode](/D/mode) of $X$ is
 
 $$ \label{eq:exp-mode}
 \mathrm{mode}(X) = 0 \; .
 $$
 
 
-**Proof:**  The [mode](/D/mode.html) is the value which maximizes the probability density function:
+**Proof:**  The [mode](/D/mode) is the value which maximizes the [probability density function](/D/pdf):
 
 $$ \label{eq:mode}
 \mathrm{mode}(X) = \operatorname*{arg\,max}_x f_X(x) \; .
 $$
 
-The [probability density function of the exponential distribution](/P/exp-pdf.html) is:
+The [probability density function of the exponential distribution](/P/exp-pdf) is:
 
 $$ \label{eq:exp-pdf}
 f_X(x) = \left\{

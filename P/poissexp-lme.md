@@ -21,19 +21,19 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a series of observed counts which are independently distributed according to a [Poisson distribution](/D/poiss.html) with common rate $\lambda$ and concurrent exposures $\left\lbrace x_1, \ldots, x_n \right\rbrace$:
+**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a series of observed counts which are independently distributed according to a [Poisson distribution](/D/poiss) with common rate $\lambda$ and concurrent exposures $\left\lbrace x_1, \ldots, x_n \right\rbrace$:
 
 $$ \label{eq:Poiss-exp}
 y_i \sim \mathrm{Poiss}(\lambda x_i), \quad i = 1, \ldots, n \; .
 $$
 
-Moreover, assume a gamma prior distribution over the model parameter $\lambda$:
+Moreover, assume a [gamma prior distribution](/P/poissexp-prior) over the model parameter $\lambda$:
 
 $$ \label{eq:Poiss-exp-prior}
 p(\lambda) = \mathrm{Gam}(\lambda; a_0, b_0) \; .
 $$
 
-Then, the log model evidence for this model is
+Then, the [log model evidence](/D/lme) for this model is
 
 $$ \label{eq:Poiss-exp-LME}
 \begin{split}
@@ -42,7 +42,7 @@ $$ \label{eq:Poiss-exp-LME}
 \end{split}
 $$
 
-where the posterior hyperparameters are given by
+where the [posterior hyperparameters](/D/post-hyp) are given by
 
 $$ \label{eq:Poiss-exp-post-par}
 \begin{split}
@@ -52,19 +52,19 @@ a_n &= a_0 + n \bar{x} \; .
 $$
 
 
-**Proof:** With the [probability mass function of the Poisson distribution](/P/poiss-pmf.html), the likelihood function for each observation implied by \eqref{eq:Poiss-exp} is given by
+**Proof:** With the [probability mass function of the Poisson distribution](/P/poiss-pmf), the [likelihood function](/D/lf) for each observation implied by \eqref{eq:Poiss-exp} is given by
 
 $$ \label{eq:Poiss-exp-LF-s1}
 p(y_i|\lambda) = \mathrm{Poiss}(y_i; \lambda x_i) = \frac{(\lambda x_i)^{y_i} \cdot \exp\left[-\lambda x_i\right]}{y_i !}
 $$
 
-and because observations are independent, the [likelihood function](/D/lf.html) for all observations is the product of the individual ones:
+and because observations are [independent](/D/ind), the likelihood function for all observations is the product of the individual ones:
 
 $$ \label{eq:Poiss-exp-LF-s2}
 p(y|\lambda) = \prod_{i=1}^n p(y_i|\lambda) = \prod_{i=1}^n \frac{(\lambda x_i)^{y_i} \cdot \exp\left[-\lambda x_i\right]}{y_i !} \; .
 $$
 
-Combining the likelihood function \eqref{eq:Poiss-exp-LF-s2} with the prior distribution \eqref{eq:Poiss-exp-prior}, the [joint likelihood](/D/jl.html) of the model is given by
+Combining the likelihood function \eqref{eq:Poiss-exp-LF-s2} with the prior distribution \eqref{eq:Poiss-exp-prior}, the [joint likelihood](/D/jl) of the model is given by
 
 $$ \label{eq:Poiss-exp-JL-s1}
 \begin{split}
@@ -84,7 +84,7 @@ p(y,\lambda) &= \prod_{i=1}^n \frac{ {x_i}^{y_i}}{y_i !} \prod_{i=1}^n \lambda^{
 \end{split}
 $$
 
-where $\bar{y}$ and $\bar{x}$ are the means of $y$ and $x$ respectively:
+where $\bar{y}$ and $\bar{x}$ are the [means](/P/ev-sample) of $y$ and $x$ respectively:
 
 $$ \label{eq:xy-mean}
 \begin{split}
@@ -93,7 +93,7 @@ $$ \label{eq:xy-mean}
 \end{split}
 $$
 
-Note that the model evidence is the marginal density of the joint likelihood:
+Note that the [model evidence is the marginal density of the joint likelihood](/D/ml):
 
 $$ \label{eq:Poiss-exp-ME}
 p(y) = \int p(y,\lambda) \, \mathrm{d}\lambda \; .
@@ -105,7 +105,7 @@ $$ \label{eq:Poiss-exp-JL-s3}
 p(y,\lambda) = \prod_{i=1}^n \left(\frac{ {x_i}^{y_i}}{y_i !}\right) \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \frac{\Gamma(a_n)}{ {b_n}^{a_n}} \cdot \frac{ {b_n}^{a_n}}{\Gamma(a_n)} \lambda^{a_n-1} \exp\left[-b_n \lambda\right] \; .
 $$
 
-Using the [probability density function of the gamma distribution](/P/gam-pdf.html), $\lambda$ can now be integrated out easily
+Using the [probability density function of the gamma distribution](/P/gam-pdf), $\lambda$ can now be integrated out easily
 
 $$ \label{eq:Poiss-exp-ME-qed}
 \begin{split}
@@ -115,7 +115,7 @@ $$ \label{eq:Poiss-exp-ME-qed}
 \end{split}
 $$
 
-such that the log model evidence is shown to be
+such that the [log model evidence](/D/lme) is shown to be
 
 $$ \label{eq:Poiss-exp-LME-qed}
 \begin{split}

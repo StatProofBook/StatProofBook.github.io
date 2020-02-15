@@ -13,10 +13,6 @@ section: "Matrix-variate continuous distributions"
 topic: "Matrix-normal distribution"
 theorem: "Equivalence to multivariate normal distribution"
 
-dependencies:
-  - theorem: "probability density function of the matrix-normal distribution"
-  - theorem: "probability density function of the multivariate normal distribution"
-
 sources:
   - authors: "Wikipedia"
     year: 2020
@@ -31,13 +27,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** The matrix $X$ is matrix-normally distributed
+**Theorem:** The matrix $X$ is [matrix-normally distributed](/D/matn)
 
 $$ \label{eq:matn}
 X \sim \mathcal{MN}(M, U, V) \; ,
 $$
 
-if and only if $\mathrm{vec}(X)$ is multivariate normally distributed
+if and only if $\mathrm{vec}(X)$ is [multivariate normally distributed](/D/mvn)
 
 $$ \label{eq:mvn}
 \mathrm{vec}(X) \sim \mathcal{MN}(\mathrm{vec}(M), V \otimes U)
@@ -46,7 +42,7 @@ $$
 where $\mathrm{vec}(X)$ is the vectorization operator and $\otimes$ is the Kronecker product.
 
 
-**Proof:** The probability density function of the matrix-normal distribution with $n \times p$ mean $M$, $n \times n$ covariance across rows $U$ and $p \times p$ covariance across columns $V$ is
+**Proof:** The [probability density function of the matrix-normal distribution](/P/matn-pdf) with $n \times p$ mean $M$, $n \times n$ covariance across rows $U$ and $p \times p$ covariance across columns $V$ is
 
 $$ \label{eq:matn-pdf}
 \mathcal{MN}(X; M, U, V) = \frac{1}{\sqrt{(2\pi)^{np} |V|^n |U|^p}} \cdot \exp\left[-\frac{1}{2} \mathrm{tr}\left( V^{-1} (X-M)^\mathrm{T} \, U^{-1} (X-M) \right) \right] \; .
@@ -88,10 +84,10 @@ $$ \label{eq:matn-mvn-s6}
 \mathcal{MN}(X; M, U, V) = \frac{1}{\sqrt{(2\pi)^{np} |V \otimes U|}} \cdot \exp\left[-\frac{1}{2} \left[ \mathrm{vec}(X) - \mathrm{vec}(M) \right]^\mathrm{T} \, \left( V \otimes U \right)^{-1} \left[ \mathrm{vec}(X) - \mathrm{vec}(M) \right] \right] \; .
 $$
 
-This is the probability density function of the multivariate normal distribution with the $np \times 1$ mean vector $\mathrm{vec}(M)$ and the $np \times np$ covariance matrix $V \otimes U$:
+This is the [probability density function of the multivariate normal distribution](/P/mvn-pdf) with the $np \times 1$ mean vector $\mathrm{vec}(M)$ and the $np \times np$ covariance matrix $V \otimes U$:
 
 $$ \label{eq:matn-mvn}
 \mathcal{MN}(X; M, U, V) = \mathcal{N}(\mathrm{vec}(X); \mathrm{vec}(M), V \otimes U) \; .
 $$
 
-By showing that the probability density functions are identical, it is proven that the associated probability distributions are equivalent.
+By showing that the [probability density functions](/D/pdf) are identical, it is proven that the associated [probability distributions](/D/pd) are equivalent.

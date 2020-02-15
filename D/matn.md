@@ -27,16 +27,16 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ be an $n \times p$ random matrix. Then, $X$ is said to be matrix-normally distributed with mean $M$, covariance across rows $U$ and covariance across columns $V$
+**Definition**: Let $X$ be an $n \times p$ [random matrix](/D/rmat). Then, $X$ is said to be matrix-normally distributed with mean $M$, covariance across rows $U$ and covariance across columns $V$
 
 $$ \label{eq:matn}
 X \sim \mathcal{MN}(M, U, V) \; ,
 $$
 
-if and only if its probability density function is given by
+if and only if its [probability density function](/D/pdf) is given by
 
 $$ \label{eq:matn-pdf}
-f_X(X) = \mathcal{MN}(X; M, U, V) = \frac{1}{\sqrt{(2\pi)^{np} |V|^n |U|^p}} \cdot \exp\left[-\frac{1}{2} \mathrm{tr}\left( V^{-1} (X-M)^\mathrm{T} \, U^{-1} (X-M) \right) \right]
+\mathcal{MN}(X; M, U, V) = \frac{1}{\sqrt{(2\pi)^{np} |V|^n |U|^p}} \cdot \exp\left[-\frac{1}{2} \mathrm{tr}\left( V^{-1} (X-M)^\mathrm{T} \, U^{-1} (X-M) \right) \right]
 $$
 
 where $\mu$ is an $n \times p$ real matrix, $U$ is an $n \times n$ positive definite matrix and $V$ is a $p \times p$ positive definite matrix.

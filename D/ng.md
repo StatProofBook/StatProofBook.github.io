@@ -28,16 +28,16 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ be an $n \times 1$ random vector and let $Y$ be a positive random variable. Then, $X$ and $Y$ are said to follow a normal-gamma distribution
+**Definition**: Let $X$ be an $n \times 1$ [random vector](/D/rvec) and let $Y$ be a positive [random variable](/D/rvar). Then, $X$ and $Y$ are said to follow a normal-gamma distribution
 
 $$ \label{eq:ng}
 X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; ,
 $$
 
-if and only if their joint probability density function is given by
+if and only if their [joint probability](/D/jp) [density function](/D/pdf) is given by
 
 $$ \label{eq:ng-pdf}
 f_{X,Y}(x,y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b)
 $$
 
-where $\mathcal{N}(x; \mu, \Sigma)$ is the [probability density function of the multivariate normal distribution](/P/mvn-pdf.html) with mean $\mu$ and covariance $\Sigma$ and $\mathrm{Gam}(x; a, b)$ is the [probability density function of the gamma distribution](/P/gam-pdf.html) with shape $a$ and rate $b$. The $n \times n$ matrix $\Lambda$ is referred to as the [precision matrix](/D/prec-mat.html) of the normal-gamma distribution.
+where $\mathcal{N}(x; \mu, \Sigma)$ is the [probability density function of the multivariate normal distribution](/P/mvn-pdf) with mean $\mu$ and covariance $\Sigma$ and $\mathrm{Gam}(x; a, b)$ is the [probability density function of the gamma distribution](/P/gam-pdf) with shape $a$ and rate $b$. The $n \times n$ matrix $\Lambda$ is referred to as the precision matrix of the normal-gamma distribution.

@@ -21,20 +21,20 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following a continuous uniform distribution:
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [continuous uniform distribution](/D/cuni):
 
 $$ \label{eq:cuni}
 X \sim \mathcal{U}(a, b) \; .
 $$
 
-Then, the quantile function of $X$ is
+Then, the [quantile function](/D/qf) of $X$ is
 
 $$ \label{eq:cuni-qf}
 Q_X(p) = bp + a(1-p) \; .
 $$
 
 
-**Proof:** The [cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf.html) is:
+**Proof:** The [cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf) is:
 
 $$ \label{eq:cuni-cdf}
 F_X(x) = \left\{
@@ -46,7 +46,7 @@ F_X(x) = \left\{
 \right.
 $$
 
-Thus, the [quantile function](/D/qf.html) is:
+Thus, the [quantile function](/D/qf) is:
 
 $$ \label{eq:cuni-qf-s1}
 Q_X(p) = F_X^{-1}(x) \; .

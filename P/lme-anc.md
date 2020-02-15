@@ -13,14 +13,6 @@ section: "Bayesian model selection"
 topic: "Log model evidence"
 theorem: "Partition into accuracy and complexity"
 
-dependencies:
-  - theorem: "Bayes' theorem"
-    shortcut: "bayes-th"
-  - theorem: "derivation of the log model evidence"
-    shortcut: "lme-der"
-  - theorem: "expectation with respect to a random variable"
-  - theorem: "Kullback-Leibler divergence of two probability distributions"
-
 sources:
   - authors: "Penny et al."
     year: 2007
@@ -43,32 +35,32 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** The log model evidence can be partitioned into accuracy and complexity
+**Theorem:** The [log model evidence](/D/lme) can be partitioned into accuracy and complexity
 
 $$ \label{eq:LME}
 \mathrm{LME}(m) = \mathrm{Acc}(m) - \mathrm{Com}(m)
 $$
 
-where the accuracy term is the posterior expectation of the log-likelihood function
+where the accuracy term is the posterior expectation of the log-[likelihood function](/D/lf)
 
 $$ \label{eq:Acc}
 \mathrm{Acc}(m) = \left\langle p(y|\theta,m) \right\rangle_{p(\theta|y,m)}
 $$
 
-and the complexity penalty is the Kullback-Leibler divergence of posterior from prior
+and the complexity penalty is the [Kullback-Leibler divergence](/D/kl) of [posterior](/D/post) from [prior](/D/prior)
 
 $$ \label{eq:Com}
 \mathrm{Com}(m) = \mathrm{KL} \left[ p(\theta|y,m) \, || \, p(\theta|m) \right] \; .
 $$
 
 
-**Proof:** We consider Bayesian inference on data $y$ using model $m$ with parameters $\theta$. Then, Bayes' theorem makes a statement about the posterior distribution, i.e. the probability of parameters, given the data and the model:
+**Proof:** We consider Bayesian inference on data $y$ using model $m$ with parameters $\theta$. Then, [Bayes' theorem](/P/bayes-th) makes a statement about the posterior distribution, i.e. the probability of parameters, given the data and the model:
 
 $$ \label{eq:AnC-s1}
 p(\theta|y,m) = \frac{p(y|\theta,m) \, p(\theta|m)}{p(y|m)} \; .
 $$
 
-Rearranging this for the model evidence, we have:
+[Rearranging this for the model evidence](/P/lme-der), we have:
 
 $$ \label{eq:AnC-s2}
 p(y|m) = \frac{p(y|\theta,m) \, p(\theta|m)}{p(\theta|y,m)} \; .

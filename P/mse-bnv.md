@@ -13,10 +13,6 @@ section: "Estimation theory"
 topic: "Point estimates"
 theorem: "Partition of the mean squared error into bias and variance"
 
-dependencies:
-  - theorem: "definition of the mean squared error"
-  - theorem: "expectation with respect to a random variable"
-
 sources:
   - authors: "Wikipedia"
     year: 2019
@@ -31,26 +27,26 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** The mean squared error can be partitioned into variance and squared bias
+**Theorem:** The [mean squared error](/D/mse) can be partitioned into variance and squared bias
 
 $$ \label{eq:MSE}
 \mathrm{MSE}(\hat{\theta}) = \mathrm{Var}(\hat{\theta}) - \mathrm{Bias}(\hat{\theta},\theta)^2
 $$
 
-where the variance is given by
+where the [variance](/D/var) is given by
 
 $$ \label{eq:Var}
 \mathrm{Var}(\hat{\theta}) = \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right]
 $$
 
-and the bias is given by
+and the [bias](/D/bias) is given by
 
 $$ \label{eq:Bias}
 \mathrm{Bias}(\hat{\theta},\theta) = \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \; .
 $$
 
 
-**Proof:** The mean squared error (MSE) is defined as the expected value of the squared deviation of the estimated value $\hat{\theta}$ from the true value $\theta$ of a parameter, over all values $\hat{\theta}$:
+**Proof:** The mean squared error (MSE) [is defined as](/D/mse) the [expected value](/D/ev) of the squared deviation of the estimated value $\hat{\theta}$ from the true value $\theta$ of a parameter, over all values $\hat{\theta}$:
 
 $$ \label{eq:MSE-def}
 \mathrm{MSE}(\hat{\theta}) = \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \theta \right)^2 \right] \; .

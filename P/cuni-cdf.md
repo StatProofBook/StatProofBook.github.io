@@ -21,13 +21,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a random variable following a continuous uniform distribution:
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [continuous uniform distribution](/D/cuni):
 
 $$ \label{eq:cuni}
 X \sim \mathcal{U}(a, b) \; .
 $$
 
-Then, the cumulative distribution function of $X$ is
+Then, the [cumulative distribution function](/D/cdf) of $X$ is
 
 $$ \label{eq:cuni-cdf}
 F_X(x) = \left\{
@@ -40,10 +40,10 @@ F_X(x) = \left\{
 $$
 
 
-**Proof:** The [probability density function of the continuous uniform distribution](/P/cuni-pdf.html) is:
+**Proof:** The [probability density function of the continuous uniform distribution](/P/cuni-pdf) is:
 
 $$ \label{eq:cuni-pdf}
-f_X(x) = \left\{
+\mathcal{U}(z; a, b) = \left\{
 \begin{array}{rl}
 \frac{1}{b-a} \; , & \text{if} \; a \leq x \leq b \\
 0 \; , & \text{otherwise} \; .
@@ -51,7 +51,7 @@ f_X(x) = \left\{
 \right.
 $$
 
-Thus, the [cumulative distribution function](/D/cdf.html) is:
+Thus, the [cumulative distribution function](/D/cdf) is:
 
 $$ \label{eq:cuni-cdf-s1}
 F_X(x) = \int_{-\infty}^{x} \mathcal{U}(z; a, b) \, \mathrm{d}z

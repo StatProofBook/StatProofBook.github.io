@@ -13,10 +13,6 @@ section: "Normal data"
 topic: "General linear model"
 theorem: "Maximum likelihood estimation"
 
-dependencies:
-  - theorem: "probability density function of the matrix-normal distribution"
-  - theorem: "maximum likelihood estimation for a generative model"
-
 sources:
 
 proof_id: "P7"
@@ -25,13 +21,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Given a general linear model with matrix-normally distributed errors
+**Theorem:** Given a [general linear model](/D/glm) with [matrix-normally distributed](/D/matn) errors
 
 $$ \label{eq:GLM}
 Y = X B + E, \; E \sim \mathcal{MN}(0, V, \Sigma) \; ,
 $$
 
-maximum likelihood estimates for the unknown parameters $B$ and $\Sigma$ are given by
+[maximum likelihood estimates](/D/mle) for the unknown parameters $B$ and $\Sigma$ are given by
 
 $$ \label{eq:GLM-MLE}
 \begin{split}
@@ -41,7 +37,7 @@ $$ \label{eq:GLM-MLE}
 $$
 
 
-**Proof:** In \eqref{eq:GLM}, $Y$ is an $n \times v$ matrix of measurements ($n$ observations, $v$ dependent variables), $X$ is an $n \times p$ design matrix ($n$ observations, $p$ independent variables) and $V$ is an $n \times n$ covariance matrix across observations. This multivariate GLM implies the following likelihood function
+**Proof:** In \eqref{eq:GLM}, $Y$ is an $n \times v$ matrix of measurements ($n$ observations, $v$ dependent variables), $X$ is an $n \times p$ design matrix ($n$ observations, $p$ independent variables) and $V$ is an $n \times n$ covariance matrix across observations. This multivariate GLM implies the following [likelihood function](/D/lf)
 
 $$ \label{eq:GLM-LF}
 \begin{split}
@@ -50,7 +46,7 @@ p(Y|B,\Sigma) &= \mathcal{MN}(Y; XB, V, \Sigma) \\
 \end{split}
 $$
 
-and the log-likelihood function
+and the [log-likelihood function](/D/llf)
 
 $$ \label{eq:GLM-LL1}
 \begin{split}

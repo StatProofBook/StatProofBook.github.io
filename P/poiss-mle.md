@@ -13,10 +13,6 @@ section: "Poisson data"
 topic: "Poisson-distributed data"
 theorem: "Maximum likelihood estimation"
 
-dependencies:
-  - theorem: "probability mass function of the Poisson distribution"
-  - theorem: "maximum likelihood estimation for a generative model"
-
 sources:
 
 proof_id: "P27"
@@ -25,38 +21,38 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a set of observed counts independent and identically distributed according to a Poisson distribution with rate $\lambda$:
+**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a set of observed counts independent and identically distributed according to a [Poisson distribution](/D/poiss) with rate $\lambda$:
 
 $$ \label{eq:Poiss}
 y_i \sim \mathrm{Poiss}(\lambda), \quad i = 1, \ldots, n \; .
 $$
 
-Then, the maximum likelihood estimate for the rate parameter $\lambda$ is given by
+Then, the [maximum likelihood estimate](/D/mle) for the rate parameter $\lambda$ is given by
 
 $$ \label{eq:Poiss-MLE}
 \hat{\lambda} = \bar{y}
 $$
 
-where $\bar{y}$ is the sample mean
+where $\bar{y}$ is the [sample mean](/P/ev-sample)
 
 $$ \label{eq:y-mean}
 \bar{y} = \frac{1}{n} \sum_{i=1}^n y_i \; .
 $$
 
 
-**Proof:** The likelihood function for each observation is given by the probability mass function of the Poisson distribution
+**Proof:** The [likelihood function](/D/lf) for each observation is given by the [probability mass function of the Poisson distribution](/P/poiss-pdf)
 
 $$ \label{eq:Poiss-yi}
 p(y_i|\lambda) = \mathrm{Poiss}(y_i; \lambda) = \frac{\lambda^{y_i} \cdot \exp(-\lambda)}{y_i !}
 $$
 
-and because observations are independent, the likelihood function for all observations is the product of the individual ones:
+and because observations are [independent](/D/ind), the likelihood function for all observations is the product of the individual ones:
 
 $$ \label{eq:Poiss-LF}
 p(y|\lambda) = \prod_{i=1}^n p(y_i|\lambda) = \prod_{i=1}^n \frac{\lambda^{y_i} \cdot \exp(-\lambda)}{y_i !} \; .
 $$
 
-Thus, the log-likelihood function is
+Thus, the [log-likelihood function](/D/llf) is
 
 $$ \label{eq:Poiss-LL}
 \mathrm{LL}(\lambda) = \log p(y|\lambda) = \log \left[ \prod_{i=1}^n \frac{\lambda^{y_i} \cdot \exp(-\lambda)}{y_i !} \right]

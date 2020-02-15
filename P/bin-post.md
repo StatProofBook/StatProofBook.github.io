@@ -27,25 +27,25 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y$ be the number of successes resulting from $n$ independent trials with unknown success probability $p$, such that $y$ follows a binomial distribution:
+**Theorem:** Let $y$ be the number of successes resulting from $n$ independent trials with unknown success probability $p$, such that $y$ follows a [binomial distribution](/D/bin):
 
 $$ \label{eq:Bin}
 y \sim \mathrm{Bin}(n,p) \; .
 $$
 
-Moreover, assume a beta prior distribution over the model parameter $p$:
+Moreover, assume a [beta prior distribution](/P/bin-prior) over the model parameter $p$:
 
 $$ \label{eq:Bin-prior}
 \mathrm{p}(p) = \mathrm{Bet}(p; \alpha_0, \beta_0) \; .
 $$
 
-Then, the posterior distribution is also a beta distribution
+Then, the [posterior distribution](/D/post) is also a [beta distribution](/D/beta)
 
 $$ \label{eq:Bin-post}
 \mathrm{p}(p|y) = \mathrm{Bet}(p; \alpha_n, \beta_n) \; .
 $$
 
-and the posterior hyperparameters are given by
+and the [posterior hyperparameters](/D/post-hyp) are given by
 
 $$ \label{eq:Bin-post-par}
 \begin{split}
@@ -55,13 +55,13 @@ $$ \label{eq:Bin-post-par}
 $$
 
 
-**Proof:** With the [probability mass function of the binomial distribution](/P/bin-pmf.html), the likelihood function implied by \eqref{eq:Bin} is given by
+**Proof:** With the [probability mass function of the binomial distribution](/P/bin-pmf), the [likelihood function](/D/lf) implied by \eqref{eq:Bin} is given by
 
 $$ \label{eq:Bin-LF}
 \mathrm{p}(y|p) = {n \choose y} \, p^y \, (1-p)^{n-y} \; .
 $$
 
-Combining the likelihood function \eqref{eq:Bin-LF} with the prior distribution \eqref{eq:Bin-prior}, the joint likelihood of the model is given by
+Combining the likelihood function \eqref{eq:Bin-LF} with the prior distribution \eqref{eq:Bin-prior}, the [joint likelihood](/D/jl) of the model is given by
 
 $$ \label{eq:Bin-JL}
 \begin{split}
@@ -71,7 +71,7 @@ $$ \label{eq:Bin-JL}
 \end{split}
 $$
 
-Note that the posterior distribution is proportional to the joint likelihood:
+Note that the [posterior distribution is proportional to the joint likelihood](/P/post-jl):
 
 $$ \label{eq:Bin-post-s1}
 \mathrm{p}(p|y) \propto \mathrm{p}(y,p) \; .
@@ -83,7 +83,7 @@ $$ \label{eq:Bin-post-s2}
 \mathrm{p}(p|y) \propto p^{\alpha_n-1} \, (1-p)^{\beta_n-1}
 $$
 
-which, when normalized to one, results in the [probability density function of the beta distribution](/P/beta-pdf.html):
+which, when normalized to one, results in the [probability density function of the beta distribution](/P/beta-pdf):
 
 $$ \label{eq:Bin-post-qed}
 \mathrm{p}(p|y) = \frac{1}{B(\alpha_n,\beta_n)} \, p^{\alpha_n-1} \, (1-p)^{\beta_n-1} = \mathrm{Bet}(p; \alpha_n, \beta_n) \; .

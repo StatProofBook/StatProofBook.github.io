@@ -13,9 +13,6 @@ section: "Normal data"
 topic: "Multiple linear regression"
 theorem: "Ordinary least squares"
 
-dependencies:
-  - theorem: "geometric interpretation of the general linear model"
-
 sources:
   - authors: "Stephan, Klaas Enno"
     year: 2010
@@ -29,13 +26,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Given a linear regression model with independent observations
+**Theorem:** Given a [linear regression model](/D/mlr) with independent observations
 
 $$ \label{eq:MLR}
 y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; ,
 $$
 
-the parameters minimizing the residual sum of squares are given by
+the parameters minimizing the [residual sum of squares](/D/rss) are given by
 
 $$ \label{eq:OLS}
 \hat{\beta} = (X^\mathrm{T} X)^{-1} X^\mathrm{T} y \; .

@@ -11,11 +11,7 @@ title: "Bayes' rule"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Bayesian inference"
-theorem: "Bayes' theorem"
-
-dependencies:
-  - theorem: "Bayes' theorem"
-    shortcut: "bayes-th"
+theorem: "Bayes' rule"
 
 sources:
   - authors: "Wikipedia"
@@ -31,14 +27,14 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $A_1$, $A_2$ and $B$ be arbitrary statements about random variables where $A_1$ and $A_2$ are mutually exclusive. Then, Bayes' rule states that the posterior odds are equal to the Bayes factor times the prior odds, i.e.
+**Theorem:** Let $A_1$, $A_2$ and $B$ be arbitrary statements about [random variables](/D/rvar) where $A_1$ and $A_2$ are mutually exclusive. Then, Bayes' rule states that the [posterior odds](/D/post-odd) are equal to the [Bayes factor](/D/bf) times the [prior odds](/D/prior-odd), i.e.
 
 $$ \label{eq:bayes-rule}
 \frac{p(A_1|B)}{p(A_2|B)} = \frac{p(B|A_1)}{p(B|A_2)} \cdot \frac{p(A_1)}{p(A_2)} \; .
 $$
 
 
-**Proof:** Using Bayes' theorem, the conditional probabilities on the left are given by
+**Proof:** Using [Bayes' theorem](/P/bayes-th), the [conditional probabilities](/D/cp) on the left are given by
 
 $$ \label{eq:bayes-th-A1}
 p(A_1|B) = \frac{p(B|A_1) \cdot p(A_1)}{p(B)}
@@ -48,7 +44,7 @@ $$ \label{eq:bayes-th-A2}
 p(A_2|B) = \frac{p(B|A_2) \cdot p(A_2)}{p(B)} \; .
 $$
 
-Dividing the two condition probabilities by each other
+Dividing the two conditional probabilities by each other
 
 $$ \label{eq:bayes-rule-qed}
 \begin{split}

@@ -29,13 +29,13 @@ username: "JoramSoch"
 
 **Definition:**
 
-1) The moment-generating function of a random variable $X \in \mathbb{R}$ is
+1) The moment-generating function of a [random variable](/D/rvar) $X \in \mathbb{R}$ is
 
 $$ \label{eq:mgf-var}
 M_X(t) = \mathrm{E} \left[ e^{tX} \right], \quad t \in \mathbb{R} \; .
 $$
 
-2) The moment-generating function of a random vector $X \in \mathbb{R}^n$ is
+2) The moment-generating function of a [random vector](/D/rvec) $X \in \mathbb{R}^n$ is
 
 $$ \label{eq:mgf-vec}
 M_X(t) = \mathrm{E} \left[ e^{t^\mathrm{T}X} \right], \quad t \in \mathbb{R}^n \; .
