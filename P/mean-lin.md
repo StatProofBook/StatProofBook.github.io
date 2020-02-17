@@ -29,12 +29,12 @@ username: "JoramSoch"
 
 **Theorem:** The [expected value](/D/mean) is a linear operator, i.e.
 
-\begin{equation} \label{eq:mean-lin}
+$$ \label{eq:mean-lin}
 \begin{split}
 \mathrm{E}(X + Y) &= \mathrm{E}(X) + \mathrm{E}(Y) \\
 \mathrm{E}(a\,X) &= a\,\mathrm{E}(X)
 \end{split}
-\end{equation}
+$$
 
 for [random variables](/D/rvar) $X$ and $Y$ and a constant $a$.
 
