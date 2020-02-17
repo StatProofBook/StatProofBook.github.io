@@ -18,7 +18,7 @@ sources:
     year: 2020
     title: "Variance"
     in: "Wikipedia, the free encyclopedia"
-    pages: "retrieved on 2020-02-13
+    pages: "retrieved on 2020-02-13"
     url: "https://en.wikipedia.org/wiki/Variance#Definition"
 
 def_id: "D12"
