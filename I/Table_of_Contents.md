@@ -17,12 +17,16 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    1.1. Probability distributions <br>
    &emsp;&ensp; 1.1.1. *[Probability mass function](/D/pmf)* <br>
    &emsp;&ensp; 1.1.2. *[Probability density function](/D/pdf)* <br>
-   &emsp;&ensp; 1.1.3. *[Moment-generating function](/D/mgf)* <br>
+   &emsp;&ensp; 1.1.3. *[Cumulative distribution function](/D/cdf)* <br>
+   &emsp;&ensp; 1.1.4. *[Quantile function](/D/qf)* <br>
+   &emsp;&ensp; 1.1.5. *[Moment-generating function](/D/mgf)* <br>
    
    1.2. Expected value <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/mean)* <br>
    &emsp;&ensp; 1.2.2. **[Non-negativity](/P/mean-nonneg)** <br>
    &emsp;&ensp; 1.2.3. **[Linearity](/P/mean-lin)** <br>
+   &emsp;&ensp; 1.2.4. **[Monotonicity](/P/mean-mono)** <br>
+   &emsp;&ensp; 1.2.5. **[(Non-)Multiplicitavity](/P/mean-mult)** <br>
    
    1.3. Variance <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/var)* <br>
