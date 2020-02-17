@@ -18,7 +18,7 @@ sources:
     year: 2020
     title: "Expected value"
     in: "Wikipedia, the free encyclopedia"
-    pages: "retrieved on 2020-02-13
+    pages: "retrieved on 2020-02-13"
     url: "https://en.wikipedia.org/wiki/Expected_value#Basic_property"
 
 proof_id: "P53"
@@ -29,12 +29,12 @@ username: "JoramSoch"
 
 **Theorem:** The [expected value](/D/mean) is a linear operator, i.e.
 
-\begin{equation} \label{eq:mean-lin}
+$$ \label{eq:mean-lin}
 \begin{split}
 \mathrm{E}(X + Y) &= \mathrm{E}(X) + \mathrm{E}(Y) \\
 \mathrm{E}(a\,X) &= a\,\mathrm{E}(X)
 \end{split}
-\end{equation}
+$$
 
 for [random variables](/D/rvar) $X$ and $Y$ and a constant $a$.
 
@@ -55,7 +55,7 @@ $$
 
 Applying this, we have
 
-\begin{equation} \label{eq:mean-lin-s1-disc}
+$$ \label{eq:mean-lin-s1-disc}
 \begin{split}
 \mathrm{E}(X + Y) &= \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} (x+y) \cdot f_{X,Y}(x,y) \\
 &= \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} x \cdot f_{X,Y}(x,y) + \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} y \cdot f_{X,Y}(x,y) \\
@@ -63,17 +63,17 @@ Applying this, we have
 &\overset{\eqref{eq:lmp-disc}}{=} \sum_{x \in \mathcal{X}} x \cdot f_X(x) + \sum_{y \in \mathcal{Y}} y \cdot f_{Y}(y) \\
 &\overset{\eqref{eq:mean-disc}}{=} \mathrm{E}(X) + \mathrm{E}(Y)
 \end{split}
-\end{equation}
+$$
 
 as well as
 
-\begin{equation} \label{eq:mean-lin-s2-disc}
+$$ \label{eq:mean-lin-s2-disc}
 \begin{split}
 \mathrm{E}(a\,X) &= \sum_{x \in \mathcal{X}} a \, x \cdot f_X(x) \\
 &= a \, \sum_{x \in \mathcal{X}} x \cdot f_X(x) \\
 &\overset{\eqref{eq:mean-disc}}{=} a \, \mathrm{E}(X) \; .
 \end{split}
-\end{equation}
+$$
 
 <br>
 2) If $X$ and $Y$ are continuous random variables, the [expected value](/D/mean) is
@@ -90,7 +90,7 @@ $$
 
 Applying this, we have
 
-\begin{equation} \label{eq:mean-lin-s1-cont}
+$$ \label{eq:mean-lin-s1-cont}
 \begin{split}
 \mathrm{E}(X + Y) &= \int_{\mathcal{X}} \int_{\mathcal{Y}} (x+y) \cdot f_{X,Y}(x,y) \, \mathrm{d}y \, \mathrm{d}x \\
 &= \int_{\mathcal{X}} \int_{\mathcal{Y}} x \cdot f_{X,Y}(x,y) \, \mathrm{d}y \, \mathrm{d}x + \int_{\mathcal{X}} \int_{\mathcal{Y}} y \cdot f_{X,Y}(x,y) \, \mathrm{d}y \, \mathrm{d}x \\
@@ -98,16 +98,16 @@ Applying this, we have
 &\overset{\eqref{eq:lmp-cont}}{=} \int_{\mathcal{X}} x \cdot f_X(x) \, \mathrm{d}x + \int_{\mathcal{Y}} y \cdot f_Y(y) \, \mathrm{d}y \\
 &\overset{\eqref{eq:mean-cont}}{=} \mathrm{E}(X) + \mathrm{E}(Y)
 \end{split}
-\end{equation}
+$$
 
 as well as
 
-\begin{equation} \label{eq:mean-lin-s2-cont}
+$$ \label{eq:mean-lin-s2-cont}
 \begin{split}
 \mathrm{E}(a\,X) &= \int_{\mathcal{X}} a \, x \cdot f_X(x) \, \mathrm{d}x \\
 &= a \int_{\mathcal{X}} x \cdot f_X(x) \, \mathrm{d}x \\
 &\overset{\eqref{eq:mean-cont}}{=} a \, \mathrm{E}(X) \; .
 \end{split}
-\end{equation}
+$$
 
 Collectively, this shows that both requirements for linearity are fulfilled for the expected value, for discrete as well as for continuous random variables.
