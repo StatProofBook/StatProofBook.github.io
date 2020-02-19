@@ -19,7 +19,7 @@ sources:
     title: "Expected value"
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-02-13"
-    url: "https://en.wikipedia.org/wiki/Expected_value#Basic_property"
+    url: "https://en.wikipedia.org/wiki/Expected_value#Basic_properties"
 
 proof_id: "P52"
 shortcut: "mean-nonneg"

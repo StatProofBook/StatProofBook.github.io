@@ -4,6 +4,10 @@ title: "Proof by Topic"
 ---
 
 
+### (
+
+- [(Non-)Multiplicativity of the expected value](/P/mean-mult)
+
 ### B
 
 - [Bayes' rule](/P/bayes-rule)
@@ -34,6 +38,7 @@ title: "Proof by Topic"
 ### L
 
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
+- [Linearity of the expected value](/P/mean-lin)
 - [Log model evidence for Bayesian linear regression](/P/blr-lme)
 - [Log model evidence for binomial observations](/P/bin-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
@@ -55,6 +60,11 @@ title: "Proof by Topic"
 - [Method of moments for beta-distributed data](/P/beta-mom)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
+- [Monotonicity of the expected value](/P/mean-mono)
+
+### N
+
+- [Non-negativity of the expected value](/P/mean-nonneg)
 
 ### O
 
