@@ -4,8 +4,9 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (51 proofs)
+### JoramSoch (55 proofs)
 
+- [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
@@ -19,6 +20,7 @@ title: "Proof by Author"
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Kullback-Leibler divergence for the normal-gamma distribution](/P/ng-kl)
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
+- [Linearity of the expected value](/P/mean-lin)
 - [Log model evidence for Bayesian linear regression](/P/blr-lme)
 - [Log model evidence for binomial observations](/P/bin-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
@@ -37,6 +39,8 @@ title: "Proof by Author"
 - [Method of moments for beta-distributed data](/P/beta-mom)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
+- [Monotonicity of the expected value](/P/mean-mono)
+- [Non-negativity of the expected value](/P/mean-nonneg)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
