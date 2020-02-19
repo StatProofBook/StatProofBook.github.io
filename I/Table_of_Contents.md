@@ -41,13 +41,29 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 
    3.1. Point estimates <br>
    &emsp;&ensp; 3.1.1. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
-
+   
+   3.2. Interval estimates <br>
+   &emsp;&ensp; 3.2.1. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
+   
 4. Information theory
 
-   4.1. Discrete mutual information <br>
-   &emsp;&ensp; 4.1.1. **[Relation to marginal and conditional entropy](/P/dmi-mce)** <br>
-   &emsp;&ensp; 4.1.2. **[Relation to marginal and joint entropy](/P/dmi-mje)** <br>
-   &emsp;&ensp; 4.1.3. **[Relation to joint and conditional entropy](/P/dmi-jce)** <br>
+   4.1. Shannon entropy <br>
+   &emsp;&ensp; 4.1.1. *[Definition](/D/ent)* <br>
+   &emsp;&ensp; 4.1.2. **[Non-negativity](/D/ent-nonneg)** <br>
+   &emsp;&ensp; 4.1.3. *[Conditional entropy](/D/ent-cond)* <br>
+   &emsp;&ensp; 4.1.4. *[Joint entropy](/D/ent-joint)* <br>
+   
+   4.2. Differential entropy <br>
+   &emsp;&ensp; 4.2.1. *[Definition](/D/dent)* <br>
+
+   4.3. Discrete mutual information <br>
+   &emsp;&ensp; 4.3.1. *[Definition](/D/mi)* <br>
+   &emsp;&ensp; 4.3.2. **[Relation to marginal and conditional entropy](/P/dmi-mce)** <br>
+   &emsp;&ensp; 4.3.3. **[Relation to marginal and joint entropy](/P/dmi-mje)** <br>
+   &emsp;&ensp; 4.3.4. **[Relation to joint and conditional entropy](/P/dmi-jce)** <br>
+   
+   4.4. Continuous mutual information <br>
+   &emsp;&ensp; 4.4.1. *[Definition](/D/mi)* <br>
 
 
 <section class="chapter" id="Probability Distributions">
