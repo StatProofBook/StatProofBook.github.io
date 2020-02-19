@@ -19,7 +19,7 @@ sources:
     title: "Expected value"
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-02-13"
-    url: "https://en.wikipedia.org/wiki/Expected_value#Basic_property"
+    url: "https://en.wikipedia.org/wiki/Expected_value#Basic_properties"
 
 proof_id: "P53"
 shortcut: "mean-lin"
@@ -110,4 +110,5 @@ $$ \label{eq:mean-lin-s2-cont}
 \end{split}
 $$
 
+<br>
 Collectively, this shows that both requirements for linearity are fulfilled for the expected value, for discrete as well as for continuous random variables.
