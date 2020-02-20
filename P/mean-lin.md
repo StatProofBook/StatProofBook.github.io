@@ -20,6 +20,11 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-02-13"
     url: "https://en.wikipedia.org/wiki/Expected_value#Basic_properties"
+  - authors: "Michael B, Kuldeep Guha Mazumder, Geoff Pilling et al."
+    year: 2020
+    title: "Linearity of Expectation"
+    in: "brilliant.org"
+    url: "https://brilliant.org/wiki/linearity-of-expectation/"
 
 proof_id: "P53"
 shortcut: "mean-lin"

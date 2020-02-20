@@ -102,4 +102,4 @@ $$ \label{eq:llr-chi2-dev}
 \end{split}
 $$
 
-which is equivalent to the confidence interval is given by \eqref{eq:ci-wilks}.
+which is equivalent to the confidence interval given by \eqref{eq:ci-wilks}.
