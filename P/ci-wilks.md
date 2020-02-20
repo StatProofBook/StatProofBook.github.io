@@ -80,7 +80,7 @@ $$ \label{eq:wilks}
 H_0: \theta \in \Theta_0 \quad \Rightarrow \quad -2 \log \frac{\operatorname*{max}_{\theta \in \Theta_0} p(y|\theta)}{\operatorname*{max}_{\theta \in \Theta_1} p(y|\theta)} \sim \chi^2_{\Delta k}
 $$
 
-where $\Delta k$ is the difference in dimensionality between $\Theta_0$ and $\Theta_1$. Applied to our example in \eqref{eq:llr}, we note that $\Theta_1 = \{ \phi,  \hat{\phi} \}$ and $\Theta_0 = \{ \phi \}$, such that $\Delta k = 1$ and Wilks' theorem implies:
+where $\Delta k$ is the difference in dimensionality between $\Theta_0$ and $\Theta_1$. Applied to our example in \eqref{eq:llr}, we note that $\Theta_1 = \left\lbrace \phi, \hat{\phi} \right\rbrace$ and $\Theta_0 = \left\lbrace \phi \right\rbrace$, such that $\Delta k = 1$ and Wilks' theorem implies:
 
 $$ \label{eq:llr-wilks}
 -2 \log \Lambda(\phi) \sim  \chi^2_1 \; .
