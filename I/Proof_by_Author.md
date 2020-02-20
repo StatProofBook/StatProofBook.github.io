@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (55 proofs)
+### JoramSoch (57 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Bayes' rule](/P/bayes-rule)
@@ -12,6 +12,7 @@ title: "Proof by Author"
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
 - [Conjugate prior distribution for binomial observations](/P/bin-prior)
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
+- [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 - [Derivation of R² and adjusted R²](/P/rsq-der)
@@ -40,6 +41,7 @@ title: "Proof by Author"
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
 - [Monotonicity of the expected value](/P/mean-mono)
+- [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)

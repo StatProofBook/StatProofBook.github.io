@@ -62,3 +62,5 @@ title: "Proof by Number"
 | P53 | mean-lin | [Linearity of the expected value](/P/mean-lin) | JoramSoch | 2020-02-13 |
 | P54 | mean-mono | [Monotonicity of the expected value](/P/mean-mono) | JoramSoch | 2020-02-17 |
 | P55 | mean-mult | [(Non-)Multiplicativity of the expected value](/P/mean-mult) | JoramSoch | 2020-02-17 |
+| P56 | ci-wilks | [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks) | JoramSoch | 2020-02-19 |
+| P57 | ent-nonneg | [Non-negativity of the Shannon entropy](/P/ent-nonneg) | JoramSoch | 2020-02-19 |

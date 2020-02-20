@@ -18,6 +18,7 @@ title: "Proof by Topic"
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
 - [Conjugate prior distribution for binomial observations](/P/bin-prior)
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
+- [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 
@@ -64,6 +65,7 @@ title: "Proof by Topic"
 
 ### N
 
+- [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the expected value](/P/mean-nonneg)
 
 ### O

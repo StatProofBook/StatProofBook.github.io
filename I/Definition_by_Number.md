@@ -21,3 +21,8 @@ title: "Definition by Number"
 | D12 | var | [Variance](/D/var) | JoramSoch | 2020-02-13 |
 | D13 | cdf | [Cumulative distribution function](/D/cdf) | JoramSoch | 2020-02-17 |
 | D14 | qf | [Quantile function](/D/qf) | JoramSoch | 2020-02-17 |
+| D15 | ent | [Shannon entropy](/D/ent) | JoramSoch | 2020-02-19 |
+| D16 | dent | [Differential entropy](/D/dent) | JoramSoch | 2020-02-19 |
+| D17 | ent-cond | [Conditional entropy](/D/ent-cond) | JoramSoch | 2020-02-19 |
+| D18 | ent-joint | [Joint entropy](/D/ent-joint) | JoramSoch | 2020-02-19 |
+| D19 | mi | [Mutual information](/D/mi) | JoramSoch | 2020-02-19 |
