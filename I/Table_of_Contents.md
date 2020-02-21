@@ -49,7 +49,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 
    4.1. Shannon entropy <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/ent)* <br>
-   &emsp;&ensp; 4.1.2. **[Non-negativity](/D/ent-nonneg)** <br>
+   &emsp;&ensp; 4.1.2. **[Non-negativity](/P/ent-nonneg)** <br>
    &emsp;&ensp; 4.1.3. *[Conditional entropy](/D/ent-cond)* <br>
    &emsp;&ensp; 4.1.4. *[Joint entropy](/D/ent-joint)* <br>
    

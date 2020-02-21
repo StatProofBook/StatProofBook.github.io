@@ -33,4 +33,4 @@ $$ \label{eq:ent-cond}
 \mathrm{H}(X) = \sum_{x \in \mathcal{X}} p(x) \cdot \mathrm{H}(Y|X=x)
 $$
 
-where $\mathrm{H}(Y|X=x)$ is the [(marginal) entropy](/D/ent) of $Y$, evaluated at $x$.
+where $\mathrm{H}(Y \vert X=x)$ is the [(marginal) entropy](/D/ent) of $Y$, evaluated at $x$.
