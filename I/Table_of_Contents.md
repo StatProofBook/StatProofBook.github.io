@@ -64,6 +64,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    
    4.4. Continuous mutual information <br>
    &emsp;&ensp; 4.4.1. *[Definition](/D/mi)* <br>
+   &emsp;&ensp; 4.4.2. **[Relation to marginal and conditional differential entropy](/P/cmi-mcde)** <br>
+   &emsp;&ensp; 4.4.3. **[Relation to marginal and joint differential entropy](/P/cmi-mjde)** <br>
+   &emsp;&ensp; 4.4.4. **[Relation to joint and conditional differential entropy](/P/cmi-jcde)** <br>
 
 
 <section class="chapter" id="Probability Distributions">
