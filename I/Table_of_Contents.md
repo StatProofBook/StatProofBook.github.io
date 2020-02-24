@@ -186,9 +186,12 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** �
 
 1. Goodness-of-fit measures
 
-   1.1. R-squared <br>
-   &emsp;&ensp; 1.1.1. **[Derivation of R² and adjusted R²](/P/rsq-der)** <br>
-   &emsp;&ensp; 1.1.2. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
+   1.1. Residual variance <br>
+   &emsp;&ensp; 1.1.1. **[Maximum likelihood estimator is biased](/P/resvar-bias)** <br>
+   
+   1.2. R-squared <br>
+   &emsp;&ensp; 1.2.1. **[Derivation of R² and adjusted R²](/P/rsq-der)** <br>
+   &emsp;&ensp; 1.2.2. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
 
 2. Classical information criteria
 
