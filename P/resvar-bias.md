@@ -14,8 +14,8 @@ topic: "Residual variance"
 theorem: "Maximum likelihood estimator is biased"
 
 sources:
-  - authors: "Wikipedia"
-    year: "w/o yr"
+  - authors: "Liang, Dawen"
+    year: "????"
     title: "Maximum Likelihood Estimator for Variance is Biased: Proof"
     pages: "retrieved on 2020-02-24"
     url: "https://dawenl.github.io/files/mle_biased.pdf"
