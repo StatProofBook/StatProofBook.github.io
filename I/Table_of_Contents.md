@@ -187,19 +187,33 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** �
 1. Goodness-of-fit measures
 
    1.1. Residual variance <br>
-   &emsp;&ensp; 1.1.1. **[Maximum likelihood estimator is biased](/P/resvar-bias)** <br>
+   &emsp;&ensp; 1.1.1. *[Definition](/D/resvar)* <br>
+   &emsp;&ensp; 1.1.2. **[Maximum likelihood estimator is biased](/P/resvar-bias)** <br>
+   &emsp;&ensp; 1.1.3. **[Construction of unbiased estimator](/P/resvar-unb)** <br>
    
    1.2. R-squared <br>
-   &emsp;&ensp; 1.2.1. **[Derivation of R² and adjusted R²](/P/rsq-der)** <br>
-   &emsp;&ensp; 1.2.2. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
+   &emsp;&ensp; 1.2.1. *[Definition](/D/rsq)* <br>
+   &emsp;&ensp; 1.2.2. **[Derivation of R² and adjusted R²](/P/rsq-der)** <br>
+   &emsp;&ensp; 1.2.3. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
+   
+   1.3. Signal-to-noise ratio <br>
+   &emsp;&ensp; 1.3.1. *[Definition](/D/snr)* <br>
 
 2. Classical information criteria
 
-   2.1. Bayesian information criterion <br>
-   &emsp;&ensp; 2.1.1. **[Derivation](/P/bic-der)** <br>
+   2.1. Akaike information criterion <br>
+   &emsp;&ensp; 2.1.1. *[Definition](/D/aic)* <br>
+   
+   2.2. Bayesian information criterion <br>
+   &emsp;&ensp; 2.2.1. *[Definition](/D/bic)* <br>
+   &emsp;&ensp; 2.2.2. **[Derivation](/P/bic-der)** <br>
+   
+   2.3. Deviance information criterion <br>
+   &emsp;&ensp; 2.3.1. *[Definition](/D/dic)* <br>
 
 3. Bayesian model selection
 
    3.1. Log model evidence <br>
-   &emsp;&ensp; 3.1.1. **[Derivation](/P/lme-der)** <br>
-   &emsp;&ensp; 3.1.2. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
+   &emsp;&ensp; 3.1.1. *[Definition](/D/lme)* <br>
+   &emsp;&ensp; 3.1.2. **[Derivation](/P/lme-der)** <br>
+   &emsp;&ensp; 3.1.3. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
