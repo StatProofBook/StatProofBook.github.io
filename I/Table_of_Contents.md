@@ -196,9 +196,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** �
    &emsp;&ensp; 1.2.2. **[Derivation of R² and adjusted R²](/P/rsq-der)** <br>
    &emsp;&ensp; 1.2.3. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
    
-   1.3. Signal-to-noise ratio
-   &emsp;&ensp; 1.3.1. *[Definition](/D/snr)*
-   &emsp;&ensp; 1.3.1. **[Relationship with R²](/P/snr-rsq)**
+   1.3. Signal-to-noise ratio <br>
+   &emsp;&ensp; 1.3.1. *[Definition](/D/snr)* <br>
+   &emsp;&ensp; 1.3.1. **[Relationship with R²](/P/snr-rsq)** <br>
 
 2. Classical information criteria
 
