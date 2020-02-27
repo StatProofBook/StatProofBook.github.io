@@ -218,3 +218,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.1.1. *[Definition](/D/lme)* <br>
    &emsp;&ensp; 3.1.2. **[Derivation](/P/lme-der)** <br>
    &emsp;&ensp; 3.1.3. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
+   
+   3.2. Log-evidence derivatives <br>
+   &emsp;&ensp; 3.2.1. **[Log Bayes factor in terms of log model evidences](/P/lbf-lme)** <br>
+   &emsp;&ensp; 3.2.2. **[Log family evidences in terms of log model evidences](/P/lfe-lme)** <br>
+   &emsp;&ensp; 3.2.3. **[Posterior model probabilities in terms of log model evidences](/P/pmp-lme)** <br>
+   &emsp;&ensp; 3.2.4. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
