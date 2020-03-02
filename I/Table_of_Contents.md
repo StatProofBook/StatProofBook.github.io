@@ -55,6 +55,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    
    4.2. Differential entropy <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/dent)* <br>
+   &emsp;&ensp; 4.2.2. **[Negativity](/P/dent-neg)** <br>
 
    4.3. Discrete mutual information <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/mi)* <br>
@@ -111,12 +112,13 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 
    3.4. Exponential distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/exp)* <br>
-   &emsp;&ensp; 3.4.2. **[Probability density function](/P/exp-pdf)** <br>
-   &emsp;&ensp; 3.4.3. **[Cumulative distribution function](/P/exp-cdf)** <br>
-   &emsp;&ensp; 3.4.4. **[Quantile function](/P/exp-qf)** <br>
-   &emsp;&ensp; 3.4.5. **[Mean](/P/exp-mean)** <br>
-   &emsp;&ensp; 3.4.6. **[Median](/P/exp-med)** <br>
-   &emsp;&ensp; 3.4.7. **[Mode](/P/exp-mode)** <br>
+   &emsp;&ensp; 3.4.2. **[Special case of gamma distribution](/P/exp-gam)** <br>
+   &emsp;&ensp; 3.4.3. **[Probability density function](/P/exp-pdf)** <br>
+   &emsp;&ensp; 3.4.4. **[Cumulative distribution function](/P/exp-cdf)** <br>
+   &emsp;&ensp; 3.4.5. **[Quantile function](/P/exp-qf)** <br>
+   &emsp;&ensp; 3.4.6. **[Mean](/P/exp-mean)** <br>
+   &emsp;&ensp; 3.4.7. **[Median](/P/exp-med)** <br>
+   &emsp;&ensp; 3.4.8. **[Mode](/P/exp-mode)** <br>
 
 4. Multivariate continuous distributions
 
@@ -136,7 +138,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 
    5.1. Matrix-normal distribution <br>
    &emsp;&ensp; 5.1.1. *[Definition](/D/matn)* <br>
-   &emsp;&ensp; 5.1.2. **[Equivalence to multivariate normal distribution](/P/matn-mvn)** <br>
+   &emsp;&ensp; 5.1.2. **[Probability density function](/P/matn-pdf)** <br>
+   &emsp;&ensp; 5.1.3. **[Equivalence to multivariate normal distribution](/P/matn-mvn)** <br>
 
 
 <section class="chapter" id="Statistical Models">
