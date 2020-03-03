@@ -105,6 +105,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.2.4. **[Median](/P/norm-med)** <br>
    &emsp;&ensp; 3.2.5. **[Mode](/P/norm-mode)** <br>
    &emsp;&ensp; 3.2.6. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.7. **[Moment-generating function](/P/norm-mgf)** <br>
 
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
@@ -174,6 +175,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 
    3.1. Beta-distributed data <br>
    &emsp;&ensp; 3.1.1. **[Method of moments](/P/beta-mom)** <br>
+   
+   3.2. Logistic regression <br>
+   &emsp;&ensp; 3.2.1. **[Log-odds and probability](/P/logreg-lonp)** <br>
 
 4. Categorical data
    
@@ -225,5 +229,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    3.2. Log-evidence derivatives <br>
    &emsp;&ensp; 3.2.1. **[Log Bayes factor in terms of log model evidences](/P/lbf-lme)** <br>
    &emsp;&ensp; 3.2.2. **[Log family evidences in terms of log model evidences](/P/lfe-lme)** <br>
-   &emsp;&ensp; 3.2.3. **[Posterior model probabilities in terms of log model evidences](/P/pmp-lme)** <br>
-   &emsp;&ensp; 3.2.4. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
+   &emsp;&ensp; 3.2.3. **[Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)** <br>
+   &emsp;&ensp; 3.2.4. **[Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)** <br>
+   &emsp;&ensp; 3.2.5. **[Posterior model probabilities in terms of log model evidences](/P/pmp-lme)** <br>
+   &emsp;&ensp; 3.2.6. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
