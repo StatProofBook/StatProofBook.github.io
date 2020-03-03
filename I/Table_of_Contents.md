@@ -36,6 +36,15 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    2.1. Bayesian inference <br>
    &emsp;&ensp; 2.1.1. **[Bayes' theorem](/P/bayes-th)** <br>
    &emsp;&ensp; 2.1.2. **[Bayes' rule](/P/bayes-rule)** <br>
+   
+   2.2. Probabilistic modeling <br>
+   &emsp;&ensp; 2.2.1. *[Generative model](/D/gm)* <br>
+   &emsp;&ensp; 2.2.2. *[Likelihood function](/D/lf)* <br>
+   &emsp;&ensp; 2.2.3. *[Prior distribution](/D/prior)* <br>
+   &emsp;&ensp; 2.2.4. *[Full probability model](/D/fpm)* <br>
+   &emsp;&ensp; 2.2.5. *[Joint likelihood](/D/jl)* <br>
+   &emsp;&ensp; 2.2.6. *[Posterior distribution](/D/post)* <br>
+   &emsp;&ensp; 2.2.7. *[Marginal likelihood](/D/ml)* <br>
 
 3. Estimation theory
 
