@@ -34,7 +34,7 @@ $$ \label{eq:BMA-LME}
 p(\theta|y) = \sum_{i=1}^{M} p(\theta|m_i,y) \cdot \frac{\mathrm{exp}[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \mathrm{exp}[\mathrm{LME}(m_j)] \, p(m_j)} \; ,
 $$
 
-where $p(\theta|m_i,y)$ is the posterior distributions over $\theta$ obtained using $m_i$.
+where $p(\theta \vert m_i,y)$ is the posterior distributions over $\theta$ obtained using $m_i$.
 
 
 **Proof:** According to the [law of marginal probability](/P/prob-lmp), the probability of the shared parameters $\theta$ conditional on the measured data $y$ can be obtained by marginalizing over the discrete variable model $m$:
@@ -43,7 +43,7 @@ $$ \label{eq:BMA-PMP}
 p(\theta|y) = \sum_{i=1}^{M} p(\theta|m_i,y) \cdot p(m_i|y) \; ,
 $$
 
-where $p(m_i|y)$ is the [posterior probability](/D/pmp) of the $i$-th model. One can express [posterior model probabilities in terms of log model evidences](/P/pmp-lme) as
+where $p(m_i \vert y)$ is the [posterior probability](/D/pmp) of the $i$-th model. One can express [posterior model probabilities in terms of log model evidences](/P/pmp-lme) as
 
 $$ \label{eq:PMP-LME}
 p(m_i|y) = \frac{\mathrm{exp}[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \mathrm{exp}[\mathrm{LME}(m_j)] \, p(m_j)}

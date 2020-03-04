@@ -33,7 +33,7 @@ $$ \label{eq:cmi-mjde}
 \mathrm{I}(X,Y) = \mathrm{h}(X) + \mathrm{h}(Y) - \mathrm{h}(X,Y)
 $$
 
-where $\mathrm{h}(X)$ and $\mathrm{h}(Y)$ are the [marginal differential entropies](/D/dent-marg) of $X$ and $Y$ and $\mathrm{h}(X,Y)$ is the [joint differential entropy](/D/dent-joint).
+where $\mathrm{h}(X)$ and $\mathrm{h}(Y)$ are the [marginal differential entropies](/D/dent) of $X$ and $Y$ and $\mathrm{h}(X,Y)$ is the [joint differential entropy](/D/dent-joint).
 
 
 **Proof:** The [mutual information](/D/mi) of $X$ and $Y$ is defined as

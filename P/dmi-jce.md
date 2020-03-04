@@ -36,7 +36,7 @@ $$
 where $\mathrm{H}(X,Y)$ is the [joint entropy](/D/ent-joint) of $X$ and $Y$ and $\mathrm{H}(X \mid Y)$ and $\mathrm{H}(Y \mid X)$ are the [conditional entropies](/D/ent-cond).
 
 
-**Proof:** The existence of the joint probability function ensures that the [mutual information](/D/mi) is defined:
+**Proof:** The existence of the joint [probability mass function](/D/pmf) ensures that the [mutual information](/D/mi) is defined:
 
 $$ \label{eq:MI}
 \mathrm{I}(X,Y) = \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} p(x,y) \log \frac{p(x,y)}{p(x)\,p(y)} \; .

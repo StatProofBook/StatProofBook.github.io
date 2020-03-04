@@ -60,7 +60,7 @@ Resolving the logarithm and applying the definition of the [log model evidence](
 
 $$ \label{eq:LBF-s4}
 \begin{split}
-\mathrm{LBF}_{1,2} &= \log p(y|m_1) - \log p(y|m_1) \\
+\mathrm{LBF}_{1,2} &= \log p(y|m_1) - \log p(y|m_2) \\
 &= \mathrm{LME}(m_1) - \mathrm{LME}(m_2) \; .
 \end{split}
 $$

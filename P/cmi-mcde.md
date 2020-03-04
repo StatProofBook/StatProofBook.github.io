@@ -35,7 +35,7 @@ $$ \label{eq:cmi-mcde}
 \end{split}
 $$
 
-where $\mathrm{h}(X)$ and $\mathrm{h}(Y)$ are the [marginal differential entropies](/D/dent) of $X$ and $Y$ and $\mathrm{h}(X|Y)$ and $\mathrm{h}(Y|X)$ are the [conditional differential entropies](/D/dent-cond).
+where $\mathrm{h}(X)$ and $\mathrm{h}(Y)$ are the [marginal differential entropies](/D/dent) of $X$ and $Y$ and $\mathrm{h}(X \vert Y)$ and $\mathrm{h}(Y \vert X)$ are the [conditional differential entropies](/D/dent-cond).
 
 
 **Proof:** The [mutual information](/D/mi) of $X$ and $Y$ is defined as

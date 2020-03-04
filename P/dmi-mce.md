@@ -36,7 +36,7 @@ $$ \label{eq:dmi-mce}
 \end{split}
 $$
 
-where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the [marginal entropies](/D/ent-marg) of $X$ and $Y$ and $\mathrm{H}(X \mid Y)$ and $\mathrm{H}(Y \mid X)$ are the [conditional entropies](/D/ent-cond).
+where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the [marginal entropies](/D/ent) of $X$ and $Y$ and $\mathrm{H}(X \mid Y)$ and $\mathrm{H}(Y \mid X)$ are the [conditional entropies](/D/ent-cond).
 
 
 **Proof:** The [mutual information](/D/mi) of $X$ and $Y$ is defined as
@@ -69,7 +69,7 @@ $$ \label{eq:MI-s4}
 \mathrm{I}(X,Y) = \sum_y p(y) \sum_x p(x|y) \log p(x|y) - \sum_x p(x) \log p(x) \; .
 $$
 
-Now considering the definitions of [marginal](/D/ent-marg) and [conditional](/D/ent-cond) entropy
+Now considering the definitions of [marginal](/D/ent) and [conditional](/D/ent-cond) entropy
 
 $$ \label{eq:ME-CE}
 \begin{split}

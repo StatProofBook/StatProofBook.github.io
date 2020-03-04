@@ -33,7 +33,7 @@ $$ \label{eq:dmi-mje}
 \mathrm{I}(X,Y) = \mathrm{H}(X) + \mathrm{H}(Y) - \mathrm{H}(X,Y)
 $$
 
-where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the [marginal entropies](/D/ent-marg) of $X$ and $Y$ and $\mathrm{H}(X,Y)$ is the [joint entropy](/D/ent-joint).
+where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the [marginal entropies](/D/ent) of $X$ and $Y$ and $\mathrm{H}(X,Y)$ is the [joint entropy](/D/ent-joint).
 
 
 **Proof:** The [mutual information](/D/mi) of $X$ and $Y$ is defined as
@@ -57,10 +57,10 @@ $$
 Applying the [law of marginal probability](/P/lmp), i.e. $p(x) = \sum_y p(x,y)$, we get:
 
 $$ \label{eq:MI-s3}
-\mathrm{I}(X,Y) = \sum_x \sum_y p(x,y) \log p(x,y) - \sum_x p(x) \log p(x) - \sum_x p(y) \log p(y) \; .
+\mathrm{I}(X,Y) = \sum_x \sum_y p(x,y) \log p(x,y) - \sum_x p(x) \log p(x) - \sum_y p(y) \log p(y) \; .
 $$
 
-Now considering the definitions of [marginal](/D/ent-marg) and [joint](/D/ent-joint) entropy
+Now considering the definitions of [marginal](/D/ent) and [joint](/D/ent-joint) entropy
 
 $$ \label{eq:ME-JE}
 \begin{split}

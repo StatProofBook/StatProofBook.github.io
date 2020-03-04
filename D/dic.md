@@ -49,7 +49,7 @@ $$ \label{eq:LLP}
 \mathrm{LLP}(m) = \log p(y|\left\langle \theta \right\rangle_{\theta|y},m)
 $$
 
-where $\left\langle \cdot \right\rangle_{\theta|y}$ denotes an expectation across the posterior distribution.
+where $\left\langle \cdot \right\rangle_{\theta \vert y}$ denotes an expectation across the posterior distribution.
 
 Then, the deviance information criterion (DIC) of the model is defined as
 
