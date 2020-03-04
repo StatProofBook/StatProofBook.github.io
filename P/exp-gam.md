@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-03-02 20:49:00
 
-title: "The exponential distribution is a special case of the gamma distribution"
+title: "Exponential distribution is a special case of gamma distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Exponential distribution"

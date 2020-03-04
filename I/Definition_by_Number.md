@@ -26,3 +26,17 @@ title: "Definition by Number"
 | D17 | ent-cond | [Conditional entropy](/D/ent-cond) | JoramSoch | 2020-02-19 |
 | D18 | ent-joint | [Joint entropy](/D/ent-joint) | JoramSoch | 2020-02-19 |
 | D19 | mi | [Mutual information](/D/mi) | JoramSoch | 2020-02-19 |
+| D20 | resvar | [Residual variance](/D/resvar) | JoramSoch | 2020-02-25 |
+| D21 | rsq | [Coefficient of determination](/D/rsq) | JoramSoch | 2020-02-25 |
+| D22 | snr | [Signal-to-noise ratio](/D/snr) | JoramSoch | 2020-02-25 |
+| D23 | aic | [Akaike information criterion](/D/aic) | JoramSoch | 2020-02-25 |
+| D24 | bic | [Bayesian information criterion](/D/bic) | JoramSoch | 2020-02-25 |
+| D25 | dic | [Deviance information criterion](/D/dic) | JoramSoch | 2020-02-25 |
+| D26 | lme | [Log model evidence](/D/lme) | JoramSoch | 2020-02-25 |
+| D27 | gm | [Generative model](/D/gm) | JoramSoch | 2020-03-03 |
+| D28 | lf | [Likelihood function](/D/lf) | JoramSoch | 2020-03-03 |
+| D29 | prior | [Prior distribution](/D/prior) | JoramSoch | 2020-03-03 |
+| D30 | fpm | [Full probability model](/D/fpm) | JoramSoch | 2020-03-03 |
+| D31 | jl | [Joint likelihood](/D/jl) | JoramSoch | 2020-03-03 |
+| D32 | post | [Posterior distribution](/D/post) | JoramSoch | 2020-03-03 |
+| D33 | ml | [Marginal likelihood](/D/ml) | JoramSoch | 2020-03-03 |

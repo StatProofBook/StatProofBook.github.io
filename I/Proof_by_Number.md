@@ -64,3 +64,20 @@ title: "Proof by Number"
 | P55 | mean-mult | [(Non-)Multiplicativity of the expected value](/P/mean-mult) | JoramSoch | 2020-02-17 |
 | P56 | ci-wilks | [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks) | JoramSoch | 2020-02-19 |
 | P57 | ent-nonneg | [Non-negativity of the Shannon entropy](/P/ent-nonneg) | JoramSoch | 2020-02-19 |
+| P58 | cmi-mcde | [Relation of continuous mutual information to marginal and conditional differential entropy](/P/cmi-mcde) | JoramSoch | 2020-02-21 |
+| P59 | cmi-mjde | [Relation of continuous mutual information to marginal and joint differential entropy](/P/cmi-mjde) | JoramSoch | 2020-02-21 |
+| P60 | cmi-jcde | [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde) | JoramSoch | 2020-01-21 |
+| P61 | resvar-bias | [Maximum likelihood estimator of variance is biased](/P/resvar-bias) | JoramSoch | 2020-02-24 |
+| P62 | resvar-unb | [Construction of unbiased estimator for variance](/P/resvar-unb) | JoramSoch | 2020-02-25 |
+| P63 | snr-rsq | [Relationship between signal-to-noise ratio and R²](/P/snr-rsq) | JoramSoch | 2020-02-26 |
+| P64 | lbf-lme | [Log Bayes factor in terms of log model evidences](/P/lbf-lme) | JoramSoch | 2020-02-27 |
+| P65 | lfe-lme | [Log family evidences in terms of log model evidences](/P/lfe-lme) | JoramSoch | 2020-02-27 |
+| P66 | pmp-lme | [Posterior model probabilities in terms of log model evidences](/P/pmp-lme) | JoramSoch | 2020-02-27 |
+| P67 | bma-lme | [Bayesian model averaging in terms of log model evidences](/P/bma-lme) | JoramSoch | 2020-02-27 |
+| P68 | dent-neg | [Differential entropy can be negative](/P/dent-neg) | JoramSoch | 2020-03-02 |
+| P69 | exp-gam | [Exponential distribution is a special case of gamma distribution](/P/exp-gam) | JoramSoch | 2020-03-02 |
+| P70 | matn-pdf | [Probability density function of the matrix-normal distribution](/P/matn-pdf) | JoramSoch | 2020-02-03 |
+| P71 | norm-mgf | [Moment-generating function of the normal distribution](/P/norm-mgf) | JoramSoch | 2020-03-03 |
+| P72 | logreg-lonp | [Log-odds and probability in logistic regression](/P/logreg-lonp) | JoramSoch | 2020-03-03 |
+| P73 | pmp-lbf | [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf) | JoramSoch | 2020-03-03 |
+| P74 | pmp-bf | [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf) | JoramSoch | 2020-03-03 |

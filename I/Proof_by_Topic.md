@@ -12,6 +12,7 @@ title: "Proof by Topic"
 
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
+- [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
 
 ### C
 
@@ -19,6 +20,7 @@ title: "Proof by Topic"
 - [Conjugate prior distribution for binomial observations](/P/bin-prior)
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
+- [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 
@@ -27,10 +29,12 @@ title: "Proof by Topic"
 - [Derivation of R² and adjusted R²](/P/rsq-der)
 - [Derivation of the Bayesian information criterion](/P/bic-der)
 - [Derivation of the log model evidence](/P/lme-der)
+- [Differential entropy can be negative](/P/dent-neg)
 
 ### E
 
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
+- [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 
 ### K
 
@@ -40,9 +44,12 @@ title: "Proof by Topic"
 
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
 - [Linearity of the expected value](/P/mean-lin)
+- [Log Bayes factor in terms of log model evidences](/P/lbf-lme)
+- [Log family evidences in terms of log model evidences](/P/lfe-lme)
 - [Log model evidence for Bayesian linear regression](/P/blr-lme)
 - [Log model evidence for binomial observations](/P/bin-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
+- [Log-odds and probability in logistic regression](/P/logreg-lonp)
 
 ### M
 
@@ -50,6 +57,7 @@ title: "Proof by Topic"
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
+- [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the binomial distribution](/P/bin-mean)
 - [Mean of the categorical distribution](/P/cat-mean)
@@ -61,6 +69,7 @@ title: "Proof by Topic"
 - [Method of moments for beta-distributed data](/P/beta-mom)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
+- [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Monotonicity of the expected value](/P/mean-mono)
 
 ### N
@@ -80,9 +89,13 @@ title: "Proof by Topic"
 - [Posterior distribution for Bayesian linear regression](/P/blr-post)
 - [Posterior distribution for binomial observations](/P/bin-post)
 - [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post)
+- [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
+- [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
+- [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)
 - [Probability density function of the gamma distribution](/P/gam-pdf)
+- [Probability density function of the matrix-normal distribution](/P/matn-pdf)
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
 - [Probability density function of the normal-gamma distribution](/P/ng-pdf)
@@ -95,10 +108,14 @@ title: "Proof by Topic"
 
 ### R
 
+- [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)
+- [Relation of continuous mutual information to marginal and conditional differential entropy](/P/cmi-mcde)
+- [Relation of continuous mutual information to marginal and joint differential entropy](/P/cmi-mjde)
 - [Relation of mutual information to joint and conditional entropy](/P/dmi-jce)
 - [Relation of mutual information to marginal and conditional entropy](/P/dmi-mce)
 - [Relation of mutual information to marginal and joint entropy](/P/dmi-mje)
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
+- [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 
 ### V
 
