@@ -33,7 +33,7 @@ $$ \label{eq:dmi-jce}
 \mathrm{I}(X,Y) = \mathrm{H}(X,Y) - \mathrm{H}(X|Y) - \mathrm{H}(Y|X)
 $$
 
-where $\mathrm{H}(X,Y)$ is the [joint entropy](/D/ent-joint) of $X$ and $Y$ and $\mathrm{H}(X \mid Y)$ and $\mathrm{H}(Y \mid X)$ are the [conditional entropies](/D/ent-cond).
+where $\mathrm{H}(X,Y)$ is the [joint entropy](/D/ent-joint) of $X$ and $Y$ and $\mathrm{H}(X \vert Y)$ and $\mathrm{H}(Y \vert X)$ are the [conditional entropies](/D/ent-cond).
 
 
 **Proof:** The existence of the joint [probability mass function](/D/pmf) ensures that the [mutual information](/D/mi) is defined:

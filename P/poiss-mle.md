@@ -98,4 +98,4 @@ $$ \label{eq:Poiss-d2LLdl2}
 \end{split}
 $$
 
-This demonstrates that the estimate $\hat{\lambda} = \bar{y}$ maximizes the likelihood $p(y \mid \lambda)$.
+This demonstrates that the estimate $\hat{\lambda} = \bar{y}$ maximizes the likelihood $p(y \vert \lambda)$.
