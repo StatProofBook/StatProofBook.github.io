@@ -54,7 +54,7 @@ $$ \label{eq:MI-s2}
 \mathrm{I}(X,Y) = \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x,y) \log p(x,y) \, \mathrm{d}y \, \mathrm{d}x - \int_{\mathcal{X}} \left( \int_{\mathcal{Y}} p(x,y) \, \mathrm{d}y \right) \log p(x) \, \mathrm{d}x - \int_{\mathcal{Y}} \left( \int_{\mathcal{X}} p(x,y) \, \mathrm{d}x \right) \log p(y) \, \mathrm{d}y \; .
 $$
 
-Applying the [law of marginal probability](/P/prob-lmp), i.e. $p(x) = \int_{\mathcal{Y}} p(x,y)$, we get:
+Applying the [law of marginal probability](/D/prob-marg), i.e. $p(x) = \int_{\mathcal{Y}} p(x,y)$, we get:
 
 $$ \label{eq:MI-s3}
 \mathrm{I}(X,Y) = \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x,y) \log p(x,y) \, \mathrm{d}y \, \mathrm{d}x - \int_{\mathcal{X}} p(x) \log p(x) \, \mathrm{d}x - \int_{\mathcal{Y}} p(y) \log p(y) \, \mathrm{d}y \; .

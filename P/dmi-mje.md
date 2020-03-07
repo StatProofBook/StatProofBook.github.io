@@ -54,7 +54,7 @@ $$ \label{eq:MI-s2}
 \mathrm{I}(X,Y) = \sum_x \sum_y p(x,y) \log p(x,y) - \sum_x \left( \sum_y p(x,y) \right) \log p(x) - \sum_y \left( \sum_x p(x,y) \right) \log p(y) \; .
 $$
 
-Applying the [law of marginal probability](/P/lmp), i.e. $p(x) = \sum_y p(x,y)$, we get:
+Applying the [law of marginal probability](/D/prob-marg), i.e. $p(x) = \sum_y p(x,y)$, we get:
 
 $$ \label{eq:MI-s3}
 \mathrm{I}(X,Y) = \sum_x \sum_y p(x,y) \log p(x,y) - \sum_x p(x) \log p(x) - \sum_y p(y) \log p(y) \; .

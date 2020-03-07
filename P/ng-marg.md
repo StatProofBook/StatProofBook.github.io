@@ -51,7 +51,7 @@ p(y) &= \mathrm{Gam}(y; a, b) \; .
 $$
 
 <br>
-Using the [law of marginal probability](/P/lmp), the marginal distribution of $y$ can be derived as
+Using the [law of marginal probability](/D/prob-marg), the marginal distribution of $y$ can be derived as
 
 $$ \label{eq:ng-marg-y-qed}
 \begin{split}
@@ -65,7 +65,7 @@ $$
 which is the [probability density function of the gamma distribution](/P/gam-pdf) with shape parameter $a$ and rate parameter $b$.
 
 <br>
-Using the [law of marginal probability](/P/lmp), the marginal distribution of $x$ can be derived as
+Using the [law of marginal probability](/D/prob-marg), the marginal distribution of $x$ can be derived as
 
 $$ \label{eq:ng-marg-x-qed}
 \begin{split}

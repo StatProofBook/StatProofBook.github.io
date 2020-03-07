@@ -63,7 +63,7 @@ $$ \label{eq:MI-s3}
 \mathrm{I}(X,Y) = \sum_y p(y) \sum_x p(x|y) \log p(x|y) - \sum_x \left( \sum_y p(x,y) \right) \log p(x) \; .
 $$
 
-Applying the [law of marginal probability](/P/lmp), i.e. $p(x) = \sum_y p(x,y)$, we get:
+Applying the [law of marginal probability](/D/prob-marg), i.e. $p(x) = \sum_y p(x,y)$, we get:
 
 $$ \label{eq:MI-s4}
 \mathrm{I}(X,Y) = \sum_y p(y) \sum_x p(x|y) \log p(x|y) - \sum_x p(x) \log p(x) \; .

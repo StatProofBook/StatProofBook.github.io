@@ -37,7 +37,7 @@ $$
 where $p(m_i \vert f_j)$ are within-family prior model probabilities.
 
 
-**Proof:** Let us consider the (unlogarithmized) family evidence $p(y \vert f_j)$. According to the [law of marginal probability](/P/prob-lmp), this conditional probability is given by
+**Proof:** Let us consider the (unlogarithmized) family evidence $p(y \vert f_j)$. According to the [law of marginal probability](/D/prob-marg), this conditional probability is given by
 
 $$ \label{eq:FE-ME-s1}
 p(y|f_j) = \sum_{m_i \in f_j} \left[ p(y|m_i,f_j) \cdot p(m_i|f_j) \right] \; .

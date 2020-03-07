@@ -44,7 +44,7 @@ $$
 
 **Proof:**
 
-1) The first expression is a simple consequence of the [law of marginal probability](/P/lmp) for continuous variables according to which
+1) The first expression is a simple consequence of the [law of marginal probability](/D/prob-marg) for continuous variables according to which
 
 $$ \label{eq:ME}
 p(y|m) = \int p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta
