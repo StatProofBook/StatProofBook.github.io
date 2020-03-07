@@ -50,7 +50,7 @@ $$ \label{eq:MI-s1}
 \mathrm{I}(X,Y) = \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x,y) \log \frac{p(x,y)}{p(y)} \, \mathrm{d}y \, \mathrm{d}x - \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x,y) \log p(x) \, \mathrm{d}x \, \mathrm{d}y \; .
 $$
 
-Applying the [law of conditional probability](/P/prob-lcp), i.e. $p(x,y) = p(x \vert y) \, p(y)$, we get:
+Applying the [law of conditional probability](/D/prob-cond), i.e. $p(x,y) = p(x \vert y) \, p(y)$, we get:
 
 $$ \label{eq:MI-s2}
 \mathrm{I}(X,Y) = \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x|y) \, p(y) \log p(x|y) \, \mathrm{d}y \, \mathrm{d}x - \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x,y) \log p(x) \, \mathrm{d}y \, \mathrm{d}x \; .

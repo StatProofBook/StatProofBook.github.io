@@ -66,7 +66,7 @@ $$ \label{eq:GLM-NG-ME-s1}
 p(y|m) = \iint p(y|\beta,\tau) \, p(\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau \; .
 $$
 
-According to the [law of conditional probability](/P/lcp), the integrand is equivalent to the [joint likelihood](/D/jl):
+According to the [law of conditional probability](/D/prob-cond), the integrand is equivalent to the [joint likelihood](/D/jl):
 
 $$ \label{eq:GLM-NG-ME-s2}
 p(y|m) = \iint p(y,\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau \; .

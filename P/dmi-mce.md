@@ -51,7 +51,7 @@ $$ \label{eq:MI-s1}
 \mathrm{I}(X,Y) = \sum_x \sum_y p(x,y) \log \frac{p(x,y)}{p(y)} - \sum_x \sum_y p(x,y) \log p(x) \; .
 $$
 
-Applying the [law of conditional probability](/P/lcp), i.e. $p(x,y) = p(x \vert y) \, p(y)$, we get:
+Applying the [law of conditional probability](/D/prob-cond), i.e. $p(x,y) = p(x \vert y) \, p(y)$, we get:
 
 $$ \label{eq:MI-s2}
 \mathrm{I}(X,Y) = \sum_x \sum_y p(x|y) \, p(y) \log p(x|y) - \sum_x \sum_y p(x,y) \log p(x) \; .
