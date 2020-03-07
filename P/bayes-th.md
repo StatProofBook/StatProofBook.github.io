@@ -35,7 +35,7 @@ p(A|B) = \frac{p(B|A) \, p(A)}{p(B)} \; .
 $$
 
 
-**Proof:** The [conditional probability](/D/cp) is defined as the ratio of [joint probability](/D/jp), i.e. the probability of both statements being true, and [marginal probability](/D/mp), i.e. the probability of only the second one being true:
+**Proof:** The [conditional probability](/D/prob-cond) is defined as the ratio of [joint probability](/D/prob-joint), i.e. the probability of both statements being true, and [marginal probability](/D/prob-marg), i.e. the probability of only the second one being true:
 
 $$ \label{eq:LCP}
 p(A|B) = \frac{p(A,B)}{p(B)} \; .

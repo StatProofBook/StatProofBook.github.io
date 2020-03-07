@@ -34,7 +34,7 @@ $$ \label{eq:ng}
 x,y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
 $$
 
-Then, the [joint probability](/D/jp) [density function](/D/pdf) of $x$ and $y$ is
+Then, the [joint probability](/D/prob-joint) [density function](/D/pdf) of $x$ and $y$ is
 
 $$ \label{eq:ng-pdf}
 p(x,y) = \sqrt{\frac{|\Lambda|}{(2 \pi)^n}} \frac{b^a}{\Gamma(a)} \cdot y^{a+\frac{n}{2}-1} \exp \left[ -\frac{y}{2} \left( (x-\mu)^\mathrm{T} \Lambda (x-\mu) + 2b \right) \right] \; .

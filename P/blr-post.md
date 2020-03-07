@@ -159,4 +159,4 @@ $$ \label{eq:GLM-NG-post-tau}
 p(\tau|y) = \mathrm{Gam}(\tau; a_n, b_n) \; .
 $$
 
-Together, \eqref{eq:GLM-NG-post-beta} and \eqref{eq:GLM-NG-post-tau} constitute the [joint posterior distribution](/D/jp) of $\beta$ and $\tau$.
+Together, \eqref{eq:GLM-NG-post-beta} and \eqref{eq:GLM-NG-post-tau} constitute the [joint](/D/prob-joint) [posterior distribution](/D/post) of $\beta$ and $\tau$.
