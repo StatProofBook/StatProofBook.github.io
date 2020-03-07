@@ -27,7 +27,7 @@ $$ \label{eq:mult}
 X \sim \mathrm{Mult}(n,\left[p_1, \ldots, p_k \right]) \; .
 $$
 
-Then, the [mean or expected value](/D/ev) of $X$ is
+Then, the [mean or expected value](/D/mean) of $X$ is
 
 $$ \label{eq:bin-mean}
 \mathrm{E}(X) = \left[n p_1, \ldots, n p_k \right] \; .
@@ -40,7 +40,7 @@ $$ \label{eq:mult-mean-s1}
 \mathrm{E}(X) = \mathrm{E}(X_1 + \ldots + X_n)
 $$
 
-and because the [expected value is a linear operator](/P/ev-lin), this is equal to
+and because the [expected value is a linear operator](/P/mean-lin), this is equal to
 
 $$ \label{eq:mult-mean-s2}
 \begin{split}

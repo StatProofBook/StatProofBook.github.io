@@ -46,7 +46,7 @@ $$ \label{eq:Bias}
 $$
 
 
-**Proof:** The mean squared error (MSE) [is defined as](/D/mse) the [expected value](/D/ev) of the squared deviation of the estimated value $\hat{\theta}$ from the true value $\theta$ of a parameter, over all values $\hat{\theta}$:
+**Proof:** The mean squared error (MSE) [is defined as](/D/mse) the [expected value](/D/mean) of the squared deviation of the estimated value $\hat{\theta}$ from the true value $\theta$ of a parameter, over all values $\hat{\theta}$:
 
 $$ \label{eq:MSE-def}
 \mathrm{MSE}(\hat{\theta}) = \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \theta \right)^2 \right] \; .

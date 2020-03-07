@@ -62,7 +62,7 @@ p(y|\lambda) &= \prod_{i=1}^n \frac{ {x_i}^{y_i}}{y_i !} \cdot \prod_{i=1}^n \la
 \end{split}
 $$
 
-where $\bar{y}$ and $\bar{x}$ are the [means](/P/ev-sample) of $y$ and $x$ respectively:
+where $\bar{y}$ and $\bar{x}$ are the [means](/P/mean-sample) of $y$ and $x$ respectively:
 
 $$ \label{eq:xy-mean}
 \begin{split}

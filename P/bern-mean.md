@@ -33,14 +33,14 @@ $$ \label{eq:bern}
 X \sim \mathrm{Bern}(p) \; .
 $$
 
-Then, the [mean or expected value](/D/ev) of $X$ is
+Then, the [mean or expected value](/D/mean) of $X$ is
 
 $$ \label{eq:bern-mean}
 \mathrm{E}(X) = p \; .
 $$
 
 
-**Proof:** The [expected value](/D/ev) is the probability-weighted average of all possible values:
+**Proof:** The [expected value](/D/mean) is the probability-weighted average of all possible values:
 
 $$ \label{eq:mean}
 \mathrm{E}(X) = \sum_{x \in \mathcal{X}} x \cdot \mathrm{Pr}(X = x) \; .

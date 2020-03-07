@@ -32,14 +32,14 @@ $$ \label{eq:norm}
 X \sim \mathcal{N}(\mu, \sigma^2) \; .
 $$
 
-Then, the [mean or expected value](/D/ev) of $X$ is
+Then, the [mean or expected value](/D/mean) of $X$ is
 
 $$ \label{eq:norm-mean}
 \mathrm{E}(X) = \mu \; .
 $$
 
 
-**Proof:** The [expected value](/D/ev) is the probability-weighted average over all possible values:
+**Proof:** The [expected value](/D/mean) is the probability-weighted average over all possible values:
 
 $$ \label{eq:mean}
 \mathrm{E}(X) = \int_{\mathbb{R}} x \cdot f_X(x) \, \mathrm{d}x \; .

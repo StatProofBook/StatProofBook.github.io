@@ -39,7 +39,7 @@ $$ \label{eq:norm-mode}
 $$
 
 
-**Proof:** The [variance](/D/var) is the probability-weighted average of the squared deviation from the [mean](/D/ev):
+**Proof:** The [variance](/D/var) is the probability-weighted average of the squared deviation from the [mean](/D/mean):
 
 $$ \label{eq:var}
 \mathrm{Var}(X) = \int_{\mathbb{R}} (x - \mathrm{E}(X))^2 \cdot f_\mathrm{X}(x) \, \mathrm{d}x \; .

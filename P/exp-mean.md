@@ -34,14 +34,14 @@ $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; .
 $$
 
-Then, the [mean or expected value](/D/ev) of $X$ is
+Then, the [mean or expected value](/D/mean) of $X$ is
 
 $$ \label{eq:exp-mean}
 \mathrm{E}(X) = \frac{1}{\lambda} \; .
 $$
 
 
-**Proof:** The [expected value](/D/ev) is the probability-weighted average over all possible values:
+**Proof:** The [expected value](/D/mean) is the probability-weighted average over all possible values:
 
 $$ \label{eq:mean}
 \mathrm{E}(X) = \int_{\mathbb{R}} x \cdot f_\mathrm{X}(x) \, \mathrm{d}x \; .
