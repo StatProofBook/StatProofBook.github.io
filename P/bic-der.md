@@ -59,14 +59,14 @@ Then, the [marginal likelihood](/D/ml) can be written as follows:
 $$ \label{eq:ML}
 \begin{split}
 p(y|m) &= \int_{\Theta} p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta \\
-&= \int_{\Theta} \mathrm{exp}\left[n \, h(\theta)\right] \, g(\theta) \, \mathrm{d}\theta \; .
+&= \int_{\Theta} \exp\left[n \, h(\theta)\right] \, g(\theta) \, \mathrm{d}\theta \; .
 \end{split}
 $$
 
 This is an integral suitable for Laplace approximation which states that
 
 $$ \label{eq:LA}
-\int_{\Theta} \mathrm{exp}\left[n \, h(\theta)\right] \, g(\theta) \, \mathrm{d}\theta = \left( \sqrt{\frac{2 \pi}{n}} \right)^p \mathrm{exp}\left[n \, h(\theta_0)\right] \left( g(\theta_0) \left| J(\theta_0) \right|^{-1/2} + O(1/n) \right)
+\int_{\Theta} \exp\left[n \, h(\theta)\right] \, g(\theta) \, \mathrm{d}\theta = \left( \sqrt{\frac{2 \pi}{n}} \right)^p \exp\left[n \, h(\theta_0)\right] \left( g(\theta_0) \left| J(\theta_0) \right|^{-1/2} + O(1/n) \right)
 $$
 
 where $\theta_0$ is the value that maximizes $h(\theta)$ and $J(\theta_0)$ is the Hessian matrix evaluated at $\theta_0$. In our case, we have $h(\theta) = 1/n \, \mathrm{LL}(\theta)$ such that $\theta_0$ is the maximum likelihood estimator $\hat{\theta}$:

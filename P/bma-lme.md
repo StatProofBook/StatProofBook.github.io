@@ -31,7 +31,7 @@ username: "JoramSoch"
 **Theorem:** Let $m_1, \ldots, m_M$ be $M$ statistical models describing the same measured data $y$ with [log model evidences](/D/lme) $\mathrm{LME}(m_1), \ldots, \mathrm{LME}(m_M)$ and shared model parameters $\theta$. Then, Bayesian model averaging (BMA) determines the following posterior distribution over $\theta$:
 
 $$ \label{eq:BMA-LME}
-p(\theta|y) = \sum_{i=1}^{M} p(\theta|m_i,y) \cdot \frac{\mathrm{exp}[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \mathrm{exp}[\mathrm{LME}(m_j)] \, p(m_j)} \; ,
+p(\theta|y) = \sum_{i=1}^{M} p(\theta|m_i,y) \cdot \frac{\exp[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \exp[\mathrm{LME}(m_j)] \, p(m_j)} \; ,
 $$
 
 where $p(\theta \vert m_i,y)$ is the posterior distributions over $\theta$ obtained using $m_i$.
@@ -46,7 +46,7 @@ $$
 where $p(m_i \vert y)$ is the [posterior probability](/D/pmp) of the $i$-th model. One can express [posterior model probabilities in terms of log model evidences](/P/pmp-lme) as
 
 $$ \label{eq:PMP-LME}
-p(m_i|y) = \frac{\mathrm{exp}[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \mathrm{exp}[\mathrm{LME}(m_j)] \, p(m_j)}
+p(m_i|y) = \frac{\exp[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \exp[\mathrm{LME}(m_j)] \, p(m_j)}
 $$
 
 and by plugging \eqref{eq:PMP-LME} into \eqref{eq:BMA-PMP}, one arrives at \eqref{eq:BMA-LME}.

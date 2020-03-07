@@ -36,5 +36,5 @@ $$
 is the quantile function (QF) of $X$. More precisly, the QF is the function that, for a given quantile $p \in [0,1]$, returns the smallest $x$ for which $F_X(x) = p$:
 
 $$ \label{eq:qf-prec}
-Q_X(p) = \min \left\lbrace x \in \mathbb{R} \vert F_X(x) = p \right\rbrace \; .
+Q_X(p) = \min \left\lbrace x \in \mathbb{R} \, \vert \, F_X(x) = p \right\rbrace \; .
 $$
