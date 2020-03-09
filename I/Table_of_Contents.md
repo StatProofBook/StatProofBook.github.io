@@ -161,6 +161,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    1.1. Multiple linear regression <br>
    &emsp;&ensp; 1.1.1. **[Ordinary least squares (1)](/P/mlr-ols)** <br>
    &emsp;&ensp; 1.1.2. **[Ordinary least squares (2)](/P/mlr-ols2)** <br>
+   &emsp;&ensp; 1.1.3. **[Partition of sums of squares](/P/mlr-pss)** <br>
+   &emsp;&ensp; 1.1.4. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
    
    1.2. Bayesian linear regression <br>
    &emsp;&ensp; 1.2.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
