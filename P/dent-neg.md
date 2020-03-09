@@ -39,7 +39,7 @@ $$
 Then, its [probability density function](/P/cuni-pdf) is:
 
 $$ \label{eq:X-pdf}
-f_X(x) = 2, \quad \text{for} \quad 0 \leq x \leq \frac{1}{2} \; .
+f_X(x) = 2 \quad \text{for} \quad 0 \leq x \leq \frac{1}{2} \; .
 $$
 
 Thus, the [differential entropy](/D/dent) follows as

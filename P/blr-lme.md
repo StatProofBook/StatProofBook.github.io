@@ -60,13 +60,13 @@ b_n &= b_0 + \frac{1}{2} (y^\mathrm{T} P y + \mu_0^\mathrm{T} \Lambda_0 \mu_0 - 
 $$
 
 
-**Proof:** According to the [law of marginal probability](/P/lmp), the [model evidence](/D/ml) for this model is:
+**Proof:** According to the [law of marginal probability](/D/prob-marg), the [model evidence](/D/ml) for this model is:
 
 $$ \label{eq:GLM-NG-ME-s1}
 p(y|m) = \iint p(y|\beta,\tau) \, p(\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau \; .
 $$
 
-According to the [law of conditional probability](/P/lcp), the integrand is equivalent to the [joint likelihood](/D/jl):
+According to the [law of conditional probability](/D/prob-cond), the integrand is equivalent to the [joint likelihood](/D/jl):
 
 $$ \label{eq:GLM-NG-ME-s2}
 p(y|m) = \iint p(y,\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau \; .

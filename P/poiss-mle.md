@@ -33,7 +33,7 @@ $$ \label{eq:Poiss-MLE}
 \hat{\lambda} = \bar{y}
 $$
 
-where $\bar{y}$ is the [sample mean](/P/ev-sample)
+where $\bar{y}$ is the [sample mean](/P/mean-sample)
 
 $$ \label{eq:y-mean}
 \bar{y} = \frac{1}{n} \sum_{i=1}^n y_i \; .
@@ -98,4 +98,4 @@ $$ \label{eq:Poiss-d2LLdl2}
 \end{split}
 $$
 
-This demonstrates that the estimate $\hat{\lambda} = \bar{y}$ maximizes the likelihood $p(y \mid \lambda)$.
+This demonstrates that the estimate $\hat{\lambda} = \bar{y}$ maximizes the likelihood $p(y \vert \lambda)$.

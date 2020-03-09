@@ -31,7 +31,7 @@ username: "JoramSoch"
 **Theorem:** Let $m_1, \ldots, m_M$ be $M$ statistical models with [log model evidences](/D/lme) $\mathrm{LME}(m_1), \ldots, \mathrm{LME}(m_M)$. Then, the [posterior model probabilities](/D/pmp) are given by:
 
 $$ \label{eq:PMP-LME}
-p(m_i|y) = \frac{\mathrm{exp}[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \mathrm{exp}[\mathrm{LME}(m_j)] \, p(m_j)}, \quad i = 1,\ldots,M \; ,
+p(m_i|y) = \frac{\exp[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \exp[\mathrm{LME}(m_j)] \, p(m_j)}, \quad i = 1,\ldots,M \; ,
 $$
 
 where $p(m_i)$ are prior model probabilities.
@@ -43,7 +43,7 @@ $$ \label{eq:PMP-s1}
 p(m_i|y) = \frac{p(y|m_i) \, p(m_i)}{p(y)} \; .
 $$
 
-Using the [law of marginal probability](/P/prob-lmp), the denominator can be written as
+Using the [law of marginal probability](/D/prob-marg), the denominator can be written as
 
 $$ \label{eq:PMP-s2}
 p(m_i|y) = \frac{p(y|m_i) \, p(m_i)}{\sum_{j=1}^{M} p(y|m_j) \, p(m_j)} \; .
@@ -64,5 +64,5 @@ $$
 and applying \eqref{eq:ME} to \eqref{eq:PMP-s2}, we finally have:
 
 $$ \label{eq:PMP-s3}
-p(m_i|y) = \frac{\mathrm{exp}[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \mathrm{exp}[\mathrm{LME}(m_j)] \, p(m_j)} \; .
+p(m_i|y) = \frac{\exp[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \exp[\mathrm{LME}(m_j)] \, p(m_j)} \; .
 $$

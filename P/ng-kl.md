@@ -79,7 +79,7 @@ $$ \label{eq:NG-KL0}
 \mathrm{KL}[P\,||\,Q] = \int_{0}^{\infty} \int_{\mathbb{R}^k} p(x,y) \, \ln \frac{p(x,y)}{q(x,y)} \, \mathrm{d}x \, \mathrm{d}y \; .
 $$
 
-Using the [law of conditional probability](/P/lcp), this can be evaluated as follows:
+Using the [law of conditional probability](/D/prob-cond), this can be evaluated as follows:
 
 $$ \label{eq:NG-KL1}
 \begin{split}

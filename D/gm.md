@@ -24,5 +24,5 @@ username: "JoramSoch"
 **Definition:** Consider measured data $y$ and some unknown latent parameters $\theta$. A statement about the distribution of $y$ given $\theta$ is called a generative model $m$:
 
 $$ \label{eq:gm}
-m: y \sim \mathcal{D}(\theta) \; .
+m: \, y \sim \mathcal{D}(\theta) \; .
 $$

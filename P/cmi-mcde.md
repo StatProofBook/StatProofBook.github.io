@@ -35,7 +35,7 @@ $$ \label{eq:cmi-mcde}
 \end{split}
 $$
 
-where $\mathrm{h}(X)$ and $\mathrm{h}(Y)$ are the [marginal differential entropies](/D/dent) of $X$ and $Y$ and $\mathrm{h}(X|Y)$ and $\mathrm{h}(Y|X)$ are the [conditional differential entropies](/D/dent-cond).
+where $\mathrm{h}(X)$ and $\mathrm{h}(Y)$ are the [marginal differential entropies](/D/dent) of $X$ and $Y$ and $\mathrm{h}(X \vert Y)$ and $\mathrm{h}(Y \vert X)$ are the [conditional differential entropies](/D/dent-cond).
 
 
 **Proof:** The [mutual information](/D/mi) of $X$ and $Y$ is defined as
@@ -50,7 +50,7 @@ $$ \label{eq:MI-s1}
 \mathrm{I}(X,Y) = \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x,y) \log \frac{p(x,y)}{p(y)} \, \mathrm{d}y \, \mathrm{d}x - \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x,y) \log p(x) \, \mathrm{d}x \, \mathrm{d}y \; .
 $$
 
-Applying the [law of conditional probability](/P/prob-lcp), i.e. $p(x,y) = p(x \vert y) \, p(y)$, we get:
+Applying the [law of conditional probability](/D/prob-cond), i.e. $p(x,y) = p(x \vert y) \, p(y)$, we get:
 
 $$ \label{eq:MI-s2}
 \mathrm{I}(X,Y) = \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x|y) \, p(y) \log p(x|y) \, \mathrm{d}y \, \mathrm{d}x - \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x,y) \log p(x) \, \mathrm{d}y \, \mathrm{d}x \; .
@@ -62,7 +62,7 @@ $$ \label{eq:MI-s3}
 \mathrm{I}(X,Y) = \int_{\mathcal{Y}} p(y) \int_{\mathcal{X}} p(x|y) \log p(x|y) \, \mathrm{d}x \, \mathrm{d}y - \int_{\mathcal{X}} \left( \int_{\mathcal{Y}} p(x,y) \, \mathrm{d}y \right) \log p(x)\, \mathrm{d}x \; .
 $$
 
-Applying the [law of marginal probability](/P/prob-lmp), i.e. $p(x) = \int_{\mathcal{Y}} p(x,y) \, \mathrm{d}y$, we get:
+Applying the [law of marginal probability](/D/prob-marg), i.e. $p(x) = \int_{\mathcal{Y}} p(x,y) \, \mathrm{d}y$, we get:
 
 $$ \label{eq:MI-s4}
 \mathrm{I}(X,Y) = \int_{\mathcal{Y}} p(y) \int_{\mathcal{X}} p(x|y) \log p(x|y) \, \mathrm{d}x \, \mathrm{d}y - \int_{\mathcal{X}} p(x) \log p(x) \, \mathrm{d}x \; .

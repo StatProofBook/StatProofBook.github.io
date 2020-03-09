@@ -95,9 +95,9 @@ Exponentiating both sides of the equation, we have:
 
 $$ \label{eq:MLR-DMLL-RTSS}
 \begin{split}
-\mathrm{exp}[\Delta\mathrm{MLL}] &= \mathrm{exp} \left[ - \frac{n}{2} \log(\mathrm{RSS}) + \frac{n}{2} \log(\mathrm{TSS}) \right] \\
-&= \left( \mathrm{exp} \left[ \log(\mathrm{RSS}) - \log(\mathrm{TSS}) \right] \right)^{-n/2} \\
-&= \left( \frac{\mathrm{exp}[\log(\mathrm{RSS})]}{\mathrm{exp}[\log(\mathrm{TSS})]} \right)^{-n/2} \\
+\exp[\Delta\mathrm{MLL}] &= \exp\left[ - \frac{n}{2} \log(\mathrm{RSS}) + \frac{n}{2} \log(\mathrm{TSS}) \right] \\
+&= \left( \exp\left[ \log(\mathrm{RSS}) - \log(\mathrm{TSS}) \right] \right)^{-n/2} \\
+&= \left( \frac{\exp[\log(\mathrm{RSS})]}{\exp[\log(\mathrm{TSS})]} \right)^{-n/2} \\
 &= \left( \frac{\mathrm{RSS}}{\mathrm{TSS}} \right)^{-n/2} \; .
 \end{split}
 $$
@@ -106,8 +106,8 @@ Taking both sides to the power of $-2/n$ and subtracting from 1, we have
 
 $$ \label{eq:MLR-DMLL-R2}
 \begin{split}
-\left( \mathrm{exp}[\Delta\mathrm{MLL}] \right)^{-2/n} &= \frac{\mathrm{RSS}}{\mathrm{TSS}} \\
-1 - \left( \mathrm{exp}[\Delta\mathrm{MLL}] \right)^{-2/n} &= 1 - \frac{\mathrm{RSS}}{\mathrm{TSS}} = R^2
+\left( \exp[\Delta\mathrm{MLL}] \right)^{-2/n} &= \frac{\mathrm{RSS}}{\mathrm{TSS}} \\
+1 - \left( \exp[\Delta\mathrm{MLL}] \right)^{-2/n} &= 1 - \frac{\mathrm{RSS}}{\mathrm{TSS}} = R^2
 \end{split}
 $$
 

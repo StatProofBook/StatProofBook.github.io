@@ -27,14 +27,14 @@ $$ \label{eq:cat}
 X \sim \mathrm{Cat}(\left[p_1, \ldots, p_k \right]) \; .
 $$
 
-Then, the [mean or expected value](/D/ev) of $X$ is
+Then, the [mean or expected value](/D/mean) of $X$ is
 
 $$ \label{eq:cat-mean}
 \mathrm{E}(X) = \left[p_1, \ldots, p_k \right] \; .
 $$
 
 
-**Proof:** If we conceive the [outcome of a categorical distribution](/D/cat-pmf) to be a $1 \times k$ vector, then the elementary row vectors $e_1 = \left[1, 0, \ldots, 0 \right]$, ..., $e_k = \left[0, \ldots, 0, 1 \right]$ are all the possible outcomes and they occur with probabilities $\mathrm{Pr}(X = e_1) = p_1$, ..., $\mathrm{Pr}(X = e_k) = p_k$. Consequently, the [expected value](/D/ev) is
+**Proof:** If we conceive the [outcome of a categorical distribution](/D/cat-pmf) to be a $1 \times k$ vector, then the elementary row vectors $e_1 = \left[1, 0, \ldots, 0 \right]$, ..., $e_k = \left[0, \ldots, 0, 1 \right]$ are all the possible outcomes and they occur with probabilities $\mathrm{Pr}(X = e_1) = p_1$, ..., $\mathrm{Pr}(X = e_k) = p_k$. Consequently, the [expected value](/D/mean) is
 
 $$ \label{eq:cat-mean-qed}
 \begin{split}

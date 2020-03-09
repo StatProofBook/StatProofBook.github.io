@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = **Theorem:** Assume a [logistic regression model](/D/logreg)
+**Theorem:** Assume a [logistic regression model](/D/logreg)
 
 $$ \label{eq:logreg}
 l_i = x_i \beta + \varepsilon_i, \; i = 1,\ldots,n

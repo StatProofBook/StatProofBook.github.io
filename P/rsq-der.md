@@ -35,7 +35,7 @@ $$
 
 with $n$ independent observations and $p$ independent variables,
 
-1) the coefficient of determination is given by
+1) the [coefficient of determination](/D/rsq) is given by
 
 $$ \label{eq:R2}
 R^2 = 1 - \frac{\mathrm{RSS}}{\mathrm{TSS}}
@@ -89,7 +89,7 @@ $$ \label{eq:R2'}
 R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2} = 1 - \frac{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\frac{1}{n} \sum_{i=1}^{n} (y_i - \bar{y})^2} \; .
 $$
 
-If we replace the variance estimates by their [unbiased estimators](/P/resvar-bias), we obtain
+If we replace the variance estimates by their [unbiased estimators](/P/resvar-unb), we obtain
 
 $$ \label{eq:R2-adj'}
 R^2_{\mathrm{adj}} = 1 - \frac{\frac{1}{n-p} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\frac{1}{n-1} \sum_{i=1}^{n} (y_i - \bar{y})^2} = 1 - \frac{\mathrm{RSS}/\mathrm{df}_r}{\mathrm{TSS}/\mathrm{df}_t}

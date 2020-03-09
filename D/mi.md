@@ -35,7 +35,7 @@ $$ \label{eq:mi-disc}
 \mathrm{I}(X,Y) = - \sum_{x \in \mathcal{X}} \sum_{x \in \mathcal{Y}} p(x,y) \cdot \log \frac{p(x,y)}{p(x) \cdot p(y)}
 $$
 
-where $p(x)$ and $p(y)$ are the [probability mass functions](/D/pmf) of $X$ and $Y$ and $p(x,y)$ is the [joint probability](/D/jp) mass function of $X$ and $Y$.
+where $p(x)$ and $p(y)$ are the [probability mass functions](/D/pmf) of $X$ and $Y$ and $p(x,y)$ is the [joint probability](/D/prob-joint) mass function of $X$ and $Y$.
 
 2) The mutual information of two continuous [random variables](/D/rvar) $X$ and $Y$ is defined as
 
@@ -43,4 +43,4 @@ $$ \label{eq:mi-cont}
 \mathrm{I}(X,Y) = - \int_{\mathcal{X}} \int_{\mathcal{Y}} p(x,y) \cdot \log \frac{p(x,y)}{p(x) \cdot p(y)} \, \mathrm{d}y \, \mathrm{d}x
 $$
 
-where $p(x)$ and $p(y)$ are the [probability density functions](/D/pmf) of $X$ and $Y$ and $p(x,y)$ is the [joint probability](/D/jp) density function of $X$ and $Y$.
+where $p(x)$ and $p(y)$ are the [probability density functions](/D/pmf) of $X$ and $Y$ and $p(x,y)$ is the [joint probability](/D/prob-joint) density function of $X$ and $Y$.

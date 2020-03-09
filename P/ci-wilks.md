@@ -54,7 +54,7 @@ $$
 Then, an asymptotic [confidence interval](/D/ci) for $\theta$ is given by
 
 $$ \label{eq:ci-wilks}
-\mathrm{CI}_{1-\alpha}(\hat{\phi}) = \left\lbrace \phi \mid \log p(y|\phi,\hat{\lambda}) \geq \log p(y|\hat{\phi},\hat{\lambda}) - \frac{1}{2} \chi^2_{1,1-\alpha} \right\rbrace
+\mathrm{CI}_{1-\alpha}(\hat{\phi}) = \left\lbrace \phi \, \vert \, \log p(y|\phi,\hat{\lambda}) \geq \log p(y|\hat{\phi},\hat{\lambda}) - \frac{1}{2} \chi^2_{1,1-\alpha} \right\rbrace
 $$
 
 where $1-\alpha$ is the confidence level and $\chi^2_{1,1-\alpha}$ is the $(1-\alpha)$-quantile of the [chi-squared distribution](/D/chi2) with 1 [degree of freedom](/D/dof).

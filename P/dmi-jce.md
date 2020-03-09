@@ -27,16 +27,16 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ and $Y$ be discrete [random variables](/D/rvar) with the [joint probability](/D/jp) $p(x,y)$ for $x \in \mathcal{X}$ and $y \in \mathcal{Y}$. Then, the [mutual information](/D/mi) of $X$ and $Y$ can be expressed as
+**Theorem:** Let $X$ and $Y$ be discrete [random variables](/D/rvar) with the [joint probability](/D/prob-joint) $p(x,y)$ for $x \in \mathcal{X}$ and $y \in \mathcal{Y}$. Then, the [mutual information](/D/mi) of $X$ and $Y$ can be expressed as
 
 $$ \label{eq:dmi-jce}
 \mathrm{I}(X,Y) = \mathrm{H}(X,Y) - \mathrm{H}(X|Y) - \mathrm{H}(Y|X)
 $$
 
-where $\mathrm{H}(X,Y)$ is the [joint entropy](/D/ent-joint) of $X$ and $Y$ and $\mathrm{H}(X \mid Y)$ and $\mathrm{H}(Y \mid X)$ are the [conditional entropies](/D/ent-cond).
+where $\mathrm{H}(X,Y)$ is the [joint entropy](/D/ent-joint) of $X$ and $Y$ and $\mathrm{H}(X \vert Y)$ and $\mathrm{H}(Y \vert X)$ are the [conditional entropies](/D/ent-cond).
 
 
-**Proof:** The existence of the joint probability function ensures that the [mutual information](/D/mi) is defined:
+**Proof:** The existence of the joint [probability mass function](/D/pmf) ensures that the [mutual information](/D/mi) is defined:
 
 $$ \label{eq:MI}
 \mathrm{I}(X,Y) = \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} p(x,y) \log \frac{p(x,y)}{p(x)\,p(y)} \; .

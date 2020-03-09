@@ -33,7 +33,7 @@ $$ \label{eq:bin}
 X \sim \mathrm{Bin}(n,p) \; .
 $$
 
-Then, the [mean or expected value](/D/ev) of $X$ is
+Then, the [mean or expected value](/D/mean) of $X$ is
 
 $$ \label{eq:bin-mean}
 \mathrm{E}(X) = n p \; .
@@ -46,7 +46,7 @@ $$ \label{eq:bin-mean-s1}
 \mathrm{E}(X) = \mathrm{E}(X_1 + \ldots + X_n)
 $$
 
-and because the [expected value is a linear operator](/P/ev-lin), this is equal to
+and because the [expected value is a linear operator](/P/mean-lin), this is equal to
 
 $$ \label{eq:bin-mean-s2}
 \begin{split}

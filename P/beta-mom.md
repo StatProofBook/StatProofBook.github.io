@@ -42,7 +42,7 @@ $$ \label{eq:Beta-MoM}
 \end{split}
 $$
 
-where $\bar{y}$ is the [sample mean](/P/ev-sample) and $\bar{v}$ is the [unbiased sample variance](/P/var-unbias):
+where $\bar{y}$ is the [sample mean](/P/mean-sample) and $\bar{v}$ is the [unbiased sample variance](/P/resvar-unb):
 
 $$ \label{eq:y-mean-var}
 \begin{split}

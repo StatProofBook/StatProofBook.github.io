@@ -34,7 +34,7 @@ $$ \label{eq:ng}
 X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; ,
 $$
 
-if and only if their [joint probability](/D/jp) [density function](/D/pdf) is given by
+if and only if their [joint probability](/D/prob-joint) [density function](/D/pdf) is given by
 
 $$ \label{eq:ng-pdf}
 f_{X,Y}(x,y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b)

@@ -65,7 +65,7 @@ Substituting $u = (x-\mu)/(\sqrt{2}\sigma)$, i.e. $x = \sqrt{2}\sigma u + \mu$, 
 
 $$ \label{eq:norm-mgf-s2}
 \begin{split}
-M_X(t) &= \frac{1}{\sqrt{2 \pi} \sigma} \int_{-\infty \sqrt{2} \sigma + \mu}^{+\infty \sqrt{2} \sigma + \mu} \exp\left[ t\left( \sqrt{2} \sigma u + \mu \right) - \frac{1}{2} \left( \frac{ \sqrt{2} \sigma u + \mu - \mu}{\sigma} \right)^2 \right] \, \mathrm{d}\left( \sqrt{2} \sigma u + \mu \right) \\
+M_X(t) &= \frac{1}{\sqrt{2 \pi} \sigma} \int_{(-\infty-\mu)/(\sqrt{2}\sigma)}^{(+\infty-\mu)/(\sqrt{2}\sigma)} \exp\left[ t\left( \sqrt{2} \sigma u + \mu \right) - \frac{1}{2} \left( \frac{ \sqrt{2} \sigma u + \mu - \mu}{\sigma} \right)^2 \right] \, \mathrm{d}\left( \sqrt{2} \sigma u + \mu \right) \\
 &= \frac{\sqrt{2} \sigma}{\sqrt{2 \pi} \sigma} \int_{-\infty}^{+\infty} \exp\left[ \left( \sqrt{2} \sigma u + \mu \right) t - u^2 \right] \, \mathrm{d}u \\
 &= \frac{\exp(\mu t)}{\sqrt{\pi}} \int_{-\infty}^{+\infty} \exp\left[ \sqrt{2} \sigma u t - u^2 \right] \, \mathrm{d}u \\
 &= \frac{\exp(\mu t)}{\sqrt{\pi}} \int_{-\infty}^{+\infty} \exp\left[ - \left( u^2 - \sqrt{2} \sigma u t \right) \right] \, \mathrm{d}u \\
@@ -78,7 +78,7 @@ Now substituting $v = u - \sqrt{2}/2 \, \sigma t$, i.e. $u = v + \sqrt{2}/2 \, \
 
 $$ \label{eq:norm-mgf-s3}
 \begin{split}
-M_X(t) &= \frac{\exp\left[ \mu t + \frac{1}{2} \sigma^2 t^2 \right]}{\sqrt{\pi}} \int_{-\infty + \sqrt{2}/2 \sigma t}^{+\infty + \sqrt{2}/2 \sigma t} \exp\left[ -v^2 \right] \, \mathrm{d}\left( v + \sqrt{2}/2 \sigma t \right) \\
+M_X(t) &= \frac{\exp\left[ \mu t + \frac{1}{2} \sigma^2 t^2 \right]}{\sqrt{\pi}} \int_{-\infty - \sqrt{2}/2 \, \sigma t}^{+\infty - \sqrt{2}/2 \, \sigma t} \exp\left[ -v^2 \right] \, \mathrm{d}\left( v + \sqrt{2}/2 \, \sigma t \right) \\
 &= \frac{\exp\left[ \mu t + \frac{1}{2} \sigma^2 t^2 \right]}{\sqrt{\pi}} \int_{-\infty}^{+\infty} \exp\left[ -v^2 \right] \, \mathrm{d}v \; .
 \end{split}
 $$

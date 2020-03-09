@@ -52,7 +52,7 @@ $$ \label{eq:mean-disc}
 \mathrm{E}(X) = \sum_{x \in \mathcal{X}} x \cdot f_X(x)
 $$
 
-and the [law of marginal probability](/P/lmp) states that
+and the [law of marginal probability](/D/prob-marg) states that
 
 $$ \label{eq:lmp-disc}
 p(x) = \sum_{y \in \mathcal{Y}} p(x,y) \; .
@@ -87,7 +87,7 @@ $$ \label{eq:mean-cont}
 \mathrm{E}(X) = \int_{\mathcal{X}} x \cdot f_X(x) \, \mathrm{d}x
 $$
 
-and the [law of marginal probability](/P/lmp) states that
+and the [law of marginal probability](/D/prob-marg) states that
 
 $$ \label{eq:lmp-cont}
 p(x) = \int_{\mathcal{Y}} p(x,y) \, \mathrm{d}y \; .

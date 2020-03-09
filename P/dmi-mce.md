@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ and $Y$ be discrete [random variables](/D/rvar) with the [joint probability](/D/jp) $p(x,y)$ for $x \in \mathcal{X}$ and $y \in \mathcal{Y}$. Then, the [mutual information](/D/mi) of $X$ and $Y$ can be expressed as
+**Theorem:** Let $X$ and $Y$ be discrete [random variables](/D/rvar) with the [joint probability](/D/prob-joint) $p(x,y)$ for $x \in \mathcal{X}$ and $y \in \mathcal{Y}$. Then, the [mutual information](/D/mi) of $X$ and $Y$ can be expressed as
 
 $$ \label{eq:dmi-mce}
 \begin{split}
@@ -36,7 +36,7 @@ $$ \label{eq:dmi-mce}
 \end{split}
 $$
 
-where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the [marginal entropies](/D/ent-marg) of $X$ and $Y$ and $\mathrm{H}(X \mid Y)$ and $\mathrm{H}(Y \mid X)$ are the [conditional entropies](/D/ent-cond).
+where $\mathrm{H}(X)$ and $\mathrm{H}(Y)$ are the [marginal entropies](/D/ent) of $X$ and $Y$ and $\mathrm{H}(X \vert Y)$ and $\mathrm{H}(Y \vert X)$ are the [conditional entropies](/D/ent-cond).
 
 
 **Proof:** The [mutual information](/D/mi) of $X$ and $Y$ is defined as
@@ -51,7 +51,7 @@ $$ \label{eq:MI-s1}
 \mathrm{I}(X,Y) = \sum_x \sum_y p(x,y) \log \frac{p(x,y)}{p(y)} - \sum_x \sum_y p(x,y) \log p(x) \; .
 $$
 
-Applying the [law of conditional probability](/P/lcp), i.e. $p(x,y) = p(x \mid y) \, p(y)$, we get:
+Applying the [law of conditional probability](/D/prob-cond), i.e. $p(x,y) = p(x \vert y) \, p(y)$, we get:
 
 $$ \label{eq:MI-s2}
 \mathrm{I}(X,Y) = \sum_x \sum_y p(x|y) \, p(y) \log p(x|y) - \sum_x \sum_y p(x,y) \log p(x) \; .
@@ -63,13 +63,13 @@ $$ \label{eq:MI-s3}
 \mathrm{I}(X,Y) = \sum_y p(y) \sum_x p(x|y) \log p(x|y) - \sum_x \left( \sum_y p(x,y) \right) \log p(x) \; .
 $$
 
-Applying the [law of marginal probability](/P/lmp), i.e. $p(x) = \sum_y p(x,y)$, we get:
+Applying the [law of marginal probability](/D/prob-marg), i.e. $p(x) = \sum_y p(x,y)$, we get:
 
 $$ \label{eq:MI-s4}
 \mathrm{I}(X,Y) = \sum_y p(y) \sum_x p(x|y) \log p(x|y) - \sum_x p(x) \log p(x) \; .
 $$
 
-Now considering the definitions of [marginal](/D/ent-marg) and [conditional](/D/ent-cond) entropy
+Now considering the definitions of [marginal](/D/ent) and [conditional](/D/ent-cond) entropy
 
 $$ \label{eq:ME-CE}
 \begin{split}

@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $p(y \mid \theta,m)$ be a [likelihood function](/D/lf) of a [generative model](/D/gm) $m$ for making inferences on model parameters $\theta$ given measured data $y$. Moreover, let $p(\theta \mid m)$ be a [prior distribution](/D/prior) on model parameters $\theta$. Then, the [log model evidence](/D/lme) (LME), also called marginal log-likelihood,
+**Theorem:** Let $p(y \vert \theta,m)$ be a [likelihood function](/D/lf) of a [generative model](/D/gm) $m$ for making inferences on model parameters $\theta$ given measured data $y$. Moreover, let $p(\theta \vert m)$ be a [prior distribution](/D/prior) on model parameters $\theta$. Then, the [log model evidence](/D/lme) (LME), also called marginal log-likelihood,
 
 $$ \label{eq:LME-term}
 \mathrm{LME}(m) = \log p(y|m) \; ,
@@ -44,7 +44,7 @@ $$
 
 **Proof:**
 
-1) The first expression is a simple consequence of the [law of marginal probability](/P/lmp) for continuous variables according to which
+1) The first expression is a simple consequence of the [law of marginal probability](/D/prob-marg) for continuous variables according to which
 
 $$ \label{eq:ME}
 p(y|m) = \int p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta
@@ -62,7 +62,7 @@ $$ \label{eq:BT}
 p(\theta|y,m) = \frac{p(y|\theta,m) \, p(\theta|m)}{p(y|m)} \; .
 $$
 
-Rearranging for $p(y \mid m)$ and logarithmizing, we have:
+Rearranging for $p(y \vert m)$ and logarithmizing, we have:
 
 $$ \label{eq:LME-bayes-qed}
 \begin{split}
