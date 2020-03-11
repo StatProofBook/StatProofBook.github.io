@@ -161,8 +161,10 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    1.1. Multiple linear regression <br>
    &emsp;&ensp; 1.1.1. **[Ordinary least squares (1)](/P/mlr-ols)** <br>
    &emsp;&ensp; 1.1.2. **[Ordinary least squares (2)](/P/mlr-ols2)** <br>
-   &emsp;&ensp; 1.1.3. **[Partition of sums of squares](/P/mlr-pss)** <br>
+   &emsp;&ensp; 1.1.3. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
    &emsp;&ensp; 1.1.4. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
+   &emsp;&ensp; 1.1.5. **[Weighted least squares](/P/mlr-wls)** <br>
+   &emsp;&ensp; 1.1.6. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
    
    1.2. Bayesian linear regression <br>
    &emsp;&ensp; 1.2.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
@@ -196,6 +198,11 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 4.1.1. **[Conjugate prior distribution](/P/bin-prior)** <br>
    &emsp;&ensp; 4.1.2. **[Posterior distribution](/P/bin-post)** <br>
    &emsp;&ensp; 4.1.3. **[Log model evidence](/P/bin-lme)** <br>
+   
+   4.2. Multinomial observations <br>
+   &emsp;&ensp; 4.2.1. **[Conjugate prior distribution](/P/mult-prior)** <br>
+   &emsp;&ensp; 4.2.2. **[Posterior distribution](/P/mult-post)** <br>
+   &emsp;&ensp; 4.2.3. **[Log model evidence](/P/mult-lme)** <br>
 
 
 <section class="chapter" id="Model Selection">
