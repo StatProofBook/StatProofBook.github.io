@@ -106,6 +106,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.1.2. **[Probability density function](/P/cuni-pdf)** <br>
    &emsp;&ensp; 3.1.3. **[Cumulative distribution function](/P/cuni-cdf)** <br>
    &emsp;&ensp; 3.1.4. **[Quantile function](/P/cuni-qf)** <br>
+   &emsp;&ensp; 3.1.5. **[Mean](/P/cuni-mean)** <br>
+   &emsp;&ensp; 3.1.6. **[Median](/P/cuni-med)** <br>
+   &emsp;&ensp; 3.1.7. **[Mode](/P/cuni-mode)** <br>
 
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
