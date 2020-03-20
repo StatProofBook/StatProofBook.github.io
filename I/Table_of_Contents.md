@@ -113,11 +113,14 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
    &emsp;&ensp; 3.2.2. **[Probability density function](/P/norm-pdf)** <br>
-   &emsp;&ensp; 3.2.3. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.4. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.5. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.6. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.7. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.3. **[Cumulative distribution function](/P/norm-cdf)** <br>
+   &emsp;&ensp; 3.2.4. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
+   &emsp;&ensp; 3.2.5. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.6. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.7. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.8. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.9. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.10. **[Moment-generating function](/P/norm-mgf)** <br>
 
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
@@ -140,6 +143,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 4.1.2. **[Probability density function](/P/mvn-pdf)** <br>
    &emsp;&ensp; 4.1.3. **[Linear transformation theorem](/P/mvn-ltt)** <br>
    &emsp;&ensp; 4.1.4. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.5. **[Conditional distributions](/P/mvn-cond)** <br>
    
    4.2. Normal-gamma distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/ng)* <br>
