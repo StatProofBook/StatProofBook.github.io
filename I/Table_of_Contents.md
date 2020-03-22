@@ -65,6 +65,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    4.2. Differential entropy <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/dent)* <br>
    &emsp;&ensp; 4.2.2. **[Negativity](/P/dent-neg)** <br>
+   &emsp;&ensp; 4.2.3. *[Conditional differential entropy](/D/dent-cond)* <br>
+   &emsp;&ensp; 4.2.4. *[Joint differential entropy](/D/dent-joint)* <br>
 
    4.3. Discrete mutual information <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/mi)* <br>
@@ -166,12 +168,16 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 1. Normal data
 
    1.1. Multiple linear regression <br>
-   &emsp;&ensp; 1.1.1. **[Ordinary least squares (1)](/P/mlr-ols)** <br>
-   &emsp;&ensp; 1.1.2. **[Ordinary least squares (2)](/P/mlr-ols2)** <br>
-   &emsp;&ensp; 1.1.3. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
-   &emsp;&ensp; 1.1.4. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
-   &emsp;&ensp; 1.1.5. **[Weighted least squares](/P/mlr-wls)** <br>
-   &emsp;&ensp; 1.1.6. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   &emsp;&ensp; 1.1.1. *[Definition](/D/mlr)* <br>
+   &emsp;&ensp; 1.1.2. **[Ordinary least squares (1)](/P/mlr-ols)** <br>
+   &emsp;&ensp; 1.1.3. **[Ordinary least squares (2)](/P/mlr-ols2)** <br>
+   &emsp;&ensp; 1.1.4. *[Total sum of squares](/D/tss)* <br>
+   &emsp;&ensp; 1.1.5. *[Explained sum of squares](/D/ess)* <br>
+   &emsp;&ensp; 1.1.6. *[Residual sum of squares](/D/rss)* <br>
+   &emsp;&ensp; 1.1.7. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
+   &emsp;&ensp; 1.1.8. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
+   &emsp;&ensp; 1.1.9. **[Weighted least squares](/P/mlr-wls)** <br>
+   &emsp;&ensp; 1.1.10. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
    
    1.2. Bayesian linear regression <br>
    &emsp;&ensp; 1.2.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
@@ -179,7 +185,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.2.3. **[Log model evidence](/P/blr-lme)** <br>
    
    1.3. General linear model <br>
-   &emsp;&ensp; 1.3.1. **[Maximum likelihood estimation](/P/glm-mle)** <br>
+   &emsp;&ensp; 1.3.1. *[Definition](/D/glm)* <br>
+   &emsp;&ensp; 1.3.2. **[Maximum likelihood estimation](/P/glm-mle)** <br>
 
 2. Poisson data
 
