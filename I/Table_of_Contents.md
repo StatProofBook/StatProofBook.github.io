@@ -88,18 +88,22 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 1. Univariate discrete distributions
 
    1.1. Bernoulli distribution <br>
-   &emsp;&ensp; 1.1.1. **[Mean](/P/bern-mean)** <br>
+   &emsp;&ensp; 1.1.1. *[Definition](/D/bern)* <br>
+   &emsp;&ensp; 1.1.2. **[Mean](/P/bern-mean)** <br>
 
    1.2. Binomial distribution <br>
-   &emsp;&ensp; 1.2.1. **[Mean](/P/bin-mean)** <br>
+   &emsp;&ensp; 1.2.1. *[Definition](/D/bin)* <br>
+   &emsp;&ensp; 1.2.2. **[Mean](/P/bin-mean)** <br>
 
 2. Multivariate discrete distributions
 
    2.1. Categorical distribution <br>
-   &emsp;&ensp; 2.1.1. **[Mean](/P/cat-mean)** <br>
+   &emsp;&ensp; 2.1.1. *[Definition](/D/cat)* <br>
+   &emsp;&ensp; 2.1.2. **[Mean](/P/cat-mean)** <br>
 
    2.2. Multinomial distribution <br>
-   &emsp;&ensp; 2.2.1. **[Mean](/P/mult-mean)** <br>
+   &emsp;&ensp; 2.2.1. *[Definition](/D/mult)* <br>
+   &emsp;&ensp; 2.2.2. **[Mean](/P/mult-mean)** <br>
 
 3. Univariate continuous distributions
 
@@ -159,6 +163,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 5.1.1. *[Definition](/D/matn)* <br>
    &emsp;&ensp; 5.1.2. **[Probability density function](/P/matn-pdf)** <br>
    &emsp;&ensp; 5.1.3. **[Equivalence to multivariate normal distribution](/P/matn-mvn)** <br>
+   
+   5.2. Wishart distribution <br>
+   &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
 
 
 <section class="chapter" id="Statistical Models">
@@ -191,12 +198,14 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 2. Poisson data
 
    2.1. Poisson-distributed data <br>
-   &emsp;&ensp; 2.1.1. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
+   &emsp;&ensp; 2.1.1. *[Definition](/D/poiss-data)* <br>
+   &emsp;&ensp; 2.1.2. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
    
    2.2. Poisson distribution with exposure values <br>
-   &emsp;&ensp; 2.2.1. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
-   &emsp;&ensp; 2.2.2. **[Posterior distribution](/P/poissexp-post)** <br>
-   &emsp;&ensp; 2.2.3. **[Log model evidence](/P/poissexp-lme)** <br>
+   &emsp;&ensp; 2.2.1. *[Definition](/D/poissexp)* <br>
+   &emsp;&ensp; 2.2.2. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
+   &emsp;&ensp; 2.2.3. **[Posterior distribution](/P/poissexp-post)** <br>
+   &emsp;&ensp; 2.2.4. **[Log model evidence](/P/poissexp-lme)** <br>
    
 3. Probability data
 
