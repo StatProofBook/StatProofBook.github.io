@@ -16,13 +16,16 @@ title: "Proof by Topic"
 
 ### C
 
+- [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
 - [Conjugate prior distribution for binomial observations](/P/bin-prior)
+- [Conjugate prior distribution for multinomial observations](/P/mult-prior)
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
+- [Cumulative distribution function of the normal distribution](/P/norm-cdf)
 
 ### D
 
@@ -35,6 +38,7 @@ title: "Proof by Topic"
 
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
+- [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 
 ### K
 
@@ -48,6 +52,7 @@ title: "Proof by Topic"
 - [Log family evidences in terms of log model evidences](/P/lfe-lme)
 - [Log model evidence for Bayesian linear regression](/P/blr-lme)
 - [Log model evidence for binomial observations](/P/bin-lme)
+- [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 
@@ -56,17 +61,21 @@ title: "Proof by Topic"
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
+- [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the binomial distribution](/P/bin-mean)
 - [Mean of the categorical distribution](/P/cat-mean)
+- [Mean of the continuous uniform distribution](/P/cuni-mean)
 - [Mean of the exponential distribution](/P/exp-mean)
 - [Mean of the multinomial distribution](/P/mult-mean)
 - [Mean of the normal distribution](/P/norm-mean)
+- [Median of the continuous uniform distribution](/P/cuni-med)
 - [Median of the exponential distribution](/P/exp-med)
 - [Median of the normal distribution](/P/norm-med)
 - [Method of moments for beta-distributed data](/P/beta-mom)
+- [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
@@ -84,10 +93,12 @@ title: "Proof by Topic"
 
 ### P
 
+- [Partition of sums of squares in ordinary least squares](/P/mlr-pss)
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post)
 - [Posterior distribution for binomial observations](/P/bin-post)
+- [Posterior distribution for multinomial observations](/P/mult-post)
 - [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post)
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
@@ -105,6 +116,7 @@ title: "Proof by Topic"
 
 - [Quantile function of the continuous uniform distribution](/P/cuni-qf)
 - [Quantile function of the exponential distribution](/P/exp-qf)
+- [Quantile function of the normal distribution](/P/norm-qf)
 
 ### R
 
@@ -117,6 +129,14 @@ title: "Proof by Topic"
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 
+### T
+
+- [Transformation matrices for ordinary least squares](/P/mlr-mat)
+
 ### V
 
 - [Variance of the normal distribution](/P/norm-var)
+
+### W
+
+- [Weighted least squares for multiple linear regression](/P/mlr-wls)

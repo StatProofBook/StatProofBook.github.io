@@ -40,3 +40,17 @@ title: "Definition by Number"
 | D31 | jl | [Joint likelihood](/D/jl) | JoramSoch | 2020-03-03 |
 | D32 | post | [Posterior distribution](/D/post) | JoramSoch | 2020-03-03 |
 | D33 | ml | [Marginal likelihood](/D/ml) | JoramSoch | 2020-03-03 |
+| D34 | dent-cond | [Conditional differential entropy](/D/dent-cond) | JoramSoch | 2020-03-21 |
+| D35 | dent-joint | [Joint differential entropy](/D/dent-joint) | JoramSoch | 2020-03-21 |
+| D36 | mlr | [Multiple linear regression](/D/mlr) | JoramSoch | 2020-03-21 |
+| D37 | tss | [Total sum of squares](/D/tss) | JoramSoch | 2020-03-21 |
+| D38 | ess | [Explained sum of squares](/D/ess) | JoramSoch | 2020-03-21 |
+| D39 | rss | [Residual sum of squares](/D/rss) | JoramSoch | 2020-03-21 |
+| D40 | glm | [General linear model](/D/glm) | JoramSoch | 2020-03-21 |
+| D41 | poiss-data | [Poisson-distributed data](/D/poiss-data) | JoramSoch | 2020-03-22 |
+| D42 | poissexp | [Poisson distribution with exposure values](/D/poissexp) | JoramSoch | 2020-03-22 |
+| D43 | wish | [Wishart distribution](/D/wish) | JoramSoch | 2020-03-22 |
+| D44 | bern | [Bernoulli distribution](/D/bern) | JoramSoch | 2020-03-22 |
+| D45 | bin | [Binomial distribution](/D/bin) | JoramSoch | 2020-03-22 |
+| D46 | cat | [Categorical distribution](/D/cat) | JoramSoch | 2020-03-22 |
+| D47 | mult | [Multinomial distribution](/D/mult) | JoramSoch | 2020-03-22 |

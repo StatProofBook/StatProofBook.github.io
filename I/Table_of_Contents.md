@@ -8,8 +8,9 @@ title: "Table of Contents"
 Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€“ Definitions by *[Number](/I/Definition_by_Number)* and *[Topic](/I/Definition_by_Topic)* <br>
 
 
+<br>
 <section class="chapter" id="General Theorems">
-<h3>General Theorems</h3>
+<h3>Chapter I: General Theorems</h3>
 </section>
 
 1. Probability theory
@@ -81,8 +82,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 4.4.4. **[Relation to joint and conditional differential entropy](/P/cmi-jcde)** <br>
 
 
+<br>
 <section class="chapter" id="Probability Distributions">
-<h3>Probability Distributions</h3>
+<h3>Chapter II: Probability Distributions</h3>
 </section>
 
 1. Univariate discrete distributions
@@ -168,8 +170,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
 
 
+<br>
 <section class="chapter" id="Statistical Models">
-<h3>Statistical Models</h3>
+<h3>Chapter III: Statistical Models</h3>
 </section>
 
 1. Normal data
@@ -228,8 +231,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 4.2.3. **[Log model evidence](/P/mult-lme)** <br>
 
 
+<br>
 <section class="chapter" id="Model Selection">
-<h3>Model Selection</h3>
+<h3>Chapter IV: Model Selection</h3>
 </section>
 
 1. Goodness-of-fit measures
