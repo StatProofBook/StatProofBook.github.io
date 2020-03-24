@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-03-09 21:18:00
 
-title: "Estimation, projection and residual-forming matrix for ordinary least squares"
+title: "Transformation matrices for ordinary least squares"
 chapter: "Statistical Models"
 section: "Normal data"
 topic: "Multiple linear regression"
@@ -18,6 +18,7 @@ sources:
     year: 2010
     title: "The General Linear Model (GLM)"
     in: "Methods and models for fMRI data analysis in neuroeconomics"
+    pages: "Lecture 3, Slide 10"
     url: "http://www.socialbehavior.uzh.ch/teaching/methodsspring10.html"
 
 proof_id: "P75"

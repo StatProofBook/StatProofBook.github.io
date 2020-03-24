@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a series of observed counts which are independently distributed according to a [Poisson distribution](/D/poiss) with common rate $\lambda$ and concurrent exposures $\left\lbrace x_1, \ldots, x_n \right\rbrace$:
+**Theorem:** Consider data $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ following a [Poisson distribution with exposure values](/D/poissexp):
 
 $$ \label{eq:Poiss-exp}
 y_i \sim \mathrm{Poiss}(\lambda x_i), \quad i = 1, \ldots, n \; .

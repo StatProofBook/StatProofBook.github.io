@@ -71,6 +71,7 @@ $$
 
 where $x_1$ is an $n_1 \times 1$ vector, $x_2$ is an $n_2 \times 1$ vector and $x$ is an $n_1 + n_2 = n \times 1$ vector.
 
+<br>
 By construction, the [joint distribution](/D/jd) of $x_1$ and $x_2$ is:
 
 $$ \label{eq:mvn-joint}
@@ -130,7 +131,7 @@ p(x_1|x_2) = &\frac{1}{\sqrt{(2 \pi)^{n-n_2}}} \cdot \sqrt{\frac{|\Sigma_{22}|}{
 \end{split}
 $$
 
-where we have used the fact that $\Sigma_{12}^\mathrm{T} = \Sigma_{21}$, because $\Sigma$ is a symmetric covariance matrix.
+where we have used the fact that ${\Sigma^{21}}^\mathrm{T} = \Sigma^{12}$, because $\Sigma^{-1}$ is a symmetric matrix.
 
 <br>
 The inverse of a block matrix is
@@ -179,7 +180,7 @@ p(x_1|x_2) = &\frac{1}{\sqrt{(2 \pi)^{n-n_2}}} \cdot \sqrt{\frac{|\Sigma_{22}|}{
 \end{split}
 $$
 
-where we have again applied $\Sigma_{12}^\mathrm{T} = \Sigma_{21}$.
+where we have used the fact that $\Sigma_{21}^\mathrm{T} = \Sigma_{12}$, because $\Sigma$ is a covariance matrix.
 
 <br>
 The determinant of a block matrix is
@@ -209,4 +210,4 @@ $$ \label{eq:mvn-cond-s10}
 p(x_1|x_2) = \mathcal{N}(x_1; \mu_{1|2}, \Sigma_{1|2})
 $$
 
-with the mean $\mu_{1|2}$ and variance $\Sigma_{1|2}$ given by \eqref{eq:mvn-cond-hyp}.
+with the mean $\mu_{1 \vert 2}$ and variance $\Sigma_{1 \vert 2}$ given by \eqref{eq:mvn-cond-hyp}.

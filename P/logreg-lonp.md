@@ -38,13 +38,13 @@ where $x_i$ are the predictors corresponding to the $i$-th observation $y_i$ and
 Then, the probability that $y_i = 1$ is given by
 
 $$ \label{eq:prob}
-Pr(y_i = 1) = \frac{1}{1 + b^{-(x_i \beta + \varepsilon_i)}}
+\mathrm{Pr}(y_i = 1) = \frac{1}{1 + b^{-(x_i \beta + \varepsilon_i)}}
 $$
 
 where $b$ is the base used to form the log-odds $l_i$.
 
 
-**Proof:** Let us denote $Pr(y_i = 1)$ as $p_i$. Then, the log-odds are
+**Proof:** Let us denote $\mathrm{Pr}(y_i = 1)$ as $p_i$. Then, the log-odds are
 
 $$ \label{eq:lodds}
 l_i = \log_b \frac{p_i}{1-p_i}

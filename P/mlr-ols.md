@@ -18,6 +18,7 @@ sources:
     year: 2010
     title: "The General Linear Model (GLM)"
     in: "Methods and models for fMRI data analysis in neuroeconomics"
+    pages: "Lecture 3, Slides 10 & 11"
     url: "http://www.socialbehavior.uzh.ch/teaching/methodsspring10.html"
 
 proof_id: "P2"
