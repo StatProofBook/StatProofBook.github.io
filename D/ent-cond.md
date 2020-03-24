@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Definition:** Let $X$ and $Y$ be discrete [random variables](/D/rvar) with possible outcomes $\mathcal{X}$ and $\mathcal{Y}$ and [probability mass functions](/D/pmf) $p(x)$ and $p(y)$. Then, the conditional entropy of $Y$ given $X$ or, entropy of $Y$ conditioned on $X$, is defined as
 
 $$ \label{eq:ent-cond}
-\mathrm{H}(X) = \sum_{x \in \mathcal{X}} p(x) \cdot \mathrm{H}(Y|X=x)
+\mathrm{H}(Y|X) = \sum_{x \in \mathcal{X}} p(x) \cdot \mathrm{H}(Y|X=x)
 $$
 
 where $\mathrm{H}(Y \vert X=x)$ is the [(marginal) entropy](/D/ent) of $Y$, evaluated at $x$.

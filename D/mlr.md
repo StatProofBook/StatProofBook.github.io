@@ -78,3 +78,5 @@ When the covariance structure $V$ is equal to the $n \times n$ identity matrix, 
 $$ \label{eq:mlr-noise-iid}
 V = I_n \quad \Rightarrow \quad \varepsilon \sim \mathcal{N}(0, \sigma^2 I_n) \quad \Rightarrow \quad \varepsilon_i \overset{\text{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; .
 $$
+
+Otherwise, it is called multiple linear regression with correlated observations.
