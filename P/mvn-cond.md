@@ -38,7 +38,7 @@ $$ \label{eq:mvn}
 x \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Then, the [conditional distribution](/D/cd) of any subset vector $x_1$, given the complement vector $x_2$, is also a multivariate normal distribution
+Then, the [conditional distribution](/D/dist-cond) of any subset vector $x_1$, given the complement vector $x_2$, is also a multivariate normal distribution
 
 $$ \label{eq:mvn-cond}
 x_1|x_2 \sim \mathcal{N}(\mu_{1|2}, \Sigma_{1|2})
@@ -72,13 +72,13 @@ $$
 where $x_1$ is an $n_1 \times 1$ vector, $x_2$ is an $n_2 \times 1$ vector and $x$ is an $n_1 + n_2 = n \times 1$ vector.
 
 <br>
-By construction, the [joint distribution](/D/jd) of $x_1$ and $x_2$ is:
+By construction, the [joint distribution](/D/dist-joint) of $x_1$ and $x_2$ is:
 
 $$ \label{eq:mvn-joint}
 x_1,x_2 \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Moreover, the [marginal distribution](/D/md) of $x_2$ [follows from](/P/mvn-marg) \eqref{eq:mvn} and \eqref{eq:mvn-joint-hyp} as
+Moreover, the [marginal distribution](/D/dist-marg) of $x_2$ [follows from](/P/mvn-marg) \eqref{eq:mvn} and \eqref{eq:mvn-joint-hyp} as
 
 $$ \label{eq:mvn-marg}
 x_2 \sim \mathcal{N}(\mu_2, \Sigma_{22}) \; .

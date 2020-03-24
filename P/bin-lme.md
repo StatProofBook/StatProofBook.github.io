@@ -48,7 +48,7 @@ $$ \label{eq:Bin-LME}
 \end{split}
 $$
 
-where the [posterior hyperparameters](/D/post-hyp) are given by
+where the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:Bin-post-par}
 \begin{split}

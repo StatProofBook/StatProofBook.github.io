@@ -48,7 +48,7 @@ $$ \label{eq:GLM-NG-LME}
 \end{split}
 $$
 
-where the [posterior hyperparameters](/D/post-hyp) are given by
+where the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:GLM-NG-post-par}
 \begin{split}

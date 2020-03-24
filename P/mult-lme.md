@@ -43,7 +43,7 @@ $$ \label{eq:Mult-LME}
 \end{split}
 $$
 
-and the [posterior hyperparameters](/D/post-hyp) are given by
+and the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:Mult-post-par}
 \alpha_{nj} = \alpha_{0j} + y_j, \; j = 1,\ldots,k \; .

@@ -27,7 +27,7 @@ $$ \label{eq:mvn}
 x \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Then, the [marginal distribution](/D/md) of any subset vector $x_s$ is also a multivariate normal distribution
+Then, the [marginal distribution](/D/dist-marg) of any subset vector $x_s$ is also a multivariate normal distribution
 
 $$ \label{eq:mvn-marg}
 x_s \sim \mathcal{N}(\mu_s, \Sigma_s)

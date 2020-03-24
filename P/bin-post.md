@@ -45,7 +45,7 @@ $$ \label{eq:Bin-post}
 \mathrm{p}(p|y) = \mathrm{Bet}(p; \alpha_n, \beta_n) \; .
 $$
 
-and the [posterior hyperparameters](/D/post-hyp) are given by
+and the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:Bin-post-par}
 \begin{split}

@@ -45,7 +45,7 @@ $$ \label{eq:GLM-NG-post}
 p(\beta,\tau|y) = \mathcal{N}(\beta; \mu_n, (\tau \Lambda_n)^{-1}) \cdot \mathrm{Gam}(\tau; a_n, b_n)
 $$
 
-and the [posterior hyperparameters](/D/post-hyp) are given by
+and the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:GLM-NG-post-par}
 \begin{split}
@@ -123,7 +123,7 @@ p(y,\beta,\tau) = \; & \sqrt{\frac{\tau^{n+p}}{(2 \pi)^{n+p}} |P| |\Lambda_0|} \
 \end{split}
 $$
 
-with the [posterior hyperparameters](/D/post-hyp)
+with the [posterior hyperparameters](/D/post)
 
 $$ \label{eq:GLM-NG-post-beta-par}
 \begin{split}
@@ -138,7 +138,7 @@ $$ \label{eq:GLM-NG-JL-s5}
 p(y,\beta,\tau) \propto \tau^{p/2} \cdot \exp\left[ -\frac{\tau}{2} (\beta-\mu_n)^\mathrm{T} \Lambda_n (\beta-\mu_n) \right] \cdot \tau^{a_n-1} \cdot \exp\left[ -b_n \tau \right]
 $$
 
-with the [posterior hyperparameters](/D/post-hyp)
+with the [posterior hyperparameters](/D/post)
 
 $$ \label{eq:GLM-NG-post-tau-par}
 \begin{split}

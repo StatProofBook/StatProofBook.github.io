@@ -42,7 +42,7 @@ $$ \label{eq:Poiss-exp-LME}
 \end{split}
 $$
 
-where the [posterior hyperparameters](/D/post-hyp) are given by
+where the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:Poiss-exp-post-par}
 \begin{split}

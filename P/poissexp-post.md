@@ -45,7 +45,7 @@ $$ \label{eq:Poiss-exp-post}
 p(\lambda|y) = \mathrm{Gam}(\lambda; a_n, b_n)
 $$
 
-and the [posterior hyperparameters](/D/post-hyp) are given by
+and the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:Poiss-exp-post-par}
 \begin{split}
