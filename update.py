@@ -48,6 +48,7 @@ for file in files:
         
         # Parse YAML header
         #---------------------------------------------------------------------#
+        source = False
         for line in file_txt:
             if line.find('proof_id:') == 0:
                 proof_id = re.sub('"', '', line[10:-1])
@@ -66,11 +67,13 @@ for file in files:
                         username = author
             if line.find('date:') == 0:
                 date = datetime.strptime(line[6:-1], '%Y-%m-%d %H:%M:%S')
+            if line.find('  - authors:') == 0:
+                source = True
         
         # Write dictionary entry
         #---------------------------------------------------------------------#
         proofs[proof_id] = {'proof_id': proof_id, 'shortcut': shortcut, 'title': title, \
-                            'username': username, 'date': date}
+                            'username': username, 'date': date, 'source': source}
         pr_ids.append(proof_id)
         pr_nos.append(int(proof_id[1:]))
         pr_titles.append(title)
@@ -98,6 +101,7 @@ for file in files:
         
         # Parse YAML header
         #---------------------------------------------------------------------#
+        source = False
         for line in file_txt:
             if line.find('def_id:') == 0:
                 def_id = re.sub('"', '', line[8:-1])
@@ -116,11 +120,13 @@ for file in files:
                         username = author
             if line.find('date:') == 0:
                 date = datetime.strptime(line[6:-1], '%Y-%m-%d %H:%M:%S')
+            if line.find('  - authors:') == 0:
+                source = True
         
         # Write dictionary entry
         #---------------------------------------------------------------------#
         definitions[def_id] = {'def_id': def_id, 'shortcut': shortcut, 'title': title, \
-                               'username': username, 'date': date}
+                               'username': username, 'date': date, 'source': source}
         def_ids.append(def_id)
         def_nos.append(int(def_id[1:]))
         def_titles.append(title)
@@ -140,7 +146,7 @@ ind1 = open('I/Table_of_Contents.md', 'r')
 tocs = ind1.readlines()
 ind1.close()
 
-# Table of Contets: check for proof Shortcuts
+# Table of Contents: check for proof Shortcuts
 #-----------------------------------------------------------------------------#
 incl = np.zeros(len(proofs), dtype=bool)
 for (i, proof) in enumerate(proofs):
@@ -152,7 +158,7 @@ for (i, proof) in enumerate(proofs):
 if all(incl):
     print('   - ' + str(sum(incl)) + ' proofs found in table of contents!')
 
-# Table of Contets: check for definition Shortcuts
+# Table of Contents: check for definition Shortcuts
 #-----------------------------------------------------------------------------#
 incl = np.zeros(len(definitions), dtype=bool)
 for (i, definition) in enumerate(definitions):
@@ -300,4 +306,42 @@ for user in unique_users:
         title    = user_definitions[sort_ind[i]]['title']
         ind4a.write('- [' + title + '](/D/' + shortcut + ')\n')
 ind4a.close()
+print('   - successfully written to disk!')
+
+
+# Proofs without Source: prepare index file
+#-----------------------------------------------------------------------------#
+print('\n5a."Proofs_without_Source.md":')
+ind5a = open('I/Proofs_without_Source.md', 'w')
+ind5a.write('---\nlayout: page\ntitle: "Proofs without Source"\n---\n\n\n')
+
+# Proofs without Source: sort by Title
+#-----------------------------------------------------------------------------#
+sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(pr_titles)])]
+for i in range(0,len(pr_titles)):
+    shortcut = proofs[pr_ids[sort_ind[i]]]['shortcut']
+    title    = proofs[pr_ids[sort_ind[i]]]['title']
+    source   = proofs[pr_ids[sort_ind[i]]]['source']
+    if not source:
+        ind5a.write('- [' + title + '](/P/' + shortcut + ')\n')
+ind5a.close()
+print('   - successfully written to disk!')
+
+
+# Definitions without Source: prepare index file
+#-----------------------------------------------------------------------------#
+print('\n5b."Definitions_without_Source.md":')
+ind5b = open('I/Definitions_without_Source.md', 'w')
+ind5b.write('---\nlayout: page\ntitle: "Definitions without Source"\n---\n\n\n')
+
+# Definitions without Source: sort by Title
+#-----------------------------------------------------------------------------#
+sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(def_titles)])]
+for i in range(0,len(def_titles)):
+    shortcut = definitions[def_ids[sort_ind[i]]]['shortcut']
+    title    = definitions[def_ids[sort_ind[i]]]['title']
+    source   = definitions[def_ids[sort_ind[i]]]['source']
+    if not source:
+        ind5b.write('- [' + title + '](/D/' + shortcut + ')\n')
+ind5b.close()
 print('   - successfully written to disk!')
