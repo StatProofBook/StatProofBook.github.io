@@ -10,7 +10,7 @@ permalink: /credits/
 
 If you have [submitted a proof via GitHub](/contribute/) and entered your username [into the metadata](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Metadata-Fields), this proof's page will automatically link to your GitHub profile. Here's [an example](/P/mvn-ltt):
 
-> **Metadata:** ID: P1 \| shortcut: mvn-ltt \| author: [JoramSoch](https://github.com/JoramSoch) \| date: 2019-08-27.
+> **Metadata:** ID: P1 \| shortcut: mvn-ltt \| author: [JoramSoch](https://github.com/JoramSoch) \| date: 2019-08-27, 12:14.
 
 Your username will also appear on the [Proof by Number](/I/Proof_by_Number) and [Proof by Author](/I/Proof_by_Author) index pages.
 
@@ -19,6 +19,6 @@ Your username will also appear on the [Proof by Number](/I/Proof_by_Number) and 
 
 By submitting to the archive, you can also earn money, as stated in the [project application](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/The_Book_of_Statistical_Proofs#Mittelverwendung):
 
-> To facilitate and incentivize the unpaid work going into this open science resource, for the first 200 proofs submitted to **The Book of Statistical Proofs**, each submitter will receive 25 € per proof.
+> To facilitate and incentivize the unpaid work going into this open science resource, for the first ~~200~~ 100 proofs submitted to **The Book of Statistical Proofs**, each submitter will receive ~~25~~ 50 € per proof.
 
 If you have submitted a proof eligible for the money, please contact [StatProofBook@gmail.com](mailto:StatProofBook@gmail.com) to claim your reward. Money can be received either via SEPA transfer (in Europe) or via PayPal (worldwide).
