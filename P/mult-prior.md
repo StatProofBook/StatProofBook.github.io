@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-11-03 14:15:00
+date: 2020-03-11 14:15:00
 
 title: "Conjugate prior distribution for multinomial observations"
 chapter: "Statistical Models"

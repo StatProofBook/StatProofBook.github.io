@@ -3,8 +3,8 @@ layout: definition
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "The Book of Statistical Proofs"
+e_mail: "StatProofBook@gmail.com"
 date: 2020-01-22 07:50:00
 
 title: "Definition Template"
