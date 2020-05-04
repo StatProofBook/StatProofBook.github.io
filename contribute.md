@@ -7,7 +7,7 @@ permalink: /contribute/
 
 Everyone can contribute to **The Book of Statistical Proofs**! Depending on your mathematical knowledge, your computer science skills and the time you are willing to invest, there are three different levels of contributing to the project, with contribution intensity increasing from first to last level.
 
-*Quick Access:* [GitHub Repository](https://github.com/StatProofBook/StatProofBook.github.io) – [Repository Wiki](https://github.com/StatProofBook/StatProofBook.github.io/wiki) – [Proof Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/P/-temp-.md) – [Definition Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/D/-temp-.md) – [Template Guidelines](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-Files) – [Table of Contents](/I/Table_of_Contents) – [Wanted Theorems](https://docs.google.com/spreadsheets/d/1MIqVvAgcQL72HCPZ9KDaCZXZRVxBhkrEiLX1Dr7p4Kg/edit?usp=sharing) – [Proofs without Source](/I/Proofs_without_Source) – [Definitions without Source](/I/Definitions_without_Source)
+*Quick Access:* [GitHub Repository](https://github.com/StatProofBook/StatProofBook.github.io) – [Repository Wiki](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Main-Page) – [Proof Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/P/-temp-.md) – [Definition Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/D/-temp-.md) – [Template Guidelines](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-Files) – [Table of Contents](/I/Table_of_Contents) – [Wanted Theorems](https://docs.google.com/spreadsheets/d/1MIqVvAgcQL72HCPZ9KDaCZXZRVxBhkrEiLX1Dr7p4Kg/edit?usp=sharing) – [Proofs without Source](/I/Proofs_without_Source) – [Definitions without Source](/I/Definitions_without_Source)
 
 
 <br>
@@ -24,7 +24,7 @@ Everyone can contribute to **The Book of Statistical Proofs**! Depending on your
 *Required: LaTeX processing software and a Google Drive account*
 
 1. Pick a proof or definition of your choice and write it down as a [LaTeX document](https://en.wikipedia.org/wiki/LaTeX).
-2. Optionally, embed your submission into the [Markdown templates](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-Files) for "The Book of Statistical Proofs".
+2. Optionally, embed your submission into the [Markdown templates](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-Files) for [proof](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/P/-temp-.md) or [definition](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/D/-temp-.md).
 3. Submit your LaTeX or Markdown file via the [online submission form](https://docs.google.com/forms/d/e/1FAIpQLSdxak_oUsAMws6Xjs7wGNNPdxLwO8Qez0IdZRvLoTuiycibpg/viewform?usp=sf_link).
 
 <br>
@@ -34,7 +34,7 @@ Everyone can contribute to **The Book of Statistical Proofs**! Depending on your
 
 1. Login to GitHub and fork the [repository](https://github.com/StatProofBook/StatProofBook.github.io) belonging to this website.
 2. In the subfolder `P` (or `D`), duplicate the file `-temp-.md` and rename it to `[shortcut].md` where `[shortcut]` is [an abbreviation of your proof (or definition)](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Naming-Conventions).
-3. Now [rewrite this template](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-Files) to become a proof (or definition) and [fill in the metadata](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Metadata-Fields) in the header of that document (enclosed by "– – –").
+3. Now [rewrite this template](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-Files) to become a proof (or definition) of your theorem and [fill in the metadata](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Metadata-Fields) in the header of that document (enclosed by "– – –").
 4. Commit your changes and launch a pull request, e.g. using the subject `added "[shortcut]"`.
 
 * Optionally, you can also [update the index pages](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Updating-the-Index-Pages) before committing your changes.
