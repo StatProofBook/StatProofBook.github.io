@@ -34,7 +34,7 @@ $$ \label{eq:bayes-rule}
 $$
 
 
-**Proof:** Using [Bayes' theorem](/P/bayes-th), the [conditional probabilities](/D/cp) on the left are given by
+**Proof:** Using [Bayes' theorem](/P/bayes-th), the [conditional probabilities](/D/prob-cond) on the left are given by
 
 $$ \label{eq:bayes-th-A1}
 p(A_1|B) = \frac{p(B|A_1) \cdot p(A_1)}{p(B)}

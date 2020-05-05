@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-11-03 14:15:00
+date: 2020-03-11 14:15:00
 
 title: "Conjugate prior distribution for multinomial observations"
 chapter: "Statistical Models"
@@ -58,7 +58,7 @@ $$ \label{eq:Mult-prior-s1}
 \mathrm{p}(p) = \mathrm{Dir}(p; \alpha_0)
 $$
 
-the [probability density function of which](/P/mult-pdf)
+the [probability density function of which](/P/dir-pdf)
 
 $$ \label{eq:Mult-prior-s2}
 \mathrm{p}(p) = \frac{\Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right)}{\prod_{j=1}^k \Gamma(\alpha_{0j})} \prod_{j=1}^{k} {p_j}^{\alpha_{0j}-1}

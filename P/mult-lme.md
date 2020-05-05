@@ -33,16 +33,17 @@ $$ \label{eq:Mult-prior}
 \mathrm{p}(p) = \mathrm{Dir}(p; \alpha_0) \; .
 $$
 
-Then, the [posterior distribution](/D/post) is also a [Dirichlet distribution](/D/dir)
+Then, the [log model evidence](/D/lme) for this model is
 
 $$ \label{eq:Mult-LME}
 \begin{split}
-\log \mathrm{p}(y|m) = \log {n \choose {y_1, \ldots, y_k}} &+ \log \Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right) - \log \Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right) \\
+\log \mathrm{p}(y|m) &= \log \Gamma(n+1) - \sum_{j=1}^{k} \log \Gamma(k_j+1) \\
+&+ \log \Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right) - \log \Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right) \\
 &+ \sum_{j=1}^k \log \Gamma(\alpha_{nj}) - \sum_{j=1}^k \log \Gamma(\alpha_{0j}) \; .
 \end{split}
 $$
 
-and the [posterior hyperparameters](/D/post-hyp) are given by
+and the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:Mult-post-par}
 \alpha_{nj} = \alpha_{0j} + y_j, \; j = 1,\ldots,k \; .
@@ -79,7 +80,7 @@ $$
 
 Using the [probability density function of the Dirichlet distribution](/P/dir-pdf), $p$ can now be integrated out easily
 
-$$ \label{eq:Mult-ME-qed}
+$$ \label{eq:Mult-ME-s2}
 \begin{split}
 \mathrm{p}(y) &= \int {n \choose {y_1, \ldots, y_k}} \frac{\Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right)}{\prod_{j=1}^k \Gamma(\alpha_{0j})} \, \frac{\prod_{j=1}^k \Gamma(\alpha_{nj})}{\Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right)} \, \frac{\Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right)}{\prod_{j=1}^k \Gamma(\alpha_{nj})} \prod_{j=1}^{k} {p_j}^{\alpha_{nj}-1} \, \mathrm{d}p \\
 &= {n \choose {y_1, \ldots, y_k}} \frac{\Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right)}{\prod_{j=1}^k \Gamma(\alpha_{0j})} \, \frac{\prod_{j=1}^k \Gamma(\alpha_{nj})}{\Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right)} \int \mathrm{Dir}(p; \alpha_n) \, \mathrm{d}p \\
@@ -87,11 +88,33 @@ $$ \label{eq:Mult-ME-qed}
 \end{split}
 $$
 
-such that the log model evidence is shown to be
+such that the [log model evidence](/D/lme) (LME) is shown to be
 
-$$ \label{eq:Mult-LME-qed}
+$$ \label{eq:Mult-LME-s1}
 \begin{split}
 \log \mathrm{p}(y|m) = \log {n \choose {y_1, \ldots, y_k}} &+ \log \Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right) - \log \Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right) \\
+&+ \sum_{j=1}^k \log \Gamma(\alpha_{nj}) - \sum_{j=1}^k \log \Gamma(\alpha_{0j}) \; .
+\end{split}
+$$
+
+With the definition of the multinomial coefficient
+
+$$ \label{eq:mult-coeff}
+{n \choose {k_1, \ldots, k_m}} = \frac{n!}{k_1! \cdot \ldots \cdot k_m!}
+$$
+
+and the definition of the gamma function
+
+$$ \label{eq:gam-fct}
+\Gamma(n) = (n-1)! \; ,
+$$
+
+the LME finally becomes
+
+$$ \label{eq:Mult-LME-s2}
+\begin{split}
+\log \mathrm{p}(y|m) &= \log \Gamma(n+1) - \sum_{j=1}^{k} \log \Gamma(k_j+1) \\
+&+ \log \Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right) - \log \Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right) \\
 &+ \sum_{j=1}^k \log \Gamma(\alpha_{nj}) - \sum_{j=1}^k \log \Gamma(\alpha_{0j}) \; .
 \end{split}
 $$

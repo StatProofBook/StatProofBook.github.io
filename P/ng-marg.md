@@ -27,13 +27,13 @@ $$ \label{eq:ng}
 x,y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
 $$
 
-Then, the [marginal distribution](/D/md) of $y$ is a [gamma distribution](/D/gam)
+Then, the [marginal distribution](/D/dist-marg) of $y$ is a [gamma distribution](/D/gam)
 
 $$ \label{eq:ng-marg-y}
 y \sim \mathrm{Gam}(a, b)
 $$
 
-and the [marginal distribution](/D/md) of $x$ is a [multivariate t-distribution](/D/mvt)
+and the [marginal distribution](/D/dist-marg) of $x$ is a [multivariate t-distribution](/D/mvt)
 
 $$ \label{eq:ng-marg-x}
 x \sim \mathrm{t}\left( \mu, \left(\frac{a}{b} \Lambda \right)^{-1}, 2a \right) \; .

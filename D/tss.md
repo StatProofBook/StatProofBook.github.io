@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-03-21 21:44:00
 
-title: "Multiple linear regression"
+title: "Total sum of squares"
 chapter: "Statistical Models"
 section: "Normal data"
 topic: "Multiple linear regression"

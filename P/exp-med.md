@@ -40,7 +40,7 @@ $$ \label{eq:median}
 F_X(\mathrm{median}(X)) = \frac{1}{2} \; .
 $$
 
-The [cumulative distribution function of the exponential distribution](/D/exp-cdf) is
+The [cumulative distribution function of the exponential distribution](/P/exp-cdf) is
 
 $$ \label{eq:exp-cdf}
 F_X(x) = 1 - \exp[-\lambda x], \quad x \geq 0 \; .

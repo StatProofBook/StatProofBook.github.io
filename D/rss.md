@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-03-21 22:03:00
 
-title: "Multiple linear regression"
+title: "Residual sum of squares"
 chapter: "Statistical Models"
 section: "Normal data"
 topic: "Multiple linear regression"
@@ -33,10 +33,10 @@ $$ \label{eq:mlr}
 y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; .
 $$
 
-Then, the explained sum of squares (ESS) is defined as the sum of squared deviations of the fitted signal from the average signal:
+Then, the residual sum of squares (RSS) is defined as the sum of squared deviations of the measured signal from the fitted signal:
 
-$$ \label{eq:ess}
-\mathrm{ESS} = \sum_{i=1}^n (\hat{y}_i - \bar{y})^2 \quad \text{where} \quad \hat{y} = X \hat{\beta} \quad \text{and} \quad \bar{y} = \frac{1}{n} \sum_{i=1}^n y_i
+$$ \label{eq:rss}
+\mathrm{RSS} = \sum_{i=1}^n (y_i - \hat{y}_i)^2 \quad \text{where} \quad \hat{y} = X \hat{\beta}
 $$
 
 with estimated regression coefficients $\hat{\beta}$, e.g. obtained via [ordinary least squares](/P/mlr-ols).

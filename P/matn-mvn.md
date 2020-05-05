@@ -90,4 +90,4 @@ $$ \label{eq:matn-mvn}
 \mathcal{MN}(X; M, U, V) = \mathcal{N}(\mathrm{vec}(X); \mathrm{vec}(M), V \otimes U) \; .
 $$
 
-By showing that the [probability density functions](/D/pdf) are identical, it is proven that the associated [probability distributions](/D/pd) are equivalent.
+By showing that the [probability density functions](/D/pdf) are identical, it is proven that the associated [probability distributions](/D/dist) are equivalent.

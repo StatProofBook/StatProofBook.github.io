@@ -5,13 +5,13 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2019-09-27 07:18:00
+date: 2020-03-09 22:18:00
 
 title: "Partition of sums of squares in ordinary least squares"
 chapter: "Statistical Models"
 section: "Normal data"
 topic: "Multiple linear regression"
-theorem: "Partition of sums of squares"
+theorem: "Total, explained and residual sum of squares"
 
 sources:
   - authors: "Wikipedia"
@@ -33,7 +33,7 @@ $$ \label{eq:mlr}
 y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; ,
 $$
 
-and let $X$ contain a constant regressor modelling the intercept term. Then, it holds that
+and let $X$ contain a constant regressor $1_n$ modelling the intercept term. Then, it holds that
 
 $$ \label{eq:pss}
 \mathrm{TSS} = \mathrm{ESS} + \mathrm{RSS}

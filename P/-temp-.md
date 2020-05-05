@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "The Book of Statistical Proofs"
+e_mail: "StatProofBook@gmail.com"
 date: 2019-09-27 16:40:00
 
 title: "Proof Template"

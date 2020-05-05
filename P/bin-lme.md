@@ -42,10 +42,13 @@ $$
 Then, the [log model evidence](/D/lme) for this model is
 
 $$ \label{eq:Bin-LME}
-\log \mathrm{p}(y|m) = \log {n \choose y} + \log B(\alpha_n,\beta_n) - \log B(\alpha_0,\beta_0)
+\begin{split}
+\log \mathrm{p}(y|m) = \log \Gamma(n+1) &- \log \Gamma(k+1) - \log \Gamma(n-k+1) \\
+&+ \log B(\alpha_n,\beta_n) - \log B(\alpha_0,\beta_0) \; .
+\end{split}
 $$
 
-where the [posterior hyperparameters](/D/post-hyp) are given by
+where the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:Bin-post-par}
 \begin{split}
@@ -73,7 +76,7 @@ $$
 
 Note that the [model evidence is the marginal density of the joint likelihood](/D/ml):
 
-$$ \label{eq:Bin-ME}
+$$ \label{eq:Bin-ME-s1}
 \mathrm{p}(y) = \int \mathrm{p}(y,p) \, \mathrm{d}p \; .
 $$
 
@@ -85,7 +88,7 @@ $$
 
 Using the [probability density function of the beta distribution](/P/beta-pdf), $p$ can now be integrated out easily
 
-$$ \label{eq:Bin-ME-qed}
+$$ \label{eq:Bin-ME-s2}
 \begin{split}
 \mathrm{p}(y) &= \int {n \choose y} \, \frac{1}{B(\alpha_0,\beta_0)} \, \frac{B(\alpha_n,\beta_n)}{1} \, \frac{1}{B(\alpha_n,\beta_n)} \, p^{\alpha_n-1} \, (1-p)^{\beta_n-1} \, \mathrm{d}p \\
 &= {n \choose y} \, \frac{B(\alpha_n,\beta_n)}{B(\alpha_0,\beta_0)} \int \mathrm{Bet}(p; \alpha_n, \beta_n) \, \mathrm{d}p \\
@@ -93,8 +96,29 @@ $$ \label{eq:Bin-ME-qed}
 \end{split}
 $$
 
-such that the [log model evidence](/D/lme) is shown to be
+such that the [log model evidence](/D/lme) (LME) is shown to be
 
-$$ \label{eq:Bin-LME-qed}
+$$ \label{eq:Bin-LME-s1}
 \log \mathrm{p}(y|m) = \log {n \choose y} + \log B(\alpha_n,\beta_n) - \log B(\alpha_0,\beta_0) \; .
+$$
+
+With the definition of the binomial coefficient
+
+$$ \label{eq:bin-coeff}
+{n \choose k} = \frac{n!}{k! \, (n-k)!}
+$$
+
+and the definition of the gamma function
+
+$$ \label{eq:gam-fct}
+\Gamma(n) = (n-1)! \; ,
+$$
+
+the LME finally becomes
+
+$$ \label{eq:Bin-LME-s2}
+\begin{split}
+\log \mathrm{p}(y|m) = \log \Gamma(n+1) &- \log \Gamma(k+1) - \log \Gamma(n-k+1) \\
+&+ \log B(\alpha_n,\beta_n) - \log B(\alpha_0,\beta_0) \; .
+\end{split}
 $$

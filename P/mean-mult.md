@@ -75,7 +75,7 @@ $$ \label{eq:mean-mult-cont}
 $$
 
 <br>
-2) Let $X$ and $Y$ be [Bernoulli random variables](/D/bern) with the following joint [probability mass function](/D/pmf)
+2) Let $X$ and $Y$ be [Bernoulli random variables](/D/bern) with the following [joint probability](/D/prob-joint) [mass function](/D/pmf)
 
 $$ \label{eq:joint}
 \begin{split}

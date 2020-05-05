@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-01-21 17:23:00
+date: 2020-02-21 17:23:00
 
 title: "Relation of continuous mutual information to joint and conditional differential entropy"
 chapter: "General Theorems"

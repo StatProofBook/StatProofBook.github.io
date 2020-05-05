@@ -1,0 +1,36 @@
+---
+layout: page
+title: "Proofs without Source"
+---
+
+
+- [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
+- [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
+- [Derivation of the log model evidence](/P/lme-der)
+- [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
+- [Log model evidence for multinomial observations](/P/mult-lme)
+- [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
+- [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
+- [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
+- [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
+- [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
+- [Maximum likelihood estimation for the general linear model](/P/glm-mle)
+- [Mean of the categorical distribution](/P/cat-mean)
+- [Mean of the continuous uniform distribution](/P/cuni-mean)
+- [Mean of the multinomial distribution](/P/mult-mean)
+- [Median of the continuous uniform distribution](/P/cuni-med)
+- [Median of the exponential distribution](/P/exp-med)
+- [Median of the normal distribution](/P/norm-med)
+- [Mode of the continuous uniform distribution](/P/cuni-med)
+- [Mode of the exponential distribution](/P/exp-mode)
+- [Mode of the normal distribution](/P/norm-mode)
+- [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
+- [Probability density function of the exponential distribution](/P/exp-pdf)
+- [Probability density function of the gamma distribution](/P/gam-pdf)
+- [Probability density function of the matrix-normal distribution](/P/matn-pdf)
+- [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
+- [Probability density function of the normal distribution](/P/norm-pdf)
+- [Quantile function of the continuous uniform distribution](/P/cuni-qf)
+- [Quantile function of the exponential distribution](/P/exp-qf)
+- [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
+- [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)

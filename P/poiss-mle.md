@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a set of observed counts independent and identically distributed according to a [Poisson distribution](/D/poiss) with rate $\lambda$:
+**Theorem:** Let there be a [Poisson-distributed data](/D/poiss-data) set $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$:
 
 $$ \label{eq:Poiss}
 y_i \sim \mathrm{Poiss}(\lambda), \quad i = 1, \ldots, n \; .

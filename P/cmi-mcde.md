@@ -73,7 +73,7 @@ Now considering the definitions of [marginal](/D/dent) and [conditional](/D/dent
 $$ \label{eq:MDE-CDE}
 \begin{split}
 \mathrm{h}(X) &= - \int_{\mathcal{X}} p(x) \log p(x) \, \mathrm{d}x \\
-\mathrm{h}(X|Y) = \sum_{\mathcal{Y}} p(y) \, \mathrm{h}(X|Y=y) \, \mathrm{d}y \; ,
+\mathrm{h}(X|Y) &= \int_{\mathcal{Y}} p(y) \, \mathrm{h}(X|Y=y) \, \mathrm{d}y \; ,
 \end{split}
 $$
 

@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-02-03 21:03:00
+date: 2020-03-02 21:03:00
 
 title: "Probability density function of the matrix-normal distribution"
 chapter: "Probability Distributions"

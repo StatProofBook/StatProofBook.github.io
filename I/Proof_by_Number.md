@@ -81,3 +81,17 @@ title: "Proof by Number"
 | P72 | logreg-lonp | [Log-odds and probability in logistic regression](/P/logreg-lonp) | JoramSoch | 2020-03-03 |
 | P73 | pmp-lbf | [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf) | JoramSoch | 2020-03-03 |
 | P74 | pmp-bf | [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf) | JoramSoch | 2020-03-03 |
+| P75 | mlr-mat | [Transformation matrices for ordinary least squares](/P/mlr-mat) | JoramSoch | 2020-03-09 |
+| P76 | mlr-pss | [Partition of sums of squares in ordinary least squares](/P/mlr-pss) | JoramSoch | 2019-09-27 |
+| P77 | mlr-wls | [Weighted least squares for multiple linear regression](/P/mlr-wls) | JoramSoch | 2020-03-11 |
+| P78 | mlr-mle | [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle) | JoramSoch | 2020-03-11 |
+| P79 | mult-prior | [Conjugate prior distribution for multinomial observations](/P/mult-prior) | JoramSoch | 2020-11-03 |
+| P80 | mult-post | [Posterior distribution for multinomial observations](/P/mult-post) | JoramSoch | 2020-03-11 |
+| P81 | mult-lme | [Log model evidence for multinomial observations](/P/mult-lme) | JoramSoch | 2020-03-11 |
+| P82 | cuni-mean | [Mean of the continuous uniform distribution](/P/cuni-mean) | JoramSoch | 2020-03-16 |
+| P83 | cuni-med | [Median of the continuous uniform distribution](/P/cuni-med) | JoramSoch | 2020-03-16 |
+| P84 | cuni-med | [Mode of the continuous uniform distribution](/P/cuni-med) | JoramSoch | 2020-03-16 |
+| P85 | norm-cdf | [Cumulative distribution function of the normal distribution](/P/norm-cdf) | JoramSoch | 2020-03-20 |
+| P86 | norm-cdfwerf | [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf) | JoramSoch | 2020-03-20 |
+| P87 | norm-qf | [Quantile function of the normal distribution](/P/norm-qf) | JoramSoch | 2020-03-20 |
+| P88 | mvn-cond | [Conditional distributions of the multivariate normal distribution](/P/mvn-cond) | JoramSoch | 2020-03-20 |

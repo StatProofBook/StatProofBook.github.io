@@ -45,7 +45,7 @@ $$ \label{eq:Mult-post}
 \mathrm{p}(p|y) = \mathrm{Dir}(p; \alpha_n) \; .
 $$
 
-and the [posterior hyperparameters](/D/post-hyp) are given by
+and the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:Mult-post-par}
 \alpha_{nj} = \alpha_{0j} + y_j, \; j = 1,\ldots,k \; .
