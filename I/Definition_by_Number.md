@@ -54,3 +54,17 @@ title: "Definition by Number"
 | D45 | bin | [Binomial distribution](/D/bin) | JoramSoch | 2020-03-22 |
 | D46 | cat | [Categorical distribution](/D/cat) | JoramSoch | 2020-03-22 |
 | D47 | mult | [Multinomial distribution](/D/mult) | JoramSoch | 2020-03-22 |
+| D48 | prob | [Probability](/D/prob) | JoramSoch | 2020-05-10 |
+| D49 | prob-joint | [Joint probability](/D/prob-joint) | JoramSoch | 2020-05-10 |
+| D50 | prob-marg | [Law of marginal probability](/D/prob-marg) | JoramSoch | 2020-05-10 |
+| D51 | prob-cond | [Law of conditional probability](/D/prob-cond) | JoramSoch | 2020-05-10 |
+| D52 | kl | [Kullback-Leibler divergence](/D/kl) | JoramSoch | 2020-05-10 |
+| D53 | beta | [Beta distribution](/D/beta) | JoramSoch | 2020-05-10 |
+| D54 | dir | [Dirichlet distribution](/D/dir) | JoramSoch | 2020-05-10 |
+| D55 | dist | [Probability distribution](/D/dist) | JoramSoch | 2020-05-17 |
+| D56 | dist-joint | [Joint probability distribution](/D/dist-joint) | JoramSoch | 2020-05-17 |
+| D57 | dist-marg | [Marginal probability distribution](/D/dist-marg) | JoramSoch | 2020-05-17 |
+| D58 | dist-cond | [Conditional probability distribution](/D/dist-cond) | JoramSoch | 2020-05-17 |
+| D59 | llf | [Log-likelihood function](/D/llf) | JoramSoch | 2020-05-17 |
+| D60 | mle | [Maximum likelihood estimation](/D/mle) | JoramSoch | 2020-05-15 |
+| D61 | mll | [Maximum log-likelihood](/D/mll) | JoramSoch | 2020-05-15 |

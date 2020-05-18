@@ -60,11 +60,11 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.1.3. *[Prior distribution](/D/prior)* <br>
    &emsp;&ensp; 3.1.4. *[Full probability model](/D/fpm)* <br>
    &emsp;&ensp; 3.1.5. *[Joint likelihood](/D/jl)* <br>
-   &emsp;&ensp; 3.1.6. **[Joint likelihood is product of likelihood and prior](/D/jl-lfnprior)** <br>
+   &emsp;&ensp; 3.1.6. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
    &emsp;&ensp; 3.1.7. *[Posterior distribution](/D/post)* <br>
-   &emsp;&ensp; 3.1.8. **[Posterior density is proportional to joint likelihood](/D/post-jl)** <br>
+   &emsp;&ensp; 3.1.8. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
    &emsp;&ensp; 3.1.9. *[Marginal likelihood](/D/ml)* <br>
-   &emsp;&ensp; 3.1.10. **[Marginal likelihood is integral of joint likelihood](/D/ml-jl)** <br>
+   &emsp;&ensp; 3.1.10. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
    3.2. Bayesian inference <br>
    &emsp;&ensp; 3.2.1. **[Bayes' theorem](/P/bayes-th)** <br>
