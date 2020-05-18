@@ -27,4 +27,4 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ and $Y$ be [random variables](/D/rvar) with sets of possible outcomes $\mathcal{X}$ and $\mathcal{Y}$. Then, the marginal distribution of $X$ is a [probability distribution](/D/dist) that specifies the probability of the event that $X = x$ irrespective of the value of $Y$ for each possible value $x \in \mathcal{X}$. The marginal distribution can be obtained from the [joint distribution](/D/dist-joint) of $X$ and $Y$ using the [law of marginal probability](/D/prob-joint).
+**Definition**: Let $X$ and $Y$ be [random variables](/D/rvar) with sets of possible outcomes $\mathcal{X}$ and $\mathcal{Y}$. Then, the marginal distribution of $X$ is a [probability distribution](/D/dist) that specifies the probability of the event that $X = x$ irrespective of the value of $Y$ for each possible value $x \in \mathcal{X}$. The marginal distribution can be obtained from the [joint distribution](/D/dist-joint) of $X$ and $Y$ using the [law of marginal probability](/D/prob-marg).

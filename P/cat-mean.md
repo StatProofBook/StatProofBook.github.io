@@ -34,7 +34,7 @@ $$ \label{eq:cat-mean}
 $$
 
 
-**Proof:** If we conceive the [outcome of a categorical distribution](/P/cat-pmf) to be a $1 \times k$ vector, then the elementary row vectors $e_1 = \left[1, 0, \ldots, 0 \right]$, ..., $e_k = \left[0, \ldots, 0, 1 \right]$ are all the possible outcomes and they occur with probabilities $\mathrm{Pr}(X = e_1) = p_1$, ..., $\mathrm{Pr}(X = e_k) = p_k$. Consequently, the [expected value](/D/mean) is
+**Proof:** If we conceive the [outcome of a categorical distribution](/D/cat) to be a $1 \times k$ vector, then the elementary row vectors $e_1 = \left[1, 0, \ldots, 0 \right]$, ..., $e_k = \left[0, \ldots, 0, 1 \right]$ are all the possible outcomes and they occur with probabilities $\mathrm{Pr}(X = e_1) = p_1$, ..., $\mathrm{Pr}(X = e_k) = p_k$. Consequently, the [expected value](/D/mean) is
 
 $$ \label{eq:cat-mean-qed}
 \begin{split}

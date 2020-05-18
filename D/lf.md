@@ -23,6 +23,6 @@ username: "JoramSoch"
 
 **Definition:** Let there be a [generative model](/D/gm) $m$ describing measured data $y$ using model parameters $\theta$. Then, the [probability density function](/D/pdf) of the distribution of $y$ given $\theta$ is called the likelihood function of $m$:
 
-$$ \label{eq:gm}
+$$ \label{eq:lf}
 \mathcal{L}_m(\theta) = p(y|\theta,m) = \mathcal{D}(y; \theta) \; .
 $$
