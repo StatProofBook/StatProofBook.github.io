@@ -12,6 +12,7 @@ title: "Definition by Topic"
 
 - [Bayesian information criterion](/D/bic)
 - [Bernoulli distribution](/D/bern)
+- [Beta distribution](/D/beta)
 - [Binomial distribution](/D/bin)
 
 ### C
@@ -20,6 +21,7 @@ title: "Definition by Topic"
 - [Coefficient of determination](/D/rsq)
 - [Conditional differential entropy](/D/dent-cond)
 - [Conditional entropy](/D/ent-cond)
+- [Conditional probability distribution](/D/dist-cond)
 - [Continuous uniform distribution](/D/cuni)
 - [Cumulative distribution function](/D/cdf)
 
@@ -28,6 +30,7 @@ title: "Definition by Topic"
 - [Definition Template](/D/-temp-)
 - [Deviance information criterion](/D/dic)
 - [Differential entropy](/D/dent)
+- [Dirichlet distribution](/D/dir)
 
 ### E
 
@@ -50,16 +53,28 @@ title: "Definition by Topic"
 - [Joint differential entropy](/D/dent-joint)
 - [Joint entropy](/D/ent-joint)
 - [Joint likelihood](/D/jl)
+- [Joint probability](/D/prob-joint)
+- [Joint probability distribution](/D/dist-joint)
+
+### K
+
+- [Kullback-Leibler divergence](/D/kl)
 
 ### L
 
+- [Law of conditional probability](/D/prob-cond)
+- [Law of marginal probability](/D/prob-marg)
 - [Likelihood function](/D/lf)
 - [Log model evidence](/D/lme)
+- [Log-likelihood function](/D/llf)
 
 ### M
 
 - [Marginal likelihood](/D/ml)
+- [Marginal probability distribution](/D/dist-marg)
 - [Matrix-normal distribution](/D/matn)
+- [Maximum likelihood estimation](/D/mle)
+- [Maximum log-likelihood](/D/mll)
 - [Moment-generating function](/D/mgf)
 - [Multinomial distribution](/D/mult)
 - [Multiple linear regression](/D/mlr)
@@ -77,7 +92,9 @@ title: "Definition by Topic"
 - [Poisson-distributed data](/D/poiss-data)
 - [Posterior distribution](/D/post)
 - [Prior distribution](/D/prior)
+- [Probability](/D/prob)
 - [Probability density function](/D/pdf)
+- [Probability distribution](/D/dist)
 - [Probability mass function](/D/pmf)
 
 ### Q

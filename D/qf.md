@@ -10,7 +10,7 @@ date: 2020-02-17 22:18:00
 title: "Quantile function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability distributions"
+topic: "Probability functions"
 definition: "Quantile function"
 
 sources:

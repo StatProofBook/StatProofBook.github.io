@@ -66,7 +66,7 @@ title: "Proof by Number"
 | P57 | ent-nonneg | [Non-negativity of the Shannon entropy](/P/ent-nonneg) | JoramSoch | 2020-02-19 |
 | P58 | cmi-mcde | [Relation of continuous mutual information to marginal and conditional differential entropy](/P/cmi-mcde) | JoramSoch | 2020-02-21 |
 | P59 | cmi-mjde | [Relation of continuous mutual information to marginal and joint differential entropy](/P/cmi-mjde) | JoramSoch | 2020-02-21 |
-| P60 | cmi-jcde | [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde) | JoramSoch | 2020-01-21 |
+| P60 | cmi-jcde | [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde) | JoramSoch | 2020-02-21 |
 | P61 | resvar-bias | [Maximum likelihood estimator of variance is biased](/P/resvar-bias) | JoramSoch | 2020-02-24 |
 | P62 | resvar-unb | [Construction of unbiased estimator for variance](/P/resvar-unb) | JoramSoch | 2020-02-25 |
 | P63 | snr-rsq | [Relationship between signal-to-noise ratio and R²](/P/snr-rsq) | JoramSoch | 2020-02-26 |
@@ -76,16 +76,16 @@ title: "Proof by Number"
 | P67 | bma-lme | [Bayesian model averaging in terms of log model evidences](/P/bma-lme) | JoramSoch | 2020-02-27 |
 | P68 | dent-neg | [Differential entropy can be negative](/P/dent-neg) | JoramSoch | 2020-03-02 |
 | P69 | exp-gam | [Exponential distribution is a special case of gamma distribution](/P/exp-gam) | JoramSoch | 2020-03-02 |
-| P70 | matn-pdf | [Probability density function of the matrix-normal distribution](/P/matn-pdf) | JoramSoch | 2020-02-03 |
+| P70 | matn-pdf | [Probability density function of the matrix-normal distribution](/P/matn-pdf) | JoramSoch | 2020-03-02 |
 | P71 | norm-mgf | [Moment-generating function of the normal distribution](/P/norm-mgf) | JoramSoch | 2020-03-03 |
 | P72 | logreg-lonp | [Log-odds and probability in logistic regression](/P/logreg-lonp) | JoramSoch | 2020-03-03 |
 | P73 | pmp-lbf | [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf) | JoramSoch | 2020-03-03 |
 | P74 | pmp-bf | [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf) | JoramSoch | 2020-03-03 |
 | P75 | mlr-mat | [Transformation matrices for ordinary least squares](/P/mlr-mat) | JoramSoch | 2020-03-09 |
-| P76 | mlr-pss | [Partition of sums of squares in ordinary least squares](/P/mlr-pss) | JoramSoch | 2019-09-27 |
+| P76 | mlr-pss | [Partition of sums of squares in ordinary least squares](/P/mlr-pss) | JoramSoch | 2020-03-09 |
 | P77 | mlr-wls | [Weighted least squares for multiple linear regression](/P/mlr-wls) | JoramSoch | 2020-03-11 |
 | P78 | mlr-mle | [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle) | JoramSoch | 2020-03-11 |
-| P79 | mult-prior | [Conjugate prior distribution for multinomial observations](/P/mult-prior) | JoramSoch | 2020-11-03 |
+| P79 | mult-prior | [Conjugate prior distribution for multinomial observations](/P/mult-prior) | JoramSoch | 2020-03-11 |
 | P80 | mult-post | [Posterior distribution for multinomial observations](/P/mult-post) | JoramSoch | 2020-03-11 |
 | P81 | mult-lme | [Log model evidence for multinomial observations](/P/mult-lme) | JoramSoch | 2020-03-11 |
 | P82 | cuni-mean | [Mean of the continuous uniform distribution](/P/cuni-mean) | JoramSoch | 2020-03-16 |
@@ -95,3 +95,17 @@ title: "Proof by Number"
 | P86 | norm-cdfwerf | [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf) | JoramSoch | 2020-03-20 |
 | P87 | norm-qf | [Quantile function of the normal distribution](/P/norm-qf) | JoramSoch | 2020-03-20 |
 | P88 | mvn-cond | [Conditional distributions of the multivariate normal distribution](/P/mvn-cond) | JoramSoch | 2020-03-20 |
+| P89 | jl-lfnprior | [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior) | JoramSoch | 2020-05-05 |
+| P90 | post-jl | [Posterior density is proportional to joint likelihood](/P/post-jl) | JoramSoch | 2020-05-05 |
+| P91 | ml-jl | [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl) | JoramSoch | 2020-05-05 |
+| P92 | mvn-kl | [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl) | JoramSoch | 2020-05-05 |
+| P93 | gam-kl | [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl) | JoramSoch | 2020-05-05 |
+| P94 | beta-pdf | [Probability density function of the beta distribution](/P/beta-pdf) | JoramSoch | 2020-05-05 |
+| P95 | dir-pdf | [Probability density function of the Dirichlet distribution](/P/dir-pdf) | JoramSoch | 2020-05-05 |
+| P96 | bern-pmf | [Probability mass function of the Bernoulli distribution](/P/bern-pmf) | JoramSoch | 2020-05-11 |
+| P97 | bin-pmf | [Probability mass function of the binomial distribution](/P/bin-pmf) | JoramSoch | 2020-05-11 |
+| P98 | cat-pmf | [Probability mass function of the categorical distribution](/P/cat-pmf) | JoramSoch | 2020-05-11 |
+| P99 | mult-pmf | [Probability mass function of the multinomial distribution](/P/mult-pmf) | JoramSoch | 2020-05-11 |
+| P100 | mvn-dent | [Differential entropy of the multivariate normal distribution](/P/mvn-dent) | JoramSoch | 2020-05-14 |
+| P101 | norm-dent | [Differential entropy of the normal distribution](/P/norm-dent) | JoramSoch | 2020-05-14 |
+| P102 | poiss-pmf | [Probability mass function of the Poisson distribution](/P/poiss-pmf) | JoramSoch | 2020-05-14 |

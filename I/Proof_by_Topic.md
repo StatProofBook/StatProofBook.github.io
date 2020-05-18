@@ -33,6 +33,8 @@ title: "Proof by Topic"
 - [Derivation of the Bayesian information criterion](/P/bic-der)
 - [Derivation of the log model evidence](/P/lme-der)
 - [Differential entropy can be negative](/P/dent-neg)
+- [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
+- [Differential entropy of the normal distribution](/P/norm-dent)
 
 ### E
 
@@ -40,8 +42,14 @@ title: "Proof by Topic"
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 
+### J
+
+- [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
+
 ### K
 
+- [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
+- [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl)
 - [Kullback-Leibler divergence for the normal-gamma distribution](/P/ng-kl)
 
 ### L
@@ -60,6 +68,7 @@ title: "Proof by Topic"
 
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
+- [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
@@ -96,6 +105,7 @@ title: "Proof by Topic"
 - [Partition of sums of squares in ordinary least squares](/P/mlr-pss)
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
+- [Posterior density is proportional to joint likelihood](/P/post-jl)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post)
 - [Posterior distribution for binomial observations](/P/bin-post)
 - [Posterior distribution for multinomial observations](/P/mult-post)
@@ -103,6 +113,8 @@ title: "Proof by Topic"
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
+- [Probability density function of the Dirichlet distribution](/P/dir-pdf)
+- [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)
 - [Probability density function of the gamma distribution](/P/gam-pdf)
@@ -110,6 +122,11 @@ title: "Proof by Topic"
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
 - [Probability density function of the normal-gamma distribution](/P/ng-pdf)
+- [Probability mass function of the Bernoulli distribution](/P/bern-pmf)
+- [Probability mass function of the Poisson distribution](/P/poiss-pmf)
+- [Probability mass function of the binomial distribution](/P/bin-pmf)
+- [Probability mass function of the categorical distribution](/P/cat-pmf)
+- [Probability mass function of the multinomial distribution](/P/mult-pmf)
 - [Proof Template](/P/-temp-)
 
 ### Q
