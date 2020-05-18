@@ -11,7 +11,8 @@ title: "Marginal likelihood is a definite integral of joint likelihood"
 chapter: "General Theorems"
 section: "Bayesian statistics"
 topic: "Probabilistic modeling"
-theorem: "Marginal likelihood is integral of joint likelihood
+theorem: "Marginal likelihood is integral of joint likelihood"
+
 sources:
 
 proof_id: "P91"

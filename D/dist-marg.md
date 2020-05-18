@@ -11,7 +11,7 @@ title: "Marginal probability distribution"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Probability distributions"
-definition: "Marginal probability distribution"
+definition: "Marginal distribution"
 
 sources:
   - authors: "Wikipedia"

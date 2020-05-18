@@ -11,7 +11,7 @@ title: "Joint probability distribution"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Probability distributions"
-definition: "Joint probability distribution"
+definition: "Joint distribution"
 
 sources:
   - authors: "Wikipedia"

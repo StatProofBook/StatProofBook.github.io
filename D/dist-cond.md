@@ -11,7 +11,7 @@ title: "Conditional probability distribution"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Probability distributions"
-definition: "Conditional probability distribution"
+definition: "Conditional distribution"
 
 sources:
   - authors: "Wikipedia"
