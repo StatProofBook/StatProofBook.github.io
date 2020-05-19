@@ -46,7 +46,7 @@ $$ \label{eq:W-def}
 W V W^\mathrm{T} = I_n \; .
 $$
 
-Since $V$ is a covariance matrix and thus symmetric, $W$ is also symmetric and can be expressed the matrix square root of the inverse of $V$:
+Since $V$ is a covariance matrix and thus symmetric, $W$ is also symmetric and can be expressed as the matrix square root of the inverse of $V$:
 
 $$ \label{eq:W-V}
 W W = V^{-1} \quad \Leftrightarrow \quad W = V^{-1/2} \; .
@@ -66,13 +66,13 @@ $$
 
 where $\tilde{y} = Wy$, $\tilde{X} = WX$ and $\tilde{\varepsilon} = W\varepsilon$, such that we can apply the [ordinary least squares solution](/P/mlr-ols) giving
 
-$$ \label{eq:beta-est}
+$$ \label{eq:WLS-qed}
 \begin{split}
 \hat{\beta} &= (\tilde{X}^\mathrm{T} \tilde{X})^{-1} \tilde{X}^\mathrm{T} \tilde{y} \\
 &= \left( (WX)^\mathrm{T} WX \right)^{-1} (WX)^\mathrm{T} Wy \\
 &= \left( X^\mathrm{T} W^\mathrm{T} W X \right)^{-1} X^\mathrm{T} W^\mathrm{T} W y \\
 &= \left( X^\mathrm{T} W W X \right)^{-1} X^\mathrm{T} W W y \\
-&\overset{\eqref{eq:W-V}}{=} \left( X^\mathrm{T} V^{-1} X \right)^{-1} X^\mathrm{T} V^{-1} y \; .
+&\overset{\eqref{eq:W-V}}{=} \left( X^\mathrm{T} V^{-1} X \right)^{-1} X^\mathrm{T} V^{-1} y
 \end{split}
 $$
 

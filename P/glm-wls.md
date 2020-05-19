@@ -60,7 +60,7 @@ $$
 
 where $\tilde{Y} = WY$, $\tilde{X} = WX$ and $\tilde{E} = WE$, such that we can apply the [ordinary least squares solution](/P/glm-ols) giving
 
-\begin{equation} \label{eq:WLS-qed}
+$$ \label{eq:WLS-qed}
 \begin{split}
 \hat{B} &= (\tilde{X}^\mathrm{T} \tilde{X})^{-1} \tilde{X}^\mathrm{T} \tilde{Y} \\
 &= \left( (WX)^\mathrm{T} WX \right)^{-1} (WX)^\mathrm{T} WY \\
@@ -68,6 +68,6 @@ where $\tilde{Y} = WY$, $\tilde{X} = WX$ and $\tilde{E} = WE$, such that we can 
 &= \left( X^\mathrm{T} W W X \right)^{-1} X^\mathrm{T} W W Y \\
 &\overset{\eqref{eq:W-V}}{=} \left( X^\mathrm{T} V^{-1} X \right)^{-1} X^\mathrm{T} V^{-1} Y
 \end{split}
-\end{equation}
+$$
 
 which corresponds to the weighted least squares solution \eqref{eq:WLS}.

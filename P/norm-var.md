@@ -34,7 +34,7 @@ $$
 
 Then, the [variance](/D/var) of $X$ is
 
-$$ \label{eq:norm-mode}
+$$ \label{eq:norm-var}
 \mathrm{Var}(X) = \sigma^2 \; .
 $$
 
