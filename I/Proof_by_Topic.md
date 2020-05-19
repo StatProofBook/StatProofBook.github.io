@@ -39,6 +39,7 @@ title: "Proof by Topic"
 ### E
 
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
+- [Expected value of a non-negative random variable](/P/mean-nnrvar)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 
@@ -78,6 +79,7 @@ title: "Proof by Topic"
 - [Mean of the categorical distribution](/P/cat-mean)
 - [Mean of the continuous uniform distribution](/P/cuni-mean)
 - [Mean of the exponential distribution](/P/exp-mean)
+- [Mean of the gamma distribution](/P/gam-mean)
 - [Mean of the multinomial distribution](/P/mult-mean)
 - [Mean of the normal distribution](/P/norm-mean)
 - [Median of the continuous uniform distribution](/P/cuni-med)
@@ -99,12 +101,14 @@ title: "Proof by Topic"
 
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
+- [Ordinary least squares for the general linear model](/P/glm-ols)
 
 ### P
 
 - [Partition of sums of squares in ordinary least squares](/P/mlr-pss)
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
+- [Partition of variance into expected values](/P/var-mean)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post)
 - [Posterior distribution for binomial observations](/P/bin-post)
@@ -113,6 +117,7 @@ title: "Proof by Topic"
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
+- [Probability and log-odds in logistic regression](/P/logreg-pnlo)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
@@ -152,8 +157,10 @@ title: "Proof by Topic"
 
 ### V
 
+- [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the normal distribution](/P/norm-var)
 
 ### W
 
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
+- [Weighted least squares for the general linear model](/P/glm-wls)
