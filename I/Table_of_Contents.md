@@ -36,13 +36,15 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    
    1.4. Expected value <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/mean)* <br>
-   &emsp;&ensp; 1.4.2. **[Non-negativity](/P/mean-nonneg)** <br>
-   &emsp;&ensp; 1.4.3. **[Linearity](/P/mean-lin)** <br>
-   &emsp;&ensp; 1.4.4. **[Monotonicity](/P/mean-mono)** <br>
-   &emsp;&ensp; 1.4.5. **[(Non-)Multiplicitavity](/P/mean-mult)** <br>
+   &emsp;&ensp; 1.4.2. **[Non-negative random variable](/P/mean-nnrvar)** <br>
+   &emsp;&ensp; 1.4.3. **[Non-negativity](/P/mean-nonneg)** <br>
+   &emsp;&ensp; 1.4.4. **[Linearity](/P/mean-lin)** <br>
+   &emsp;&ensp; 1.4.5. **[Monotonicity](/P/mean-mono)** <br>
+   &emsp;&ensp; 1.4.6. **[(Non-)Multiplicitavity](/P/mean-mult)** <br>
    
    1.5. Variance <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/var)* <br>
+   &emsp;&ensp; 1.5.2. **[Partition into expected values](/P/var-mean)** <br>
 
 2. Frequentist statistics
    
@@ -167,7 +169,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
    &emsp;&ensp; 3.3.2. **[Probability density function](/P/gam-pdf)** <br>
-   &emsp;&ensp; 3.3.3. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.3.3. **[Mean](/P/gam-mean)** <br>
+   &emsp;&ensp; 3.3.4. **[Variance](/P/gam-var)** <br>
+   &emsp;&ensp; 3.3.5. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
    3.4. Exponential distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/exp)* <br>
@@ -182,7 +186,6 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    3.5. Beta distribution <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/beta)* <br>
    &emsp;&ensp; 3.5.2. **[Probability density function](/P/beta-pdf)** <br>
-
 
 4. Multivariate continuous distributions
 
@@ -242,7 +245,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    
    1.3. General linear model <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/glm)* <br>
-   &emsp;&ensp; 1.3.2. **[Maximum likelihood estimation](/P/glm-mle)** <br>
+   &emsp;&ensp; 1.3.2. **[Ordinary least squares](/P/glm-ols)** <br>
+   &emsp;&ensp; 1.3.3. **[Weighted least squares](/P/glm-wls)** <br>
+   &emsp;&ensp; 1.3.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
 
 2. Poisson data
 
@@ -262,7 +267,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.1.1. **[Method of moments](/P/beta-mom)** <br>
    
    3.2. Logistic regression <br>
-   &emsp;&ensp; 3.2.1. **[Log-odds and probability](/P/logreg-lonp)** <br>
+   &emsp;&ensp; 3.2.1. **[Probability and log-odds](/P/logreg-pnlo)** <br>
+   &emsp;&ensp; 3.2.2. **[Log-odds and probability](/P/logreg-lonp)** <br>
 
 4. Categorical data
    
