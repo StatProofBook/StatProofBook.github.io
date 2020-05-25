@@ -18,6 +18,7 @@ sources:
     year: 2013
     title: "How to derive the mean and variance of Gaussian random variable?"
     in: "StackExchange Mathematics"
+    pages: "retrieved on 2020-01-09"
     url: "https://math.stackexchange.com/questions/518281/how-to-derive-the-mean-and-variance-of-a-gaussian-random-variable"
 
 proof_id: "P18"
