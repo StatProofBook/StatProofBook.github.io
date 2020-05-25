@@ -26,7 +26,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a non-negative [random variable](/D/rvar). Then, the expected value of $X$ is
+**Theorem:** Let $X$ be a non-negative [random variable](/D/rvar). Then, the [expected value](/D/mean) of $X$ is
 
 $$ \label{eq:mean-cdf}
 \mathrm{E}(X) = \int_{0}^{\infty} (1 - F_X(x)) \, \mathrm{d}x
@@ -49,25 +49,25 @@ $$
 
 such that
 
-$$ \label{eq:mean-cdf-s2}
+$$ \label{eq:mean-cdf-s1}
 \int_{0}^{\infty} (1 - F_X(x)) \, \mathrm{d}x = \int_{0}^{\infty} \mathrm{Pr}(X > x) \, \mathrm{d}x
 $$
 
 which, using the [probability density function](/D/pdf) of $X$, can be rewritten as
 
-$$ \label{eq:mean-cdf-s3}
+$$ \label{eq:mean-cdf-s2}
 \begin{split}
 \int_{0}^{\infty} (1 - F_X(x)) \, \mathrm{d}x &= \int_{0}^{\infty} \int_{x}^{\infty} f_X(z) \, \mathrm{d}z \, \mathrm{d}x \\
 &= \int_{0}^{\infty} \int_{0}^{z} f_X(z) \, \mathrm{d}x \, \mathrm{d}z \\
 &= \int_{0}^{\infty} f_X(z) \int_{0}^{z} 1 \, \mathrm{d}x \, \mathrm{d}z \\
-&= \int_{0}^{\infty} \left[x]_{0}^{z} \cdot f_X(z) \, \mathrm{d}z \\
+&= \int_{0}^{\infty} [x]_{0}^{z} \cdot f_X(z) \, \mathrm{d}z \\
 &= \int_{0}^{\infty} z \cdot f_X(z) \, \mathrm{d}z \\
 \end{split}
 $$
 
 and by applying the [definition of the expected value](/D/mean), we see that
 
-$$ \label{eq:mean-cdf-s4}
+$$ \label{eq:mean-cdf-s3}
 \int_{0}^{\infty} (1 - F_X(x)) \, \mathrm{d}x = \int_{0}^{\infty} z \cdot f_X(z) \, \mathrm{d}z = \mathrm{E}(X)
 $$
 

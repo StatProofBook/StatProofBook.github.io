@@ -109,3 +109,10 @@ title: "Proof by Number"
 | P100 | mvn-dent | [Differential entropy of the multivariate normal distribution](/P/mvn-dent) | JoramSoch | 2020-05-14 |
 | P101 | norm-dent | [Differential entropy of the normal distribution](/P/norm-dent) | JoramSoch | 2020-05-14 |
 | P102 | poiss-pmf | [Probability mass function of the Poisson distribution](/P/poiss-pmf) | JoramSoch | 2020-05-14 |
+| P103 | mean-nnrvar | [Expected value of a non-negative random variable](/P/mean-nnrvar) | JoramSoch | 2020-05-18 |
+| P104 | var-mean | [Partition of variance into expected values](/P/var-mean) | JoramSoch | 2020-05-19 |
+| P105 | logreg-pnlo | [Probability and log-odds in logistic regression](/P/logreg-pnlo) | JoramSoch | 2020-05-19 |
+| P106 | glm-ols | [Ordinary least squares for the general linear model](/P/glm-ols) | JoramSoch | 2020-05-19 |
+| P107 | glm-wls | [Weighted least squares for the general linear model](/P/glm-wls) | JoramSoch | 2020-05-19 |
+| P108 | gam-mean | [Mean of the gamma distribution](/P/gam-mean) | JoramSoch | 2020-05-19 |
+| P109 | gam-var | [Variance of the gamma distribution](/P/gam-var) | JoramSoch | 2020-05-19 |

@@ -41,7 +41,7 @@ is the cumulative distribution function of $X$.
 2) Let $X$ be a scalar continuous [random variable](/D/rvar) with the [probability density function](/D/pdf) $f_X(x)$. Then, the function $F_X(x): \mathbb{R} \to [0,1]$ with
 
 $$ \label{eq:cdf-cont}
-F_X(x) = \int_{-\infty}^{x} f_X(z) \, \mathrm{d}x
+F_X(x) = \int_{-\infty}^{x} f_X(z) \, \mathrm{d}z
 $$
 
 is the cumulative distribution function of $X$.

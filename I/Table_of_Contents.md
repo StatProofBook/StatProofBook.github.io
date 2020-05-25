@@ -194,7 +194,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 4.1.2. **[Probability density function](/P/mvn-pdf)** <br>
    &emsp;&ensp; 4.1.3. **[Differential entropy](/P/mvn-dent)** <br>
    &emsp;&ensp; 4.1.4. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.5. **[Linear transformation theorem](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.5. **[Linear transformation](/P/mvn-ltt)** <br>
    &emsp;&ensp; 4.1.6. **[Marginal distributions](/P/mvn-marg)** <br>
    &emsp;&ensp; 4.1.7. **[Conditional distributions](/P/mvn-cond)** <br>
    

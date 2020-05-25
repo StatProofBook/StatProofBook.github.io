@@ -26,6 +26,7 @@ title: "Proofs without Source"
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
+- [Ordinary least squares for the general linear model](/P/glm-ols)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
@@ -44,3 +45,4 @@ title: "Proofs without Source"
 - [Quantile function of the exponential distribution](/P/exp-qf)
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
+- [Weighted least squares for the general linear model](/P/glm-wls)

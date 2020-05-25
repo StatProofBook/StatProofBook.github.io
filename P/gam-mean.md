@@ -47,13 +47,13 @@ $$
 
 With the [probability density function of the gamma distribution](/P/gam-pdf), this reads:
 
-\begin{equation} \label{eq:gam-mean-s1}
+$$ \label{eq:gam-mean-s1}
 \begin{split}
 \mathrm{E}(X) &= \int_{0}^{\infty} x \cdot \frac{b^a}{\Gamma(a)} x^{a-1} \exp[-b x] \, \mathrm{d}x \\
 &= \int_{0}^{\infty} \frac{b^a}{\Gamma(a)} x^{(a+1)-1} \exp[-b x] \, \mathrm{d}x \\
 &= \int_{0}^{\infty} \frac{1}{b} \cdot \frac{b^{a+1}}{\Gamma(a)} x^{(a+1)-1} \exp[-b x] \, \mathrm{d}x \; .
 \end{split}
-\end{equation}
+$$
 
 Employing the relation $\Gamma(x+1) = \Gamma(x) \cdot x$, we have
 
@@ -63,9 +63,9 @@ $$
 
 and again using the [density of the gamma distribution](/P/gam-pdf), we get
 
-\begin{equation} \label{eq:gam-mean-s3}
+$$ \label{eq:gam-mean-s3}
 \begin{split}
 \mathrm{E}(X) &= \frac{a}{b} \int_{0}^{\infty} \mathrm{Gam}(x; a+1, b) \, \mathrm{d}x \\
 &= \frac{a}{b} \; .
 \end{split}
-\end{equation}
+$$

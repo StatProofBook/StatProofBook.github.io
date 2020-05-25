@@ -42,11 +42,11 @@ $$
 
 which, due to the [linearity of the expected value](/D/mean-lin), can be rewritten as
 
-\begin{equation} \label{eq:var-mean-qed}
+$$ \label{eq:var-mean-qed}
 \begin{split}
 \mathrm{Var}(X) &= \mathrm{E}\left[ \left( X - \mathrm{E}[X] \right)^2 \right] \\
 &= \mathrm{E}\left[ X^2 - 2 \, X \, \mathrm{E}(X) + \mathrm{E}(X)^2 \right] \\
 &= \mathrm{E}(X^2) - 2 \, \mathrm{E}(X) \, \mathrm{E}(X) + \mathrm{E}(X)^2 \\
 &= \mathrm{E}(X^2) - \mathrm{E}(X)^2 \; .
 \end{split}
-\end{equation}
+$$
