@@ -18,6 +18,7 @@ sources:
     year: 2014
     title: "Expected value of a non-negative random variable"
     in: "StackExchange Mathematics"
+    pages: "retrieved on 2020-05-18"
     url: "https://math.stackexchange.com/questions/958472/expected-value-of-a-non-negative-random-variable"
 
 proof_id: "P103"
