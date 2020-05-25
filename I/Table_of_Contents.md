@@ -128,7 +128,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.2.3. **[Mean](/P/bin-mean)** <br>
    
    1.3. Poisson distribution <br>
-   &emsp;&ensp; 1.3.1. **[Probability mass function](/P/poiss-pmf)** <br>
+   &emsp;&ensp; 1.3.1. *[Definition](/D/poiss)* <br>
+   &emsp;&ensp; 1.3.2. **[Probability mass function](/P/poiss-pmf)** <br>
 
 2. Multivariate discrete distributions
 
