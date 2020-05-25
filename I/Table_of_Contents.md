@@ -171,7 +171,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.3.2. **[Probability density function](/P/gam-pdf)** <br>
    &emsp;&ensp; 3.3.3. **[Mean](/P/gam-mean)** <br>
    &emsp;&ensp; 3.3.4. **[Variance](/P/gam-var)** <br>
-   &emsp;&ensp; 3.3.5. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.3.5. **[Logarithmic expectation](/P/gam-logmean)** <br>
+   &emsp;&ensp; 3.3.6. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
    3.4. Exponential distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/exp)* <br>
