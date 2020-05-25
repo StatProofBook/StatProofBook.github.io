@@ -18,6 +18,7 @@ sources:
     year: 2018
     title: "Entropy of the multivariate Gaussian"
     in: "StackExchange Mathematics"
+    pages: "retrieved on 2020-05-14"
     url: "https://math.stackexchange.com/questions/2029707/entropy-of-the-multivariate-gaussian"
 
 proof_id: "P100"
