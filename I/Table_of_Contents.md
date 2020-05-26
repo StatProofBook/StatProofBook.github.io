@@ -156,24 +156,28 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
-   &emsp;&ensp; 3.2.2. **[Probability density function](/P/norm-pdf)** <br>
-   &emsp;&ensp; 3.2.3. **[Cumulative distribution function](/P/norm-cdf)** <br>
-   &emsp;&ensp; 3.2.4. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.5. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.6. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.7. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.8. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.9. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.10. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.11. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.2. *[Standard normal distribution](/D/snorm)* <br>
+   &emsp;&ensp; 3.2.3. **[Relation to standard normal distribution](/P/norm-snorm)** <br>
+   &emsp;&ensp; 3.2.4. **[Probability density function](/P/norm-pdf)** <br>
+   &emsp;&ensp; 3.2.5. **[Cumulative distribution function](/P/norm-cdf)** <br>
+   &emsp;&ensp; 3.2.6. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
+   &emsp;&ensp; 3.2.7. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.8. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.9. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.10. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.11. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.12. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.13. **[Moment-generating function](/P/norm-mgf)** <br>
 
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
-   &emsp;&ensp; 3.3.2. **[Probability density function](/P/gam-pdf)** <br>
-   &emsp;&ensp; 3.3.3. **[Mean](/P/gam-mean)** <br>
-   &emsp;&ensp; 3.3.4. **[Variance](/P/gam-var)** <br>
-   &emsp;&ensp; 3.3.5. **[Logarithmic expectation](/P/gam-logmean)** <br>
-   &emsp;&ensp; 3.3.6. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.3.2. *[Standard gamma distribution](/D/sgam)* <br>
+   &emsp;&ensp; 3.3.3. **[Relation to standard gamma distribution](/P/gam-sgam)** <br>
+   &emsp;&ensp; 3.3.4. **[Probability density function](/P/gam-pdf)** <br>
+   &emsp;&ensp; 3.3.5. **[Mean](/P/gam-mean)** <br>
+   &emsp;&ensp; 3.3.6. **[Variance](/P/gam-var)** <br>
+   &emsp;&ensp; 3.3.7. **[Logarithmic expectation](/P/gam-logmean)** <br>
+   &emsp;&ensp; 3.3.8. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
    3.4. Exponential distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/exp)* <br>
