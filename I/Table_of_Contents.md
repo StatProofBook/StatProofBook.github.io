@@ -15,42 +15,47 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 
 1. Probability theory
    
-   1.1. Probability <br>
-   &emsp;&ensp; 1.1.1. *[Probability](/D/prob)* <br>
-   &emsp;&ensp; 1.1.2. *[Joint probability](/D/prob-joint)* <br>
-   &emsp;&ensp; 1.1.3. *[Marginal probability](/D/prob-marg)* <br>
-   &emsp;&ensp; 1.1.4. *[Conditional probability](/D/prob-cond)* <br>
+   1.1. Random variables <br>
+   &emsp;&ensp; 1.1.1. *[Random variable](/D/rvar)* <br>
+   &emsp;&ensp; 1.1.2. *[Random vector](/D/rvec)* <br>
+   &emsp;&ensp; 1.1.3. *[Random matrix](/D/rmat)* <br>
    
-   1.2. Probability distributions <br>
-   &emsp;&ensp; 1.2.1. *[Probability distribution](/D/dist)* <br>
-   &emsp;&ensp; 1.2.2. *[Joint distribution](/D/dist-joint)* <br>
-   &emsp;&ensp; 1.2.3. *[Marginal distribution](/D/dist-marg)* <br>
-   &emsp;&ensp; 1.2.4. *[Conditional distribution](/D/dist-cond)* <br>
+   1.2. Probability <br>
+   &emsp;&ensp; 1.2.1. *[Probability](/D/prob)* <br>
+   &emsp;&ensp; 1.2.2. *[Joint probability](/D/prob-joint)* <br>
+   &emsp;&ensp; 1.2.3. *[Marginal probability](/D/prob-marg)* <br>
+   &emsp;&ensp; 1.2.4. *[Conditional probability](/D/prob-cond)* <br>
    
-   1.3. Probability functions <br>
-   &emsp;&ensp; 1.3.1. *[Probability mass function](/D/pmf)* <br>
-   &emsp;&ensp; 1.3.2. *[Probability density function](/D/pdf)* <br>
-   &emsp;&ensp; 1.3.3. *[Cumulative distribution function](/D/cdf)* <br>
-   &emsp;&ensp; 1.3.4. *[Quantile function](/D/qf)* <br>
-   &emsp;&ensp; 1.3.5. *[Moment-generating function](/D/mgf)* <br>
+   1.3. Probability distributions <br>
+   &emsp;&ensp; 1.3.1. *[Probability distribution](/D/dist)* <br>
+   &emsp;&ensp; 1.3.2. *[Joint distribution](/D/dist-joint)* <br>
+   &emsp;&ensp; 1.3.3. *[Marginal distribution](/D/dist-marg)* <br>
+   &emsp;&ensp; 1.3.4. *[Conditional distribution](/D/dist-cond)* <br>
    
-   1.4. Expected value <br>
-   &emsp;&ensp; 1.4.1. *[Definition](/D/mean)* <br>
-   &emsp;&ensp; 1.4.2. **[Non-negative random variable](/P/mean-nnrvar)** <br>
-   &emsp;&ensp; 1.4.3. **[Non-negativity](/P/mean-nonneg)** <br>
-   &emsp;&ensp; 1.4.4. **[Linearity](/P/mean-lin)** <br>
-   &emsp;&ensp; 1.4.5. **[Monotonicity](/P/mean-mono)** <br>
-   &emsp;&ensp; 1.4.6. **[(Non-)Multiplicitavity](/P/mean-mult)** <br>
+   1.4. Probability functions <br>
+   &emsp;&ensp; 1.4.1. *[Probability mass function](/D/pmf)* <br>
+   &emsp;&ensp; 1.4.2. *[Probability density function](/D/pdf)* <br>
+   &emsp;&ensp; 1.4.3. *[Cumulative distribution function](/D/cdf)* <br>
+   &emsp;&ensp; 1.4.4. *[Quantile function](/D/qf)* <br>
+   &emsp;&ensp; 1.4.5. *[Moment-generating function](/D/mgf)* <br>
    
-   1.5. Variance <br>
-   &emsp;&ensp; 1.5.1. *[Definition](/D/var)* <br>
-   &emsp;&ensp; 1.5.2. **[Partition into expected values](/P/var-mean)** <br>
+   1.5. Expected value <br>
+   &emsp;&ensp; 1.5.1. *[Definition](/D/mean)* <br>
+   &emsp;&ensp; 1.5.2. **[Non-negative random variable](/P/mean-nnrvar)** <br>
+   &emsp;&ensp; 1.5.3. **[Non-negativity](/P/mean-nonneg)** <br>
+   &emsp;&ensp; 1.5.4. **[Linearity](/P/mean-lin)** <br>
+   &emsp;&ensp; 1.5.5. **[Monotonicity](/P/mean-mono)** <br>
+   &emsp;&ensp; 1.5.6. **[(Non-)Multiplicitavity](/P/mean-mult)** <br>
+   
+   1.6. Variance <br>
+   &emsp;&ensp; 1.6.1. *[Definition](/D/var)* <br>
+   &emsp;&ensp; 1.6.2. **[Partition into expected values](/P/var-mean)** <br>
 
 2. Frequentist statistics
    
    2.1. Likelihood theory <br>
    &emsp;&ensp; 2.1.1. *[Likelihood function](/D/lf)* <br>
-   &emsp;&ensp; 2.1.2. *[Log-Likelihood function](/D/llf)* <br>
+   &emsp;&ensp; 2.1.2. *[Log-likelihood function](/D/llf)* <br>
    &emsp;&ensp; 2.1.3. *[Maximum likelihood estimation](/D/mle)* <br>
    &emsp;&ensp; 2.1.4. *[Maximum log-likelihood](/D/mll)* <br>
 
@@ -108,6 +113,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    
    5.5. Kullback-Leibler divergence <br>
    &emsp;&ensp; 5.5.1. *[Definition](/D/kl)* <br>
+   &emsp;&ensp; 5.5.2. **[Relation to discrete entropy](/P/kl-ent)** <br>
+   &emsp;&ensp; 5.5.3. **[Relation to differential entropy](/P/kl-dent)** <br>
+   &emsp;&ensp; 5.5.4. **[Invariance under parameter transformation](/P/kl-inv)** <br>
 
 
 <br>
