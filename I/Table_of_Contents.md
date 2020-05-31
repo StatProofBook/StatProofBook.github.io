@@ -38,6 +38,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.4.3. *[Cumulative distribution function](/D/cdf)* <br>
    &emsp;&ensp; 1.4.4. *[Quantile function](/D/qf)* <br>
    &emsp;&ensp; 1.4.5. *[Moment-generating function](/D/mgf)* <br>
+   &emsp;&ensp; 1.4.6. *[Cumulant-generating function](/D/cgf)* <br>
+   &emsp;&ensp; 1.4.7. *[Probability-generating function](/D/pgf)* <br>
    
    1.5. Expected value <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mean)* <br>
@@ -113,9 +115,11 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    
    5.5. Kullback-Leibler divergence <br>
    &emsp;&ensp; 5.5.1. *[Definition](/D/kl)* <br>
-   &emsp;&ensp; 5.5.2. **[Relation to discrete entropy](/P/kl-ent)** <br>
-   &emsp;&ensp; 5.5.3. **[Relation to differential entropy](/P/kl-dent)** <br>
+   &emsp;&ensp; 5.5.2. **[Non-negativity](/P/kl-nonneg)** <br>
+   &emsp;&ensp; 5.5.3. **[Additivity for independent distributions](/P/kl-add)** <br>
    &emsp;&ensp; 5.5.4. **[Invariance under parameter transformation](/P/kl-inv)** <br>
+   &emsp;&ensp; 5.5.5. **[Relation to discrete entropy](/P/kl-ent)** <br>
+   &emsp;&ensp; 5.5.6. **[Relation to differential entropy](/P/kl-dent)** <br>
 
 
 <br>
