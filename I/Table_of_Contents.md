@@ -52,6 +52,14 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    1.6. Variance <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/var)* <br>
    &emsp;&ensp; 1.6.2. **[Partition into expected values](/P/var-mean)** <br>
+   
+   1.7. Covariance <br>
+   &emsp;&ensp; 1.7.1. *[Definition](/D/cov)* <br>
+   &emsp;&ensp; 1.7.2. **[Partition into expected values](/P/cov-mean)** <br>
+   &emsp;&ensp; 1.7.3. **[Relationship to correlation](/P/cov-corr)** <br>
+   
+   1.8. Correlation <br>
+   &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
 
 2. Frequentist statistics
    
