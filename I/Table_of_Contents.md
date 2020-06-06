@@ -25,6 +25,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.2.2. *[Joint probability](/D/prob-joint)* <br>
    &emsp;&ensp; 1.2.3. *[Marginal probability](/D/prob-marg)* <br>
    &emsp;&ensp; 1.2.4. *[Conditional probability](/D/prob-cond)* <br>
+   &emsp;&ensp; 1.2.5. *[Statistical independence](/D/ind)* <br>
    
    1.3. Probability distributions <br>
    &emsp;&ensp; 1.3.1. *[Probability distribution](/D/dist)* <br>
@@ -52,14 +53,21 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    1.6. Variance <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/var)* <br>
    &emsp;&ensp; 1.6.2. **[Partition into expected values](/P/var-mean)** <br>
+   &emsp;&ensp; 1.6.3. **[Non-negativity](/P/var-nonneg)** <br>
    
    1.7. Covariance <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/cov)* <br>
    &emsp;&ensp; 1.7.2. **[Partition into expected values](/P/cov-mean)** <br>
    &emsp;&ensp; 1.7.3. **[Relationship to correlation](/P/cov-corr)** <br>
+   &emsp;&ensp; 1.7.4. *[Covariance matrix](/D/covmat)* <br>
+   &emsp;&ensp; 1.7.5. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.7.6. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.7.7. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.7.8. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
    1.8. Correlation <br>
    &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
+   &emsp;&ensp; 1.8.2. *[Correlation matrix](/D/corrmat)* <br>
 
 2. Frequentist statistics
    
