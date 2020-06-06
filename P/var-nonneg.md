@@ -21,7 +21,7 @@ sources:
     pages: "retrieved on 2020-06-06"
     url: "https://en.wikipedia.org/wiki/Variance#Basic_properties"
 
-proof_id: "123"
+proof_id: "P123"
 shortcut: "var-nonneg"
 username: "JoramSoch"
 ---

@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-05-27 22:48:00
 
-title: "Probability"
+title: "Random matrix"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Random variables"
@@ -27,4 +27,4 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** A random matrix, also called "matrix-valued random variable", is an $n \times p$ matrix $X \in \mathbb{R}^{n \times p}$ whose entries are [random variables](/D/rvar).
+**Definition:** A random matrix, also called "matrix-valued random variable", is an $n \times p$ matrix $X \in \mathbb{R}^{n \times p}$ whose entries are [random variables](/D/rvar). Equivalently, a random matrix is an $n \times p$ matrix whose columns are $n$-dimensional [random vectors](/D/rvec).

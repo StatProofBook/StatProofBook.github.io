@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-05-27 22:44:00
 
-title: "Probability"
+title: "Random vector"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Random variables"

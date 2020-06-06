@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X = [X_1, \ldots, X_n]^\mathrm{T}$ be a [random vector](/D/rvec). Then, the precision matrix of $X$ is defined as inverse of the [covariance matrix](/D/covmat) of $X$:
+**Definition:** Let $X = [X_1, \ldots, X_n]^\mathrm{T}$ be a [random vector](/D/rvec). Then, the precision matrix of $X$ is defined as the inverse of the [covariance matrix](/D/covmat) of $X$:
 
 $$ \label{eq:corrmat}
 \Lambda_{XX} = \Sigma_{XX}^{-1} =

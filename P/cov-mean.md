@@ -40,7 +40,7 @@ $$ \label{eq:cov}
 \mathrm{Cov}(X,Y) = \mathrm{E}\left[ (X-\mathrm{E}[X]) (Y-\mathrm{E}[Y]) \right] \; .
 $$
 
-which, due to the [linearity of the expected value](/D/mean-lin), can be rewritten as
+which, due to the [linearity of the expected value](/P/mean-lin), can be rewritten as
 
 $$ \label{eq:cov-mean-qed}
 \begin{split}
