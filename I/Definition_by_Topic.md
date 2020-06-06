@@ -23,6 +23,11 @@ title: "Definition by Topic"
 - [Conditional entropy](/D/ent-cond)
 - [Conditional probability distribution](/D/dist-cond)
 - [Continuous uniform distribution](/D/cuni)
+- [Correlation](/D/corr)
+- [Correlation matrix](/D/corrmat)
+- [Covariance](/D/cov)
+- [Covariance matrix](/D/covmat)
+- [Cumulant-generating function](/D/cgf)
 - [Cumulative distribution function](/D/cdf)
 
 ### D
@@ -84,18 +89,22 @@ title: "Definition by Topic"
 ### N
 
 - [Normal distribution](/D/norm)
+- [Normal distribution](/D/snorm)
 - [Normal-gamma distribution](/D/ng)
 
 ### P
 
+- [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
 - [Poisson-distributed data](/D/poiss-data)
 - [Posterior distribution](/D/post)
+- [Precision matrix](/D/precmat)
 - [Prior distribution](/D/prior)
 - [Probability](/D/prob)
 - [Probability density function](/D/pdf)
 - [Probability distribution](/D/dist)
 - [Probability mass function](/D/pmf)
+- [Probability-generating function](/D/pgf)
 
 ### Q
 
@@ -103,6 +112,9 @@ title: "Definition by Topic"
 
 ### R
 
+- [Random matrix](/D/rmat)
+- [Random variable](/D/rvar)
+- [Random vector](/D/rvec)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 
@@ -110,6 +122,8 @@ title: "Definition by Topic"
 
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)
+- [Standard gamma distribution](/D/sgam)
+- [Statistical independence](/D/ind)
 
 ### T
 

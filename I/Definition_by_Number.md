@@ -68,3 +68,17 @@ title: "Definition by Number"
 | D59 | llf | [Log-likelihood function](/D/llf) | JoramSoch | 2020-05-17 |
 | D60 | mle | [Maximum likelihood estimation](/D/mle) | JoramSoch | 2020-05-15 |
 | D61 | mll | [Maximum log-likelihood](/D/mll) | JoramSoch | 2020-05-15 |
+| D62 | poiss | [Poisson distribution](/D/poiss) | JoramSoch | 2020-05-25 |
+| D63 | snorm | [Normal distribution](/D/snorm) | JoramSoch | 2020-05-26 |
+| D64 | sgam | [Standard gamma distribution](/D/sgam) | JoramSoch | 2020-05-26 |
+| D65 | rvar | [Random variable](/D/rvar) | JoramSoch | 2020-05-27 |
+| D66 | rvec | [Random vector](/D/rvec) | JoramSoch | 2020-05-27 |
+| D67 | rmat | [Random matrix](/D/rmat) | JoramSoch | 2020-05-27 |
+| D68 | cgf | [Cumulant-generating function](/D/cgf) | JoramSoch | 2020-05-31 |
+| D69 | pgf | [Probability-generating function](/D/pgf) | JoramSoch | 2020-05-31 |
+| D70 | cov | [Covariance](/D/cov) | JoramSoch | 2020-06-02 |
+| D71 | corr | [Correlation](/D/corr) | JoramSoch | 2020-06-02 |
+| D72 | covmat | [Covariance matrix](/D/covmat) | JoramSoch | 2020-06-06 |
+| D73 | corrmat | [Correlation matrix](/D/corrmat) | JoramSoch | 2020-06-06 |
+| D74 | precmat | [Precision matrix](/D/precmat) | JoramSoch | 2020-06-06 |
+| D75 | ind | [Statistical independence](/D/ind) | JoramSoch | 2020-06-06 |
