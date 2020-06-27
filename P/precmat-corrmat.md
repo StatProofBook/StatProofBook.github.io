@@ -16,7 +16,7 @@ theorem: "Precision matrix and correlation matrix"
 sources:
 
 proof_id: "P122"
-shortcut: "covmat-corrmat"
+shortcut: "precmat-corrmat"
 username: "JoramSoch"
 ---
 
@@ -45,7 +45,7 @@ $$ \label{eq:precmat-covmat}
 \Lambda_{XX} = \Sigma_{XX}^{-1}
 $$
 
-and the relation between [covariance matrix](/D/covmat) and [correlation matrix](/D/corrmat) is given by
+and the [relation between covariance matrix and correlation matrix](/P/covmat-corrmat) is given by
 
 $$ \label{eq:covmat-corrmat}
 \Sigma_{XX} = \mathrm{D}_X \cdot \mathrm{C}_{XX} \cdot \mathrm{D}_X

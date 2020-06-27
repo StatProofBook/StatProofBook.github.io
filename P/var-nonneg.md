@@ -52,7 +52,7 @@ are also non-negative, thus the entire sum must be non-negative.
 <br>
 2) If $X$ is a continuous [random variable](/D/rvar), then, because squares and probability densities are strictly non-negative, the integrand in
 
-$$ \label{eq:VAR-cont}
+$$ \label{eq:var-cont}
 \mathrm{Var}(X) = \int_{\mathcal{X}} (x-\mathrm{E}(X))^2 \cdot f_X(x) \, \mathrm{d}x
 $$
 
