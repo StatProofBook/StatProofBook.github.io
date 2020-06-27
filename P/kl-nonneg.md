@@ -33,7 +33,7 @@ $$ \label{eq:KL-nonneg}
 \mathrm{KL}[P||Q] \geq 0
 $$
 
-with $\mathrm{KL}[P||Q] = 0$, if and only if $P = Q$.
+with $\mathrm{KL}[P \vert \vert Q] = 0$, if and only if $P = Q$.
 
 
 **Proof:** The discrete [Kullback-Leibler divergence](/D/kl) is defined as
@@ -48,7 +48,7 @@ $$ \label{eq:KL-dev}
 \mathrm{KL}[P||Q] = \sum_{x \in \mathcal{X}} p(x) \cdot \log p(x) - \sum_{x \in \mathcal{X}} p(x) \cdot \log q(x) \, \mathrm{d}x \; .
 $$
 
-[Gibbs' inequality] states that the [entropy](/D/ent) of a probability distribution is always less than or equal to the [cross-entropy](/D/ent-cross) with another probability distribution – with equality only if the distributions are identical –,
+[Gibbs' inequality](/P/gibbs-ineq) states that the [entropy](/D/ent) of a probability distribution is always less than or equal to the [cross-entropy](/D/ent-cross) with another probability distribution – with equality only if the distributions are identical –,
 
 $$ \label{eq:Gibbs-ineq}
 - \sum_{i=1}^n p(x_i) \, \log p(x_i) \leq - \sum_{i=1}^n p(x_i) \, \log q(x_i)

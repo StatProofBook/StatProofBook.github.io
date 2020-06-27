@@ -69,73 +69,73 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
    &emsp;&ensp; 1.8.2. *[Correlation matrix](/D/corrmat)* <br>
 
-2. Frequentist statistics
+2. Information theory
    
-   2.1. Likelihood theory <br>
-   &emsp;&ensp; 2.1.1. *[Likelihood function](/D/lf)* <br>
-   &emsp;&ensp; 2.1.2. *[Log-likelihood function](/D/llf)* <br>
-   &emsp;&ensp; 2.1.3. *[Maximum likelihood estimation](/D/mle)* <br>
-   &emsp;&ensp; 2.1.4. *[Maximum log-likelihood](/D/mll)* <br>
+   2.1. Shannon entropy <br>
+   &emsp;&ensp; 2.1.1. *[Definition](/D/ent)* <br>
+   &emsp;&ensp; 2.1.2. **[Non-negativity](/P/ent-nonneg)** <br>
+   &emsp;&ensp; 2.1.3. *[Conditional entropy](/D/ent-cond)* <br>
+   &emsp;&ensp; 2.1.4. *[Joint entropy](/D/ent-joint)* <br>
+   
+   2.2. Differential entropy <br>
+   &emsp;&ensp; 2.2.1. *[Definition](/D/dent)* <br>
+   &emsp;&ensp; 2.2.2. **[Negativity](/P/dent-neg)** <br>
+   &emsp;&ensp; 2.2.3. *[Conditional differential entropy](/D/dent-cond)* <br>
+   &emsp;&ensp; 2.2.4. *[Joint differential entropy](/D/dent-joint)* <br>
+   
+   2.3. Discrete mutual information <br>
+   &emsp;&ensp; 2.3.1. *[Definition](/D/mi)* <br>
+   &emsp;&ensp; 2.3.2. **[Relation to marginal and conditional entropy](/P/dmi-mce)** <br>
+   &emsp;&ensp; 2.3.3. **[Relation to marginal and joint entropy](/P/dmi-mje)** <br>
+   &emsp;&ensp; 2.3.4. **[Relation to joint and conditional entropy](/P/dmi-jce)** <br>
+   
+   2.4. Continuous mutual information <br>
+   &emsp;&ensp; 2.4.1. *[Definition](/D/mi)* <br>
+   &emsp;&ensp; 2.4.2. **[Relation to marginal and conditional differential entropy](/P/cmi-mcde)** <br>
+   &emsp;&ensp; 2.4.3. **[Relation to marginal and joint differential entropy](/P/cmi-mjde)** <br>
+   &emsp;&ensp; 2.4.4. **[Relation to joint and conditional differential entropy](/P/cmi-jcde)** <br>
+   
+   2.5. Kullback-Leibler divergence <br>
+   &emsp;&ensp; 2.5.1. *[Definition](/D/kl)* <br>
+   &emsp;&ensp; 2.5.2. **[Non-negativity](/P/kl-nonneg)** <br>
+   &emsp;&ensp; 2.5.3. **[Additivity for independent distributions](/P/kl-add)** <br>
+   &emsp;&ensp; 2.5.4. **[Invariance under parameter transformation](/P/kl-inv)** <br>
+   &emsp;&ensp; 2.5.5. **[Relation to discrete entropy](/P/kl-ent)** <br>
+   &emsp;&ensp; 2.5.6. **[Relation to differential entropy](/P/kl-dent)** <br>
 
-3. Bayesian statistics
+3. Estimation theory
+   
+   3.1. Point estimates <br>
+   &emsp;&ensp; 3.1.1. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
+   
+   3.2. Interval estimates <br>
+   &emsp;&ensp; 3.2.1. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
 
-   3.1. Probabilistic modeling <br>
-   &emsp;&ensp; 3.1.1. *[Generative model](/D/gm)* <br>
-   &emsp;&ensp; 3.1.2. *[Likelihood function](/D/lf)* <br>
-   &emsp;&ensp; 3.1.3. *[Prior distribution](/D/prior)* <br>
-   &emsp;&ensp; 3.1.4. *[Full probability model](/D/fpm)* <br>
-   &emsp;&ensp; 3.1.5. *[Joint likelihood](/D/jl)* <br>
-   &emsp;&ensp; 3.1.6. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
-   &emsp;&ensp; 3.1.7. *[Posterior distribution](/D/post)* <br>
-   &emsp;&ensp; 3.1.8. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
-   &emsp;&ensp; 3.1.9. *[Marginal likelihood](/D/ml)* <br>
-   &emsp;&ensp; 3.1.10. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
+4. Frequentist statistics
    
-   3.2. Bayesian inference <br>
-   &emsp;&ensp; 3.2.1. **[Bayes' theorem](/P/bayes-th)** <br>
-   &emsp;&ensp; 3.2.2. **[Bayes' rule](/P/bayes-rule)** <br>
+   4.1. Likelihood theory <br>
+   &emsp;&ensp; 4.1.1. *[Likelihood function](/D/lf)* <br>
+   &emsp;&ensp; 4.1.2. *[Log-likelihood function](/D/llf)* <br>
+   &emsp;&ensp; 4.1.3. *[Maximum likelihood estimation](/D/mle)* <br>
+   &emsp;&ensp; 4.1.4. *[Maximum log-likelihood](/D/mll)* <br>
 
-4. Estimation theory
-
-   4.1. Point estimates <br>
-   &emsp;&ensp; 4.1.1. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
+5. Bayesian statistics
    
-   4.2. Interval estimates <br>
-   &emsp;&ensp; 4.2.1. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
+   5.1. Probabilistic modeling <br>
+   &emsp;&ensp; 5.1.1. *[Generative model](/D/gm)* <br>
+   &emsp;&ensp; 5.1.2. *[Likelihood function](/D/lf)* <br>
+   &emsp;&ensp; 5.1.3. *[Prior distribution](/D/prior)* <br>
+   &emsp;&ensp; 5.1.4. *[Full probability model](/D/fpm)* <br>
+   &emsp;&ensp; 5.1.5. *[Joint likelihood](/D/jl)* <br>
+   &emsp;&ensp; 5.1.6. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
+   &emsp;&ensp; 5.1.7. *[Posterior distribution](/D/post)* <br>
+   &emsp;&ensp; 5.1.8. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
+   &emsp;&ensp; 5.1.9. *[Marginal likelihood](/D/ml)* <br>
+   &emsp;&ensp; 5.1.10. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
-5. Information theory
-
-   5.1. Shannon entropy <br>
-   &emsp;&ensp; 5.1.1. *[Definition](/D/ent)* <br>
-   &emsp;&ensp; 5.1.2. **[Non-negativity](/P/ent-nonneg)** <br>
-   &emsp;&ensp; 5.1.3. *[Conditional entropy](/D/ent-cond)* <br>
-   &emsp;&ensp; 5.1.4. *[Joint entropy](/D/ent-joint)* <br>
-   
-   5.2. Differential entropy <br>
-   &emsp;&ensp; 5.2.1. *[Definition](/D/dent)* <br>
-   &emsp;&ensp; 5.2.2. **[Negativity](/P/dent-neg)** <br>
-   &emsp;&ensp; 5.2.3. *[Conditional differential entropy](/D/dent-cond)* <br>
-   &emsp;&ensp; 5.2.4. *[Joint differential entropy](/D/dent-joint)* <br>
-
-   5.3. Discrete mutual information <br>
-   &emsp;&ensp; 5.3.1. *[Definition](/D/mi)* <br>
-   &emsp;&ensp; 5.3.2. **[Relation to marginal and conditional entropy](/P/dmi-mce)** <br>
-   &emsp;&ensp; 5.3.3. **[Relation to marginal and joint entropy](/P/dmi-mje)** <br>
-   &emsp;&ensp; 5.3.4. **[Relation to joint and conditional entropy](/P/dmi-jce)** <br>
-   
-   5.4. Continuous mutual information <br>
-   &emsp;&ensp; 5.4.1. *[Definition](/D/mi)* <br>
-   &emsp;&ensp; 5.4.2. **[Relation to marginal and conditional differential entropy](/P/cmi-mcde)** <br>
-   &emsp;&ensp; 5.4.3. **[Relation to marginal and joint differential entropy](/P/cmi-mjde)** <br>
-   &emsp;&ensp; 5.4.4. **[Relation to joint and conditional differential entropy](/P/cmi-jcde)** <br>
-   
-   5.5. Kullback-Leibler divergence <br>
-   &emsp;&ensp; 5.5.1. *[Definition](/D/kl)* <br>
-   &emsp;&ensp; 5.5.2. **[Non-negativity](/P/kl-nonneg)** <br>
-   &emsp;&ensp; 5.5.3. **[Additivity for independent distributions](/P/kl-add)** <br>
-   &emsp;&ensp; 5.5.4. **[Invariance under parameter transformation](/P/kl-inv)** <br>
-   &emsp;&ensp; 5.5.5. **[Relation to discrete entropy](/P/kl-ent)** <br>
-   &emsp;&ensp; 5.5.6. **[Relation to differential entropy](/P/kl-dent)** <br>
+   5.2. Bayesian inference <br>
+   &emsp;&ensp; 5.2.1. **[Bayes' theorem](/P/bayes-th)** <br>
+   &emsp;&ensp; 5.2.2. **[Bayes' rule](/P/bayes-rule)** <br>
 
 
 <br>

@@ -8,6 +8,10 @@ title: "Proof by Topic"
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 
+### A
+
+- [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
+
 ### B
 
 - [Bayes' rule](/P/bayes-rule)
@@ -43,6 +47,10 @@ title: "Proof by Topic"
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 
+### I
+
+- [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
+
 ### J
 
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
@@ -64,6 +72,7 @@ title: "Proof by Topic"
 - [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
+- [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
 
 ### M
 
@@ -94,8 +103,10 @@ title: "Proof by Topic"
 
 ### N
 
+- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the expected value](/P/mean-nonneg)
+- [Non-negativity of the variance](/P/var-nonneg)
 
 ### O
 
@@ -105,6 +116,8 @@ title: "Proof by Topic"
 
 ### P
 
+- [Partition of a covariance matrix into expected values](/P/covmat-mean)
+- [Partition of covariance into expected values](/P/cov-mean)
 - [Partition of sums of squares in ordinary least squares](/P/mlr-pss)
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
@@ -142,6 +155,10 @@ title: "Proof by Topic"
 
 ### R
 
+- [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam)
+- [Relation between normal distribution and standard normal distribution](/P/norm-snorm)
+- [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
+- [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)
 - [Relation of continuous mutual information to marginal and conditional differential entropy](/P/cmi-mcde)
 - [Relation of continuous mutual information to marginal and joint differential entropy](/P/cmi-mjde)
@@ -149,6 +166,9 @@ title: "Proof by Topic"
 - [Relation of mutual information to marginal and conditional entropy](/P/dmi-mce)
 - [Relation of mutual information to marginal and joint entropy](/P/dmi-mje)
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
+- [Relationship between covariance and correlation](/P/cov-corr)
+- [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
+- [Relationship between precision matrix and correlation matrix](/P/covmat-corrmat)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 
 ### T

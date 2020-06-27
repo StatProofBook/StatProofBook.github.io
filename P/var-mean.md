@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a [random variable](/D/rvar). Then, the [variance](/D/var) of $X$ is equal to the [mean](/D/mean) of the square of X minus the square of the [mean](/D/mean) of X:
+**Theorem:** Let $X$ be a [random variable](/D/rvar). Then, the [variance](/D/var) of $X$ is equal to the [mean](/D/mean) of the square of $X$ minus the square of the [mean](/D/mean) of $X$:
 
 $$ \label{eq:var-mean}
 \mathrm{Var}(X) = \mathrm{E}(X^2) - \mathrm{E}(X)^2 \; .
@@ -40,7 +40,7 @@ $$ \label{eq:var}
 \mathrm{Var}(X) = \mathrm{E}\left[ \left( X - \mathrm{E}[X] \right)^2 \right]
 $$
 
-which, due to the [linearity of the expected value](/D/mean-lin), can be rewritten as
+which, due to the [linearity of the expected value](/P/mean-lin), can be rewritten as
 
 $$ \label{eq:var-mean-qed}
 \begin{split}

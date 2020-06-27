@@ -18,6 +18,7 @@ sources:
     year: 2013
     title: "Gamma random variable: mean & variance"
     in: "YouTube"
+    pages: "retrieved on 2020-05-19"
     url: "https://www.youtube.com/watch?v=Sy4wP-Y2dmA"
 
 proof_id: "P108"

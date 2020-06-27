@@ -116,3 +116,17 @@ title: "Proof by Number"
 | P107 | glm-wls | [Weighted least squares for the general linear model](/P/glm-wls) | JoramSoch | 2020-05-19 |
 | P108 | gam-mean | [Mean of the gamma distribution](/P/gam-mean) | JoramSoch | 2020-05-19 |
 | P109 | gam-var | [Variance of the gamma distribution](/P/gam-var) | JoramSoch | 2020-05-19 |
+| P110 | gam-logmean | [Logarithmic expectation of the gamma distribution](/P/gam-logmean) | JoramSoch | 2020-05-25 |
+| P111 | norm-snorm | [Relation between normal distribution and standard normal distribution](/P/norm-snorm) | JoramSoch | 2020-05-26 |
+| P112 | gam-sgam | [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam) | JoramSoch | 2020-05-26 |
+| P113 | kl-ent | [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent) | JoramSoch | 2020-05-27 |
+| P114 | kl-dent | [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent) | JoramSoch | 2020-05-27 |
+| P115 | kl-inv | [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv) | JoramSoch | 2020-05-28 |
+| P116 | kl-add | [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add) | JoramSoch | 2020-05-31 |
+| P117 | kl-nonneg | [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg) | JoramSoch | 2020-05-31 |
+| P118 | cov-mean | [Partition of covariance into expected values](/P/cov-mean) | JoramSoch | 2020-06-02 |
+| P119 | cov-corr | [Relationship between covariance and correlation](/P/cov-corr) | JoramSoch | 2020-06-02 |
+| P120 | covmat-mean | [Partition of a covariance matrix into expected values](/P/covmat-mean) | JoramSoch | 2020-06-06 |
+| P121 | covmat-corrmat | [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat) | JoramSoch | 2020-06-06 |
+| P122 | covmat-corrmat | [Relationship between precision matrix and correlation matrix](/P/covmat-corrmat) | JoramSoch | 2020-06-06 |
+| P123 | var-nonneg | [Non-negativity of the variance](/P/var-nonneg) | JoramSoch | 2020-02-13 |
