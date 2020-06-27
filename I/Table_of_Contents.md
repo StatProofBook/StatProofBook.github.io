@@ -54,6 +54,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.6.1. *[Definition](/D/var)* <br>
    &emsp;&ensp; 1.6.2. **[Partition into expected values](/P/var-mean)** <br>
    &emsp;&ensp; 1.6.3. **[Non-negativity](/P/var-nonneg)** <br>
+   &emsp;&ensp; 1.6.4. **[Variance of a constant](/P/var-const)** <br>
+   &emsp;&ensp; 1.6.5. **[Variance equals zero](/P/var-zero)** <br>
    
    1.7. Covariance <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/cov)* <br>
