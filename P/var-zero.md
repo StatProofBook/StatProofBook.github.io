@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** If the [variance](/D/var) of $X$ is zero, then $X$ is a constant:
+**Theorem:** If the [variance](/D/var) of $X$ is zero, then $X$ is a [constant](/D/const):
 
 $$ \label{eq:var-zero}
 \mathrm{Var}(X) = 0 \quad \Rightarrow \quad X = \text{const.}
@@ -52,7 +52,7 @@ $$ \label{eq:X-eq-E-X}
 X = \mathrm{E}(X)
 $$
 
-which can only be the case, if $X$ always has the same value:
+which can only be the case, if $X$ [always has the same value](/D/const):
 
 $$ \label{eq:X-const}
 X = \text{const.}

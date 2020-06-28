@@ -300,11 +300,13 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 3. Probability data
 
    3.1. Beta-distributed data <br>
-   &emsp;&ensp; 3.1.1. **[Method of moments](/P/beta-mom)** <br>
+   &emsp;&ensp; 3.1.1. *[Definition](/D/beta-data)* <br>
+   &emsp;&ensp; 3.1.2. **[Method of moments](/P/beta-mom)** <br>
    
    3.2. Logistic regression <br>
-   &emsp;&ensp; 3.2.1. **[Probability and log-odds](/P/logreg-pnlo)** <br>
-   &emsp;&ensp; 3.2.2. **[Log-odds and probability](/P/logreg-lonp)** <br>
+   &emsp;&ensp; 3.2.1. *[Definition](/D/logreg)* <br>
+   &emsp;&ensp; 3.2.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
+   &emsp;&ensp; 3.2.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
 
 4. Categorical data
    
