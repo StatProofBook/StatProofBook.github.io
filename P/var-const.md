@@ -42,13 +42,13 @@ $$
 
 Plugged into the formula of the [variance](/D/var), we have
 
-\begin{equation} \label{eq:var-const-s1}
+$$ \label{eq:var-const-s1}
 \begin{split}
 \mathrm{Var}(a) &= \mathrm{E}\left[ (a-\mathrm{E}(a))^2 \right] \\
 &= \mathrm{E}\left[ (a-a)^2 \right] \\
 &= \mathrm{E}(0) \; .
 \end{split}
-\end{equation}
+$$
 
 Applied to the formula of the [expected value](/D/mean), this gives
 
