@@ -56,6 +56,11 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.6.3. **[Non-negativity](/P/var-nonneg)** <br>
    &emsp;&ensp; 1.6.4. **[Variance of a constant](/P/var-const)** <br>
    &emsp;&ensp; 1.6.5. **[Variance equals zero](/P/var-zero)** <br>
+   &emsp;&ensp; 1.6.6. **[Invariance under addition](/P/var-inv)** <br>
+   &emsp;&ensp; 1.6.7. **[Scaling upon multiplication](/P/var-scal)** <br>
+   &emsp;&ensp; 1.6.8. **[Variance of a sum](/P/var-sum)** <br>
+   &emsp;&ensp; 1.6.9. **[Variance of linear combination](/P/var-lincomb)** <br>
+   &emsp;&ensp; 1.6.10. **[Additivity under independence](/P/var-add)** <br>
    
    1.7. Covariance <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/cov)* <br>
@@ -311,14 +316,16 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 4. Categorical data
    
    4.1. Binomial observations <br>
-   &emsp;&ensp; 4.1.1. **[Conjugate prior distribution](/P/bin-prior)** <br>
-   &emsp;&ensp; 4.1.2. **[Posterior distribution](/P/bin-post)** <br>
-   &emsp;&ensp; 4.1.3. **[Log model evidence](/P/bin-lme)** <br>
+   &emsp;&ensp; 4.1.1. *[Definition](/D/bin-data)* <br>
+   &emsp;&ensp; 4.1.2. **[Conjugate prior distribution](/P/bin-prior)** <br>
+   &emsp;&ensp; 4.1.3. **[Posterior distribution](/P/bin-post)** <br>
+   &emsp;&ensp; 4.1.4. **[Log model evidence](/P/bin-lme)** <br>
    
    4.2. Multinomial observations <br>
-   &emsp;&ensp; 4.2.1. **[Conjugate prior distribution](/P/mult-prior)** <br>
-   &emsp;&ensp; 4.2.2. **[Posterior distribution](/P/mult-post)** <br>
-   &emsp;&ensp; 4.2.3. **[Log model evidence](/P/mult-lme)** <br>
+   &emsp;&ensp; 4.2.1. *[Definition](/D/mult-data)* <br>
+   &emsp;&ensp; 4.2.2. **[Conjugate prior distribution](/P/mult-prior)** <br>
+   &emsp;&ensp; 4.2.3. **[Posterior distribution](/P/mult-post)** <br>
+   &emsp;&ensp; 4.2.4. **[Log model evidence](/P/mult-lme)** <br>
 
 
 <br>
