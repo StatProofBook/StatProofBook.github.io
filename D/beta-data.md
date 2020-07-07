@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-03-28 21:16:00
+date: 2020-06-28 21:16:00
 
 title: "Beta-distributed data"
 chapter: "Statistical Models"

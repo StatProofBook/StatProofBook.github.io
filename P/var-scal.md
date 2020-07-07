@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-07-07 05:38:00
 
-title: "Scaling of the variance upon multiplication a constant"
+title: "Scaling of the variance upon multiplication with a constant"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Variance"
