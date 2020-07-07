@@ -11,6 +11,7 @@ title: "Proof by Topic"
 ### A
 
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
+- [Additivity of the variance for independent random variables](/P/var-add)
 
 ### B
 
@@ -50,6 +51,7 @@ title: "Proof by Topic"
 ### I
 
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
+- [Invariance of the variance under addition of a constant](/P/var-inv)
 
 ### J
 
@@ -168,8 +170,12 @@ title: "Proof by Topic"
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
-- [Relationship between precision matrix and correlation matrix](/P/covmat-corrmat)
+- [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
+
+### S
+
+- [Scaling of the variance upon multiplication a constant](/P/var-scal)
 
 ### T
 
@@ -177,8 +183,12 @@ title: "Proof by Topic"
 
 ### V
 
+- [Variance of constant is zero](/P/var-const)
 - [Variance of the gamma distribution](/P/gam-var)
+- [Variance of the linear combination of two random variables](/P/var-lincomb)
 - [Variance of the normal distribution](/P/norm-var)
+- [Variance of the sum of two random variables](/P/var-sum)
+- [Variance zero implies constant](/P/var-zero)
 
 ### W
 

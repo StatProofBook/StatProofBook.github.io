@@ -4,13 +4,15 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (75 definitions)
+### JoramSoch (79 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
 - [Bernoulli distribution](/D/bern)
 - [Beta distribution](/D/beta)
+- [Beta-distributed data](/D/beta-data)
 - [Binomial distribution](/D/bin)
+- [Binomial observations](/D/bin-data)
 - [Categorical distribution](/D/cat)
 - [Coefficient of determination](/D/rsq)
 - [Conditional differential entropy](/D/dent-cond)
@@ -44,6 +46,7 @@ title: "Definition by Author"
 - [Likelihood function](/D/lf)
 - [Log model evidence](/D/lme)
 - [Log-likelihood function](/D/llf)
+- [Logistic regression](/D/logreg)
 - [Marginal likelihood](/D/ml)
 - [Marginal probability distribution](/D/dist-marg)
 - [Matrix-normal distribution](/D/matn)
@@ -51,6 +54,7 @@ title: "Definition by Author"
 - [Maximum log-likelihood](/D/mll)
 - [Moment-generating function](/D/mgf)
 - [Multinomial distribution](/D/mult)
+- [Multinomial observations](/D/mult-data)
 - [Multiple linear regression](/D/mlr)
 - [Multivariate normal distribution](/D/mvn)
 - [Mutual information](/D/mi)

@@ -13,7 +13,9 @@ title: "Definition by Topic"
 - [Bayesian information criterion](/D/bic)
 - [Bernoulli distribution](/D/bern)
 - [Beta distribution](/D/beta)
+- [Beta-distributed data](/D/beta-data)
 - [Binomial distribution](/D/bin)
+- [Binomial observations](/D/bin-data)
 
 ### C
 
@@ -72,6 +74,7 @@ title: "Definition by Topic"
 - [Likelihood function](/D/lf)
 - [Log model evidence](/D/lme)
 - [Log-likelihood function](/D/llf)
+- [Logistic regression](/D/logreg)
 
 ### M
 
@@ -82,6 +85,7 @@ title: "Definition by Topic"
 - [Maximum log-likelihood](/D/mll)
 - [Moment-generating function](/D/mgf)
 - [Multinomial distribution](/D/mult)
+- [Multinomial observations](/D/mult-data)
 - [Multiple linear regression](/D/mlr)
 - [Multivariate normal distribution](/D/mvn)
 - [Mutual information](/D/mi)
