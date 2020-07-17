@@ -128,5 +128,12 @@ title: "Proof by Number"
 | P119 | cov-corr | [Relationship between covariance and correlation](/P/cov-corr) | JoramSoch | 2020-06-02 |
 | P120 | covmat-mean | [Partition of a covariance matrix into expected values](/P/covmat-mean) | JoramSoch | 2020-06-06 |
 | P121 | covmat-corrmat | [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat) | JoramSoch | 2020-06-06 |
-| P122 | covmat-corrmat | [Relationship between precision matrix and correlation matrix](/P/covmat-corrmat) | JoramSoch | 2020-06-06 |
+| P122 | precmat-corrmat | [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat) | JoramSoch | 2020-06-06 |
 | P123 | var-nonneg | [Non-negativity of the variance](/P/var-nonneg) | JoramSoch | 2020-02-13 |
+| P124 | var-const | [Variance of constant is zero](/P/var-const) | JoramSoch | 2020-06-27 |
+| P125 | var-zero | [Variance zero implies constant](/P/var-zero) | JoramSoch | 2020-06-27 |
+| P126 | var-inv | [Invariance of the variance under addition of a constant](/P/var-inv) | JoramSoch | 2020-07-07 |
+| P127 | var-scal | [Scaling of the variance upon multiplication a constant](/P/var-scal) | JoramSoch | 2020-07-07 |
+| P128 | var-sum | [Variance of the sum of two random variables](/P/var-sum) | JoramSoch | 2020-07-07 |
+| P129 | var-lincomb | [Variance of the linear combination of two random variables](/P/var-lincomb) | JoramSoch | 2020-07-07 |
+| P130 | var-add | [Additivity of the variance for independent random variables](/P/var-add) | JoramSoch | 2020-07-07 |

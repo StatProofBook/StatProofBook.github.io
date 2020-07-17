@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-02-13 20:14:00
+date: 2020-06-06 07:29:00
 
 title: "Non-negativity of the variance"
 chapter: "General Theorems"

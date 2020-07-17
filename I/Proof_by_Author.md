@@ -4,10 +4,11 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (123 proofs)
+### JoramSoch (130 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
+- [Additivity of the variance for independent random variables](/P/var-add)
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
@@ -32,6 +33,7 @@ title: "Proof by Author"
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
+- [Invariance of the variance under addition of a constant](/P/var-inv)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
 - [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl)
@@ -122,11 +124,16 @@ title: "Proof by Author"
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
-- [Relationship between precision matrix and correlation matrix](/P/covmat-corrmat)
+- [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
+- [Scaling of the variance upon multiplication a constant](/P/var-scal)
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
+- [Variance of constant is zero](/P/var-const)
 - [Variance of the gamma distribution](/P/gam-var)
+- [Variance of the linear combination of two random variables](/P/var-lincomb)
 - [Variance of the normal distribution](/P/norm-var)
+- [Variance of the sum of two random variables](/P/var-sum)
+- [Variance zero implies constant](/P/var-zero)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
 - [Weighted least squares for the general linear model](/P/glm-wls)
 

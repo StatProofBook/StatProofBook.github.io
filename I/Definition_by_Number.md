@@ -82,3 +82,7 @@ title: "Definition by Number"
 | D73 | corrmat | [Correlation matrix](/D/corrmat) | JoramSoch | 2020-06-06 |
 | D74 | precmat | [Precision matrix](/D/precmat) | JoramSoch | 2020-06-06 |
 | D75 | ind | [Statistical independence](/D/ind) | JoramSoch | 2020-06-06 |
+| D76 | logreg | [Logistic regression](/D/logreg) | JoramSoch | 2020-06-28 |
+| D77 | beta-data | [Beta-distributed data](/D/beta-data) | JoramSoch | 2020-03-28 |
+| D78 | bin-data | [Binomial observations](/D/bin-data) | JoramSoch | 2020-07-07 |
+| D79 | mult-data | [Multinomial observations](/D/mult-data) | JoramSoch | 2020-07-07 |

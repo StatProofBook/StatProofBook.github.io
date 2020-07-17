@@ -47,6 +47,6 @@ title: "Proofs without Source"
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm)
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between covariance and correlation](/P/cov-corr)
-- [Relationship between precision matrix and correlation matrix](/P/covmat-corrmat)
+- [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Weighted least squares for the general linear model](/P/glm-wls)
