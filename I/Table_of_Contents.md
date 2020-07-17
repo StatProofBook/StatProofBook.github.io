@@ -49,6 +49,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.5.4. **[Linearity](/P/mean-lin)** <br>
    &emsp;&ensp; 1.5.5. **[Monotonicity](/P/mean-mono)** <br>
    &emsp;&ensp; 1.5.6. **[(Non-)Multiplicitavity](/P/mean-mult)** <br>
+   &emsp;&ensp; 1.5.7. **[Expectation of a quadratic form](/P/mean-qf)** <br>
    
    1.6. Variance <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/var)* <br>
@@ -283,6 +284,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.2.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
    &emsp;&ensp; 1.2.2. **[Posterior distribution](/P/blr-post)** <br>
    &emsp;&ensp; 1.2.3. **[Log model evidence](/P/blr-lme)** <br>
+   &emsp;&ensp; 1.2.4. **[Posterior probability](/P/blr-pp)** <br>
+   &emsp;&ensp; 1.2.5. **[Posterior credibility region](/P/blr-pcr)** <br>
    
    1.3. General linear model <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/glm)* <br>
@@ -368,10 +371,14 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.1.2. **[Derivation](/P/lme-der)** <br>
    &emsp;&ensp; 3.1.3. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
    
-   3.2. Log-evidence derivatives <br>
-   &emsp;&ensp; 3.2.1. **[Log Bayes factor in terms of log model evidences](/P/lbf-lme)** <br>
-   &emsp;&ensp; 3.2.2. **[Log family evidences in terms of log model evidences](/P/lfe-lme)** <br>
-   &emsp;&ensp; 3.2.3. **[Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)** <br>
-   &emsp;&ensp; 3.2.4. **[Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)** <br>
-   &emsp;&ensp; 3.2.5. **[Posterior model probabilities in terms of log model evidences](/P/pmp-lme)** <br>
-   &emsp;&ensp; 3.2.6. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
+   3.2. Log family evidence <br>
+   &emsp;&ensp; 3.2.1. *[Definition](/D/lfe)* <br>
+   &emsp;&ensp; 3.2.2. **[Derivation](/P/lfe-der)** <br>
+   &emsp;&ensp; 3.2.3. **[Calculation from log model evidences](/P/lfe-lme)** <br>
+   
+   3.3. Log-evidence derivatives <br>
+   &emsp;&ensp; 3.3.1. **[Log Bayes factor in terms of log model evidences](/P/lbf-lme)** <br>
+   &emsp;&ensp; 3.3.2. **[Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)** <br>
+   &emsp;&ensp; 3.3.3. **[Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)** <br>
+   &emsp;&ensp; 3.3.4. **[Posterior model probabilities in terms of log model evidences](/P/pmp-lme)** <br>
+   &emsp;&ensp; 3.3.5. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
