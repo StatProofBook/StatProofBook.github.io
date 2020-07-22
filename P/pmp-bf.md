@@ -34,10 +34,10 @@ $$ \label{eq:PMP-BF}
 p(m_i|y) = \frac{\mathrm{BF}_{i,0} \cdot \alpha_i}{\sum_{j=1}^{M} \mathrm{BF}_{j,0} \cdot \alpha_j}, \quad i = 1,\ldots,M \; ,
 $$
 
-where $\mathrm{BF}_{i,0}$ is the [Bayes factor](/D/bf) comparing model $m_i$ with $m_0$ and $\alpha_i$ is the prior odds ratio of model $m_i$ against $m_0$.
+where $\mathrm{BF}_{i,0}$ is the [Bayes factor](/D/lbf) comparing model $m_i$ with $m_0$ and $\alpha_i$ is the [prior](/D/prior) [odds ratio](/D/odds) of model $m_i$ against $m_0$.
 
 
-**Proof:** Define the Bayes factor
+**Proof:** Define the Bayes factor for $m_i$
 
 $$ \label{eq:BF-i0}
 \mathrm{BF}_{i,0} = \frac{p(y|m_i)}{p(y|m_0)}

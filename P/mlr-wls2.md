@@ -84,7 +84,7 @@ and setting this deriative to zero, we obtain:
 
 $$ \label{eq:WLS-qed}
 \begin{split}
-\frac{\mathrm{d}\mathrm{RSS}(\hat{\beta})}{\mathrm{d}\beta} &= 0 \\
+\frac{\mathrm{d}\mathrm{wRSS}(\hat{\beta})}{\mathrm{d}\beta} &= 0 \\
 0 &= - 2 X^\mathrm{T} V^{-1} y + 2 X^\mathrm{T} V^{-1} X \hat{\beta} \\
 X^\mathrm{T} V^{-1} X \hat{\beta} &= X^\mathrm{T} V^{-1} y \\
 \hat{\beta} &= (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} y \; .

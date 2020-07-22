@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-03-09 21:18:00
+date: 2020-07-22 06:28:00
 
 title: "Projection matrix and residual-forming matrix are idempotent"
 chapter: "Statistical Models"

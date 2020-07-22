@@ -11,7 +11,7 @@ title: "Posterior credibility region against the omnibus null hypothesis for Bay
 chapter: "Statistical Models"
 section: "Normal data"
 topic: "Bayesian linear regression"
-theorem: "Posterior credibility region"
+theorem: "Posterior credibility region excluding null hypothesis"
 
 sources:
   - authors: "Koch, Karl-Rudolf"

@@ -69,7 +69,7 @@ $$ \label{eq:mean-qf-s3}
 \mathrm{E}\left[ X^\mathrm{T} A X \right] =  \mathrm{tr} \left( A \; \mathrm{E}\left[ X X^\mathrm{T} \right] \right) \; .
 $$
 
-Note that the [covariance matrix can be partitioned into expected values](/D/covmat-mean)
+Note that the [covariance matrix can be partitioned into expected values](/P/covmat-mean)
 
 $$ \label{eq:covmat-mean}
 \mathrm{Cov}(X,X) = \mathrm{E}(X X^\mathrm{T}) - \mathrm{E}(X) \mathrm{E}(X)^\mathrm{T} \; ,

@@ -31,36 +31,35 @@ username: "JoramSoch"
 **Theorem:** Let $m_1$ and $m_2$ be two statistical models with [log model evidences](/D/lme) $\mathrm{LME}(m_1)$ and $\mathrm{LME}(m_2)$. Then, the [log Bayes factor](/D/lbf) in favor of model $m_1$ and against model $m_2$ is the difference of the log model evidences:
 
 $$ \label{eq:LBF-LME}
-\mathrm{LBF}_{1,2} = \mathrm{LME}(m_1) - \mathrm{LME}(m_2) \; .
+\mathrm{LBF}_{12} = \mathrm{LME}(m_1) - \mathrm{LME}(m_2) \; .
 $$
 
 
-**Proof:** The [log Bayes factor](/D/lbf) (LBF) is defined as the logarithm of the [Bayes factor](/D/bf) (BF) which is defined as the posterior odds ratio when both models are equally likely apriori:
+**Proof:** The [Bayes factor](/D/lbf) is defined as the ratio of the [model evidences](/D/ml) of $m_1$ and $m_2$
 
-$$ \label{eq:LBF-s1}
-\begin{split}
-\mathrm{LBF}_{1,2} &= \log \mathrm{BF}_{1,2} \\
-&= \log \frac{p(m_1|y)}{p(m_2|y)} \; .
-\end{split}
+$$ \label{eq:BF}
+\mathrm{BF}_{12} = \frac{p(y|m_1)}{p(y|m_2)}
 $$
 
-Plugging in the posterior odds ratio according to [Bayes' rule](/P/bayes-rule), we have
+and the [log Bayes factor](/D/lbf) is defined as the logarithm of the Bayes factor
 
-$$ \label{eq:LBF-s2}
-\mathrm{LBF}_{1,2} = \log \left[ \frac{p(y|m_1)}{p(y|m_2)} \cdot \frac{p(m_1)}{p(m_2)} \right] \; .
+$$ \label{eq:LBF}
+\mathrm{LBF}_{12} = \log \mathrm{BF}_{12} = \log \frac{p(y|m_1)}{p(y|m_2)} \; .
 $$
 
-When both models are equally likely apriori, the prior odds ratio is one, such that
+With the definition of the [log model evidence](/D/lme)
 
-$$ \label{eq:LBF-s3}
-\mathrm{LBF}_{1,2} = \log \frac{p(y|m_1)}{p(y|m_2)} \; .
+$$ \label{eq:LME}
+\mathrm{LME}(m) = \log p(y|m)
 $$
+
+the log Bayes factor can be expressed as:
 
 Resolving the logarithm and applying the definition of the [log model evidence](/D/lme), we finally have:
 
-$$ \label{eq:LBF-s4}
+$$ \label{eq:LBF-LME-qed}
 \begin{split}
-\mathrm{LBF}_{1,2} &= \log p(y|m_1) - \log p(y|m_2) \\
+\mathrm{LBF}_{12} &= \log p(y|m_1) - \log p(y|m_2) \\
 &= \mathrm{LME}(m_1) - \mathrm{LME}(m_2) \; .
 \end{split}
 $$

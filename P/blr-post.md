@@ -33,7 +33,7 @@ $$ \label{eq:GLM}
 y = X \beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \sigma^2 V)
 $$
 
-be a [linear regression model](/D/mlr) with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$, known $n \times n$ covariance structure $V$ and unknown $p \times 1$ regression coefficients $\beta$ and noise variance $\sigma^2$.  Moreover, assume a [normal-gamma prior distribution](/P/blr-prior) over the model parameters $\beta$ and $\tau = 1/\sigma^2$:
+be a [linear regression model](/D/mlr) with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$, known $n \times n$ [covariance structure](/D/covmat) $V$ and unknown $p \times 1$ regression coefficients $\beta$ and noise variance $\sigma^2$.  Moreover, assume a [normal-gamma prior distribution](/P/blr-prior) over the model parameters $\beta$ and $\tau = 1/\sigma^2$:
 
 $$ \label{eq:GLM-NG-prior}
 p(\beta,\tau) = \mathcal{N}(\beta; \mu_0, (\tau \Lambda_0)^{-1}) \cdot \mathrm{Gam}(\tau; a_0, b_0) \; .
@@ -81,10 +81,10 @@ $$ \label{eq:GLM-LF-Bayes}
 p(y|\beta,\tau) = \mathcal{N}(y; X \beta, (\tau P)^{-1}) = \sqrt{\frac{|\tau P|}{(2 \pi)^n}} \, \exp\left[ -\frac{\tau}{2} (y-X\beta)^\mathrm{T} P (y-X\beta) \right]
 $$
 
-using the noise precision $\tau = 1/\sigma^2$ and the $n \times n$ precision matrix $P = V^{-1}$.
+using the noise precision $\tau = 1/\sigma^2$ and the $n \times n$ [precision matrix](/D/precmat) $P = V^{-1}$.
 
 <br>
-Combining the likelihood function \eqref{eq:GLM-LF-Bayes} with the prior distribution \eqref{eq:GLM-NG-prior}, the sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss of the model is given by
+Combining the [likelihood function](/D/lf) \eqref{eq:GLM-LF-Bayes} with the [prior distribution](/D/prior) \eqref{eq:GLM-NG-prior}, the [joint likelihood](/D/jl) of the model is given by
 
 $$ \label{eq:GLM-NG-JL-s1}
 \begin{split}
