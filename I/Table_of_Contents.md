@@ -50,6 +50,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.5.5. **[Monotonicity](/P/mean-mono)** <br>
    &emsp;&ensp; 1.5.6. **[(Non-)Multiplicitavity](/P/mean-mult)** <br>
    &emsp;&ensp; 1.5.7. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.5.8. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
    
    1.6. Variance <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/var)* <br>
@@ -276,9 +277,14 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.1.5. *[Explained sum of squares](/D/ess)* <br>
    &emsp;&ensp; 1.1.6. *[Residual sum of squares](/D/rss)* <br>
    &emsp;&ensp; 1.1.7. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
-   &emsp;&ensp; 1.1.8. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
-   &emsp;&ensp; 1.1.9. **[Weighted least squares](/P/mlr-wls)** <br>
-   &emsp;&ensp; 1.1.10. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   &emsp;&ensp; 1.1.8. *[Estimation matrix](/D/em)* <br>
+   &emsp;&ensp; 1.1.9. *[Projection matrix](/D/pm)* <br>
+   &emsp;&ensp; 1.1.10. *[Residual-forming matrix](/D/rfm)* <br>
+   &emsp;&ensp; 1.1.11. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
+   &emsp;&ensp; 1.1.12. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
+   &emsp;&ensp; 1.1.13. **[Weighted least squares (1)](/P/mlr-wls)** <br>
+   &emsp;&ensp; 1.1.14. **[Weighted least squares (2)](/P/mlr-wls2)** <br>
+   &emsp;&ensp; 1.1.15. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
    
    1.2. Bayesian linear regression <br>
    &emsp;&ensp; 1.2.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
@@ -376,9 +382,13 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.2.2. **[Derivation](/P/lfe-der)** <br>
    &emsp;&ensp; 3.2.3. **[Calculation from log model evidences](/P/lfe-lme)** <br>
    
-   3.3. Log-evidence derivatives <br>
-   &emsp;&ensp; 3.3.1. **[Log Bayes factor in terms of log model evidences](/P/lbf-lme)** <br>
-   &emsp;&ensp; 3.3.2. **[Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)** <br>
-   &emsp;&ensp; 3.3.3. **[Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)** <br>
-   &emsp;&ensp; 3.3.4. **[Posterior model probabilities in terms of log model evidences](/P/pmp-lme)** <br>
-   &emsp;&ensp; 3.3.5. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
+   3.3. Log Bayes factor <br>
+   &emsp;&ensp; 3.3.1. *[Definition](/D/lbf)* <br>
+   &emsp;&ensp; 3.3.2. **[Derivation](/P/lbf-der)** <br>
+   &emsp;&ensp; 3.3.3. **[Calculation from log model evidences](/P/lbf-lme)** <br>
+   
+   3.4. Log-evidence derivatives <br>
+   &emsp;&ensp; 3.4.1. **[Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)** <br>
+   &emsp;&ensp; 3.4.2. **[Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)** <br>
+   &emsp;&ensp; 3.4.3. **[Posterior model probabilities in terms of log model evidences](/P/pmp-lme)** <br>
+   &emsp;&ensp; 3.4.4. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
