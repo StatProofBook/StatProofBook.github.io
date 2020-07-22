@@ -41,6 +41,7 @@ title: "Definition by Topic"
 
 ### E
 
+- [Estimation matrix](/D/em)
 - [Expected value](/D/mean)
 - [Explained sum of squares](/D/ess)
 - [Exponential distribution](/D/exp)
@@ -72,6 +73,8 @@ title: "Definition by Topic"
 - [Law of conditional probability](/D/prob-cond)
 - [Law of marginal probability](/D/prob-marg)
 - [Likelihood function](/D/lf)
+- [Log Bayes factor](/D/lbf)
+- [Log family evidence](/D/lfe)
 - [Log model evidence](/D/lme)
 - [Log-likelihood function](/D/llf)
 - [Logistic regression](/D/logreg)
@@ -109,6 +112,7 @@ title: "Definition by Topic"
 - [Probability distribution](/D/dist)
 - [Probability mass function](/D/pmf)
 - [Probability-generating function](/D/pgf)
+- [Projection matrix](/D/pm)
 
 ### Q
 
@@ -121,6 +125,7 @@ title: "Definition by Topic"
 - [Random vector](/D/rvec)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
+- [Residual-forming matrix](/D/rfm)
 
 ### S
 

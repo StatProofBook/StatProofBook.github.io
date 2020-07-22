@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (79 definitions)
+### JoramSoch (84 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -28,6 +28,7 @@ title: "Definition by Author"
 - [Deviance information criterion](/D/dic)
 - [Differential entropy](/D/dent)
 - [Dirichlet distribution](/D/dir)
+- [Estimation matrix](/D/em)
 - [Expected value](/D/mean)
 - [Explained sum of squares](/D/ess)
 - [Exponential distribution](/D/exp)
@@ -44,6 +45,8 @@ title: "Definition by Author"
 - [Law of conditional probability](/D/prob-cond)
 - [Law of marginal probability](/D/prob-marg)
 - [Likelihood function](/D/lf)
+- [Log Bayes factor](/D/lbf)
+- [Log family evidence](/D/lfe)
 - [Log model evidence](/D/lme)
 - [Log-likelihood function](/D/llf)
 - [Logistic regression](/D/logreg)
@@ -72,12 +75,14 @@ title: "Definition by Author"
 - [Probability distribution](/D/dist)
 - [Probability mass function](/D/pmf)
 - [Probability-generating function](/D/pgf)
+- [Projection matrix](/D/pm)
 - [Quantile function](/D/qf)
 - [Random matrix](/D/rmat)
 - [Random variable](/D/rvar)
 - [Random vector](/D/rvec)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
+- [Residual-forming matrix](/D/rfm)
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)
 - [Standard gamma distribution](/D/sgam)

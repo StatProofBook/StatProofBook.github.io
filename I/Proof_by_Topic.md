@@ -36,6 +36,8 @@ title: "Proof by Topic"
 
 - [Derivation of R² and adjusted R²](/P/rsq-der)
 - [Derivation of the Bayesian information criterion](/P/bic-der)
+- [Derivation of the log Bayes factor](/P/lbf-der)
+- [Derivation of the log family evidence](/P/lfe-der)
 - [Derivation of the log model evidence](/P/lme-der)
 - [Differential entropy can be negative](/P/dent-neg)
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
@@ -44,6 +46,7 @@ title: "Proof by Topic"
 ### E
 
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
+- [Expectation of a quadratic form](/P/mean-qf)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
@@ -65,6 +68,7 @@ title: "Proof by Topic"
 
 ### L
 
+- [Law of the unconscious statistician](/P/mean-lotus)
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
 - [Linearity of the expected value](/P/mean-lin)
 - [Log Bayes factor in terms of log model evidences](/P/lbf-lme)
@@ -124,6 +128,7 @@ title: "Proof by Topic"
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
 - [Partition of variance into expected values](/P/var-mean)
+- [Posterior credibility region against the omnibus null hypothesis for Bayesian linear regression](/P/blr-pcr)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post)
 - [Posterior distribution for binomial observations](/P/bin-post)
@@ -132,6 +137,7 @@ title: "Proof by Topic"
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
+- [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
@@ -147,6 +153,7 @@ title: "Proof by Topic"
 - [Probability mass function of the binomial distribution](/P/bin-pmf)
 - [Probability mass function of the categorical distribution](/P/cat-pmf)
 - [Probability mass function of the multinomial distribution](/P/mult-pmf)
+- [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem)
 - [Proof Template](/P/-temp-)
 
 ### Q
@@ -175,7 +182,7 @@ title: "Proof by Topic"
 
 ### S
 
-- [Scaling of the variance upon multiplication a constant](/P/var-scal)
+- [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 
 ### T
 
@@ -193,4 +200,5 @@ title: "Proof by Topic"
 ### W
 
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
+- [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for the general linear model](/P/glm-wls)
