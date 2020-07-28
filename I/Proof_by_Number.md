@@ -145,3 +145,7 @@ title: "Proof by Number"
 | P136 | mlr-wls2 | [Weighted least squares for multiple linear regression](/P/mlr-wls2) | JoramSoch | 2020-07-22 |
 | P137 | lbf-der | [Derivation of the log Bayes factor](/P/lbf-der) | JoramSoch | 2020-07-22 |
 | P138 | mean-lotus | [Law of the unconscious statistician](/P/mean-lotus) | JoramSoch | 2020-07-22 |
+| P139 | pmp-der | [Derivation of the posterior model probability](/P/pmp-der) | JoramSoch | 2020-07-28 |
+| P140 | duni-pmf | [Probability mass function of the discrete uniform distribution](/P/duni-pmf) | JoramSoch | 2020-07-28 |
+| P141 | duni-cdf | [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf) | JoramSoch | 2020-07-28 |
+| P142 | duni-qf | [Quantile function of the discrete uniform distribution](/P/duni-qf) | JoramSoch | 2020-07-28 |

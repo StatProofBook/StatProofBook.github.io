@@ -87,7 +87,11 @@ title: "Definition by Number"
 | D78 | bin-data | [Binomial observations](/D/bin-data) | JoramSoch | 2020-07-07 |
 | D79 | mult-data | [Multinomial observations](/D/mult-data) | JoramSoch | 2020-07-07 |
 | D80 | lfe | [Log family evidence](/D/lfe) | JoramSoch | 2020-07-13 |
-| D81 | em | [Estimation matrix](/D/em) | JoramSoch | 2020-07-22 |
-| D82 | pm | [Projection matrix](/D/pm) | JoramSoch | 2020-07-22 |
-| D83 | rfm | [Residual-forming matrix](/D/rfm) | JoramSoch | 2020-07-22 |
+| D81 | emat | [Estimation matrix](/D/emat) | JoramSoch | 2020-07-22 |
+| D82 | pmat | [Projection matrix](/D/pmat) | JoramSoch | 2020-07-22 |
+| D83 | rfmat | [Residual-forming matrix](/D/rfmat) | JoramSoch | 2020-07-22 |
 | D84 | lbf | [Log Bayes factor](/D/lbf) | JoramSoch | 2020-07-22 |
+| D85 | ent-cross | [Cross-entropy](/D/ent-cross) | JoramSoch | 2020-07-28 |
+| D86 | dent-cross | [Differential cross-entropy](/D/dent-cross) | JoramSoch | 2020-07-28 |
+| D87 | pmp | [Posterior model probability](/D/pmp) | JoramSoch | 2020-07-28 |
+| D88 | duni | [Discrete uniform distribution](/D/duni) | JoramSoch | 2020-07-28 |

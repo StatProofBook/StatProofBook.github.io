@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-07-28 04:57:00
 
-title: "Probability density function of the discrete uniform distribution"
+title: "Probability mass function of the discrete uniform distribution"
 chapter: "Probability Distributions"
 section: "Univariate discrete distributions"
 topic: "Discrete uniform distribution"
@@ -16,7 +16,7 @@ theorem: "Probability mass function"
 sources:
 
 proof_id: "P140"
-shortcut: "cuni-pmf"
+shortcut: "duni-pmf"
 username: "JoramSoch"
 ---
 

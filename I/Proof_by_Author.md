@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (138 proofs)
+### JoramSoch (142 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -20,6 +20,7 @@ title: "Proof by Author"
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
+- [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 - [Cumulative distribution function of the normal distribution](/P/norm-cdf)
 - [Derivation of R² and adjusted R²](/P/rsq-der)
@@ -27,6 +28,7 @@ title: "Proof by Author"
 - [Derivation of the log Bayes factor](/P/lbf-der)
 - [Derivation of the log family evidence](/P/lfe-der)
 - [Derivation of the log model evidence](/P/lme-der)
+- [Derivation of the posterior model probability](/P/pmp-der)
 - [Differential entropy can be negative](/P/dent-neg)
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
@@ -113,9 +115,11 @@ title: "Proof by Author"
 - [Probability mass function of the Poisson distribution](/P/poiss-pmf)
 - [Probability mass function of the binomial distribution](/P/bin-pmf)
 - [Probability mass function of the categorical distribution](/P/cat-pmf)
+- [Probability mass function of the discrete uniform distribution](/P/duni-pmf)
 - [Probability mass function of the multinomial distribution](/P/mult-pmf)
 - [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem)
 - [Quantile function of the continuous uniform distribution](/P/cuni-qf)
+- [Quantile function of the discrete uniform distribution](/P/duni-qf)
 - [Quantile function of the exponential distribution](/P/exp-qf)
 - [Quantile function of the normal distribution](/P/norm-qf)
 - [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam)
