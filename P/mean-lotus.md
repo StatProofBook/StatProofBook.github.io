@@ -42,7 +42,7 @@ $$ \label{eq:mean-lotus-cont}
 $$
 
 
-**Proof:**
+**Proof:** Suppose that $g$ is differentiable and that its inverse $g^{-1}$ is monotonic.
 
 1) The [expected value](/D/mean) of $Y = g(X)$ is defined as
 
@@ -62,14 +62,14 @@ $$ \label{eq:mean-lotus-disc-s3}
 \mathrm{E}[g(X)] = \sum_{y \in \mathcal{Y}} y \sum_{x: \; g(x) = y} f_X(x) \; .
 $$
 
-Observe that $y = g(x)$ can be moved into the inner sum. Finally, noting that "for all $y$, then for all $x$, such that $g(x) = y$" is equivalent to "for all $x$", we can conclude that
+Observe that $y = g(x)$ can be moved into the inner sum. Finally, noting that "for all $y$, then for all $x$, such that $g(x) = y$" is equivalent to "for all $x$" if $g^{-1}$ is a monotonic function, we can conclude that
 
 $$ \label{eq:mean-lotus-disc-s4}
 \mathrm{E}[g(X)] = \sum_{x \in \mathcal{X}} g(x) f_X(x) \; .
 $$
 
 <br>
-2) Let $y = g(x)$, suppose that $g$ is differentiable and that its inverse $g^{-1}$ is monotonic. The derivative of an inverse function is
+2) Let $y = g(x)$. The derivative of an inverse function is
 
 $$ \label{eq:der-inv}
 \frac{\mathrm{d}}{\mathrm{d}y} (g^{-1}(y)) = \frac{1}{g'(g^{-1}(y))}

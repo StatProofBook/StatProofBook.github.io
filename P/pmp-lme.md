@@ -10,8 +10,8 @@ date: 2020-02-27 21:33:00
 title: "Posterior model probabilities in terms of log model evidences"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log-evidence derivatives"
-theorem: "Posterior model probabilities in terms of log model evidences"
+topic: "Posterior model probability"
+theorem: "Calculation from log model evidences"
 
 sources:
   - authors: "Soch J, Allefeld C"
@@ -34,18 +34,12 @@ $$ \label{eq:PMP-LME}
 p(m_i|y) = \frac{\exp[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \exp[\mathrm{LME}(m_j)] \, p(m_j)}, \quad i = 1,\ldots,M \; ,
 $$
 
-where $p(m_i)$ are prior model probabilities.
+where $p(m_i)$ are [prior](/D/prior) model probabilities.
 
 
-**Proof:** From [Bayes' theorem](/P/bayes-th), the [posterior model probability](/D/pmp) of model $m_i$ can be derived as
+**Proof:** The [posterior model probability](/P/pmp-der) can be derived as
 
 $$ \label{eq:PMP-s1}
-p(m_i|y) = \frac{p(y|m_i) \, p(m_i)}{p(y)} \; .
-$$
-
-Using the [law of marginal probability](/D/prob-marg), the denominator can be written as
-
-$$ \label{eq:PMP-s2}
 p(m_i|y) = \frac{p(y|m_i) \, p(m_i)}{\sum_{j=1}^{M} p(y|m_j) \, p(m_j)} \; .
 $$
 
@@ -61,8 +55,8 @@ $$ \label{eq:ME}
 \exp\left[ \mathrm{LME}(m) \right] = p(y|m)
 $$
 
-and applying \eqref{eq:ME} to \eqref{eq:PMP-s2}, we finally have:
+and applying \eqref{eq:ME} to \eqref{eq:PMP-s1}, we finally have:
 
-$$ \label{eq:PMP-s3}
+$$ \label{eq:PMP-s2}
 p(m_i|y) = \frac{\exp[\mathrm{LME}(m_i)] \, p(m_i)}{\sum_{j=1}^{M} \exp[\mathrm{LME}(m_j)] \, p(m_j)} \; .
 $$

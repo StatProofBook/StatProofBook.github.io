@@ -28,10 +28,10 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a discrete [random variable](/D/rvar) with possible outcomes $x_i, \; i = 1,\ldots,k$ and the (observed or assumed) [probability mass function](/D/pmf) $p(x) = f_X(x)$. Then, the entropy (also referred to as "Shannon entropy") of $X$ is defined as
+**Definition:** Let $X$ be a discrete [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and the (observed or assumed) [probability mass function](/D/pmf) $p(x) = f_X(x)$. Then, the entropy (also referred to as "Shannon entropy") of $X$ is defined as
 
 $$ \label{eq:ent}
-\mathrm{H}(X) = - \sum_{i=1}^{k} p(x_i) \cdot \log_b p(x_i)
+\mathrm{H}(X) = - \sum_{x \in \mathcal{X}} p(x) \cdot \log_b p(x)
 $$
 
 where $b$ is the base of the logarithm specifying in which unit the entropy is determined.

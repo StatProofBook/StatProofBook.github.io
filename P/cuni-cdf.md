@@ -43,7 +43,7 @@ $$
 **Proof:** The [probability density function of the continuous uniform distribution](/P/cuni-pdf) is:
 
 $$ \label{eq:cuni-pdf}
-\mathcal{U}(z; a, b) = \left\{
+\mathcal{U}(x; a, b) = \left\{
 \begin{array}{rl}
 \frac{1}{b-a} \; , & \text{if} \; a \leq x \leq b \\
 0 \; , & \text{otherwise} \; .

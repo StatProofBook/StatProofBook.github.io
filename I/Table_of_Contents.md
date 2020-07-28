@@ -285,9 +285,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.1.5. *[Explained sum of squares](/D/ess)* <br>
    &emsp;&ensp; 1.1.6. *[Residual sum of squares](/D/rss)* <br>
    &emsp;&ensp; 1.1.7. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
-   &emsp;&ensp; 1.1.8. *[Estimation matrix](/D/em)* <br>
-   &emsp;&ensp; 1.1.9. *[Projection matrix](/D/pm)* <br>
-   &emsp;&ensp; 1.1.10. *[Residual-forming matrix](/D/rfm)* <br>
+   &emsp;&ensp; 1.1.8. *[Estimation matrix](/D/emat)* <br>
+   &emsp;&ensp; 1.1.9. *[Projection matrix](/D/pmat)* <br>
+   &emsp;&ensp; 1.1.10. *[Residual-forming matrix](/D/rfmat)* <br>
    &emsp;&ensp; 1.1.11. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
    &emsp;&ensp; 1.1.12. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
    &emsp;&ensp; 1.1.13. **[Weighted least squares (1)](/P/mlr-wls)** <br>
@@ -300,7 +300,6 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.2.3. **[Log model evidence](/P/blr-lme)** <br>
    &emsp;&ensp; 1.2.4. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
    &emsp;&ensp; 1.2.5. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
-
    
    1.3. General linear model <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/glm)* <br>
