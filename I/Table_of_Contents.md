@@ -85,12 +85,14 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 2.1.2. **[Non-negativity](/P/ent-nonneg)** <br>
    &emsp;&ensp; 2.1.3. *[Conditional entropy](/D/ent-cond)* <br>
    &emsp;&ensp; 2.1.4. *[Joint entropy](/D/ent-joint)* <br>
+   &emsp;&ensp; 2.1.5. *[Cross-entropy](/D/ent-cross)* <br>
    
    2.2. Differential entropy <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/dent)* <br>
    &emsp;&ensp; 2.2.2. **[Negativity](/P/dent-neg)** <br>
    &emsp;&ensp; 2.2.3. *[Conditional differential entropy](/D/dent-cond)* <br>
    &emsp;&ensp; 2.2.4. *[Joint differential entropy](/D/dent-joint)* <br>
+   &emsp;&ensp; 2.2.5. *[Differential cross-entropy](/D/dent-cross)* <br>
    
    2.3. Discrete mutual information <br>
    &emsp;&ensp; 2.3.1. *[Definition](/D/mi)* <br>
@@ -154,19 +156,25 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 
 1. Univariate discrete distributions
 
-   1.1. Bernoulli distribution <br>
-   &emsp;&ensp; 1.1.1. *[Definition](/D/bern)* <br>
-   &emsp;&ensp; 1.1.2. **[Probability mass function](/P/bern-pmf)** <br>
-   &emsp;&ensp; 1.1.3. **[Mean](/P/bern-mean)** <br>
+   1.1. Discrete uniform distribution <br>
+   &emsp;&ensp; 1.1.1. *[Definition](/D/duni)* <br>
+   &emsp;&ensp; 1.1.2. **[Probability mass function](/P/duni-pmf)** <br>
+   &emsp;&ensp; 1.1.3. **[Cumulative distribution function](/P/duni-cdf)** <br>
+   &emsp;&ensp; 1.1.4. **[Quantile function](/P/duni-qf)** <br>
 
-   1.2. Binomial distribution <br>
-   &emsp;&ensp; 1.2.1. *[Definition](/D/bin)* <br>
-   &emsp;&ensp; 1.2.2. **[Probability mass function](/P/bin-pmf)** <br>
-   &emsp;&ensp; 1.2.3. **[Mean](/P/bin-mean)** <br>
+   1.2. Bernoulli distribution <br>
+   &emsp;&ensp; 1.2.1. *[Definition](/D/bern)* <br>
+   &emsp;&ensp; 1.2.2. **[Probability mass function](/P/bern-pmf)** <br>
+   &emsp;&ensp; 1.2.3. **[Mean](/P/bern-mean)** <br>
+
+   1.3. Binomial distribution <br>
+   &emsp;&ensp; 1.3.1. *[Definition](/D/bin)* <br>
+   &emsp;&ensp; 1.3.2. **[Probability mass function](/P/bin-pmf)** <br>
+   &emsp;&ensp; 1.3.3. **[Mean](/P/bin-mean)** <br>
    
-   1.3. Poisson distribution <br>
-   &emsp;&ensp; 1.3.1. *[Definition](/D/poiss)* <br>
-   &emsp;&ensp; 1.3.2. **[Probability mass function](/P/poiss-pmf)** <br>
+   1.4. Poisson distribution <br>
+   &emsp;&ensp; 1.4.1. *[Definition](/D/poiss)* <br>
+   &emsp;&ensp; 1.4.2. **[Probability mass function](/P/poiss-pmf)** <br>
 
 2. Multivariate discrete distributions
 
@@ -388,8 +396,12 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.3.2. **[Derivation](/P/lbf-der)** <br>
    &emsp;&ensp; 3.3.3. **[Calculation from log model evidences](/P/lbf-lme)** <br>
    
-   3.4. Log-evidence derivatives <br>
-   &emsp;&ensp; 3.4.1. **[Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)** <br>
-   &emsp;&ensp; 3.4.2. **[Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)** <br>
-   &emsp;&ensp; 3.4.3. **[Posterior model probabilities in terms of log model evidences](/P/pmp-lme)** <br>
-   &emsp;&ensp; 3.4.4. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
+   3.4. Posterior model probability <br>
+   &emsp;&ensp; 3.4.1. *[Definition](/D/pmp)* <br>
+   &emsp;&ensp; 3.4.2. **[Derivation](/P/pmp-der)** <br>
+   &emsp;&ensp; 3.4.3. **[Calculation from Bayes factors](/P/pmp-bf)** <br>
+   &emsp;&ensp; 3.4.4. **[Calculation from log Bayes factor](/P/pmp-lbf)** <br>
+   &emsp;&ensp; 3.4.5. **[Calculation from log model evidences](/P/pmp-lme)** <br>
+   
+   3.5. Log-evidence derivatives <br>
+   &emsp;&ensp; 3.5.1. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
