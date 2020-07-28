@@ -34,7 +34,7 @@ $$ \label{eq:LFE-LME}
 \mathrm{LFE}(f_j) = \log \sum_{m_i \in f_j} \left[ \exp[\mathrm{LME}(m_i)] \cdot p(m_i|f_j) \right], \quad j = 1, \ldots, F,
 $$
 
-where $p(m_i \vert f_j)$ are within-family prior model probabilities.
+where $p(m_i \vert f_j)$ are within-[family](/D/lfe) [prior](/D/prior) [model](/D/gm) [probabilities](/D/prob).
 
 
 **Proof:** Let us consider the (unlogarithmized) family evidence $p(y \vert f_j)$. According to the [law of marginal probability](/D/prob-marg), this conditional probability is given by

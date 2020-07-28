@@ -129,11 +129,19 @@ title: "Proof by Number"
 | P120 | covmat-mean | [Partition of a covariance matrix into expected values](/P/covmat-mean) | JoramSoch | 2020-06-06 |
 | P121 | covmat-corrmat | [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat) | JoramSoch | 2020-06-06 |
 | P122 | precmat-corrmat | [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat) | JoramSoch | 2020-06-06 |
-| P123 | var-nonneg | [Non-negativity of the variance](/P/var-nonneg) | JoramSoch | 2020-02-13 |
+| P123 | var-nonneg | [Non-negativity of the variance](/P/var-nonneg) | JoramSoch | 2020-06-06 |
 | P124 | var-const | [Variance of constant is zero](/P/var-const) | JoramSoch | 2020-06-27 |
 | P125 | var-zero | [Variance zero implies constant](/P/var-zero) | JoramSoch | 2020-06-27 |
 | P126 | var-inv | [Invariance of the variance under addition of a constant](/P/var-inv) | JoramSoch | 2020-07-07 |
-| P127 | var-scal | [Scaling of the variance upon multiplication a constant](/P/var-scal) | JoramSoch | 2020-07-07 |
+| P127 | var-scal | [Scaling of the variance upon multiplication with a constant](/P/var-scal) | JoramSoch | 2020-07-07 |
 | P128 | var-sum | [Variance of the sum of two random variables](/P/var-sum) | JoramSoch | 2020-07-07 |
 | P129 | var-lincomb | [Variance of the linear combination of two random variables](/P/var-lincomb) | JoramSoch | 2020-07-07 |
 | P130 | var-add | [Additivity of the variance for independent random variables](/P/var-add) | JoramSoch | 2020-07-07 |
+| P131 | mean-qf | [Expectation of a quadratic form](/P/mean-qf) | JoramSoch | 2020-07-13 |
+| P132 | lfe-der | [Derivation of the log family evidence](/P/lfe-der) | JoramSoch | 2020-07-13 |
+| P133 | blr-pp | [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp) | JoramSoch | 2020-07-17 |
+| P134 | blr-pcr | [Posterior credibility region against the omnibus null hypothesis for Bayesian linear regression](/P/blr-pcr) | JoramSoch | 2020-07-17 |
+| P135 | mlr-idem | [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem) | JoramSoch | 2020-07-22 |
+| P136 | mlr-wls2 | [Weighted least squares for multiple linear regression](/P/mlr-wls2) | JoramSoch | 2020-07-22 |
+| P137 | lbf-der | [Derivation of the log Bayes factor](/P/lbf-der) | JoramSoch | 2020-07-22 |
+| P138 | mean-lotus | [Law of the unconscious statistician](/P/mean-lotus) | JoramSoch | 2020-07-22 |

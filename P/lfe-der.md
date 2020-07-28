@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $f$ be a family of $M$ [generative models](/D/gm) $m_1, \ldots, m_M$ with [model evidences](/D/ml) $p(y|m_1), \ldots, p(y|m_M)$. Then, the [log family evidence](/D/lfe)
+**Theorem:** Let $f$ be a family of $M$ [generative models](/D/gm) $m_1, \ldots, m_M$ with [model evidences](/D/ml) $p(y \vert m_1), \ldots, p(y \vert m_M)$. Then, the [log family evidence](/D/lfe)
 
 $$ \label{eq:LFE-term}
 \mathrm{LFE}(f) = \log p(y|f)
@@ -33,7 +33,7 @@ $$ \label{eq:LFE-marg}
 \mathrm{LFE}(f) = \log \sum_{i=1}^M p(y|m_i) \, p(m_i|f)
 $$
 
-where $p(m_i|f)$ are the within-family prior model probabilities.
+where $p(m_i \vert f)$ are the within-[family](/D/lfe) [prior](/D/prior) [model](/D/gm) [probabilities](/D/prob).
 
 
 **Proof:** We will assume "prior addivivity"

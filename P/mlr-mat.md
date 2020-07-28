@@ -53,7 +53,7 @@ R &= I_n - X (X^\mathrm{T} X)^{-1} X^\mathrm{T}
 \end{split}
 $$
 
-are the estimation matrix, projection matrix and residual-forming matrix and $n$ is the number of observations.
+are the [estimation matrix](/D/em), [projection matrix](/D/pm) and [residual-forming matrix](/D/rfm) and $n$ is the number of observations.
 
 
 **Proof:**

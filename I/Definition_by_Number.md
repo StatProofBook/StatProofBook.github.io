@@ -83,6 +83,11 @@ title: "Definition by Number"
 | D74 | precmat | [Precision matrix](/D/precmat) | JoramSoch | 2020-06-06 |
 | D75 | ind | [Statistical independence](/D/ind) | JoramSoch | 2020-06-06 |
 | D76 | logreg | [Logistic regression](/D/logreg) | JoramSoch | 2020-06-28 |
-| D77 | beta-data | [Beta-distributed data](/D/beta-data) | JoramSoch | 2020-03-28 |
+| D77 | beta-data | [Beta-distributed data](/D/beta-data) | JoramSoch | 2020-06-28 |
 | D78 | bin-data | [Binomial observations](/D/bin-data) | JoramSoch | 2020-07-07 |
 | D79 | mult-data | [Multinomial observations](/D/mult-data) | JoramSoch | 2020-07-07 |
+| D80 | lfe | [Log family evidence](/D/lfe) | JoramSoch | 2020-07-13 |
+| D81 | em | [Estimation matrix](/D/em) | JoramSoch | 2020-07-22 |
+| D82 | pm | [Projection matrix](/D/pm) | JoramSoch | 2020-07-22 |
+| D83 | rfm | [Residual-forming matrix](/D/rfm) | JoramSoch | 2020-07-22 |
+| D84 | lbf | [Log Bayes factor](/D/lbf) | JoramSoch | 2020-07-22 |

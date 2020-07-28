@@ -47,13 +47,13 @@ $$ \label{eq:post-odds-s2}
 \frac{p(m_1|y)}{p(m_2|y)} = \frac{p(y|m_1)}{p(y|m_2)} \; .
 $$
 
-Now the right-hand side corresponds to the [Bayes factor](/D/bf), therefore
+Now the right-hand side corresponds to the [Bayes factor](/D/lbf), therefore
 
 $$ \label{eq:post-odds-s4}
-\frac{p(m_1|y)}{1-p(m_1|y)} = \mathrm{BF}_{1,2} \; .
+\frac{p(m_1|y)}{p(m_2|y)} = \mathrm{BF}_{1,2} \; .
 $$
 
-Because the two models are collectively exhaustive, we have
+Because the two posterior model probabilities add up to 1, we have
 
 $$ \label{eq:post-odds-s3}
 \frac{p(m_1|y)}{1-p(m_1|y)} = \mathrm{BF}_{1,2} \; .
@@ -65,7 +65,7 @@ $$ \label{eq:post-s1}
 p(m_1|y) = \frac{\mathrm{BF}_{1,2}}{\mathrm{BF}_{1,2} + 1} \; .
 $$
 
-Because the [log Bayes factor is the logarithm of the Bayes factor](/P/lbf-lme), we finally have
+Because the [log Bayes factor is the logarithm of the Bayes factor](/D/lbf), we finally have
 
 $$ \label{eq:post-s2}
 p(m_1|y) = \frac{\exp(\mathrm{LBF}_{1,2})}{\exp(\mathrm{LBF}_{1,2}) + 1} \; .

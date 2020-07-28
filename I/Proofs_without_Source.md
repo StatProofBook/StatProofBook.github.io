@@ -6,6 +6,8 @@ title: "Proofs without Source"
 
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
+- [Derivation of the log Bayes factor](/P/lbf-der)
+- [Derivation of the log family evidence](/P/lfe-der)
 - [Derivation of the log model evidence](/P/lme-der)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
@@ -49,4 +51,5 @@ title: "Proofs without Source"
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
+- [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for the general linear model](/P/glm-wls)

@@ -49,7 +49,7 @@ $$
 Since $V$ is a covariance matrix and thus symmetric, $W$ is also symmetric and can be expressed as the matrix square root of the inverse of $V$:
 
 $$ \label{eq:W-V}
-W W = V^{-1} \quad \Leftrightarrow \quad W = V^{-1/2} \; .
+W V W = I_n \quad \Leftrightarrow \quad V = W^{-1} W^{-1} \quad \Leftrightarrow \quad V^{-1} = W W \quad \Leftrightarrow \quad W = V^{-1/2} \; .
 $$
 
 Left-multiplying the linear regression equation \eqref{eq:MLR} with $W$, the [linear transformation theorem](/D/mvn-ltt) implies that

@@ -290,8 +290,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.2.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
    &emsp;&ensp; 1.2.2. **[Posterior distribution](/P/blr-post)** <br>
    &emsp;&ensp; 1.2.3. **[Log model evidence](/P/blr-lme)** <br>
-   &emsp;&ensp; 1.2.4. **[Posterior probability](/P/blr-pp)** <br>
-   &emsp;&ensp; 1.2.5. **[Posterior credibility region](/P/blr-pcr)** <br>
+   &emsp;&ensp; 1.2.4. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
+   &emsp;&ensp; 1.2.5. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
+
    
    1.3. General linear model <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/glm)* <br>

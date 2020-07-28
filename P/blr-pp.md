@@ -11,7 +11,7 @@ title: "Posterior probability of the alternative hypothesis for Bayesian linear 
 chapter: "Statistical Models"
 section: "Normal data"
 topic: "Bayesian linear regression"
-theorem: "Posterior probability"
+theorem: "Posterior probability of alternative hypothesis"
 
 sources:
   - authors: "Koch, Karl-Rudolf"
@@ -63,14 +63,14 @@ $$
 
 with the [posterior hyperparameters](/D/post)
 
-\begin{equation} \label{eq:GLM-NG-post-par}
+$$ \label{eq:GLM-NG-post-par}
 \begin{split}
 \mu_n &= \Lambda_n^{-1} (X^\mathrm{T} P y + \Lambda_0 \mu_0) \\
 \Lambda_n &= X^\mathrm{T} P X + \Lambda_0 \\
 a_n &= a_0 + \frac{n}{2} \\
 b_n &= b_0 + \frac{1}{2} (y^\mathrm{T} P y + \mu_0^\mathrm{T} \Lambda_0 \mu_0 - \mu_n^\mathrm{T} \Lambda_n \mu_n) \; .
 \end{split}
-\end{equation}
+$$
 
 The [marginal distribution of a normal-gamma distribution is a multivariate t-distribution](/P/ng-marg), such that the [marginal](/D/dist-marg) [posterior](/D/post) distribution of $\beta$ is
 
@@ -80,13 +80,13 @@ $$
 
 with the [posterior hyperparameters](/D/post)
 
-\begin{equation} \label{eq:GLM-NG-post-par-beta}
+$$ \label{eq:GLM-NG-post-par-beta}
 \begin{split}
 \mu &= \mu_n \\
 \Sigma &= \left( \frac{a_n}{b_n} \Lambda_n \right)^{-1} \\
 \nu &= 2 \, a_n \; .
 \end{split}
-\end{equation}
+$$
 
 Define the quantity $\gamma = c^\mathrm{T} \beta$. According to the [linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt), $\gamma$ also follows a [multivariate t-distribution](/D/mvt):
 
@@ -96,20 +96,20 @@ $$
 
 Because $c^\mathrm{T}$ is a $1 \times p$ vector, $\gamma$ is a scalar and actually has a [non-central scaled t-distribution](/D/ncst). Therefore, the posterior probability of $H_1$ can be calculated using a one-dimensional integral:
 
-\begin{equation} \label{eq:GLM-NG-post-prob-H0-s1}
+$$ \label{eq:GLM-NG-post-prob-H0-s1}
 \begin{split}
 \mathrm{Pr}\left( \mathrm{H}_1 | y \right) &= p(\gamma > 0|y) \\
 &= \int_{0}^{+\infty} p(\gamma|y) \, \mathrm{d}\gamma \\
 &= 1 - \int_{-\infty}^{0} p(\gamma|y) \, \mathrm{d}\gamma \\
 &= 1 - \mathrm{T}_\mathrm{ncst}(0; c^\mathrm{T} \mu, c^\mathrm{T} \Sigma \, c, \nu) \; .
 \end{split}
-\end{equation}
+$$
 
 Using [the relation between non-central scaled t-distribution and standard t-distribution](/P/ncst-t), we can finally write:
 
-\begin{equation} \label{eq:GLM-NG-post-prob-H0-s2}
+$$ \label{eq:GLM-NG-post-prob-H0-s2}
 \begin{split}
 \mathrm{Pr}\left( \mathrm{H}_1 | y \right) &= 1 - \mathrm{T}\left( \frac{(0 - c^\mathrm{T} \mu)}{\sqrt{c^\mathrm{T} \Sigma c}}; \nu \right) \\
 &= 1 - \mathrm{T}\left( -\frac{c^\mathrm{T} \mu}{\sqrt{c^\mathrm{T} \Sigma c}}; \nu \right) \; .
 \end{split}
-\end{equation}
+$$
