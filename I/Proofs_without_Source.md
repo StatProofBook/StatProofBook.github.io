@@ -5,10 +5,12 @@ title: "Proofs without Source"
 
 
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
+- [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 - [Derivation of the log Bayes factor](/P/lbf-der)
 - [Derivation of the log family evidence](/P/lfe-der)
 - [Derivation of the log model evidence](/P/lme-der)
+- [Derivation of the posterior model probability](/P/pmp-der)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Log model evidence for multinomial observations](/P/mult-lme)
@@ -42,8 +44,10 @@ title: "Proofs without Source"
 - [Probability mass function of the Poisson distribution](/P/poiss-pmf)
 - [Probability mass function of the binomial distribution](/P/bin-pmf)
 - [Probability mass function of the categorical distribution](/P/cat-pmf)
+- [Probability mass function of the discrete uniform distribution](/P/duni-pmf)
 - [Probability mass function of the multinomial distribution](/P/mult-pmf)
 - [Quantile function of the continuous uniform distribution](/P/cuni-qf)
+- [Quantile function of the discrete uniform distribution](/P/duni-qf)
 - [Quantile function of the exponential distribution](/P/exp-qf)
 - [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam)
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm)

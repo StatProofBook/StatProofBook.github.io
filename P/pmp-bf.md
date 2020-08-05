@@ -10,8 +10,8 @@ date: 2020-03-03 13:13:00
 title: "Posterior model probabilities in terms of Bayes factors"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log-evidence derivatives"
-theorem: "Posterior model probabilities in terms of Bayes factors"
+topic: "Posterior model probability"
+theorem: "Calculation from Bayes factors"
 
 sources:
   - authors: "Hoeting JA, Madigan D, Raftery AE, Volinsky CT"
@@ -37,7 +37,7 @@ $$
 where $\mathrm{BF}_{i,0}$ is the [Bayes factor](/D/lbf) comparing model $m_i$ with $m_0$ and $\alpha_i$ is the [prior](/D/prior) [odds ratio](/D/odds) of model $m_i$ against $m_0$.
 
 
-**Proof:** Define the Bayes factor for $m_i$
+**Proof:** Define the [Bayes factor](/D/lbf) for $m_i$
 
 $$ \label{eq:BF-i0}
 \mathrm{BF}_{i,0} = \frac{p(y|m_i)}{p(y|m_0)}
@@ -49,7 +49,7 @@ $$ \label{eq:prior-i0}
 \alpha_i = \frac{p(m_i)}{p(m_0)} \; .
 $$
 
-From [Bayes' theorem](/P/bayes-th), the posterior probability of $m_i$ follows as
+The [posterior model probability](/P/pmp-der) of $m_i$ is given by
 
 $$ \label{eq:PMP-s1}
 p(m_i|y) = \frac{p(y|m_i) \cdot p(m_i)}{\sum_{j=1}^{M} p(y|m_j) \cdot p(m_j)} \; .

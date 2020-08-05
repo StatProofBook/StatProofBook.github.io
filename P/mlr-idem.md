@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** The [projection matrix](/D/pm) and the [residual-forming matrix](/D/rfm) are idempotent:
+**Theorem:** The [projection matrix](/D/pmat) and the [residual-forming matrix](/D/rfmat) are idempotent:
 
 $$ \label{eq:P^2-R^2}
 \begin{split}

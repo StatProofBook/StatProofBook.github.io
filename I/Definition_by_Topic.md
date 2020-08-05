@@ -29,6 +29,7 @@ title: "Definition by Topic"
 - [Correlation matrix](/D/corrmat)
 - [Covariance](/D/cov)
 - [Covariance matrix](/D/covmat)
+- [Cross-entropy](/D/ent-cross)
 - [Cumulant-generating function](/D/cgf)
 - [Cumulative distribution function](/D/cdf)
 
@@ -36,12 +37,14 @@ title: "Definition by Topic"
 
 - [Definition Template](/D/-temp-)
 - [Deviance information criterion](/D/dic)
+- [Differential cross-entropy](/D/dent-cross)
 - [Differential entropy](/D/dent)
 - [Dirichlet distribution](/D/dir)
+- [Discrete uniform distribution](/D/duni)
 
 ### E
 
-- [Estimation matrix](/D/em)
+- [Estimation matrix](/D/emat)
 - [Expected value](/D/mean)
 - [Explained sum of squares](/D/ess)
 - [Exponential distribution](/D/exp)
@@ -105,6 +108,7 @@ title: "Definition by Topic"
 - [Poisson distribution with exposure values](/D/poissexp)
 - [Poisson-distributed data](/D/poiss-data)
 - [Posterior distribution](/D/post)
+- [Posterior model probability](/D/pmp)
 - [Precision matrix](/D/precmat)
 - [Prior distribution](/D/prior)
 - [Probability](/D/prob)
@@ -112,7 +116,7 @@ title: "Definition by Topic"
 - [Probability distribution](/D/dist)
 - [Probability mass function](/D/pmf)
 - [Probability-generating function](/D/pgf)
-- [Projection matrix](/D/pm)
+- [Projection matrix](/D/pmat)
 
 ### Q
 
@@ -125,7 +129,7 @@ title: "Definition by Topic"
 - [Random vector](/D/rvec)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
-- [Residual-forming matrix](/D/rfm)
+- [Residual-forming matrix](/D/rfmat)
 
 ### S
 
