@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (142 proofs)
+### JoramSoch (146 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -13,6 +13,7 @@ title: "Proof by Author"
 - [Bayes' theorem](/P/bayes-th)
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
+- [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
 - [Conjugate prior distribution for binomial observations](/P/bin-prior)
 - [Conjugate prior distribution for multinomial observations](/P/mult-prior)
@@ -23,6 +24,7 @@ title: "Proof by Author"
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 - [Cumulative distribution function of the normal distribution](/P/norm-cdf)
+- [Derivation of Bayesian model averaging](/P/bma-der)
 - [Derivation of R² and adjusted R²](/P/rsq-der)
 - [Derivation of the Bayesian information criterion](/P/bic-der)
 - [Derivation of the log Bayes factor](/P/lbf-der)
@@ -44,6 +46,7 @@ title: "Proof by Author"
 - [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl)
 - [Kullback-Leibler divergence for the normal-gamma distribution](/P/ng-kl)
 - [Law of the unconscious statistician](/P/mean-lotus)
+- [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
 - [Linearity of the expected value](/P/mean-lin)
 - [Log Bayes factor in terms of log model evidences](/P/lbf-lme)
@@ -139,6 +142,7 @@ title: "Proof by Author"
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
+- [Transposition of a matrix-normal random variable](/P/matn-trans)
 - [Variance of constant is zero](/P/var-const)
 - [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the linear combination of two random variables](/P/var-lincomb)

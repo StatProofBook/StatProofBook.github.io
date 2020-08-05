@@ -4,15 +4,18 @@ title: "Proofs without Source"
 ---
 
 
+- [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
+- [Derivation of Bayesian model averaging](/P/bma-der)
 - [Derivation of the log Bayes factor](/P/lbf-der)
 - [Derivation of the log family evidence](/P/lfe-der)
 - [Derivation of the log model evidence](/P/lme-der)
 - [Derivation of the posterior model probability](/P/pmp-der)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
+- [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
@@ -55,5 +58,6 @@ title: "Proofs without Source"
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
+- [Transposition of a matrix-normal random variable](/P/matn-trans)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for the general linear model](/P/glm-wls)

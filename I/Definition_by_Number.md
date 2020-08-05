@@ -95,3 +95,4 @@ title: "Definition by Number"
 | D86 | dent-cross | [Differential cross-entropy](/D/dent-cross) | JoramSoch | 2020-07-28 |
 | D87 | pmp | [Posterior model probability](/D/pmp) | JoramSoch | 2020-07-28 |
 | D88 | duni | [Discrete uniform distribution](/D/duni) | JoramSoch | 2020-07-28 |
+| D89 | bma | [Bayesian model averaging](/D/bma) | JoramSoch | 2020-08-03 |

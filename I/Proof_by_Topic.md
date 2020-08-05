@@ -22,6 +22,7 @@ title: "Proof by Topic"
 ### C
 
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
+- [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
 - [Conjugate prior distribution for binomial observations](/P/bin-prior)
 - [Conjugate prior distribution for multinomial observations](/P/mult-prior)
@@ -35,6 +36,7 @@ title: "Proof by Topic"
 
 ### D
 
+- [Derivation of Bayesian model averaging](/P/bma-der)
 - [Derivation of R² and adjusted R²](/P/rsq-der)
 - [Derivation of the Bayesian information criterion](/P/bic-der)
 - [Derivation of the log Bayes factor](/P/lbf-der)
@@ -71,6 +73,7 @@ title: "Proof by Topic"
 ### L
 
 - [Law of the unconscious statistician](/P/mean-lotus)
+- [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
 - [Linearity of the expected value](/P/mean-lin)
 - [Log Bayes factor in terms of log model evidences](/P/lbf-lme)
@@ -191,6 +194,7 @@ title: "Proof by Topic"
 ### T
 
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
+- [Transposition of a matrix-normal random variable](/P/matn-trans)
 
 ### V
 
