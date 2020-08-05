@@ -31,5 +31,5 @@ username: "JoramSoch"
 **Definition:** Let $m_1, \ldots, m_M$ be $M$ [statistical models](/D/fpm) with [posterior model probabilities](/D/pmp) $p(m_1 \vert y), \ldots, p(m_M \vert y)$ and [posterior distributions](/D/post) $p(\theta \vert y, m_1), \ldots, p(\theta \vert y, m_M)$. Then, Bayesian model averaging (BMA) consists in finding the [marginal](/D/dist-marg) [posterior](/D/post) [density](/D/pdf), [conditional](/D/prob-cond) on the measured data $y$, but [unconditional](/D/prob-marg) on the modelling approach $m$:
 
 $$ \label{eq:BMA}
-p(\theta|y) = \sum_{i=1}^{M} p(\theta|y,m_i) \cdot p(m_i \vert y) \; .
+p(\theta|y) = \sum_{i=1}^{M} p(\theta|y,m_i) \cdot p(m_i|y) \; .
 $$

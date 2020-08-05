@@ -29,6 +29,12 @@ username: "JoramSoch"
 
 **Definition:** Let $X$ be a discrete [random variable](/D/rvar) with possible outcomes $\mathcal{X}$. Then, $f_X(x): \mathbb{R} \to [0,1]$ is the probability mass function of $X$, if
 
+$$ \label{eq:pmf-def-s0}
+f_X(x) = 0
+$$
+
+for all $x \notin \mathcal{X}$,
+
 $$ \label{eq:pmf-def-s1}
 \mathrm{Pr}(X = x) = f_X(x)
 $$

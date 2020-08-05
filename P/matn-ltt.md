@@ -33,7 +33,7 @@ $$ \label{eq:matn-trans}
 Y = AXB + C \sim \mathcal{MN}(AMB+C, AUA^\mathrm{T}, B^\mathrm{T}VB)
 $$
 
-where $A$ us ab $r \times n$ matrix of full rank $r \leq b$ and $B$ is a $p \times s$ matrix of full rank $s \leq p$ and C is an $r \times s$ matrix.
+where $A$ us ab $r \times n$ matrix of full rank $r \leq b$ and $B$ is a $p \times s$ matrix of full rank $s \leq p$ and $C$ is an $r \times s$ matrix.
 
 
 **Proof:** The [matrix-normal distribution is equivalent to the multivariate normal distribution](/P/matn-mvn),

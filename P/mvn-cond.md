@@ -44,12 +44,12 @@ $$ \label{eq:mvn-cond}
 x_1|x_2 \sim \mathcal{N}(\mu_{1|2}, \Sigma_{1|2})
 $$
 
-where the conditional mean and covariance are
+where the conditional [mean](/D/mean) and [covariance](/D/cov) are
 
 $$ \label{eq:mvn-cond-hyp}
 \begin{split}
 \mu_{1|2} &= \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (x_2 - \mu_2) \\
-\Sigma_{1|2} &= \Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21} \; .
+\Sigma_{1|2} &= \Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21}
 \end{split}
 $$
 

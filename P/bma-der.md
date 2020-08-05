@@ -40,4 +40,4 @@ $$ \label{eq:BMA-s2}
 p(\theta|y) = \sum_{i=1}^{M} p(\theta|y,m_i) \cdot p(m_i|y)
 $$
 
-where $p(\theta|y,m_i)$ is the [posterior distribution](/D/post) of the $i$-th model and $p(m_i|y)$ happens to be the [posterior probability](/D/pmp) of the $i$-th model.
+where $p(\theta \vert y,m_i)$ is the [posterior distribution](/D/post) of the $i$-th model and $p(m_i \vert y)$ happens to be the [posterior probability](/D/pmp) of the $i$-th model.

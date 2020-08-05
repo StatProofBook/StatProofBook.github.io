@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x \in \mathbb{R}^k$ be a [random vector](/D/rvec) and $y > 0$ be a [random variable](/D/rvar). Assume two [normal-gamma distributions](/D/ng) $P$ and $Q$ specifying the joint distribution of $x$ and $y$ as
+**Theorem:** Let $x$ be an $n \times 1$ [random vector](/D/rvec) and let $y$ be a positive [random variable](/D/rvar). Assume two [normal-gamma distributions](/D/ng) $P$ and $Q$ specifying the joint distribution of $x$ and $y$ as
 
 $$ \label{eq:NGs}
 \begin{split}
@@ -49,10 +49,10 @@ $$
 **Proof:** The [probabibility density function of the normal-gamma distribution](/P/ng-pdf) is
 
 $$ \label{eq:NG-pdf}
-p(x,y) = p(x|y) \cdot p(y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b)
+p(x,y) = p(x|y) \cdot p(y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b) \; .
 $$
 
-where $\mathcal{N}(x; \mu, \Sigma)$ is a multivariate normal density with mean $\mu$ and covariance $\Sigma$ (hence, precision $\Lambda$) and $\mathrm{Gam}(y; a, b)$ is a univariate gamma density with shape $a$ and rate $b$. The [Kullback-Leibler divergence of the multivariate normal distribution](/P/mvn-kl) is
+The [Kullback-Leibler divergence of the multivariate normal distribution](/P/mvn-kl) is
 
 $$ \label{eq:mvn-KL}
 \mathrm{KL}[P\,||\,Q] = \frac{1}{2} \left[ (\mu_2 - \mu_1)^T \Sigma_2^{-1} (\mu_2 - \mu_1) + \mathrm{tr}(\Sigma_2^{-1} \Sigma_1) - \ln \frac{|\Sigma_1|}{|\Sigma_2|} - k \right]
