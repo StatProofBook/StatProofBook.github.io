@@ -254,6 +254,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 4.2.2. **[Probability density function](/P/ng-pdf)** <br>
    &emsp;&ensp; 4.2.3. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
    &emsp;&ensp; 4.2.4. **[Marginal distributions](/P/ng-marg)** <br>
+   &emsp;&ensp; 4.2.5. **[Conditional distributions](/P/ng-cond)** <br>
    
    4.3. Dirichlet distribution <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/dir)* <br>
@@ -265,6 +266,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 5.1.1. *[Definition](/D/matn)* <br>
    &emsp;&ensp; 5.1.2. **[Probability density function](/P/matn-pdf)** <br>
    &emsp;&ensp; 5.1.3. **[Equivalence to multivariate normal distribution](/P/matn-mvn)** <br>
+   &emsp;&ensp; 5.1.4. **[Transposition](/P/matn-trans)** <br>
+   &emsp;&ensp; 5.1.5. **[Linear transformation](/P/matn-ltt)** <br>
    
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
@@ -402,5 +405,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.4.4. **[Calculation from log Bayes factor](/P/pmp-lbf)** <br>
    &emsp;&ensp; 3.4.5. **[Calculation from log model evidences](/P/pmp-lme)** <br>
    
-   3.5. Log-evidence derivatives <br>
-   &emsp;&ensp; 3.5.1. **[Bayesian model averaging in terms of log model evidences](/P/bma-lme)** <br>
+   3.5. Bayesian model averaging <br>
+   &emsp;&ensp; 3.5.1. *[Definition](/D/bma)* <br>
+   &emsp;&ensp; 3.5.2. **[Derivation](/P/bma-der)** <br>
+   &emsp;&ensp; 3.5.3. **[Calculation from log model evidences](/P/bma-lme)** <br>
