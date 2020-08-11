@@ -83,9 +83,11 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    2.1. Shannon entropy <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/ent)* <br>
    &emsp;&ensp; 2.1.2. **[Non-negativity](/P/ent-nonneg)** <br>
-   &emsp;&ensp; 2.1.3. *[Conditional entropy](/D/ent-cond)* <br>
-   &emsp;&ensp; 2.1.4. *[Joint entropy](/D/ent-joint)* <br>
-   &emsp;&ensp; 2.1.5. *[Cross-entropy](/D/ent-cross)* <br>
+   &emsp;&ensp; 2.1.3. **[Concavity](/P/ent-conc)** <br>
+   &emsp;&ensp; 2.1.4. *[Conditional entropy](/D/ent-cond)* <br>
+   &emsp;&ensp; 2.1.5. *[Joint entropy](/D/ent-joint)* <br>
+   &emsp;&ensp; 2.1.6. *[Cross-entropy](/D/ent-cross)* <br>
+   &emsp;&ensp; 2.1.7. **[Convexity of cross-entropy](/P/entcross-conv)** <br>
    
    2.2. Differential entropy <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/dent)* <br>
@@ -109,10 +111,12 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    2.5. Kullback-Leibler divergence <br>
    &emsp;&ensp; 2.5.1. *[Definition](/D/kl)* <br>
    &emsp;&ensp; 2.5.2. **[Non-negativity](/P/kl-nonneg)** <br>
-   &emsp;&ensp; 2.5.3. **[Additivity for independent distributions](/P/kl-add)** <br>
-   &emsp;&ensp; 2.5.4. **[Invariance under parameter transformation](/P/kl-inv)** <br>
-   &emsp;&ensp; 2.5.5. **[Relation to discrete entropy](/P/kl-ent)** <br>
-   &emsp;&ensp; 2.5.6. **[Relation to differential entropy](/P/kl-dent)** <br>
+   &emsp;&ensp; 2.5.3. **[Non-symmetry](/P/kl-nonsymm)** <br>
+   &emsp;&ensp; 2.5.4. **[Convexity](/P/kl-conv)** <br>
+   &emsp;&ensp; 2.5.5. **[Additivity for independent distributions](/P/kl-add)** <br>
+   &emsp;&ensp; 2.5.6. **[Invariance under parameter transformation](/P/kl-inv)** <br>
+   &emsp;&ensp; 2.5.7. **[Relation to discrete entropy](/P/kl-ent)** <br>
+   &emsp;&ensp; 2.5.8. **[Relation to differential entropy](/P/kl-dent)** <br>
 
 3. Estimation theory
    
