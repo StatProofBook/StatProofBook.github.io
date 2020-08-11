@@ -149,3 +149,7 @@ title: "Proof by Number"
 | P140 | duni-pmf | [Probability mass function of the discrete uniform distribution](/P/duni-pmf) | JoramSoch | 2020-07-28 |
 | P141 | duni-cdf | [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf) | JoramSoch | 2020-07-28 |
 | P142 | duni-qf | [Quantile function of the discrete uniform distribution](/P/duni-qf) | JoramSoch | 2020-07-28 |
+| P143 | bma-der | [Derivation of Bayesian model averaging](/P/bma-der) | JoramSoch | 2020-08-03 |
+| P144 | matn-trans | [Transposition of a matrix-normal random variable](/P/matn-trans) | JoramSoch | 2020-08-03 |
+| P145 | matn-ltt | [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt) | JoramSoch | 2020-08-03 |
+| P146 | ng-cond | [Conditional distributions of the normal-gamma distribution](/P/ng-cond) | JoramSoch | 2020-08-05 |

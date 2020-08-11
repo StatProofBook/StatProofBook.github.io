@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x \in \mathbb{R}^k$ be a [random vector](/D/rvec) and $y > 0$ be a [random variable](/D/rvar). Assume two [normal-gamma distributions](/D/ng) $P$ and $Q$ specifying the joint distribution of $x$ and $y$ as
+**Theorem:** Let $x$ be an $n \times 1$ [random vector](/D/rvec) and let $y$ be a positive [random variable](/D/rvar). Assume two [normal-gamma distributions](/D/ng) $P$ and $Q$ specifying the joint distribution of $x$ and $y$ as
 
 $$ \label{eq:NGs}
 \begin{split}
@@ -40,7 +40,7 @@ Then, the [Kullback-Leibler divergence](/D/kl) of $P$ from $Q$ is given by
 
 $$ \label{eq:NG-KL}
 \begin{split}
-\mathrm{KL}[P\,||\,Q] &= \frac{1}{2} \frac{a_1}{b_1} \left[ (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) \right] + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{k}{2} \\
+\mathrm{KL}[P\,||\,Q] &= \frac{1}{2} \frac{a_1}{b_1} \left[ (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) \right] + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{n}{2} \\
 &+ a_2 \, \ln \frac{b_1}{b_2} - \ln \frac{\Gamma(a_1)}{\Gamma(a_2)} + (a_1 - a_2) \, \psi(a_1) - (b_1 - b_2) \, \frac{a_1}{b_1} \; .
 \end{split}
 $$
@@ -49,13 +49,13 @@ $$
 **Proof:** The [probabibility density function of the normal-gamma distribution](/P/ng-pdf) is
 
 $$ \label{eq:NG-pdf}
-p(x,y) = p(x|y) \cdot p(y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b)
+p(x,y) = p(x|y) \cdot p(y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b) \; .
 $$
 
-where $\mathcal{N}(x; \mu, \Sigma)$ is a multivariate normal density with mean $\mu$ and covariance $\Sigma$ (hence, precision $\Lambda$) and $\mathrm{Gam}(y; a, b)$ is a univariate gamma density with shape $a$ and rate $b$. The [Kullback-Leibler divergence of the multivariate normal distribution](/P/mvn-kl) is
+The [Kullback-Leibler divergence of the multivariate normal distribution](/P/mvn-kl) is
 
 $$ \label{eq:mvn-KL}
-\mathrm{KL}[P\,||\,Q] = \frac{1}{2} \left[ (\mu_2 - \mu_1)^T \Sigma_2^{-1} (\mu_2 - \mu_1) + \mathrm{tr}(\Sigma_2^{-1} \Sigma_1) - \ln \frac{|\Sigma_1|}{|\Sigma_2|} - k \right]
+\mathrm{KL}[P\,||\,Q] = \frac{1}{2} \left[ (\mu_2 - \mu_1)^T \Sigma_2^{-1} (\mu_2 - \mu_1) + \mathrm{tr}(\Sigma_2^{-1} \Sigma_1) - \ln \frac{|\Sigma_1|}{|\Sigma_2|} - n \right]
 $$
 
 and the [Kullback-Leibler divergence of the univariate gamma distribution](/P/gam-kl) is
@@ -76,16 +76,16 @@ $$
 which, applied to the [normal-gamma distribution](/D/ng) over $x$ and $y$, yields
 
 $$ \label{eq:NG-KL0}
-\mathrm{KL}[P\,||\,Q] = \int_{0}^{\infty} \int_{\mathbb{R}^k} p(x,y) \, \ln \frac{p(x,y)}{q(x,y)} \, \mathrm{d}x \, \mathrm{d}y \; .
+\mathrm{KL}[P\,||\,Q] = \int_{0}^{\infty} \int_{\mathbb{R}^n} p(x,y) \, \ln \frac{p(x,y)}{q(x,y)} \, \mathrm{d}x \, \mathrm{d}y \; .
 $$
 
 Using the [law of conditional probability](/D/prob-cond), this can be evaluated as follows:
 
 $$ \label{eq:NG-KL1}
 \begin{split}
-\mathrm{KL}[P\,||\,Q] &= \int_{0}^{\infty} \int_{\mathbb{R}^k} p(x|y) \, p(y) \, \ln \frac{p(x|y) \, p(y)}{q(x|y) \, q(y)} \, \mathrm{d}x \, \mathrm{d}y \\
-&= \int_{0}^{\infty} \int_{\mathbb{R}^k} p(x|y)\, p(y) \, \ln \frac{p(x|y)}{q(x|y)} \, \mathrm{d}x \, \mathrm{d}y + \int_{0}^{\infty} \int_{\mathbb{R}^k} p(x|y)\, p(y) \, \ln \frac{p(y)}{q(y)} \, \mathrm{d}x \, \mathrm{d}y \\
-&= \int_{0}^{\infty} p(y) \int_{\mathbb{R}^k} p(x|y) \, \ln \frac{p(x|y)}{q(x|y)} \, \mathrm{d}x \, \mathrm{d}y + \int_{0}^{\infty} p(y) \, \ln \frac{p(y)}{q(y)} \int_{\mathbb{R}^k} p(x|y) \, \mathrm{d}x \, \mathrm{d}y \\
+\mathrm{KL}[P\,||\,Q] &= \int_{0}^{\infty} \int_{\mathbb{R}^n} p(x|y) \, p(y) \, \ln \frac{p(x|y) \, p(y)}{q(x|y) \, q(y)} \, \mathrm{d}x \, \mathrm{d}y \\
+&= \int_{0}^{\infty} \int_{\mathbb{R}^n} p(x|y)\, p(y) \, \ln \frac{p(x|y)}{q(x|y)} \, \mathrm{d}x \, \mathrm{d}y + \int_{0}^{\infty} \int_{\mathbb{R}^n} p(x|y)\, p(y) \, \ln \frac{p(y)}{q(y)} \, \mathrm{d}x \, \mathrm{d}y \\
+&= \int_{0}^{\infty} p(y) \int_{\mathbb{R}^n} p(x|y) \, \ln \frac{p(x|y)}{q(x|y)} \, \mathrm{d}x \, \mathrm{d}y + \int_{0}^{\infty} p(y) \, \ln \frac{p(y)}{q(y)} \int_{\mathbb{R}^n} p(x|y) \, \mathrm{d}x \, \mathrm{d}y \\
 &= \left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} + \mathrm{KL}[p(y)\,||\,q(y)] \; .
 \end{split}
 $$
@@ -98,8 +98,8 @@ From equations \eqref{eq:NG-pdf} and \eqref{eq:mvn-KL}, the first term becomes
 $$ \label{eq:exp-mvn-KL-s1}
 \begin{split}
 &\left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} \\
-&= \left\langle \frac{1}{2} \left[ (\mu_2 - \mu_1)^T (y \Lambda_2) (\mu_2 - \mu_1) + \mathrm{tr}\left( (y \Lambda_2) (y \Lambda_1)^{-1} \right) - \ln \frac{|(y \Lambda_1)^{-1}|}{|(y \Lambda_2)^{-1}|} - k \right] \right\rangle_{p(y)} \\
-&= \left\langle \frac{y}{2} (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{k}{2} \right\rangle_{p(y)} \\
+&= \left\langle \frac{1}{2} \left[ (\mu_2 - \mu_1)^T (y \Lambda_2) (\mu_2 - \mu_1) + \mathrm{tr}\left( (y \Lambda_2) (y \Lambda_1)^{-1} \right) - \ln \frac{|(y \Lambda_1)^{-1}|}{|(y \Lambda_2)^{-1}|} - n \right] \right\rangle_{p(y)} \\
+&= \left\langle \frac{y}{2} (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{n}{2} \right\rangle_{p(y)} \\
 \end{split}
 $$
 
@@ -107,7 +107,7 @@ and using [the relation](/P/gam-mean) $y \sim \mathrm{Gam}(a,b) \Rightarrow \lef
 
 $$ \label{eq:exp-mvn-KL-s2}
 \begin{split}
-\left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} = \frac{1}{2} \frac{a_1}{b_1} (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{k}{2} \; .
+\left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} = \frac{1}{2} \frac{a_1}{b_1} (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{n}{2} \; .
 \end{split}
 $$
 

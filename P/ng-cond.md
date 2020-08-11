@@ -43,7 +43,7 @@ $$ \label{eq:ng-cond-x1-x2-y}
 x_1|x_2,y \sim \mathcal{N}(\mu_{1|2}(y), \Sigma_{1|2}(y))
 $$
 
-where the conditional [mean](/D/mean) and [covariance](/D/cov) are
+with the conditional [mean](/D/mean) and [covariance](/D/cov)
 
 $$ \label{eq:ng-cond-x1-x2-y-hyp}
 \begin{split}

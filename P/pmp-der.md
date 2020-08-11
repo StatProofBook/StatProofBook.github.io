@@ -28,14 +28,20 @@ p(m_i|y) = \frac{p(y|m_i) \, p(m_i)}{\sum_{j=1}^{M} p(y|m_j) \, p(m_j)}, \; i = 
 $$
 
 
-**Proof:** From [Bayes' theorem](/P/bayes-th), the [posterior model probability](/D/pmp) of $m_i$ can be derived as
+**Proof:** From [Bayes' theorem](/P/bayes-th), the [posterior model probability](/D/pmp) of the $i$-th model can be derived as
 
 $$ \label{eq:PMP-s1}
 p(m_i|y) = \frac{p(y|m_i) \, p(m_i)}{p(y)} \; .
 $$
 
-Using the [law of marginal probability](/D/prob-marg), the denominator $p(y)$ can be rewritten, such that
+Using the [law of marginal probability](/D/prob-marg), the denominator can be rewritten, such that
 
 $$ \label{eq:PMP-s2}
+p(m_i|y) = \frac{p(y|m_i) \, p(m_i)}{\sum_{j=1}^{M} p(y,m_j)} \; .
+$$
+
+Finally, using the [law of conditional probability](/D/prob-cond), we have
+
+$$ \label{eq:PMP-s3}
 p(m_i|y) = \frac{p(y|m_i) \, p(m_i)}{\sum_{j=1}^{M} p(y|m_j) \, p(m_j)} \; .
 $$

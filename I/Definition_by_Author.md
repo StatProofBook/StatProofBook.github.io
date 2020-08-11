@@ -4,10 +4,11 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (88 definitions)
+### JoramSoch (89 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
+- [Bayesian model averaging](/D/bma)
 - [Bernoulli distribution](/D/bern)
 - [Beta distribution](/D/beta)
 - [Beta-distributed data](/D/beta-data)

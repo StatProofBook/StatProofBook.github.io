@@ -11,6 +11,7 @@ title: "Definition by Topic"
 ### B
 
 - [Bayesian information criterion](/D/bic)
+- [Bayesian model averaging](/D/bma)
 - [Bernoulli distribution](/D/bern)
 - [Beta distribution](/D/beta)
 - [Beta-distributed data](/D/beta-data)
