@@ -14,7 +14,7 @@ topic: "Kullback-Leibler divergence"
 theorem: "Non-symmetry"
 
 sources:
-  - authors: "Kullback, S."
+  - authors: "Kullback, Solomon"
     year: 1959
     title: "Divergence"
     in: "Information Theory and Statistics"
@@ -65,7 +65,7 @@ p(x) = \left\{
 \right.
 $$
 
-and the []probability mass function of the discrete uniform distribution](/P/duni-pmf) entails that
+and the [probability mass function of the discrete uniform distribution](/P/duni-pmf) entails that
 
 $$ \label{eq:q(x)}
 q(x) = \frac{1}{3} \; ,

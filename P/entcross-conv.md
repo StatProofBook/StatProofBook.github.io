@@ -11,7 +11,7 @@ title: "Convexity of the cross-entropy"
 chapter: "General Theorems"
 section: "Information theory"
 topic: "Shannon entropy"
-theorem: "Convexity of the cross-entropy"
+theorem: "Convexity of cross-entropy"
 
 sources:
   - authors: "Wikipedia"
