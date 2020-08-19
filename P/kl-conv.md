@@ -42,7 +42,13 @@ $$
 where $(p_1,q_1)$ and $(p_2,q_2)$ are two pairs of probability distributions and $0 \leq \lambda \leq 1$.
 
 
-**Proof:** The [log sum inequality](/P/logsum-ineq) states that
+**Proof:** The [Kullback-Leibler divergence](/D/kl) of $P$ from $Q$ is defined as
+
+$$ \label{eq:KL}
+\mathrm{KL}[P||Q] = \sum_{x \in \mathcal{X}} p(x) \cdot \log \frac{p(x)}{q(x)}
+$$
+
+and the [log sum inequality](/P/logsum-ineq) states that
 
 $$ \label{eq:logsum-ineq}
 \sum_{i=1}^n a_i \log \frac{a_i}{b_i} \geq \left( \sum_{i=1}^n a_i \right) \log \frac{\sum_{i=1}^n a_i}{\sum_{i=1}^n b_i}
@@ -50,13 +56,7 @@ $$
 
 where $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$ are non-negative real numbers.
 
-The [Kullback-Leibler divergence](/D/kl) of $P$ from $Q$ is defined as
-
-$$ \label{eq:KL}
-\mathrm{KL}[P||Q] = \sum_{x \in \mathcal{X}} p(x) \cdot \log \frac{p(x)}{q(x)} \; ,
-$$
-
-such that we can rewrite the KL divergence of the mixture distribution as
+Thus, we can rewrite the KL divergence of the mixture distribution as
 
 $$ \label{eq:KL-conv-qed}
 \begin{split}

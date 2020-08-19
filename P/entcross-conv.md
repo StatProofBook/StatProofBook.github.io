@@ -42,14 +42,10 @@ $$
 where $p$ is a fixed and $q_1$ and $q_2$ are any two probability distributions and $0 \leq \lambda \leq 1$.
 
 
-**Proof:** The  [cross-entropy can be expressed in terms of discrete entropy and Kullback-Leibler divergence](/P/kl-ent) as
+**Proof:** The [relationship between Kullback-Leibler divergence, entropy and cross-entropy](/P/kl-ent) is:
 
 $$ \label{eq:kl-ent}
-\begin{split}
-\mathrm{KL}[P||Q] &= \mathrm{H}(P,Q) - \mathrm{H}(P) \\
-& \Leftrightarrow \\
-\mathrm{H}(P,Q) &= \mathrm{KL}[P||Q] + \mathrm{H}(P) \; .
-\end{split}
+\mathrm{KL}[P||Q] &= \mathrm{H}(P,Q) - \mathrm{H}(P) \; .
 $$
 
 Note that the [KL divergence is convex](/P/kl-conv) in the pair of [probability distributions](/D/dist) $(p,q)$:

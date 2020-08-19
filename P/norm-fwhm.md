@@ -58,7 +58,7 @@ $$ \label{eq:norm-pdf-max}
 f_\mathrm{max} = f_X(\mathrm{mode}(X)) \overset{\eqref{eq:norm-mode}}{=} f_X(\mu) \overset{\eqref{eq:norm-pdf}}{=} \frac{1}{\sqrt{2 \pi} \sigma} \; .
 $$
 
-The FWHM bounds satisfy the equation
+The FWHM bounds [satisfy the equation](/D/fwhm)
 
 $$ \label{eq:x-FHWM}
 f_X(x_\mathrm{FWHM}) = \frac{1}{2} f_\mathrm{max} \overset{\eqref{eq:norm-pdf-max}}{=} \frac{1}{2 \sqrt{2 \pi} \sigma} \; .
