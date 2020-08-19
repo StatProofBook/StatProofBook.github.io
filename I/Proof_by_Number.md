@@ -157,3 +157,8 @@ title: "Proof by Number"
 | P148 | kl-conv | [Convexity of the Kullback-Leibler divergence](/P/kl-conv) | JoramSoch | 2020-08-11 |
 | P149 | ent-conc | [Concavity of the Shannon entropy](/P/ent-conc) | JoramSoch | 2020-08-11 |
 | P150 | entcross-conv | [Convexity of the cross-entropy](/P/entcross-conv) | JoramSoch | 2020-08-11 |
+| P151 | poiss-mean | [Mean of the Poisson distribution](/P/poiss-mean) | JoramSoch | 2020-08-19 |
+| P152 | norm-fwhm | [Full width at half maximum for the normal distribution](/P/norm-fwhm) | JoramSoch | 2020-08-19 |
+| P153 | mom-mgf | [Moment in terms of moment-generating function](/P/mom-mgf) | JoramSoch | 2020-08-19 |
+| P154 | mgf-ltt | [Linear transformation theorem for the moment-generating function](/P/mgf-ltt) | JoramSoch | 2020-08-19 |
+| P155 | mgf-lincomb | [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb) | JoramSoch | 2020-08-19 |

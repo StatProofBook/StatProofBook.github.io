@@ -45,7 +45,7 @@ where $p$ is a fixed and $q_1$ and $q_2$ are any two probability distributions a
 **Proof:** The [relationship between Kullback-Leibler divergence, entropy and cross-entropy](/P/kl-ent) is:
 
 $$ \label{eq:kl-ent}
-\mathrm{KL}[P||Q] &= \mathrm{H}(P,Q) - \mathrm{H}(P) \; .
+\mathrm{KL}[P||Q] = \mathrm{H}(P,Q) - \mathrm{H}(P) \; .
 $$
 
 Note that the [KL divergence is convex](/P/kl-conv) in the pair of [probability distributions](/D/dist) $(p,q)$:

@@ -53,6 +53,7 @@ title: "Definition by Topic"
 ### F
 
 - [Full probability model](/D/fpm)
+- [Full width at half maximum](/D/fwhm)
 
 ### G
 
@@ -90,6 +91,7 @@ title: "Definition by Topic"
 - [Matrix-normal distribution](/D/matn)
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
+- [Moment](/D/mom)
 - [Moment-generating function](/D/mgf)
 - [Multinomial distribution](/D/mult)
 - [Multinomial observations](/D/mult-data)

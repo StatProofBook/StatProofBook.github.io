@@ -58,6 +58,10 @@ title: "Proof by Topic"
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 
+### F
+
+- [Full width at half maximum for the normal distribution](/P/norm-fwhm)
+
 ### I
 
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
@@ -77,6 +81,7 @@ title: "Proof by Topic"
 
 - [Law of the unconscious statistician](/P/mean-lotus)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
+- [Linear transformation theorem for the moment-generating function](/P/mgf-ltt)
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
 - [Linearity of the expected value](/P/mean-lin)
 - [Log Bayes factor in terms of log model evidences](/P/lbf-lme)
@@ -98,6 +103,7 @@ title: "Proof by Topic"
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
+- [Mean of the Poisson distribution](/P/poiss-mean)
 - [Mean of the binomial distribution](/P/bin-mean)
 - [Mean of the categorical distribution](/P/cat-mean)
 - [Mean of the continuous uniform distribution](/P/cuni-mean)
@@ -112,6 +118,8 @@ title: "Proof by Topic"
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
+- [Moment in terms of moment-generating function](/P/mom-mgf)
+- [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Monotonicity of the expected value](/P/mean-mono)
 
