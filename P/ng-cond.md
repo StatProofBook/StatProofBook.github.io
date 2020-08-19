@@ -32,10 +32,8 @@ Then,
 1) the [conditional distribution](/D/dist-cond) of $x$ given $y$ is a [multivariate normal distribution](/D/mvn)
 
 $$ \label{eq:ng-cond-x-y}
-x|y \sim \mathcal{N}(\mu, \Sigma(y))
+x|y \sim \mathcal{N}(\mu, (y \Lambda)^{-1}) \; ;
 $$
-
-where $\Sigma(y) = (y \Lambda)^{-1}$;
 
 2) the [conditional distribution](/D/dist-cond) of a subset vector $x_1$, given the complement vector $x_2$ and $y$, is also a [multivariate normal distribution](/D/mvn)
 
@@ -52,7 +50,7 @@ $$ \label{eq:ng-cond-x1-x2-y-hyp}
 \end{split}
 $$
 
-where $\mu_1$, $\mu_2$ and $\Sigma_{11}$, $\Sigma_{12}$, $\Sigma_{22}$, $\Sigma_{21}$ are [block-wise components](/P/mvn-cond) of $\mu$ and $\Sigma(y)$;
+where $\mu_1$, $\mu_2$ and $\Sigma_{11}$, $\Sigma_{12}$, $\Sigma_{22}$, $\Sigma_{21}$ are [block-wise components](/P/mvn-cond) of $\mu$ and $\Sigma(y) = (y \Lambda)^{-1}$;
 
 3) the [conditional distribution](/D/dist-cond) of $y$ given $x$ is a [gamma distribution](/D/gam)
 
@@ -68,7 +66,10 @@ where $n$ is the dimensionality of $x$.
 1) This follows from the [definition of the normal-gamma distribution](/D/ng):
 
 $$ \label{eq:ng-pdf}
-p(x,y) = p(x|y) \cdot p(y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b) \; .
+\begin{split}
+p(x,y) &= p(x|y) \cdot p(y) \\
+&= \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b) \; .
+\end{split}
 $$
 
 2) This follows from \eqref{eq:ng-cond-x-y} and the [conditional distributions of the multivariate normal distribution](/P/mvn-cond):

@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ be an $n \times p$ [random matrix](/D/rmat). Then, $X$ is said to be matrix-normally distributed with mean $M$, covariance across rows $U$ and covariance across columns $V$
+**Definition**: Let $X$ be an $n \times p$ [random matrix](/D/rmat). Then, $X$ is said to be matrix-normally distributed with mean $M$, [covariance](/D/covmat) across rows $U$ and [covariance](/D/covmat) across columns $V$
 
 $$ \label{eq:matn}
 X \sim \mathcal{MN}(M, U, V) \; ,
@@ -39,4 +39,4 @@ $$ \label{eq:matn-pdf}
 \mathcal{MN}(X; M, U, V) = \frac{1}{\sqrt{(2\pi)^{np} |V|^n |U|^p}} \cdot \exp\left[-\frac{1}{2} \mathrm{tr}\left( V^{-1} (X-M)^\mathrm{T} \, U^{-1} (X-M) \right) \right]
 $$
 
-where $\mu$ is an $n \times p$ real matrix, $U$ is an $n \times n$ positive definite matrix and $V$ is a $p \times p$ positive definite matrix.
+where $M$ is an $n \times p$ real matrix, $U$ is an $n \times n$ positive definite matrix and $V$ is a $p \times p$ positive definite matrix.

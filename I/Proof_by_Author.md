@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (146 proofs)
+### JoramSoch (150 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -12,6 +12,7 @@ title: "Proof by Author"
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
+- [Concavity of the Shannon entropy](/P/ent-conc)
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
@@ -20,6 +21,8 @@ title: "Proof by Author"
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
+- [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
+- [Convexity of the cross-entropy](/P/entcross-conv)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
@@ -85,6 +88,7 @@ title: "Proof by Author"
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
+- [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)

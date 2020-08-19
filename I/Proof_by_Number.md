@@ -153,3 +153,7 @@ title: "Proof by Number"
 | P144 | matn-trans | [Transposition of a matrix-normal random variable](/P/matn-trans) | JoramSoch | 2020-08-03 |
 | P145 | matn-ltt | [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt) | JoramSoch | 2020-08-03 |
 | P146 | ng-cond | [Conditional distributions of the normal-gamma distribution](/P/ng-cond) | JoramSoch | 2020-08-05 |
+| P147 | kl-nonsymm | [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm) | JoramSoch | 2020-08-11 |
+| P148 | kl-conv | [Convexity of the Kullback-Leibler divergence](/P/kl-conv) | JoramSoch | 2020-08-11 |
+| P149 | ent-conc | [Concavity of the Shannon entropy](/P/ent-conc) | JoramSoch | 2020-08-11 |
+| P150 | entcross-conv | [Convexity of the cross-entropy](/P/entcross-conv) | JoramSoch | 2020-08-11 |
