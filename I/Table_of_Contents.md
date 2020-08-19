@@ -39,8 +39,10 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.4.3. *[Cumulative distribution function](/D/cdf)* <br>
    &emsp;&ensp; 1.4.4. *[Quantile function](/D/qf)* <br>
    &emsp;&ensp; 1.4.5. *[Moment-generating function](/D/mgf)* <br>
-   &emsp;&ensp; 1.4.6. *[Cumulant-generating function](/D/cgf)* <br>
-   &emsp;&ensp; 1.4.7. *[Probability-generating function](/D/pgf)* <br>
+   &emsp;&ensp; 1.4.6. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
+   &emsp;&ensp; 1.4.7. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
+   &emsp;&ensp; 1.4.8. *[Cumulant-generating function](/D/cgf)* <br>
+   &emsp;&ensp; 1.4.9. *[Probability-generating function](/D/pgf)* <br>
    
    1.5. Expected value <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mean)* <br>
@@ -77,6 +79,11 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    1.8. Correlation <br>
    &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
    &emsp;&ensp; 1.8.2. *[Correlation matrix](/D/corrmat)* <br>
+   
+   1.9. Further moments <br>
+   &emsp;&ensp; 1.9.1. *[Moment](/D/mom)* <br>
+   &emsp;&ensp; 1.9.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+   &emsp;&ensp; 1.9.3. *[Full width at half maximum](/D/fwhm)* <br>
 
 2. Information theory
    
@@ -179,6 +186,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    1.4. Poisson distribution <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/poiss)* <br>
    &emsp;&ensp; 1.4.2. **[Probability mass function](/P/poiss-pmf)** <br>
+   &emsp;&ensp; 1.4.3. **[Mean](/P/poiss-mean)** <br>
 
 2. Multivariate discrete distributions
 
@@ -215,8 +223,9 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.2.9. **[Median](/P/norm-med)** <br>
    &emsp;&ensp; 3.2.10. **[Mode](/P/norm-mode)** <br>
    &emsp;&ensp; 3.2.11. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.12. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.13. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.12. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.13. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.14. **[Moment-generating function](/P/norm-mgf)** <br>
 
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
