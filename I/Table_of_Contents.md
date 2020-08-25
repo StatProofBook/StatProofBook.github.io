@@ -380,7 +380,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** �
    
    1.3. Signal-to-noise ratio <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/snr)* <br>
-   &emsp;&ensp; 1.3.1. **[Relationship with R²](/P/snr-rsq)** <br>
+   &emsp;&ensp; 1.3.2. **[Relationship with R²](/P/snr-rsq)** <br>
 
 2. Classical information criteria
 

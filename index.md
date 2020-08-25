@@ -15,17 +15,17 @@ of statistical theorems for the computational sciences*! <br>
   <tr>
     <td style="text-align:center">
 	  <a href="/I/Table_of_Contents">Table of Contents</a> <br>
-	  <img src="Index1.png"> <br>
+	  <img src="Index_1.png"> <br>
 	  Proofs & Definitions
 	</td>
     <td style="text-align:center">
 	  <a href="/I/Proof_by_Number">Proof by Number</a> <br>
-	  <img src="Index2.png"> <br>
+	  <img src="Index_2.png"> <br>
 	  <a href="/I/Definition_by_Number">Definition by Number</a>
 	</td>
     <td style="text-align:center">
 	  <a href="/I/Proof_by_Topic">Proof by Topic</a> <br>
-	  <img src="Index3.png"> <br>
+	  <img src="Index_3.png"> <br>
 	  <a href="/I/Definition_by_Topic">Definition by Topic</a>
 	</td>
   </tr>
