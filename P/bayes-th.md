@@ -9,7 +9,7 @@ date: 2019-09-27 16:24:00
 
 title: "Bayes' theorem"
 chapter: "General Theorems"
-section: "Probability theory"
+section: "Bayesian statistics"
 topic: "Bayesian inference"
 theorem: "Bayes' theorem"
 

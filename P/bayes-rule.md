@@ -9,7 +9,7 @@ date: 2020-01-06 20:55:00
 
 title: "Bayes' rule"
 chapter: "General Theorems"
-section: "Probability theory"
+section: "Bayesian statistics"
 topic: "Bayesian inference"
 theorem: "Bayes' rule"
 

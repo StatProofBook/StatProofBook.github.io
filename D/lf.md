@@ -9,8 +9,8 @@ date: 2020-03-03 15:50:00
 
 title: "Likelihood function"
 chapter: "General Theorems"
-section: "Bayesian inference"
-topic: "Probabilistic modeling"
+section: "Frequentist statistics"
+topic: "Likelihood theory"
 definition: "Likelihood function"
 
 sources:

@@ -10,7 +10,7 @@ date: 2020-02-19 18:35:00
 title: "Mutual information"
 chapter: "General Theorems"
 section: "Information theory"
-topic: "Discrete/Continuous mutual information"
+topic: "Discrete mutual information"
 definition: "Definition"
 
 sources:

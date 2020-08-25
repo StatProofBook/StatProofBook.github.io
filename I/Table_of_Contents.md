@@ -50,7 +50,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.5.3. **[Non-negativity](/P/mean-nonneg)** <br>
    &emsp;&ensp; 1.5.4. **[Linearity](/P/mean-lin)** <br>
    &emsp;&ensp; 1.5.5. **[Monotonicity](/P/mean-mono)** <br>
-   &emsp;&ensp; 1.5.6. **[(Non-)Multiplicitavity](/P/mean-mult)** <br>
+   &emsp;&ensp; 1.5.6. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
    &emsp;&ensp; 1.5.7. **[Expectation of a quadratic form](/P/mean-qf)** <br>
    &emsp;&ensp; 1.5.8. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
    
@@ -295,8 +295,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 
    1.1. Multiple linear regression <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/mlr)* <br>
-   &emsp;&ensp; 1.1.2. **[Ordinary least squares (1)](/P/mlr-ols)** <br>
-   &emsp;&ensp; 1.1.3. **[Ordinary least squares (2)](/P/mlr-ols2)** <br>
+   &emsp;&ensp; 1.1.2. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
+   &emsp;&ensp; 1.1.3. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
    &emsp;&ensp; 1.1.4. *[Total sum of squares](/D/tss)* <br>
    &emsp;&ensp; 1.1.5. *[Explained sum of squares](/D/ess)* <br>
    &emsp;&ensp; 1.1.6. *[Residual sum of squares](/D/rss)* <br>
@@ -306,8 +306,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.1.10. *[Residual-forming matrix](/D/rfmat)* <br>
    &emsp;&ensp; 1.1.11. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
    &emsp;&ensp; 1.1.12. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
-   &emsp;&ensp; 1.1.13. **[Weighted least squares (1)](/P/mlr-wls)** <br>
-   &emsp;&ensp; 1.1.14. **[Weighted least squares (2)](/P/mlr-wls2)** <br>
+   &emsp;&ensp; 1.1.13. **[Weighted least squares](/P/mlr-wls)** (1) <br>
+   &emsp;&ensp; 1.1.14. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
    &emsp;&ensp; 1.1.15. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
    
    1.2. Bayesian linear regression <br>

@@ -9,7 +9,7 @@ date: 2020-05-15 23:13:00
 
 title: "Maximum log-likelihood"
 chapter: "General Theorems"
-section: "Frequentist inference"
+section: "Frequentist statistics"
 topic: "Likelihood theory"
 definition: "Maximum log-likelihood"
 

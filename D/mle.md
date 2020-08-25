@@ -9,7 +9,7 @@ date: 2020-05-15 23:05:00
 
 title: "Maximum likelihood estimation"
 chapter: "General Theorems"
-section: "Frequentist inference"
+section: "Frequentist statistics"
 topic: "Likelihood theory"
 definition: "Maximum likelihood estimation"
 

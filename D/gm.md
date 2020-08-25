@@ -9,7 +9,7 @@ date: 2020-03-03 15:50:00
 
 title: "Generative model"
 chapter: "General Theorems"
-section: "Bayesian inference"
+section: "Bayesian statistics"
 topic: "Probabilistic modeling"
 definition: "Generative model"
 

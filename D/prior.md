@@ -9,7 +9,7 @@ date: 2020-03-03 16:09:00
 
 title: "Prior distribution"
 chapter: "General Theorems"
-section: "Bayesian inference"
+section: "Bayesian statistics"
 topic: "Probabilistic modeling"
 definition: "Prior distribution"
 
