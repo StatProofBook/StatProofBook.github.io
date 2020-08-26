@@ -412,19 +412,23 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.2.2. **[Derivation](/P/lfe-der)** <br>
    &emsp;&ensp; 3.2.3. **[Calculation from log model evidences](/P/lfe-lme)** <br>
    
-   3.3. Log Bayes factor <br>
-   &emsp;&ensp; 3.3.1. *[Definition](/D/lbf)* <br>
-   &emsp;&ensp; 3.3.2. **[Derivation](/P/lbf-der)** <br>
-   &emsp;&ensp; 3.3.3. **[Calculation from log model evidences](/P/lbf-lme)** <br>
+   3.3. Bayes factor <br>
+   &emsp;&ensp; 3.3.1. *[Definition](/D/bf)* <br>
+   &emsp;&ensp; 3.3.2. **[Computation using Savage-Dickey Density Ratio](/P/bf-sddr)* <br>
    
-   3.4. Posterior model probability <br>
-   &emsp;&ensp; 3.4.1. *[Definition](/D/pmp)* <br>
-   &emsp;&ensp; 3.4.2. **[Derivation](/P/pmp-der)** <br>
-   &emsp;&ensp; 3.4.3. **[Calculation from Bayes factors](/P/pmp-bf)** <br>
-   &emsp;&ensp; 3.4.4. **[Calculation from log Bayes factor](/P/pmp-lbf)** <br>
-   &emsp;&ensp; 3.4.5. **[Calculation from log model evidences](/P/pmp-lme)** <br>
+   3.4. Log Bayes factor <br>
+   &emsp;&ensp; 3.4.1. *[Definition](/D/lbf)* <br>
+   &emsp;&ensp; 3.4.2. **[Derivation](/P/lbf-der)** <br>
+   &emsp;&ensp; 3.4.3. **[Calculation from log model evidences](/P/lbf-lme)** <br>
    
-   3.5. Bayesian model averaging <br>
-   &emsp;&ensp; 3.5.1. *[Definition](/D/bma)* <br>
-   &emsp;&ensp; 3.5.2. **[Derivation](/P/bma-der)** <br>
-   &emsp;&ensp; 3.5.3. **[Calculation from log model evidences](/P/bma-lme)** <br>
+   3.5. Posterior model probability <br>
+   &emsp;&ensp; 3.5.1. *[Definition](/D/pmp)* <br>
+   &emsp;&ensp; 3.5.2. **[Derivation](/P/pmp-der)** <br>
+   &emsp;&ensp; 3.5.3. **[Calculation from Bayes factors](/P/pmp-bf)** <br>
+   &emsp;&ensp; 3.5.4. **[Calculation from log Bayes factor](/P/pmp-lbf)** <br>
+   &emsp;&ensp; 3.5.5. **[Calculation from log model evidences](/P/pmp-lme)** <br>
+   
+   3.6. Bayesian model averaging <br>
+   &emsp;&ensp; 3.6.1. *[Definition](/D/bma)* <br>
+   &emsp;&ensp; 3.6.2. **[Derivation](/P/bma-der)** <br>
+   &emsp;&ensp; 3.6.3. **[Calculation from log model evidences](/P/bma-lme)** <br>

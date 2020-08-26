@@ -1,5 +1,5 @@
 ---
-layout: definition
+layout: proof
 mathjax: true
 
 author: "Thomas J. Faulkenberry"
@@ -7,11 +7,11 @@ affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
 date: 2020-08-26 12:00:00
 
-title: "Savage-Dickey Density Ratio for Computing Bayes Factors"
+title: "Savage-Dickey Density Ratio for computing Bayes Factors"
 chapter: "Model Selection"
 section: "Bayesian model selection"
 topic: "Bayes factor"
-theorem: "Savage-Dickey Density Ratio"
+theorem: "Computation using Savage-Dickey Density Ratio"
 
 sources:
   - authors: "Faulkenberry, Thomas J."
@@ -23,7 +23,7 @@ sources:
     doi: "10.29220/CSAM.2019.26.2.217"
 
 def_id: "P156"
-shortcut: "sddr-bf"
+shortcut: "bf-sddr"
 username: "tomfaulkenberry"
 ---
 
@@ -51,7 +51,6 @@ $$
   &= p(y \mid \delta=\delta_0,\mathcal{M}_1).\\
 \end{aligned}
 $$
-
 
 By [Bayes Theorem](/P/bayes-th), we can rewrite this last line as
 

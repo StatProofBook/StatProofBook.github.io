@@ -35,7 +35,7 @@ $$ \label{eq:LBF-LME}
 $$
 
 
-**Proof:** The [Bayes factor](/D/lbf) is defined as the ratio of the [model evidences](/D/ml) of $m_1$ and $m_2$
+**Proof:** The [Bayes factor](/D/bf) is defined as the ratio of the [model evidences](/D/ml) of $m_1$ and $m_2$
 
 $$ \label{eq:BF}
 \mathrm{BF}_{12} = \frac{p(y|m_1)}{p(y|m_2)}
