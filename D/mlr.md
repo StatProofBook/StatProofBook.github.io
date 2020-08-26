@@ -9,7 +9,7 @@ date: 2020-03-21 20:09:00
 
 title: "Multiple linear regression"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 definition: "Definition"
 

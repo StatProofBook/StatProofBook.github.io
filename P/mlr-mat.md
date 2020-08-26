@@ -9,7 +9,7 @@ date: 2020-03-09 21:18:00
 
 title: "Transformation matrices for ordinary least squares"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 theorem: "Estimation, projection and residual-forming matrix"
 

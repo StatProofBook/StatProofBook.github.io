@@ -9,7 +9,7 @@ date: 2020-07-22 05:17:00
 
 title: "Estimation matrix"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 definition: "Estimation matrix"
 

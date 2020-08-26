@@ -9,7 +9,7 @@ date: 2020-01-03 17:53:00
 
 title: "Posterior distribution for Bayesian linear regression"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Bayesian linear regression"
 theorem: "Posterior distribution"
 

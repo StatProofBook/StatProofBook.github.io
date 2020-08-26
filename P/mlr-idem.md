@@ -9,7 +9,7 @@ date: 2020-07-22 06:28:00
 
 title: "Projection matrix and residual-forming matrix are idempotent"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 theorem: "Idempotence of projection and residual-forming matrix"
 

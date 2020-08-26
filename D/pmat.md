@@ -9,7 +9,7 @@ date: 2020-07-22 05:25:00
 
 title: "Projection matrix"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 definition: "Projection matrix"
 

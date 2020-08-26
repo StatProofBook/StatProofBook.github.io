@@ -9,7 +9,7 @@ date: 2020-05-19 06:27:00
 
 title: "Weighted least squares for the general linear model"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Multivariate normal data"
 topic: "General linear model"
 theorem: "Weighted least squares"
 

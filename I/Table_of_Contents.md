@@ -291,7 +291,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 <h3>Chapter III: Statistical Models</h3>
 </section>
 
-1. Normal data
+1. Univariate normal data
 
    1.1. Multiple linear regression <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/mlr)* <br>
@@ -317,48 +317,50 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.2.4. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
    &emsp;&ensp; 1.2.5. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
    
-   1.3. General linear model <br>
-   &emsp;&ensp; 1.3.1. *[Definition](/D/glm)* <br>
-   &emsp;&ensp; 1.3.2. **[Ordinary least squares](/P/glm-ols)** <br>
-   &emsp;&ensp; 1.3.3. **[Weighted least squares](/P/glm-wls)** <br>
-   &emsp;&ensp; 1.3.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
+2. Multivariate normal data
+   
+   2.1. General linear model <br>
+   &emsp;&ensp; 2.1.1. *[Definition](/D/glm)* <br>
+   &emsp;&ensp; 2.1.2. **[Ordinary least squares](/P/glm-ols)** <br>
+   &emsp;&ensp; 2.1.3. **[Weighted least squares](/P/glm-wls)** <br>
+   &emsp;&ensp; 2.1.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
 
-2. Poisson data
+3. Poisson data
 
-   2.1. Poisson-distributed data <br>
-   &emsp;&ensp; 2.1.1. *[Definition](/D/poiss-data)* <br>
-   &emsp;&ensp; 2.1.2. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
+   3.1. Poisson-distributed data <br>
+   &emsp;&ensp; 3.1.1. *[Definition](/D/poiss-data)* <br>
+   &emsp;&ensp; 3.1.2. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
    
-   2.2. Poisson distribution with exposure values <br>
-   &emsp;&ensp; 2.2.1. *[Definition](/D/poissexp)* <br>
-   &emsp;&ensp; 2.2.2. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
-   &emsp;&ensp; 2.2.3. **[Posterior distribution](/P/poissexp-post)** <br>
-   &emsp;&ensp; 2.2.4. **[Log model evidence](/P/poissexp-lme)** <br>
+   3.2. Poisson distribution with exposure values <br>
+   &emsp;&ensp; 3.2.1. *[Definition](/D/poissexp)* <br>
+   &emsp;&ensp; 3.2.2. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
+   &emsp;&ensp; 3.2.3. **[Posterior distribution](/P/poissexp-post)** <br>
+   &emsp;&ensp; 3.2.4. **[Log model evidence](/P/poissexp-lme)** <br>
    
-3. Probability data
+4. Probability data
 
-   3.1. Beta-distributed data <br>
-   &emsp;&ensp; 3.1.1. *[Definition](/D/beta-data)* <br>
-   &emsp;&ensp; 3.1.2. **[Method of moments](/P/beta-mom)** <br>
+   4.1. Beta-distributed data <br>
+   &emsp;&ensp; 4.1.1. *[Definition](/D/beta-data)* <br>
+   &emsp;&ensp; 4.1.2. **[Method of moments](/P/beta-mom)** <br>
    
-   3.2. Logistic regression <br>
-   &emsp;&ensp; 3.2.1. *[Definition](/D/logreg)* <br>
-   &emsp;&ensp; 3.2.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
-   &emsp;&ensp; 3.2.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
+   4.2. Logistic regression <br>
+   &emsp;&ensp; 4.2.1. *[Definition](/D/logreg)* <br>
+   &emsp;&ensp; 4.2.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
+   &emsp;&ensp; 4.2.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
 
-4. Categorical data
+5. Categorical data
    
-   4.1. Binomial observations <br>
-   &emsp;&ensp; 4.1.1. *[Definition](/D/bin-data)* <br>
-   &emsp;&ensp; 4.1.2. **[Conjugate prior distribution](/P/bin-prior)** <br>
-   &emsp;&ensp; 4.1.3. **[Posterior distribution](/P/bin-post)** <br>
-   &emsp;&ensp; 4.1.4. **[Log model evidence](/P/bin-lme)** <br>
+   5.1. Binomial observations <br>
+   &emsp;&ensp; 5.1.1. *[Definition](/D/bin-data)* <br>
+   &emsp;&ensp; 5.1.2. **[Conjugate prior distribution](/P/bin-prior)** <br>
+   &emsp;&ensp; 5.1.3. **[Posterior distribution](/P/bin-post)** <br>
+   &emsp;&ensp; 5.1.4. **[Log model evidence](/P/bin-lme)** <br>
    
-   4.2. Multinomial observations <br>
-   &emsp;&ensp; 4.2.1. *[Definition](/D/mult-data)* <br>
-   &emsp;&ensp; 4.2.2. **[Conjugate prior distribution](/P/mult-prior)** <br>
-   &emsp;&ensp; 4.2.3. **[Posterior distribution](/P/mult-post)** <br>
-   &emsp;&ensp; 4.2.4. **[Log model evidence](/P/mult-lme)** <br>
+   5.2. Multinomial observations <br>
+   &emsp;&ensp; 5.2.1. *[Definition](/D/mult-data)* <br>
+   &emsp;&ensp; 5.2.2. **[Conjugate prior distribution](/P/mult-prior)** <br>
+   &emsp;&ensp; 5.2.3. **[Posterior distribution](/P/mult-post)** <br>
+   &emsp;&ensp; 5.2.4. **[Log model evidence](/P/mult-lme)** <br>
 
 
 <br>

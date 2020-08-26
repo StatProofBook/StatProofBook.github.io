@@ -9,7 +9,7 @@ date: 2020-03-21 22:24:00
 
 title: "General linear model"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Multivariate normal data"
 topic: "General linear model"
 definition: "Definition"
 

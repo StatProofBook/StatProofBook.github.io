@@ -9,7 +9,7 @@ date: 2020-03-11 11:22:00
 
 title: "Weighted least squares for multiple linear regression"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 theorem: "Weighted least squares"
 
