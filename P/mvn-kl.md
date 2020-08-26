@@ -91,7 +91,7 @@ $$ \label{eq:mvn-lfmean}
 x \sim \mathcal{N}(\mu, \Sigma) \quad \Rightarrow \quad \left\langle A x \right\rangle = A \mu
 $$
 
-and the [expectation of a quadratic form for the multivariate normal distribution](/P/mvn-qfmean)
+and the [expectation of a quadratic form for the multivariate normal distribution](/P/mean-qf)
 
 $$ \label{eq:mvn-qfmean}
 x \sim \mathcal{N}(\mu, \Sigma) \quad \Rightarrow \quad \left\langle x^\mathrm{T} A x \right\rangle = \mu^\mathrm{T} A \mu + \mathrm{tr}(A \Sigma) \; ,
