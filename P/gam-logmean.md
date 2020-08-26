@@ -110,7 +110,7 @@ $$ \label{eq:E-Y-s2}
 \mathrm{E}(Y) = \psi(a) \; .
 $$
 
-Finally, noting that $1/b$ [acts as a scaling parameter](/D/gam-sgam) on a [gamma-distributed](/D/gam) [random variable](/D/rvar),
+Finally, noting that $1/b$ [acts as a scaling parameter](/P/gam-sgam) on a [gamma-distributed](/D/gam) [random variable](/D/rvar),
 
 $$ \label{eq:gam-sgam}
 X \sim \mathrm{Gam}(a,1) \quad \Rightarrow \quad \frac{1}{b} X \sim \mathrm{Gam}(a,b) \; ,

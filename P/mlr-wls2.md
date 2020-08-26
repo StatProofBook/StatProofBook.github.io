@@ -46,7 +46,7 @@ $$ \label{eq:W-V}
 W V W = I_n \quad \Leftrightarrow \quad V = W^{-1} W^{-1} \quad \Leftrightarrow \quad V^{-1} = W W \quad \Leftrightarrow \quad W = V^{-1/2} \; .
 $$
 
-Left-multiplying the linear regression equation \eqref{eq:MLR} with $W$, the [linear transformation theorem](/D/mvn-ltt) implies that
+Left-multiplying the linear regression equation \eqref{eq:MLR} with $W$, the [linear transformation theorem](/P/mvn-ltt) implies that
 
 $$ \label{eq:MLR-W}
 Wy = WX\beta + W\varepsilon, \; W\varepsilon \sim \mathcal{N}(0, \sigma^2 W V W^T) \; .

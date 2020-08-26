@@ -33,7 +33,7 @@ $$ \label{eq:Beta}
 y_i \sim \mathrm{Bet}(\alpha,\beta), \quad i = 1, \ldots, n \; .
 $$
 
-Then, the [method-of-moments estimates](/D/mom) for the shape parameters $\alpha$ and $\beta$ are given by
+Then, the [method-of-moments estimates](/D/mome) for the shape parameters $\alpha$ and $\beta$ are given by
 
 $$ \label{eq:Beta-MoM}
 \begin{split}
@@ -61,7 +61,7 @@ $$ \label{eq:Beta-E-Var}
 \end{split}
 $$
 
-Thus, [matching the moments](/D/mom) requires us to solve the following equation system for $\alpha$ and $\beta$:
+Thus, [matching the moments](/D/mome) requires us to solve the following equation system for $\alpha$ and $\beta$:
 
 $$ \label{eq:Beta-mean-var}
 \begin{split}

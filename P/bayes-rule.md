@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $A_1$, $A_2$ and $B$ be arbitrary statements about [random variables](/D/rvar) where $A_1$ and $A_2$ are mutually exclusive. Then, Bayes' rule states that the [posterior odds](/D/post-odd) are equal to the [Bayes factor](/D/bf) times the [prior odds](/D/prior-odd), i.e.
+**Theorem:** Let $A_1$, $A_2$ and $B$ be arbitrary statements about [random variables](/D/rvar) where $A_1$ and $A_2$ are mutually exclusive. Then, Bayes' rule states that the [posterior odds](/D/post-odd) are equal to the [Bayes factor](/D/lbf) times the [prior odds](/D/prior-odd), i.e.
 
 $$ \label{eq:bayes-rule}
 \frac{p(A_1|B)}{p(A_2|B)} = \frac{p(B|A_1)}{p(B|A_2)} \cdot \frac{p(A_1)}{p(A_2)} \; .
