@@ -12,7 +12,7 @@ Proofs and Definitions on [Model Selection Criteria](/I/Table_of_Contents#Model%
 | Residual variance | *[resvar](/D/resvar)* |  |  | **[resvar-bias](/P/resvar-bias)** |
 | R-squared | *[rsq](/D/rsq)* | **[rsq-der](/P/rsq-der)** | **[rsq-mll](/P/rsq-mll)** |  |
 | Signal-to-noise ratio | *[snr](/D/snr)* | | **[snr-rsq](/P/snr-rsq)** |  |
-| **Classical<br>information<br>criteria** |  |  |  |  |
+| **Classical infor-<br>mation criteria** |  |  |  |  |
 | Akaike information criterion | *[aic](/D/aic)* |  |  |  |
 | Bayesian information criterion | *[bic](/D/bic)* | **[bic-der](/P/bic-der)** |  |  |
 | Deviance information criterion | *[dic](/D/dic)* |  |  |  |
