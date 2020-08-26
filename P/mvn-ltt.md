@@ -18,6 +18,7 @@ sources:
     year: 2010
     title: "Linear combinations of normal random variables"
     in: "Lectures on probability and statistics"
+    pages: "retrieved on 2019-08-27"
     url: "https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations"
 
 proof_id: "P1"
