@@ -414,7 +414,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    
    3.3. Bayes factor <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/bf)* <br>
-   &emsp;&ensp; 3.3.2. **[Computation using Savage-Dickey Density Ratio](/P/bf-sddr)* <br>
+   &emsp;&ensp; 3.3.2. **[Computation using Savage-Dickey Density Ratio](/P/bf-sddr)** <br>
    
    3.4. Log Bayes factor <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/lbf)* <br>
