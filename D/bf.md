@@ -37,13 +37,13 @@ $$
 Note: by [Bayes Theorem](/P/bayes-th), the ratio of [posterior model probabilities](/D/pmp) (i.e., the posterior model odds) can be written as
 
 $$ \label{eq:odds}
-\frac{p(\mathcal{M}_1\mid y)}{p(\mathcal{M}_2)} = \frac{p(\mathcal{M}_1)}{p(\mathcal{M}_2)} \cdot \frac{p(y\mid \mathcal{M}_1)}{p(y\mid \mathcal{M}_2)},
+\frac{p(\mathcal{M}_1\mid y)}{p(\mathcal{M}_2\mid y)} = \frac{p(\mathcal{M}_1)}{p(\mathcal{M}_2)} \cdot \frac{p(y\mid \mathcal{M}_1)}{p(y\mid \mathcal{M}_2)},
 $$
 
 or equivalently by \eqref{eq:BF},
 
 $$ \label{eq:odds2}
-\frac{p(\mathcal{M}_1\mid y)}{p(\mathcal{M}_2)} = \frac{p(\mathcal{M}_1)}{p(\mathcal{M}_2)} \cdot \text{BF}_{12}.
+\frac{p(\mathcal{M}_1\mid y)}{p(\mathcal{M}_2\mid y)} = \frac{p(\mathcal{M}_1)}{p(\mathcal{M}_2)} \cdot \text{BF}_{12}.
 $$
 
 In other words, the Bayes factor can be viewed as the factor by which the prior model odds are updated (after observing data $y$) to posterior model odds.
