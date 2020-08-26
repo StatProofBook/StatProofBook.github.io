@@ -81,10 +81,13 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
    &emsp;&ensp; 1.8.2. *[Correlation matrix](/D/corrmat)* <br>
    
-   1.9. Further moments <br>
-   &emsp;&ensp; 1.9.1. *[Moment](/D/mom)* <br>
-   &emsp;&ensp; 1.9.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-   &emsp;&ensp; 1.9.3. *[Full width at half maximum](/D/fwhm)* <br>
+   1.9. Measures of statistical dispersion <br>
+   &emsp;&ensp; 1.9.1. *[Full width at half maximum](/D/fwhm)* <br>
+   
+   1.10. Further moments <br>
+   &emsp;&ensp; 1.10.1. *[Moment](/D/mom)* <br>
+   &emsp;&ensp; 1.10.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+  
 
 2. Information theory
    

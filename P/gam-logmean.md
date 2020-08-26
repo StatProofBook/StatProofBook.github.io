@@ -40,7 +40,7 @@ $$ \label{eq:gam-logmean}
 $$
 
 
-**Proof:** Let $Y = \ln(X)$, such that $\mathrm{E}(Y) = \mathrm{E}(\ln X)$ and consider the special case that $b = 1$. In this case, the [probability density function of the gamma distribution] is
+**Proof:** Let $Y = \ln(X)$, such that $\mathrm{E}(Y) = \mathrm{E}(\ln X)$ and consider the special case that $b = 1$. In this case, the [probability density function of the gamma distribution](/P/gam-pdf) is
 
 $$ \label{eq:X-pdf-s1}
 f_X(x) = \frac{1}{\Gamma(a)} \, x^{a-1} \, \mathrm{exp} [-x] \; .

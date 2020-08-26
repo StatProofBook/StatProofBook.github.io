@@ -87,7 +87,7 @@ $$ \label{eq:LME-approx}
 -2 \log p(y|m) \approx -2 \, \mathrm{LL}(\hat{\theta}) + p \log n - p \log(2 \pi) - 2 \log p(\hat{\theta}|m) + \log \left| J(\hat{\theta}) \right| \; .
 $$
 
-As $n \to \infty$, the last three terms are $O_p(1)$ and can therefore be ignored when comparing between models $\mathcal{M} = \left\lbrace m_1, \ldots, m_M \right\rbrace$ and using $p(y \vert m_j)$ to compute [posterior model probabilies](/D/led-pmp) $p(m_j \vert y)$. With that, the BIC is given as
+As $n \to \infty$, the last three terms are $O_p(1)$ and can therefore be ignored when comparing between models $\mathcal{M} = \left\lbrace m_1, \ldots, m_M \right\rbrace$ and using $p(y \vert m_j)$ to compute [posterior model probabilies](/D/pmp) $p(m_j \vert y)$. With that, the BIC is given as
 
 $$ \label{eq:BIC-qed}
 \mathrm{BIC}(m) = -2 \log p(y|\hat{\theta}, m) + p \log n \; .
