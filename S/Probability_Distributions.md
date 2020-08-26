@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Special: Statistical Models"
+title: "Special: Probability Distributions"
 ---
 
 
-Proofs and Definitions on [Probability Distributions](/I/Table_of_Contents#Probability%20Distributions) in the StatProofBook, as of 2020-08-26.
+**Proofs** and *Definitions* on [Probability Distributions](/I/Table_of_Contents#Probability%20Distributions) in the StatProofBook, as of 2020-08-26.
 
 | Distribution | Def | PDF | CDF | QF | Mean | Med | Mode | Var | Ent | KL | Marg | Cond | Other |
 |:------------ |:--- |:--- |:--- |:-- |:---- |:--- |:---- |:--- |:--- |:-- |:---- |:---- |:----- |

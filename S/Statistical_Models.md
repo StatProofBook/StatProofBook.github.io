@@ -4,7 +4,7 @@ title: "Special: Statistical Models"
 ---
 
 
-Proofs and Definitions on [Statistical Models](/I/Table_of_Contents#Statistical%20Models) in the StatProofBook, as of 2020-08-26.
+**Proofs** and *Definitions* on [Statistical Models](/I/Table_of_Contents#Statistical%20Models) in the StatProofBook, as of 2020-08-26.
 
 | Model | Definition | Estimation | Maximum<br>likelihood<br>estimation | Conjugate<br>prior | Posterior<br>distribution | Log<br>model<br>evidence | Other |
 |:----- |:---------- |:---------- |:----------------------------------- |:------------------------------- |:------------------------- |:--------------------- |:----- |
