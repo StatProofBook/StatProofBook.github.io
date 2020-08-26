@@ -98,3 +98,4 @@ title: "Definition by Number"
 | D89 | bma | [Bayesian model averaging](/D/bma) | JoramSoch | 2020-08-03 |
 | D90 | mom | [Moment](/D/mom) | JoramSoch | 2020-08-19 |
 | D91 | fwhm | [Full width at half maximum](/D/fwhm) | JoramSoch | 2020-08-19 |
+| D92 | bf | [Bayes factor](/D/bf) | tomfaulkenberry | 2020-08-26 |

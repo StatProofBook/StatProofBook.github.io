@@ -162,3 +162,4 @@ title: "Proof by Number"
 | P153 | mom-mgf | [Moment in terms of moment-generating function](/P/mom-mgf) | JoramSoch | 2020-08-19 |
 | P154 | mgf-ltt | [Linear transformation theorem for the moment-generating function](/P/mgf-ltt) | JoramSoch | 2020-08-19 |
 | P155 | mgf-lincomb | [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb) | JoramSoch | 2020-08-19 |
+| P156 | bf-sddr | [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr) | tomfaulkenberry | 2020-08-26 |

@@ -101,3 +101,7 @@ title: "Definition by Author"
 ### StatProofBook (1 definition)
 
 - [Definition Template](/D/-temp-)
+
+### tomfaulkenberry (1 definition)
+
+- [Bayes factor](/D/bf)

@@ -10,6 +10,7 @@ title: "Definition by Topic"
 
 ### B
 
+- [Bayes factor](/D/bf)
 - [Bayesian information criterion](/D/bic)
 - [Bayesian model averaging](/D/bma)
 - [Bernoulli distribution](/D/bern)

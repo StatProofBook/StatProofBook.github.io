@@ -165,3 +165,7 @@ title: "Proof by Author"
 ### StatProofBook (1 proof)
 
 - [Proof Template](/P/-temp-)
+
+### tomfaulkenberry (1 proof)
+
+- [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)

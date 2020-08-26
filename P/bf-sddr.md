@@ -22,7 +22,7 @@ sources:
     url: "https://dx.doi.org/10.29220/CSAM.2019.26.2.217"
     doi: "10.29220/CSAM.2019.26.2.217"
 
-def_id: "P156"
+proof_id: "P156"
 shortcut: "bf-sddr"
 username: "tomfaulkenberry"
 ---

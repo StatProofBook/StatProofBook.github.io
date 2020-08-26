@@ -201,6 +201,7 @@ title: "Proof by Topic"
 
 ### S
 
+- [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 
 ### T
