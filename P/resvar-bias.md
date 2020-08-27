@@ -113,7 +113,7 @@ $$ \label{eq:E-Var-xi}
 \mathbb{E}(x_i) = \mu \quad \text{and} \quad \mathrm{Var}(x_i) = \sigma^2 \; .
 $$
 
-The [expectation of](/P/ug-unb) $\bar{x}$ given by \eqref{eq:mean-mle} is
+The [expectation](/D/mean) of $\bar{x}$ given by \eqref{eq:mean-mle} is
 
 $$ \label{eq:E-mean-mle}
 \begin{split}

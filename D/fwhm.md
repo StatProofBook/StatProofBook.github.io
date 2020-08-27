@@ -10,7 +10,7 @@ date: 2020-08-19 05:40:00
 title: "Full width at half maximum"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Further moments"
+topic: "Measures of statistical dispersion"
 definition: "Full width at half maximum"
 
 sources:

@@ -34,7 +34,7 @@ $$ \label{eq:LBF-ratio}
 $$
 
 
-**Proof:** The [Bayes factor](/D/lbf) is defined as the [posterior](/D/post) [odds ratio](/D/odds) when both [models](/D/gm) are equally likely [apriori](/D/prior):
+**Proof:** The [Bayes factor](/D/bf) is defined as the [posterior](/D/post) [odds ratio](/D/odds) when both [models](/D/gm) are equally likely [apriori](/D/prior):
 
 $$ \label{eq:BF-s1}
 \mathrm{BF}_{12} = \frac{p(m_1|y)}{p(m_2|y)}
