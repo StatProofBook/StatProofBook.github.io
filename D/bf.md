@@ -28,22 +28,22 @@ username: "tomfaulkenberry"
 ---
 
 
-**Definition:** Consider two competing [generative models](/D/gm) $\mathcal{M}_1$ and $\mathcal{M}_2$ for observed data $y$. Then the Bayes factor in favor $\mathcal{M}_1$ over $\mathcal{M}_2$ is the ratio of [marginal likelihoods](/D/ml) of $\mathcal{M}_1$ and $\mathcal{M}_2$:
+**Definition:** Consider two competing [generative models](/D/gm) $m_1$ and $m_2$ for observed data $y$. Then the Bayes factor in favor $m_1$ over $m_2$ is the ratio of [marginal likelihoods](/D/ml) of $m_1$ and $m_2$:
 
 $$ \label{eq:BF}
-\text{BF}_{12} = \frac{p(y\mid \mathcal{M}_1)}{p(y\mid \mathcal{M}_2)}.
+\text{BF}_{12} = \frac{p(y\mid m_1)}{p(y\mid m_2)}.
 $$
 
 Note: by [Bayes Theorem](/P/bayes-th), the ratio of [posterior model probabilities](/D/pmp) (i.e., the posterior model odds) can be written as
 
 $$ \label{eq:odds}
-\frac{p(\mathcal{M}_1\mid y)}{p(\mathcal{M}_2\mid y)} = \frac{p(\mathcal{M}_1)}{p(\mathcal{M}_2)} \cdot \frac{p(y\mid \mathcal{M}_1)}{p(y\mid \mathcal{M}_2)},
+\frac{p(m_1 \mid y)}{p(m_2 \mid y)} = \frac{p(m_1)}{p(m_2)} \cdot \frac{p(y\mid m_1)}{p(y\mid m_2)},
 $$
 
 or equivalently by \eqref{eq:BF},
 
 $$ \label{eq:odds2}
-\frac{p(\mathcal{M}_1\mid y)}{p(\mathcal{M}_2\mid y)} = \frac{p(\mathcal{M}_1)}{p(\mathcal{M}_2)} \cdot \text{BF}_{12}.
+\frac{p(m_1 \mid y)}{p(m_2 \mid y)} = \frac{p(m_1)}{p(m_2)} \cdot \text{BF}_{12}.
 $$
 
-In other words, the Bayes factor can be viewed as the factor by which the prior model odds are updated (after observing data $y$) to posterior model odds.
+In other words, the Bayes factor can be viewed as the factor by which the prior model odds are updated (after observing data $y$) to posterior model odds (see also [Bayes' rule](/P/bayes-rule)).
