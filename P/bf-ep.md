@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: 2020-08-26 12:00:00
+date: 2020-09-02 12:00:00
 
 title: "Encompassing Prior Method for computing Bayes Factors"
 chapter: "Model Selection"

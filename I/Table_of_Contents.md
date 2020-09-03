@@ -5,7 +5,7 @@ title: "Table of Contents"
 
 
 **[Proofs](/P/-temp-)** are printed in **bold** – *[Definitions](/D/-temp-)* are set in *italics* <br>
-Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** – Definitions by *[Number](/I/Definition_by_Number)* and *[Topic](/I/Definition_by_Topic)* <br>
+**Proofs**: [by Number](/I/Proof_by_Number), [by Topic](/I/Proof_by_Topic) – *Definitions*:  [by Number](/I/Definition_by_Number), [by Topic](/I/Definition_by_Topic) <br>
 <u>Specials:</u> [Probability Distributions](/S/Probability_Distributions), [Statistical Models](/S/Statistical_Models), [Model Selection Criteria](/S/Model_Selection) <br>
 
 
@@ -89,7 +89,6 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** �
    1.10. Further moments <br>
    &emsp;&ensp; 1.10.1. *[Moment](/D/mom)* <br>
    &emsp;&ensp; 1.10.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-  
 
 2. Information theory
    

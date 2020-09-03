@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (155 proofs)
+### JoramSoch (159 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -18,11 +18,13 @@ title: "Proof by Author"
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
 - [Conjugate prior distribution for binomial observations](/P/bin-prior)
 - [Conjugate prior distribution for multinomial observations](/P/mult-prior)
+- [Conjugate prior distribution for multivariate Bayesian linear regression](/P/mblr-prior)
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Convexity of the cross-entropy](/P/entcross-conv)
+- [Covariance of independent random variables](/P/cov-ind)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
@@ -59,6 +61,7 @@ title: "Proof by Author"
 - [Log model evidence for Bayesian linear regression](/P/blr-lme)
 - [Log model evidence for binomial observations](/P/bin-lme)
 - [Log model evidence for multinomial observations](/P/mult-lme)
+- [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
@@ -108,6 +111,7 @@ title: "Proof by Author"
 - [Posterior distribution for Bayesian linear regression](/P/blr-post)
 - [Posterior distribution for binomial observations](/P/bin-post)
 - [Posterior distribution for multinomial observations](/P/mult-post)
+- [Posterior distribution for multivariate Bayesian linear regression](/P/mblr-post)
 - [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post)
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)

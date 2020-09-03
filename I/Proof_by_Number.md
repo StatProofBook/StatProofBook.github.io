@@ -163,4 +163,8 @@ title: "Proof by Number"
 | P154 | mgf-ltt | [Linear transformation theorem for the moment-generating function](/P/mgf-ltt) | JoramSoch | 2020-08-19 |
 | P155 | mgf-lincomb | [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb) | JoramSoch | 2020-08-19 |
 | P156 | bf-sddr | [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr) | tomfaulkenberry | 2020-08-26 |
-| P157 | bf-ep | [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep) | tomfaulkenberry | 2020-08-26 |
+| P157 | bf-ep | [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep) | tomfaulkenberry | 2020-09-02 |
+| P158 | cov-ind | [Covariance of independent random variables](/P/cov-ind) | JoramSoch | 2020-09-03 |
+| P159 | mblr-prior | [Conjugate prior distribution for multivariate Bayesian linear regression](/P/mblr-prior) | JoramSoch | 2020-09-03 |
+| P160 | mblr-post | [Posterior distribution for multivariate Bayesian linear regression](/P/mblr-post) | JoramSoch | 2020-09-03 |
+| P161 | mblr-lme | [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme) | JoramSoch | 2020-09-03 |

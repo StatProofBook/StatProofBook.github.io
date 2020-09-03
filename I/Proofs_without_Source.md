@@ -17,6 +17,7 @@ title: "Proofs without Source"
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Log model evidence for multinomial observations](/P/mult-lme)
+- [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
