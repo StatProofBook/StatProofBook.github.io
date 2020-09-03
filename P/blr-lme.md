@@ -33,7 +33,7 @@ $$ \label{eq:GLM}
 m: \; y = X \beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \sigma^2 V)
 $$
 
-be a [linear regression model](/D/mlr) with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$, known $n \times n$ covariance structure $V$ and unknown $p \times 1$ regression coefficients $\beta$ and noise variance $\sigma^2$.  Moreover, assume a [normal-gamma prior distribution](/P/blr-prior) over the model parameters $\beta$ and $\tau = 1/\sigma^2$:
+be a [linear regression model](/D/mlr) with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$, known $n \times n$ covariance structure $V$ as well as unknown $p \times 1$ regression coefficients $\beta$ and unknown noise variance $\sigma^2$. Moreover, assume a [normal-gamma prior distribution](/P/blr-prior) over the model parameters $\beta$ and $\tau = 1/\sigma^2$:
 
 $$ \label{eq:GLM-NG-prior}
 p(\beta,\tau) = \mathcal{N}(\beta; \mu_0, (\tau \Lambda_0)^{-1}) \cdot \mathrm{Gam}(\tau; a_0, b_0) \; .
@@ -117,13 +117,13 @@ $$
 Using the [probability density function of the gamma distribution](/P/gam-pdf), we can rewrite this as
 
 $$\label{eq:GLM-NG-LME-s4}
-\int p(y,\beta,\tau) \, \mathrm{d}\beta = \; \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \frac{\Gamma(a_n)}{ {b_n}^{a_n}} \, \mathrm{Gam}(\tau; a_n, b_n) \; .
+\int p(y,\beta,\tau) \, \mathrm{d}\beta = \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \frac{\Gamma(a_n)}{ {b_n}^{a_n}} \, \mathrm{Gam}(\tau; a_n, b_n) \; .
 $$
 
 Finally, $\tau$ can also be integrated out:
 
 $$ \label{eq:GLM-NG-LME-s5}
-\iint p(y,\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau = \; \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{\Gamma(a_n)}{\Gamma(a_0)} \, \frac{ {b_0}^{a_0}}{ {b_n}^{a_n}} = p(y|m) \; .
+\iint p(y,\beta,\tau) \, \mathrm{d}\beta \, \mathrm{d}\tau = \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{\Gamma(a_n)}{\Gamma(a_0)} \, \frac{ {b_0}^{a_0}}{ {b_n}^{a_n}} = p(y|m) \; .
 $$
 
 Thus, the [log model evidence](/D/lme) of this model is given by

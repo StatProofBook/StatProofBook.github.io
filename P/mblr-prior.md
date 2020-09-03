@@ -38,7 +38,7 @@ be a [general linear model](/D/glm) with measured $n \times v$ data matrix $Y$, 
 Then, the [conjugate prior](/D/prior-conj) for this model is a [normal-Wishart distribution](/D/nw)
 
 $$ \label{eq:GLM-NW-prior}
-p(B,T) = \mathcal{MN}(B; M_0, \Lambda_0^{-1}, T^{-1}) \cdot \mathcal{W}(T; P_0^{-1}, \nu_0)
+p(B,T) = \mathcal{MN}(B; M_0, \Lambda_0^{-1}, T^{-1}) \cdot \mathcal{W}(T; \Omega_0^{-1}, \nu_0)
 $$
 
 where $T = \Sigma^{-1}$ is the inverse [noise covariance](/D/covmat) or noise [precision matrix](/D/precmat).
@@ -91,19 +91,19 @@ $$
 The same is true for a [normal-Wishart distribution](/D/nw) over $B$ and $T$
 
 $$ \label{eq:MBLR-prior-s1}
-p(B,T) = \mathcal{MN}(B; M_0, \Lambda_0^{-1}, T^{-1}) \cdot \mathcal{W}(T; P_0^{-1}, \nu_0)
+p(B,T) = \mathcal{MN}(B; M_0, \Lambda_0^{-1}, T^{-1}) \cdot \mathcal{W}(T; \Omega_0^{-1}, \nu_0)
 $$
 
 the [probability density function of which](/P/nw-pdf)
 
 $$ \label{eq:MBLR-prior-s2}
-p(B,T) = \sqrt{\frac{|T|^p |\Lambda_0|^v}{(2 \pi)^{pv}}} \, \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T (B-M_0)^\mathrm{T} \Lambda_0 (B-M_0) \right) \right] \cdot \frac{1}{\Gamma_v \left( \frac{\nu_0}{2} \right)} \sqrt{\frac{|P_0|^{\nu_0}}{2^{\nu_0 v}}} |T|^{(\nu_0-v-1)/2} \exp\left[ -\frac{1}{2} \mathrm{tr}\left( P_0 T \right) \right]
+p(B,T) = \sqrt{\frac{|T|^p |\Lambda_0|^v}{(2 \pi)^{pv}}} \, \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T (B-M_0)^\mathrm{T} \Lambda_0 (B-M_0) \right) \right] \cdot \frac{1}{\Gamma_v \left( \frac{\nu_0}{2} \right)} \sqrt{\frac{|\Omega_0|^{\nu_0}}{2^{\nu_0 v}}} |T|^{(\nu_0-v-1)/2} \exp\left[ -\frac{1}{2} \mathrm{tr}\left( \Omega_0 T \right) \right]
 $$
 
 exhibits the same proportionality
 
 $$ \label{eq:MBLR-prior-s3}
-p(B,T) \propto |T|^{(\nu_0+p-v-1)/2} \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T P_0 \right) \right] \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T \left[ (B-M_0)^\mathrm{T} \Lambda_0 (B-M_0) \right] \right) \right]
+p(B,T) \propto |T|^{(\nu_0+p-v-1)/2} \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T \Omega_0 \right) \right] \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T \left[ (B-M_0)^\mathrm{T} \Lambda_0 (B-M_0) \right] \right) \right]
 $$
 
 and is therefore conjugate relative to the likelihood.
