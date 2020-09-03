@@ -102,6 +102,7 @@ title: "Definition by Author"
 
 - [Definition Template](/D/-temp-)
 
-### tomfaulkenberry (1 definition)
+### tomfaulkenberry (2 definitions)
 
 - [Bayes factor](/D/bf)
+- [Encompassing model](/D/encm)

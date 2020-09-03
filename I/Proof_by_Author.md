@@ -166,6 +166,7 @@ title: "Proof by Author"
 
 - [Proof Template](/P/-temp-)
 
-### tomfaulkenberry (1 proof)
+### tomfaulkenberry (2 proofs)
 
+- [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)
 - [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)

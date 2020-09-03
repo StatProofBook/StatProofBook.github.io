@@ -46,6 +46,7 @@ title: "Definition by Topic"
 
 ### E
 
+- [Encompassing model](/D/encm)
 - [Estimation matrix](/D/emat)
 - [Expected value](/D/mean)
 - [Explained sum of squares](/D/ess)

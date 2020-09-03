@@ -99,3 +99,4 @@ title: "Definition by Number"
 | D90 | mom | [Moment](/D/mom) | JoramSoch | 2020-08-19 |
 | D91 | fwhm | [Full width at half maximum](/D/fwhm) | JoramSoch | 2020-08-19 |
 | D92 | bf | [Bayes factor](/D/bf) | tomfaulkenberry | 2020-08-26 |
+| D93 | encm | [Encompassing model](/D/encm) | tomfaulkenberry | 2020-08-26 |

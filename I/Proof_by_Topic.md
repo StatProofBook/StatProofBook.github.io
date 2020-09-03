@@ -52,6 +52,7 @@ title: "Proof by Topic"
 
 ### E
 
+- [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Expectation of a quadratic form](/P/mean-qf)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
