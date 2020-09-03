@@ -34,7 +34,7 @@ $$ \label{eq:BF}
 \text{BF}_{12} = \frac{p(y\mid m_1)}{p(y\mid m_2)}.
 $$
 
-Note: by [Bayes Theorem](/P/bayes-th), the ratio of [posterior model probabilities](/D/pmp) (i.e., the posterior model odds) can be written as
+Note that by [Bayes' theorem](/P/bayes-th), the ratio of [posterior model probabilities](/D/pmp) (i.e., the posterior model odds) can be written as
 
 $$ \label{eq:odds}
 \frac{p(m_1 \mid y)}{p(m_2 \mid y)} = \frac{p(m_1)}{p(m_2)} \cdot \frac{p(y\mid m_1)}{p(y\mid m_2)},
@@ -46,4 +46,4 @@ $$ \label{eq:odds2}
 \frac{p(m_1 \mid y)}{p(m_2 \mid y)} = \frac{p(m_1)}{p(m_2)} \cdot \text{BF}_{12}.
 $$
 
-In other words, the Bayes factor can be viewed as the factor by which the prior model odds are updated (after observing data $y$) to posterior model odds (see also [Bayes' rule](/P/bayes-rule)).
+In other words, the Bayes factor can be viewed as the factor by which the prior model odds are updated (after observing data $y$) to posterior model odds – which is also expressed by [Bayes' rule](/P/bayes-rule).
