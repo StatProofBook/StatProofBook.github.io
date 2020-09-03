@@ -70,19 +70,21 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    1.7. Covariance <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/cov)* <br>
    &emsp;&ensp; 1.7.2. **[Partition into expected values](/P/cov-mean)** <br>
-   &emsp;&ensp; 1.7.3. **[Relationship to correlation](/P/cov-corr)** <br>
-   &emsp;&ensp; 1.7.4. *[Covariance matrix](/D/covmat)* <br>
-   &emsp;&ensp; 1.7.5. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.7.6. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.7.7. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.7.8. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   &emsp;&ensp; 1.7.3. **[Covariance under independence](/P/cov-ind)** <br>
+   &emsp;&ensp; 1.7.4. **[Relationship to correlation](/P/cov-corr)** <br>
+   &emsp;&ensp; 1.7.5. *[Covariance matrix](/D/covmat)* <br>
+   &emsp;&ensp; 1.7.6. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.7.7. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.7.8. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.7.9. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
    1.8. Correlation <br>
    &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
    &emsp;&ensp; 1.8.2. *[Correlation matrix](/D/corrmat)* <br>
    
    1.9. Measures of statistical dispersion <br>
-   &emsp;&ensp; 1.9.1. *[Full width at half maximum](/D/fwhm)* <br>
+   &emsp;&ensp; 1.9.1. *[Standard deviation](/D/std)* <br>
+   &emsp;&ensp; 1.9.2. *[Full width at half maximum](/D/fwhm)* <br>
    
    1.10. Further moments <br>
    &emsp;&ensp; 1.10.1. *[Moment](/D/mom)* <br>
@@ -328,6 +330,11 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 2.1.2. **[Ordinary least squares](/P/glm-ols)** <br>
    &emsp;&ensp; 2.1.3. **[Weighted least squares](/P/glm-wls)** <br>
    &emsp;&ensp; 2.1.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
+   
+   2.2. Multivariate Bayesian linear regression <br>
+   &emsp;&ensp; 2.2.1. **[Conjugate prior distribution](/P/mblr-prior)** <br>
+   &emsp;&ensp; 2.2.2. **[Posterior distribution](/P/mblr-post)** <br>
+   &emsp;&ensp; 2.2.3. **[Log model evidence](/P/mblr-lme)** <br>
 
 3. Poisson data
 
