@@ -6,6 +6,7 @@ title: "Table of Contents"
 
 **[Proofs](/P/-temp-)** are printed in **bold** â€“ *[Definitions](/D/-temp-)* are set in *italics* <br>
 Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€“ Definitions by *[Number](/I/Definition_by_Number)* and *[Topic](/I/Definition_by_Topic)* <br>
+<u>Specials:</u> [Probability Distributions](/S/Probability_Distributions), [Statistical Models](/S/Statistical_Models), [Model Selection Criteria](/S/Model_Selection) <br>
 
 
 <br>
@@ -50,7 +51,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.5.3. **[Non-negativity](/P/mean-nonneg)** <br>
    &emsp;&ensp; 1.5.4. **[Linearity](/P/mean-lin)** <br>
    &emsp;&ensp; 1.5.5. **[Monotonicity](/P/mean-mono)** <br>
-   &emsp;&ensp; 1.5.6. **[(Non-)Multiplicitavity](/P/mean-mult)** <br>
+   &emsp;&ensp; 1.5.6. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
    &emsp;&ensp; 1.5.7. **[Expectation of a quadratic form](/P/mean-qf)** <br>
    &emsp;&ensp; 1.5.8. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
    
@@ -80,10 +81,13 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
    &emsp;&ensp; 1.8.2. *[Correlation matrix](/D/corrmat)* <br>
    
-   1.9. Further moments <br>
-   &emsp;&ensp; 1.9.1. *[Moment](/D/mom)* <br>
-   &emsp;&ensp; 1.9.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-   &emsp;&ensp; 1.9.3. *[Full width at half maximum](/D/fwhm)* <br>
+   1.9. Measures of statistical dispersion <br>
+   &emsp;&ensp; 1.9.1. *[Full width at half maximum](/D/fwhm)* <br>
+   
+   1.10. Further moments <br>
+   &emsp;&ensp; 1.10.1. *[Moment](/D/mom)* <br>
+   &emsp;&ensp; 1.10.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+  
 
 2. Information theory
    
@@ -291,12 +295,12 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
 <h3>Chapter III: Statistical Models</h3>
 </section>
 
-1. Normal data
+1. Univariate normal data
 
    1.1. Multiple linear regression <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/mlr)* <br>
-   &emsp;&ensp; 1.1.2. **[Ordinary least squares (1)](/P/mlr-ols)** <br>
-   &emsp;&ensp; 1.1.3. **[Ordinary least squares (2)](/P/mlr-ols2)** <br>
+   &emsp;&ensp; 1.1.2. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
+   &emsp;&ensp; 1.1.3. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
    &emsp;&ensp; 1.1.4. *[Total sum of squares](/D/tss)* <br>
    &emsp;&ensp; 1.1.5. *[Explained sum of squares](/D/ess)* <br>
    &emsp;&ensp; 1.1.6. *[Residual sum of squares](/D/rss)* <br>
@@ -306,8 +310,8 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.1.10. *[Residual-forming matrix](/D/rfmat)* <br>
    &emsp;&ensp; 1.1.11. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
    &emsp;&ensp; 1.1.12. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
-   &emsp;&ensp; 1.1.13. **[Weighted least squares (1)](/P/mlr-wls)** <br>
-   &emsp;&ensp; 1.1.14. **[Weighted least squares (2)](/P/mlr-wls2)** <br>
+   &emsp;&ensp; 1.1.13. **[Weighted least squares](/P/mlr-wls)** (1) <br>
+   &emsp;&ensp; 1.1.14. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
    &emsp;&ensp; 1.1.15. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
    
    1.2. Bayesian linear regression <br>
@@ -317,48 +321,50 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 1.2.4. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
    &emsp;&ensp; 1.2.5. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
    
-   1.3. General linear model <br>
-   &emsp;&ensp; 1.3.1. *[Definition](/D/glm)* <br>
-   &emsp;&ensp; 1.3.2. **[Ordinary least squares](/P/glm-ols)** <br>
-   &emsp;&ensp; 1.3.3. **[Weighted least squares](/P/glm-wls)** <br>
-   &emsp;&ensp; 1.3.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
+2. Multivariate normal data
+   
+   2.1. General linear model <br>
+   &emsp;&ensp; 2.1.1. *[Definition](/D/glm)* <br>
+   &emsp;&ensp; 2.1.2. **[Ordinary least squares](/P/glm-ols)** <br>
+   &emsp;&ensp; 2.1.3. **[Weighted least squares](/P/glm-wls)** <br>
+   &emsp;&ensp; 2.1.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
 
-2. Poisson data
+3. Poisson data
 
-   2.1. Poisson-distributed data <br>
-   &emsp;&ensp; 2.1.1. *[Definition](/D/poiss-data)* <br>
-   &emsp;&ensp; 2.1.2. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
+   3.1. Poisson-distributed data <br>
+   &emsp;&ensp; 3.1.1. *[Definition](/D/poiss-data)* <br>
+   &emsp;&ensp; 3.1.2. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
    
-   2.2. Poisson distribution with exposure values <br>
-   &emsp;&ensp; 2.2.1. *[Definition](/D/poissexp)* <br>
-   &emsp;&ensp; 2.2.2. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
-   &emsp;&ensp; 2.2.3. **[Posterior distribution](/P/poissexp-post)** <br>
-   &emsp;&ensp; 2.2.4. **[Log model evidence](/P/poissexp-lme)** <br>
+   3.2. Poisson distribution with exposure values <br>
+   &emsp;&ensp; 3.2.1. *[Definition](/D/poissexp)* <br>
+   &emsp;&ensp; 3.2.2. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
+   &emsp;&ensp; 3.2.3. **[Posterior distribution](/P/poissexp-post)** <br>
+   &emsp;&ensp; 3.2.4. **[Log model evidence](/P/poissexp-lme)** <br>
    
-3. Probability data
+4. Probability data
 
-   3.1. Beta-distributed data <br>
-   &emsp;&ensp; 3.1.1. *[Definition](/D/beta-data)* <br>
-   &emsp;&ensp; 3.1.2. **[Method of moments](/P/beta-mom)** <br>
+   4.1. Beta-distributed data <br>
+   &emsp;&ensp; 4.1.1. *[Definition](/D/beta-data)* <br>
+   &emsp;&ensp; 4.1.2. **[Method of moments](/P/beta-mom)** <br>
    
-   3.2. Logistic regression <br>
-   &emsp;&ensp; 3.2.1. *[Definition](/D/logreg)* <br>
-   &emsp;&ensp; 3.2.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
-   &emsp;&ensp; 3.2.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
+   4.2. Logistic regression <br>
+   &emsp;&ensp; 4.2.1. *[Definition](/D/logreg)* <br>
+   &emsp;&ensp; 4.2.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
+   &emsp;&ensp; 4.2.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
 
-4. Categorical data
+5. Categorical data
    
-   4.1. Binomial observations <br>
-   &emsp;&ensp; 4.1.1. *[Definition](/D/bin-data)* <br>
-   &emsp;&ensp; 4.1.2. **[Conjugate prior distribution](/P/bin-prior)** <br>
-   &emsp;&ensp; 4.1.3. **[Posterior distribution](/P/bin-post)** <br>
-   &emsp;&ensp; 4.1.4. **[Log model evidence](/P/bin-lme)** <br>
+   5.1. Binomial observations <br>
+   &emsp;&ensp; 5.1.1. *[Definition](/D/bin-data)* <br>
+   &emsp;&ensp; 5.1.2. **[Conjugate prior distribution](/P/bin-prior)** <br>
+   &emsp;&ensp; 5.1.3. **[Posterior distribution](/P/bin-post)** <br>
+   &emsp;&ensp; 5.1.4. **[Log model evidence](/P/bin-lme)** <br>
    
-   4.2. Multinomial observations <br>
-   &emsp;&ensp; 4.2.1. *[Definition](/D/mult-data)* <br>
-   &emsp;&ensp; 4.2.2. **[Conjugate prior distribution](/P/mult-prior)** <br>
-   &emsp;&ensp; 4.2.3. **[Posterior distribution](/P/mult-post)** <br>
-   &emsp;&ensp; 4.2.4. **[Log model evidence](/P/mult-lme)** <br>
+   5.2. Multinomial observations <br>
+   &emsp;&ensp; 5.2.1. *[Definition](/D/mult-data)* <br>
+   &emsp;&ensp; 5.2.2. **[Conjugate prior distribution](/P/mult-prior)** <br>
+   &emsp;&ensp; 5.2.3. **[Posterior distribution](/P/mult-post)** <br>
+   &emsp;&ensp; 5.2.4. **[Log model evidence](/P/mult-lme)** <br>
 
 
 <br>
@@ -380,7 +386,7 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    
    1.3. Signal-to-noise ratio <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/snr)* <br>
-   &emsp;&ensp; 1.3.1. **[Relationship with RÂ²](/P/snr-rsq)** <br>
+   &emsp;&ensp; 1.3.2. **[Relationship with RÂ²](/P/snr-rsq)** <br>
 
 2. Classical information criteria
 
@@ -406,19 +412,25 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    &emsp;&ensp; 3.2.2. **[Derivation](/P/lfe-der)** <br>
    &emsp;&ensp; 3.2.3. **[Calculation from log model evidences](/P/lfe-lme)** <br>
    
-   3.3. Log Bayes factor <br>
-   &emsp;&ensp; 3.3.1. *[Definition](/D/lbf)* <br>
-   &emsp;&ensp; 3.3.2. **[Derivation](/P/lbf-der)** <br>
-   &emsp;&ensp; 3.3.3. **[Calculation from log model evidences](/P/lbf-lme)** <br>
+   3.3. Bayes factor <br>
+   &emsp;&ensp; 3.3.1. *[Definition](/D/bf)* <br>
+   &emsp;&ensp; 3.3.2. *[Encompassing model](/D/encm)* <br>
+   &emsp;&ensp; 3.3.3. **[Computation using Savage-Dickey Density Ratio](/P/bf-sddr)** <br>
+   &emsp;&ensp; 3.3.4. **[Computation using Encompassing Prior Method](/P/bf-ep)** <br>
    
-   3.4. Posterior model probability <br>
-   &emsp;&ensp; 3.4.1. *[Definition](/D/pmp)* <br>
-   &emsp;&ensp; 3.4.2. **[Derivation](/P/pmp-der)** <br>
-   &emsp;&ensp; 3.4.3. **[Calculation from Bayes factors](/P/pmp-bf)** <br>
-   &emsp;&ensp; 3.4.4. **[Calculation from log Bayes factor](/P/pmp-lbf)** <br>
-   &emsp;&ensp; 3.4.5. **[Calculation from log model evidences](/P/pmp-lme)** <br>
+   3.4. Log Bayes factor <br>
+   &emsp;&ensp; 3.4.1. *[Definition](/D/lbf)* <br>
+   &emsp;&ensp; 3.4.2. **[Derivation](/P/lbf-der)** <br>
+   &emsp;&ensp; 3.4.3. **[Calculation from log model evidences](/P/lbf-lme)** <br>
    
-   3.5. Bayesian model averaging <br>
-   &emsp;&ensp; 3.5.1. *[Definition](/D/bma)* <br>
-   &emsp;&ensp; 3.5.2. **[Derivation](/P/bma-der)** <br>
-   &emsp;&ensp; 3.5.3. **[Calculation from log model evidences](/P/bma-lme)** <br>
+   3.5. Posterior model probability <br>
+   &emsp;&ensp; 3.5.1. *[Definition](/D/pmp)* <br>
+   &emsp;&ensp; 3.5.2. **[Derivation](/P/pmp-der)** <br>
+   &emsp;&ensp; 3.5.3. **[Calculation from Bayes factors](/P/pmp-bf)** <br>
+   &emsp;&ensp; 3.5.4. **[Calculation from log Bayes factor](/P/pmp-lbf)** <br>
+   &emsp;&ensp; 3.5.5. **[Calculation from log model evidences](/P/pmp-lme)** <br>
+   
+   3.6. Bayesian model averaging <br>
+   &emsp;&ensp; 3.6.1. *[Definition](/D/bma)* <br>
+   &emsp;&ensp; 3.6.2. **[Derivation](/P/bma-der)** <br>
+   &emsp;&ensp; 3.6.3. **[Calculation from log model evidences](/P/bma-lme)** <br>

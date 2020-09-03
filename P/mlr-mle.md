@@ -9,7 +9,7 @@ date: 2020-03-11 12:27:00
 
 title: "Maximum likelihood estimation for multiple linear regression"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 theorem: "Maximum likelihood estimation"
 

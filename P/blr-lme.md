@@ -9,7 +9,7 @@ date: 2020-01-03 22:05:00
 
 title: "Log model evidence for Bayesian linear regression"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Bayesian linear regression"
 theorem: "Log model evidence"
 

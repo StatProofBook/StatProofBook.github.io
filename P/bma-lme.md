@@ -10,8 +10,8 @@ date: 2020-02-27 21:58:00
 title: "Bayesian model averaging in terms of log model evidences"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log-evidence derivatives"
-theorem: "Bayesian model averaging in terms of log model evidences"
+topic: "Bayesian model averaging"
+theorem: "Calculation from log model evidences"
 
 sources:
   - authors: "Soch J, Allefeld C"

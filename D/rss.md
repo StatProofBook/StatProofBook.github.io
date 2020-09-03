@@ -9,7 +9,7 @@ date: 2020-03-21 22:03:00
 
 title: "Residual sum of squares"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 definition: "Residual sum of squares"
 

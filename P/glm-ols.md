@@ -9,7 +9,7 @@ date: 2020-05-19 06:02:00
 
 title: "Ordinary least squares for the general linear model"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Multivariate normal data"
 topic: "General linear model"
 theorem: "Ordinary least squares"
 

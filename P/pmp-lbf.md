@@ -47,7 +47,7 @@ $$ \label{eq:post-odds-s2}
 \frac{p(m_1|y)}{p(m_2|y)} = \frac{p(y|m_1)}{p(y|m_2)} \; .
 $$
 
-Now the right-hand side corresponds to the [Bayes factor](/D/lbf), therefore
+Now the right-hand side corresponds to the [Bayes factor](/D/bf), therefore
 
 $$ \label{eq:post-odds-s4}
 \frac{p(m_1|y)}{p(m_2|y)} = \mathrm{BF}_{12} \; .

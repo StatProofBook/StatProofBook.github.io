@@ -11,7 +11,7 @@ title: "Cross-entropy"
 chapter: "General Theorems"
 section: "Information theory"
 topic: "Shannon entropy"
-definition: "Definition"
+definition: "Cross-entropy"
 
 sources:
   - authors: "Wikipedia"

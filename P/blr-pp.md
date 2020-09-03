@@ -9,7 +9,7 @@ date: 2020-07-17 17:03:00
 
 title: "Posterior probability of the alternative hypothesis for Bayesian linear regression"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Bayesian linear regression"
 theorem: "Posterior probability of alternative hypothesis"
 

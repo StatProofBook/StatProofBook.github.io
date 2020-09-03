@@ -9,7 +9,7 @@ date: 2020-03-03 16:49:00
 
 title: "Marginal likelihood"
 chapter: "General Theorems"
-section: "Bayesian inference"
+section: "Bayesian statistics"
 topic: "Probabilistic modeling"
 definition: "Marginal likelihood"
 

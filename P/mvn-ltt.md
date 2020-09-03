@@ -18,6 +18,7 @@ sources:
     year: 2010
     title: "Linear combinations of normal random variables"
     in: "Lectures on probability and statistics"
+    pages: "retrieved on 2019-08-27"
     url: "https://www.statlect.com/probability-distributions/normal-distribution-linear-combinations"
 
 proof_id: "P1"
@@ -49,10 +50,10 @@ and therefore the moment-generating function of the random vector $y$ is given b
 
 $$ \label{eq:y-mgf-s1}
 \begin{split}
-M_y(t) &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
+M_y(t) &\overset{\eqref{eq:mvn-lt}}{=} \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
 &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \cdot \exp \left[ t^\mathrm{T} b \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \right) \\
-&= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \; .
+&\overset{\eqref{eq:vect-mgf}}{=} \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \; .
 \end{split}
 $$
 
@@ -66,8 +67,8 @@ and therefore the moment-generating function of the random vector $y$ becomes
 
 $$ \label{eq:y-mgf-s2}
 \begin{split}
-M_y(t) &= \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \\
-&= \exp \left[ t^\mathrm{T} b \right] \cdot \exp \left[ t^\mathrm{T} A \mu + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \\
+M_y(t) &\overset{\eqref{eq:y-mgf-s1}}{=} \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \\
+&\overset{\eqref{eq:mvn-mgf}}{=} \exp \left[ t^\mathrm{T} b \right] \cdot \exp \left[ t^\mathrm{T} A \mu + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \\
 &= \exp \left[ t^\mathrm{T} \left( A \mu + b \right) + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \; .
 \end{split}
 $$

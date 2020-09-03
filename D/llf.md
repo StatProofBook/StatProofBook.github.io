@@ -9,7 +9,7 @@ date: 2020-05-17 22:52:00
 
 title: "Log-likelihood function"
 chapter: "General Theorems"
-section: "Frequentist inference"
+section: "Frequentist statistics"
 topic: "Likelihood theory"
 definition: "Log-likelihood function"
 

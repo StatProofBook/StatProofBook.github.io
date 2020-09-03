@@ -40,7 +40,7 @@ $$ \label{eq:y-mean}
 $$
 
 
-**Proof:** The [likelihood function](/D/lf) for each observation is given by the [probability mass function of the Poisson distribution](/P/poiss-pdf)
+**Proof:** The [likelihood function](/D/lf) for each observation is given by the [probability mass function of the Poisson distribution](/P/poiss-pmf)
 
 $$ \label{eq:Poiss-yi}
 p(y_i|\lambda) = \mathrm{Poiss}(y_i; \lambda) = \frac{\lambda^{y_i} \cdot \exp(-\lambda)}{y_i !}

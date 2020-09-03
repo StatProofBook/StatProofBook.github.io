@@ -9,7 +9,7 @@ date: 2020-03-09 22:18:00
 
 title: "Partition of sums of squares in ordinary least squares"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 theorem: "Total, explained and residual sum of squares"
 

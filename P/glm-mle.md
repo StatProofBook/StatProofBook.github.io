@@ -9,7 +9,7 @@ date: 2019-12-06 10:40:00
 
 title: "Maximum likelihood estimation for the general linear model"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Multivariate normal data"
 topic: "General linear model"
 theorem: "Maximum likelihood estimation"
 

@@ -9,7 +9,7 @@ date: 2020-03-21 21:57:00
 
 title: "Explained sum of squares"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 definition: "Explained sum of squares"
 

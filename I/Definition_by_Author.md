@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (89 definitions)
+### JoramSoch (91 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -37,6 +37,7 @@ title: "Definition by Author"
 - [Explained sum of squares](/D/ess)
 - [Exponential distribution](/D/exp)
 - [Full probability model](/D/fpm)
+- [Full width at half maximum](/D/fwhm)
 - [Gamma distribution](/D/gam)
 - [General linear model](/D/glm)
 - [Generative model](/D/gm)
@@ -59,6 +60,7 @@ title: "Definition by Author"
 - [Matrix-normal distribution](/D/matn)
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
+- [Moment](/D/mom)
 - [Moment-generating function](/D/mgf)
 - [Multinomial distribution](/D/mult)
 - [Multinomial observations](/D/mult-data)
@@ -99,3 +101,8 @@ title: "Definition by Author"
 ### StatProofBook (1 definition)
 
 - [Definition Template](/D/-temp-)
+
+### tomfaulkenberry (2 definitions)
+
+- [Bayes factor](/D/bf)
+- [Encompassing model](/D/encm)

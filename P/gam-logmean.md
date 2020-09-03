@@ -40,7 +40,7 @@ $$ \label{eq:gam-logmean}
 $$
 
 
-**Proof:** Let $Y = \ln(X)$, such that $\mathrm{E}(Y) = \mathrm{E}(\ln X)$ and consider the special case that $b = 1$. In this case, the [probability density function of the gamma distribution] is
+**Proof:** Let $Y = \ln(X)$, such that $\mathrm{E}(Y) = \mathrm{E}(\ln X)$ and consider the special case that $b = 1$. In this case, the [probability density function of the gamma distribution](/P/gam-pdf) is
 
 $$ \label{eq:X-pdf-s1}
 f_X(x) = \frac{1}{\Gamma(a)} \, x^{a-1} \, \mathrm{exp} [-x] \; .
@@ -110,7 +110,7 @@ $$ \label{eq:E-Y-s2}
 \mathrm{E}(Y) = \psi(a) \; .
 $$
 
-Finally, noting that $1/b$ [acts as a scaling parameter](/D/gam-sgam) on a [gamma-distributed](/D/gam) [random variable](/D/rvar),
+Finally, noting that $1/b$ [acts as a scaling parameter](/P/gam-sgam) on a [gamma-distributed](/D/gam) [random variable](/D/rvar),
 
 $$ \label{eq:gam-sgam}
 X \sim \mathrm{Gam}(a,1) \quad \Rightarrow \quad \frac{1}{b} X \sim \mathrm{Gam}(a,b) \; ,

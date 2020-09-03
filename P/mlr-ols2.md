@@ -9,7 +9,7 @@ date: 2020-02-03 18:43:00
 
 title: "Ordinary least squares for multiple linear regression"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 theorem: "Ordinary least squares"
 

@@ -10,8 +10,8 @@ date: 2020-02-27 20:51:00
 title: "Log Bayes factor in terms of log model evidences"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log-evidence derivatives"
-theorem: "Log Bayes factor in terms of log model evidences"
+topic: "Log Bayes factor"
+theorem: "Calculation from log model evidences"
 
 sources:
   - authors: "Soch J, Allefeld C"
@@ -35,7 +35,7 @@ $$ \label{eq:LBF-LME}
 $$
 
 
-**Proof:** The [Bayes factor](/D/lbf) is defined as the ratio of the [model evidences](/D/ml) of $m_1$ and $m_2$
+**Proof:** The [Bayes factor](/D/bf) is defined as the ratio of the [model evidences](/D/ml) of $m_1$ and $m_2$
 
 $$ \label{eq:BF}
 \mathrm{BF}_{12} = \frac{p(y|m_1)}{p(y|m_2)}

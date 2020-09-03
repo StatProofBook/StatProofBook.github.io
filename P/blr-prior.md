@@ -9,7 +9,7 @@ date: 2020-01-03 15:26:00
 
 title: "Conjugate prior distribution for Bayesian linear regression"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Bayesian linear regression"
 theorem: "Conjugate prior distribution"
 

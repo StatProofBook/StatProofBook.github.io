@@ -9,7 +9,7 @@ date: 2020-07-17 17:41:00
 
 title: "Posterior credibility region against the omnibus null hypothesis for Bayesian linear regression"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Bayesian linear regression"
 theorem: "Posterior credibility region excluding null hypothesis"
 

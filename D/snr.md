@@ -36,7 +36,7 @@ $$
 
 with measured data $y$, known design matrix $X$ as well as unknown regression coefficients $\beta$ and noise variance $\sigma^2$.
 
-Given estimated [regression coefficients](/D/mlr-beta) $\hat{\beta}$ and [residual variance](/D/resvar) $\hat{\sigma}^2$, the signal-to-noise ratio (SNR) is defined as the ratio of estimated signal variance to estimated noise variance:
+Given estimated [regression coefficients](/P/mlr-mle) $\hat{\beta}$ and [residual variance](/D/resvar) $\hat{\sigma}^2$, the signal-to-noise ratio (SNR) is defined as the ratio of estimated signal variance to estimated noise variance:
 
 $$ \label{eq:SNR}
 \mathrm{SNR} = \frac{\mathrm{Var}(X\hat{\beta})}{\hat{\sigma}^2} \; .

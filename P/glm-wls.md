@@ -9,7 +9,7 @@ date: 2020-05-19 06:27:00
 
 title: "Weighted least squares for the general linear model"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Multivariate normal data"
 topic: "General linear model"
 theorem: "Weighted least squares"
 
@@ -46,7 +46,7 @@ $$ \label{eq:W-V}
 W W = V^{-1} \quad \Leftrightarrow \quad W = V^{-1/2} \; .
 $$
 
-Left-multiplying the linear regression equation \eqref{eq:GLM} with $W$, the [linear transformation theorem](/D/matn-ltt) implies that
+Left-multiplying the linear regression equation \eqref{eq:GLM} with $W$, the [linear transformation theorem](/P/matn-ltt) implies that
 
 $$ \label{eq:GLM-W}
 WY = WXB + WE, \; WE \sim \mathcal{MN}(0, W V W^\mathrm{T}, \Sigma) \; .

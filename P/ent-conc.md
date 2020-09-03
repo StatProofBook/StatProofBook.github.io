@@ -53,7 +53,7 @@ $$
 where $p_1$ and $p_2$ are probability mass functions and $0 \leq \lambda \leq 1$.
 
 
-**Proof:** Let $X$ be a discrete [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and let $u(x)$ be the [probability mass function](/D/pmf) of a [discrete uniform distribution](/D/uni) on $X \in \mathcal{X}$. Then, the [entropy](/D/ent) of an arbitrary [probability mass function](/D/pmf) $p(x)$ can be rewritten as
+**Proof:** Let $X$ be a discrete [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and let $u(x)$ be the [probability mass function](/D/pmf) of a [discrete uniform distribution](/D/duni) on $X \in \mathcal{X}$. Then, the [entropy](/D/ent) of an arbitrary [probability mass function](/D/pmf) $p(x)$ can be rewritten as
 
 $$ \label{eq:ent-kl}
 \begin{split}

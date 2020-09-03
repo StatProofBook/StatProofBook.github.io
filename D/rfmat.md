@@ -9,7 +9,7 @@ date: 2020-07-22 05:35:00
 
 title: "Residual-forming matrix"
 chapter: "Statistical Models"
-section: "Normal data"
+section: "Univariate normal data"
 topic: "Multiple linear regression"
 definition: "Residual-forming matrix"
 

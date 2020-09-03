@@ -9,7 +9,7 @@ date: 2020-03-03 16:36:00
 
 title: "Joint likelihood"
 chapter: "General Theorems"
-section: "Bayesian inference"
+section: "Bayesian statistics"
 topic: "Probabilistic modeling"
 definition: "Joint likelihood"
 

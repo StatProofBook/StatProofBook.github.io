@@ -40,7 +40,7 @@ $$ \label{eq:poiss-mean}
 $$
 
 
-**Proof:** The [expected value](/D/mean) of a discrete [random variable](/D/rvar) is defined as
+**Proof:** The [expected value of a discrete random variable](/D/mean) is defined as
 
 $$ \label{eq:mean}
 \mathrm{E}(X) = \sum_{x \in \mathcal{X}} x \cdot f_X(x) \; ,

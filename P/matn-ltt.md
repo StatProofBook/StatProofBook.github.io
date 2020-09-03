@@ -39,13 +39,13 @@ where $A$ us ab $r \times n$ matrix of full rank $r \leq b$ and $B$ is a $p \tim
 **Proof:** The [matrix-normal distribution is equivalent to the multivariate normal distribution](/P/matn-mvn),
 
 $$ \label{eq:matn-mvn}
-X \sim \mathcal{MN}(M, U, V) \quad \Leftrightarrow \quad \mathrm{vec}(X) \sim \mathcal{MN}(\mathrm{vec}(M), V \otimes U) \; ,
+X \sim \mathcal{MN}(M, U, V) \quad \Leftrightarrow \quad \mathrm{vec}(X) \sim \mathcal{N}(\mathrm{vec}(M), V \otimes U) \; ,
 $$
 
 and the [linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt) states:
 
 $$ \label{eq:mvn-ltt}
-x \sim \mathcal{N}(\mu, \Sigma) \quad \Rightarrow \quad y = Ax + b \sim \mathcal{MN}(A\mu + b, A \Sigma A^\mathrm{T}) \; .
+x \sim \mathcal{N}(\mu, \Sigma) \quad \Rightarrow \quad y = Ax + b \sim \mathcal{N}(A\mu + b, A \Sigma A^\mathrm{T}) \; .
 $$
 
 The vectorization of $Y = AXB + C$ is

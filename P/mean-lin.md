@@ -24,6 +24,7 @@ sources:
     year: 2020
     title: "Linearity of Expectation"
     in: "brilliant.org"
+    pages: "retrieved on 2020-02-13"
     url: "https://brilliant.org/wiki/linearity-of-expectation/"
 
 proof_id: "P53"
