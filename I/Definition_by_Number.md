@@ -101,3 +101,4 @@ title: "Definition by Number"
 | D92 | bf | [Bayes factor](/D/bf) | tomfaulkenberry | 2020-08-26 |
 | D93 | encm | [Encompassing model](/D/encm) | tomfaulkenberry | 2020-09-02 |
 | D94 | std | [Standard deviation](/D/std) | JoramSoch | 2020-09-03 |
+| D95 | wald | [Wald distribution](/D/wald) | tomfaulkenberry | 2020-09-04 |

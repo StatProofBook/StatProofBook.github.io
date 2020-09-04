@@ -37,6 +37,7 @@ title: "Proofs without Source"
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
+- [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)

@@ -154,4 +154,5 @@ title: "Definition by Topic"
 
 ### W
 
+- [Wald distribution](/D/wald)
 - [Wishart distribution](/D/wish)

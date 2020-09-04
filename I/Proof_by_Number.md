@@ -168,3 +168,4 @@ title: "Proof by Number"
 | P159 | mblr-prior | [Conjugate prior distribution for multivariate Bayesian linear regression](/P/mblr-prior) | JoramSoch | 2020-09-03 |
 | P160 | mblr-post | [Posterior distribution for multivariate Bayesian linear regression](/P/mblr-post) | JoramSoch | 2020-09-03 |
 | P161 | mblr-lme | [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme) | JoramSoch | 2020-09-03 |
+| P162 | wald-pdf | [Probability density function of the Wald distribution](/P/wald-pdf) | tomfaulkenberry | 2020-09-04 |

@@ -14,7 +14,7 @@ topic: "Wald distribution"
 definition: "Definition"
 
 sources:
-  - authors: "Anders, R., Alario, F. -X., and van Maanen, L."
+  - authors: "Anders, R., Alario, F.-X., and van Maanen, L."
     year: 2016
     title: "The Shifted Wald Distribution for Response Time Data Analysis"
     in: "Psychological Methods"
@@ -37,7 +37,7 @@ $$
 if and only if its [probability density function](/D/pdf) is given by
 
 $$ \label{eq:wald-pdf}
-\mathrm{Wald}(x; \gamma, \alpha) = \frac{\alpha}{\sqrt{2\pi x^3}}\exp\Bigl(-\frac{(\alpha-\gamma x)^2}{2x}\Bigr)
+\mathrm{Wald}(x; \gamma, \alpha) = \frac{\alpha}{\sqrt{2\pi x^3}}\exp\left(-\frac{(\alpha-\gamma x)^2}{2x}\right)
 $$
 
 where $\gamma > 0$, $\alpha > 0$, and the density is zero if $x \leq 0$.

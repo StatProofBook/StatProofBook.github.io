@@ -16,7 +16,7 @@ theorem: "Probability density function"
 sources:
 
 proof_id: "P162"
-shortcut: "wald"
+shortcut: "wald-pdf"
 username: "tomfaulkenberry"
 ---
 
@@ -30,7 +30,7 @@ $$
 Then, the [probability density function](/D/pdf) of $X$ is
 
 $$ \label{eq:wald-pdf}
-f_X(x) = \frac{\alpha}{\sqrt{2\pi x^3}}\exp\Bigl(-\frac{(\alpha-\gamma x)^2}{2x}\Bigr) \; .
+f_X(x) = \frac{\alpha}{\sqrt{2\pi x^3}}\exp\left(-\frac{(\alpha-\gamma x)^2}{2x}\right) \; .
 $$
 
 

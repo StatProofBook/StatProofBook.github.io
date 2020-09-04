@@ -11,7 +11,7 @@ title: "Encompassing model"
 chapter: "Model Selection"
 section: "Bayesian model selection"
 topic: "Bayes factor"
-definition: "Definition"
+definition: "Encompassing model"
 
 sources:
   - authors: "Klugkist, I., Kato, B., and Hoijtink, H."

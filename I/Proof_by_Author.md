@@ -170,7 +170,8 @@ title: "Proof by Author"
 
 - [Proof Template](/P/-temp-)
 
-### tomfaulkenberry (2 proofs)
+### tomfaulkenberry (3 proofs)
 
 - [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)
+- [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)

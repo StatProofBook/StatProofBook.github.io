@@ -162,6 +162,7 @@ title: "Proof by Topic"
 - [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
+- [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)

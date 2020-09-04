@@ -255,6 +255,10 @@ title: "Table of Contents"
    3.5. Beta distribution <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/beta)* <br>
    &emsp;&ensp; 3.5.2. **[Probability density function](/P/beta-pdf)** <br>
+   
+   3.6. Wald distribution <br>
+   &emsp;&ensp; 3.6.1. *[Definition](/D/wald)* <br>
+   &emsp;&ensp; 3.6.2. **[Probability density function](/P/wald-pdf)** <br>
 
 4. Multivariate continuous distributions
 
