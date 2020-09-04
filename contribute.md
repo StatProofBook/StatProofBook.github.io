@@ -39,4 +39,4 @@ Everyone can contribute to **The Book of Statistical Proofs**! Depending on your
 
 * Optionally, you can also [update the index pages](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Updating-the-Index-Pages) before committing your changes.
 * Your branch with the new submission will be merged into the [master branch](https://github.com/StatProofBook/StatProofBook.github.io) and become live.
-* Your proof or definition will then [link to your GitHub profile](/credits/). Additionally, you can [earn money](/credits/)!
+* Your proof or definition will then [link to your GitHub profile](/credits/). Additionally, you can [earn money](https://docs.google.com/spreadsheets/d/1h5MO-14GKWsqNL8aZsqGtIqgKGIa-rNIBiO-Bw6_m04/edit?usp=sharing)!

@@ -21,4 +21,4 @@ By submitting to the archive, you can also earn money, as stated in the [project
 
 > To facilitate and incentivize the unpaid work going into this open science resource, for the first ~~200~~ 100 proofs submitted to **The Book of Statistical Proofs**, each submitter will receive ~~25~~ 50 € per proof.
 
-If you have submitted a proof eligible for the money, please contact [StatProofBook@gmail.com](mailto:StatProofBook@gmail.com) to claim your reward. Money can be received either via SEPA transfer (in Europe) or via PayPal (worldwide).
+If you have submitted a [proof eligible for the money](https://docs.google.com/spreadsheets/d/1h5MO-14GKWsqNL8aZsqGtIqgKGIa-rNIBiO-Bw6_m04/edit?usp=sharing), please contact [StatProofBook@gmail.com](mailto:StatProofBook@gmail.com) to claim your reward. Money can be received either via SEPA transfer (in Europe) or via PayPal (worldwide).
