@@ -64,7 +64,7 @@ $$
 Now, both the constrained model $m_1$ and the [encompassing model](/D/encm) $m_e$ contain the same parameter vector $\theta$. Choose a specific value of $\theta$, say $\theta'$, that exists in the support of both models $m_1$ and $m_e$ (we can do this, because $m_1$ is nested within $m_e$). Then, for this parameter value $\theta'$, we have $p(y \mid \theta',m_1)=p(y \mid \theta',m_e)$, so the expression for the Bayes factor in equation \eqref{eq:bayesfactor} reduces to an expression involving only the priors and posteriors for $\theta'$ under $m_1$ and $m_e$:
 
 $$ \label{eq:bayesfactor2}
-  B_{1e} = \frac{p(\theta' \mid m_1) / p(\theta' \mid y,m_1)}{p(\theta' \mid m_e) / p(\theta' \mid y,m_e)}.
+  \text{BF}_{1e} = \frac{p(\theta' \mid m_1) / p(\theta' \mid y,m_1)}{p(\theta' \mid m_e) / p(\theta' \mid y,m_e)}.
 $$
 
 Because $m_1$ is nested within $m_e$ via an inequality constraint, the prior $p(\theta' \mid m_1)$ is simply a truncation of the encompassing prior $p(\theta' \mid m_e)$. Thus, we can express $p(\theta' \mid m_1)$ in terms of the encompassing prior $p(\theta' \mid m_e)$ by multiplying the encompassing prior by an indicator function over $m_1$ and then normalizing the resulting product.  That is,
@@ -91,7 +91,7 @@ $$
 Plugging \eqref{eq:prior} and \eqref{eq:posterior} into \eqref{eq:bayesfactor2}, this gives us
 
 $$ \label{eq:bayesfactor3}
-  B_{1e} = \frac{c \cdot p(\theta' \mid m_e) / d \cdot p(\theta' \mid y,m_e)}{p(\theta' \mid m_e) / p(\theta' \mid y,m_e)} = \frac{c}{d} = \frac{1/d}{1/c},
+  \text{BF}_{1e} = \frac{c \cdot p(\theta' \mid m_e) / d \cdot p(\theta' \mid y,m_e)}{p(\theta' \mid m_e) / p(\theta' \mid y,m_e)} = \frac{c}{d} = \frac{1/d}{1/c},
 $$
 
 which completes the proof. Note that by definition, $1/d$ represents the proportion of the posterior distribution for $\theta$ under the [encompassing model](/D/encm) $m_e$ that agrees with the constraints imposed by $m_1$.  Similarly, $1/c$ represents the proportion of the prior distribution for $\theta$ under the [encompassing model](/D/encm) $m_e$ that agrees with the constraints imposed by $m_1$.
