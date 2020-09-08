@@ -213,6 +213,7 @@ title: "Proof by Topic"
 ### T
 
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
+- [Transitivity of Bayes Factors](/P/bf-trans)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
 
 ### V

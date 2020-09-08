@@ -424,9 +424,10 @@ title: "Table of Contents"
    
    3.3. Bayes factor <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/bf)* <br>
-   &emsp;&ensp; 3.3.2. *[Encompassing model](/D/encm)* <br>
+   &emsp;&ensp; 3.3.2. **[Transitivity](/P/bf-trans)** <br>
    &emsp;&ensp; 3.3.3. **[Computation using Savage-Dickey Density Ratio](/P/bf-sddr)** <br>
    &emsp;&ensp; 3.3.4. **[Computation using Encompassing Prior Method](/P/bf-ep)** <br>
+   &emsp;&ensp; 3.3.5. *[Encompassing model](/D/encm)* <br>
    
    3.4. Log Bayes factor <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/lbf)* <br>

@@ -60,6 +60,7 @@ title: "Proofs without Source"
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
+- [Transitivity of Bayes Factors](/P/bf-trans)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for the general linear model](/P/glm-wls)
