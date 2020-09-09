@@ -20,6 +20,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.1. *[Random variable](/D/rvar)* <br>
    &emsp;&ensp; 1.1.2. *[Random vector](/D/rvec)* <br>
    &emsp;&ensp; 1.1.3. *[Random matrix](/D/rmat)* <br>
+   &emsp;&ensp; 1.1.4. *[Constant](/D/const)* <br>
    
    1.2. Probability <br>
    &emsp;&ensp; 1.2.1. *[Probability](/D/prob)* <br>
@@ -89,6 +90,7 @@ title: "Table of Contents"
    1.10. Further moments <br>
    &emsp;&ensp; 1.10.1. *[Moment](/D/mom)* <br>
    &emsp;&ensp; 1.10.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+   &emsp;&ensp; 1.10.3. **[First central moment is zero](/P/momcent-1st)** <br>
 
 2. Information theory
    
@@ -100,6 +102,8 @@ title: "Table of Contents"
    &emsp;&ensp; 2.1.5. *[Joint entropy](/D/ent-joint)* <br>
    &emsp;&ensp; 2.1.6. *[Cross-entropy](/D/ent-cross)* <br>
    &emsp;&ensp; 2.1.7. **[Convexity of cross-entropy](/P/entcross-conv)** <br>
+   &emsp;&ensp; 2.1.8. **[Gibbs' inequality](/P/gibbs-ineq)** <br>
+   &emsp;&ensp; 2.1.9. **[Log sum inequality](/P/logsum-ineq)** <br>
    
    2.2. Differential entropy <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/dent)* <br>
@@ -122,13 +126,14 @@ title: "Table of Contents"
    
    2.5. Kullback-Leibler divergence <br>
    &emsp;&ensp; 2.5.1. *[Definition](/D/kl)* <br>
-   &emsp;&ensp; 2.5.2. **[Non-negativity](/P/kl-nonneg)** <br>
-   &emsp;&ensp; 2.5.3. **[Non-symmetry](/P/kl-nonsymm)** <br>
-   &emsp;&ensp; 2.5.4. **[Convexity](/P/kl-conv)** <br>
-   &emsp;&ensp; 2.5.5. **[Additivity for independent distributions](/P/kl-add)** <br>
-   &emsp;&ensp; 2.5.6. **[Invariance under parameter transformation](/P/kl-inv)** <br>
-   &emsp;&ensp; 2.5.7. **[Relation to discrete entropy](/P/kl-ent)** <br>
-   &emsp;&ensp; 2.5.8. **[Relation to differential entropy](/P/kl-dent)** <br>
+   &emsp;&ensp; 2.5.2. **[Non-negativity](/P/kl-nonneg)** (1) <br>
+   &emsp;&ensp; 2.5.3. **[Non-negativity](/P/kl-nonneg2)** (2) <br>
+   &emsp;&ensp; 2.5.4. **[Non-symmetry](/P/kl-nonsymm)** <br>
+   &emsp;&ensp; 2.5.5. **[Convexity](/P/kl-conv)** <br>
+   &emsp;&ensp; 2.5.6. **[Additivity for independent distributions](/P/kl-add)** <br>
+   &emsp;&ensp; 2.5.7. **[Invariance under parameter transformation](/P/kl-inv)** <br>
+   &emsp;&ensp; 2.5.8. **[Relation to discrete entropy](/P/kl-ent)** <br>
+   &emsp;&ensp; 2.5.9. **[Relation to differential entropy](/P/kl-dent)** <br>
 
 3. Estimation theory
    
