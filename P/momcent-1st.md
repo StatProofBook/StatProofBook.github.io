@@ -42,11 +42,11 @@ $$
 
 Due to the [linearity of the expected value](/P/mean-lin) and by plugging in $\mu = \mathrm{E}(X)$, we have
 
-\begin{equation} \label{eq:momcent-1st-qed}
+$$ \label{eq:momcent-1st-qed}
 \begin{split}
 \mu_1 &= \mathrm{E}\left[ X-\mu \right] \\
 &= \mathrm{E}(X) - \mu \\
 &= \mathrm{E}(X) - \mathrm{E}(X) \\
 &= 0 \; .
 \end{split}
-\end{equation}
+$$

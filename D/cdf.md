@@ -33,6 +33,7 @@ $$ \label{eq:cdf}
 F_X(x) = \mathrm{Pr}(X \leq x) \; .
 $$
 
+<br>
 1) Let $X$ be a discrete [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and the [probability mass function](/D/pmf) $f_X(x)$. Then, the function $F_X(x): \mathbb{R} \to [0,1]$ with
 
 $$ \label{eq:cdf-disc}
