@@ -63,7 +63,12 @@ title: "Proof by Topic"
 
 ### F
 
+- [First central moment is zero](/P/momcent-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
+
+### G
+
+- [Gibbs' inequality](/P/gibbs-ineq)
 
 ### I
 
@@ -94,6 +99,7 @@ title: "Proof by Topic"
 - [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
+- [Log sum inequality](/P/logsum-ineq)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
 
@@ -130,6 +136,7 @@ title: "Proof by Topic"
 ### N
 
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
+- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
