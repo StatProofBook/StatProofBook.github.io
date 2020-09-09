@@ -5,7 +5,7 @@ title: "Table of Contents"
 
 
 **[Proofs](/P/-temp-)** are printed in **bold** â€“ *[Definitions](/D/-temp-)* are set in *italics* <br>
-Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€“ Definitions by *[Number](/I/Definition_by_Number)* and *[Topic](/I/Definition_by_Topic)* <br>
+**Proofs**: [by Number](/I/Proof_by_Number), [by Topic](/I/Proof_by_Topic) â€“ *Definitions*:  [by Number](/I/Definition_by_Number), [by Topic](/I/Definition_by_Topic) <br>
 <u>Specials:</u> [Probability Distributions](/S/Probability_Distributions), [Statistical Models](/S/Statistical_Models), [Model Selection Criteria](/S/Model_Selection) <br>
 
 
@@ -89,7 +89,6 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    1.10. Further moments <br>
    &emsp;&ensp; 1.10.1. *[Moment](/D/mom)* <br>
    &emsp;&ensp; 1.10.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-  
 
 2. Information theory
    
@@ -256,6 +255,10 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    3.5. Beta distribution <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/beta)* <br>
    &emsp;&ensp; 3.5.2. **[Probability density function](/P/beta-pdf)** <br>
+   
+   3.6. Wald distribution <br>
+   &emsp;&ensp; 3.6.1. *[Definition](/D/wald)* <br>
+   &emsp;&ensp; 3.6.2. **[Probability density function](/P/wald-pdf)** <br>
 
 4. Multivariate continuous distributions
 
@@ -421,9 +424,10 @@ Proofs by **[Number](/I/Proof_by_Number)** and **[Topic](/I/Proof_by_Topic)** â€
    
    3.3. Bayes factor <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/bf)* <br>
-   &emsp;&ensp; 3.3.2. *[Encompassing model](/D/encm)* <br>
+   &emsp;&ensp; 3.3.2. **[Transitivity](/P/bf-trans)** <br>
    &emsp;&ensp; 3.3.3. **[Computation using Savage-Dickey Density Ratio](/P/bf-sddr)** <br>
    &emsp;&ensp; 3.3.4. **[Computation using Encompassing Prior Method](/P/bf-ep)** <br>
+   &emsp;&ensp; 3.3.5. *[Encompassing model](/D/encm)* <br>
    
    3.4. Log Bayes factor <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/lbf)* <br>

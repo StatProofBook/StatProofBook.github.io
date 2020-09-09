@@ -140,6 +140,7 @@ title: "Definition by Topic"
 
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)
+- [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)
 - [Statistical independence](/D/ind)
 
@@ -153,4 +154,5 @@ title: "Definition by Topic"
 
 ### W
 
+- [Wald distribution](/D/wald)
 - [Wishart distribution](/D/wish)

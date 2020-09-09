@@ -27,11 +27,13 @@ title: "Proof by Topic"
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
 - [Conjugate prior distribution for binomial observations](/P/bin-prior)
 - [Conjugate prior distribution for multinomial observations](/P/mult-prior)
+- [Conjugate prior distribution for multivariate Bayesian linear regression](/P/mblr-prior)
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Convexity of the cross-entropy](/P/entcross-conv)
+- [Covariance of independent random variables](/P/cov-ind)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
@@ -90,6 +92,7 @@ title: "Proof by Topic"
 - [Log model evidence for Bayesian linear regression](/P/blr-lme)
 - [Log model evidence for binomial observations](/P/bin-lme)
 - [Log model evidence for multinomial observations](/P/mult-lme)
+- [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
@@ -151,6 +154,7 @@ title: "Proof by Topic"
 - [Posterior distribution for Bayesian linear regression](/P/blr-post)
 - [Posterior distribution for binomial observations](/P/bin-post)
 - [Posterior distribution for multinomial observations](/P/mult-post)
+- [Posterior distribution for multivariate Bayesian linear regression](/P/mblr-post)
 - [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post)
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
@@ -158,6 +162,7 @@ title: "Proof by Topic"
 - [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
+- [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)
@@ -208,6 +213,7 @@ title: "Proof by Topic"
 ### T
 
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
+- [Transitivity of Bayes Factors](/P/bf-trans)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
 
 ### V

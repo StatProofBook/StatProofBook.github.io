@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (91 definitions)
+### JoramSoch (92 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -92,6 +92,7 @@ title: "Definition by Author"
 - [Residual-forming matrix](/D/rfmat)
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)
+- [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)
 - [Statistical independence](/D/ind)
 - [Total sum of squares](/D/tss)
@@ -102,7 +103,8 @@ title: "Definition by Author"
 
 - [Definition Template](/D/-temp-)
 
-### tomfaulkenberry (2 definitions)
+### tomfaulkenberry (3 definitions)
 
 - [Bayes factor](/D/bf)
 - [Encompassing model](/D/encm)
+- [Wald distribution](/D/wald)
