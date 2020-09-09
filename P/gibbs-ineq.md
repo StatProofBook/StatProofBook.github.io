@@ -43,24 +43,24 @@ $$
 Let $I$ be the of all $x$ for which $p(x)$ is non-zero. Then, proving \eqref{eq:Gibbs-ineq} requires to show that
 
 $$ \label{eq:Gibbs-ineq-s1}
-\sum_{x \in I} p(x) \, \frac{\ln p(x)}{\ln q(x)} \geq 0 \; .
+\sum_{x \in I} p(x) \, \ln \frac{p(x)}{q(x)} \geq 0 \; .
 $$
 
 Because $\ln x \leq x - 1$, i.e. $-\ln x \geq 1 - x$, for all $x > 0$, with equality only if $x = 1$, we can say about the left-hand side that
 
 $$ \label{eq:Gibbs-ineq-s2}
 \begin{split}
-\sum_{x \in I} p(x) \, \frac{\ln p(x)}{\ln q(x)} &\geq \sum_{x \in I} p(x) \left( 1 - \frac{p(x)}{q(x)} \right) \\
+\sum_{x \in I} p(x) \, \ln \frac{p(x)}{q(x)} &\geq \sum_{x \in I} p(x) \left( 1 - \frac{p(x)}{q(x)} \right) \\
 &= \sum_{x \in I} p(x) - \sum_{x \in I} q(x) \; .
 \end{split}
 $$
 
-Finally, since $p(x)$ and $q(x)$ are [probability mass functions](/D/pmf), it holds that $0 \leq p(x),q(x) \leq 1$ and we also have
+Finally, since $p(x)$ and $q(x)$ are [probability mass functions](/D/pmf), we have
 
 $$ \label{eq:p-q-pmf}
 \begin{split}
-\sum_{x \in I} p(x) &= 1 \\
-\sum_{x \in I} q(x) &\leq 1 \; ,
+0 \leq p(x) \leq 1, \quad \sum_{x \in I} p(x) &= 1 \quad \text{and} \\
+0 \leq q(x) \leq 1, \quad \sum_{x \in I} q(x) &\leq 1 \; ,
 \end{split}
 $$
 
@@ -68,7 +68,7 @@ such that it follows from \eqref{eq:Gibbs-ineq-s2} that
 
 $$ \label{eq:Gibbs-ineq-s3}
 \begin{split}
-\sum_{x \in I} p(x) \, \frac{\ln p(x)}{\ln q(x)} &\geq \sum_{x \in I} p(x) - \sum_{x \in I} q(x) \\
+\sum_{x \in I} p(x) \, \ln \frac{p(x)}{q(x)} &\geq \sum_{x \in I} p(x) - \sum_{x \in I} q(x) \\
 &= 1 - \sum_{x \in I} q(x) \geq 0 \; .
 \end{split}
 $$

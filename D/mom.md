@@ -30,5 +30,5 @@ username: "JoramSoch"
 **Definition:** Let $X$ be a [random variable](/D/rvar) and let $n$ be a positive integer. Then, the $n$-th moment of $X$, also called ($n$-th) "raw moment" or "crude moment", is defined as the [expected value](/D/mean) of the $n$-th power of $X$:
 
 $$ \label{eq:mom}
-\mu_n = \mathrm{E}[X^n] \; .
+\mu_n' = \mathrm{E}[X^n] \; .
 $$
