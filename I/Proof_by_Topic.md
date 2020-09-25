@@ -114,6 +114,7 @@ title: "Proof by Topic"
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the Poisson distribution](/P/poiss-mean)
+- [Mean of the Wald distribution](/P/wald-mean)
 - [Mean of the binomial distribution](/P/bin-mean)
 - [Mean of the categorical distribution](/P/cat-mean)
 - [Mean of the continuous uniform distribution](/P/cuni-mean)
@@ -130,6 +131,7 @@ title: "Proof by Topic"
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)
 - [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
+- [Moment-generating function of the Wald distribution](/P/wald-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Monotonicity of the expected value](/P/mean-mono)
 
@@ -226,6 +228,7 @@ title: "Proof by Topic"
 ### V
 
 - [Variance of constant is zero](/P/var-const)
+- [Variance of the Wald distribution](/P/wald-var)
 - [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the linear combination of two random variables](/P/var-lincomb)
 - [Variance of the normal distribution](/P/norm-var)

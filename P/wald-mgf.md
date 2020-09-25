@@ -17,10 +17,9 @@ sources:
   - authors: "Siegrist, K."
     year: 2020
     title: "The Wald Distribution"
-    in: "Random (formerly Virtual Laboratories in Probability and Statistics)"
+    in: "Random: Probability, Mathematical Statistics, Stochastic Processes"
     pages: "retrieved on 2020-09-13"
     url: "https://www.randomservices.org/random/special/Wald.html"
-
   - authors: "National Institute of Standards and Technology"
     year: 2020
     title: "NIST Digital Library of Mathematical Functions"
@@ -39,12 +38,10 @@ $$ \label{eq:wald}
 X \sim \mathrm{Wald}(\gamma, \alpha) \; .
 $$
 
-
 Then, the [moment-generating function](/D/mgf) of $X$ is
 
-
 $$ \label{eq:wald-mgf}
-M_X(t) = \exp \left[ \alpha\gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right].
+M_X(t) = \exp \left[ \alpha\gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right] \; .
 $$
 
 
@@ -64,8 +61,8 @@ Using the definition of [expected value for continuous random variables](/D/mean
 
 $$ \label{eq:wald-mgf-s1}
 \begin{split}
-M_X(t) &= \int_0^{\infty} e^{tx} \cdot \frac{\alpha}{\sqrt{2\pi x^3}}\cdot \exp\left[-\frac{(\alpha-\gamma x)^2}{2x}\right]dx\\
-&= \frac{\alpha}{\sqrt{2\pi}}\int_0^{\infty} x^{-3/2}\cdot \exp\left[tx - \frac{(\alpha-\gamma x)^2}{2x}\right]dx\\
+M_X(t) &= \int_0^{\infty} e^{tx} \cdot \frac{\alpha}{\sqrt{2\pi x^3}}\cdot \exp\left[-\frac{(\alpha-\gamma x)^2}{2x}\right]dx \\
+&= \frac{\alpha}{\sqrt{2\pi}}\int_0^{\infty} x^{-3/2}\cdot \exp\left[tx - \frac{(\alpha-\gamma x)^2}{2x}\right]dx \; .
 \end{split}
 $$
 
@@ -91,9 +88,9 @@ Starting from \eqref{eq:wald-mgf-s1}, we can expand the binomial term and rearra
 
 $$ \label{eq:wald-mgf-s2}
 \begin{split}
-M_X(t) &= \frac{\alpha}{\sqrt{2\pi}} \int_0^{\infty} x^{-3/2}\cdot \exp\left[ tx - \frac{\alpha^2}{2x} + \alpha\gamma - \frac{\gamma^2x}{2}\right]dx\\
-       &= \frac{\alpha}{\sqrt{2\pi}}\cdot e^{\alpha \gamma} \int_0^{\infty} x^{-3/2}\cdot \exp\left[\left(t-\frac{\gamma^2}{2}\right)x - \frac{\alpha^2}{2x}\right]dx\\
-  &= \frac{\alpha}{\sqrt{2\pi}}\cdot e^{\alpha \gamma} \int_0^{\infty} x^{-3/2}\cdot \exp \left[-\frac{1}{2}\left(\gamma^2-2t\right)x - \frac{1}{2}\cdot \frac{\alpha^2}{x}\right]dx\\ \; .
+M_X(t) &= \frac{\alpha}{\sqrt{2\pi}} \int_0^{\infty} x^{-3/2}\cdot \exp\left[ tx - \frac{\alpha^2}{2x} + \alpha\gamma - \frac{\gamma^2x}{2}\right]dx \\
+       &= \frac{\alpha}{\sqrt{2\pi}}\cdot e^{\alpha \gamma} \int_0^{\infty} x^{-3/2}\cdot \exp\left[\left(t-\frac{\gamma^2}{2}\right)x - \frac{\alpha^2}{2x}\right]dx \\
+       &= \frac{\alpha}{\sqrt{2\pi}}\cdot e^{\alpha \gamma} \int_0^{\infty} x^{-3/2}\cdot \exp \left[-\frac{1}{2}\left(\gamma^2-2t\right)x - \frac{1}{2}\cdot \frac{\alpha^2}{x}\right]dx \; .
 \end{split}
 $$
 
@@ -107,10 +104,10 @@ Combining with \eqref{eq:bessel-fact1} and simplifying gives
 
 $$ \label{eq:wald-mgf-s4}
 \begin{split}
-  M_X(t) &= \frac{\alpha}{\sqrt{2\pi}}\cdot e^{\alpha \gamma}\cdot 2\left(\frac{\gamma^2-2t}{\alpha^2}\right)^{1/4} \cdot \sqrt{\frac{\pi}{2\sqrt{\alpha^2(\gamma^2-2t)}}}\cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right]\\
-         &= \frac{\alpha}{\sqrt{2}\cdot \sqrt{\pi}}\cdot e^{\alpha \gamma}\cdot 2 \cdot \frac{(\gamma^2-2t)^{1/4}}{\sqrt{\alpha}}\cdot \frac{\sqrt{\pi}}{\sqrt{2}\cdot \sqrt{\alpha}\cdot (\gamma^2-2t)^{1/4}}\cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right]\\
-         &= e^{\alpha \gamma} \cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right]\\
-  &= \exp\left[\alpha \gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right]\\ \; .
+  M_X(t) &= \frac{\alpha}{\sqrt{2\pi}}\cdot e^{\alpha \gamma}\cdot 2\left(\frac{\gamma^2-2t}{\alpha^2}\right)^{1/4} \cdot \sqrt{\frac{\pi}{2\sqrt{\alpha^2(\gamma^2-2t)}}}\cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
+         &= \frac{\alpha}{\sqrt{2}\cdot \sqrt{\pi}}\cdot e^{\alpha \gamma}\cdot 2 \cdot \frac{(\gamma^2-2t)^{1/4}}{\sqrt{\alpha}}\cdot \frac{\sqrt{\pi}}{\sqrt{2}\cdot \sqrt{\alpha}\cdot (\gamma^2-2t)^{1/4}}\cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
+         &= e^{\alpha \gamma} \cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
+         &= \exp\left[\alpha \gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right] \; .
 \end{split}
 $$
 
