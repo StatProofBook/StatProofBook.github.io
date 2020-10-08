@@ -27,4 +27,4 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ be a [random variable](/D/rvar) with the set of possible outcomes $\mathcal{X}$. Then, a probability distribution of $X$ is a mathematical function that gives the [probabilities](/D/prob) of occurrence of all possible outcomes $x \in \mathcal{X}$ of this random variable.
+**Definition:** Let $X$ be a [random variable](/D/rvar) with the set of possible outcomes $\mathcal{X}$. Then, a probability distribution of $X$ is a mathematical function that gives the [probabilities](/D/prob) of occurrence of all possible outcomes $x \in \mathcal{X}$ of this random variable.

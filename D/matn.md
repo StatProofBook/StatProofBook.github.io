@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ be an $n \times p$ [random matrix](/D/rmat). Then, $X$ is said to be matrix-normally distributed with mean $M$, [covariance](/D/covmat) across rows $U$ and [covariance](/D/covmat) across columns $V$
+**Definition:** Let $X$ be an $n \times p$ [random matrix](/D/rmat). Then, $X$ is said to be matrix-normally distributed with mean $M$, [covariance](/D/covmat) across rows $U$ and [covariance](/D/covmat) across columns $V$
 
 $$ \label{eq:matn}
 X \sim \mathcal{MN}(M, U, V) \; ,

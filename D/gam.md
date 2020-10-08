@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to follow a gamma distribution with shape $a$ and rate $b$
+**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to follow a gamma distribution with shape $a$ and rate $b$
 
 $$ \label{eq:gam}
 X \sim \mathrm{Gam}(a, b) \; ,

@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to be exponentially distributed with rate (or, inverse scale) $\lambda$
+**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to be exponentially distributed with rate (or, inverse scale) $\lambda$
 
 $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; ,

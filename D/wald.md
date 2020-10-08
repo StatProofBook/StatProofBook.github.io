@@ -28,7 +28,7 @@ username: "tomfaulkenberry"
 ---
 
 
-**Definition**: Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to follow a Wald distribution with drift rate $\gamma$ and threshold $\alpha$
+**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to follow a Wald distribution with drift rate $\gamma$ and threshold $\alpha$
 
 $$ \label{eq:wald}
 X \sim \mathrm{Wald}(\gamma, \alpha) \; ,

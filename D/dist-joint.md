@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ and $Y$ be [random variables](/D/rvar) with sets of possible outcomes $\mathcal{X}$ and $\mathcal{Y}$. Then, a joint distribution of $X$ and $Y$ is a [probability distribution](/D/dist) that specifies the probability of the event that $X = x$ and $Y = y$ for each possible combination of $x \in \mathcal{X}$ and $y \in \mathcal{Y}$.
+**Definition:** Let $X$ and $Y$ be [random variables](/D/rvar) with sets of possible outcomes $\mathcal{X}$ and $\mathcal{Y}$. Then, a joint distribution of $X$ and $Y$ is a [probability distribution](/D/dist) that specifies the probability of the event that $X = x$ and $Y = y$ for each possible combination of $x \in \mathcal{X}$ and $y \in \mathcal{Y}$.
 
 * The joint distribution of two scalar [random variables](/D/rvar) is called a bivariate distribution.
 
