@@ -90,7 +90,13 @@ title: "Table of Contents"
    1.10. Further moments <br>
    &emsp;&ensp; 1.10.1. *[Moment](/D/mom)* <br>
    &emsp;&ensp; 1.10.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-   &emsp;&ensp; 1.10.3. **[First central moment is zero](/P/momcent-1st)** <br>
+   &emsp;&ensp; 1.10.3. *[Raw moment](/D/mom-raw)* <br>
+   &emsp;&ensp; 1.10.4. **[First raw moment is mean](/P/momraw-1st)** <br>
+   &emsp;&ensp; 1.10.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
+   &emsp;&ensp; 1.10.6. *[Central moment](/D/mom-cent)* <br>
+   &emsp;&ensp; 1.10.7. **[First central moment is zero](/P/momcent-1st)** <br>
+   &emsp;&ensp; 1.10.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
+   &emsp;&ensp; 1.10.9. *[Standardized moment](/D/mom-stand)* <br>
 
 2. Information theory
    
