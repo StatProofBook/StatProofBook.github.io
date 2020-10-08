@@ -22,7 +22,7 @@ title: "Special: Probability Distributions"
 | Gamma distribution | *[gam](/D/gam)*<br>*[sgam](/D/sgam)* | **[gam-pdf](/P/gam-pdf)** |  |  | **[gam-mean](/P/gam-mean)**<br>**[gam-logmean](/P/gam-logmean)** |  |  | **[gam-var](/P/gam-var)** |  | **[gam-kl](/P/gam-kl)** |  |  | **[gam-sgam](/P/gam-sgam)** |
 | Exponential distribution | *[exp](/D/exp)* | **[exp-pdf](/P/exp-pdf)** | **[exp-cdf](/P/exp-cdf)** | **[exp-qf](/P/exp-qf)** | **[exp-mean](/P/exp-mean)** | **[exp-med](/P/exp-med)** | **[exp-mode](/P/exp-mode)** |  |  |  |  |  | **[exp-gam](/P/exp-gam)** |
 | Beta distribution | *[beta](/D/beta)* | **[beta-pdf](/P/beta-pdf)** |  |  |  |  |  |  |  |  |  |  |  |
-| Wald distribution | *[wald](/D/wald)* | **[wald-pdf](/P/wald-pdf)** |  |  |  |  |  |  |  |  |  |  |  |
+| Wald distribution | *[wald](/D/wald)* | **[wald-pdf](/P/wald-pdf)** |  |  | **[wald-mean](/P/wald-mean)** |  |  | **[wald-var](/P/wald-var)** |  |  |  |  | **[wald-mgf](/P/wald-mgf)** |
 | **Multivariate<br>continuous<br>distributions** |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | Multivariate normal distribution | *[mvn](/D/mvn)* | **[mvn-pdf](/P/mvn-pdf)** |  |  |  |  |  |  | **[mvn-dent](/P/mvn-dent)** | **[mvn-kl](/P/mvn-kl)** | **[mvn-marg](/P/mvn-marg)** | **[mvn-cond](/P/mvn-cond)** | **[mvn-ltt](/P/mvn-ltt)** |
 | Normal-gamma distribution | *[ng](/D/ng)* | **[ng-pdf](/P/ng-pdf)** |  |  |  |  |  |  |  | **[ng-kl](/P/ng-kl)** | **[ng-marg](/P/ng-marg)** | **[ng-cond](/P/ng-cond)** |  |
