@@ -177,3 +177,6 @@ title: "Proof by Number"
 | P168 | wald-mgf | [Moment-generating function of the Wald distribution](/P/wald-mgf) | tomfaulkenberry | 2020-09-13 |
 | P169 | wald-mean | [Mean of the Wald distribution](/P/wald-mean) | tomfaulkenberry | 2020-09-13 |
 | P170 | wald-var | [Variance of the Wald distribution](/P/wald-var) | tomfaulkenberry | 2020-09-13 |
+| P171 | momraw-1st | [First raw moment is mean](/P/momraw-1st) | JoramSoch | 2020-10-08 |
+| P172 | momraw-2nd | [Relationship between second raw moment, variance and mean](/P/momraw-2nd) | JoramSoch | 2020-10-08 |
+| P173 | momcent-2nd | [Second central moment is variance](/P/momcent-2nd) | JoramSoch | 2020-10-08 |

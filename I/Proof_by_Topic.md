@@ -64,6 +64,7 @@ title: "Proof by Topic"
 ### F
 
 - [First central moment is zero](/P/momcent-1st)
+- [First raw moment is mean](/P/momraw-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
 
 ### G
@@ -212,12 +213,14 @@ title: "Proof by Topic"
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
+- [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 
 ### S
 
 - [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
+- [Second central moment is variance](/P/momcent-2nd)
 
 ### T
 

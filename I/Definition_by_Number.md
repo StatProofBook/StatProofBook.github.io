@@ -103,3 +103,6 @@ title: "Definition by Number"
 | D94 | std | [Standard deviation](/D/std) | JoramSoch | 2020-09-03 |
 | D95 | wald | [Wald distribution](/D/wald) | tomfaulkenberry | 2020-09-04 |
 | D96 | const | [Constant](/D/const) | JoramSoch | 2020-09-09 |
+| D97 | mom-raw | [Raw moment](/D/mom-raw) | JoramSoch | 2020-10-08 |
+| D98 | mom-cent | [Central moment](/D/mom-cent) | JoramSoch | 2020-10-08 |
+| D99 | mom-stand | [Standardized moment](/D/mom-stand) | JoramSoch | 2020-10-08 |

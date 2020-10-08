@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (93 definitions)
+### JoramSoch (96 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -15,6 +15,7 @@ title: "Definition by Author"
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
 - [Categorical distribution](/D/cat)
+- [Central moment](/D/mom-cent)
 - [Coefficient of determination](/D/rsq)
 - [Conditional differential entropy](/D/dent-cond)
 - [Conditional entropy](/D/ent-cond)
@@ -88,6 +89,7 @@ title: "Definition by Author"
 - [Random matrix](/D/rmat)
 - [Random variable](/D/rvar)
 - [Random vector](/D/rvec)
+- [Raw moment](/D/mom-raw)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)
@@ -95,6 +97,7 @@ title: "Definition by Author"
 - [Signal-to-noise ratio](/D/snr)
 - [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)
+- [Standardized moment](/D/mom-stand)
 - [Statistical independence](/D/ind)
 - [Total sum of squares](/D/tss)
 - [Variance](/D/var)
