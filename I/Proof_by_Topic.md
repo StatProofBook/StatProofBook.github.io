@@ -63,7 +63,12 @@ title: "Proof by Topic"
 
 ### F
 
+- [First central moment is zero](/P/momcent-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
+
+### G
+
+- [Gibbs' inequality](/P/gibbs-ineq)
 
 ### I
 
@@ -94,6 +99,7 @@ title: "Proof by Topic"
 - [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
+- [Log sum inequality](/P/logsum-ineq)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
 
@@ -108,6 +114,7 @@ title: "Proof by Topic"
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the Poisson distribution](/P/poiss-mean)
+- [Mean of the Wald distribution](/P/wald-mean)
 - [Mean of the binomial distribution](/P/bin-mean)
 - [Mean of the categorical distribution](/P/cat-mean)
 - [Mean of the continuous uniform distribution](/P/cuni-mean)
@@ -124,12 +131,14 @@ title: "Proof by Topic"
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)
 - [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
+- [Moment-generating function of the Wald distribution](/P/wald-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Monotonicity of the expected value](/P/mean-mono)
 
 ### N
 
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
+- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
@@ -219,6 +228,7 @@ title: "Proof by Topic"
 ### V
 
 - [Variance of constant is zero](/P/var-const)
+- [Variance of the Wald distribution](/P/wald-var)
 - [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the linear combination of two random variables](/P/var-lincomb)
 - [Variance of the normal distribution](/P/norm-var)

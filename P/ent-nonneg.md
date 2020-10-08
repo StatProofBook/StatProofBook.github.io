@@ -36,23 +36,23 @@ $$
 **Proof:** The [entropy of a discrete random variable](/D/ent) is defined as
 
 $$ \label{eq:ent}
-\mathrm{H}(X) = - \sum_{i=1}^{k} p(x_i) \cdot \log_b p(x_i)
+\mathrm{H}(X) = - \sum_{x \in \mathcal{X}} p(x) \cdot \log_b p(x)
 $$
 
 The minus sign can be moved into the sum:
 
 $$ \label{eq:ent-dev}
-\mathrm{H}(X) = \sum_{i=1}^{k} \left[ p(x_i) \cdot \left( - \log_b p(x_i) \right) \right]
+\mathrm{H}(X) = \sum_{x \in \mathcal{X}} \left[ p(x) \cdot \left( - \log_b p(x) \right) \right]
 $$
 
 Because the co-domain of [probability mass functions](/D/pmf) is $[0,1]$, we can deduce:
 
 $$ \label{eq:nonneg}
 \begin{array}{rcccl}
-0 &\leq &p(x_i) &\leq &1 \\
--\infty &\leq &\log_b p(x_i) &\leq &0 \\
-0 &\leq &-\log_b p(x_i) &\leq &+\infty \\
-0 &\leq &p(x_i) \cdot \left(-\log_b p(x_i)\right) &\leq &+\infty \; .
+0 &\leq &p(x) &\leq &1 \\
+-\infty &\leq &\log_b p(x) &\leq &0 \\
+0 &\leq &-\log_b p(x) &\leq &+\infty \\
+0 &\leq &p(x) \cdot \left(-\log_b p(x)\right) &\leq &+\infty \; .
 \end{array}
 $$
 

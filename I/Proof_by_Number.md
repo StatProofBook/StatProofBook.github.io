@@ -170,3 +170,10 @@ title: "Proof by Number"
 | P161 | mblr-lme | [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme) | JoramSoch | 2020-09-03 |
 | P162 | wald-pdf | [Probability density function of the Wald distribution](/P/wald-pdf) | tomfaulkenberry | 2020-09-04 |
 | P163 | bf-trans | [Transitivity of Bayes Factors](/P/bf-trans) | tomfaulkenberry | 2020-09-07 |
+| P164 | gibbs-ineq | [Gibbs' inequality](/P/gibbs-ineq) | JoramSoch | 2020-09-09 |
+| P165 | logsum-ineq | [Log sum inequality](/P/logsum-ineq) | JoramSoch | 2020-09-09 |
+| P166 | kl-nonneg2 | [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2) | JoramSoch | 2020-09-09 |
+| P167 | momcent-1st | [First central moment is zero](/P/momcent-1st) | JoramSoch | 2020-09-09 |
+| P168 | wald-mgf | [Moment-generating function of the Wald distribution](/P/wald-mgf) | tomfaulkenberry | 2020-09-13 |
+| P169 | wald-mean | [Mean of the Wald distribution](/P/wald-mean) | tomfaulkenberry | 2020-09-13 |
+| P170 | wald-var | [Variance of the Wald distribution](/P/wald-var) | tomfaulkenberry | 2020-09-13 |

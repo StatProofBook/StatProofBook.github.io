@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-08-19 07:51:00
+date: 2020-09-09 07:51:00
 
 title: "First central moment is zero"
 chapter: "General Theorems"
@@ -42,11 +42,11 @@ $$
 
 Due to the [linearity of the expected value](/P/mean-lin) and by plugging in $\mu = \mathrm{E}(X)$, we have
 
-\begin{equation} \label{eq:momcent-1st-qed}
+$$ \label{eq:momcent-1st-qed}
 \begin{split}
 \mu_1 &= \mathrm{E}\left[ X-\mu \right] \\
 &= \mathrm{E}(X) - \mu \\
 &= \mathrm{E}(X) - \mathrm{E}(X) \\
 &= 0 \; .
 \end{split}
-\end{equation}
+$$

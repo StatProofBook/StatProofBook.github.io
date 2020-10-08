@@ -37,7 +37,7 @@ $$
 where $p(\theta \vert m_i,y)$ is the posterior distributions over $\theta$ obtained using $m_i$.
 
 
-**Proof:** According to the [law of marginal probability](/D/prob-marg), the probability of the shared parameters $\theta$ conditional on the measured data $y$ [can be obtained](/D/bma-der) by marginalizing over the discrete variable model $m$:
+**Proof:** According to the [law of marginal probability](/D/prob-marg), the probability of the shared parameters $\theta$ conditional on the measured data $y$ [can be obtained](/P/bma-der) by marginalizing over the discrete variable model $m$:
 
 $$ \label{eq:BMA-PMP}
 p(\theta|y) = \sum_{i=1}^{M} p(\theta|m_i,y) \cdot p(m_i|y) \; ,

@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (92 definitions)
+### JoramSoch (93 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -19,6 +19,7 @@ title: "Definition by Author"
 - [Conditional differential entropy](/D/dent-cond)
 - [Conditional entropy](/D/ent-cond)
 - [Conditional probability distribution](/D/dist-cond)
+- [Constant](/D/const)
 - [Continuous uniform distribution](/D/cuni)
 - [Correlation](/D/corr)
 - [Correlation matrix](/D/corrmat)

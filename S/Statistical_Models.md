@@ -4,7 +4,7 @@ title: "Special: Statistical Models"
 ---
 
 
-**Proofs** and *Definitions* on [Statistical Models](/I/Table_of_Contents#Statistical%20Models) in the StatProofBook, as of 2020-08-26.
+**Proofs** and *Definitions* on [Statistical Models](/I/Table_of_Contents#Statistical%20Models) in the StatProofBook, as of 2020-09-09.
 
 | Model | Definition | Estimation | Maximum<br>likelihood<br>estimation | Conjugate<br>prior | Posterior<br>distribution | Log<br>model<br>evidence | Other |
 |:----- |:---------- |:---------- |:----------------------------------- |:------------------------------- |:------------------------- |:--------------------- |:----- |
@@ -13,6 +13,7 @@ title: "Special: Statistical Models"
 | Bayesian linear regression |  |  |  | **[blr-prior](/P/blr-prior)** | **[blr-post](/P/blr-post)** | **[blr-lme](/P/blr-lme)** | **[blr-pp](/P/blr-pp)**<br>**[blr-pcr](/P/blr-pcr)** |
 | **Multivariate<br>normal data** |  |  |  |  |  |  |  |
 | General linear model | *[glm](/D/mlr)* | **[glm-ols](/P/glm-ols)**<br>**[glm-wls](/P/glm-wls)** | **[glm-mle](/P/glm-mle)** |  |  |  |  |
+| Multivariate Bayesian linear regression |  |  |  | **[mblr-prior](/P/mblr-prior)** | **[mblr-post](/P/mblr-post)** | **[mblr-lme](/P/mblr-lme)** |  |
 | **Poisson data** |  |  |  |  |  |  |  |
 | Poisson-distributed data | *[poiss](/D/poiss-data)* |  | **[poiss-mle](/P/poiss-mle)** |  |  |  |  |
 | Poisson distribution with exposure values | *[poissexp](/D/poissexp)* |  |  | **[poissexp-prior](/P/poissexp-prior)** | **[poissexp-post](/P/poissexp-post)** | **[poissexp-lme](/P/poissexp-lme)** |  |

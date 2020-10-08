@@ -226,16 +226,16 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.2. *[Standard normal distribution](/D/snorm)* <br>
    &emsp;&ensp; 3.2.3. **[Relation to standard normal distribution](/P/norm-snorm)** <br>
    &emsp;&ensp; 3.2.4. **[Probability density function](/P/norm-pdf)** <br>
-   &emsp;&ensp; 3.2.5. **[Cumulative distribution function](/P/norm-cdf)** <br>
-   &emsp;&ensp; 3.2.6. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.7. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.8. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.9. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.10. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.11. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.12. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.13. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.14. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.5. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.6. **[Cumulative distribution function](/P/norm-cdf)** <br>
+   &emsp;&ensp; 3.2.7. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
+   &emsp;&ensp; 3.2.8. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.9. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.10. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.11. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.12. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.13. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.14. **[Differential entropy](/P/norm-dent)** <br>
 
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
@@ -264,6 +264,9 @@ title: "Table of Contents"
    3.6. Wald distribution <br>
    &emsp;&ensp; 3.6.1. *[Definition](/D/wald)* <br>
    &emsp;&ensp; 3.6.2. **[Probability density function](/P/wald-pdf)** <br>
+   &emsp;&ensp; 3.6.3. **[Moment-generating function](/P/wald-mgf)** <br>
+   &emsp;&ensp; 3.6.4. **[Mean](/P/wald-mean)** <br>
+   &emsp;&ensp; 3.6.5. **[Variance](/P/wald-var)** <br>   
 
 4. Multivariate continuous distributions
 

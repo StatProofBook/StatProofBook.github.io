@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (159 proofs)
+### JoramSoch (163 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -44,7 +44,9 @@ title: "Proof by Author"
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
+- [First central moment is zero](/P/momcent-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
+- [Gibbs' inequality](/P/gibbs-ineq)
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
@@ -63,6 +65,7 @@ title: "Proof by Author"
 - [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
+- [Log sum inequality](/P/logsum-ineq)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
@@ -93,6 +96,7 @@ title: "Proof by Author"
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Monotonicity of the expected value](/P/mean-mono)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
+- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
@@ -170,9 +174,12 @@ title: "Proof by Author"
 
 - [Proof Template](/P/-temp-)
 
-### tomfaulkenberry (4 proofs)
+### tomfaulkenberry (7 proofs)
 
 - [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)
+- [Mean of the Wald distribution](/P/wald-mean)
+- [Moment-generating function of the Wald distribution](/P/wald-mgf)
 - [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)
 - [Transitivity of Bayes Factors](/P/bf-trans)
+- [Variance of the Wald distribution](/P/wald-var)
