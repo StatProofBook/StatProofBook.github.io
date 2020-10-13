@@ -16,7 +16,7 @@ theorem: "Relationship between gamma and chi-squared distribution"
 
 sources:
 
-proof_id: "P171"
+proof_id: "P174"
 shortcut: "chi-2-gam"
 username: "kjpetrykowski"
 ---
