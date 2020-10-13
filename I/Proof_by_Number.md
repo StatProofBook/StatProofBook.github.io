@@ -180,3 +180,5 @@ title: "Proof by Number"
 | P171 | momraw-1st | [First raw moment is mean](/P/momraw-1st) | JoramSoch | 2020-10-08 |
 | P172 | momraw-2nd | [Relationship between second raw moment, variance and mean](/P/momraw-2nd) | JoramSoch | 2020-10-08 |
 | P173 | momcent-2nd | [Second central moment is variance](/P/momcent-2nd) | JoramSoch | 2020-10-08 |
+| P174 | chi2-gam | [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam) | kjpetrykowski | 2020-10-12 |
+| P175 | chi2-mom | [Moments of the chi-square distribution](/P/chi2-mom) | kjpetrykowski | 2020-10-13 |

@@ -38,6 +38,6 @@ If we let $\alpha = k/2$ and $\beta = 1/2$, we obtain
 
 $$ \label{eq:gam-pdf-chi2}
 \mathrm{Gam}\left(x; \frac{k}{2}, \frac{1}{2}\right) = \frac{x^{k/2-1} \, e^{-x/2}}{\Gamma(k/2) 2^{k/2}} = \frac{1}{2^{k/2} \Gamma(k/2)} \, x^{k/2-1} \, e^{-x/2}
-$$\
+$$
 
 which is equivalent to the [probability density function of the chi-square distribution](/P/chi2-pdf).

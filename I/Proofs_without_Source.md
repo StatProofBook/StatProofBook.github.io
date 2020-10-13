@@ -4,6 +4,7 @@ title: "Proofs without Source"
 ---
 
 
+- [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)

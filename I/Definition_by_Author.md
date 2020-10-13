@@ -107,6 +107,10 @@ title: "Definition by Author"
 
 - [Definition Template](/D/-temp-)
 
+### kjpetrykowski (1 definition)
+
+- [Chi-square distribution](/D/chi2)
+
 ### tomfaulkenberry (3 definitions)
 
 - [Bayes factor](/D/bf)

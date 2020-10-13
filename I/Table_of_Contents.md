@@ -263,16 +263,21 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.7. **[Median](/P/exp-med)** <br>
    &emsp;&ensp; 3.4.8. **[Mode](/P/exp-mode)** <br>
    
-   3.5. Beta distribution <br>
-   &emsp;&ensp; 3.5.1. *[Definition](/D/beta)* <br>
-   &emsp;&ensp; 3.5.2. **[Probability density function](/P/beta-pdf)** <br>
+   3.5. Chi-square distribution <br>
+   &emsp;&ensp; 3.5.1. *[Definition](/D/chi2)* <br>
+   &emsp;&ensp; 3.5.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
+   &emsp;&ensp; 3.5.3. **[Moments](/P/chi2-mom)** <br>
    
-   3.6. Wald distribution <br>
-   &emsp;&ensp; 3.6.1. *[Definition](/D/wald)* <br>
-   &emsp;&ensp; 3.6.2. **[Probability density function](/P/wald-pdf)** <br>
-   &emsp;&ensp; 3.6.3. **[Moment-generating function](/P/wald-mgf)** <br>
-   &emsp;&ensp; 3.6.4. **[Mean](/P/wald-mean)** <br>
-   &emsp;&ensp; 3.6.5. **[Variance](/P/wald-var)** <br>   
+   3.6. Beta distribution <br>
+   &emsp;&ensp; 3.6.1. *[Definition](/D/beta)* <br>
+   &emsp;&ensp; 3.6.2. **[Probability density function](/P/beta-pdf)** <br>
+   
+   3.7. Wald distribution <br>
+   &emsp;&ensp; 3.7.1. *[Definition](/D/wald)* <br>
+   &emsp;&ensp; 3.7.2. **[Probability density function](/P/wald-pdf)** <br>
+   &emsp;&ensp; 3.7.3. **[Moment-generating function](/P/wald-mgf)** <br>
+   &emsp;&ensp; 3.7.4. **[Mean](/P/wald-mean)** <br>
+   &emsp;&ensp; 3.7.5. **[Variance](/P/wald-var)** <br>
 
 4. Multivariate continuous distributions
 

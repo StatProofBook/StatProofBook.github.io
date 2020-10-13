@@ -177,6 +177,11 @@ title: "Proof by Author"
 
 - [Proof Template](/P/-temp-)
 
+### kjpetrykowski (2 proofs)
+
+- [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam)
+- [Moments of the chi-square distribution](/P/chi2-mom)
+
 ### tomfaulkenberry (7 proofs)
 
 - [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)

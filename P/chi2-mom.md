@@ -14,12 +14,12 @@ topic: "Chi-square distribution"
 theorem: "Moments"
 
 sources:
- - authors: "Robert V. Hogg, Joseph W. McKean, Allen T. Craig"
-   year: 2018
-   title: "The χ2-Distribution"
-   in: "Introduction to Mathematical Statistics"
-   pages: "Pearson, Boston, 2019, p. 179, eq. 3.3.8"
-   url: "https://www.pearson.com/store/p/introduction-to-mathematical-statistics/P100000843744"
+  - authors: "Robert V. Hogg, Joseph W. McKean, Allen T. Craig"
+    year: 2018
+    title: "The χ2-Distribution"
+    in: "Introduction to Mathematical Statistics"
+    pages: "Pearson, Boston, 2019, p. 179, eq. 3.3.8"
+    url: "https://www.pearson.com/store/p/introduction-to-mathematical-statistics/P100000843744"
 
 proof_id: "P175"
 shortcut: "chi2-mom"
@@ -40,7 +40,7 @@ $$ \label{eq:chi2-mom}
 $$
 
 
-**Proof:** Combining the [definition of the $m$-th raw moment](/D/momraw) with the [probability density function of the chi-square distribution](/P/chi2-pdf), we have:
+**Proof:** Combining the [definition of the $m$-th raw moment](/D/mom-raw) with the [probability density function of the chi-square distribution](/P/chi2-pdf), we have:
 
 $$ \label{eq:chi2-mom-int}
 \mathrm{E}(X^{m}) = \int_{0}^{\infty} \frac{1}{\Gamma\left( \frac{k}{2} \right) 2^{k/2}} \, x^{(k/2)+m-1} \, e^{-x/2} \mathrm{d}x \; . 

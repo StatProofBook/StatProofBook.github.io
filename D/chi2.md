@@ -14,18 +14,18 @@ topic: "Chi-square distribution"
 definition: "Definition"
 
 sources:
- - authors: "Wikipedia"
-   year: 2020
-   title: "Chi-square distribution"
-   in: "Wikipedia, the free encyclopedia"
-   pages: "retrieved on 2020-10-12"
-   url: "https://en.wikipedia.org/wiki/Chi-square_distribution#Definitions"
- - authors: "Robert V. Hogg, Joseph W. McKean, Allen T. Craig"
-   year: 2018
-   title: "The χ2-Distribution"
-   in: "Introduction to Mathematical Statistics"
-   pages: "Pearson, Boston, 2019, p. 178, eq. 3.3.7"
-   url: "https://www.pearson.com/store/p/introduction-to-mathematical-statistics/P100000843744"
+  - authors: "Wikipedia"
+    year: 2020
+    title: "Chi-square distribution"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2020-10-12"
+    url: "https://en.wikipedia.org/wiki/Chi-square_distribution#Definitions"
+  - authors: "Robert V. Hogg, Joseph W. McKean, Allen T. Craig"
+    year: 2018
+    title: "The χ2-Distribution"
+    in: "Introduction to Mathematical Statistics"
+    pages: "Pearson, Boston, 2019, p. 178, eq. 3.3.7"
+    url: "https://www.pearson.com/store/p/introduction-to-mathematical-statistics/P100000843744"
 
 def_id: "D100"
 shortcut: "chi2"
@@ -37,7 +37,7 @@ username: "kjpetrykowski"
 
 $$ \label{eq:snorm}
 X_{i} \sim \mathcal{N}(0,1) \; .
-$$.
+$$
 
 Then, the sum of their squares follows a chi-square distribution with $k$ degrees of freedom:
 

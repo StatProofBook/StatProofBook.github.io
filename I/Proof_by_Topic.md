@@ -21,6 +21,7 @@ title: "Proof by Topic"
 
 ### C
 
+- [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Concavity of the Shannon entropy](/P/ent-conc)
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
@@ -134,6 +135,7 @@ title: "Proof by Topic"
 - [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
+- [Moments of the chi-square distribution](/P/chi2-mom)
 - [Monotonicity of the expected value](/P/mean-mono)
 
 ### N
