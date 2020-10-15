@@ -22,6 +22,8 @@ title: "Definition by Topic"
 ### C
 
 - [Categorical distribution](/D/cat)
+- [Central moment](/D/mom-cent)
+- [Chi-square distribution](/D/chi2)
 - [Coefficient of determination](/D/rsq)
 - [Conditional differential entropy](/D/dent-cond)
 - [Conditional entropy](/D/ent-cond)
@@ -133,6 +135,7 @@ title: "Definition by Topic"
 - [Random matrix](/D/rmat)
 - [Random variable](/D/rvar)
 - [Random vector](/D/rvec)
+- [Raw moment](/D/mom-raw)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)
@@ -143,6 +146,7 @@ title: "Definition by Topic"
 - [Signal-to-noise ratio](/D/snr)
 - [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)
+- [Standardized moment](/D/mom-stand)
 - [Statistical independence](/D/ind)
 
 ### T

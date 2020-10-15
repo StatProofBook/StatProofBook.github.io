@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a scalar [random variable](/D/rvar) with the [moment-generating function](/D/mgf) $M_X(t)$. Then, the $n$-th [moment](/D/mom) of $X$ can be calculated from the moment-generating function via
+**Theorem:** Let $X$ be a scalar [random variable](/D/rvar) with the [moment-generating function](/D/mgf) $M_X(t)$. Then, the $n$-th [raw moment](/D/mom-raw) of $X$ can be calculated from the moment-generating function via
 
 $$ \label{eq:mom-mgf}
 \mathrm{E}(X^n) = M_X^{(n)}(0)

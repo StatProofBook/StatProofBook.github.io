@@ -4,6 +4,7 @@ title: "Proofs without Source"
 ---
 
 
+- [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
@@ -14,6 +15,7 @@ title: "Proofs without Source"
 - [Derivation of the log model evidence](/P/lme-der)
 - [Derivation of the posterior model probability](/P/pmp-der)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
+- [First raw moment is mean](/P/momraw-1st)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Log model evidence for multinomial observations](/P/mult-lme)
@@ -60,6 +62,7 @@ title: "Proofs without Source"
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
+- [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Transitivity of Bayes Factors](/P/bf-trans)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)

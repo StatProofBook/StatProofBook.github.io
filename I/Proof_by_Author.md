@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (163 proofs)
+### JoramSoch (166 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -45,6 +45,7 @@ title: "Proof by Author"
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 - [First central moment is zero](/P/momcent-1st)
+- [First raw moment is mean](/P/momraw-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
 - [Gibbs' inequality](/P/gibbs-ineq)
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
@@ -156,8 +157,10 @@ title: "Proof by Author"
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
+- [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
+- [Second central moment is variance](/P/momcent-2nd)
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
 - [Variance of constant is zero](/P/var-const)
@@ -173,6 +176,11 @@ title: "Proof by Author"
 ### StatProofBook (1 proof)
 
 - [Proof Template](/P/-temp-)
+
+### kjpetrykowski (2 proofs)
+
+- [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam)
+- [Moments of the chi-square distribution](/P/chi2-mom)
 
 ### tomfaulkenberry (7 proofs)
 

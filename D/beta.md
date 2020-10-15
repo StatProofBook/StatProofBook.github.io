@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition**: Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to follow a beta distribution with shape parameters $\alpha$ and $\beta$
+**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to follow a beta distribution with shape parameters $\alpha$ and $\beta$
 
 $$ \label{eq:beta}
 X \sim \mathrm{Bet}(\alpha, \beta) \; ,
