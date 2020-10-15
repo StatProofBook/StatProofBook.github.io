@@ -96,6 +96,8 @@ title: "Definition by Topic"
 - [Matrix-normal distribution](/D/matn)
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
+- [Median](/D/med)
+- [Mode](/D/mode)
 - [Moment](/D/mom)
 - [Moment-generating function](/D/mgf)
 - [Multinomial distribution](/D/mult)

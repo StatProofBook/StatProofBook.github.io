@@ -38,6 +38,7 @@ title: "Proof by Topic"
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
+- [Cumulative distribution function of the gamma distribution](/P/gam-cdf)
 - [Cumulative distribution function of the normal distribution](/P/norm-cdf)
 
 ### D
@@ -59,6 +60,7 @@ title: "Proof by Topic"
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Expectation of a quadratic form](/P/mean-qf)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
+- [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 
@@ -202,7 +204,9 @@ title: "Proof by Topic"
 ### R
 
 - [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam)
+- [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2)
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm)
+- [Relation between normal distribution and standard normal distribution](/P/norm-snorm2)
 - [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)
