@@ -83,20 +83,24 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
    &emsp;&ensp; 1.8.2. *[Correlation matrix](/D/corrmat)* <br>
    
-   1.9. Measures of statistical dispersion <br>
-   &emsp;&ensp; 1.9.1. *[Standard deviation](/D/std)* <br>
-   &emsp;&ensp; 1.9.2. *[Full width at half maximum](/D/fwhm)* <br>
+   1.9. Measures of central tendency <br>
+   &emsp;&ensp; 1.9.1. *[Median](/D/med)* <br>
+   &emsp;&ensp; 1.9.2. *[Mode](/D/mode)* <br>
    
-   1.10. Further moments <br>
-   &emsp;&ensp; 1.10.1. *[Moment](/D/mom)* <br>
-   &emsp;&ensp; 1.10.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-   &emsp;&ensp; 1.10.3. *[Raw moment](/D/mom-raw)* <br>
-   &emsp;&ensp; 1.10.4. **[First raw moment is mean](/P/momraw-1st)** <br>
-   &emsp;&ensp; 1.10.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
-   &emsp;&ensp; 1.10.6. *[Central moment](/D/mom-cent)* <br>
-   &emsp;&ensp; 1.10.7. **[First central moment is zero](/P/momcent-1st)** <br>
-   &emsp;&ensp; 1.10.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
-   &emsp;&ensp; 1.10.9. *[Standardized moment](/D/mom-stand)* <br>
+   1.10. Measures of statistical dispersion <br>
+   &emsp;&ensp; 1.10.1. *[Standard deviation](/D/std)* <br>
+   &emsp;&ensp; 1.10.2. *[Full width at half maximum](/D/fwhm)* <br>
+   
+   1.11. Further moments <br>
+   &emsp;&ensp; 1.11.1. *[Moment](/D/mom)* <br>
+   &emsp;&ensp; 1.11.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+   &emsp;&ensp; 1.11.3. *[Raw moment](/D/mom-raw)* <br>
+   &emsp;&ensp; 1.11.4. **[First raw moment is mean](/P/momraw-1st)** <br>
+   &emsp;&ensp; 1.11.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
+   &emsp;&ensp; 1.11.6. *[Central moment](/D/mom-cent)* <br>
+   &emsp;&ensp; 1.11.7. **[First central moment is zero](/P/momcent-1st)** <br>
+   &emsp;&ensp; 1.11.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
+   &emsp;&ensp; 1.11.9. *[Standardized moment](/D/mom-stand)* <br>
 
 2. Information theory
    
@@ -230,28 +234,32 @@ title: "Table of Contents"
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
    &emsp;&ensp; 3.2.2. *[Standard normal distribution](/D/snorm)* <br>
-   &emsp;&ensp; 3.2.3. **[Relation to standard normal distribution](/P/norm-snorm)** <br>
-   &emsp;&ensp; 3.2.4. **[Probability density function](/P/norm-pdf)** <br>
-   &emsp;&ensp; 3.2.5. **[Moment-generating function](/P/norm-mgf)** <br>
-   &emsp;&ensp; 3.2.6. **[Cumulative distribution function](/P/norm-cdf)** <br>
-   &emsp;&ensp; 3.2.7. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.8. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.9. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.10. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.11. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.12. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.13. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.14. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.3. **[Relation to standard normal distribution](/P/norm-snorm)** (1) <br>
+   &emsp;&ensp; 3.2.4. **[Relation to standard normal distribution](/P/norm-snorm2)** (2) <br>
+   &emsp;&ensp; 3.2.5. **[Probability density function](/P/norm-pdf)** <br>
+   &emsp;&ensp; 3.2.6. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.7. **[Cumulative distribution function](/P/norm-cdf)** <br>
+   &emsp;&ensp; 3.2.8. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
+   &emsp;&ensp; 3.2.9. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.10. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.11. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.12. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.13. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.14. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.15. **[Differential entropy](/P/norm-dent)** <br>
 
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
    &emsp;&ensp; 3.3.2. *[Standard gamma distribution](/D/sgam)* <br>
-   &emsp;&ensp; 3.3.3. **[Relation to standard gamma distribution](/P/gam-sgam)** <br>
-   &emsp;&ensp; 3.3.4. **[Probability density function](/P/gam-pdf)** <br>
-   &emsp;&ensp; 3.3.5. **[Mean](/P/gam-mean)** <br>
-   &emsp;&ensp; 3.3.6. **[Variance](/P/gam-var)** <br>
-   &emsp;&ensp; 3.3.7. **[Logarithmic expectation](/P/gam-logmean)** <br>
-   &emsp;&ensp; 3.3.8. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.3.3. **[Relation to standard gamma distribution](/P/gam-sgam)** (1) <br>
+   &emsp;&ensp; 3.3.4. **[Relation to standard gamma distribution](/P/gam-sgam2)** (2) <br>
+   &emsp;&ensp; 3.3.5. **[Probability density function](/P/gam-pdf)** <br>
+   &emsp;&ensp; 3.3.6. **[Cumulative distribution function](/P/gam-cdf)** <br>
+   &emsp;&ensp; 3.3.7. **[Mean](/P/gam-mean)** <br>
+   &emsp;&ensp; 3.3.8. **[Variance](/P/gam-var)** <br>
+   &emsp;&ensp; 3.3.9. **[Logarithmic expectation](/P/gam-logmean)** <br>
+   &emsp;&ensp; 3.3.10. **[Expectation of x ln x](/P/gam-xlogx)** <br>
+   &emsp;&ensp; 3.3.11. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
    3.4. Exponential distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/exp)* <br>
