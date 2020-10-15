@@ -27,17 +27,17 @@ $$ \label{eq:X-gam}
 X \sim \mathrm{Gam}(a,b) \; .
 $$
 
-Then, the quantity $Z = b X$ will have a [standard gamma distribution](/D/sgam) with shape $a$ and rate $1$:
+Then, the quantity $Y = b X$ will have a [standard gamma distribution](/D/sgam) with shape $a$ and rate $1$:
 
-$$ \label{eq:Z-snorm}
-Z = b X \sim \mathrm{Gam}(a,1) \; .
+$$ \label{eq:Y-snorm}
+Y = b X \sim \mathrm{Gam}(a,1) \; .
 $$
 
 
-**Proof:** Rearranging to get $X$ in terms of $Z$, we have
+**Proof:** Rearranging to get $X$ in terms of $Y$, we have
 
-$$ \label{eq:X-Z}
-X = \frac{1}{b} Z \; .
+$$ \label{eq:X-Y}
+X = \frac{1}{b} Y \; .
 $$
 
 The [cumulative distribution function of the gamma-distributed](/P/gam-cdf) $X$ is
@@ -46,13 +46,13 @@ $$ \label{eq:gam-cdf}
 F_X(t) = \int_{-\infty}^{t} \frac{b^a}{\Gamma(a)} x^{a-1} \exp[-b x] \, \mathrm{d}x \; .
 $$
 
-Substituting \eqref{eq:X-Z} into \eqref{eq:gam-cdf}, we obtain
+Substituting \eqref{eq:X-Y} into \eqref{eq:gam-cdf}, we obtain
 
 $$ \label{eq:sgam-cdf}
 \begin{split}
-F_Z(t) &= \int_{-\infty}^{t} \frac{b^a}{\Gamma(a)} \left(\frac{1}{b} z\right)^{a-1} \exp\left[-b \left(\frac{1}{b} z\right)\right] \, \mathrm{d}\left(\frac{1}{b} z\right) \\
-&= \int_{-\infty}^{t} \frac{b^a}{b} \left(\frac{1}{b}\right)^{a-1} \cdot \frac{1}{\Gamma(a)} z^{a-1} \exp[-z] \, \mathrm{d}z \\
-&= \int_{-\infty}^{t} \frac{1}{\Gamma(a)} z^{a-1} \exp[-z] \, \mathrm{d}z
+F_Z(t) &= \int_{-\infty}^{t} \frac{b^a}{\Gamma(a)} \left(\frac{1}{b} y\right)^{a-1} \exp\left[-b \left(\frac{1}{b} y\right)\right] \, \mathrm{d}\left(\frac{1}{b} y\right) \\
+&= \int_{-\infty}^{t} \frac{b^a}{b} \left(\frac{1}{b}\right)^{a-1} \cdot \frac{1}{\Gamma(a)} y^{a-1} \exp[-y] \, \mathrm{d}y \\
+&= \int_{-\infty}^{t} \frac{1}{\Gamma(a)} y^{a-1} \exp[-y] \, \mathrm{d}y
 \end{split}
 $$
 

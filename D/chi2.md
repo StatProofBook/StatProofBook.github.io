@@ -45,7 +45,7 @@ $$\label{eq:chi2}
 Y = \sum_{i=1}^{k} X_{i}^{2} \sim \chi^{2}(k) \quad \text{where} \quad k > 0 \; .
 $$
 
-A [random variables](/D/rvar) $Y$ is said said to follow a chi-square distribution with $k$ number of degress of freedom, if and only if its [probability density function](/D/pdf) is given by
+A [random variable](/D/rvar) $Y$ is said said to follow a chi-square distribution with $k$ number of degress of freedom, if and only if its [probability density function](/D/pdf) is given by
 
 $$ \label{eq:chi2-pdf}
 \chi^{2}(x; k) = \frac{1}{2^{k/2}\Gamma (k/2)} \, x^{k/2-1} \, e^{-x/2}

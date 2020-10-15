@@ -36,8 +36,10 @@ $$
 Then, the [expectation](/D/mean) of the natural logarithm of $X$ is
 
 $$ \label{eq:gam-logmean}
-\mathrm{E}(\ln X) = \psi(a) - \ln(b) \; .
+\mathrm{E}(\ln X) = \psi(a) - \ln(b)
 $$
+
+where $\psi(x)$ is the digamma function.
 
 
 **Proof:** Let $Y = \ln(X)$, such that $\mathrm{E}(Y) = \mathrm{E}(\ln X)$ and consider the special case that $b = 1$. In this case, the [probability density function of the gamma distribution](/P/gam-pdf) is
