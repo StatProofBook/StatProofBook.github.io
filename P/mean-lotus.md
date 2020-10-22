@@ -53,18 +53,18 @@ $$
 Writing the probability mass function $f_Y(y)$ in terms of $y = g(x)$, we have:
 
 $$ \label{eq:mean-lotus-disc-s2}
-\mathrm{E}[g(X)] = \sum_{y \in \mathcal{Y}} y \, \mathrm{Pr}(g(x) = y) \; .
+\begin{split}
+\mathrm{E}[g(X)] &= \sum_{y \in \mathcal{Y}} y \, \mathrm{Pr}(g(x) = y) \\
+&= \sum_{y \in \mathcal{Y}} y \, \mathrm{Pr}(x = g^{-1}(y)) \\
+&= \sum_{y \in \mathcal{Y}} y \sum_{x = g^{-1}(y)} f_X(x) \\
+&= \sum_{y \in \mathcal{Y}} \sum_{x = g^{-1}(y)} y f_X(x) \\
+&= \sum_{y \in \mathcal{Y}} \sum_{x = g^{-1}(y)} g(x) f_X(x) \; .
+\end{split}
 $$
 
-Replacing the probability that $g(x) = y$ in terms of $f_X(x)$, this becomes:
+Finally, noting that "for all $y$, then for all $x = g^{-1}(y)$" is equivalent to "for all $x$" if $g^{-1}$ is a monotonic function, we can conclude that
 
 $$ \label{eq:mean-lotus-disc-s3}
-\mathrm{E}[g(X)] = \sum_{y \in \mathcal{Y}} y \sum_{x: \; g(x) = y} f_X(x) \; .
-$$
-
-Observe that $y = g(x)$ can be moved into the inner sum. Finally, noting that "for all $y$, then for all $x$, such that $g(x) = y$" is equivalent to "for all $x$" if $g^{-1}$ is a monotonic function, we can conclude that
-
-$$ \label{eq:mean-lotus-disc-s4}
 \mathrm{E}[g(X)] = \sum_{x \in \mathcal{X}} g(x) f_X(x) \; .
 $$
 

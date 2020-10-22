@@ -62,7 +62,7 @@ where $\mathcal{Y} = \left\lbrace y = g(x): x \in \mathcal{X} \right\rbrace$. Wi
 $$ \label{eq:pdf-Z}
 \begin{split}
 f_Z(z) &= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{g^{-1}(z)-\mu}{\sigma} \right)^2 \right] \cdot \frac{\mathrm{d}g^{-1}(z)}{\mathrm{d}z} \\
-&= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{(\sigma z + \mu)-\mu}{\sigma} \right)^2 \right] \cdot \frac{\mathrm{d}(\sigma Z + \mu)}{\mathrm{d}z} \\
+&= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{(\sigma z + \mu)-\mu}{\sigma} \right)^2 \right] \cdot \frac{\mathrm{d}(\sigma z + \mu)}{\mathrm{d}z} \\
 &= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} z^2 \right] \cdot \sigma \\
 &= \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} z^2 \right]
 \end{split}

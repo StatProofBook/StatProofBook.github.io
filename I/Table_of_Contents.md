@@ -391,11 +391,6 @@ title: "Table of Contents"
    &emsp;&ensp; 4.2.1. *[Definition](/D/dir-data)* <br>
    &emsp;&ensp; 4.2.2. **[Maximum likelihood estimation](/P/dir-mle)** <br>
    
-   4.3. Logistic regression <br>
-   &emsp;&ensp; 4.3.1. *[Definition](/D/logreg)* <br>
-   &emsp;&ensp; 4.3.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
-   &emsp;&ensp; 4.3.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
-
 5. Categorical data
    
    5.1. Binomial observations <br>
@@ -409,6 +404,11 @@ title: "Table of Contents"
    &emsp;&ensp; 5.2.2. **[Conjugate prior distribution](/P/mult-prior)** <br>
    &emsp;&ensp; 5.2.3. **[Posterior distribution](/P/mult-post)** <br>
    &emsp;&ensp; 5.2.4. **[Log model evidence](/P/mult-lme)** <br>
+
+   5.3. Logistic regression <br>
+   &emsp;&ensp; 5.3.1. *[Definition](/D/logreg)* <br>
+   &emsp;&ensp; 5.3.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
+   &emsp;&ensp; 5.3.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
 
 
 <br>
