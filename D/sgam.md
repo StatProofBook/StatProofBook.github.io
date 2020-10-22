@@ -21,6 +21,13 @@ sources:
     pages: "retrieved on 2020-05-26"
     url: "https://github.com/JoramSoch/MACS/blob/master/MD_gamrnd.m"
     doi: "10.5281/zenodo.845404"
+  - authors: "NIST/SEMATECH"
+    year: 2012
+    title: "Gamma distribution"
+    in: "e-Handbook of Statistical Methods"
+    pages: "ch. 1.3.6.6.11"
+    url: "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366b.htm"
+    doi: "10.18434/M32189"
 
 def_id: "D64"
 shortcut: "sgam"

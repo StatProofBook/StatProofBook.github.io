@@ -182,3 +182,7 @@ title: "Proof by Number"
 | P173 | momcent-2nd | [Second central moment is variance](/P/momcent-2nd) | JoramSoch | 2020-10-08 |
 | P174 | chi2-gam | [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam) | kjpetrykowski | 2020-10-12 |
 | P175 | chi2-mom | [Moments of the chi-square distribution](/P/chi2-mom) | kjpetrykowski | 2020-10-13 |
+| P176 | norm-snorm2 | [Relation between normal distribution and standard normal distribution](/P/norm-snorm2) | JoramSoch | 2020-10-15 |
+| P177 | gam-sgam2 | [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2) | JoramSoch | 2020-10-15 |
+| P178 | gam-cdf | [Cumulative distribution function of the gamma distribution](/P/gam-cdf) | JoramSoch | 2020-10-15 |
+| P179 | gam-xlogx | [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx) | JoramSoch | 2020-10-15 |

@@ -107,3 +107,5 @@ title: "Definition by Number"
 | D98 | mom-cent | [Central moment](/D/mom-cent) | JoramSoch | 2020-10-08 |
 | D99 | mom-stand | [Standardized moment](/D/mom-stand) | JoramSoch | 2020-10-08 |
 | D100 | chi2 | [Chi-square distribution](/D/chi2) | kjpetrykowski | 2020-10-13 |
+| D101 | med | [Median](/D/med) | JoramSoch | 2020-10-15 |
+| D102 | mode | [Mode](/D/mode) | JoramSoch | 2020-10-15 |

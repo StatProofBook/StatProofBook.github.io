@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (166 proofs)
+### JoramSoch (170 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -28,6 +28,7 @@ title: "Proof by Author"
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
+- [Cumulative distribution function of the gamma distribution](/P/gam-cdf)
 - [Cumulative distribution function of the normal distribution](/P/norm-cdf)
 - [Derivation of Bayesian model averaging](/P/bma-der)
 - [Derivation of R² and adjusted R²](/P/rsq-der)
@@ -42,6 +43,7 @@ title: "Proof by Author"
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Expectation of a quadratic form](/P/mean-qf)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
+- [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 - [First central moment is zero](/P/momcent-1st)
@@ -144,7 +146,9 @@ title: "Proof by Author"
 - [Quantile function of the exponential distribution](/P/exp-qf)
 - [Quantile function of the normal distribution](/P/norm-qf)
 - [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam)
+- [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2)
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm)
+- [Relation between normal distribution and standard normal distribution](/P/norm-snorm2)
 - [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)

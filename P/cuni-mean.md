@@ -37,7 +37,7 @@ $$
 **Proof:** The [expected value](/D/mean) is the probability-weighted average over all possible values:
 
 $$ \label{eq:mean}
-\mathrm{E}(X) = \int_{\mathbb{R}} x \cdot f_X(x) \, \mathrm{d}x \; .
+\mathrm{E}(X) = \int_{\mathcal{X}} x \cdot f_X(x) \, \mathrm{d}x \; .
 $$
 
 With the [probability density function of the continuous uniform distribution](/P/cuni-pdf), this becomes:

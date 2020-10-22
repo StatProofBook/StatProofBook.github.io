@@ -40,7 +40,7 @@ $$ \label{eq:gam-xlogx}
 $$
 
 
-**Proof:** With the [definition of the expected value](/D/mean) and the [probability density function of the gamma distribution](/P/gam-pdf), we have:
+**Proof:** With the [definition of the expected value](/D/mean), the [law of the unconscious statistician](/P/mean-lotus) and the [probability density function of the gamma distribution](/P/gam-pdf), we have:
 
 $$ \label{eq:gam-xlogx-s1}
 \begin{split}
@@ -68,7 +68,7 @@ $$ \label{eq:gam-fct}
 \Gamma(x+1) = \Gamma(x) \cdot x \quad \Leftrightarrow \quad \frac{\Gamma(x+1)}{\Gamma(x)} = x \; ,
 $$
 
-the expression in equation \eqref{eq:gam-mean-s1} develops into:
+the expression in equation \eqref{eq:gam-xlogx-s1} develops into:
 
 $$ \label{eq:gam-xlogx-qed}
 \mathrm{E}(X \ln X) = \frac{a}{b} \left[ \psi(a) - \ln(b) \right] \; .

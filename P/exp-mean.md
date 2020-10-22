@@ -44,7 +44,7 @@ $$
 **Proof:** The [expected value](/D/mean) is the probability-weighted average over all possible values:
 
 $$ \label{eq:mean}
-\mathrm{E}(X) = \int_{\mathbb{R}} x \cdot f_\mathrm{X}(x) \, \mathrm{d}x \; .
+\mathrm{E}(X) = \int_{\mathcal{X}} x \cdot f_\mathrm{X}(x) \, \mathrm{d}x \; .
 $$
 
 With the [probability density function of the exponential distribution](/P/exp-pdf), this reads:
