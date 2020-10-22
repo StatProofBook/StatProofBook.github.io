@@ -27,7 +27,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.2. *[Joint probability](/D/prob-joint)* <br>
    &emsp;&ensp; 1.2.3. *[Marginal probability](/D/prob-marg)* <br>
    &emsp;&ensp; 1.2.4. *[Conditional probability](/D/prob-cond)* <br>
-   &emsp;&ensp; 1.2.5. *[Statistical independence](/D/ind)* <br>
+   &emsp;&ensp; 1.2.5. *[Exceedance probability](/D/prob-exc)* <br>
+   &emsp;&ensp; 1.2.6. *[Statistical independence](/D/ind)* <br>
    
    1.3. Probability distributions <br>
    &emsp;&ensp; 1.3.1. *[Probability distribution](/D/dist)* <br>
@@ -236,17 +237,18 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.2. *[Standard normal distribution](/D/snorm)* <br>
    &emsp;&ensp; 3.2.3. **[Relation to standard normal distribution](/P/norm-snorm)** (1) <br>
    &emsp;&ensp; 3.2.4. **[Relation to standard normal distribution](/P/norm-snorm2)** (2) <br>
-   &emsp;&ensp; 3.2.5. **[Probability density function](/P/norm-pdf)** <br>
-   &emsp;&ensp; 3.2.6. **[Moment-generating function](/P/norm-mgf)** <br>
-   &emsp;&ensp; 3.2.7. **[Cumulative distribution function](/P/norm-cdf)** <br>
-   &emsp;&ensp; 3.2.8. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.9. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.10. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.11. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.12. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.13. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.14. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.15. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.5. **[Relation to standard normal distribution](/P/norm-snorm3)** (3) <br>
+   &emsp;&ensp; 3.2.6. **[Probability density function](/P/norm-pdf)** <br>
+   &emsp;&ensp; 3.2.7. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.8. **[Cumulative distribution function](/P/norm-cdf)** <br>
+   &emsp;&ensp; 3.2.9. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
+   &emsp;&ensp; 3.2.10. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.11. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.12. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.13. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.14. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.15. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.16. **[Differential entropy](/P/norm-dent)** <br>
 
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
@@ -308,6 +310,7 @@ title: "Table of Contents"
    4.3. Dirichlet distribution <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/dir)* <br>
    &emsp;&ensp; 4.3.2. **[Probability density function](/P/dir-pdf)** <br>
+   &emsp;&ensp; 4.3.3. **[Exceedance probabilities](/P/dir-ep)** <br>
 
 5. Matrix-variate continuous distributions
 
@@ -384,10 +387,14 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.1. *[Definition](/D/beta-data)* <br>
    &emsp;&ensp; 4.1.2. **[Method of moments](/P/beta-mom)** <br>
    
-   4.2. Logistic regression <br>
-   &emsp;&ensp; 4.2.1. *[Definition](/D/logreg)* <br>
-   &emsp;&ensp; 4.2.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
-   &emsp;&ensp; 4.2.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
+   4.2. Dirichlet-distributed data <br>
+   &emsp;&ensp; 4.2.1. *[Definition](/D/dir-data)* <br>
+   &emsp;&ensp; 4.2.2. **[Maximum likelihood estimation](/P/dir-mle)** <br>
+   
+   4.3. Logistic regression <br>
+   &emsp;&ensp; 4.3.1. *[Definition](/D/logreg)* <br>
+   &emsp;&ensp; 4.3.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
+   &emsp;&ensp; 4.3.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
 
 5. Categorical data
    
