@@ -186,3 +186,6 @@ title: "Proof by Number"
 | P177 | gam-sgam2 | [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2) | JoramSoch | 2020-10-15 |
 | P178 | gam-cdf | [Cumulative distribution function of the gamma distribution](/P/gam-cdf) | JoramSoch | 2020-10-15 |
 | P179 | gam-xlogx | [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx) | JoramSoch | 2020-10-15 |
+| P180 | norm-snorm3 | [Relation between normal distribution and standard normal distribution](/P/norm-snorm3) | JoramSoch | 2020-10-22 |
+| P181 | dir-ep | [Exceedance probabilities for the the Dirichlet distribution](/P/dir-ep) | JoramSoch | 2020-10-22 |
+| P182 | dir-mle | [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle) | JoramSoch | 2020-10-22 |
