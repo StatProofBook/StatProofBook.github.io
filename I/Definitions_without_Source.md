@@ -7,6 +7,7 @@ title: "Definitions without Source"
 - [Beta-distributed data](/D/beta-data)
 - [Binomial observations](/D/bin-data)
 - [Conditional differential entropy](/D/dent-cond)
+- [Dirichlet-distributed data](/D/dir-data)
 - [Estimation matrix](/D/emat)
 - [Full probability model](/D/fpm)
 - [Generative model](/D/gm)

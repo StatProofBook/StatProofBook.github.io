@@ -58,6 +58,7 @@ title: "Proof by Topic"
 
 - [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
+- [Exceedance probabilities for the the Dirichlet distribution](/P/dir-ep)
 - [Expectation of a quadratic form](/P/mean-qf)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
@@ -112,6 +113,7 @@ title: "Proof by Topic"
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
+- [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
@@ -207,6 +209,7 @@ title: "Proof by Topic"
 - [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2)
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm)
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm2)
+- [Relation between normal distribution and standard normal distribution](/P/norm-snorm3)
 - [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)

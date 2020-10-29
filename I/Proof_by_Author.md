@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (170 proofs)
+### JoramSoch (173 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -41,6 +41,7 @@ title: "Proof by Author"
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
+- [Exceedance probabilities for the the Dirichlet distribution](/P/dir-ep)
 - [Expectation of a quadratic form](/P/mean-qf)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
@@ -74,6 +75,7 @@ title: "Proof by Author"
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
+- [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
@@ -149,6 +151,7 @@ title: "Proof by Author"
 - [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2)
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm)
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm2)
+- [Relation between normal distribution and standard normal distribution](/P/norm-snorm3)
 - [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)

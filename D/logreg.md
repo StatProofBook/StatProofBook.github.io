@@ -9,7 +9,7 @@ date: 2020-06-28 20:51:00
 
 title: "Logistic regression"
 chapter: "Statistical Models"
-section: "Probability data"
+section: "Categorical data"
 topic: "Logistic regression"
 definition: "Definition"
 

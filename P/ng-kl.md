@@ -14,7 +14,7 @@ topic: "Normal-gamma distribution"
 theorem: "Kullback-Leibler divergence"
 
 sources:
-  - authors: "Soch & Allefeld"
+  - authors: "Soch J, Allefeld A"
     year: 2016
     title: "Kullback-Leibler Divergence for the Normal-Gamma Distribution"
     in: "arXiv math.ST"

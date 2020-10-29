@@ -9,7 +9,7 @@ date: 2020-03-03 12:01:00
 
 title: "Log-odds and probability in logistic regression"
 chapter: "Statistical Models"
-section: "Probability data"
+section: "Categorical data"
 topic: "Logistic regression"
 theorem: "Log-odds and probability"
 

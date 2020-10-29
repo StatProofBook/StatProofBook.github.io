@@ -109,3 +109,5 @@ title: "Definition by Number"
 | D100 | chi2 | [Chi-square distribution](/D/chi2) | kjpetrykowski | 2020-10-13 |
 | D101 | med | [Median](/D/med) | JoramSoch | 2020-10-15 |
 | D102 | mode | [Mode](/D/mode) | JoramSoch | 2020-10-15 |
+| D103 | prob-exc | [Exceedance probability](/D/prob-exc) | JoramSoch | 2020-10-22 |
+| D104 | dir-data | [Dirichlet-distributed data](/D/dir-data) | JoramSoch | 2020-10-22 |

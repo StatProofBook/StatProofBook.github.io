@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [normal distributions](/D/norm):
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [normal distribution](/D/norm):
 
 $$ \label{eq:norm}
 X \sim \mathcal{N}(\mu, \sigma^2) \; .
@@ -104,7 +104,7 @@ T(0) = \varphi(0) \cdot \sum_{i=1}^{\infty} \frac{0^{2i-1}}{(2i-1)!!} + c &= \fr
 \end{split}
 $$
 
-3) Finally, the cumulative distribution functions of the standard normal distribution and the general normal distribution [are related to each other](/P/norm-snorm) as
+3) Finally, the [cumulative distribution functions](/D/cdf) of the [standard normal distribution](/D/snorm) and the general [normal distribution](/D/norm) [are related to each other](/P/norm-snorm) as
 
 $$ \label{eq:norm-snorm-cdf}
 \Phi_{\mu,\sigma}(x) = \Phi\left( \frac{x-\mu}{\sigma} \right) \; .

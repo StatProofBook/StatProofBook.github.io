@@ -131,7 +131,7 @@ $$
 The [probability density function of the gamma distribution](/P/gam-pdf) is given by
 
 $$ \label{eq:Gam-pdf}
-\mathrm{Gam}(x; a, b) = \frac{{b}^{a}}{\Gamma(a)} \, x^{a-1} \, \exp[-b x] \quad \text{for} \quad x > 0 \; .
+\mathrm{Gam}(x; a, b) = \frac{ {b}^{a} }{\Gamma(a)} \, x^{a-1} \, \exp[-b x] \quad \text{for} \quad x > 0 \; .
 $$
 
 Consider the [gamma random variables](/D/gam)

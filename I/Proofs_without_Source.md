@@ -62,6 +62,7 @@ title: "Proofs without Source"
 - [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2)
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm)
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm2)
+- [Relation between normal distribution and standard normal distribution](/P/norm-snorm3)
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)

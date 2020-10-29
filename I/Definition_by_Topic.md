@@ -45,12 +45,14 @@ title: "Definition by Topic"
 - [Differential cross-entropy](/D/dent-cross)
 - [Differential entropy](/D/dent)
 - [Dirichlet distribution](/D/dir)
+- [Dirichlet-distributed data](/D/dir-data)
 - [Discrete uniform distribution](/D/duni)
 
 ### E
 
 - [Encompassing model](/D/encm)
 - [Estimation matrix](/D/emat)
+- [Exceedance probability](/D/prob-exc)
 - [Expected value](/D/mean)
 - [Explained sum of squares](/D/ess)
 - [Exponential distribution](/D/exp)
