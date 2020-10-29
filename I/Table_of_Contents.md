@@ -21,6 +21,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.2. *[Random vector](/D/rvec)* <br>
    &emsp;&ensp; 1.1.3. *[Random matrix](/D/rmat)* <br>
    &emsp;&ensp; 1.1.4. *[Constant](/D/const)* <br>
+   &emsp;&ensp; 1.1.5. *[Discrete vs. continuous](/D/rvar-disc)* <br>
    
    1.2. Probability <br>
    &emsp;&ensp; 1.2.1. *[Probability](/D/prob)* <br>
@@ -38,14 +39,17 @@ title: "Table of Contents"
    
    1.4. Probability functions <br>
    &emsp;&ensp; 1.4.1. *[Probability mass function](/D/pmf)* <br>
-   &emsp;&ensp; 1.4.2. *[Probability density function](/D/pdf)* <br>
-   &emsp;&ensp; 1.4.3. *[Cumulative distribution function](/D/cdf)* <br>
-   &emsp;&ensp; 1.4.4. *[Quantile function](/D/qf)* <br>
-   &emsp;&ensp; 1.4.5. *[Moment-generating function](/D/mgf)* <br>
-   &emsp;&ensp; 1.4.6. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
-   &emsp;&ensp; 1.4.7. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
-   &emsp;&ensp; 1.4.8. *[Cumulant-generating function](/D/cgf)* <br>
-   &emsp;&ensp; 1.4.9. *[Probability-generating function](/D/pgf)* <br>
+   &emsp;&ensp; 1.4.2. **[Probability mass function of strictly increasing function](/P/pmf-sifct)** <br>
+   &emsp;&ensp; 1.4.3. *[Probability density function](/D/pdf)* <br>
+   &emsp;&ensp; 1.4.4. **[Probability density function of strictly increasing function](/P/pdf-sifct)** <br>
+   &emsp;&ensp; 1.4.5. *[Cumulative distribution function](/D/cdf)* <br>
+   &emsp;&ensp; 1.4.6. **[Cumulative distribution function of strictly increasing function](/P/cdf-sifct)** <br>
+   &emsp;&ensp; 1.4.7. *[Quantile function](/D/qf)* <br>
+   &emsp;&ensp; 1.4.8. *[Moment-generating function](/D/mgf)* <br>
+   &emsp;&ensp; 1.4.9. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
+   &emsp;&ensp; 1.4.10. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
+   &emsp;&ensp; 1.4.11. *[Cumulant-generating function](/D/cgf)* <br>
+   &emsp;&ensp; 1.4.12. *[Probability-generating function](/D/pgf)* <br>
    
    1.5. Expected value <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mean)* <br>
