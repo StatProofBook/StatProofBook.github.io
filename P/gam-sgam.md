@@ -34,26 +34,53 @@ Y = b X \sim \mathrm{Gam}(a,1) \; .
 $$
 
 
-**Proof:** Rearranging to get $X$ in terms of $Y$, we have
+**Proof:** Note that $Y$ is a function of $X$
+
+$$ \label{eq:Y-X}
+Y = g(X) = b X
+$$
+
+with the inverse function
 
 $$ \label{eq:X-Y}
-X = \frac{1}{b} Y \; .
+X = g^{-1}(Y) = \frac{1}{b} Y \; .
+$$
+
+Because $b$ is positive, $g(X)$ is strictly increasing and we can calculate the [cumulative distribution function of a strictly increasing function](/P/cdf-sifct) as
+
+$$ \label{eq:cdf-sifct}
+F_Y(y) = \left\{
+\begin{array}{rl}
+0 \; , & \text{if} \; y < \mathrm{min}(\mathcal{Y}) \\
+F_X(g^{-1}(y)) \; , & \text{if} \; y \in \mathcal{Y} \\
+1 \; , & \text{if} \; y > \mathrm{max}(\mathcal{Y}) \; .
+\end{array}
+\right.
 $$
 
 The [cumulative distribution function of the gamma-distributed](/P/gam-cdf) $X$ is
 
 $$ \label{eq:gam-cdf}
-F_X(t) = \int_{-\infty}^{t} \frac{b^a}{\Gamma(a)} x^{a-1} \exp[-b x] \, \mathrm{d}x \; .
+F_X(x) = \int_{-\infty}^{x} \frac{b^a}{\Gamma(a)} t^{a-1} \exp[-b t] \, \mathrm{d}t \; .
 $$
 
-Substituting \eqref{eq:X-Y} into \eqref{eq:gam-cdf}, we obtain
+Applying \eqref{eq:cdf-sifct} to \eqref{eq:gam-cdf}, we have:
 
-$$ \label{eq:sgam-cdf}
+\begin{equation} \label{eq:Y-cdf-s1}
 \begin{split}
-F_Z(t) &= \int_{-\infty}^{t} \frac{b^a}{\Gamma(a)} \left(\frac{1}{b} y\right)^{a-1} \exp\left[-b \left(\frac{1}{b} y\right)\right] \, \mathrm{d}\left(\frac{1}{b} y\right) \\
-&= \int_{-\infty}^{t} \frac{b^a}{b} \left(\frac{1}{b}\right)^{a-1} \cdot \frac{1}{\Gamma(a)} y^{a-1} \exp[-y] \, \mathrm{d}y \\
-&= \int_{-\infty}^{t} \frac{1}{\Gamma(a)} y^{a-1} \exp[-y] \, \mathrm{d}y
+F_Y(y) &\overset{\eqref{eq:cdf-sifct}}{=} F_X(g^{-1}(y)) \\
+&\overset{\eqref{eq:gam-cdf}}{=} \int_{-\infty}^{y/b} \frac{b^a}{\Gamma(a)} t^{a-1} \exp[-b t] \, \mathrm{d}t \; .
 \end{split}
-$$
+\end{equation}
+
+Substituting $s = b t$, such that $t = s/b$, we obtain
+
+\begin{equation} \label{eq:Z-cdf-s2}
+\begin{split}
+F_Y(y) &= \int_{-b \infty}^{b (y/b)} \frac{b^a}{\Gamma(a)} \left(\frac{s}{b}\right)^{a-1} \exp\left[-b \left(\frac{s}{b}\right)\right] \, \mathrm{d}\left(\frac{s}{b}\right) \\
+&= \int_{-\infty}^{y} \frac{b^a}{\Gamma(a)} \, \frac{1}{b^{a-1} \, b} \, s^{a-1} \exp[-s] \, \mathrm{d}s \\
+&= \int_{-\infty}^{y} \frac{1}{\Gamma(a)} s^{a-1} \exp[-s] \, \mathrm{d}s
+\end{split}
+\end{equation}
 
 which is the [cumulative distribution function](/D/cdf) of the [standard gamma distribution](/D/sgam).
