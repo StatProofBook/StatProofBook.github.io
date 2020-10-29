@@ -46,6 +46,7 @@ title: "Definition by Topic"
 - [Differential entropy](/D/dent)
 - [Dirichlet distribution](/D/dir)
 - [Dirichlet-distributed data](/D/dir-data)
+- [Discrete and continuous random variable](/D/rvar-disc)
 - [Discrete uniform distribution](/D/duni)
 
 ### E

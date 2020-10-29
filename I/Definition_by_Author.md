@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (100 definitions)
+### JoramSoch (101 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -34,6 +34,7 @@ title: "Definition by Author"
 - [Differential entropy](/D/dent)
 - [Dirichlet distribution](/D/dir)
 - [Dirichlet-distributed data](/D/dir-data)
+- [Discrete and continuous random variable](/D/rvar-disc)
 - [Discrete uniform distribution](/D/duni)
 - [Estimation matrix](/D/emat)
 - [Exceedance probability](/D/prob-exc)

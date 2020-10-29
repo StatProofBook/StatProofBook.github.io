@@ -9,7 +9,6 @@ title: "Proofs without Source"
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
-- [Cumulative distribution function of the gamma distribution](/P/gam-cdf)
 - [Derivation of Bayesian model averaging](/P/bma-der)
 - [Derivation of the log Bayes factor](/P/lbf-der)
 - [Derivation of the log family evidence](/P/lfe-der)
