@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (173 proofs)
+### JoramSoch (176 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -25,6 +25,7 @@ title: "Proof by Author"
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Covariance of independent random variables](/P/cov-ind)
+- [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
@@ -127,6 +128,7 @@ title: "Proof by Author"
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
 - [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
+- [Probability density function of a strictly increasing function of a continuous random variable](/P/pdf-sifct)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
@@ -136,6 +138,7 @@ title: "Proof by Author"
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
 - [Probability density function of the normal-gamma distribution](/P/ng-pdf)
+- [Probability mass function of a strictly increasing function of a discrete random variable](/P/pmf-sifct)
 - [Probability mass function of the Bernoulli distribution](/P/bern-pmf)
 - [Probability mass function of the Poisson distribution](/P/poiss-pmf)
 - [Probability mass function of the binomial distribution](/P/bin-pmf)

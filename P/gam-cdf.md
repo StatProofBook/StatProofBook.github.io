@@ -14,6 +14,12 @@ topic: "Gamma distribution"
 theorem: "Cumulative distribution function"
 
 sources:
+  - authors: "Wikipedia"
+    year: 2020
+    title: "Incomplete gamma function"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2020-10-29"
+    url: "https://en.wikipedia.org/wiki/Incomplete_gamma_function#Definition"
 
 proof_id: "P178"
 shortcut: "gam-cdf"

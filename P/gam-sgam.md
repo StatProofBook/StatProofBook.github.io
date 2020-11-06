@@ -66,21 +66,21 @@ $$
 
 Applying \eqref{eq:cdf-sifct} to \eqref{eq:gam-cdf}, we have:
 
-\begin{equation} \label{eq:Y-cdf-s1}
+$$ \label{eq:Y-cdf-s1}
 \begin{split}
 F_Y(y) &\overset{\eqref{eq:cdf-sifct}}{=} F_X(g^{-1}(y)) \\
 &\overset{\eqref{eq:gam-cdf}}{=} \int_{-\infty}^{y/b} \frac{b^a}{\Gamma(a)} t^{a-1} \exp[-b t] \, \mathrm{d}t \; .
 \end{split}
-\end{equation}
+$$
 
 Substituting $s = b t$, such that $t = s/b$, we obtain
 
-\begin{equation} \label{eq:Z-cdf-s2}
+$$ \label{eq:Z-cdf-s2}
 \begin{split}
 F_Y(y) &= \int_{-b \infty}^{b (y/b)} \frac{b^a}{\Gamma(a)} \left(\frac{s}{b}\right)^{a-1} \exp\left[-b \left(\frac{s}{b}\right)\right] \, \mathrm{d}\left(\frac{s}{b}\right) \\
 &= \int_{-\infty}^{y} \frac{b^a}{\Gamma(a)} \, \frac{1}{b^{a-1} \, b} \, s^{a-1} \exp[-s] \, \mathrm{d}s \\
 &= \int_{-\infty}^{y} \frac{1}{\Gamma(a)} s^{a-1} \exp[-s] \, \mathrm{d}s
 \end{split}
-\end{equation}
+$$
 
 which is the [cumulative distribution function](/D/cdf) of the [standard gamma distribution](/D/sgam).

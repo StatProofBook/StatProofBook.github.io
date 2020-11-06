@@ -189,3 +189,6 @@ title: "Proof by Number"
 | P180 | norm-snorm3 | [Relation between normal distribution and standard normal distribution](/P/norm-snorm3) | JoramSoch | 2020-10-22 |
 | P181 | dir-ep | [Exceedance probabilities for the the Dirichlet distribution](/P/dir-ep) | JoramSoch | 2020-10-22 |
 | P182 | dir-mle | [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle) | JoramSoch | 2020-10-22 |
+| P183 | cdf-sifct | [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct) | JoramSoch | 2020-10-29 |
+| P184 | pmf-sifct | [Probability mass function of a strictly increasing function of a discrete random variable](/P/pmf-sifct) | JoramSoch | 2020-10-29 |
+| P185 | pdf-sifct | [Probability density function of a strictly increasing function of a continuous random variable](/P/pdf-sifct) | JoramSoch | 2020-10-29 |

@@ -73,12 +73,12 @@ $$
 
 2) If $y$ belongs to the support of $Y$, then $f_Y(y)$ can be derived using the chain rule:
 
-\begin{equation} \label{eq:pdf-sifct-p2}
+$$ \label{eq:pdf-sifct-p2}
 \begin{split}
 f_Y(y) &\overset{\eqref{eq:pdf-cdf}}{=} \frac{\mathrm{d}}{\mathrm{d}y} F_Y(y) \\
 &\overset{\eqref{eq:cdf-sifct}}{=} \frac{\mathrm{d}}{\mathrm{d}y} F_X(g^{-1}(y)) \\
 &= f_X(g^{-1}(y)) \, \frac{\mathrm{d}g^{-1}(y)}{\mathrm{d}y} \; .
 \end{split}
-\end{equation}
+$$
 
 Taking together \eqref{eq:pdf-sifct-p1} and \eqref{eq:pdf-sifct-p2}, eventually proves \eqref{eq:pdf-sifct}.
