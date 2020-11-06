@@ -112,3 +112,4 @@ title: "Definition by Number"
 | D103 | prob-exc | [Exceedance probability](/D/prob-exc) | JoramSoch | 2020-10-22 |
 | D104 | dir-data | [Dirichlet-distributed data](/D/dir-data) | JoramSoch | 2020-10-22 |
 | D105 | rvar-disc | [Discrete and continuous random variable](/D/rvar-disc) | JoramSoch | 2020-10-29 |
+| D106 | rvar-uni | [Univariate and multivariate random variable](/D/rvar-uni) | JoramSoch | 2020-11-06 |

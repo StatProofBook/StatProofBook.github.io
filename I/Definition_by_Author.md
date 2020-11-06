@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (101 definitions)
+### JoramSoch (102 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -105,6 +105,7 @@ title: "Definition by Author"
 - [Standardized moment](/D/mom-stand)
 - [Statistical independence](/D/ind)
 - [Total sum of squares](/D/tss)
+- [Univariate and multivariate random variable](/D/rvar-uni)
 - [Variance](/D/var)
 - [Wishart distribution](/D/wish)
 

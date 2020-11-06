@@ -158,6 +158,10 @@ title: "Definition by Topic"
 
 - [Total sum of squares](/D/tss)
 
+### U
+
+- [Univariate and multivariate random variable](/D/rvar-uni)
+
 ### V
 
 - [Variance](/D/var)
