@@ -29,8 +29,8 @@ username: "JoramSoch"
 
 **Definition:** Let $X$ be a [random variable](/D/rvar) with possible outcomes $\mathcal{X}$. Then,
 
-* $X$ is called a univariate random variable or [random scalar](/D/rvar), if $\mathcal{X}$ is one-dimensional, i.e. (a subset of) the set of real numbers $\mathbb{R}$;
+* $X$ is called a univariate random variable or [random scalar](/D/rvar), if $\mathcal{X}$ is one-dimensional, i.e. (a subset of) the real numbers $\mathbb{R}$;
 
-* $X$ is called a multivariate random variable or [random vector](/D/rvec), if $\mathcal{X}$ is multi-dimensional, e.g. (a subset of) the set of real vectors $\mathbb{R}^n$;
+* $X$ is called a multivariate random variable or [random vector](/D/rvec), if $\mathcal{X}$ is multi-dimensional, e.g. (a subset of) the $n$-dimensional Euclidean space $\mathbb{R}^n$;
 
-* $X$ is called a matrix-valued random variable or [random matrix](/D/rmat), if $\mathcal{X}$ is (a subset of) the set of real matrices $\mathbb{R}^{n \times p}$.
+* $X$ is called a matrix-valued random variable or [random matrix](/D/rmat), if $\mathcal{X}$ is (a subset of) the set of $n \times p$ real matrices $\mathbb{R}^{n \times p}$.
