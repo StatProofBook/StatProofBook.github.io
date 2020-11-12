@@ -113,3 +113,5 @@ title: "Definition by Number"
 | D104 | dir-data | [Dirichlet-distributed data](/D/dir-data) | JoramSoch | 2020-10-22 |
 | D105 | rvar-disc | [Discrete and continuous random variable](/D/rvar-disc) | JoramSoch | 2020-10-29 |
 | D106 | rvar-uni | [Univariate and multivariate random variable](/D/rvar-uni) | JoramSoch | 2020-11-06 |
+| D107 | min | [Minimum](/D/min) | JoramSoch | 2020-11-12 |
+| D108 | max | [Maximum](/D/max) | JoramSoch | 2020-11-12 |

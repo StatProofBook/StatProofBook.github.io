@@ -33,7 +33,7 @@ $$ \label{eq:exp-qf}
 Q_X(p) = \left\{
 \begin{array}{rl}
 -\infty \; , & \text{if} \; p = 0 \\
--\frac{\ln(1-p)}{\lambda} \; , & \text{if} \; p > 1 \; .
+-\frac{\ln(1-p)}{\lambda} \; , & \text{if} \; p > 0 \; .
 \end{array}
 \right.
 $$

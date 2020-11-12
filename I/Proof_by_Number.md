@@ -195,3 +195,7 @@ title: "Proof by Number"
 | P186 | cdf-sdfct | [Cumulative distribution function of a strictly decreasing function of a random variable](/P/cdf-sdfct) | JoramSoch | 2020-11-06 |
 | P187 | pmf-sdfct | [Probability mass function of a strictly decreasing function of a discrete random variable](/P/pmf-sdfct) | JoramSoch | 2020-11-06 |
 | P188 | pdf-sdfct | [Probability density function of a strictly decreasing function of a continuous random variable](/P/pdf-sdfct) | JoramSoch | 2020-11-06 |
+| P189 | cdf-pmf | [Cumulative distribution function in terms of probability mass function of a discrete random variable](/P/cdf-pmf) | JoramSoch | 2020-11-12 |
+| P190 | cdf-pdf | [Cumulative distribution function in terms of probability density function of a continuous random variable](/P/cdf-pdf) | JoramSoch | 2020-11-12 |
+| P191 | pdf-cdf | [Probability density function is first derivative of cumulative distribution function](/P/pdf-cdf) | JoramSoch | 2020-11-12 |
+| P192 | qf-cdf | [Quantile function is inverse of strictly monotonically increasing cumulative distribution function](/P/qf-cdf) | JoramSoch | 2020-11-12 |

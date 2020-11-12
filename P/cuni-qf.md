@@ -33,7 +33,7 @@ $$ \label{eq:cuni-qf}
 Q_X(p) = \left\{
 \begin{array}{rl}
 -\infty \; , & \text{if} \; p = 0 \\
-bp + a(1-p) \; , & \text{when} \; p \in \left\lbrace \frac{1}{n}, \frac{2}{n}, \ldots, \frac{b-a}{n}, 1 \right\rbrace \; .
+bp + a(1-p) \; , & \text{if} \; p > 0 \; .
 \end{array}
 \right.
 $$
