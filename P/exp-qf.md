@@ -30,7 +30,12 @@ $$
 Then, the [quantile function](/D/qf) of $X$ is
 
 $$ \label{eq:exp-qf}
-Q_X(p) = -\frac{\ln(1-p)}{\lambda} \; .
+Q_X(p) = \left\{
+\begin{array}{rl}
+-\infty \; , & \text{if} \; p = 0 \\
+-\frac{\ln(1-p)}{\lambda} \; , & \text{if} \; p > 1 \; .
+\end{array}
+\right.
 $$
 
 
@@ -45,7 +50,13 @@ F_X(x) = \left\{
 \right.
 $$
 
-Thus, the [quantile function](/D/qf) is:
+The quantile function $Q_X(p)$ [is defined as](/D/qf) the smallest $x$, such that $F_X(x) = p$:
+
+$$ \label{eq:qf}
+Q_X(p) = \min \left\lbrace x \in \mathbb{R} \, \vert \, F_X(x) = p \right\rbrace \; .
+$$
+
+Thus, we have $Q_X(p) = -\infty$, if $p = 0$. When $p > 0$, it holds that
 
 $$ \label{eq:exp-qf-s1}
 Q_X(p) = F_X^{-1}(x) \; .

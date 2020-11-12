@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a [continuous](/D/rvar-disc) [random variable](/D/rvar) with possible outcomes $\mathcal{X}$. Then, $f_X(x): \mathbb{R} \to \mathbb{R}$ is the probability density function of $X$, if
+**Definition:** Let $X$ be a [continuous](/D/rvar-disc) [random variable](/D/rvar) with possible outcomes $\mathcal{X}$. Then, $f_X(x): \mathbb{R} \to \mathbb{R}$ is the probability density function (PDF) of $X$, if
 
 $$ \label{eq:pdf-def-s0}
 f_X(x) \geq 0

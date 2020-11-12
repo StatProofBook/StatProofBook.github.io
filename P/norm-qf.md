@@ -48,7 +48,7 @@ $$ \label{eq:norm-cdf}
 F_X(x) = \frac{1}{2} \left[ 1 + \mathrm{erf}\left( \frac{x-\mu}{\sqrt{2} \sigma} \right) \right] \; .
 $$
 
-Thus, the [quantile function](/D/qf) is:
+Because the CDF is strictly monotonically increasing, the [quantile function is equal to the inverse of the CDF](/P/qf-cdf):
 
 $$ \label{eq:norm-qf-s1}
 Q_X(p) = F_X^{-1}(x) \; .

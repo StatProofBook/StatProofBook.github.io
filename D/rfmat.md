@@ -30,5 +30,5 @@ username: "JoramSoch"
 **Definition:** In [multiple linear regression](/D/mlr), the residual-forming matrix is the matrix $R$ that results in the vector of residuals left over by [estimated parameters](/D/emat) when right-multiplied with the measured data:
 
 $$ \label{eq:pm}
-Ry = \hat{\varepsilon} = y - \hat{y} \; .
+Ry = \hat{\varepsilon} = y - \hat{y} = y - X \hat{\beta} \; .
 $$
