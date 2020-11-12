@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-10-22 08:04:00
 
-title: "Exceedance probabilities for the the Dirichlet distribution"
+title: "Exceedance probabilities for the Dirichlet distribution"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
 topic: "Dirichlet distribution"
