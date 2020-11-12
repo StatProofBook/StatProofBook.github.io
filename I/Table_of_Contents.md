@@ -45,10 +45,14 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.4. *[Probability density function](/D/pdf)* <br>
    &emsp;&ensp; 1.4.5. **[Probability density function of strictly increasing function](/P/pdf-sifct)** <br>
    &emsp;&ensp; 1.4.6. **[Probability density function of strictly decreasing function](/P/pdf-sdfct)** <br>
-   &emsp;&ensp; 1.4.7. *[Cumulative distribution function](/D/cdf)* <br>
-   &emsp;&ensp; 1.4.8. **[Cumulative distribution function of strictly increasing function](/P/cdf-sifct)** <br>
-   &emsp;&ensp; 1.4.9. **[Cumulative distribution function of strictly decreasing function](/P/cdf-sdfct)** <br>
-   &emsp;&ensp; 1.4.10. *[Quantile function](/D/qf)* <br>
+   &emsp;&ensp; 1.4.7. **[Probability density function in terms of cumulative distribution function](/P/pdf-cdf)** <br>
+   &emsp;&ensp; 1.4.8. *[Cumulative distribution function](/D/cdf)* <br>
+   &emsp;&ensp; 1.4.9. **[Cumulative distribution function of strictly increasing function](/P/cdf-sifct)** <br>
+   &emsp;&ensp; 1.4.10. **[Cumulative distribution function of strictly decreasing function](/P/cdf-sdfct)** <br>
+   &emsp;&ensp; 1.4.11. **[Cumulative distribution function of discrete random variable](/P/cdf-pmf)** <br>
+   &emsp;&ensp; 1.4.12. **[Cumulative distribution function of continuous random variable](/P/cdf-pdf)** <br>
+   &emsp;&ensp; 1.4.13. *[Quantile function](/D/qf)* <br>
+   &emsp;&ensp; 1.4.14. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
    &emsp;&ensp; 1.4.11. *[Moment-generating function](/D/mgf)* <br>
    &emsp;&ensp; 1.4.12. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
    &emsp;&ensp; 1.4.13. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
