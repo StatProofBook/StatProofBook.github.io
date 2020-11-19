@@ -33,4 +33,4 @@ username: "JoramSoch"
 
 * formally, as a [measurable function](/D/meas-fct) $X$ defined on a [probability space](/D/prob-spc) $(\Omega, \mathcal{F}, P)$ that maps from a sample space $\Omega$ to the real numbers $\mathbb{R}$ using an event space $\mathcal{F}$ and a [probability function](/D/pmf) $P$;
 
-* more broadly, as any random quantity $X$ such as a [random scalar](/D/rvar), a [random vector](/D/rvec) or a [random matrix](/D/rmat).
+* more broadly, as any random quantity $X$ such as a [random event](/D/reve), a [random scalar](/D/rvar), a [random vector](/D/rvec) or a [random matrix](/D/rmat).

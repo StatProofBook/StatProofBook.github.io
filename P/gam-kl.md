@@ -26,12 +26,12 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be a [random variable](/D/rvar). Assume two [gamma distributions](/D/gam) $P$ and $Q$ specifying the probability distribution of $x$ as
+**Theorem:** Let $X$ be a [random variable](/D/rvar). Assume two [gamma distributions](/D/gam) $P$ and $Q$ specifying the probability distribution of $X$ as
 
 $$ \label{eq:gams}
 \begin{split}
-P: \; x &\sim \mathrm{Gam}(a_1, b_1) \\
-Q: \; x &\sim \mathrm{Gam}(a_2, b_2) \; . \\
+P: \; X &\sim \mathrm{Gam}(a_1, b_1) \\
+Q: \; X &\sim \mathrm{Gam}(a_2, b_2) \; . \\
 \end{split}
 $$
 

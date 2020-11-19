@@ -54,7 +54,7 @@ $$ \label{eq:beta-cdf-app}
 \begin{split}
 F_X(x) &= \int_{0}^{x} \mathrm{Bet}(z; \alpha, \beta) \, \mathrm{d}z \\
 &= \int_{0}^{x} \frac{1}{\mathrm{B}(\alpha, \beta)} \, z^{\alpha-1} \, (1-z)^{\beta-1} \, \mathrm{d}z \\
-&= \frac{1}{B(x;a,b)} \int_{0}^{x} z^{\alpha-1} \, (1-z)^{\beta-1} \, \mathrm{d}z \; .
+&= \frac{1}{\mathrm{B}(\alpha, \beta)} \int_{0}^{x} z^{\alpha-1} \, (1-z)^{\beta-1} \, \mathrm{d}z \; .
 \end{split}
 $$
 
