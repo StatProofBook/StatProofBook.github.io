@@ -28,7 +28,7 @@ F_X(x) = \sum_{\overset{t \in \mathcal{X}}{t \leq x}} f_X(t) \; .
 $$
 
 
-**Proof:** The [cumulative distribution function](/D/cdf) of a [random variable](/D/rvar) $X$ is defined as the probability that $X$ is smaller than $X$:
+**Proof:** The [cumulative distribution function](/D/cdf) of a [random variable](/D/rvar) $X$ is defined as the probability that $X$ is smaller than $x$:
 
 $$ \label{eq:cdf}
 F_X(x) = \mathrm{Pr}(X \leq x) \; .

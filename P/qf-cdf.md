@@ -40,7 +40,7 @@ $$ \label{eq:qf}
 Q_X(p) = \min \left\lbrace x \in \mathbb{R} \, \vert \, F_X(x) = p \right\rbrace \; .
 $$
 
-If $F_X(x)$ is continuous and strictly monotonically increasing, then there is only $x$ for which $F_X(x) = p$ and $F_X(x)$ is an invertible function, such that
+If $F_X(x)$ is continuous and strictly monotonically increasing, then there is exactly one $x$ for which $F_X(x) = p$ and $F_X(x)$ is an invertible function, such that
 
 $$ \label{eq:qf-cdf-qed}
 Q_X(p) = F_X^{-1}(x) \; .

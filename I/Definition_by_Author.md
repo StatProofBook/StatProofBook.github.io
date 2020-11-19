@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (102 definitions)
+### JoramSoch (104 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -63,9 +63,11 @@ title: "Definition by Author"
 - [Marginal likelihood](/D/ml)
 - [Marginal probability distribution](/D/dist-marg)
 - [Matrix-normal distribution](/D/matn)
+- [Maximum](/D/max)
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
 - [Median](/D/med)
+- [Minimum](/D/min)
 - [Mode](/D/mode)
 - [Moment](/D/mom)
 - [Moment-generating function](/D/mgf)

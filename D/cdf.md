@@ -34,19 +34,15 @@ F_X(x) = \mathrm{Pr}(X \leq x) \; .
 $$
 
 <br>
-1) Let $X$ be a discrete [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and the [probability mass function](/D/pmf) $f_X(x)$. Then, the function $F_X(x): \mathbb{R} \to [0,1]$ with
+1) If $X$ is a [discrete](/D/rvar-disc) [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and the [probability mass function](/D/pmf) $f_X(x)$, then [the cumulative distribution function is the function](/P/cdf-pmf) $F_X(x): \mathbb{R} \to [0,1]$ with
 
 $$ \label{eq:cdf-disc}
-F_X(x) = \sum_{\overset{z \in \mathcal{X}}{z \leq x}} f_X(z)
+F_X(x) = \sum_{\overset{t \in \mathcal{X}}{t \leq x}} f_X(t) \; .
 $$
-
-is the cumulative distribution function of $X$.
 
 <br>
-2) Let $X$ be a scalar continuous [random variable](/D/rvar) with the [probability density function](/D/pdf) $f_X(x)$. Then, the function $F_X(x): \mathbb{R} \to [0,1]$ with
+2) If $X$ is a [continuous](/D/rvar-disc) [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and the [probability density function](/D/pdf) $f_X(x)$, then [the cumulative distribution function is the function](/P/cdf-pdf) $F_X(x): \mathbb{R} \to [0,1]$ with
 
 $$ \label{eq:cdf-cont}
-F_X(x) = \int_{-\infty}^{x} f_X(z) \, \mathrm{d}z
+F_X(x) = \int_{-\infty}^{x} f_X(t) \, \mathrm{d}t \; .
 $$
-
-is the cumulative distribution function of $X$.

@@ -104,16 +104,20 @@ title: "Table of Contents"
    &emsp;&ensp; 1.10.1. *[Standard deviation](/D/std)* <br>
    &emsp;&ensp; 1.10.2. *[Full width at half maximum](/D/fwhm)* <br>
    
-   1.11. Further moments <br>
-   &emsp;&ensp; 1.11.1. *[Moment](/D/mom)* <br>
-   &emsp;&ensp; 1.11.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-   &emsp;&ensp; 1.11.3. *[Raw moment](/D/mom-raw)* <br>
-   &emsp;&ensp; 1.11.4. **[First raw moment is mean](/P/momraw-1st)** <br>
-   &emsp;&ensp; 1.11.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
-   &emsp;&ensp; 1.11.6. *[Central moment](/D/mom-cent)* <br>
-   &emsp;&ensp; 1.11.7. **[First central moment is zero](/P/momcent-1st)** <br>
-   &emsp;&ensp; 1.11.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
-   &emsp;&ensp; 1.11.9. *[Standardized moment](/D/mom-stand)* <br>
+   1.11. Further summary statistics <br>
+   &emsp;&ensp; 1.11.1. *[Minimum](/D/min)* <br>
+   &emsp;&ensp; 1.11.2. *[Maximum](/D/max)* <br>
+   
+   1.12. Further moments <br>
+   &emsp;&ensp; 1.12.1. *[Moment](/D/mom)* <br>
+   &emsp;&ensp; 1.12.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+   &emsp;&ensp; 1.12.3. *[Raw moment](/D/mom-raw)* <br>
+   &emsp;&ensp; 1.12.4. **[First raw moment is mean](/P/momraw-1st)** <br>
+   &emsp;&ensp; 1.12.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
+   &emsp;&ensp; 1.12.6. *[Central moment](/D/mom-cent)* <br>
+   &emsp;&ensp; 1.12.7. **[First central moment is zero](/P/momcent-1st)** <br>
+   &emsp;&ensp; 1.12.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
+   &emsp;&ensp; 1.12.9. *[Standardized moment](/D/mom-stand)* <br>
 
 2. Information theory
    

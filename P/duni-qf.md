@@ -30,7 +30,12 @@ $$
 Then, the [quantile function](/D/qf) of $X$ is
 
 $$ \label{eq:duni-qf}
-Q_X(p) = a (1-p) + (b+1) p - 1 \quad \text{where} \quad p \in \left\lbrace \frac{1}{n}, \frac{2}{n}, \ldots, \frac{b-a}{n}, 1 \right\rbrace
+Q_X(p) = \left\{
+\begin{array}{rl}
+-\infty \; , & \text{if} \; p = 0 \\
+a (1-p) + (b+1) p - 1 \; , & \text{when} \; p \in \left\lbrace \frac{1}{n}, \frac{2}{n}, \ldots, \frac{b-a}{n}, 1 \right\rbrace \; .
+\end{array}
+\right.
 $$
 
 with $n = b - a + 1$.
@@ -48,7 +53,13 @@ F_X(x) = \left\{
 \right.
 $$
 
-Because [the CDF only returns](/P/duni-cdf) multiples of $1/n$ with $n = b - a + 1$, the [quantile function](/D/qf) is only defined for such values. Since [the cumulative probability increases step-wise](/P/duni-cdf) by $1/n$ at each integer between and including $a$ and $b$, the minimum $x$ at which
+The quantile function $Q_X(p)$ [is defined as](/D/qf) the smallest $x$, such that $F_X(x) = p$:
+
+$$ \label{eq:qf}
+Q_X(p) = \min \left\lbrace x \in \mathbb{R} \, \vert \, F_X(x) = p \right\rbrace \; .
+$$
+
+Because [the CDF only returns](/P/duni-cdf) multiples of $1/n$ with $n = b - a + 1$, the [quantile function](/D/qf) is only defined for such values. First, we have $Q_X(p) = -\infty$, if $p = 0$. Second, since [the cumulative probability increases step-wise](/P/duni-cdf) by $1/n$ at each integer between and including $a$ and $b$, the minimum $x$ at which
 
 $$ \label{eq:duni-cdf-p}
 F_X(x) = \frac{c}{n} \quad \text{where} \quad c \in \left\lbrace 1, \ldots, n \right\rbrace

@@ -27,14 +27,8 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a [random variable](/D/rvar) with the [cumulative distribution function](/D/cdf) (CDF) $F_X(x)$. Then, the function $Q_X(p): [0,1] \to \mathbb{R}$ which is the inverse CDF
+**Definition:** Let $X$ be a [random variable](/D/rvar) with the [cumulative distribution function](/D/cdf) (CDF) $F_X(x)$. Then, the function $Q_X(p): [0,1] \to \mathbb{R}$ which is the inverse CDF is the quantile function (QF) of $X$. More precisly, the QF is the function that, for a given quantile $p \in [0,1]$, returns the smallest $x$ for which $F_X(x) = p$:
 
 $$ \label{eq:qf}
-Q_X(p) = F_X^{-1}(x)
-$$
-
-is the quantile function (QF) of $X$. More precisly, the QF is the function that, for a given quantile $p \in [0,1]$, returns the smallest $x$ for which $F_X(x) = p$:
-
-$$ \label{eq:qf-prec}
 Q_X(p) = \min \left\lbrace x \in \mathbb{R} \, \vert \, F_X(x) = p \right\rbrace \; .
 $$

@@ -35,6 +35,8 @@ title: "Proof by Topic"
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Covariance of independent random variables](/P/cov-ind)
+- [Cumulative distribution function in terms of probability density function of a continuous random variable](/P/cdf-pdf)
+- [Cumulative distribution function in terms of probability mass function of a discrete random variable](/P/cdf-pmf)
 - [Cumulative distribution function of a strictly decreasing function of a random variable](/P/cdf-sdfct)
 - [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
@@ -179,6 +181,7 @@ title: "Proof by Topic"
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
 - [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
+- [Probability density function is first derivative of cumulative distribution function](/P/pdf-cdf)
 - [Probability density function of a strictly decreasing function of a continuous random variable](/P/pdf-sdfct)
 - [Probability density function of a strictly increasing function of a continuous random variable](/P/pdf-sifct)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
@@ -204,6 +207,7 @@ title: "Proof by Topic"
 
 ### Q
 
+- [Quantile function is inverse of strictly monotonically increasing cumulative distribution function](/P/qf-cdf)
 - [Quantile function of the continuous uniform distribution](/P/cuni-qf)
 - [Quantile function of the discrete uniform distribution](/P/duni-qf)
 - [Quantile function of the exponential distribution](/P/exp-qf)
