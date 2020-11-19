@@ -17,12 +17,14 @@ title: "Table of Contents"
 1. Probability theory
    
    1.1. Random variables <br>
-   &emsp;&ensp; 1.1.1. *[Random variable](/D/rvar)* <br>
-   &emsp;&ensp; 1.1.2. *[Random vector](/D/rvec)* <br>
-   &emsp;&ensp; 1.1.3. *[Random matrix](/D/rmat)* <br>
-   &emsp;&ensp; 1.1.4. *[Constant](/D/const)* <br>
-   &emsp;&ensp; 1.1.5. *[Discrete vs. continuous](/D/rvar-disc)* <br>
-   &emsp;&ensp; 1.1.6. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
+   &emsp;&ensp; 1.1.1. *[Random experiment](/D/rexp)* <br>
+   &emsp;&ensp; 1.1.2. *[Random event](/D/reve)* <br>
+   &emsp;&ensp; 1.1.3. *[Random variable](/D/rvar)* <br>
+   &emsp;&ensp; 1.1.4. *[Random vector](/D/rvec)* <br>
+   &emsp;&ensp; 1.1.5. *[Random matrix](/D/rmat)* <br>
+   &emsp;&ensp; 1.1.6. *[Constant](/D/const)* <br>
+   &emsp;&ensp; 1.1.7. *[Discrete vs. continuous](/D/rvar-disc)* <br>
+   &emsp;&ensp; 1.1.8. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
    
    1.2. Probability <br>
    &emsp;&ensp; 1.2.1. *[Probability](/D/prob)* <br>
@@ -31,6 +33,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.4. *[Conditional probability](/D/prob-cond)* <br>
    &emsp;&ensp; 1.2.5. *[Exceedance probability](/D/prob-exc)* <br>
    &emsp;&ensp; 1.2.6. *[Statistical independence](/D/ind)* <br>
+   &emsp;&ensp; 1.2.7. *[Conditional independence](/D/ind-cond)* <br>
    
    1.3. Probability distributions <br>
    &emsp;&ensp; 1.3.1. *[Probability distribution](/D/dist)* <br>
@@ -265,6 +268,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.14. **[Variance](/P/norm-var)** <br>
    &emsp;&ensp; 3.2.15. **[Full width at half maximum](/P/norm-fwhm)** <br>
    &emsp;&ensp; 3.2.16. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.17. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
 
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
@@ -273,11 +277,12 @@ title: "Table of Contents"
    &emsp;&ensp; 3.3.4. **[Relation to standard gamma distribution](/P/gam-sgam2)** (2) <br>
    &emsp;&ensp; 3.3.5. **[Probability density function](/P/gam-pdf)** <br>
    &emsp;&ensp; 3.3.6. **[Cumulative distribution function](/P/gam-cdf)** <br>
-   &emsp;&ensp; 3.3.7. **[Mean](/P/gam-mean)** <br>
-   &emsp;&ensp; 3.3.8. **[Variance](/P/gam-var)** <br>
-   &emsp;&ensp; 3.3.9. **[Logarithmic expectation](/P/gam-logmean)** <br>
-   &emsp;&ensp; 3.3.10. **[Expectation of x ln x](/P/gam-xlogx)** <br>
-   &emsp;&ensp; 3.3.11. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.3.7. **[Quantile function](/P/gam-qf)** <br>
+   &emsp;&ensp; 3.3.8. **[Mean](/P/gam-mean)** <br>
+   &emsp;&ensp; 3.3.9. **[Variance](/P/gam-var)** <br>
+   &emsp;&ensp; 3.3.10. **[Logarithmic expectation](/P/gam-logmean)** <br>
+   &emsp;&ensp; 3.3.11. **[Expectation of x ln x](/P/gam-xlogx)** <br>
+   &emsp;&ensp; 3.3.12. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
    3.4. Exponential distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/exp)* <br>
@@ -297,6 +302,7 @@ title: "Table of Contents"
    3.6. Beta distribution <br>
    &emsp;&ensp; 3.6.1. *[Definition](/D/beta)* <br>
    &emsp;&ensp; 3.6.2. **[Probability density function](/P/beta-pdf)** <br>
+   &emsp;&ensp; 3.6.3. **[Cumulative distribution function](/P/beta-cdf)** <br>
    
    3.7. Wald distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/wald)* <br>
@@ -466,6 +472,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.1. *[Definition](/D/lme)* <br>
    &emsp;&ensp; 3.1.2. **[Derivation](/P/lme-der)** <br>
    &emsp;&ensp; 3.1.3. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
+   &emsp;&ensp; 3.1.4. *[Cross-validated log model evidence](/D/cvlme)* <br>
    
    3.2. Log family evidence <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/lfe)* <br>
