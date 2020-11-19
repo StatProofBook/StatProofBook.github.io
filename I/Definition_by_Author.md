@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (104 definitions)
+### JoramSoch (108 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -19,6 +19,7 @@ title: "Definition by Author"
 - [Coefficient of determination](/D/rsq)
 - [Conditional differential entropy](/D/dent-cond)
 - [Conditional entropy](/D/ent-cond)
+- [Conditional independence](/D/ind-cond)
 - [Conditional probability distribution](/D/dist-cond)
 - [Constant](/D/const)
 - [Continuous uniform distribution](/D/cuni)
@@ -27,6 +28,7 @@ title: "Definition by Author"
 - [Covariance](/D/cov)
 - [Covariance matrix](/D/covmat)
 - [Cross-entropy](/D/ent-cross)
+- [Cross-validated log model evidence](/D/cvlme)
 - [Cumulant-generating function](/D/cgf)
 - [Cumulative distribution function](/D/cdf)
 - [Deviance information criterion](/D/dic)
@@ -93,6 +95,8 @@ title: "Definition by Author"
 - [Probability-generating function](/D/pgf)
 - [Projection matrix](/D/pmat)
 - [Quantile function](/D/qf)
+- [Random event](/D/reve)
+- [Random experiment](/D/rexp)
 - [Random matrix](/D/rmat)
 - [Random variable](/D/rvar)
 - [Random vector](/D/rvec)

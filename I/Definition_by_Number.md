@@ -115,3 +115,7 @@ title: "Definition by Number"
 | D106 | rvar-uni | [Univariate and multivariate random variable](/D/rvar-uni) | JoramSoch | 2020-11-06 |
 | D107 | min | [Minimum](/D/min) | JoramSoch | 2020-11-12 |
 | D108 | max | [Maximum](/D/max) | JoramSoch | 2020-11-12 |
+| D109 | rexp | [Random experiment](/D/rexp) | JoramSoch | 2020-11-19 |
+| D110 | reve | [Random event](/D/reve) | JoramSoch | 2020-11-19 |
+| D111 | cvlme | [Cross-validated log model evidence](/D/cvlme) | JoramSoch | 2020-11-19 |
+| D112 | ind-cond | [Conditional independence](/D/ind-cond) | JoramSoch | 2020-11-19 |
