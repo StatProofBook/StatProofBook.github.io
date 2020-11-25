@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (186 proofs)
+### JoramSoch (189 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -55,6 +55,7 @@ title: "Proof by Author"
 - [First central moment is zero](/P/momcent-1st)
 - [First raw moment is mean](/P/momraw-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
+- [Gaussian integral](/P/norm-gi)
 - [Gibbs' inequality](/P/gibbs-ineq)
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
@@ -104,6 +105,7 @@ title: "Proof by Author"
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)
 - [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
+- [Moment-generating function of the beta distribution](/P/beta-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Monotonicity of the expected value](/P/mean-mono)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
@@ -138,6 +140,7 @@ title: "Proof by Author"
 - [Probability density function of a strictly increasing function of a continuous random variable](/P/pdf-sifct)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
+- [Probability density function of the chi-square distribution](/P/chi2-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)
 - [Probability density function of the gamma distribution](/P/gam-pdf)

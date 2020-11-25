@@ -119,3 +119,6 @@ title: "Definition by Number"
 | D110 | reve | [Random event](/D/reve) | JoramSoch | 2020-11-19 |
 | D111 | cvlme | [Cross-validated log model evidence](/D/cvlme) | JoramSoch | 2020-11-19 |
 | D112 | ind-cond | [Conditional independence](/D/ind-cond) | JoramSoch | 2020-11-19 |
+| D113 | uplme | [Uniform-prior log model evidence](/D/uplme) | JoramSoch | 2020-11-25 |
+| D114 | eblme | [Empirical Bayesian log model evidence](/D/eblme) | JoramSoch | 2020-11-25 |
+| D115 | vblme | [Variational Bayesian log model evidence](/D/vblme) | JoramSoch | 2020-11-25 |

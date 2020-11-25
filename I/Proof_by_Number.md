@@ -202,3 +202,6 @@ title: "Proof by Number"
 | P193 | norm-kl | [Kullback-Leibler divergence for the normal distribution](/P/norm-kl) | JoramSoch | 2020-11-19 |
 | P194 | gam-qf | [Quantile function of the gamma distribution](/P/gam-qf) | JoramSoch | 2020-11-19 |
 | P195 | beta-cdf | [Cumulative distribution function of the beta distribution](/P/beta-cdf) | JoramSoch | 2020-11-19 |
+| P196 | norm-gi | [Gaussian integral](/P/norm-gi) | JoramSoch | 2020-11-25 |
+| P197 | chi2-pdf | [Probability density function of the chi-square distribution](/P/chi2-pdf) | JoramSoch | 2020-11-25 |
+| P198 | beta-mgf | [Moment-generating function of the beta distribution](/P/beta-mgf) | JoramSoch | 2020-11-25 |
