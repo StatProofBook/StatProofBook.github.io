@@ -257,18 +257,19 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.3. **[Relation to standard normal distribution](/P/norm-snorm)** (1) <br>
    &emsp;&ensp; 3.2.4. **[Relation to standard normal distribution](/P/norm-snorm2)** (2) <br>
    &emsp;&ensp; 3.2.5. **[Relation to standard normal distribution](/P/norm-snorm3)** (3) <br>
-   &emsp;&ensp; 3.2.6. **[Probability density function](/P/norm-pdf)** <br>
-   &emsp;&ensp; 3.2.7. **[Moment-generating function](/P/norm-mgf)** <br>
-   &emsp;&ensp; 3.2.8. **[Cumulative distribution function](/P/norm-cdf)** <br>
-   &emsp;&ensp; 3.2.9. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.10. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.11. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.12. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.13. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.14. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.15. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.16. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.17. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
+   &emsp;&ensp; 3.2.6. **[Gaussian integral](/P/norm-gi)** <br>
+   &emsp;&ensp; 3.2.7. **[Probability density function](/P/norm-pdf)** <br>
+   &emsp;&ensp; 3.2.8. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.9. **[Cumulative distribution function](/P/norm-cdf)** <br>
+   &emsp;&ensp; 3.2.10. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
+   &emsp;&ensp; 3.2.11. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.12. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.13. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.14. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.15. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.16. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.17. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.18. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
 
    3.3. Gamma distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
@@ -297,12 +298,14 @@ title: "Table of Contents"
    3.5. Chi-square distribution <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/chi2)* <br>
    &emsp;&ensp; 3.5.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
-   &emsp;&ensp; 3.5.3. **[Moments](/P/chi2-mom)** <br>
+   &emsp;&ensp; 3.5.3. **[Probability density function](/P/chi2-pdf)** <br>
+   &emsp;&ensp; 3.5.4. **[Moments](/P/chi2-mom)** <br>
    
    3.6. Beta distribution <br>
    &emsp;&ensp; 3.6.1. *[Definition](/D/beta)* <br>
    &emsp;&ensp; 3.6.2. **[Probability density function](/P/beta-pdf)** <br>
-   &emsp;&ensp; 3.6.3. **[Cumulative distribution function](/P/beta-cdf)** <br>
+   &emsp;&ensp; 3.6.3. **[Moment-generating function](/P/beta-mgf)** <br>
+   &emsp;&ensp; 3.6.4. **[Cumulative distribution function](/P/beta-cdf)** <br>
    
    3.7. Wald distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/wald)* <br>
@@ -472,7 +475,10 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.1. *[Definition](/D/lme)* <br>
    &emsp;&ensp; 3.1.2. **[Derivation](/P/lme-der)** <br>
    &emsp;&ensp; 3.1.3. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
-   &emsp;&ensp; 3.1.4. *[Cross-validated log model evidence](/D/cvlme)* <br>
+   &emsp;&ensp; 3.1.4. *[Uniform-prior log model evidence](/D/uplme)* <br>
+   &emsp;&ensp; 3.1.5. *[Cross-validated log model evidence](/D/cvlme)* <br>
+   &emsp;&ensp; 3.1.6. *[Empirical Bayesian log model evidence](/D/eblme)* <br>
+   &emsp;&ensp; 3.1.7. *[Variational Bayesian log model evidence](/D/vblme)* <br>
    
    3.2. Log family evidence <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/lfe)* <br>
