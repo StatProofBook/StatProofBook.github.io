@@ -16,6 +16,12 @@ theorem: "Cumulative distribution function"
 sources:
   - authors: "Wikipedia"
     year: 2020
+    title: "Beta distribution"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2020-11-19"
+    url: "https://en.wikipedia.org/wiki/Beta_distribution#Cumulative_distribution_function"
+  - authors: "Wikipedia"
+    year: 2020
     title: "Beta function"
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-11-19"

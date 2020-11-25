@@ -48,7 +48,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let there be a [data set](/D/data) $y$ with mutually exclusive and collectively exhaustive subsets $y_1, \ldots, y_S$. Assume a [generative model](/D/gm) $m$ with model parameters $\theta$ implying a [likelihood function](/D/lf) $p(y \vert \theta, m)$ and a [non-informative](/D/prior-inf) [prior density](/D/prior) $p(\theta \vert m)$.
+**Definition:** Let there be a [data set](/D/data) $y$ with mutually exclusive and collectively exhaustive subsets $y_1, \ldots, y_S$. Assume a [generative model](/D/gm) $m$ with model parameters $\theta$ implying a [likelihood function](/D/lf) $p(y \vert \theta, m)$ and a [non-informative](/D/prior-inf) [prior density](/D/prior) $p_{\mathrm{ni}}(\theta \vert m)$.
 
 Then, the cross-validated log model evidence of $m$ is given by
 
@@ -56,8 +56,8 @@ $$ \label{eq:cvLME}
 \mathrm{cvLME}(m) = \sum_{i=1}^{S} \log \int p( y_i \vert \theta, m ) \, p( \theta \vert y_{\neg i}, m ) \, \mathrm{d}\theta
 $$
 
-where $y_{\neg i} = \bigcup_{j \neq i} y_j$ is the union of all data subsets except $y_i$ and $p( \theta \vert y_{\neg i}, m )$ is the [posterior distribution](/D/post) obtained from $y_{\neg i}$ when using the [prior distribution](/D/prior) $p(\theta \vert m)$:
+where $y_{\neg i} = \bigcup_{j \neq i} y_j$ is the union of all data subsets except $y_i$ and $p( \theta \vert y_{\neg i}, m )$ is the [posterior distribution](/D/post) obtained from $y_{\neg i}$ when using the [prior distribution](/D/prior) $p_{\mathrm{ni}}(\theta \vert m)$:
 
 $$ \label{eq:post}
-p( \theta \vert y_{\neg i}, m ) = \frac{p( y_{\neg i} \vert \theta, m ) \, p(\theta \vert m)}{p( y_{\neg i} \vert m )} \; .
+p( \theta \vert y_{\neg i}, m ) = \frac{p( y_{\neg i} \vert \theta, m ) \, p_{\mathrm{ni}}(\theta \vert m)}{p( y_{\neg i} \vert m )} \; .
 $$
