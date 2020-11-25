@@ -57,7 +57,7 @@ $$ \label{eq:qf}
 Q_X(p) = \min \left\lbrace x \in \mathbb{R} \, \vert \, F_X(x) = p \right\rbrace \; .
 $$
 
-Thus, we have $Q_X(p) = -\infty$, if $p = 0$. When $p > 0$, it holds that
+Thus, we have $Q_X(p) = -\infty$, if $p = 0$. When $p > 0$, [it holds that](/P/qf-cdf)
 
 $$ \label{eq:exp-qf-s1}
 Q_X(p) = F_X^{-1}(x) \; .

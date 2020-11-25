@@ -41,10 +41,10 @@ $$ \label{eq:LME}
 \mathrm{LME}(m) = \mathrm{Acc}(m) - \mathrm{Com}(m)
 $$
 
-where the accuracy term is the posterior expectation of the log-[likelihood function](/D/lf)
+where the accuracy term is the [posterior](/D/post) [expectation](/D/mean-lotus) of the [log-likelihood function](/D/llf)
 
 $$ \label{eq:Acc}
-\mathrm{Acc}(m) = \left\langle p(y|\theta,m) \right\rangle_{p(\theta|y,m)}
+\mathrm{Acc}(m) = \left\langle \log p(y|\theta,m) \right\rangle_{p(\theta|y,m)}
 $$
 
 and the complexity penalty is the [Kullback-Leibler divergence](/D/kl) of [posterior](/D/post) from [prior](/D/prior)
@@ -54,7 +54,7 @@ $$ \label{eq:Com}
 $$
 
 
-**Proof:** We consider Bayesian inference on data $y$ using model $m$ with parameters $\theta$. Then, [Bayes' theorem](/P/bayes-th) makes a statement about the posterior distribution, i.e. the probability of parameters, given the data and the model:
+**Proof:** We consider Bayesian inference on [data](/D/data) $y$ using [model](/D/gm) $m$ with parameters $\theta$. Then, [Bayes' theorem](/P/bayes-th) makes a statement about the [posterior distribution](/D/post), i.e. the probability of parameters, given the data and the model:
 
 $$ \label{eq:AnC-s1}
 p(\theta|y,m) = \frac{p(y|\theta,m) \, p(\theta|m)}{p(y|m)} \; .
@@ -81,7 +81,7 @@ $$
 By definition, the left-hand side is the log model evidence and the terms on the right-hand side correspond to the posterior expectation of the log-likelihood function and the Kullback-Leibler divergence of posterior from prior
 
 $$ \label{eq:LME-AnC}
-\mathrm{LME}(m) = \left\langle p(y|\theta,m) \right\rangle_{p(\theta|y,m)} - \mathrm{KL} \left[ p(\theta|y,m) \, || \, p(\theta|m) \right]
+\mathrm{LME}(m) = \left\langle \log p(y|\theta,m) \right\rangle_{p(\theta|y,m)} - \mathrm{KL} \left[ p(\theta|y,m) \, || \, p(\theta|m) \right]
 $$
 
 which proofs the partition given by \eqref{eq:LME}.

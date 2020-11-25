@@ -39,7 +39,7 @@ $$
 where $p(x_1, \ldots, x_n \vert y)$ are the [joint (conditional) probabilities](/D/prob-joint) of $X_1, \ldots, X_n$ given $Y$ and $p(x_i)$ are the [marginal (conditional) probabilities](/D/prob-marg) of $X_i$ given $Y$.
 
 <br>
-2) A set of [random variables](/D/rvar) $X_1, \ldots, X_n$ with possible values $\mathcal{X}_1, \ldots, \mathcal{X}_n$ is called conditionally independent given the random variable $Y$ with possible values $\mathcal{Y}$, if
+2) A set of [continuous random variables](/D/rvar-disc) $X_1, \ldots, X_n$ with possible values $\mathcal{X}_1, \ldots, \mathcal{X}_n$ is called conditionally independent given the random variable $Y$ with possible values $\mathcal{Y}$, if
 
 $$ \label{eq:cond-ind-F}
 F_{X_1,\ldots,X_n|Y=y}(x_1,\ldots,x_n) = \prod_{i=1}^{n} F_{X_i|Y=y}(x_i) \quad \text{for all} \; x_i \in \mathcal{X}_i \quad \text{and all} \; y \in \mathcal{Y}

@@ -70,7 +70,7 @@ $$
 
 With the definition of the lower incomplete gamma function
 
-$$ \label{eq:li-gam-fct}
+$$ \label{eq:low-inc-gam-fct}
 \gamma(s,x) = \int_{0}^{x} t^{s-1} \exp[-t] \, \mathrm{d}t \; ,
 $$
 

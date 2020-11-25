@@ -199,3 +199,6 @@ title: "Proof by Number"
 | P190 | cdf-pdf | [Cumulative distribution function in terms of probability density function of a continuous random variable](/P/cdf-pdf) | JoramSoch | 2020-11-12 |
 | P191 | pdf-cdf | [Probability density function is first derivative of cumulative distribution function](/P/pdf-cdf) | JoramSoch | 2020-11-12 |
 | P192 | qf-cdf | [Quantile function is inverse of strictly monotonically increasing cumulative distribution function](/P/qf-cdf) | JoramSoch | 2020-11-12 |
+| P193 | norm-kl | [Kullback-Leibler divergence for the normal distribution](/P/norm-kl) | JoramSoch | 2020-11-19 |
+| P194 | gam-qf | [Quantile function of the gamma distribution](/P/gam-qf) | JoramSoch | 2020-11-19 |
+| P195 | beta-cdf | [Cumulative distribution function of the beta distribution](/P/beta-cdf) | JoramSoch | 2020-11-19 |

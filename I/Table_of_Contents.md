@@ -56,11 +56,11 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.12. **[Cumulative distribution function of continuous random variable](/P/cdf-pdf)** <br>
    &emsp;&ensp; 1.4.13. *[Quantile function](/D/qf)* <br>
    &emsp;&ensp; 1.4.14. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
-   &emsp;&ensp; 1.4.11. *[Moment-generating function](/D/mgf)* <br>
-   &emsp;&ensp; 1.4.12. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
-   &emsp;&ensp; 1.4.13. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
-   &emsp;&ensp; 1.4.14. *[Cumulant-generating function](/D/cgf)* <br>
-   &emsp;&ensp; 1.4.15. *[Probability-generating function](/D/pgf)* <br>
+   &emsp;&ensp; 1.4.15. *[Moment-generating function](/D/mgf)* <br>
+   &emsp;&ensp; 1.4.16. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
+   &emsp;&ensp; 1.4.17. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
+   &emsp;&ensp; 1.4.18. *[Cumulant-generating function](/D/cgf)* <br>
+   &emsp;&ensp; 1.4.19. *[Probability-generating function](/D/pgf)* <br>
    
    1.5. Expected value <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mean)* <br>
@@ -479,17 +479,17 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.2. **[Derivation](/P/lfe-der)** <br>
    &emsp;&ensp; 3.2.3. **[Calculation from log model evidences](/P/lfe-lme)** <br>
    
-   3.3. Bayes factor <br>
-   &emsp;&ensp; 3.3.1. *[Definition](/D/bf)* <br>
-   &emsp;&ensp; 3.3.2. **[Transitivity](/P/bf-trans)** <br>
-   &emsp;&ensp; 3.3.3. **[Computation using Savage-Dickey Density Ratio](/P/bf-sddr)** <br>
-   &emsp;&ensp; 3.3.4. **[Computation using Encompassing Prior Method](/P/bf-ep)** <br>
-   &emsp;&ensp; 3.3.5. *[Encompassing model](/D/encm)* <br>
+   3.3. Log Bayes factor <br>
+   &emsp;&ensp; 3.3.1. *[Definition](/D/lbf)* <br>
+   &emsp;&ensp; 3.3.2. **[Derivation](/P/lbf-der)** <br>
+   &emsp;&ensp; 3.3.3. **[Calculation from log model evidences](/P/lbf-lme)** <br>
    
-   3.4. Log Bayes factor <br>
-   &emsp;&ensp; 3.4.1. *[Definition](/D/lbf)* <br>
-   &emsp;&ensp; 3.4.2. **[Derivation](/P/lbf-der)** <br>
-   &emsp;&ensp; 3.4.3. **[Calculation from log model evidences](/P/lbf-lme)** <br>
+   3.4. Bayes factor <br>
+   &emsp;&ensp; 3.4.1. *[Definition](/D/bf)* <br>
+   &emsp;&ensp; 3.4.2. **[Transitivity](/P/bf-trans)** <br>
+   &emsp;&ensp; 3.4.3. **[Computation using Savage-Dickey Density Ratio](/P/bf-sddr)** <br>
+   &emsp;&ensp; 3.4.4. **[Computation using Encompassing Prior Method](/P/bf-ep)** <br>
+   &emsp;&ensp; 3.4.5. *[Encompassing model](/D/encm)* <br>
    
    3.5. Posterior model probability <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/pmp)* <br>

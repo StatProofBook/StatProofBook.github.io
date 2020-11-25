@@ -19,6 +19,7 @@ title: "Proofs without Source"
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [First raw moment is mean](/P/momraw-1st)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
+- [Kullback-Leibler divergence for the normal distribution](/P/norm-kl)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)

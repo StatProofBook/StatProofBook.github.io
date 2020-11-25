@@ -39,6 +39,7 @@ title: "Proof by Topic"
 - [Cumulative distribution function in terms of probability mass function of a discrete random variable](/P/cdf-pmf)
 - [Cumulative distribution function of a strictly decreasing function of a random variable](/P/cdf-sdfct)
 - [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct)
+- [Cumulative distribution function of the beta distribution](/P/beta-cdf)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
@@ -92,6 +93,7 @@ title: "Proof by Topic"
 
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
 - [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl)
+- [Kullback-Leibler divergence for the normal distribution](/P/norm-kl)
 - [Kullback-Leibler divergence for the normal-gamma distribution](/P/ng-kl)
 
 ### L
@@ -211,6 +213,7 @@ title: "Proof by Topic"
 - [Quantile function of the continuous uniform distribution](/P/cuni-qf)
 - [Quantile function of the discrete uniform distribution](/P/duni-qf)
 - [Quantile function of the exponential distribution](/P/exp-qf)
+- [Quantile function of the gamma distribution](/P/gam-qf)
 - [Quantile function of the normal distribution](/P/norm-qf)
 
 ### R

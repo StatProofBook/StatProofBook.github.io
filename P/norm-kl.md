@@ -25,8 +25,8 @@ username: "JoramSoch"
 
 $$ \label{eq:norms}
 \begin{split}
-P: \; X &\sim \mathrm{Gam}(\mu_1, \sigma_1^2) \\
-Q: \; X &\sim \mathrm{Gam}(\mu_2, \sigma_2^2) \; . \\
+P: \; X &\sim \mathcal{N}(\mu_1, \sigma_1^2) \\
+Q: \; X &\sim \mathcal{N}(\mu_2, \sigma_2^2) \; . \\
 \end{split}
 $$
 
