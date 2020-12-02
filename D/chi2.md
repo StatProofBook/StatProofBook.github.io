@@ -22,7 +22,7 @@ sources:
     url: "https://en.wikipedia.org/wiki/Chi-square_distribution#Definitions"
   - authors: "Robert V. Hogg, Joseph W. McKean, Allen T. Craig"
     year: 2018
-    title: "The χ2-Distribution"
+    title: "The Chi-Squared-Distribution"
     in: "Introduction to Mathematical Statistics"
     pages: "Pearson, Boston, 2019, p. 178, eq. 3.3.7"
     url: "https://www.pearson.com/store/p/introduction-to-mathematical-statistics/P100000843744"

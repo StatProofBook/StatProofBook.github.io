@@ -74,7 +74,7 @@ $$ \label{eq:llr}
 \log \Lambda(\phi) = \log p(y|\phi,\hat{\lambda}) - \log p(y|\hat{\phi},\hat{\lambda}) \; .
 $$
 
-[Wilks' theorem](llr-wilks) states that, when comparing two statistical models with parameter spaces $\Theta_1$ and $\Theta_0 \subset \Theta_1$, as the sample size approaches infinity, the quantity calculated as $-2$ times the log-ratio of maximum likelihoods follows a [chi-squared distribution](/D/chi2), if the null hypothesis is true:
+[Wilks' theorem](/P/llr-wilks) states that, when comparing two statistical models with parameter spaces $\Theta_1$ and $\Theta_0 \subset \Theta_1$, as the sample size approaches infinity, the quantity calculated as $-2$ times the log-ratio of maximum likelihoods follows a [chi-squared distribution](/D/chi2), if the null hypothesis is true:
 
 $$ \label{eq:wilks}
 H_0: \theta \in \Theta_0 \quad \Rightarrow \quad -2 \log \frac{\operatorname*{max}_{\theta \in \Theta_0} p(y|\theta)}{\operatorname*{max}_{\theta \in \Theta_1} p(y|\theta)} \sim \chi^2_{\Delta k}

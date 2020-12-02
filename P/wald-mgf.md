@@ -72,13 +72,13 @@ $$ \label{eq:bessel-de}
 x^2\frac{d^2y}{dx^2} + x\frac{dy}{dx}-(x^2+p^2)y=0 \; .
 $$
 
-The first of these [identities](https://dlmf.nist.gov/10.39.2) gives an explicit solution for $K_{-1/2}$:
+The [first of these identities](https://dlmf.nist.gov/10.39.2) gives an explicit solution for $K_{-1/2}$:
 
 $$ \label{eq:bessel-fact1}
 K_{-1/2}(x) = \sqrt{\frac{\pi}{2x}} e^{-x} \; .
 $$
 
-The second of these [identities](https://dlmf.nist.gov/10.32.10) gives an integral representation of $K_p$:
+The [second of these identities](https://dlmf.nist.gov/10.32.10) gives an integral representation of $K_p$:
 
 $$ \label{eq:bessel-fact2}
 K_p(\sqrt{ab}) = \frac{1}{2}\left(\frac{a}{b}\right)^{p/2} \int_0^{\infty}x^{p-1}\cdot \exp\left[-\frac{1}{2}\left(ax + \frac{b}{x}\right)\right]dx \; .
@@ -104,10 +104,10 @@ Combining with \eqref{eq:bessel-fact1} and simplifying gives
 
 $$ \label{eq:wald-mgf-s4}
 \begin{split}
-  M_X(t) &= \frac{\alpha}{\sqrt{2\pi}}\cdot e^{\alpha \gamma}\cdot 2\left(\frac{\gamma^2-2t}{\alpha^2}\right)^{1/4} \cdot \sqrt{\frac{\pi}{2\sqrt{\alpha^2(\gamma^2-2t)}}}\cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
-         &= \frac{\alpha}{\sqrt{2}\cdot \sqrt{\pi}}\cdot e^{\alpha \gamma}\cdot 2 \cdot \frac{(\gamma^2-2t)^{1/4}}{\sqrt{\alpha}}\cdot \frac{\sqrt{\pi}}{\sqrt{2}\cdot \sqrt{\alpha}\cdot (\gamma^2-2t)^{1/4}}\cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
-         &= e^{\alpha \gamma} \cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
-         &= \exp\left[\alpha \gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right] \; .
+M_X(t) &= \frac{\alpha}{\sqrt{2\pi}}\cdot e^{\alpha \gamma}\cdot 2\left(\frac{\gamma^2-2t}{\alpha^2}\right)^{1/4} \cdot \sqrt{\frac{\pi}{2\sqrt{\alpha^2(\gamma^2-2t)}}}\cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
+       &= \frac{\alpha}{\sqrt{2}\cdot \sqrt{\pi}}\cdot e^{\alpha \gamma}\cdot 2 \cdot \frac{(\gamma^2-2t)^{1/4}}{\sqrt{\alpha}}\cdot \frac{\sqrt{\pi}}{\sqrt{2}\cdot \sqrt{\alpha}\cdot (\gamma^2-2t)^{1/4}}\cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
+       &= e^{\alpha \gamma} \cdot \exp\left[-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
+       &= \exp\left[\alpha \gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right] \; .
 \end{split}
 $$
 

@@ -39,10 +39,10 @@ $$ \label{eq:KL-nonsymm}
 \mathrm{KL}[P||Q] \neq \mathrm{KL}[Q||P]
 $$
 
-for some [probability distributions](dist) $P$ and $Q$.
+for some [probability distributions](/D/dist) $P$ and $Q$.
 
 
-**Proof:** Let $X \in \mathcal{X} = \left\lbrace 0, 1, 2 \right\rbrace$ be a discrete [random variable](/D/rvar) and consider the two [probability distributions](dist)
+**Proof:** Let $X \in \mathcal{X} = \left\lbrace 0, 1, 2 \right\rbrace$ be a discrete [random variable](/D/rvar) and consider the two [probability distributions](/D/dist)
 
 $$ \label{eq:P-Q}
 \begin{split}
