@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $p(\theta \vert m)$ a [prior distribution](/D/prior) for the parameter $\theta$ of a [generative model](/D/gm) $m$. Then,
+**Definition:** Let $p(\theta \vert m)$ be a [prior distribution](/D/prior) for the parameter $\theta$ of a [generative model](/D/gm) $m$. Then,
 
 * the distribution is called an "empirical prior", if it has been [derived from empirical data](/P/post-jl);
 

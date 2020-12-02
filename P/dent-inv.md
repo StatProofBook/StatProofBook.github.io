@@ -45,7 +45,7 @@ where $p(x) = f_X(x)$ is the [probability density function](/D/pdf) of $X$.
 Define the mappings between $X$ and $Y = X + c$ as
 
 $$ \label{eq:X-Y}
-Y = g(X) = X + c \quad \Leftrightarrow \quad X = g^{-1}(Y) = X - c \; .
+Y = g(X) = X + c \quad \Leftrightarrow \quad X = g^{-1}(Y) = Y - c \; .
 $$
 
 Note that $g(X)$ is a [strictly increasing function, such that the probability density function](/P/pdf-sifct) of $Y$ is

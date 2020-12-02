@@ -27,7 +27,7 @@ sources:
     in: "NeuroImage"
     pages: "vol. 16, iss. 2, pp. 484-512, fn. 10"
     url: "https://www.sciencedirect.com/science/article/pii/S1053811902910918"
-    doi: "10.1006/nimg.2002.1091"^
+    doi: "10.1006/nimg.2002.1091"
 
 def_id: "D116"
 shortcut: "prior-flat"
@@ -35,7 +35,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $p(\theta \vert m)$ a [prior distribution](/D/prior) for the parameter $\theta$ of a [generative model](/D/gm) $m$. Then,
+**Definition:** Let $p(\theta \vert m)$ be a [prior distribution](/D/prior) for the parameter $\theta$ of a [generative model](/D/gm) $m$. Then,
 
 * the distribution is called a "flat prior", if its [precision](/D/prec) is zero or [variance](/D/var) is infinite;
 

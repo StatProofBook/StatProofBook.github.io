@@ -27,8 +27,8 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $p(\theta \vert m)$ a [prior distribution](/D/prior) for the parameter $\theta \in \Theta$ of a [generative model](/D/gm) $m$. Then,
+**Definition:** Let $p(\theta \vert m)$ be a [prior distribution](/D/prior) for the parameter $\theta$ of a [generative model](/D/gm) $m$ where $\theta$ belongs to the parameter space $\Theta$. Then,
 
-* the distribution is called a "uniform prior", if its [density](/D/pdf) is constant over the entire parameter space $\Theta$;
+* the distribution is called a "uniform prior", if its [density](/D/pdf) or [mass](/D/pmf) is constant over $\Theta$;
 
-* the distribution is called a "non-uniform prior", if its [density](/D/pdf) is not constant over the parameter space $\Theta$.
+* the distribution is called a "non-uniform prior", if its [density](/D/pdf) or [mass](/D/pmf) is not constant over $\Theta$.

@@ -51,19 +51,19 @@ $$
 If $a > 0$, then $g(X)$ is a [strictly increasing function, such that the probability density function](/P/pdf-sifct) of $Y$ is
 
 $$ \label{eq:Y-pdf-c1}
-f_Y(y) = f_X(g^{-1}(y)) \, \frac{\mathrm{d}g^{-1}(y)}{\mathrm{d}y} \overset{\eqref{eq:X-Y}}{=} \frac{1}{a} \, f_X\left(\frac{y}{a}\right) \; ,
+f_Y(y) = f_X(g^{-1}(y)) \, \frac{\mathrm{d}g^{-1}(y)}{\mathrm{d}y} \overset{\eqref{eq:X-Y}}{=} \frac{1}{a} \, f_X\left(\frac{y}{a}\right) \; ;
 $$
 
-and if $a < 0$, then $g(X)$ is a [strictly decreasing function, such that the probability density function](/P/pdf-sifct) of $Y$ is
+if $a < 0$, then $g(X)$ is a [strictly decreasing function, such that the probability density function](/P/pdf-sdfct) of $Y$ is
 
 $$ \label{eq:Y-pdf-c2}
-f_Y(y) = - f_X(g^{-1}(y)) \, \frac{\mathrm{d}g^{-1}(y)}{\mathrm{d}y} \overset{\eqref{eq:X-Y}}{=} -\frac{1}{a} \, f_X\left(\frac{y}{a}\right) \; ,
+f_Y(y) = - f_X(g^{-1}(y)) \, \frac{\mathrm{d}g^{-1}(y)}{\mathrm{d}y} \overset{\eqref{eq:X-Y}}{=} -\frac{1}{a} \, f_X\left(\frac{y}{a}\right) \; ;
 $$
 
-such that we can write
+thus, we can write
 
 $$ \label{eq:Y-pdf}
-f_Y(y) = \left| \frac{1}{a} \right| \, f_X\left(\frac{y}{a}\right) \; .
+f_Y(y) = \frac{1}{|a|} \, f_X\left(\frac{y}{a}\right) \; .
 $$
 
 Writing down the differential entropy for $Y$, we have:
@@ -71,7 +71,7 @@ Writing down the differential entropy for $Y$, we have:
 $$ \label{eq:Y-dent-s1}
 \begin{split}
 \mathrm{h}(Y) &= - \int_{\mathcal{Y}} f_Y(y) \log f_Y(y) \, \mathrm{d}y \\
-&\overset{\eqref{eq:Y-pdf}}{=} - \int_{\mathcal{Y}} \left| \frac{1}{a} \right| \, f_X\left(\frac{y}{a}\right) \log \left[ \left| \frac{1}{a} \right| \, f_X\left(\frac{y}{a}\right) \right] \, \mathrm{d}y
+&\overset{\eqref{eq:Y-pdf}}{=} - \int_{\mathcal{Y}} \frac{1}{|a|} \, f_X\left(\frac{y}{a}\right) \log \left[ \frac{1}{|a|} \, f_X\left(\frac{y}{a}\right) \right] \, \mathrm{d}y
 \end{split}
 $$
 
@@ -79,8 +79,8 @@ Substituting $x = y/a$, such that $y = ax$, this yields:
 
 $$ \label{eq:Y-dent-s2}
 \begin{split}
-\mathrm{h}(Y) &= - \int_{\left\lbrace y/a \,|\, y \in {\mathcal{Y}} \right\rbrace} \left| \frac{1}{a} \right| \, f_X\left(\frac{ax}{a}\right) \log \left[ \left| \frac{1}{a} \right| \, f_X\left(\frac{ax}{a}\right) \right] \, \mathrm{d}(ax) \\
-&= - \int_{\mathcal{X}} f_X(x) \log \left[ \left| \frac{1}{a} \right| \, f_X(x) \right] \, \mathrm{d}x \\
+\mathrm{h}(Y) &= - \int_{\left\lbrace y/a \,|\, y \in {\mathcal{Y}} \right\rbrace} \frac{1}{|a|} \, f_X\left(\frac{ax}{a}\right) \log \left[ \frac{1}{|a|} \, f_X\left(\frac{ax}{a}\right) \right] \, \mathrm{d}(ax) \\
+&= - \int_{\mathcal{X}} f_X(x) \log \left[ \frac{1}{|a|} \, f_X(x) \right] \, \mathrm{d}x \\
 &= - \int_{\mathcal{X}} f_X(x) \left[ \log f_X(x) - \log |a| \right] \, \mathrm{d}x \\
 &= - \int_{\mathcal{X}} f_X(x) \log f_X(x) \, \mathrm{d}x + \log |a| \int_{\mathcal{X}} f_X(x) \, \mathrm{d}x \\
 &\overset{\eqref{eq:X-dent}}{=} \mathrm{h}(X) + \log |a| \; .

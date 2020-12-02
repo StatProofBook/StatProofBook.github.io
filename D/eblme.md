@@ -39,7 +39,7 @@ $$ \label{eq:ML}
 p(y \vert \lambda, m) = \int p(y \vert \theta, \lambda, m) \, (\theta \vert \lambda, m) \, \mathrm{d}\theta
 $$
 
-and
+[and](/D/prior-eb)
 
 $$ \label{eq:EB}
 \hat{\lambda} = \operatorname*{arg\,max}_{\lambda} \log p(y \vert \lambda, m) \; .

@@ -28,10 +28,10 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $p(\theta \vert m)$ a [prior distribution](/D/prior) for the parameter $\theta$ of a [generative model](/D/gm) $m$. Then,
+**Definition:** Let $p(\theta \vert m)$ be a [prior distribution](/D/prior) for the parameter $\theta$ of a [generative model](/D/gm) $m$. Then,
 
 * the distribution is called an "informative prior", if it biases the parameter towards particular values;
 
 * the distribution is called a "weakly informative prior", if it mildly [influences the posterior distribution](/P/post-jl);
 
-* the distribution is called a "non-informative prior", if it does not influence the [posterior hyperparameters](/D/post).
+* the distribution is called a "non-informative prior", if it does not [influence](/P/post-jl) the [posterior hyperparameters](/D/post).
