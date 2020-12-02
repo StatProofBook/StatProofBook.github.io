@@ -4,7 +4,7 @@ title: "Special: Model Selection Criteria"
 ---
 
 
-**Proofs** and *Definitions* on [Model Selection Criteria](/I/Table_of_Contents#Model%20Selection) in the StatProofBook, as of 2020-09-09.
+**Proofs** and *Definitions* on [Model Selection Criteria](/I/Table_of_Contents#Model%20Selection) in the StatProofBook, as of 2020-12-02.
 
 | Criterion | Definition | Derivation | Relationships | Other |
 |:--------- |:---------- |:---------- |:------------- |:----- |
@@ -19,7 +19,7 @@ title: "Special: Model Selection Criteria"
 | **Bayesian<br>model selection** |  |  |  |  |
 | Log model evidence | *[lme](/D/lme)* | **[lme-der](/P/lme-der)** |  | **[lme-anc](/P/lme-anc)** |
 | Log family evidence | *[lfe](/D/lfe)* | **[lfe-der](/P/lfe-der)** | **[lfe-lme](/P/lfe-lme)** |  |
-| Bayes factor | *[bf](/D/bf)* |  |  | **[bf-trans](/P/bf-trans)**<br>**[bf-sddr](/P/bf-sddr)**<br>**[bf-ep](/P/bf-ep)** |
 | Log Bayes factor | *[lbf](/D/lbf)* | **[lbf-der](/P/lbf-der)** | **[lbf-lme](/P/lbf-lme)** |  |
+| Bayes factor | *[bf](/D/bf)* |  |  | **[bf-trans](/P/bf-trans)**<br>**[bf-sddr](/P/bf-sddr)**<br>**[bf-ep](/P/bf-ep)** |
 | Posterior model probability | *[pmp](/D/pmp)* | **[pmp-der](/P/pmp-der)** | **[pmp-bf](/P/pmp-bf)**<br>**[pmp-lbf](/P/pmp-lbf)**<br>**[pmp-lme](/P/pmp-lme)** |  |
 | Bayesian model averaging | *[bma](/D/bma)* | **[bma-der](/P/bma-der)** | **[bma-lme](/P/bma-lme)** |  |
