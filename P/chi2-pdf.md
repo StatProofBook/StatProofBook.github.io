@@ -39,7 +39,7 @@ $$ \label{eq:chi2}
 Y \sim \chi^{2}(k) \; .
 $$
 
-Then, the [probability density function](/D/pdf) of $X$ is
+Then, the [probability density function](/D/pdf) of $Y$ is
 
 $$ \label{eq:chi2-pdf}
 f_Y(y) = \frac{1}{2^{k/2} \, \Gamma (k/2)} \, y^{k/2-1} \, e^{-y/2} \; .

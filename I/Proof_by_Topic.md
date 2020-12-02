@@ -78,6 +78,7 @@ title: "Proof by Topic"
 
 ### G
 
+- [Gaussian integral](/P/norm-gi)
 - [Gibbs' inequality](/P/gibbs-ineq)
 
 ### I
@@ -144,6 +145,7 @@ title: "Proof by Topic"
 - [Moment in terms of moment-generating function](/P/mom-mgf)
 - [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
+- [Moment-generating function of the beta distribution](/P/beta-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Moments of the chi-square distribution](/P/chi2-mom)
 - [Monotonicity of the expected value](/P/mean-mono)
@@ -189,6 +191,7 @@ title: "Proof by Topic"
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
+- [Probability density function of the chi-square distribution](/P/chi2-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)
 - [Probability density function of the gamma distribution](/P/gam-pdf)

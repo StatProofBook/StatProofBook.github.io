@@ -53,6 +53,7 @@ title: "Definition by Topic"
 
 ### E
 
+- [Empirical Bayesian log model evidence](/D/eblme)
 - [Encompassing model](/D/encm)
 - [Estimation matrix](/D/emat)
 - [Exceedance probability](/D/prob-exc)
@@ -166,11 +167,13 @@ title: "Definition by Topic"
 
 ### U
 
+- [Uniform-prior log model evidence](/D/uplme)
 - [Univariate and multivariate random variable](/D/rvar-uni)
 
 ### V
 
 - [Variance](/D/var)
+- [Variational Bayesian log model evidence](/D/vblme)
 
 ### W
 

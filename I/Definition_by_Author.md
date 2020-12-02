@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (108 definitions)
+### JoramSoch (111 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -38,6 +38,7 @@ title: "Definition by Author"
 - [Dirichlet-distributed data](/D/dir-data)
 - [Discrete and continuous random variable](/D/rvar-disc)
 - [Discrete uniform distribution](/D/duni)
+- [Empirical Bayesian log model evidence](/D/eblme)
 - [Estimation matrix](/D/emat)
 - [Exceedance probability](/D/prob-exc)
 - [Expected value](/D/mean)
@@ -111,8 +112,10 @@ title: "Definition by Author"
 - [Standardized moment](/D/mom-stand)
 - [Statistical independence](/D/ind)
 - [Total sum of squares](/D/tss)
+- [Uniform-prior log model evidence](/D/uplme)
 - [Univariate and multivariate random variable](/D/rvar-uni)
 - [Variance](/D/var)
+- [Variational Bayesian log model evidence](/D/vblme)
 - [Wishart distribution](/D/wish)
 
 ### StatProofBook (1 definition)
