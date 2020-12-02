@@ -68,7 +68,7 @@ of statistical theorems for the computational sciences*! <br>
 </div>
 
 <form name="Search">
-  or enter any search term: &ensp;
+  or do a full-text <a href="/search">search</a>: &ensp;
   <input type="text" maxlength="100" name="q" id="q"/>
   <input type="button" onclick="openURL()" value="Google Search"/>
 </form>
