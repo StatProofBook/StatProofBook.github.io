@@ -122,3 +122,11 @@ title: "Definition by Number"
 | D113 | uplme | [Uniform-prior log model evidence](/D/uplme) | JoramSoch | 2020-11-25 |
 | D114 | eblme | [Empirical Bayesian log model evidence](/D/eblme) | JoramSoch | 2020-11-25 |
 | D115 | vblme | [Variational Bayesian log model evidence](/D/vblme) | JoramSoch | 2020-11-25 |
+| D116 | prior-flat | [Flat, hard and soft prior distribution](/D/prior-flat) | JoramSoch | 2020-12-02 |
+| D117 | prior-uni | [Uniform and non-uniform prior distribution](/D/prior-uni) | JoramSoch | 2020-12-02 |
+| D118 | prior-inf | [Informative and non-informative prior distribution](/D/prior-inf) | JoramSoch | 2020-12-02 |
+| D119 | prior-emp | [Empirical and theoretical prior distribution](/D/prior-emp) | JoramSoch | 2020-12-02 |
+| D120 | prior-conj | [Conjugate and non-conjugate prior distribution](/D/prior-conj) | JoramSoch | 2020-12-02 |
+| D121 | prior-maxent | [Maximum entropy prior distribution](/D/prior-maxent) | JoramSoch | 2020-12-02 |
+| D122 | prior-eb | [Empirical Bayes prior distribution](/D/prior-eb) | JoramSoch | 2020-12-02 |
+| D123 | prior-ref | [Reference prior distribution](/D/prior-ref) | JoramSoch | 2020-12-02 |

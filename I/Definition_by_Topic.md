@@ -29,6 +29,7 @@ title: "Definition by Topic"
 - [Conditional entropy](/D/ent-cond)
 - [Conditional independence](/D/ind-cond)
 - [Conditional probability distribution](/D/dist-cond)
+- [Conjugate and non-conjugate prior distribution](/D/prior-conj)
 - [Constant](/D/const)
 - [Continuous uniform distribution](/D/cuni)
 - [Correlation](/D/corr)
@@ -53,7 +54,9 @@ title: "Definition by Topic"
 
 ### E
 
+- [Empirical Bayes prior distribution](/D/prior-eb)
 - [Empirical Bayesian log model evidence](/D/eblme)
+- [Empirical and theoretical prior distribution](/D/prior-emp)
 - [Encompassing model](/D/encm)
 - [Estimation matrix](/D/emat)
 - [Exceedance probability](/D/prob-exc)
@@ -63,6 +66,7 @@ title: "Definition by Topic"
 
 ### F
 
+- [Flat, hard and soft prior distribution](/D/prior-flat)
 - [Full probability model](/D/fpm)
 - [Full width at half maximum](/D/fwhm)
 
@@ -71,6 +75,10 @@ title: "Definition by Topic"
 - [Gamma distribution](/D/gam)
 - [General linear model](/D/glm)
 - [Generative model](/D/gm)
+
+### I
+
+- [Informative and non-informative prior distribution](/D/prior-inf)
 
 ### J
 
@@ -101,6 +109,7 @@ title: "Definition by Topic"
 - [Marginal probability distribution](/D/dist-marg)
 - [Matrix-normal distribution](/D/matn)
 - [Maximum](/D/max)
+- [Maximum entropy prior distribution](/D/prior-maxent)
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
 - [Median](/D/med)
@@ -148,6 +157,7 @@ title: "Definition by Topic"
 - [Random variable](/D/rvar)
 - [Random vector](/D/rvec)
 - [Raw moment](/D/mom-raw)
+- [Reference prior distribution](/D/prior-ref)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)
@@ -167,6 +177,7 @@ title: "Definition by Topic"
 
 ### U
 
+- [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
 - [Univariate and multivariate random variable](/D/rvar-uni)
 
