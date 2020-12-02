@@ -138,9 +138,11 @@ title: "Table of Contents"
    2.2. Differential entropy <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/dent)* <br>
    &emsp;&ensp; 2.2.2. **[Negativity](/P/dent-neg)** <br>
-   &emsp;&ensp; 2.2.3. *[Conditional differential entropy](/D/dent-cond)* <br>
-   &emsp;&ensp; 2.2.4. *[Joint differential entropy](/D/dent-joint)* <br>
-   &emsp;&ensp; 2.2.5. *[Differential cross-entropy](/D/dent-cross)* <br>
+   &emsp;&ensp; 2.2.3. **[Invariance under addition](/P/dent-inv)** <br>
+   &emsp;&ensp; 2.2.4. **[Addition upon multiplication](/P/dent-add)** <br>
+   &emsp;&ensp; 2.2.5. *[Conditional differential entropy](/D/dent-cond)* <br>
+   &emsp;&ensp; 2.2.6. *[Joint differential entropy](/D/dent-joint)* <br>
+   &emsp;&ensp; 2.2.7. *[Differential cross-entropy](/D/dent-cross)* <br>
    
    2.3. Discrete mutual information <br>
    &emsp;&ensp; 2.3.1. *[Definition](/D/mi)* <br>
@@ -195,9 +197,19 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.9. *[Marginal likelihood](/D/ml)* <br>
    &emsp;&ensp; 5.1.10. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
-   5.2. Bayesian inference <br>
-   &emsp;&ensp; 5.2.1. **[Bayes' theorem](/P/bayes-th)** <br>
-   &emsp;&ensp; 5.2.2. **[Bayes' rule](/P/bayes-rule)** <br>
+   5.2. Prior distributions <br>
+   &emsp;&ensp; 5.2.1. *[Flat vs. hard vs. soft](/D/prior-flat)* <br>
+   &emsp;&ensp; 5.2.2. *[Uniform vs. non-uniform](/D/prior-uni)* <br>
+   &emsp;&ensp; 5.2.3. *[Informative vs. non-informative](/D/prior-inf)* <br>
+   &emsp;&ensp; 5.2.4. *[Empirical vs. non-empirical](/D/prior-emp)* <br>
+   &emsp;&ensp; 5.2.5. *[Conjugate vs. non-conjugate](/D/prior-conj)* <br>
+   &emsp;&ensp; 5.2.6. *[Maximum entropy priors](/D/prior-maxent)* <br>
+   &emsp;&ensp; 5.2.7. *[Empirical Bayes priors](/D/prior-eb)* <br>
+   &emsp;&ensp; 5.2.8. *[Reference priors](/D/prior-ref)* <br>
+   
+   5.3. Bayesian inference <br>
+   &emsp;&ensp; 5.3.1. **[Bayes' theorem](/P/bayes-th)** <br>
+   &emsp;&ensp; 5.3.2. **[Bayes' rule](/P/bayes-rule)** <br>
 
 
 <br>
