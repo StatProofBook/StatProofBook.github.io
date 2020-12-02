@@ -26,7 +26,7 @@ layout: default
 function openURL()
 {
 	// get text box content
-    var name = document.getElementById('TextBox').value;
+    var name = document.getElementById('q').value;
 	
 	// create Google search URL
     var url = 'https://www.google.com/search?q=site%3AStatProofBook.github.io+%22' + encodeURIComponent(name) + '%22';
@@ -44,6 +44,6 @@ function openURL()
 <!-- Form -->
 <form name="Search">
 	Search the StatProofBook: &ensp;
-	<input type="text" maxlength="100" name="TextBox" id="TextBox"/>
+	<input type="text" maxlength="100" name="q" id="q"/>
 	<input type="button" onclick="openURL()" value="Google Search"/>
 </form>
