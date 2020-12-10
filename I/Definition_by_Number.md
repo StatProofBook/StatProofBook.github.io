@@ -69,7 +69,7 @@ title: "Definition by Number"
 | D60 | mle | [Maximum likelihood estimation](/D/mle) | JoramSoch | 2020-05-15 |
 | D61 | mll | [Maximum log-likelihood](/D/mll) | JoramSoch | 2020-05-15 |
 | D62 | poiss | [Poisson distribution](/D/poiss) | JoramSoch | 2020-05-25 |
-| D63 | snorm | [Normal distribution](/D/snorm) | JoramSoch | 2020-05-26 |
+| D63 | snorm | [Standard normal distribution](/D/snorm) | JoramSoch | 2020-05-26 |
 | D64 | sgam | [Standard gamma distribution](/D/sgam) | JoramSoch | 2020-05-26 |
 | D65 | rvar | [Random variable](/D/rvar) | JoramSoch | 2020-05-27 |
 | D66 | rvec | [Random vector](/D/rvec) | JoramSoch | 2020-05-27 |

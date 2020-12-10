@@ -126,7 +126,6 @@ title: "Definition by Topic"
 ### N
 
 - [Normal distribution](/D/norm)
-- [Normal distribution](/D/snorm)
 - [Normal-gamma distribution](/D/ng)
 
 ### P
@@ -168,6 +167,7 @@ title: "Definition by Topic"
 - [Signal-to-noise ratio](/D/snr)
 - [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)
+- [Standard normal distribution](/D/snorm)
 - [Standardized moment](/D/mom-stand)
 - [Statistical independence](/D/ind)
 
