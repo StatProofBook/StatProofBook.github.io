@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (191 proofs)
+### JoramSoch (194 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Addition of the differential entropy upon multiplication with a constant](/P/dent-add)
@@ -21,6 +21,7 @@ title: "Proof by Author"
 - [Conjugate prior distribution for multinomial observations](/P/mult-prior)
 - [Conjugate prior distribution for multivariate Bayesian linear regression](/P/mblr-prior)
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
+- [Conjugate prior distribution for the univariate Gaussian](/P/ug-prior)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
@@ -78,6 +79,7 @@ title: "Proof by Author"
 - [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
+- [Log model evidence for the univariate Gaussian](/P/ug-lme)
 - [Log sum inequality](/P/logsum-ineq)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
@@ -132,6 +134,7 @@ title: "Proof by Author"
 - [Posterior distribution for multinomial observations](/P/mult-post)
 - [Posterior distribution for multivariate Bayesian linear regression](/P/mblr-post)
 - [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post)
+- [Posterior distribution for the univariate Gaussian](/P/ug-post)
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)

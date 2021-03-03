@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (119 definitions)
+### JoramSoch (120 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Bayesian information criterion](/D/bic)
@@ -121,6 +121,7 @@ title: "Definition by Author"
 - [Total sum of squares](/D/tss)
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
+- [Univariate Gaussian](/D/ug)
 - [Univariate and multivariate random variable](/D/rvar-uni)
 - [Variance](/D/var)
 - [Variational Bayesian log model evidence](/D/vblme)
