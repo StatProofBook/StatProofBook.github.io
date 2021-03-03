@@ -89,7 +89,7 @@ p(y|\mu,\tau) &= \prod_{i=1}^{n} \mathcal{N}(y_i; \mu, \tau^{-1}) \\
 \end{split}
 $$
 
-using the precision $\tau = 1/\sigma^2$.
+using the inverse variance or precision $\tau = 1/\sigma^2$.
 
 <br>
 When [deriving the posterior distribution](/P/ug-post) $p(\mu,\tau|y)$, the joint likelihood $p(y,\mu,\tau)$ is obtained as

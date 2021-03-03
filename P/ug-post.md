@@ -89,7 +89,7 @@ p(y|\mu,\tau) &= \prod_{i=1}^{n} \mathcal{N}(y_i; \mu, \tau^{-1}) \\
 \end{split}
 $$
 
-using the precision $\tau = 1/\sigma^2$.
+using the inverse variance or precision $\tau = 1/\sigma^2$.
 
 <br>
 Combining the [likelihood function](/D/lf) \eqref{eq:UG-LF-Bayes} with the [prior distribution](/D/prior) \eqref{eq:UG-NG-prior}, the [joint likelihood](/D/jl) of the model is given by
