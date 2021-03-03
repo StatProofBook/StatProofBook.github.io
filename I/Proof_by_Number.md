@@ -205,3 +205,5 @@ title: "Proof by Number"
 | P196 | norm-gi | [Gaussian integral](/P/norm-gi) | JoramSoch | 2020-11-25 |
 | P197 | chi2-pdf | [Probability density function of the chi-square distribution](/P/chi2-pdf) | JoramSoch | 2020-11-25 |
 | P198 | beta-mgf | [Moment-generating function of the beta distribution](/P/beta-mgf) | JoramSoch | 2020-11-25 |
+| P199 | dent-inv | [Invariance of the differential entropy under addition of a constant](/P/dent-inv) | JoramSoch | 2020-12-02 |
+| P200 | dent-add | [Addition of the differential entropy upon multiplication with a constant](/P/dent-add) | JoramSoch | 2020-12-02 |

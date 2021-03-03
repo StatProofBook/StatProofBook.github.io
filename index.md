@@ -6,6 +6,38 @@ layout: page
 title: "The Book of Statistical Proofs"
 ---
 
+<!-- Style -->
+<style type="text/css" media="screen">
+  .container {
+    text-align: center;
+  }
+  .list {
+    text-align: left;
+  }
+  h1 {
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  form {
+	text-align: center;
+  }
+</style>
+
+<!-- Script -->
+<script type="text/javascript"> 
+function openURL()
+{
+	// get text box content
+    var name = document.getElementById('q').value;
+	
+	// create Google search URL
+    var url = 'https://www.google.com/search?q=site%3AStatProofBook.github.io+%22' + encodeURIComponent(name) + '%22';
+
+    // open Google search URL
+    window.location.href = url;
+}
+</script>
 
 Welcome to **The Book of Statistical Proofs** -- <br>
 *a centralized, open and collaboratively edited archive <br>
@@ -32,8 +64,11 @@ of statistical theorems for the computational sciences*! <br>
 </table>
 
 <div align="center">
-You can also <a href="https://github.com/StatProofBook/StatProofBookTools/blob/master/write_book/StatProofBook.pdf">view</a> or <a href="https://github.com/StatProofBook/StatProofBookTools/raw/master/write_book/StatProofBook.pdf">download</a> the entire book as a single PDF.
+  You can also <a href="https://github.com/StatProofBook/StatProofBookTools/blob/master/write_book/StatProofBook.pdf">view</a> or <a href="https://github.com/StatProofBook/StatProofBookTools/raw/master/write_book/StatProofBook.pdf">download</a> the entire book as a single PDF
 </div>
 
-[//]: # (- [Proof by Author](I/Proof_by_Author) -- sorted by contributor)
-[//]: # (- [Definition by Author](I/Definition_by_Author) -- sorted by contributor)
+<form name="Search">
+  or do a full-text <a href="/search">search</a>: &ensp;
+  <input type="text" maxlength="100" name="q" id="q"/>
+  <input type="button" onclick="openURL()" value="Google Search"/>
+</form>

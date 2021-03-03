@@ -10,6 +10,7 @@ title: "Proof by Topic"
 
 ### A
 
+- [Addition of the differential entropy upon multiplication with a constant](/P/dent-add)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
 - [Additivity of the variance for independent random variables](/P/var-add)
 
@@ -84,6 +85,7 @@ title: "Proof by Topic"
 ### I
 
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
+- [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
 
 ### J

@@ -29,7 +29,7 @@ username: "JoramSoch"
 
 **Definition:** Let $X$ be a [random variable](/D/rvar) with possible outcomes $\mathcal{X}$. Then,
 
-* $X$ is called a two-valued random variable or [random event](/D/reve), if $\mathcal{X}$ has exactly two elements, e.g. $\mathcal{X} = \left\lbrace \mathrm{true}, \mathrm{false} \right\rbrace$ or $\mathcal{X} = \left\lbrace 1, 0 \right\rbrace$;
+* $X$ is called a two-valued random variable or [random event](/D/reve), if $\mathcal{X}$ has exactly two elements, e.g. $\mathcal{X} = \left\lbrace E, \overline{E} \right\rbrace$ or $\mathcal{X} = \left\lbrace \mathrm{true}, \mathrm{false} \right\rbrace$ or $\mathcal{X} = \left\lbrace 1, 0 \right\rbrace$;
 
 * $X$ is called a univariate random variable or [random scalar](/D/rvar), if $\mathcal{X}$ is one-dimensional, i.e. (a subset of) the real numbers $\mathbb{R}$;
 

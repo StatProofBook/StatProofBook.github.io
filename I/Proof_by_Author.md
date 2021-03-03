@@ -4,9 +4,10 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (189 proofs)
+### JoramSoch (191 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
+- [Addition of the differential entropy upon multiplication with a constant](/P/dent-add)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
 - [Additivity of the variance for independent random variables](/P/var-add)
 - [Bayes' rule](/P/bayes-rule)
@@ -58,6 +59,7 @@ title: "Proof by Author"
 - [Gaussian integral](/P/norm-gi)
 - [Gibbs' inequality](/P/gibbs-ineq)
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
+- [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)

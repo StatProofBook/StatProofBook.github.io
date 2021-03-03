@@ -30,5 +30,5 @@ username: "JoramSoch"
 **Definition:** Let $m$ be a [generative model](/D/gm) with [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert \lambda, m)$ using [prior hyperparameters](/D/prior) $\lambda$. Let $p(\theta \vert y, \lambda, m)$ be the [posterior distribution](/D/post) that is [proportional to the the joint likelihood](/P/post-jl). Then, the prior distribution is called a "reference prior", if it maximizes the [expected](/D/mean) [Kullback-Leibler divergence](/D/kl) of the posterior distribution relative to the prior distribution:
 
 $$ \label{eq:prior-ref}
-\lambda_{\mathrm{ref}} = \operatorname*{arg\,max}_{\lambda} \mathrm{KL} \left[ p(\theta \vert y, \lambda, m) \, || \, p(\theta \vert \lambda, m) \right] \; .
+\lambda_{\mathrm{ref}} = \operatorname*{arg\,max}_{\lambda} \left\langle \mathrm{KL} \left[ p(\theta \vert y, \lambda, m) \, || \, p(\theta \vert \lambda, m) \right] \right\rangle \; .
 $$

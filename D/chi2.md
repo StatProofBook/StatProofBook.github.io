@@ -22,7 +22,7 @@ sources:
     url: "https://en.wikipedia.org/wiki/Chi-square_distribution#Definitions"
   - authors: "Robert V. Hogg, Joseph W. McKean, Allen T. Craig"
     year: 2018
-    title: "The χ2-Distribution"
+    title: "The Chi-Squared-Distribution"
     in: "Introduction to Mathematical Statistics"
     pages: "Pearson, Boston, 2019, p. 178, eq. 3.3.7"
     url: "https://www.pearson.com/store/p/introduction-to-mathematical-statistics/P100000843744"
@@ -45,7 +45,7 @@ $$\label{eq:chi2}
 Y = \sum_{i=1}^{k} X_{i}^{2} \sim \chi^{2}(k) \quad \text{where} \quad k > 0 \; .
 $$
 
-A [random variable](/D/rvar) $Y$ is said said to follow a chi-square distribution with $k$ number of degress of freedom, if and only if its [probability density function](/D/pdf) is given by
+The [probability density function of the chi-square distribution](/P/chi2-pdf) with $k$ degress of freedom is
 
 $$ \label{eq:chi2-pdf}
 \chi^{2}(x; k) = \frac{1}{2^{k/2}\Gamma (k/2)} \, x^{k/2-1} \, e^{-x/2}

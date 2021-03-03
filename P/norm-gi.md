@@ -22,7 +22,7 @@ sources:
     url: "https://proofwiki.org/wiki/Gaussian_Integral"
   - authors: "ProofWiki"
     year: 2020
-    title: "Integral to Infinity of Exponential of -t^2"
+    title: "Integral to Infinity of Exponential of minus t squared"
     in: "ProofWiki"
     pages: "retrieved on 2020-11-25"
     url: "https://proofwiki.org/wiki/Integral_to_Infinity_of_Exponential_of_-t%5E2"

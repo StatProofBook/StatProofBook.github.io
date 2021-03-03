@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-05-26 23:32:00
 
-title: "Normal distribution"
+title: "Standard normal distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Normal distribution"

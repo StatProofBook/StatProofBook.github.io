@@ -1,0 +1,48 @@
+---
+permalink: /search
+layout: default
+---
+
+<!-- Style -->
+<style type="text/css" media="screen">
+  .container {
+    text-align: center;
+  }
+  .list {
+    text-align: left;
+  }
+  h1 {
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  form {
+	text-align: center;
+  }
+</style>
+
+<!-- Script -->
+<script type="text/javascript"> 
+function openURL()
+{
+	// get text box content
+    var name = document.getElementById('q').value;
+	
+	// create Google search URL
+    var url = 'https://www.google.com/search?q=site%3AStatProofBook.github.io+%22' + encodeURIComponent(name) + '%22';
+
+    // open Google search URL
+    window.location.href = url;
+}
+</script> 
+
+<!-- Heading -->
+<div class="container">
+    <h1>Search the StatProofBook</h1>
+</div>
+
+<!-- Form -->
+<form name="Search">
+	<input type="text" maxlength="100" name="q" id="q"/>
+	<input type="button" onclick="openURL()" value="Google Search"/>
+</form>
