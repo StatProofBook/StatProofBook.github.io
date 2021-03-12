@@ -94,7 +94,7 @@ $$ \label{eq:mean-samp-dist}
 \end{split}
 $$
 
-and additionally using the [invariance of the variance under addition](/P/var-inv) and applying the null hypothesis from \eqref{eq:ttest2-h0}, the distribution of $Z = [(\bar{y}_1-\bar{y}_2)-\mu_{\Delta}]/[\sigma \sqrt{1/n_1+1/n_2}]$ becomes [standard normal](/D/snorm)
+and additionally using the [invariance of the variance under addition](/P/var-inv) and applying the null hypothesis from \eqref{eq:ttest2-h0}, the distribution of $Z = ( (\bar{y}_1-\bar{y}_2)-\mu_{\Delta} ) / (\sigma \sqrt{1/n_1+1/n_2})$ becomes [standard normal](/D/snorm)
 
 $$ \label{eq:Z-dist}
 Z = \frac{(\bar{y}_1-\bar{y}_2)-\mu_\Delta}{\sigma \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}} \sim \mathcal{N}\left( \frac{(\mu_1-\mu_2)-\mu_\Delta}{\sigma \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}, \left(\frac{1}{\sigma \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\right)^2 \left( \frac{\sigma^2}{n_1} + \frac{\sigma^2}{n_2} \right) \right) \overset{H_0}{=} \mathcal{N}\left( 0, 1 \right) \; .
