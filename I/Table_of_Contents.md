@@ -182,6 +182,10 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.2. *[Log-likelihood function](/D/llf)* <br>
    &emsp;&ensp; 4.1.3. *[Maximum likelihood estimation](/D/mle)* <br>
    &emsp;&ensp; 4.1.4. *[Maximum log-likelihood](/D/mll)* <br>
+   
+   4.2. Hypothesis testing <br>
+   &emsp;&ensp; 4.2.1. *[Null hypothesis](/D/h0)* <br>
+   &emsp;&ensp; 4.2.2. *[Alternative hypothesis](/D/h1)* <br>
 
 5. Bayesian statistics
    
