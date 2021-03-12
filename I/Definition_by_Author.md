@@ -4,9 +4,10 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (120 definitions)
+### JoramSoch (122 definitions)
 
 - [Akaike information criterion](/D/aic)
+- [Alternative hypothesis](/D/h1)
 - [Bayesian information criterion](/D/bic)
 - [Bayesian model averaging](/D/bma)
 - [Bernoulli distribution](/D/bern)
@@ -87,6 +88,7 @@ title: "Definition by Author"
 - [Mutual information](/D/mi)
 - [Normal distribution](/D/norm)
 - [Normal-gamma distribution](/D/ng)
+- [Null hypothesis](/D/h0)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
 - [Poisson-distributed data](/D/poiss-data)

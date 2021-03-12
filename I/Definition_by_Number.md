@@ -131,3 +131,5 @@ title: "Definition by Number"
 | D122 | prior-eb | [Empirical Bayes prior distribution](/D/prior-eb) | JoramSoch | 2020-12-02 |
 | D123 | prior-ref | [Reference prior distribution](/D/prior-ref) | JoramSoch | 2020-12-02 |
 | D124 | ug | [Univariate Gaussian](/D/ug) | JoramSoch | 2021-03-03 |
+| D125 | h0 | [Null hypothesis](/D/h0) | JoramSoch | 2021-03-12 |
+| D126 | h1 | [Alternative hypothesis](/D/h1) | JoramSoch | 2021-03-12 |

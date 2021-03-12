@@ -7,6 +7,7 @@ title: "Definition by Topic"
 ### A
 
 - [Akaike information criterion](/D/aic)
+- [Alternative hypothesis](/D/h1)
 
 ### B
 
@@ -127,6 +128,7 @@ title: "Definition by Topic"
 
 - [Normal distribution](/D/norm)
 - [Normal-gamma distribution](/D/ng)
+- [Null hypothesis](/D/h0)
 
 ### P
 

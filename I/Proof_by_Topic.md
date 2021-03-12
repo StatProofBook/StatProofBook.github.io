@@ -165,12 +165,14 @@ title: "Proof by Topic"
 
 ### O
 
+- [One-sample t-test for independent observations](/P/ug-ttest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 
 ### P
 
+- [Paired t-test for independent observations](/P/ug-ttestp)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
 - [Partition of covariance into expected values](/P/cov-mean)
 - [Partition of sums of squares in ordinary least squares](/P/mlr-pss)
@@ -257,6 +259,7 @@ title: "Proof by Topic"
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
 - [Transitivity of Bayes Factors](/P/bf-trans)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
+- [Two-sample t-test for independent observations](/P/ug-ttest2)
 
 ### V
 

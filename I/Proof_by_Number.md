@@ -210,3 +210,6 @@ title: "Proof by Number"
 | P201 | ug-prior | [Conjugate prior distribution for the univariate Gaussian](/P/ug-prior) | JoramSoch | 2021-03-03 |
 | P202 | ug-post | [Posterior distribution for the univariate Gaussian](/P/ug-post) | JoramSoch | 2021-03-03 |
 | P203 | ug-lme | [Log model evidence for the univariate Gaussian](/P/ug-lme) | JoramSoch | 2021-03-03 |
+| P204 | ug-ttest1 | [One-sample t-test for independent observations](/P/ug-ttest1) | JoramSoch | 2021-03-12 |
+| P205 | ug-ttest2 | [Two-sample t-test for independent observations](/P/ug-ttest2) | JoramSoch | 2021-03-12 |
+| P206 | ug-ttestp | [Paired t-test for independent observations](/P/ug-ttestp) | JoramSoch | 2021-03-12 |
