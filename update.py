@@ -7,15 +7,17 @@ This script loads all files from the proof/definition directories and
 - writes them as a list into "Proof by Number" (chronological list)
 - writes them as a list into "Proof by Topic" (an alphabetical list)
 - writes them as a list into "Proof by Author" (sorted by contributor)
+- writes them as a list into "Proofs without Source" (no references)
 - writes them as a list into "Definition by Number" (chronological list)
 - writes them as a list into "Definition by Topic" (an alphabetical list)
 - writes them as a list into "Definition by Author" (sorted by contributor)
+- writes them as a list into "Definitions without Source" (no references)
 
 Author: Joram Soch, BCCN Berlin
 E-Mail: joram.soch@bccn-berlin.de
 
 First edit: 2019-09-27 12:55:00
- Last edit: 2020-03-24 06:54:00
+ Last edit: 2020-08-26 18:51:00
 """
 
 

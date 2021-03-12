@@ -36,5 +36,5 @@ $$
 where $x_1$ and $x_2$ are specified, such that
 
 $$ \label{eq:x12}
-f_X(x_1) = f_X(x_2) = \frac{1}{2} f_X(x_M) \quad \text{and} \quad x_1 < x_M < x_2
+f_X(x_1) = f_X(x_2) = \frac{1}{2} f_X(x_M) \quad \text{and} \quad x_1 < x_M < x_2 \; .
 $$

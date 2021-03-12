@@ -116,7 +116,7 @@ $$
 
 Using the [probability density function of the gamma distribution](/P/gam-pdf), we can rewrite this as
 
-$$\label{eq:GLM-NG-LME-s4}
+$$ \label{eq:GLM-NG-LME-s4}
 \int p(y,\beta,\tau) \, \mathrm{d}\beta = \sqrt{\frac{|P|}{(2 \pi)^n}} \, \sqrt{\frac{|\Lambda_0|}{|\Lambda_n|}} \, \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \, \frac{\Gamma(a_n)}{ {b_n}^{a_n}} \, \mathrm{Gam}(\tau; a_n, b_n) \; .
 $$
 

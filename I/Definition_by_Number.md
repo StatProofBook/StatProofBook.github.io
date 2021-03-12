@@ -130,3 +130,4 @@ title: "Definition by Number"
 | D121 | prior-maxent | [Maximum entropy prior distribution](/D/prior-maxent) | JoramSoch | 2020-12-02 |
 | D122 | prior-eb | [Empirical Bayes prior distribution](/D/prior-eb) | JoramSoch | 2020-12-02 |
 | D123 | prior-ref | [Reference prior distribution](/D/prior-ref) | JoramSoch | 2020-12-02 |
+| D124 | ug | [Univariate Gaussian](/D/ug) | JoramSoch | 2021-03-03 |

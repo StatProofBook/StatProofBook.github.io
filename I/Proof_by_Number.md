@@ -207,3 +207,6 @@ title: "Proof by Number"
 | P198 | beta-mgf | [Moment-generating function of the beta distribution](/P/beta-mgf) | JoramSoch | 2020-11-25 |
 | P199 | dent-inv | [Invariance of the differential entropy under addition of a constant](/P/dent-inv) | JoramSoch | 2020-12-02 |
 | P200 | dent-add | [Addition of the differential entropy upon multiplication with a constant](/P/dent-add) | JoramSoch | 2020-12-02 |
+| P201 | ug-prior | [Conjugate prior distribution for the univariate Gaussian](/P/ug-prior) | JoramSoch | 2021-03-03 |
+| P202 | ug-post | [Posterior distribution for the univariate Gaussian](/P/ug-post) | JoramSoch | 2021-03-03 |
+| P203 | ug-lme | [Log model evidence for the univariate Gaussian](/P/ug-lme) | JoramSoch | 2021-03-03 |

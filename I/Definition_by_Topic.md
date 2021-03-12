@@ -179,6 +179,7 @@ title: "Definition by Topic"
 
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
+- [Univariate Gaussian](/D/ug)
 - [Univariate and multivariate random variable](/D/rvar-uni)
 
 ### V
