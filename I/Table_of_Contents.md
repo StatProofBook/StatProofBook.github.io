@@ -183,9 +183,20 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.3. *[Maximum likelihood estimation](/D/mle)* <br>
    &emsp;&ensp; 4.1.4. *[Maximum log-likelihood](/D/mll)* <br>
    
-   4.2. Hypothesis testing <br>
-   &emsp;&ensp; 4.2.1. *[Null hypothesis](/D/h0)* <br>
-   &emsp;&ensp; 4.2.2. *[Alternative hypothesis](/D/h1)* <br>
+   4.2. Statistical hypotheses <br>
+   &emsp;&ensp; 4.2.1. *[Statistical hypothesis](/D/hyp)* <br>
+   &emsp;&ensp; 4.2.2. *[Simple vs. composite](/D/hyp-simp)* <br>
+   &emsp;&ensp; 4.2.3. *[Point vs. set](/D/hyp-point)* <br>
+   
+   4.3. Hypothesis testing <br>
+   &emsp;&ensp; 4.3.1. *[Statistical test](/D/test)* <br>
+   &emsp;&ensp; 4.3.2. *[Null hypothesis](/D/h0)* <br>
+   &emsp;&ensp; 4.3.3. *[Alternative hypothesis](/D/h1)* <br>
+   &emsp;&ensp; 4.3.4. *[Test statistic](/D/tstat)* <br>
+   &emsp;&ensp; 4.3.5. *[Size of a test](/D/size)* <br>
+   &emsp;&ensp; 4.3.6. *[Significance level](/D/alpha)* <br>
+   &emsp;&ensp; 4.3.7. *[Critical value](/D/cval)* <br>
+   &emsp;&ensp; 4.3.8. *[p-value](/D/pval)* <br>
 
 5. Bayesian statistics
    
