@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (194 proofs)
+### JoramSoch (197 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Addition of the differential entropy upon multiplication with a constant](/P/dent-add)
@@ -118,9 +118,11 @@ title: "Proof by Author"
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
+- [One-sample t-test for independent observations](/P/ug-ttest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
+- [Paired t-test for independent observations](/P/ug-ttestp)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
 - [Partition of covariance into expected values](/P/cov-mean)
 - [Partition of sums of squares in ordinary least squares](/P/mlr-pss)
@@ -191,6 +193,7 @@ title: "Proof by Author"
 - [Second central moment is variance](/P/momcent-2nd)
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
+- [Two-sample t-test for independent observations](/P/ug-ttest2)
 - [Variance of constant is zero](/P/var-const)
 - [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the linear combination of two random variables](/P/var-lincomb)

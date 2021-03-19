@@ -375,9 +375,12 @@ title: "Table of Contents"
    
    1.1. Univariate Gaussian <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/ug)* <br>
-   &emsp;&ensp; 1.1.2. **[Conjugate prior distribution](/P/ug-prior)** <br>
-   &emsp;&ensp; 1.1.3. **[Posterior distribution](/P/ug-post)** <br>
-   &emsp;&ensp; 1.1.4. **[Log model evidence](/P/ug-lme)** <br>
+   &emsp;&ensp; 1.1.2. **[One-sample t-test](/P/ug-ttest1)** <br>
+   &emsp;&ensp; 1.1.3. **[Two-sample t-test](/P/ug-ttest2)** <br>
+   &emsp;&ensp; 1.1.4. **[Paired t-test](/P/ug-ttestp)** <br>
+   &emsp;&ensp; 1.1.5. **[Conjugate prior distribution](/P/ug-prior)** <br>
+   &emsp;&ensp; 1.1.6. **[Posterior distribution](/P/ug-post)** <br>
+   &emsp;&ensp; 1.1.7. **[Log model evidence](/P/ug-lme)** <br>
 
    1.2. Multiple linear regression <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/mlr)* <br>
