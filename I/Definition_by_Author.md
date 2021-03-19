@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (122 definitions)
+### JoramSoch (131 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -29,6 +29,7 @@ title: "Definition by Author"
 - [Correlation matrix](/D/corrmat)
 - [Covariance](/D/cov)
 - [Covariance matrix](/D/covmat)
+- [Critical value](/D/cval)
 - [Cross-entropy](/D/ent-cross)
 - [Cross-validated log model evidence](/D/cvlme)
 - [Cumulant-generating function](/D/cgf)
@@ -89,6 +90,7 @@ title: "Definition by Author"
 - [Normal distribution](/D/norm)
 - [Normal-gamma distribution](/D/ng)
 - [Null hypothesis](/D/h0)
+- [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
 - [Poisson-distributed data](/D/poiss-data)
@@ -115,11 +117,17 @@ title: "Definition by Author"
 - [Residual-forming matrix](/D/rfmat)
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)
+- [Significance level](/D/alpha)
+- [Simple and composite hypothesis](/D/hyp-simp)
+- [Size of a statistical test](/D/size)
 - [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)
 - [Standard normal distribution](/D/snorm)
 - [Standardized moment](/D/mom-stand)
+- [Statistical hypothesis](/D/hyp)
+- [Statistical hypothesis test](/D/test)
 - [Statistical independence](/D/ind)
+- [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
@@ -128,6 +136,7 @@ title: "Definition by Author"
 - [Variance](/D/var)
 - [Variational Bayesian log model evidence](/D/vblme)
 - [Wishart distribution](/D/wish)
+- [p-value](/D/pval)
 
 ### StatProofBook (1 definition)
 
