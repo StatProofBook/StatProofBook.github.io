@@ -37,6 +37,7 @@ title: "Definition by Topic"
 - [Correlation matrix](/D/corrmat)
 - [Covariance](/D/cov)
 - [Covariance matrix](/D/covmat)
+- [Critical value](/D/cval)
 - [Cross-entropy](/D/ent-cross)
 - [Cross-validated log model evidence](/D/cvlme)
 - [Cumulant-generating function](/D/cgf)
@@ -132,6 +133,7 @@ title: "Definition by Topic"
 
 ### P
 
+- [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
 - [Poisson-distributed data](/D/poiss-data)
@@ -167,14 +169,20 @@ title: "Definition by Topic"
 
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)
+- [Significance level](/D/alpha)
+- [Simple and composite hypothesis](/D/hyp-simp)
+- [Size of a statistical test](/D/size)
 - [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)
 - [Standard normal distribution](/D/snorm)
 - [Standardized moment](/D/mom-stand)
+- [Statistical hypothesis](/D/hyp)
+- [Statistical hypothesis test](/D/test)
 - [Statistical independence](/D/ind)
 
 ### T
 
+- [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
 
 ### U
@@ -193,3 +201,7 @@ title: "Definition by Topic"
 
 - [Wald distribution](/D/wald)
 - [Wishart distribution](/D/wish)
+
+### p
+
+- [p-value](/D/pval)

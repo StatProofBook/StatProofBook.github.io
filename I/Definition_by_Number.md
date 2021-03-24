@@ -133,3 +133,12 @@ title: "Definition by Number"
 | D124 | ug | [Univariate Gaussian](/D/ug) | JoramSoch | 2021-03-03 |
 | D125 | h0 | [Null hypothesis](/D/h0) | JoramSoch | 2021-03-12 |
 | D126 | h1 | [Alternative hypothesis](/D/h1) | JoramSoch | 2021-03-12 |
+| D127 | hyp | [Statistical hypothesis](/D/hyp) | JoramSoch | 2021-03-19 |
+| D128 | hyp-simp | [Simple and composite hypothesis](/D/hyp-simp) | JoramSoch | 2021-03-19 |
+| D129 | hyp-point | [Point and set hypothesis](/D/hyp-point) | JoramSoch | 2021-03-19 |
+| D130 | test | [Statistical hypothesis test](/D/test) | JoramSoch | 2021-03-19 |
+| D131 | tstat | [Test statistic](/D/tstat) | JoramSoch | 2021-03-19 |
+| D132 | size | [Size of a statistical test](/D/size) | JoramSoch | 2021-03-19 |
+| D133 | alpha | [Significance level](/D/alpha) | JoramSoch | 2021-03-19 |
+| D134 | cval | [Critical value](/D/cval) | JoramSoch | 2021-03-19 |
+| D135 | pval | [p-value](/D/pval) | JoramSoch | 2021-03-19 |
