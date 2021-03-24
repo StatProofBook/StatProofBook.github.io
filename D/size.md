@@ -9,7 +9,7 @@ date: 2021-03-19 14:46:00
 
 title: "Size of a statistical test"
 chapter: "General Theorems"
-section: "Frequentist inference"
+section: "Frequentist statistics"
 topic: "Hypothesis testing"
 definition: "Size of a test"
 

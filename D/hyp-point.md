@@ -9,7 +9,7 @@ date: 2021-03-19 14:28:00
 
 title: "Point and set hypothesis"
 chapter: "General Theorems"
-section: "Frequentist inference"
+section: "Frequentist statistics"
 topic: "Statistical hypotheses"
 definition: "Point vs. set"
 
