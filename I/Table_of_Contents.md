@@ -393,29 +393,45 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.6. **[Posterior distribution](/P/ug-post)** <br>
    &emsp;&ensp; 1.1.7. **[Log model evidence](/P/ug-lme)** <br>
 
-   1.2. Multiple linear regression <br>
-   &emsp;&ensp; 1.2.1. *[Definition](/D/mlr)* <br>
-   &emsp;&ensp; 1.2.2. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
-   &emsp;&ensp; 1.2.3. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
-   &emsp;&ensp; 1.2.4. *[Total sum of squares](/D/tss)* <br>
-   &emsp;&ensp; 1.2.5. *[Explained sum of squares](/D/ess)* <br>
-   &emsp;&ensp; 1.2.6. *[Residual sum of squares](/D/rss)* <br>
-   &emsp;&ensp; 1.2.7. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
-   &emsp;&ensp; 1.2.8. *[Estimation matrix](/D/emat)* <br>
-   &emsp;&ensp; 1.2.9. *[Projection matrix](/D/pmat)* <br>
-   &emsp;&ensp; 1.2.10. *[Residual-forming matrix](/D/rfmat)* <br>
-   &emsp;&ensp; 1.2.11. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
-   &emsp;&ensp; 1.2.12. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
-   &emsp;&ensp; 1.2.13. **[Weighted least squares](/P/mlr-wls)** (1) <br>
-   &emsp;&ensp; 1.2.14. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
-   &emsp;&ensp; 1.2.15. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   1.2. Univariate Gaussian with known variance<br>
+   &emsp;&ensp; 1.2.1. *[Definition](/D/ugkv)* <br>
+   &emsp;&ensp; 1.2.2. **[Maximum likelihood estimation](/P/ugkv-mle)** <br>
+   &emsp;&ensp; 1.2.3. **[One-sample z-test](/P/ugkv-ztest1)** <br>
+   &emsp;&ensp; 1.2.4. **[Two-sample z-test](/P/ugkv-ztest2)** <br>
+   &emsp;&ensp; 1.2.5. **[Paired z-test](/P/ugkv-ztestp)** <br>
+   &emsp;&ensp; 1.2.6. **[Conjugate prior distribution](/P/ugkv-prior)** <br>
+   &emsp;&ensp; 1.2.7. **[Posterior distribution](/P/ugkv-post)** <br>
+   &emsp;&ensp; 1.2.8. **[Log model evidence](/P/ugkv-lme)** <br>
+   &emsp;&ensp; 1.2.9. **[Accuracy and complexity](/P/ugkv-anc)** <br>
+   &emsp;&ensp; 1.2.10. **[Log Bayes factor](/P/ugkv-lbf)** <br>
+   &emsp;&ensp; 1.2.11. **[Expectation of log Bayes factor](/P/ugkv-lbfmean)** <br>
+   &emsp;&ensp; 1.2.12. **[Cross-validated log model evidence](/P/ugkv-cvlme)** <br>
+   &emsp;&ensp; 1.2.13. **[Cross-validated log Bayes factor](/P/ugkv-cvlbf)** <br>
+   &emsp;&ensp; 1.2.14. **[Expectation of cross-validated log Bayes factor](/P/ugkv-cvlbfmean)** <br>
+
+   1.3. Multiple linear regression <br>
+   &emsp;&ensp; 1.3.1. *[Definition](/D/mlr)* <br>
+   &emsp;&ensp; 1.3.2. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
+   &emsp;&ensp; 1.3.3. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
+   &emsp;&ensp; 1.3.4. *[Total sum of squares](/D/tss)* <br>
+   &emsp;&ensp; 1.3.5. *[Explained sum of squares](/D/ess)* <br>
+   &emsp;&ensp; 1.3.6. *[Residual sum of squares](/D/rss)* <br>
+   &emsp;&ensp; 1.3.7. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
+   &emsp;&ensp; 1.3.8. *[Estimation matrix](/D/emat)* <br>
+   &emsp;&ensp; 1.3.9. *[Projection matrix](/D/pmat)* <br>
+   &emsp;&ensp; 1.3.10. *[Residual-forming matrix](/D/rfmat)* <br>
+   &emsp;&ensp; 1.3.11. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
+   &emsp;&ensp; 1.3.12. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
+   &emsp;&ensp; 1.3.13. **[Weighted least squares](/P/mlr-wls)** (1) <br>
+   &emsp;&ensp; 1.3.14. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
+   &emsp;&ensp; 1.3.15. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
    
-   1.3. Bayesian linear regression <br>
-   &emsp;&ensp; 1.3.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
-   &emsp;&ensp; 1.3.2. **[Posterior distribution](/P/blr-post)** <br>
-   &emsp;&ensp; 1.3.3. **[Log model evidence](/P/blr-lme)** <br>
-   &emsp;&ensp; 1.3.4. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
-   &emsp;&ensp; 1.3.5. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
+   1.4. Bayesian linear regression <br>
+   &emsp;&ensp; 1.4.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
+   &emsp;&ensp; 1.4.2. **[Posterior distribution](/P/blr-post)** <br>
+   &emsp;&ensp; 1.4.3. **[Log model evidence](/P/blr-lme)** <br>
+   &emsp;&ensp; 1.4.4. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
+   &emsp;&ensp; 1.4.5. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
    
 2. Multivariate normal data
    
