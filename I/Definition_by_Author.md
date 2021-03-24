@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (131 definitions)
+### JoramSoch (132 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -132,6 +132,7 @@ title: "Definition by Author"
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
 - [Univariate Gaussian](/D/ug)
+- [Univariate Gaussian with known variance](/D/ugkv)
 - [Univariate and multivariate random variable](/D/rvar-uni)
 - [Variance](/D/var)
 - [Variational Bayesian log model evidence](/D/vblme)

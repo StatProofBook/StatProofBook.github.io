@@ -10,6 +10,7 @@ title: "Proof by Topic"
 
 ### A
 
+- [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
 - [Addition of the differential entropy upon multiplication with a constant](/P/dent-add)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
 - [Additivity of the variance for independent random variables](/P/var-add)
@@ -32,11 +33,14 @@ title: "Proof by Topic"
 - [Conjugate prior distribution for multivariate Bayesian linear regression](/P/mblr-prior)
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
 - [Conjugate prior distribution for the univariate Gaussian](/P/ug-prior)
+- [Conjugate prior distribution for the univariate Gaussian with known variance](/P/ugkv-prior)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Covariance of independent random variables](/P/cov-ind)
+- [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf)
+- [Cross-validated log model evidence for the univariate Gaussian with known variance](/P/ugkv-cvlme)
 - [Cumulative distribution function in terms of probability density function of a continuous random variable](/P/cdf-pdf)
 - [Cumulative distribution function in terms of probability mass function of a discrete random variable](/P/cdf-pmf)
 - [Cumulative distribution function of a strictly decreasing function of a random variable](/P/cdf-sdfct)
@@ -67,6 +71,8 @@ title: "Proof by Topic"
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep)
 - [Expectation of a quadratic form](/P/mean-qf)
+- [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
+- [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
@@ -107,6 +113,7 @@ title: "Proof by Topic"
 - [Linear transformation theorem for the moment-generating function](/P/mgf-ltt)
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
 - [Linearity of the expected value](/P/mean-lin)
+- [Log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbf)
 - [Log Bayes factor in terms of log model evidences](/P/lbf-lme)
 - [Log family evidences in terms of log model evidences](/P/lfe-lme)
 - [Log model evidence for Bayesian linear regression](/P/blr-lme)
@@ -115,6 +122,7 @@ title: "Proof by Topic"
 - [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log model evidence for the univariate Gaussian](/P/ug-lme)
+- [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
 - [Log sum inequality](/P/logsum-ineq)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
@@ -128,6 +136,7 @@ title: "Proof by Topic"
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
+- [Maximum likelihood estimation for the univariate Gaussian with known variance](/P/ugkv-mle)
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the Poisson distribution](/P/poiss-mean)
@@ -166,13 +175,15 @@ title: "Proof by Topic"
 ### O
 
 - [One-sample t-test for independent observations](/P/ug-ttest1)
+- [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 
 ### P
 
-- [Paired t-test for independent observations](/P/ug-ttestp)
+- [Paired t-test for dependent observations](/P/ug-ttestp)
+- [Paired z-test for dependent observations](/P/ugkv-ztestp)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
 - [Partition of covariance into expected values](/P/cov-mean)
 - [Partition of sums of squares in ordinary least squares](/P/mlr-pss)
@@ -187,6 +198,7 @@ title: "Proof by Topic"
 - [Posterior distribution for multivariate Bayesian linear regression](/P/mblr-post)
 - [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post)
 - [Posterior distribution for the univariate Gaussian](/P/ug-post)
+- [Posterior distribution for the univariate Gaussian with known variance](/P/ugkv-post)
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
@@ -260,6 +272,7 @@ title: "Proof by Topic"
 - [Transitivity of Bayes Factors](/P/bf-trans)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
 - [Two-sample t-test for independent observations](/P/ug-ttest2)
+- [Two-sample z-test for independent observations](/P/ugkv-ztest2)
 
 ### V
 
