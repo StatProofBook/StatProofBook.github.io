@@ -33,6 +33,6 @@ username: "JoramSoch"
 
 * A set of zero or more outcomes is called a [random event](/D/reve).
 
-* A function that maps from events to probabilities is called a [probability function](/D/pmf).
+* A function that maps from events to probabilities is called a [probability function](/D/dist).
 
 Together, sample space, event space and probability function characterize a random experiment.

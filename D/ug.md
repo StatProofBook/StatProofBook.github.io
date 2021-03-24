@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** A univariate Gaussian data set is given by a set of real numbers $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$, independent and identically distributed according to a [normal distribution](/D/norm) with mean $\mu$ and variance $\sigma^2$:
+**Definition:** A univariate Gaussian data set is given by a set of real numbers $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$, independent and identically distributed according to a [normal distribution](/D/norm) with unknown mean $\mu$ and unknown variance $\sigma^2$:
 
 $$ \label{eq:ug}
 y_i \sim \mathcal{N}(\mu, \sigma^2), \quad i = 1, \ldots, n \; .

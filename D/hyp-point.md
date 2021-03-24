@@ -35,7 +35,7 @@ $$ \label{eq:hyp-point}
 H: \; \theta = \theta^{*} \; ;
 $$
 
-* $H$ is called a set hypothesis or inexact hypothesis, if it specifies a set of possible values with more than two elements for the parameter value (e.g. a range or an interval):
+* $H$ is called a set hypothesis or inexact hypothesis, if it specifies a set of possible values with more than one element for the parameter value (e.g. a range or an interval):
 
 $$ \label{eq:hyp-non-point}
 H: \; \theta \in \Theta^{*} \; .

@@ -88,7 +88,7 @@ $$ \label{eq:Poiss-dLLdl}
 \end{split}
 $$
 
-Plugging this value into the second deriative, we confirm:
+Plugging this value into the second derivative, we confirm:
 
 $$ \label{eq:Poiss-d2LLdl2}
 \begin{split}

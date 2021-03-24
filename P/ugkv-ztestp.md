@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2021-03-24 05:10:00
 
-title: "Paired z-test for independent observations"
+title: "Paired z-test for dependent observations"
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Univariate Gaussian with known variance"
