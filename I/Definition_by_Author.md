@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (132 definitions)
+### JoramSoch (136 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -90,12 +90,15 @@ title: "Definition by Author"
 - [Normal distribution](/D/norm)
 - [Normal-gamma distribution](/D/ng)
 - [Null hypothesis](/D/h0)
+- [One-tailed and two-tailed hypothesis](/D/hyp-tail)
+- [One-tailed and two-tailed test](/D/test-tail)
 - [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
 - [Poisson-distributed data](/D/poiss-data)
 - [Posterior distribution](/D/post)
 - [Posterior model probability](/D/pmp)
+- [Power of a statistical test](/D/power)
 - [Precision matrix](/D/precmat)
 - [Prior distribution](/D/prior)
 - [Probability](/D/prob)
@@ -115,6 +118,7 @@ title: "Definition by Author"
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)
+- [Sampling distribution](/D/dist-samp)
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)
 - [Significance level](/D/alpha)
