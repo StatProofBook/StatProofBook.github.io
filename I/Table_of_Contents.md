@@ -40,6 +40,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.2. *[Joint distribution](/D/dist-joint)* <br>
    &emsp;&ensp; 1.3.3. *[Marginal distribution](/D/dist-marg)* <br>
    &emsp;&ensp; 1.3.4. *[Conditional distribution](/D/dist-cond)* <br>
+   &emsp;&ensp; 1.3.5. *[Sampling distribution](/D/dist-samp)* <br>
    
    1.4. Probability functions <br>
    &emsp;&ensp; 1.4.1. *[Probability mass function](/D/pmf)* <br>
@@ -187,16 +188,19 @@ title: "Table of Contents"
    &emsp;&ensp; 4.2.1. *[Statistical hypothesis](/D/hyp)* <br>
    &emsp;&ensp; 4.2.2. *[Simple vs. composite](/D/hyp-simp)* <br>
    &emsp;&ensp; 4.2.3. *[Point vs. set](/D/hyp-point)* <br>
+   &emsp;&ensp; 4.2.4. *[One-tailed vs. two-tailed](/D/hyp-tail)* <br>
    
    4.3. Hypothesis testing <br>
    &emsp;&ensp; 4.3.1. *[Statistical test](/D/test)* <br>
    &emsp;&ensp; 4.3.2. *[Null hypothesis](/D/h0)* <br>
    &emsp;&ensp; 4.3.3. *[Alternative hypothesis](/D/h1)* <br>
-   &emsp;&ensp; 4.3.4. *[Test statistic](/D/tstat)* <br>
-   &emsp;&ensp; 4.3.5. *[Size of a test](/D/size)* <br>
-   &emsp;&ensp; 4.3.6. *[Significance level](/D/alpha)* <br>
-   &emsp;&ensp; 4.3.7. *[Critical value](/D/cval)* <br>
-   &emsp;&ensp; 4.3.8. *[p-value](/D/pval)* <br>
+   &emsp;&ensp; 4.3.4. *[One-tailed vs. two-tailed test](/D/test-tail)* <br>
+   &emsp;&ensp; 4.3.5. *[Test statistic](/D/tstat)* <br>
+   &emsp;&ensp; 4.3.6. *[Size of a test](/D/size)* <br>
+   &emsp;&ensp; 4.3.7. *[Power of a test](/D/power)* <br>
+   &emsp;&ensp; 4.3.8. *[Significance level](/D/alpha)* <br>
+   &emsp;&ensp; 4.3.9. *[Critical value](/D/cval)* <br>
+   &emsp;&ensp; 4.3.10. *[p-value](/D/pval)* <br>
 
 5. Bayesian statistics
    
