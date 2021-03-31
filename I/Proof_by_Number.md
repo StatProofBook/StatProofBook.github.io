@@ -212,4 +212,17 @@ title: "Proof by Number"
 | P203 | ug-lme | [Log model evidence for the univariate Gaussian](/P/ug-lme) | JoramSoch | 2021-03-03 |
 | P204 | ug-ttest1 | [One-sample t-test for independent observations](/P/ug-ttest1) | JoramSoch | 2021-03-12 |
 | P205 | ug-ttest2 | [Two-sample t-test for independent observations](/P/ug-ttest2) | JoramSoch | 2021-03-12 |
-| P206 | ug-ttestp | [Paired t-test for independent observations](/P/ug-ttestp) | JoramSoch | 2021-03-12 |
+| P206 | ug-ttestp | [Paired t-test for dependent observations](/P/ug-ttestp) | JoramSoch | 2021-03-12 |
+| P207 | ugkv-mle | [Maximum likelihood estimation for the univariate Gaussian with known variance](/P/ugkv-mle) | JoramSoch | 2021-03-24 |
+| P208 | ugkv-ztest1 | [One-sample z-test for independent observations](/P/ugkv-ztest1) | JoramSoch | 2021-03-24 |
+| P209 | ugkv-ztest2 | [Two-sample z-test for independent observations](/P/ugkv-ztest2) | JoramSoch | 2021-03-24 |
+| P210 | ugkv-ztestp | [Paired z-test for dependent observations](/P/ugkv-ztestp) | JoramSoch | 2021-03-24 |
+| P211 | ugkv-prior | [Conjugate prior distribution for the univariate Gaussian with known variance](/P/ugkv-prior) | JoramSoch | 2021-03-24 |
+| P212 | ugkv-post | [Posterior distribution for the univariate Gaussian with known variance](/P/ugkv-post) | JoramSoch | 2021-03-24 |
+| P213 | ugkv-lme | [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme) | JoramSoch | 2021-03-24 |
+| P214 | ugkv-anc | [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc) | JoramSoch | 2021-03-24 |
+| P215 | ugkv-lbf | [Log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbf) | JoramSoch | 2021-03-24 |
+| P216 | ugkv-lbfmean | [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean) | JoramSoch | 2021-03-24 |
+| P217 | ugkv-cvlme | [Cross-validated log model evidence for the univariate Gaussian with known variance](/P/ugkv-cvlme) | JoramSoch | 2021-03-24 |
+| P218 | ugkv-cvlbf | [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf) | JoramSoch | 2021-03-24 |
+| P219 | ugkv-cvlbfmean | [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean) | JoramSoch | 2021-03-24 |

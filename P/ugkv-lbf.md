@@ -71,11 +71,11 @@ $$
 
 where the [posterior hyperparameters](/D/post) [are given by](/P/ugkv-post)
 
-\begin{equation} \label{eq:UGkv-post-par}
+$$ \label{eq:UGkv-post-par}
 \begin{split}
 \mu_n &= \frac{\lambda_0 \mu_0 + \tau n \bar{y}}{\lambda_0 + \tau n} \\
 \lambda_n &= \lambda_0 + \tau n
 \end{split}
-\end{equation}
+$$
 
 with the [sample mean](/D/mean-samp) $\bar{y}$ and the [inverse variance or precision](/D/prec) $\tau = 1/\sigma^2$.

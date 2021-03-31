@@ -142,3 +142,4 @@ title: "Definition by Number"
 | D133 | alpha | [Significance level](/D/alpha) | JoramSoch | 2021-03-19 |
 | D134 | cval | [Critical value](/D/cval) | JoramSoch | 2021-03-19 |
 | D135 | pval | [p-value](/D/pval) | JoramSoch | 2021-03-19 |
+| D136 | ugkv | [Univariate Gaussian with known variance](/D/ugkv) | JoramSoch | 2021-03-23 |

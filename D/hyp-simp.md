@@ -9,7 +9,7 @@ date: 2021-03-19 14:24:00
 
 title: "Simple and composite hypothesis"
 chapter: "General Theorems"
-section: "Frequentist inference"
+section: "Frequentist statistics"
 topic: "Statistical hypotheses"
 definition: "Simple vs. composite"
 

@@ -9,7 +9,7 @@ date: 2021-03-19 14:54:00
 
 title: "Critical value"
 chapter: "General Theorems"
-section: "Frequentist inference"
+section: "Frequentist statistics"
 topic: "Hypothesis testing"
 definition: "Critical value"
 

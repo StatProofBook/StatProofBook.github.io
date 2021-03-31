@@ -7,11 +7,11 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2021-03-24 06:10:00
 
-title: "Conjugate prior distribution for the univariate Gaussian with known variance"
+title: "Posterior distribution for the univariate Gaussian with known variance"
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Univariate Gaussian with known variance"
-theorem: "Conjugate prior distribution"
+theorem: "Posterior distribution"
 
 sources:
   - authors: "Bishop, Christopher M."

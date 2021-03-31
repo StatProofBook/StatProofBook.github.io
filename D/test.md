@@ -9,7 +9,7 @@ date: 2021-03-19 14:36:00
 
 title: "Statistical hypothesis test"
 chapter: "General Theorems"
-section: "Frequentist inference"
+section: "Frequentist statistics"
 topic: "Hypothesis testing"
 definition: "Statistical test"
 

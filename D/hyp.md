@@ -9,7 +9,7 @@ date: 2021-03-19 14:18:00
 
 title: "Statistical hypothesis"
 chapter: "General Theorems"
-section: "Frequentist inference"
+section: "Frequentist statistics"
 topic: "Statistical hypotheses"
 definition: "Statistical hypothesis"
 
