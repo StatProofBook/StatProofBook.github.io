@@ -55,13 +55,17 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.10. **[Cumulative distribution function of strictly decreasing function](/P/cdf-sdfct)** <br>
    &emsp;&ensp; 1.4.11. **[Cumulative distribution function of discrete random variable](/P/cdf-pmf)** <br>
    &emsp;&ensp; 1.4.12. **[Cumulative distribution function of continuous random variable](/P/cdf-pdf)** <br>
-   &emsp;&ensp; 1.4.13. *[Quantile function](/D/qf)* <br>
-   &emsp;&ensp; 1.4.14. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
-   &emsp;&ensp; 1.4.15. *[Moment-generating function](/D/mgf)* <br>
-   &emsp;&ensp; 1.4.16. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
-   &emsp;&ensp; 1.4.17. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
-   &emsp;&ensp; 1.4.18. *[Cumulant-generating function](/D/cgf)* <br>
-   &emsp;&ensp; 1.4.19. *[Probability-generating function](/D/pgf)* <br>
+   &emsp;&ensp; 1.4.13. **[Probability integral transform](/P/cdf-pit)** <br>
+   &emsp;&ensp; 1.4.14. **[Inverse transformation method](/P/cdf-itm)** <br>
+   &emsp;&ensp; 1.4.15. **[Distributional transformation](/P/cdf-dt)** <br>
+   &emsp;&ensp; 1.4.16. *[Joint cumulative distribution function](/D/cdf-joint)* <br>
+   &emsp;&ensp; 1.4.17. *[Quantile function](/D/qf)* <br>
+   &emsp;&ensp; 1.4.18. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
+   &emsp;&ensp; 1.4.19. *[Moment-generating function](/D/mgf)* <br>
+   &emsp;&ensp; 1.4.20. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
+   &emsp;&ensp; 1.4.21. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
+   &emsp;&ensp; 1.4.22. *[Cumulant-generating function](/D/cgf)* <br>
+   &emsp;&ensp; 1.4.23. *[Probability-generating function](/D/pgf)* <br>
    
    1.5. Expected value <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mean)* <br>
