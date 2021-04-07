@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a [continuous](/D/rvar-disc) [random variable](/D/rvar) with invertible [cumulative distribution function](/D/cdf) $F_X(x)$. Then, the [random variable](/D/rvar)
+**Theorem:** Let $X$ be a [continuous](/D/rvar-disc) [random variable](/D/rvar) with [invertible](/D/qf) [cumulative distribution function](/D/cdf) $F_X(x)$. Then, the [random variable](/D/rvar)
 
 $$ \label{eq:cdf-pit}
 Y = F_X(X)
