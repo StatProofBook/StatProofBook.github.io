@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (210 proofs)
+### JoramSoch (213 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -51,6 +51,7 @@ title: "Proof by Author"
 - [Differential entropy can be negative](/P/dent-neg)
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
+- [Distributional transformation using cumulative distribution function](/P/cdf-dt)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep)
 - [Expectation of a quadratic form](/P/mean-qf)
@@ -68,6 +69,7 @@ title: "Proof by Author"
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
 - [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
+- [Inverse transformation method using cumulative distribution function](/P/cdf-itm)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
 - [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl)
@@ -167,6 +169,7 @@ title: "Proof by Author"
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
 - [Probability density function of the normal-gamma distribution](/P/ng-pdf)
+- [Probability integral transform using cumulative distribution function](/P/cdf-pit)
 - [Probability mass function of a strictly decreasing function of a discrete random variable](/P/pmf-sdfct)
 - [Probability mass function of a strictly increasing function of a discrete random variable](/P/pmf-sifct)
 - [Probability mass function of the Bernoulli distribution](/P/bern-pmf)

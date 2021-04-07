@@ -84,6 +84,7 @@ title: "Definition by Topic"
 
 ### J
 
+- [Joint cumulative distribution function](/D/cdf-joint)
 - [Joint differential entropy](/D/dent-joint)
 - [Joint entropy](/D/ent-joint)
 - [Joint likelihood](/D/jl)
