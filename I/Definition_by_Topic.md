@@ -131,6 +131,11 @@ title: "Definition by Topic"
 - [Normal-gamma distribution](/D/ng)
 - [Null hypothesis](/D/h0)
 
+### O
+
+- [One-tailed and two-tailed hypothesis](/D/hyp-tail)
+- [One-tailed and two-tailed test](/D/test-tail)
+
 ### P
 
 - [Point and set hypothesis](/D/hyp-point)
@@ -139,6 +144,7 @@ title: "Definition by Topic"
 - [Poisson-distributed data](/D/poiss-data)
 - [Posterior distribution](/D/post)
 - [Posterior model probability](/D/pmp)
+- [Power of a statistical test](/D/power)
 - [Precision matrix](/D/precmat)
 - [Prior distribution](/D/prior)
 - [Probability](/D/prob)
@@ -167,6 +173,7 @@ title: "Definition by Topic"
 
 ### S
 
+- [Sampling distribution](/D/dist-samp)
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)
 - [Significance level](/D/alpha)

@@ -11,7 +11,7 @@ title: "One-tailed and two-tailed test"
 chapter: "General Theorems"
 section: "Frequentist statistics"
 topic: "Hypothesis testing"
-definition: "One-tailed vs. two-tailed test"
+definition: "One-tailed vs. two-tailed"
 
 sources:
   - authors: "Wikipedia"

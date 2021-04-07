@@ -187,14 +187,14 @@ title: "Table of Contents"
    4.2. Statistical hypotheses <br>
    &emsp;&ensp; 4.2.1. *[Statistical hypothesis](/D/hyp)* <br>
    &emsp;&ensp; 4.2.2. *[Simple vs. composite](/D/hyp-simp)* <br>
-   &emsp;&ensp; 4.2.3. *[Point vs. set](/D/hyp-point)* <br>
+   &emsp;&ensp; 4.2.3. *[Point/exact vs. set/inexact](/D/hyp-point)* <br>
    &emsp;&ensp; 4.2.4. *[One-tailed vs. two-tailed](/D/hyp-tail)* <br>
    
    4.3. Hypothesis testing <br>
    &emsp;&ensp; 4.3.1. *[Statistical test](/D/test)* <br>
    &emsp;&ensp; 4.3.2. *[Null hypothesis](/D/h0)* <br>
    &emsp;&ensp; 4.3.3. *[Alternative hypothesis](/D/h1)* <br>
-   &emsp;&ensp; 4.3.4. *[One-tailed vs. two-tailed test](/D/test-tail)* <br>
+   &emsp;&ensp; 4.3.4. *[One-tailed vs. two-tailed](/D/test-tail)* <br>
    &emsp;&ensp; 4.3.5. *[Test statistic](/D/tstat)* <br>
    &emsp;&ensp; 4.3.6. *[Size of a test](/D/size)* <br>
    &emsp;&ensp; 4.3.7. *[Power of a test](/D/power)* <br>

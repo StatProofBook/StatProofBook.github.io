@@ -143,3 +143,7 @@ title: "Definition by Number"
 | D134 | cval | [Critical value](/D/cval) | JoramSoch | 2021-03-19 |
 | D135 | pval | [p-value](/D/pval) | JoramSoch | 2021-03-19 |
 | D136 | ugkv | [Univariate Gaussian with known variance](/D/ugkv) | JoramSoch | 2021-03-23 |
+| D137 | power | [Power of a statistical test](/D/power) | JoramSoch | 2021-03-31 |
+| D138 | hyp-tail | [One-tailed and two-tailed hypothesis](/D/hyp-tail) | JoramSoch | 2021-03-31 |
+| D139 | test-tail | [One-tailed and two-tailed test](/D/test-tail) | JoramSoch | 2021-03-31 |
+| D140 | dist-samp | [Sampling distribution](/D/dist-samp) | JoramSoch | 2021-03-31 |

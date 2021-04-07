@@ -11,7 +11,7 @@ title: "Point and set hypothesis"
 chapter: "General Theorems"
 section: "Frequentist statistics"
 topic: "Statistical hypotheses"
-definition: "Point vs. set"
+definition: "Point/exact vs. set/inexact"
 
 sources:
   - authors: "Wikipedia"
