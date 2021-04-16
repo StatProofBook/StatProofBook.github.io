@@ -69,25 +69,27 @@ title: "Table of Contents"
    
    1.5. Expected value <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mean)* <br>
-   &emsp;&ensp; 1.5.2. **[Non-negative random variable](/P/mean-nnrvar)** <br>
-   &emsp;&ensp; 1.5.3. **[Non-negativity](/P/mean-nonneg)** <br>
-   &emsp;&ensp; 1.5.4. **[Linearity](/P/mean-lin)** <br>
-   &emsp;&ensp; 1.5.5. **[Monotonicity](/P/mean-mono)** <br>
-   &emsp;&ensp; 1.5.6. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
-   &emsp;&ensp; 1.5.7. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.5.8. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.5.2. *[Sample mean](/D/mean-samp)* <br>
+   &emsp;&ensp; 1.5.3. **[Non-negative random variable](/P/mean-nnrvar)** <br>
+   &emsp;&ensp; 1.5.4. **[Non-negativity](/P/mean-nonneg)** <br>
+   &emsp;&ensp; 1.5.5. **[Linearity](/P/mean-lin)** <br>
+   &emsp;&ensp; 1.5.6. **[Monotonicity](/P/mean-mono)** <br>
+   &emsp;&ensp; 1.5.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
+   &emsp;&ensp; 1.5.8. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.5.9. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
    
    1.6. Variance <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/var)* <br>
-   &emsp;&ensp; 1.6.2. **[Partition into expected values](/P/var-mean)** <br>
-   &emsp;&ensp; 1.6.3. **[Non-negativity](/P/var-nonneg)** <br>
-   &emsp;&ensp; 1.6.4. **[Variance of a constant](/P/var-const)** <br>
-   &emsp;&ensp; 1.6.5. **[Variance equals zero](/P/var-zero)** <br>
-   &emsp;&ensp; 1.6.6. **[Invariance under addition](/P/var-inv)** <br>
-   &emsp;&ensp; 1.6.7. **[Scaling upon multiplication](/P/var-scal)** <br>
-   &emsp;&ensp; 1.6.8. **[Variance of a sum](/P/var-sum)** <br>
-   &emsp;&ensp; 1.6.9. **[Variance of linear combination](/P/var-lincomb)** <br>
-   &emsp;&ensp; 1.6.10. **[Additivity under independence](/P/var-add)** <br>
+   &emsp;&ensp; 1.6.2. *[Sample variance](/D/var-samp)* <br>
+   &emsp;&ensp; 1.6.3. **[Partition into expected values](/P/var-mean)** <br>
+   &emsp;&ensp; 1.6.4. **[Non-negativity](/P/var-nonneg)** <br>
+   &emsp;&ensp; 1.6.5. **[Variance of a constant](/P/var-const)** <br>
+   &emsp;&ensp; 1.6.6. **[Variance equals zero](/P/var-zero)** <br>
+   &emsp;&ensp; 1.6.7. **[Invariance under addition](/P/var-inv)** <br>
+   &emsp;&ensp; 1.6.8. **[Scaling upon multiplication](/P/var-scal)** <br>
+   &emsp;&ensp; 1.6.9. **[Variance of a sum](/P/var-sum)** <br>
+   &emsp;&ensp; 1.6.10. **[Variance of linear combination](/P/var-lincomb)** <br>
+   &emsp;&ensp; 1.6.11. **[Additivity under independence](/P/var-add)** <br>
    
    1.7. Covariance <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/cov)* <br>
@@ -394,12 +396,13 @@ title: "Table of Contents"
    
    1.1. Univariate Gaussian <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/ug)* <br>
-   &emsp;&ensp; 1.1.2. **[One-sample t-test](/P/ug-ttest1)** <br>
-   &emsp;&ensp; 1.1.3. **[Two-sample t-test](/P/ug-ttest2)** <br>
-   &emsp;&ensp; 1.1.4. **[Paired t-test](/P/ug-ttestp)** <br>
-   &emsp;&ensp; 1.1.5. **[Conjugate prior distribution](/P/ug-prior)** <br>
-   &emsp;&ensp; 1.1.6. **[Posterior distribution](/P/ug-post)** <br>
-   &emsp;&ensp; 1.1.7. **[Log model evidence](/P/ug-lme)** <br>
+   &emsp;&ensp; 1.1.2. **[Maximum likelihood estimation](/P/ug-mle)** <br>
+   &emsp;&ensp; 1.1.3. **[One-sample t-test](/P/ug-ttest1)** <br>
+   &emsp;&ensp; 1.1.4. **[Two-sample t-test](/P/ug-ttest2)** <br>
+   &emsp;&ensp; 1.1.5. **[Paired t-test](/P/ug-ttestp)** <br>
+   &emsp;&ensp; 1.1.6. **[Conjugate prior distribution](/P/ug-prior)** <br>
+   &emsp;&ensp; 1.1.7. **[Posterior distribution](/P/ug-post)** <br>
+   &emsp;&ensp; 1.1.8. **[Log model evidence](/P/ug-lme)** <br>
 
    1.2. Univariate Gaussian with known variance<br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/ugkv)* <br>
@@ -462,9 +465,10 @@ title: "Table of Contents"
    
    3.2. Poisson distribution with exposure values <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/poissexp)* <br>
-   &emsp;&ensp; 3.2.2. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
-   &emsp;&ensp; 3.2.3. **[Posterior distribution](/P/poissexp-post)** <br>
-   &emsp;&ensp; 3.2.4. **[Log model evidence](/P/poissexp-lme)** <br>
+   &emsp;&ensp; 3.2.2. **[Maximum likelihood estimation](/P/poissexp-mle)** <br>
+   &emsp;&ensp; 3.2.3. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
+   &emsp;&ensp; 3.2.4. **[Posterior distribution](/P/poissexp-post)** <br>
+   &emsp;&ensp; 3.2.5. **[Log model evidence](/P/poissexp-lme)** <br>
    
 4. Probability data
 
