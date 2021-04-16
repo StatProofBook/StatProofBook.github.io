@@ -64,6 +64,7 @@ title: "Proof by Topic"
 - [Differential entropy can be negative](/P/dent-neg)
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
+- [Distributional transformation using cumulative distribution function](/P/cdf-dt)
 
 ### E
 
@@ -94,6 +95,7 @@ title: "Proof by Topic"
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
 - [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
+- [Inverse transformation method using cumulative distribution function](/P/cdf-itm)
 
 ### J
 
@@ -218,6 +220,7 @@ title: "Proof by Topic"
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
 - [Probability density function of the normal-gamma distribution](/P/ng-pdf)
+- [Probability integral transform using cumulative distribution function](/P/cdf-pit)
 - [Probability mass function of a strictly decreasing function of a discrete random variable](/P/pmf-sdfct)
 - [Probability mass function of a strictly increasing function of a discrete random variable](/P/pmf-sifct)
 - [Probability mass function of the Bernoulli distribution](/P/bern-pmf)

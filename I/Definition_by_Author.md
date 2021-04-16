@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (136 definitions)
+### JoramSoch (137 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -56,6 +56,7 @@ title: "Definition by Author"
 - [General linear model](/D/glm)
 - [Generative model](/D/gm)
 - [Informative and non-informative prior distribution](/D/prior-inf)
+- [Joint cumulative distribution function](/D/cdf-joint)
 - [Joint differential entropy](/D/dent-joint)
 - [Joint entropy](/D/ent-joint)
 - [Joint likelihood](/D/jl)

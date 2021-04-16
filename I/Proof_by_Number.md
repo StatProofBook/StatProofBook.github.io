@@ -226,3 +226,6 @@ title: "Proof by Number"
 | P217 | ugkv-cvlme | [Cross-validated log model evidence for the univariate Gaussian with known variance](/P/ugkv-cvlme) | JoramSoch | 2021-03-24 |
 | P218 | ugkv-cvlbf | [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf) | JoramSoch | 2021-03-24 |
 | P219 | ugkv-cvlbfmean | [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean) | JoramSoch | 2021-03-24 |
+| P220 | cdf-pit | [Probability integral transform using cumulative distribution function](/P/cdf-pit) | JoramSoch | 2021-04-07 |
+| P221 | cdf-itm | [Inverse transformation method using cumulative distribution function](/P/cdf-itm) | JoramSoch | 2021-04-07 |
+| P222 | cdf-dt | [Distributional transformation using cumulative distribution function](/P/cdf-dt) | JoramSoch | 2021-04-07 |

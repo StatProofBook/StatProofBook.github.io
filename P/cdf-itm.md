@@ -33,7 +33,7 @@ $$ \label{eq:cdf-itm}
 X = F_X^{-1}(U)
 $$
 
-has a [probability distribution](/D/dist) characterized by the invertible [cumulative distribution function](/D/cdf) $F_X(x)$.
+has a [probability distribution](/D/dist) characterized by the [invertible](/D/qf) [cumulative distribution function](/D/cdf) $F_X(x)$.
 
 
 **Proof:** The [cumulative distribution function](/D/cdf) of the transformation $X = F_X^{-1}(U)$ can be derived as

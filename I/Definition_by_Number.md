@@ -147,3 +147,4 @@ title: "Definition by Number"
 | D138 | hyp-tail | [One-tailed and two-tailed hypothesis](/D/hyp-tail) | JoramSoch | 2021-03-31 |
 | D139 | test-tail | [One-tailed and two-tailed test](/D/test-tail) | JoramSoch | 2021-03-31 |
 | D140 | dist-samp | [Sampling distribution](/D/dist-samp) | JoramSoch | 2021-03-31 |
+| D141 | cdf-joint | [Joint cumulative distribution function](/D/cdf-joint) | JoramSoch | 2020-04-07 |
