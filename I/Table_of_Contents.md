@@ -69,25 +69,27 @@ title: "Table of Contents"
    
    1.5. Expected value <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mean)* <br>
-   &emsp;&ensp; 1.5.2. **[Non-negative random variable](/P/mean-nnrvar)** <br>
-   &emsp;&ensp; 1.5.3. **[Non-negativity](/P/mean-nonneg)** <br>
-   &emsp;&ensp; 1.5.4. **[Linearity](/P/mean-lin)** <br>
-   &emsp;&ensp; 1.5.5. **[Monotonicity](/P/mean-mono)** <br>
-   &emsp;&ensp; 1.5.6. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
-   &emsp;&ensp; 1.5.7. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.5.8. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.5.2. *[Sample mean](/D/mean-samp)* <br>
+   &emsp;&ensp; 1.5.3. **[Non-negative random variable](/P/mean-nnrvar)** <br>
+   &emsp;&ensp; 1.5.4. **[Non-negativity](/P/mean-nonneg)** <br>
+   &emsp;&ensp; 1.5.5. **[Linearity](/P/mean-lin)** <br>
+   &emsp;&ensp; 1.5.6. **[Monotonicity](/P/mean-mono)** <br>
+   &emsp;&ensp; 1.5.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
+   &emsp;&ensp; 1.5.8. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.5.9. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
    
    1.6. Variance <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/var)* <br>
-   &emsp;&ensp; 1.6.2. **[Partition into expected values](/P/var-mean)** <br>
-   &emsp;&ensp; 1.6.3. **[Non-negativity](/P/var-nonneg)** <br>
-   &emsp;&ensp; 1.6.4. **[Variance of a constant](/P/var-const)** <br>
-   &emsp;&ensp; 1.6.5. **[Variance equals zero](/P/var-zero)** <br>
-   &emsp;&ensp; 1.6.6. **[Invariance under addition](/P/var-inv)** <br>
-   &emsp;&ensp; 1.6.7. **[Scaling upon multiplication](/P/var-scal)** <br>
-   &emsp;&ensp; 1.6.8. **[Variance of a sum](/P/var-sum)** <br>
-   &emsp;&ensp; 1.6.9. **[Variance of linear combination](/P/var-lincomb)** <br>
-   &emsp;&ensp; 1.6.10. **[Additivity under independence](/P/var-add)** <br>
+   &emsp;&ensp; 1.6.2. *[Sample variance](/D/var-samp)* <br>
+   &emsp;&ensp; 1.6.3. **[Partition into expected values](/P/var-mean)** <br>
+   &emsp;&ensp; 1.6.4. **[Non-negativity](/P/var-nonneg)** <br>
+   &emsp;&ensp; 1.6.5. **[Variance of a constant](/P/var-const)** <br>
+   &emsp;&ensp; 1.6.6. **[Variance equals zero](/P/var-zero)** <br>
+   &emsp;&ensp; 1.6.7. **[Invariance under addition](/P/var-inv)** <br>
+   &emsp;&ensp; 1.6.8. **[Scaling upon multiplication](/P/var-scal)** <br>
+   &emsp;&ensp; 1.6.9. **[Variance of a sum](/P/var-sum)** <br>
+   &emsp;&ensp; 1.6.10. **[Variance of linear combination](/P/var-lincomb)** <br>
+   &emsp;&ensp; 1.6.11. **[Additivity under independence](/P/var-add)** <br>
    
    1.7. Covariance <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/cov)* <br>
