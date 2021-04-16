@@ -36,6 +36,7 @@ title: "Proofs without Source"
 - [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
+- [Maximum likelihood estimation for the Poisson distribution with exposure values](/P/poissexp-mle)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
 - [Mean of the Wald distribution](/P/wald-mean)
 - [Mean of the categorical distribution](/P/cat-mean)
