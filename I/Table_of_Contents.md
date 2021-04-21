@@ -90,17 +90,19 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.9. **[Variance of a sum](/P/var-sum)** <br>
    &emsp;&ensp; 1.6.10. **[Variance of linear combination](/P/var-lincomb)** <br>
    &emsp;&ensp; 1.6.11. **[Additivity under independence](/P/var-add)** <br>
+   &emsp;&ensp; 1.6.12. *[Precision](/D/prec)* <br>
    
    1.7. Covariance <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/cov)* <br>
-   &emsp;&ensp; 1.7.2. **[Partition into expected values](/P/cov-mean)** <br>
-   &emsp;&ensp; 1.7.3. **[Covariance under independence](/P/cov-ind)** <br>
-   &emsp;&ensp; 1.7.4. **[Relationship to correlation](/P/cov-corr)** <br>
-   &emsp;&ensp; 1.7.5. *[Covariance matrix](/D/covmat)* <br>
-   &emsp;&ensp; 1.7.6. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.7.7. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.7.8. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.7.9. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   &emsp;&ensp; 1.7.2. *[Sample covariance](/D/cov-samp)* <br>
+   &emsp;&ensp; 1.7.3. **[Partition into expected values](/P/cov-mean)** <br>
+   &emsp;&ensp; 1.7.4. **[Covariance under independence](/P/cov-ind)** <br>
+   &emsp;&ensp; 1.7.5. **[Relationship to correlation](/P/cov-corr)** <br>
+   &emsp;&ensp; 1.7.6. *[Covariance matrix](/D/covmat)* <br>
+   &emsp;&ensp; 1.7.7. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.7.8. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.7.9. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.7.10. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
    1.8. Correlation <br>
    &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
@@ -307,49 +309,55 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.16. **[Full width at half maximum](/P/norm-fwhm)** <br>
    &emsp;&ensp; 3.2.17. **[Differential entropy](/P/norm-dent)** <br>
    &emsp;&ensp; 3.2.18. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
+   
+   3.3. t-distribution <br>
+   &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
 
-   3.3. Gamma distribution <br>
-   &emsp;&ensp; 3.3.1. *[Definition](/D/gam)* <br>
-   &emsp;&ensp; 3.3.2. *[Standard gamma distribution](/D/sgam)* <br>
-   &emsp;&ensp; 3.3.3. **[Relation to standard gamma distribution](/P/gam-sgam)** (1) <br>
-   &emsp;&ensp; 3.3.4. **[Relation to standard gamma distribution](/P/gam-sgam2)** (2) <br>
-   &emsp;&ensp; 3.3.5. **[Probability density function](/P/gam-pdf)** <br>
-   &emsp;&ensp; 3.3.6. **[Cumulative distribution function](/P/gam-cdf)** <br>
-   &emsp;&ensp; 3.3.7. **[Quantile function](/P/gam-qf)** <br>
-   &emsp;&ensp; 3.3.8. **[Mean](/P/gam-mean)** <br>
-   &emsp;&ensp; 3.3.9. **[Variance](/P/gam-var)** <br>
-   &emsp;&ensp; 3.3.10. **[Logarithmic expectation](/P/gam-logmean)** <br>
-   &emsp;&ensp; 3.3.11. **[Expectation of x ln x](/P/gam-xlogx)** <br>
-   &emsp;&ensp; 3.3.12. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   3.4. Gamma distribution <br>
+   &emsp;&ensp; 3.4.1. *[Definition](/D/gam)* <br>
+   &emsp;&ensp; 3.4.2. *[Standard gamma distribution](/D/sgam)* <br>
+   &emsp;&ensp; 3.4.3. **[Relation to standard gamma distribution](/P/gam-sgam)** (1) <br>
+   &emsp;&ensp; 3.4.4. **[Relation to standard gamma distribution](/P/gam-sgam2)** (2) <br>
+   &emsp;&ensp; 3.4.5. **[Probability density function](/P/gam-pdf)** <br>
+   &emsp;&ensp; 3.4.6. **[Cumulative distribution function](/P/gam-cdf)** <br>
+   &emsp;&ensp; 3.4.7. **[Quantile function](/P/gam-qf)** <br>
+   &emsp;&ensp; 3.4.8. **[Mean](/P/gam-mean)** <br>
+   &emsp;&ensp; 3.4.9. **[Variance](/P/gam-var)** <br>
+   &emsp;&ensp; 3.4.10. **[Logarithmic expectation](/P/gam-logmean)** <br>
+   &emsp;&ensp; 3.4.11. **[Expectation of x ln x](/P/gam-xlogx)** <br>
+   &emsp;&ensp; 3.4.12. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
-   3.4. Exponential distribution <br>
-   &emsp;&ensp; 3.4.1. *[Definition](/D/exp)* <br>
-   &emsp;&ensp; 3.4.2. **[Special case of gamma distribution](/P/exp-gam)** <br>
-   &emsp;&ensp; 3.4.3. **[Probability density function](/P/exp-pdf)** <br>
-   &emsp;&ensp; 3.4.4. **[Cumulative distribution function](/P/exp-cdf)** <br>
-   &emsp;&ensp; 3.4.5. **[Quantile function](/P/exp-qf)** <br>
-   &emsp;&ensp; 3.4.6. **[Mean](/P/exp-mean)** <br>
-   &emsp;&ensp; 3.4.7. **[Median](/P/exp-med)** <br>
-   &emsp;&ensp; 3.4.8. **[Mode](/P/exp-mode)** <br>
+   3.5. Exponential distribution <br>
+   &emsp;&ensp; 3.5.1. *[Definition](/D/exp)* <br>
+   &emsp;&ensp; 3.5.2. **[Special case of gamma distribution](/P/exp-gam)** <br>
+   &emsp;&ensp; 3.5.3. **[Probability density function](/P/exp-pdf)** <br>
+   &emsp;&ensp; 3.5.4. **[Cumulative distribution function](/P/exp-cdf)** <br>
+   &emsp;&ensp; 3.5.5. **[Quantile function](/P/exp-qf)** <br>
+   &emsp;&ensp; 3.5.6. **[Mean](/P/exp-mean)** <br>
+   &emsp;&ensp; 3.5.7. **[Median](/P/exp-med)** <br>
+   &emsp;&ensp; 3.5.8. **[Mode](/P/exp-mode)** <br>
    
-   3.5. Chi-square distribution <br>
-   &emsp;&ensp; 3.5.1. *[Definition](/D/chi2)* <br>
-   &emsp;&ensp; 3.5.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
-   &emsp;&ensp; 3.5.3. **[Probability density function](/P/chi2-pdf)** <br>
-   &emsp;&ensp; 3.5.4. **[Moments](/P/chi2-mom)** <br>
+   3.6. Chi-square distribution <br>
+   &emsp;&ensp; 3.6.1. *[Definition](/D/chi2)* <br>
+   &emsp;&ensp; 3.6.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
+   &emsp;&ensp; 3.6.3. **[Probability density function](/P/chi2-pdf)** <br>
+   &emsp;&ensp; 3.6.4. **[Moments](/P/chi2-mom)** <br>
    
-   3.6. Beta distribution <br>
-   &emsp;&ensp; 3.6.1. *[Definition](/D/beta)* <br>
-   &emsp;&ensp; 3.6.2. **[Probability density function](/P/beta-pdf)** <br>
-   &emsp;&ensp; 3.6.3. **[Moment-generating function](/P/beta-mgf)** <br>
-   &emsp;&ensp; 3.6.4. **[Cumulative distribution function](/P/beta-cdf)** <br>
+   3.7. F-distribution <br>
+   &emsp;&ensp; 3.7.1. *[Definition](/D/f)* <br>
    
-   3.7. Wald distribution <br>
-   &emsp;&ensp; 3.7.1. *[Definition](/D/wald)* <br>
-   &emsp;&ensp; 3.7.2. **[Probability density function](/P/wald-pdf)** <br>
-   &emsp;&ensp; 3.7.3. **[Moment-generating function](/P/wald-mgf)** <br>
-   &emsp;&ensp; 3.7.4. **[Mean](/P/wald-mean)** <br>
-   &emsp;&ensp; 3.7.5. **[Variance](/P/wald-var)** <br>
+   3.8. Beta distribution <br>
+   &emsp;&ensp; 3.8.1. *[Definition](/D/beta)* <br>
+   &emsp;&ensp; 3.8.2. **[Probability density function](/P/beta-pdf)** <br>
+   &emsp;&ensp; 3.8.3. **[Moment-generating function](/P/beta-mgf)** <br>
+   &emsp;&ensp; 3.8.4. **[Cumulative distribution function](/P/beta-cdf)** <br>
+   
+   3.9. Wald distribution <br>
+   &emsp;&ensp; 3.9.1. *[Definition](/D/wald)* <br>
+   &emsp;&ensp; 3.9.2. **[Probability density function](/P/wald-pdf)** <br>
+   &emsp;&ensp; 3.9.3. **[Moment-generating function](/P/wald-mgf)** <br>
+   &emsp;&ensp; 3.9.4. **[Mean](/P/wald-mean)** <br>
+   &emsp;&ensp; 3.9.5. **[Variance](/P/wald-var)** <br>
 
 4. Multivariate continuous distributions
 
@@ -362,17 +370,20 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.6. **[Marginal distributions](/P/mvn-marg)** <br>
    &emsp;&ensp; 4.1.7. **[Conditional distributions](/P/mvn-cond)** <br>
    
-   4.2. Normal-gamma distribution <br>
-   &emsp;&ensp; 4.2.1. *[Definition](/D/ng)* <br>
-   &emsp;&ensp; 4.2.2. **[Probability density function](/P/ng-pdf)** <br>
-   &emsp;&ensp; 4.2.3. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
-   &emsp;&ensp; 4.2.4. **[Marginal distributions](/P/ng-marg)** <br>
-   &emsp;&ensp; 4.2.5. **[Conditional distributions](/P/ng-cond)** <br>
+   4.2. Multivariate t-distribution <br>
+   &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
    
-   4.3. Dirichlet distribution <br>
-   &emsp;&ensp; 4.3.1. *[Definition](/D/dir)* <br>
-   &emsp;&ensp; 4.3.2. **[Probability density function](/P/dir-pdf)** <br>
-   &emsp;&ensp; 4.3.3. **[Exceedance probabilities](/P/dir-ep)** <br>
+   4.3. Normal-gamma distribution <br>
+   &emsp;&ensp; 4.3.1. *[Definition](/D/ng)* <br>
+   &emsp;&ensp; 4.3.2. **[Probability density function](/P/ng-pdf)** <br>
+   &emsp;&ensp; 4.3.3. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
+   &emsp;&ensp; 4.3.4. **[Marginal distributions](/P/ng-marg)** <br>
+   &emsp;&ensp; 4.3.5. **[Conditional distributions](/P/ng-cond)** <br>
+   
+   4.4. Dirichlet distribution <br>
+   &emsp;&ensp; 4.4.1. *[Definition](/D/dir)* <br>
+   &emsp;&ensp; 4.4.2. **[Probability density function](/P/dir-pdf)** <br>
+   &emsp;&ensp; 4.4.3. **[Exceedance probabilities](/P/dir-ep)** <br>
 
 5. Matrix-variate continuous distributions
 
