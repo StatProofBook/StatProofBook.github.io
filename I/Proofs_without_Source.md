@@ -27,6 +27,7 @@ title: "Proofs without Source"
 - [Kullback-Leibler divergence for the normal distribution](/P/norm-kl)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbf)
+- [Log model evidence for Poisson-distributed data](/P/poiss-lme)
 - [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
