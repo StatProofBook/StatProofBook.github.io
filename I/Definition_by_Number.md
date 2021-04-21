@@ -148,3 +148,5 @@ title: "Definition by Number"
 | D139 | test-tail | [One-tailed and two-tailed test](/D/test-tail) | JoramSoch | 2021-03-31 |
 | D140 | dist-samp | [Sampling distribution](/D/dist-samp) | JoramSoch | 2021-03-31 |
 | D141 | cdf-joint | [Joint cumulative distribution function](/D/cdf-joint) | JoramSoch | 2020-04-07 |
+| D142 | mean-samp | [Sample mean](/D/mean-samp) | JoramSoch | 2021-04-16 |
+| D143 | var-samp | [Sample variance](/D/var-samp) | JoramSoch | 2021-04-16 |

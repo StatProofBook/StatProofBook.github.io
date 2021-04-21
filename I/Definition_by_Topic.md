@@ -174,6 +174,8 @@ title: "Definition by Topic"
 
 ### S
 
+- [Sample mean](/D/mean-samp)
+- [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)

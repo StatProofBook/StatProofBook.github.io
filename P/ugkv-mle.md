@@ -39,7 +39,7 @@ $$ \label{eq:ugkv-MLE}
 \hat{\mu} = \bar{y}
 $$
 
-where $\bar{y}$ is the [sample mean](/P/mean-sample)
+where $\bar{y}$ is the [sample mean](/D/mean-samp)
 
 $$ \label{eq:y-mean}
 \bar{y} = \frac{1}{n} \sum_{i=1}^n y_i \; .

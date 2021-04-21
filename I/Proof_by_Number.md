@@ -229,3 +229,5 @@ title: "Proof by Number"
 | P220 | cdf-pit | [Probability integral transform using cumulative distribution function](/P/cdf-pit) | JoramSoch | 2021-04-07 |
 | P221 | cdf-itm | [Inverse transformation method using cumulative distribution function](/P/cdf-itm) | JoramSoch | 2021-04-07 |
 | P222 | cdf-dt | [Distributional transformation using cumulative distribution function](/P/cdf-dt) | JoramSoch | 2021-04-07 |
+| P223 | ug-mle | [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle) | JoramSoch | 2021-04-16 |
+| P224 | poissexp-mle | [Maximum likelihood estimation for the Poisson distribution with exposure values](/P/poissexp-mle) | JoramSoch | 2021-04-16 |

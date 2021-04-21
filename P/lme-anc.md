@@ -41,7 +41,7 @@ $$ \label{eq:LME}
 \mathrm{LME}(m) = \mathrm{Acc}(m) - \mathrm{Com}(m)
 $$
 
-where the accuracy term is the [posterior](/D/post) [expectation](/D/mean-lotus) of the [log-likelihood function](/D/llf)
+where the accuracy term is the [posterior](/D/post) [expectation](/P/mean-lotus) of the [log-likelihood function](/D/llf)
 
 $$ \label{eq:Acc}
 \mathrm{Acc}(m) = \left\langle \log p(y|\theta,m) \right\rangle_{p(\theta|y,m)}

@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (137 definitions)
+### JoramSoch (139 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -119,6 +119,8 @@ title: "Definition by Author"
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)
+- [Sample mean](/D/mean-samp)
+- [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)

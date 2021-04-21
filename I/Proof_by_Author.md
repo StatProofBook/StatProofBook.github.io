@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (213 proofs)
+### JoramSoch (215 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -99,7 +99,9 @@ title: "Proof by Author"
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
+- [Maximum likelihood estimation for the Poisson distribution with exposure values](/P/poissexp-mle)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
+- [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle)
 - [Maximum likelihood estimation for the univariate Gaussian with known variance](/P/ugkv-mle)
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
