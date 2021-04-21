@@ -473,6 +473,9 @@ title: "Table of Contents"
    3.1. Poisson-distributed data <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/poiss-data)* <br>
    &emsp;&ensp; 3.1.2. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
+   &emsp;&ensp; 3.1.3. **[Conjugate prior distribution](/P/poiss-prior)** <br>
+   &emsp;&ensp; 3.1.4. **[Posterior distribution](/P/poiss-post)** <br>
+   &emsp;&ensp; 3.1.5. **[Log model evidence](/P/poiss-lme)** <br>
    
    3.2. Poisson distribution with exposure values <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/poissexp)* <br>
