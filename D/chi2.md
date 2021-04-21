@@ -36,7 +36,7 @@ username: "kjpetrykowski"
 **Definition:** Let $X_{1}, ..., X_{k}$ be [independent](/D/ind) [random variables](/D/rvar) where each of them is following a [standard normal distribution](/D/snorm):
 
 $$ \label{eq:snorm}
-X_{i} \sim \mathcal{N}(0,1) \; .
+X_{i} \sim \mathcal{N}(0,1) \quad \text{for} \quad i = 1, \ldots, n \; .
 $$
 
 Then, the sum of their squares follows a chi-square distribution with $k$ degrees of freedom:
