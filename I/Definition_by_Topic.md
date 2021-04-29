@@ -56,6 +56,7 @@ title: "Definition by Topic"
 
 ### E
 
+- [Empirical Bayes](/D/eb)
 - [Empirical Bayes prior distribution](/D/prior-eb)
 - [Empirical Bayesian log model evidence](/D/eblme)
 - [Empirical and theoretical prior distribution](/D/prior-emp)
@@ -117,6 +118,7 @@ title: "Definition by Topic"
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
 - [Median](/D/med)
+- [Method-of-moments estimation](/D/mome)
 - [Minimum](/D/min)
 - [Mode](/D/mode)
 - [Moment](/D/mom)
@@ -210,6 +212,7 @@ title: "Definition by Topic"
 ### V
 
 - [Variance](/D/var)
+- [Variational Bayes](/D/vb)
 - [Variational Bayesian log model evidence](/D/vblme)
 
 ### W

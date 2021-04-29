@@ -34,14 +34,14 @@ $$ \label{eq:ml-def}
 p(y|m) \; .
 $$
 
-Using the [law of marginal probabililty](/D/prob-marg), this can be obtained by integrating over the product of [likelihood function](/D/lf) and [prior density](/D/prior):
-
-$$ \label{eq:ml-int}
-p(y|m) = \int_{\Theta} p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta \; .
-$$
-
-Applying the [law of conditional probability](/D/prob-cond) to the integrand, we have:
+Using the [law of marginal probabililty](/D/prob-marg), this can be obtained by integrating the [joint likelihood](/D/jl) function over the entire parameter space:
 
 $$ \label{eq:ml-qed}
 p(y|m) = \int_{\Theta} p(y,\theta|m) \, \mathrm{d}\theta \; .
+$$
+
+Applying the [law of conditional probability](/D/prob-cond), the integrand can also be written as the product of [likelihood function](/D/lf) and [prior density](/D/prior):
+
+$$ \label{eq:ml-int}
+p(y|m) = \int_{\Theta} p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta \; .
 $$

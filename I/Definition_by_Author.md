@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (144 definitions)
+### JoramSoch (147 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -41,6 +41,7 @@ title: "Definition by Author"
 - [Dirichlet-distributed data](/D/dir-data)
 - [Discrete and continuous random variable](/D/rvar-disc)
 - [Discrete uniform distribution](/D/duni)
+- [Empirical Bayes](/D/eb)
 - [Empirical Bayes prior distribution](/D/prior-eb)
 - [Empirical Bayesian log model evidence](/D/eblme)
 - [Empirical and theoretical prior distribution](/D/prior-emp)
@@ -80,6 +81,7 @@ title: "Definition by Author"
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
 - [Median](/D/med)
+- [Method-of-moments estimation](/D/mome)
 - [Minimum](/D/min)
 - [Mode](/D/mode)
 - [Moment](/D/mom)
@@ -146,6 +148,7 @@ title: "Definition by Author"
 - [Univariate Gaussian with known variance](/D/ugkv)
 - [Univariate and multivariate random variable](/D/rvar-uni)
 - [Variance](/D/var)
+- [Variational Bayes](/D/vb)
 - [Variational Bayesian log model evidence](/D/vblme)
 - [Wishart distribution](/D/wish)
 - [p-value](/D/pval)

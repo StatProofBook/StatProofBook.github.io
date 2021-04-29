@@ -147,6 +147,7 @@ title: "Proof by Topic"
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the Poisson distribution](/P/poiss-mean)
 - [Mean of the Wald distribution](/P/wald-mean)
+- [Mean of the beta distribution](/P/beta-mean)
 - [Mean of the binomial distribution](/P/bin-mean)
 - [Mean of the categorical distribution](/P/cat-mean)
 - [Mean of the continuous uniform distribution](/P/cuni-mean)
@@ -157,7 +158,7 @@ title: "Proof by Topic"
 - [Median of the continuous uniform distribution](/P/cuni-med)
 - [Median of the exponential distribution](/P/exp-med)
 - [Median of the normal distribution](/P/norm-med)
-- [Method of moments for beta-distributed data](/P/beta-mom)
+- [Method of moments for beta-distributed data](/P/beta-mome)
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
@@ -285,12 +286,13 @@ title: "Proof by Topic"
 ### V
 
 - [Variance of constant is zero](/P/var-const)
+- [Variance of the Poisson distribution](/P/poiss-var)
 - [Variance of the Wald distribution](/P/wald-var)
+- [Variance of the beta distribution](/P/beta-var)
 - [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the linear combination of two random variables](/P/var-lincomb)
 - [Variance of the normal distribution](/P/norm-var)
 - [Variance of the sum of two random variables](/P/var-sum)
-- [Variance zero implies constant](/P/var-zero)
 
 ### W
 
