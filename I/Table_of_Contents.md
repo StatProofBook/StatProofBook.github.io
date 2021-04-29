@@ -84,13 +84,12 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.3. **[Partition into expected values](/P/var-mean)** <br>
    &emsp;&ensp; 1.6.4. **[Non-negativity](/P/var-nonneg)** <br>
    &emsp;&ensp; 1.6.5. **[Variance of a constant](/P/var-const)** <br>
-   &emsp;&ensp; 1.6.6. **[Variance equals zero](/P/var-zero)** <br>
-   &emsp;&ensp; 1.6.7. **[Invariance under addition](/P/var-inv)** <br>
-   &emsp;&ensp; 1.6.8. **[Scaling upon multiplication](/P/var-scal)** <br>
-   &emsp;&ensp; 1.6.9. **[Variance of a sum](/P/var-sum)** <br>
-   &emsp;&ensp; 1.6.10. **[Variance of linear combination](/P/var-lincomb)** <br>
-   &emsp;&ensp; 1.6.11. **[Additivity under independence](/P/var-add)** <br>
-   &emsp;&ensp; 1.6.12. *[Precision](/D/prec)* <br>
+   &emsp;&ensp; 1.6.6. **[Invariance under addition](/P/var-inv)** <br>
+   &emsp;&ensp; 1.6.7. **[Scaling upon multiplication](/P/var-scal)** <br>
+   &emsp;&ensp; 1.6.8. **[Variance of a sum](/P/var-sum)** <br>
+   &emsp;&ensp; 1.6.9. **[Variance of linear combination](/P/var-lincomb)** <br>
+   &emsp;&ensp; 1.6.10. **[Additivity under independence](/P/var-add)** <br>
+   &emsp;&ensp; 1.6.11. *[Precision](/D/prec)* <br>
    
    1.7. Covariance <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/cov)* <br>
