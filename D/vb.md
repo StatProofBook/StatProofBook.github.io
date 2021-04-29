@@ -34,27 +34,27 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $m$ be a [generative model](/D/gm) with model parameters $\theta$ and hyper-parameters $\lambda$ implying the [likelihood function](/D/lf) $p(y \vert \theta, \lambda, m)$ and [prior distribution](/D/prior) $p(\theta \vert \lambda, m)$. Then, an Empirical Bayes treatment of $m$, also referred to as "type II [maximum likelihood](/D/mle)" or "[evidence](/D/lme) approximation", consists in
+**Definition:** Let $m$ be a [generative model](/D/gm) with model parameters $\theta$ implying the [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Then, a Variational Bayes treatment of $m$, also referred to as "approximate inference" or "variational inference", consists in
 
 <br>
-1) evaluating the [marginal likelihood](/D/ml) of the model $m$
+1) constructing an approximate [posterior distribution](/D/post)
 
-$$ \label{eq:ML}
-p(y \vert \lambda, m) = \int p(y \vert \theta, \lambda, m) \, (\theta \vert \lambda, m) \, \mathrm{d}\theta \; ,
+$$ \label{eq:post-vb}
+q(\theta) \approx p(\theta \vert y, m) \; ,
 $$
 
 <br>
-2) maximizing the [log model evidence](/D/lme) with respect to $\lambda$
+2) evaluating the [variational free energy](/D/vblme)
 
-$$ \label{eq:EB}
-\hat{\lambda} = \operatorname*{arg\,max}_{\lambda} \log p(y \vert \lambda, m)
+$$ \label{eq:FE}
+F_q(m) = \int q(\theta) \log p(y|\theta,m) \, \mathrm{d}\theta - \int q(\theta) \frac{q(\theta)}{p(\theta|m)} \, \mathrm{d}\theta
 $$
 
 <br>
-3) and using the [prior distribution](/D/prior) at this maximum
+3) and maximizing this function with respect to $q(\theta)$
 
-$$ \label{eq:prior-eb}
-p(\theta \vert m) = p(\theta \vert \hat{\lambda}, m)
+$$ \label{eq:VB}
+\hat{q}(\theta) = \operatorname*{arg\,max}_{q} F_q(m) \; .
 $$
 
-for [Bayesian inference](/P/bayes-th), i.e. [obtaining the posterior distribution](/P/post-jl) and [computing the marginal likelihood](/P/ml-jl).
+for Bayesian inference, i.e. obtaining the posterior distribution (from eq. \eqref{eq:VB}) and approximating the marginal likelihood (by plugging eq. \eqref{eq:VB} into eq. \eqref{eq:FE}).

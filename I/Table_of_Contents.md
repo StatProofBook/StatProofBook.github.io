@@ -494,7 +494,7 @@ title: "Table of Contents"
 
    4.1. Beta-distributed data <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/beta-data)* <br>
-   &emsp;&ensp; 4.1.2. **[Method of moments](/P/beta-mom)** <br>
+   &emsp;&ensp; 4.1.2. **[Method of moments](/P/beta-mome)** <br>
    
    4.2. Dirichlet-distributed data <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/dir-data)* <br>

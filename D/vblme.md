@@ -20,12 +20,13 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-11-25"
     url: "https://en.wikipedia.org/wiki/Variational_Bayesian_methods#Evidence_lower_bound"
-  - authors: "Bishop CM"
-    year: 2006
-    title: "Variational Inference"
-    in: "Pattern Recognition for Machine Learning"
-    pages: "pp. 462-474, eqs. 10.2-10.4"
-    url: "https://www.springer.com/gp/book/9780387310732"
+  - authors: "Penny W, Flandin G, Trujillo-Barreto N"
+    year: 2007
+    title: "Bayesian Comparison of Spatially Regularised General Linear Models"
+    in: "Human Brain Mapping"
+    pages: "vol. 28, pp. 275–293, eqs. 2-9"
+    url: "https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.20327"
+    doi: "10.1002/hbm.20327"
 
 def_id: "D115"
 shortcut: "vblme"
@@ -33,20 +34,20 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $m$ be a [generative model](/D/gm) with model parameters $\theta$ implying the [likelihood function](/D/lf) $p(y \vert \theta, m)$. Moreover, assume a [prior distribution](/D/prior) $p(\theta \vert m)$, a resulting [posterior distribution](/D/post) $p(\theta \vert y, m)$ and an [approximate](/D/vb) [posterior distribution](/D/post) $q(\theta)$. Then, the [Variational Bayesian](/D/vb) [log model evidence](/D/lme) is the expectation of the [log-likelihood function](/D/llf) with respect to the approximate posterior, minus the [Kullback-Leibler divergence](/D/kl) between approximate posterior and true posterior distribution:
+**Definition:** Let $m$ be a [generative model](/D/gm) with model parameters $\theta$ implying the [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Moreover, assume an [approximate](/D/vb) [posterior distribution](/D/post) $q(\theta)$. Then, the [Variational Bayesian](/D/vb) [log model evidence](/D/lme), also referred to as the "negative free energy", is the expectation of the [log-likelihood function](/D/llf) with respect to the approximate posterior, minus the [Kullback-Leibler divergence](/D/kl) between approximate posterior and the prior distribution:
 
 $$ \label{eq:vbLME}
-\mathrm{vbLME}(m) = \mathcal{L}\left[q(\theta)\right] - \mathrm{KL}\left[q(\theta) || p(\theta \vert y)\right]
+\mathrm{vbLME}(m) = \left\langle \log p(y \vert \theta, m) \right\rangle_{q(\theta)} - \mathrm{KL}\left[q(\theta) || p(\theta \vert m)\right]
 $$
 
 where
 
 $$ \label{eq:ELL}
-\mathcal{L}\left[q(\theta)\right] = \int q(\theta) \log \frac{p(y,\theta|m)}{q(\theta)} \, \mathrm{d}\theta
+\left\langle \log p(y \vert \theta, m) \right\rangle_{q(\theta)} = \int q(\theta) \log p(y \vert \theta, m) \, \mathrm{d}\theta
 $$
 
 and
 
 $$ \label{eq:KL}
-\mathrm{KL}\left[q(\theta) || p(\theta \vert y)\right] = \int q(\theta) \log \frac{q(\theta)}{p(\theta|y,m)} \, \mathrm{d}\theta  \; .
+\mathrm{KL}\left[q(\theta) || p(\theta \vert m)\right] = \int q(\theta) \log \frac{q(\theta)}{p(\theta \vert m)} \, \mathrm{d}\theta  \; .
 $$
