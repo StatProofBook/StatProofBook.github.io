@@ -191,6 +191,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.2. *[Log-likelihood function](/D/llf)* <br>
    &emsp;&ensp; 4.1.3. *[Maximum likelihood estimation](/D/mle)* <br>
    &emsp;&ensp; 4.1.4. *[Maximum log-likelihood](/D/mll)* <br>
+   &emsp;&ensp; 4.1.5. *[Method of moments](/D/mome)* <br>
    
    4.2. Statistical hypotheses <br>
    &emsp;&ensp; 4.2.1. *[Statistical hypothesis](/D/hyp)* <br>
@@ -237,6 +238,8 @@ title: "Table of Contents"
    5.3. Bayesian inference <br>
    &emsp;&ensp; 5.3.1. **[Bayes' theorem](/P/bayes-th)** <br>
    &emsp;&ensp; 5.3.2. **[Bayes' rule](/P/bayes-rule)** <br>
+   &emsp;&ensp; 5.3.3. *[Empirical Bayes](/D/eb)* <br>
+   &emsp;&ensp; 5.3.4. *[Variational Bayes](/D/vb)* <br>
 
 
 <br>
@@ -266,6 +269,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.1. *[Definition](/D/poiss)* <br>
    &emsp;&ensp; 1.4.2. **[Probability mass function](/P/poiss-pmf)** <br>
    &emsp;&ensp; 1.4.3. **[Mean](/P/poiss-mean)** <br>
+   &emsp;&ensp; 1.4.4. **[Variance](/P/poiss-var)** <br>
 
 2. Multivariate discrete distributions
 
@@ -351,6 +355,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.8.2. **[Probability density function](/P/beta-pdf)** <br>
    &emsp;&ensp; 3.8.3. **[Moment-generating function](/P/beta-mgf)** <br>
    &emsp;&ensp; 3.8.4. **[Cumulative distribution function](/P/beta-cdf)** <br>
+   &emsp;&ensp; 3.8.5. **[Mean](/P/beta-mean)** <br>
+   &emsp;&ensp; 3.8.6. **[Variance](/P/beta-var)** <br>
    
    3.9. Wald distribution <br>
    &emsp;&ensp; 3.9.1. *[Definition](/D/wald)* <br>
