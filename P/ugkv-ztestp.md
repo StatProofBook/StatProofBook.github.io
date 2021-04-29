@@ -64,4 +64,4 @@ $$ \label{eq:d-dist}
 d_i = y_{i1} - y_{i2} \sim \mathcal{N}(\mu, \sigma^2), \quad i = 1, \ldots, n \; .
 $$
 
-Therefore, $d_1, \ldots, d_n$ satisfy the conditions of the [one-sample z-test](/P/ug-ztest1) which results in the test statistic given by \eqref{eq:z}.
+Therefore, $d_1, \ldots, d_n$ satisfy the conditions of the [one-sample z-test](/P/ugkv-ztest1) which results in the test statistic given by \eqref{eq:z}.

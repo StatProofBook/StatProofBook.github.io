@@ -150,3 +150,8 @@ title: "Definition by Number"
 | D141 | cdf-joint | [Joint cumulative distribution function](/D/cdf-joint) | JoramSoch | 2020-04-07 |
 | D142 | mean-samp | [Sample mean](/D/mean-samp) | JoramSoch | 2021-04-16 |
 | D143 | var-samp | [Sample variance](/D/var-samp) | JoramSoch | 2021-04-16 |
+| D144 | cov-samp | [Sample covariance](/D/cov-samp) | JoramSoch | 2021-04-21 |
+| D145 | prec | [Precision](/D/prec) | JoramSoch | 2020-04-21 |
+| D146 | f | [F-distribution](/D/f) | JoramSoch | 2020-04-21 |
+| D147 | t | [t-distribution](/D/t) | JoramSoch | 2020-04-21 |
+| D148 | mvt | [Multivariate t-distribution](/D/mvt) | JoramSoch | 2020-04-21 |

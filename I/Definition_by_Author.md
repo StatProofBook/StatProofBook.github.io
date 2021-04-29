@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (139 definitions)
+### JoramSoch (144 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -49,6 +49,7 @@ title: "Definition by Author"
 - [Expected value](/D/mean)
 - [Explained sum of squares](/D/ess)
 - [Exponential distribution](/D/exp)
+- [F-distribution](/D/f)
 - [Flat, hard and soft prior distribution](/D/prior-flat)
 - [Full probability model](/D/fpm)
 - [Full width at half maximum](/D/fwhm)
@@ -87,6 +88,7 @@ title: "Definition by Author"
 - [Multinomial observations](/D/mult-data)
 - [Multiple linear regression](/D/mlr)
 - [Multivariate normal distribution](/D/mvn)
+- [Multivariate t-distribution](/D/mvt)
 - [Mutual information](/D/mi)
 - [Normal distribution](/D/norm)
 - [Normal-gamma distribution](/D/ng)
@@ -100,6 +102,7 @@ title: "Definition by Author"
 - [Posterior distribution](/D/post)
 - [Posterior model probability](/D/pmp)
 - [Power of a statistical test](/D/power)
+- [Precision](/D/prec)
 - [Precision matrix](/D/precmat)
 - [Prior distribution](/D/prior)
 - [Probability](/D/prob)
@@ -119,6 +122,7 @@ title: "Definition by Author"
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)
+- [Sample covariance](/D/cov-samp)
 - [Sample mean](/D/mean-samp)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
@@ -145,6 +149,7 @@ title: "Definition by Author"
 - [Variational Bayesian log model evidence](/D/vblme)
 - [Wishart distribution](/D/wish)
 - [p-value](/D/pval)
+- [t-distribution](/D/t)
 
 ### StatProofBook (1 definition)
 

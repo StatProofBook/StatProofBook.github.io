@@ -27,7 +27,7 @@ $$ \label{eq:GLM}
 Y = X B + E, \; E \sim \mathcal{MN}(0, V, \Sigma) \; ,
 $$
 
-the [weighted least sqaures](/D/wls) parameter estimates are given by
+the [weighted least sqaures](/P/mlr-wls) parameter estimates are given by
 
 $$ \label{eq:WLS}
 \hat{B} = (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} Y \; .

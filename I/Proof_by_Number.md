@@ -231,3 +231,6 @@ title: "Proof by Number"
 | P222 | cdf-dt | [Distributional transformation using cumulative distribution function](/P/cdf-dt) | JoramSoch | 2021-04-07 |
 | P223 | ug-mle | [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle) | JoramSoch | 2021-04-16 |
 | P224 | poissexp-mle | [Maximum likelihood estimation for the Poisson distribution with exposure values](/P/poissexp-mle) | JoramSoch | 2021-04-16 |
+| P225 | poiss-prior | [Conjugate prior distribution for Poisson-distributed data](/P/poiss-prior) | JoramSoch | 2020-04-21 |
+| P226 | poiss-post | [Posterior distribution for Poisson-distributed data](/P/poiss-post) | JoramSoch | 2020-04-21 |
+| P227 | poiss-lme | [Log model evidence for Poisson-distributed data](/P/poiss-lme) | JoramSoch | 2020-04-21 |

@@ -68,6 +68,7 @@ title: "Definition by Topic"
 
 ### F
 
+- [F-distribution](/D/f)
 - [Flat, hard and soft prior distribution](/D/prior-flat)
 - [Full probability model](/D/fpm)
 - [Full width at half maximum](/D/fwhm)
@@ -124,6 +125,7 @@ title: "Definition by Topic"
 - [Multinomial observations](/D/mult-data)
 - [Multiple linear regression](/D/mlr)
 - [Multivariate normal distribution](/D/mvn)
+- [Multivariate t-distribution](/D/mvt)
 - [Mutual information](/D/mi)
 
 ### N
@@ -146,6 +148,7 @@ title: "Definition by Topic"
 - [Posterior distribution](/D/post)
 - [Posterior model probability](/D/pmp)
 - [Power of a statistical test](/D/power)
+- [Precision](/D/prec)
 - [Precision matrix](/D/precmat)
 - [Prior distribution](/D/prior)
 - [Probability](/D/prob)
@@ -174,6 +177,7 @@ title: "Definition by Topic"
 
 ### S
 
+- [Sample covariance](/D/cov-samp)
 - [Sample mean](/D/mean-samp)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
@@ -216,3 +220,7 @@ title: "Definition by Topic"
 ### p
 
 - [p-value](/D/pval)
+
+### t
+
+- [t-distribution](/D/t)

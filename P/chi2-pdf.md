@@ -70,7 +70,7 @@ $$ \label{eq:y-cdf-s1}
 f_Y(y) \, \mathrm{d}y = \int_{V} \prod_{i=1}^{k} \left( \mathcal{N}(x_i; 0, 1) \, \mathrm{d}x_i \right)
 $$
 
-where $\mathcal{N}(x_i; 0, 1)$ is the [probability density function](/D/pdf) of the [standard normal distribution](/D/snorm) and $V$ is the elemental shell volume at $y(x)$, which is proportional to the $(k-1)$-dimensional surface in $k$-space for which equation \eqref{eq:y-x} is fulfilled. Using the [probability density function of the normal distribution](/D/norm-pdf), equation \eqref{eq:y-cdf-s1} can be developed as follows:
+where $\mathcal{N}(x_i; 0, 1)$ is the [probability density function](/D/pdf) of the [standard normal distribution](/D/snorm) and $V$ is the elemental shell volume at $y(x)$, which is proportional to the $(k-1)$-dimensional surface in $k$-space for which equation \eqref{eq:y-x} is fulfilled. Using the [probability density function of the normal distribution](/P/norm-pdf), equation \eqref{eq:y-cdf-s1} can be developed as follows:
 
 $$ \label{eq:y-cdf-s2}
 \begin{split}

@@ -50,7 +50,7 @@ and the [posterior hyperparameters](/D/post) are given by
 $$ \label{eq:Poiss-exp-post-par}
 \begin{split}
 a_n &= a_0 + n \bar{y} \\
-a_n &= a_0 + n \bar{x} \; .
+b_n &= b_0 + n \bar{x} \; .
 \end{split}
 $$
 
@@ -83,7 +83,7 @@ $$ \label{eq:Poiss-JL-s2}
 p(y,\lambda) &= \prod_{i=1}^n \frac{ {x_i}^{y_i}}{y_i !} \prod_{i=1}^n \lambda^{y_i} \prod_{i=1}^n \exp\left[-\lambda x_i\right] \cdot \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \lambda^{a_0-1} \exp[-b_0 \lambda] \\
 &= \prod_{i=1}^n \left(\frac{ {x_i}^{y_i}}{y_i !}\right) \lambda^{\sum_{i=1}^n y_i} \exp\left[-\lambda \sum_{i=1}^n x_i\right] \cdot \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \lambda^{a_0-1} \exp[-b_0 \lambda] \\
 &= \prod_{i=1}^n \left(\frac{ {x_i}^{y_i}}{y_i !}\right) \lambda^{n \bar{y}} \exp\left[-n \bar{x} \lambda\right] \cdot \frac{ {b_0}^{a_0}}{\Gamma(a_0)} \lambda^{a_0-1} \exp[-b_0 \lambda] \\
-&= \prod_{i=1}^n \left(\frac{ {x_i}^{y_i}}{y_i !}\right) \frac{ {b_0}^{a_0}}{\Gamma(a_0)}  \cdot \lambda^{a_0 + n \bar{y} - 1} \cdot \exp\left[-(b_0 + n \bar{x}) \lambda\right] \\
+&= \prod_{i=1}^n \left(\frac{ {x_i}^{y_i}}{y_i !}\right) \cdot \frac{ {b_0}^{a_0}}{\Gamma(a_0)}  \cdot \lambda^{a_0 + n \bar{y} - 1} \cdot \exp\left[-(b_0 + n \bar{x}) \lambda\right] \\
 \end{split}
 $$
 

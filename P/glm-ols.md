@@ -27,14 +27,14 @@ $$ \label{eq:GLM}
 Y = X B + E, \; E \sim \mathcal{MN}(0, \sigma^2 I_n, \Sigma) \; ,
 $$
 
-the [ordinary least squares](/D/ols) parameters estimates are given by
+the [ordinary least squares](/P/mlr-ols) parameters estimates are given by
 
 $$ \label{eq:OLS}
 \hat{B} = (X^\mathrm{T} X)^{-1} X^\mathrm{T} Y \; .
 $$
 
 
-**Proof:** Let $\hat{B}$ be the [ordinary least squares](/D/ols) (OLS) solution and let $\hat{E} = Y - X\hat{B}$ be the resulting matrix of residuals. According to the exogeneity assumption of OLS, the errors have conditional [mean](/D/mean) zero
+**Proof:** Let $\hat{B}$ be the [ordinary least squares](/P/mlr-ols) (OLS) solution and let $\hat{E} = Y - X\hat{B}$ be the resulting matrix of residuals. According to the exogeneity assumption of OLS, the errors have conditional [mean](/D/mean) zero
 
 $$ \label{eq:OLS-exo}
 \mathrm{E}(E|X) = 0 \; ,
