@@ -377,6 +377,7 @@ title: "Table of Contents"
    
    4.2. Multivariate t-distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
+   &emsp;&ensp; 4.2.2. **[Relationship to F-distribution](/P/mvt-f)** <br>
    
    4.3. Normal-gamma distribution <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/ng)* <br>
