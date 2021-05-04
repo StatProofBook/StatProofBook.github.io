@@ -27,14 +27,22 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** The [variance](/D/var) of a [constant](/D/const) is zero:
+**Theorem:** The [variance](/D/var) of a [constant](/D/const) is zero
 
 $$ \label{eq:var-const}
-a = \text{const.} \quad \Rightarrow \quad \mathrm{Var}(a) = 0 \; .
+a = \text{const.} \quad \Rightarrow \quad \mathrm{Var}(a) = 0
+$$
+
+and if the [variance](/D/var) of $X$ is zero, then $X$ is a [constant](/D/const)
+
+$$ \label{eq:var-zero}
+\mathrm{Var}(X) = 0 \quad \Rightarrow \quad X = \text{const.} \; .
 $$
 
 
-**Proof:** A [constant](/D/const) is a quantity that always has the same value. Thus, if understood as a [random variable](/D/rvar), the [expected value](/D/mean) of a constant is equal to itself:
+**Proof:**
+
+1) A [constant](/D/const) is defined as a quantity that always has the same value. Thus, if understood as a [random variable](/D/rvar), the [expected value](/D/mean) of a constant is equal to itself:
 
 $$ \label{eq:mean-const}
 \mathrm{E}(a) = a \; .
@@ -57,3 +65,29 @@ $$ \label{eq:var-const-s2}
 $$
 
 Together, \eqref{eq:var-const-s1} and \eqref{eq:var-const-s2} imply \eqref{eq:var-const}.
+
+<br>
+
+2) The [variance](/D/var) is defined as
+
+$$ \label{eq:var}
+\mathrm{Var}(X) = \mathrm{E}\left[ (X-\mathrm{E}(X))^2 \right] \; .
+$$
+
+Because $(X-\mathrm{E}(X))^2$ is [strictly non-negative](/P/mean-nonneg), the only way for the variance to become zero is, if the squared deviation is always zero:
+
+$$ \label{eq:sqr-dev-zero}
+(X-\mathrm{E}(X))^2 = 0 \; .
+$$
+
+Thus, in turn, requires that $X$ is equal to its [expected value](/D/mean)
+
+$$ \label{eq:X-eq-E-X}
+X = \mathrm{E}(X)
+$$
+
+which can only be the case, if $X$ [always has the same value](/D/const):
+
+$$ \label{eq:X-const}
+X = \text{const.}
+$$

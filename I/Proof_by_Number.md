@@ -34,7 +34,7 @@ title: "Proof by Number"
 | P25 | mult-mean | [Mean of the multinomial distribution](/P/mult-mean) | JoramSoch | 2020-01-16 |
 | P26 | matn-mvn | [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn) | JoramSoch | 2020-01-20 |
 | P27 | poiss-mle | [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle) | JoramSoch | 2020-01-20 |
-| P28 | beta-mom | [Method of moments for beta-distributed data](/P/beta-mom) | JoramSoch | 2020-01-22 |
+| P28 | beta-mome | [Method of moments for beta-distributed data](/P/beta-mome) | JoramSoch | 2020-01-22 |
 | P29 | bin-prior | [Conjugate prior distribution for binomial observations](/P/bin-prior) | JoramSoch | 2020-01-23 |
 | P30 | bin-post | [Posterior distribution for binomial observations](/P/bin-post) | JoramSoch | 2020-01-24 |
 | P31 | bin-lme | [Log model evidence for binomial observations](/P/bin-lme) | JoramSoch | 2020-01-24 |
@@ -131,7 +131,6 @@ title: "Proof by Number"
 | P122 | precmat-corrmat | [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat) | JoramSoch | 2020-06-06 |
 | P123 | var-nonneg | [Non-negativity of the variance](/P/var-nonneg) | JoramSoch | 2020-06-06 |
 | P124 | var-const | [Variance of constant is zero](/P/var-const) | JoramSoch | 2020-06-27 |
-| P125 | var-zero | [Variance zero implies constant](/P/var-zero) | JoramSoch | 2020-06-27 |
 | P126 | var-inv | [Invariance of the variance under addition of a constant](/P/var-inv) | JoramSoch | 2020-07-07 |
 | P127 | var-scal | [Scaling of the variance upon multiplication with a constant](/P/var-scal) | JoramSoch | 2020-07-07 |
 | P128 | var-sum | [Variance of the sum of two random variables](/P/var-sum) | JoramSoch | 2020-07-07 |
@@ -234,3 +233,6 @@ title: "Proof by Number"
 | P225 | poiss-prior | [Conjugate prior distribution for Poisson-distributed data](/P/poiss-prior) | JoramSoch | 2020-04-21 |
 | P226 | poiss-post | [Posterior distribution for Poisson-distributed data](/P/poiss-post) | JoramSoch | 2020-04-21 |
 | P227 | poiss-lme | [Log model evidence for Poisson-distributed data](/P/poiss-lme) | JoramSoch | 2020-04-21 |
+| P228 | beta-mean | [Mean of the beta distribution](/P/beta-mean) | JoramSoch | 2021-04-29 |
+| P229 | beta-var | [Variance of the beta distribution](/P/beta-var) | JoramSoch | 2021-04-29 |
+| P230 | poiss-var | [Variance of the Poisson distribution](/P/poiss-var) | JoramSoch | 2021-04-29 |

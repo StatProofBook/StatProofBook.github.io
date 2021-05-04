@@ -18,7 +18,7 @@ sources:
     year: 2021
     title: "Method of moments (statistics)"
     in: "Wikipedia, the free encyclopedia"
-    pages: "retrieved on 2021-04-29
+    pages: "retrieved on 2021-04-29"
     url: "https://en.wikipedia.org/wiki/Method_of_moments_(statistics)#Method"
 
 def_id: "D151"

@@ -22,7 +22,7 @@ sources:
     url: "https://en.wikipedia.org/wiki/Beta_distribution#Method_of_moments"
 
 proof_id: "P28"
-shortcut: "beta-mom"
+shortcut: "beta-mome"
 username: "JoramSoch"
 ---
 

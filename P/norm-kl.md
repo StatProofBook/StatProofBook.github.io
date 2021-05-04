@@ -64,7 +64,7 @@ $$ \label{eq:norm-KL-s2}
 \end{split}
 $$
 
-Because trace function and [expected value](/D/mean) are both linear operators, the expectation can be moved inside the trace:
+Because the [expected value](/D/mean) [is a linear operator](/P/mean-lin), the expectation can be moved into the sum:
 
 $$ \label{eq:norm-KL-s3}
 \begin{split}

@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $m$ be a [generative model](/D/gm) with [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert \lambda, m)$ using [prior hyperparameters](/D/prior) $\lambda$. Let $p(y \vert \lambda, m)$ be the [marginal likelihood](/D/ml) when [integrating the parameters out of the joint likelihood](/P/ml-jl). Then, the prior distribution is called an "Empirical Bayes prior", if it maximizes the logarithmized marginal likelihood:
+**Definition:** Let $m$ be a [generative model](/D/gm) with [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert \lambda, m)$ using [prior hyperparameters](/D/prior) $\lambda$. Let $p(y \vert \lambda, m)$ be the [marginal likelihood](/D/ml) when [integrating the parameters out of the joint likelihood](/P/ml-jl). Then, the prior distribution is called an "[Empirical Bayes](/D/eb) prior", if it maximizes the logarithmized marginal likelihood:
 
 $$ \label{eq:prior-eb}
 \lambda_{\mathrm{EB}} = \operatorname*{arg\,max}_{\lambda} \log p(y \vert \lambda, m) \; .

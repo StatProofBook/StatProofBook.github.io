@@ -20,6 +20,13 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-11-25"
     url: "https://en.wikipedia.org/wiki/Empirical_Bayes_method#Introduction"
+  - authors: "Penny, W.D. and Ridgway, G.R."
+    year: 2013
+    title: "Efficient Posterior Probability Mapping Using Savage-Dickey Ratios"
+    in: "PLoS ONE"
+    pages: "vol. 8, iss. 3, art. e59655, eqs. 7/11"
+    url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059655"
+    doi: "10.1371/journal.pone.0059655"
 
 def_id: "D114"
 shortcut: "eblme"

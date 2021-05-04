@@ -155,3 +155,6 @@ title: "Definition by Number"
 | D146 | f | [F-distribution](/D/f) | JoramSoch | 2020-04-21 |
 | D147 | t | [t-distribution](/D/t) | JoramSoch | 2020-04-21 |
 | D148 | mvt | [Multivariate t-distribution](/D/mvt) | JoramSoch | 2020-04-21 |
+| D149 | eb | [Empirical Bayes](/D/eb) | JoramSoch | 2021-04-29 |
+| D150 | vb | [Variational Bayes](/D/vb) | JoramSoch | 2021-04-29 |
+| D151 | mome | [Method-of-moments estimation](/D/mome) | JoramSoch | 2021-04-29 |

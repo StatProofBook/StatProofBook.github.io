@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (218 proofs)
+### JoramSoch (220 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -108,6 +108,7 @@ title: "Proof by Author"
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the Poisson distribution](/P/poiss-mean)
+- [Mean of the beta distribution](/P/beta-mean)
 - [Mean of the binomial distribution](/P/bin-mean)
 - [Mean of the categorical distribution](/P/cat-mean)
 - [Mean of the continuous uniform distribution](/P/cuni-mean)
@@ -118,7 +119,7 @@ title: "Proof by Author"
 - [Median of the continuous uniform distribution](/P/cuni-med)
 - [Median of the exponential distribution](/P/exp-med)
 - [Median of the normal distribution](/P/norm-med)
-- [Method of moments for beta-distributed data](/P/beta-mom)
+- [Method of moments for beta-distributed data](/P/beta-mome)
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
@@ -216,11 +217,12 @@ title: "Proof by Author"
 - [Two-sample t-test for independent observations](/P/ug-ttest2)
 - [Two-sample z-test for independent observations](/P/ugkv-ztest2)
 - [Variance of constant is zero](/P/var-const)
+- [Variance of the Poisson distribution](/P/poiss-var)
+- [Variance of the beta distribution](/P/beta-var)
 - [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the linear combination of two random variables](/P/var-lincomb)
 - [Variance of the normal distribution](/P/norm-var)
 - [Variance of the sum of two random variables](/P/var-sum)
-- [Variance zero implies constant](/P/var-zero)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for the general linear model](/P/glm-wls)
