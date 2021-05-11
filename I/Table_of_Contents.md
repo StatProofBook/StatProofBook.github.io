@@ -315,6 +315,7 @@ title: "Table of Contents"
    
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
+   &emsp;&ensp; 3.3.2. **[Relationship to non-central scaled t-distribution](/P/ncst-t)** <br>
 
    3.4. Gamma distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/gam)* <br>
