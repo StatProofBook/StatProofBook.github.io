@@ -76,6 +76,7 @@ title: "Proofs without Source"
 - [Relation between normal distribution and standard normal distribution](/P/norm-snorm3)
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between covariance and correlation](/P/cov-corr)
+- [Relationship between non-central scaled t-distribution and t-distribution](/P/ncst-t)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
