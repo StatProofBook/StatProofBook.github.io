@@ -76,7 +76,7 @@ $$
 i.e. $Y$ is an $n \times 1$ vector of [independent and identically distributed](/D/iid) [random variables](/D/rvar) following a [univariate t-distribution](/D/t) with $\nu$ degrees of freedom:
 
 $$ \label{eq:yi-dist}
-y_i \sim t(\nu), \; i = 1,\ldots,n \; .
+Y_i \sim t(\nu), \; i = 1,\ldots,n \; .
 $$
 
 Note that, when $X$ follows a [t-distribution](/D/t) with $n$ degrees of freedom, [this is equivalent to](/P/t-norm) an expression of $X$ in terms of a [standard normal](/D/snorm) random variable $Z$ and a [chi-squared](/D/chi2) random variable $V$:
@@ -90,7 +90,7 @@ With that, $Z$ from \eqref{eq:YZ} can be rewritten as follows:
 $$ \label{eq:Z-eq-s1}
 \begin{split}
 Z &\overset{\eqref{eq:YZ}}{=} Y^\mathrm{T} Y / n \\
-&= \frac{1}{n} \sum_{i=1}^n y_i^2 \\
+&= \frac{1}{n} \sum_{i=1}^n Y_i^2 \\
 &\overset{\eqref{eq:t-norm}}{=} \frac{1}{n} \sum_{i=1}^n \left( \frac{Z_i}{\sqrt{V/\nu}} \right)^2 \\
 &= \frac{\left( \sum_{i=1}^n Z_i^2 \right)/n}{V/\nu} \; .
 \end{split}

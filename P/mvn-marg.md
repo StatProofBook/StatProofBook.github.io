@@ -36,7 +36,7 @@ $$
 where $\mu_s$ drops the irrelevant variables (the ones not in the subset, i.e. marginalized out) from the mean vector $\mu$ and $\Sigma_s$ drops the corresponding rows and columns from the covariance matrix $\Sigma$.
 
 
-**Proof:** Define an $m \times n$ subset matrix $S$ such that $s_{ij} = 1$, if the $j$-th element in $\mu_s$ corresponds to the $i$-th element in $x$, and $s_{ij} = 0$ otherwise. Then,
+**Proof:** Define an $m \times n$ subset matrix $S$ such that $s_{ij} = 1$, if the $j$-th element in $x_s$ corresponds to the $i$-th element in $x$, and $s_{ij} = 0$ otherwise. Then,
 
 $$ \label{eq:xs}
 x_s = S x

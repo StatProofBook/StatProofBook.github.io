@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2020-04-21 07:53:00
+date: 2021-04-21 07:53:00
 
 title: "t-distribution"
 chapter: "Probability Distributions"
@@ -27,16 +27,19 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X_1, ..., X_n$ be [independent](/D/ind) [random variables](/D/rvar) where each of them is following a [normal distribution](/D/norm) with mean $\mu$ and variance $\sigma^2$:
+**Definition:** Let $Z$ and $V$ be [independent](/D/ind) [random variables](/D/rvar) following a [standard normal distribution](/D/snorm) and a [chi-squared distribution](/D/chi2) with $\nu$ [degrees of freedom](/D/dof), respectively:
 
-$$ \label{eq:norm}
-X_i \sim \mathcal{N}(\mu, \sigma^2) \quad \text{for} \quad i = 1, \ldots, n \; .
+$$ \label{eq:snorm-chi2}
+\begin{split}
+Z &\sim \mathcal{N}(0,1) \\
+V &\sim \chi^{2}(\nu$) \; .
+\end{split}
 $$
 
-Then, the following random variable with [sample mean](/D/mean-samp) $\bar{X}$ and [sample variance](/D/var-samp) $s^2$ is said to be $t$-distributed with $n-1$ degrees of freedom:
+Then, the ratio of $Z$ to the square root of $V/$, divided by the respective degrees of freedom, is said to be $t$-distributed with degrees of freedom $\nu$:
 
 $$ \label{eq:t}
-Y = \frac{\bar{X}-\mu}{s/\sqrt{n}} \sim t(n-1) \; .
+Y = \frac{Z}{\sqrt{V/\nu}} \sim t(\nu) \; .
 $$
 
 The $t$-distribution is also called "Student's $t$-distribution", after William S. Gosset a.k.a. "Student".
