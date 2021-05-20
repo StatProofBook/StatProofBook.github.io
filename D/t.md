@@ -19,7 +19,7 @@ sources:
     title: "Student's t-distribution"
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2021-04-21"
-    url: "https://en.wikipedia.org/wiki/Student%27s_t-distribution#How_Student's_distribution_arises_from_sampling"
+    url: "https://en.wikipedia.org/wiki/Student%27s_t-distribution#Characterization"
 
 def_id: "D147"
 shortcut: "t"
@@ -36,7 +36,7 @@ V &\sim \chi^{2}(\nu) \; .
 \end{split}
 $$
 
-Then, the ratio of $Z$ to the square root of $V/\nu$, divided by the respective degrees of freedom, is said to be $t$-distributed with degrees of freedom $\nu$:
+Then, the ratio of $Z$ to the square root of $V$, divided by the respective degrees of freedom, is said to be $t$-distributed with degrees of freedom $\nu$:
 
 $$ \label{eq:t}
 Y = \frac{Z}{\sqrt{V/\nu}} \sim t(\nu) \; .

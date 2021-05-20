@@ -132,6 +132,7 @@ title: "Definition by Topic"
 
 ### N
 
+- [Non-standardized t-distribution](/D/nst)
 - [Normal distribution](/D/norm)
 - [Normal-gamma distribution](/D/ng)
 - [Null hypothesis](/D/h0)
@@ -180,6 +181,7 @@ title: "Definition by Topic"
 ### S
 
 - [Sample covariance](/D/cov-samp)
+- [Sample covariance matrix](/D/covmat-samp)
 - [Sample mean](/D/mean-samp)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)

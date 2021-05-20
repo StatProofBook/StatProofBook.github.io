@@ -237,4 +237,5 @@ title: "Proof by Number"
 | P229 | beta-var | [Variance of the beta distribution](/P/beta-var) | JoramSoch | 2021-04-29 |
 | P230 | poiss-var | [Variance of the Poisson distribution](/P/poiss-var) | JoramSoch | 2021-04-29 |
 | P231 | mvt-f | [Relationship between multivariate t-distribution and F-distribution](/P/mvt-f) | JoramSoch | 2021-05-04 |
-| P232 | ncst-t | [Relationship between non-central scaled t-distribution and t-distribution](/P/ncst-t) | JoramSoch | 2021-05-11 |
+| P232 | nst-t | [Relationship between non-standardized t-distribution and t-distribution](/P/nst-t) | JoramSoch | 2021-05-11 |
+| P233 | norm-chi2 | [Relationship between normal distribution and chi-squared distribution](/P/norm-chi2) | JoramSoch | 2021-05-20 |
