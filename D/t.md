@@ -32,11 +32,11 @@ username: "JoramSoch"
 $$ \label{eq:snorm-chi2}
 \begin{split}
 Z &\sim \mathcal{N}(0,1) \\
-V &\sim \chi^{2}(\nu$) \; .
+V &\sim \chi^{2}(\nu) \; .
 \end{split}
 $$
 
-Then, the ratio of $Z$ to the square root of $V/$, divided by the respective degrees of freedom, is said to be $t$-distributed with degrees of freedom $\nu$:
+Then, the ratio of $Z$ to the square root of $V/\nu$, divided by the respective degrees of freedom, is said to be $t$-distributed with degrees of freedom $\nu$:
 
 $$ \label{eq:t}
 Y = \frac{Z}{\sqrt{V/\nu}} \sim t(\nu) \; .
