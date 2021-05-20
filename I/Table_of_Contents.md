@@ -98,10 +98,11 @@ title: "Table of Contents"
    &emsp;&ensp; 1.7.4. **[Covariance under independence](/P/cov-ind)** <br>
    &emsp;&ensp; 1.7.5. **[Relationship to correlation](/P/cov-corr)** <br>
    &emsp;&ensp; 1.7.6. *[Covariance matrix](/D/covmat)* <br>
-   &emsp;&ensp; 1.7.7. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.7.8. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.7.9. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.7.10. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   &emsp;&ensp; 1.7.7. *[Sample covariance matrix](/D/covmat-samp)* <br>
+   &emsp;&ensp; 1.7.8. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.7.9. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.7.10. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.7.11. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
    1.8. Correlation <br>
    &emsp;&ensp; 1.8.1. *[Definition](/D/corr)* <br>
@@ -299,23 +300,25 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.3. **[Relation to standard normal distribution](/P/norm-snorm)** (1) <br>
    &emsp;&ensp; 3.2.4. **[Relation to standard normal distribution](/P/norm-snorm2)** (2) <br>
    &emsp;&ensp; 3.2.5. **[Relation to standard normal distribution](/P/norm-snorm3)** (3) <br>
-   &emsp;&ensp; 3.2.6. **[Gaussian integral](/P/norm-gi)** <br>
-   &emsp;&ensp; 3.2.7. **[Probability density function](/P/norm-pdf)** <br>
-   &emsp;&ensp; 3.2.8. **[Moment-generating function](/P/norm-mgf)** <br>
-   &emsp;&ensp; 3.2.9. **[Cumulative distribution function](/P/norm-cdf)** <br>
-   &emsp;&ensp; 3.2.10. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.11. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.12. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.13. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.14. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.15. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.16. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.17. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.18. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
+   &emsp;&ensp; 3.2.6. **[Relationship to chi-squared distribution](/P/norm-chi2)** <br>
+   &emsp;&ensp; 3.2.7. **[Gaussian integral](/P/norm-gi)** <br>
+   &emsp;&ensp; 3.2.8. **[Probability density function](/P/norm-pdf)** <br>
+   &emsp;&ensp; 3.2.9. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.10. **[Cumulative distribution function](/P/norm-cdf)** <br>
+   &emsp;&ensp; 3.2.11. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
+   &emsp;&ensp; 3.2.12. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.13. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.14. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.15. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.16. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.17. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.18. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.19. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
    
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
-   &emsp;&ensp; 3.3.2. **[Relationship to non-central scaled t-distribution](/P/ncst-t)** <br>
+   &emsp;&ensp; 3.3.2. *[Non-standardized t-distribution](/D/nst)* <br>
+   &emsp;&ensp; 3.3.3. **[Relationship to non-central scaled t-distribution](/P/ncst-t)** <br>
 
    3.4. Gamma distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/gam)* <br>
