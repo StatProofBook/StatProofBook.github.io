@@ -106,7 +106,7 @@ title: "Definition by Number"
 | D97 | mom-raw | [Raw moment](/D/mom-raw) | JoramSoch | 2020-10-08 |
 | D98 | mom-cent | [Central moment](/D/mom-cent) | JoramSoch | 2020-10-08 |
 | D99 | mom-stand | [Standardized moment](/D/mom-stand) | JoramSoch | 2020-10-08 |
-| D100 | chi2 | [Chi-square distribution](/D/chi2) | kjpetrykowski | 2020-10-13 |
+| D100 | chi2 | [Chi-squared distribution](/D/chi2) | kjpetrykowski | 2020-10-13 |
 | D101 | med | [Median](/D/med) | JoramSoch | 2020-10-15 |
 | D102 | mode | [Mode](/D/mode) | JoramSoch | 2020-10-15 |
 | D103 | prob-exc | [Exceedance probability](/D/prob-exc) | JoramSoch | 2020-10-22 |
