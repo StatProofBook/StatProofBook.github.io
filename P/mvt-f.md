@@ -79,9 +79,9 @@ $$ \label{eq:yi-dist}
 Y_i \sim t(\nu), \; i = 1,\ldots,n \; .
 $$
 
-Note that, when $X$ follows a [t-distribution](/D/t) with $n$ degrees of freedom, [this is equivalent to](/P/t-norm) an expression of $X$ in terms of a [standard normal](/D/snorm) random variable $Z$ and a [chi-squared](/D/chi2) random variable $V$:
+Note that, when $X$ follows a t-distribution with $n$ degrees of freedom, [this is equivalent to](/D/t) an expression of $X$ in terms of a [standard normal](/D/snorm) random variable $Z$ and a [chi-squared](/D/chi2) random variable $V$:
 
-$$ \label{eq:t-norm}
+$$ \label{eq:t}
 X \sim t(n) \quad \Leftrightarrow \quad X = \frac{Z}{\sqrt{V/n}} \quad \text{with independent} \quad Z \sim \mathcal{N}(0,1) \quad \text{and} \quad V \sim \chi^2(n) \; .
 $$
 
@@ -91,7 +91,7 @@ $$ \label{eq:Z-eq-s1}
 \begin{split}
 Z &\overset{\eqref{eq:YZ}}{=} Y^\mathrm{T} Y / n \\
 &= \frac{1}{n} \sum_{i=1}^n Y_i^2 \\
-&\overset{\eqref{eq:t-norm}}{=} \frac{1}{n} \sum_{i=1}^n \left( \frac{Z_i}{\sqrt{V/\nu}} \right)^2 \\
+&\overset{\eqref{eq:t}}{=} \frac{1}{n} \sum_{i=1}^n \left( \frac{Z_i}{\sqrt{V/\nu}} \right)^2 \\
 &= \frac{\left( \sum_{i=1}^n Z_i^2 \right)/n}{V/\nu} \; .
 \end{split}
 $$
