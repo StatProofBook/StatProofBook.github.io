@@ -16,27 +16,27 @@ definition: "Sample covariance"
 sources:
   - authors: "Wikipedia"
     year: 2021
-    title: "Sample mean and covariance"
+    title: "Covariance"
     in: "Wikipedia, the free encyclopedia"
-    pages: "retrieved on 2020-04-21"
-    url: "https://en.wikipedia.org/wiki/Sample_mean_and_covariance#Definition_of_sample_covariance"
+    pages: "retrieved on 2020-05-20"
+    url: "https://en.wikipedia.org/wiki/Covariance#Calculating_the_sample_covariance"
 
 def_id: "D144"
 shortcut: "cov-samp"
-username: "JoramSoch"
+username: "ciaranmci"
 ---
 
 
-**Definition:** Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ be a [sample](/D/samp) from a [random vector](/D/rvec) $X \in \mathbb{R}^{n \times 1}$. Then, the sample covariance matrix of $x$ is given by
+**Definition:** Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ and $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be [samples](/D/samp) from [random variables](/D/rvar) $X$ and $Y$. Then, the sample covariance of $x$ and $y$ is given by
 
 $$ \label{eq:cov-samp}
-\hat{\Sigma} = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x}) (x_i - \bar{x})^\mathrm{T}
+\hat{\sigma}_{xy} = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x}) (y_i - \bar{y})
 $$
 
-and the unbiased sample variance matrix of $x$ is given by
+and the unbiased sample covariance of $x$ and $y$ is given by
 
 $$ \label{eq:cov-samp-unb}
-S = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x}) (x_i - \bar{x})^\mathrm{T}
+s^2_{xy} = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x}) (y_i - \bar{y})
 $$
 
-where $\bar{x}$ is the [sample mean](/D/mean-samp).
+where $\bar{x}$ and $\bar{y}$ are the [sample means](/D/mean-samp).

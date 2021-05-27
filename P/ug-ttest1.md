@@ -82,7 +82,7 @@ $$ \label{eq:V-dist}
 V = \frac{(n-1)\,s^2}{\sigma^2} \sim \chi^2\left(n-1\right) \; .
 $$
 
-Finally, since [the ratio of a standard normal random variable and a (normalized) chi-squared random variable follows a t-distribution](/P/norm-t), the distribution of the [test statistic](/D/tstat) is given by
+Finally, since [the ratio of a standard normal random variable and the square root of a chi-squared random variable follows a t-distribution](/D/t), the distribution of the [test statistic](/D/tstat) is given by
 
 $$ \label{eq:t-dist-qed}
 t = \frac{\bar{y}-\mu_0}{s / \sqrt{n}} = \frac{Z}{\sqrt{V / (n-1)}} \sim \mathrm{t}(n-1) \; .

@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 20201-05-20 10:18:00
+date: 2021-05-20 10:18:00
 
 title: "Relationship between normal distribution and chi-squared distribution"
 chapter: "Probability Distributions"
@@ -28,7 +28,7 @@ sources:
     url: "https://en.wikipedia.org/wiki/Cochran%27s_theorem#Sample_mean_and_sample_variance"
 
 proof_id: "P233"
-shortcut: "norm-snorm"
+shortcut: "norm-chi2"
 username: "JoramSoch"
 ---
 

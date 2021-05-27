@@ -106,7 +106,7 @@ $$ \label{eq:V-dist}
 V = \frac{(n_1+n_2-1)\,s_p^2}{\sigma^2} \sim \chi^2\left(n_1+n_2-2\right) \; .
 $$
 
-Finally, since [the ratio of a standard normal random variable and a (normalized) chi-squared random variable follows a t-distribution](/P/norm-t), the distribution of the [test statistic](/D/tstat) is given by
+Finally, since [the ratio of a standard normal random variable and the square root of a chi-squared random variable follows a t-distribution](/D/t), the distribution of the [test statistic](/D/tstat) is given by
 
 $$ \label{eq:t-dist-qed}
 t = \frac{(\bar{y}_1-\bar{y}_2)-\mu_\Delta}{s_p \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}} = \frac{Z}{\sqrt{V / (n_1+n_2-2)}} \sim \mathrm{t}(n_1+n_2-2) \; .

@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (147 definitions)
+### JoramSoch (148 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -92,6 +92,7 @@ title: "Definition by Author"
 - [Multivariate normal distribution](/D/mvn)
 - [Multivariate t-distribution](/D/mvt)
 - [Mutual information](/D/mi)
+- [Non-standardized t-distribution](/D/nst)
 - [Normal distribution](/D/norm)
 - [Normal-gamma distribution](/D/ng)
 - [Null hypothesis](/D/h0)
@@ -124,7 +125,7 @@ title: "Definition by Author"
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)
-- [Sample covariance](/D/cov-samp)
+- [Sample covariance matrix](/D/covmat-samp)
 - [Sample mean](/D/mean-samp)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
@@ -157,6 +158,10 @@ title: "Definition by Author"
 ### StatProofBook (1 definition)
 
 - [Definition Template](/D/-temp-)
+
+### ciaranmci (1 definition)
+
+- [Sample covariance](/D/cov-samp)
 
 ### kjpetrykowski (1 definition)
 

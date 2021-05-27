@@ -29,13 +29,13 @@ username: "JoramSoch"
 
 **Definition:** Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ be a [sample](/D/samp) from a [random vector](/D/rvec) $X \in \mathbb{R}^{p \times 1}$. Then, the sample covariance matrix of $x$ is given by
 
-$$ \label{eq:cov-samp}
+$$ \label{eq:covmat-samp}
 \hat{\Sigma} = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x}) (x_i - \bar{x})^\mathrm{T}
 $$
 
-and the unbiased sample variance matrix of $x$ is given by
+and the unbiased sample covariance matrix of $x$ is given by
 
-$$ \label{eq:cov-samp-unb}
+$$ \label{eq:covmat-samp-unb}
 S = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x}) (x_i - \bar{x})^\mathrm{T}
 $$
 

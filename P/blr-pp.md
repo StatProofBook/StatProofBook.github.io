@@ -94,18 +94,18 @@ $$ \label{eq:GLM-NG-post-gamma}
 p(\gamma|y) = \mathrm{t}(\gamma; c^\mathrm{T} \mu, c^\mathrm{T} \Sigma \, c, \nu) \; .
 $$
 
-Because $c^\mathrm{T}$ is a $1 \times p$ vector, $\gamma$ is a scalar and actually has a [non-central scaled t-distribution](/D/ncst). Therefore, the posterior probability of $H_1$ can be calculated using a one-dimensional integral:
+Because $c^\mathrm{T}$ is a $1 \times p$ vector, $\gamma$ is a scalar and actually has a [non-standardized t-distribution](/D/nst). Therefore, the posterior probability of $H_1$ can be calculated using a one-dimensional integral:
 
 $$ \label{eq:GLM-NG-post-prob-H0-s1}
 \begin{split}
 \mathrm{Pr}\left( \mathrm{H}_1 | y \right) &= p(\gamma > 0|y) \\
 &= \int_{0}^{+\infty} p(\gamma|y) \, \mathrm{d}\gamma \\
 &= 1 - \int_{-\infty}^{0} p(\gamma|y) \, \mathrm{d}\gamma \\
-&= 1 - \mathrm{T}_\mathrm{ncst}(0; c^\mathrm{T} \mu, c^\mathrm{T} \Sigma \, c, \nu) \; .
+&= 1 - \mathrm{T}_\mathrm{nst}(0; c^\mathrm{T} \mu, c^\mathrm{T} \Sigma \, c, \nu) \; .
 \end{split}
 $$
 
-Using [the relation between non-central scaled t-distribution and standard t-distribution](/P/ncst-t), we can finally write:
+Using [the relation between non-standardized t-distribution and standard t-distribution](/P/nst-t), we can finally write:
 
 $$ \label{eq:GLM-NG-post-prob-H0-s2}
 \begin{split}

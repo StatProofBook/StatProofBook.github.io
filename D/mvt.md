@@ -37,7 +37,7 @@ $$
 if and only if its [probability density function](/D/pdf) is given by
 
 $$ \label{eq:mvt-pdf}
-t(x; \mu, \Sigma, \nu) = \sqrt{\frac{1}{(\nu \pi)^{n} |\Sigma|}} \, \frac{\Gamma([\nu+n]/2)}{\Gamma(\nu/2)} \, \left[ 1 + \frac{1}{\nu} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right]
+t(x; \mu, \Sigma, \nu) = \sqrt{\frac{1}{(\nu \pi)^{n} |\Sigma|}} \, \frac{\Gamma([\nu+n]/2)}{\Gamma(\nu/2)} \, \left[ 1 + \frac{1}{\nu} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right]^{-(\nu+n)/2}
 $$
 
 where $\mu$ is an $n \times 1$ real vector, $\Sigma$ is an $n \times n$ positive definite matrix and $\nu > 0$.
