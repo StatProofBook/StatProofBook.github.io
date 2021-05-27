@@ -301,19 +301,20 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.4. **[Relation to standard normal distribution](/P/norm-snorm2)** (2) <br>
    &emsp;&ensp; 3.2.5. **[Relation to standard normal distribution](/P/norm-snorm3)** (3) <br>
    &emsp;&ensp; 3.2.6. **[Relationship to chi-squared distribution](/P/norm-chi2)** <br>
-   &emsp;&ensp; 3.2.7. **[Gaussian integral](/P/norm-gi)** <br>
-   &emsp;&ensp; 3.2.8. **[Probability density function](/P/norm-pdf)** <br>
-   &emsp;&ensp; 3.2.9. **[Moment-generating function](/P/norm-mgf)** <br>
-   &emsp;&ensp; 3.2.10. **[Cumulative distribution function](/P/norm-cdf)** <br>
-   &emsp;&ensp; 3.2.11. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.12. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.13. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.14. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.15. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.16. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.17. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.18. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.19. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
+   &emsp;&ensp; 3.2.7. **[Relationship to t-distribution](/P/norm-t)** <br>
+   &emsp;&ensp; 3.2.8. **[Gaussian integral](/P/norm-gi)** <br>
+   &emsp;&ensp; 3.2.9. **[Probability density function](/P/norm-pdf)** <br>
+   &emsp;&ensp; 3.2.10. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.11. **[Cumulative distribution function](/P/norm-cdf)** <br>
+   &emsp;&ensp; 3.2.12. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
+   &emsp;&ensp; 3.2.13. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.14. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.15. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.16. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.17. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.18. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.19. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.20. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
    
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
