@@ -7,10 +7,10 @@ affiliation: "KU Leuven"
 e_mail: "kenneth.petrykowski@gmail.com"
 date: 2020-10-12 22:15:00
 
-title: "Chi-square distribution is a special case of gamma distribution"
+title: "Chi-squared distribution is a special case of gamma distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
-topic: "Chi-square distribution"
+topic: "Chi-squared distribution"
 theorem: "Special case of gamma distribution"
 
 sources:
@@ -21,7 +21,7 @@ username: "kjpetrykowski"
 ---
 
 
-**Theorem:** The [chi-square distribution](/D/chi2) with $k$ degrees of freedom is a special case of the [gamma distribution](/D/gam) with shape $\frac{k}{2}$ and rate $\frac{1}{2}$:
+**Theorem:** The [chi-squared distribution](/D/chi2) with $k$ degrees of freedom is a special case of the [gamma distribution](/D/gam) with shape $\frac{k}{2}$ and rate $\frac{1}{2}$:
 
 $$ \label{eq:chi2-gam}
 X \sim \mathrm{Gam}\left( \frac{k}{2}, \frac{1}{2} \right) \Rightarrow X \sim \chi^{2}(k) \; .
@@ -40,4 +40,4 @@ $$ \label{eq:gam-pdf-chi2}
 \mathrm{Gam}\left(x; \frac{k}{2}, \frac{1}{2}\right) = \frac{x^{k/2-1} \, e^{-x/2}}{\Gamma(k/2) 2^{k/2}} = \frac{1}{2^{k/2} \Gamma(k/2)} \, x^{k/2-1} \, e^{-x/2}
 $$
 
-which is equivalent to the [probability density function of the chi-square distribution](/P/chi2-pdf).
+which is equivalent to the [probability density function of the chi-squared distribution](/P/chi2-pdf).

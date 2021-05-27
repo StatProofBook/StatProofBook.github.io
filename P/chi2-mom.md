@@ -7,10 +7,10 @@ affiliation: "KU Leuven"
 e_mail: "kenneth.petrykowski@gmail.com"
 date: 2020-10-13 01:30:00
 
-title: "Moments of the chi-square distribution"
+title: "Moments of the chi-squared distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
-topic: "Chi-square distribution"
+topic: "Chi-squared distribution"
 theorem: "Moments"
 
 sources:
@@ -27,7 +27,7 @@ username: "kjpetrykowski"
 ---
 
 
-**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [chi-square distribution](/D/chi2):
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [chi-squared distribution](/D/chi2):
 
 $$ \label{eq:chi2}
 X \sim \chi^{2}(k) \; .
@@ -40,7 +40,7 @@ $$ \label{eq:chi2-mom}
 $$
 
 
-**Proof:** Combining the [definition of the $m$-th raw moment](/D/mom-raw) with the [probability density function of the chi-square distribution](/P/chi2-pdf), we have:
+**Proof:** Combining the [definition of the $m$-th raw moment](/D/mom-raw) with the [probability density function of the chi-squared distribution](/P/chi2-pdf), we have:
 
 $$ \label{eq:chi2-mom-int}
 \mathrm{E}(X^{m}) = \int_{0}^{\infty} \frac{1}{\Gamma\left( \frac{k}{2} \right) 2^{k/2}} \, x^{(k/2)+m-1} \, e^{-x/2} \mathrm{d}x \; . 
@@ -52,4 +52,4 @@ $$ \label{eq:chi-2-mom-int-u}
 \mathrm{E}(X^{m}) = \int_{0}^{\infty} \frac{1}{\Gamma\left( \frac{k}{2} \right) 2^{(k/2)-1}} \, 2^{(k/2)+m-1} \, u^{(k/2)+m-1} \, e^{-u} \mathrm{d}u \; .
 $$
 
-This leads to the desired result when $m > -k/2$. Observe that, if $m$ is a nonnegative integer, then $m > -k/2$ is always true. Therefore, all [moments](/D/mom) of a [chi-square distribution](/D/chi2) exist and the $m$-th raw moment is given by the foregoing equation.
+This leads to the desired result when $m > -k/2$. Observe that, if $m$ is a nonnegative integer, then $m > -k/2$ is always true. Therefore, all [moments](/D/mom) of a [chi-squared distribution](/D/chi2) exist and the $m$-th raw moment is given by the foregoing equation.

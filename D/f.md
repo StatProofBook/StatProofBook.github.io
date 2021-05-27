@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X_1$ and $X_2$ be [independent](/D/ind) [random variables](/D/rvar) following a [chi-square distribution](/D/chi2) with $d_1$ and $d_2$ [degrees of freedom](/D/dof), respectively:
+**Definition:** Let $X_1$ and $X_2$ be [independent](/D/ind) [random variables](/D/rvar) following a [chi-squared distribution](/D/chi2) with $d_1$ and $d_2$ [degrees of freedom](/D/dof), respectively:
 
 $$ \label{eq:chi2}
 \begin{split}
