@@ -105,7 +105,7 @@ and the [marginal distribution](/D/dist-marg) of $x$ [is a multivariate t-distri
 
 $$ \label{eq:ng-x-pdf}
 \begin{split}
-p(x) &= \mathrm{t}\left( x; \mu, \left(\frac{a}{b} \Lambda \right)^{-1}, 2a \right) \\
+p(x) &= t\left( x; \mu, \left(\frac{a}{b} \Lambda \right)^{-1}, 2a \right) \\
 &= \sqrt{\frac{\left| \frac{a}{b}\,\Lambda \right|}{(2a\,\pi)^n}} \cdot \frac{\Gamma\left( \frac{2a+n}{2} \right)}{\Gamma\left( \frac{2a}{2} \right)} \cdot \left( 1 + \frac{1}{2a} (x-\mu)^\mathrm{T} \left( \frac{a}{b}\Lambda \right) (x-\mu) \right)^{-\frac{2a+n}{2}} \\
 &= \sqrt{\frac{|\Lambda|}{(2 \pi)^n}} \cdot \frac{\Gamma\left( a+\frac{n}{2} \right)}{\Gamma(a)} \cdot b^a \cdot \left( b + \frac{1}{2} (x-\mu)^\mathrm{T} \Lambda (x-\mu) \right)^{-\left( a+\frac{n}{2} \right)} \; .
 \end{split}

@@ -75,7 +75,7 @@ $$
 The [marginal distribution of a normal-gamma distribution is a multivariate t-distribution](/P/ng-marg), such that the [marginal](/D/dist-marg) [posterior](/D/post) distribution of $\beta$ is
 
 $$ \label{eq:GLM-NG-post-beta}
-p(\beta|y) = \mathrm{t}(\beta; \mu, \Sigma, \nu)
+p(\beta|y) = t(\beta; \mu, \Sigma, \nu)
 $$
 
 with the [posterior hyperparameters](/D/post)
@@ -91,7 +91,7 @@ $$
 Define the quantity $\gamma = C^\mathrm{T} \beta$. According to the [linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt), $\gamma$ also follows a [multivariate t-distribution](/D/mvt):
 
 $$ \label{eq:GLM-NG-post-gamma}
-p(\gamma|y) = \mathrm{t}(\gamma; C^\mathrm{T} \mu, C^\mathrm{T} \Sigma \, C, \nu) \; .
+p(\gamma|y) = t(\gamma; C^\mathrm{T} \mu, C^\mathrm{T} \Sigma \, C, \nu) \; .
 $$
 
 Because $C^\mathrm{T}$ is a $q \times p$ matrix, $\gamma$ is a $q \times 1$ vector. The [quadratic form of a multivariate t-distributed random variable has an F-distribution](/P/mvt-f), such that we can write:
