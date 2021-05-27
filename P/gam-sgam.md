@@ -7,11 +7,11 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-05-26 23:14:00
 
-title: "Relation between gamma distribution and standard gamma distribution"
+title: "Relationship between gamma distribution and standard gamma distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Gamma distribution"
-theorem: "Relation to standard gamma distribution"
+theorem: "Relationship to standard gamma distribution"
 
 sources:
 

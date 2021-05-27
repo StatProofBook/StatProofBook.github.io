@@ -7,11 +7,11 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-05-26 23:01:00
 
-title: "Relation between normal distribution and standard normal distribution"
+title: "Relationship between normal distribution and standard normal distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Normal distribution"
-theorem: "Relation to standard normal distribution"
+theorem: "Relationship to standard normal distribution"
 
 sources:
 
