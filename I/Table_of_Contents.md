@@ -315,6 +315,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.18. **[Full width at half maximum](/P/norm-fwhm)** <br>
    &emsp;&ensp; 3.2.19. **[Differential entropy](/P/norm-dent)** <br>
    &emsp;&ensp; 3.2.20. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
+   &emsp;&ensp; 3.2.21. **[Linear combination](/P/norm-lincomb)** <br>
    
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
@@ -379,6 +380,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.5. **[Linear transformation](/P/mvn-ltt)** <br>
    &emsp;&ensp; 4.1.6. **[Marginal distributions](/P/mvn-marg)** <br>
    &emsp;&ensp; 4.1.7. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.8. **[Conditions for independence](/P/mvn-ind)** <br>
    
    4.2. Multivariate t-distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
