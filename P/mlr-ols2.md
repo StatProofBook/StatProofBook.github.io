@@ -20,6 +20,12 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-02-03"
     url: "https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares#Least_squares_estimator_for_%CE%B2"
+  - authors: "ad"
+    year: 2015
+    title: "Derivation of the Least Squares Estimator for Beta in Matrix Notation"
+    in: "Economic Theory Blog"
+    pages: "retrieved on 2021-05-27"
+    url: "https://economictheoryblog.com/2015/02/19/ols_estimator/"
 
 proof_id: "P40"
 shortcut: "mlr-ols2"

@@ -23,7 +23,7 @@ title: "Proof by Topic"
 
 ### C
 
-- [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam)
+- [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Concavity of the Shannon entropy](/P/ent-conc)
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
@@ -167,7 +167,7 @@ title: "Proof by Topic"
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
 - [Moment-generating function of the beta distribution](/P/beta-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
-- [Moments of the chi-square distribution](/P/chi2-mom)
+- [Moments of the chi-squared distribution](/P/chi2-mom)
 - [Monotonicity of the expected value](/P/mean-mono)
 
 ### N
@@ -218,7 +218,7 @@ title: "Proof by Topic"
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
-- [Probability density function of the chi-square distribution](/P/chi2-pdf)
+- [Probability density function of the chi-squared distribution](/P/chi2-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)
 - [Probability density function of the gamma distribution](/P/gam-pdf)
@@ -249,11 +249,6 @@ title: "Proof by Topic"
 
 ### R
 
-- [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam)
-- [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2)
-- [Relation between normal distribution and standard normal distribution](/P/norm-snorm)
-- [Relation between normal distribution and standard normal distribution](/P/norm-snorm2)
-- [Relation between normal distribution and standard normal distribution](/P/norm-snorm3)
 - [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)
@@ -265,9 +260,15 @@ title: "Proof by Topic"
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
+- [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam)
+- [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam2)
 - [Relationship between multivariate t-distribution and F-distribution](/P/mvt-f)
 - [Relationship between non-standardized t-distribution and t-distribution](/P/nst-t)
 - [Relationship between normal distribution and chi-squared distribution](/P/norm-chi2)
+- [Relationship between normal distribution and standard normal distribution](/P/norm-snorm)
+- [Relationship between normal distribution and standard normal distribution](/P/norm-snorm2)
+- [Relationship between normal distribution and standard normal distribution](/P/norm-snorm3)
+- [Relationship between normal distribution and t-distribution](/P/norm-t)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)

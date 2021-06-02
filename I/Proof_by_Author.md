@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (223 proofs)
+### JoramSoch (224 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -167,7 +167,7 @@ title: "Proof by Author"
 - [Probability density function of a strictly increasing function of a continuous random variable](/P/pdf-sifct)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
-- [Probability density function of the chi-square distribution](/P/chi2-pdf)
+- [Probability density function of the chi-squared distribution](/P/chi2-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)
 - [Probability density function of the gamma distribution](/P/gam-pdf)
@@ -191,11 +191,6 @@ title: "Proof by Author"
 - [Quantile function of the exponential distribution](/P/exp-qf)
 - [Quantile function of the gamma distribution](/P/gam-qf)
 - [Quantile function of the normal distribution](/P/norm-qf)
-- [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam)
-- [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2)
-- [Relation between normal distribution and standard normal distribution](/P/norm-snorm)
-- [Relation between normal distribution and standard normal distribution](/P/norm-snorm2)
-- [Relation between normal distribution and standard normal distribution](/P/norm-snorm3)
 - [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)
@@ -207,9 +202,15 @@ title: "Proof by Author"
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
+- [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam)
+- [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam2)
 - [Relationship between multivariate t-distribution and F-distribution](/P/mvt-f)
 - [Relationship between non-standardized t-distribution and t-distribution](/P/nst-t)
 - [Relationship between normal distribution and chi-squared distribution](/P/norm-chi2)
+- [Relationship between normal distribution and standard normal distribution](/P/norm-snorm)
+- [Relationship between normal distribution and standard normal distribution](/P/norm-snorm2)
+- [Relationship between normal distribution and standard normal distribution](/P/norm-snorm3)
+- [Relationship between normal distribution and t-distribution](/P/norm-t)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
@@ -236,8 +237,8 @@ title: "Proof by Author"
 
 ### kjpetrykowski (2 proofs)
 
-- [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam)
-- [Moments of the chi-square distribution](/P/chi2-mom)
+- [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
+- [Moments of the chi-squared distribution](/P/chi2-mom)
 
 ### tomfaulkenberry (7 proofs)
 

@@ -75,7 +75,7 @@ $$
 The [marginal distribution of a normal-gamma distribution is a multivariate t-distribution](/P/ng-marg), such that the [marginal](/D/dist-marg) [posterior](/D/post) distribution of $\beta$ is
 
 $$ \label{eq:GLM-NG-post-beta}
-p(\beta|y) = \mathrm{t}(\beta; \mu, \Sigma, \nu)
+p(\beta|y) = t(\beta; \mu, \Sigma, \nu)
 $$
 
 with the [posterior hyperparameters](/D/post)
@@ -91,7 +91,7 @@ $$
 Define the quantity $\gamma = c^\mathrm{T} \beta$. According to the [linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt), $\gamma$ also follows a [multivariate t-distribution](/D/mvt):
 
 $$ \label{eq:GLM-NG-post-gamma}
-p(\gamma|y) = \mathrm{t}(\gamma; c^\mathrm{T} \mu, c^\mathrm{T} \Sigma \, c, \nu) \; .
+p(\gamma|y) = t(\gamma; c^\mathrm{T} \mu, c^\mathrm{T} \Sigma \, c, \nu) \; .
 $$
 
 Because $c^\mathrm{T}$ is a $1 \times p$ vector, $\gamma$ is a scalar and actually has a [non-standardized t-distribution](/D/nst). Therefore, the posterior probability of $H_1$ can be calculated using a one-dimensional integral:

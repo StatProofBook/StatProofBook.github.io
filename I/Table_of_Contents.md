@@ -297,9 +297,9 @@ title: "Table of Contents"
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
    &emsp;&ensp; 3.2.2. *[Standard normal distribution](/D/snorm)* <br>
-   &emsp;&ensp; 3.2.3. **[Relation to standard normal distribution](/P/norm-snorm)** (1) <br>
-   &emsp;&ensp; 3.2.4. **[Relation to standard normal distribution](/P/norm-snorm2)** (2) <br>
-   &emsp;&ensp; 3.2.5. **[Relation to standard normal distribution](/P/norm-snorm3)** (3) <br>
+   &emsp;&ensp; 3.2.3. **[Relationship to standard normal distribution](/P/norm-snorm)** (1) <br>
+   &emsp;&ensp; 3.2.4. **[Relationship to standard normal distribution](/P/norm-snorm2)** (2) <br>
+   &emsp;&ensp; 3.2.5. **[Relationship to standard normal distribution](/P/norm-snorm3)** (3) <br>
    &emsp;&ensp; 3.2.6. **[Relationship to chi-squared distribution](/P/norm-chi2)** <br>
    &emsp;&ensp; 3.2.7. **[Relationship to t-distribution](/P/norm-t)** <br>
    &emsp;&ensp; 3.2.8. **[Gaussian integral](/P/norm-gi)** <br>
@@ -324,8 +324,8 @@ title: "Table of Contents"
    3.4. Gamma distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/gam)* <br>
    &emsp;&ensp; 3.4.2. *[Standard gamma distribution](/D/sgam)* <br>
-   &emsp;&ensp; 3.4.3. **[Relation to standard gamma distribution](/P/gam-sgam)** (1) <br>
-   &emsp;&ensp; 3.4.4. **[Relation to standard gamma distribution](/P/gam-sgam2)** (2) <br>
+   &emsp;&ensp; 3.4.3. **[Relationship to standard gamma distribution](/P/gam-sgam)** (1) <br>
+   &emsp;&ensp; 3.4.4. **[Relationship to standard gamma distribution](/P/gam-sgam2)** (2) <br>
    &emsp;&ensp; 3.4.5. **[Probability density function](/P/gam-pdf)** <br>
    &emsp;&ensp; 3.4.6. **[Cumulative distribution function](/P/gam-cdf)** <br>
    &emsp;&ensp; 3.4.7. **[Quantile function](/P/gam-qf)** <br>
@@ -345,7 +345,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.5.7. **[Median](/P/exp-med)** <br>
    &emsp;&ensp; 3.5.8. **[Mode](/P/exp-mode)** <br>
    
-   3.6. Chi-square distribution <br>
+   3.6. Chi-squared distribution <br>
    &emsp;&ensp; 3.6.1. *[Definition](/D/chi2)* <br>
    &emsp;&ensp; 3.6.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
    &emsp;&ensp; 3.6.3. **[Probability density function](/P/chi2-pdf)** <br>

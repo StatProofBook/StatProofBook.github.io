@@ -7,10 +7,10 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-11-25 05:56:00
 
-title: "Probability density function of the chi-square distribution"
+title: "Probability density function of the chi-squared distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
-topic: "Chi-square distribution"
+topic: "Chi-squared distribution"
 theorem: "Probability density function"
 
 sources:
@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $Y$ be a [random variable](/D/rvar) following a [chi-square distribution](/D/chi2):
+**Theorem:** Let $Y$ be a [random variable](/D/rvar) following a [chi-squared distribution](/D/chi2):
 
 $$ \label{eq:chi2}
 Y \sim \chi^{2}(k) \; .

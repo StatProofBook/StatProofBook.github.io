@@ -36,7 +36,7 @@ $$
 and the [marginal distribution](/D/dist-marg) of $x$ is a [multivariate t-distribution](/D/mvt)
 
 $$ \label{eq:ng-marg-x}
-x \sim \mathrm{t}\left( \mu, \left(\frac{a}{b} \Lambda \right)^{-1}, 2a \right) \; .
+x \sim t\left( \mu, \left(\frac{a}{b} \Lambda \right)^{-1}, 2a \right) \; .
 $$
 
 

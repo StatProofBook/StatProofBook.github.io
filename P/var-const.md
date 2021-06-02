@@ -36,7 +36,7 @@ $$
 and if the [variance](/D/var) of $X$ is zero, then $X$ is a [constant](/D/const)
 
 $$ \label{eq:var-zero}
-\mathrm{Var}(X) = 0 \quad \Rightarrow \quad X = \text{const.} \; .
+\mathrm{Var}(X) = 0 \quad \Rightarrow \quad X = \text{const.}
 $$
 
 
@@ -80,7 +80,7 @@ $$ \label{eq:sqr-dev-zero}
 (X-\mathrm{E}(X))^2 = 0 \; .
 $$
 
-Thus, in turn, requires that $X$ is equal to its [expected value](/D/mean)
+This, in turn, requires that $X$ is equal to its [expected value](/D/mean)
 
 $$ \label{eq:X-eq-E-X}
 X = \mathrm{E}(X)

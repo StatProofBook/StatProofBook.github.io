@@ -165,7 +165,7 @@ title: "Definition by Author"
 
 ### kjpetrykowski (1 definition)
 
-- [Chi-square distribution](/D/chi2)
+- [Chi-squared distribution](/D/chi2)
 
 ### tomfaulkenberry (3 definitions)
 

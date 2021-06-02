@@ -117,8 +117,8 @@ title: "Proof by Number"
 | P108 | gam-mean | [Mean of the gamma distribution](/P/gam-mean) | JoramSoch | 2020-05-19 |
 | P109 | gam-var | [Variance of the gamma distribution](/P/gam-var) | JoramSoch | 2020-05-19 |
 | P110 | gam-logmean | [Logarithmic expectation of the gamma distribution](/P/gam-logmean) | JoramSoch | 2020-05-25 |
-| P111 | norm-snorm | [Relation between normal distribution and standard normal distribution](/P/norm-snorm) | JoramSoch | 2020-05-26 |
-| P112 | gam-sgam | [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam) | JoramSoch | 2020-05-26 |
+| P111 | norm-snorm | [Relationship between normal distribution and standard normal distribution](/P/norm-snorm) | JoramSoch | 2020-05-26 |
+| P112 | gam-sgam | [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam) | JoramSoch | 2020-05-26 |
 | P113 | kl-ent | [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent) | JoramSoch | 2020-05-27 |
 | P114 | kl-dent | [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent) | JoramSoch | 2020-05-27 |
 | P115 | kl-inv | [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv) | JoramSoch | 2020-05-28 |
@@ -179,13 +179,13 @@ title: "Proof by Number"
 | P171 | momraw-1st | [First raw moment is mean](/P/momraw-1st) | JoramSoch | 2020-10-08 |
 | P172 | momraw-2nd | [Relationship between second raw moment, variance and mean](/P/momraw-2nd) | JoramSoch | 2020-10-08 |
 | P173 | momcent-2nd | [Second central moment is variance](/P/momcent-2nd) | JoramSoch | 2020-10-08 |
-| P174 | chi2-gam | [Chi-square distribution is a special case of gamma distribution](/P/chi2-gam) | kjpetrykowski | 2020-10-12 |
-| P175 | chi2-mom | [Moments of the chi-square distribution](/P/chi2-mom) | kjpetrykowski | 2020-10-13 |
-| P176 | norm-snorm2 | [Relation between normal distribution and standard normal distribution](/P/norm-snorm2) | JoramSoch | 2020-10-15 |
-| P177 | gam-sgam2 | [Relation between gamma distribution and standard gamma distribution](/P/gam-sgam2) | JoramSoch | 2020-10-15 |
+| P174 | chi2-gam | [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam) | kjpetrykowski | 2020-10-12 |
+| P175 | chi2-mom | [Moments of the chi-squared distribution](/P/chi2-mom) | kjpetrykowski | 2020-10-13 |
+| P176 | norm-snorm2 | [Relationship between normal distribution and standard normal distribution](/P/norm-snorm2) | JoramSoch | 2020-10-15 |
+| P177 | gam-sgam2 | [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam2) | JoramSoch | 2020-10-15 |
 | P178 | gam-cdf | [Cumulative distribution function of the gamma distribution](/P/gam-cdf) | JoramSoch | 2020-10-15 |
 | P179 | gam-xlogx | [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx) | JoramSoch | 2020-10-15 |
-| P180 | norm-snorm3 | [Relation between normal distribution and standard normal distribution](/P/norm-snorm3) | JoramSoch | 2020-10-22 |
+| P180 | norm-snorm3 | [Relationship between normal distribution and standard normal distribution](/P/norm-snorm3) | JoramSoch | 2020-10-22 |
 | P181 | dir-ep | [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep) | JoramSoch | 2020-10-22 |
 | P182 | dir-mle | [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle) | JoramSoch | 2020-10-22 |
 | P183 | cdf-sifct | [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct) | JoramSoch | 2020-10-29 |
@@ -202,7 +202,7 @@ title: "Proof by Number"
 | P194 | gam-qf | [Quantile function of the gamma distribution](/P/gam-qf) | JoramSoch | 2020-11-19 |
 | P195 | beta-cdf | [Cumulative distribution function of the beta distribution](/P/beta-cdf) | JoramSoch | 2020-11-19 |
 | P196 | norm-gi | [Gaussian integral](/P/norm-gi) | JoramSoch | 2020-11-25 |
-| P197 | chi2-pdf | [Probability density function of the chi-square distribution](/P/chi2-pdf) | JoramSoch | 2020-11-25 |
+| P197 | chi2-pdf | [Probability density function of the chi-squared distribution](/P/chi2-pdf) | JoramSoch | 2020-11-25 |
 | P198 | beta-mgf | [Moment-generating function of the beta distribution](/P/beta-mgf) | JoramSoch | 2020-11-25 |
 | P199 | dent-inv | [Invariance of the differential entropy under addition of a constant](/P/dent-inv) | JoramSoch | 2020-12-02 |
 | P200 | dent-add | [Addition of the differential entropy upon multiplication with a constant](/P/dent-add) | JoramSoch | 2020-12-02 |
@@ -239,3 +239,4 @@ title: "Proof by Number"
 | P231 | mvt-f | [Relationship between multivariate t-distribution and F-distribution](/P/mvt-f) | JoramSoch | 2021-05-04 |
 | P232 | nst-t | [Relationship between non-standardized t-distribution and t-distribution](/P/nst-t) | JoramSoch | 2021-05-11 |
 | P233 | norm-chi2 | [Relationship between normal distribution and chi-squared distribution](/P/norm-chi2) | JoramSoch | 2021-05-20 |
+| P234 | norm-t | [Relationship between normal distribution and t-distribution](/P/norm-t) | JoramSoch | 2021-05-27 |
