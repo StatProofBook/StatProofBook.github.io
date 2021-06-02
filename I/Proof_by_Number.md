@@ -240,3 +240,5 @@ title: "Proof by Number"
 | P232 | nst-t | [Relationship between non-standardized t-distribution and t-distribution](/P/nst-t) | JoramSoch | 2021-05-11 |
 | P233 | norm-chi2 | [Relationship between normal distribution and chi-squared distribution](/P/norm-chi2) | JoramSoch | 2021-05-20 |
 | P234 | norm-t | [Relationship between normal distribution and t-distribution](/P/norm-t) | JoramSoch | 2021-05-27 |
+| P235 | norm-lincomb | [Linear combination of independent normal random variables](/P/norm-lincomb) | JoramSoch | 2021-06-02 |
+| P236 | mvn-ind | [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind) | JoramSoch | 2021-06-02 |

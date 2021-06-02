@@ -112,6 +112,7 @@ title: "Proof by Topic"
 ### L
 
 - [Law of the unconscious statistician](/P/mean-lotus)
+- [Linear combination of independent normal random variables](/P/norm-lincomb)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Linear transformation theorem for the moment-generating function](/P/mgf-ltt)
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
@@ -172,6 +173,7 @@ title: "Proof by Topic"
 
 ### N
 
+- [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
