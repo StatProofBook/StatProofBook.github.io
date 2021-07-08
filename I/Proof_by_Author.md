@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (224 proofs)
+### JoramSoch (226 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -77,6 +77,7 @@ title: "Proof by Author"
 - [Kullback-Leibler divergence for the normal distribution](/P/norm-kl)
 - [Kullback-Leibler divergence for the normal-gamma distribution](/P/ng-kl)
 - [Law of the unconscious statistician](/P/mean-lotus)
+- [Linear combination of independent normal random variables](/P/norm-lincomb)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Linear transformation theorem for the moment-generating function](/P/mgf-ltt)
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
@@ -128,6 +129,7 @@ title: "Proof by Author"
 - [Moment-generating function of the beta distribution](/P/beta-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Monotonicity of the expected value](/P/mean-mono)
+- [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
