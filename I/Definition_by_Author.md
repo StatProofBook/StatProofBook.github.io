@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (148 definitions)
+### JoramSoch (150 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -48,6 +48,8 @@ title: "Definition by Author"
 - [Estimation matrix](/D/emat)
 - [Exceedance probability](/D/prob-exc)
 - [Expected value](/D/mean)
+- [Expected value of a random matrix](/D/mean-rmat)
+- [Expected value of a random vector](/D/mean-rvec)
 - [Explained sum of squares](/D/ess)
 - [Exponential distribution](/D/exp)
 - [F-distribution](/D/f)

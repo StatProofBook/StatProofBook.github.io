@@ -242,3 +242,5 @@ title: "Proof by Number"
 | P234 | norm-t | [Relationship between normal distribution and t-distribution](/P/norm-t) | JoramSoch | 2021-05-27 |
 | P235 | norm-lincomb | [Linear combination of independent normal random variables](/P/norm-lincomb) | JoramSoch | 2021-06-02 |
 | P236 | mvn-ind | [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind) | JoramSoch | 2021-06-02 |
+| P237 | ng-mean | [Mean of the normal-gamma distribution](/P/ng-mean) | JoramSoch | 2021-07-08 |
+| P238 | ng-dent | [Differential entropy of the normal-gamma distribution](/P/ng-dent) | JoramSoch | 2021-07-08 |
