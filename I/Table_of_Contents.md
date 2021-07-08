@@ -77,6 +77,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
    &emsp;&ensp; 1.5.8. **[Expectation of a quadratic form](/P/mean-qf)** <br>
    &emsp;&ensp; 1.5.9. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.5.10. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.5.11. *[Expected value of a random matrix](/D/mean-rmat)* <br>
    
    1.6. Variance <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/var)* <br>
@@ -389,9 +391,11 @@ title: "Table of Contents"
    4.3. Normal-gamma distribution <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/ng)* <br>
    &emsp;&ensp; 4.3.2. **[Probability density function](/P/ng-pdf)** <br>
-   &emsp;&ensp; 4.3.3. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
-   &emsp;&ensp; 4.3.4. **[Marginal distributions](/P/ng-marg)** <br>
-   &emsp;&ensp; 4.3.5. **[Conditional distributions](/P/ng-cond)** <br>
+   &emsp;&ensp; 4.3.3. **[Mean](/P/ng-mean)** <br>
+   &emsp;&ensp; 4.3.4. **[Differential entropy](/P/ng-dent)** <br>
+   &emsp;&ensp; 4.3.5. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
+   &emsp;&ensp; 4.3.6. **[Marginal distributions](/P/ng-marg)** <br>
+   &emsp;&ensp; 4.3.7. **[Conditional distributions](/P/ng-cond)** <br>
    
    4.4. Dirichlet distribution <br>
    &emsp;&ensp; 4.4.1. *[Definition](/D/dir)* <br>
