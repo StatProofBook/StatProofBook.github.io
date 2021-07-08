@@ -29,12 +29,12 @@ $$
 
 Then, the [differential entropy](/D/dent) of $x$ in nats is
 
-\begin{equation} \label{eq:NG-dent}
+$$ \label{eq:NG-dent}
 \begin{split}
 \mathrm{h}(x,y) &= \frac{n}{2} \ln(2\pi) - \frac{1}{2} \ln|\Lambda| + \frac{1}{2} n \\
 &+ a + \ln(\Gamma(a)) - \frac{n-2+2a}{2} \psi(a) + \frac{n-2}{2} \ln(b) \; .
 \end{split}
-\end{equation}
+$$
 
 
 **Proof:** The [probabibility density function of the normal-gamma distribution](/P/ng-pdf) is

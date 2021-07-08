@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Theorem:** The [mean squared error](/D/mse) can be partitioned into variance and squared bias
 
 $$ \label{eq:MSE}
-\mathrm{MSE}(\hat{\theta}) = \mathrm{Var}(\hat{\theta}) - \mathrm{Bias}(\hat{\theta},\theta)^2
+\mathrm{MSE}(\hat{\theta}) = \mathrm{Var}(\hat{\theta}) + \mathrm{Bias}(\hat{\theta},\theta)^2
 $$
 
 where the [variance](/D/var) is given by

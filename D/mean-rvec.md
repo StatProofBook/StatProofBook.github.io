@@ -14,18 +14,18 @@ topic: "Expected value"
 definition: "Expected value of a random vector"
 
 sources:
-  - authors: "Wikipedia"
-    year: 2021
-    title: "Multivariate random variable"
-    in: "Wikipedia, the free encyclopedia"
-    pages: "retrieved on 2021-07-08"
-    url: "https://en.wikipedia.org/wiki/Multivariate_random_variable#Expected_value"
   - authors: "Taboga, Marco"
     year: 2017
     title: "Expected value"
     in: "Lectures on probability theory and mathematical statistics"
     pages: "retrieved on 2021-07-08"
     url: "https://www.statlect.com/fundamentals-of-probability/expected-value#hid12"
+  - authors: "Wikipedia"
+    year: 2021
+    title: "Multivariate random variable"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2021-07-08"
+    url: "https://en.wikipedia.org/wiki/Multivariate_random_variable#Expected_value"
 
 def_id: "D154"
 shortcut: "mean-rvec"
