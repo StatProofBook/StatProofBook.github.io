@@ -52,7 +52,7 @@ $$
 
 With the [probability density function of the normal distribution](/P/norm-pdf), the differential entropy of $X$ is:
 
-$$ \label{eq:mvn-dent-s1}
+$$ \label{eq:norm-dent-qed}
 \begin{split}
 \mathrm{h}(X) &= - \mathrm{E}\left[ \ln \left( \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] \right) \right] \\
 &= - \mathrm{E}\left[ - \frac{1}{2} \ln(2\pi\sigma^2) - \frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] \\
