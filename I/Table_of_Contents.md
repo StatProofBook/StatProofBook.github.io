@@ -336,7 +336,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.9. **[Variance](/P/gam-var)** <br>
    &emsp;&ensp; 3.4.10. **[Logarithmic expectation](/P/gam-logmean)** <br>
    &emsp;&ensp; 3.4.11. **[Expectation of x ln x](/P/gam-xlogx)** <br>
-   &emsp;&ensp; 3.4.12. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.4.12. **[Differential entropy](/P/gam-dent)** <br>
+   &emsp;&ensp; 3.4.13. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
    3.5. Exponential distribution <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/exp)* <br>
@@ -431,6 +432,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.6. **[Conjugate prior distribution](/P/ug-prior)** <br>
    &emsp;&ensp; 1.1.7. **[Posterior distribution](/P/ug-post)** <br>
    &emsp;&ensp; 1.1.8. **[Log model evidence](/P/ug-lme)** <br>
+   &emsp;&ensp; 1.1.9. **[Accuracy and complexity](/P/ug-anc)** <br>
 
    1.2. Univariate Gaussian with known variance<br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/ugkv)* <br>
