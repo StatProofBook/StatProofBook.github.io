@@ -432,6 +432,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.6. **[Conjugate prior distribution](/P/ug-prior)** <br>
    &emsp;&ensp; 1.1.7. **[Posterior distribution](/P/ug-post)** <br>
    &emsp;&ensp; 1.1.8. **[Log model evidence](/P/ug-lme)** <br>
+   &emsp;&ensp; 1.1.9. **[Accuracy and complexity](/P/ug-anc)** <br>
 
    1.2. Univariate Gaussian with known variance<br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/ugkv)* <br>
