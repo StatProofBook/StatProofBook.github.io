@@ -160,3 +160,5 @@ title: "Definition by Number"
 | D151 | mome | [Method-of-moments estimation](/D/mome) | JoramSoch | 2021-04-29 |
 | D152 | nst | [Non-standardized t-distribution](/D/nst) | JoramSoch | 2021-05-20 |
 | D153 | covmat-samp | [Sample covariance matrix](/D/covmat-samp) | JoramSoch | 2021-05-20 |
+| D154 | mean-rvec | [Expected value of a random vector](/D/mean-rvec) | JoramSoch | 2021-07-08 |
+| D155 | mean-rmat | [Expected value of a random matrix](/D/mean-rmat) | JoramSoch | 2021-07-08 |

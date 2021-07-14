@@ -46,7 +46,7 @@ $$ \label{eq:mean-rvec}
 \mathrm{E}\left( \left[ \begin{array}{c} x \\ y \end{array} \right] \right) = \left[ \begin{array}{c} \mathrm{E}(x_1) \\ \vdots \\ \mathrm{E}(x_n) \\ \mathrm{E}(y) \end{array} \right] = \left[ \begin{array}{c} \mathrm{E}(x) \\ \mathrm{E}(y) \end{array} \right] \; .
 $$
 
-when $x$ and $y$ are jointly normal-gamma distributed, [then by definition](/D/ng) $x$ follows a [multivariate normal distribution](/D/mvn) conditional on $y$ and $y$ follows a [univariate gamma distribution](/D/gam):
+When $x$ and $y$ are [jointly normal-gamma distributed, then](/D/ng) by definition $x$ follows a [multivariate normal distribution](/D/mvn) conditional on $y$ and $y$ follows a [univariate gamma distribution](/D/gam):
 
 $$ \label{eq:ng-def}
 x,y \sim \mathrm{NG}(\mu, \Lambda, a, b) \quad \Leftrightarrow \quad x \vert y \sim \mathcal{N}(\mu, (y \Lambda)^{-1}) \quad \wedge \quad y \sim \mathrm{Gam}(a,b) \; .

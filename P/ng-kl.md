@@ -40,7 +40,7 @@ Then, the [Kullback-Leibler divergence](/D/kl) of $P$ from $Q$ is given by
 
 $$ \label{eq:NG-KL}
 \begin{split}
-\mathrm{KL}[P\,||\,Q] &= \frac{1}{2} \frac{a_1}{b_1} \left[ (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) \right] + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{n}{2} \\
+\mathrm{KL}[P\,||\,Q] &= \frac{1}{2} \frac{a_1}{b_1} \left[ (\mu_2 - \mu_1)^\mathrm{T} \Lambda_2 (\mu_2 - \mu_1) \right] + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{n}{2} \\
 &+ a_2 \, \ln \frac{b_1}{b_2} - \ln \frac{\Gamma(a_1)}{\Gamma(a_2)} + (a_1 - a_2) \, \psi(a_1) - (b_1 - b_2) \, \frac{a_1}{b_1} \; .
 \end{split}
 $$
@@ -55,7 +55,7 @@ $$
 The [Kullback-Leibler divergence of the multivariate normal distribution](/P/mvn-kl) is
 
 $$ \label{eq:mvn-KL}
-\mathrm{KL}[P\,||\,Q] = \frac{1}{2} \left[ (\mu_2 - \mu_1)^T \Sigma_2^{-1} (\mu_2 - \mu_1) + \mathrm{tr}(\Sigma_2^{-1} \Sigma_1) - \ln \frac{|\Sigma_1|}{|\Sigma_2|} - n \right]
+\mathrm{KL}[P\,||\,Q] = \frac{1}{2} \left[ (\mu_2 - \mu_1)^\mathrm{T} \Sigma_2^{-1} (\mu_2 - \mu_1) + \mathrm{tr}(\Sigma_2^{-1} \Sigma_1) - \ln \frac{|\Sigma_1|}{|\Sigma_2|} - n \right]
 $$
 
 and the [Kullback-Leibler divergence of the univariate gamma distribution](/P/gam-kl) is
@@ -98,8 +98,8 @@ From equations \eqref{eq:NG-pdf} and \eqref{eq:mvn-KL}, the first term becomes
 $$ \label{eq:exp-mvn-KL-s1}
 \begin{split}
 &\left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} \\
-&= \left\langle \frac{1}{2} \left[ (\mu_2 - \mu_1)^T (y \Lambda_2) (\mu_2 - \mu_1) + \mathrm{tr}\left( (y \Lambda_2) (y \Lambda_1)^{-1} \right) - \ln \frac{|(y \Lambda_1)^{-1}|}{|(y \Lambda_2)^{-1}|} - n \right] \right\rangle_{p(y)} \\
-&= \left\langle \frac{y}{2} (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{n}{2} \right\rangle_{p(y)} \\
+&= \left\langle \frac{1}{2} \left[ (\mu_2 - \mu_1)^\mathrm{T} (y \Lambda_2) (\mu_2 - \mu_1) + \mathrm{tr}\left( (y \Lambda_2) (y \Lambda_1)^{-1} \right) - \ln \frac{|(y \Lambda_1)^{-1}|}{|(y \Lambda_2)^{-1}|} - n \right] \right\rangle_{p(y)} \\
+&= \left\langle \frac{y}{2} (\mu_2 - \mu_1)^\mathrm{T} \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{n}{2} \right\rangle_{p(y)} \\
 \end{split}
 $$
 
@@ -107,7 +107,7 @@ and using [the relation](/P/gam-mean) $y \sim \mathrm{Gam}(a,b) \Rightarrow \lef
 
 $$ \label{eq:exp-mvn-KL-s2}
 \begin{split}
-\left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} = \frac{1}{2} \frac{a_1}{b_1} (\mu_2 - \mu_1)^T \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{n}{2} \; .
+\left\langle \mathrm{KL}[p(x|y)\,||\,q(x|y)] \right\rangle_{p(y)} = \frac{1}{2} \frac{a_1}{b_1} (\mu_2 - \mu_1)^\mathrm{T} \Lambda_2 (\mu_2 - \mu_1) + \frac{1}{2} \, \mathrm{tr}(\Lambda_2 \Lambda_1^{-1}) - \frac{1}{2} \ln \frac{|\Lambda_2|}{|\Lambda_1|} - \frac{n}{2} \; .
 \end{split}
 $$
 

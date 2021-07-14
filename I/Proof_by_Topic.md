@@ -65,6 +65,7 @@ title: "Proof by Topic"
 - [Differential entropy can be negative](/P/dent-neg)
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
+- [Differential entropy of the normal-gamma distribution](/P/ng-dent)
 - [Distributional transformation using cumulative distribution function](/P/cdf-dt)
 
 ### E
@@ -156,6 +157,7 @@ title: "Proof by Topic"
 - [Mean of the gamma distribution](/P/gam-mean)
 - [Mean of the multinomial distribution](/P/mult-mean)
 - [Mean of the normal distribution](/P/norm-mean)
+- [Mean of the normal-gamma distribution](/P/ng-mean)
 - [Median of the continuous uniform distribution](/P/cuni-med)
 - [Median of the exponential distribution](/P/exp-med)
 - [Median of the normal distribution](/P/norm-med)
