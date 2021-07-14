@@ -4,6 +4,7 @@ title: "Proofs without Source"
 ---
 
 
+- [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
