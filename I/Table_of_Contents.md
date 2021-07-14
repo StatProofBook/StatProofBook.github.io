@@ -336,7 +336,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.9. **[Variance](/P/gam-var)** <br>
    &emsp;&ensp; 3.4.10. **[Logarithmic expectation](/P/gam-logmean)** <br>
    &emsp;&ensp; 3.4.11. **[Expectation of x ln x](/P/gam-xlogx)** <br>
-   &emsp;&ensp; 3.4.12. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.4.12. **[Differential entropy](/P/gam-dent)** <br>
+   &emsp;&ensp; 3.4.13. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
    3.5. Exponential distribution <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/exp)* <br>
