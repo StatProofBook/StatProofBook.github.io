@@ -36,4 +36,4 @@ $$ \label{eq:exc}
 p(A_1 \vee \ldots \vee A_n) = \sum_{i=1}^n p(A_i)
 $$
 
-where $p(A_1, \ldots, A_n)$ is the [probability](/D/prob) of the disjunction of $A_1, \ldots, A_n$ and $p(A_i)$ is the [marginal probability](/D/prob-marg) of $A_i$.
+where $p(A_1, \ldots, A_n)$ is the [probability](/D/prob) of the disjunction of $A_1, \ldots, A_n$ and $p(A_i)$ is the [marginal probability](/D/prob-marg) of $A_i$, for all $i = 1, \ldots, n$.
