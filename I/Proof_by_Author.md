@@ -4,9 +4,10 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (228 proofs)
+### JoramSoch (230 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
+- [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
 - [Addition of the differential entropy upon multiplication with a constant](/P/dent-add)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
@@ -50,6 +51,7 @@ title: "Proof by Author"
 - [Derivation of the log model evidence](/P/lme-der)
 - [Derivation of the posterior model probability](/P/pmp-der)
 - [Differential entropy can be negative](/P/dent-neg)
+- [Differential entropy of the gamma distribution](/P/gam-dent)
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
 - [Differential entropy of the normal-gamma distribution](/P/ng-dent)

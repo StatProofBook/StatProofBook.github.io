@@ -32,7 +32,7 @@ Then, the [differential entropy](/D/dent) of $x$ in nats is
 $$ \label{eq:NG-dent}
 \begin{split}
 \mathrm{h}(x,y) &= \frac{n}{2} \ln(2\pi) - \frac{1}{2} \ln|\Lambda| + \frac{1}{2} n \\
-&+ a + \ln(\Gamma(a)) - \frac{n-2+2a}{2} \psi(a) + \frac{n-2}{2} \ln(b) \; .
+&+ a + \ln \Gamma(a) - \frac{n-2+2a}{2} \psi(a) + \frac{n-2}{2} \ln b \; .
 \end{split}
 $$
 
@@ -52,7 +52,7 @@ $$
 and the [differential entropy of the univariate gamma distribution](/P/gam-dent) is
 
 $$ \label{eq:gam-dent}
-\mathrm{h}(y) = a + \ln(\Gamma(a)) + (1-a) \psi(a) - \ln(b)
+\mathrm{h}(y) = a + \ln \Gamma(a) + (1-a) \cdot \psi(a) - \ln b
 $$
 
 where $\Gamma(x)$ is the gamma function and $\psi(x)$ is the digamma function.
@@ -99,7 +99,7 @@ and using [the relation](/P/gam-logmean) $y \sim \mathrm{Gam}(a,b) \Rightarrow \
 
 $$ \label{eq:exp-mvn-dent-s2}
 \begin{split}
-\left\langle \mathrm{h}(x|y) \right\rangle_{p(y)} = \frac{n}{2} \ln(2\pi) - \frac{1}{2} \ln|\Lambda| + \frac{1}{2} n - \frac{n}{2} \psi(a) + \frac{n}{2} \ln(b) \; .
+\left\langle \mathrm{h}(x|y) \right\rangle_{p(y)} = \frac{n}{2} \ln(2\pi) - \frac{1}{2} \ln|\Lambda| + \frac{1}{2} n - \frac{n}{2} \psi(a) + \frac{n}{2} \ln b \; .
 \end{split}
 $$
 

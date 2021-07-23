@@ -67,7 +67,7 @@ $$ \label{eq:UGkv-Acc}
 $$
 
 <br>
-The complexity penalty is the [Kullback-Leibler divergence](/D/kl) of the [posterior distribution](/D/post) $p(\mu|y)$ from the [prior distribution](/D/post) $p(\mu)$. With the [prior distribution](/P/ugkv-prior) given by \eqref{eq:m}, the [posterior distribution for the univariate Gaussian with known variance](/P/ugkv-post) and the [Kullback-Leibler divergence of the normal distribution](/P/norm-kl), the model complexity of $m$ evaluates to:
+The complexity penalty is the [Kullback-Leibler divergence](/D/kl) of the [posterior distribution](/D/post) $p(\mu|y)$ from the [prior distribution](/D/prior) $p(\mu)$. With the [prior distribution](/P/ugkv-prior) given by \eqref{eq:m}, the [posterior distribution for the univariate Gaussian with known variance](/P/ugkv-post) and the [Kullback-Leibler divergence of the normal distribution](/P/norm-kl), the model complexity of $m$ evaluates to:
 
 $$ \label{eq:UGkv-Com}
 \begin{split}

@@ -244,3 +244,5 @@ title: "Proof by Number"
 | P236 | mvn-ind | [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind) | JoramSoch | 2021-06-02 |
 | P237 | ng-mean | [Mean of the normal-gamma distribution](/P/ng-mean) | JoramSoch | 2021-07-08 |
 | P238 | ng-dent | [Differential entropy of the normal-gamma distribution](/P/ng-dent) | JoramSoch | 2021-07-08 |
+| P239 | gam-dent | [Differential entropy of the gamma distribution](/P/gam-dent) | JoramSoch | 2021-07-14 |
+| P240 | ug-anc | [Accuracy and complexity for the univariate Gaussian](/P/ug-anc) | JoramSoch | 2021-07-14 |
