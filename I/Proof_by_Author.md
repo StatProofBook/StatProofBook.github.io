@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (230 proofs)
+### JoramSoch (232 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -190,6 +190,8 @@ title: "Proof by Author"
 - [Probability mass function of the categorical distribution](/P/cat-pmf)
 - [Probability mass function of the discrete uniform distribution](/P/duni-pmf)
 - [Probability mass function of the multinomial distribution](/P/mult-pmf)
+- [Probability under mutual exclusivity](/P/prob-exc)
+- [Probability under statistical independence](/P/prob-ind)
 - [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem)
 - [Quantile function is inverse of strictly monotonically increasing cumulative distribution function](/P/qf-cdf)
 - [Quantile function of the continuous uniform distribution](/P/cuni-qf)

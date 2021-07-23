@@ -246,3 +246,5 @@ title: "Proof by Number"
 | P238 | ng-dent | [Differential entropy of the normal-gamma distribution](/P/ng-dent) | JoramSoch | 2021-07-08 |
 | P239 | gam-dent | [Differential entropy of the gamma distribution](/P/gam-dent) | JoramSoch | 2021-07-14 |
 | P240 | ug-anc | [Accuracy and complexity for the univariate Gaussian](/P/ug-anc) | JoramSoch | 2021-07-14 |
+| P241 | prob-ind | [Probability under statistical independence](/P/prob-ind) | JoramSoch | 2021-07-23 |
+| P242 | prob-exc | [Probability under mutual exclusivity](/P/prob-exc) | JoramSoch | 2021-07-23 |

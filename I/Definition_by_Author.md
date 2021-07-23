@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (150 definitions)
+### JoramSoch (152 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -93,6 +93,7 @@ title: "Definition by Author"
 - [Multiple linear regression](/D/mlr)
 - [Multivariate normal distribution](/D/mvn)
 - [Multivariate t-distribution](/D/mvt)
+- [Mutual exclusivity](/D/exc)
 - [Mutual information](/D/mi)
 - [Non-standardized t-distribution](/D/nst)
 - [Normal distribution](/D/norm)
@@ -139,6 +140,7 @@ title: "Definition by Author"
 - [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)
 - [Standard normal distribution](/D/snorm)
+- [Standard uniform distribution](/D/suni)
 - [Standardized moment](/D/mom-stand)
 - [Statistical hypothesis](/D/hyp)
 - [Statistical hypothesis test](/D/test)

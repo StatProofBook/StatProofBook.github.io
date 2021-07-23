@@ -241,6 +241,8 @@ title: "Proof by Topic"
 - [Probability mass function of the categorical distribution](/P/cat-pmf)
 - [Probability mass function of the discrete uniform distribution](/P/duni-pmf)
 - [Probability mass function of the multinomial distribution](/P/mult-pmf)
+- [Probability under mutual exclusivity](/P/prob-exc)
+- [Probability under statistical independence](/P/prob-ind)
 - [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem)
 - [Proof Template](/P/-temp-)
 

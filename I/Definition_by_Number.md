@@ -162,3 +162,5 @@ title: "Definition by Number"
 | D153 | covmat-samp | [Sample covariance matrix](/D/covmat-samp) | JoramSoch | 2021-05-20 |
 | D154 | mean-rvec | [Expected value of a random vector](/D/mean-rvec) | JoramSoch | 2021-07-08 |
 | D155 | mean-rmat | [Expected value of a random matrix](/D/mean-rmat) | JoramSoch | 2021-07-08 |
+| D156 | exc | [Mutual exclusivity](/D/exc) | JoramSoch | 2021-07-23 |
+| D157 | suni | [Standard uniform distribution](/D/suni) | JoramSoch | 2021-07-23 |
