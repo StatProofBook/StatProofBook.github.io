@@ -34,6 +34,9 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.5. *[Exceedance probability](/D/prob-exc)* <br>
    &emsp;&ensp; 1.2.6. *[Statistical independence](/D/ind)* <br>
    &emsp;&ensp; 1.2.7. *[Conditional independence](/D/ind-cond)* <br>
+   &emsp;&ensp; 1.2.8. **[Probability under independence](/P/prob-ind)** <br>
+   &emsp;&ensp; 1.2.9. *[Mutual exclusivity](/D/exc)* <br>
+   &emsp;&ensp; 1.2.10. **[Probability under exclusivity](/P/prob-exc)** <br>
    
    1.3. Probability distributions <br>
    &emsp;&ensp; 1.3.1. *[Probability distribution](/D/dist)* <br>
@@ -289,12 +292,13 @@ title: "Table of Contents"
 
    3.1. Continuous uniform distribution <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/cuni)* <br>
-   &emsp;&ensp; 3.1.2. **[Probability density function](/P/cuni-pdf)** <br>
-   &emsp;&ensp; 3.1.3. **[Cumulative distribution function](/P/cuni-cdf)** <br>
-   &emsp;&ensp; 3.1.4. **[Quantile function](/P/cuni-qf)** <br>
-   &emsp;&ensp; 3.1.5. **[Mean](/P/cuni-mean)** <br>
-   &emsp;&ensp; 3.1.6. **[Median](/P/cuni-med)** <br>
-   &emsp;&ensp; 3.1.7. **[Mode](/P/cuni-mode)** <br>
+   &emsp;&ensp; 3.1.2. *[Standard uniform distribution](/D/suni)* <br>
+   &emsp;&ensp; 3.1.3. **[Probability density function](/P/cuni-pdf)** <br>
+   &emsp;&ensp; 3.1.4. **[Cumulative distribution function](/P/cuni-cdf)** <br>
+   &emsp;&ensp; 3.1.5. **[Quantile function](/P/cuni-qf)** <br>
+   &emsp;&ensp; 3.1.6. **[Mean](/P/cuni-mean)** <br>
+   &emsp;&ensp; 3.1.7. **[Median](/P/cuni-med)** <br>
+   &emsp;&ensp; 3.1.8. **[Mode](/P/cuni-mode)** <br>
 
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
