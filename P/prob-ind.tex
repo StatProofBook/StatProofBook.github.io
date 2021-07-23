@@ -1,0 +1,63 @@
+\documentclass[a4paper,12pt]{article}
+
+%%% Packages %%%
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{gensymb}
+\usepackage{url}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+\usepackage[bottom,hang,flushmargin]{footmisc}
+
+%%% Settings %%%
+\setlength{\parindent}{0pt}
+\frenchspacing
+\urlstyle{same}
+\MakeOuterQuote{"}
+\setlist{nolistsep}
+\setlist[itemize]{leftmargin=*}
+\setlist[enumerate]{leftmargin=*}
+
+
+\begin{document}
+
+
+**Theorem:** Let $A$ and $B$ be two statements about [random variables](/D/rvar). Then, if $A$ and $B$ are [independent](/D/ind), [marginal](/D/prob-marg) and [conditional](/D/prob-cond) probabilities are equal:
+
+\begin{equation} \label{eq:prob-ind}
+\begin{split}
+p(A) &= p(A|B) \\
+p(B) &= p(B|A) \; .
+\end{split}
+\end{equation}
+
+
+**Proof:** If $A$ and $B$ are [independent](/D/ind), then the [joint probability](/D/prob-joint) is equal to the product of the [marginal probabilities](/D/prob-marg):
+
+$$ \label{eq:ind}
+p(A,B) = p(A) \cdot p(B) \; .
+$$
+
+The [law of conditional probability](/D/prob-cond) states that
+
+$$ \label{eq:prob-cond}
+p(A|B) = \frac{p(A,B)}{p(B)} \; .
+$$
+
+Combining \eqref{eq:ind} and \eqref{eq:prob-cond}, we have:
+
+$$ \label{eq:prob-ind-qed-A}
+p(A|B) = \frac{p(A) \cdot p(B)}{p(B)} = p(A) \; .
+$$
+
+Equivalently, we can write:
+
+$$ \label{eq:prob-ind-qed-B}
+p(B|A) \overset{\eqref{eq:prob-cond}}{=} \frac{p(A,B)}{p(A)} \overset{\eqref{eq:ind}}{=} \frac{p(A) \cdot p(B)}{p(A)} = p(B) \; .
+$$
+
+
+\end{document}
