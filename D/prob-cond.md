@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $A$ and $B$ be two arbitrary statements about [random variables](/D/rvar), such as statements about the presence or absence of an event or about the value of a scalar, vector or matrix. Furthermore, assume a [joint probability](/D/prob-joint) distribution $p(A,B)$. Then, $p(A \vert B)$ is called the conditional probability that $A$ is true, given that $B$ is true, and is given by
+**Definition:** (law of conditional probability, also called "product rule") Let $A$ and $B$ be two arbitrary statements about [random variables](/D/rvar), such as statements about the presence or absence of an event or about the value of a scalar, vector or matrix. Furthermore, assume a [joint probability](/D/prob-joint) distribution $p(A,B)$. Then, $p(A \vert B)$ is called the conditional probability that $A$ is true, given that $B$ is true, and is given by
 
 $$ \label{eq:prob-cond}
 p(A|B) = \frac{p(A,B)}{p(B)}
