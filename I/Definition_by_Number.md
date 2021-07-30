@@ -164,3 +164,4 @@ title: "Definition by Number"
 | D155 | mean-rmat | [Expected value of a random matrix](/D/mean-rmat) | JoramSoch | 2021-07-08 |
 | D156 | exc | [Mutual exclusivity](/D/exc) | JoramSoch | 2021-07-23 |
 | D157 | suni | [Standard uniform distribution](/D/suni) | JoramSoch | 2021-07-23 |
+| D158 | prob-ax | [Kolmogorov axioms of probability](/D/prob-ax) | JoramSoch | 2021-07-30 |
