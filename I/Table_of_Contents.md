@@ -45,6 +45,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.4. **[Probability of the complement](/P/prob-comp)** <br>
    &emsp;&ensp; 1.3.5. **[Range of probability](/P/prob-range)** <br>
    &emsp;&ensp; 1.3.6. **[Addition law of probability](/P/prob-add)** <br>
+   &emsp;&ensp; 1.3.7. **[Law of total probability](/P/prob-tot)** <br>
+   &emsp;&ensp; 1.3.8. **[Probability of exhaustive events](/P/prob-exh)** <br>
    
    1.4. Probability distributions <br>
    &emsp;&ensp; 1.4.1. *[Probability distribution](/D/dist)* <br>
