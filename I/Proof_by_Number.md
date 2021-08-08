@@ -248,3 +248,8 @@ title: "Proof by Number"
 | P240 | ug-anc | [Accuracy and complexity for the univariate Gaussian](/P/ug-anc) | JoramSoch | 2021-07-14 |
 | P241 | prob-ind | [Probability under statistical independence](/P/prob-ind) | JoramSoch | 2021-07-23 |
 | P242 | prob-exc | [Probability under mutual exclusivity](/P/prob-exc) | JoramSoch | 2021-07-23 |
+| P243 | prob-mon | [Monotonicity of probability](/P/prob-mon) | JoramSoch | 2021-07-30 |
+| P244 | prob-emp | [Probability of the empty set](/P/prob-emp) | JoramSoch | 2021-07-30 |
+| P245 | prob-comp | [Probability of the complement](/P/prob-comp) | JoramSoch | 2021-07-30 |
+| P246 | prob-range | [Range of probability](/P/prob-range) | JoramSoch | 2021-07-30 |
+| P247 | prob-add | [Addition law of probability](/P/prob-add) | JoramSoch | 2021-07-30 |

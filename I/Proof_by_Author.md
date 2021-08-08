@@ -4,11 +4,12 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (232 proofs)
+### JoramSoch (237 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
+- [Addition law of probability](/P/prob-add)
 - [Addition of the differential entropy upon multiplication with a constant](/P/dent-add)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
 - [Additivity of the variance for independent random variables](/P/var-add)
@@ -132,6 +133,7 @@ title: "Proof by Author"
 - [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
 - [Moment-generating function of the beta distribution](/P/beta-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
+- [Monotonicity of probability](/P/prob-mon)
 - [Monotonicity of the expected value](/P/mean-mono)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
@@ -190,6 +192,8 @@ title: "Proof by Author"
 - [Probability mass function of the categorical distribution](/P/cat-pmf)
 - [Probability mass function of the discrete uniform distribution](/P/duni-pmf)
 - [Probability mass function of the multinomial distribution](/P/mult-pmf)
+- [Probability of the complement](/P/prob-comp)
+- [Probability of the empty set](/P/prob-emp)
 - [Probability under mutual exclusivity](/P/prob-exc)
 - [Probability under statistical independence](/P/prob-ind)
 - [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem)
@@ -199,6 +203,7 @@ title: "Proof by Author"
 - [Quantile function of the exponential distribution](/P/exp-qf)
 - [Quantile function of the gamma distribution](/P/gam-qf)
 - [Quantile function of the normal distribution](/P/norm-qf)
+- [Range of probability](/P/prob-range)
 - [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)

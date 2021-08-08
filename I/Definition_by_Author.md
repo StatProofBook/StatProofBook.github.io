@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (152 definitions)
+### JoramSoch (153 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -66,6 +66,7 @@ title: "Definition by Author"
 - [Joint likelihood](/D/jl)
 - [Joint probability](/D/prob-joint)
 - [Joint probability distribution](/D/dist-joint)
+- [Kolmogorov axioms of probability](/D/prob-ax)
 - [Kullback-Leibler divergence](/D/kl)
 - [Law of conditional probability](/D/prob-cond)
 - [Law of marginal probability](/D/prob-marg)

@@ -27,7 +27,7 @@ sources:
     pages: "retrieved on 2021-07-30"
     url: "https://en.wikipedia.org/wiki/Probability_axioms#Axioms"
 
-def_id: "158"
+def_id: "D158"
 shortcut: "prob-ax"
 username: "JoramSoch"
 ---
