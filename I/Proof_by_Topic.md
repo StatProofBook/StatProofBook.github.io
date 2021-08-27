@@ -116,6 +116,7 @@ title: "Proof by Topic"
 ### L
 
 - [Law of the unconscious statistician](/P/mean-lotus)
+- [Law of total probability](/P/prob-tot)
 - [Linear combination of independent normal random variables](/P/norm-lincomb)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Linear transformation theorem for the moment-generating function](/P/mgf-ltt)
@@ -243,6 +244,7 @@ title: "Proof by Topic"
 - [Probability mass function of the categorical distribution](/P/cat-pmf)
 - [Probability mass function of the discrete uniform distribution](/P/duni-pmf)
 - [Probability mass function of the multinomial distribution](/P/mult-pmf)
+- [Probability of exhaustive events](/P/prob-exh)
 - [Probability of the complement](/P/prob-comp)
 - [Probability of the empty set](/P/prob-emp)
 - [Probability under mutual exclusivity](/P/prob-exc)

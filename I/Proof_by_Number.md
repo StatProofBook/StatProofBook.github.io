@@ -253,3 +253,5 @@ title: "Proof by Number"
 | P245 | prob-comp | [Probability of the complement](/P/prob-comp) | JoramSoch | 2021-07-30 |
 | P246 | prob-range | [Range of probability](/P/prob-range) | JoramSoch | 2021-07-30 |
 | P247 | prob-add | [Addition law of probability](/P/prob-add) | JoramSoch | 2021-07-30 |
+| P248 | prob-tot | [Law of total probability](/P/prob-tot) | JoramSoch | 2021-08-08 |
+| P249 | prob-exh | [Probability of exhaustive events](/P/prob-exh) | JoramSoch | 2021-08-08 |
