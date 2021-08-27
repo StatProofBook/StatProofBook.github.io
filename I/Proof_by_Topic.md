@@ -83,6 +83,7 @@ title: "Proof by Topic"
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
+- [Extreme points of the probability density function of the normal distribution](/P/norm-extr)
 
 ### F
 
@@ -97,6 +98,7 @@ title: "Proof by Topic"
 
 ### I
 
+- [Inflection points of the probability density function of the normal distribution](/P/norm-infl)
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
 - [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
@@ -187,6 +189,7 @@ title: "Proof by Topic"
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
+- [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
 
 ### O
 

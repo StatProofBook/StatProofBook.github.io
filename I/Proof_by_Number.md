@@ -255,3 +255,6 @@ title: "Proof by Number"
 | P247 | prob-add | [Addition law of probability](/P/prob-add) | JoramSoch | 2021-07-30 |
 | P248 | prob-tot | [Law of total probability](/P/prob-tot) | JoramSoch | 2021-08-08 |
 | P249 | prob-exh | [Probability of exhaustive events](/P/prob-exh) | JoramSoch | 2021-08-08 |
+| P250 | norm-maxent | [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent) | JoramSoch | 2020-08-25 |
+| P251 | norm-extr | [Extreme points of the probability density function of the normal distribution](/P/norm-extr) | JoramSoch | 2020-08-25 |
+| P252 | norm-infl | [Inflection points of the probability density function of the normal distribution](/P/norm-infl) | JoramSoch | 2020-08-26 |
