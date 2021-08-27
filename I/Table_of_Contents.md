@@ -329,9 +329,12 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.16. **[Mode](/P/norm-mode)** <br>
    &emsp;&ensp; 3.2.17. **[Variance](/P/norm-var)** <br>
    &emsp;&ensp; 3.2.18. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.19. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.20. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
-   &emsp;&ensp; 3.2.21. **[Linear combination](/P/norm-lincomb)** <br>
+   &emsp;&ensp; 3.2.19. **[Extreme points](/P/norm-extr)** <br>
+   &emsp;&ensp; 3.2.20. **[Inflection points](/P/norm-infl)** <br>
+   &emsp;&ensp; 3.2.21. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.22. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
+   &emsp;&ensp; 3.2.23. **[Maximum entropy distribution](/P/norm-maxent)** <br>
+   &emsp;&ensp; 3.2.24. **[Linear combination](/P/norm-lincomb)** <br>
    
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
