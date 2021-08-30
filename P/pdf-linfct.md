@@ -38,7 +38,7 @@ f_Y(y) = \left\{
 \right.
 $$
 
-where $\left| \Sigma \right|$ is the determinant of $\Sigma$ and $\mathcal{Y}$ is the set of possible outcomes of $Y$:
+where $\lvert \Sigma \rvert$ is the determinant of $\Sigma$ and $\mathcal{Y}$ is the set of possible outcomes of $Y$:
 
 $$ \label{eq:Y-range}
 \mathcal{Y} = \left\lbrace y = \Sigma x + \mu: x \in \mathcal{X} \right\rbrace \; .
@@ -72,7 +72,7 @@ J_{g^{-1}}(y) = \left[ \begin{matrix}
 \end{matrix} \right] = \Sigma^{-1} \; .
 $$
 
-Plugging \eqref{eq:g-inv} and \eqref{eq:J-g-inv} into \eqref{eq:pdf-invfct} and applying the determinant property $\left|A^{-1}\right| = \left|A\right|^{-1}$, we obtain
+Plugging \eqref{eq:g-inv} and \eqref{eq:J-g-inv} into \eqref{eq:pdf-invfct} and applying the determinant property $\lvert A^{-1} \rvert = \lvert A \rvert^{-1}$, we obtain
 
 $$ \label{eq:pdf-linfct-qed}
 f_Y(y) = \frac{1}{\left| \Sigma \right|} f_X(\Sigma^{-1}(y-\mu)) \; .
