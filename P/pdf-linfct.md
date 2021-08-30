@@ -22,7 +22,7 @@ sources:
     url: "https://www.statlect.com/fundamentals-of-probability/functions-of-random-vectors"
 
 proof_id: "P255"
-shortcut: "pmf-linfct"
+shortcut: "pdf-linfct"
 username: "JoramSoch"
 ---
 
