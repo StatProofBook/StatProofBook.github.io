@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (239 proofs)
+### JoramSoch (242 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -66,11 +66,13 @@ title: "Proof by Author"
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
+- [Extreme points of the probability density function of the normal distribution](/P/norm-extr)
 - [First central moment is zero](/P/momcent-1st)
 - [First raw moment is mean](/P/momraw-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
 - [Gaussian integral](/P/norm-gi)
 - [Gibbs' inequality](/P/gibbs-ineq)
+- [Inflection points of the probability density function of the normal distribution](/P/norm-infl)
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
 - [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
@@ -143,6 +145,7 @@ title: "Proof by Author"
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
+- [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
 - [One-sample t-test for independent observations](/P/ug-ttest1)
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)

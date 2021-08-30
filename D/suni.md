@@ -11,7 +11,7 @@ title: "Standard uniform distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Continuous uniform distribution"
-definition: "Standard normal distribution"
+definition: "Standard uniform distribution"
 
 sources:
   - authors: "Wikipedia"

@@ -11,7 +11,7 @@ title: "Normal distribution maximizes differential entropy for fixed variance"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Normal distribution"
-theorem: "Maximization of differential entropy"
+theorem: "Maximum entropy distribution"
 
 sources:
   - authors: "Wikipedia"
