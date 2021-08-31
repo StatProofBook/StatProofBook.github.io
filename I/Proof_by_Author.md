@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (242 proofs)
+### JoramSoch (248 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -38,6 +38,7 @@ title: "Proof by Author"
 - [Cumulative distribution function in terms of probability mass function of a discrete random variable](/P/cdf-pmf)
 - [Cumulative distribution function of a strictly decreasing function of a random variable](/P/cdf-sdfct)
 - [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct)
+- [Cumulative distribution function of a sum of independent random variables](/P/cdf-sumind)
 - [Cumulative distribution function of the beta distribution](/P/beta-cdf)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
@@ -175,8 +176,11 @@ title: "Proof by Author"
 - [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
 - [Probability density function is first derivative of cumulative distribution function](/P/pdf-cdf)
+- [Probability density function of a linear function of a continuous random vector](/P/pdf-linfct)
 - [Probability density function of a strictly decreasing function of a continuous random variable](/P/pdf-sdfct)
 - [Probability density function of a strictly increasing function of a continuous random variable](/P/pdf-sifct)
+- [Probability density function of a sum of independent discrete random variables](/P/pdf-sumind)
+- [Probability density function of an invertible function of a continuous random vector](/P/pmf-invfct)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the chi-squared distribution](/P/chi2-pdf)
@@ -190,6 +194,8 @@ title: "Proof by Author"
 - [Probability integral transform using cumulative distribution function](/P/cdf-pit)
 - [Probability mass function of a strictly decreasing function of a discrete random variable](/P/pmf-sdfct)
 - [Probability mass function of a strictly increasing function of a discrete random variable](/P/pmf-sifct)
+- [Probability mass function of a sum of independent discrete random variables](/P/pmf-sumind)
+- [Probability mass function of an invertible function of a random vector](/P/pmf-invfct)
 - [Probability mass function of the Bernoulli distribution](/P/bern-pmf)
 - [Probability mass function of the Poisson distribution](/P/poiss-pmf)
 - [Probability mass function of the binomial distribution](/P/bin-pmf)

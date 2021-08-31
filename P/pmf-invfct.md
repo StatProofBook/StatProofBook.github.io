@@ -11,7 +11,7 @@ title: "Probability mass function of an invertible function of a random vector"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Probability functions"
-theorem: "Probability mass function of an invertible function"
+theorem: "Probability mass function of invertible function"
 
 sources:
   - authors: "Taboga, Marco"

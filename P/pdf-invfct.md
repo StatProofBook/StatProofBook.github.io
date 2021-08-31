@@ -84,7 +84,7 @@ J_{g^{-1}}(y) = \left[ \begin{matrix}
 \end{matrix} \right] \; ,
 $$
 
-$\left|J\right|$ is the determinant of $J$ and $\mathcal{Y}$ is the set of possible outcomes of $Y$:
+$\lvert J \rvert$ is the determinant of $J$ and $\mathcal{Y}$ is the set of possible outcomes of $Y$:
 
 $$ \label{eq:Y-range}
 \mathcal{Y} = \left\lbrace y = g(x): x \in \mathcal{X} \right\rbrace \; .
