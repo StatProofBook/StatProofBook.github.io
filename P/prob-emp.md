@@ -20,8 +20,13 @@ sources:
     in: "Foundations of the Theory of Probability"
     pages: "p. 6, eq. 3"
     url: "https://archive.org/details/foundationsofthe00kolm/page/6/mode/2up"
-  - authors: "Wikipedia"
-    year: 2020
+  - authors: "Alan Stuart & J. Keith Ord"
+    year: 1994
+    title: "Probability and Statistical Inference"
+    in: "Kendall's Advanced Theory of Statistics, Vol. 1: Distribution Theory"
+    pages: "ch. 8.6, p. 288, eq. (b)"
+    url: "https://www.wiley.com/en-us/Kendall%27s+Advanced+Theory+of+Statistics%2C+3+Volumes%2C+Set%2C+6th+Edition-p-9780470669549"  - authors: "Wikipedia"
+    year: 2021
     title: "Probability axioms"
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2021-07-30"
