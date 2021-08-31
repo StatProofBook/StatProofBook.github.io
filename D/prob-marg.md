@@ -20,6 +20,12 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-05-10"
     url: "https://en.wikipedia.org/wiki/Marginal_distribution#Definition"
+  - authors: "Jason Browlee"
+    year: 2019
+    title: "A Gentle Introduction to Joint, Marginal, and Conditional Probability"
+    in: "Machine Learning Mastery"
+    pages: "retrieved on 2021-08-01"
+    url: "https://machinelearningmastery.com/joint-marginal-and-conditional-probability-for-machine-learning/"
 
 def_id: "D50"
 shortcut: "prob-marg"
