@@ -20,6 +20,12 @@ sources:
     in: "Kendall's Advanced Theory of Statistics, Vol. 1: Distribution Theory"
     pages: "p. 288, eq. (d); p. 289, eq. 8.7"
     url: "https://www.wiley.com/en-us/Kendall%27s+Advanced+Theory+of+Statistics%2C+3+Volumes%2C+Set%2C+6th+Edition-p-9780470669549"
+  - authors: "Alan Stuart & J. Keith Ord"
+    year: 1994
+    title: "Probability and Statistical Inference"
+    in: "Kendall's Advanced Theory of Statistics, Vol. 1: Distribution Theory"
+    pages: "ch. 8.6, p. 289, eq. 8.7"
+    url: "https://www.wiley.com/en-us/Kendall%27s+Advanced+Theory+of+Statistics%2C+3+Volumes%2C+Set%2C+6th+Edition-p-9780470669549"
   - authors: "Wikipedia"
     year: 2021
     title: "Law of total probability"
