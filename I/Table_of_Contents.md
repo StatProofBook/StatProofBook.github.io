@@ -80,11 +80,14 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.22. *[Joint cumulative distribution function](/D/cdf-joint)* <br>
    &emsp;&ensp; 1.5.23. *[Quantile function](/D/qf)* <br>
    &emsp;&ensp; 1.5.24. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
-   &emsp;&ensp; 1.5.25. *[Moment-generating function](/D/mgf)* <br>
-   &emsp;&ensp; 1.5.26. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
-   &emsp;&ensp; 1.5.27. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
-   &emsp;&ensp; 1.5.28. *[Cumulant-generating function](/D/cgf)* <br>
-   &emsp;&ensp; 1.5.29. *[Probability-generating function](/D/pgf)* <br>
+   &emsp;&ensp; 1.5.25. *[Characteristic function](/D/cf)* <br>
+   &emsp;&ensp; 1.5.26. **[Characteristic function of arbitrary function](/P/cf-fct)** <br>
+   &emsp;&ensp; 1.5.27. *[Moment-generating function](/D/mgf)* <br>
+   &emsp;&ensp; 1.5.28. **[Moment-generating function of arbitrary function](/P/mgf-fct)** <br>
+   &emsp;&ensp; 1.5.29. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
+   &emsp;&ensp; 1.5.30. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
+   &emsp;&ensp; 1.5.31. *[Cumulant-generating function](/D/cgf)* <br>
+   &emsp;&ensp; 1.5.32. *[Probability-generating function](/D/pgf)* <br>
    
    1.6. Expected value <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/mean)* <br>
