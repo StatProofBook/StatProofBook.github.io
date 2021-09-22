@@ -52,7 +52,7 @@ sources:
     url: "https://www.youtube.com/watch?v=wUF-lyyWpUc"
 
 proof_id: "P254"
-shortcut: "pmf-invfct"
+shortcut: "pdf-invfct"
 username: "JoramSoch"
 ---
 
