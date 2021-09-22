@@ -24,6 +24,7 @@ title: "Definition by Topic"
 
 - [Categorical distribution](/D/cat)
 - [Central moment](/D/mom-cent)
+- [Characteristic function](/D/cf)
 - [Chi-squared distribution](/D/chi2)
 - [Coefficient of determination](/D/rsq)
 - [Conditional differential entropy](/D/dent-cond)
