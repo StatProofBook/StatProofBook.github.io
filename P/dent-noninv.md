@@ -119,7 +119,7 @@ $$ \label{eq:Y-dent-s2}
 \end{split}
 $$
 
-Using the relations $y = f(x) \Rightarrow \mathrm{d}y = \left| J_f(x) \right| \, \mathrm{d}x$ and $\left|A\right|\left|B\right| = \left|AB\right|$, this becomes
+Using the relations $y = f(x) \Rightarrow \mathrm{d}y = \lvert J_f(x) \rvert \, \mathrm{d}x$ and $\lvert A \rvert \lvert B \rvert = \lvert AB \rvert$, this becomes
 
 $$ \label{eq:Y-dent-s3}
 \begin{split}
@@ -128,7 +128,7 @@ $$ \label{eq:Y-dent-s3}
 \end{split}
 $$
 
-Finally, employing [the fact](/D/pdf) that $\int_{\mathcal{X}} f_X(x) \, \mathrm{d}x = 1$ and the determinant property $\left|A^{-1}\right| = 1/\left|A\right|$, we can derive the [differential entropy](/D/dent) of $Y$ as
+Finally, employing [the fact](/D/pdf) that $\int_{\mathcal{X}} f_X(x) \, \mathrm{d}x = 1$ and the determinant property $\lvert A^{-1} \rvert = 1/\lvert A \rvert$, we can derive the [differential entropy](/D/dent) of $Y$ as
 
 $$ \label{eq:Y-dent-s4}
 \begin{split}
