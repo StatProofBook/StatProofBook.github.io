@@ -25,6 +25,7 @@ title: "Proof by Topic"
 
 ### C
 
+- [Characteristic function of a function of a random variable](/P/cf-fct)
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Concavity of the Shannon entropy](/P/ent-conc)
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
@@ -173,6 +174,7 @@ title: "Proof by Topic"
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)
+- [Moment-generating function of a function of a random variable](/P/mgf-fct)
 - [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
 - [Moment-generating function of the beta distribution](/P/beta-mgf)
@@ -230,7 +232,7 @@ title: "Proof by Topic"
 - [Probability density function of a strictly decreasing function of a continuous random variable](/P/pdf-sdfct)
 - [Probability density function of a strictly increasing function of a continuous random variable](/P/pdf-sifct)
 - [Probability density function of a sum of independent discrete random variables](/P/pdf-sumind)
-- [Probability density function of an invertible function of a continuous random vector](/P/pmf-invfct)
+- [Probability density function of an invertible function of a continuous random vector](/P/pdf-invfct)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)

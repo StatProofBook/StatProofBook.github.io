@@ -21,7 +21,7 @@ sources:
     pages: "retrieved on 2021-09-22"
     url: "https://www.statlect.com/fundamentals-of-probability/functions-of-random-vectors"
 
-proof_id: "P259"
+proof_id: "P260"
 shortcut: "mgf-fct"
 username: "JoramSoch"
 ---

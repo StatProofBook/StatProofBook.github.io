@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (153 definitions)
+### JoramSoch (154 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -17,6 +17,7 @@ title: "Definition by Author"
 - [Binomial observations](/D/bin-data)
 - [Categorical distribution](/D/cat)
 - [Central moment](/D/mom-cent)
+- [Characteristic function](/D/cf)
 - [Coefficient of determination](/D/rsq)
 - [Conditional differential entropy](/D/dent-cond)
 - [Conditional entropy](/D/ent-cond)

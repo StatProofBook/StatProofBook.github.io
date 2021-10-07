@@ -20,6 +20,12 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-07-22"
     url: "https://en.wikipedia.org/wiki/Law_of_the_unconscious_statistician#Proof"
+  - authors: "Taboga, Marco"
+    year: 2017
+    title: "Transformation theorem"
+    in: "Lectures on probability and mathematical statistics"
+    pages: "retrieved on 2021-09-22"
+    url: "https://www.statlect.com/glossary/transformation-theorem"
 
 proof_id: "P138"
 shortcut: "mean-lotus"

@@ -259,8 +259,10 @@ title: "Proof by Number"
 | P251 | norm-extr | [Extreme points of the probability density function of the normal distribution](/P/norm-extr) | JoramSoch | 2020-08-25 |
 | P252 | norm-infl | [Inflection points of the probability density function of the normal distribution](/P/norm-infl) | JoramSoch | 2020-08-26 |
 | P253 | pmf-invfct | [Probability mass function of an invertible function of a random vector](/P/pmf-invfct) | JoramSoch | 2021-08-30 |
-| P254 | pmf-invfct | [Probability density function of an invertible function of a continuous random vector](/P/pmf-invfct) | JoramSoch | 2021-08-30 |
+| P254 | pdf-invfct | [Probability density function of an invertible function of a continuous random vector](/P/pdf-invfct) | JoramSoch | 2021-08-30 |
 | P255 | pdf-linfct | [Probability density function of a linear function of a continuous random vector](/P/pdf-linfct) | JoramSoch | 2021-08-30 |
 | P256 | cdf-sumind | [Cumulative distribution function of a sum of independent random variables](/P/cdf-sumind) | JoramSoch | 2021-08-30 |
 | P257 | pmf-sumind | [Probability mass function of a sum of independent discrete random variables](/P/pmf-sumind) | JoramSoch | 2021-08-30 |
 | P258 | pdf-sumind | [Probability density function of a sum of independent discrete random variables](/P/pdf-sumind) | JoramSoch | 2021-08-30 |
+| P259 | cf-fct | [Characteristic function of a function of a random variable](/P/cf-fct) | JoramSoch | 2021-09-22 |
+| P260 | mgf-fct | [Moment-generating function of a function of a random variable](/P/mgf-fct) | JoramSoch | 2021-09-22 |
