@@ -173,9 +173,11 @@ title: "Table of Contents"
    &emsp;&ensp; 2.2.2. **[Negativity](/P/dent-neg)** <br>
    &emsp;&ensp; 2.2.3. **[Invariance under addition](/P/dent-inv)** <br>
    &emsp;&ensp; 2.2.4. **[Addition upon multiplication](/P/dent-add)** <br>
-   &emsp;&ensp; 2.2.5. *[Conditional differential entropy](/D/dent-cond)* <br>
-   &emsp;&ensp; 2.2.6. *[Joint differential entropy](/D/dent-joint)* <br>
-   &emsp;&ensp; 2.2.7. *[Differential cross-entropy](/D/dent-cross)* <br>
+   &emsp;&ensp; 2.2.5. **[Addition upon matrix multiplication](/P/dent-addvec)** <br>
+   &emsp;&ensp; 2.2.6. **[Non-invariance and transformation](/P/dent-noninv)** <br>
+   &emsp;&ensp; 2.2.7. *[Conditional differential entropy](/D/dent-cond)* <br>
+   &emsp;&ensp; 2.2.8. *[Joint differential entropy](/D/dent-joint)* <br>
+   &emsp;&ensp; 2.2.9. *[Differential cross-entropy](/D/dent-cross)* <br>
    
    2.3. Discrete mutual information <br>
    &emsp;&ensp; 2.3.1. *[Definition](/D/mi)* <br>
