@@ -266,3 +266,5 @@ title: "Proof by Number"
 | P258 | pdf-sumind | [Probability density function of a sum of independent discrete random variables](/P/pdf-sumind) | JoramSoch | 2021-08-30 |
 | P259 | cf-fct | [Characteristic function of a function of a random variable](/P/cf-fct) | JoramSoch | 2021-09-22 |
 | P260 | mgf-fct | [Moment-generating function of a function of a random variable](/P/mgf-fct) | JoramSoch | 2021-09-22 |
+| P261 | dent-addvec | [Addition of the differential entropy upon multiplication with invertible matrix](/P/dent-addvec) | JoramSoch | 2021-10-07 |
+| P262 | dent-noninv | [Non-invariance of the differential entropy under change of variables](/P/dent-noninv) | JoramSoch | 2021-10-07 |

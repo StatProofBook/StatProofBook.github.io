@@ -20,6 +20,12 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2021-09-22"
     url: "https://en.wikipedia.org/wiki/Characteristic_function_(probability_theory)#Definition"
+  - authors: "Taboga, Marco"
+    year: 2017
+    title: "Joint characteristic function"
+    in: "Lectures on probability and mathematical statistics"
+    pages: "retrieved on 2021-10-07"
+    url: "https://www.statlect.com/fundamentals-of-probability/joint-characteristic-function"
 
 def_id: "D159"
 shortcut: "cf"

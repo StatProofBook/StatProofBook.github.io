@@ -109,7 +109,7 @@ $$ \label{eq:A-y}
 A(y) = \left\lbrace x \in \mathbb{R}^n: g_j(x) \leq y_j \; \text{for all} \; j = 1, \ldots, n \right\rbrace
 $$
 
-and $g_j(X)$ is the function which returns the $j$-th element of $Y$, given a vector $x$.
+and $g_j(X)$ is the function which returns the $j$-th element of $Y$, given a vector $X$.
 
 <br>
 2) Next, we substitute $x = g^{-1}(y)$ into the integral which gives us

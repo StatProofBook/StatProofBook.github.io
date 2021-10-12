@@ -86,7 +86,7 @@ $$ \label{eq:Y-dent-s2}
 \end{split}
 $$
 
-Using the differential $\mathrm{d}(Ax) = \left|A\right| \mathrm{d}x$, this becomes
+Using the differential $\mathrm{d}(Ax) = \lvert A \rvert \mathrm{d}x$, this becomes
 
 $$ \label{eq:Y-dent-s3}
 \begin{split}

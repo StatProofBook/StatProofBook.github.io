@@ -14,6 +14,7 @@ title: "Proof by Topic"
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
 - [Addition law of probability](/P/prob-add)
 - [Addition of the differential entropy upon multiplication with a constant](/P/dent-add)
+- [Addition of the differential entropy upon multiplication with invertible matrix](/P/dent-addvec)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
 - [Additivity of the variance for independent random variables](/P/var-add)
 
@@ -186,6 +187,7 @@ title: "Proof by Topic"
 ### N
 
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
+- [Non-invariance of the differential entropy under change of variables](/P/dent-noninv)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)

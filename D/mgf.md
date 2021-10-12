@@ -20,6 +20,12 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-01-22"
     url: "https://en.wikipedia.org/wiki/Moment-generating_function#Definition"
+  - authors: "Taboga, Marco"
+    year: 2017
+    title: "Joint moment generating function"
+    in: "Lectures on probability and mathematical statistics"
+    pages: "retrieved on 2021-10-07"
+    url: "https://www.statlect.com/fundamentals-of-probability/joint-moment-generating-function"
 
 def_id: "D2"
 shortcut: "mgf"
