@@ -351,6 +351,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
    &emsp;&ensp; 3.3.2. *[Non-standardized t-distribution](/D/nst)* <br>
    &emsp;&ensp; 3.3.3. **[Relationship to non-standardized t-distribution](/P/nst-t)** <br>
+   &emsp;&ensp; 3.3.4. **[Probability density function](/P/t-pdf)** <br>
 
    3.4. Gamma distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/gam)* <br>
@@ -385,6 +386,7 @@ title: "Table of Contents"
    
    3.7. F-distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/f)* <br>
+   &emsp;&ensp; 3.7.2. **[Probability density function](/P/f-pdf)** <br>
    
    3.8. Beta distribution <br>
    &emsp;&ensp; 3.8.1. *[Definition](/D/beta)* <br>
