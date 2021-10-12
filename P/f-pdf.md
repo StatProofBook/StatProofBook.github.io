@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2021-10-12 09:00
+date: 2021-10-12 09:00:00
 
 title: "Probability density function of the F-distribution"
 chapter: "Probability Distributions"
