@@ -512,10 +512,23 @@ title: "Table of Contents"
    &emsp;&ensp; 2.1.3. **[Weighted least squares](/P/glm-wls)** <br>
    &emsp;&ensp; 2.1.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
    
-   2.2. Multivariate Bayesian linear regression <br>
-   &emsp;&ensp; 2.2.1. **[Conjugate prior distribution](/P/mblr-prior)** <br>
-   &emsp;&ensp; 2.2.2. **[Posterior distribution](/P/mblr-post)** <br>
-   &emsp;&ensp; 2.2.3. **[Log model evidence](/P/mblr-lme)** <br>
+   2.2. Transformed general linear model <br>
+   &emsp;&ensp; 2.2.1. *[Definition](/D/tglm)* <br>
+   &emsp;&ensp; 2.2.2. **[Derivation of the distribution](/P/tglm-dist)** <br>
+   &emsp;&ensp; 2.2.3. **[Equivalence of parameter estimates](/P/tglm-para)** <br>
+   
+   2.3. Inverse general linear model <br>
+   &emsp;&ensp; 2.3.1. *[Definition](/D/iglm)* <br>
+   &emsp;&ensp; 2.3.2. **[Derivation of the distribution](/P/iglm-dist)** <br>
+   &emsp;&ensp; 2.3.3. **[Best linear unbiased estimator](/P/iglm-blue)** <br>
+   &emsp;&ensp; 2.3.4. *[Corresponding forward model](/D/cfm)* <br>
+   &emsp;&ensp; 2.3.5. **[Derivation of parameters](/P/cfm-para)** <br>
+   &emsp;&ensp; 2.3.6. **[Proof of existence](/P/cfm-exist)** <br>
+   
+   2.4. Multivariate Bayesian linear regression <br>
+   &emsp;&ensp; 2.4.1. **[Conjugate prior distribution](/P/mblr-prior)** <br>
+   &emsp;&ensp; 2.4.2. **[Posterior distribution](/P/mblr-post)** <br>
+   &emsp;&ensp; 2.4.3. **[Log model evidence](/P/mblr-lme)** <br>
 
 3. Poisson data
 
