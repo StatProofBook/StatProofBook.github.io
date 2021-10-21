@@ -25,7 +25,8 @@ sources:
     title: "Probability and Statistical Inference"
     in: "Kendall's Advanced Theory of Statistics, Vol. 1: Distribution Theory"
     pages: "ch. 8.6, p. 288, eq. (b)"
-    url: "https://www.wiley.com/en-us/Kendall%27s+Advanced+Theory+of+Statistics%2C+3+Volumes%2C+Set%2C+6th+Edition-p-9780470669549"  - authors: "Wikipedia"
+    url: "https://www.wiley.com/en-us/Kendall%27s+Advanced+Theory+of+Statistics%2C+3+Volumes%2C+Set%2C+6th+Edition-p-9780470669549"
+  - authors: "Wikipedia"
     year: 2021
     title: "Probability axioms"
     in: "Wikipedia, the free encyclopedia"

@@ -268,3 +268,5 @@ title: "Proof by Number"
 | P260 | mgf-fct | [Moment-generating function of a function of a random variable](/P/mgf-fct) | JoramSoch | 2021-09-22 |
 | P261 | dent-addvec | [Addition of the differential entropy upon multiplication with invertible matrix](/P/dent-addvec) | JoramSoch | 2021-10-07 |
 | P262 | dent-noninv | [Non-invariance of the differential entropy under change of variables](/P/dent-noninv) | JoramSoch | 2021-10-07 |
+| P263 | t-pdf | [Probability density function of the t-distribution](/P/t-pdf) | JoramSoch | 2021-10-12 |
+| P264 | f-pdf | [Probability density function of the F-distribution](/P/f-pdf) | JoramSoch | 2021-10-12 |

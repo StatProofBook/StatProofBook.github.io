@@ -116,7 +116,7 @@ f_{T,W}(t,w) &= f_X\left( t \cdot \sqrt{\frac{w}{\nu}} \right) \cdot f_Y(w) \cdo
 \end{split}
 $$
 
-The [marginal density](/D/dist-marg) of $T$ can now be [obtained by integrating out](/D/dist-marg) $W$:
+The [marginal density](/D/dist-marg) of $T$ can now be [obtained by integrating out](/D/prob-marg) $W$:
 
 $$ \label{eq:f-T-s1}
 \begin{split}

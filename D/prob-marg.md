@@ -35,13 +35,13 @@ username: "JoramSoch"
 
 **Definition:** (law of marginal probability, also called "sum rule") Let $A$ and $X$ be two arbitrary statements about [random variables](/D/rvar), such as statements about the presence or absence of an event or about the value of a scalar, vector or matrix. Furthermore, assume a [joint probability](/D/prob-joint) distribution $p(A,X)$. Then, $p(A)$ is called the marginal probability of $A$ and,
 
-1) if $X$ is a discrete [random variable](/D/rvar) with domain $\mathcal{X}$, is given by
+1) if $X$ is a [discrete](/D/rvar-disc) [random variable](/D/rvar) with domain $\mathcal{X}$, is given by
 
 $$ \label{eq:prob-marg-disc}
 p(A) = \sum_{x \in \mathcal{X}} p(A,x) \; ;
 $$
 
-2) if $X$ is a continuous [random variable](/D/rvar) with domain $\mathcal{X}$, is given by
+2) if $X$ is a [continuous](/D/rvar-disc) [random variable](/D/rvar) with domain $\mathcal{X}$, is given by
 
 $$ \label{eq:prob-marg-cont}
 p(A) = \int_{\mathcal{X}} p(A,x) \, \mathrm{d}x \; .

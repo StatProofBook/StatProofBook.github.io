@@ -27,51 +27,33 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $A$ and $B$ be two statements about [random variables](/D/rvar). Then, if $A$ and $B$ are [mutually exclusive](/D/exc), their [joint probability](/D/prob-joint) is zero:
+**Theorem:** Let $A$ and $B$ be two statements about [random variables](/D/rvar). Then, if $A$ and $B$ are [mutually exclusive](/D/exc), the [probability](/D/prob) of their disjunction is equal to the sum of the [marginal probabilities](/D/prob-marg):
 
 $$ \label{eq:prob-exc}
-p(A,B) = 0 \; .
-$$
-
-
-**Proof:** If $A$ and $B$ are [mutually exclusive](/D/exc), then the [probability](/D/prob) of their disjunction is the sum of the [marginal probabilities](/D/prob-marg):
-
-$$ \label{eq:exc}
 p(A \vee B) = p(A) + p(B) \; .
 $$
 
-The [law of marginal probability](/D/prob-marg) implies that
 
-$$ \label{eq:prob-marg}
-\begin{split}
-p(A) &= p(A,B) + p(A,\overline{B}) \\
-p(B) &= p(A,B) + p(\overline{A},B)
-\end{split}
+**Proof:** If $A$ and $B$ are [mutually exclusive](/D/exc), then their [joint probability](/D/prob-joint) is zero:
+
+$$ \label{eq:exc}
+p(A,B) = 0 \; .
 $$
 
-where $\overline{A}$ and $\overline{B}$ are the complements of $A$ and $B$. The probability of the disjunction $p(A \vee B)$ can also be expressed as the probability of a disjunction of three mutually exclusive statements
+The [addition law of probability](/D/prob-marg) states that
 
-$$ \label{eq:prob-exc-s1}
-p(A \vee B) = p\left([A \wedge \overline{B}] \vee [\overline{A} \wedge B] \vee [A \wedge B] \right) \; ,
+$$ \label{eq:prob-add-set}
+p(A \cup B) = p(A) + p(B) - p(A \cap B)
 $$
 
-such that the definition of exclusivity can be applied to give
+which, in logical rather than set-theoretic expression, becomes
 
-$$ \label{eq:prob-exc-s2}
-\begin{split}
-p(A \vee B) &\overset{\eqref{eq:prob-exc-s1}}{=} p\left([A \wedge \overline{B}] \vee [\overline{A} \wedge B] \vee [A \wedge B] \right) \\
-&\overset{\eqref{eq:exc}}{=} p(A,\overline{B}) + p(\overline{A},B) + p(A,B) \\
-&= [p(A,\overline{B}) + p(A,B)] + [p(\overline{A},B) + p(A,B)] - p(A,B) \\
-&\overset{\eqref{eq:prob-marg}}{=} p(A) + p(B) - p(A,B) \; .
-\end{split}
+$$ \label{eq:prob-add-log}
+p(A \vee B) = p(A) + p(B) - p(A,B) \; .
 $$
 
-Since $A$ and $B$ are [mutually exclusive](/D/exc), we obtain:
+Because the [union of mutually exclusive events is the empty set](/D/exc) and the [probability of the empty set is zero](/P/prob-emp), the [joint probability](/D/prob-joint) term cancels out:
 
 $$ \label{eq:prob-exc-qed}
-\begin{split}
-p(A \vee B) &\overset{\eqref{eq:prob-exc-s2}}{=} p(A) + p(B) - p(A,B) \\
-p(A \vee B) &\overset{\eqref{eq:exc}}{=} p(A \vee B) - p(A,B) \\
-p(A,B) &= 0 \; .
-\end{split}
+p(A \vee B) = p(A) + p(B) - p(A,B) \overset{\eqref{eq:exc}}{=} p(A) + p(B) \; .
 $$

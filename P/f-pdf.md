@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2021-10-12 09:00
+date: 2021-10-12 09:00:00
 
 title: "Probability density function of the F-distribution"
 chapter: "Probability Distributions"
@@ -43,7 +43,7 @@ $$
 **Proof:** An [F-distributed random variable](/D/f) is defined as the ratio of two [chi-squared random variables](/D/chi2), divided by their [degrees of freedom](/D/dof)
 
 $$ \label{eq:f-def}
-X \sim \chi^2(u), \; Y \sim \chi^2(v) \quad \Rightarrow \quad F = \frac{X/u}{\sqrt{Y/v}} \sim F(u,v)
+X \sim \chi^2(u), \; Y \sim \chi^2(v) \quad \Rightarrow \quad F = \frac{X/u}{Y/v} \sim F(u,v)
 $$
 
 where $X$ and $Y$ are [independent of each other](/D/ind).
@@ -110,7 +110,7 @@ f_{F,W}(f,w) &= f_X\left( \frac{u}{v} f w \right) \cdot f_Y(w) \cdot \lvert J \r
 \end{split}
 $$
 
-The [marginal density](/D/dist-marg) of $F$ can now be [obtained by integrating out](/D/dist-marg) $W$:
+The [marginal density](/D/dist-marg) of $F$ can now be [obtained by integrating out](/D/prob-marg) $W$:
 
 $$ \label{eq:f-F-s1}
 \begin{split}

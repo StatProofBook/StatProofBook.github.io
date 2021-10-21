@@ -27,13 +27,13 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Generally speaking, [random events](/D/reve) are mutually exclusive, if the [probability](/D/prob) of their disjunction can be expressed in terms of their [marginal probabilities](/D/prob-marg).
+**Definition:** Generally speaking, [random events](/D/reve) are mutually exclusive, if they cannot occur together, such that their intersection is equal to the [empty set](/P/prob-emp).
 
 <br>
 More precisely, a set of statements $A_1, \ldots, A_n$ is called mutually exclusive, if
 
 $$ \label{eq:exc}
-p(A_1 \vee \ldots \vee A_n) = \sum_{i=1}^n p(A_i)
+p(A_1, \ldots, A_n) = 0
 $$
 
-where $p(A_1, \ldots, A_n)$ is the [probability](/D/prob) of the disjunction of $A_1, \ldots, A_n$ and $p(A_i)$ is the [marginal probability](/D/prob-marg) of $A_i$, for all $i = 1, \ldots, n$.
+where $p(A_1, \ldots, A_n)$ is the [joint probability](/D/prob-joint) of the statements $A_1, \ldots, A_n$.

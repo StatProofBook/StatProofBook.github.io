@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (252 proofs)
+### JoramSoch (254 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -186,6 +186,7 @@ title: "Proof by Author"
 - [Probability density function of a sum of independent discrete random variables](/P/pdf-sumind)
 - [Probability density function of an invertible function of a continuous random vector](/P/pdf-invfct)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
+- [Probability density function of the F-distribution](/P/f-pdf)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the chi-squared distribution](/P/chi2-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
@@ -195,6 +196,7 @@ title: "Proof by Author"
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
 - [Probability density function of the normal-gamma distribution](/P/ng-pdf)
+- [Probability density function of the t-distribution](/P/t-pdf)
 - [Probability integral transform using cumulative distribution function](/P/cdf-pit)
 - [Probability mass function of a strictly decreasing function of a discrete random variable](/P/pmf-sdfct)
 - [Probability mass function of a strictly increasing function of a discrete random variable](/P/pmf-sifct)
