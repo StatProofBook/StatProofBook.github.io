@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2021-10-21 17:43:00
 
-title: "Existence of the corresponding forward model"
+title: "Existence of a corresponding forward model"
 chapter: "Statistical Models"
 section: "Multivariate normal data"
 topic: "Inverse general linear model"
@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let there be observations $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W \in \mathbb{R}^{v \times p}$ predicting $X$ from $Y$:
+**Theorem:** Let there be observations $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W = f(Y,X) \in \mathbb{R}^{v \times p}$ predicting $X$ from $Y$:
 
 $$ \label{eq:bda}
 \hat{X} = Y W \; .

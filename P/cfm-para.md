@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let there be observations $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W \in \mathbb{R}^{v \times p}$ predicting $X$ from $Y$:
+**Theorem:** Let there be observations $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W = f(Y,X) \in \mathbb{R}^{v \times p}$ predicting $X$ from $Y$:
 
 $$ \label{eq:bda}
 \hat{X} = Y W \; .
@@ -40,7 +40,7 @@ $$ \label{eq:cfm-para}
 A = \Sigma_y W \Sigma_x^{-1}
 $$
 
-with the [sample covariance](/D/cov-samp)
+with the "[sample covariances](/D/cov-samp)"
 
 $$ \label{eq:Sx-Sy}
 \begin{split}

@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2021-10-21 15:31:00
 
-title: "General linear model"
+title: "Inverse general linear model"
 chapter: "Statistical Models"
 section: "Multivariate normal data"
 topic: "Inverse general linear model"
@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let there be a [general linear models](/D/glm) of measured data $Y \in \mathbb{R}^{n \times v}$ in terms of the [design matrix](/D/glm) $X \in \mathbb{R}^{n \times p}$:
+**Definition:** Let there be a [general linear model](/D/glm) of measured data $Y \in \mathbb{R}^{n \times v}$ in terms of the [design matrix](/D/glm) $X \in \mathbb{R}^{n \times p}$:
 
 $$ \label{eq:glm}
 Y = X B + E, \; E \sim \mathcal{MN}(0, V, \Sigma) \; .
