@@ -23,6 +23,7 @@ title: "Proof by Topic"
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
+- [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
 
 ### C
 
@@ -72,13 +73,17 @@ title: "Proof by Topic"
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
 - [Differential entropy of the normal-gamma distribution](/P/ng-dent)
+- [Distribution of the inverse general linear model](/P/iglm-dist)
+- [Distribution of the transformed general linear model](/P/tglm-dist)
 - [Distributional transformation using cumulative distribution function](/P/cdf-dt)
 
 ### E
 
 - [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
+- [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)
 - [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep)
+- [Existence of a corresponding forward model](/P/cfm-exist)
 - [Expectation of a quadratic form](/P/mean-qf)
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
@@ -208,6 +213,7 @@ title: "Proof by Topic"
 
 - [Paired t-test for dependent observations](/P/ug-ttestp)
 - [Paired z-test for dependent observations](/P/ugkv-ztestp)
+- [Parameters of the corresponding forward model](/P/cfm-para)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
 - [Partition of covariance into expected values](/P/cov-mean)
 - [Partition of sums of squares in ordinary least squares](/P/mlr-pss)

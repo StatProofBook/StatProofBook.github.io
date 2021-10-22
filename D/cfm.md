@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2021-10-21 17:01
+date: 2021-10-21 17:01:00
 
 title: "Corresponding forward model"
 chapter: "Statistical Models"
