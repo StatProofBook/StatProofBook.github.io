@@ -40,7 +40,7 @@ $$ \label{eq:iglm}
 X = Y W + N, \; N \sim \mathcal{MN}(0, V, \Sigma_x)
 $$
 
-where $W \in \mathbb{R}^{v \times p}$ is a matrix, such that $B \, W = I_p$, and the covariance across columns is $\Sigma_x = W^\mathrm{T} \Sigma W$.
+where $W \in \mathbb{R}^{v \times p}$ is a matrix, such that $B \, W = I_p$, and the [covariance across columns](/D/matn) is $\Sigma_x = W^\mathrm{T} \Sigma W$.
 
 
 **Proof:** The [linear transformation theorem for the matrix-normal distribution](/P/matn-ltt) states:
@@ -49,13 +49,13 @@ $$ \label{eq:matn-ltt}
 X \sim \mathcal{MN}(M, U, V) \quad \Rightarrow \quad Y = AXB + C \sim \mathcal{MN}(AMB+C, AUA^\mathrm{T}, B^\mathrm{T}VB) \; .
 $$
 
-The matrix $W$ exists, if the rows of $B \in \mathbb{R}^{p \times v}$ are linearly independent, such that $\mathrm{rk}(B) = p$. Then, right-multiplying the model \eqref{eq:glm} and applying \eqref{eq:matn-ltt} with $W$ yields
+The matrix $W$ exists, if the rows of $B \in \mathbb{R}^{p \times v}$ are linearly independent, such that $\mathrm{rk}(B) = p$. Then, right-multiplying the model \eqref{eq:glm} with $W$ and applying \eqref{eq:matn-ltt} yields
 
 $$ \label{eq:iglm-s1}
 Y W = X B W + E W, \; E W \sim \mathcal{MN}(0, V, W^\mathrm{T} \Sigma W) \; .
 $$
 
-Applying $B \, W = I_p$ and rearranging, we have
+Employing $B \, W = I_p$ and rearranging, we have
 
 $$ \label{eq:iglm-s2}
 X = Y W - E W, \; E W \sim \mathcal{MN}(0, V, W^\mathrm{T} \Sigma W) \; .

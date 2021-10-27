@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (154 definitions)
+### JoramSoch (157 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -28,6 +28,7 @@ title: "Definition by Author"
 - [Continuous uniform distribution](/D/cuni)
 - [Correlation](/D/corr)
 - [Correlation matrix](/D/corrmat)
+- [Corresponding forward model](/D/cfm)
 - [Covariance](/D/cov)
 - [Covariance matrix](/D/covmat)
 - [Critical value](/D/cval)
@@ -61,6 +62,7 @@ title: "Definition by Author"
 - [General linear model](/D/glm)
 - [Generative model](/D/gm)
 - [Informative and non-informative prior distribution](/D/prior-inf)
+- [Inverse general linear model](/D/iglm)
 - [Joint cumulative distribution function](/D/cdf-joint)
 - [Joint differential entropy](/D/dent-joint)
 - [Joint entropy](/D/ent-joint)
@@ -149,6 +151,7 @@ title: "Definition by Author"
 - [Statistical independence](/D/ind)
 - [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
+- [Transformed general linear model](/D/tglm)
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
 - [Univariate Gaussian](/D/ug)

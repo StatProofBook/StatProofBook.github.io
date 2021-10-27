@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (254 proofs)
+### JoramSoch (260 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -17,6 +17,7 @@ title: "Proof by Author"
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
+- [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
 - [Characteristic function of a function of a random variable](/P/cf-fct)
 - [Concavity of the Shannon entropy](/P/ent-conc)
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
@@ -59,9 +60,13 @@ title: "Proof by Author"
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
 - [Differential entropy of the normal-gamma distribution](/P/ng-dent)
+- [Distribution of the inverse general linear model](/P/iglm-dist)
+- [Distribution of the transformed general linear model](/P/tglm-dist)
 - [Distributional transformation using cumulative distribution function](/P/cdf-dt)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
+- [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)
 - [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep)
+- [Existence of a corresponding forward model](/P/cfm-exist)
 - [Expectation of a quadratic form](/P/mean-qf)
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
@@ -158,6 +163,7 @@ title: "Proof by Author"
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 - [Paired t-test for dependent observations](/P/ug-ttestp)
 - [Paired z-test for dependent observations](/P/ugkv-ztestp)
+- [Parameters of the corresponding forward model](/P/cfm-para)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
 - [Partition of covariance into expected values](/P/cov-mean)
 - [Partition of sums of squares in ordinary least squares](/P/mlr-pss)

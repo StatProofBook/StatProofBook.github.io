@@ -270,3 +270,9 @@ title: "Proof by Number"
 | P262 | dent-noninv | [Non-invariance of the differential entropy under change of variables](/P/dent-noninv) | JoramSoch | 2021-10-07 |
 | P263 | t-pdf | [Probability density function of the t-distribution](/P/t-pdf) | JoramSoch | 2021-10-12 |
 | P264 | f-pdf | [Probability density function of the F-distribution](/P/f-pdf) | JoramSoch | 2021-10-12 |
+| P265 | tglm-dist | [Distribution of the transformed general linear model](/P/tglm-dist) | JoramSoch | 2021-10-21 |
+| P266 | tglm-para | [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para) | JoramSoch | 2021-10-21 |
+| P267 | iglm-dist | [Distribution of the inverse general linear model](/P/iglm-dist) | JoramSoch | 2021-10-21 |
+| P268 | iglm-blue | [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue) | JoramSoch | 2021-10-21 |
+| P269 | cfm-para | [Parameters of the corresponding forward model](/P/cfm-para) | JoramSoch | 2021-10-21 |
+| P270 | cfm-exist | [Existence of a corresponding forward model](/P/cfm-exist) | JoramSoch | 2021-10-21 |

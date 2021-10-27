@@ -36,6 +36,7 @@ title: "Definition by Topic"
 - [Continuous uniform distribution](/D/cuni)
 - [Correlation](/D/corr)
 - [Correlation matrix](/D/corrmat)
+- [Corresponding forward model](/D/cfm)
 - [Covariance](/D/cov)
 - [Covariance matrix](/D/covmat)
 - [Critical value](/D/cval)
@@ -86,6 +87,7 @@ title: "Definition by Topic"
 ### I
 
 - [Informative and non-informative prior distribution](/D/prior-inf)
+- [Inverse general linear model](/D/iglm)
 
 ### J
 
@@ -208,6 +210,7 @@ title: "Definition by Topic"
 
 - [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
+- [Transformed general linear model](/D/tglm)
 
 ### U
 

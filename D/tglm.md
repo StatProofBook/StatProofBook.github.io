@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2021-10-21 14:43:00
 
-title: "General linear model"
+title: "Transformed general linear model"
 chapter: "Statistical Models"
 section: "Multivariate normal data"
 topic: "Transformed general linear model"

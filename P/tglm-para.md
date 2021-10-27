@@ -40,7 +40,7 @@ $$ \label{eq:tglm}
 \hat{\Gamma} = T B + H, \; H \sim \mathcal{MN}(0, U, \Sigma)
 $$
 
-which are linked to each other via
+which [are linked to each other](/P/tglm-dist) via
 
 $$ \label{eq:glm2-wls}
 \hat{\Gamma} = ( X_t^\mathrm{T} V^{-1} X_t )^{-1} X_t^\mathrm{T} V^{-1} Y
@@ -52,7 +52,7 @@ $$ \label{eq:X-Xt-T}
 X = X_t \, T \; .
 $$
 
-Then, the parameter estimates from \eqref{eq:glm1} and \eqref{eq:tglm} are equivalent.
+Then, the parameter estimates for $B$ from \eqref{eq:glm1} and \eqref{eq:tglm} are equivalent.
 
 
 **Proof:** The [weighted least squares parameter estimates](/P/glm-wls) for \eqref{eq:glm1} are given by

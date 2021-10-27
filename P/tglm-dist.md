@@ -50,7 +50,7 @@ $$ \label{eq:tglm}
 \hat{\Gamma} = T B + H, \; H \sim \mathcal{MN}(0, U, \Sigma)
 $$
 
-where the covariance across rows is $U = ( X_t^\mathrm{T} V^{-1} X_t )^{-1}$.
+where the [covariance across rows](/D/matn) is $U = ( X_t^\mathrm{T} V^{-1} X_t )^{-1}$.
 
 
 **Proof:** The [linear transformation theorem for the matrix-normal distribution](/P/matn-ltt) states:
@@ -75,13 +75,13 @@ Combining \eqref{eq:glm2-wls} with \eqref{eq:Y-dist}, the distribution of $\hat{
 
 $$ \label{eq:G-dist}
 \begin{split}
-\hat{\Gamma} &\sim \mathrm{MN}\left( \left[ ( X_t^\mathrm{T} V^{-1} X_t )^{-1} X_t^\mathrm{T} V^{-1} \right] X B, \left[ ( X_t^\mathrm{T} V^{-1} X_t )^{-1} X_t^\mathrm{T} V^{-1} \right] V \left[ V^{-1} X_t ( X_t^\mathrm{T} V^{-1} X_t )^{-1} \right], \Sigma \right) \\
-&\sim \mathrm{MN}\left( ( X_t^\mathrm{T} V^{-1} X_t )^{-1} X_t^\mathrm{T} V^{-1} X_t \, T B, ( X_t^\mathrm{T} V^{-1} X_t )^{-1} X_t^\mathrm{T} V^{-1} X_t ( X_t^\mathrm{T} V^{-1} X_t )^{-1}, \Sigma \right) \\
-&\sim \mathrm{MN}\left( T B, ( X_t^\mathrm{T} V^{-1} X_t )^{-1}, \Sigma \right) \; .
+\hat{\Gamma} &\sim \mathcal{MN}\left( \left[ ( X_t^\mathrm{T} V^{-1} X_t )^{-1} X_t^\mathrm{T} V^{-1} \right] X B, \left[ ( X_t^\mathrm{T} V^{-1} X_t )^{-1} X_t^\mathrm{T} V^{-1} \right] V \left[ V^{-1} X_t ( X_t^\mathrm{T} V^{-1} X_t )^{-1} \right], \Sigma \right) \\
+&\sim \mathcal{MN}\left( ( X_t^\mathrm{T} V^{-1} X_t )^{-1} X_t^\mathrm{T} V^{-1} X_t \, T B, ( X_t^\mathrm{T} V^{-1} X_t )^{-1} X_t^\mathrm{T} V^{-1} X_t ( X_t^\mathrm{T} V^{-1} X_t )^{-1}, \Sigma \right) \\
+&\sim \mathcal{MN}\left( T B, ( X_t^\mathrm{T} V^{-1} X_t )^{-1}, \Sigma \right) \; .
 \end{split}
 $$
 
-This can also written as
+This can also be written as
 
 $$ \label{eq:tglm-qed}
 \hat{\Gamma} = T B + H, \; H \sim \mathcal{MN}\left( 0, ( X_t^\mathrm{T} V^{-1} X_t )^{-1}, \Sigma \right)

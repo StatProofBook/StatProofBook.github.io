@@ -166,3 +166,6 @@ title: "Definition by Number"
 | D157 | suni | [Standard uniform distribution](/D/suni) | JoramSoch | 2021-07-23 |
 | D158 | prob-ax | [Kolmogorov axioms of probability](/D/prob-ax) | JoramSoch | 2021-07-30 |
 | D159 | cf | [Characteristic function](/D/cf) | JoramSoch | 2021-09-22 |
+| D160 | tglm | [Transformed general linear model](/D/tglm) | JoramSoch | 2021-10-21 |
+| D161 | iglm | [Inverse general linear model](/D/iglm) | JoramSoch | 2021-10-21 |
+| D162 | cfm | [Corresponding forward model](/D/cfm) | JoramSoch | 2021-10-21 |

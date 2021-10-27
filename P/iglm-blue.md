@@ -73,7 +73,13 @@ $$ \label{eq:W-hat-dist}
 \tilde{W} = M X \sim \mathcal{MN}(M Y W, M V M^T, \Sigma_x) \;
 $$
 
-which requires that $M Y = I_v$. This is fulfilled by any matrix $M = (Y^\mathrm{T} V^{-1} Y)^{-1} Y^\mathrm{T} V^{-1} + D$ where $D$ is a $v \times n$ matrix which satisfies $D Y = 0$.
+[which requires](/P/matn-mean) that $M Y = I_v$. This is fulfilled by any matrix
+
+$$ \label{eq:M-D}
+M = (Y^\mathrm{T} V^{-1} Y)^{-1} Y^\mathrm{T} V^{-1} + D
+$$
+
+where $D$ is a $v \times n$ matrix which satisfies $D Y = 0$.
 
 <br>
 3) Third, the [best linear unbiased estimator](/D/blue) is the one with minimum [variance](/D/var), i.e. the one that minimizes the expected Frobenius norm
@@ -85,26 +91,32 @@ $$
 Using the [matrix-normal distribution](/D/matn) of $\tilde{W}$ from \eqref{eq:W-hat-dist}
 
 $$ \label{eq:W-hat-W-dist}
-\left( \tilde{W} - W \right) \sim \mathcal{MN}(0, M V M^T, \Sigma_x)
+\left( \tilde{W} - W \right) \sim \mathcal{MN}(0, M V M^\mathrm{T}, \Sigma_x)
 $$
 
 and the property of the [Wishart distribution](/D/wish)
 
 $$ \label{eq:E-XX}
-X \sim \mathcal{MN}(0, U, V) \quad \Rightarrow \quad \left\langle X X^T \right\rangle = \mathrm{tr}(V) \, U \; ,
+X \sim \mathcal{MN}(0, U, V) \quad \Rightarrow \quad \left\langle X X^\mathrm{T} \right\rangle = \mathrm{tr}(V) \, U \; ,
 $$
 
 this [variance](/D/var) can be evaluated as a function of $M$:
 
 $$ \label{eq:Var-M}
-\mathrm{Var}\left[ \tilde{W}(M) \right] = \mathrm{tr}(\Sigma_x) \; \mathrm{tr}(M V M^T) \; .
+\begin{split}
+\mathrm{Var}\left[ \tilde{W}(M) \right] &\overset{\eqref{eq:Var-W}}{=} \left\langle \mathrm{tr}\left[ (\tilde{W} - W)^\mathrm{T} (\tilde{W} - W) \right] \right\rangle \\
+&= \left\langle \mathrm{tr}\left[ (\tilde{W} - W) (\tilde{W} - W)^\mathrm{T} \right] \right\rangle \\
+&= \mathrm{tr}\left[ \left\langle (\tilde{W} - W) (\tilde{W} - W)^\mathrm{T} \right\rangle \right] \\
+&\overset{\eqref{eq:E-XX}}{=} \mathrm{tr}\left[ \mathrm{tr}(\Sigma_x) \, M V M^\mathrm{T} \right] \\
+&= \mathrm{tr}(\Sigma_x) \; \mathrm{tr}(M V M^\mathrm{T}) \; .
+\end{split}
 $$
 
 As a function of $D$ and using $D Y = 0$, it becomes:
 
 $$ \label{eq:Var-D}
 \begin{split}
-\mathrm{Var}\left[ \tilde{W}(D) \right] &= \mathrm{tr}(\Sigma_x) \; \mathrm{tr}\!\left[ \left( (Y^\mathrm{T} V^{-1} Y)^{-1} Y^\mathrm{T} V^{-1} + D \right) V \left( (Y^\mathrm{T} V^{-1} Y)^{-1} Y^\mathrm{T} V^{-1} + D \right)^\mathrm{T} \right] \\
+\mathrm{Var}\left[ \tilde{W}(D) \right] &\overset{\eqref{eq:M-D}}{=} \mathrm{tr}(\Sigma_x) \; \mathrm{tr}\!\left[ \left( (Y^\mathrm{T} V^{-1} Y)^{-1} Y^\mathrm{T} V^{-1} + D \right) V \left( (Y^\mathrm{T} V^{-1} Y)^{-1} Y^\mathrm{T} V^{-1} + D \right)^\mathrm{T} \right] \\
 &= \mathrm{tr}(\Sigma_x) \; \mathrm{tr}\!\left[ (Y^\mathrm{T} V^{-1} Y)^{-1} \, Y^\mathrm{T} V^{-1} V V^{-1} Y \; (Y^\mathrm{T} V^{-1} Y)^{-1} + \right. \\
 &\hphantom{=\mathrm{tr}(\Sigma_x) \; \mathrm{tr}\!\left[\right.} \left. \, (Y^\mathrm{T} V^{-1} Y)^{-1} Y^\mathrm{T} V^{-1} V D^\mathrm{T} + D V V^{-1} Y (Y^\mathrm{T} V^{-1} Y)^{-1} + D V D^\mathrm{T} \right] \\
 &= \mathrm{tr}(\Sigma_x) \left[ \mathrm{tr}\!\left( (Y^\mathrm{T} V^{-1} Y)^{-1} \right) + \mathrm{tr}\!\left( D V D^\mathrm{T} \right) \right] \; .
