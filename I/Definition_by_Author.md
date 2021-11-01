@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (157 definitions)
+### JoramSoch (159 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -129,6 +129,7 @@ title: "Definition by Author"
 - [Random vector](/D/rvec)
 - [Raw moment](/D/mom-raw)
 - [Reference prior distribution](/D/prior-ref)
+- [Regression line](/D/regline)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)
@@ -140,6 +141,7 @@ title: "Definition by Author"
 - [Signal-to-noise ratio](/D/snr)
 - [Significance level](/D/alpha)
 - [Simple and composite hypothesis](/D/hyp-simp)
+- [Simple linear regression](/D/slr)
 - [Size of a statistical test](/D/size)
 - [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)

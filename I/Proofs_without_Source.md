@@ -21,6 +21,7 @@ title: "Proofs without Source"
 - [Derivation of the log model evidence](/P/lme-der)
 - [Derivation of the posterior model probability](/P/pmp-der)
 - [Differential entropy of the normal-gamma distribution](/P/ng-dent)
+- [Effects of mean-centering on parameter estimates for simple linear regression](/P/slr-meancent)
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)

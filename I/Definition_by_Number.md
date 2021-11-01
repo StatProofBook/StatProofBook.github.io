@@ -169,3 +169,5 @@ title: "Definition by Number"
 | D160 | tglm | [Transformed general linear model](/D/tglm) | JoramSoch | 2021-10-21 |
 | D161 | iglm | [Inverse general linear model](/D/iglm) | JoramSoch | 2021-10-21 |
 | D162 | cfm | [Corresponding forward model](/D/cfm) | JoramSoch | 2021-10-21 |
+| D163 | slr | [Simple linear regression](/D/slr) | JoramSoch | 2021-10-27 |
+| D164 | regline | [Regression line](/D/regline) | JoramSoch | 2021-10-27 |

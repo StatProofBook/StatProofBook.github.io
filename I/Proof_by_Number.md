@@ -276,3 +276,13 @@ title: "Proof by Number"
 | P268 | iglm-blue | [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue) | JoramSoch | 2021-10-21 |
 | P269 | cfm-para | [Parameters of the corresponding forward model](/P/cfm-para) | JoramSoch | 2021-10-21 |
 | P270 | cfm-exist | [Existence of a corresponding forward model](/P/cfm-exist) | JoramSoch | 2021-10-21 |
+| P271 | slr-ols | [Ordinary least squares for simple linear regression](/P/slr-ols) | JoramSoch | 2021-10-27 |
+| P272 | slr-olsmean | [Expectation of parameter estimates for simple linear regression](/P/slr-olsmean) | JoramSoch | 2021-10-27 |
+| P273 | slr-olsvar | [Variance of parameter estimates for simple linear regression](/P/slr-olsvar) | JoramSoch | 2021-10-27 |
+| P274 | slr-meancent | [Effects of mean-centering on parameter estimates for simple linear regression](/P/slr-meancent) | JoramSoch | 2021-10-27 |
+| P275 | slr-comp | [The regression line goes through the center of mass point](/P/slr-comp) | JoramSoch | 2021-10-27 |
+| P276 | slr-ressum | [The sum of residuals is zero in simple linear regression](/P/slr-ressum) | JoramSoch | 2021-10-27 |
+| P277 | slr-rescorr | [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr) | JoramSoch | 2021-10-27 |
+| P278 | slr-resvar | [Relationship between residual variance and sample variance in simple linear regression](/P/slr-resvar) | JoramSoch | 2021-10-27 |
+| P279 | slr-corr | [Relationship between correlation coefficient and slope estimate in simple linear regression](/P/slr-corr) | JoramSoch | 2021-10-27 |
+| P280 | slr-rsq | [Relationship between coefficient of determination and correlation coefficient in simple linear regression](/P/slr-rsq) | JoramSoch | 2021-10-27 |

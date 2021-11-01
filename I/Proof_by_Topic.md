@@ -79,12 +79,14 @@ title: "Proof by Topic"
 
 ### E
 
+- [Effects of mean-centering on parameter estimates for simple linear regression](/P/slr-meancent)
 - [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)
 - [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep)
 - [Existence of a corresponding forward model](/P/cfm-exist)
 - [Expectation of a quadratic form](/P/mean-qf)
+- [Expectation of parameter estimates for simple linear regression](/P/slr-olsmean)
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
@@ -207,6 +209,7 @@ title: "Proof by Topic"
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
+- [Ordinary least squares for simple linear regression](/P/slr-ols)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 
 ### P
@@ -294,6 +297,8 @@ title: "Proof by Topic"
 - [Relation of mutual information to marginal and conditional entropy](/P/dmi-mce)
 - [Relation of mutual information to marginal and joint entropy](/P/dmi-mje)
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
+- [Relationship between coefficient of determination and correlation coefficient in simple linear regression](/P/slr-rsq)
+- [Relationship between correlation coefficient and slope estimate in simple linear regression](/P/slr-corr)
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
 - [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam)
@@ -306,6 +311,7 @@ title: "Proof by Topic"
 - [Relationship between normal distribution and standard normal distribution](/P/norm-snorm3)
 - [Relationship between normal distribution and t-distribution](/P/norm-t)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
+- [Relationship between residual variance and sample variance in simple linear regression](/P/slr-resvar)
 - [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 
@@ -317,6 +323,9 @@ title: "Proof by Topic"
 
 ### T
 
+- [The regression line goes through the center of mass point](/P/slr-comp)
+- [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
+- [The sum of residuals is zero in simple linear regression](/P/slr-ressum)
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
 - [Transitivity of Bayes Factors](/P/bf-trans)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
@@ -326,6 +335,7 @@ title: "Proof by Topic"
 ### V
 
 - [Variance of constant is zero](/P/var-const)
+- [Variance of parameter estimates for simple linear regression](/P/slr-olsvar)
 - [Variance of the Poisson distribution](/P/poiss-var)
 - [Variance of the Wald distribution](/P/wald-var)
 - [Variance of the beta distribution](/P/beta-var)
