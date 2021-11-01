@@ -81,6 +81,8 @@ $$ \label{eq:sum-ci}
 \end{split}
 $$
 
+and
+
 $$ \label{eq:sum-ci-xi}
 \begin{split}
 \sum_{i=1}^n c_i x_i &= \frac{\sum_{i=1}^n (x_i - \bar{x}) x_i}{\sum_{i=1}^n (x_i - \bar{x})^2} = \frac{\sum_{i=1}^n \left( x_i^2 - \bar{x} x_i \right)}{\sum_{i=1}^n (x_i - \bar{x})^2} \\

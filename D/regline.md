@@ -42,7 +42,7 @@ $$
 is called a "regression line" and the set
 
 $$ \label{eq:regline-ols}
-L(\hat{\beta}_0, \hat{\beta}_1) = \left\lbrace (x,y) \in \mathbb{R}^2 \mid y = \hat{\beta}_0 + \hat{\beta}_1 x \right\rbrace
+L(\hat{\beta}_0, \hat{\beta}_1)
 $$
 
 is called the "fitted regression line", with estimated regression coefficients $\hat{\beta}_0, \hat{\beta}_1$, e.g. obtained via [ordinary least squares](/P/slr-ols).

@@ -49,7 +49,7 @@ $$
 **Proof:** The [residual sum of squares](/D/rss) is defined as
 
 $$ \label{eq:RSS}
-\mathrm{RSS}(\beta) = \sum_{i=1}^n \varepsilon_i = \varepsilon^\mathrm{T} \varepsilon = (y-X\beta)^\mathrm{T} (y-X\beta)
+\mathrm{RSS}(\beta) = \sum_{i=1}^n \varepsilon_i^2 = \varepsilon^\mathrm{T} \varepsilon = (y-X\beta)^\mathrm{T} (y-X\beta)
 $$
 
 which can be developed into

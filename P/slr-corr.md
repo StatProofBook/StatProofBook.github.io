@@ -52,7 +52,7 @@ $$ \label{eq:slr-ols-sl}
 \hat{\beta}_1 = \frac{s_{xy}}{s_x^2} \; .
 $$
 
-Using the [relationship between covariance and correlation](/D/cov-corr)
+Using the [relationship between covariance and correlation](/P/cov-corr)
 
 $$ \label{eq:cov-corr}
 \mathrm{Cov}(X,Y) = \sigma_X \, \mathrm{Corr}(X,Y) \, \sigma_Y

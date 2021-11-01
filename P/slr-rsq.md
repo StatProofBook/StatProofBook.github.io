@@ -88,7 +88,7 @@ R^2 &= \frac{\sum_{i=1}^{n} (\bar{y} - \hat{\beta}_1 \bar{x} + \hat{\beta}_1 x_i
 \end{split}
 $$
 
-Using the [relationship between correlation coefficient and slope estimate](/D/slr-corr), we conclude:
+Using the [relationship between correlation coefficient and slope estimate](/P/slr-corr), we conclude:
 
 $$ \label{eq:slr-R2-qed}
 R^2 = \left( \frac{s_x}{s_y} \, \hat{\beta}_1 \right)^2 = r_{xy}^2 \; .

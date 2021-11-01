@@ -490,7 +490,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.7. **[Regression line includes center of mass](/P/slr-comp)** <br>
    &emsp;&ensp; 1.3.8. **[Sum of residuals is zero](/P/slr-ressum)** <br>
    &emsp;&ensp; 1.3.9. **[Correlation with covariate is zero](/P/slr-rescorr)** <br>
-   &emsp;&ensp; 1.3.10. **[Residual variance in terms of sample variance](/P/slr-vars)** <br>
+   &emsp;&ensp; 1.3.10. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
    &emsp;&ensp; 1.3.11. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
    &emsp;&ensp; 1.3.12. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
 
