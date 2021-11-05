@@ -59,7 +59,7 @@ for file in files:
             if line.find('title:') == 0:
                 title      = re.sub('"', '', line[7:-1])
                 title_edit = re.sub('[^a-zA-Z- ]', '', title)
-                title_sort = title_edit[0].upper() + title_edit[1:]
+                title_sort = title_edit.upper()
             if line.find('author:') == 0:
                 author = re.sub('"', '', line[8:-1])
             if line.find('username:') == 0:
@@ -114,7 +114,7 @@ for file in files:
             if line.find('title:') == 0:
                 title      = re.sub('"', '', line[7:-1])
                 title_edit = re.sub('[^a-zA-Z- ]', '', title)
-                title_sort = title_edit[0].upper() + title_edit[1:]
+                title_sort = title_edit.upper()
             if line.find('author:') == 0:
                 author = re.sub('"', '', line[8:-1])
             if line.find('username:') == 0:

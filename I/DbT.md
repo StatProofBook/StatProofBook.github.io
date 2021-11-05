@@ -58,10 +58,10 @@ title: "Definition by Topic"
 
 ### E
 
+- [Empirical and theoretical prior distribution](/D/prior-emp)
 - [Empirical Bayes](/D/eb)
 - [Empirical Bayes prior distribution](/D/prior-eb)
 - [Empirical Bayesian log model evidence](/D/eblme)
-- [Empirical and theoretical prior distribution](/D/prior-emp)
 - [Encompassing model](/D/encm)
 - [Estimation matrix](/D/emat)
 - [Exceedance probability](/D/prob-exc)
@@ -220,9 +220,9 @@ title: "Definition by Topic"
 
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
+- [Univariate and multivariate random variable](/D/rvar-uni)
 - [Univariate Gaussian](/D/ug)
 - [Univariate Gaussian with known variance](/D/ugkv)
-- [Univariate and multivariate random variable](/D/rvar-uni)
 
 ### V
 
