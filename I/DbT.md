@@ -151,6 +151,7 @@ title: "Definition by Topic"
 
 ### P
 
+- [p-value](/D/pval)
 - [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
@@ -210,6 +211,7 @@ title: "Definition by Topic"
 
 ### T
 
+- [t-distribution](/D/t)
 - [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
 - [Transformed general linear model](/D/tglm)
@@ -232,11 +234,3 @@ title: "Definition by Topic"
 
 - [Wald distribution](/D/wald)
 - [Wishart distribution](/D/wish)
-
-### p
-
-- [p-value](/D/pval)
-
-### t
-
-- [t-distribution](/D/t)

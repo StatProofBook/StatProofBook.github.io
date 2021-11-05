@@ -17,7 +17,7 @@ Author: Joram Soch, BCCN Berlin
 E-Mail: joram.soch@bccn-berlin.de
 
 First edit: 2019-09-27 12:55:00
- Last edit: 2020-08-26 18:51:00
+ Last edit: 2021-11-05 07:12:00
 """
 
 
@@ -57,7 +57,9 @@ for file in files:
             if line.find('shortcut:') == 0:
                 shortcut = re.sub('"', '', line[10:-1])
             if line.find('title:') == 0:
-                title = re.sub('"', '', line[7:-1])
+                title      = re.sub('"', '', line[7:-1])
+                title_edit = re.sub('[^a-zA-Z- ]', '', title)
+                title_sort = title_edit[0].upper() + title_edit[1:]
             if line.find('author:') == 0:
                 author = re.sub('"', '', line[8:-1])
             if line.find('username:') == 0:
@@ -78,7 +80,7 @@ for file in files:
                             'username': username, 'date': date, 'source': source}
         pr_ids.append(proof_id)
         pr_nos.append(int(proof_id[1:]))
-        pr_titles.append(title)
+        pr_titles.append(title_sort)
         pr_users.append(username)
 
 # List files in definition directory
@@ -110,7 +112,9 @@ for file in files:
             if line.find('shortcut:') == 0:
                 shortcut = re.sub('"', '', line[10:-1])
             if line.find('title:') == 0:
-                title = re.sub('"', '', line[7:-1])
+                title      = re.sub('"', '', line[7:-1])
+                title_edit = re.sub('[^a-zA-Z- ]', '', title)
+                title_sort = title_edit[0].upper() + title_edit[1:]
             if line.find('author:') == 0:
                 author = re.sub('"', '', line[8:-1])
             if line.find('username:') == 0:
@@ -131,7 +135,7 @@ for file in files:
                                'username': username, 'date': date, 'source': source}
         def_ids.append(def_id)
         def_nos.append(int(def_id[1:]))
-        def_titles.append(title)
+        def_titles.append(title_sort)
         def_users.append(username)
 
 # Output number of proof files
@@ -221,13 +225,14 @@ ind3a.write('---\nlayout: page\ntitle: "Proof by Topic"\n---\n\n\n')
 #-----------------------------------------------------------------------------#
 sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(pr_titles)])]
 for i in range(0,len(pr_titles)):
-    shortcut = proofs[pr_ids[sort_ind[i]]]['shortcut']
-    title    = proofs[pr_ids[sort_ind[i]]]['title']
+    shortcut   = proofs[pr_ids[sort_ind[i]]]['shortcut']
+    title      = proofs[pr_ids[sort_ind[i]]]['title']
+    title_sort = pr_titles[sort_ind[i]]
     if i == 0:
-        ind3a.write('### ' + title[0] + '\n\n')
+        ind3a.write('### ' + title_sort[0] + '\n\n')
     else:
-        if title[0] != proofs[pr_ids[sort_ind[i-1]]]['title'][0]:
-            ind3a.write('\n### ' + title[0] + '\n\n')
+        if title_sort[0] != pr_titles[sort_ind[i-1]][0]:
+            ind3a.write('\n### ' + title_sort[0] + '\n\n')
     ind3a.write('- [' + title + '](/P/' + shortcut + ')\n')
 ind3a.close()
 print('   - successfully written to disk!')
@@ -243,13 +248,14 @@ ind3b.write('---\nlayout: page\ntitle: "Definition by Topic"\n---\n\n\n')
 #-----------------------------------------------------------------------------#
 sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(def_titles)])]
 for i in range(0,len(def_titles)):
-    shortcut = definitions[def_ids[sort_ind[i]]]['shortcut']
-    title    = definitions[def_ids[sort_ind[i]]]['title']
+    shortcut   = definitions[def_ids[sort_ind[i]]]['shortcut']
+    title      = definitions[def_ids[sort_ind[i]]]['title']
+    title_sort = def_titles[sort_ind[i]]
     if i == 0:
-        ind3b.write('### ' + title[0] + '\n\n')
+        ind3b.write('### ' + title_sort[0] + '\n\n')
     else:
-        if title[0] != definitions[def_ids[sort_ind[i-1]]]['title'][0]:
-            ind3b.write('\n### ' + title[0] + '\n\n')
+        if title_sort[0] != def_titles[sort_ind[i-1]][0]:
+            ind3b.write('\n### ' + title_sort[0] + '\n\n')
     ind3b.write('- [' + title + '](/D/' + shortcut + ')\n')
 ind3b.close()
 print('   - successfully written to disk!')

@@ -4,10 +4,6 @@ title: "Proof by Topic"
 ---
 
 
-### (
-
-- [(Non-)Multiplicativity of the expected value](/P/mean-mult)
-
 ### A
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -194,6 +190,7 @@ title: "Proof by Topic"
 ### N
 
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
+- [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Non-invariance of the differential entropy under change of variables](/P/dent-noninv)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
