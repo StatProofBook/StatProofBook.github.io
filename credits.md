@@ -12,7 +12,7 @@ If you have [submitted a proof via GitHub](/contribute/) and entered your userna
 
 > **Metadata:** ID: P1 \| shortcut: mvn-ltt \| author: [JoramSoch](https://github.com/JoramSoch) \| date: 2019-08-27, 12:14.
 
-Your username will also appear on the [Proof by Number](/I/Proof_by_Number) and [Proof by Author](/I/Proof_by_Author) index pages.
+Your username will also appear on the [Proof by Number](/I/PbN) and [Proof by Author](/I/PbA) index pages.
 
 <br>
 ### Credit 2: Money

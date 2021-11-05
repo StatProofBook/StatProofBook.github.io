@@ -46,19 +46,19 @@ of statistical theorems for the computational sciences*! <br>
 <table style="border:none">
   <tr>
     <td style="text-align:center">
-	  <a href="/I/Table_of_Contents">Table of Contents</a> <br>
+	  <a href="/I/ToC">Table of Contents</a> <br>
 	  <img src="Index_1.png"> <br>
 	  Proofs & Definitions
 	</td>
     <td style="text-align:center">
-	  <a href="/I/Proof_by_Number">Proof by Number</a> <br>
+	  <a href="/I/PbN">Proof by Number</a> <br>
 	  <img src="Index_2.png"> <br>
-	  <a href="/I/Definition_by_Number">Definition by Number</a>
+	  <a href="/I/DbN">Definition by Number</a>
 	</td>
     <td style="text-align:center">
-	  <a href="/I/Proof_by_Topic">Proof by Topic</a> <br>
+	  <a href="/I/PbT">Proof by Topic</a> <br>
 	  <img src="Index_3.png"> <br>
-	  <a href="/I/Definition_by_Topic">Definition by Topic</a>
+	  <a href="/I/DbT">Definition by Topic</a>
 	</td>
   </tr>
 </table>
