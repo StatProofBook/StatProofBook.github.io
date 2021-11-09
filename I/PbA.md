@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (270 proofs)
+### JoramSoch (275 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -60,6 +60,7 @@ title: "Proof by Author"
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
 - [Differential entropy of the normal-gamma distribution](/P/ng-dent)
+- [Distribution of parameter estimates for simple linear regression](/P/slr-olsdist)
 - [Distribution of the inverse general linear model](/P/iglm-dist)
 - [Distribution of the transformed general linear model](/P/tglm-dist)
 - [Distributional transformation using cumulative distribution function](/P/cdf-dt)
@@ -223,6 +224,7 @@ title: "Proof by Author"
 - [Probability under mutual exclusivity](/P/prob-exc)
 - [Probability under statistical independence](/P/prob-ind)
 - [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem)
+- [Projection of a data point to the regression line](/P/slr-proj)
 - [Quantile function is inverse of strictly monotonically increasing cumulative distribution function](/P/qf-cdf)
 - [Quantile function of the continuous uniform distribution](/P/cuni-qf)
 - [Quantile function of the discrete uniform distribution](/P/duni-qf)
@@ -258,10 +260,13 @@ title: "Proof by Author"
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)
+- [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
+- [Sums of squares for simple linear regression](/P/slr-sss)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
 - [The sum of residuals is zero in simple linear regression](/P/slr-ressum)
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
+- [Transformation matrices for simple linear regression](/P/slr-mat)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
 - [Two-sample t-test for independent observations](/P/ug-ttest2)
 - [Two-sample z-test for independent observations](/P/ugkv-ztest2)
