@@ -39,7 +39,7 @@ $$ \label{eq:slr-olsdist}
 \left[ \begin{matrix} \hat{\beta}_0 \\ \hat{\beta}_1 \end{matrix} \right] \sim \mathcal{N}\left( \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right], \, \frac{\sigma^2}{(n-1) \, s_x^2} \cdot \left[ \begin{matrix} x^\mathrm{T}x/n & -\bar{x} \\ -\bar{x} & 1 \end{matrix} \right] \right)
 $$
 
-where $s_x^2$ is the [sample variance](/D/var-samp) of $x$.
+where $\bar{x}$ is the [sample mean](/D/mean-samp) and $s_x^2$ is the [sample variance](/D/var-samp) of $x$.
 
 
 **Proof:** [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr) with

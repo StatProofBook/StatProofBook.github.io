@@ -40,7 +40,7 @@ P\left(w \mid \hat{\beta}_0 + \hat{\beta}_1 w\right) \quad \text{with} \quad w =
 $$
 
 
-**Proof:** The intersection point of the regression line with the y-axis is
+**Proof:** The intersection point of the [regression line](/D/regline) with the y-axis is
 
 $$ \label{eq:S}
 S(0 \vert \hat{\beta}_0) \; .
@@ -89,8 +89,8 @@ With \eqref{eq:a} and \eqref{eq:b}, $w$ can be calculated as
 $$ \label{eq:w-qed}
 \begin{split}
 w &= \frac{a^\mathrm{T} b}{a^\mathrm{T} a} \\
-&= \frac{\left( \begin{matrix} 1 \\ \hat{\beta}_1 \end{matrix} \right)^\mathrm{T} \left( \begin{matrix} x_o \\ y_o - \hat{\beta}_0 \end{matrix} \right)}{\left( \begin{matrix} 1 \\ \hat{\beta}_1 \end{matrix} \right)^\mathrm{T} \left( \begin{matrix} 1 \\ \hat{\beta}_1 \end{matrix} \right)} \\
-&= \frac{x_0 + (y_o - \hat{\beta}_0) \hat{\beta}_1}{1 + \hat{\beta}_1^2}
+w &= \frac{\left( \begin{matrix} 1 \\ \hat{\beta}_1 \end{matrix} \right)^\mathrm{T} \left( \begin{matrix} x_o \\ y_o - \hat{\beta}_0 \end{matrix} \right)}{\left( \begin{matrix} 1 \\ \hat{\beta}_1 \end{matrix} \right)^\mathrm{T} \left( \begin{matrix} 1 \\ \hat{\beta}_1 \end{matrix} \right)} \\
+w &= \frac{x_0 + (y_o - \hat{\beta}_0) \hat{\beta}_1}{1 + \hat{\beta}_1^2}
 \end{split}
 $$
 
@@ -100,4 +100,4 @@ $$ \label{eq:P-qed}
 \left( \begin{matrix} x_p \\ y_p \end{matrix} \right) = \left( \begin{matrix} 0 \\ \hat{\beta}_0 \end{matrix} \right) + w \cdot \left( \begin{matrix} 1 \\ \hat{\beta}_1 \end{matrix} \right) = \left( \begin{matrix} w \\ \hat{\beta}_0 + \hat{\beta}_1 w \end{matrix} \right) \; .
 $$
 
-Together, \eqref{eq:P-qed} and \eqref{eq:w-qed} constitute the proof of \eqref{eq:slr-proj}.
+Together, \eqref{eq:P-qed} and \eqref{eq:w-qed} constitute the proof of equation \eqref{eq:slr-proj}.
