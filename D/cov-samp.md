@@ -36,7 +36,7 @@ $$
 and the unbiased sample covariance of $x$ and $y$ is given by
 
 $$ \label{eq:cov-samp-unb}
-s^2_{xy} = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x}) (y_i - \bar{y})
+s_{xy} = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x}) (y_i - \bar{y})
 $$
 
 where $\bar{x}$ and $\bar{y}$ are the [sample means](/D/mean-samp).

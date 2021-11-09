@@ -70,7 +70,7 @@ $$
 The [covariance across rows for the transformed general linear model](/P/tglm-dist) is equal to
 
 $$ \label{eq:U}
-U = ( X_t^\mathrm{T} V^{-1} X_t )^{-1}
+U = ( X_t^\mathrm{T} V^{-1} X_t )^{-1} \; .
 $$
 
 Applying \eqref{eq:U}, \eqref{eq:X-Xt-T} and \eqref{eq:glm2-wls}, the estimates in \eqref{eq:tglm-wls} can be developed into

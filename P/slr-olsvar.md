@@ -92,7 +92,7 @@ $$ \label{eq:slr-ols-sl}
 \end{split}
 $$
 
-and with \eqref{eq:Var-yi} and \eqref{eq:sum-ci2} as well as [invariance](/P/var-inv), [scaling](/P/var-scal) and [additivity](/P/var-add) of the variance, the variance of $\hat{\beta}_1$ becomes:
+and with \eqref{eq:Var-yi} and \eqref{eq:sum-ci2} as well as [invariance](/P/var-inv), [scaling](/P/var-scal) and [additivity](/P/var-add) of the variance, the variance of $\hat{\beta}_1$ is:
 
 $$ \label{eq:Var-b1}
 \begin{split}
