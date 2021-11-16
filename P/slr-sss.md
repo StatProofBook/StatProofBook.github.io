@@ -92,12 +92,12 @@ $$ \label{eq:RSS-qed}
 \begin{split}
 \mathrm{RSS} &= \sum_{i=1}^n (y_i - \hat{y}_i)^2 \\
 &= \sum_{i=1}^n (y_i - \hat{\beta}_0 - \hat{\beta}_1 x_i)^2 \\
-&= \sum_{i=1}^n (y_i - \bar{y} + \hat{\beta}_1 \bar{x} - \hat{\beta}_1 x_i)^2 \\
+&\overset{\eqref{eq:slr-ols}}{=} \sum_{i=1}^n (y_i - \bar{y} + \hat{\beta}_1 \bar{x} - \hat{\beta}_1 x_i)^2 \\
 &= \sum_{i=1}^n \left( (y_i - \bar{y}) - \hat{\beta}_1 (x_i - \bar{x}) \right)^2 \\
 &= \sum_{i=1}^n \left( (y_i - \bar{y})^2 - 2 \hat{\beta}_1 (x_i - \bar{x}) (y_i - \bar{y}) + \hat{\beta}_1^2 (x_i - \bar{x})^2 \right) \\
 &= \sum_{i=1}^n (y_i - \bar{y})^2 - 2 \hat{\beta}_1 \sum_{i=1}^n (x_i - \bar{x}) (y_i - \bar{y}) + \hat{\beta}_1^2 \sum_{i=1}^n (x_i - \bar{x})^2 \\
 &= (n-1) \, s_y^2 - 2 (n-1) \, \hat{\beta}_1 \, s_{xy} + (n-1) \, \hat{\beta}_1^2 \, s_x^2 \\
-&= (n-1) \, s_y^2 - 2 (n-1) \left( \frac{s_{xy}}{s_x^2} \right) s_{xy} + (n-1) \left( \frac{s_{xy}}{s_x^2} \right)^2 s_x^2 \\
+&\overset{\eqref{eq:slr-ols}}{=} (n-1) \, s_y^2 - 2 (n-1) \left( \frac{s_{xy}}{s_x^2} \right) s_{xy} + (n-1) \left( \frac{s_{xy}}{s_x^2} \right)^2 s_x^2 \\
 &= (n-1) \, s_y^2 - (n-1) \, \frac{s_{xy}^2}{s_x^2} \\
 &= (n-1) \left( s_y^2 - \frac{s_{xy}^2}{s_x^2} \right) \; .
 \end{split}

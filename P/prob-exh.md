@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $B_1, \ldots, B_n$ be mutually exclusive and collectively exhaustive subsets of a [sample space](/D/samp-spc) \Omega. Then, their [total probability](/P/prob-tot) is one:
+**Theorem:** Let $B_1, \ldots, B_n$ be mutually exclusive and collectively exhaustive subsets of a [sample space](/D/samp-spc) $\Omega$. Then, their [total probability](/P/prob-tot) is one:
 
 $$ \label{eq:prob-exh}
 \sum_i P(B_i) = 1 \; .

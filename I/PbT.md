@@ -69,6 +69,7 @@ title: "Proof by Topic"
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
 - [Differential entropy of the normal-gamma distribution](/P/ng-dent)
+- [Distribution of parameter estimates for simple linear regression](/P/slr-olsdist)
 - [Distribution of the inverse general linear model](/P/iglm-dist)
 - [Distribution of the transformed general linear model](/P/tglm-dist)
 - [Distributional transformation using cumulative distribution function](/P/cdf-dt)
@@ -271,6 +272,7 @@ title: "Proof by Topic"
 - [Probability under mutual exclusivity](/P/prob-exc)
 - [Probability under statistical independence](/P/prob-ind)
 - [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem)
+- [Projection of a data point to the regression line](/P/slr-proj)
 - [Proof Template](/P/-temp-)
 
 ### Q
@@ -317,6 +319,8 @@ title: "Proof by Topic"
 - [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)
+- [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
+- [Sums of squares for simple linear regression](/P/slr-sss)
 
 ### T
 
@@ -324,6 +328,7 @@ title: "Proof by Topic"
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
 - [The sum of residuals is zero in simple linear regression](/P/slr-ressum)
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
+- [Transformation matrices for simple linear regression](/P/slr-mat)
 - [Transitivity of Bayes Factors](/P/bf-trans)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
 - [Two-sample t-test for independent observations](/P/ug-ttest2)

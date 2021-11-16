@@ -286,3 +286,8 @@ title: "Proof by Number"
 | P278 | slr-resvar | [Relationship between residual variance and sample variance in simple linear regression](/P/slr-resvar) | JoramSoch | 2021-10-27 |
 | P279 | slr-corr | [Relationship between correlation coefficient and slope estimate in simple linear regression](/P/slr-corr) | JoramSoch | 2021-10-27 |
 | P280 | slr-rsq | [Relationship between coefficient of determination and correlation coefficient in simple linear regression](/P/slr-rsq) | JoramSoch | 2021-10-27 |
+| P281 | slr-mlr | [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr) | JoramSoch | 2021-11-09 |
+| P282 | slr-olsdist | [Distribution of parameter estimates for simple linear regression](/P/slr-olsdist) | JoramSoch | 2021-11-09 |
+| P283 | slr-proj | [Projection of a data point to the regression line](/P/slr-proj) | JoramSoch | 2021-11-09 |
+| P284 | slr-sss | [Sums of squares for simple linear regression](/P/slr-sss) | JoramSoch | 2021-11-09 |
+| P285 | slr-mat | [Transformation matrices for simple linear regression](/P/slr-mat) | JoramSoch | 2021-11-09 |

@@ -68,7 +68,7 @@ E &= (X^\mathrm{T} X)^{-1} X^\mathrm{T} \\
 &= \left( \left[ \begin{matrix} n & n\bar{x} \\ n\bar{x} & x^\mathrm{T} x \end{matrix} \right] \right)^{-1} \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \\
 &= \frac{1}{n x^\mathrm{T} x - (n\bar{x})^2} \left[ \begin{matrix} x^\mathrm{T} x & -n\bar{x} \\ -n\bar{x} & n \end{matrix} \right] \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \\
 &= \frac{1}{x^\mathrm{T} x - n\bar{x}^2} \left[ \begin{matrix} x^\mathrm{T} x/n & -\bar{x} \\ -\bar{x} & 1 \end{matrix} \right] \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \\
-&= \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} (x^\mathrm{T} x/n) \, 1_n^\mathrm{T} - \bar{x} \, x^\mathrm{T} \\ - \bar{x} \, 1_n^\mathrm{T} + x^\mathrm{T} \end{matrix} \right] \; .
+&\overset{\eqref{eq:b-est-cov-den}}{=} \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} (x^\mathrm{T} x/n) \, 1_n^\mathrm{T} - \bar{x} \, x^\mathrm{T} \\ - \bar{x} \, 1_n^\mathrm{T} + x^\mathrm{T} \end{matrix} \right] \; .
 \end{split}
 $$
 
@@ -83,7 +83,7 @@ which is an $n \times n$ matrix and can be reformulated as follows:
 
 $$ \label{eq:P-qed}
 \begin{split}
-P &= X \, E = \left[ \begin{matrix} 1_n & x \end{matrix} \right] \left[ \begin{matrix} e_1 \\ e_2 \end{matrix} \right] \\
+P &= X \, E = \left[ 1_n, \, x \right] \left[ \begin{matrix} e_1 \\ e_2 \end{matrix} \right] \\
 &= \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} 1 & x_1 \\ \vdots & \vdots \\ 1 & x_n \end{matrix} \right] \left[ \begin{matrix} (x^\mathrm{T} x/n) - \bar{x} x_1 & \cdots & (x^\mathrm{T} x/n) - \bar{x} x_n \\ -\bar{x} + x_1 & \cdots & -\bar{x} + x_n \end{matrix} \right] \\
 &= \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} (x^\mathrm{T} x/n) - 2 \bar{x} x_1 + x_1^2 & \cdots & (x^\mathrm{T} x/n) - \bar{x} (x_1 + x_n) + x_1 x_n \\ \vdots & \ddots & \vdots \\ (x^\mathrm{T} x/n) - \bar{x} (x_1 + x_n) + x_1 x_n & \cdots & (x^\mathrm{T} x/n) - 2 \bar{x} x_n + x_n^2 \end{matrix} \right] \; .
 \end{split}
@@ -101,7 +101,7 @@ which also is an $n \times n$ matrix and can be reformulated as follows:
 $$ \label{eq:R-qed}
 \begin{split}
 R &= I_n - P = \left[ \begin{matrix} 1 & \cdots & 0 \\ \vdots & \ddots & \vdots \\ 0 & \cdots & 1 \end{matrix} \right] - \left[ \begin{matrix} p_{11} & \cdots & p_{1n} \\ \vdots & \ddots & \vdots \\ p_{n1} & \cdots & p_{nn} \end{matrix} \right] \\
-&= \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} x^\mathrm{T} x - n\bar{x}^2 & \cdots & 0 \\ \vdots & \ddots & \vdots \\ 0 & \cdots & x^\mathrm{T} x - n\bar{x}^2 \end{matrix} \right] \\
+&\overset{\eqref{eq:b-est-cov-den}}{=} \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} x^\mathrm{T} x - n\bar{x}^2 & \cdots & 0 \\ \vdots & \ddots & \vdots \\ 0 & \cdots & x^\mathrm{T} x - n\bar{x}^2 \end{matrix} \right] \\
 &- \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} (x^\mathrm{T} x/n) - 2 \bar{x} x_1 + x_1^2 & \cdots & (x^\mathrm{T} x/n) - \bar{x} (x_1 + x_n) + x_1 x_n \\ \vdots & \ddots & \vdots \\ (x^\mathrm{T} x/n) - \bar{x} (x_1 + x_n) + x_1 x_n & \cdots & (x^\mathrm{T} x/n) - 2 \bar{x} x_n + x_n^2 \end{matrix} \right] \\
 &= \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} (n-1) (x^\mathrm{T} x/n) + \bar{x} (2 x_1 - n\bar{x}) - x_1^2 & \cdots & -(x^\mathrm{T} x/n) + \bar{x} (x_1 + x_n) - x_1 x_n \\ \vdots & \ddots & \vdots \\ -(x^\mathrm{T} x/n) + \bar{x} (x_1 + x_n) - x_1 x_n & \cdots &  (n-1) (x^\mathrm{T} x/n) + \bar{x} (2 x_n - n\bar{x}) - x_n^2 \end{matrix} \right] \; .
 \end{split}
