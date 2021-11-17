@@ -291,3 +291,8 @@ title: "Proof by Number"
 | P283 | slr-proj | [Projection of a data point to the regression line](/P/slr-proj) | JoramSoch | 2021-11-09 |
 | P284 | slr-sss | [Sums of squares for simple linear regression](/P/slr-sss) | JoramSoch | 2021-11-09 |
 | P285 | slr-mat | [Transformation matrices for simple linear regression](/P/slr-mat) | JoramSoch | 2021-11-09 |
+| P286 | slr-wls | [Weighted least squares for simple linear regression](/P/slr-wls) | JoramSoch | 2021-11-16 |
+| P287 | slr-mle | [Maximum likelihood estimation for simple linear regression](/P/slr-mle) | JoramSoch | 2021-11-16 |
+| P288 | slr-ols2 | [Ordinary least squares for simple linear regression](/P/slr-ols2) | JoramSoch | 2021-11-16 |
+| P289 | slr-wls2 | [Weighted least squares for simple linear regression](/P/slr-wls2) | JoramSoch | 2021-11-16 |
+| P290 | slr-mle2 | [Maximum likelihood estimation for simple linear regression](/P/slr-mle2) | JoramSoch | 2021-11-16 |
