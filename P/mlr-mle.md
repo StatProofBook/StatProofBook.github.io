@@ -32,7 +32,7 @@ the [maximum likelihood estimates](/D/mle) of $\beta$ and $\sigma^2$ are given  
 $$ \label{eq:MLE-MLE}
 \begin{split}
 \hat{\beta} &= (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} y \\
-\hat{\sigma}^2 &= \frac{1}{n} (y-X\hat{\beta})^\mathrm{T} (y-X\hat{\beta}) \; .
+\hat{\sigma}^2 &= \frac{1}{n} (y-X\hat{\beta})^\mathrm{T} V^{-1} (y-X\hat{\beta}) \; .
 \end{split}
 $$
 

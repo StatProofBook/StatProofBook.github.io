@@ -20,6 +20,12 @@ sources:
     in: "Methods and models for fMRI data analysis in neuroeconomics"
     pages: "Lecture 3, Slides 20/23"
     url: "http://www.socialbehavior.uzh.ch/teaching/methodsspring10.html"
+  - authors: "Wikipedia"
+    year: 2021
+    title: "Weighted least squares"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2021-11-17"
+    url: "https://en.wikipedia.org/wiki/Weighted_least_squares#Motivation"
 
 proof_id: "P77"
 shortcut: "mlr-wls"
