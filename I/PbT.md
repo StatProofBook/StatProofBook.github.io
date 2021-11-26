@@ -125,7 +125,10 @@ title: "Proof by Topic"
 ### L
 
 - [Law of the unconscious statistician](/P/mean-lotus)
+- [Law of total covariance](/P/cov-tot)
+- [Law of total expectation](/P/mean-tot)
 - [Law of total probability](/P/prob-tot)
+- [Law of total variance](/P/var-tot)
 - [Linear combination of independent normal random variables](/P/norm-lincomb)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Linear transformation theorem for the moment-generating function](/P/mgf-ltt)

@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (280 proofs)
+### JoramSoch (283 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -94,7 +94,10 @@ title: "Proof by Author"
 - [Kullback-Leibler divergence for the normal distribution](/P/norm-kl)
 - [Kullback-Leibler divergence for the normal-gamma distribution](/P/ng-kl)
 - [Law of the unconscious statistician](/P/mean-lotus)
+- [Law of total covariance](/P/cov-tot)
+- [Law of total expectation](/P/mean-tot)
 - [Law of total probability](/P/prob-tot)
+- [Law of total variance](/P/var-tot)
 - [Linear combination of independent normal random variables](/P/norm-lincomb)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Linear transformation theorem for the moment-generating function](/P/mgf-ltt)

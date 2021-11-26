@@ -64,6 +64,7 @@ title: "Definition by Topic"
 - [Empirical Bayesian log model evidence](/D/eblme)
 - [Encompassing model](/D/encm)
 - [Estimation matrix](/D/emat)
+- [Event space](/D/eve-spc)
 - [Exceedance probability](/D/prob-exc)
 - [Expected value](/D/mean)
 - [Expected value of a random matrix](/D/mean-rmat)
@@ -166,6 +167,7 @@ title: "Definition by Topic"
 - [Probability density function](/D/pdf)
 - [Probability distribution](/D/dist)
 - [Probability mass function](/D/pmf)
+- [Probability space](/D/prob-spc)
 - [Probability-generating function](/D/pgf)
 - [Projection matrix](/D/pmat)
 
@@ -192,6 +194,7 @@ title: "Definition by Topic"
 - [Sample covariance](/D/cov-samp)
 - [Sample covariance matrix](/D/covmat-samp)
 - [Sample mean](/D/mean-samp)
+- [Sample space](/D/samp-spc)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
 - [Shannon entropy](/D/ent)

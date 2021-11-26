@@ -171,3 +171,6 @@ title: "Definition by Number"
 | D162 | cfm | [Corresponding forward model](/D/cfm) | JoramSoch | 2021-10-21 |
 | D163 | slr | [Simple linear regression](/D/slr) | JoramSoch | 2021-10-27 |
 | D164 | regline | [Regression line](/D/regline) | JoramSoch | 2021-10-27 |
+| D165 | samp-spc | [Sample space](/D/samp-spc) | JoramSoch | 2021-11-26 |
+| D166 | eve-spc | [Event space](/D/eve-spc) | JoramSoch | 2021-11-26 |
+| D167 | prob-spc | [Probability space](/D/prob-spc) | JoramSoch | 2021-11-26 |
