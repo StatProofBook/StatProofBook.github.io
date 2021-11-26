@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (275 proofs)
+### JoramSoch (280 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -120,6 +120,8 @@ title: "Proof by Author"
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
+- [Maximum likelihood estimation for simple linear regression](/P/slr-mle)
+- [Maximum likelihood estimation for simple linear regression](/P/slr-mle2)
 - [Maximum likelihood estimation for the Poisson distribution with exposure values](/P/poissexp-mle)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
 - [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle)
@@ -164,6 +166,7 @@ title: "Proof by Author"
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
 - [Ordinary least squares for simple linear regression](/P/slr-ols)
+- [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 - [Paired t-test for dependent observations](/P/ug-ttestp)
 - [Paired z-test for dependent observations](/P/ugkv-ztestp)
@@ -280,6 +283,8 @@ title: "Proof by Author"
 - [Variance of the sum of two random variables](/P/var-sum)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls2)
+- [Weighted least squares for simple linear regression](/P/slr-wls)
+- [Weighted least squares for simple linear regression](/P/slr-wls2)
 - [Weighted least squares for the general linear model](/P/glm-wls)
 
 ### StatProofBook (1 proof)

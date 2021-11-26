@@ -24,7 +24,7 @@ username: "JoramSoch"
 **Theorem:** Given a [simple linear regression model](/D/slr) with independent observations
 
 $$ \label{eq:slr}
-y = \beta_0 + \beta_1 x + \varepsilon, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n \; ,
+y_i = \beta_0 + \beta_1 x_i + \varepsilon_i, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n \; ,
 $$
 
 the parameters minimizing the [residual sum of squares](/D/rss) are given by

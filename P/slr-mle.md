@@ -24,7 +24,7 @@ username: "JoramSoch"
 **Theorem:** Given a [simple linear regression model](/D/mlr) with independent observations
 
 $$ \label{eq:slr}
-y = \beta_0 + \beta_1 x + \varepsilon, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n \; ,
+y_i = \beta_0 + \beta_1 x_i + \varepsilon_i, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n \; ,
 $$
 
 the [maximum likelihood estimates](/D/mle) of $\beta_0$, $\beta_1$ and $\sigma^2$ are given by
@@ -90,7 +90,7 @@ and setting this derivative to zero gives the MLE for $\beta_1$:
 
 $$ \label{eq:beta1-mle}
 \begin{split}
-\frac{\mathrm{d}\mathrm{LL}(\hat{\beta}_0,\hat{\beta}_1,\hat{\sigma}^2)}{\mathrm{d}\beta_0} &= 0 \\
+\frac{\mathrm{d}\mathrm{LL}(\hat{\beta}_0,\hat{\beta}_1,\hat{\sigma}^2)}{\mathrm{d}\beta_1} &= 0 \\
 0 &= \frac{1}{\hat{\sigma}^2} \sum_{i=1}^n (x_i y_i - \hat{\beta}_0 x_i - \hat{\beta}_1 x_i^2) \\
 0 &= \sum_{i=1}^n x_i y_i - \hat{\beta}_0 \sum_{i=1}^n x_i - \hat{\beta}_1 \sum_{i=1}^n x_i^2) \\
 0 &\overset{\eqref{eq:beta0-mle}}{=} \sum_{i=1}^n x_i y_i - (\bar{y} - \hat{\beta}_1 \bar{x}) \sum_{i=1}^n x_i - \hat{\beta}_1 \sum_{i=1}^n x_i^2 \\

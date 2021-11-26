@@ -154,6 +154,8 @@ title: "Proof by Topic"
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
+- [Maximum likelihood estimation for simple linear regression](/P/slr-mle)
+- [Maximum likelihood estimation for simple linear regression](/P/slr-mle2)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
 - [Maximum likelihood estimation for the Poisson distribution with exposure values](/P/poissexp-mle)
 - [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle)
@@ -208,6 +210,7 @@ title: "Proof by Topic"
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
 - [Ordinary least squares for simple linear regression](/P/slr-ols)
+- [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 
 ### P
@@ -350,4 +353,6 @@ title: "Proof by Topic"
 
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls2)
+- [Weighted least squares for simple linear regression](/P/slr-wls)
+- [Weighted least squares for simple linear regression](/P/slr-wls2)
 - [Weighted least squares for the general linear model](/P/glm-wls)

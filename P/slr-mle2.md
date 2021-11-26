@@ -24,7 +24,7 @@ username: "JoramSoch"
 **Theorem:** Given a [simple linear regression model](/D/mlr) with independent observations
 
 $$ \label{eq:slr}
-y = \beta_0 + \beta_1 x + \varepsilon, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n \; ,
+y_i = \beta_0 + \beta_1 x_i + \varepsilon_i, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n \; ,
 $$
 
 the [maximum likelihood estimates](/D/mle) of $\beta_0$, $\beta_1$ and $\sigma^2$ are given by
@@ -70,7 +70,7 @@ $$ \label{eq:slr-mle-b}
 \end{split}
 $$
 
-which [is equal to the ordinary least squares solution for simple linear regression](/P/slr-ols):
+which [is equal to the ordinary least squares solution for simple linear regression](/P/slr-ols2):
 
 $$ \label{eq:slr-mle-b-qed}
 \begin{split}
