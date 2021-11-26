@@ -11,7 +11,7 @@ title: "Law of total variance"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Variance"
-theorem: "Law of total expectation"
+theorem: "Law of total variance"
 
 sources:
   - authors: "Wikipedia"
@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ and $Y$ be [random variables](/D/rvar) defined on the same [probability space](/D/prob-spc) and assume that the [variance](/D/var) of $Y$ is finite. Then, the sum of the [expectation](/D/mean) of the conditional variance and the [variance](/D/var) of the conditional expectation of $Y$ given $X$ is equal to the [variance](/D/var) of $Y$:
+**Theorem:** (law of total variance, also called "conditional variance formula") Let $X$ and $Y$ be [random variables](/D/rvar) defined on the same [probability space](/D/prob-spc) and assume that the [variance](/D/var) of $Y$ is finite. Then, the sum of the [expectation](/D/mean) of the conditional variance and the [variance](/D/var) of the conditional expectation of $Y$ given $X$ is equal to the [variance](/D/var) of $Y$:
 
 $$ \label{eq:var-tot}
 \mathrm{Var}(Y) = \mathrm{E}[\mathrm{Var}(Y \vert X)] + \mathrm{Var}[\mathrm{E}(Y \vert X)] \; .

@@ -33,7 +33,7 @@ where $1_n$ is an $n \times 1$ vector of ones, $x$ is the $n \times 1$ single pr
 **Proof:** Without loss of generality, consider the [simple linear regression case with uncorrelated errors](/D/slr):
 
 $$ \label{eq:slr}
-y_i = \beta_0 + \beta_1 x_i + \varepsilon_i, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2) \; .
+y_i = \beta_0 + \beta_1 x_i + \varepsilon_i, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n \; .
 $$
 
 In matrix notation and using the [multivariate normal distribution](/D/mvn), this can also be written as

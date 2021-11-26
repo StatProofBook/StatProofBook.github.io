@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a [random variable](/D/rvar) with [expected value](/D/mean) $\mathrm{E}(X)$ and let $Y$ be any [random variable](/D/var) defined on the same [probability space](/D/prob-spc). Then, the [expected value](/D/mean) of the [conditional expectation](/D/mean-cond) of $X$ given $Y$ is the same as the [expected value](/D/mean) of $X$:
+**Theorem:** (law of total expectation, also called "law of iterated expectations") Let $X$ be a [random variable](/D/rvar) with [expected value](/D/mean) $\mathrm{E}(X)$ and let $Y$ be any [random variable](/D/var) defined on the same [probability space](/D/prob-spc). Then, the [expected value](/D/mean) of the [conditional expectation](/D/mean-cond) of $X$ given $Y$ is the same as the [expected value](/D/mean) of $X$:
 
 $$ \label{eq:mean-tot}
 \mathrm{E}(X) = \mathrm{E}[\mathrm{E}(X \vert Y)] \; .
