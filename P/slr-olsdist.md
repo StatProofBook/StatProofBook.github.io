@@ -45,7 +45,7 @@ where $\bar{x}$ is the [sample mean](/D/mean-samp) and $s_x^2$ is the [sample va
 **Proof:** [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr) with
 
 $$ \label{eq:slr-mlr}
-X = \left[ 1_n, \, x \right] \quad \text{and} \quad \beta = \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right] \; ,
+X = \left[ \begin{matrix} 1_n & x \end{matrix} \right] \quad \text{and} \quad \beta = \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right] \; ,
 $$
 
 such that \eqref{eq:slr} can also be written as
@@ -79,7 +79,7 @@ Applying \eqref{eq:slr-mlr}, the [covariance matrix](/D/mvn) can be further deve
 
 $$ \label{eq:b-est-cov}
 \begin{split}
-\sigma^2 (X^\mathrm{T} X)^{-1} &= \sigma^2 \left( \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \left[ 1_n, \, x \right] \right)^{-1} \\
+\sigma^2 (X^\mathrm{T} X)^{-1} &= \sigma^2 \left( \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \left[ \begin{matrix} 1_n & x \end{matrix} \right] \right)^{-1} \\
 &= \sigma^2 \left( \left[ \begin{matrix} n & n\bar{x} \\ n\bar{x} & x^\mathrm{T} x \end{matrix} \right] \right)^{-1} \\
 &= \frac{\sigma^2}{n x^\mathrm{T} x - (n\bar{x})^2} \left[ \begin{matrix} x^\mathrm{T} x & -n\bar{x} \\ -n\bar{x} & n \end{matrix} \right] \\
 &= \frac{\sigma^2}{x^\mathrm{T} x - n\bar{x}^2} \left[ \begin{matrix} x^\mathrm{T} x/n & -\bar{x} \\ -\bar{x} & 1 \end{matrix} \right] \; .

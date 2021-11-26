@@ -42,7 +42,7 @@ where $1_n$ is an $n \times 1$ vector of ones.
 **Proof:** [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr) with
 
 $$ \label{eq:slr-mlr}
-X = \left[ 1_n, \, x \right] \quad \text{and} \quad \beta = \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right]
+X = \left[ \begin{matrix} 1_n & x \end{matrix} \right] \quad \text{and} \quad \beta = \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right]
 $$
 
 and [weighted least sqaures estimates](/P/mlr-wls) are given by
