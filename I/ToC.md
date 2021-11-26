@@ -16,15 +16,20 @@ title: "Table of Contents"
 
 1. Probability theory
    
-   1.1. Random variables <br>
+   1.1. Random experiments <br>
    &emsp;&ensp; 1.1.1. *[Random experiment](/D/rexp)* <br>
-   &emsp;&ensp; 1.1.2. *[Random event](/D/reve)* <br>
-   &emsp;&ensp; 1.1.3. *[Random variable](/D/rvar)* <br>
-   &emsp;&ensp; 1.1.4. *[Random vector](/D/rvec)* <br>
-   &emsp;&ensp; 1.1.5. *[Random matrix](/D/rmat)* <br>
-   &emsp;&ensp; 1.1.6. *[Constant](/D/const)* <br>
-   &emsp;&ensp; 1.1.7. *[Discrete vs. continuous](/D/rvar-disc)* <br>
-   &emsp;&ensp; 1.1.8. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
+   &emsp;&ensp; 1.1.2. *[Sample space](/D/samp-spc)* <br>
+   &emsp;&ensp; 1.1.3. *[Event space](/D/eve-spc)* <br>
+   &emsp;&ensp; 1.1.4. *[Probability space](/D/prob-spc)* <br>
+   
+   1.1. Random variables <br>
+   &emsp;&ensp; 1.1.1. *[Random event](/D/reve)* <br>
+   &emsp;&ensp; 1.1.2. *[Random variable](/D/rvar)* <br>
+   &emsp;&ensp; 1.1.3. *[Random vector](/D/rvec)* <br>
+   &emsp;&ensp; 1.1.4. *[Random matrix](/D/rmat)* <br>
+   &emsp;&ensp; 1.1.5. *[Constant](/D/const)* <br>
+   &emsp;&ensp; 1.1.6. *[Discrete vs. continuous](/D/rvar-disc)* <br>
+   &emsp;&ensp; 1.1.7. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
    
    1.2. Probability <br>
    &emsp;&ensp; 1.2.1. *[Probability](/D/prob)* <br>
@@ -98,9 +103,10 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.6. **[Monotonicity](/P/mean-mono)** <br>
    &emsp;&ensp; 1.6.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
    &emsp;&ensp; 1.6.8. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.6.9. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
-   &emsp;&ensp; 1.6.10. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.6.11. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.6.9. **[Law of total expectation](/P/mean-tot)** <br>
+   &emsp;&ensp; 1.6.10. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.6.11. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.6.12. *[Expected value of a random matrix](/D/mean-rmat)* <br>
    
    1.7. Variance <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/var)* <br>
@@ -113,7 +119,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.7.8. **[Variance of a sum](/P/var-sum)** <br>
    &emsp;&ensp; 1.7.9. **[Variance of linear combination](/P/var-lincomb)** <br>
    &emsp;&ensp; 1.7.10. **[Additivity under independence](/P/var-add)** <br>
-   &emsp;&ensp; 1.7.11. *[Precision](/D/prec)* <br>
+   &emsp;&ensp; 1.7.11. **[Law of total variance](/P/var-tot)** <br>
+   &emsp;&ensp; 1.7.12. *[Precision](/D/prec)* <br>
    
    1.8. Covariance <br>
    &emsp;&ensp; 1.8.1. *[Definition](/D/cov)* <br>
@@ -121,12 +128,13 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.3. **[Partition into expected values](/P/cov-mean)** <br>
    &emsp;&ensp; 1.8.4. **[Covariance under independence](/P/cov-ind)** <br>
    &emsp;&ensp; 1.8.5. **[Relationship to correlation](/P/cov-corr)** <br>
-   &emsp;&ensp; 1.8.6. *[Covariance matrix](/D/covmat)* <br>
-   &emsp;&ensp; 1.8.7. *[Sample covariance matrix](/D/covmat-samp)* <br>
-   &emsp;&ensp; 1.8.8. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.8.9. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.8.10. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.8.11. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   &emsp;&ensp; 1.8.6. **[Law of total covariance](/P/cov-tot)** <br>
+   &emsp;&ensp; 1.8.7. *[Covariance matrix](/D/covmat)* <br>
+   &emsp;&ensp; 1.8.8. *[Sample covariance matrix](/D/covmat-samp)* <br>
+   &emsp;&ensp; 1.8.9. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.8.10. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.8.11. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.8.12. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
    1.9. Correlation <br>
    &emsp;&ensp; 1.9.1. *[Definition](/D/corr)* <br>
