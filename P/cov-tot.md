@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$, $Y$ and $Z$ be [random variables](/D/rvar) defined on the same [probability space](/D/prob-spc) and assume that the [covariance](/D/cov) of $X$ and $Y$ is finite. Then, the sum of the [expectation](/D/mean) of the conditional covariance and the [covariance](/D/cov) of the conditional expectations of $X$ and $Y$ given $Z$ is equal to the [covariance](/D/cov) of $X$ and $Y$:
+**Theorem:** (law of total covariance, also called "conditional covariance formula") Let $X$, $Y$ and $Z$ be [random variables](/D/rvar) defined on the same [probability space](/D/prob-spc) and assume that the [covariance](/D/cov) of $X$ and $Y$ is finite. Then, the sum of the [expectation](/D/mean) of the conditional covariance and the [covariance](/D/cov) of the conditional expectations of $X$ and $Y$ given $Z$ is equal to the [covariance](/D/cov) of $X$ and $Y$:
 
 $$ \label{eq:cov-tot}
 \mathrm{Cov}(X,Y) = \mathrm{E}[\mathrm{Cov}(X,Y \vert Z)] + \mathrm{Cov}[\mathrm{E}(X \vert Z),\mathrm{E}(Y \vert Z)] \; .

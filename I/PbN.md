@@ -296,3 +296,6 @@ title: "Proof by Number"
 | P288 | slr-ols2 | [Ordinary least squares for simple linear regression](/P/slr-ols2) | JoramSoch | 2021-11-16 |
 | P289 | slr-wls2 | [Weighted least squares for simple linear regression](/P/slr-wls2) | JoramSoch | 2021-11-16 |
 | P290 | slr-mle2 | [Maximum likelihood estimation for simple linear regression](/P/slr-mle2) | JoramSoch | 2021-11-16 |
+| P291 | mean-tot | [Law of total expectation](/P/mean-tot) | JoramSoch | 2021-11-26 |
+| P292 | var-tot | [Law of total variance](/P/var-tot) | JoramSoch | 2021-11-26 |
+| P293 | cov-tot | [Law of total covariance](/P/cov-tot) | JoramSoch | 2021-11-26 |

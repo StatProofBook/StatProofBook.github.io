@@ -31,6 +31,6 @@ username: "JoramSoch"
 
 * informally, as a real number $X \in \mathbb{R}$ whose value is the outcome of a [random experiment](/D/rexp);
 
-* formally, as a [measurable function](/D/meas-fct) $X$ defined on a [probability space](/D/prob-spc) $(\Omega, \mathcal{F}, P)$ that maps from a sample space $\Omega$ to the real numbers $\mathbb{R}$ using an event space $\mathcal{F}$ and a [probability function](/D/dist) $P$;
+* formally, as a [measurable function](/D/meas-fct) $X$ defined on a [probability space](/D/prob-spc) $(\Omega, \mathcal{E}, P)$ that maps from a [sample space](/D/samp-spc) $\Omega$ to the real numbers $\mathbb{R}$ using an [event space](/D/eve-spc) $\mathcal{E}$ and a [probability function](/D/dist) $P$;
 
 * more broadly, as any random quantity $X$ such as a [random event](/D/reve), a [random scalar](/D/rvar), a [random vector](/D/rvec) or a [random matrix](/D/rmat).

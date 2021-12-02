@@ -37,7 +37,7 @@ where $1_n$ is an $n \times 1$ vector of ones, $x$ is the $n \times 1$ single pr
 **Proof:** [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr) with
 
 $$ \label{eq:slr-mlr}
-X = \left[ 1_n, \, x \right] \quad \text{and} \quad \beta = \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right] \; ,
+X = \left[ \begin{matrix} 1_n & x \end{matrix} \right] \quad \text{and} \quad \beta = \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right] \; ,
 $$
 
 such that the simple linear regression model can also be written as
@@ -64,7 +64,7 @@ which is a $2 \times n$ matrix and can be reformulated as follows:
 $$ \label{eq:E-qed}
 \begin{split}
 E &= (X^\mathrm{T} X)^{-1} X^\mathrm{T} \\
-&= \left( \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \left[ 1_n, \, x \right] \right)^{-1} \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \\
+&= \left( \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \left[ \begin{matrix} 1_n & x \end{matrix} \right] \right)^{-1} \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \\
 &= \left( \left[ \begin{matrix} n & n\bar{x} \\ n\bar{x} & x^\mathrm{T} x \end{matrix} \right] \right)^{-1} \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \\
 &= \frac{1}{n x^\mathrm{T} x - (n\bar{x})^2} \left[ \begin{matrix} x^\mathrm{T} x & -n\bar{x} \\ -n\bar{x} & n \end{matrix} \right] \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \\
 &= \frac{1}{x^\mathrm{T} x - n\bar{x}^2} \left[ \begin{matrix} x^\mathrm{T} x/n & -\bar{x} \\ -\bar{x} & 1 \end{matrix} \right] \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \\
@@ -83,7 +83,7 @@ which is an $n \times n$ matrix and can be reformulated as follows:
 
 $$ \label{eq:P-qed}
 \begin{split}
-P &= X \, E = \left[ 1_n, \, x \right] \left[ \begin{matrix} e_1 \\ e_2 \end{matrix} \right] \\
+P &= X \, E = \left[ \begin{matrix} 1_n & x \end{matrix} \right] \left[ \begin{matrix} e_1 \\ e_2 \end{matrix} \right] \\
 &= \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} 1 & x_1 \\ \vdots & \vdots \\ 1 & x_n \end{matrix} \right] \left[ \begin{matrix} (x^\mathrm{T} x/n) - \bar{x} x_1 & \cdots & (x^\mathrm{T} x/n) - \bar{x} x_n \\ -\bar{x} + x_1 & \cdots & -\bar{x} + x_n \end{matrix} \right] \\
 &= \frac{1}{(n-1)\,s_x^2} \left[ \begin{matrix} (x^\mathrm{T} x/n) - 2 \bar{x} x_1 + x_1^2 & \cdots & (x^\mathrm{T} x/n) - \bar{x} (x_1 + x_n) + x_1 x_n \\ \vdots & \ddots & \vdots \\ (x^\mathrm{T} x/n) - \bar{x} (x_1 + x_n) + x_1 x_n & \cdots & (x^\mathrm{T} x/n) - 2 \bar{x} x_n + x_n^2 \end{matrix} \right] \; .
 \end{split}

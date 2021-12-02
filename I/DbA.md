@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (159 definitions)
+### JoramSoch (162 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -48,6 +48,7 @@ title: "Definition by Author"
 - [Empirical Bayesian log model evidence](/D/eblme)
 - [Empirical and theoretical prior distribution](/D/prior-emp)
 - [Estimation matrix](/D/emat)
+- [Event space](/D/eve-spc)
 - [Exceedance probability](/D/prob-exc)
 - [Expected value](/D/mean)
 - [Expected value of a random matrix](/D/mean-rmat)
@@ -119,6 +120,7 @@ title: "Definition by Author"
 - [Probability density function](/D/pdf)
 - [Probability distribution](/D/dist)
 - [Probability mass function](/D/pmf)
+- [Probability space](/D/prob-spc)
 - [Probability-generating function](/D/pgf)
 - [Projection matrix](/D/pmat)
 - [Quantile function](/D/qf)
@@ -135,6 +137,7 @@ title: "Definition by Author"
 - [Residual-forming matrix](/D/rfmat)
 - [Sample covariance matrix](/D/covmat-samp)
 - [Sample mean](/D/mean-samp)
+- [Sample space](/D/samp-spc)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
 - [Shannon entropy](/D/ent)

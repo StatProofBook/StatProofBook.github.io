@@ -42,12 +42,12 @@ $$ \label{eq:mean-lin}
 \end{split}
 $$
 
-for [random variables](/D/rvar) $X$ and $Y$ and a constant $a$.
+for [random variables](/D/rvar) $X$ and $Y$ and a [constant](/D/const) $a$.
 
 
 **Proof:**
 
-1) If $X$ and $Y$ are discrete random variables, the [expected value](/D/mean) is
+1) If $X$ and $Y$ are [discrete random variables](/D/rvar-disc), the [expected value](/D/mean) is
 
 $$ \label{eq:mean-disc}
 \mathrm{E}(X) = \sum_{x \in \mathcal{X}} x \cdot f_X(x)
@@ -82,7 +82,7 @@ $$ \label{eq:mean-lin-s2-disc}
 $$
 
 <br>
-2) If $X$ and $Y$ are continuous random variables, the [expected value](/D/mean) is
+2) If $X$ and $Y$ are [continuous random variables](/D/rvar-disc), the [expected value](/D/mean) is
 
 $$ \label{eq:mean-cont}
 \mathrm{E}(X) = \int_{\mathcal{X}} x \cdot f_X(x) \, \mathrm{d}x
@@ -117,4 +117,4 @@ $$ \label{eq:mean-lin-s2-cont}
 $$
 
 <br>
-Collectively, this shows that both requirements for linearity are fulfilled for the expected value, for discrete as well as for continuous random variables.
+Collectively, this shows that both requirements for linearity are fulfilled for the [expected value](/D/mean), for [discrete](/D/rvar-disc) as well as for [continuous](/D/rvar-disc) random variables.
