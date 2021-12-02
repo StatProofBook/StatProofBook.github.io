@@ -439,7 +439,8 @@ title: "Table of Contents"
    4.4. Dirichlet distribution <br>
    &emsp;&ensp; 4.4.1. *[Definition](/D/dir)* <br>
    &emsp;&ensp; 4.4.2. **[Probability density function](/P/dir-pdf)** <br>
-   &emsp;&ensp; 4.4.3. **[Exceedance probabilities](/P/dir-ep)** <br>
+   &emsp;&ensp; 4.4.3. **[Kullback-Leibler divergence](/P/dir-kl)** <br>
+   &emsp;&ensp; 4.4.4. **[Exceedance probabilities](/P/dir-ep)** <br>
 
 5. Matrix-variate continuous distributions
 
@@ -447,11 +448,13 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.1. *[Definition](/D/matn)* <br>
    &emsp;&ensp; 5.1.2. **[Probability density function](/P/matn-pdf)** <br>
    &emsp;&ensp; 5.1.3. **[Equivalence to multivariate normal distribution](/P/matn-mvn)** <br>
-   &emsp;&ensp; 5.1.4. **[Transposition](/P/matn-trans)** <br>
-   &emsp;&ensp; 5.1.5. **[Linear transformation](/P/matn-ltt)** <br>
+   &emsp;&ensp; 5.1.4. **[Kullback-Leibler divergence](/P/matn-kl)** <br>
+   &emsp;&ensp; 5.1.5. **[Transposition](/P/matn-trans)** <br>
+   &emsp;&ensp; 5.1.6. **[Linear transformation](/P/matn-ltt)** <br>
    
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
+   &emsp;&ensp; 5.2.2. **[Kullback-Leibler divergence](/P/wish-kl)** <br>
 
 
 <br>
