@@ -32,7 +32,7 @@ username: "JoramSoch"
 $$ \label{eq:NGs}
 \begin{split}
 P: \; (x,y) &\sim \mathrm{NG}(\mu_1, \Lambda_1^{-1}, a_1, b_1) \\
-Q: \; (x,y) &\sim \mathrm{NG}(\mu_2, \Lambda_2^{-1}, a_2, b_2) \; . \\
+Q: \; (x,y) &\sim \mathrm{NG}(\mu_2, \Lambda_2^{-1}, a_2, b_2) \; .
 \end{split}
 $$
 

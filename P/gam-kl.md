@@ -31,7 +31,7 @@ username: "JoramSoch"
 $$ \label{eq:gams}
 \begin{split}
 P: \; X &\sim \mathrm{Gam}(a_1, b_1) \\
-Q: \; X &\sim \mathrm{Gam}(a_2, b_2) \; . \\
+Q: \; X &\sim \mathrm{Gam}(a_2, b_2) \; .
 \end{split}
 $$
 

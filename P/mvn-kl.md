@@ -31,7 +31,7 @@ username: "JoramSoch"
 $$ \label{eq:mvns}
 \begin{split}
 P: \; x &\sim \mathcal{N}(\mu_1, \Sigma_1) \\
-Q: \; x &\sim \mathcal{N}(\mu_2, \Sigma_2) \; . \\
+Q: \; x &\sim \mathcal{N}(\mu_2, \Sigma_2) \; .
 \end{split}
 $$
 

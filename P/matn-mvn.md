@@ -36,7 +36,7 @@ $$
 if and only if $\mathrm{vec}(X)$ is [multivariate normally distributed](/D/mvn)
 
 $$ \label{eq:mvn}
-\mathrm{vec}(X) \sim \mathcal{MN}(\mathrm{vec}(M), V \otimes U)
+\mathrm{vec}(X) \sim \mathcal{N}(\mathrm{vec}(M), V \otimes U)
 $$
 
 where $\mathrm{vec}(X)$ is the vectorization operator and $\otimes$ is the Kronecker product.
