@@ -117,10 +117,13 @@ title: "Proof by Topic"
 
 ### K
 
+- [Kullback-Leibler divergence for the Dirichlet distribution](/P/dir-kl)
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
+- [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl)
 - [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl)
 - [Kullback-Leibler divergence for the normal distribution](/P/norm-kl)
 - [Kullback-Leibler divergence for the normal-gamma distribution](/P/ng-kl)
+- [Kullback-Leibler divergence for the Wishart distribution](/P/wish-kl)
 
 ### L
 
