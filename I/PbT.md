@@ -87,6 +87,7 @@ title: "Proof by Topic"
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
+- [Expected value of the trace of a matrix](/P/mean-tr)
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
@@ -325,6 +326,7 @@ title: "Proof by Topic"
 
 ### S
 
+- [Sampling from the matrix-normal distribution](/P/matn-samp)
 - [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)

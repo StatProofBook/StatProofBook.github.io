@@ -302,3 +302,5 @@ title: "Proof by Number"
 | P294 | dir-kl | [Kullback-Leibler divergence for the Dirichlet distribution](/P/dir-kl) | JoramSoch | 2021-12-02 |
 | P295 | wish-kl | [Kullback-Leibler divergence for the Wishart distribution](/P/wish-kl) | JoramSoch | 2021-12-02 |
 | P296 | matn-kl | [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl) | JoramSoch | 2021-12-02 |
+| P297 | matn-samp | [Sampling from the matrix-normal distribution](/P/matn-samp) | JoramSoch | 2021-12-07 |
+| P298 | mean-tr | [Expected value of the trace of a matrix](/P/mean-tr) | JoramSoch | 2021-12-07 |
