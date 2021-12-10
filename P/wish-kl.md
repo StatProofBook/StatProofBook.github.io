@@ -56,7 +56,7 @@ $$
 
 and $\psi_p(x)$ is the multivariate digamma function
 
-$$ \label{eq:mult-gam-fct}
+$$ \label{eq:mult-psi-fct}
 \psi_p(x) = \frac{\mathrm{d}\ln \Gamma_p(x)}{\mathrm{d}x} = \sum_{j=1}^k \psi\left(x - \frac{j-1}{2}\right) \; .
 $$
 

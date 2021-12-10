@@ -299,3 +299,6 @@ title: "Proof by Number"
 | P291 | mean-tot | [Law of total expectation](/P/mean-tot) | JoramSoch | 2021-11-26 |
 | P292 | var-tot | [Law of total variance](/P/var-tot) | JoramSoch | 2021-11-26 |
 | P293 | cov-tot | [Law of total covariance](/P/cov-tot) | JoramSoch | 2021-11-26 |
+| P294 | dir-kl | [Kullback-Leibler divergence for the Dirichlet distribution](/P/dir-kl) | JoramSoch | 2021-12-02 |
+| P295 | wish-kl | [Kullback-Leibler divergence for the Wishart distribution](/P/wish-kl) | JoramSoch | 2021-12-02 |
+| P296 | matn-kl | [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl) | JoramSoch | 2021-12-02 |

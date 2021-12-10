@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (283 proofs)
+### JoramSoch (286 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -89,7 +89,10 @@ title: "Proof by Author"
 - [Invariance of the variance under addition of a constant](/P/var-inv)
 - [Inverse transformation method using cumulative distribution function](/P/cdf-itm)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
+- [Kullback-Leibler divergence for the Dirichlet distribution](/P/dir-kl)
+- [Kullback-Leibler divergence for the Wishart distribution](/P/wish-kl)
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
+- [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl)
 - [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl)
 - [Kullback-Leibler divergence for the normal distribution](/P/norm-kl)
 - [Kullback-Leibler divergence for the normal-gamma distribution](/P/ng-kl)
