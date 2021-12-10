@@ -102,11 +102,12 @@ title: "Table of Contents"
    &emsp;&ensp; 1.7.5. **[Linearity](/P/mean-lin)** <br>
    &emsp;&ensp; 1.7.6. **[Monotonicity](/P/mean-mono)** <br>
    &emsp;&ensp; 1.7.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
-   &emsp;&ensp; 1.7.8. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.7.9. **[Law of total expectation](/P/mean-tot)** <br>
-   &emsp;&ensp; 1.7.10. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
-   &emsp;&ensp; 1.7.11. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.7.12. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.7.8. **[Expectation of a trace](/P/mean-tr)** <br>
+   &emsp;&ensp; 1.7.9. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.7.10. **[Law of total expectation](/P/mean-tot)** <br>
+   &emsp;&ensp; 1.7.11. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.7.12. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.7.13. *[Expected value of a random matrix](/D/mean-rmat)* <br>
    
    1.8. Variance <br>
    &emsp;&ensp; 1.8.1. *[Definition](/D/var)* <br>
@@ -449,8 +450,9 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.2. **[Probability density function](/P/matn-pdf)** <br>
    &emsp;&ensp; 5.1.3. **[Equivalence to multivariate normal distribution](/P/matn-mvn)** <br>
    &emsp;&ensp; 5.1.4. **[Kullback-Leibler divergence](/P/matn-kl)** <br>
-   &emsp;&ensp; 5.1.5. **[Transposition](/P/matn-trans)** <br>
-   &emsp;&ensp; 5.1.6. **[Linear transformation](/P/matn-ltt)** <br>
+   &emsp;&ensp; 5.1.5. **[Linear transformation](/P/matn-ltt)** <br>
+   &emsp;&ensp; 5.1.6. **[Transposition](/P/matn-trans)** <br>
+   &emsp;&ensp; 5.1.7. **[Drawing samples](/P/matn-ltt)** <br>
    
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
