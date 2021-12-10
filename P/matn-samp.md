@@ -11,7 +11,7 @@ title: "Sampling from the matrix-normal distribution"
 chapter: "Probability Distributions"
 section: "Matrix-variate continuous distributions"
 topic: "Matrix-normal distribution"
-theorem: "Linear transformation"
+theorem: "Drawing samples"
 
 sources:
   - authors: "Wikipedia"
@@ -67,4 +67,4 @@ Y = M + AXB &\sim \mathcal{MN}\left(M + A 0_{np} B, A I_n A^\mathrm{T}, B^\mathr
 \end{split}
 $$
 
-Thus, given $X$ defined by \eqref{eq:xij-dist}, $Y$ defined by \eqref{eq:matn-samp} is a [sample](/D/dist) from $\mathcal{N}\left(M, U, V \right)$.
+Thus, given $X$ defined by \eqref{eq:xij-dist}, $Y$ defined by \eqref{eq:matn-samp} is a [sample](/D/samp) from $\mathcal{N}\left(M, U, V \right)$.

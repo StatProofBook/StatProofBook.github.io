@@ -63,7 +63,7 @@ $$ \label{eq:mean-qf-s2}
 \mathrm{E}\left[ X^\mathrm{T} A X \right] =  \mathrm{E}\left[ \mathrm{tr} \left( A X X^\mathrm{T} \right) \right] \; .
 $$
 
-Because [mean and trace are linear operators](/P/mean-lin), we have
+Because [mean and trace are linear operators](/P/mean-tr), we have
 
 $$ \label{eq:mean-qf-s3}
 \mathrm{E}\left[ X^\mathrm{T} A X \right] =  \mathrm{tr} \left( A \; \mathrm{E}\left[ X X^\mathrm{T} \right] \right) \; .
