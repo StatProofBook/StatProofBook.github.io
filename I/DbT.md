@@ -191,6 +191,8 @@ title: "Definition by Topic"
 
 ### S
 
+- [Sample correlation coefficient](/D/corr-samp)
+- [Sample correlation matrix](/D/corrmat-samp)
 - [Sample covariance](/D/cov-samp)
 - [Sample covariance matrix](/D/covmat-samp)
 - [Sample mean](/D/mean-samp)

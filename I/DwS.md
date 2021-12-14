@@ -22,3 +22,4 @@ title: "Definitions without Source"
 - [Posterior distribution](/D/post)
 - [Prior distribution](/D/prior)
 - [Residual variance](/D/resvar)
+- [Sample correlation matrix](/D/corrmat-samp)

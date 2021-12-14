@@ -304,3 +304,5 @@ title: "Proof by Number"
 | P296 | matn-kl | [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl) | JoramSoch | 2021-12-02 |
 | P297 | matn-samp | [Sampling from the matrix-normal distribution](/P/matn-samp) | JoramSoch | 2021-12-07 |
 | P298 | mean-tr | [Expected value of the trace of a matrix](/P/mean-tr) | JoramSoch | 2021-12-07 |
+| P299 | corr-z | [Correlation coefficient in terms of standard scores](/P/corr-z) | JoramSoch | 2021-12-14 |
+| P300 | corr-range | [Correlation always falls between -1 and +1](/P/corr-range) | JoramSoch | 2021-12-14 |

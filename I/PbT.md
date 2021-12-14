@@ -40,6 +40,8 @@ title: "Proof by Topic"
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
+- [Correlation always falls between -1 and +1](/P/corr-range)
+- [Correlation coefficient in terms of standard scores](/P/corr-z)
 - [Covariance of independent random variables](/P/cov-ind)
 - [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf)
 - [Cross-validated log model evidence for the univariate Gaussian with known variance](/P/ugkv-cvlme)
