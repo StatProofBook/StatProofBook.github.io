@@ -76,7 +76,7 @@ $$ \label{eq:mvn-KL-s3}
 \end{split}
 $$
 
-Because trace function and [expected value](/D/mean) are both linear operators, the expectation can be moved inside the trace:
+Because [trace function and expected value are both linear operators](/P/mean-tr), the expectation can be moved inside the trace:
 
 $$ \label{eq:mvn-KL-s4}
 \begin{split}

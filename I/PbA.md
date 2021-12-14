@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (286 proofs)
+### JoramSoch (288 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -74,6 +74,7 @@ title: "Proof by Author"
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
+- [Expected value of the trace of a matrix](/P/mean-tr)
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
@@ -267,6 +268,7 @@ title: "Proof by Author"
 - [Relationship between residual variance and sample variance in simple linear regression](/P/slr-resvar)
 - [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
+- [Sampling from the matrix-normal distribution](/P/matn-samp)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)

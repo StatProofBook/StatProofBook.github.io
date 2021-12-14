@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $A$ be an $n \times n$ [random matrix](/D/rmat). Then, the [expected value](/D/mean) of the trace of $A$ is equal to the trace of the [expectation](/D/mean) of $A$:
+**Theorem:** Let $A$ be an $n \times n$ [random matrix](/D/rmat). Then, the [expectation](/D/mean) of the trace of $A$ is equal to the trace of the [expectation](/D/mean) of $A$:
 
 $$ \label{eq:mean-tr}
 \mathrm{E}\left[ \mathrm{tr}(A) \right] = \mathrm{tr}\left( \mathrm{E}[A] \right) \; .

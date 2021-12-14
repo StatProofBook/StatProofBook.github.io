@@ -452,7 +452,7 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.4. **[Kullback-Leibler divergence](/P/matn-kl)** <br>
    &emsp;&ensp; 5.1.5. **[Linear transformation](/P/matn-ltt)** <br>
    &emsp;&ensp; 5.1.6. **[Transposition](/P/matn-trans)** <br>
-   &emsp;&ensp; 5.1.7. **[Drawing samples](/P/matn-ltt)** <br>
+   &emsp;&ensp; 5.1.7. **[Drawing samples](/P/matn-samp)** <br>
    
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
