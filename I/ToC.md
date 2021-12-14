@@ -139,7 +139,11 @@ title: "Table of Contents"
    
    1.10. Correlation <br>
    &emsp;&ensp; 1.10.1. *[Definition](/D/corr)* <br>
-   &emsp;&ensp; 1.10.2. *[Correlation matrix](/D/corrmat)* <br>
+   &emsp;&ensp; 1.10.2. **[Range](/P/corr-range)** <br>
+   &emsp;&ensp; 1.10.3. *[Sample correlation coefficient](/D/corr-samp)* <br>
+   &emsp;&ensp; 1.10.4. **[Relationship to standard scores](/P/corr-z)** <br>
+   &emsp;&ensp; 1.10.5. *[Correlation matrix](/D/corrmat)* <br>
+   &emsp;&ensp; 1.10.6. *[Sample correlation matrix](/D/corrmat-samp)* <br>
    
    1.11. Measures of central tendency <br>
    &emsp;&ensp; 1.11.1. *[Median](/D/med)* <br>
