@@ -34,7 +34,7 @@ $$ \label{eq:corr-range}
 $$
 
 
-**Proof:** Consider the [variance](/D/var) of $X$ plus or minus $Y$, divided by their [standard deviations](/D/std):
+**Proof:** Consider the [variance](/D/var) of $X$ plus or minus $Y$, each divided by their [standard deviations](/D/std):
 
 $$ \label{eq:var-XY}
 \mathrm{Var}\left( \frac{X}{\sigma_X} \pm \frac{Y}{\sigma_Y} \right) \; .
