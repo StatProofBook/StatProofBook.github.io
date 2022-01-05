@@ -170,7 +170,7 @@ $$ \label{eq:Gam-EP2}
 p(\forall_{j \neq i} \left[ q_i > q_j \right]|q_i) = \prod_{j \neq i} p(q_i > q_j|q_i) = \prod_{j \neq i} \frac{\gamma(\alpha_j,q_i)}{\Gamma(\alpha_j)} \; .
 $$
 
-In order to obtain the exceedance probability $\varphi_i$, the dependency on $q_i$ in this probability still has to be removed. From equations (\ref{eq:Dir-EP-def}) and (\ref{eq:Gam-Dir-eq}), it follows that
+In order to obtain the exceedance probability $\varphi_i$, the dependency on $q_i$ in this probability still has to be removed. From equations \eqref{eq:Dir-EP-def} and \eqref{eq:Gam-Dir-eq}, it follows that
 
 $$ \label{eq:Dir-EP2a}
 \varphi_i = p(\forall_{j \neq i} \left[ r_i > r_j \right]) = p(\forall_{j \neq i} \left[ q_i > q_j \right]) \; .
@@ -182,13 +182,13 @@ $$ \label{eq:Dir-EP2b}
 \varphi_i = \int_0^\infty p(\forall_{j \neq i} \left[ q_i > q_j \right]|q_i) \, p(q_i) \, \mathrm{d}q_i \; .
 $$
 
-With (\ref{eq:Gam-EP2}) and (\ref{eq:Gam-Dir-A}), this becomes
+With \eqref{eq:Gam-EP2} and \eqref{eq:Gam-Dir-A}, this becomes
 
 $$ \label{eq:Dir-EP2c}
 \varphi_i = \int_0^\infty \prod_{j \neq i} \left( p(q_i > q_j|q_i) \right) \cdot \mathrm{Gam}(q_i;\alpha_i,1) \, \mathrm{d}q_i \; .
 $$
 
-And with (\ref{eq:Gam-EP1}) and (\ref{eq:Gam-pdf}), it becomes
+And with \eqref{eq:Gam-EP1} and \eqref{eq:Gam-pdf}, it becomes
 
 $$ \label{eq:Dir-EP-qed}
 \varphi_i = \int_0^\infty \prod_{j \neq i} \left( \frac{\gamma(\alpha_j,q_i)}{\Gamma(\alpha_j)} \right) \cdot \frac{q_i^{\alpha_i-1} \exp[-q_i]}{\Gamma(\alpha_i)} \, \mathrm{d}q_i \; .
