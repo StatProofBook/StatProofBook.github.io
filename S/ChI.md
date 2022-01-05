@@ -9,7 +9,7 @@ title: "Special: General Theorems"
 | Concept | Definition | Properties | Relationships | Other |
 |:------- |:---------- |:---------- |:------------- |:----- |
 | **Probability theory** |  |  |  |  |
-| Probability | *[prob](/D/prob)*<br>*[prob-joint](/D/prob-joint)*<br>*[prob-marg](/D/prob-marg)*<br>*[prob-cond](/D/prob-cond)* | **[prob-ind](/P/prob-ind)**<br>**[prob-exc](/P/prob-exc)** |  | **[var-tot](/P/var-tot)** |
+| Probability | *[prob](/D/prob)*<br>*[prob-joint](/D/prob-joint)*<br>*[prob-marg](/D/prob-marg)*<br>*[prob-cond](/D/prob-cond)* | **[prob-ind](/P/prob-ind)**<br>**[prob-exc](/P/prob-exc)** |  |  |
 | Probability axioms | *[prob-ax](/D/prob-ax)* | **[prob-mon](/P/prob-mon)**<br>**[prob-emp](/P/prob-emp)**<br>**[prob-emp](/P/prob-emp)**<br>**[prob-comp](/P/prob-comp)**<br>**[prob-add](/P/prob-add)**<br>**[prob-exh](/P/prob-exh)** |  | **[prob-tot](/P/prob-tot)** |
 | Probability mass function | *[pmf](/D/pmf)* | **[pmf-sumind](/P/pmf-sumind)**<br>**[pmf-sifct](/P/pmf-sifct)**<br>**[pmf-sdfct](/P/pmf-sdfct)**<br>**[pmf-invfct](/P/pmf-invfct)** |  |  |
 | Probability density function | *[pdf](/D/pdf)* | **[pdf-sumind](/P/pdf-sumind)**<br>**[pdf-sifct](/P/pdf-sifct)**<br>**[pdf-sdfct](/P/pdf-sdfct)**<br>**[pdf-invfct](/P/pdf-invfct)**<br>**[pdf-linfct](/P/pdf-linfct)** | **[pdf-cdf](/P/pdf-cdf)** |  |
@@ -19,7 +19,7 @@ title: "Special: General Theorems"
 | Moment-generating function | *[mgf](/D/mgf)* | **[mgf-fct](/P/mgf-fct)** |  | **[mgf-ltt](/P/mgf-ltt)**<br>**[mgf-lincomb](/P/mgf-lincomb)** |
 | Cumulant-generating function | *[cgf](/D/cgf)* |  |  |  |
 | Probability-generating function | *[pgf](/D/pgf)* |  |  |  |
-| Expected value | *[mean](/D/mean)*<br>*[mean-samp](/D/mean-samp)*<br>*[mean-rvec](/D/mean-rvec)*<br>*[mean-rmat](/D/mean-rmat)* | **[mean-nnrvar](/P/mean-nnrvar)**<br>**[mean-nonneg](/P/mean-nonneg)**<br>**[mean-lin](/P/mean-lin)**<br>**[mean-mono](/P/mean-mono)**<br>**[mean-mult](/P/mean-mult)**<br>**[mean-tr](/P/mean-tr)**<br>**[mean-qf](/P/mean-qf)** | **[mean-tot](/P/mean-tot)**<br>**[mean-lotus](/P/mean-lotus)** |
+| Expected value | *[mean](/D/mean)*<br>*[mean-samp](/D/mean-samp)*<br>*[mean-rvec](/D/mean-rvec)*<br>*[mean-rmat](/D/mean-rmat)* | **[mean-nnrvar](/P/mean-nnrvar)**<br>**[mean-nonneg](/P/mean-nonneg)**<br>**[mean-lin](/P/mean-lin)**<br>**[mean-mono](/P/mean-mono)**<br>**[mean-mult](/P/mean-mult)**<br>**[mean-tr](/P/mean-tr)**<br>**[mean-qf](/P/mean-qf)** | **[mean-tot](/P/mean-tot)** | **[mean-lotus](/P/mean-lotus)** |
 | Variance | *[var](/D/var)*<br>*[var-samp](/D/var-samp)* | **[var-nonneg](/P/var-nonneg)**<br>**[var-const](/P/var-const)**<br>**[var-inv](/P/var-inv)**<br>**[var-scal](/P/var-scal)**<br>**[var-sum](/P/var-sum)**<br>**[var-lincomb](/P/var-lincomb)**<br>**[var-add](/P/var-add)** | **[var-mean](/P/var-mean)** | **[var-tot](/P/var-tot)** |
 | Covariance | *[cov](/D/cov)*<br>*[cov-samp](/D/cov-samp)*<br>*[covmat](/D/covmat)*<br>*[covmat-samp](/D/covmat-samp)* | **[cov-ind](/P/cov-ind)** | **[cov-mean](/P/cov-mean)**<br>**[cov-corr](/P/cov-corr)**<br>**[covmat-mean](/P/covmat-mean)**<br>**[covmat-corrmat](/P/covmat-corrmat)** | **[cov-tot](/P/cov-tot)** |
 | Correlation | *[corr](/D/corr)*<br>*[corr-samp](/D/corr-samp)*<br>*[corrmat](/D/corrmat)*<br>*[corrmat-samp](/D/corrmat-samp)* | **[corr-range](/P/corr-range)** | **[corr-z](/P/corr-z)** |  |
