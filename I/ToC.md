@@ -123,7 +123,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.11. **[Law of total variance](/P/var-tot)** <br>
    &emsp;&ensp; 1.8.12. *[Precision](/D/prec)* <br>
    
-   1.9 Covariance <br>
+   1.9. Covariance <br>
    &emsp;&ensp; 1.9.1. *[Definition](/D/cov)* <br>
    &emsp;&ensp; 1.9.2. *[Sample covariance](/D/cov-samp)* <br>
    &emsp;&ensp; 1.9.3. **[Partition into expected values](/P/cov-mean)** <br>
