@@ -298,11 +298,13 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.1. *[Definition](/D/bern)* <br>
    &emsp;&ensp; 1.2.2. **[Probability mass function](/P/bern-pmf)** <br>
    &emsp;&ensp; 1.2.3. **[Mean](/P/bern-mean)** <br>
+   &emsp;&ensp; 1.2.4. **[Variance](/P/bern-var)** <br>
 
    1.3. Binomial distribution <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/bin)* <br>
    &emsp;&ensp; 1.3.2. **[Probability mass function](/P/bin-pmf)** <br>
    &emsp;&ensp; 1.3.3. **[Mean](/P/bin-mean)** <br>
+   &emsp;&ensp; 1.3.4. **[Variance](/P/bin-var)** <br>
    
    1.4. Poisson distribution <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/poiss)* <br>
