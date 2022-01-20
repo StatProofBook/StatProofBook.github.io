@@ -4,7 +4,7 @@ title: "Special: Probability Distributions"
 ---
 
 
-**Proofs** and *Definitions* on [Probability Distributions](/I/ToC#Probability%20Distributions) in the StatProofBook, as of 2021-11-05.
+**Proofs** and *Definitions* on [Probability Distributions](/I/ToC#Probability%20Distributions) in the StatProofBook, as of 2021-12-21.
 
 | Distribution | Def | PDF | CDF | QF | MGF | Mean | Med | Mode | Var | Ent | KL | Marg | Cond | Other |
 |:------------ |:--- |:--- |:--- |:-- |:--- |:---- |:--- |:---- |:--- |:--- |:-- |:---- |:---- |:----- |
@@ -30,7 +30,7 @@ title: "Special: Probability Distributions"
 | Multivariate normal distribution | *[mvn](/D/mvn)* | **[mvn-pdf](/P/mvn-pdf)** |  |  |  |  |  |  |  | **[mvn-dent](/P/mvn-dent)** | **[mvn-kl](/P/mvn-kl)** | **[mvn-marg](/P/mvn-marg)** | **[mvn-cond](/P/mvn-cond)** | **[mvn-ltt](/P/mvn-ltt)**<br>**[mvn-ind](/P/mvn-ind)** |
 | Multivariate t-distribution | *[mvt](/D/mvt)* |  |  |  |  |  |  |  |  |  |  |  |  | **[mvt-f](/P/mvt-f)** |
 | Normal-gamma distribution | *[ng](/D/ng)* | **[ng-pdf](/P/ng-pdf)** |  |  |  | **[ng-mean](/P/ng-mean)** |  |  |  | **[ng-dent](/P/ng-dent)** | **[ng-kl](/P/ng-kl)** | **[ng-marg](/P/ng-marg)** | **[ng-cond](/P/ng-cond)** |  |
-| Dirichlet distribution | *[dir](/D/dir)* | **[dir-pdf](/P/dir-pdf)** |  |  |  |  |  |  |  |  |  |  |  | **[dir-ep](/P/dir-ep)** |
+| Dirichlet distribution | *[dir](/D/dir)* | **[dir-pdf](/P/dir-pdf)** |  |  |  |  |  |  |  |  | **[dir-kl](/P/dir-kl)** |  |  | **[dir-ep](/P/dir-ep)** |
 | **Matrix-variate<br>continuous<br>distributions** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| Matrix-normal distribution | *[matn](/D/matn)* | **[matn-pdf](/P/matn-pdf)** |  |  |  |  |  |  |  |  |  |  |  | **[matn-mvn](/P/matn-mvn)**<br>**[matn-ltt](/P/matn-ltt)**<br>**[matn-trans](/P/matn-trans)** |
-| Wishart distribution | *[wish](/D/wish)* |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Matrix-normal distribution | *[matn](/D/matn)* | **[matn-pdf](/P/matn-pdf)** |  |  |  |  |  |  |  |  | **[matn-kl](/P/matn-kl)** |  |  | **[matn-mvn](/P/matn-mvn)**<br>**[matn-ltt](/P/matn-ltt)**<br>**[matn-trans](/P/matn-trans)** |
+| Wishart distribution | *[wish](/D/wish)* |  |  |  |  |  |  |  |  |  | **[wish-kl](/P/wish-kl)** |  |  |  |

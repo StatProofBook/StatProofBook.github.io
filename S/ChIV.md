@@ -4,7 +4,7 @@ title: "Special: Model Selection Criteria"
 ---
 
 
-**Proofs** and *Definitions* on [Model Selection Criteria](/I/ToC#Model%20Selection) in the StatProofBook, as of 2021-11-05.
+**Proofs** and *Definitions* on [Model Selection Criteria](/I/ToC#Model%20Selection) in the StatProofBook, as of 2021-12-21.
 
 | Criterion | Definition | Derivation | Relationships | Other |
 |:--------- |:---------- |:---------- |:------------- |:----- |

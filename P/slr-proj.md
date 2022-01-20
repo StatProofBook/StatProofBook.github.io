@@ -16,7 +16,7 @@ theorem: "Projection of data point to regression line"
 sources:
   - authors: "Penny, William"
     year: 2006
-    title: "Projects"
+    title: "Projections"
     in: "Mathematics for Brain Imaging"
     pages: "ch. 1.4.10, pp. 34-35, eqs. 1.87/1.88"
     url: "https://ueapsylabs.co.uk/sites/wpenny/mbi/mbi_course.pdf"

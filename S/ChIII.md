@@ -4,7 +4,7 @@ title: "Special: Statistical Models"
 ---
 
 
-**Proofs** and *Definitions* on [Statistical Models](/I/ToC#Statistical%20Models) in the StatProofBook, as of 2021-11-05.
+**Proofs** and *Definitions* on [Statistical Models](/I/ToC#Statistical%20Models) in the StatProofBook, as of 2021-12-21.
 
 | Model | Definition | Estimation | Maximum<br>likelihood<br>estimation | Conjugate<br>prior | Posterior<br>distribution | Log<br>model<br>evidence | Other |
 |:----- |:---------- |:---------- |:----------------------------------- |:------------------ |:------------------------- |:------------------------ |:----- |

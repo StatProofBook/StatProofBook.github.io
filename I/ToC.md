@@ -6,7 +6,7 @@ title: "Table of Contents"
 
 **[Proofs](/P/-temp-)** are printed in **bold** – *[Definitions](/D/-temp-)* are set in *italics* <br>
 **Proofs**: [by Number](/I/PbN), [by Topic](/I/PbT) – *Definitions*:  [by Number](/I/DbN), [by Topic](/I/DbT) <br>
-<u>Specials:</u> [Probability Distributions](/S/ChII), [Statistical Models](/S/ChIII), [Model Selection Criteria](/S/ChIV) <br>
+<u>Specials:</u> [General Theorems](/S/ChI), [Probability Distributions](/S/ChII), [Statistical Models](/S/ChIII), [Model Selection Criteria](/S/ChIV) <br>
 
 
 <br>
@@ -123,7 +123,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.11. **[Law of total variance](/P/var-tot)** <br>
    &emsp;&ensp; 1.8.12. *[Precision](/D/prec)* <br>
    
-   1.9 Covariance <br>
+   1.9. Covariance <br>
    &emsp;&ensp; 1.9.1. *[Definition](/D/cov)* <br>
    &emsp;&ensp; 1.9.2. *[Sample covariance](/D/cov-samp)* <br>
    &emsp;&ensp; 1.9.3. **[Partition into expected values](/P/cov-mean)** <br>
