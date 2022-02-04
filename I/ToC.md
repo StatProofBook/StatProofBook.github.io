@@ -541,6 +541,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.13. **[Weighted least squares](/P/mlr-wls)** (1) <br>
    &emsp;&ensp; 1.4.14. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
    &emsp;&ensp; 1.4.15. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   &emsp;&ensp; 1.4.16. **[Maximum log-likelihood](/P/mlr-mll)** <br>
    
    1.5. Bayesian linear regression <br>
    &emsp;&ensp; 1.5.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
