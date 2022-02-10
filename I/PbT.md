@@ -170,6 +170,7 @@ title: "Proof by Topic"
 - [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle)
 - [Maximum likelihood estimation for the univariate Gaussian with known variance](/P/ugkv-mle)
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
+- [Maximum log-likelihood for multiple linear regression](/P/mlr-mll)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the beta distribution](/P/beta-mean)
 - [Mean of the binomial distribution](/P/bin-mean)
@@ -184,6 +185,7 @@ title: "Proof by Topic"
 - [Mean of the Wald distribution](/P/wald-mean)
 - [Median of the continuous uniform distribution](/P/cuni-med)
 - [Median of the exponential distribution](/P/exp-med)
+- [Median of the log-normal distribution](/P/lognorm-med)
 - [Median of the normal distribution](/P/norm-med)
 - [Method of moments for beta-distributed data](/P/beta-mome)
 - [Mode of the continuous uniform distribution](/P/cuni-med)
@@ -299,6 +301,8 @@ title: "Proof by Topic"
 ### R
 
 - [Range of probability](/P/prob-range)
+- [Range of the variance of the Bernoulli distribution](/P/bern-varrange)
+- [Range of the variance of the binomial distribution](/P/bin-varrange)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)
 - [Relation of continuous mutual information to marginal and conditional differential entropy](/P/cmi-mcde)
@@ -351,7 +355,9 @@ title: "Proof by Topic"
 
 - [Variance of constant is zero](/P/var-const)
 - [Variance of parameter estimates for simple linear regression](/P/slr-olsvar)
+- [Variance of the Bernoulli distribution](/P/bern-var)
 - [Variance of the beta distribution](/P/beta-var)
+- [Variance of the binomial distribution](/P/bin-var)
 - [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the linear combination of two random variables](/P/var-lincomb)
 - [Variance of the normal distribution](/P/norm-var)

@@ -7,16 +7,16 @@ affiliation: ""
 e_mail: "mpavlovic@uw.co.uk"
 date: 2022-02-07 22:33:00
 
-title: "Lognormal distribution"
+title: "Log-normal distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
-topic: "Lognormal distribution"
+topic: "Log-normal distribution"
 definition: "Definition"
 
 sources:
   - authors: "Wikipedia"
     year: 2022
-    title: "Lognormal distribution"
+    title: "Log-normal distribution"
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2022-02-07"
     url: "https://en.wikipedia.org/wiki/Log-normal_distribution"
@@ -27,7 +27,7 @@ username: "majapavlo"
 ---
 
 
-**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to have a log normal distribution with location parameter $\mu$ and scale parameter $\sigma$
+**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to have a log-normal distribution with location parameter $\mu$ and scale parameter $\sigma$
 
 $$ \label{eq:lognorm}
 X \sim \ln \mathcal{N}(\mu, \sigma^2) \; ,

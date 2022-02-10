@@ -183,6 +183,10 @@ title: "Definition by Author"
 
 - [Chi-squared distribution](/D/chi2)
 
+### majapavlo (1 definition)
+
+- [Log-normal distribution](/D/lognorm)
+
 ### tomfaulkenberry (3 definitions)
 
 - [Bayes factor](/D/bf)

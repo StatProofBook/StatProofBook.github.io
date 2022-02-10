@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (290 proofs)
+### JoramSoch (295 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -136,6 +136,7 @@ title: "Proof by Author"
 - [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle)
 - [Maximum likelihood estimation for the univariate Gaussian with known variance](/P/ugkv-mle)
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
+- [Maximum log-likelihood for multiple linear regression](/P/mlr-mll)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the Poisson distribution](/P/poiss-mean)
 - [Mean of the beta distribution](/P/beta-mean)
@@ -244,6 +245,8 @@ title: "Proof by Author"
 - [Quantile function of the gamma distribution](/P/gam-qf)
 - [Quantile function of the normal distribution](/P/norm-qf)
 - [Range of probability](/P/prob-range)
+- [Range of the variance of the Bernoulli distribution](/P/bern-varrange)
+- [Range of the variance of the binomial distribution](/P/bin-varrange)
 - [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)
@@ -285,8 +288,10 @@ title: "Proof by Author"
 - [Two-sample z-test for independent observations](/P/ugkv-ztest2)
 - [Variance of constant is zero](/P/var-const)
 - [Variance of parameter estimates for simple linear regression](/P/slr-olsvar)
+- [Variance of the Bernoulli distribution](/P/bern-var)
 - [Variance of the Poisson distribution](/P/poiss-var)
 - [Variance of the beta distribution](/P/beta-var)
+- [Variance of the binomial distribution](/P/bin-var)
 - [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the linear combination of two random variables](/P/var-lincomb)
 - [Variance of the normal distribution](/P/norm-var)
@@ -305,6 +310,10 @@ title: "Proof by Author"
 
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Moments of the chi-squared distribution](/P/chi2-mom)
+
+### majapavlo (1 proof)
+
+- [Median of the log-normal distribution](/P/lognorm-med)
 
 ### tomfaulkenberry (7 proofs)
 
