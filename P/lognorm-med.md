@@ -59,7 +59,7 @@ where $\mathrm{erf}^{-1}(x)$ is the inverse error function. Setting $p = 1/2$, w
 
 $$ \label{eq:lognorm-med-qed}
 \begin{split}
-\ln \left[ \mathrm{median}(X) \right] &= \mathrm{exp} \left[ \sigma \sqrt{2} \cdot \mathrm{erf}^{-1}(0) + \mu \right] \\
+\ln \left[ \mathrm{median}(X) \right] &= \sigma \sqrt{2} \cdot \mathrm{erf}^{-1}(0) + \mu \\
 \mathrm{median}(X) &= e^\mu \; .
 \end{split}
 $$
