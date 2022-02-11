@@ -542,6 +542,9 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.14. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
    &emsp;&ensp; 1.4.15. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
    &emsp;&ensp; 1.4.16. **[Maximum log-likelihood](/P/mlr-mll)** <br>
+   &emsp;&ensp; 1.4.17. **[Akaike information criterion](/P/mlr-aic)** <br>
+   &emsp;&ensp; 1.4.18. **[Bayesian information criterion](/P/mlr-bic)** <br>
+   &emsp;&ensp; 1.4.19. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
    1.5. Bayesian linear regression <br>
    &emsp;&ensp; 1.5.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
@@ -647,6 +650,7 @@ title: "Table of Contents"
 
    2.1. Akaike information criterion <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/aic)* <br>
+   &emsp;&ensp; 2.1.2. *[Corrected AIC](/D/aicc)* <br>
    
    2.2. Bayesian information criterion <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/bic)* <br>
