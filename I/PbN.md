@@ -306,3 +306,9 @@ title: "Proof by Number"
 | P298 | mean-tr | [Expected value of the trace of a matrix](/P/mean-tr) | JoramSoch | 2021-12-07 |
 | P299 | corr-z | [Correlation coefficient in terms of standard scores](/P/corr-z) | JoramSoch | 2021-12-14 |
 | P300 | corr-range | [Correlation always falls between -1 and +1](/P/corr-range) | JoramSoch | 2021-12-14 |
+| P301 | bern-var | [Variance of the Bernoulli distribution](/P/bern-var) | JoramSoch | 2022-01-20 |
+| P302 | bin-var | [Variance of the binomial distribution](/P/bin-var) | JoramSoch | 2022-01-20 |
+| P303 | bern-varrange | [Range of the variance of the Bernoulli distribution](/P/bern-varrange) | JoramSoch | 2022-01-27 |
+| P304 | bin-varrange | [Range of the variance of the binomial distribution](/P/bin-varrange) | JoramSoch | 2022-01-27 |
+| P305 | mlr-mll | [Maximum log-likelihood for multiple linear regression](/P/mlr-mll) | JoramSoch | 2022-02-04 |
+| P306 | lognorm-med | [Median of the log-normal distribution](/P/lognorm-med) | majapavlo | 2022-02-07 |

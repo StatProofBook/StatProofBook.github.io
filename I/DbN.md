@@ -176,3 +176,4 @@ title: "Definition by Number"
 | D167 | prob-spc | [Probability space](/D/prob-spc) | JoramSoch | 2021-11-26 |
 | D168 | corr-samp | [Sample correlation coefficient](/D/corr-samp) | JoramSoch | 2021-12-14 |
 | D169 | corrmat-samp | [Sample correlation matrix](/D/corrmat-samp) | JoramSoch | 2021-12-14 |
+| D170 | lognorm | [Log-normal distribution](/D/lognorm) | majapavlo | 2022-02-07 |

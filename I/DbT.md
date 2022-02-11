@@ -113,6 +113,7 @@ title: "Definition by Topic"
 - [Log family evidence](/D/lfe)
 - [Log model evidence](/D/lme)
 - [Log-likelihood function](/D/llf)
+- [Log-normal distribution](/D/lognorm)
 - [Logistic regression](/D/logreg)
 
 ### M
