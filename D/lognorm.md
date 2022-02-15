@@ -5,7 +5,7 @@ mathjax: true
 author: "Maja Pavlovic"
 affiliation: ""
 e_mail: "mpavlovic@uw.co.uk"
-date: 2022-02-07 22:33:00
+date: 2022-02-12 19:30:00
 
 title: "Log-normal distribution"
 chapter: "Probability Distributions"
@@ -27,16 +27,22 @@ username: "majapavlo"
 ---
 
 
-**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to have a log-normal distribution with location parameter $\mu$ and scale parameter $\sigma$
+**Definition:** Let $ln X$ be a [random variable](/D/rvar) following a [normal distribution](/D/norm) with mean $\mu$ and variance $\sigma^2$ (or, standard deviation $\sigma$).
 
-$$ \label{eq:lognorm}
-X \sim \ln \mathcal{N}(\mu, \sigma^2) \; ,
+$$ \label{eq:norm}
+\begin{split} 
+Y = \ln (X) \\ 
+Y \sim \mathcal{N}(\mu, \sigma^2) \; .
+\end{split}
 $$
 
-if and only if its [probability density function](/D/pdf) is given by
+Then, the exponential function of $Y$, is said to have a log-normal distribution with location parameter $\mu$ and scale parameter $\sigma$.
 
-$$ \label{eq:lognorm-pdf}
-f_X(x) = \frac{1}{x \sigma \sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right]
+$$ \label{eq:lognorm}
+\begin{split} 
+X = \mathrm{exp} (Y) \\ 
+X \sim \ln \mathcal{N}(\mu, \sigma^2) \; ,
+\end{split}
 $$
 
 where $\mu \in \mathbb{R}$ and $\sigma^2 > 0$.
