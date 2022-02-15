@@ -27,21 +27,17 @@ username: "majapavlo"
 ---
 
 
-**Definition:** Let $ln X$ be a [random variable](/D/rvar) following a [normal distribution](/D/norm) with mean $\mu$ and variance $\sigma^2$ (or, standard deviation $\sigma$).
+**Definition:** Let $\ln X$ be a [random variable](/D/rvar) following a [normal distribution](/D/norm) with mean $\mu$ and variance $\sigma^2$ (or, standard deviation $\sigma$):
 
 $$ \label{eq:norm}
-\begin{split} 
-Y = \ln (X) \\ 
-Y \sim \mathcal{N}(\mu, \sigma^2) \; .
-\end{split}
+Y = \ln (X) \sim \mathcal{N}(\mu, \sigma^2) \; .
 $$
 
-Then, the exponential function of $Y$, is said to have a log-normal distribution with location parameter $\mu$ and scale parameter $\sigma$.
+Then, the exponential function of $Y$ is said to have a log-normal distribution with location parameter $\mu$ and scale parameter $\sigma$
 
 $$ \label{eq:lognorm}
 \begin{split} 
-X = \mathrm{exp} (Y) \\ 
-X \sim \ln \mathcal{N}(\mu, \sigma^2) \; ,
+X = \mathrm{exp}(Y) \sim \ln \mathcal{N}(\mu, \sigma^2)
 \end{split}
 $$
 

@@ -33,25 +33,26 @@ $$ \label{eq:lognorm}
 X \sim \ln \mathcal{N}(\mu, \sigma^2) \; .
 $$
 
-Then, the [probability density function](/D/pdf) of $X$ is given by
+Then, the [probability density function](/D/pdf) of $X$ is given by:
 
 $$ \label{eq:lognorm-pdf}
-f_X(x) = \frac{1}{x \sigma \sqrt{2 \pi}} \cdot \mathrm{exp} \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right]
+f_X(x) = \frac{1}{x \sigma \sqrt{2 \pi}} \cdot \mathrm{exp} \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right] \; .
 $$
 
-**Proof:** A [log-normally distributed random variable](/D/lognorm) is defined as the exponential function of a [normal random variable](/D/norm).
+**Proof:** A [log-normally distributed random variable](/D/lognorm) is defined as the exponential function of a [normal random variable](/D/norm):
 
 $$ \label{eq:lognorm-def}
 Y \sim \mathcal{N}(\mu,\sigma^2) \;  \quad \Rightarrow \quad X = \mathrm{exp} (Y) \sim \ln \mathcal{N}(\mu, \sigma^2) \; .
 $$
 
-The [probability density function](/P/norm-pdf) of the [normal distribution](/D/norm) is
+The [probability density function of the normal distribution](/P/norm-pdf) is
 
 $$ \label{eq:norm-pdf}
 f_X(x) = \frac{1}{\sigma \sqrt{2 \pi}} \cdot \mathrm{exp} \left[ -\frac{\left( x -\mu \right)^2}{2 \sigma^2} \right] \; .
 $$
 
-Writing $X$ as a function of $Y$ we have 
+Writing $X$ as a function of $Y$ we have
+
 $$ \label{eq:X-Y}
 X = g(Y) = \mathrm{exp} (Y) \;
 $$
@@ -62,7 +63,7 @@ $$ \label{eq:Y-X}
 Y = g^{-1}(X) = \ln (X) \; .
 $$
 
-Because the exponential function $\exp (Y)$ is positive, $g(Y)$ is strictly increasing and we can calculate the [probability density function of a strictly increasing function](/P/pdf-sifct) as
+Because the derivative of $\exp (Y)$ is always positive, $g(Y)$ is strictly increasing and we can calculate the [probability density function of a strictly increasing function](/P/pdf-sifct) as
 
 $$ \label{eq:pdf-sifct}
 f_X(x) = \left\{
@@ -75,10 +76,9 @@ $$
 
 where $\mathcal{X} = \left\lbrace x = g(y): y \in \mathcal{Y} \right\rbrace$. With the [probability density function of the normal distribution](/P/norm-pdf), we have
 
-
 $$ \label{eq:pdf-X}
 \begin{split}
-f_X(x) &= f_Y(g^{-1}(x))\cdot \frac{dg^{-1}(x)}{dx}}\\
+f_X(x) &= f_Y(g^{-1}(x))\cdot \frac{dg^{-1}(x)}{dx} \\
 &= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{g^{-1}(x)-\mu}{\sigma} \right)^2 \right] \cdot \frac{\mathrm{d}g^{-1}(x)}{\mathrm{d}x} \\
 &= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{(\ln x)-\mu}{\sigma} \right)^2 \right] \cdot \frac{\mathrm{d}(\ln x)}{\mathrm{d}x} \\
 &= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{ \ln x -\mu}{\sigma} \right)^2 \right] \cdot \frac{1}{x} \\
