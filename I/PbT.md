@@ -13,11 +13,13 @@ title: "Proof by Topic"
 - [Addition of the differential entropy upon multiplication with invertible matrix](/P/dent-addvec)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
 - [Additivity of the variance for independent random variables](/P/var-add)
+- [Akaike information criterion for multiple linear regression](/P/mlr-aic)
 
 ### B
 
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
+- [Bayesian information criterion for multiple linear regression](/P/mlr-bic)
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
 - [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
 
@@ -40,6 +42,7 @@ title: "Proof by Topic"
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
+- [Corrected Akaike information criterion for multiple linear regression](/P/mlr-aicc)
 - [Correlation always falls between -1 and +1](/P/corr-range)
 - [Correlation coefficient in terms of standard scores](/P/corr-z)
 - [Covariance of independent random variables](/P/cov-ind)
@@ -190,6 +193,7 @@ title: "Proof by Topic"
 - [Method of moments for beta-distributed data](/P/beta-mome)
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
+- [Mode of the log-normal distribution](/P/lognorm-mode)
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)
 - [Moment-generating function of a function of a random variable](/P/mgf-fct)
@@ -263,6 +267,7 @@ title: "Proof by Topic"
 - [Probability density function of the exponential distribution](/P/exp-pdf)
 - [Probability density function of the F-distribution](/P/f-pdf)
 - [Probability density function of the gamma distribution](/P/gam-pdf)
+- [Probability density function of the log-normal distribution](/P/lognorm-pdf)
 - [Probability density function of the matrix-normal distribution](/P/matn-pdf)
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)

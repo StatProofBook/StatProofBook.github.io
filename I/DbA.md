@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (164 definitions)
+### JoramSoch (165 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -26,6 +26,7 @@ title: "Definition by Author"
 - [Conjugate and non-conjugate prior distribution](/D/prior-conj)
 - [Constant](/D/const)
 - [Continuous uniform distribution](/D/cuni)
+- [Corrected Akaike information criterion](/D/aicc)
 - [Correlation](/D/corr)
 - [Correlation matrix](/D/corrmat)
 - [Corresponding forward model](/D/cfm)

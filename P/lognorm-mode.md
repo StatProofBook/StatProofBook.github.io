@@ -27,7 +27,7 @@ sources:
     pages: "retrieved on 2022-02-12"
     url: "https://math.stackexchange.com/questions/1321221/mode-of-lognormal-distribution/1321626"
 
-proof_id: "P308"
+proof_id: "P311"
 shortcut: "lognorm-mode"
 username: "majapavlo"
 ---

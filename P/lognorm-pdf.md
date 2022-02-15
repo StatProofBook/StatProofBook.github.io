@@ -21,7 +21,7 @@ sources:
     pages: "retrieved on 2022-02-13"
     url: "https://www.statlect.com/probability-distributions/log-normal-distribution"
 
-proof_id: "P307"
+proof_id: "P310"
 shortcut: "lognorm-pdf"
 username: "majapavlo"
 ---

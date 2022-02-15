@@ -397,7 +397,9 @@ title: "Table of Contents"
    
    3.6. Log-normal distribution <br>
    &emsp;&ensp; 3.6.1. *[Definition](/D/lognorm)* <br>
-   &emsp;&ensp; 3.6.2. **[Median](/P/lognorm-med)** <br>
+   &emsp;&ensp; 3.6.2. **[Probability density function](/P/lognorm-pdf)** <br>
+   &emsp;&ensp; 3.6.3. **[Median](/P/lognorm-med)** <br>
+   &emsp;&ensp; 3.6.4. **[Mode](/P/lognorm-mode)** <br>
    
    3.7. Chi-squared distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/chi2)* <br>

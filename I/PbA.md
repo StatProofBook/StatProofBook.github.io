@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (295 proofs)
+### JoramSoch (298 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -14,8 +14,10 @@ title: "Proof by Author"
 - [Addition of the differential entropy upon multiplication with invertible matrix](/P/dent-addvec)
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
 - [Additivity of the variance for independent random variables](/P/var-add)
+- [Akaike information criterion for multiple linear regression](/P/mlr-aic)
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
+- [Bayesian information criterion for multiple linear regression](/P/mlr-bic)
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
 - [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
 - [Characteristic function of a function of a random variable](/P/cf-fct)
@@ -34,6 +36,7 @@ title: "Proof by Author"
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Convexity of the cross-entropy](/P/entcross-conv)
+- [Corrected Akaike information criterion for multiple linear regression](/P/mlr-aicc)
 - [Correlation always falls between -1 and +1](/P/corr-range)
 - [Correlation coefficient in terms of standard scores](/P/corr-z)
 - [Covariance of independent random variables](/P/cov-ind)
@@ -311,9 +314,11 @@ title: "Proof by Author"
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Moments of the chi-squared distribution](/P/chi2-mom)
 
-### majapavlo (1 proof)
+### majapavlo (3 proofs)
 
 - [Median of the log-normal distribution](/P/lognorm-med)
+- [Mode of the log-normal distribution](/P/lognorm-mode)
+- [Probability density function of the log-normal distribution](/P/lognorm-pdf)
 
 ### tomfaulkenberry (7 proofs)
 

@@ -34,6 +34,7 @@ title: "Definition by Topic"
 - [Conjugate and non-conjugate prior distribution](/D/prior-conj)
 - [Constant](/D/const)
 - [Continuous uniform distribution](/D/cuni)
+- [Corrected Akaike information criterion](/D/aicc)
 - [Correlation](/D/corr)
 - [Correlation matrix](/D/corrmat)
 - [Corresponding forward model](/D/cfm)

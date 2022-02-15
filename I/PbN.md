@@ -312,3 +312,8 @@ title: "Proof by Number"
 | P304 | bin-varrange | [Range of the variance of the binomial distribution](/P/bin-varrange) | JoramSoch | 2022-01-27 |
 | P305 | mlr-mll | [Maximum log-likelihood for multiple linear regression](/P/mlr-mll) | JoramSoch | 2022-02-04 |
 | P306 | lognorm-med | [Median of the log-normal distribution](/P/lognorm-med) | majapavlo | 2022-02-07 |
+| P307 | mlr-aic | [Akaike information criterion for multiple linear regression](/P/mlr-aic) | JoramSoch | 2022-02-11 |
+| P308 | mlr-bic | [Bayesian information criterion for multiple linear regression](/P/mlr-bic) | JoramSoch | 2022-02-11 |
+| P309 | mlr-aicc | [Corrected Akaike information criterion for multiple linear regression](/P/mlr-aicc) | JoramSoch | 2022-02-11 |
+| P310 | lognorm-pdf | [Probability density function of the log-normal distribution](/P/lognorm-pdf) | majapavlo | 2022-02-13 |
+| P311 | lognorm-mode | [Mode of the log-normal distribution](/P/lognorm-mode) | majapavlo | 2022-02-13 |

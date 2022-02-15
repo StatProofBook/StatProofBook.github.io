@@ -5,7 +5,7 @@ mathjax: true
 author: "Maja Pavlovic"
 affiliation: ""
 e_mail: "mpavlovic@uw.co.uk"
-date: 2022-02-12 19:30:00
+date: 2022-02-07 22:33:00
 
 title: "Log-normal distribution"
 chapter: "Probability Distributions"
