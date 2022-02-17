@@ -78,7 +78,7 @@ where $\mathcal{X} = \left\lbrace x = g(y): y \in \mathcal{Y} \right\rbrace$. Wi
 
 $$ \label{eq:pdf-X}
 \begin{split}
-f_X(x) &= f_Y(g^{-1}(x))\cdot \frac{dg^{-1}(x)}{dx} \\
+f_X(x) &= f_Y(g^{-1}(x))\cdot \frac{dg^{-1}(x)}{dx}} \\
 &= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{g^{-1}(x)-\mu}{\sigma} \right)^2 \right] \cdot \frac{\mathrm{d}g^{-1}(x)}{\mathrm{d}x} \\
 &= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{(\ln x)-\mu}{\sigma} \right)^2 \right] \cdot \frac{\mathrm{d}(\ln x)}{\mathrm{d}x} \\
 &= \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{ \ln x -\mu}{\sigma} \right)^2 \right] \cdot \frac{1}{x} \\
