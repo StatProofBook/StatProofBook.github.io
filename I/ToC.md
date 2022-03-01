@@ -548,16 +548,18 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.14. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
    &emsp;&ensp; 1.4.15. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
    &emsp;&ensp; 1.4.16. **[Maximum log-likelihood](/P/mlr-mll)** <br>
-   &emsp;&ensp; 1.4.17. **[Akaike information criterion](/P/mlr-aic)** <br>
-   &emsp;&ensp; 1.4.18. **[Bayesian information criterion](/P/mlr-bic)** <br>
-   &emsp;&ensp; 1.4.19. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
+   &emsp;&ensp; 1.4.17. **[Deviance function](/P/mlr-dev)** <br>
+   &emsp;&ensp; 1.4.18. **[Akaike information criterion](/P/mlr-aic)** <br>
+   &emsp;&ensp; 1.4.19. **[Bayesian information criterion](/P/mlr-bic)** <br>
+   &emsp;&ensp; 1.4.20. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
    1.5. Bayesian linear regression <br>
    &emsp;&ensp; 1.5.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
    &emsp;&ensp; 1.5.2. **[Posterior distribution](/P/blr-post)** <br>
    &emsp;&ensp; 1.5.3. **[Log model evidence](/P/blr-lme)** <br>
-   &emsp;&ensp; 1.5.4. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
-   &emsp;&ensp; 1.5.5. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
+   &emsp;&ensp; 1.5.4. **[Deviance information criterion](/P/blr-dic)** <br>
+   &emsp;&ensp; 1.5.5. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
+   &emsp;&ensp; 1.5.6. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
    
 2. Multivariate normal data
    
@@ -664,6 +666,7 @@ title: "Table of Contents"
    
    2.3. Deviance information criterion <br>
    &emsp;&ensp; 2.3.1. *[Definition](/D/dic)* <br>
+   &emsp;&ensp; 2.3.2. *[Deviance](/D/dev)* <br>
 
 3. Bayesian model selection
 
