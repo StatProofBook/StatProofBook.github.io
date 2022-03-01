@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (165 definitions)
+### JoramSoch (166 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -37,6 +37,7 @@ title: "Definition by Author"
 - [Cross-validated log model evidence](/D/cvlme)
 - [Cumulant-generating function](/D/cgf)
 - [Cumulative distribution function](/D/cdf)
+- [Deviance](/D/dev)
 - [Deviance information criterion](/D/dic)
 - [Differential cross-entropy](/D/dent-cross)
 - [Differential entropy](/D/dent)

@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2022-03-01 07:48:00
 
-title: "Deviance information criterion"
+title: "Deviance"
 chapter: "Model Selection"
 section: "Classical information criteria"
 topic: "Deviance information criterion"

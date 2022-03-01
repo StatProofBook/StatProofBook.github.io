@@ -317,3 +317,5 @@ title: "Proof by Number"
 | P309 | mlr-aicc | [Corrected Akaike information criterion for multiple linear regression](/P/mlr-aicc) | JoramSoch | 2022-02-11 |
 | P310 | lognorm-pdf | [Probability density function of the log-normal distribution](/P/lognorm-pdf) | majapavlo | 2022-02-13 |
 | P311 | lognorm-mode | [Mode of the log-normal distribution](/P/lognorm-mode) | majapavlo | 2022-02-13 |
+| P312 | mlr-dev | [Deviance for multiple linear regression](/P/mlr-dev) | JoramSoch | 2022-03-01 |
+| P313 | blr-dic | [Deviance information criterion for multiple linear regression](/P/blr-dic) | JoramSoch | 2022-03-01 |

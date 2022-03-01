@@ -178,3 +178,4 @@ title: "Definition by Number"
 | D169 | corrmat-samp | [Sample correlation matrix](/D/corrmat-samp) | JoramSoch | 2021-12-14 |
 | D170 | lognorm | [Log-normal distribution](/D/lognorm) | majapavlo | 2022-02-07 |
 | D171 | aicc | [Corrected Akaike information criterion](/D/aicc) | JoramSoch | 2022-02-11 |
+| D172 | dev | [Deviance](/D/dev) | JoramSoch | 2022-03-01 |

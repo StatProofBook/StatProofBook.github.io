@@ -49,6 +49,7 @@ title: "Definition by Topic"
 ### D
 
 - [Definition Template](/D/-temp-)
+- [Deviance](/D/dev)
 - [Deviance information criterion](/D/dic)
 - [Differential cross-entropy](/D/dent-cross)
 - [Differential entropy](/D/dent)
