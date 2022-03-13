@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (300 proofs)
+### JoramSoch (302 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -37,6 +37,7 @@ title: "Proof by Author"
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Corrected Akaike information criterion for multiple linear regression](/P/mlr-aicc)
+- [Corrected Akaike information criterion in terms of maximum log-likelihood](/P/aicc-mll)
 - [Correlation always falls between -1 and +1](/P/corr-range)
 - [Correlation coefficient in terms of standard scores](/P/corr-z)
 - [Covariance of independent random variables](/P/cov-ind)
@@ -125,6 +126,7 @@ title: "Proof by Author"
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log model evidence for the univariate Gaussian](/P/ug-lme)
 - [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
+- [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp)
 - [Log sum inequality](/P/logsum-ineq)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)

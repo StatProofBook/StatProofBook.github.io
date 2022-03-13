@@ -40,6 +40,7 @@ title: "Proofs without Source"
 - [Log model evidence for Poisson-distributed data](/P/poiss-lme)
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
+- [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
