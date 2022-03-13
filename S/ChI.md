@@ -10,7 +10,7 @@ title: "Special: General Theorems"
 |:------- |:---------- |:---------- |:------------- |:----- |
 | **Probability theory** |  |  |  |  |
 | Probability | *[prob](/D/prob)*<br>*[prob-joint](/D/prob-joint)*<br>*[prob-marg](/D/prob-marg)*<br>*[prob-cond](/D/prob-cond)* | **[prob-ind](/P/prob-ind)**<br>**[prob-exc](/P/prob-exc)** |  |  |
-| Probability axioms | *[prob-ax](/D/prob-ax)* | **[prob-mon](/P/prob-mon)**<br>**[prob-emp](/P/prob-emp)**<br>**[prob-emp](/P/prob-emp)**<br>**[prob-comp](/P/prob-comp)**<br>**[prob-add](/P/prob-add)**<br>**[prob-exh](/P/prob-exh)** |  | **[prob-tot](/P/prob-tot)** |
+| Probability axioms | *[prob-ax](/D/prob-ax)* | **[prob-mon](/P/prob-mon)**<br>**[prob-emp](/P/prob-emp)**<br>**[prob-comp](/P/prob-comp)**<br>**[prob-add](/P/prob-add)**<br>**[prob-exh](/P/prob-exh)** |  | **[prob-tot](/P/prob-tot)** |
 | Probability mass function | *[pmf](/D/pmf)* | **[pmf-sumind](/P/pmf-sumind)**<br>**[pmf-sifct](/P/pmf-sifct)**<br>**[pmf-sdfct](/P/pmf-sdfct)**<br>**[pmf-invfct](/P/pmf-invfct)** |  |  |
 | Probability density function | *[pdf](/D/pdf)* | **[pdf-sumind](/P/pdf-sumind)**<br>**[pdf-sifct](/P/pdf-sifct)**<br>**[pdf-sdfct](/P/pdf-sdfct)**<br>**[pdf-invfct](/P/pdf-invfct)**<br>**[pdf-linfct](/P/pdf-linfct)** | **[pdf-cdf](/P/pdf-cdf)** |  |
 | Cumulative distribution function | *[cdf](/D/cdf)*<br>*[cdf-joint](/D/cdf-joint)* | **[cdf-sumind](/P/cdf-sumind)**<br>**[cdf-sifct](/P/cdf-sifct)**<br>**[cdf-sdfct](/P/cdf-sdfct)** | **[cdf-pmf](/P/cdf-pmf)**<br>**[cdf-pdf](/P/cdf-pdf)** | **[cdf-pit](/P/cdf-pit)**<br>**[cdf-itm](/P/cdf-itm)**<br>**[cdf-dt](/P/cdf-dt)** |

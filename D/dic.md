@@ -35,7 +35,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $m$ be a [generative model](/D/gm) with [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Together, likelihood function and prior distribution imply a [posterior distribution](/D/post) $p(\theta \vert y, m)$.
+**Definition:** Let $m$ be a [full probability model](/D/fpm) with [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Together, likelihood function and prior distribution [imply a posterior distribution](/P/post-jl) $p(\theta \vert y, m)$.
 
 Define the posterior expected [log-likelihood](/D/llf) (PLL)
 

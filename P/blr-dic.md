@@ -63,7 +63,7 @@ $$ \label{eq:dic}
 \mathrm{DIC}(m) = -2 \log p(y|\left\langle \beta \right\rangle, \left\langle \tau \right\rangle, m) + 2 \, p_D
 $$
 
-where $\log p(y|\left\langle \beta \right\rangle, \left\langle \tau \right\rangle, m)$ is the [log-likelihood function](/D/mlr-mll) at the posterior [expectations](/D/mean) and the "effective number of parameters" $p_D$ is the [difference between the expectation of the deviance and the deviance at the expectation](/D/dic):
+where $\log p(y \vert \left\langle \beta \right\rangle, \left\langle \tau \right\rangle, m)$ is the [log-likelihood function](/D/mlr-mll) at the posterior [expectations](/D/mean) and the "effective number of parameters" $p_D$ is the [difference between the expectation of the deviance and the deviance at the expectation](/D/dic):
 
 $$ \label{eq:dic-pD}
 p_D = \left\langle D(\beta,\tau) \right\rangle - D(\left\langle \beta \right\rangle, \left\langle \tau \right\rangle) \; .

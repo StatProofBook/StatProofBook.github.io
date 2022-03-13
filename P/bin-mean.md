@@ -40,7 +40,7 @@ $$ \label{eq:bin-mean}
 $$
 
 
-**Proof:** By definition, [a binomial random variable](/D/bin) is the sum of $n$ independent and identical [Bernoulli trials](/D/bern) with success probability $p$. Therefore, the expected value is
+**Proof:** By definition, [a binomial random variable](/D/bin) is the sum of $n$ [independent and identical](/D/iid) [Bernoulli trials](/D/bern) with success probability $p$. Therefore, the expected value is
 
 $$ \label{eq:bin-mean-s1}
 \mathrm{E}(X) = \mathrm{E}(X_1 + \ldots + X_n)
@@ -49,10 +49,7 @@ $$
 and because the [expected value is a linear operator](/P/mean-lin), this is equal to
 
 $$ \label{eq:bin-mean-s2}
-\begin{split}
-\mathrm{E}(X) &= \mathrm{E}(X_1) + \ldots + \mathrm{E}(X_n) \\
-&= \sum_{i=1}^{n} \mathrm{E}(X_i) \; .
-\end{split}
+\mathrm{E}(X) = \mathrm{E}(X_1) + \ldots + \mathrm{E}(X_n) = \sum_{i=1}^{n} \mathrm{E}(X_i) \; .
 $$
 
 With the [expected value of the Bernoulli distribution](/P/bern-mean), we have:

@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (298 proofs)
+### JoramSoch (300 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -60,6 +60,8 @@ title: "Proof by Author"
 - [Derivation of the log family evidence](/P/lfe-der)
 - [Derivation of the log model evidence](/P/lme-der)
 - [Derivation of the posterior model probability](/P/pmp-der)
+- [Deviance for multiple linear regression](/P/mlr-dev)
+- [Deviance information criterion for multiple linear regression](/P/blr-dic)
 - [Differential entropy can be negative](/P/dent-neg)
 - [Differential entropy of the gamma distribution](/P/gam-dent)
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)

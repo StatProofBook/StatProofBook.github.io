@@ -36,7 +36,7 @@ $$
 Then, the Bayesian information criterion (BIC) of this model is defined as
 
 $$ \label{eq:BIC}
-\mathrm{BIC}(m) = -2 \log p(y | \hat{\theta}, m) + p \log n
+\mathrm{BIC}(m) = -2 \log p(y | \hat{\theta}, m) + k \log n
 $$
 
-where $n$ is the number of data points and $p$ is the number of free parameters estimated via \eqref{eq:MLE}.
+where $n$ is the number of data points and $k$ is the number of free parameters estimated via \eqref{eq:MLE}.

@@ -61,7 +61,7 @@ $$
 With this, we can express the weighted [residual sum of squares](/D/rss) as
 
 $$ \label{eq:wRSS}
-\mathrm{wRSS}(\beta) = \sum_{i=1}^n (W \varepsilon)_i = (W \varepsilon)^\mathrm{T} (W \varepsilon) = (Wy-WX\beta)^\mathrm{T} (Wy-WX\beta)
+\mathrm{wRSS}(\beta) = \sum_{i=1}^n (W \varepsilon)_i^2 = (W \varepsilon)^\mathrm{T} (W \varepsilon) = (Wy-WX\beta)^\mathrm{T} (Wy-WX\beta)
 $$
 
 which can be developed into

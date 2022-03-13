@@ -37,7 +37,7 @@ $$
 Then, the Akaike information criterion (AIC) of this model is defined as
 
 $$ \label{eq:AIC}
-\mathrm{AIC}(m) = -2 \log p(y | \hat{\theta}, m) + 2 \, p
+\mathrm{AIC}(m) = -2 \log p(y | \hat{\theta}, m) + 2 \, k
 $$
 
-where $p$ is the number of free parameters estimated via \eqref{eq:MLE}.
+where $k$ is the number of free parameters estimated via \eqref{eq:MLE}.
