@@ -27,46 +27,27 @@ $$ \label{eq:LME-term}
 \mathrm{LME}(m) = \log p(y|m) \; ,
 $$
 
-can be expressed
-
-1) as
+can be expressed in terms of [likelihood](/D/lf) and [prior](/D/prior) as
 
 $$ \label{eq:LME-marg}
-\mathrm{LME}(m) = \log \int p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta
-$$
-
-2) or
-
-$$ \label{eq:LME-bayes}
-\mathrm{LME}(m) = \log p(y|\theta,m) + \log p(\theta|m) - \log p(\theta|y,m) \; .
+\mathrm{LME}(m) = \log \int p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta \; .
 $$
 
 
-**Proof:**
+**Proof:** This a consequence of the [law of marginal probability](/D/prob-marg) for continuous variables
 
-1) The first expression is a simple consequence of the [law of marginal probability](/D/prob-marg) for continuous variables according to which
-
-$$ \label{eq:ME}
-p(y|m) = \int p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta
+$$ \label{eq:prob-marg}
+p(y|m) = \int p(y,\theta|m) \, \mathrm{d}\theta
 $$
 
-which, when logarithmized, gives
+and the [law of conditional probability](/D/prob-cond) according to which
+
+$$ \label{eq:prob-cond}
+p(y,\theta|m) = p(y|\theta,m) \, p(\theta|m) \; .
+$$
+
+Combining \eqref{eq:prob-marg} with \eqref{eq:prob-cond} and logarithmizing, we have:
 
 $$ \label{eq:LME-marg-qed}
 \mathrm{LME}(m) = \log p(y|m) = \log \int p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta \; .
-$$
-
-2) The second expression can be derived from [Bayes' theorem](/P/bayes-th) which makes a statement about the [posterior distribution](/D/post):
-
-$$ \label{eq:BT}
-p(\theta|y,m) = \frac{p(y|\theta,m) \, p(\theta|m)}{p(y|m)} \; .
-$$
-
-Rearranging for $p(y \vert m)$ and logarithmizing, we have:
-
-$$ \label{eq:LME-bayes-qed}
-\begin{split}
-\mathrm{LME}(m) = \log p(y|m) & = \log \frac{p(y|\theta,m) \, p(\theta|m)}{p(\theta|y,m)} \\
-&= \log p(y|\theta,m) + \log p(\theta|m) - \log p(\theta|y,m) \; .
-\end{split}
 $$
