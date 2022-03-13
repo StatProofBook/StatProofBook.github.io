@@ -659,6 +659,7 @@ title: "Table of Contents"
    2.1. Akaike information criterion <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/aic)* <br>
    &emsp;&ensp; 2.1.2. *[Corrected AIC](/D/aicc)* <br>
+   &emsp;&ensp; 2.1.3. **[Corrected AIC and maximum log-likelihood](/P/aicc-mll)** <br>
    
    2.2. Bayesian information criterion <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/bic)* <br>
@@ -673,11 +674,12 @@ title: "Table of Contents"
    3.1. Log model evidence <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/lme)* <br>
    &emsp;&ensp; 3.1.2. **[Derivation](/P/lme-der)** <br>
-   &emsp;&ensp; 3.1.3. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
-   &emsp;&ensp; 3.1.4. *[Uniform-prior log model evidence](/D/uplme)* <br>
-   &emsp;&ensp; 3.1.5. *[Cross-validated log model evidence](/D/cvlme)* <br>
-   &emsp;&ensp; 3.1.6. *[Empirical Bayesian log model evidence](/D/eblme)* <br>
-   &emsp;&ensp; 3.1.7. *[Variational Bayesian log model evidence](/D/vblme)* <br>
+   &emsp;&ensp; 3.1.3. **[Expression using prior and posterior](/P/lme-pnp)** <br>
+   &emsp;&ensp; 3.1.4. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
+   &emsp;&ensp; 3.1.5. *[Uniform-prior log model evidence](/D/uplme)* <br>
+   &emsp;&ensp; 3.1.6. *[Cross-validated log model evidence](/D/cvlme)* <br>
+   &emsp;&ensp; 3.1.7. *[Empirical Bayesian log model evidence](/D/eblme)* <br>
+   &emsp;&ensp; 3.1.8. *[Variational Bayesian log model evidence](/D/vblme)* <br>
    
    3.2. Log family evidence <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/lfe)* <br>
