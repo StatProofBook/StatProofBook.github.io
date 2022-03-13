@@ -60,7 +60,7 @@ $$ \label{eq:AnC-s1}
 p(\theta|y,m) = \frac{p(y|\theta,m) \, p(\theta|m)}{p(y|m)} \; .
 $$
 
-[Rearranging this for the model evidence](/P/lme-der), we have:
+[Rearranging this for the model evidence](/P/lme-pnp), we have:
 
 $$ \label{eq:AnC-s2}
 p(y|m) = \frac{p(y|\theta,m) \, p(\theta|m)}{p(\theta|y,m)} \; .
