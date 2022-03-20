@@ -229,8 +229,9 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.1. *[Likelihood function](/D/lf)* <br>
    &emsp;&ensp; 4.1.2. *[Log-likelihood function](/D/llf)* <br>
    &emsp;&ensp; 4.1.3. *[Maximum likelihood estimation](/D/mle)* <br>
-   &emsp;&ensp; 4.1.4. *[Maximum log-likelihood](/D/mll)* <br>
-   &emsp;&ensp; 4.1.5. *[Method of moments](/D/mome)* <br>
+   &emsp;&ensp; 4.1.4. **[MLE can be biased](/P/mle-bias)** <br>
+   &emsp;&ensp; 4.1.5. *[Maximum log-likelihood](/D/mll)* <br>
+   &emsp;&ensp; 4.1.6. *[Method of moments](/D/mome)* <br>
    
    4.2. Statistical hypotheses <br>
    &emsp;&ensp; 4.2.1. *[Statistical hypothesis](/D/hyp)* <br>
@@ -249,6 +250,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.3.8. *[Significance level](/D/alpha)* <br>
    &emsp;&ensp; 4.3.9. *[Critical value](/D/cval)* <br>
    &emsp;&ensp; 4.3.10. *[p-value](/D/pval)* <br>
+   &emsp;&ensp; 4.3.11. **[Distribution of p-value under null hypothesis](/P/pval-h0)** <br>
 
 5. Bayesian statistics
    
