@@ -661,7 +661,8 @@ title: "Table of Contents"
    2.1. Akaike information criterion <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/aic)* <br>
    &emsp;&ensp; 2.1.2. *[Corrected AIC](/D/aicc)* <br>
-   &emsp;&ensp; 2.1.3. **[Corrected AIC and maximum log-likelihood](/P/aicc-mll)** <br>
+   &emsp;&ensp; 2.1.3. **[Corrected AIC and uncorrected AIC](/P/aicc-aic)** <br>
+   &emsp;&ensp; 2.1.4. **[Corrected AIC and maximum log-likelihood](/P/aicc-mll)** <br>
    
    2.2. Bayesian information criterion <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/bic)* <br>
