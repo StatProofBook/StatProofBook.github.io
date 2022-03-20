@@ -319,3 +319,5 @@ title: "Proof by Number"
 | P311 | lognorm-mode | [Mode of the log-normal distribution](/P/lognorm-mode) | majapavlo | 2022-02-13 |
 | P312 | mlr-dev | [Deviance for multiple linear regression](/P/mlr-dev) | JoramSoch | 2022-03-01 |
 | P313 | blr-dic | [Deviance information criterion for multiple linear regression](/P/blr-dic) | JoramSoch | 2022-03-01 |
+| P314 | lme-pnp | [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp) | JoramSoch | 2022-03-11 |
+| P315 | aicc-mll | [Corrected Akaike information criterion in terms of maximum log-likelihood](/P/aicc-mll) | JoramSoch | 2021-03-11 |
