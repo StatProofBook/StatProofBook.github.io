@@ -51,7 +51,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.5. **[Range of probability](/P/prob-range)** <br>
    &emsp;&ensp; 1.4.6. **[Addition law of probability](/P/prob-add)** <br>
    &emsp;&ensp; 1.4.7. **[Law of total probability](/P/prob-tot)** <br>
-   &emsp;&ensp; 1.4.8. **[Probability of exhaustive events](/P/prob-exh)** <br>
+   &emsp;&ensp; 1.4.8. **[Probability of exhaustive events](/P/prob-exh)** (1) <br>
+   &emsp;&ensp; 1.4.9. **[Probability of exhaustive events](/P/prob-exh2)** (2) <br>
    
    1.5. Probability distributions <br>
    &emsp;&ensp; 1.5.1. *[Probability distribution](/D/dist)* <br>
@@ -218,10 +219,12 @@ title: "Table of Contents"
 3. Estimation theory
    
    3.1. Point estimates <br>
-   &emsp;&ensp; 3.1.1. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
+   &emsp;&ensp; 3.1.1. *[Mean squared error](/D/mse)* <br>
+   &emsp;&ensp; 3.1.2. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
    
    3.2. Interval estimates <br>
-   &emsp;&ensp; 3.2.1. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
+   &emsp;&ensp; 3.2.1. *[Confidence interval](/D/ci)* <br>
+   &emsp;&ensp; 3.2.2. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
 
 4. Frequentist statistics
    
