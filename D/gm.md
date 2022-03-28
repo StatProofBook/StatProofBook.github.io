@@ -34,4 +34,4 @@ $$ \label{eq:gm}
 m: \, y \sim \mathcal{D}(\theta) \; ,
 $$
 
-where \mathcal{D} denotes an arbitrary probability distribution and \theta are the parameters of this distribution.
+where $\mathcal{D}$ denotes an arbitrary probability distribution and $\theta$ are the parameters of this distribution.

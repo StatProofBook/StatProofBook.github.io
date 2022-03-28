@@ -50,7 +50,7 @@ $$
 where $\log p(y \vert \left\langle \theta \right\rangle, m)$ is the [log-likelihood function](/D/llf) at the [posterior](/D/post) [expectation](/D/mean) and the "effective number of parameters" $p_D$ is the [difference between the expectation of the deviance and the deviance at the expectation](/D/dic):
 
 $$ \label{eq:DIC-pD}
-p_D = \left\langle D(\theta) \right\rangle - D(\left\langle \beta \right\rangle, \left\langle \tau \right\rangle) \; .
+p_D = \left\langle D(\theta) \right\rangle - D(\left\langle \theta \right\rangle) \; .
 $$
 
 In these equations, $\left\langle \cdot \right\rangle$ denotes [expected values](/D/mean) across the [posterior distribution](/D/post).
