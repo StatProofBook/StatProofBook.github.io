@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (166 definitions)
+### JoramSoch (168 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -23,6 +23,7 @@ title: "Definition by Author"
 - [Conditional entropy](/D/ent-cond)
 - [Conditional independence](/D/ind-cond)
 - [Conditional probability distribution](/D/dist-cond)
+- [Confidence interval](/D/ci)
 - [Conjugate and non-conjugate prior distribution](/D/prior-conj)
 - [Constant](/D/const)
 - [Continuous uniform distribution](/D/cuni)
@@ -89,6 +90,7 @@ title: "Definition by Author"
 - [Maximum entropy prior distribution](/D/prior-maxent)
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
+- [Mean squared error](/D/mse)
 - [Median](/D/med)
 - [Method-of-moments estimation](/D/mome)
 - [Minimum](/D/min)

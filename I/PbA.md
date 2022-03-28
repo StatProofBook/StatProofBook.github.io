@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (302 proofs)
+### JoramSoch (306 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -36,6 +36,7 @@ title: "Proof by Author"
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Convexity of the cross-entropy](/P/entcross-conv)
+- [Corrected Akaike information criterion converges to uncorrected Akaike information criterion when infinite data are available](/P/aicc-aic)
 - [Corrected Akaike information criterion for multiple linear regression](/P/mlr-aicc)
 - [Corrected Akaike information criterion in terms of maximum log-likelihood](/P/aicc-mll)
 - [Correlation always falls between -1 and +1](/P/corr-range)
@@ -133,6 +134,7 @@ title: "Proof by Author"
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
+- [Maximum likelihood estimation can result in biased estimates](/P/mle-bias)
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
@@ -239,6 +241,7 @@ title: "Proof by Author"
 - [Probability mass function of the discrete uniform distribution](/P/duni-pmf)
 - [Probability mass function of the multinomial distribution](/P/mult-pmf)
 - [Probability of exhaustive events](/P/prob-exh)
+- [Probability of exhaustive events](/P/prob-exh2)
 - [Probability of the complement](/P/prob-comp)
 - [Probability of the empty set](/P/prob-emp)
 - [Probability under mutual exclusivity](/P/prob-exc)
@@ -285,6 +288,7 @@ title: "Proof by Author"
 - [Second central moment is variance](/P/momcent-2nd)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Sums of squares for simple linear regression](/P/slr-sss)
+- [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
 - [The sum of residuals is zero in simple linear regression](/P/slr-ressum)

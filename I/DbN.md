@@ -179,3 +179,5 @@ title: "Definition by Number"
 | D170 | lognorm | [Log-normal distribution](/D/lognorm) | majapavlo | 2022-02-07 |
 | D171 | aicc | [Corrected Akaike information criterion](/D/aicc) | JoramSoch | 2022-02-11 |
 | D172 | dev | [Deviance](/D/dev) | JoramSoch | 2022-03-01 |
+| D173 | mse | [Mean squared error](/D/mse) | JoramSoch | 2022-03-27 |
+| D174 | ci | [Confidence interval](/D/ci) | JoramSoch | 2022-03-27 |

@@ -320,4 +320,8 @@ title: "Proof by Number"
 | P312 | mlr-dev | [Deviance for multiple linear regression](/P/mlr-dev) | JoramSoch | 2022-03-01 |
 | P313 | blr-dic | [Deviance information criterion for multiple linear regression](/P/blr-dic) | JoramSoch | 2022-03-01 |
 | P314 | lme-pnp | [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp) | JoramSoch | 2022-03-11 |
-| P315 | aicc-mll | [Corrected Akaike information criterion in terms of maximum log-likelihood](/P/aicc-mll) | JoramSoch | 2021-03-11 |
+| P315 | aicc-mll | [Corrected Akaike information criterion in terms of maximum log-likelihood](/P/aicc-mll) | JoramSoch | 2022-03-11 |
+| P316 | aicc-aic | [Corrected Akaike information criterion converges to uncorrected Akaike information criterion when infinite data are available](/P/aicc-aic) | JoramSoch | 2022-03-18 |
+| P317 | mle-bias | [Maximum likelihood estimation can result in biased estimates](/P/mle-bias) | JoramSoch | 2022-03-18 |
+| P318 | pval-h0 | [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0) | JoramSoch | 2022-03-18 |
+| P319 | prob-exh2 | [Probability of exhaustive events](/P/prob-exh2) | JoramSoch | 2022-03-27 |

@@ -9,8 +9,6 @@ title: "Definitions without Source"
 - [Conditional differential entropy](/D/dent-cond)
 - [Dirichlet-distributed data](/D/dir-data)
 - [Estimation matrix](/D/emat)
-- [Full probability model](/D/fpm)
-- [Generative model](/D/gm)
 - [Joint differential entropy](/D/dent-joint)
 - [Joint likelihood](/D/jl)
 - [Likelihood function](/D/lf)

@@ -44,6 +44,7 @@ title: "Proofs without Source"
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
+- [Maximum likelihood estimation can result in biased estimates](/P/mle-bias)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for simple linear regression](/P/slr-mle)
