@@ -35,30 +35,22 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $m$ be a [full probability model](/D/fpm) with [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Together, likelihood function and prior distribution [imply a posterior distribution](/P/post-jl) $p(\theta \vert y, m)$.
+**Definition:** Let $m$ be a [full probability model](/D/fpm) with [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Together, likelihood function and prior distribution [imply a posterior distribution](/P/post-jl) $p(\theta \vert y, m)$. Consider the [deviance](/D/dev) which is minus two times the [log-likelihood function](/D/llf):
 
-Define the posterior expected [log-likelihood](/D/llf) (PLL)
-
-$$ \label{eq:PLL}
-\mathrm{PLL}(m) = \left\langle \log p(y|\theta,m) \right\rangle_{\theta|y}
+$$ \label{eq:dev}
+D(\theta) = -2 \log p(y|\theta,m) \; .
 $$
 
-and the [log-likelihood](/D/llf) at the posterior expectation (LLP)
-
-$$ \label{eq:LLP}
-\mathrm{LLP}(m) = \log p(y|\left\langle \theta \right\rangle_{\theta|y},m)
-$$
-
-where $\left\langle \cdot \right\rangle_{\theta \vert y}$ denotes an expectation across the posterior distribution.
-
-Then, the deviance information criterion (DIC) of the model is defined as
+Then, the deviance information criterion (DIC) of the model $m$ is defined as
 
 $$ \label{eq:DIC}
-\mathrm{DIC}(m) = -2 \, \mathrm{LLP}(m) + 2 \, p_D \quad \text{or} \quad \mathrm{DIC}(m) = -2 \, \mathrm{PLL}(m) + p_D
+\mathrm{DIC}(m) = -2 \log p(y|\left\langle \theta \right\rangle, m) + 2 \, p_D
 $$
 
-where the "effective number of parameters" $p_D$ is given by
+where $\log p(y \vert \left\langle \theta \right\rangle, m)$ is the [log-likelihood function](/D/llf) at the [posterior](/D/post) [expectation](/D/mean) and the "effective number of parameters" $p_D$ is the [difference between the expectation of the deviance and the deviance at the expectation](/D/dic):
 
 $$ \label{eq:DIC-pD}
-p_D = -2 \, \mathrm{PLL}(m) +2 \, \mathrm{LLP}(m) \; .
+p_D = \left\langle D(\theta) \right\rangle - D(\left\langle \beta \right\rangle, \left\langle \tau \right\rangle) \; .
 $$
+
+In these equations, $\left\langle \cdot \right\rangle$ denotes [expected values](/D/mean) across the [posterior distribution](/D/post).

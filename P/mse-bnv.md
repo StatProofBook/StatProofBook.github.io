@@ -36,40 +36,40 @@ $$
 where the [variance](/D/var) is given by
 
 $$ \label{eq:Var}
-\mathrm{Var}(\hat{\theta}) = \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right]
+\mathrm{Var}(\hat{\theta}) = \mathrm{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right]
 $$
 
 and the [bias](/D/bias) is given by
 
 $$ \label{eq:Bias}
-\mathrm{Bias}(\hat{\theta},\theta) = \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \; .
+\mathrm{Bias}(\hat{\theta},\theta) = \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \; .
 $$
 
 
-**Proof:** The mean squared error (MSE) [is defined as](/D/mse) the [expected value](/D/mean) of the squared deviation of the estimated value $\hat{\theta}$ from the true value $\theta$ of a parameter, over all values $\hat{\theta}$:
+**Proof:** The [mean squared error](/D/mse) (MSE) is defined as the [expected value](/D/mean) of the squared deviation of the estimated value $\hat{\theta}$ from the true value $\theta$ of a parameter, over all values $\hat{\theta}$:
 
 $$ \label{eq:MSE-def}
-\mathrm{MSE}(\hat{\theta}) = \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \theta \right)^2 \right] \; .
+\mathrm{MSE}(\hat{\theta}) = \mathrm{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \theta \right)^2 \right] \; .
 $$
 
 This formula can be evaluated in the following way:
 
 $$ \label{eq:MSE-ref1}
 \begin{split}
-\mathrm{MSE}(\hat{\theta}) &= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \theta \right)^2 \right] \\
-&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) + \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \right] \\
-&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 + 2 \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right) \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) + \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \right] \\
-&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + \mathbb{E}_{\hat{\theta}}\left[ 2 \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right) \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \right] + \mathbb{E}_{\hat{\theta}}\left[ \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \right] \; . \\
+\mathrm{MSE}(\hat{\theta}) &= \mathrm{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \theta \right)^2 \right] \\
+&= \mathrm{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) + \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \right] \\
+&= \mathrm{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 + 2 \left( \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right) \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) + \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \right] \\
+&= \mathrm{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + \mathrm{E}_{\hat{\theta}}\left[ 2 \left( \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right) \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \right] + \mathrm{E}_{\hat{\theta}}\left[ \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \right] \; . \\
 \end{split}
 $$
 
-Because $\mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta$ is constant as a function of $\hat{\theta}$, we have:
+Because $\mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta$ is constant as a function of $\hat{\theta}$, we have:
 
 $$ \label{eq:MSE-ref2}
 \begin{split}
-\mathrm{MSE}(\hat{\theta}) &= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + 2  \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \mathbb{E}_{\hat{\theta}}\left[ \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right] + \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \\
-&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + 2  \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right) + \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \\
-&= \mathbb{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathbb{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + \left( \mathbb{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \; . \\
+\mathrm{MSE}(\hat{\theta}) &= \mathrm{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + 2  \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \mathrm{E}_{\hat{\theta}}\left[ \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right] + \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \\
+&= \mathrm{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + 2  \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right) \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right) + \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \\
+&= \mathrm{E}_{\hat{\theta}}\left[ \left( \hat{\theta} - \mathrm{E}_{\hat{\theta}}(\hat{\theta}) \right)^2 \right] + \left( \mathrm{E}_{\hat{\theta}}(\hat{\theta}) - \theta \right)^2 \; . \\
 \end{split}
 $$
 

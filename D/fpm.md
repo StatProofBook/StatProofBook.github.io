@@ -14,6 +14,12 @@ topic: "Probabilistic modeling"
 definition: "Full probability model"
 
 sources:
+  - authors: "Gelman A, Carlin JB, Stern HS, Dunson DB, Vehtari A, Rubin DB"
+    year: 2014
+    title: "Probability and inference"
+    in: "Bayesian Data Analysis"
+    pages: "ch. 1, p. 3"
+    url: "http://www.stat.columbia.edu/~gelman/book/"
 
 def_id: "D30"
 shortcut: "fpm"

@@ -39,7 +39,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** [Probability](/D/prob) is monotonic, i.e. if $A$ is a subset of or equal to  $B$, then the probability of $A$ is smaller than or equal to $B$:
+**Theorem:** [Probability](/D/prob) is monotonic, i.e. if $A$ is a subset of or equal to $B$, then the probability of $A$ is smaller than or equal to $B$:
 
 $$ \label{eq:prob-mon}
 A \subseteq B \quad \Rightarrow \quad P(A) \leq P(B) \; .

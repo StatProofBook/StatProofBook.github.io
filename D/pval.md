@@ -31,8 +31,8 @@ username: "JoramSoch"
 
 Then, the p-value is the probability of obtaining a test statistic more extreme than or as extreme as $t_\mathrm{obs}$, given that the null hypothesis $H_0$ is true:
 
-* $p = F_T^{-1}(t_\mathrm{obs})$, if $H_1$ is a left-sided [one-tailed hypothesis](/D/hyp-tail);
+* $p = F_T(t_\mathrm{obs})$, if $H_1$ is a left-sided [one-tailed hypothesis](/D/hyp-tail);
 
-* $p = 1 - F_T^{-1}(t_\mathrm{obs})$, if $H_1$ is a right-sided [one-tailed hypothesis](/D/hyp-tail);
+* $p = 1 - F_T(t_\mathrm{obs})$, if $H_1$ is a right-sided [one-tailed hypothesis](/D/hyp-tail);
 
-* $p = 2 \cdot \min \left( \left[ F_T^{-1}(t_\mathrm{obs}), \, 1 - F_T^{-1}(t_\mathrm{obs}) \right] \right)$, if $H_1$ is a [two-tailed hypothesis](/D/hyp-tail).
+* $p = 2 \cdot \min \left( \left[ F_T(t_\mathrm{obs}), \, 1 - F_T(t_\mathrm{obs}) \right] \right)$, if $H_1$ is a [two-tailed hypothesis](/D/hyp-tail).
