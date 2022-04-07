@@ -65,7 +65,7 @@ $$
 and
 
 $$ \label{eq:exp-pdf-neq0}
-e^{-lambda x} < 0 \quad \text{for any} \quad x > 0 \; ,
+0 < e^{-lambda x} < 1 \quad \text{for any} \quad x > 0 \; ,
 $$
 
 it follows that
