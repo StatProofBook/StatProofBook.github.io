@@ -7,6 +7,11 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-02-12 15:53:00
 
+author: "Heiner Atze"
+affiliation: NA
+e_mail: "heiner.atze@gmx.net"
+date: 2022-04-07 17:16
+
 title: "Mode of the exponential distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
@@ -54,13 +59,13 @@ $$
 Since
 
 $$ \label{eq:exp-pdf-eq0}
-\lim_{x \to 0} f_X(x) = \infty
+f_X(0) = \lambda
 $$
 
 and
 
 $$ \label{eq:exp-pdf-neq0}
-f_X(x) < \infty \quad \text{for any} \quad x \neq 0 \; ,
+e^{-lambda x} < 0 \quad \text{for any} \quad x > 0 \; ,
 $$
 
 it follows that
