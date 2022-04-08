@@ -52,7 +52,7 @@ $$ \label{eq:exp-pdf}
 f_X(x) = \left\{
 \begin{array}{rl}
 0 \; , & \text{if} \; x < 0 \\
-\lambda e{-\lambda x} \; , & \text{if} \; x \geq 0 \; .
+\lambda e^{-\lambda x} \; , & \text{if} \; x \geq 0 \; .
 \end{array}
 \right.
 $$

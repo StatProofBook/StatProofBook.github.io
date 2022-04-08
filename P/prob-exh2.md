@@ -65,7 +65,7 @@ $$ \label{eq:B-exclusive}
 B_i \cap B_j = \emptyset \quad \text{for all} \quad i \neq j \; .
 $$
 
-Since [the probability of the empty set is zero](/P/prob-emp), this means that the second sum on the righ-hand side of \eqref{eq:prob-all-s1} disappears:
+Since [the probability of the empty set is zero](/P/prob-emp), this means that the second sum on the right-hand side of \eqref{eq:prob-all-s1} disappears:
 
 $$ \label{eq:prob-all-s2}
 P(\cup_i^n \, B_i) = \sum_i^n P(B_i) \; .
