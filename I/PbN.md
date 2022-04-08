@@ -57,7 +57,7 @@ title: "Proof by Number"
 | P48 | exp-cdf | [Cumulative distribution function of the exponential distribution](/P/exp-cdf) | JoramSoch | 2020-02-11 |
 | P49 | exp-med | [Median of the exponential distribution](/P/exp-med) | JoramSoch | 2020-02-11 |
 | P50 | exp-qf | [Quantile function of the exponential distribution](/P/exp-qf) | JoramSoch | 2020-02-12 |
-| P51 | exp-mode | [Mode of the exponential distribution](/P/exp-mode) | JoramSoch | 2020-02-12 |
+| P51 | exp-mode | [Mode of the exponential distribution](/P/exp-mode) | kantundpeterpan | 2020-02-12 |
 | P52 | mean-nonneg | [Non-negativity of the expected value](/P/mean-nonneg) | JoramSoch | 2020-02-13 |
 | P53 | mean-lin | [Linearity of the expected value](/P/mean-lin) | JoramSoch | 2020-02-13 |
 | P54 | mean-mono | [Monotonicity of the expected value](/P/mean-mono) | JoramSoch | 2020-02-17 |

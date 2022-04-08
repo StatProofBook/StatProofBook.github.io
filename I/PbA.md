@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (306 proofs)
+### JoramSoch (305 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -162,7 +162,6 @@ title: "Proof by Author"
 - [Median of the normal distribution](/P/norm-med)
 - [Method of moments for beta-distributed data](/P/beta-mome)
 - [Mode of the continuous uniform distribution](/P/cuni-med)
-- [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)
 - [Moment-generating function of a function of a random variable](/P/mgf-fct)
@@ -316,6 +315,10 @@ title: "Proof by Author"
 ### StatProofBook (1 proof)
 
 - [Proof Template](/P/-temp-)
+
+### kantundpeterpan (1 proof)
+
+- [Mode of the exponential distribution](/P/exp-mode)
 
 ### kjpetrykowski (2 proofs)
 

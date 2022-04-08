@@ -2,15 +2,15 @@
 layout: proof
 mathjax: true
 
-author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+# author: "Joram Soch"
+# affiliation: "BCCN Berlin"
+# e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-02-12 15:53:00
 
 author: "Heiner Atze"
-affiliation: NA
+affiliation: "n/a"
 e_mail: "heiner.atze@gmx.net"
-date: 2022-04-07 17:16
+# date: 2022-04-07 17:16
 
 title: "Mode of the exponential distribution"
 chapter: "Probability Distributions"
@@ -22,7 +22,8 @@ sources:
 
 proof_id: "P51"
 shortcut: "exp-mode"
-username: "JoramSoch"
+# username: "JoramSoch"
+username: "kantundpeterpan"
 ---
 
 
@@ -51,7 +52,7 @@ $$ \label{eq:exp-pdf}
 f_X(x) = \left\{
 \begin{array}{rl}
 0 \; , & \text{if} \; x < 0 \\
-\lambda \exp[-\lambda x] \; , & \text{if} \; x \geq 0 \; .
+\lambda e{-\lambda x} \; , & \text{if} \; x \geq 0 \; .
 \end{array}
 \right.
 $$
@@ -65,7 +66,7 @@ $$
 and
 
 $$ \label{eq:exp-pdf-neq0}
-0 < e^{-lambda x} < 1 \quad \text{for any} \quad x > 0 \; ,
+0 < e^{-\lambda x} < 1 \quad \text{for any} \quad x > 0 \; ,
 $$
 
 it follows that
