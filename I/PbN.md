@@ -325,3 +325,4 @@ title: "Proof by Number"
 | P317 | mle-bias | [Maximum likelihood estimation can result in biased estimates](/P/mle-bias) | JoramSoch | 2022-03-18 |
 | P318 | pval-h0 | [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0) | JoramSoch | 2022-03-18 |
 | P319 | prob-exh2 | [Probability of exhaustive events](/P/prob-exh2) | JoramSoch | 2022-03-27 |
+| P320 | slr-olscorr | [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr) | JoramSoch | 2022-04-14 |
