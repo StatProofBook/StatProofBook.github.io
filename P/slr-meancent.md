@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** In [simple linear regression](/D/slr), when the independent variable $y$ and/or the dependent variable $x$ are [mean-centered](/D/mean), the [ordinary least squares](/P/slr-ols) estimate for the intercept changes, but that of the slope does not.
+**Theorem:** In [simple linear regression](/D/slr), when the dependent variable $y$ and/or the independent variable $x$ are [mean-centered](/D/mean), the [ordinary least squares](/P/slr-ols) estimate for the intercept changes, but that of the slope does not.
 
 **Proof:**
 
