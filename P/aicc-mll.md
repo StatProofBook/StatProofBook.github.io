@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2021-03-11 16:53:00
+date: 2022-03-11 16:53:00
 
 title: "Corrected Akaike information criterion in terms of maximum log-likelihood"
 chapter: "Model Selection"

@@ -49,13 +49,13 @@ $$
 2) and $\hat{\sigma}^2$ is a [biased estimator](/D/est-unb) of $\sigma^2$
 
 $$ \label{eq:resvar-var}
-\mathbb{E}\left[ \hat{\sigma}^2 \right] \neq \sigma^2 \; ,
+\mathrm{E}\left[ \hat{\sigma}^2 \right] \neq \sigma^2 \; ,
 $$
 
 more precisely:
 
 $$ \label{eq:resvar-bias}
-\mathbb{E}\left[ \hat{\sigma}^2 \right] = \frac{n-1}{n} \sigma^2 \; .
+\mathrm{E}\left[ \hat{\sigma}^2 \right] = \frac{n-1}{n} \sigma^2 \; .
 $$
 
 
@@ -75,49 +75,49 @@ $$
 
 $$ \label{eq:E-resvar-mle-s1}
 \begin{split}
-\mathbb{E}\left[ \hat{\sigma}^2 \right] &= \mathbb{E}\left[ \frac{1}{n} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \right] \\
-&= \frac{1}{n} \mathbb{E}\left[ \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \right] \\
-&= \frac{1}{n} \mathbb{E}\left[ \sum_{i=1}^{n} \left( x_i^2 - 2 x_i \bar{x} + \bar{x}^2 \right) \right] \\
-&= \frac{1}{n} \mathbb{E}\left[ \sum_{i=1}^{n} x_i^2 - 2 \sum_{i=1}^{n} x_i \bar{x} + \sum_{i=1}^{n} \bar{x}^2 \right] \\
-&= \frac{1}{n} \mathbb{E}\left[ \sum_{i=1}^{n} x_i^2 - 2 n \bar{x}^2 + n \bar{x}^2 \right] \\
-&= \frac{1}{n} \mathbb{E}\left[ \sum_{i=1}^{n} x_i^2 - n \bar{x}^2 \right] \\
-&= \frac{1}{n} \left( \sum_{i=1}^{n} \mathbb{E} \left[ x_i^2 \right] - n \mathbb{E}\left[ \bar{x}^2 \right] \right) \\
-&= \frac{1}{n} \sum_{i=1}^{n} \mathbb{E} \left[ x_i^2 \right] - \mathbb{E}\left[ \bar{x}^2 \right] \\
+\mathrm{E}\left[ \hat{\sigma}^2 \right] &= \mathrm{E}\left[ \frac{1}{n} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} \left( x_i^2 - 2 x_i \bar{x} + \bar{x}^2 \right) \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} x_i^2 - 2 \sum_{i=1}^{n} x_i \bar{x} + \sum_{i=1}^{n} \bar{x}^2 \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} x_i^2 - 2 n \bar{x}^2 + n \bar{x}^2 \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} x_i^2 - n \bar{x}^2 \right] \\
+&= \frac{1}{n} \left( \sum_{i=1}^{n} \mathrm{E} \left[ x_i^2 \right] - n \mathrm{E}\left[ \bar{x}^2 \right] \right) \\
+&= \frac{1}{n} \sum_{i=1}^{n} \mathrm{E} \left[ x_i^2 \right] - \mathrm{E}\left[ \bar{x}^2 \right] \\
 \end{split}
 $$
 
 Due to the [partition of variance into expected values](/P/var-mean)
 
 $$ \label{eq:var-mean}
-\mathrm{Var}(X) = \mathbb{E}(X^2) - \mathbb{E}(X)^2 \; ,
+\mathrm{Var}(X) = \mathrm{E}(X^2) - \mathrm{E}(X)^2 \; ,
 $$
 
 we have
 
 $$ \label{eq:Var-xi-xb}
 \begin{split}
-\mathrm{Var}(x_i) &= \mathbb{E}(x_i^2) - \mathbb{E}(x_i)^2 \\
-\mathrm{Var}(\bar{x}) &= \mathbb{E}(\bar{x}^2) - \mathbb{E}(\bar{x})^2 \; ,
+\mathrm{Var}(x_i) &= \mathrm{E}(x_i^2) - \mathrm{E}(x_i)^2 \\
+\mathrm{Var}(\bar{x}) &= \mathrm{E}(\bar{x}^2) - \mathrm{E}(\bar{x})^2 \; ,
 \end{split}
 $$
 
 such that \eqref{eq:E-resvar-mle-s1} becomes
 
 $$ \label{eq:E-resvar-mle-s2}
-\mathbb{E}\left[ \hat{\sigma}^2 \right] = \frac{1}{n} \sum_{i=1}^{n} \left( \mathrm{Var}(x_i) + \mathbb{E}(x_i)^2 \right) - \left( \mathrm{Var}(\bar{x}) + \mathbb{E}(\bar{x})^2 \right) \; .
+\mathrm{E}\left[ \hat{\sigma}^2 \right] = \frac{1}{n} \sum_{i=1}^{n} \left( \mathrm{Var}(x_i) + \mathrm{E}(x_i)^2 \right) - \left( \mathrm{Var}(\bar{x}) + \mathrm{E}(\bar{x})^2 \right) \; .
 $$
 
 From \eqref{eq:ug}, it follows that
 
 $$ \label{eq:E-Var-xi}
-\mathbb{E}(x_i) = \mu \quad \text{and} \quad \mathrm{Var}(x_i) = \sigma^2 \; .
+\mathrm{E}(x_i) = \mu \quad \text{and} \quad \mathrm{Var}(x_i) = \sigma^2 \; .
 $$
 
 The [expectation](/D/mean) of $\bar{x}$ given by \eqref{eq:mean-mle} is
 
 $$ \label{eq:E-mean-mle}
 \begin{split}
-\mathbb{E}\left[ \bar{x} \right] &= \mathbb{E}\left[ \frac{1}{n} \sum_{i=1}^{n} x_i \right] = \frac{1}{n} \sum_{i=1}^{n} \mathbb{E}\left[ x_i \right] \\
+\mathrm{E}\left[ \bar{x} \right] &= \mathrm{E}\left[ \frac{1}{n} \sum_{i=1}^{n} x_i \right] = \frac{1}{n} \sum_{i=1}^{n} \mathrm{E}\left[ x_i \right] \\
 &\overset{\eqref{eq:E-Var-xi}}{=} \frac{1}{n} \sum_{i=1}^{n} \mu = \frac{1}{n} \cdot n \cdot \mu \\
 &= \mu \; .
 \end{split}
@@ -137,10 +137,10 @@ Plugging \eqref{eq:E-Var-xi}, \eqref{eq:E-mean-mle} and \eqref{eq:Var-mean-mle} 
 
 $$ \label{eq:E-resvar-mle-s3}
 \begin{split}
-\mathbb{E}\left[ \hat{\sigma}^2 \right] &= \frac{1}{n} \sum_{i=1}^{n} \left( \sigma^2 + \mu^2 \right) - \left( \frac{1}{n} \sigma^2 + \mu^2 \right) \\
-\mathbb{E}\left[ \hat{\sigma}^2 \right] &= \frac{1}{n} \cdot n \cdot \left( \sigma^2 + \mu^2 \right) - \left( \frac{1}{n} \sigma^2 + \mu^2 \right) \\
-\mathbb{E}\left[ \hat{\sigma}^2 \right] &= \sigma^2 + \mu^2 - \frac{1}{n} \sigma^2 - \mu^2 \\
-\mathbb{E}\left[ \hat{\sigma}^2 \right] &= \frac{n-1}{n} \sigma^2
+\mathrm{E}\left[ \hat{\sigma}^2 \right] &= \frac{1}{n} \sum_{i=1}^{n} \left( \sigma^2 + \mu^2 \right) - \left( \frac{1}{n} \sigma^2 + \mu^2 \right) \\
+\mathrm{E}\left[ \hat{\sigma}^2 \right] &= \frac{1}{n} \cdot n \cdot \left( \sigma^2 + \mu^2 \right) - \left( \frac{1}{n} \sigma^2 + \mu^2 \right) \\
+\mathrm{E}\left[ \hat{\sigma}^2 \right] &= \sigma^2 + \mu^2 - \frac{1}{n} \sigma^2 - \mu^2 \\
+\mathrm{E}\left[ \hat{\sigma}^2 \right] &= \frac{n-1}{n} \sigma^2
 \end{split}
 $$
 

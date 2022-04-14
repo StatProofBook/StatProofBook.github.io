@@ -11,7 +11,7 @@ title: "Range of the variance of the Bernoulli distribution"
 chapter: "Probability Distributions"
 section: "Univariate discrete distributions"
 topic: "Bernoulli distribution"
-theorem: "Range of Variance"
+theorem: "Range of variance"
 
 sources:
   - authors: "Wikipedia"

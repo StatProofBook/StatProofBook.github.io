@@ -40,7 +40,7 @@ $$ \label{eq:bern-var}
 $$
 
 
-**Proof:** The [variance](/D/mean) is the probability-weighted average of the squared deviation from the [expected value](/D/mean) across all possible values
+**Proof:** The [variance](/D/var) is the probability-weighted average of the squared deviation from the [expected value](/D/mean) across all possible values
 
 $$ \label{eq:var}
 \mathrm{Var}(X) = \sum_{x \in \mathcal{X}} (x - \mathrm{E}(X))^2 \cdot \mathrm{Pr}(X = x)
