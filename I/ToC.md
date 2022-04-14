@@ -520,21 +520,22 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.5. **[Expectation of estimates](/P/slr-olsmean)** <br>
    &emsp;&ensp; 1.3.6. **[Variance of estimates](/P/slr-olsvar)** <br>
    &emsp;&ensp; 1.3.7. **[Distribution of estimates](/P/slr-olsdist)** <br>
-   &emsp;&ensp; 1.3.8. **[Effects of mean-centering](/P/slr-meancent)** <br>
-   &emsp;&ensp; 1.3.9. *[Regression line](/D/regline)* <br>
-   &emsp;&ensp; 1.3.10. **[Regression line includes center of mass](/P/slr-comp)** <br>
-   &emsp;&ensp; 1.3.11. **[Projection of data point to regression line](/P/slr-proj)** <br>
-   &emsp;&ensp; 1.3.12. **[Sums of squares](/P/slr-sss)** <br>
-   &emsp;&ensp; 1.3.13. **[Transformation matrices](/P/slr-mat)** <br>
-   &emsp;&ensp; 1.3.14. **[Weighted least squares](/P/slr-wls)** (1) <br>
-   &emsp;&ensp; 1.3.15. **[Weighted least squares](/P/slr-wls2)** (2) <br>
-   &emsp;&ensp; 1.3.16. **[Maximum likelihood estimation](/P/slr-mle)** (1) <br>
-   &emsp;&ensp; 1.3.17. **[Maximum likelihood estimation](/P/slr-mle2)** (2) <br>
-   &emsp;&ensp; 1.3.18. **[Sum of residuals is zero](/P/slr-ressum)** <br>
-   &emsp;&ensp; 1.3.19. **[Correlation with covariate is zero](/P/slr-rescorr)** <br>
-   &emsp;&ensp; 1.3.20. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
-   &emsp;&ensp; 1.3.21. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
-   &emsp;&ensp; 1.3.22. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
+   &emsp;&ensp; 1.3.8. **[Correlation of estimates](/P/slr-olsdist)** <br>
+   &emsp;&ensp; 1.3.9. **[Effects of mean-centering](/P/slr-meancent)** <br>
+   &emsp;&ensp; 1.3.10. *[Regression line](/D/regline)* <br>
+   &emsp;&ensp; 1.3.11. **[Regression line includes center of mass](/P/slr-comp)** <br>
+   &emsp;&ensp; 1.3.12. **[Projection of data point to regression line](/P/slr-proj)** <br>
+   &emsp;&ensp; 1.3.13. **[Sums of squares](/P/slr-sss)** <br>
+   &emsp;&ensp; 1.3.14. **[Transformation matrices](/P/slr-mat)** <br>
+   &emsp;&ensp; 1.3.15. **[Weighted least squares](/P/slr-wls)** (1) <br>
+   &emsp;&ensp; 1.3.16. **[Weighted least squares](/P/slr-wls2)** (2) <br>
+   &emsp;&ensp; 1.3.17. **[Maximum likelihood estimation](/P/slr-mle)** (1) <br>
+   &emsp;&ensp; 1.3.18. **[Maximum likelihood estimation](/P/slr-mle2)** (2) <br>
+   &emsp;&ensp; 1.3.19. **[Sum of residuals is zero](/P/slr-ressum)** <br>
+   &emsp;&ensp; 1.3.20. **[Correlation with covariate is zero](/P/slr-rescorr)** <br>
+   &emsp;&ensp; 1.3.21. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
+   &emsp;&ensp; 1.3.22. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
+   &emsp;&ensp; 1.3.23. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
 
    1.4. Multiple linear regression <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/mlr)* <br>
