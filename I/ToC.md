@@ -356,18 +356,19 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.10. **[Moment-generating function](/P/norm-mgf)** <br>
    &emsp;&ensp; 3.2.11. **[Cumulative distribution function](/P/norm-cdf)** <br>
    &emsp;&ensp; 3.2.12. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.13. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.14. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.15. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.16. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.17. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.18. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.19. **[Extreme points](/P/norm-extr)** <br>
-   &emsp;&ensp; 3.2.20. **[Inflection points](/P/norm-infl)** <br>
-   &emsp;&ensp; 3.2.21. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.22. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
-   &emsp;&ensp; 3.2.23. **[Maximum entropy distribution](/P/norm-maxent)** <br>
-   &emsp;&ensp; 3.2.24. **[Linear combination](/P/norm-lincomb)** <br>
+   &emsp;&ensp; 3.2.13. **[Probability of being within standard deviations from mean](/P/norm-probstd)** <br>
+   &emsp;&ensp; 3.2.14. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.15. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.16. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.17. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.18. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.19. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.20. **[Extreme points](/P/norm-extr)** <br>
+   &emsp;&ensp; 3.2.21. **[Inflection points](/P/norm-infl)** <br>
+   &emsp;&ensp; 3.2.22. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.23. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
+   &emsp;&ensp; 3.2.24. **[Maximum entropy distribution](/P/norm-maxent)** <br>
+   &emsp;&ensp; 3.2.25. **[Linear combination](/P/norm-lincomb)** <br>
    
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
