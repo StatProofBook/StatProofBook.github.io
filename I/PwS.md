@@ -66,6 +66,7 @@ title: "Proofs without Source"
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
+- [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)

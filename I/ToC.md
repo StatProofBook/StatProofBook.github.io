@@ -520,7 +520,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.5. **[Expectation of estimates](/P/slr-olsmean)** <br>
    &emsp;&ensp; 1.3.6. **[Variance of estimates](/P/slr-olsvar)** <br>
    &emsp;&ensp; 1.3.7. **[Distribution of estimates](/P/slr-olsdist)** <br>
-   &emsp;&ensp; 1.3.8. **[Correlation of estimates](/P/slr-olsdist)** <br>
+   &emsp;&ensp; 1.3.8. **[Correlation of estimates](/P/slr-olscorr)** <br>
    &emsp;&ensp; 1.3.9. **[Effects of mean-centering](/P/slr-meancent)** <br>
    &emsp;&ensp; 1.3.10. *[Regression line](/D/regline)* <br>
    &emsp;&ensp; 1.3.11. **[Regression line includes center of mass](/P/slr-comp)** <br>

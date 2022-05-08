@@ -238,6 +238,7 @@ title: "Proof by Topic"
 
 - [Paired t-test for dependent observations](/P/ug-ttestp)
 - [Paired z-test for dependent observations](/P/ugkv-ztestp)
+- [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr)
 - [Parameters of the corresponding forward model](/P/cfm-para)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
 - [Partition of covariance into expected values](/P/cov-mean)

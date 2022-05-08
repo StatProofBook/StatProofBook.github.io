@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (305 proofs)
+### JoramSoch (306 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -188,6 +188,7 @@ title: "Proof by Author"
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 - [Paired t-test for dependent observations](/P/ug-ttestp)
 - [Paired z-test for dependent observations](/P/ugkv-ztestp)
+- [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr)
 - [Parameters of the corresponding forward model](/P/cfm-para)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
 - [Partition of covariance into expected values](/P/cov-mean)
