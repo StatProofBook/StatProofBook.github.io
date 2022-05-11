@@ -174,9 +174,9 @@ Rearranging the terms, we have
 $$ \label{eq:mvn-cond-s8}
 \begin{split}
 p(x_1|x_2) = &\frac{1}{\sqrt{(2 \pi)^{n-n_2}}} \cdot \sqrt{\frac{|\Sigma_{22}|}{|\Sigma|}} \cdot \exp \left[ -\frac{1}{2} \cdot \right. \\
-&\! \left. \left[ (x_1-\mu_1) - \Sigma_{12}^\mathrm{T} \Sigma_{22}^{-1} (x_2-\mu_2) \right]^\mathrm{T} (\Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21})^{-1} \left[ (x_1-\mu_1) - \Sigma_{12}^\mathrm{T} \Sigma_{22}^{-1} (x_2-\mu_2) \right] \right] \\
+&\! \left. \left[ (x_1-\mu_1) - \Sigma_{12} \Sigma_{22}^{-1} (x_2-\mu_2) \right]^\mathrm{T} (\Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21})^{-1} \left[ (x_1-\mu_1) - \Sigma_{12} \Sigma_{22}^{-1} (x_2-\mu_2) \right] \right] \\
 = &\frac{1}{\sqrt{(2 \pi)^{n-n_2}}} \cdot \sqrt{\frac{|\Sigma_{22}|}{|\Sigma|}} \cdot \exp \left[ -\frac{1}{2} \cdot \right. \\
-&\! \left. \left[ x_1 - \left( \mu_1 + \Sigma_{12}^\mathrm{T} \Sigma_{22}^{-1} (x_2-\mu_2) \right) \right]^\mathrm{T} (\Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21})^{-1} \left[ x_1 - \left( \mu_1 + \Sigma_{12}^\mathrm{T} \Sigma_{22}^{-1} (x_2-\mu_2) \right) \right] \right]
+&\! \left. \left[ x_1 - \left( \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (x_2-\mu_2) \right) \right]^\mathrm{T} (\Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21})^{-1} \left[ x_1 - \left( \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (x_2-\mu_2) \right) \right] \right]
 \end{split}
 $$
 
@@ -200,7 +200,7 @@ With this and $n - n_2 = n_1$, we finally arrive at
 $$ \label{eq:mvn-cond-s9}
 \begin{split}
 p(x_1|x_2) = &\frac{1}{\sqrt{(2 \pi)^{n_1} | \Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21} |}} \cdot \exp \left[ -\frac{1}{2} \cdot \right. \\
-&\! \left. \left[ x_1 - \left( \mu_1 + \Sigma_{12}^\mathrm{T} \Sigma_{22}^{-1} (x_2-\mu_2) \right) \right]^\mathrm{T} (\Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21})^{-1} \left[ x_1 - \left( \mu_1 + \Sigma_{12}^\mathrm{T} \Sigma_{22}^{-1} (x_2-\mu_2) \right) \right] \right]
+&\! \left. \left[ x_1 - \left( \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (x_2-\mu_2) \right) \right]^\mathrm{T} (\Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21})^{-1} \left[ x_1 - \left( \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (x_2-\mu_2) \right) \right] \right]
 \end{split}
 $$
 
