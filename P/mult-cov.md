@@ -58,7 +58,7 @@ $$ \label{eq:mult-cov-qed}
 \begin{split}
 \mathrm{Cov}(X_i, X_j) &= \mathrm{Cov}\left(\sum_{k=1}^n \mathbb{I}_i(k), \sum_{l=1}^n \mathbb{I}_j(l)\right) \\
 &= \sum_{k=1}^n\sum_{l=1}^n \mathrm{Cov}\left(\mathbb{I}_i(k), \mathbb{I}_j(l)\right) \\
-&= \sum_{k=1}^n \mathrm{Cov}\left(\mathbb{I}_i(k), \mathbb{I}_j(k)\right) + \sum_{k \ne l}^n \underbrace{\mathrm{Cov}\left(\mathbb{I}_i(k), \mathbb{I}_j(l)\right)}_{=0} \\
+&= \sum_{k=1}^n \left[ \mathrm{Cov}\left(\mathbb{I}_i(k), \mathbb{I}_j(k)\right) + \sum_{\substack{l=1 \\ l \ne k}}^n \underbrace{\mathrm{Cov}\left(\mathbb{I}_i(k), \mathbb{I}_j(l)\right)}_{=0} \right] \\
 & \stackrel{i \ne j}{=} \;\; \sum_{k=1}^n \left(\mathrm{E}\Big( \underbrace{\mathbb{I}_i(k) \,\mathbb{I}_j(k)}_{=0} \Big) - \mathrm{E}\big(\mathbb{I}_i(k)\big) \mathrm{E}\big(\mathbb{I}_j(k)\big) \right) \\
 &= -\sum_{k=1}^n \mathrm{E}\big(\mathbb{I}_i(k)\big) \mathrm{E}\big(\mathbb{I}_j(k)\big) \\
 &= -n p_i p_j \; ,
