@@ -28,7 +28,7 @@ username: "adkipnis"
 **Theorem:** Let $X$ be a [random vector](/D/rvec) following a [multinomial distribution](/D/mult):
 
 $$ \label{eq:mult}
-\left[X_1, \ldots, X_k \right] = X \sim \mathrm{Mult}(n, p), \; n \in \mathbb{N}, \; p = \left[p_1, \ldots, p_k \right] \; .
+\left[X_1, \ldots, X_k \right] = X \sim \mathrm{Mult}(n, p), \; n \in \mathbb{N}, \; p = \left[p_1, \ldots, p_k \right]^\mathrm{T} \; .
 $$
 
 Then, the [covariance matrix](/D/covmat) of $X$ is
