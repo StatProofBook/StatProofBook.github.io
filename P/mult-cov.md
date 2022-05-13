@@ -18,7 +18,7 @@ sources:
     year: 2012
     title: "Regression for Categorical Data"
     pages: "pp. 209ff."
-	
+
 proof_id: P322
 shortcut: "mult-cov"
 username: "adkipnis"
@@ -52,7 +52,7 @@ X_i = \sum_{k=1}^n \mathbb{I}_i(k), \quad \text{with} \quad \mathbb{I}_i(k) := \
 \end{cases}
 $$
 
-the indicator function $\mathbb{I}_i$ being a [Bernoulli-distributed](/P/bern) random variable with the [expected value](/D/bern-mean) $p_i$. Then, we have 
+the indicator function $\mathbb{I}_i$ being a [Bernoulli-distributed](/D/bern) random variable with the [expected value](/P/bern-mean) $p_i$. Then, we have 
 
 $$ \label{eq:mult-cov-qed}
 \begin{split}
