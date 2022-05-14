@@ -17,6 +17,7 @@ title: "Definitions without Source"
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
 - [Multinomial observations](/D/mult-data)
+- [Normal-Wishart distribution](/D/nw)
 - [Posterior distribution](/D/post)
 - [Prior distribution](/D/prior)
 - [Residual variance](/D/resvar)

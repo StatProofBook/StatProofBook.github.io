@@ -326,3 +326,6 @@ title: "Proof by Number"
 | P318 | pval-h0 | [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0) | JoramSoch | 2022-03-18 |
 | P319 | prob-exh2 | [Probability of exhaustive events](/P/prob-exh2) | JoramSoch | 2022-03-27 |
 | P320 | slr-olscorr | [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr) | JoramSoch | 2022-04-14 |
+| P321 | norm-probstd | [Probability of normal random variable being within standard deviations from its mean](/P/norm-probstd) | JoramSoch | 2022-05-08 |
+| P322 | mult-cov | [Covariance matrix of the multinomial distribution](/P/mult-cov) | adkipnis | 2022-05-11 |
+| P323 | nw-pdf | [Probability density function of the normal-Wishart distribution](/P/nw-pdf) | JoramSoch | 2022-05-14 |
