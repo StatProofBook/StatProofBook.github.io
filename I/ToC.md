@@ -330,7 +330,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.2.1. *[Definition](/D/mult)* <br>
    &emsp;&ensp; 2.2.2. **[Probability mass function](/P/mult-pmf)** <br>
    &emsp;&ensp; 2.2.3. **[Mean](/P/mult-mean)** <br>
-   &emsp;&ensp; 2.2.3. **[Covariance matrix](/P/mult-cov)** <br>
+   &emsp;&ensp; 2.2.4. **[Covariance](/P/mult-cov)** <br>
 
 3. Univariate continuous distributions
 
@@ -478,6 +478,10 @@ title: "Table of Contents"
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
    &emsp;&ensp; 5.2.2. **[Kullback-Leibler divergence](/P/wish-kl)** <br>
+   
+   5.3. Normal-Wishart distribution <br>
+   &emsp;&ensp; 5.3.1. *[Definition](/D/nw)* <br>
+   &emsp;&ensp; 5.3.2. **[Probability density function](/P/nw-pdf)** <br>
 
 
 <br>
