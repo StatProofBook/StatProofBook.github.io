@@ -330,6 +330,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.2.1. *[Definition](/D/mult)* <br>
    &emsp;&ensp; 2.2.2. **[Probability mass function](/P/mult-pmf)** <br>
    &emsp;&ensp; 2.2.3. **[Mean](/P/mult-mean)** <br>
+   &emsp;&ensp; 2.2.3. **[Covariance matrix](/P/mult-cov)** <br>
 
 3. Univariate continuous distributions
 
