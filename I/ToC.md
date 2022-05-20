@@ -451,12 +451,13 @@ title: "Table of Contents"
    
    4.3. Normal-gamma distribution <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/ng)* <br>
-   &emsp;&ensp; 4.3.2. **[Probability density function](/P/ng-pdf)** <br>
-   &emsp;&ensp; 4.3.3. **[Mean](/P/ng-mean)** <br>
-   &emsp;&ensp; 4.3.4. **[Differential entropy](/P/ng-dent)** <br>
-   &emsp;&ensp; 4.3.5. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
-   &emsp;&ensp; 4.3.6. **[Marginal distributions](/P/ng-marg)** <br>
-   &emsp;&ensp; 4.3.7. **[Conditional distributions](/P/ng-cond)** <br>
+   &emsp;&ensp; 4.3.2. **[Special case of normal-Wishart distribution](/P/ng-nw)** <br>
+   &emsp;&ensp; 4.3.3. **[Probability density function](/P/ng-pdf)** <br>
+   &emsp;&ensp; 4.3.4. **[Mean](/P/ng-mean)** <br>
+   &emsp;&ensp; 4.3.5. **[Differential entropy](/P/ng-dent)** <br>
+   &emsp;&ensp; 4.3.6. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
+   &emsp;&ensp; 4.3.7. **[Marginal distributions](/P/ng-marg)** <br>
+   &emsp;&ensp; 4.3.8. **[Conditional distributions](/P/ng-cond)** <br>
    
    4.4. Dirichlet distribution <br>
    &emsp;&ensp; 4.4.1. *[Definition](/D/dir)* <br>

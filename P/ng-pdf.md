@@ -41,15 +41,35 @@ p(x,y) = \sqrt{\frac{|\Lambda|}{(2 \pi)^n}} \frac{b^a}{\Gamma(a)} \cdot y^{a+\fr
 $$
 
 
-**Proof:** The probability density of the normal-gamma distribution [is defined as](/D/ng) as the product of a [multivariate normal distribution](/D/mvn) over $x$ conditional on $y$ and a [univariate gamma distribution](/D/gam) over $y$:
+**Proof:** The [normal-gamma distribution](/D/ng) is defined as $X$ conditional on $Y$ following a [multivariate distribution](/D/mvn) and $Y$ following a [gamma distribution](/D/gam):
 
-$$ \label{eq:ng-pdf-w1}
-p(x,y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b)
+$$ \label{eq:mvn-gam}
+\begin{split}
+X \vert Y &\sim \mathcal{N}(\mu, (Y \Lambda)^{-1}) \\
+Y &\sim \mathrm{Gam}(a, b) \; .
+\end{split}
 $$
 
-With the [probability density function of the multivariate normal distribution](/P/mvn-pdf) and the [probability density function of the gamma distribution](/P/gam-pdf), this becomes:
+Thus, using the [probability density function of the multivariate normal distribution](/P/mvn-pdf) and the [probability density function of the gamma distribution](/P/gam-pdf), we have the following probabilities:
 
-$$ \label{eq:ng-pdf-s2}
+$$ \label{eq:mvn-gam-pdf}
+\begin{split}
+p(x \vert y) &= \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \\
+&= \sqrt{\frac{|y \Lambda|}{(2 \pi)^n}} \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} (y \Lambda) (x-\mu) \right] \\
+p(y) &= \mathrm{Gam}(y; a, b) \\
+&= \frac{b^a}{\Gamma(a)} y^{a-1} \exp\left[-by\right] \; .
+\end{split}
+$$
+
+The [law of conditional probability](/D/prob-cond) implies that
+
+$$ \label{eq:prob-cond}
+p(x,y) = p(x \vert y) \, p(y) \; ,
+$$
+
+such that the normal-Wishart density function becomes:
+
+$$ \label{eq:ng-pdf-prod}
 p(x,y) = \sqrt{\frac{|y \Lambda|}{(2 \pi)^n}} \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} (y \Lambda) (x-\mu) \right] \cdot \frac{b^a}{\Gamma(a)} y^{a-1} \exp\left[-by\right] \; .
 $$
 

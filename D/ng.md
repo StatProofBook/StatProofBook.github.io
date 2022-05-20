@@ -34,10 +34,13 @@ $$ \label{eq:ng}
 X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; ,
 $$
 
-if and only if their [joint probability](/D/prob-joint) [density function](/D/pdf) is given by
+if the distribution of $X$ conditional on $Y$ is a [multivariate normal distribution](/D/mvn) with mean vector $\mu$ and covariance matrix $(y \Lambda)^{-1}$ and $Y$ follows a [gamma distribution](/D/gam) with shape parameter $a$ and rate parameter $b$:
 
-$$ \label{eq:ng-pdf}
-f_{X,Y}(x,y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \cdot \mathrm{Gam}(y; a, b)
+$$ \label{eq:mvn-gam}
+\begin{split}
+X \vert Y &\sim \mathcal{N}(\mu, (Y \Lambda)^{-1}) \\
+Y &\sim \mathrm{Gam}(a, b) \; .
+\end{split}
 $$
 
-where $\mathcal{N}(x; \mu, \Sigma)$ is the [probability density function of the multivariate normal distribution](/P/mvn-pdf) with mean $\mu$ and covariance $\Sigma$ and $\mathrm{Gam}(x; a, b)$ is the [probability density function of the gamma distribution](/P/gam-pdf) with shape $a$ and rate $b$. The $n \times n$ matrix $\Lambda$ is referred to as the [precision matrix](/D/precmat) of the normal-gamma distribution.
+The $n \times n$ matrix $\Lambda$ is referred to as the [precision matrix](/D/precmat) of the normal-gamma distribution.
