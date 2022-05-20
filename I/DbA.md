@@ -4,7 +4,7 @@ title: "Definition by Author"
 ---
 
 
-### JoramSoch (168 definitions)
+### JoramSoch (169 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -106,6 +106,7 @@ title: "Definition by Author"
 - [Mutual information](/D/mi)
 - [Non-standardized t-distribution](/D/nst)
 - [Normal distribution](/D/norm)
+- [Normal-Wishart distribution](/D/nw)
 - [Normal-gamma distribution](/D/ng)
 - [Null hypothesis](/D/h0)
 - [One-tailed and two-tailed hypothesis](/D/hyp-tail)

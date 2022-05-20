@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** (also called "68-95-99.7 rule") Let $X$ be a [random variable](/D/rvar) following a [normal distribution](/D/norm) with [mean](/D/mean) $\mu$ and [variance](/D/var) $\sigma^2$. Then, about $68\%$, $95\%$ and $99,7\%$ of the values of $X$ will fall within 1, 2 and 3 [standard deviations](/D/std) from the [mean](/D/mean), respectively:
+**Theorem:** (also called "68-95-99.7 rule") Let $X$ be a [random variable](/D/rvar) following a [normal distribution](/D/norm) with [mean](/D/mean) $\mu$ and [variance](/D/var) $\sigma^2$. Then, about $68\%$, $95\%$ and $99.7\%$ of the values of $X$ will fall within 1, 2 and 3 [standard deviations](/D/std) from the [mean](/D/mean), respectively:
 
 $$ \label{eq:norm-probstd}
 \begin{split}

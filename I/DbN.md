@@ -181,3 +181,4 @@ title: "Definition by Number"
 | D172 | dev | [Deviance](/D/dev) | JoramSoch | 2022-03-01 |
 | D173 | mse | [Mean squared error](/D/mse) | JoramSoch | 2022-03-27 |
 | D174 | ci | [Confidence interval](/D/ci) | JoramSoch | 2022-03-27 |
+| D175 | nw | [Normal-Wishart distribution](/D/nw) | JoramSoch | 2022-05-14 |
