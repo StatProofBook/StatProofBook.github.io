@@ -61,7 +61,7 @@ title: "Proof by Topic"
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 - [Cumulative distribution function of the gamma distribution](/P/gam-cdf)
-- [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf)
+- [Probability density function of the normal-Wishart distribution](/P/nw-pdf)
 - [Cumulative distribution function of the normal distribution](/P/norm-cdf)
 
 ### D
@@ -160,7 +160,7 @@ title: "Proof by Topic"
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log model evidence for the univariate Gaussian](/P/ug-lme)
 - [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
-- [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf)
+- [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp)
 - [Log sum inequality](/P/logsum-ineq)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)

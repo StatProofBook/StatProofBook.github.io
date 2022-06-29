@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (308 proofs)
+### JoramSoch (309 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -127,6 +127,7 @@ title: "Proof by Author"
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log model evidence for the univariate Gaussian](/P/ug-lme)
 - [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
+- [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp)
 - [Log sum inequality](/P/logsum-ineq)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
@@ -332,9 +333,8 @@ title: "Proof by Author"
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Moments of the chi-squared distribution](/P/chi2-mom)
 
-### majapavlo (4 proofs)
+### majapavlo (3 proofs)
 
-- [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf)
 - [Median of the log-normal distribution](/P/lognorm-med)
 - [Mode of the log-normal distribution](/P/lognorm-mode)
 - [Probability density function of the log-normal distribution](/P/lognorm-pdf)
