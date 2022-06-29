@@ -27,7 +27,7 @@ sources:
     pages: "retrieved on 2022-06-29"
     url: "https://statproofbook.github.io/P/norm-cdf"
 
-proof_id: "P323"
+proof_id: "P324"
 shortcut: "lognorm-cdf"
 username: "majapavlo"
 ---
