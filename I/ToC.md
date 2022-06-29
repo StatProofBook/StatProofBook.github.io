@@ -330,6 +330,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.2.1. *[Definition](/D/mult)* <br>
    &emsp;&ensp; 2.2.2. **[Probability mass function](/P/mult-pmf)** <br>
    &emsp;&ensp; 2.2.3. **[Mean](/P/mult-mean)** <br>
+   &emsp;&ensp; 2.2.4. **[Covariance](/P/mult-cov)** <br>
 
 3. Univariate continuous distributions
 
@@ -356,18 +357,19 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.10. **[Moment-generating function](/P/norm-mgf)** <br>
    &emsp;&ensp; 3.2.11. **[Cumulative distribution function](/P/norm-cdf)** <br>
    &emsp;&ensp; 3.2.12. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.13. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.14. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.15. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.16. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.17. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.18. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.19. **[Extreme points](/P/norm-extr)** <br>
-   &emsp;&ensp; 3.2.20. **[Inflection points](/P/norm-infl)** <br>
-   &emsp;&ensp; 3.2.21. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.22. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
-   &emsp;&ensp; 3.2.23. **[Maximum entropy distribution](/P/norm-maxent)** <br>
-   &emsp;&ensp; 3.2.24. **[Linear combination](/P/norm-lincomb)** <br>
+   &emsp;&ensp; 3.2.13. **[Probability of being within standard deviations from mean](/P/norm-probstd)** <br>
+   &emsp;&ensp; 3.2.14. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.15. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.16. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.17. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.18. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.19. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.20. **[Extreme points](/P/norm-extr)** <br>
+   &emsp;&ensp; 3.2.21. **[Inflection points](/P/norm-infl)** <br>
+   &emsp;&ensp; 3.2.22. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.23. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
+   &emsp;&ensp; 3.2.24. **[Maximum entropy distribution](/P/norm-maxent)** <br>
+   &emsp;&ensp; 3.2.25. **[Linear combination](/P/norm-lincomb)** <br>
    
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
@@ -449,12 +451,13 @@ title: "Table of Contents"
    
    4.3. Normal-gamma distribution <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/ng)* <br>
-   &emsp;&ensp; 4.3.2. **[Probability density function](/P/ng-pdf)** <br>
-   &emsp;&ensp; 4.3.3. **[Mean](/P/ng-mean)** <br>
-   &emsp;&ensp; 4.3.4. **[Differential entropy](/P/ng-dent)** <br>
-   &emsp;&ensp; 4.3.5. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
-   &emsp;&ensp; 4.3.6. **[Marginal distributions](/P/ng-marg)** <br>
-   &emsp;&ensp; 4.3.7. **[Conditional distributions](/P/ng-cond)** <br>
+   &emsp;&ensp; 4.3.2. **[Special case of normal-Wishart distribution](/P/ng-nw)** <br>
+   &emsp;&ensp; 4.3.3. **[Probability density function](/P/ng-pdf)** <br>
+   &emsp;&ensp; 4.3.4. **[Mean](/P/ng-mean)** <br>
+   &emsp;&ensp; 4.3.5. **[Differential entropy](/P/ng-dent)** <br>
+   &emsp;&ensp; 4.3.6. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
+   &emsp;&ensp; 4.3.7. **[Marginal distributions](/P/ng-marg)** <br>
+   &emsp;&ensp; 4.3.8. **[Conditional distributions](/P/ng-cond)** <br>
    
    4.4. Dirichlet distribution <br>
    &emsp;&ensp; 4.4.1. *[Definition](/D/dir)* <br>
@@ -476,6 +479,10 @@ title: "Table of Contents"
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
    &emsp;&ensp; 5.2.2. **[Kullback-Leibler divergence](/P/wish-kl)** <br>
+   
+   5.3. Normal-Wishart distribution <br>
+   &emsp;&ensp; 5.3.1. *[Definition](/D/nw)* <br>
+   &emsp;&ensp; 5.3.2. **[Probability density function](/P/nw-pdf)** <br>
 
 
 <br>

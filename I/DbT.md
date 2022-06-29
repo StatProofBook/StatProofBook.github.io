@@ -148,6 +148,7 @@ title: "Definition by Topic"
 - [Non-standardized t-distribution](/D/nst)
 - [Normal distribution](/D/norm)
 - [Normal-gamma distribution](/D/ng)
+- [Normal-Wishart distribution](/D/nw)
 - [Null hypothesis](/D/h0)
 
 ### O

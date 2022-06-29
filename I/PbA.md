@@ -4,7 +4,7 @@ title: "Proof by Author"
 ---
 
 
-### JoramSoch (306 proofs)
+### JoramSoch (308 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -227,6 +227,7 @@ title: "Proof by Author"
 - [Probability density function of the matrix-normal distribution](/P/matn-pdf)
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
+- [Probability density function of the normal-Wishart distribution](/P/nw-pdf)
 - [Probability density function of the normal-gamma distribution](/P/ng-pdf)
 - [Probability density function of the t-distribution](/P/t-pdf)
 - [Probability integral transform using cumulative distribution function](/P/cdf-pit)
@@ -242,6 +243,7 @@ title: "Proof by Author"
 - [Probability mass function of the multinomial distribution](/P/mult-pmf)
 - [Probability of exhaustive events](/P/prob-exh)
 - [Probability of exhaustive events](/P/prob-exh2)
+- [Probability of normal random variable being within standard deviations from its mean](/P/norm-probstd)
 - [Probability of the complement](/P/prob-comp)
 - [Probability of the empty set](/P/prob-emp)
 - [Probability under mutual exclusivity](/P/prob-exc)
@@ -316,6 +318,10 @@ title: "Proof by Author"
 ### StatProofBook (1 proof)
 
 - [Proof Template](/P/-temp-)
+
+### adkipnis (1 proof)
+
+- [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
 ### kantundpeterpan (1 proof)
 
