@@ -127,7 +127,6 @@ title: "Proof by Author"
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log model evidence for the univariate Gaussian](/P/ug-lme)
 - [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
-- [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp)
 - [Log sum inequality](/P/logsum-ineq)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
@@ -179,6 +178,7 @@ title: "Proof by Author"
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
 - [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
+- [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
 - [One-sample t-test for independent observations](/P/ug-ttest1)
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
@@ -332,8 +332,9 @@ title: "Proof by Author"
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Moments of the chi-squared distribution](/P/chi2-mom)
 
-### majapavlo (3 proofs)
+### majapavlo (4 proofs)
 
+- [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf)
 - [Median of the log-normal distribution](/P/lognorm-med)
 - [Mode of the log-normal distribution](/P/lognorm-mode)
 - [Probability density function of the log-normal distribution](/P/lognorm-pdf)

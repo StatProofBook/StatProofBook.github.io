@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [normal distributions](/D/norm):
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [normal distribution](/D/norm):
 
 $$ \label{eq:norm}
 X \sim \mathcal{N}(\mu, \sigma^2) \; .
