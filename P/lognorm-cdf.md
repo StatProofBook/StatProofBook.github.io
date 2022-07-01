@@ -20,14 +20,8 @@ sources:
     in: "StackExchange"
     pages: "retrieved on 2022-06-29"
     url: "https://stats.stackexchange.com/questions/151398/how-to-derive-the-cdf-of-a-lognormal-distribution-from-its-pdf/151404#151404"
-  - authors: "JoramSoch"
-    year: 2020
-    title: "Cumulative distribution function of the normal distribution"
-    in: "The Book of Statistical Proofs"
-    pages: "retrieved on 2022-06-29"
-    url: "https://statproofbook.github.io/P/norm-cdf"
 
-proof_id: "P324"
+proof_id: "P325"
 shortcut: "lognorm-cdf"
 username: "majapavlo"
 ---
@@ -68,7 +62,7 @@ F_X(x) &= \int_{-\infty}^{x} \mathcal{\ln N}(z; \mu, \sigma^2) \, \mathrm{d}z \\
 \end{split}
 $$
 
-Substituting $t = (\ln z-\mu)/(\sqrt{2} \sigma)$, i.e. $\ln z = \sqrt{2} \sigma t + \mu$, $z = \exp( \sqrt{2} \sigma t + \mu) $ this becomes:
+From this point forward, the proof is similar to the derivation of the [cumulative distribution function for the normal distribution](/P/norm-cdf). Substituting $t = (\ln z-\mu)/(\sqrt{2} \sigma)$, i.e. $\ln z = \sqrt{2} \sigma t + \mu$, $z = \exp( \sqrt{2} \sigma t + \mu) $ this becomes:
 
 $$ \label{eq:lognorm-cdf-s2}
 \begin{split}
