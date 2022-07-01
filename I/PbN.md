@@ -330,4 +330,4 @@ title: "Proof by Number"
 | P322 | mult-cov | [Covariance matrix of the multinomial distribution](/P/mult-cov) | adkipnis | 2022-05-11 |
 | P323 | nw-pdf | [Probability density function of the normal-Wishart distribution](/P/nw-pdf) | JoramSoch | 2022-05-14 |
 | P324 | ng-nw | [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw) | JoramSoch | 2022-05-20 |
-| P324 | ng-nw | [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw) | JoramSoch | 2022-05-20 |
+| P325 | lognorm-cdf | [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf) | majapavlo | 2022-06-29 |

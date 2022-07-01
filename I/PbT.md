@@ -61,7 +61,7 @@ title: "Proof by Topic"
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 - [Cumulative distribution function of the gamma distribution](/P/gam-cdf)
-- [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
+- [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf)
 - [Cumulative distribution function of the normal distribution](/P/norm-cdf)
 
 ### D

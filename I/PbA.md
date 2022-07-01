@@ -333,8 +333,9 @@ title: "Proof by Author"
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Moments of the chi-squared distribution](/P/chi2-mom)
 
-### majapavlo (3 proofs)
+### majapavlo (4 proofs)
 
+- [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf)
 - [Median of the log-normal distribution](/P/lognorm-med)
 - [Mode of the log-normal distribution](/P/lognorm-mode)
 - [Probability density function of the log-normal distribution](/P/lognorm-pdf)
