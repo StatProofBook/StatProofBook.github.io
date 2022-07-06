@@ -17,7 +17,7 @@ Author: Joram Soch, BCCN Berlin
 E-Mail: joram.soch@bccn-berlin.de
 
 First edit: 2019-09-27 12:55:00
- Last edit: 2021-11-05 07:12:00
+ Last edit: 2022-07-06 17:32:00
 """
 
 
@@ -32,10 +32,7 @@ from datetime import datetime
 #-----------------------------------------------------------------------------#
 files     = os.listdir('P/')
 proofs    = dict()
-pr_ids    = []
-pr_nos    = []
 pr_titles = []
-pr_users  = []
 
 # Browse through list of files
 #-----------------------------------------------------------------------------#
@@ -59,7 +56,7 @@ for file in files:
             if line.find('title:') == 0:
                 title      = re.sub('"', '', line[7:-1])
                 title_edit = re.sub('[^a-zA-Z- ]', '', title)
-                title_sort = title_edit.upper()
+                title_sort = title_edit.lower()
             if line.find('author:') == 0:
                 author = re.sub('"', '', line[8:-1])
             if line.find('username:') == 0:
@@ -78,19 +75,13 @@ for file in files:
         #---------------------------------------------------------------------#
         proofs[proof_id] = {'proof_id': proof_id, 'shortcut': shortcut, 'title': title, \
                             'username': username, 'date': date, 'source': source}
-        pr_ids.append(proof_id)
-        pr_nos.append(int(proof_id[1:]))
         pr_titles.append(title_sort)
-        pr_users.append(username)
 
 # List files in definition directory
 #-----------------------------------------------------------------------------#
 files       = os.listdir('D/')
 definitions = dict()
-def_ids     = []
-def_nos     = []
 def_titles  = []
-def_users   = []
 
 # Browse through list of files
 #-----------------------------------------------------------------------------#
@@ -114,7 +105,7 @@ for file in files:
             if line.find('title:') == 0:
                 title      = re.sub('"', '', line[7:-1])
                 title_edit = re.sub('[^a-zA-Z- ]', '', title)
-                title_sort = title_edit.upper()
+                title_sort = title_edit.lower()
             if line.find('author:') == 0:
                 author = re.sub('"', '', line[8:-1])
             if line.find('username:') == 0:
@@ -133,28 +124,32 @@ for file in files:
         #---------------------------------------------------------------------#
         definitions[def_id] = {'def_id': def_id, 'shortcut': shortcut, 'title': title, \
                                'username': username, 'date': date, 'source': source}
-        def_ids.append(def_id)
-        def_nos.append(int(def_id[1:]))
         def_titles.append(title_sort)
-        def_users.append(username)
 
-# Output number of proof files
+# Count number of files
+#-----------------------------------------------------------------------------#
+num_pr  = len(proofs)
+num_def = len(definitions)
+pr_ids  = list(proofs.keys())
+def_ids = list(definitions.keys())
+
+# Output number of files
 #-----------------------------------------------------------------------------#
 print('\n-> StatProofBook Index Generator:')
-print('   - ' + str(len(proofs)) + ' files found in proof directory!')
-print('   - ' + str(len(definitions)) + ' files found in definition directory!')
+print('   - ' + str(num_pr) + ' files found in proof directory!')
+print('   - ' + str(num_def) + ' files found in definition directory!')
 
 
 # Table of Contents: read index file
 #-----------------------------------------------------------------------------#
 print('\n1. Table of Contents:')
-ind1 = open('I/ToC.md', 'r')
-tocs = ind1.readlines()
-ind1.close()
+f1 = open('I/ToC.md', 'r')
+tocs = f1.readlines()
+f1.close()
 
 # Table of Contents: check for proof Shortcuts
 #-----------------------------------------------------------------------------#
-incl = np.zeros(len(proofs), dtype=bool)
+incl = np.zeros(num_pr, dtype=bool)
 for (i, proof) in enumerate(proofs):
     for line in tocs:
         if line.find('(/P/' + proofs[proof]['shortcut'] + ')') > -1:
@@ -166,7 +161,7 @@ if all(incl):
 
 # Table of Contents: check for definition Shortcuts
 #-----------------------------------------------------------------------------#
-incl = np.zeros(len(definitions), dtype=bool)
+incl = np.zeros(num_def, dtype=bool)
 for (i, definition) in enumerate(definitions):
     for line in tocs:
         if line.find('(/D/' + definitions[definition]['shortcut'] + ')') > -1:
@@ -180,176 +175,174 @@ if all(incl):
 # Proof by Number: prepare index file
 #-----------------------------------------------------------------------------#
 print('\n2a.Proof by Number:')
-ind2a = open('I/PbN.md', 'w')
-ind2a.write('---\nlayout: page\ntitle: "Proof by Number"\n---\n\n\n')
-ind2a.write('| ID | Shortcut | Theorem | Author | Date |\n')
-ind2a.write('|:-- |:-------- |:------- |:------ |:---- |\n')
+f2a = open('I/PbN.md', 'w')
+f2a.write('---\nlayout: page\ntitle: "Proof by Number"\n---\n\n\n')
+f2a.write('| ID | Shortcut | Theorem | Author | Date |\n')
+f2a.write('|:-- |:-------- |:------- |:------ |:---- |\n')
 
 # Proof by Number: sort by Proof ID
 #-----------------------------------------------------------------------------#
+pr_nos   = [int(pr_id[1:]) for pr_id in pr_ids]
 sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(pr_nos)])]
 for i in sort_ind:
-    ind2a.write('| ' + proofs[pr_ids[i]]['proof_id'] + ' | ' + proofs[pr_ids[i]]['shortcut'] + ' | [' + \
+    f2a.write('| ' + proofs[pr_ids[i]]['proof_id'] + ' | ' + proofs[pr_ids[i]]['shortcut'] + ' | [' + \
                        proofs[pr_ids[i]]['title'] + '](/P/' + proofs[pr_ids[i]]['shortcut'] + ') | ' + \
                        proofs[pr_ids[i]]['username'] + ' | ' + proofs[pr_ids[i]]['date'].strftime('%Y-%m-%d') + ' |\n')
-ind2a.close()
+f2a.close()
 print('   - successfully written to disk!')
 
 
 # Definition by Number: prepare index file
 #-----------------------------------------------------------------------------#
 print('\n2b.Definition by Number:')
-ind2b = open('I/DbN.md', 'w')
-ind2b.write('---\nlayout: page\ntitle: "Definition by Number"\n---\n\n\n')
-ind2b.write('| ID | Shortcut | Theorem | Author | Date |\n')
-ind2b.write('|:-- |:-------- |:------- |:------ |:---- |\n')
+f2b = open('I/DbN.md', 'w')
+f2b.write('---\nlayout: page\ntitle: "Definition by Number"\n---\n\n\n')
+f2b.write('| ID | Shortcut | Theorem | Author | Date |\n')
+f2b.write('|:-- |:-------- |:------- |:------ |:---- |\n')
 
 # Definition by Number: sort by Definition ID
 #-----------------------------------------------------------------------------#
+def_nos  = [int(def_id[1:]) for def_id in def_ids]
 sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(def_nos)])]
 for i in sort_ind:
-    ind2b.write('| ' + definitions[def_ids[i]]['def_id'] + ' | ' + definitions[def_ids[i]]['shortcut'] + ' | [' + \
+    f2b.write('| ' + definitions[def_ids[i]]['def_id'] + ' | ' + definitions[def_ids[i]]['shortcut'] + ' | [' + \
                        definitions[def_ids[i]]['title'] + '](/D/' + definitions[def_ids[i]]['shortcut'] + ') | ' + \
                        definitions[def_ids[i]]['username'] + ' | ' + definitions[def_ids[i]]['date'].strftime('%Y-%m-%d') + ' |\n')
-ind2b.close()
+f2b.close()
 print('   - successfully written to disk!')
 
 
 # Proof by Topic: prepare index file
 #-----------------------------------------------------------------------------#
 print('\n3a.Proof by Topic:')
-ind3a = open('I/PbT.md', 'w')
-ind3a.write('---\nlayout: page\ntitle: "Proof by Topic"\n---\n\n\n')
+f3a = open('I/PbT.md', 'w')
+f3a.write('---\nlayout: page\ntitle: "Proof by Topic"\n---\n\n')
 
 # Proof by Topic: sort by Title
 #-----------------------------------------------------------------------------#
-sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(pr_titles)])]
-for i in range(0,len(pr_titles)):
+prev_lett = '0'
+sort_ind  = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(pr_titles)])]
+for i in range(num_pr):
     shortcut   = proofs[pr_ids[sort_ind[i]]]['shortcut']
     title      = proofs[pr_ids[sort_ind[i]]]['title']
     title_sort = pr_titles[sort_ind[i]]
-    if i == 0:
-        ind3a.write('### ' + title_sort[0] + '\n\n')
-    else:
-        if title_sort[0] != pr_titles[sort_ind[i-1]][0]:
-            ind3a.write('\n### ' + title_sort[0] + '\n\n')
-    ind3a.write('- [' + title + '](/P/' + shortcut + ')\n')
-ind3a.close()
+    if title_sort[0] != prev_lett:
+        f3a.write('\n### ' + title_sort[0].upper() + '\n\n')
+        prev_lett = title_sort[0]
+    f3a.write('- [' + title + '](/P/' + shortcut + ')\n')
+f3a.close()
 print('   - successfully written to disk!')
 
 
 # Definition by Topic: prepare index file
 #-----------------------------------------------------------------------------#
 print('\n3b.Definition by Topic:')
-ind3b = open('I/DbT.md', 'w')
-ind3b.write('---\nlayout: page\ntitle: "Definition by Topic"\n---\n\n\n')
+f3b = open('I/DbT.md', 'w')
+f3b.write('---\nlayout: page\ntitle: "Definition by Topic"\n---\n\n')
 
 # Definition by Topic: sort by Title
 #-----------------------------------------------------------------------------#
-sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(def_titles)])]
-for i in range(0,len(def_titles)):
+prev_lett = '0'
+sort_ind  = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(def_titles)])]
+for i in range(num_def):
     shortcut   = definitions[def_ids[sort_ind[i]]]['shortcut']
     title      = definitions[def_ids[sort_ind[i]]]['title']
     title_sort = def_titles[sort_ind[i]]
-    if i == 0:
-        ind3b.write('### ' + title_sort[0] + '\n\n')
-    else:
-        if title_sort[0] != def_titles[sort_ind[i-1]][0]:
-            ind3b.write('\n### ' + title_sort[0] + '\n\n')
-    ind3b.write('- [' + title + '](/D/' + shortcut + ')\n')
-ind3b.close()
+    if title_sort[0] != prev_lett:
+        f3b.write('\n### ' + title_sort[0].upper() + '\n\n')
+        prev_lett = title_sort[0]
+    f3b.write('- [' + title + '](/D/' + shortcut + ')\n')
+f3b.close()
 print('   - successfully written to disk!')
 
 
 # Proof by Author: prepare index file
 #-----------------------------------------------------------------------------#
 print('\n4a.Proof by Author:')
-ind4a = open('I/PbA.md', 'w')
-ind4a.write('---\nlayout: page\ntitle: "Proof by Author"\n---\n\n')
+f4a = open('I/PbA.md', 'w')
+f4a.write('---\nlayout: page\ntitle: "Proof by Author"\n---\n\n')
 
 # Proof by Authors: sort by Username
 #-----------------------------------------------------------------------------#
+pr_words     = ['proof', 'proofs']
+pr_hdr       = '\n### {} ({} {})\n\n'
+pr_users     = [proofs[pr_id]['username'].lower() for pr_id in pr_ids]
 unique_users = list(set(pr_users))
 unique_users.sort()
 for user in unique_users:
-    user_proofs = [proof for proof in proofs.values() if proof['username'] == user]
-    if len(user_proofs) == 1:
-        ind4a.write('\n### ' + user + ' (1 proof)\n\n')
-    else:
-        ind4a.write('\n### ' + user + ' (' + str(len(user_proofs)) + ' proofs)\n\n')
-    user_titles = []
-    for proof in user_proofs:
-        user_titles.append(proof['title'])
-    sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(user_titles)])]
-    for i in range(0,len(user_titles)):
+    user_proofs = [proof for proof in proofs.values() if proof['username'].lower() == user]
+    user_name   = user_proofs[0]['username']
+    f4a.write(pr_hdr.format(user_name, len(user_proofs), pr_words[len(user_proofs)>1]))
+    user_titles = [proof['title'].lower() for proof in user_proofs]
+    sort_ind    = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(user_titles)])]
+    for i in range(len(user_titles)):
         shortcut = user_proofs[sort_ind[i]]['shortcut']
         title    = user_proofs[sort_ind[i]]['title']
-        ind4a.write('- [' + title + '](/P/' + shortcut + ')\n')
-ind4a.close()
+        f4a.write('- [' + title + '](/P/' + shortcut + ')\n')
+f4a.close()
 print('   - successfully written to disk!')
 
 
 # Definition by Author: prepare index file
 #-----------------------------------------------------------------------------#
 print('\n4b.Definition by Author:')
-ind4a = open('I/DbA.md', 'w')
-ind4a.write('---\nlayout: page\ntitle: "Definition by Author"\n---\n\n')
+f4b = open('I/DbA.md', 'w')
+f4b.write('---\nlayout: page\ntitle: "Definition by Author"\n---\n\n')
 
 # Definition by Authors: sort by Username
 #-----------------------------------------------------------------------------#
+def_words    = ['definition', 'definitions']
+def_hdr      = '\n### {} ({} {})\n\n'
+def_users    = [definitions[def_id]['username'].lower() for def_id in def_ids]
 unique_users = list(set(def_users))
 unique_users.sort()
 for user in unique_users:
-    user_definitions = [definition for definition in definitions.values() if definition['username'] == user]
-    if len(user_definitions) == 1:
-        ind4a.write('\n### ' + user + ' (1 definition)\n\n')
-    else:
-        ind4a.write('\n### ' + user + ' (' + str(len(user_definitions)) + ' definitions)\n\n')
-    user_titles = []
-    for definition in user_definitions:
-        user_titles.append(definition['title'])
-    sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(user_titles)])]
-    for i in range(0,len(user_titles)):
+    user_definitions = [definition for definition in definitions.values() if definition['username'].lower() == user]
+    user_name        = user_definitions[0]['username']
+    f4b.write(def_hdr.format(user_name, len(user_definitions), def_words[len(user_definitions)>1]))
+    user_titles      = [definition['title'].lower() for definition in user_definitions]
+    sort_ind         = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(user_titles)])]
+    for i in range(len(user_titles)):
         shortcut = user_definitions[sort_ind[i]]['shortcut']
         title    = user_definitions[sort_ind[i]]['title']
-        ind4a.write('- [' + title + '](/D/' + shortcut + ')\n')
-ind4a.close()
+        f4b.write('- [' + title + '](/D/' + shortcut + ')\n')
+f4b.close()
 print('   - successfully written to disk!')
 
 
 # Proofs without Source: prepare index file
 #-----------------------------------------------------------------------------#
 print('\n5a.Proofs without Source:')
-ind5a = open('I/PwS.md', 'w')
-ind5a.write('---\nlayout: page\ntitle: "Proofs without Source"\n---\n\n\n')
+f5a = open('I/PwS.md', 'w')
+f5a.write('---\nlayout: page\ntitle: "Proofs without Source"\n---\n\n\n')
 
 # Proofs without Source: sort by Title
 #-----------------------------------------------------------------------------#
 sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(pr_titles)])]
-for i in range(0,len(pr_titles)):
+for i in range(num_pr):
     shortcut = proofs[pr_ids[sort_ind[i]]]['shortcut']
     title    = proofs[pr_ids[sort_ind[i]]]['title']
     source   = proofs[pr_ids[sort_ind[i]]]['source']
     if not source:
-        ind5a.write('- [' + title + '](/P/' + shortcut + ')\n')
-ind5a.close()
+        f5a.write('- [' + title + '](/P/' + shortcut + ')\n')
+f5a.close()
 print('   - successfully written to disk!')
 
 
 # Definitions without Source: prepare index file
 #-----------------------------------------------------------------------------#
 print('\n5b.Definitions without Source:')
-ind5b = open('I/DwS.md', 'w')
-ind5b.write('---\nlayout: page\ntitle: "Definitions without Source"\n---\n\n\n')
+f5b = open('I/DwS.md', 'w')
+f5b.write('---\nlayout: page\ntitle: "Definitions without Source"\n---\n\n\n')
 
 # Definitions without Source: sort by Title
 #-----------------------------------------------------------------------------#
 sort_ind = [i for (v, i) in sorted([(v, i) for (i, v) in enumerate(def_titles)])]
-for i in range(0,len(def_titles)):
+for i in range(num_def):
     shortcut = definitions[def_ids[sort_ind[i]]]['shortcut']
     title    = definitions[def_ids[sort_ind[i]]]['title']
     source   = definitions[def_ids[sort_ind[i]]]['source']
     if not source:
-        ind5b.write('- [' + title + '](/D/' + shortcut + ')\n')
-ind5b.close()
+        f5b.write('- [' + title + '](/D/' + shortcut + ')\n')
+f5b.close()
 print('   - successfully written to disk!')

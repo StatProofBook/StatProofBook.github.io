@@ -4,6 +4,10 @@ title: "Definition by Author"
 ---
 
 
+### ciaranmci (1 definition)
+
+- [Sample covariance](/D/cov-samp)
+
 ### JoramSoch (169 definitions)
 
 - [Akaike information criterion](/D/aic)
@@ -46,10 +50,10 @@ title: "Definition by Author"
 - [Dirichlet-distributed data](/D/dir-data)
 - [Discrete and continuous random variable](/D/rvar-disc)
 - [Discrete uniform distribution](/D/duni)
+- [Empirical and theoretical prior distribution](/D/prior-emp)
 - [Empirical Bayes](/D/eb)
 - [Empirical Bayes prior distribution](/D/prior-eb)
 - [Empirical Bayesian log model evidence](/D/eblme)
-- [Empirical and theoretical prior distribution](/D/prior-emp)
 - [Estimation matrix](/D/emat)
 - [Event space](/D/eve-spc)
 - [Exceedance probability](/D/prob-exc)
@@ -106,11 +110,12 @@ title: "Definition by Author"
 - [Mutual information](/D/mi)
 - [Non-standardized t-distribution](/D/nst)
 - [Normal distribution](/D/norm)
-- [Normal-Wishart distribution](/D/nw)
 - [Normal-gamma distribution](/D/ng)
+- [Normal-Wishart distribution](/D/nw)
 - [Null hypothesis](/D/h0)
 - [One-tailed and two-tailed hypothesis](/D/hyp-tail)
 - [One-tailed and two-tailed test](/D/test-tail)
+- [p-value](/D/pval)
 - [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
@@ -161,28 +166,19 @@ title: "Definition by Author"
 - [Statistical hypothesis](/D/hyp)
 - [Statistical hypothesis test](/D/test)
 - [Statistical independence](/D/ind)
+- [t-distribution](/D/t)
 - [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
 - [Transformed general linear model](/D/tglm)
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
+- [Univariate and multivariate random variable](/D/rvar-uni)
 - [Univariate Gaussian](/D/ug)
 - [Univariate Gaussian with known variance](/D/ugkv)
-- [Univariate and multivariate random variable](/D/rvar-uni)
 - [Variance](/D/var)
 - [Variational Bayes](/D/vb)
 - [Variational Bayesian log model evidence](/D/vblme)
 - [Wishart distribution](/D/wish)
-- [p-value](/D/pval)
-- [t-distribution](/D/t)
-
-### StatProofBook (1 definition)
-
-- [Definition Template](/D/-temp-)
-
-### ciaranmci (1 definition)
-
-- [Sample covariance](/D/cov-samp)
 
 ### kjpetrykowski (1 definition)
 
@@ -191,6 +187,10 @@ title: "Definition by Author"
 ### majapavlo (1 definition)
 
 - [Log-normal distribution](/D/lognorm)
+
+### StatProofBook (1 definition)
+
+- [Definition Template](/D/-temp-)
 
 ### tomfaulkenberry (3 definitions)
 
