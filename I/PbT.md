@@ -314,6 +314,7 @@ title: "Proof by Topic"
 - [Quantile function of the discrete uniform distribution](/P/duni-qf)
 - [Quantile function of the exponential distribution](/P/exp-qf)
 - [Quantile function of the gamma distribution](/P/gam-qf)
+- [Quantile function of the log-normal distribution](/P/lognorm-qf)
 - [Quantile function of the normal distribution](/P/norm-qf)
 
 ### R

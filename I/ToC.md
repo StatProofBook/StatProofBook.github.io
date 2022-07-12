@@ -408,6 +408,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.6.3. **[Cumulative distribution function](/P/lognorm-cdf)** <br>
    &emsp;&ensp; 3.6.4. **[Median](/P/lognorm-med)** <br>
    &emsp;&ensp; 3.6.5. **[Mode](/P/lognorm-mode)** <br>
+   &emsp;&ensp; 3.6.6. **[Quantile Function](/P/lognorm-qf)** <br>
    
    3.7. Chi-squared distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/chi2)* <br>

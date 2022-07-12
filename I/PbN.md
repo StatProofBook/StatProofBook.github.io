@@ -331,3 +331,4 @@ title: "Proof by Number"
 | P323 | nw-pdf | [Probability density function of the normal-Wishart distribution](/P/nw-pdf) | JoramSoch | 2022-05-14 |
 | P324 | ng-nw | [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw) | JoramSoch | 2022-05-20 |
 | P325 | lognorm-cdf | [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf) | majapavlo | 2022-06-29 |
+| P326 | lognorm-qf | [Quantile function of the log-normal distribution](/P/lognorm-qf) | majapavlo | 2022-07-09 |
