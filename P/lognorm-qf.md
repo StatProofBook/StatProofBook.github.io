@@ -7,7 +7,7 @@ affiliation: ""
 e_mail: "mpavlovic@uw.co.uk"
 date: 2022-07-09 11:05:00
 
-title: ""Quantile function of the log-normal distribution"
+title: "Quantile function of the log-normal distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Log-normal distribution"
@@ -48,7 +48,7 @@ $$ \label{eq:lognorm-cdf}
 F_X(x) = \frac{1}{2} \left[ 1 + \mathrm{erf}\left( \frac{\ln x-\mu}{\sqrt{2} \sigma} \right) \right] \; .
 $$
 
-From this point forward, the proof is similar to the derivation of the [quantile function for the normal distribution](/P/norm-qf). Because the cumulative distribution function (CDF) is strictly monotonically increasing the [quantile function is equal to the inverse of the CDF](/P/qf-cdf): 
+From this point forward, the proof is similar to the derivation of the [quantile function for the normal distribution](/P/norm-qf). Because the cumulative distribution function (CDF) is strictly monotonically increasing, the [quantile function is equal to the inverse of the CDF](/P/qf-cdf): 
 
 $$ \label{eq:lognorm-qf-s1}
 Q_X(p) = F_X^{-1}(x) \; .
