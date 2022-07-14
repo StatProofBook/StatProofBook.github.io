@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (309 proofs)
+### JoramSoch (311 proofs)
 
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
@@ -95,6 +95,7 @@ title: "Proof by Author"
 - [First central moment is zero](/P/momcent-1st)
 - [First raw moment is mean](/P/momraw-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
+- [Gamma distribution is a special case of Wishart distribution](/P/gam-wish)
 - [Gaussian integral](/P/norm-gi)
 - [Gibbs' inequality](/P/gibbs-ineq)
 - [Inflection points of the probability density function of the normal distribution](/P/norm-infl)
@@ -160,6 +161,7 @@ title: "Proof by Author"
 - [Mean of the multinomial distribution](/P/mult-mean)
 - [Mean of the normal distribution](/P/norm-mean)
 - [Mean of the normal-gamma distribution](/P/ng-mean)
+- [Mean of the normal-Wishart distribution](/P/nw-mean)
 - [Mean of the Poisson distribution](/P/poiss-mean)
 - [Median of the continuous uniform distribution](/P/cuni-med)
 - [Median of the exponential distribution](/P/exp-med)
