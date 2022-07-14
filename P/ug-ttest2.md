@@ -103,7 +103,7 @@ $$
 Because [sample variances calculated from independent normal random variables follow a chi-squared distribution](/P/norm-chi2), the distribution of $V = (n_1+n_2-2)\,s_p^2/\sigma^2$ is
 
 $$ \label{eq:V-dist}
-V = \frac{(n_1+n_2-1)\,s_p^2}{\sigma^2} \sim \chi^2\left(n_1+n_2-2\right) \; .
+V = \frac{(n_1+n_2-2)\,s_p^2}{\sigma^2} \sim \chi^2\left(n_1+n_2-2\right) \; .
 $$
 
 Finally, since [the ratio of a standard normal random variable and the square root of a chi-squared random variable follows a t-distribution](/D/t), the distribution of the [test statistic](/D/tstat) is given by

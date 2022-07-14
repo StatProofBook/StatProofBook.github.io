@@ -34,7 +34,7 @@ f_X(x) = {n \choose x} \, p^x \, (1-p)^{n-x} \; .
 $$
 
 
-**Proof:** A binomial variable [is defined as](/D/bin) the number of successes observed in $n$ [independent](/D/ind) trials, where each trial has [two possible outcomes](/D/bern) (success/failure) and the [probability](/D/prob) of success and failure are identical across trials ($p$/$q = 1-p$).
+**Proof:** A binomial variable [is defined as](/D/bin) the number of successes observed in $n$ [independent](/D/ind) trials, where each trial has [two possible outcomes](/D/bern) (success/failure) and the [probability](/D/prob) of success and failure are identical across trials ($p$, $q = 1-p$).
 
 If one has obtained $x$ successes in $n$ trials, one has also obtained $(n-x)$ failures. The probability of a particular series of $x$ successes and $(n-x)$ failures, when order does matter, is
 

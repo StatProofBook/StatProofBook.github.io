@@ -55,7 +55,7 @@ $$
 which, for mathematical convenience, can also be parametrized as
 
 $$ \label{eq:GLM-LF-Bayes}
-p(Y|B,T) = \mathcal{MN}(Y; X B, P, T^{-1}) = \sqrt{\frac{|T|^n |P|^v}{(2 \pi)^{nv}}} \, \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T (Y-XB)^\mathrm{T} P (Y-XB) \right) \right]
+p(Y|B,T) = \mathcal{MN}(Y; X B, P^{-1}, T^{-1}) = \sqrt{\frac{|T|^n |P|^v}{(2 \pi)^{nv}}} \, \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T (Y-XB)^\mathrm{T} P (Y-XB) \right) \right]
 $$
 
 using the $v \times v$ [precision matrix](/D/precmat) $T = \Sigma^{-1}$ and the $n \times n$ [precision matrix](/D/precmat) $P = V^{-1}$.
@@ -73,7 +73,7 @@ $$ \label{eq:GLM-LF-s2}
 p(Y|B,T) = \sqrt{\frac{|P|^v}{(2 \pi)^{nv}}} \cdot |T|^{n/2} \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T \left[ Y^\mathrm{T} P Y - Y^\mathrm{T} P X B - B^\mathrm{T} X^\mathrm{T} P Y + B^\mathrm{T} X^\mathrm{T} P X B \right] \right) \right] \; .
 $$
 
-Completing the square over $\beta$, finally gives
+Completing the square over $B$, finally gives
 
 $$ \label{eq:GLM-LF-s3}
 p(Y|B,T) = \sqrt{\frac{|P|^v}{(2 \pi)^{nv}}} \cdot |T|^{n/2} \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( T \left[ (B - \tilde{X}Y)^\mathrm{T} X^\mathrm{T} P X (B - \tilde{X}Y) - Y^\mathrm{T} Q Y + Y^\mathrm{T} P Y \right] \right) \right]

@@ -30,7 +30,7 @@ $$
 Then, the [expected value](/D/mean) of $x$ and $y$ is
 
 $$ \label{eq:ng-mean}
-\mathrm{E}[(x,y)] = \left[ \left( \mu, \frac{a}{b} \right) \right] \; .
+\mathrm{E}[(x,y)] = \left( \mu, \frac{a}{b} \right) \; .
 $$
 
 
