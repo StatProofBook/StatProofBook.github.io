@@ -64,6 +64,7 @@ title: "Proofs without Source"
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
+- [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
 - [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 - [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr)

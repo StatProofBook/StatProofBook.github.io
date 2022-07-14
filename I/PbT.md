@@ -61,6 +61,7 @@ title: "Proof by Topic"
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 - [Cumulative distribution function of the gamma distribution](/P/gam-cdf)
+- [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf)
 - [Cumulative distribution function of the normal distribution](/P/norm-cdf)
 
 ### D
@@ -224,6 +225,7 @@ title: "Proof by Topic"
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
 - [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
+- [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
 
 ### O
 
@@ -312,6 +314,7 @@ title: "Proof by Topic"
 - [Quantile function of the discrete uniform distribution](/P/duni-qf)
 - [Quantile function of the exponential distribution](/P/exp-qf)
 - [Quantile function of the gamma distribution](/P/gam-qf)
+- [Quantile function of the log-normal distribution](/P/lognorm-qf)
 - [Quantile function of the normal distribution](/P/norm-qf)
 
 ### R
