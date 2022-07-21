@@ -69,11 +69,30 @@ $$ \label{eq:x-ind-dev}
 \end{split}
 $$
 
-which, given the laws for matrix determinants and matrix inverses, is only fulfilled if
+which is only fulfilled by a diagonal covariance matrix
 
 $$ \label{eq:Sigma-diag-qed}
-\Sigma = \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right) \; .
+\Sigma = \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right) \; ,
 $$
+
+because the determinant of a diagonal matrix is a product
+
+$$ \label{eq:diag-det}
+| \mathrm{diag}\left( \left[ a_1, \ldots, a_n \right] \right) | = \prod_{i=1}^n a_i \; ,
+$$
+
+the inverse of a diagonal matrix is a diagonal matrix
+
+$$ \label{eq:diag-inv}
+\mathrm{diag}\left( \left[ a_1, \ldots, a_n \right] \right)^{-1} = \mathrm{diag}\left( \left[ 1/a_1, \ldots, 1/a_n \right] \right)
+$$
+
+and the squared form with a diagonal matrix is
+
+$$ \label{eq:diag-sqr}
+x^\mathrm{T} \mathrm{diag}\left( \left[ a_1, \ldots, a_n \right] \right) x = \sum_{i=1}^n a_i x_i^2 \; .
+$$
+
 
 <br>
 2) Let

@@ -48,10 +48,10 @@ $$ \label{eq:t}
 t = \frac{(\bar{y}_1-\bar{y}_2)-\mu_\Delta}{s_p \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}
 $$
 
-with [sample means](/D/mean-samp) $\bar{y}_1$ and $\bar{y}_2$ and [pooled standard deviation](/D/std-pool) $s_p$ follows a [Student's t-distribution](/D/t) with $n_1+n_2-1$ [degrees of freedom](/D/dof)
+with [sample means](/D/mean-samp) $\bar{y}_1$ and $\bar{y}_2$ and [pooled standard deviation](/D/std-pool) $s_p$ follows a [Student's t-distribution](/D/t) with $n_1+n_2-2$ [degrees of freedom](/D/dof)
 
 $$ \label{eq:t-dist}
-t \sim \mathrm{t}(n_1+n_2-1)
+t \sim \mathrm{t}(n_1+n_2-2)
 $$
 
 under the [null hypothesis](/D/h0)
