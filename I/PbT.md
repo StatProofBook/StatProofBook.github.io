@@ -112,6 +112,7 @@ title: "Proof by Topic"
 
 ### G
 
+- [Gamma distribution is a special case of Wishart distribution](/P/gam-wish)
 - [Gaussian integral](/P/norm-gi)
 - [Gibbs' inequality](/P/gibbs-ineq)
 
@@ -192,6 +193,7 @@ title: "Proof by Topic"
 - [Mean of the multinomial distribution](/P/mult-mean)
 - [Mean of the normal distribution](/P/norm-mean)
 - [Mean of the normal-gamma distribution](/P/ng-mean)
+- [Mean of the normal-Wishart distribution](/P/nw-mean)
 - [Mean of the Poisson distribution](/P/poiss-mean)
 - [Mean of the Wald distribution](/P/wald-mean)
 - [Median of the continuous uniform distribution](/P/cuni-med)

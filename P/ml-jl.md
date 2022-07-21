@@ -27,7 +27,7 @@ $$ \label{eq:ml-jl}
 p(y|m) = \int_{\Theta} p(y,\theta|m) \, \mathrm{d}\theta
 $$
 
-is and related to [likelihood function](/D/lf) and [prior distribution](/D/post) as follows:
+and related to [likelihood function](/D/lf) and [prior distribution](/D/post) as follows:
 
 $$ \label{eq:ml-lf}
 p(y|m) = \int_{\Theta} p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta \; .

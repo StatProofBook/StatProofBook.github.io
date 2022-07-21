@@ -30,7 +30,7 @@ $$
 Then, the [expected value](/D/mean) of $X$ and $Y$ is
 
 $$ \label{eq:nw-mean}
-\mathrm{E}[(X,Y)] = \left[ \left( M, \nu V \right) \right] \; .
+\mathrm{E}[(X,Y)] = \left( M, \nu V \right) \; .
 $$
 
 
