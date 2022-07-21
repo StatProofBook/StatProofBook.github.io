@@ -550,25 +550,26 @@ title: "Table of Contents"
 
    1.4. Multiple linear regression <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/mlr)* <br>
-   &emsp;&ensp; 1.4.2. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
-   &emsp;&ensp; 1.4.3. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
-   &emsp;&ensp; 1.4.4. *[Total sum of squares](/D/tss)* <br>
-   &emsp;&ensp; 1.4.5. *[Explained sum of squares](/D/ess)* <br>
-   &emsp;&ensp; 1.4.6. *[Residual sum of squares](/D/rss)* <br>
-   &emsp;&ensp; 1.4.7. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
-   &emsp;&ensp; 1.4.8. *[Estimation matrix](/D/emat)* <br>
-   &emsp;&ensp; 1.4.9. *[Projection matrix](/D/pmat)* <br>
-   &emsp;&ensp; 1.4.10. *[Residual-forming matrix](/D/rfmat)* <br>
-   &emsp;&ensp; 1.4.11. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
-   &emsp;&ensp; 1.4.12. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
-   &emsp;&ensp; 1.4.13. **[Weighted least squares](/P/mlr-wls)** (1) <br>
-   &emsp;&ensp; 1.4.14. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
-   &emsp;&ensp; 1.4.15. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
-   &emsp;&ensp; 1.4.16. **[Maximum log-likelihood](/P/mlr-mll)** <br>
-   &emsp;&ensp; 1.4.17. **[Deviance function](/P/mlr-dev)** <br>
-   &emsp;&ensp; 1.4.18. **[Akaike information criterion](/P/mlr-aic)** <br>
-   &emsp;&ensp; 1.4.19. **[Bayesian information criterion](/P/mlr-bic)** <br>
-   &emsp;&ensp; 1.4.20. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
+   &emsp;&ensp; 1.4.2. **[Special case of general linear model](/P/mlr-glm)** <br>
+   &emsp;&ensp; 1.4.3. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
+   &emsp;&ensp; 1.4.4. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
+   &emsp;&ensp; 1.4.5. *[Total sum of squares](/D/tss)* <br>
+   &emsp;&ensp; 1.4.6. *[Explained sum of squares](/D/ess)* <br>
+   &emsp;&ensp; 1.4.7. *[Residual sum of squares](/D/rss)* <br>
+   &emsp;&ensp; 1.4.8. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
+   &emsp;&ensp; 1.4.9. *[Estimation matrix](/D/emat)* <br>
+   &emsp;&ensp; 1.4.10. *[Projection matrix](/D/pmat)* <br>
+   &emsp;&ensp; 1.4.11. *[Residual-forming matrix](/D/rfmat)* <br>
+   &emsp;&ensp; 1.4.12. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
+   &emsp;&ensp; 1.4.13. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
+   &emsp;&ensp; 1.4.14. **[Weighted least squares](/P/mlr-wls)** (1) <br>
+   &emsp;&ensp; 1.4.15. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
+   &emsp;&ensp; 1.4.16. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   &emsp;&ensp; 1.4.17. **[Maximum log-likelihood](/P/mlr-mll)** <br>
+   &emsp;&ensp; 1.4.18. **[Deviance function](/P/mlr-dev)** <br>
+   &emsp;&ensp; 1.4.19. **[Akaike information criterion](/P/mlr-aic)** <br>
+   &emsp;&ensp; 1.4.20. **[Bayesian information criterion](/P/mlr-bic)** <br>
+   &emsp;&ensp; 1.4.21. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
    1.5. Bayesian linear regression <br>
    &emsp;&ensp; 1.5.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
