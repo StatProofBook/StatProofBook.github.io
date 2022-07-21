@@ -10,7 +10,6 @@ title: "Proof by Author"
 
 ### JoramSoch (311 proofs)
 
-- [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
 - [Addition law of probability](/P/prob-add)
@@ -178,6 +177,7 @@ title: "Proof by Author"
 - [Monotonicity of the expected value](/P/mean-mono)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Non-invariance of the differential entropy under change of variables](/P/dent-noninv)
+- [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
@@ -288,8 +288,8 @@ title: "Proof by Author"
 - [Relationship between normal distribution and standard normal distribution](/P/norm-snorm3)
 - [Relationship between normal distribution and t-distribution](/P/norm-t)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
-- [Relationship between residual variance and sample variance in simple linear regression](/P/slr-resvar)
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
+- [Relationship between residual variance and sample variance in simple linear regression](/P/slr-resvar)
 - [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Sampling from the matrix-normal distribution](/P/matn-samp)
