@@ -440,13 +440,14 @@ title: "Table of Contents"
 
    4.1. Multivariate normal distribution <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn)* <br>
-   &emsp;&ensp; 4.1.2. **[Probability density function](/P/mvn-pdf)** <br>
-   &emsp;&ensp; 4.1.3. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.4. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.5. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.6. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.7. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.8. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.2. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
+   &emsp;&ensp; 4.1.3. **[Probability density function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.4. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.5. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.6. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.7. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.8. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.9. **[Conditions for independence](/P/mvn-ind)** <br>
    
    4.2. Multivariate t-distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
