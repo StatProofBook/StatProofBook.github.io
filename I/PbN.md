@@ -334,3 +334,5 @@ title: "Proof by Number"
 | P326 | lognorm-qf | [Quantile function of the log-normal distribution](/P/lognorm-qf) | majapavlo | 2022-07-09 |
 | P327 | nw-mean | [Mean of the normal-Wishart distribution](/P/nw-mean) | JoramSoch | 2022-07-14 |
 | P328 | gam-wish | [Gamma distribution is a special case of Wishart distribution](/P/gam-wish) | JoramSoch | 2022-07-14 |
+| P329 | mlr-glm | [Multiple linear regression is a special case of the general linear model](/P/mlr-glm) | JoramSoch | 2022-07-21 |
+| P330 | mvn-matn | [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn) | JoramSoch | 2022-07-31 |
