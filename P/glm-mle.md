@@ -60,7 +60,7 @@ Substituting $V^{-1}$ by the precision matrix $P$ to ease notation, we have:
 
 $$ \label{eq:GLM-LL2}
 \begin{split}
-\mathrm{LL}(B,\Sigma) = &- \frac{nv}{2} \log(2\pi) - \frac{n}{2} \log(|\Sigma|) - \frac{v}{2} \log(|V|) \\
+\mathrm{LL}(B,\Sigma) = &- \frac{nv}{2} \log(2\pi) - \frac{n}{2} \log(|\Sigma|) + \frac{v}{2} \log(|P|) \\
 &- \frac{1}{2} \, \mathrm{tr}\left[ \Sigma^{-1} \left( Y^\mathrm{T} P Y - Y^\mathrm{T} P X B - B^\mathrm{T} X^\mathrm{T} P Y + B^\mathrm{T} X^\mathrm{T} P X B \right) \right] \; .\\
 \end{split}
 $$

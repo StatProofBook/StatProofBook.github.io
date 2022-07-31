@@ -37,7 +37,7 @@ Then, the [log model evidence](/D/lme) for this model is
 
 $$ \label{eq:GLM-NW-LME}
 \begin{split}
-\log p(y|m) = & \frac{v}{2} \log |P| - \frac{nv}{2} \log (2 \pi)  + \frac{v}{2} \log |\Lambda_0| - \frac{v}{2} \log |\Lambda_n| + \\
+\log p(Y|m) = & \frac{v}{2} \log |P| - \frac{nv}{2} \log (2 \pi)  + \frac{v}{2} \log |\Lambda_0| - \frac{v}{2} \log |\Lambda_n| + \\
 & \frac{\nu_0}{2} \log\left| \frac{1}{2} \Omega_0 \right| - \frac{\nu_n}{2} \log\left| \frac{1}{2} \Omega_n \right| + \log \Gamma_v \left( \frac{\nu_n}{2} \right) - \log \Gamma_v \left( \frac{\nu_0}{2} \right)
 \end{split}
 $$
@@ -124,7 +124,7 @@ Thus, the [log model evidence](/D/lme) of this model is given by
 
 $$ \label{eq:GLM-NW-LME-s6}
 \begin{split}
-\log p(y|m) = & \frac{v}{2} \log |P| - \frac{nv}{2} \log (2 \pi)  + \frac{v}{2} \log |\Lambda_0| - \frac{v}{2} \log |\Lambda_n| + \\
+\log p(Y|m) = & \frac{v}{2} \log |P| - \frac{nv}{2} \log (2 \pi)  + \frac{v}{2} \log |\Lambda_0| - \frac{v}{2} \log |\Lambda_n| + \\
 & \frac{\nu_0}{2} \log\left| \frac{1}{2} \Omega_0 \right| - \frac{\nu_n}{2} \log\left| \frac{1}{2} \Omega_n \right| + \log \Gamma_v \left( \frac{\nu_n}{2} \right) - \log \Gamma_v \left( \frac{\nu_0}{2} \right) \; .
 \end{split}
 $$
