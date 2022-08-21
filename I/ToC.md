@@ -352,24 +352,25 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.5. **[Relationship to standard normal distribution](/P/norm-snorm3)** (3) <br>
    &emsp;&ensp; 3.2.6. **[Relationship to chi-squared distribution](/P/norm-chi2)** <br>
    &emsp;&ensp; 3.2.7. **[Relationship to t-distribution](/P/norm-t)** <br>
-   &emsp;&ensp; 3.2.8. **[Gaussian integral](/P/norm-gi)** <br>
-   &emsp;&ensp; 3.2.9. **[Probability density function](/P/norm-pdf)** <br>
-   &emsp;&ensp; 3.2.10. **[Moment-generating function](/P/norm-mgf)** <br>
-   &emsp;&ensp; 3.2.11. **[Cumulative distribution function](/P/norm-cdf)** <br>
-   &emsp;&ensp; 3.2.12. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
-   &emsp;&ensp; 3.2.13. **[Probability of being within standard deviations from mean](/P/norm-probstd)** <br>
-   &emsp;&ensp; 3.2.14. **[Quantile function](/P/norm-qf)** <br>
-   &emsp;&ensp; 3.2.15. **[Mean](/P/norm-mean)** <br>
-   &emsp;&ensp; 3.2.16. **[Median](/P/norm-med)** <br>
-   &emsp;&ensp; 3.2.17. **[Mode](/P/norm-mode)** <br>
-   &emsp;&ensp; 3.2.18. **[Variance](/P/norm-var)** <br>
-   &emsp;&ensp; 3.2.19. **[Full width at half maximum](/P/norm-fwhm)** <br>
-   &emsp;&ensp; 3.2.20. **[Extreme points](/P/norm-extr)** <br>
-   &emsp;&ensp; 3.2.21. **[Inflection points](/P/norm-infl)** <br>
-   &emsp;&ensp; 3.2.22. **[Differential entropy](/P/norm-dent)** <br>
-   &emsp;&ensp; 3.2.23. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
-   &emsp;&ensp; 3.2.24. **[Maximum entropy distribution](/P/norm-maxent)** <br>
-   &emsp;&ensp; 3.2.25. **[Linear combination](/P/norm-lincomb)** <br>
+   &emsp;&ensp; 3.2.8. **[Special case of multivariate normal distribution](/P/norm-mvn)** <br>
+   &emsp;&ensp; 3.2.9. **[Gaussian integral](/P/norm-gi)** <br>
+   &emsp;&ensp; 3.2.10. **[Probability density function](/P/norm-pdf)** <br>
+   &emsp;&ensp; 3.2.11. **[Moment-generating function](/P/norm-mgf)** <br>
+   &emsp;&ensp; 3.2.12. **[Cumulative distribution function](/P/norm-cdf)** <br>
+   &emsp;&ensp; 3.2.13. **[Cumulative distribution function without error function](/P/norm-cdfwerf)** <br>
+   &emsp;&ensp; 3.2.14. **[Probability of being within standard deviations from mean](/P/norm-probstd)** <br>
+   &emsp;&ensp; 3.2.15. **[Quantile function](/P/norm-qf)** <br>
+   &emsp;&ensp; 3.2.16. **[Mean](/P/norm-mean)** <br>
+   &emsp;&ensp; 3.2.17. **[Median](/P/norm-med)** <br>
+   &emsp;&ensp; 3.2.18. **[Mode](/P/norm-mode)** <br>
+   &emsp;&ensp; 3.2.19. **[Variance](/P/norm-var)** <br>
+   &emsp;&ensp; 3.2.20. **[Full width at half maximum](/P/norm-fwhm)** <br>
+   &emsp;&ensp; 3.2.21. **[Extreme points](/P/norm-extr)** <br>
+   &emsp;&ensp; 3.2.22. **[Inflection points](/P/norm-infl)** <br>
+   &emsp;&ensp; 3.2.23. **[Differential entropy](/P/norm-dent)** <br>
+   &emsp;&ensp; 3.2.24. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
+   &emsp;&ensp; 3.2.25. **[Maximum entropy distribution](/P/norm-maxent)** <br>
+   &emsp;&ensp; 3.2.26. **[Linear combination](/P/norm-lincomb)** <br>
    
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
