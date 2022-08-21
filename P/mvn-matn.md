@@ -14,6 +14,12 @@ topic: "Multivariate normal distribution"
 theorem: "Special case of matrix-normal distribution"
 
 sources:
+  - authors: "Wikipedia"
+    year: 2022
+    title: "Matrix normal distribution"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2022-07-31"
+    url: "https://en.wikipedia.org/wiki/Matrix_normal_distribution"
 
 proof_id: "P330"
 shortcut: "mvn-matn"
@@ -32,11 +38,11 @@ $$
 
 Setting $p = 1$, $X = x$, $M = \mu$, $U = \Sigma$ and $V = 1$, we obtain
 
-\begin{equation} \label{eq:exp-pdf}
+$$ \label{eq:exp-pdf}
 \begin{split}
 \mathcal{MN}(x; \mu, \Sigma, 1) &= \frac{1}{\sqrt{(2\pi)^{n} |1|^n |\Sigma|^1}} \cdot \exp\left[-\frac{1}{2} \mathrm{tr}\left( 1^{-1} (x-\mu)^\mathrm{T} \, \Sigma^{-1} (x-\mu) \right) \right] \\
 &= \frac{1}{\sqrt{(2\pi)^{n} |\Sigma|}} \cdot \exp\left[-\frac{1}{2} (x-\mu)^\mathrm{T} \, \Sigma^{-1} (x-\mu) \right]
 \end{split}
-\end{equation}
+$$
 
 which is equivalent to the [probability density function of the multivariate normal distribution](/P/mvn-pdf).
