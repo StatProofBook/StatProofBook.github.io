@@ -11,7 +11,7 @@ title: "Normal distribution is a special case of multivariate normal distributio
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Normal distribution"
-theorem: "Special case of matrix-normal distribution"
+theorem: "Special case of multivariate normal distribution"
 
 sources:
   - authors: "Wikipedia"
