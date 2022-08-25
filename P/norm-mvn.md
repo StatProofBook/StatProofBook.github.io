@@ -22,7 +22,7 @@ sources:
     url: "https://en.wikipedia.org/wiki/Multivariate_normal_distribution"
 
 proof_id: "P331"
-shortcut: "norm-snorm"
+shortcut: "norm-mvn"
 username: "JoramSoch"
 ---
 

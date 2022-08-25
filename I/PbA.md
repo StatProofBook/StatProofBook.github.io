@@ -186,7 +186,7 @@ title: "Proof by Author"
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
-- [Normal distribution is a special case of multivariate normal distribution](/P/norm-snorm)
+- [Normal distribution is a special case of multivariate normal distribution](/P/norm-mvn)
 - [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
 - [One-sample t-test for independent observations](/P/ug-ttest1)
