@@ -376,7 +376,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
    &emsp;&ensp; 3.3.2. *[Non-standardized t-distribution](/D/nst)* <br>
    &emsp;&ensp; 3.3.3. **[Relationship to non-standardized t-distribution](/P/nst-t)** <br>
-   &emsp;&ensp; 3.3.4. **[Probability density function](/P/t-pdf)** <br>
+   &emsp;&ensp; 3.3.4. **[Special case of multivariate t-distribution](/P/t-mvt)** <br>
+   &emsp;&ensp; 3.3.5. **[Probability density function](/P/t-pdf)** <br>
 
    3.4. Gamma distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/gam)* <br>
