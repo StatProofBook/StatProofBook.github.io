@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (313 proofs)
+### JoramSoch (315 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -186,6 +186,7 @@ title: "Proof by Author"
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
+- [Normal distribution is a special case of multivariate normal distribution](/P/norm-snorm)
 - [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
 - [One-sample t-test for independent observations](/P/ug-ttest1)
@@ -299,6 +300,7 @@ title: "Proof by Author"
 - [Second central moment is variance](/P/momcent-2nd)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Sums of squares for simple linear regression](/P/slr-sss)
+- [t-distribution is a special case of multivariate t-distribution](/P/t-mvt)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)

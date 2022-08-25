@@ -228,6 +228,7 @@ title: "Proof by Topic"
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
+- [Normal distribution is a special case of multivariate normal distribution](/P/norm-snorm)
 - [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
 
@@ -364,6 +365,7 @@ title: "Proof by Topic"
 
 ### T
 
+- [t-distribution is a special case of multivariate t-distribution](/P/t-mvt)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
