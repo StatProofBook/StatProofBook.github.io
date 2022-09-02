@@ -65,7 +65,6 @@ title: "Proofs without Source"
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the normal distribution](/P/norm-mode)
-- [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
 - [Ordinary least squares for simple linear regression](/P/slr-ols2)
