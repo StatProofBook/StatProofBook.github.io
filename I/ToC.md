@@ -305,6 +305,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.3. **[Mean](/P/bern-mean)** <br>
    &emsp;&ensp; 1.2.4. **[Variance](/P/bern-var)** <br>
    &emsp;&ensp; 1.2.5. **[Range of variance](/P/bern-varrange)** <br>
+   &emsp;&ensp; 1.2.6. **[Shannon entropy](/P/bern-ent)** <br>
 
    1.3. Binomial distribution <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/bin)* <br>
@@ -312,6 +313,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.3. **[Mean](/P/bin-mean)** <br>
    &emsp;&ensp; 1.3.4. **[Variance](/P/bin-var)** <br>
    &emsp;&ensp; 1.3.5. **[Range of variance](/P/bin-varrange)** <br>
+   &emsp;&ensp; 1.3.6. **[Shannon entropy](/P/bin-ent)** <br>
    
    1.4. Poisson distribution <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/poiss)* <br>
@@ -325,12 +327,15 @@ title: "Table of Contents"
    &emsp;&ensp; 2.1.1. *[Definition](/D/cat)* <br>
    &emsp;&ensp; 2.1.2. **[Probability mass function](/P/cat-pmf)** <br>
    &emsp;&ensp; 2.1.3. **[Mean](/P/cat-mean)** <br>
+   &emsp;&ensp; 2.1.4. **[Covariance](/P/cat-cov)** <br>
+   &emsp;&ensp; 2.1.5. **[Shannon entropy](/P/cat-ent)** <br>
 
    2.2. Multinomial distribution <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/mult)* <br>
    &emsp;&ensp; 2.2.2. **[Probability mass function](/P/mult-pmf)** <br>
    &emsp;&ensp; 2.2.3. **[Mean](/P/mult-mean)** <br>
    &emsp;&ensp; 2.2.4. **[Covariance](/P/mult-cov)** <br>
+   &emsp;&ensp; 2.2.5. **[Shannon entropy](/P/mult-ent)** <br>
 
 3. Univariate continuous distributions
 
