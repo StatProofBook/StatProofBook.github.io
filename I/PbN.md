@@ -338,3 +338,9 @@ title: "Proof by Number"
 | P330 | mvn-matn | [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn) | JoramSoch | 2022-07-31 |
 | P331 | norm-mvn | [Normal distribution is a special case of multivariate normal distribution](/P/norm-mvn) | JoramSoch | 2022-08-19 |
 | P332 | t-mvt | [t-distribution is a special case of multivariate t-distribution](/P/t-mvt) | JoramSoch | 2022-08-25 |
+| P333 | mvt-pdf | [Probability density function of the multivariate t-distribution](/P/mvt-pdf) | JoramSoch | 2022-09-02 |
+| P334 | bern-ent | [Entropy of the Bernoulli distribution](/P/bern-ent) | JoramSoch | 2022-09-02 |
+| P335 | bin-ent | [Entropy of the binomial distribution](/P/bin-ent) | JoramSoch | 2022-09-02 |
+| P336 | cat-ent | [Entropy of the categorical distribution](/P/cat-ent) | JoramSoch | 2022-09-09 |
+| P337 | mult-ent | [Entropy of the multinomial distribution](/P/mult-ent) | JoramSoch | 2022-09-09 |
+| P338 | cat-cov | [Covariance matrix of the categorical distribution](/P/cat-cov) | JoramSoch | 2022-09-09 |

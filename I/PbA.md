@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (315 proofs)
+### JoramSoch (321 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -44,6 +44,7 @@ title: "Proof by Author"
 - [Corrected Akaike information criterion in terms of maximum log-likelihood](/P/aicc-mll)
 - [Correlation always falls between -1 and +1](/P/corr-range)
 - [Correlation coefficient in terms of standard scores](/P/corr-z)
+- [Covariance matrix of the categorical distribution](/P/cat-cov)
 - [Covariance of independent random variables](/P/cov-ind)
 - [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf)
 - [Cross-validated log model evidence for the univariate Gaussian with known variance](/P/ugkv-cvlme)
@@ -77,6 +78,10 @@ title: "Proof by Author"
 - [Distribution of the transformed general linear model](/P/tglm-dist)
 - [Distributional transformation using cumulative distribution function](/P/cdf-dt)
 - [Effects of mean-centering on parameter estimates for simple linear regression](/P/slr-meancent)
+- [Entropy of the Bernoulli distribution](/P/bern-ent)
+- [Entropy of the binomial distribution](/P/bin-ent)
+- [Entropy of the categorical distribution](/P/cat-ent)
+- [Entropy of the multinomial distribution](/P/mult-ent)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)
 - [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep)
@@ -236,6 +241,7 @@ title: "Proof by Author"
 - [Probability density function of the gamma distribution](/P/gam-pdf)
 - [Probability density function of the matrix-normal distribution](/P/matn-pdf)
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
+- [Probability density function of the multivariate t-distribution](/P/mvt-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
 - [Probability density function of the normal-gamma distribution](/P/ng-pdf)
 - [Probability density function of the normal-Wishart distribution](/P/nw-pdf)
