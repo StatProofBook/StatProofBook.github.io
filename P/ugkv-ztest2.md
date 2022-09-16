@@ -42,7 +42,7 @@ y_{2i} &\sim \mathcal{N}(\mu_2, \sigma_2^2), \quad i = 1, \ldots, n_2
 \end{split}
 $$
 
-be a [univariate Gaussian data set](/D/ug) representing two groups of unequal size $n_1$ and $n_2$ with unknown means $\mu_1$ and $\mu_2$ and unknown variances $\sigma_1^2$ and $\sigma_2^2$. Then, the [test statistic](/D/tstat)
+be two [univariate Gaussian data sets](/D/ug) representing two groups of unequal size $n_1$ and $n_2$ with unknown means $\mu_1$ and $\mu_2$ and unknown variances $\sigma_1^2$ and $\sigma_2^2$. Then, the [test statistic](/D/tstat)
 
 $$ \label{eq:z}
 z = \frac{(\bar{y}_1-\bar{y}_2)-\mu_\Delta}{\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}}
@@ -70,16 +70,16 @@ $$ \label{eq:mean-samp}
 \end{split}
 $$
 
-Using the [linearity of the expected value](/P/mean-lin), the [additivity of the variance under independence](/P/var-add) and [scaling of the variance upon multiplication](/P/var-scal), the sample means follow a [normal distribution](/D/norm)
+Using the [linear combination formula for normal random variables](/P/norm-lincomb), the sample means follows [normal distributions](/D/norm) with the following parameters:
 
 $$ \label{eq:mean-samp-dist}
 \begin{split}
 \bar{y}_1 &= \frac{1}{n_1} \sum_{i=1}^{n_1} y_{1i} \sim \mathcal{N}\left( \frac{1}{n_1} n_1 \mu_1, \left(\frac{1}{n_1}\right)^2 n_1 \sigma^2 \right) = \mathcal{N}\left( \mu_1, \sigma_1^2/n_1 \right) \\
-\bar{y}_2 &= \frac{1}{n_2} \sum_{i=1}^{n_2} y_{2i} \sim \mathcal{N}\left( \frac{1}{n_2} n_2 \mu_2, \left(\frac{1}{n_2}\right)^2 n_2 \sigma^2 \right) = \mathcal{N}\left( \mu_2, \sigma_2^2/n_2 \right)
+\bar{y}_2 &= \frac{1}{n_2} \sum_{i=1}^{n_2} y_{2i} \sim \mathcal{N}\left( \frac{1}{n_2} n_2 \mu_2, \left(\frac{1}{n_2}\right)^2 n_2 \sigma^2 \right) = \mathcal{N}\left( \mu_2, \sigma_2^2/n_2 \right) \; .
 \end{split}
 $$
 
-and additionally using the [invariance of the variance under addition](/P/var-inv), the distribution of $z = [(\bar{y}_1-\bar{y}_2)-\mu_\Delta]/\sigma_\Delta$ becomes
+Again employing the linear combination theorem, the distribution of $z = [(\bar{y}_1-\bar{y}_2)-\mu_\Delta]/\sigma_\Delta$ becomes
 
 $$ \label{eq:z-dist-s1}
 z = \frac{(\bar{y}_1-\bar{y}_2)-\mu_\Delta}{\sigma_\Delta} \sim \mathcal{N}\left( \frac{(\mu_1-\mu_2)-\mu_\Delta}{\sigma_\Delta}, \left(\frac{1}{\sigma_\Delta}\right)^2 \sigma_\Delta^2 \right) = \mathcal{N}\left( \frac{(\mu_1-\mu_2)-\mu_\Delta}{\sigma_\Delta}, 1 \right)

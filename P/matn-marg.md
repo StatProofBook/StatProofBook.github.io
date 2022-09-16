@@ -69,8 +69,8 @@ where $m_{ij}$ is the $(i,j)$-th entry of $M$.
 $$ \label{eq:A}
 A \in \mathbb{R}^{\lvert I \rvert \times n}, \quad \text{s.t.} \quad a_{ij} = \left\{
 \begin{array}{rl}
-0 \; , & \text{if} \; I_i = j \\
-1 \; , & \text{otherwise}
+1 \; , & \text{if} \; I_i = j \\
+0 \; , & \text{otherwise}
 \end{array}
 \right.
 $$
@@ -80,8 +80,8 @@ and define a selector matrix $B$, such that $b_{ij} = 1$, if the $j$-th column i
 $$ \label{eq:B}
 B \in \mathbb{R}^{p \times \lvert J \rvert}, \quad \text{s.t.} \quad b_{ij} = \left\{
 \begin{array}{rl}
-0 \; , & \text{if} \; J_j = i \\
-1 \; , & \text{otherwise} \; .
+1 \; , & \text{if} \; J_j = i \\
+0 \; , & \text{otherwise} \; .
 \end{array}
 \right.
 $$

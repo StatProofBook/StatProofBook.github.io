@@ -37,7 +37,7 @@ $$
 **Proof:** If all entries of $X$ are independent and [standard normally distributed](/D/snorm)
 
 $$ \label{eq:xij-dist}
-x_{ij} \sim \mathcal{N}(0, 1) \quad \text{ind. for all} \quad i = 1,\ldots,n \quad \text{and} \quad j = 1,\ldots,p \; ,
+x_{ij} \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, 1) \quad \text{for all} \quad i = 1,\ldots,n \quad \text{and} \quad j = 1,\ldots,p \; ,
 $$
 
 this [implies a multivariate normal distribution with diagonal covariance matrix](/P/mvn-ind):

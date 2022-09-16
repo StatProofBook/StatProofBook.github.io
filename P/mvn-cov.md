@@ -102,7 +102,7 @@ $$ \label{eq:mvn-cov-qed}
 \begin{split}
 \mathrm{Cov}(x) &= \mathrm{Cov}( Az + \mu ) \\
 &\overset{\eqref{eq:cov-inv}}{=} \mathrm{Cov}(Az) \\
-&\overset{\eqref{eq:cov-scal}}{=} A \mathrm{Cov}(z) A^\mathrm{T} \\
+&\overset{\eqref{eq:cov-scal}}{=} A \, \mathrm{Cov}(z) A^\mathrm{T} \\
 &\overset{\eqref{eq:z-cov}}{=} A I_n A^\mathrm{T} \\
 &= A A^\mathrm{T} \\
 &= \Sigma \; .
