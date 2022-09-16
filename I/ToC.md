@@ -449,12 +449,14 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn)* <br>
    &emsp;&ensp; 4.1.2. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
    &emsp;&ensp; 4.1.3. **[Probability density function](/P/mvn-pdf)** <br>
-   &emsp;&ensp; 4.1.4. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.5. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.6. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.7. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.8. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.9. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.4. **[Mean](/P/mvn-mean)** <br>
+   &emsp;&ensp; 4.1.5. **[Covariance](/P/mvn-cov)** <br>
+   &emsp;&ensp; 4.1.6. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.7. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.8. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.9. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.10. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.11. **[Conditions for independence](/P/mvn-ind)** <br>
    
    4.2. Multivariate t-distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
@@ -481,12 +483,15 @@ title: "Table of Contents"
 
    5.1. Matrix-normal distribution <br>
    &emsp;&ensp; 5.1.1. *[Definition](/D/matn)* <br>
-   &emsp;&ensp; 5.1.2. **[Probability density function](/P/matn-pdf)** <br>
-   &emsp;&ensp; 5.1.3. **[Equivalence to multivariate normal distribution](/P/matn-mvn)** <br>
-   &emsp;&ensp; 5.1.4. **[Kullback-Leibler divergence](/P/matn-kl)** <br>
-   &emsp;&ensp; 5.1.5. **[Linear transformation](/P/matn-ltt)** <br>
-   &emsp;&ensp; 5.1.6. **[Transposition](/P/matn-trans)** <br>
-   &emsp;&ensp; 5.1.7. **[Drawing samples](/P/matn-samp)** <br>
+   &emsp;&ensp; 5.1.2. **[Equivalence to multivariate normal distribution](/P/matn-mvn)** <br>
+   &emsp;&ensp; 5.1.3. **[Probability density function](/P/matn-pdf)** <br>
+   &emsp;&ensp; 5.1.4. **[Mean](/P/matn-mean)** <br>
+   &emsp;&ensp; 5.1.5. **[Covariance](/P/matn-cov)** <br>
+   &emsp;&ensp; 5.1.6. **[Kullback-Leibler divergence](/P/matn-kl)** <br>
+   &emsp;&ensp; 5.1.7. **[Transposition](/P/matn-trans)** <br>
+   &emsp;&ensp; 5.1.8. **[Linear transformation](/P/matn-ltt)** <br>
+   &emsp;&ensp; 5.1.9. **[Marginal distributions](/P/matn-marg)** <br>
+   &emsp;&ensp; 5.1.10. **[Drawing samples](/P/matn-samp)** <br>
    
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
