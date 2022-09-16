@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: special
 title: "Probability Distributions"
 shortcut: "ChII"
 ---

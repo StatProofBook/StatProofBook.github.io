@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: special
 title: "Model Selection"
 shortcut: "ChIV"
 ---

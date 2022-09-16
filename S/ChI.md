@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: special
 title: "General Theorems"
 shortcut: "ChI"
 ---
