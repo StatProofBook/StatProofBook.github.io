@@ -119,7 +119,7 @@ title: "Proof by Number"
 | P110 | gam-logmean | [Logarithmic expectation of the gamma distribution](/P/gam-logmean) | JoramSoch | 2020-05-25 |
 | P111 | norm-snorm | [Relationship between normal distribution and standard normal distribution](/P/norm-snorm) | JoramSoch | 2020-05-26 |
 | P112 | gam-sgam | [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam) | JoramSoch | 2020-05-26 |
-| P113 | kl-ent | [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent) | JoramSoch | 2020-05-27 |
+| P113 | kl-ent | [Relation of discrete Kullback-Leibler divergence to Shannon entropy](/P/kl-ent) | JoramSoch | 2020-05-27 |
 | P114 | kl-dent | [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent) | JoramSoch | 2020-05-27 |
 | P115 | kl-inv | [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv) | JoramSoch | 2020-05-28 |
 | P116 | kl-add | [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add) | JoramSoch | 2020-05-31 |
@@ -344,3 +344,8 @@ title: "Proof by Number"
 | P336 | cat-ent | [Entropy of the categorical distribution](/P/cat-ent) | JoramSoch | 2022-09-09 |
 | P337 | mult-ent | [Entropy of the multinomial distribution](/P/mult-ent) | JoramSoch | 2022-09-09 |
 | P338 | cat-cov | [Covariance matrix of the categorical distribution](/P/cat-cov) | JoramSoch | 2022-09-09 |
+| P339 | mvn-mean | [Mean of the multivariate normal distribution](/P/mvn-mean) | JoramSoch | 2022-09-15 |
+| P340 | mvn-cov | [Covariance matrix of the multivariate normal distribution](/P/mvn-cov) | JoramSoch | 2022-09-15 |
+| P341 | matn-mean | [Mean of the matrix-normal distribution](/P/matn-mean) | JoramSoch | 2022-09-15 |
+| P342 | matn-cov | [Covariance matrices of the matrix-normal distribution](/P/matn-cov) | JoramSoch | 2022-09-15 |
+| P343 | matn-marg | [Marginal distributions for the matrix-normal distribution](/P/matn-marg) | JoramSoch | 2022-09-15 |
