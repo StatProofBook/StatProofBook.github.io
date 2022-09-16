@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Special: Probability Distributions"
+title: "Probability Distributions"
+shortcut: "ChII"
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Special: General Theorems"
+title: "General Theorems"
+shortcut: "ChI"
 ---
 
 

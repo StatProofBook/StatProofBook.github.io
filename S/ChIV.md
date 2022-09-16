@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Special: Model Selection Criteria"
+title: "Model Selection"
+shortcut: "ChIV"
 ---
 
 

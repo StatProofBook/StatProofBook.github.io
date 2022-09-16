@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Special: Statistical Models"
+title: "Statistical Models"
+shortcut: "ChIII"
 ---
 
 

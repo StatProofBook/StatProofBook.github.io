@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post">
+
+  <!-- Title -->
+  <header class="post-header">
+    <h1 class="post-title">Special: {{ page.title }}</h1>
+  </header>
+
+  <!-- Contents -->
+  <div class="post-content">
+	
+	<!-- Index -->
+	<b>Index:</b> <a href="https://StatProofBook.github.io">The Book of Statistical Proofs</a> &#x25B7; {{ page.title }} <br><br>
+	
+	<!-- Contents -->
+	{{ content }}
+	
+  </div>
+  
+  <!-- "edit this page" -->
+  <div style="text-align:right">
+    <small><a href="https://github.com/StatProofBook/StatProofBook.github.io/blob/master/S/{{ page.shortcut }}.md">view/edit this page</a></small>
+  </div>
+
+</article>
