@@ -134,9 +134,11 @@ title: "Table of Contents"
    &emsp;&ensp; 1.9.7. *[Covariance matrix](/D/covmat)* <br>
    &emsp;&ensp; 1.9.8. *[Sample covariance matrix](/D/covmat-samp)* <br>
    &emsp;&ensp; 1.9.9. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.9.10. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.9.11. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.9.12. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   &emsp;&ensp; 1.9.10. **[Invariance under addition of vector](/P/covmat-inv)** <br>
+   &emsp;&ensp; 1.9.11. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
+   &emsp;&ensp; 1.9.12. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.9.13. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.9.14. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
    1.10. Correlation <br>
    &emsp;&ensp; 1.10.1. *[Definition](/D/corr)* <br>
@@ -468,10 +470,12 @@ title: "Table of Contents"
    &emsp;&ensp; 4.3.2. **[Special case of normal-Wishart distribution](/P/ng-nw)** <br>
    &emsp;&ensp; 4.3.3. **[Probability density function](/P/ng-pdf)** <br>
    &emsp;&ensp; 4.3.4. **[Mean](/P/ng-mean)** <br>
-   &emsp;&ensp; 4.3.5. **[Differential entropy](/P/ng-dent)** <br>
-   &emsp;&ensp; 4.3.6. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
-   &emsp;&ensp; 4.3.7. **[Marginal distributions](/P/ng-marg)** <br>
-   &emsp;&ensp; 4.3.8. **[Conditional distributions](/P/ng-cond)** <br>
+   &emsp;&ensp; 4.3.5. **[Covariance](/P/ng-cov)** <br>
+   &emsp;&ensp; 4.3.6. **[Differential entropy](/P/ng-dent)** <br>
+   &emsp;&ensp; 4.3.7. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
+   &emsp;&ensp; 4.3.8. **[Marginal distributions](/P/ng-marg)** <br>
+   &emsp;&ensp; 4.3.9. **[Conditional distributions](/P/ng-cond)** <br>
+   &emsp;&ensp; 4.3.10. **[Drawing samples](/P/ng-samp)** <br>
    
    4.4. Dirichlet distribution <br>
    &emsp;&ensp; 4.4.1. *[Definition](/D/dir)* <br>
@@ -487,11 +491,12 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.3. **[Probability density function](/P/matn-pdf)** <br>
    &emsp;&ensp; 5.1.4. **[Mean](/P/matn-mean)** <br>
    &emsp;&ensp; 5.1.5. **[Covariance](/P/matn-cov)** <br>
-   &emsp;&ensp; 5.1.6. **[Kullback-Leibler divergence](/P/matn-kl)** <br>
-   &emsp;&ensp; 5.1.7. **[Transposition](/P/matn-trans)** <br>
-   &emsp;&ensp; 5.1.8. **[Linear transformation](/P/matn-ltt)** <br>
-   &emsp;&ensp; 5.1.9. **[Marginal distributions](/P/matn-marg)** <br>
-   &emsp;&ensp; 5.1.10. **[Drawing samples](/P/matn-samp)** <br>
+   &emsp;&ensp; 5.1.6. **[Differential entropy](/P/matn-dent)** <br>
+   &emsp;&ensp; 5.1.7. **[Kullback-Leibler divergence](/P/matn-kl)** <br>
+   &emsp;&ensp; 5.1.8. **[Transposition](/P/matn-trans)** <br>
+   &emsp;&ensp; 5.1.9. **[Linear transformation](/P/matn-ltt)** <br>
+   &emsp;&ensp; 5.1.10. **[Marginal distributions](/P/matn-marg)** <br>
+   &emsp;&ensp; 5.1.11. **[Drawing samples](/P/matn-samp)** <br>
    
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
