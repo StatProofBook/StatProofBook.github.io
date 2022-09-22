@@ -84,13 +84,13 @@ $$ \label{eq:x-mean}
 \mathrm{Cov}(x) = \mathrm{Cov}( Az + \mu ) \; .
 $$
 
-With the [invariance of the covariance matrix under addition](/P/cov-inv)
+With the [invariance of the covariance matrix under addition](/P/covmat-inv)
 
 $$ \label{eq:cov-inv}
 \mathrm{Cov}(x + a) = \mathrm{Cov}(x)
 $$
 
-and the [scaling of the covariance matrix upon multiplication](/P/cov-scal)
+and the [scaling of the covariance matrix upon multiplication](/P/covmat-scal)
 
 $$ \label{eq:cov-scal}
 \mathrm{Cov}(Ax) = A \mathrm{Cov}(x) A^\mathrm{T} \; ,

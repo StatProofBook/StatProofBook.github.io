@@ -32,19 +32,19 @@ Then,
 1) the [covariance](/D/cov) of $x$, [conditional](/D/dist-cond) on $y$ is
 
 $$ \label{eq:ng-cov-cond}
-\mathrm{Cov}[x|y] = \frac{1}{y} \Lambda^{-1} \; ;
+\mathrm{Cov}(x \vert y) = \frac{1}{y} \Lambda^{-1} \; ;
 $$
 
 2) the [covariance](/D/cov) of $x$, [unconditional](/D/dist-marg) on $y$ is
 
 $$ \label{eq:ng-cov-x}
-\mathrm{Cov}[x] = \frac{b}{a-1} \Lambda^{-1} \; ;
+\mathrm{Cov}(x) = \frac{b}{a-1} \Lambda^{-1} \; ;
 $$
 
 3) the [variance](/D/var) of $y$ is
 
 $$ \label{eq:ng-var-y}
-\mathrm{Var}[y] = \frac{a}{b^2} \; .
+\mathrm{Var}(y) = \frac{a}{b^2} \; .
 $$
 
 
@@ -65,7 +65,7 @@ $$
 such that we have:
 
 $$ \label{eq:ng-cov-cond-qed}
-\mathrm{Cov}[x|y] = (y \Lambda)^{-1} = \frac{1}{y} \Lambda^{-1} \; .
+\mathrm{Cov}(x \vert y) = (y \Lambda)^{-1} = \frac{1}{y} \Lambda^{-1} \; .
 $$
 
 2) The [marginal distribution of the normal-gamma distribution](/P/ng-marg) with respect to $x$ is a [multivariate t-distribution](/D/mvt):
@@ -83,7 +83,7 @@ $$
 such that we have:
 
 $$ \label{eq:ng-cov-x-qed}
-\mathrm{Cov}[x] = \frac{2a}{2a-2} \left(\frac{a}{b} \Lambda \right)^{-1} = \frac{a}{a-1} \, \frac{b}{a} \, \Lambda^{-1} = \frac{b}{a-1} \Lambda^{-1} \; .
+\mathrm{Cov}(x) = \frac{2a}{2a-2} \left(\frac{a}{b} \Lambda \right)^{-1} = \frac{a}{a-1} \, \frac{b}{a} \, \Lambda^{-1} = \frac{b}{a-1} \Lambda^{-1} \; .
 $$
 
 3) The [marginal distribution of the normal-gamma distribution](/P/ng-marg) with respect to $y$ is a [univariate gamma distribution](/D/gam):
@@ -101,5 +101,5 @@ $$
 such that we have:
 
 $$ \label{eq:ng-var-y-qed}
-\mathrm{Var}[y] = \frac{a}{b^2} \; .
+\mathrm{Var}(y) = \frac{a}{b^2} \; .
 $$

@@ -27,7 +27,9 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X \in \mathbb{R}^{n \times p}$ be a [random matrix](/D/rmat) with all entries independently following a [standard normal distribution](/D/snorm). Moreover, let $A \in \mathbb{R}^{n \times n}$ and $B \in \mathbb{R}^{p \times p}$, such that $A A^\mathrm{T} = U$ and $B^\mathrm{T} B = V$. Then, $Y = M + A X B$ follows a [matrix-normal distribution](/D/matn) with [mean](/D/mean-rmat) $M$, [covariance](/D/covmat) across rows $U$ and [covariance](/D/covmat) across rows $U$:
+**Theorem:** Let $X \in \mathbb{R}^{n \times p}$ be a [random matrix](/D/rmat) with all entries independently following a [standard normal distribution](/D/snorm). Moreover, let $A \in \mathbb{R}^{n \times n}$ and $B \in \mathbb{R}^{p \times p}$, such that $A A^\mathrm{T} = U$ and $B^\mathrm{T} B = V$.
+
+Then, $Y = M + A X B$ follows a [matrix-normal distribution](/D/matn) with [mean](/D/mean-rmat) $M$, [covariance](/D/covmat) across rows $U$ and [covariance](/D/covmat) across rows $U$:
 
 $$ \label{eq:matn-samp}
 Y = M + A X B \sim \mathcal{MN}(M, U, V) \; .
@@ -45,7 +47,7 @@ this [implies a multivariate normal distribution with diagonal covariance matrix
 $$ \label{eq:vecX-dist}
 \begin{split}
 \mathrm{vec}(X) &\sim \mathcal{N}\left(\mathrm{vec}(0_{np}), I_{np} \right) \\
-&\sim \mathcal{N}\left(\mathrm{vec}(0_{np}), I_p \otimes I_n \right) \; .
+&\sim \mathcal{N}\left(\mathrm{vec}(0_{np}), I_p \otimes I_n \right)
 \end{split}
 $$
 
@@ -67,4 +69,4 @@ Y = M + AXB &\sim \mathcal{MN}\left(M + A 0_{np} B, A I_n A^\mathrm{T}, B^\mathr
 \end{split}
 $$
 
-Thus, given $X$ defined by \eqref{eq:xij-dist}, $Y$ defined by \eqref{eq:matn-samp} is a [sample](/D/samp) from $\mathcal{N}\left(M, U, V \right)$.
+Thus, given $X$ defined by \eqref{eq:xij-dist}, $Y$ defined by \eqref{eq:matn-samp} is a [sample](/D/samp) from $\mathcal{MN}\left(M, U, V \right)$.
