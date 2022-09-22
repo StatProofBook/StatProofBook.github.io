@@ -47,6 +47,7 @@ title: "Proof by Topic"
 - [Corrected Akaike information criterion in terms of maximum log-likelihood](/P/aicc-mll)
 - [Correlation always falls between -1 and +1](/P/corr-range)
 - [Correlation coefficient in terms of standard scores](/P/corr-z)
+- [Covariance and variance of the normal-gamma distribution](/P/ng-cov)
 - [Covariance matrices of the matrix-normal distribution](/P/matn-cov)
 - [Covariance matrix of the categorical distribution](/P/cat-cov)
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
@@ -79,6 +80,7 @@ title: "Proof by Topic"
 - [Deviance for multiple linear regression](/P/mlr-dev)
 - [Deviance information criterion for multiple linear regression](/P/blr-dic)
 - [Differential entropy can be negative](/P/dent-neg)
+- [Differential entropy for the matrix-normal distribution](/P/matn-dent)
 - [Differential entropy of the gamma distribution](/P/gam-dent)
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
@@ -126,6 +128,7 @@ title: "Proof by Topic"
 ### I
 
 - [Inflection points of the probability density function of the normal distribution](/P/norm-infl)
+- [Invariance of the covariance matrix under addition of constant vector](/P/covmat-inv)
 - [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
@@ -368,7 +371,9 @@ title: "Proof by Topic"
 ### S
 
 - [Sampling from the matrix-normal distribution](/P/matn-samp)
+- [Sampling from the normal-gamma distribution](/P/ng-samp)
 - [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)
+- [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
