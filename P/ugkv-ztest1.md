@@ -64,13 +64,13 @@ $$ \label{eq:mean-samp}
 \bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i \; .
 $$
 
-Using the [linearity of the expected value](/P/mean-lin), the [additivity of the variance under independence](/P/var-add) and [scaling of the variance upon multiplication](/P/var-scal), the sample mean follows a [normal distribution](/D/norm)
+Using the [linear combination formula for normal random variables](/P/norm-lincomb), the sample mean follows a [normal distribution](/D/norm) with the following parameters:
 
 $$ \label{eq:mean-samp-dist}
-\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i \sim \mathcal{N}\left( \frac{1}{n} n \mu, \left(\frac{1}{n}\right)^2 n \sigma^2 \right) = \mathcal{N}\left( \mu, \sigma^2/n \right)
+\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i \sim \mathcal{N}\left( \frac{1}{n} n \mu, \left(\frac{1}{n}\right)^2 n \sigma^2 \right) = \mathcal{N}\left( \mu, \sigma^2/n \right) \; .
 $$
 
-and additionally using the [invariance of the variance under addition](/P/var-inv), the distribution of $z = \sqrt{n/\sigma^2} (\bar{y}-\mu_0)$ becomes
+Again employing the linear combination theorem, the distribution of $z = \sqrt{n/\sigma^2} (\bar{y}-\mu_0)$ becomes
 
 $$ \label{eq:z-dist-s1}
 z = \sqrt{\frac{n}{\sigma^2}} (\bar{y} - \mu_0) \sim \mathcal{N}\left( \sqrt{\frac{n}{\sigma^2}} (\mu - \mu_0), \left(\sqrt{\frac{n}{\sigma^2}}\right)^2 \frac{\sigma^2}{n} \right) = \mathcal{N}\left( \sqrt{n} \, \frac{\mu-\mu_0}{\sigma}, 1 \right) \; ,

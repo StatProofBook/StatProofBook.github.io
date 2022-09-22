@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-05-27 23:20:00
 
-title: "Relation of Kullback-Leibler divergence to entropy"
+title: "Relation of discrete Kullback-Leibler divergence to Shannon entropy"
 chapter: "General Theorems"
 section: "Information theory"
 topic: "Kullback-Leibler divergence"

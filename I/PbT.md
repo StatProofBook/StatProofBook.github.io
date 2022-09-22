@@ -47,8 +47,10 @@ title: "Proof by Topic"
 - [Corrected Akaike information criterion in terms of maximum log-likelihood](/P/aicc-mll)
 - [Correlation always falls between -1 and +1](/P/corr-range)
 - [Correlation coefficient in terms of standard scores](/P/corr-z)
+- [Covariance matrices of the matrix-normal distribution](/P/matn-cov)
 - [Covariance matrix of the categorical distribution](/P/cat-cov)
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
+- [Covariance matrix of the multivariate normal distribution](/P/mvn-cov)
 - [Covariance of independent random variables](/P/cov-ind)
 - [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf)
 - [Cross-validated log model evidence for the univariate Gaussian with known variance](/P/ugkv-cvlme)
@@ -173,6 +175,7 @@ title: "Proof by Topic"
 
 ### M
 
+- [Marginal distributions for the matrix-normal distribution](/P/matn-marg)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
@@ -195,7 +198,9 @@ title: "Proof by Topic"
 - [Mean of the continuous uniform distribution](/P/cuni-mean)
 - [Mean of the exponential distribution](/P/exp-mean)
 - [Mean of the gamma distribution](/P/gam-mean)
+- [Mean of the matrix-normal distribution](/P/matn-mean)
 - [Mean of the multinomial distribution](/P/mult-mean)
+- [Mean of the multivariate normal distribution](/P/mvn-mean)
 - [Mean of the normal distribution](/P/norm-mean)
 - [Mean of the normal-gamma distribution](/P/ng-mean)
 - [Mean of the normal-Wishart distribution](/P/nw-mean)
@@ -337,7 +342,7 @@ title: "Proof by Topic"
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)
 - [Relation of continuous mutual information to marginal and conditional differential entropy](/P/cmi-mcde)
 - [Relation of continuous mutual information to marginal and joint differential entropy](/P/cmi-mjde)
-- [Relation of Kullback-Leibler divergence to entropy](/P/kl-ent)
+- [Relation of discrete Kullback-Leibler divergence to Shannon entropy](/P/kl-ent)
 - [Relation of mutual information to joint and conditional entropy](/P/dmi-jce)
 - [Relation of mutual information to marginal and conditional entropy](/P/dmi-mce)
 - [Relation of mutual information to marginal and joint entropy](/P/dmi-mje)

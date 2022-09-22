@@ -84,8 +84,8 @@ $$ \label{eq:mvn-mean-qed}
 \begin{split}
 \mathrm{E}(x) &= \mathrm{E}( Az + \mu ) \\
 &= \mathrm{E}(Az) + \mathrm{E}(\mu) \\
-&= A \mathrm{E}(z) + \mu \\
-&\overset{\eqref{eq:z-mean}}{=} A 0_n + \mu \\
+&= A \, \mathrm{E}(z) + \mu \\
+&\overset{\eqref{eq:z-mean}}{=} A \, 0_n + \mu \\
 &= \mu \; .
 \end{split}
 $$

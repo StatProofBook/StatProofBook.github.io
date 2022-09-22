@@ -42,7 +42,7 @@ y_{2i} &\sim \mathcal{N}(\mu_2, \sigma^2), \quad i = 1, \ldots, n_2
 \end{split}
 $$
 
-be a [univariate Gaussian data set](/D/ug) representing two groups of unequal size $n_1$ and $n_2$ with unknown means $\mu_1$ and $\mu_2$ and equal unknown variance $\sigma^2$. Then, the [test statistic](/D/tstat)
+be two [univariate Gaussian data sets](/D/ug) representing two groups of unequal size $n_1$ and $n_2$ with unknown means $\mu_1$ and $\mu_2$ and equal unknown variance $\sigma^2$. Then, the [test statistic](/D/tstat)
 
 $$ \label{eq:t}
 t = \frac{(\bar{y}_1-\bar{y}_2)-\mu_\Delta}{s_p \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}
@@ -85,16 +85,16 @@ s^2_2 &= \frac{1}{n_2-1} \sum_{i=1}^{n_2} (y_{2i} - \bar{y}_2)^2 \; .
 \end{split}
 $$
 
-Using the [linearity of the expected value](/P/mean-lin), the [additivity of the variance under independence](/P/var-add) and [scaling of the variance upon multiplication](/P/var-scal), the sample means follow a [normal distribution](/D/norm)
+Using the [linear combination formula for normal random variables](/P/norm-lincomb), the sample means follows [normal distributions](/D/norm) with the following parameters:
 
 $$ \label{eq:mean-samp-dist}
 \begin{split}
 \bar{y}_1 &= \frac{1}{n_1} \sum_{i=1}^{n_1} y_{1i} \sim \mathcal{N}\left( \frac{1}{n_1} n_1 \mu_1, \left(\frac{1}{n_1}\right)^2 n_1 \sigma^2 \right) = \mathcal{N}\left( \mu_1, \sigma^2/n_1 \right) \\
-\bar{y}_2 &= \frac{1}{n_2} \sum_{i=1}^{n_2} y_{2i} \sim \mathcal{N}\left( \frac{1}{n_2} n_2 \mu_2, \left(\frac{1}{n_2}\right)^2 n_2 \sigma^2 \right) = \mathcal{N}\left( \mu_2, \sigma^2/n_2 \right)
+\bar{y}_2 &= \frac{1}{n_2} \sum_{i=1}^{n_2} y_{2i} \sim \mathcal{N}\left( \frac{1}{n_2} n_2 \mu_2, \left(\frac{1}{n_2}\right)^2 n_2 \sigma^2 \right) = \mathcal{N}\left( \mu_2, \sigma^2/n_2 \right) \; .
 \end{split}
 $$
 
-and additionally using the [invariance of the variance under addition](/P/var-inv) and applying the null hypothesis from \eqref{eq:ttest2-h0}, the distribution of $Z = ( ( \bar{y}_1 - \bar{y}_2 ) - \mu_{\Delta} ) / ( \sigma \sqrt{1/n_1+1/n_2} )$ becomes [standard normal](/D/snorm)
+Again employing the linear combination theorem and applying the null hypothesis from \eqref{eq:ttest2-h0}, the distribution of $Z = ( ( \bar{y}_1 - \bar{y}_2 ) - \mu_{\Delta} ) / ( \sigma \sqrt{1/n_1+1/n_2} )$ becomes [standard normal](/D/snorm)
 
 $$ \label{eq:Z-dist}
 Z = \frac{(\bar{y}_1-\bar{y}_2)-\mu_\Delta}{\sigma \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}} \sim \mathcal{N}\left( \frac{(\mu_1-\mu_2)-\mu_\Delta}{\sigma \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}, \left(\frac{1}{\sigma \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\right)^2 \left( \frac{\sigma^2}{n_1} + \frac{\sigma^2}{n_2} \right) \right) \overset{H_0}{=} \mathcal{N}\left( 0, 1 \right) \; .
