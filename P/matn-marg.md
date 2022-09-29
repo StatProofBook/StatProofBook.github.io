@@ -148,7 +148,7 @@ $$ \label{eq:xj-marg-mvn}
 x_{\bullet,j} \sim \mathcal{N}(m_{\bullet,j}, v_{jj} U) \; .
 $$
 
-4) This is a special case of 1). Setting $A$ to the $i$-th elementary row vector in $n$ dimensions and $B$ to the $j$-th elementary row vector in $p$ dimensions
+4) This is a special case of 2) and 3). Setting $A$ to the $i$-th elementary row vector in $n$ dimensions and $B$ to the $j$-th elementary row vector in $p$ dimensions
 
 $$ \label{eq:AB-elem}
 A = e_i, \; B = e_j^\mathrm{T} \; ,

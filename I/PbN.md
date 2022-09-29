@@ -349,3 +349,8 @@ title: "Proof by Number"
 | P341 | matn-mean | [Mean of the matrix-normal distribution](/P/matn-mean) | JoramSoch | 2022-09-15 |
 | P342 | matn-cov | [Covariance matrices of the matrix-normal distribution](/P/matn-cov) | JoramSoch | 2022-09-15 |
 | P343 | matn-marg | [Marginal distributions for the matrix-normal distribution](/P/matn-marg) | JoramSoch | 2022-09-15 |
+| P344 | matn-dent | [Differential entropy for the matrix-normal distribution](/P/matn-dent) | JoramSoch | 2022-09-22 |
+| P345 | ng-cov | [Covariance and variance of the normal-gamma distribution](/P/ng-cov) | JoramSoch | 2022-09-22 |
+| P346 | ng-samp | [Sampling from the normal-gamma distribution](/P/ng-samp) | JoramSoch | 2022-09-22 |
+| P347 | covmat-inv | [Invariance of the covariance matrix under addition of constant vector](/P/covmat-inv) | JoramSoch | 2022-09-22 |
+| P348 | covmat-scal | [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal) | JoramSoch | 2022-09-22 |

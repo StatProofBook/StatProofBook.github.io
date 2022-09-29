@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $Z_1 \in \mathbb{R}^{n \times 1}$ be a [random vector](/D/rvec) with all entries independently following a [standard normal distribution](/D/snorm) and let $Z_2 \in \mathbb{R}$ be a [random variable](/D/rvar) following a [standard gamma distribution](/D/sgam) with shape $a$. Moreover, let $A \in \mathbb{R}^{n \times n}$ be a matrix such that, such that $A A^\mathrm{T} = \Lambda^{-1}$.
+**Theorem:** Let $Z_1 \in \mathbb{R}^n$ be a [random vector](/D/rvec) with all entries independently following a [standard normal distribution](/D/snorm) and let $Z_2 \in \mathbb{R}$ be a [random variable](/D/rvar) following a [standard gamma distribution](/D/sgam) with shape $a$. Moreover, let $A \in \mathbb{R}^{n \times n}$ be a matrix, such that $A A^\mathrm{T} = \Lambda^{-1}$.
 
 Then, $X = \mu + A Z_1 / \sqrt{Z_2/b}$ and $Y = Z_2/b$ jointly follow a [normal-gamma distribution](/D/ng) with [mean vector](/D/mean-rvec) $\mu$, [precision matrix](/D/precmat) $\Lambda$, shape parameter $a$ and rate parameter $b$:
 
