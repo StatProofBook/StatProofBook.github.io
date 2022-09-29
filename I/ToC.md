@@ -128,17 +128,23 @@ title: "Table of Contents"
    &emsp;&ensp; 1.9.1. *[Definition](/D/cov)* <br>
    &emsp;&ensp; 1.9.2. *[Sample covariance](/D/cov-samp)* <br>
    &emsp;&ensp; 1.9.3. **[Partition into expected values](/P/cov-mean)** <br>
-   &emsp;&ensp; 1.9.4. **[Covariance under independence](/P/cov-ind)** <br>
-   &emsp;&ensp; 1.9.5. **[Relationship to correlation](/P/cov-corr)** <br>
-   &emsp;&ensp; 1.9.6. **[Law of total covariance](/P/cov-tot)** <br>
-   &emsp;&ensp; 1.9.7. *[Covariance matrix](/D/covmat)* <br>
-   &emsp;&ensp; 1.9.8. *[Sample covariance matrix](/D/covmat-samp)* <br>
-   &emsp;&ensp; 1.9.9. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.9.10. **[Invariance under addition of vector](/P/covmat-inv)** <br>
-   &emsp;&ensp; 1.9.11. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
-   &emsp;&ensp; 1.9.12. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.9.13. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.9.14. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   &emsp;&ensp; 1.9.4. **[Symmetry](/P/cov-symm)** <br>
+   &emsp;&ensp; 1.9.5. **[Self-covariance](/P/cov-var)** <br>
+   &emsp;&ensp; 1.9.6. **[Covariance under independence](/P/cov-ind)** <br>
+   &emsp;&ensp; 1.9.7. **[Relationship to correlation](/P/cov-corr)** <br>
+   &emsp;&ensp; 1.9.8. **[Law of total covariance](/P/cov-tot)** <br>
+   &emsp;&ensp; 1.9.9. *[Covariance matrix](/D/covmat)* <br>
+   &emsp;&ensp; 1.9.10. *[Sample covariance matrix](/D/covmat-samp)* <br>
+   &emsp;&ensp; 1.9.11. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.9.12. **[Symmetry](/P/covmat-symm)** <br>
+   &emsp;&ensp; 1.9.13. **[Positive semi-definiteness](/P/covmat-psd)** <br>
+   &emsp;&ensp; 1.9.14. **[Invariance under addition of vector](/P/covmat-inv)** <br>
+   &emsp;&ensp; 1.9.15. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
+   &emsp;&ensp; 1.9.16. *[Cross-covariance matrix](/D/covmat-cross)* <br>
+   &emsp;&ensp; 1.9.17. **[Covariance matrix of a sum](/P/covmat-sum)** <br>
+   &emsp;&ensp; 1.9.18. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.9.19. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.9.20. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
    1.10. Correlation <br>
    &emsp;&ensp; 1.10.1. *[Definition](/D/corr)* <br>
