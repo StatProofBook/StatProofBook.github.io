@@ -182,3 +182,4 @@ title: "Definition by Number"
 | D173 | mse | [Mean squared error](/D/mse) | JoramSoch | 2022-03-27 |
 | D174 | ci | [Confidence interval](/D/ci) | JoramSoch | 2022-03-27 |
 | D175 | nw | [Normal-Wishart distribution](/D/nw) | JoramSoch | 2022-05-14 |
+| D176 | covmat-cross | [Cross-covariance matrix](/D/covmat-cross) | JoramSoch | 2022-09-26 |

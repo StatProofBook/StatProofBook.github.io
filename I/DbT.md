@@ -42,6 +42,7 @@ title: "Definition by Topic"
 - [Covariance](/D/cov)
 - [Covariance matrix](/D/covmat)
 - [Critical value](/D/cval)
+- [Cross-covariance matrix](/D/covmat-cross)
 - [Cross-entropy](/D/ent-cross)
 - [Cross-validated log model evidence](/D/cvlme)
 - [Cumulant-generating function](/D/cgf)

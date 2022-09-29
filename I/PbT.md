@@ -53,6 +53,7 @@ title: "Proof by Topic"
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 - [Covariance matrix of the multivariate normal distribution](/P/mvn-cov)
 - [Covariance of independent random variables](/P/cov-ind)
+- [Covariance of the sum of two random vectors](/P/covmat-sum)
 - [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf)
 - [Cross-validated log model evidence for the univariate Gaussian with known variance](/P/ugkv-cvlme)
 - [Cumulative distribution function in terms of probability density function of a continuous random variable](/P/cdf-pdf)
@@ -267,6 +268,7 @@ title: "Proof by Topic"
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
 - [Partition of variance into expected values](/P/var-mean)
+- [Positive semi-definiteness of the covariance matrix](/P/covmat-psd)
 - [Posterior credibility region against the omnibus null hypothesis for Bayesian linear regression](/P/blr-pcr)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post)
@@ -376,8 +378,11 @@ title: "Proof by Topic"
 - [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)
+- [Self-covariance equals variance](/P/cov-var)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Sums of squares for simple linear regression](/P/slr-sss)
+- [Symmetry of the covariance](/P/cov-symm)
+- [Symmetry of the covariance matrix](/P/covmat-symm)
 
 ### T
 
