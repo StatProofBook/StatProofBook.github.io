@@ -79,7 +79,7 @@ Substituting $z = \frac{\ln x -\mu}{\sigma}$, i.e. $x = \exp \left( \mu + \sigma
 
 $$ \label{eq:second-moment-s2}
 \begin{split}
-\mathrm{E}(X) &= \frac{1}{\sqrt{2 \pi \sigma^2} } \int_{(-\infty -\mu )/ (\sigma)}^{(\ln x -\mu )/ (\sigma)} \exp \left( \mu +\sigma z \right) \exp \left( -\frac{1}{2}  z^2 \right) \mathrm{d} \left[ \exp \left( \mu +\sigma z \right) \right] \\
+\mathrm{E} [X^2] = \frac{1}{\sqrt{2 \pi \sigma^2} } \int_{(-\infty -\mu )/ (\sigma)}^{(\ln x -\mu )/ (\sigma)} \exp \left( \mu +\sigma z \right) \exp \left( -\frac{1}{2}  z^2 \right) \mathrm{d} \left[ \exp \left( \mu +\sigma z \right) \right] \\
 &= \frac{1}{\sqrt{2 \pi \sigma^2} } \int_{-\infty}^{+\infty} \exp \left( -\frac{1}{2}  z^2 \right) \sigma \exp \left( 2\mu + 2 \sigma z \right) \mathrm{d}z \\
 &= \frac{1}{\sqrt{2 \pi} } \int_{-\infty}^{+\infty} \exp \left[ -\frac{1}{2} \left(   z^2 - 4 \sigma z - 4 \mu  \right) \right] \mathrm{d}z \\
 \end{split}
@@ -89,7 +89,7 @@ Now multiplying by $\exp \left( 2 \sigma^2 \right)$ and $\exp \left(- 2 \sigma^2
 
 $$ \label{eq:second-moment-s3}
 \begin{split}
-&= \frac{1}{\sqrt{2 \pi} } \int_{-\infty}^{+\infty} \exp \left[ -\frac{1}{2} \left(   z^2 - 4 \sigma z + 4 \sigma^2 -4 \sigma^2 - 4 \mu  \right) \right] \mathrm{d}z \\
+\mathrm{E} [X^2] = \frac{1}{\sqrt{2 \pi} } \int_{-\infty}^{+\infty} \exp \left[ -\frac{1}{2} \left(   z^2 - 4 \sigma z + 4 \sigma^2 -4 \sigma^2 - 4 \mu  \right) \right] \mathrm{d}z \\
 &= \frac{1}{\sqrt{2 \pi} } \int_{-\infty}^{+\infty} \exp \left[ -\frac{1}{2} \left( z^2 - 4\sigma z + 4\sigma^2 \right) \right] \exp \left( 2 \sigma^2 +2 \mu  \right) \mathrm{d}z \\
 &= \exp \left( 2 \sigma^2 +2 \mu   \right) \int_{-\infty}^{+\infty} \frac{1}{\sqrt{2 \pi} } \exp \left[ -\frac{1}{2} \left( z - 2 \sigma \right)^2 \right] \mathrm{d}z \\
 \end{split}
