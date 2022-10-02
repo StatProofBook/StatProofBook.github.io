@@ -425,6 +425,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.6.4. **[Median](/P/lognorm-med)** <br>
    &emsp;&ensp; 3.6.5. **[Mode](/P/lognorm-mode)** <br>
    &emsp;&ensp; 3.6.6. **[Quantile Function](/P/lognorm-qf)** <br>
+   &emsp;&ensp; 3.6.7. **[Mean](/P/lognorm-mean)** <br>
+   &emsp;&ensp; 3.6.8. **[Variance](/P/lognorm-var)** <br>
    
    3.7. Chi-squared distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/chi2)* <br>
