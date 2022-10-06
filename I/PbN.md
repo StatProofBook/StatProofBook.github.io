@@ -359,3 +359,5 @@ title: "Proof by Number"
 | P351 | covmat-psd | [Positive semi-definiteness of the covariance matrix](/P/covmat-psd) | JoramSoch | 2022-09-26 |
 | P352 | cov-var | [Self-covariance equals variance](/P/cov-var) | JoramSoch | 2022-09-26 |
 | P353 | cov-symm | [Symmetry of the covariance](/P/cov-symm) | JoramSoch | 2022-09-26 |
+| P354 | lognorm-mean | [Mean of the log-normal distribution](/P/lognorm-mean) | majapavlo | 2022-10-02 |
+| P355 | lognorm-var | [Variance of the log-normal distribution](/P/lognorm-var) | majapavlo | 2022-10-02 |
