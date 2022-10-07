@@ -113,7 +113,7 @@ $$ \label{eq:def-pdf}
 \int_{-\infty}^{+\infty} \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x - 2 \sigma} \right)^2 \right]  \mathrm{d}x  = 1 
 $$
 
-and applying \eqref{eq:def-pdf} to \eqref{second-moment-3}, we have:
+and applying \eqref{eq:def-pdf} to \eqref{eq:second-moment-3}, we have:
 
 $$ \label{eq:second-moment-4}
 \mathrm{E}[X]^2 = \exp \left( 2 \sigma^2 +2 \mu   \right) \; .
