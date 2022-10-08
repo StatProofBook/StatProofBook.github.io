@@ -46,17 +46,16 @@ $$ \label{eq:lognorm-var}
 $$
 
 
-**Proof:**
-[Variance](/D/var) is defined as: 
+**Proof:** The [variance](/D/var) of a random variable is defined as
 
 $$ \label{eq:var}
 \mathrm{Var}(X) = \mathrm{E}\left[ (X-\mathrm{E}(X))^2 \right] 
 $$
 
-which, [ partitioned into expected values](/P/var-mean) reads:
+which, [partitioned into expected values](/P/var-mean), reads:
 
 $$ \label{eq:var2}
-\mathrm{Var}(X) = \mathrm{E}\left[ X^2 \right] - \mathrm{E}\left[ X \right]^2
+\mathrm{Var}(X) = \mathrm{E}\left[ X^2 \right] - \mathrm{E}\left[ X \right]^2 \; .
 $$
 
 The [expected value of the log-normal distribution](/P/lognorm-mean) is: 
@@ -95,19 +94,19 @@ $$ \label{eq:second-moment-3}
 \end{split}
 $$
 
-The [probability density function of a normal distribution](/P/norm-pdf) is
+The [probability density function of a normal distribution](/P/norm-pdf) is given by
 
 $$ 
 f_X(x) = \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right]
 $$
 
-with $\mu = 2 \sigma$ and unit variance this reads:
+and, with $\mu = 2 \sigma$ and unit variance, this reads:
 
 $$ 
-= \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x - 2 \sigma} \right)^2 \right]
+= \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x - 2 \sigma} \right)^2 \right] \; .
 $$
 
-Using the definition of the [probability density function](/D/pdf) 
+Using the definition of the [probability density function](/D/pdf), we get
 
 $$ \label{eq:def-pdf}
 \int_{-\infty}^{+\infty} \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x - 2 \sigma} \right)^2 \right]  \mathrm{d}x  = 1 
@@ -119,7 +118,7 @@ $$ \label{eq:second-moment-4}
 \mathrm{E}[X]^2 = \exp \left( 2 \sigma^2 +2 \mu   \right) \; .
 $$
 
-Applying \eqref{eq:second-moment-4} and \eqref{eq:lognorm-mean-ref} to \eqref{eq:var2}, we have:
+Finally, plugging \eqref{eq:second-moment-4} and \eqref{eq:lognorm-mean-ref} into \eqref{eq:var2}, we have:
 
 $$ \label{eq:lognorm-var-2}
 \begin{split}

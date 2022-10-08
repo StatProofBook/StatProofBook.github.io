@@ -54,7 +54,7 @@ $$ \label{eq:lognorm-mean-s1}
 \end{split}
 $$
 
-Substituting $z = \frac{\ln x -\mu}{\sigma}$, i.e. $x = \exp \left( \mu + \sigma z \right )$ we have:
+Substituting $z = \frac{\ln x -\mu}{\sigma}$, i.e. $x = \exp \left( \mu + \sigma z \right )$, we have:
 
 $$ \label{eq:lognorm-mean-s2}
 \begin{split}
@@ -75,19 +75,19 @@ $$ \label{eq:lognorm-mean-s3}
 \end{split}
 $$
 
-The [probability density function of a normal distribution](/P/norm-pdf) reads: 
+The [probability density function of a normal distribution](/P/norm-pdf) is given by
 
 $$ \label{eq:norm-pdf}
 f_X(x) = \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right]
 $$
 
-With unit variance this reads:
+and, with unit variance $\sigma^2 = 1$, this reads:
 
 $$
 = \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x-\mu} \right)^2 \right]
 $$
 
-Using the definition of the [probability density function](/D/pdf)
+Using the definition of the [probability density function](/D/pdf), we get
 
 $$ \label{eq:def-pdf}
 \int_{-\infty}^{+\infty} \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x-\mu} \right)^2 \right]  \mathrm{d}x  = 1
