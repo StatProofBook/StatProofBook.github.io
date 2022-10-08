@@ -354,3 +354,10 @@ title: "Proof by Number"
 | P346 | ng-samp | [Sampling from the normal-gamma distribution](/P/ng-samp) | JoramSoch | 2022-09-22 |
 | P347 | covmat-inv | [Invariance of the covariance matrix under addition of constant vector](/P/covmat-inv) | JoramSoch | 2022-09-22 |
 | P348 | covmat-scal | [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal) | JoramSoch | 2022-09-22 |
+| P349 | covmat-sum | [Covariance of the sum of two random vectors](/P/covmat-sum) | JoramSoch | 2022-09-26 |
+| P350 | covmat-symm | [Symmetry of the covariance matrix](/P/covmat-symm) | JoramSoch | 2022-09-26 |
+| P351 | covmat-psd | [Positive semi-definiteness of the covariance matrix](/P/covmat-psd) | JoramSoch | 2022-09-26 |
+| P352 | cov-var | [Self-covariance equals variance](/P/cov-var) | JoramSoch | 2022-09-26 |
+| P353 | cov-symm | [Symmetry of the covariance](/P/cov-symm) | JoramSoch | 2022-09-26 |
+| P354 | lognorm-mean | [Mean of the log-normal distribution](/P/lognorm-mean) | majapavlo | 2022-10-02 |
+| P355 | lognorm-var | [Variance of the log-normal distribution](/P/lognorm-var) | majapavlo | 2022-10-02 |

@@ -8,7 +8,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (169 definitions)
+### JoramSoch (170 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -38,6 +38,7 @@ title: "Definition by Author"
 - [Covariance](/D/cov)
 - [Covariance matrix](/D/covmat)
 - [Critical value](/D/cval)
+- [Cross-covariance matrix](/D/covmat-cross)
 - [Cross-entropy](/D/ent-cross)
 - [Cross-validated log model evidence](/D/cvlme)
 - [Cumulant-generating function](/D/cgf)

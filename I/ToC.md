@@ -422,9 +422,11 @@ title: "Table of Contents"
    &emsp;&ensp; 3.6.1. *[Definition](/D/lognorm)* <br>
    &emsp;&ensp; 3.6.2. **[Probability density function](/P/lognorm-pdf)** <br>
    &emsp;&ensp; 3.6.3. **[Cumulative distribution function](/P/lognorm-cdf)** <br>
-   &emsp;&ensp; 3.6.4. **[Median](/P/lognorm-med)** <br>
-   &emsp;&ensp; 3.6.5. **[Mode](/P/lognorm-mode)** <br>
-   &emsp;&ensp; 3.6.6. **[Quantile Function](/P/lognorm-qf)** <br>
+   &emsp;&ensp; 3.6.4. **[Quantile Function](/P/lognorm-qf)** <br>
+   &emsp;&ensp; 3.6.5. **[Mean](/P/lognorm-mean)** <br>   
+   &emsp;&ensp; 3.6.6. **[Median](/P/lognorm-med)** <br>
+   &emsp;&ensp; 3.6.7. **[Mode](/P/lognorm-mode)** <br>
+   &emsp;&ensp; 3.6.8. **[Variance](/P/lognorm-var)** <br>
    
    3.7. Chi-squared distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/chi2)* <br>
