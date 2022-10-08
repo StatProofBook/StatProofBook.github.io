@@ -103,7 +103,7 @@ $$
 and, with $\mu = 2 \sigma$ and unit variance, this reads:
 
 $$ 
-= \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x - 2 \sigma} \right)^2 \right] \; .
+f_X(x) = \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x - 2 \sigma} \right)^2 \right] \; .
 $$
 
 Using the definition of the [probability density function](/D/pdf), we get

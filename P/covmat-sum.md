@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2022-09-26 10:37:00
 
-title: "Covariance of the sum of two random vectors"
+title: "Covariance matrix of the sum of two random vectors"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Covariance"
