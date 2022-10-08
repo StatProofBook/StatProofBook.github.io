@@ -91,7 +91,7 @@ $$ \label{eq:bin-th}
 (x+y)^n = \sum_{k=0}^{n} {n \choose k} \, x^{n-k} \, y^k \; ,
 $$
 
-the sum is equal to
+the sum in equation \eqref{eq:Y-dist-s6} is equal to
 
 $$ \label{eq:Y-dist-sum}
 \sum_{i=0}^{n-m} {n-m \choose i} \, \left( p - pq \right)^{i} \, (1-p)^{n-m-i} = \left( (p-pq)+(1-p) \right)^{n-m} \; .
