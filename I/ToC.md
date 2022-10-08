@@ -322,6 +322,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.4. **[Variance](/P/bin-var)** <br>
    &emsp;&ensp; 1.3.5. **[Range of variance](/P/bin-varrange)** <br>
    &emsp;&ensp; 1.3.6. **[Shannon entropy](/P/bin-ent)** <br>
+   &emsp;&ensp; 1.3.7. **[Conditional binomial](/P/bin-margcond)** <br>
    
    1.4. Poisson distribution <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/poiss)* <br>
@@ -440,11 +441,12 @@ title: "Table of Contents"
    
    3.9. Beta distribution <br>
    &emsp;&ensp; 3.9.1. *[Definition](/D/beta)* <br>
-   &emsp;&ensp; 3.9.2. **[Probability density function](/P/beta-pdf)** <br>
-   &emsp;&ensp; 3.9.3. **[Moment-generating function](/P/beta-mgf)** <br>
-   &emsp;&ensp; 3.9.4. **[Cumulative distribution function](/P/beta-cdf)** <br>
-   &emsp;&ensp; 3.9.5. **[Mean](/P/beta-mean)** <br>
-   &emsp;&ensp; 3.9.6. **[Variance](/P/beta-var)** <br>
+   &emsp;&ensp; 3.9.2. **[Relationship to chi-squared distribution](/P/beta-chi2)** <br>
+   &emsp;&ensp; 3.9.3. **[Probability density function](/P/beta-pdf)** <br>
+   &emsp;&ensp; 3.9.4. **[Moment-generating function](/P/beta-mgf)** <br>
+   &emsp;&ensp; 3.9.5. **[Cumulative distribution function](/P/beta-cdf)** <br>
+   &emsp;&ensp; 3.9.6. **[Mean](/P/beta-mean)** <br>
+   &emsp;&ensp; 3.9.7. **[Variance](/P/beta-var)** <br>
    
    3.10. Wald distribution <br>
    &emsp;&ensp; 3.10.1. *[Definition](/D/wald)* <br>
@@ -657,6 +659,9 @@ title: "Table of Contents"
    4.2. Dirichlet-distributed data <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/dir-data)* <br>
    &emsp;&ensp; 4.2.2. **[Maximum likelihood estimation](/P/dir-mle)** <br>
+   
+   4.3. Beta-binomial data <br>
+   &emsp;&ensp; 4.3.1. **[Method of moments](/P/betabin-mome)** <br>
    
 5. Categorical data
    
