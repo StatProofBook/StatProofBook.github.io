@@ -69,7 +69,7 @@ The second moment $\mathrm{E}[X^2]$ can be derived as follows:
 
 $$ \label{eq:second-moment}
 \begin{split}
-\mathrm{E} [X^2] = \int_{- \infty}^{+\infty} x^2 \cdot f_\mathrm{X}(x) \, \mathrm{d}x \\
+\mathrm{E} [X^2] &= \int_{- \infty}^{+\infty} x^2 \cdot f_\mathrm{X}(x) \, \mathrm{d}x \\
 &= \int_{0}^{+\infty} x^2 \cdot \frac{1}{x\sqrt{2 \pi \sigma^2} } \cdot \exp \left[ -\frac{1}{2}  \frac{\left(\ln x-\mu\right)^2}{\sigma^2} \right]  \mathrm{d}x \\
 &= \frac{1}{\sqrt{2 \pi \sigma^2} } \int_{0}^{+\infty} x \cdot \exp \left[ -\frac{1}{2}  \frac{\left(\ln x-\mu\right)^2}{\sigma^2} \right]\mathrm{d}x
 \end{split}
@@ -77,25 +77,25 @@ $$
 
 Substituting $z = \frac{\ln x -\mu}{\sigma}$, i.e. $x = \exp \left( \mu + \sigma z \right )$, we have:
 
-$$ \label{eq:second-moment-s2}
+$$ \label{eq:second-moment-2}
 \begin{split}
-\mathrm{E} [X^2] = \frac{1}{\sqrt{2 \pi \sigma^2} } \int_{(-\infty -\mu )/ (\sigma)}^{(\ln x -\mu )/ (\sigma)} \exp \left( \mu +\sigma z \right) \exp \left( -\frac{1}{2}  z^2 \right) \mathrm{d} \left[ \exp \left( \mu +\sigma z \right) \right] \\
+\mathrm{E} [X^2] &= \frac{1}{\sqrt{2 \pi \sigma^2} } \int_{(-\infty -\mu )/ (\sigma)}^{(\ln x -\mu )/ (\sigma)} \exp \left( \mu +\sigma z \right) \exp \left( -\frac{1}{2}  z^2 \right) \mathrm{d} \left[ \exp \left( \mu +\sigma z \right) \right] \\
 &= \frac{1}{\sqrt{2 \pi \sigma^2} } \int_{-\infty}^{+\infty} \exp \left( -\frac{1}{2}  z^2 \right) \sigma \exp \left( 2\mu + 2 \sigma z \right) \mathrm{d}z \\
-&= \frac{1}{\sqrt{2 \pi} } \int_{-\infty}^{+\infty} \exp \left[ -\frac{1}{2} \left(   z^2 - 4 \sigma z - 4 \mu  \right) \right] \mathrm{d}z \\
+&= \frac{1}{\sqrt{2 \pi} } \int_{-\infty}^{+\infty} \exp \left[ -\frac{1}{2} \left(   z^2 - 4 \sigma z - 4 \mu  \right) \right] \mathrm{d}z
 \end{split}
 $$
 
 Now multiplying by $\exp \left( 2 \sigma^2 \right)$ and $\exp \left(- 2 \sigma^2 \right)$, this becomes:
 
-$$ \label{eq:second-moment-s3}
+$$ \label{eq:second-moment-3}
 \begin{split}
-\mathrm{E} [X^2] = \frac{1}{\sqrt{2 \pi} } \int_{-\infty}^{+\infty} \exp \left[ -\frac{1}{2} \left(   z^2 - 4 \sigma z + 4 \sigma^2 -4 \sigma^2 - 4 \mu  \right) \right] \mathrm{d}z \\
+\mathrm{E} [X^2] &= \frac{1}{\sqrt{2 \pi} } \int_{-\infty}^{+\infty} \exp \left[ -\frac{1}{2} \left(   z^2 - 4 \sigma z + 4 \sigma^2 -4 \sigma^2 - 4 \mu  \right) \right] \mathrm{d}z \\
 &= \frac{1}{\sqrt{2 \pi} } \int_{-\infty}^{+\infty} \exp \left[ -\frac{1}{2} \left( z^2 - 4\sigma z + 4\sigma^2 \right) \right] \exp \left( 2 \sigma^2 +2 \mu  \right) \mathrm{d}z \\
-&= \exp \left( 2 \sigma^2 +2 \mu   \right) \int_{-\infty}^{+\infty} \frac{1}{\sqrt{2 \pi} } \exp \left[ -\frac{1}{2} \left( z - 2 \sigma \right)^2 \right] \mathrm{d}z \\
+&= \exp \left( 2 \sigma^2 +2 \mu   \right) \int_{-\infty}^{+\infty} \frac{1}{\sqrt{2 \pi} } \exp \left[ -\frac{1}{2} \left( z - 2 \sigma \right)^2 \right] \mathrm{d}z
 \end{split}
 $$
 
-The [probability density function of a normal distribution](/P/norm-pdf) is 
+The [probability density function of a normal distribution](/P/norm-pdf) is
 
 $$ 
 f_X(x) = \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right]
@@ -109,11 +109,11 @@ $$
 
 Using the definition of the [probability density function](/D/pdf) 
 
-$$
+$$ \label{eq:def-pdf}
 \int_{-\infty}^{+\infty} \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x - 2 \sigma} \right)^2 \right]  \mathrm{d}x  = 1 
 $$
 
-and applying \eqref{eq:def-pdf} to \eqref{second-moment-s3}, we have:
+and applying \eqref{eq:def-pdf} to \eqref{eq:second-moment-3}, we have:
 
 $$ \label{eq:second-moment-4}
 \mathrm{E}[X]^2 = \exp \left( 2 \sigma^2 +2 \mu   \right) \; .
@@ -123,7 +123,7 @@ Applying \eqref{eq:second-moment-4} and \eqref{eq:lognorm-mean-ref} to \eqref{eq
 
 $$ \label{eq:lognorm-var-2}
 \begin{split}
-\mathrm{Var}(X) = \mathrm{E}\left[ X^2 \right] - \mathrm{E}\left[ X \right]^2  \\
+\mathrm{Var}(X) &= \mathrm{E}\left[ X^2 \right] - \mathrm{E}\left[ X \right]^2  \\
 &= \exp \left(2\sigma^2 + 2\mu \right) - \left[ \exp \left(\mu + \frac{1}{2} \sigma^2 \right) \right]^2 \\
 &= \exp \left(2\sigma^2 + 2\mu \right) - \exp \left(2\mu + \sigma^2\right) \; .
 \end{split}
