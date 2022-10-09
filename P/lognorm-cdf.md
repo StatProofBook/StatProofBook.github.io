@@ -66,7 +66,7 @@ From this point forward, the proof is similar to the derivation of the [cumulati
 
 $$ \label{eq:lognorm-cdf-s2}
 \begin{split}
-F_X(x) &= \frac{1}{\sigma \sqrt{2 \pi}} \int_{(-\infty-\mu)/(\sqrt{2} \sigma)}^{(\ln x-\mu)/(\sqrt{2} \sigma)} \frac{1}{\exp( \sqrt{2} \sigma t + \mu)} \cdot \exp \left(-t^2 \right) \, \mathrm{d} \left( \exp \left( \sqrt{2} \sigma t + \mu \right) \right) \\
+F_X(x) &= \frac{1}{\sigma \sqrt{2 \pi}} \int_{(-\infty-\mu)/(\sqrt{2} \sigma)}^{(\ln x-\mu)/(\sqrt{2} \sigma)} \frac{1}{\exp( \sqrt{2} \sigma t + \mu)} \cdot \exp \left(-t^2 \right) \, \mathrm{d} \left[ \exp \left( \sqrt{2} \sigma t + \mu \right) \right] \\
 &=\frac{\sqrt{2} \sigma}{\sigma \sqrt{2 \pi}} \int_{-\infty}^{\frac{\ln x-\mu}{\sqrt{2} \sigma}} \frac{1}{\exp( \sqrt{2} \sigma t + \mu)} \cdot
 \exp(-t^2) \cdot \exp \left( \sqrt{2} \sigma t + \mu \right) \, \mathrm{d}t  \\
 &= \frac{1}{\sqrt{\pi}} \int_{-\infty}^{\frac{\ln x-\mu}{\sqrt{2} \sigma}} \exp(-t^2) \, \mathrm{d}t \\
