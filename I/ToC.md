@@ -92,8 +92,11 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.28. **[Moment-generating function of arbitrary function](/P/mgf-fct)** <br>
    &emsp;&ensp; 1.6.29. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
    &emsp;&ensp; 1.6.30. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
-   &emsp;&ensp; 1.6.31. *[Cumulant-generating function](/D/cgf)* <br>
-   &emsp;&ensp; 1.6.32. *[Probability-generating function](/D/pgf)* <br>
+   &emsp;&ensp; 1.6.31. *[Probability-generating function](/D/pgf)* <br>
+   &emsp;&ensp; 1.6.32. **[Probability-generating function in terms of expected value](/P/pgf-mean)** <br>
+   &emsp;&ensp; 1.6.33. **[Probability-generating function of zero](/P/pgf-zero)** <br>
+   &emsp;&ensp; 1.6.34. **[Probability-generating function of one](/P/pgf-one)** <br>
+   &emsp;&ensp; 1.6.35. *[Cumulant-generating function](/D/cgf)* <br>
    
    1.7. Expected value <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/mean)* <br>
@@ -105,10 +108,11 @@ title: "Table of Contents"
    &emsp;&ensp; 1.7.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
    &emsp;&ensp; 1.7.8. **[Expectation of a trace](/P/mean-tr)** <br>
    &emsp;&ensp; 1.7.9. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.7.10. **[Law of total expectation](/P/mean-tot)** <br>
-   &emsp;&ensp; 1.7.11. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
-   &emsp;&ensp; 1.7.12. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.7.13. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.7.10. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
+   &emsp;&ensp; 1.7.11. **[Law of total expectation](/P/mean-tot)** <br>
+   &emsp;&ensp; 1.7.12. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.7.13. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.7.14. *[Expected value of a random matrix](/D/mean-rmat)* <br>
    
    1.8. Variance <br>
    &emsp;&ensp; 1.8.1. *[Definition](/D/var)* <br>
@@ -318,11 +322,12 @@ title: "Table of Contents"
    1.3. Binomial distribution <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/bin)* <br>
    &emsp;&ensp; 1.3.2. **[Probability mass function](/P/bin-pmf)** <br>
-   &emsp;&ensp; 1.3.3. **[Mean](/P/bin-mean)** <br>
-   &emsp;&ensp; 1.3.4. **[Variance](/P/bin-var)** <br>
-   &emsp;&ensp; 1.3.5. **[Range of variance](/P/bin-varrange)** <br>
-   &emsp;&ensp; 1.3.6. **[Shannon entropy](/P/bin-ent)** <br>
-   &emsp;&ensp; 1.3.7. **[Conditional binomial](/P/bin-margcond)** <br>
+   &emsp;&ensp; 1.3.3. **[Probability-generating function](/P/bin-pgf)** <br>
+   &emsp;&ensp; 1.3.4. **[Mean](/P/bin-mean)** <br>
+   &emsp;&ensp; 1.3.5. **[Variance](/P/bin-var)** <br>
+   &emsp;&ensp; 1.3.6. **[Range of variance](/P/bin-varrange)** <br>
+   &emsp;&ensp; 1.3.7. **[Shannon entropy](/P/bin-ent)** <br>
+   &emsp;&ensp; 1.3.8. **[Conditional binomial](/P/bin-margcond)** <br>
    
    1.4. Poisson distribution <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/poiss)* <br>
