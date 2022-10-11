@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (339 proofs)
+### JoramSoch (344 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -276,6 +276,8 @@ title: "Proof by Author"
 - [Probability of the empty set](/P/prob-emp)
 - [Probability under mutual exclusivity](/P/prob-exc)
 - [Probability under statistical independence](/P/prob-ind)
+- [Probability-generating function is expectation of function of random variable](/P/pgf-mean)
+- [Probability-generating function of the binomial distribution](/P/bin-pgf)
 - [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem)
 - [Projection of a data point to the regression line](/P/slr-proj)
 - [Quantile function is inverse of strictly monotonically increasing cumulative distribution function](/P/qf-cdf)
@@ -321,6 +323,7 @@ title: "Proof by Author"
 - [Second central moment is variance](/P/momcent-2nd)
 - [Self-covariance equals variance](/P/cov-var)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
+- [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr)
 - [Sums of squares for simple linear regression](/P/slr-sss)
 - [Symmetry of the covariance](/P/cov-symm)
 - [Symmetry of the covariance matrix](/P/covmat-symm)
@@ -334,6 +337,8 @@ title: "Proof by Author"
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
 - [Two-sample t-test for independent observations](/P/ug-ttest2)
 - [Two-sample z-test for independent observations](/P/ugkv-ztest2)
+- [Value of the probability-generating function for argument one](/P/pgf-one)
+- [Value of the probability-generating function for argument zero](/P/pgf-zero)
 - [Variance of constant is zero](/P/var-const)
 - [Variance of parameter estimates for simple linear regression](/P/slr-olsvar)
 - [Variance of the Bernoulli distribution](/P/bern-var)
