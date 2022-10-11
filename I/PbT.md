@@ -52,8 +52,8 @@ title: "Proof by Topic"
 - [Covariance matrix of the categorical distribution](/P/cat-cov)
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 - [Covariance matrix of the multivariate normal distribution](/P/mvn-cov)
+- [Covariance matrix of the sum of two random vectors](/P/covmat-sum)
 - [Covariance of independent random variables](/P/cov-ind)
-- [Covariance of the sum of two random vectors](/P/covmat-sum)
 - [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf)
 - [Cross-validated log model evidence for the univariate Gaussian with known variance](/P/ugkv-cvlme)
 - [Cumulative distribution function in terms of probability density function of a continuous random variable](/P/cdf-pdf)
@@ -179,6 +179,7 @@ title: "Proof by Topic"
 
 ### M
 
+- [Marginal distribution of a conditional binomial distribution](/P/bin-margcond)
 - [Marginal distributions for the matrix-normal distribution](/P/matn-marg)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
@@ -187,8 +188,8 @@ title: "Proof by Topic"
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
-- [Maximum likelihood estimation for simple linear regression](/P/slr-mle2)
 - [Maximum likelihood estimation for simple linear regression](/P/slr-mle)
+- [Maximum likelihood estimation for simple linear regression](/P/slr-mle2)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
 - [Maximum likelihood estimation for the Poisson distribution with exposure values](/P/poissexp-mle)
 - [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle)
@@ -215,6 +216,7 @@ title: "Proof by Topic"
 - [Median of the exponential distribution](/P/exp-med)
 - [Median of the log-normal distribution](/P/lognorm-med)
 - [Median of the normal distribution](/P/norm-med)
+- [Method of moments for beta-binomial data](/P/betabin-mome)
 - [Method of moments for beta-distributed data](/P/beta-mome)
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
@@ -238,8 +240,8 @@ title: "Proof by Topic"
 - [Non-invariance of the differential entropy under change of variables](/P/dent-noninv)
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Non-negativity of the expected value](/P/mean-nonneg)
-- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
+- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
@@ -253,8 +255,8 @@ title: "Proof by Topic"
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
-- [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for simple linear regression](/P/slr-ols)
+- [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 
 ### P
@@ -352,6 +354,7 @@ title: "Proof by Topic"
 - [Relation of mutual information to joint and conditional entropy](/P/dmi-jce)
 - [Relation of mutual information to marginal and conditional entropy](/P/dmi-mce)
 - [Relation of mutual information to marginal and joint entropy](/P/dmi-mje)
+- [Relationship between chi-squared distribution and beta distribution](/P/beta-chi2)
 - [Relationship between coefficient of determination and correlation coefficient in simple linear regression](/P/slr-rsq)
 - [Relationship between correlation coefficient and slope estimate in simple linear regression](/P/slr-corr)
 - [Relationship between covariance and correlation](/P/cov-corr)
@@ -416,8 +419,8 @@ title: "Proof by Topic"
 
 ### W
 
-- [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
-- [Weighted least squares for simple linear regression](/P/slr-wls2)
+- [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for simple linear regression](/P/slr-wls)
+- [Weighted least squares for simple linear regression](/P/slr-wls2)
 - [Weighted least squares for the general linear model](/P/glm-wls)

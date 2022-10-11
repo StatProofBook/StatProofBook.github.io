@@ -84,7 +84,7 @@ $$
 and, with unit variance $\sigma^2 = 1$, this reads:
 
 $$
-= \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x-\mu} \right)^2 \right]
+f_X(x) = \frac{1}{\sqrt{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left({x-\mu} \right)^2 \right]
 $$
 
 Using the definition of the [probability density function](/D/pdf), we get

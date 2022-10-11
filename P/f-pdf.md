@@ -94,7 +94,7 @@ $$ \label{eq:f-XY}
 f_{X,Y}(x,y) = f_X(x) \cdot f_Y(y) \; .
 $$
 
-With the [probability density function of an invertible function](/P/pdf-invfct), the [joint density](/D/dist-joint) of $T$ and $W$ can be derived as:
+With the [probability density function of an invertible function](/P/pdf-invfct), the [joint density](/D/dist-joint) of $F$ and $W$ can be derived as:
 
 $$ \label{eq:f-FW-s1}
 f_{F,W}(f,w) = f_{X,Y}(x,y) \cdot \lvert J \rvert \; .

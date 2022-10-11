@@ -36,7 +36,7 @@ username: "JoramSoch"
 **Theorem:** Let $y = \left\lbrace y_1, \ldots, y_N \right\rbrace$ be a set of observed counts independent and identically distributed according to a [beta-binomial distribution](/D/betabin) with number of trials $n$ as well as parameters $\alpha$ and $\beta$:
 
 $$ \label{eq:binbeta}
-y_i \sim \mathrm{BinBet}(n, \alpha, \beta), \quad i = 1, \ldots, N \; .
+y_i \sim \mathrm{BetBin}(n, \alpha, \beta), \quad i = 1, \ldots, N \; .
 $$
 
 Then, the [method-of-moments estimates](/D/mome) for the parameters $\alpha$ and $\beta$ are given by
