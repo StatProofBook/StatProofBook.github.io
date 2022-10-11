@@ -9,7 +9,7 @@ date: 2020-01-20 21:53:00
 
 title: "Maximum likelihood estimation for Poisson-distributed data"
 chapter: "Statistical Models"
-section: "Poisson data"
+section: "Count data"
 topic: "Poisson-distributed data"
 theorem: "Maximum likelihood estimation"
 

@@ -9,7 +9,7 @@ date: 2020-10-22 05:06:00
 
 title: "Dirichlet-distributed data"
 chapter: "Statistical Models"
-section: "Probability data"
+section: "Frequency data"
 topic: "Dirichlet-distributed data"
 definition: "Definition"
 

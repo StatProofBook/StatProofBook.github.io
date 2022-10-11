@@ -9,7 +9,7 @@ date: 2020-04-21 09:09:00
 
 title: "Log model evidence for Poisson-distributed data"
 chapter: "Statistical Models"
-section: "Poisson data"
+section: "Count data"
 topic: "Poisson-distributed data"
 theorem: "Log model evidence"
 

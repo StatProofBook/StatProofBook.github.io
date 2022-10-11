@@ -9,7 +9,7 @@ date: 2020-03-11 14:15:00
 
 title: "Conjugate prior distribution for multinomial observations"
 chapter: "Statistical Models"
-section: "Categorical data"
+section: "Count data"
 topic: "Multinomial observations"
 theorem: "Conjugate prior distribution"
 

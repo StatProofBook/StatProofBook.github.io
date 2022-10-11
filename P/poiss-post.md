@@ -9,7 +9,7 @@ date: 2020-04-21 08:48:00
 
 title: "Posterior distribution for Poisson-distributed data"
 chapter: "Statistical Models"
-section: "Poisson data"
+section: "Count data"
 topic: "Poisson-distributed data"
 theorem: "Posterior distribution"
 

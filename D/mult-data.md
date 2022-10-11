@@ -9,7 +9,7 @@ date: 2020-07-07 07:12:00
 
 title: "Multinomial observations"
 chapter: "Statistical Models"
-section: "Categorical data"
+section: "Count data"
 topic: "Multinomial observations"
 definition: "Definition"
 

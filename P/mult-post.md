@@ -9,7 +9,7 @@ date: 2020-03-11 14:40:00
 
 title: "Posterior distribution for multinomial observations"
 chapter: "Statistical Models"
-section: "Categorical data"
+section: "Count data"
 topic: "Multinomial observations"
 theorem: "Posterior distribution"
 

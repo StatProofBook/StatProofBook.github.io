@@ -9,7 +9,7 @@ date: 2020-01-24 00:44:00
 
 title: "Log model evidence for binomial observations"
 chapter: "Statistical Models"
-section: "Categorical data"
+section: "Count data"
 topic: "Binomial observations"
 theorem: "Log model evidence"
 

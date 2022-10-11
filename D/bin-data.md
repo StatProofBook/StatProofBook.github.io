@@ -9,7 +9,7 @@ date: 2020-07-07 07:04:00
 
 title: "Binomial observations"
 chapter: "Statistical Models"
-section: "Categorical data"
+section: "Count data"
 topic: "Binomial observations"
 definition: "Definition"
 

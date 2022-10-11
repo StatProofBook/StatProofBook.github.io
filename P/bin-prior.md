@@ -9,7 +9,7 @@ date: 2020-01-23 23:38:00
 
 title: "Conjugate prior distribution for binomial observations"
 chapter: "Statistical Models"
-section: "Categorical data"
+section: "Count data"
 topic: "Binomial observations"
 theorem: "Conjugate prior distribution"
 

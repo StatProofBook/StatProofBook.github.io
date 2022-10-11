@@ -9,7 +9,7 @@ date: 2020-02-04 15:12:00
 
 title: "Log model evidence for the Poisson distribution with exposure values"
 chapter: "Statistical Models"
-section: "Poisson data"
+section: "Count data"
 topic: "Poisson distribution with exposure values"
 theorem: "Log model evidence"
 

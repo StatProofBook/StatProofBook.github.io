@@ -9,7 +9,7 @@ date: 2020-02-04 14:42:00
 
 title: "Posterior distribution for the Poisson distribution with exposure values"
 chapter: "Statistical Models"
-section: "Poisson data"
+section: "Count data"
 topic: "Poisson distribution with exposure values"
 theorem: "Posterior distribution"
 

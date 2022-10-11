@@ -9,7 +9,7 @@ date: 2020-03-22 22:50:00
 
 title: "Poisson-distributed data"
 chapter: "Statistical Models"
-section: "Poisson data"
+section: "Count data"
 topic: "Poisson-distributed data"
 definition: "Definition"
 
