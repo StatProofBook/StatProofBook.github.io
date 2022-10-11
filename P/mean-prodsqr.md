@@ -11,7 +11,7 @@ title: "Square of expectation of product is less than or equal to product of exp
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Expected value"
-theorem: "Squared expectation of product"
+theorem: "Squared expectation of a product"
 
 sources:
   - authors: "ProofWiki"
