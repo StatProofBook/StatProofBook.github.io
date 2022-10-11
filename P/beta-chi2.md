@@ -11,7 +11,7 @@ title: "Relationship between chi-squared distribution and beta distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Beta distribution"
-theorem: "Relationship with chi-squared distribution"
+theorem: "Relationship to chi-squared distribution"
 
 sources:
   - authors: "Probability Fact"

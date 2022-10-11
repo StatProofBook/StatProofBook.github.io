@@ -11,7 +11,7 @@ title: "Covariance matrix of the multinomial distribution"
 chapter: "Probability Distributions"
 section: "Multivariate discrete distributions"
 topic: "Multinomial distribution"
-theorem: "Covariance Matrix"
+theorem: "Covariance"
 
 sources:
   - authors: "Tutz"
