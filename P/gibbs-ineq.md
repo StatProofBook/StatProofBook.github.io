@@ -46,11 +46,11 @@ $$ \label{eq:Gibbs-ineq-s1}
 \sum_{x \in I} p(x) \, \ln \frac{p(x)}{q(x)} \geq 0 \; .
 $$
 
-Because $\ln x \leq x - 1$, i.e. $-\ln x \geq 1 - x$, for all $x > 0$, with equality only if $x = 1$, we can say about the left-hand side that
+Because $\ln x \leq x - 1$, i.e. $\ln x \geq 1 - \frac{1}{x}$,for all $x > 0$, with equality only if $x = 1$, we can say about the left-hand side that
 
 $$ \label{eq:Gibbs-ineq-s2}
 \begin{split}
-\sum_{x \in I} p(x) \, \ln \frac{p(x)}{q(x)} &\geq \sum_{x \in I} p(x) \left( 1 - \frac{p(x)}{q(x)} \right) \\
+\sum_{x \in I} p(x) \, \ln \frac{p(x)}{q(x)} &\geq \sum_{x \in I} p(x) \left( 1 - \frac{q(x)}{p(x)} \right) \\
 &= \sum_{x \in I} p(x) - \sum_{x \in I} q(x) \; .
 \end{split}
 $$
