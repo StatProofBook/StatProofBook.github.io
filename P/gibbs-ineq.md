@@ -40,17 +40,17 @@ $$ \label{eq:log-ln}
 \log_b a = \frac{\ln a}{\ln b} \; .
 $$
 
-Let $I$ be the of all $x$ for which $p(x)$ is non-zero. Then, proving \eqref{eq:Gibbs-ineq} requires to show that
+Let $I$ be the set of all $x$ for which $p(x)$ is non-zero. Then, proving \eqref{eq:Gibbs-ineq} requires to show that
 
 $$ \label{eq:Gibbs-ineq-s1}
 \sum_{x \in I} p(x) \, \ln \frac{p(x)}{q(x)} \geq 0 \; .
 $$
 
-Because $\ln x \leq x - 1$, i.e. $-\ln x \geq 1 - x$, for all $x > 0$, with equality only if $x = 1$, we can say about the left-hand side that
+For all $x > 0$, it holds that $\ln x \leq x - 1$, with equality only if $x = 1$. Multiplying this with $-1$, we have $\ln \frac{1}{x} \geq 1 - x$. Applying this to \eqref{eq:Gibbs-ineq-s1}, we can say about the left-hand side that
 
 $$ \label{eq:Gibbs-ineq-s2}
 \begin{split}
-\sum_{x \in I} p(x) \, \ln \frac{p(x)}{q(x)} &\geq \sum_{x \in I} p(x) \left( 1 - \frac{p(x)}{q(x)} \right) \\
+\sum_{x \in I} p(x) \, \ln \frac{p(x)}{q(x)} &\geq \sum_{x \in I} p(x) \left( 1 - \frac{q(x)}{p(x)} \right) \\
 &= \sum_{x \in I} p(x) - \sum_{x \in I} q(x) \; .
 \end{split}
 $$
