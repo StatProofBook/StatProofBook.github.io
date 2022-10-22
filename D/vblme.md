@@ -10,7 +10,7 @@ date: 2020-11-25 08:10:00
 title: "Variational Bayesian log model evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
+topic: "Model evidence"
 definition: "Variational Bayesian log model evidence"
 
 sources:

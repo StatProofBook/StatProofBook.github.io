@@ -10,8 +10,8 @@ date: 2020-02-25 12:56:00
 title: "Log model evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
-definition: "Definition"
+topic: "Model evidence"
+definition: "Log model evidence"
 
 sources:
   - authors: "Soch J, Allefeld C"

@@ -10,8 +10,8 @@ date: 2020-07-22 07:27:00
 title: "Derivation of the log Bayes factor"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log Bayes factor"
-theorem: "Derivation"
+topic: "Bayes factor"
+theorem: "Derivation of the LBF"
 
 sources:
 

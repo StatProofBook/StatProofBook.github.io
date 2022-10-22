@@ -10,8 +10,8 @@ date: 2020-07-13 22:31:00
 title: "Log family evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log family evidence"
-definition: "Definition"
+topic: "Family evidence"
+definition: "Log family evidence"
 
 sources:
   - authors: "Soch J, Allefeld C"

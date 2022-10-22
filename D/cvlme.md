@@ -10,7 +10,7 @@ date: 2020-11-19 04:55:00
 title: "Cross-validated log model evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
+topic: "Model evidence"
 definition: "Cross-validated log model evidence"
 
 sources:

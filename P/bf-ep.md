@@ -7,11 +7,11 @@ affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
 date: 2020-09-02 12:00:00
 
-title: "Encompassing Prior Method for computing Bayes Factors"
+title: "Encompassing prior method for computing Bayes factors"
 chapter: "Model Selection"
 section: "Bayesian model selection"
 topic: "Bayes factor"
-theorem: "Computation using Encompassing Prior Method"
+theorem: "Computation using encompassing prior method"
 
 sources:
   - authors: "Klugkist, I., Kato, B., and Hoijtink, H."

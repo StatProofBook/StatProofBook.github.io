@@ -10,8 +10,8 @@ date: 2020-01-06 21:27:00
 title: "Derivation of the log model evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
-theorem: "Derivation"
+topic: "Model evidence"
+theorem: "Derivation of the LME"
 
 sources:
 
