@@ -34,7 +34,7 @@ $$ \label{eq:LME-marg}
 $$
 
 
-**Proof:** This a consequence of the [law of marginal probability](/D/prob-marg) for continuous variables
+**Proof:** This a consequence of the [law of marginal probability](/D/prob-marg) for [continuous variables](/D/rvar-disc)
 
 $$ \label{eq:prob-marg}
 p(y|m) = \int p(y,\theta|m) \, \mathrm{d}\theta

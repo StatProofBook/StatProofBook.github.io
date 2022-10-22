@@ -106,7 +106,7 @@ $$ \label{eq:Y-dist-s7}
 \end{split}
 $$
 
-which is the [probability mass function of the binomial distribution](/P/bin-pmf), such that
+which is the [probability mass function of the binomial distribution](/P/bin-pmf) with parameters $n$ and $pq$, such that
 
 $$ \label{eq:Y-dist-qed}
 Y \sim \mathrm{Bin}(n, pq) \; .

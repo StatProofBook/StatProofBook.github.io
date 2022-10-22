@@ -136,7 +136,13 @@ $$ \label{eq:f-Z-s3}
 f_Z(z) = \frac{1}{\mathrm{B}\left( \frac{m}{2}, \frac{n}{2} \right)} \cdot z^{\frac{m}{2}-1} \cdot (1-z)^{\frac{n}{2}-1}
 $$
 
-which is the [probability density function of the beta distribution](/P/beta-pdf), such that
+which is the [probability density function of the beta distribution](/P/beta-pdf) with parameters
+
+$$ \label{eq:beta-chi2-para}
+\alpha = \frac{m}{2} \quad \mathrm{and} \quad \beta = \frac{n}{2} \; ,
+$$
+
+such that
 
 $$ \label{eq:beta-chi2-qed}
 Z \sim \mathrm{Bet}\left( \frac{m}{2}, \frac{n}{2} \right) \; .
