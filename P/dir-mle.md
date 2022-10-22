@@ -9,7 +9,7 @@ date: 2020-10-22 09:31:00
 
 title: "Maximum likelihood estimation for Dirichlet-distributed data"
 chapter: "Statistical Models"
-section: "Probability data"
+section: "Frequency data"
 topic: "Dirichlet-distributed data"
 theorem: "Maximum likelihood estimation"
 

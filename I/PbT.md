@@ -327,6 +327,8 @@ title: "Proof by Topic"
 - [Probability of the empty set](/P/prob-emp)
 - [Probability under mutual exclusivity](/P/prob-exc)
 - [Probability under statistical independence](/P/prob-ind)
+- [Probability-generating function is expectation of function of random variable](/P/pgf-mean)
+- [Probability-generating function of the binomial distribution](/P/bin-pgf)
 - [Projection matrix and residual-forming matrix are idempotent](/P/mlr-idem)
 - [Projection of a data point to the regression line](/P/slr-proj)
 - [Proof Template](/P/-temp-)
@@ -384,6 +386,7 @@ title: "Proof by Topic"
 - [Second central moment is variance](/P/momcent-2nd)
 - [Self-covariance equals variance](/P/cov-var)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
+- [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr)
 - [Sums of squares for simple linear regression](/P/slr-sss)
 - [Symmetry of the covariance](/P/cov-symm)
 - [Symmetry of the covariance matrix](/P/covmat-symm)
@@ -404,6 +407,8 @@ title: "Proof by Topic"
 
 ### V
 
+- [Value of the probability-generating function for argument one](/P/pgf-one)
+- [Value of the probability-generating function for argument zero](/P/pgf-zero)
 - [Variance of constant is zero](/P/var-const)
 - [Variance of parameter estimates for simple linear regression](/P/slr-olsvar)
 - [Variance of the Bernoulli distribution](/P/bern-var)

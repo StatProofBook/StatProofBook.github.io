@@ -9,7 +9,7 @@ date: 2020-01-22 02:53:00
 
 title: "Method of moments for beta-distributed data"
 chapter: "Statistical Models"
-section: "Probability data"
+section: "Frequency data"
 topic: "Beta-distributed data"
 theorem: "Method of moments"
 

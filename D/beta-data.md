@@ -9,7 +9,7 @@ date: 2020-06-28 21:16:00
 
 title: "Beta-distributed data"
 chapter: "Statistical Models"
-section: "Probability data"
+section: "Frequency data"
 topic: "Beta-distributed data"
 definition: "Definition"
 

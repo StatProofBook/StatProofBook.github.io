@@ -9,7 +9,7 @@ date: 2020-03-11 15:17:00
 
 title: "Log model evidence for multinomial observations"
 chapter: "Statistical Models"
-section: "Categorical data"
+section: "Count data"
 topic: "Multinomial observations"
 theorem: "Log model evidence"
 

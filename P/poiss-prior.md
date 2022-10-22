@@ -9,7 +9,7 @@ date: 2020-04-21 08:31:00
 
 title: "Conjugate prior distribution for Poisson-distributed data"
 chapter: "Statistical Models"
-section: "Poisson data"
+section: "Count data"
 topic: "Poisson-distributed data"
 theorem: "Conjugate prior distribution"
 

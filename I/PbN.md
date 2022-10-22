@@ -364,3 +364,8 @@ title: "Proof by Number"
 | P356 | beta-chi2 | [Relationship between chi-squared distribution and beta distribution](/P/beta-chi2) | JoramSoch | 2022-10-07 |
 | P357 | betabin-mome | [Method of moments for beta-binomial data](/P/betabin-mome) | JoramSoch | 2022-10-07 |
 | P358 | bin-margcond | [Marginal distribution of a conditional binomial distribution](/P/bin-margcond) | JoramSoch | 2022-10-07 |
+| P359 | mean-prodsqr | [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr) | JoramSoch | 2022-10-11 |
+| P360 | pgf-mean | [Probability-generating function is expectation of function of random variable](/P/pgf-mean) | JoramSoch | 2022-10-11 |
+| P361 | pgf-zero | [Value of the probability-generating function for argument zero](/P/pgf-zero) | JoramSoch | 2022-10-11 |
+| P362 | pgf-one | [Value of the probability-generating function for argument one](/P/pgf-one) | JoramSoch | 2022-10-11 |
+| P363 | bin-pgf | [Probability-generating function of the binomial distribution](/P/bin-pgf) | JoramSoch | 2022-10-11 |

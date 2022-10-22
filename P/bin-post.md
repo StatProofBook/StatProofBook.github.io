@@ -9,7 +9,7 @@ date: 2020-01-24 00:20:00
 
 title: "Posterior distribution for binomial observations"
 chapter: "Statistical Models"
-section: "Categorical data"
+section: "Count data"
 topic: "Binomial observations"
 theorem: "Posterior distribution"
 

@@ -9,7 +9,7 @@ date: 2022-10-07 15:13:00
 
 title: "Method of moments for beta-binomial data"
 chapter: "Statistical Models"
-section: "Probability data"
+section: "Frequency data"
 topic: "Beta-binomial data"
 theorem: "Method of moments"
 

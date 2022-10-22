@@ -9,7 +9,7 @@ date: 2021-04-16 11:42:00
 
 title: "Maximum likelihood estimation for the Poisson distribution with exposure values"
 chapter: "Statistical Models"
-section: "Poisson data"
+section: "Count data"
 topic: "Poisson distribution with exposure values"
 theorem: "Maximum likelihood estimation"
 

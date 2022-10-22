@@ -9,7 +9,7 @@ date: 2020-03-22 22:57:00
 
 title: "Poisson distribution with exposure values"
 chapter: "Statistical Models"
-section: "Poisson data"
+section: "Count data"
 topic: "Poisson distribution with exposure values"
 definition: "Definition"
 
