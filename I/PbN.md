@@ -161,8 +161,8 @@ title: "Proof by Number"
 | P153 | mom-mgf | [Moment in terms of moment-generating function](/P/mom-mgf) | JoramSoch | 2020-08-19 |
 | P154 | mgf-ltt | [Linear transformation theorem for the moment-generating function](/P/mgf-ltt) | JoramSoch | 2020-08-19 |
 | P155 | mgf-lincomb | [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb) | JoramSoch | 2020-08-19 |
-| P156 | bf-sddr | [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr) | tomfaulkenberry | 2020-08-26 |
-| P157 | bf-ep | [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep) | tomfaulkenberry | 2020-09-02 |
+| P156 | bf-sddr | [Savage-Dickey density ratio for computing Bayes factors](/P/bf-sddr) | tomfaulkenberry | 2020-08-26 |
+| P157 | bf-ep | [Encompassing prior method for computing Bayes factors](/P/bf-ep) | tomfaulkenberry | 2020-09-02 |
 | P158 | cov-ind | [Covariance of independent random variables](/P/cov-ind) | JoramSoch | 2020-09-03 |
 | P159 | mblr-prior | [Conjugate prior distribution for multivariate Bayesian linear regression](/P/mblr-prior) | JoramSoch | 2020-09-03 |
 | P160 | mblr-post | [Posterior distribution for multivariate Bayesian linear regression](/P/mblr-post) | JoramSoch | 2020-09-03 |
@@ -369,3 +369,8 @@ title: "Proof by Number"
 | P361 | pgf-zero | [Value of the probability-generating function for argument zero](/P/pgf-zero) | JoramSoch | 2022-10-11 |
 | P362 | pgf-one | [Value of the probability-generating function for argument one](/P/pgf-one) | JoramSoch | 2022-10-11 |
 | P363 | bin-pgf | [Probability-generating function of the binomial distribution](/P/bin-pgf) | JoramSoch | 2022-10-11 |
+| P364 | betabin-pmf | [Probability mass function of the beta-binomial distribution](/P/betabin-pmf) | JoramSoch | 2022-10-20 |
+| P365 | betabin-pmfitogf | [Expression of the probability mass function of the beta-binomial distribution using only the gamma function](/P/betabin-pmfitogf) | JoramSoch | 2022-10-20 |
+| P366 | betabin-cdf | [Cumulative distribution function of the beta-binomial distribution](/P/betabin-cdf) | JoramSoch | 2022-10-22 |
+| P367 | me-der | [Derivation of the model evidence](/P/me-der) | JoramSoch | 2022-10-20 |
+| P368 | fe-der | [Derivation of the family evidence](/P/fe-der) | JoramSoch | 2022-10-20 |

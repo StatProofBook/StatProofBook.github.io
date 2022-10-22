@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (344 proofs)
+### JoramSoch (349 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -58,6 +58,7 @@ title: "Proof by Author"
 - [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct)
 - [Cumulative distribution function of a sum of independent random variables](/P/cdf-sumind)
 - [Cumulative distribution function of the beta distribution](/P/beta-cdf)
+- [Cumulative distribution function of the beta-binomial distribution](/P/betabin-cdf)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
@@ -66,9 +67,11 @@ title: "Proof by Author"
 - [Derivation of Bayesian model averaging](/P/bma-der)
 - [Derivation of R² and adjusted R²](/P/rsq-der)
 - [Derivation of the Bayesian information criterion](/P/bic-der)
+- [Derivation of the family evidence](/P/fe-der)
 - [Derivation of the log Bayes factor](/P/lbf-der)
 - [Derivation of the log family evidence](/P/lfe-der)
 - [Derivation of the log model evidence](/P/lme-der)
+- [Derivation of the model evidence](/P/me-der)
 - [Derivation of the posterior model probability](/P/pmp-der)
 - [Deviance for multiple linear regression](/P/mlr-dev)
 - [Deviance information criterion for multiple linear regression](/P/blr-dic)
@@ -100,6 +103,7 @@ title: "Proof by Author"
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
+- [Expression of the probability mass function of the beta-binomial distribution using only the gamma function](/P/betabin-pmfitogf)
 - [Extreme points of the probability density function of the normal distribution](/P/norm-extr)
 - [First central moment is zero](/P/momcent-1st)
 - [First raw moment is mean](/P/momraw-1st)
@@ -264,6 +268,7 @@ title: "Proof by Author"
 - [Probability mass function of a sum of independent discrete random variables](/P/pmf-sumind)
 - [Probability mass function of an invertible function of a random vector](/P/pmf-invfct)
 - [Probability mass function of the Bernoulli distribution](/P/bern-pmf)
+- [Probability mass function of the beta-binomial distribution](/P/betabin-pmf)
 - [Probability mass function of the binomial distribution](/P/bin-pmf)
 - [Probability mass function of the categorical distribution](/P/cat-pmf)
 - [Probability mass function of the discrete uniform distribution](/P/duni-pmf)
@@ -380,10 +385,10 @@ title: "Proof by Author"
 
 ### tomfaulkenberry (7 proofs)
 
-- [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)
+- [Encompassing prior method for computing Bayes factors](/P/bf-ep)
 - [Mean of the Wald distribution](/P/wald-mean)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
 - [Probability density function of the Wald distribution](/P/wald-pdf)
-- [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)
+- [Savage-Dickey density ratio for computing Bayes factors](/P/bf-sddr)
 - [Transitivity of Bayes Factors](/P/bf-trans)
 - [Variance of the Wald distribution](/P/wald-var)
