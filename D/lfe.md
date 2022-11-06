@@ -10,8 +10,8 @@ date: 2020-07-13 22:31:00
 title: "Log family evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log family evidence"
-definition: "Definition"
+topic: "Family evidence"
+definition: "Log family evidence"
 
 sources:
   - authors: "Soch J, Allefeld C"
@@ -34,13 +34,7 @@ $$ \label{eq:fam}
 f \Leftrightarrow m_1 \vee \ldots \vee m_M \; .
 $$
 
-Then, the family evidence of $f$ is the weighted average of the [model evidences](/D/ml) of $m_1, \ldots, m_M$ where the weights are the within-family [prior model probabilities](/D/prior)
-
-$$ \label{eq:fe}
-p(y|f) = \sum_{i=1}^M p(y|m_i) \, p(m_i|f) \; .
-$$
-
-The log family evidence is given by the logarithm of the family evidence:
+Then, the log family evidence is given by the logarithm of the [family evidence](/D/fe):
 
 $$ \label{eq:lfe}
 \mathrm{LFE}(f) = \log p(y|f) = \log \sum_{i=1}^M p(y|m_i) \, p(m_i|f) \; .

@@ -42,7 +42,7 @@ $$
 Then, the [mode](/D/mode) of $X$ is
 
 $$ \label{eq:lognorm-mode}
-\mathrm{mode}(X) = e^\left( \mu -\sigma^2 \right) \; .
+\mathrm{mode}(X) = e^{\left( \mu -\sigma^2 \right)} \; .
 $$
 
 **Proof:** The [mode](/D/mode) is the value which maximizes the [probability density function](/D/pdf):
@@ -77,7 +77,7 @@ $$ \label{eq:lognorm-mode-s1}
 \begin{split}
 f'_X(x) = 0 &= -\frac{1}{x^2 \sigma \sqrt{2 \pi}} \cdot \mathrm{exp} \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right] \cdot \left(1 + \frac{\ln x -\mu}{\sigma^2} \right) \\
 -1 &= \frac{\ln x -\mu}{\sigma^2} \\
-x &= e^\left( \mu -\sigma^2 \right) \; .
+x &= e^{\left( \mu -\sigma^2 \right)} \; .
 \end{split}
 $$
 
@@ -95,5 +95,5 @@ $$
 we confirm that it is a maximum, showing that
 
 $$ \label{eq:lognorm-mode-qed}
-\mathrm{mode}(X) = e^\left( \mu -\sigma^2 \right) \; .
+\mathrm{mode}(X) = e^{\left( \mu -\sigma^2 \right)} \; .
 $$

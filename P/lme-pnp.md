@@ -10,7 +10,7 @@ date: 2022-03-11 16:25:00
 title: "Log model evidence in terms of prior and posterior distribution"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
+topic: "Model evidence"
 theorem: "Expression using prior and posterior"
 
 sources:

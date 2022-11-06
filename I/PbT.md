@@ -62,6 +62,7 @@ title: "Proof by Topic"
 - [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct)
 - [Cumulative distribution function of a sum of independent random variables](/P/cdf-sumind)
 - [Cumulative distribution function of the beta distribution](/P/beta-cdf)
+- [Cumulative distribution function of the beta-binomial distribution](/P/betabin-cdf)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
@@ -74,9 +75,11 @@ title: "Proof by Topic"
 - [Derivation of Bayesian model averaging](/P/bma-der)
 - [Derivation of R² and adjusted R²](/P/rsq-der)
 - [Derivation of the Bayesian information criterion](/P/bic-der)
+- [Derivation of the family evidence](/P/fe-der)
 - [Derivation of the log Bayes factor](/P/lbf-der)
 - [Derivation of the log family evidence](/P/lfe-der)
 - [Derivation of the log model evidence](/P/lme-der)
+- [Derivation of the model evidence](/P/me-der)
 - [Derivation of the posterior model probability](/P/pmp-der)
 - [Deviance for multiple linear regression](/P/mlr-dev)
 - [Deviance information criterion for multiple linear regression](/P/blr-dic)
@@ -94,7 +97,7 @@ title: "Proof by Topic"
 ### E
 
 - [Effects of mean-centering on parameter estimates for simple linear regression](/P/slr-meancent)
-- [Encompassing Prior Method for computing Bayes Factors](/P/bf-ep)
+- [Encompassing prior method for computing Bayes factors](/P/bf-ep)
 - [Entropy of the Bernoulli distribution](/P/bern-ent)
 - [Entropy of the binomial distribution](/P/bin-ent)
 - [Entropy of the categorical distribution](/P/cat-ent)
@@ -112,6 +115,7 @@ title: "Proof by Topic"
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
+- [Expression of the probability mass function of the beta-binomial distribution using only the gamma function](/P/betabin-pmfitogf)
 - [Extreme points of the probability density function of the normal distribution](/P/norm-extr)
 
 ### F
@@ -315,6 +319,7 @@ title: "Proof by Topic"
 - [Probability mass function of a sum of independent discrete random variables](/P/pmf-sumind)
 - [Probability mass function of an invertible function of a random vector](/P/pmf-invfct)
 - [Probability mass function of the Bernoulli distribution](/P/bern-pmf)
+- [Probability mass function of the beta-binomial distribution](/P/betabin-pmf)
 - [Probability mass function of the binomial distribution](/P/bin-pmf)
 - [Probability mass function of the categorical distribution](/P/cat-pmf)
 - [Probability mass function of the discrete uniform distribution](/P/duni-pmf)
@@ -380,7 +385,7 @@ title: "Proof by Topic"
 
 - [Sampling from the matrix-normal distribution](/P/matn-samp)
 - [Sampling from the normal-gamma distribution](/P/ng-samp)
-- [Savage-Dickey Density Ratio for computing Bayes Factors](/P/bf-sddr)
+- [Savage-Dickey density ratio for computing Bayes factors](/P/bf-sddr)
 - [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)

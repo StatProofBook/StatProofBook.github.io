@@ -183,3 +183,7 @@ title: "Definition by Number"
 | D174 | ci | [Confidence interval](/D/ci) | JoramSoch | 2022-03-27 |
 | D175 | nw | [Normal-Wishart distribution](/D/nw) | JoramSoch | 2022-05-14 |
 | D176 | covmat-cross | [Cross-covariance matrix](/D/covmat-cross) | JoramSoch | 2022-09-26 |
+| D177 | betabin | [Beta-binomial distribution](/D/betabin) | JoramSoch | 2022-10-20 |
+| D178 | betabin-data | [Beta-binomial data](/D/betabin-data) | JoramSoch | 2022-10-20 |
+| D179 | me | [Model evidence](/D/me) | JoramSoch | 2022-10-20 |
+| D180 | fe | [Family evidence](/D/fe) | JoramSoch | 2022-10-20 |

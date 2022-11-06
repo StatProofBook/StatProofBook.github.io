@@ -10,7 +10,7 @@ date: 2020-11-25 07:43:00
 title: "Empirical Bayesian log model evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
+topic: "Model evidence"
 definition: "Empirical Bayesian log model evidence"
 
 sources:

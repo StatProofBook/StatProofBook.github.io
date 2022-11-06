@@ -7,11 +7,11 @@ affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
 date: 2020-08-26 12:00:00
 
-title: "Savage-Dickey Density Ratio for computing Bayes Factors"
+title: "Savage-Dickey density ratio for computing Bayes factors"
 chapter: "Model Selection"
 section: "Bayesian model selection"
 topic: "Bayes factor"
-theorem: "Computation using Savage-Dickey Density Ratio"
+theorem: "Computation using Savage-Dickey density ratio"
 
 sources:
   - authors: "Faulkenberry, Thomas J."

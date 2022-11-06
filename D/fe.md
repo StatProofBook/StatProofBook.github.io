@@ -34,7 +34,7 @@ $$ \label{eq:fam}
 f \Leftrightarrow m_1 \vee \ldots \vee m_M \; .
 $$
 
-Then, the family evidence (FE) of $f$ is defined as the [marginal probability](/D/prob-marg) relative to the [model evidences](/D/me) $p(y \vert m_i), conditional only on $f$:
+Then, the family evidence (FE) of $f$ is defined as the [marginal probability](/D/prob-marg) relative to the [model evidences](/D/me) $p(y \vert m_i)$, conditional only on $f$:
 
 $$ \label{eq:fe}
 \mathrm{FE}(f) = p(y|f) \; .

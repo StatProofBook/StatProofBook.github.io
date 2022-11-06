@@ -737,46 +737,40 @@ title: "Table of Contents"
    3.1. Model evidence <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/me)* <br>
    &emsp;&ensp; 3.1.2. **[Derivation](/P/me-der)** <br>
+   &emsp;&ensp; 3.1.3. *[Log model evidence](/D/lme)* <br>
+   &emsp;&ensp; 3.1.4. **[Derivation of the LME](/P/lme-der)** <br>
+   &emsp;&ensp; 3.1.5. **[Expression using prior and posterior](/P/lme-pnp)** <br>
+   &emsp;&ensp; 3.1.6. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
+   &emsp;&ensp; 3.1.7. *[Uniform-prior log model evidence](/D/uplme)* <br>
+   &emsp;&ensp; 3.1.8. *[Cross-validated log model evidence](/D/cvlme)* <br>
+   &emsp;&ensp; 3.1.9. *[Empirical Bayesian log model evidence](/D/eblme)* <br>
+   &emsp;&ensp; 3.1.10. *[Variational Bayesian log model evidence](/D/vblme)* <br>
    
-   3.2. Log model evidence <br>
-   &emsp;&ensp; 3.2.1. *[Definition](/D/lme)* <br>
-   &emsp;&ensp; 3.2.2. **[Derivation](/P/lme-der)** <br>
-   &emsp;&ensp; 3.2.3. **[Expression using prior and posterior](/P/lme-pnp)** <br>
-   &emsp;&ensp; 3.2.4. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
-   &emsp;&ensp; 3.2.5. *[Uniform-prior log model evidence](/D/uplme)* <br>
-   &emsp;&ensp; 3.2.6. *[Cross-validated log model evidence](/D/cvlme)* <br>
-   &emsp;&ensp; 3.2.7. *[Empirical Bayesian log model evidence](/D/eblme)* <br>
-   &emsp;&ensp; 3.2.8. *[Variational Bayesian log model evidence](/D/vblme)* <br>
+   3.2. Family evidence <br>
+   &emsp;&ensp; 3.2.1. *[Definition](/D/fe)* <br>
+   &emsp;&ensp; 3.2.2. **[Derivation](/P/fe-der)** <br>
+   &emsp;&ensp; 3.2.3. *[Log family evidence](/D/lfe)* <br>
+   &emsp;&ensp; 3.2.4. **[Derivation of the LFE](/P/lfe-der)** <br>
+   &emsp;&ensp; 3.2.5. **[Calculation from log model evidences](/P/lfe-lme)** <br>
    
-   3.3. Family evidence <br>
-   &emsp;&ensp; 3.3.1. *[Definition](/D/fe)* <br>
-   &emsp;&ensp; 3.3.2. **[Derivation](/P/fe-der)** <br>
+   3.3. Bayes factor <br>
+   &emsp;&ensp; 3.3.1. *[Definition](/D/bf)* <br>
+   &emsp;&ensp; 3.3.2. **[Transitivity](/P/bf-trans)** <br>
+   &emsp;&ensp; 3.3.3. **[Computation using Savage-Dickey density ratio](/P/bf-sddr)** <br>
+   &emsp;&ensp; 3.3.4. **[Computation using encompassing prior method](/P/bf-ep)** <br>
+   &emsp;&ensp; 3.3.5. *[Encompassing model](/D/encm)* <br>
+   &emsp;&ensp; 3.3.6. *[Log Bayes factor](/D/lbf)* <br>
+   &emsp;&ensp; 3.3.7. **[Derivation of the LBF](/P/lbf-der)** <br>
+   &emsp;&ensp; 3.3.8. **[Calculation from log model evidences](/P/lbf-lme)** <br>
    
-   3.4. Log family evidence <br>
-   &emsp;&ensp; 3.4.1. *[Definition](/D/lfe)* <br>
-   &emsp;&ensp; 3.4.2. **[Derivation](/P/lfe-der)** <br>
-   &emsp;&ensp; 3.4.3. **[Calculation from log model evidences](/P/lfe-lme)** <br>
+   3.4. Posterior model probability <br>
+   &emsp;&ensp; 3.4.1. *[Definition](/D/pmp)* <br>
+   &emsp;&ensp; 3.4.2. **[Derivation](/P/pmp-der)** <br>
+   &emsp;&ensp; 3.4.3. **[Calculation from Bayes factors](/P/pmp-bf)** <br>
+   &emsp;&ensp; 3.4.4. **[Calculation from log Bayes factor](/P/pmp-lbf)** <br>
+   &emsp;&ensp; 3.4.5. **[Calculation from log model evidences](/P/pmp-lme)** <br>
    
-   3.5. Bayes factor <br>
-   &emsp;&ensp; 3.5.1. *[Definition](/D/bf)* <br>
-   &emsp;&ensp; 3.5.2. **[Transitivity](/P/bf-trans)** <br>
-   &emsp;&ensp; 3.5.3. **[Computation using Savage-Dickey Density Ratio](/P/bf-sddr)** <br>
-   &emsp;&ensp; 3.5.4. **[Computation using Encompassing Prior Method](/P/bf-ep)** <br>
-   &emsp;&ensp; 3.5.5. *[Encompassing model](/D/encm)* <br>
-   
-   3.6. Log Bayes factor <br>
-   &emsp;&ensp; 3.6.1. *[Definition](/D/lbf)* <br>
-   &emsp;&ensp; 3.6.2. **[Derivation](/P/lbf-der)** <br>
-   &emsp;&ensp; 3.6.3. **[Calculation from log model evidences](/P/lbf-lme)** <br>
-   
-   3.7. Posterior model probability <br>
-   &emsp;&ensp; 3.7.1. *[Definition](/D/pmp)* <br>
-   &emsp;&ensp; 3.7.2. **[Derivation](/P/pmp-der)** <br>
-   &emsp;&ensp; 3.7.3. **[Calculation from Bayes factors](/P/pmp-bf)** <br>
-   &emsp;&ensp; 3.7.4. **[Calculation from log Bayes factor](/P/pmp-lbf)** <br>
-   &emsp;&ensp; 3.7.5. **[Calculation from log model evidences](/P/pmp-lme)** <br>
-   
-   3.8. Bayesian model averaging <br>
-   &emsp;&ensp; 3.8.1. *[Definition](/D/bma)* <br>
-   &emsp;&ensp; 3.8.2. **[Derivation](/P/bma-der)** <br>
-   &emsp;&ensp; 3.8.3. **[Calculation from log model evidences](/P/bma-lme)** <br>
+   3.5. Bayesian model averaging <br>
+   &emsp;&ensp; 3.5.1. *[Definition](/D/bma)* <br>
+   &emsp;&ensp; 3.5.2. **[Derivation](/P/bma-der)** <br>
+   &emsp;&ensp; 3.5.3. **[Calculation from log model evidences](/P/bma-lme)** <br>

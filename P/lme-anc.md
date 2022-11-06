@@ -10,7 +10,7 @@ date: 2019-09-27 16:13:00
 title: "Partition of the log model evidence into accuracy and complexity"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
+topic: "Model evidence"
 theorem: "Partition into accuracy and complexity"
 
 sources:

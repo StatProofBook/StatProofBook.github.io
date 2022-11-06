@@ -10,7 +10,7 @@ date: 2020-02-27 21:16:00
 title: "Log family evidences in terms of log model evidences"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log family evidence"
+topic: "Family evidence"
 theorem: "Calculation from log model evidences"
 
 sources:

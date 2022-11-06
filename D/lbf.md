@@ -10,8 +10,8 @@ date: 2020-07-22 07:02:00
 title: "Log Bayes factor"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log Bayes factor"
-definition: "Definition"
+topic: "Bayes factor"
+definition: "Log Bayes factor"
 
 sources:
   - authors: "Soch J, Allefeld C"

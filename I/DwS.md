@@ -4,6 +4,7 @@ title: "Definitions without Source"
 ---
 
 
+- [Beta-binomial data](/D/betabin-data)
 - [Beta-distributed data](/D/beta-data)
 - [Binomial observations](/D/bin-data)
 - [Conditional differential entropy](/D/dent-cond)

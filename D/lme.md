@@ -10,8 +10,8 @@ date: 2020-02-25 12:56:00
 title: "Log model evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
-definition: "Definition"
+topic: "Model evidence"
+definition: "Log model evidence"
 
 sources:
   - authors: "Soch J, Allefeld C"
@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $m$ be a [full probability model](/D/fpm) with [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Then, the log model evidence (LME) of this model is defined as the logarithm of the [marginal likelihood](/D/ml):
+**Definition:** Let $m$ be a [full probability model](/D/fpm) with [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Then, the log model evidence (LME) of $m$ is defined as the logarithm of the [marginal likelihood](/D/ml) of this model:
 
 $$ \label{eq:LME}
 \mathrm{LME}(m) = \log p(y|m) \; .

@@ -10,7 +10,7 @@ date: 2020-11-25 07:28:00
 title: "Uniform-prior log model evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
+topic: "Model evidence"
 definition: "Uniform-prior log model evidence"
 
 sources:

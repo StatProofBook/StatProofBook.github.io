@@ -10,8 +10,8 @@ date: 2020-01-06 21:27:00
 title: "Derivation of the log model evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log model evidence"
-theorem: "Derivation"
+topic: "Model evidence"
+theorem: "Derivation of the LME"
 
 sources:
 
@@ -34,7 +34,7 @@ $$ \label{eq:LME-marg}
 $$
 
 
-**Proof:** This a consequence of the [law of marginal probability](/D/prob-marg) for continuous variables
+**Proof:** This a consequence of the [law of marginal probability](/D/prob-marg) for [continuous variables](/D/rvar-disc)
 
 $$ \label{eq:prob-marg}
 p(y|m) = \int p(y,\theta|m) \, \mathrm{d}\theta

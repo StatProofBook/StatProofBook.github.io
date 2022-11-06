@@ -58,7 +58,7 @@ m_2 &= \frac{1}{N} \sum_{i=1}^N y_i^2 \; .
 $$
 
 
-**Proof:** The first two [raw moments](/D/mom-raw) of the [beta-binomial distribution](/D/betabin) in terms of the parameters $\alpha$ and $\beta$ are given by
+**Proof:** The first two [raw moments of the beta-binomial distribution](/D/betabin-mom) in terms of the parameters $\alpha$ and $\beta$ are given by
 
 $$ \label{eq:binbeta-mu1-mu2}
 \begin{split}

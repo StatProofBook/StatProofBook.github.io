@@ -8,7 +8,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (170 definitions)
+### JoramSoch (174 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -16,6 +16,8 @@ title: "Definition by Author"
 - [Bayesian model averaging](/D/bma)
 - [Bernoulli distribution](/D/bern)
 - [Beta distribution](/D/beta)
+- [Beta-binomial data](/D/betabin-data)
+- [Beta-binomial distribution](/D/betabin)
 - [Beta-distributed data](/D/beta-data)
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
@@ -64,6 +66,7 @@ title: "Definition by Author"
 - [Explained sum of squares](/D/ess)
 - [Exponential distribution](/D/exp)
 - [F-distribution](/D/f)
+- [Family evidence](/D/fe)
 - [Flat, hard and soft prior distribution](/D/prior-flat)
 - [Full probability model](/D/fpm)
 - [Full width at half maximum](/D/fwhm)
@@ -100,6 +103,7 @@ title: "Definition by Author"
 - [Method-of-moments estimation](/D/mome)
 - [Minimum](/D/min)
 - [Mode](/D/mode)
+- [Model evidence](/D/me)
 - [Moment](/D/mom)
 - [Moment-generating function](/D/mgf)
 - [Multinomial distribution](/D/mult)

@@ -10,7 +10,7 @@ date: 2020-02-27 20:51:00
 title: "Log Bayes factor in terms of log model evidences"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log Bayes factor"
+topic: "Bayes factor"
 theorem: "Calculation from log model evidences"
 
 sources:

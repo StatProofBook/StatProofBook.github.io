@@ -10,8 +10,8 @@ date: 2020-07-13 22:58:00
 title: "Derivation of the log family evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
-topic: "Log family evidence"
-theorem: "Derivation"
+topic: "Family evidence"
+theorem: "Derivation of the LFE"
 
 sources:
 
