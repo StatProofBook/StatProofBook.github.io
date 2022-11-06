@@ -374,3 +374,6 @@ title: "Proof by Number"
 | P366 | betabin-cdf | [Cumulative distribution function of the beta-binomial distribution](/P/betabin-cdf) | JoramSoch | 2022-10-22 |
 | P367 | me-der | [Derivation of the model evidence](/P/me-der) | JoramSoch | 2022-10-20 |
 | P368 | fe-der | [Derivation of the family evidence](/P/fe-der) | JoramSoch | 2022-10-20 |
+| P369 | anova1-ols | [Ordinary least squares for one-way analysis of variance](/P/anova1-ols) | JoramSoch | 2022-11-06 |
+| P370 | anova1-f | [F-test for main effect in one-way analysis of variance](/P/anova1-f) | JoramSoch | 2022-11-06 |
+| P371 | anova2-ols | [Ordinary least squares for two-way analysis of variance](/P/anova2-ols) | JoramSoch | 2022-11-06 |

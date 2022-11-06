@@ -187,3 +187,5 @@ title: "Definition by Number"
 | D178 | betabin-data | [Beta-binomial data](/D/betabin-data) | JoramSoch | 2022-10-20 |
 | D179 | me | [Model evidence](/D/me) | JoramSoch | 2022-10-20 |
 | D180 | fe | [Family evidence](/D/fe) | JoramSoch | 2022-10-20 |
+| D181 | anova1 | [One-way analysis of variance](/D/anova1) | JoramSoch | 2022-11-06 |
+| D182 | anova2 | [Two-way analysis of variance](/D/anova2) | JoramSoch | 2022-11-06 |

@@ -160,6 +160,7 @@ title: "Definition by Topic"
 
 - [One-tailed and two-tailed hypothesis](/D/hyp-tail)
 - [One-tailed and two-tailed test](/D/test-tail)
+- [One-way analysis of variance](/D/anova1)
 
 ### P
 
@@ -231,6 +232,7 @@ title: "Definition by Topic"
 - [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
 - [Transformed general linear model](/D/tglm)
+- [Two-way analysis of variance](/D/anova2)
 
 ### U
 
