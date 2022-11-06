@@ -563,61 +563,68 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.13. **[Cross-validated log Bayes factor](/P/ugkv-cvlbf)** <br>
    &emsp;&ensp; 1.2.14. **[Expectation of cross-validated log Bayes factor](/P/ugkv-cvlbfmean)** <br>
    
-   1.3. Simple linear regression <br>
-   &emsp;&ensp; 1.3.1. *[Definition](/D/slr)* <br>
-   &emsp;&ensp; 1.3.2. **[Special case of multiple linear regression](/P/slr-mlr)** <br>
-   &emsp;&ensp; 1.3.3. **[Ordinary least squares](/P/slr-ols)** (1) <br>
-   &emsp;&ensp; 1.3.4. **[Ordinary least squares](/P/slr-ols2)** (2) <br>
-   &emsp;&ensp; 1.3.5. **[Expectation of estimates](/P/slr-olsmean)** <br>
-   &emsp;&ensp; 1.3.6. **[Variance of estimates](/P/slr-olsvar)** <br>
-   &emsp;&ensp; 1.3.7. **[Distribution of estimates](/P/slr-olsdist)** <br>
-   &emsp;&ensp; 1.3.8. **[Correlation of estimates](/P/slr-olscorr)** <br>
-   &emsp;&ensp; 1.3.9. **[Effects of mean-centering](/P/slr-meancent)** <br>
-   &emsp;&ensp; 1.3.10. *[Regression line](/D/regline)* <br>
-   &emsp;&ensp; 1.3.11. **[Regression line includes center of mass](/P/slr-comp)** <br>
-   &emsp;&ensp; 1.3.12. **[Projection of data point to regression line](/P/slr-proj)** <br>
-   &emsp;&ensp; 1.3.13. **[Sums of squares](/P/slr-sss)** <br>
-   &emsp;&ensp; 1.3.14. **[Transformation matrices](/P/slr-mat)** <br>
-   &emsp;&ensp; 1.3.15. **[Weighted least squares](/P/slr-wls)** (1) <br>
-   &emsp;&ensp; 1.3.16. **[Weighted least squares](/P/slr-wls2)** (2) <br>
-   &emsp;&ensp; 1.3.17. **[Maximum likelihood estimation](/P/slr-mle)** (1) <br>
-   &emsp;&ensp; 1.3.18. **[Maximum likelihood estimation](/P/slr-mle2)** (2) <br>
-   &emsp;&ensp; 1.3.19. **[Sum of residuals is zero](/P/slr-ressum)** <br>
-   &emsp;&ensp; 1.3.20. **[Correlation with covariate is zero](/P/slr-rescorr)** <br>
-   &emsp;&ensp; 1.3.21. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
-   &emsp;&ensp; 1.3.22. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
-   &emsp;&ensp; 1.3.23. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
-
-   1.4. Multiple linear regression <br>
-   &emsp;&ensp; 1.4.1. *[Definition](/D/mlr)* <br>
-   &emsp;&ensp; 1.4.2. **[Special case of general linear model](/P/mlr-glm)** <br>
-   &emsp;&ensp; 1.4.3. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
-   &emsp;&ensp; 1.4.4. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
-   &emsp;&ensp; 1.4.5. *[Total sum of squares](/D/tss)* <br>
-   &emsp;&ensp; 1.4.6. *[Explained sum of squares](/D/ess)* <br>
-   &emsp;&ensp; 1.4.7. *[Residual sum of squares](/D/rss)* <br>
-   &emsp;&ensp; 1.4.8. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
-   &emsp;&ensp; 1.4.9. *[Estimation matrix](/D/emat)* <br>
-   &emsp;&ensp; 1.4.10. *[Projection matrix](/D/pmat)* <br>
-   &emsp;&ensp; 1.4.11. *[Residual-forming matrix](/D/rfmat)* <br>
-   &emsp;&ensp; 1.4.12. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
-   &emsp;&ensp; 1.4.13. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
-   &emsp;&ensp; 1.4.14. **[Weighted least squares](/P/mlr-wls)** (1) <br>
-   &emsp;&ensp; 1.4.15. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
-   &emsp;&ensp; 1.4.16. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
-   &emsp;&ensp; 1.4.17. **[Maximum log-likelihood](/P/mlr-mll)** <br>
-   &emsp;&ensp; 1.4.18. **[Deviance function](/P/mlr-dev)** <br>
-   &emsp;&ensp; 1.4.19. **[Akaike information criterion](/P/mlr-aic)** <br>
-   &emsp;&ensp; 1.4.20. **[Bayesian information criterion](/P/mlr-bic)** <br>
-   &emsp;&ensp; 1.4.21. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
+   1.3. Analysis of variance <br>
+   &emsp;&ensp; 1.3.1. *[One-way ANOVA](/D/anova1)* <br>
+   &emsp;&ensp; 1.3.2. **[Ordinary least squares for one-way ANOVA](/P/anova1-ols)** <br>
+   &emsp;&ensp; 1.3.3. **[F-test for main effect in one-way ANOVA](/P/anova1-f)** <br>
+   &emsp;&ensp; 1.3.4. *[Two-way ANOVA](/D/anova2)* <br>
+   &emsp;&ensp; 1.3.5. **[Ordinary least squares for two-way ANOVA](/P/anova2-ols)** <br>
    
-   1.5. Bayesian linear regression <br>
-   &emsp;&ensp; 1.5.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
-   &emsp;&ensp; 1.5.2. **[Posterior distribution](/P/blr-post)** <br>
-   &emsp;&ensp; 1.5.3. **[Log model evidence](/P/blr-lme)** <br>
-   &emsp;&ensp; 1.5.4. **[Deviance information criterion](/P/blr-dic)** <br>
-   &emsp;&ensp; 1.5.5. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
-   &emsp;&ensp; 1.5.6. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
+   1.4. Simple linear regression <br>
+   &emsp;&ensp; 1.4.1. *[Definition](/D/slr)* <br>
+   &emsp;&ensp; 1.4.2. **[Special case of multiple linear regression](/P/slr-mlr)** <br>
+   &emsp;&ensp; 1.4.3. **[Ordinary least squares](/P/slr-ols)** (1) <br>
+   &emsp;&ensp; 1.4.4. **[Ordinary least squares](/P/slr-ols2)** (2) <br>
+   &emsp;&ensp; 1.4.5. **[Expectation of estimates](/P/slr-olsmean)** <br>
+   &emsp;&ensp; 1.4.6. **[Variance of estimates](/P/slr-olsvar)** <br>
+   &emsp;&ensp; 1.4.7. **[Distribution of estimates](/P/slr-olsdist)** <br>
+   &emsp;&ensp; 1.4.8. **[Correlation of estimates](/P/slr-olscorr)** <br>
+   &emsp;&ensp; 1.4.9. **[Effects of mean-centering](/P/slr-meancent)** <br>
+   &emsp;&ensp; 1.4.10. *[Regression line](/D/regline)* <br>
+   &emsp;&ensp; 1.4.11. **[Regression line includes center of mass](/P/slr-comp)** <br>
+   &emsp;&ensp; 1.4.12. **[Projection of data point to regression line](/P/slr-proj)** <br>
+   &emsp;&ensp; 1.4.13. **[Sums of squares](/P/slr-sss)** <br>
+   &emsp;&ensp; 1.4.14. **[Transformation matrices](/P/slr-mat)** <br>
+   &emsp;&ensp; 1.4.15. **[Weighted least squares](/P/slr-wls)** (1) <br>
+   &emsp;&ensp; 1.4.16. **[Weighted least squares](/P/slr-wls2)** (2) <br>
+   &emsp;&ensp; 1.4.17. **[Maximum likelihood estimation](/P/slr-mle)** (1) <br>
+   &emsp;&ensp; 1.4.18. **[Maximum likelihood estimation](/P/slr-mle2)** (2) <br>
+   &emsp;&ensp; 1.4.19. **[Sum of residuals is zero](/P/slr-ressum)** <br>
+   &emsp;&ensp; 1.4.20. **[Correlation with covariate is zero](/P/slr-rescorr)** <br>
+   &emsp;&ensp; 1.4.21. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
+   &emsp;&ensp; 1.4.22. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
+   &emsp;&ensp; 1.4.23. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
+
+   1.5. Multiple linear regression <br>
+   &emsp;&ensp; 1.5.1. *[Definition](/D/mlr)* <br>
+   &emsp;&ensp; 1.5.2. **[Special case of general linear model](/P/mlr-glm)** <br>
+   &emsp;&ensp; 1.5.3. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
+   &emsp;&ensp; 1.5.4. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
+   &emsp;&ensp; 1.5.5. *[Total sum of squares](/D/tss)* <br>
+   &emsp;&ensp; 1.5.6. *[Explained sum of squares](/D/ess)* <br>
+   &emsp;&ensp; 1.5.7. *[Residual sum of squares](/D/rss)* <br>
+   &emsp;&ensp; 1.5.8. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
+   &emsp;&ensp; 1.5.9. *[Estimation matrix](/D/emat)* <br>
+   &emsp;&ensp; 1.5.10. *[Projection matrix](/D/pmat)* <br>
+   &emsp;&ensp; 1.5.11. *[Residual-forming matrix](/D/rfmat)* <br>
+   &emsp;&ensp; 1.5.12. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
+   &emsp;&ensp; 1.5.13. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
+   &emsp;&ensp; 1.5.14. **[Weighted least squares](/P/mlr-wls)** (1) <br>
+   &emsp;&ensp; 1.5.15. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
+   &emsp;&ensp; 1.5.16. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   &emsp;&ensp; 1.5.17. **[Maximum log-likelihood](/P/mlr-mll)** <br>
+   &emsp;&ensp; 1.5.18. **[Deviance function](/P/mlr-dev)** <br>
+   &emsp;&ensp; 1.5.19. **[Akaike information criterion](/P/mlr-aic)** <br>
+   &emsp;&ensp; 1.5.20. **[Bayesian information criterion](/P/mlr-bic)** <br>
+   &emsp;&ensp; 1.5.21. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
+   
+   1.6. Bayesian linear regression <br>
+   &emsp;&ensp; 1.6.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
+   &emsp;&ensp; 1.6.2. **[Posterior distribution](/P/blr-post)** <br>
+   &emsp;&ensp; 1.6.3. **[Log model evidence](/P/blr-lme)** <br>
+   &emsp;&ensp; 1.6.4. **[Deviance information criterion](/P/blr-dic)** <br>
+   &emsp;&ensp; 1.6.5. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
+   &emsp;&ensp; 1.6.6. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
    
 2. Multivariate normal data
    
