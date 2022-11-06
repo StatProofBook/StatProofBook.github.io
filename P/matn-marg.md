@@ -163,7 +163,7 @@ x_{ij} &= AXB = e_i X e_j^\mathrm{T} \\
 \end{split}
 $$
 
-As $x_{ij}$ is a scalar, this is equivalent to [a univariate normal distribution](/D/norm) as [a special case of](/P/norm-mvn) of [the matrix-normal distribution](/P/mvn-matn):
+As $x_{ij}$ is a scalar, this is equivalent to [a univariate normal distribution](/D/norm) as [a special case](/P/norm-mvn) of [the matrix-normal distribution](/P/mvn-matn):
 
 $$ \label{eq:xij-marg-norm}
 x_{ij} \sim \mathcal{N}(m_{ij}, u_{ii} v_{jj}) \; .
