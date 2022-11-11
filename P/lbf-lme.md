@@ -43,19 +43,23 @@ $$
 
 and the [log Bayes factor](/D/lbf) is defined as the logarithm of the Bayes factor
 
-$$ \label{eq:LBF}
-\mathrm{LBF}_{12} = \log \mathrm{BF}_{12} = \log \frac{p(y|m_1)}{p(y|m_2)} \; .
+$$ \label{eq:LBF-s1}
+\mathrm{LBF}_{12} = \log \mathrm{BF}_{12} \; .
 $$
 
-With the definition of the [log model evidence](/D/lme)
+Thus, the log Bayes factor can be expressed as
+
+$$ \label{eq:LBF-s2}
+\mathrm{LBF}_{12} = \log \frac{p(y|m_1)}{p(y|m_2)} \; .
+$$
+
+and, with the definition of the [log model evidence](/D/lme)
 
 $$ \label{eq:LME}
 \mathrm{LME}(m) = \log p(y|m)
 $$
 
-the log Bayes factor can be expressed as:
-
-Resolving the logarithm and applying the definition of the [log model evidence](/D/lme), we finally have:
+and resolving the logarithm, we finally have:
 
 $$ \label{eq:LBF-LME-qed}
 \begin{split}

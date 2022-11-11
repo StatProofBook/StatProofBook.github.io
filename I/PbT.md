@@ -120,6 +120,7 @@ title: "Proof by Topic"
 
 ### F
 
+- [F-test for main effect in one-way analysis of variance](/P/anova1-f)
 - [First central moment is zero](/P/momcent-1st)
 - [First raw moment is mean](/P/momraw-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
@@ -259,9 +260,11 @@ title: "Proof by Topic"
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
+- [Ordinary least squares for one-way analysis of variance](/P/anova1-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
+- [Ordinary least squares for two-way analysis of variance](/P/anova2-ols)
 
 ### P
 

@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (349 proofs)
+### JoramSoch (352 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -105,6 +105,7 @@ title: "Proof by Author"
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 - [Expression of the probability mass function of the beta-binomial distribution using only the gamma function](/P/betabin-pmfitogf)
 - [Extreme points of the probability density function of the normal distribution](/P/norm-extr)
+- [F-test for main effect in one-way analysis of variance](/P/anova1-f)
 - [First central moment is zero](/P/momcent-1st)
 - [First raw moment is mean](/P/momraw-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
@@ -213,9 +214,11 @@ title: "Proof by Author"
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
+- [Ordinary least squares for one-way analysis of variance](/P/anova1-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
+- [Ordinary least squares for two-way analysis of variance](/P/anova2-ols)
 - [Paired t-test for dependent observations](/P/ug-ttestp)
 - [Paired z-test for dependent observations](/P/ugkv-ztestp)
 - [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr)

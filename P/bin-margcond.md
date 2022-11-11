@@ -64,7 +64,7 @@ $$ \label{eq:Y-dist-s3}
 \mathrm{Pr}(Y = m) = \sum_{k=m}^{n} {k \choose m} \, q^m \, (1-q)^{k-m} \cdot {n \choose k} \, p^k \, (1-p)^{n-k} \; .
 $$
 
-Applying the binomial coefficient identity ${n \choose k} {k \choose m} = {n \choose m} {n-m \choose k-m}$ rearranging the terms, we have:
+Applying the binomial coefficient identity ${n \choose k} {k \choose m} = {n \choose m} {n-m \choose k-m}$ and rearranging the terms, we have:
 
 $$ \label{eq:Y-dist-s4}
 \mathrm{Pr}(Y = m) = \sum_{k=m}^{n} {n \choose m} \, {n-m \choose k-m} \, p^k \, q^m \, (1-p)^{n-k} \, (1-q)^{k-m} \; .

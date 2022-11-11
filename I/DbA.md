@@ -8,7 +8,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (174 definitions)
+### JoramSoch (176 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -120,6 +120,7 @@ title: "Definition by Author"
 - [Null hypothesis](/D/h0)
 - [One-tailed and two-tailed hypothesis](/D/hyp-tail)
 - [One-tailed and two-tailed test](/D/test-tail)
+- [One-way analysis of variance](/D/anova1)
 - [p-value](/D/pval)
 - [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
@@ -175,6 +176,7 @@ title: "Definition by Author"
 - [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
 - [Transformed general linear model](/D/tglm)
+- [Two-way analysis of variance](/D/anova2)
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
 - [Univariate and multivariate random variable](/D/rvar-uni)
