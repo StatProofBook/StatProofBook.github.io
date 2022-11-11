@@ -27,7 +27,7 @@ sources:
     pages: "retrieved on 2022-11-10"
     url: "https://stats.stackexchange.com/questions/124166/in-a-two-way-anova-how-can-the-f-statistic-for-one-factor-have-a-central-distri"
 
-proof_id: "P371"
+proof_id: "P372"
 shortcut: "anova2-fme"
 username: "JoramSoch"
 ---
