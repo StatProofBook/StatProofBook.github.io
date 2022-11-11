@@ -41,7 +41,7 @@ $$ \label{eq:anova2-ols}
 \end{split}
 $$
 
-where $\bar{y}_{\bullet \bullet \bullet}$, $\bar{y}_{i \bullet \bullet}$, $\bar{y}_{\bullet j \bullet}$ and $\bar{y}_{i j \bullet}$ are the following [sample means](/D/mean-samp):
+where $\bar{y} _{\bullet \bullet \bullet}$, $\bar{y} _{i \bullet \bullet}$, $\bar{y} _{\bullet j \bullet}$ and $\bar{y} _{i j \bullet}$ are the following [sample means](/D/mean-samp):
 
 $$ \label{eq:mean-samp}
 \begin{split}

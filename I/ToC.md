@@ -569,6 +569,9 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.3. **[F-test for main effect in one-way ANOVA](/P/anova1-f)** <br>
    &emsp;&ensp; 1.3.4. *[Two-way ANOVA](/D/anova2)* <br>
    &emsp;&ensp; 1.3.5. **[Ordinary least squares for two-way ANOVA](/P/anova2-ols)** <br>
+   &emsp;&ensp; 1.3.6. **[F-test for main effect in two-way ANOVA](/P/anova2-fme)** <br>
+   &emsp;&ensp; 1.3.7. **[F-test for interaction in two-way ANOVA](/P/anova2-fia)** <br>
+   &emsp;&ensp; 1.3.8. **[F-test for grand mean in two-way ANOVA](/P/anova2-fgm)** <br>
    
    1.4. Simple linear regression <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/slr)* <br>
