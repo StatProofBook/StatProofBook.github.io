@@ -377,3 +377,6 @@ title: "Proof by Number"
 | P369 | anova1-ols | [Ordinary least squares for one-way analysis of variance](/P/anova1-ols) | JoramSoch | 2022-11-06 |
 | P370 | anova1-f | [F-test for main effect in one-way analysis of variance](/P/anova1-f) | JoramSoch | 2022-11-06 |
 | P371 | anova2-ols | [Ordinary least squares for two-way analysis of variance](/P/anova2-ols) | JoramSoch | 2022-11-06 |
+| P372 | anova2-fme | [F-test for main effect in two-way analysis of variance](/P/anova2-fme) | JoramSoch | 2022-11-10 |
+| P373 | anova2-fia | [F-test for interaction in two-way analysis of variance](/P/anova2-fia) | JoramSoch | 2022-11-11 |
+| P374 | anova2-fgm | [F-test for grand mean in two-way analysis of variance](/P/anova2-fgm) | JoramSoch | 2022-11-11 |
