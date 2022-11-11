@@ -141,7 +141,7 @@ $$ \label{eq:sum-Uij-s3-Bj}
 \begin{split}
 B^{(1)} &= I_n - \mathrm{diag}\left( \frac{1}{n_1} J_{n_1}, \; \ldots, \; \frac{1}{n_K} J_{n_K} \right) \\
 B^{(2)} &= \mathrm{diag}\left( \frac{1}{n_1} J_{n_1}, \; \ldots, \; \frac{1}{n_K} J_{n_K} \right) - \frac{1}{n} J_n \\
-B^{(2)} &= \frac{1}{n} J_n
+B^{(3)} &= \frac{1}{n} J_n
 \end{split}
 $$
 
