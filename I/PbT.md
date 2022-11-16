@@ -120,7 +120,10 @@ title: "Proof by Topic"
 
 ### F
 
+- [F-test for grand mean in two-way analysis of variance](/P/anova2-fgm)
+- [F-test for interaction in two-way analysis of variance](/P/anova2-fia)
 - [F-test for main effect in one-way analysis of variance](/P/anova1-f)
+- [F-test for main effect in two-way analysis of variance](/P/anova2-fme)
 - [First central moment is zero](/P/momcent-1st)
 - [First raw moment is mean](/P/momraw-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)

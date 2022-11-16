@@ -14,6 +14,12 @@ topic: "Analysis of variance"
 theorem: "Ordinary least squares for two-way ANOVA"
 
 sources:
+  - authors: "Olbricht, Gayla R."
+    year: 2011
+    title: "Two-Way ANOVA: Interaction"
+    in: "Stat 512: Applied Regression Analysis"
+    pages: "Purdue University, Spring 2011, Lect. 27"
+    url: "https://www.stat.purdue.edu/~ghobbs/STAT_512/Lecture_Notes/ANOVA/Topic_27.pdf"
 
 proof_id: "P371"
 shortcut: "anova2-ols"
@@ -122,8 +128,9 @@ $$ \label{eq:rss-der-mu-zero}
 \begin{split}
 0 &= 2 n \hat{\mu} + 2 \left( \sum_{i=1}^{a} n_{i \bullet} \alpha_i + \sum_{j=1}^{b} n_{\bullet j} \beta_j + \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} \gamma_{ij} \right) - 2 \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} \\
 \hat{\mu} &= \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} -  \sum_{i=1}^{a} \frac{n_{i \bullet}}{n} \alpha_i - \sum_{j=1}^{b} \frac{n_{\bullet j}}{n} \beta_j - \sum_{i=1}^{a} \sum_{j=1}^{b} \frac{n_{ij}}{n} \gamma_{ij} \\
-\hat{\mu} &\overset{\eqref{eq:samp-size}}{=} \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \sum_{j=1}^{b} \sum_{i=1}^{a} \frac{n_{ij}}{n} \alpha_i - \sum_{i=1}^{a} \sum_{j=1}^{b} \frac{n_{ij}}{n} \beta_j - \sum_{i=1}^{a} \sum_{j=1}^{b} \frac{n_{ij}}{n} \gamma_{ij} \\
-\hat{\mu} &\overset{\eqref{eq:anova2-cons}}{=} \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk}
+&\overset{\eqref{eq:samp-size}}{=} \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \sum_{j=1}^{b} \sum_{i=1}^{a} \frac{n_{ij}}{n} \alpha_i - \sum_{i=1}^{a} \sum_{j=1}^{b} \frac{n_{ij}}{n} \beta_j - \sum_{i=1}^{a} \sum_{j=1}^{b} \frac{n_{ij}}{n} \gamma_{ij} \\
+&\overset{\eqref{eq:anova2-cons}}{=} \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} \\
+&\overset{\eqref{eq:mean-samp}}{=} \bar{y}_{\bullet \bullet \bullet}
 \end{split}
 $$
 
@@ -131,8 +138,9 @@ $$ \label{eq:rss-der-alpha-zero}
 \begin{split}
 0 &= 2 n_{i \bullet} \hat{\mu} + 2 n_{i \bullet} \hat{\alpha}_i + 2 \left( \sum_{j=1}^{b} n_{ij} \beta_j + \sum_{j=1}^{b} n_{ij} \gamma_{ij} \right) - 2 \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} \\
 \hat{\alpha}_i &= \frac{1}{n_{i \bullet}} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \hat{\mu} - \sum_{j=1}^{b} \frac{n_{ij}}{n_{i \bullet}} \beta_j - \sum_{j=1}^{b} \frac{n_{ij}}{n_{i \bullet}} \gamma_{ij} \\
-\hat{\alpha}_i &= \frac{1}{n_{i \bullet}} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \hat{\mu} - \frac{n}{n_{i \bullet}} \sum_{j=1}^{b} \frac{n_{ij}}{n} \beta_j - \frac{n}{n_{i \bullet}} \sum_{j=1}^{b} \frac{n_{ij}}{n} \gamma_{ij} \\
-\hat{\alpha}_i &\overset{\eqref{eq:anova2-cons}}{=} \frac{1}{n_{i \bullet}} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk}
+&= \frac{1}{n_{i \bullet}} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \hat{\mu} - \frac{n}{n_{i \bullet}} \sum_{j=1}^{b} \frac{n_{ij}}{n} \beta_j - \frac{n}{n_{i \bullet}} \sum_{j=1}^{b} \frac{n_{ij}}{n} \gamma_{ij} \\
+&\overset{\eqref{eq:anova2-cons}}{=} \frac{1}{n_{i \bullet}} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} \\
+&\overset{\eqref{eq:mean-samp}}{=} \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet \bullet \bullet}
 \end{split}
 $$
 
@@ -140,8 +148,9 @@ $$ \label{eq:rss-der-beta-zero}
 \begin{split}
 0 &= 2 n_{\bullet j} \hat{\mu} + 2 n_{\bullet j} \hat{\beta}_j + 2 \left( \sum_{i=1}^{a} n_{ij} \alpha_i + \sum_{i=1}^{a} n_{ij} \gamma_{ij} \right) - 2 \sum_{i=1}^{a} \sum_{k=1}^{n_{ij}} y_{ijk} \\
 \hat{\beta}_j &= \frac{1}{n_{\bullet j}} \sum_{i=1}^{a} \sum_{k=1}^{n_{ij}} y_{ijk} - \hat{\mu} - \sum_{i=1}^{a} \frac{n_{ij}}{n_{\bullet j}} \alpha_i - \sum_{i=1}^{a} \frac{n_{ij}}{n_{\bullet j}} \gamma_{ij} \\
-\hat{\beta}_j &= \frac{1}{n_{\bullet j}} \sum_{i=1}^{a} \sum_{k=1}^{n_{ij}} y_{ijk} - \hat{\mu} - \frac{n}{n_{\bullet j}} \sum_{i=1}^{a} \frac{n_{ij}}{n} \alpha_i - \frac{n}{n_{\bullet j}} \sum_{i=1}^{a} \frac{n_{ij}}{n} \gamma_{ij} \\
-\hat{\beta}_j &\overset{\eqref{eq:anova2-cons}}{=} \frac{1}{n_{\bullet j}} \sum_{i=1}^{a} \sum_{k=1}^{n_{ij}} y_{ijk} - \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk}
+&= \frac{1}{n_{\bullet j}} \sum_{i=1}^{a} \sum_{k=1}^{n_{ij}} y_{ijk} - \hat{\mu} - \frac{n}{n_{\bullet j}} \sum_{i=1}^{a} \frac{n_{ij}}{n} \alpha_i - \frac{n}{n_{\bullet j}} \sum_{i=1}^{a} \frac{n_{ij}}{n} \gamma_{ij} \\
+&\overset{\eqref{eq:anova2-cons}}{=} \frac{1}{n_{\bullet j}} \sum_{i=1}^{a} \sum_{k=1}^{n_{ij}} y_{ijk} - \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} \\
+&\overset{\eqref{eq:mean-samp}}{=} \bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet}
 \end{split}
 $$
 
@@ -149,6 +158,7 @@ $$ \label{eq:rss-der-gamma-zero}
 \begin{split}
 0 &= 2 n_{ij} (\hat{\mu} + \hat{\alpha}_i + \hat{\beta}_j + \hat{\gamma_{ij}}) - 2 \sum_{k=1}^{n_{ij}} y_{ijk} \\
 \hat{\gamma_{ij}} &= \frac{1}{n_{ij}} \sum_{k=1}^{n_{ij}} y_{ijk} - \hat{\alpha}_i - \hat{\beta}_j - \hat{\mu} \\
-\hat{\gamma_{ij}} &= \frac{1}{n_{ij}} \sum_{k=1}^{n_{ij}} y_{ijk} - \frac{1}{n_{i \bullet}} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \frac{1}{n_{\bullet j}} \sum_{i=1}^{a} \sum_{k=1}^{n_{ij}} y_{ijk} + \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} \; .
+&= \frac{1}{n_{ij}} \sum_{k=1}^{n_{ij}} y_{ijk} - \frac{1}{n_{i \bullet}} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \frac{1}{n_{\bullet j}} \sum_{i=1}^{a} \sum_{k=1}^{n_{ij}} y_{ijk} + \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} \\
+&\overset{\eqref{eq:mean-samp}}{=} \bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet} \; .
 \end{split}
 $$

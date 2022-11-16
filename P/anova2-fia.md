@@ -27,7 +27,7 @@ sources:
     pages: "retrieved on 2022-11-10"
     url: "https://stats.stackexchange.com/questions/545807/proof-on-ss-ab-sigma2-sim-chi2-i-1j-1-under-the-null-hypothesis"
 
-proof_id: "P372"
+proof_id: "P373"
 shortcut: "anova2-fia"
 username: "JoramSoch"
 ---

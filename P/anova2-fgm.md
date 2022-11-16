@@ -27,7 +27,7 @@ sources:
     pages: "Purdue University, Spring 2011, Lect. 27"
     url: "https://www.stat.purdue.edu/~ghobbs/STAT_512/Lecture_Notes/ANOVA/Topic_27.pdf"
 
-proof_id: "P373"
+proof_id: "P374"
 shortcut: "anova2-fgm"
 username: "JoramSoch"
 ---

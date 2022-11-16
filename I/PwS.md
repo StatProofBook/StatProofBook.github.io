@@ -80,7 +80,6 @@ title: "Proofs without Source"
 - [Ordinary least squares for one-way analysis of variance](/P/anova1-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
-- [Ordinary least squares for two-way analysis of variance](/P/anova2-ols)
 - [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)
 - [Probability density function of the beta distribution](/P/beta-pdf)
