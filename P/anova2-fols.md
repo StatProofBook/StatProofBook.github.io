@@ -11,7 +11,7 @@ title: "F-statistics in terms of ordinary least squares estimates in two-way ana
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Analysis of variance"
-theorem: "F-statistic in terms of OLS estimates"
+theorem: "F-statistics in terms of OLS estimates"
 
 sources:
 

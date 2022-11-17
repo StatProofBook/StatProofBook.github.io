@@ -45,7 +45,7 @@ $$ \label{eq:anova2-pss}
 \mathrm{SS}_\mathrm{tot} = \mathrm{SS}_{A} + \mathrm{SS}_{B} + \mathrm{SS}_{A \times B} + \mathrm{SS}_\mathrm{res}
 $$
 
-where $\mathrm{SS}_\mathrm{tot}$ is the [total sum of squares](/D/tss), $\mathrm{SS}_{A}$, $\mathrm{SS}_{B}$ and $\mathrm{SS}_{A \times B}$ are [treatment](/D/trss) and [interaction sum of squares](/D/iass) (summing into the [explained sum of squares](/D/ess)) and $\mathrm{SS}_\mathrm{res}$ is the [residual sum of squares](/D/rss).
+where $\mathrm{SS} _\mathrm{tot}$ is the [total sum of squares](/D/tss), $\mathrm{SS} _{A}$, $\mathrm{SS} _{B}$ and $\mathrm{SS} _{A \times B}$ are [treatment](/D/trss) and [interaction sum of squares](/D/iass) (summing into the [explained sum of squares](/D/ess)) and $\mathrm{SS} _\mathrm{res}$ is the [residual sum of squares](/D/rss).
 
 
 **Proof:** The [total sum of squares](/D/tss) for [two-way ANOVA](/D/anova2) is given by
@@ -54,7 +54,7 @@ $$ \label{eq:anova2-tss}
 \mathrm{SS}_\mathrm{tot} = \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{\bullet \bullet \bullet})^2
 $$
 
-where $\bar{y}_{\bullet \bullet \bullet}$ is the mean across all values $y_{ijk}$. This can be rewritten as
+where $\bar{y} _{\bullet \bullet \bullet}$ is the mean across all values $y_{ijk}$. This can be rewritten as
 
 $$ \label{eq:anova2-pss-s1}
 \begin{split}

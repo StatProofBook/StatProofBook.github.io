@@ -30,16 +30,7 @@ username: "JoramSoch"
 **Theorem:** Assume the [one-way analysis of variance](/D/anova1) model
 
 $$ \label{eq:anova1}
-y_{ij} = \mu_i + \varepsilon_{ij}, \; \varepsilon_{ij} \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2), \; i = 1, \ldots, k, \; j = 1, \dots, n_i \; ,
-$$
-
-and consider the [null](/D/h0) and [alternative](/D/h1) hypothesis
-
-$$ \label{eq:anova1-h0}
-\begin{split}
-H_0: &\; \mu_1 = \ldots = \mu_K \\
-H_1: &\; \mu_i \neq \mu_j \quad \text{for at least one} \quad i,j \in \left\lbrace 1, \ldots, k \right\rbrace, \; i \neq j \; .
-\end{split}
+y_{ij} = \mu_i + \varepsilon_{ij}, \; \varepsilon_{ij} \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2), \; i = 1, \ldots, k, \; j = 1, \dots, n_i \; .
 $$
 
 Then, the [test statistic](/D/tstat)
@@ -48,14 +39,41 @@ $$ \label{eq:anova1-f}
 F = \frac{\frac{1}{k-1} \sum_{i=1}^{k} n_i (\bar{y}_i - \bar{y})^2}{\frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2}
 $$
 
-follows an [F-distribution](/D/f) under the null hypothesis:
+follows an [F-distribution](/D/f)
 
 $$ \label{eq:anova1-f-h0}
-F \sim \mathrm{F}(k-1, n-k), \; \text{if} \; H_0 \; .
+F \sim \mathrm{F}(k-1, n-k)
+$$
+
+under the [null hypothesis](/D/h0)
+
+$$ \label{eq:anova1-h0}
+\begin{split}
+H_0: &\; \mu_1 = \ldots = \mu_k \\
+H_1: &\; \mu_i \neq \mu_j \quad \text{for at least one} \quad i,j \in \left\lbrace 1, \ldots, k \right\rbrace, \; i \neq j \; .
+\end{split}
 $$
 
 
-**Proof:** Let $\mu$ be the common [mean](/D/mean) under the [null hypothesis](/D/h0) $\mu_1 = \ldots = \mu_K = \mu$. Under $H_0$, we have:
+**Proof:** Denote sample sizes as
+
+$$ \label{eq:samp-size}
+\begin{split}
+n_i &- \text{number of samples in category} \; i \\
+n &= \sum_{i=1}^{k} n_ij
+\end{split}
+$$
+
+and denote sample means as
+
+$$ \label{eq:mean-samp}
+\begin{split}
+\bar{y}_i &= \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} \\
+\bar{y} &= \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \; .
+\end{split}
+$$
+
+Let $\mu$ be the common [mean](/D/mean) according to $H_0$ given by \eqref{eq:anova1-h0}, i.e. $\mu_1 = \ldots = \mu_k = \mu$. Under this null hypothesis, we have:
 
 $$ \label{eq:yij-h0}
 y_{ij} \sim \mathcal{N}(\mu, \sigma^2) \quad \text{for all} \quad i = 1, \ldots, k, \; j = 1, \ldots, n_i \; .
@@ -98,7 +116,7 @@ $$ \label{eq:sum-yib}
 \end{split}
 $$
 
-where $n = \sum_{i=1}^{k} n_i$, the sum in \eqref{eq:sum-Uij-s1} reduces to
+non-square products in \eqref{eq:sum-Uij-s1} disappear and the sum reduces to
 
 $$ \label{eq:sum-Uij-s2}
 \begin{split}
@@ -137,17 +155,29 @@ $$
 
 Then, we observe that the sum in \eqref{eq:sum-Uij-s2} can be represented in the form of \eqref{eq:cochran-p1} using the matrices
 
-$$ \label{eq:sum-Uij-s3-Bj}
+$$ \label{eq:B}
 \begin{split}
-B^{(1)} &= I_n - \mathrm{diag}\left( \frac{1}{n_1} J_{n_1}, \; \ldots, \; \frac{1}{n_K} J_{n_K} \right) \\
-B^{(2)} &= \mathrm{diag}\left( \frac{1}{n_1} J_{n_1}, \; \ldots, \; \frac{1}{n_K} J_{n_K} \right) - \frac{1}{n} J_n \\
+B^{(1)} &= I_n - \mathrm{diag}\left( \frac{1}{n_1} J_{n_1}, \; \ldots, \; \frac{1}{n_k} J_{n_k} \right) \\
+B^{(2)} &= \mathrm{diag}\left( \frac{1}{n_1} J_{n_1}, \; \ldots, \; \frac{1}{n_k} J_{n_k} \right) - \frac{1}{n} J_n \\
 B^{(3)} &= \frac{1}{n} J_n
 \end{split}
 $$
 
-where $J_n$ is an $n \times n$ matrix of ones and $\mathrm{diag}\left( A_1, \ldots, A_n \right)$ denotes a block-diagonal matrix composed of $A_1, \ldots, A_n$. The matrices in \eqref{eq:sum-Uij-s3-Bj} fulfill $B^{(1)} + B^{(2)} + B^{(3)} = I_n$ and their ranks are given by:
+where $J_n$ is an $n \times n$ matrix of ones and $\mathrm{diag}\left( A_1, \ldots, A_n \right)$ denotes a block-diagonal matrix composed of $A_1, \ldots, A_n$. We observe that those matrices satisfy
 
-$$ \label{eq:sum-Uij-s3-Bj-rk}
+$$ \label{eq:U-Q-B}
+\sum_{i=1}^{k} \sum_{j=1}^{n_i} U_{ij}^2 = Q_1 + Q_2 + Q_3 = U^\mathrm{T} B^{(1)} U + U^\mathrm{T} B^{(2)} U + U^\mathrm{T} B^{(3)} U
+$$
+
+as well as
+
+$$ \label{eq:B-In}
+B^{(1)} + B^{(2)} + B^{(3)} = I_n
+$$
+
+and their ranks are:
+
+$$ \label{eq:B-rk}
 \begin{split}
 \mathrm{rank}\left( B^{(1)} \right) &= n-k \\
 \mathrm{rank}\left( B^{(2)} \right) &= k-1 \\
@@ -164,7 +194,7 @@ $$ \label{eq:ess-rss}
 \end{split}
 $$
 
-Then, using \eqref{eq:sum-Uij-s2}, \eqref{eq:cochran-p1}, \eqref{eq:cochran-p2}, \eqref{eq:sum-Uij-s3-Bj} and \eqref{eq:sum-Uij-s3-Bj-rk}, we find that
+Then, using \eqref{eq:sum-Uij-s2}, \eqref{eq:cochran-p1}, \eqref{eq:cochran-p2}, \eqref{eq:B} and \eqref{eq:B-rk}, we find that
 
 $$ \label{eq:ess-rss-dist}
 \begin{split}
@@ -184,8 +214,10 @@ F &= \frac{(\mathrm{ESS}/\sigma^2)/(k-1)}{(\mathrm{RSS}/\sigma^2)/(n-k)} \\
 \end{split}
 $$
 
-which, [by definition of the F-distribution](/D/f), is distributed as:
+which, [by definition of the F-distribution](/D/f), is distributed as
 
 $$ \label{eq:anova1-f-qed}
-F \sim \mathrm{F}(k-1, n-k), \; \text{if} \; H_0 \; .
+F \sim \mathrm{F}(k-1, n-k)
 $$
+
+under the [null hypothesis](/D/h0) for the main effect.

@@ -11,7 +11,7 @@ title: "Reparametrization for one-way analysis of variance"
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Analysis of variance"
-theorem: "Reparametrization for one-way ANOVA"
+theorem: "Reparametrization of one-way ANOVA"
 
 sources:
   - authors: "Wikipedia"
@@ -94,7 +94,7 @@ $$
 
 $$ \label{eq:anova1-repara-c2-qed}
 \begin{split}
-\hat{\mu} &= \bar{y}_{\bullet \bullet} \hphantom{\bar{y}_{i \bullet} - } = \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \\
+\hat{\mu} &= \bar{y}_{\bullet \bullet} = \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \\
 \hat{\delta}_i &= \bar{y}_{i \bullet} - \bar{y}_{\bullet \bullet} = \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} - \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \; .
 \end{split}
 $$
@@ -133,7 +133,7 @@ $$ \label{eq:anova1-repara-c4-s1}
 F &= \frac{\left( \frac{1}{\sigma^2} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (\hat{\delta}_i - \delta_i)^2 \right)/(k-1)}{\left( \frac{1}{\sigma^2} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2 \right)/(n-k)} \\
 &= \frac{\frac{1}{k-1} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (\hat{\delta}_i - \delta_i)^2}{\frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2} \\
 &= \frac{\frac{1}{k-1} \sum_{i=1}^{k} n_i (\hat{\delta}_i - \delta_i)^2}{\frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2} \\
-&= \frac{\frac{1}{k-1} \sum_{i=1}^{k} n_i \hat{\delta}_i^2}{\frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2}
+&\overset{\eqref{eq:anova1-repara-c4-h0}}{=} \frac{\frac{1}{k-1} \sum_{i=1}^{k} n_i \hat{\delta}_i^2}{\frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2}
 \end{split}
 $$
 
@@ -143,4 +143,4 @@ $$ \label{eq:anova1-repara-c4-qed}
 F \sim \mathrm{F}(k-1, n-k)
 $$
 
-under the null hypothesis \eqref{eq:anova1-repara-c4-h0}.
+under the null hypothesis.
