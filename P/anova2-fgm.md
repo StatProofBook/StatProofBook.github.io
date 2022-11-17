@@ -11,7 +11,7 @@ title: "F-test for grand mean in two-way analysis of variance"
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Analysis of variance"
-theorem: "F-test for interaction in two-way ANOVA"
+theorem: "F-test for grand mean in two-way ANOVA"
 
 sources:
   - authors: "Nandy, Siddhartha"

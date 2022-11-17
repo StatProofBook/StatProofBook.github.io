@@ -37,6 +37,8 @@ title: "Proofs without Source"
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
+- [F-statistic in terms of ordinary least squares estimates in one-way analysis of variance](/P/anova1-fols)
+- [F-statistics in terms of ordinary least squares estimates in two-way analysis of variance](/P/anova2-fols)
 - [First raw moment is mean](/P/momraw-1st)
 - [Gamma distribution is a special case of Wishart distribution](/P/gam-wish)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)

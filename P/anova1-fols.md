@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2022-11-15 17:35:00
 
-title: "F-statistic for main effect in terms of ordinary least squares estimates in one-way analysis of variance"
+title: "F-statistic in terms of ordinary least squares estimates in one-way analysis of variance"
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Analysis of variance"

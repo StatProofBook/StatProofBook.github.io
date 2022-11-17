@@ -380,3 +380,9 @@ title: "Proof by Number"
 | P372 | anova2-fme | [F-test for main effect in two-way analysis of variance](/P/anova2-fme) | JoramSoch | 2022-11-10 |
 | P373 | anova2-fia | [F-test for interaction in two-way analysis of variance](/P/anova2-fia) | JoramSoch | 2022-11-11 |
 | P374 | anova2-fgm | [F-test for grand mean in two-way analysis of variance](/P/anova2-fgm) | JoramSoch | 2022-11-11 |
+| P375 | anova1-repara | [Reparametrization for one-way analysis of variance](/P/anova1-repara) | JoramSoch | 2022-11-15 |
+| P376 | anova1-pss | [Partition of sums of squares in one-way analysis of variance](/P/anova1-pss) | JoramSoch | 2022-11-15 |
+| P377 | anova1-fols | [F-statistic in terms of ordinary least squares estimates in one-way analysis of variance](/P/anova1-fols) | JoramSoch | 2022-11-15 |
+| P378 | anova2-cochran | [Application of Cochran's theorem to two-way analysis of variance](/P/anova2-cochran) | JoramSoch | 2022-11-16 |
+| P379 | anova2-pss | [Partition of sums of squares in two-way analysis of variance](/P/anova2-pss) | JoramSoch | 2022-11-16 |
+| P380 | anova2-fols | [F-statistics in terms of ordinary least squares estimates in two-way analysis of variance](/P/anova2-fols) | JoramSoch | 2022-11-16 |
