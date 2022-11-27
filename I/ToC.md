@@ -665,9 +665,13 @@ title: "Table of Contents"
    
    3.1. Binomial observations <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/bin-data)* <br>
-   &emsp;&ensp; 3.1.2. **[Conjugate prior distribution](/P/bin-prior)** <br>
-   &emsp;&ensp; 3.1.3. **[Posterior distribution](/P/bin-post)** <br>
-   &emsp;&ensp; 3.1.4. **[Log model evidence](/P/bin-lme)** <br>
+   &emsp;&ensp; 3.1.2. **[Maximum likelihood estimation](/P/bin-mle)** <br>
+   &emsp;&ensp; 3.1.3. **[Maximum log-likelihood](/P/bin-mll)** <br>
+   &emsp;&ensp; 3.1.4. **[Conjugate prior distribution](/P/bin-prior)** <br>
+   &emsp;&ensp; 3.1.5. **[Posterior distribution](/P/bin-post)** <br>
+   &emsp;&ensp; 3.1.6. **[Log model evidence](/P/bin-lme)** <br>
+   &emsp;&ensp; 3.1.7. **[Log Bayes factor](/P/bin-lbf)** <br>
+   &emsp;&ensp; 3.1.8. **[Posterior probability](/P/bin-pp)** <br>
    
    3.2. Multinomial observations <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/mult-data)* <br>
