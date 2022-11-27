@@ -39,7 +39,7 @@ $$ \label{eq:anova1-pss}
 \mathrm{SS}_\mathrm{tot} = \mathrm{SS}_\mathrm{treat} + \mathrm{SS}_\mathrm{res}
 $$
 
-where $\mathrm{SS}_\mathrm{tot}$ is the [total sum of squares](/D/tss), $\mathrm{SS}_\mathrm{treat}$ is the [treatment sum of squares](/D/trss) (equivalent to [explained sum of squares](/D/ess)) and $\mathrm{SS}_\mathrm{res}$ is the [residual sum of squares](/D/rss).
+where $\mathrm{SS} _\mathrm{tot}$ is the [total sum of squares](/D/tss), $\mathrm{SS} _\mathrm{treat}$ is the [treatment sum of squares](/D/trss) (equivalent to [explained sum of squares](/D/ess)) and $\mathrm{SS} _\mathrm{res}$ is the [residual sum of squares](/D/rss).
 
 
 **Proof:** The [total sum of squares](/D/tss) for [one-way ANOVA](/D/anova1) is given by

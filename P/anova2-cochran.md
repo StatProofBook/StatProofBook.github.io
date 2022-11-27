@@ -152,7 +152,7 @@ $$ \label{eq:sum-Uijk-s3d}
 &\overset{\eqref{eq:sum-Uijk-s3b}}{=} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (\bar{y}_{i j \bullet} - \bar{y}_{\bullet \bullet \bullet} - \gamma_{ij}) \\
 &= \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} \bar{y}_{i j \bullet} - \bar{y}_{\bullet \bullet \bullet} \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} - \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} \gamma_{ij} \\
 &\overset{\eqref{eq:mean-samp}}{=} \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} \cdot \frac{1}{n_{ij}} \sum_{k=1}^{n_{ij}} y_{ijk} - n \cdot \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} y_{ijk} - \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} \gamma_{ij} \\
-&= - \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \frac{n_{ij}}{n} \gamma_{ij} \overset{\eqref{eq:anova2-constr}}{=} 0 \; .
+&= - \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} \gamma_{ij} = - \frac{1}{n} \sum_{i=1}^{a} \sum_{j=1}^{b} \frac{n_{ij}}{n} \gamma_{ij} \overset{\eqref{eq:anova2-constr}}{=} 0 \; .
 \end{split}
 $$
 

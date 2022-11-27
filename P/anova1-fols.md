@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2022-11-15 17:35:00
 
-title: "F-statistic for main effect in terms of ordinary least squares estimates in one-way analysis of variance"
+title: "F-statistic in terms of ordinary least squares estimates in one-way analysis of variance"
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Analysis of variance"
@@ -46,7 +46,7 @@ $$ \label{eq:anova1-f}
 F = \frac{\frac{1}{k-1} \sum_{i=1}^{k} n_i (\bar{y}_i - \bar{y})^2}{\frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2}
 $$
 
-where $\bar{y}_i$ is the average of all values $y_{ij}$ from category $i$ and $\bar{y}$ is the grand mean of all values $y_{ij}$ from all categories $i = 1, \ldots, k$.
+where $\bar{y} _i$ is the average of all values $y_{ij}$ from category $i$ and $\bar{y}$ is the grand mean of all values $y_{ij}$ from all categories $i = 1, \ldots, k$.
 
 1) The [ordinary least squares estimates for one-way ANOVA](/P/anova1-ols) are
 

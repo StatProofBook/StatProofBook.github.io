@@ -14,6 +14,7 @@ title: "Proof by Topic"
 - [Additivity of the Kullback-Leibler divergence for independent distributions](/P/kl-add)
 - [Additivity of the variance for independent random variables](/P/var-add)
 - [Akaike information criterion for multiple linear regression](/P/mlr-aic)
+- [Application of Cochran's theorem to two-way analysis of variance](/P/anova2-cochran)
 
 ### B
 
@@ -120,6 +121,8 @@ title: "Proof by Topic"
 
 ### F
 
+- [F-statistic in terms of ordinary least squares estimates in one-way analysis of variance](/P/anova1-fols)
+- [F-statistics in terms of ordinary least squares estimates in two-way analysis of variance](/P/anova2-fols)
 - [F-test for grand mean in two-way analysis of variance](/P/anova2-fgm)
 - [F-test for interaction in two-way analysis of variance](/P/anova2-fia)
 - [F-test for main effect in one-way analysis of variance](/P/anova1-f)
@@ -277,7 +280,9 @@ title: "Proof by Topic"
 - [Parameters of the corresponding forward model](/P/cfm-para)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
 - [Partition of covariance into expected values](/P/cov-mean)
+- [Partition of sums of squares in one-way analysis of variance](/P/anova1-pss)
 - [Partition of sums of squares in ordinary least squares](/P/mlr-pss)
+- [Partition of sums of squares in two-way analysis of variance](/P/anova2-pss)
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
 - [Partition of variance into expected values](/P/var-mean)
@@ -386,6 +391,7 @@ title: "Proof by Topic"
 - [Relationship between residual variance and sample variance in simple linear regression](/P/slr-resvar)
 - [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
+- [Reparametrization for one-way analysis of variance](/P/anova1-repara)
 
 ### S
 

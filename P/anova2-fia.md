@@ -197,7 +197,7 @@ $$
 where $J_n$ is an $n \times n$ matrix of ones, $J_{n,m}$ is an $n \times m$ matrix of ones and $\mathrm{diag}\left( A_1, \ldots, A_n \right)$ denotes a block-diagonal matrix composed of $A_1, \ldots, A_n$. We observe that those matrices satisfy
 
 $$ \label{eq:U-Q-B}
-\sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} U_i^2 = Q_1 + Q_2 + Q_3 = U^\mathrm{T} B^{(1)} U + U^\mathrm{T} B^{(2)} U + U^\mathrm{T} B^{(3)} U
+\sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} U_{ijk}^2 = Q_1 + Q_2 + Q_3 = U^\mathrm{T} B^{(1)} U + U^\mathrm{T} B^{(2)} U + U^\mathrm{T} B^{(3)} U
 $$
 
 as well as

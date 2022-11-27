@@ -66,7 +66,7 @@ $$
 and the [test statistic](/D/tstat)
 
 $$ \label{eq:anova2-fme-B}
-F_B = \frac{\frac{1}{a-1} \sum_{i=1}^{a} n_{i \bullet} (\bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2}
+F_B = \frac{\frac{1}{b-1} \sum_{j=1}^{b} n_{\bullet j} (\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2} \\
 $$
 
 follows an [F-distribution](/D/f)
@@ -80,7 +80,7 @@ under the [null hypothesis](/D/h0) for the [main effect](/D/anova2) of factor B
 $$ \label{eq:anova2-h0-B}
 \begin{split}
 H_0: &\; \beta_1 = \ldots = \beta_b = 0 \\
-H_1: &\; \beta_j \neq 0 \quad \text{for at least one} \quad j \in \left\lbrace 1, \ldots, a \right\rbrace \; .
+H_1: &\; \beta_j \neq 0 \quad \text{for at least one} \quad j \in \left\lbrace 1, \ldots, b \right\rbrace \; .
 \end{split}
 $$
 
@@ -208,7 +208,7 @@ $$
 where $J_n$ is an $n \times n$ matrix of ones and $\mathrm{diag}\left( A_1, \ldots, A_n \right)$ denotes a block-diagonal matrix composed of $A_1, \ldots, A_n$. We observe that those matrices satisfy
 
 $$ \label{eq:U-Q-B}
-\sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} U_i^2 = Q_1 + Q_2 + Q_3 = U^\mathrm{T} B^{(1)} U + U^\mathrm{T} B^{(2)} U + U^\mathrm{T} B^{(3)} U
+\sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} U_{ijk}^2 = Q_1 + Q_2 + Q_3 = U^\mathrm{T} B^{(1)} U + U^\mathrm{T} B^{(2)} U + U^\mathrm{T} B^{(3)} U
 $$
 
 as well as
