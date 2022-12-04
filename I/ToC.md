@@ -675,9 +675,13 @@ title: "Table of Contents"
    
    3.2. Multinomial observations <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/mult-data)* <br>
-   &emsp;&ensp; 3.2.2. **[Conjugate prior distribution](/P/mult-prior)** <br>
-   &emsp;&ensp; 3.2.3. **[Posterior distribution](/P/mult-post)** <br>
-   &emsp;&ensp; 3.2.4. **[Log model evidence](/P/mult-lme)** <br>
+   &emsp;&ensp; 3.2.2. **[Maximum likelihood estimation](/P/mult-mle)** <br>
+   &emsp;&ensp; 3.2.3. **[Maximum log-likelihood](/P/mult-mll)** <br>
+   &emsp;&ensp; 3.2.4. **[Conjugate prior distribution](/P/mult-prior)** <br>
+   &emsp;&ensp; 3.2.5. **[Posterior distribution](/P/mult-post)** <br>
+   &emsp;&ensp; 3.2.6. **[Log model evidence](/P/mult-lme)** <br>
+   &emsp;&ensp; 3.2.7. **[Log Bayes factor](/P/mult-lbf)** <br>
+   &emsp;&ensp; 3.2.8. **[Posterior probability](/P/mult-pp)** <br>
 
    3.3. Poisson-distributed data <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/poiss-data)* <br>
