@@ -39,8 +39,6 @@ $$
 
 **Proof:** The [log-likelihood function for binomial data](/P/bin-mle) is given by
 
-With the [probability mass function of the binomial distribution](/P/bin-pmf), equation \eqref{eq:Bin} implies the following [likelihood function](/D/lf):
-
 $$ \label{eq:Bin-LL}
 \mathrm{LL}(p) = \log {n \choose y} + y \log p + (n-y) \log (1-p)
 $$

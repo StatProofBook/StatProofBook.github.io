@@ -54,7 +54,7 @@ $$
 The LME of the alternative $m_1$ is equal to the [log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme):
 
 $$ \label{eq:UGkv-LME-m1}
-\mathrm{LME}(m_1) = \frac{n}{2} \log\left( \frac{\tau}{2 \pi} \right) + \frac{1}{2} \log\left( \frac{\lambda_0}{\lambda_n} \right) - \frac{1}{2} \left( \tau y^\mathrm{T} y + \lambda_0 \mu_0^2 - \lambda_n \mu_n^2 \right) \; .
+\mathrm{LME}(m_1) = \log p(y|m_1) = \frac{n}{2} \log\left( \frac{\tau}{2 \pi} \right) + \frac{1}{2} \log\left( \frac{\lambda_0}{\lambda_n} \right) - \frac{1}{2} \left( \tau y^\mathrm{T} y + \lambda_0 \mu_0^2 - \lambda_n \mu_n^2 \right) \; .
 $$
 
 Because the null model $m_0$ has no free parameter, its [log model evidence](/D/lme) (logarithmized [marginal likelihood](/D/ml)) is equal to the [log-likelihood function for the univariate Gaussian with known variance](/P/ugkv-mle) at the value $\mu = 0$:

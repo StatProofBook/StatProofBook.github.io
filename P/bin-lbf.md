@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2022-11-25 14:40:00
 
-title: "Log model evidence for binomial observations"
+title: "Log Bayes factor for binomial observations"
 chapter: "Statistical Models"
 section: "Count data"
 topic: "Binomial observations"

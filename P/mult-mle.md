@@ -40,7 +40,7 @@ $$ \label{eq:Mult-marg}
 X \sim \mathrm{Mult}(n,p) \quad \Rightarrow \quad X_j \sim \mathrm{Bin}(n, p_j) \quad \text{for all} \quad j = 1, \ldots, k \; .
 $$
 
-Thus, combining \eqref{eq:Mult} with \eqref{eq:Mult}, we have
+Thus, combining \eqref{eq:Mult} with \eqref{eq:Mult-marg}, we have
 
 $$ \label{eq:Mult-Bin}
 y_j \sim \mathrm{Bin}(n,p_j)
