@@ -386,3 +386,11 @@ title: "Proof by Number"
 | P378 | anova2-cochran | [Application of Cochran's theorem to two-way analysis of variance](/P/anova2-cochran) | JoramSoch | 2022-11-16 |
 | P379 | anova2-pss | [Partition of sums of squares in two-way analysis of variance](/P/anova2-pss) | JoramSoch | 2022-11-16 |
 | P380 | anova2-fols | [F-statistics in terms of ordinary least squares estimates in two-way analysis of variance](/P/anova2-fols) | JoramSoch | 2022-11-16 |
+| P381 | bin-mle | [Maximum likelihood estimation for binomial observations](/P/bin-mle) | JoramSoch | 2022-11-23 |
+| P382 | bin-mll | [Maximum log-likelihood for binomial observations](/P/bin-mll) | JoramSoch | 2022-11-24 |
+| P383 | bin-lbf | [Log Bayes factor for binomial observations](/P/bin-lbf) | JoramSoch | 2022-11-25 |
+| P384 | bin-pp | [Posterior probability of the alternative model for binomial observations](/P/bin-pp) | JoramSoch | 2022-11-26 |
+| P385 | mult-mle | [Maximum likelihood estimation for multinomial observations](/P/mult-mle) | JoramSoch | 2022-12-02 |
+| P386 | mult-mll | [Maximum log-likelihood for multinomial observations](/P/mult-mll) | JoramSoch | 2022-12-02 |
+| P387 | mult-lbf | [Log Bayes factor for multinomial observations](/P/mult-lbf) | JoramSoch | 2022-12-02 |
+| P388 | mult-pp | [Posterior probability of the alternative model for multinomial observations](/P/mult-pp) | JoramSoch | 2022-12-02 |
