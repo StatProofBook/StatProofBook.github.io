@@ -52,7 +52,7 @@ $$ \label{eq:pval-cdf-s1}
 F_P(p) &= \mathrm{Pr}(P < p) \\
 &= \mathrm{Pr}(F_T(T) < p) \\
 &= \mathrm{Pr}(T < F_T^{-1}(p)) \\
-&= F_T^{-1}(F_T^{-1}(p)) \\
+&= F_T(F_T^{-1}(p)) \\
 &= p
 \end{split}
 $$
