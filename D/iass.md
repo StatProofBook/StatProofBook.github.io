@@ -35,11 +35,11 @@ $$
 
 Then, the interaction sum of squares is defined as the [explained sum of squares] (ESS) for each interaction, i.e. as the sum of squared deviations of the average for each cell from the average across all observations, controlling for the [treatment sums of squares](/D/trss) of the corresponding factors:
 
-\begin{equation} \label{eq:iass}
+$$ \label{eq:iass}
 \begin{split}
 \mathrm{SS}_\mathrm{A \times B} &= \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} ([\bar{y}_{i j \bullet} - \bar{y}_{\bullet \bullet \bullet}] - [\bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet \bullet \bullet}] - [\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet}])^2 \\
 &= \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet})^2 \; .
 \end{split}
-\end{equation}
+$$
 
-Here, $\bar{y} _{i j \bullet}$ is the mean for the $(i,j)$-th cell (out of $a \times b$ cells), computed from $n_{ij}$ values $y_{ijk}$, $\bar{y} _{i \bullet \bullet}$ and $\bar{y} _{\bullet j \bullet}$ are the level means for the two factors and and $\bar{y} _{\bullet \bullet \bullet}$ is the mean across all values $y_{ijk}$.
+Here, $\bar{y}_{i j \bullet}$ is the mean for the $(i,j)$-th cell (out of $a \times b$ cells), computed from $n_{ij}$ values $y_{ijk}$, $\bar{y}_{i \bullet \bullet}$ and $\bar{y}_{\bullet j \bullet}$ are the level means for the two factors and and $\bar{y}_{\bullet \bullet \bullet}$ is the mean across all values $y_{ijk}$.
