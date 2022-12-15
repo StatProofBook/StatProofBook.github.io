@@ -64,7 +64,7 @@ $$ \label{eq:Mult-LME-m1}
 \end{split}
 $$
 
-Because the null model $m_0$ has no free parameter, its [log model evidence](/D/lme) (logarithmized [marginal likelihood](/D/ml)) is equal to the [log-likelihood function for multinomial observations](/P/mult-mle) at the value $p = [1/k, \ldots, 1/k]$:
+Because the null model $m_0$ has no free parameter, its [log model evidence](/D/lme) (logarithmized [marginal likelihood](/D/ml)) is equal to the [log-likelihood function for multinomial observations](/P/mult-mle) at the value $p_0 = [1/k, \ldots, 1/k]$:
 
 $$ \label{eq:Mult-LME-m0}
 \begin{split}

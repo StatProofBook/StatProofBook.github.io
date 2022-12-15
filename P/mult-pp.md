@@ -39,7 +39,7 @@ $$
 Then, the [posterior probability](/D/pmp) of the [alternative model](/D/h1) is given by
 
 $$ \label{eq:Mult-PP1}
-p(m_1|y) = 
+p(m_1|y) = \frac{1}{1 + k^{-n} \cdot \frac{\Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right)}{\Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right)} \cdot \frac{\prod_{j=1}^k \Gamma(\alpha_{0j})}{\prod_{j=1}^k \Gamma(\alpha_{nj})}}
 $$
 
 where $\Gamma(x)$ is the gamma function and $\alpha_n$ are the [posterior hyperparameters for multinomial observations](/P/mult-post) which are functions of the [numbers of observations](/D/mult) $y_1, \ldots, y_k$.
