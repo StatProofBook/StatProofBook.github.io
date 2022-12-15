@@ -95,6 +95,7 @@ title: "Definition by Topic"
 ### I
 
 - [Informative and non-informative prior distribution](/D/prior-inf)
+- [Interaction sum of squares](/D/iass)
 - [Inverse general linear model](/D/iglm)
 
 ### J
@@ -232,6 +233,7 @@ title: "Definition by Topic"
 - [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
 - [Transformed general linear model](/D/tglm)
+- [Treatment sum of squares](/D/trss)
 - [Two-way analysis of variance](/D/anova2)
 
 ### U
