@@ -565,19 +565,21 @@ title: "Table of Contents"
    
    1.3. Analysis of variance <br>
    &emsp;&ensp; 1.3.1. *[One-way ANOVA](/D/anova1)* <br>
-   &emsp;&ensp; 1.3.2. **[Ordinary least squares for one-way ANOVA](/P/anova1-ols)** <br>
-   &emsp;&ensp; 1.3.3. **[Sums of squares in one-way ANOVA](/P/anova1-pss)** <br>
-   &emsp;&ensp; 1.3.4. **[F-test for main effect in one-way ANOVA](/P/anova1-f)** <br>
-   &emsp;&ensp; 1.3.5. **[F-statistic in terms of OLS estimates](/P/anova1-fols)** <br>
-   &emsp;&ensp; 1.3.6. **[Reparametrization of one-way ANOVA](/P/anova1-repara)** <br>
-   &emsp;&ensp; 1.3.7. *[Two-way ANOVA](/D/anova2)* <br>
-   &emsp;&ensp; 1.3.8. **[Ordinary least squares for two-way ANOVA](/P/anova2-ols)** <br>
-   &emsp;&ensp; 1.3.9. **[Sums of squares in two-way ANOVA](/P/anova2-pss)** <br>
-   &emsp;&ensp; 1.3.10. **[Cochran's theorem for two-way ANOVA](/P/anova2-cochran)** <br>
-   &emsp;&ensp; 1.3.11. **[F-test for main effect in two-way ANOVA](/P/anova2-fme)** <br>
-   &emsp;&ensp; 1.3.12. **[F-test for interaction in two-way ANOVA](/P/anova2-fia)** <br>
-   &emsp;&ensp; 1.3.13. **[F-test for grand mean in two-way ANOVA](/P/anova2-fgm)** <br>
-   &emsp;&ensp; 1.3.14. **[F-statistics in terms of OLS estimates](/P/anova2-fols)** <br>
+   &emsp;&ensp; 1.3.2. *[Treatment sum of squares](/D/trss)* <br>
+   &emsp;&ensp; 1.3.3. **[Ordinary least squares for one-way ANOVA](/P/anova1-ols)** <br>
+   &emsp;&ensp; 1.3.4. **[Sums of squares in one-way ANOVA](/P/anova1-pss)** <br>
+   &emsp;&ensp; 1.3.5. **[F-test for main effect in one-way ANOVA](/P/anova1-f)** <br>
+   &emsp;&ensp; 1.3.6. **[F-statistic in terms of OLS estimates](/P/anova1-fols)** <br>
+   &emsp;&ensp; 1.3.7. **[Reparametrization of one-way ANOVA](/P/anova1-repara)** <br>
+   &emsp;&ensp; 1.3.8. *[Two-way ANOVA](/D/anova2)* <br>
+   &emsp;&ensp; 1.3.9. *[Interaction sum of squares](/D/iass)* <br>
+   &emsp;&ensp; 1.3.10. **[Ordinary least squares for two-way ANOVA](/P/anova2-ols)** <br>
+   &emsp;&ensp; 1.3.11. **[Sums of squares in two-way ANOVA](/P/anova2-pss)** <br>
+   &emsp;&ensp; 1.3.12. **[Cochran's theorem for two-way ANOVA](/P/anova2-cochran)** <br>
+   &emsp;&ensp; 1.3.13. **[F-test for main effect in two-way ANOVA](/P/anova2-fme)** <br>
+   &emsp;&ensp; 1.3.14. **[F-test for interaction in two-way ANOVA](/P/anova2-fia)** <br>
+   &emsp;&ensp; 1.3.15. **[F-test for grand mean in two-way ANOVA](/P/anova2-fgm)** <br>
+   &emsp;&ensp; 1.3.16. **[F-statistics in terms of OLS estimates](/P/anova2-fols)** <br>
    
    1.4. Simple linear regression <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/slr)* <br>
