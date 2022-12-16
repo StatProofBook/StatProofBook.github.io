@@ -480,6 +480,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.9. **[Marginal distributions](/P/mvn-marg)** <br>
    &emsp;&ensp; 4.1.10. **[Conditional distributions](/P/mvn-cond)** <br>
    &emsp;&ensp; 4.1.11. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.12. **[Independence of products](/P/mvn-indprod)** <br>
    
    4.2. Multivariate t-distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
@@ -620,14 +621,21 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.11. *[Residual-forming matrix](/D/rfmat)* <br>
    &emsp;&ensp; 1.5.12. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
    &emsp;&ensp; 1.5.13. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
-   &emsp;&ensp; 1.5.14. **[Weighted least squares](/P/mlr-wls)** (1) <br>
-   &emsp;&ensp; 1.5.15. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
-   &emsp;&ensp; 1.5.16. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
-   &emsp;&ensp; 1.5.17. **[Maximum log-likelihood](/P/mlr-mll)** <br>
-   &emsp;&ensp; 1.5.18. **[Deviance function](/P/mlr-dev)** <br>
-   &emsp;&ensp; 1.5.19. **[Akaike information criterion](/P/mlr-aic)** <br>
-   &emsp;&ensp; 1.5.20. **[Bayesian information criterion](/P/mlr-bic)** <br>
-   &emsp;&ensp; 1.5.21. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
+   &emsp;&ensp; 1.5.14. **[Independence of estimated parameters and residuals](/P/mlr-ind)** <br>
+   &emsp;&ensp; 1.5.15. **[Distribution of estimated parameters, signal and residuals](/P/mlr-wlsdist)** <br>
+   &emsp;&ensp; 1.5.16. **[Distribution of residual sum of squares](/P/mlr-rssdist)** <br>
+   &emsp;&ensp; 1.5.17. **[Weighted least squares](/P/mlr-wls)** (1) <br>
+   &emsp;&ensp; 1.5.18. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
+   &emsp;&ensp; 1.5.19. *[t-contrast](/D/tcon)* <br>
+   &emsp;&ensp; 1.5.20. *[F-contrast](/D/fcon)* <br>
+   &emsp;&ensp; 1.5.21. **[Contrast-based t-test](/P/mlr-t)** <br>
+   &emsp;&ensp; 1.5.22. **[Contrast-based F-test](/P/mlr-f)** <br>
+   &emsp;&ensp; 1.5.23. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   &emsp;&ensp; 1.5.24. **[Maximum log-likelihood](/P/mlr-mll)** <br>
+   &emsp;&ensp; 1.5.25. **[Deviance function](/P/mlr-dev)** <br>
+   &emsp;&ensp; 1.5.26. **[Akaike information criterion](/P/mlr-aic)** <br>
+   &emsp;&ensp; 1.5.27. **[Bayesian information criterion](/P/mlr-bic)** <br>
+   &emsp;&ensp; 1.5.28. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
    1.6. Bayesian linear regression <br>
    &emsp;&ensp; 1.6.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
