@@ -171,7 +171,7 @@ F &\overset{\eqref{eq:mlr-f-s1}}{=} \left( \hat{\gamma} -  C^\mathrm{T} \hat{\be
 &\overset{\eqref{eq:mlr-f-h0}}{=} \hat{\gamma}^\mathrm{T} \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) \hat{\gamma} / q \\
 &\overset{\eqref{eq:fcon}}{=} \hat{\beta}^\mathrm{T} C \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) C^\mathrm{T} \hat{\beta} / q \\
 &\overset{\eqref{eq:g-est-tau-dist-cond}}{=} \hat{\beta}^\mathrm{T} C \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} \left( C^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} C \right)^{-1} \right) C^\mathrm{T} \hat{\beta} / q \\
-&\overset{\eqref{eq:g-est-tau-dist-cond}}{=} \hat{\beta}^\mathrm{T} C \left( \frac{n-p}{(y-X\hat{\beta})^\mathrm{T} V^{-1} (y-X\hat{\beta})} \left( C^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} C \right)^{-1} \right) C^\mathrm{T} \hat{\beta} / q \\
+&\overset{\eqref{eq:mlr-rss}}{=} \hat{\beta}^\mathrm{T} C \left( \frac{n-p}{(y-X\hat{\beta})^\mathrm{T} V^{-1} (y-X\hat{\beta})} \left( C^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} C \right)^{-1} \right) C^\mathrm{T} \hat{\beta} / q \\
 &\overset{\eqref{eq:mlr-est}}{=} \hat{\beta}^\mathrm{T} C \left( \frac{1}{\hat{\sigma}^2} \left( C^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} C \right)^{-1} \right) C^\mathrm{T} \hat{\beta} / q \\
 &= \hat{\beta}^\mathrm{T} C \left( \hat{\sigma}^2 C^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} C \right)^{-1} C^\mathrm{T} \hat{\beta} / q \; .
 \end{split}

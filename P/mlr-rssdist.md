@@ -46,7 +46,7 @@ $$ \label{eq:mlr}
 y = X\beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \sigma^2 V)
 $$
 
-and consider estimation using [weighted least squares](/P/mlr-wls). Then, the [residual sum of squares](/D/rss) $\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}$, divided by the true [error variance](/D/mlr) $\sigma^2$, follows a [chi-squared distribution] with $n-p$ [degrees of freedom](/D/dof)
+and consider estimation using [weighted least squares](/P/mlr-wls). Then, the [residual sum of squares](/D/rss) $\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}$, divided by the true [error variance](/D/mlr) $\sigma^2$, follows a [chi-squared distribution](/D/chi2) with $n-p$ [degrees of freedom](/D/dof)
 
 $$ \label{eq:mlr-rss-dist}
 \frac{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}}{\sigma^2} \sim \chi^2(n-p)
@@ -79,7 +79,7 @@ $$ \label{eq:y-tilde-dist}
 \tilde{y} \sim \mathcal{N}(\tilde{X} \beta, \sigma^2 I_n) \; .
 $$
 
-With that, we have obtained a [linear regression model](/D/mlr) with independent observations. [Cochran's theorem for multivariate normal variables](/P/mvn-cochran) states that, for an $n \times 1$ [normal random vector] whose [covariance matrix](/D/covmat) is a scalar multiple of the identity matrix, a specific squared form will follow a [non-central chi-squared distribution](/D/ncchi2) where the degrees of freedom and the non-centrality paramter depend on the matrix in the quadratic form:
+With that, we have obtained a [linear regression model](/D/mlr) with independent observations. [Cochran's theorem for multivariate normal variables](/P/mvn-cochran) states that, for an $n \times 1$ [normal random vector](/D/mvn) whose [covariance matrix](/D/covmat) is a scalar multiple of the identity matrix, a specific squared form will follow a [non-central chi-squared distribution](/D/ncchi2) where the degrees of freedom and the non-centrality paramter depend on the matrix in the quadratic form:
 
 $$ \label{eq:mvn-cochran}
 x \sim \mathcal{N}(\mu, \sigma^2 I_n) \quad \Rightarrow \quad y = x^\mathrm{T} A x /\sigma^2 \sim \chi^2\left( \mathrm{tr}(A), \mu^\mathrm{T} A \mu \right) \; .

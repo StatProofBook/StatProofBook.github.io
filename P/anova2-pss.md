@@ -54,7 +54,7 @@ $$ \label{eq:anova2-tss}
 \mathrm{SS}_\mathrm{tot} = \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{\bullet \bullet \bullet})^2
 $$
 
-where $\bar{y}_{\bullet \bullet \bullet}$ is the mean across all values $y_{ijk}$. This can be rewritten as
+where $\bar{y} _{\bullet \bullet \bullet}$ is the mean across all values $y_{ijk}$. This can be rewritten as
 
 $$ \label{eq:anova2-pss-s1}
 \begin{split}
