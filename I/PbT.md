@@ -91,9 +91,11 @@ title: "Proof by Topic"
 - [Differential entropy of the normal distribution](/P/norm-dent)
 - [Differential entropy of the normal-gamma distribution](/P/ng-dent)
 - [Distribution of parameter estimates for simple linear regression](/P/slr-olsdist)
+- [Distribution of residual sum of squares in multiple linear regression with weighted least squares](/P/mlr-rssdist)
 - [Distribution of the inverse general linear model](/P/iglm-dist)
 - [Distribution of the transformed general linear model](/P/tglm-dist)
 - [Distributional transformation using cumulative distribution function](/P/cdf-dt)
+- [Distributions of estimated parameters, fitted signal and residuals in multiple linear regression upon weighted least squares](/P/mlr-wlsdist)
 
 ### E
 
@@ -127,6 +129,7 @@ title: "Proof by Topic"
 - [F-test for interaction in two-way analysis of variance](/P/anova2-fia)
 - [F-test for main effect in one-way analysis of variance](/P/anova1-f)
 - [F-test for main effect in two-way analysis of variance](/P/anova2-fme)
+- [F-test for multiple linear regression using contrast-based inference](/P/mlr-f)
 - [First central moment is zero](/P/momcent-1st)
 - [First raw moment is mean](/P/momraw-1st)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
@@ -139,6 +142,8 @@ title: "Proof by Topic"
 
 ### I
 
+- [Independence of estimated parameters and residuals in multiple linear regression](/P/mlr-ind)
+- [Independence of products of multivariate normal random vector](/P/mvn-indprod)
 - [Inflection points of the probability density function of the normal distribution](/P/norm-infl)
 - [Invariance of the covariance matrix under addition of constant vector](/P/covmat-inv)
 - [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
@@ -419,6 +424,7 @@ title: "Proof by Topic"
 ### T
 
 - [t-distribution is a special case of multivariate t-distribution](/P/t-mvt)
+- [t-test for multiple linear regression using contrast-based inference](/P/mlr-t)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)

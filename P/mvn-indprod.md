@@ -49,7 +49,7 @@ $$
 Then, due to the [linear transformation theorem](/P/mvn-ltt), we have
 
 $$ \label{eq:CX}
-CZ = \left[ \begin{array}{c} AX \\ BX \end{array} \right] \sim \mathcal{N}\left( \left[ \begin{array}{c} A\mu \\ B\mu \end{array} \right], C \Sigma C^\mathrm{T} \right)
+CX = \left[ \begin{array}{c} AX \\ BX \end{array} \right] \sim \mathcal{N}\left( \left[ \begin{array}{c} A\mu \\ B\mu \end{array} \right], C \Sigma C^\mathrm{T} \right)
 $$
 
 with the combined [covariance matrix](/D/covmat)
