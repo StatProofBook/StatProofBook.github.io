@@ -189,3 +189,5 @@ title: "Definition by Number"
 | D180 | fe | [Family evidence](/D/fe) | JoramSoch | 2022-10-20 |
 | D181 | anova1 | [One-way analysis of variance](/D/anova1) | JoramSoch | 2022-11-06 |
 | D182 | anova2 | [Two-way analysis of variance](/D/anova2) | JoramSoch | 2022-11-06 |
+| D183 | trss | [Treatment sum of squares](/D/trss) | JoramSoch | 2022-12-14 |
+| D184 | iass | [Interaction sum of squares](/D/iass) | JoramSoch | 2022-12-14 |

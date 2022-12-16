@@ -39,4 +39,4 @@ $$ \label{eq:trss}
 \mathrm{SS}_\mathrm{treat} = \sum_{i=1}^{k} \sum_{j=1}^{n_i} (\bar{y}_i - \bar{y})^2 \; .
 $$
 
-Here, $\bar{y}_i$ is the mean for the $i$-th level of the factor (out of $k$ levels), computed from $n_i$ values $y_{ij}$, and $\bar{y}$ is the mean across all values $y_{ij}$.
+Here, $\bar{y} _i$ is the mean for the $i$-th level of the factor (out of $k$ levels), computed from $n_i$ values $y_{ij}$, and $\bar{y}$ is the mean across all values $y_{ij}$.

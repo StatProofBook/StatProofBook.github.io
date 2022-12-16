@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2022-12-15 22:55:00
+date: 2022-11-10 21:31:00
 
 title: "F-test for main effect in two-way analysis of variance"
 chapter: "Statistical Models"

@@ -8,7 +8,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (176 definitions)
+### JoramSoch (178 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -74,6 +74,7 @@ title: "Definition by Author"
 - [General linear model](/D/glm)
 - [Generative model](/D/gm)
 - [Informative and non-informative prior distribution](/D/prior-inf)
+- [Interaction sum of squares](/D/iass)
 - [Inverse general linear model](/D/iglm)
 - [Joint cumulative distribution function](/D/cdf-joint)
 - [Joint differential entropy](/D/dent-joint)
@@ -176,6 +177,7 @@ title: "Definition by Author"
 - [Test statistic](/D/tstat)
 - [Total sum of squares](/D/tss)
 - [Transformed general linear model](/D/tglm)
+- [Treatment sum of squares](/D/trss)
 - [Two-way analysis of variance](/D/anova2)
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
