@@ -368,6 +368,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.6. **[Mean](/P/cuni-mean)** <br>
    &emsp;&ensp; 3.1.7. **[Median](/P/cuni-med)** <br>
    &emsp;&ensp; 3.1.8. **[Mode](/P/cuni-mode)** <br>
+   &emsp;&ensp; 3.1.9. **[Variance](/P/cuni-var)** <br>
+   &emsp;&ensp; 3.1.10. **[Differential entropy](/P/cuni-dent)** <br>
 
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
@@ -470,17 +472,18 @@ title: "Table of Contents"
 
    4.1. Multivariate normal distribution <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn)* <br>
-   &emsp;&ensp; 4.1.2. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
-   &emsp;&ensp; 4.1.3. **[Probability density function](/P/mvn-pdf)** <br>
-   &emsp;&ensp; 4.1.4. **[Mean](/P/mvn-mean)** <br>
-   &emsp;&ensp; 4.1.5. **[Covariance](/P/mvn-cov)** <br>
-   &emsp;&ensp; 4.1.6. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.7. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.8. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.9. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.10. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.11. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.12. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.2. **[Relationship to chi-squared distribution](/P/mvn-chi2)** <br>
+   &emsp;&ensp; 4.1.3. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
+   &emsp;&ensp; 4.1.4. **[Probability density function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.5. **[Mean](/P/mvn-mean)** <br>
+   &emsp;&ensp; 4.1.6. **[Covariance](/P/mvn-cov)** <br>
+   &emsp;&ensp; 4.1.7. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.8. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.9. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.10. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.11. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.12. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.13. **[Independence of products](/P/mvn-indprod)** <br>
    
    4.2. Multivariate t-distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
@@ -620,22 +623,24 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.10. *[Projection matrix](/D/pmat)* <br>
    &emsp;&ensp; 1.5.11. *[Residual-forming matrix](/D/rfmat)* <br>
    &emsp;&ensp; 1.5.12. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
-   &emsp;&ensp; 1.5.13. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
-   &emsp;&ensp; 1.5.14. **[Independence of estimated parameters and residuals](/P/mlr-ind)** <br>
-   &emsp;&ensp; 1.5.15. **[Distribution of estimated parameters, signal and residuals](/P/mlr-wlsdist)** <br>
-   &emsp;&ensp; 1.5.16. **[Distribution of residual sum of squares](/P/mlr-rssdist)** <br>
-   &emsp;&ensp; 1.5.17. **[Weighted least squares](/P/mlr-wls)** (1) <br>
-   &emsp;&ensp; 1.5.18. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
-   &emsp;&ensp; 1.5.19. *[t-contrast](/D/tcon)* <br>
-   &emsp;&ensp; 1.5.20. *[F-contrast](/D/fcon)* <br>
-   &emsp;&ensp; 1.5.21. **[Contrast-based t-test](/P/mlr-t)** <br>
-   &emsp;&ensp; 1.5.22. **[Contrast-based F-test](/P/mlr-f)** <br>
-   &emsp;&ensp; 1.5.23. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
-   &emsp;&ensp; 1.5.24. **[Maximum log-likelihood](/P/mlr-mll)** <br>
-   &emsp;&ensp; 1.5.25. **[Deviance function](/P/mlr-dev)** <br>
-   &emsp;&ensp; 1.5.26. **[Akaike information criterion](/P/mlr-aic)** <br>
-   &emsp;&ensp; 1.5.27. **[Bayesian information criterion](/P/mlr-bic)** <br>
-   &emsp;&ensp; 1.5.28. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
+   &emsp;&ensp; 1.5.13. **[Symmetry of projection and residual-forming matrix](/P/mlr-symm)** <br>
+   &emsp;&ensp; 1.5.14. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
+   &emsp;&ensp; 1.5.15. **[Independence of estimated parameters and residuals](/P/mlr-ind)** <br>
+   &emsp;&ensp; 1.5.16. **[Distribution of OLS estimates, signal and residuals](/P/mlr-olsdist)** <br>
+   &emsp;&ensp; 1.5.17. **[Distribution of WLS estimates, signal and residuals](/P/mlr-wlsdist)** <br>
+   &emsp;&ensp; 1.5.18. **[Distribution of residual sum of squares](/P/mlr-rssdist)** <br>
+   &emsp;&ensp; 1.5.19. **[Weighted least squares](/P/mlr-wls)** (1) <br>
+   &emsp;&ensp; 1.5.20. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
+   &emsp;&ensp; 1.5.21. *[t-contrast](/D/tcon)* <br>
+   &emsp;&ensp; 1.5.22. *[F-contrast](/D/fcon)* <br>
+   &emsp;&ensp; 1.5.23. **[Contrast-based t-test](/P/mlr-t)** <br>
+   &emsp;&ensp; 1.5.24. **[Contrast-based F-test](/P/mlr-f)** <br>
+   &emsp;&ensp; 1.5.25. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   &emsp;&ensp; 1.5.26. **[Maximum log-likelihood](/P/mlr-mll)** <br>
+   &emsp;&ensp; 1.5.27. **[Deviance function](/P/mlr-dev)** <br>
+   &emsp;&ensp; 1.5.28. **[Akaike information criterion](/P/mlr-aic)** <br>
+   &emsp;&ensp; 1.5.29. **[Bayesian information criterion](/P/mlr-bic)** <br>
+   &emsp;&ensp; 1.5.30. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
    1.6. Bayesian linear regression <br>
    &emsp;&ensp; 1.6.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
@@ -738,8 +743,9 @@ title: "Table of Contents"
 
    1.1. Residual variance <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/resvar)* <br>
-   &emsp;&ensp; 1.1.2. **[Maximum likelihood estimator is biased](/P/resvar-bias)** <br>
-   &emsp;&ensp; 1.1.3. **[Construction of unbiased estimator](/P/resvar-unb)** <br>
+   &emsp;&ensp; 1.1.2. **[Maximum likelihood estimator is biased (p = 1)](/P/resvar-bias)** <br>
+   &emsp;&ensp; 1.1.3. **[Maximum likelihood estimator is biased (p > 1)](/P/resvar-biasp)** <br>
+   &emsp;&ensp; 1.1.4. **[Construction of unbiased estimator](/P/resvar-unb)** <br>
    
    1.2. R-squared <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/rsq)* <br>
