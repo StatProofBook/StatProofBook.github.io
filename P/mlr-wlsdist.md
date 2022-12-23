@@ -11,7 +11,7 @@ title: "Distributions of estimated parameters, fitted signal and residuals in mu
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Multiple linear regression"
-theorem: "Distribution of estimated parameters, signal and residuals"
+theorem: "Distribution of WLS estimates, signal and residuals"
 
 sources:
   - authors: "Koch, Karl-Rudolf"
@@ -116,7 +116,7 @@ $$
 3) The [residuals of the linear regression model](/P/mlr-mat) are given by
 
 $$ \label{eq:e-est}
-\hat{\varepsilon} = y - X \hat{\beta} = \left( I_n - X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} \right) y = \left( I_n - P \right) y
+\hat{\varepsilon} = y - X \hat{\beta} = \left( I_n - X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} \right) y = \left( I_n - P \right) y
 $$
 
 and thus, by applying \eqref{eq:mvn-ltt} to \eqref{eq:e-est}, they are distributed as
@@ -126,9 +126,9 @@ $$ \label{eq:e-est-dist}
 \hat{\varepsilon} &\sim \mathcal{N}\left( \left[ I_n - X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} \right] X \beta, \, \sigma^2 \left[ I_n - P \right] V \left[ I_n - P \right]^\mathrm{T} \right) \\
 &\sim \mathcal{N}\left( X \beta - X \beta, \, \sigma^2 \left[ V - V P^\mathrm{T} - P V + P V P^\mathrm{T} \right] \right) \\
 &\sim \mathcal{N}\left( 0, \, \sigma^2 \left[ V - V V^{-1} X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} - X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} V + P V P^\mathrm{T} \right] \right) \\
-&\sim \mathcal{N}\left( 0, \, \sigma^2 \left[ V - 2 P + X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} V V^{-1} X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} \right] \right) \\
-&\sim \mathcal{N}\left( 0, \, \sigma^2 \left[ V - 2 P + P \right] \right) \\
-&\sim \mathcal{N}\left( 0, \, \sigma^2 \left[ V - X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} \right] \right) \\
+&\sim \mathcal{N}\left( 0, \, \sigma^2 \left[ V - 2 P V + X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} V V^{-1} X (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} \right] \right) \\
+&\sim \mathcal{N}\left( 0, \, \sigma^2 \left[ V - 2 P V + P V \right] \right) \\
+&\sim \mathcal{N}\left( 0, \, \sigma^2 \left[ V - P V \right] \right) \\
 &\sim \mathcal{N}\left( 0, \, \sigma^2 \left[ I_n - P \right] V \right) \; .
 \end{split}
 $$

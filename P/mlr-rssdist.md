@@ -85,7 +85,7 @@ $$ \label{eq:mvn-cochran}
 x \sim \mathcal{N}(\mu, \sigma^2 I_n) \quad \Rightarrow \quad y = x^\mathrm{T} A x /\sigma^2 \sim \chi^2\left( \mathrm{tr}(A), \mu^\mathrm{T} A \mu \right) \; .
 $$
 
-First, we formulate the residuals in terms of transformed measurements $\tilde{y}$:
+First, we [formulate the residuals](/P/mlr-mat) in terms of transformed measurements $\tilde{y}$:
 
 $$ \label{eq:rss-y-s1}
 \begin{array}{rlcl}

@@ -53,7 +53,7 @@ F_X(x) = \left\{
 \right.
 $$
 
-The quantile function $Q_X(p)$ [is defined as](/D/qf) the smallest $x$, such that $F_X(x) = p$:
+The [quantile function](/D/qf) $Q_X(p)$ is defined as the smallest $x$, such that $F_X(x) = p$:
 
 $$ \label{eq:qf}
 Q_X(p) = \min \left\lbrace x \in \mathbb{R} \, \vert \, F_X(x) = p \right\rbrace \; .

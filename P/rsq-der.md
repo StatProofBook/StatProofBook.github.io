@@ -59,7 +59,7 @@ $$
 where $X$ is the $n \times p$ design matrix and $\hat{\beta}$ are the [ordinary least squares](/P/mlr-ols) estimates.
 
 
-**Proof:** The coefficient of determination $R^2$ [is defined as](/D/rsq) the proportion of the variance explained by the independent variables, relative to the total variance in the data.
+**Proof:** The [coefficient of determination](/D/rsq) $R^2$ is defined as the proportion of the variance explained by the independent variables, relative to the total variance in the data.
 
 <br>
 1) If we define the [explained sum of squares](/D/ess) as

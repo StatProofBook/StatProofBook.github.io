@@ -121,7 +121,7 @@ $$ \label{eq:mlr-rss-dist}
 \frac{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}}{\sigma^2} = \tau \, \hat{\varepsilon}^\mathrm{T} \hat{\varepsilon} \sim \chi^2(n-p) \; .
 $$
 
-The [chi-squared distribution is related to the gamma distribution](/P/gam-chi2) in the following way:
+The [chi-squared distribution is related to the gamma distribution](/P/chi2-gam) in the following way:
 
 $$ \label{eq:gam-chi2}
 X \sim \chi^2(k) \quad \Rightarrow \quad cX \sim \mathrm{Gam}\left( \frac{k}{2}, \frac{1}{2c} \right) \; .
