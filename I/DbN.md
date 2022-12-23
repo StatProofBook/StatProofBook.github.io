@@ -191,3 +191,5 @@ title: "Definition by Number"
 | D182 | anova2 | [Two-way analysis of variance](/D/anova2) | JoramSoch | 2022-11-06 |
 | D183 | trss | [Treatment sum of squares](/D/trss) | JoramSoch | 2022-12-14 |
 | D184 | iass | [Interaction sum of squares](/D/iass) | JoramSoch | 2022-12-14 |
+| D185 | tcon | [t-contrast for contrast-based inference in multiple linear regression](/D/tcon) | JoramSoch | 2022-12-16 |
+| D186 | fcon | [F-contrast for contrast-based inference in multiple linear regression](/D/fcon) | JoramSoch | 2022-12-16 |

@@ -42,4 +42,4 @@ $$ \label{eq:iass}
 \end{split}
 $$
 
-Here, $\bar{y}_{i j \bullet}$ is the mean for the $(i,j)$-th cell (out of $a \times b$ cells), computed from $n_{ij}$ values $y_{ijk}$, $\bar{y}_{i \bullet \bullet}$ and $\bar{y}_{\bullet j \bullet}$ are the level means for the two factors and and $\bar{y}_{\bullet \bullet \bullet}$ is the mean across all values $y_{ijk}$.
+Here, $\bar{y} _{i j \bullet}$ is the mean for the $(i,j)$-th cell (out of $a \times b$ cells), computed from $n_{ij}$ values $y_{ijk}$, $\bar{y} _{i \bullet \bullet}$ and $\bar{y} _{\bullet j \bullet}$ are the level means for the two factors and and $\bar{y} _{\bullet \bullet \bullet}$ is the mean across all values $y_{ijk}$.

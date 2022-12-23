@@ -394,3 +394,9 @@ title: "Proof by Number"
 | P386 | mult-mll | [Maximum log-likelihood for multinomial observations](/P/mult-mll) | JoramSoch | 2022-12-02 |
 | P387 | mult-lbf | [Log Bayes factor for multinomial observations](/P/mult-lbf) | JoramSoch | 2022-12-02 |
 | P388 | mult-pp | [Posterior probability of the alternative model for multinomial observations](/P/mult-pp) | JoramSoch | 2022-12-02 |
+| P389 | mlr-wlsdist | [Distributions of estimated parameters, fitted signal and residuals in multiple linear regression upon weighted least squares](/P/mlr-wlsdist) | JoramSoch | 2022-12-13 |
+| P390 | mlr-rssdist | [Distribution of residual sum of squares in multiple linear regression with weighted least squares](/P/mlr-rssdist) | JoramSoch | 2022-12-13 |
+| P391 | mlr-t | [t-test for multiple linear regression using contrast-based inference](/P/mlr-t) | JoramSoch | 2022-12-13 |
+| P392 | mlr-f | [F-test for multiple linear regression using contrast-based inference](/P/mlr-f) | JoramSoch | 2022-12-13 |
+| P393 | mlr-ind | [Independence of estimated parameters and residuals in multiple linear regression](/P/mlr-ind) | JoramSoch | 2022-12-13 |
+| P394 | mvn-indprod | [Independence of products of multivariate normal random vector](/P/mvn-indprod) | JoramSoch | 2022-12-13 |

@@ -48,8 +48,8 @@ $$
 
 Then, due to the [linear transformation theorem](/P/mvn-ltt), we have
 
-$$ \label{eq:CZ}
-CZ = \left[ \begin{array}{c} AZ \\ BZ \end{array} \right] \sim \mathcal{N}\left( \left[ \begin{array}{c} A\mu \\ B\mu \end{array} \right], C \Sigma C^\mathrm{T} \right)
+$$ \label{eq:CX}
+CX = \left[ \begin{array}{c} AX \\ BX \end{array} \right] \sim \mathcal{N}\left( \left[ \begin{array}{c} A\mu \\ B\mu \end{array} \right], C \Sigma C^\mathrm{T} \right)
 $$
 
 with the combined [covariance matrix](/D/covmat)
@@ -58,7 +58,7 @@ $$ \label{eq:CSC}
 C \Sigma C^\mathrm{T} = \left[ \begin{array}{cc} A \Sigma A^\mathrm{T} & A \Sigma B^\mathrm{T} \\ B \Sigma A^\mathrm{T} & B \Sigma B^\mathrm{T} \end{array} \right] \; .
 $$
 
-We know that [the necessary and sufficient condition for two components of a multivariate normal random vector to be independent is that their entries in the covariance matrix are zero](/P/mvn-ind). Thus, $AZ$ and $BZ$ are [independent](/D/ind), if and only if
+We know that [the necessary and sufficient condition for two components of a multivariate normal random vector to be independent is that their entries in the covariance matrix are zero](/P/mvn-ind). Thus, $AX$ and $BX$ are [independent](/D/ind), if and only if
 
 $$ \label{eq:mvn-indprod-qed}
 A \Sigma B^\mathrm{T} = (B \Sigma A^\mathrm{T})^\mathrm{T} = 0_{kl}
