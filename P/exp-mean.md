@@ -56,7 +56,7 @@ $$ \label{eq:exp-mean-s1}
 \end{split}
 $$
 
-Using the following anti-deriative
+Using the following anti-derivative
 
 $$ \label{eq:exp-mean-s2}
 \int x \cdot \exp(-\lambda x) \, \mathrm{d}x = \left( - \frac{1}{\lambda} x - \frac{1}{\lambda^2} \right) \exp(-\lambda x) \; ,
