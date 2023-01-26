@@ -27,7 +27,7 @@ sources:
     pages: "retrieved on 2023-01-23"
     url: "https://en.wikipedia.org/wiki/Variance#Definition"
 
-proof_id: ""
+proof_id: "P401"
 shortcut: "exp-var"
 username: "majapavlo"
 ---

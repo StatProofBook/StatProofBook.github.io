@@ -401,8 +401,9 @@ title: "Proof by Number"
 | P393 | mlr-ind | [Independence of estimated parameters and residuals in multiple linear regression](/P/mlr-ind) | JoramSoch | 2022-12-13 |
 | P394 | mvn-indprod | [Independence of products of multivariate normal random vector](/P/mvn-indprod) | JoramSoch | 2022-12-13 |
 | P395 | mvn-chi2 | [Relationship between multivariate normal distribution and chi-squared distribution](/P/mvn-chi2) | JoramSoch | 2022-12-20 |
-| P396 | cuni-var | [Variance of the continuous uniform distribution](/P/cuni-var) | JoramSoch | 2021-12-20 |
-| P397 | cuni-dent | [Differential entropy of the continuous uniform distribution](/P/cuni-dent) | JoramSoch | 2021-12-20 |
+| P396 | cuni-var | [Variance of the continuous uniform distribution](/P/cuni-var) | JoramSoch | 2022-12-20 |
+| P397 | cuni-dent | [Differential entropy of the continuous uniform distribution](/P/cuni-dent) | JoramSoch | 2022-12-20 |
 | P398 | resvar-biasp | [Maximum likelihood estimator of variance in multiple linear regression is biased](/P/resvar-biasp) | JoramSoch | 2022-12-21 |
 | P399 | mlr-symm | [Projection matrix and residual-forming matrix are symmetric](/P/mlr-symm) | JoramSoch | 2022-12-22 |
 | P400 | mlr-olsdist | [Distributions of estimated parameters, fitted signal and residuals in multiple linear regression upon ordinary least squares](/P/mlr-olsdist) | JoramSoch | 2022-12-23 |
+| P401 | exp-var | [Variance of the exponential distribution](/P/exp-var) | majapavlo | 2023-01-23 |
