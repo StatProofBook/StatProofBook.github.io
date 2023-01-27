@@ -431,7 +431,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.5.6. **[Mean](/P/exp-mean)** <br>
    &emsp;&ensp; 3.5.7. **[Median](/P/exp-med)** <br>
    &emsp;&ensp; 3.5.8. **[Mode](/P/exp-mode)** <br>
-   
+   &emsp;&ensp; 3.5.9. **[Variance](/P/exp-var)** <br>
+
    3.6. Log-normal distribution <br>
    &emsp;&ensp; 3.6.1. *[Definition](/D/lognorm)* <br>
    &emsp;&ensp; 3.6.2. **[Probability density function](/P/lognorm-pdf)** <br>
@@ -441,7 +442,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.6.6. **[Median](/P/lognorm-med)** <br>
    &emsp;&ensp; 3.6.7. **[Mode](/P/lognorm-mode)** <br>
    &emsp;&ensp; 3.6.8. **[Variance](/P/lognorm-var)** <br>
-   
+
    3.7. Chi-squared distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/chi2)* <br>
    &emsp;&ensp; 3.7.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
