@@ -210,8 +210,8 @@ title: "Proof by Topic"
 - [Maximum likelihood estimation for multinomial observations](/P/mult-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
-- [Maximum likelihood estimation for simple linear regression](/P/slr-mle2)
 - [Maximum likelihood estimation for simple linear regression](/P/slr-mle)
+- [Maximum likelihood estimation for simple linear regression](/P/slr-mle2)
 - [Maximum likelihood estimation for the general linear model](/P/glm-mle)
 - [Maximum likelihood estimation for the Poisson distribution with exposure values](/P/poissexp-mle)
 - [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle)
@@ -265,8 +265,8 @@ title: "Proof by Topic"
 - [Non-invariance of the differential entropy under change of variables](/P/dent-noninv)
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Non-negativity of the expected value](/P/mean-nonneg)
-- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
+- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
@@ -281,8 +281,8 @@ title: "Proof by Topic"
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
 - [Ordinary least squares for one-way analysis of variance](/P/anova1-ols)
-- [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for simple linear regression](/P/slr-ols)
+- [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
 - [Ordinary least squares for two-way analysis of variance](/P/anova2-ols)
 
@@ -462,8 +462,8 @@ title: "Proof by Topic"
 
 ### W
 
-- [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
-- [Weighted least squares for simple linear regression](/P/slr-wls2)
+- [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for simple linear regression](/P/slr-wls)
+- [Weighted least squares for simple linear regression](/P/slr-wls2)
 - [Weighted least squares for the general linear model](/P/glm-wls)
