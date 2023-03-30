@@ -53,7 +53,7 @@ $$ \label{eq:y-mgf-s1}
 M_y(t) &\overset{\eqref{eq:mvn-lt}}{=} \mathbb{E} \left( \exp \left[ t^\mathrm{T} (Ax + b) \right] \right) \\
 &= \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \cdot \exp \left[ t^\mathrm{T} b \right] \right) \\
 &= \exp \left[ t^\mathrm{T} b \right] \cdot \mathbb{E} \left( \exp \left[ t^\mathrm{T} A x \right] \right) \\
-&\overset{\eqref{eq:vect-mgf}}{=} \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \; .
+&\overset{\eqref{eq:vect-mgf}}{=} \exp \left[ t^\mathrm{T} b \right] \cdot M_x(A^\mathrm{T} t) \; .
 \end{split}
 $$
 
@@ -67,7 +67,7 @@ and therefore the moment-generating function of the random vector $y$ becomes
 
 $$ \label{eq:y-mgf-s2}
 \begin{split}
-M_y(t) &\overset{\eqref{eq:y-mgf-s1}}{=} \exp \left[ t^\mathrm{T} b \right] \cdot M_x(At) \\
+M_y(t) &\overset{\eqref{eq:y-mgf-s1}}{=} \exp \left[ t^\mathrm{T} b \right] \cdot M_x(A^\mathrm{T} t) \\
 &\overset{\eqref{eq:mvn-mgf}}{=} \exp \left[ t^\mathrm{T} b \right] \cdot \exp \left[ t^\mathrm{T} A \mu + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \\
 &= \exp \left[ t^\mathrm{T} \left( A \mu + b \right) + \frac{1}{2} t^\mathrm{T} A \Sigma A^\mathrm{T} t \right] \; .
 \end{split}
