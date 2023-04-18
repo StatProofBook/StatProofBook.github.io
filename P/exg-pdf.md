@@ -34,7 +34,7 @@ f_X(t) = \frac{\lambda}{\sqrt{2\pi}} \exp\left[\frac{\lambda^2\sigma^2}{2} - \la
 $$
 
 
-**Proof:** Suppose $X$ follows an [ex-Gaussian distribution](/D/exg). Then $X=A+B$, where $A$ and $B$ are [independent](/D/ind), $A$ is [normally distributed](/D/norm) with [mean](/P/norm-mean) $\mu$ and [variance](/P/norm-var) $\sigma$, and $B$ is [exponentially distributed](/D/exp) with rate $\lambda$. Then the [probability density function](/P/norm-pdf) for $A$ is given by
+**Proof:** Suppose $X$ follows an [ex-Gaussian distribution](/D/exg). Then $X=A+B$, where $A$ and $B$ are [independent](/D/ind), $A$ is [normally distributed](/D/norm) with [mean](/P/norm-mean) $\mu$ and [variance](/P/norm-var) $\sigma^2$, and $B$ is [exponentially distributed](/D/exp) with rate $\lambda$. Then the [probability density function](/P/norm-pdf) for $A$ is given by
 
 $$ \label{eq:norm-pdf}
 f_A(t) = \frac{1}{\sigma\sqrt{2\pi}}\exp\left[-\frac{1}{2}\left(\frac{t-\mu}{\sigma}\right)^2\right] \; ,
@@ -109,17 +109,3 @@ f_X(t) &= \frac{\lambda\exp[-\lambda t]}{\sigma\sqrt{2\pi}}\int_{-\infty}^{g(t)}
 $$
 
 This finishes the proof of \eqref{eq:exg-pdf}.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
