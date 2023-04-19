@@ -407,3 +407,4 @@ title: "Proof by Number"
 | P399 | mlr-symm | [Projection matrix and residual-forming matrix are symmetric](/P/mlr-symm) | JoramSoch | 2022-12-22 |
 | P400 | mlr-olsdist | [Distributions of estimated parameters, fitted signal and residuals in multiple linear regression upon ordinary least squares](/P/mlr-olsdist) | JoramSoch | 2022-12-23 |
 | P401 | exp-var | [Variance of the exponential distribution](/P/exp-var) | majapavlo | 2023-01-23 |
+| P402 | exg-pdf | [Probability density function of the ex-Gaussian distribution](/P/exg-pdf) | tomfaulkenberry | 2023-04-18 |

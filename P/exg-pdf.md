@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: Tarleton State University
 e_mail: faulkenberry@tarleton.edu
-date: "2023-04-18 12:00:00"
+date: 2023-04-18 12:00:00
 
 title: "Probability density function of the ex-Gaussian distribution"
 chapter: Probability Distributions
@@ -34,7 +34,7 @@ f_X(t) = \frac{\lambda}{\sqrt{2\pi}} \exp\left[\frac{\lambda^2\sigma^2}{2} - \la
 $$
 
 
-**Proof:** Suppose $X$ follows an [ex-Gaussian distribution](/D/exg). Then $X=A+B$, where $A$ and $B$ are [independent](/D/ind), $A$ is [normally distributed](/D/norm) with [mean](/P/norm-mean) $\mu$ and [variance](/P/norm-var) $\sigma^2$, and $B$ is [exponentially distributed](/D/exp) with rate $\lambda$. Then the [probability density function](/P/norm-pdf) for $A$ is given by
+**Proof:** Suppose $X$ follows an [ex-Gaussian distribution](/D/exg). Then $X=A+B$, where $A$ and $B$ are [independent](/D/ind), $A$ is [normally distributed](/D/norm) with [mean](/P/norm-mean) $\mu$ and [variance](/P/norm-var) $\sigma^2$, and $B$ is [exponentially distributed](/D/exp) with rate $\lambda$. Then, the [probability density function](/P/norm-pdf) for $A$ is given by
 
 $$ \label{eq:norm-pdf}
 f_A(t) = \frac{1}{\sigma\sqrt{2\pi}}\exp\left[-\frac{1}{2}\left(\frac{t-\mu}{\sigma}\right)^2\right] \; ,
@@ -51,7 +51,7 @@ f_B(t) = \left\{
 \right.
 $$
 
-Then the [probability density function for the sum](/P/pdf-sumind) $X=A+B$ is given by taking the convolution of $f_A$ and $f_B$:
+Thus, the [probability density function for the sum](/P/pdf-sumind) $X=A+B$ is given by taking the convolution of $f_A$ and $f_B$:
 
 $$ \label{eq:convolution}
 \begin{split}
@@ -81,17 +81,15 @@ $$
 This gives the following three identities:
 
 $$ \label{eq:identity1}
-\frac{dy}{dx} = \frac{1}{\sigma} \; , \; \text{or equivalently,} \; dx=\sigma dy \;,
+\frac{dy}{dx} = \frac{1}{\sigma} \; , \quad \text{or equivalently,} \quad dx = \sigma dy \; ,
 $$
 
 $$ \label{eq:identity2}
-\frac{x-\mu}{\sigma} = y+\lambda\sigma \; ,
+\frac{x-\mu}{\sigma} = y+\lambda\sigma \; , \quad \text{and}
 $$
 
-and 
-
 $$ \label{eq:identity3}
-x=y\sigma + \lambda\sigma^2 + \mu \; .
+x = y\sigma + \lambda\sigma^2 + \mu \; .
 $$
 
 Substituting these identities into \eqref{eq:exg-pdf-s1} gives

@@ -416,11 +416,12 @@ title: "Proof by Author"
 
 - [Proof Template](/P/-temp-)
 
-### tomfaulkenberry (7 proofs)
+### tomfaulkenberry (8 proofs)
 
 - [Encompassing prior method for computing Bayes factors](/P/bf-ep)
 - [Mean of the Wald distribution](/P/wald-mean)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
+- [Probability density function of the ex-Gaussian distribution](/P/exg-pdf)
 - [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Savage-Dickey density ratio for computing Bayes factors](/P/bf-sddr)
 - [Transitivity of Bayes Factors](/P/bf-trans)

@@ -468,6 +468,10 @@ title: "Table of Contents"
    &emsp;&ensp; 3.10.3. **[Moment-generating function](/P/wald-mgf)** <br>
    &emsp;&ensp; 3.10.4. **[Mean](/P/wald-mean)** <br>
    &emsp;&ensp; 3.10.5. **[Variance](/P/wald-var)** <br>
+   
+   3.11. ex-Gaussian distribution <br>
+   &emsp;&ensp; 3.11.1. *[Definition](/D/exg)* <br>
+   &emsp;&ensp; 3.11.2. **[Probability density function](/P/exg-pdf)** <br>
 
 4. Multivariate continuous distributions
 

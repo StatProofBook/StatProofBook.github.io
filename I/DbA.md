@@ -203,8 +203,9 @@ title: "Definition by Author"
 
 - [Definition Template](/D/-temp-)
 
-### tomfaulkenberry (3 definitions)
+### tomfaulkenberry (4 definitions)
 
 - [Bayes factor](/D/bf)
 - [Encompassing model](/D/encm)
+- [ex-Gaussian distribution](/D/exg)
 - [Wald distribution](/D/wald)

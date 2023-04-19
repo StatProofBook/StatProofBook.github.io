@@ -71,6 +71,7 @@ title: "Definition by Topic"
 - [Encompassing model](/D/encm)
 - [Estimation matrix](/D/emat)
 - [Event space](/D/eve-spc)
+- [ex-Gaussian distribution](/D/exg)
 - [Exceedance probability](/D/prob-exc)
 - [Expected value](/D/mean)
 - [Expected value of a random matrix](/D/mean-rmat)

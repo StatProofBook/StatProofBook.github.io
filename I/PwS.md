@@ -95,6 +95,7 @@ title: "Proofs without Source"
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
+- [Probability density function of the ex-Gaussian distribution](/P/exg-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)
 - [Probability density function of the gamma distribution](/P/gam-pdf)
 - [Probability density function of the matrix-normal distribution](/P/matn-pdf)

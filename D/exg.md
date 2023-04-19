@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: 2020-04-18 12:00:00
+date: 2023-04-18 12:00:00
 
 title: "ex-Gaussian distribution"
 chapter: "Probability Distributions"

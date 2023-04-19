@@ -328,6 +328,7 @@ title: "Proof by Topic"
 - [Probability density function of the chi-squared distribution](/P/chi2-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
+- [Probability density function of the ex-Gaussian distribution](/P/exg-pdf)
 - [Probability density function of the exponential distribution](/P/exp-pdf)
 - [Probability density function of the F-distribution](/P/f-pdf)
 - [Probability density function of the gamma distribution](/P/gam-pdf)

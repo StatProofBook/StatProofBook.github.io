@@ -193,3 +193,4 @@ title: "Definition by Number"
 | D184 | iass | [Interaction sum of squares](/D/iass) | JoramSoch | 2022-12-14 |
 | D185 | tcon | [t-contrast for contrast-based inference in multiple linear regression](/D/tcon) | JoramSoch | 2022-12-16 |
 | D186 | fcon | [F-contrast for contrast-based inference in multiple linear regression](/D/fcon) | JoramSoch | 2022-12-16 |
+| D187 | exg | [ex-Gaussian distribution](/D/exg) | tomfaulkenberry | 2023-04-18 |
