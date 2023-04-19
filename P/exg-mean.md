@@ -17,7 +17,7 @@ sources:
   
 proof_id: P405
 shortcut: "exg-mean"
-username: tomfaulkenberry
+username: "tomfaulkenberry"
 ---
 
 

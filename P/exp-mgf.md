@@ -3,21 +3,21 @@ layout: proof
 mathjax: true
 
 author: "Thomas J. Faulkenberry"
-affiliation: Tarleton State University
-e_mail: faulkenberry@tarleton.edu
+affiliation: "Tarleton State University"
+e_mail: "faulkenberry@tarleton.edu"
 date: "2023-04-19 12:00:00"
 
 title: "Moment-generating function of the exponential distribution"
-chapter: Probability Distributions
-section: Univariate continuous distributions
-topic: Exponential distribution
-theorem: Moment generating function
+chapter: "Probability Distributions"
+section: "Univariate continuous distributions"
+topic: "Exponential distribution"
+theorem: "Moment generating function"
 
 sources: 
 
 proof_id: P403
 shortcut: "exp-mgf"
-username: tomfaulkenberry
+username: "tomfaulkenberry"
 ---
 
 

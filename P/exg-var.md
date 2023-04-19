@@ -17,7 +17,7 @@ sources:
   
 proof_id: P406
 shortcut: "exg-var"
-username: tomfaulkenberry
+username: "tomfaulkenberry"
 
 
 **Theorem:** Let $X$ be a [random variable](/D/rvar) following an [ex-Gaussian distribution](/D/exg):
