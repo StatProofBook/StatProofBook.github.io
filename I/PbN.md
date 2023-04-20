@@ -408,3 +408,7 @@ title: "Proof by Number"
 | P400 | mlr-olsdist | [Distributions of estimated parameters, fitted signal and residuals in multiple linear regression upon ordinary least squares](/P/mlr-olsdist) | JoramSoch | 2022-12-23 |
 | P401 | exp-var | [Variance of the exponential distribution](/P/exp-var) | majapavlo | 2023-01-23 |
 | P402 | exg-pdf | [Probability density function of the ex-Gaussian distribution](/P/exg-pdf) | tomfaulkenberry | 2023-04-18 |
+| P403 | exp-mgf | [Moment-generating function of the exponential distribution](/P/exp-mgf) | tomfaulkenberry | 2023-04-19 |
+| P404 | exg-mgf | [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf) | tomfaulkenberry | 2023-04-19 |
+| P405 | exg-mean | [Mean of the ex-Gaussian distribution](/P/exg-mean) | tomfaulkenberry | 2023-04-19 |
+| P406 | exg-var | [Variance of the ex-Gaussian distribution](/P/exg-var) | tomfaulkenberry | 2023-04-19 |

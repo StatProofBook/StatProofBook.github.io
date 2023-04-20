@@ -426,12 +426,13 @@ title: "Table of Contents"
    &emsp;&ensp; 3.5.1. *[Definition](/D/exp)* <br>
    &emsp;&ensp; 3.5.2. **[Special case of gamma distribution](/P/exp-gam)** <br>
    &emsp;&ensp; 3.5.3. **[Probability density function](/P/exp-pdf)** <br>
-   &emsp;&ensp; 3.5.4. **[Cumulative distribution function](/P/exp-cdf)** <br>
-   &emsp;&ensp; 3.5.5. **[Quantile function](/P/exp-qf)** <br>
-   &emsp;&ensp; 3.5.6. **[Mean](/P/exp-mean)** <br>
-   &emsp;&ensp; 3.5.7. **[Median](/P/exp-med)** <br>
-   &emsp;&ensp; 3.5.8. **[Mode](/P/exp-mode)** <br>
-   &emsp;&ensp; 3.5.9. **[Variance](/P/exp-var)** <br>
+   &emsp;&ensp; 3.5.4. **[Moment-generating function](/P/exp-mgf)** <br>
+   &emsp;&ensp; 3.5.5. **[Cumulative distribution function](/P/exp-cdf)** <br>
+   &emsp;&ensp; 3.5.6. **[Quantile function](/P/exp-qf)** <br>
+   &emsp;&ensp; 3.5.7. **[Mean](/P/exp-mean)** <br>
+   &emsp;&ensp; 3.5.8. **[Median](/P/exp-med)** <br>
+   &emsp;&ensp; 3.5.9. **[Mode](/P/exp-mode)** <br>
+   &emsp;&ensp; 3.5.10. **[Variance](/P/exp-var)** <br>
 
    3.6. Log-normal distribution <br>
    &emsp;&ensp; 3.6.1. *[Definition](/D/lognorm)* <br>
@@ -472,6 +473,9 @@ title: "Table of Contents"
    3.11. ex-Gaussian distribution <br>
    &emsp;&ensp; 3.11.1. *[Definition](/D/exg)* <br>
    &emsp;&ensp; 3.11.2. **[Probability density function](/P/exg-pdf)** <br>
+   &emsp;&ensp; 3.11.3. **[Moment-generating function](/P/exg-mgf)** <br>
+   &emsp;&ensp; 3.11.4. **[Mean](/P/exg-mean)** <br>
+   &emsp;&ensp; 3.11.5. **[Variance](/P/exg-var)** <br>
 
 4. Multivariate continuous distributions
 
