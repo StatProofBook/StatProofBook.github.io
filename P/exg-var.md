@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: "2023-04-19 12:00:00"
+date: 2023-04-19 12:00:00
 
 title: "Variance of the ex-Gaussian distribution"
 chapter: "Probability Distributions"
@@ -15,9 +15,10 @@ theorem: "Variance"
 
 sources:
   
-proof_id: P406
+proof_id: "P406"
 shortcut: "exg-var"
 username: "tomfaulkenberry"
+---
 
 
 **Theorem:** Let $X$ be a [random variable](/D/rvar) following an [ex-Gaussian distribution](/D/exg):
@@ -26,7 +27,7 @@ $$ \label{eq:exg}
 X \sim \text{ex-Gaussian}(\mu, \sigma, \lambda) \; .
 $$
 
-Then the [variance](/D/var) of $X$ is 
+Then, the [variance](/D/var) of $X$ is 
 
 $$ \label{eq:exg-var}
 \mathrm{Var}(X) = \sigma^2 + \frac{1}{\lambda^2} \; .
@@ -42,16 +43,18 @@ $$
 We then use the [moment-generating function of the ex-Gaussian distribution](/P/exg-mgf) to calculate
 
 $$ \label{eq:exg-moment}
-\mathrm{E}(X^2) = M_X''(0) \; .
+\mathrm{E}(X^2) = M_X''(0)
 $$
 
-First we differentiate
+based on the [relationship between raw moment and moment-generating function](/P/mom-mgf).
+
+First, we differentiate
 
 $$ \label{eq:exg-mgf}
-M_X(t) = \left( \frac{\lambda}{\lambda-t} \right) \exp \left[ \mu t + \frac{1}{2}\sigma^2t^2 \right] \; .
+M_X(t) = \left( \frac{\lambda}{\lambda-t} \right) \exp \left[ \mu t + \frac{1}{2}\sigma^2t^2 \right]
 $$
 
-with respect to $t$. Using the product rule and chain rule gives
+with respect to $t$. Using the product rule and chain rule gives:
 
 $$ \label{eq:exg-var-s1}
 \begin{split}
@@ -72,7 +75,7 @@ M_X''(t) &= M_X'(t)\cdot \left[ \frac{1}{\lambda-t} + \mu + \sigma^2t\right] + M
 \end{split}
 $$
 
-Applying \eqref{exg-moment} yields
+Applying \eqref{eq:exg-moment} yields
 
 $$ \label{eq:exg-var-s3}
 \begin{split}

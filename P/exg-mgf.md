@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: "2023-04-19 12:00:00"
+date: 2023-04-19 12:00:00
 
 title: "Moment-generating function of the ex-Gaussian distribution"
 chapter: "Probability Distributions"
@@ -15,7 +15,7 @@ theorem: "Moment generating function"
 
 sources:
 
-proof_id: P404
+proof_id: "P404"
 shortcut: "exg-mgf"
 username: "tomfaulkenberry"
 ---
@@ -27,17 +27,17 @@ $$ \label{eq:exg}
 X \sim \text{ex-Gaussian}(\mu, \sigma, \lambda) \; .
 $$
 
-Then the [moment generating function](/D/mgf) of $X$ is 
+Then, the [moment generating function](/D/mgf) of $X$ is 
 
 $$ \label{eq:exg-mgf}
 M_X(t) = \left( \frac{\lambda}{\lambda-t} \right) \exp \left[ \mu t + \frac{1}{2}\sigma^2t^2 \right] \; .
 $$
 
 
-**Proof:** Suppose $X$ follows an [ex-Gaussian distribution](/D/exg). Then $X=A+B$, where $A$ and $B$ are [independent](/D/ind), $A$ is [normally distributed](/D/norm) with [mean](/P/norm-mean) $\mu$ and [variance](/P/norm-var) $\sigma^2$, and $B$ is [exponentially distributed](/D/exp) with rate $\lambda$. Then the [moment generating function](/P/norm-mgf) for $A$ is given by
+**Proof:** Suppose $X$ follows an [ex-Gaussian distribution](/D/exg). Then, $X=A+B$ where $A$ and $B$ are [independent](/D/ind), $A$ is [normally distributed](/D/norm) with [mean](/P/norm-mean) $\mu$ and [variance](/P/norm-var) $\sigma^2$, and $B$ is [exponentially distributed](/D/exp) with rate $\lambda$. Then the [moment generating function](/P/norm-mgf) for $A$ is given by
 
 $$ \label{eq:norm-mgf}
-M_A(t) = \exp \left[ \mu t + \frac{1}{2}\sigma^2t^2 \right] \; ,
+M_A(t) = \exp \left[ \mu t + \frac{1}{2}\sigma^2t^2 \right]
 $$ 
 
 and the [moment generating function](/P/exp-mgf) for $B$ is given by

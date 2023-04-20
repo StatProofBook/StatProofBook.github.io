@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a [random vector](/D/rvec). Then, the [covariance matrix](/D/covmat) of $X$ can be expressed in terms of its [correlation matrix](/D/corrmat) as follows
+**Theorem:** Let $X$ be a [random vector](/D/rvec). Then, the [covariance matrix](/D/covmat) $\Sigma_{XX}$ of $X$ can be expressed in terms of its [correlation matrix](/D/corrmat) $\mathrm{C}_{XX}$ as follows
 
 $$ \label{eq:covmat-corrmat}
 \Sigma_{XX} = \mathrm{D}_X \cdot \mathrm{C}_{XX} \cdot \mathrm{D}_X \; ,

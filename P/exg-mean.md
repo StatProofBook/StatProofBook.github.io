@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: "2023-04-19 12:00:00"
+date: 2023-04-19 12:00:00
 
 title: "Mean of the ex-Gaussian distribution"
 chapter: "Probability Distributions"
@@ -15,7 +15,7 @@ theorem: "Mean"
 
 sources:
   
-proof_id: P405
+proof_id: "P405"
 shortcut: "exg-mean"
 username: "tomfaulkenberry"
 ---
@@ -27,7 +27,7 @@ $$ \label{eq:exg}
 X \sim \text{ex-Gaussian}(\mu, \sigma, \lambda) \; .
 $$
 
-Then the [mean or expected value](/D/mean) of $X$ is 
+Then, the [mean or expected value](/D/mean) of $X$ is 
 
 $$ \label{eq:exg-mean}
 \mathrm{E}(X) = \mu + \frac{1}{\lambda} \; .
@@ -40,13 +40,13 @@ $$ \label{eq:mean-from-mgf}
 \mathrm{E}(X) = M_X'(0) \; .
 $$
 
-First we differentiate
+First, we differentiate
 
 $$ \label{eq:exg-mgf}
-M_X(t) = \left( \frac{\lambda}{\lambda-t} \right) \exp \left[ \mu t + \frac{1}{2}\sigma^2t^2 \right] \; .
+M_X(t) = \left( \frac{\lambda}{\lambda-t} \right) \exp \left[ \mu t + \frac{1}{2}\sigma^2t^2 \right]
 $$
 
-with respect to $t$. Using the product rule and chain rule gives
+with respect to $t$. Using the product rule and chain rule gives:
 
 $$ \label{eq:exg-mean-s1}
 \begin{split}

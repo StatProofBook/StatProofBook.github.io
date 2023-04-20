@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: "2023-04-19 12:00:00"
+date: 2023-04-19 12:00:00
 
 title: "Moment-generating function of the exponential distribution"
 chapter: "Probability Distributions"
@@ -15,7 +15,7 @@ theorem: "Moment generating function"
 
 sources: 
 
-proof_id: P403
+proof_id: "P403"
 shortcut: "exp-mgf"
 username: "tomfaulkenberry"
 ---
@@ -27,15 +27,15 @@ $$ \label{eq:exp}
 X \sim \mathrm{Exp}(\lambda) \; .
 $$
 
-Then the [moment generating function](/D/mgf) of $X$ is 
+Then, the [moment generating function](/D/mgf) of $X$ is 
 
 $$ \label{eq:exp-mgf}
-M_X(t) = \frac{\lambda}{\lambda - t} \; ,
+M_X(t) = \frac{\lambda}{\lambda - t}
 $$
 
 which is well-defined for $t < \lambda$.
 
-**Proof:** Suppose $X$ follows an [exponential distribution](/D/exp) with rate $\lambda$; that is, $X\sim \mathrm{Exp}(\lambda)$. Then the [probability density function](/P/exp-pdf) is given by 
+**Proof:** Suppose $X$ follows an [exponential distribution](/D/exp) with rate $\lambda$; that is, $X\sim \mathrm{Exp}(\lambda)$. Then, the [probability density function](/P/exp-pdf) is given by 
 
 $$ \label{eq:exp-pdf}
 f_X(x) = \lambda e^{-\lambda x}
@@ -47,7 +47,7 @@ $$ \label{eq:mgf}
 M_X(t) = \mathrm{E} \left[ e^{tX} \right] \; .
 $$
 
-Using the definition of [expected value for continuous random variables](/D/mean), the moment-generating function of $X$ is thus
+Using the definition of [expected value for continuous random variables](/D/mean), the moment-generating function of $X$ is thus:
 
 $$ \label{eq:exp-mgf-s1}
 \begin{split}
