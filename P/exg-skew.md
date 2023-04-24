@@ -111,7 +111,7 @@ $$ \label{eq:exg-skew-s4}
 \end{split}
 $$
 
-We now substitute \eqref{eq:exg-skew-s4}, \eqref{eq:exg-mean}, and \eqref{eq:exg-var} into the numerator of \eqref{eq:exg-skew-partition2}, giving
+We now substitute \eqref{eq:exg-skew-s4}, \eqref{eq:exg-mean}, and \eqref{eq:exg-var} into the numerator of \eqref{eq:skew-partition2}, giving
 
 $$ \label{eq:exg-skew-s5}
 \begin{split}
