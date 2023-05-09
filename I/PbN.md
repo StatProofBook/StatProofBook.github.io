@@ -412,3 +412,6 @@ title: "Proof by Number"
 | P404 | exg-mgf | [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf) | tomfaulkenberry | 2023-04-19 |
 | P405 | exg-mean | [Mean of the ex-Gaussian distribution](/P/exg-mean) | tomfaulkenberry | 2023-04-19 |
 | P406 | exg-var | [Variance of the ex-Gaussian distribution](/P/exg-var) | tomfaulkenberry | 2023-04-19 |
+| P407 | skew-mean | [Partition of skewness into expected values ](/P/skew-mean) | tomfaulkenberry | 2023-04-20 |
+| P408 | exg-skew | [Skewness of the ex-Gaussian distribution](/P/exg-skew) | tomfaulkenberry | 2023-04-21 |
+| P409 | exp-skew | [Skewness of the exponential distribution](/P/exp-skew) | tomfaulkenberry | 2023-04-24 |

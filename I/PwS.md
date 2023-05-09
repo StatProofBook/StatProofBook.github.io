@@ -129,6 +129,8 @@ title: "Proofs without Source"
 - [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
+- [Skewness of the ex-Gaussian distribution](/P/exg-skew)
+- [Skewness of the exponential distribution](/P/exp-skew)
 - [Sums of squares for simple linear regression](/P/slr-sss)
 - [Transformation matrices for simple linear regression](/P/slr-mat)
 - [Transitivity of Bayes Factors](/P/bf-trans)

@@ -220,6 +220,7 @@ title: "Definition by Topic"
 - [Simple and composite hypothesis](/D/hyp-simp)
 - [Simple linear regression](/D/slr)
 - [Size of a statistical test](/D/size)
+- [Skewness](/D/skew)
 - [Standard deviation](/D/std)
 - [Standard gamma distribution](/D/sgam)
 - [Standard normal distribution](/D/snorm)
