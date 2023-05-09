@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: "2023-04-20 12:00:00"
+date: 2023-04-20 12:00:00
 
 title: "Skewness"
 chapter: "General Theorems"
@@ -32,4 +32,3 @@ username: "tomfaulkenberry"
 $$ \label{eq:skew}
 \mathrm{Skew}(X) = \frac{\mathrm{E}[(X-\mu)^3]}{\sigma^3} \; .
 $$
-

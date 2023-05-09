@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: "2023-04-20 12:00:00"
+date: 2023-04-20 12:00:00
 
 title: "Partition of skewness into expected values "
 chapter: "General Theorems"
@@ -22,7 +22,7 @@ sources:
     url: "https://en.wikipedia.org/wiki/Skewness"
 
 proof_id: "P407"
-shortcut: "skew-partition"
+shortcut: "skew-mean"
 username: "tomfaulkenberry"
 ---
 
@@ -41,9 +41,9 @@ $$ \label{eq:skew}
 \mathrm{Skew}(X) = \frac{\mathrm{E}[(X-\mu)^3]}{\sigma^3} \; .
 $$
 
-Because [expected value is a linear operator](/P/mean-lin), we can rewrite \eqref{eq:skew} as
+Because the [expected value is a linear operator](/P/mean-lin), we can rewrite \eqref{eq:skew} as
 
-$$ \label{eq:partition}
+$$ \label{eq:partition-s1}
 \begin{split}
 \mathrm{Skew}(X) &= \frac{\mathrm{E}[(X-\mu)^3]}{\sigma^3}\\
 &= \frac{\mathrm{E}[X^3-3X^2\mu + 3X\mu^2 - \mu^3]}{\sigma^3}\\
@@ -59,9 +59,9 @@ $$ \label{eq:var-partition}
 \sigma^2 = \mathrm{E}(X^2)-\mathrm{E}(X)^2 \; ,
 $$
 
-we can rewrite \eqref{eq:partition} as
+we can rewrite \eqref{eq:partition-s1} as
 
-$$ \label{eq:partition-2}
+$$ \label{eq:partition-s2}
 \mathrm{Skew}(X) = \frac{\mathrm{E}(X^3) -3\mu\sigma^2-\mu^3}{\sigma^3} \; .
 $$
 

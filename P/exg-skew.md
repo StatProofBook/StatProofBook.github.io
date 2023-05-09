@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: "2023-04-21 12:00:00"
+date: 2023-04-21 12:00:00
 
 title: "Skewness of the ex-Gaussian distribution"
 chapter: "Probability Distributions"
@@ -19,6 +19,7 @@ proof_id: "P408"
 shortcut: "exg-skew"
 username: "tomfaulkenberry"
 ---
+
 
 **Theorem:** Let $X$ be a [random variable](/D/rvar) following an [ex-Gaussian distribution](/D/exg):
 
@@ -34,22 +35,22 @@ $$
 
 **Proof:** 
 
-To compute the skewness of $X$, we [partition the skewness into expected values](/P/skew-partition):
+To compute the skewness of $X$, we [partition the skewness into expected values](/P/skew-mean):
 
-$$ \label{eq:skew-partition}
+$$ \label{eq:skew-mean}
 \mathrm{Skew}(X) = \frac{\mathrm{E}(X^3)-3\mu\sigma^2-\mu^3}{\sigma^3} \; ,
 $$
 
-where $\mu$ and $\sigma$ are the mean and standard deviation of $X$, respectively. To prevent confusion between the labels used for the ex-Gaussian parameters and the mean and standard deviation of $X$, we rewrite \eqref{eq:skew-partition} as
+where $\mu$ and $\sigma$ are the mean and standard deviation of $X$, respectively. To prevent confusion between the labels used for the ex-Gaussian parameters in \eqref{eq:exg} and the mean and standard deviation of $X$, we rewrite \eqref{eq:skew-mean} as
 
-$$ \label{eq:skew-partition2}
+$$ \label{eq:skew-mean-alt}
 \mathrm{Skew}(X) = \frac{\mathrm{E}(X^3) - 3\cdot \mathrm{E}(X)\cdot \mathrm{Var}(X) - \mathrm{E}(X)^3}{\mathrm{Var}(X)^{\frac{3}{2}}} \; .
 $$
 
 Since $X$ follows an [ex-Gaussian distribution](/D/exg), the [mean](/P/exg-mean) of $X$ is given by 
 
 $$ \label{eq:exg-mean}
-E(X) = \mu + \frac{1}{\lambda}
+\mathrm{E}(X) = \mu + \frac{1}{\lambda}
 $$
 
 and the [variance](/P/exg-var) of $X$ is given by
@@ -66,13 +67,13 @@ $$
 
 based on the [relationship between raw moment and moment-generating function](/P/mom-mgf).
 
-First, we differentiate
+First, we differentiate the [moment-generating function of the ex-Gaussian distribution](/P/exg-mgf)
 
 $$ \label{eq:exg-mgf}
 M_X(t) = \left( \frac{\lambda}{\lambda-t} \right) \exp \left[ \mu t + \frac{1}{2}\sigma^2t^2 \right]
 $$
 
-with respect to $t$. Using the product rule and chain rule gives:
+with respect to $t$. Using the product rule and chain rule, we have:
 
 $$ \label{eq:exg-skew-s1}
 \begin{split}
@@ -98,7 +99,7 @@ $$ \label{eq:exg-skew-s3}
 M_X'''(t) = M_X'(t)\left[\left(\frac{1}{\lambda-t}+\mu+\sigma^2t\right)^2 + \frac{1}{(\lambda-t)^2}+\sigma^2\right] + M_X(t)\left[2\left(\frac{1}{\lambda-t}+\mu+\sigma^2t\right)\left(\frac{1}{(\lambda-t)^2} + \sigma^2\right) + \frac{2}{(\lambda-t)^3}\right] \; .
 $$
 
-Applying \eqref{eq:exg-moment} yields
+Applying \eqref{eq:exg-moment}, together with \eqref{eq:exg-skew-s3}, yields:
 
 $$ \label{eq:exg-skew-s4}
 \begin{split}
@@ -111,7 +112,7 @@ $$ \label{eq:exg-skew-s4}
 \end{split}
 $$
 
-We now substitute \eqref{eq:exg-skew-s4}, \eqref{eq:exg-mean}, and \eqref{eq:exg-var} into the numerator of \eqref{eq:skew-partition2}, giving
+We now substitute \eqref{eq:exg-skew-s4}, \eqref{eq:exg-mean}, and \eqref{eq:exg-var} into the numerator of \eqref{eq:skew-mean-alt}, giving
 
 $$ \label{eq:exg-skew-s5}
 \begin{split}
@@ -121,7 +122,7 @@ $$ \label{eq:exg-skew-s5}
 \end{split}
 $$
 
-Thus, 
+Thus, we have:
 
 $$ \label{eq:exg-skew-s6}
 \begin{split}
@@ -132,4 +133,3 @@ $$ \label{eq:exg-skew-s6}
 $$
 
 This completes the proof of \eqref{eq:exg-skew}.
-
