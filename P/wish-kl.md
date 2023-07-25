@@ -83,11 +83,11 @@ Using the [probability density function of the Wishart distribution](/P/wish-pdf
 $$ \label{eq:wish-KL-s2}
 \begin{split}
 \mathrm{KL}[P\,||\,Q] &= \left\langle \ln \frac{\frac{1}{\sqrt{2^{n_1 p} |V_1|^{n_1}} \Gamma_p \left( \frac{n_1}{2} \right)} \cdot |S|^{(n_1-p-1)/2} \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( V_1^{-1} S \right) \right]}{\frac{1}{\sqrt{2^{n_2 p} |V_2|^{n_2}} \Gamma_p \left( \frac{n_2}{2} \right)} \cdot |S|^{(n_2-p-1)/2} \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( V_2^{-1} S \right) \right]} \right\rangle_{p(S)} \\
-&= \left\langle \ln \left( \sqrt{2^{(n_2-n_1)p} \cdot \frac{|V_2|^{n_2}}{|V_1|^{n_1}}} \cdot \frac{\Gamma_p\left( \frac{n_2}{2} \right)}{\Gamma_p\left( \frac{n_1}{2} \right)} \cdot |S|^{(n_1-n_2)/2} \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( V_1^{-1} S \right) -\frac{1}{2} \mathrm{tr}\left( V_2^{-1} S \right) \right] \right) \right\rangle_{p(S)} \\
+&= \left\langle \ln \left( \sqrt{2^{(n_2-n_1)p} \cdot \frac{|V_2|^{n_2}}{|V_1|^{n_1}}} \cdot \frac{\Gamma_p\left( \frac{n_2}{2} \right)}{\Gamma_p\left( \frac{n_1}{2} \right)} \cdot |S|^{(n_1-n_2)/2} \cdot \exp\left[ -\frac{1}{2} \mathrm{tr}\left( V_1^{-1} S \right) +\frac{1}{2} \mathrm{tr}\left( V_2^{-1} S \right) \right] \right) \right\rangle_{p(S)} \\
 &= \left\langle \frac{(n_2-n_1)p}{2} \ln 2 + \frac{n_2}{2} \ln |V_2| - \frac{n_1}{2} \ln |V_1| + \ln \frac{\Gamma_p\left( \frac{n_2}{2} \right)}{\Gamma_p\left( \frac{n_1}{2} \right)} \right. \\
-&+ \left. \quad \frac{n_1-n_2}{2} \ln |S| - \frac{1}{2} \mathrm{tr}\left( V_1^{-1} S \right) - \frac{1}{2} \mathrm{tr}\left( V_2^{-1} S \right) \right\rangle_{p(S)} \\
+&+ \left. \quad \frac{n_1-n_2}{2} \ln |S| - \frac{1}{2} \mathrm{tr}\left( V_1^{-1} S \right) + \frac{1}{2} \mathrm{tr}\left( V_2^{-1} S \right) \right\rangle_{p(S)} \\
 &= \frac{(n_2-n_1)p}{2} \ln 2 + \frac{n_2}{2} \ln |V_2| - \frac{n_1}{2} \ln |V_1| + \ln \frac{\Gamma_p\left( \frac{n_2}{2} \right)}{\Gamma_p\left( \frac{n_1}{2} \right)} \\
-&+ \frac{n_1-n_2}{2} \left\langle \ln |S| \right\rangle_{p(S)} - \frac{1}{2} \left\langle \mathrm{tr}\left( V_1^{-1} S \right) \right\rangle_{p(S)} - \frac{1}{2} \left\langle \mathrm{tr}\left( V_2^{-1} S \right) \right\rangle_{p(S)} \; .
+&+ \frac{n_1-n_2}{2} \left\langle \ln |S| \right\rangle_{p(S)} - \frac{1}{2} \left\langle \mathrm{tr}\left( V_1^{-1} S \right) \right\rangle_{p(S)} + \frac{1}{2} \left\langle \mathrm{tr}\left( V_2^{-1} S \right) \right\rangle_{p(S)} \; .
 \end{split}
 $$
 
@@ -114,8 +114,8 @@ the Kullback-Leibler divergence from \eqref{eq:wish-KL-s2} becomes:
 $$ \label{eq:wish-KL-s3}
 \begin{split}
 \mathrm{KL}[P\,||\,Q] &= \frac{(n_2-n_1)p}{2} \ln 2 + \frac{n_2}{2} \ln |V_2| - \frac{n_1}{2} \ln |V_1| + \ln \frac{\Gamma_p\left( \frac{n_2}{2} \right)}{\Gamma_p\left( \frac{n_1}{2} \right)} \\
-&+ \frac{n_1-n_2}{2} \left[ \psi_p\left(\frac{n_1}{2}\right) + p \cdot \ln 2 + \ln |V_1| \right] - \frac{n_1}{2} \mathrm{tr}\left( V_1^{-1} V_1 \right) - \frac{n_1}{2} \mathrm{tr}\left( V_2^{-1} V_1 \right) \\
-&= \frac{n_2}{2} \left( \ln |V_2| - \ln |V_1| \right) + \ln \frac{\Gamma_p\left( \frac{n_2}{2} \right)}{\Gamma_p\left( \frac{n_1}{2} \right)} + \frac{n_1-n_2}{2} \psi_p\left(\frac{n_1}{2}\right) - \frac{n_1}{2} \mathrm{tr}\left( I_p \right) - \frac{n_1}{2} \mathrm{tr}\left( V_2^{-1} V_1 \right) \\
+&+ \frac{n_1-n_2}{2} \left[ \psi_p\left(\frac{n_1}{2}\right) + p \cdot \ln 2 + \ln |V_1| \right] - \frac{n_1}{2} \mathrm{tr}\left( V_1^{-1} V_1 \right) + \frac{n_1}{2} \mathrm{tr}\left( V_2^{-1} V_1 \right) \\
+&= \frac{n_2}{2} \left( \ln |V_2| - \ln |V_1| \right) + \ln \frac{\Gamma_p\left( \frac{n_2}{2} \right)}{\Gamma_p\left( \frac{n_1}{2} \right)} + \frac{n_1-n_2}{2} \psi_p\left(\frac{n_1}{2}\right) - \frac{n_1}{2} \mathrm{tr}\left( I_p \right) + \frac{n_1}{2} \mathrm{tr}\left( V_2^{-1} V_1 \right) \\
 & = \frac{1}{2} \left[ n_2 \left( \ln |V_2| - \ln |V_1| \right) + n_1 \mathrm{tr}(V_2^{-1} V_1) + 2 \ln \frac{\Gamma_p\left(\frac{n_2}{2}\right)}{\Gamma_p\left(\frac{n_1}{2}\right)} + (n_1-n_2) \psi_p\left(\frac{n_1}{2}\right) - n_1 p \right] \; .
 \end{split}
 $$
