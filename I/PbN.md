@@ -145,7 +145,6 @@ title: "Proof by Number"
 | P137 | lbf-der | [Derivation of the log Bayes factor](/P/lbf-der) | JoramSoch | 2020-07-22 |
 | P138 | mean-lotus | [Law of the unconscious statistician](/P/mean-lotus) | JoramSoch | 2020-07-22 |
 | P139 | pmp-der | [Derivation of the posterior model probability](/P/pmp-der) | JoramSoch | 2020-07-28 |
-| P140 | duni-ent | [Entropy of the discrete uniform distribution](/P/duni-ent) | JoramSoch | 2023-08-11 |
 | P140 | duni-pmf | [Probability mass function of the discrete uniform distribution](/P/duni-pmf) | JoramSoch | 2020-07-28 |
 | P141 | duni-cdf | [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf) | JoramSoch | 2020-07-28 |
 | P142 | duni-qf | [Quantile function of the discrete uniform distribution](/P/duni-qf) | JoramSoch | 2020-07-28 |
@@ -416,3 +415,4 @@ title: "Proof by Number"
 | P407 | skew-mean | [Partition of skewness into expected values ](/P/skew-mean) | tomfaulkenberry | 2023-04-20 |
 | P408 | exg-skew | [Skewness of the ex-Gaussian distribution](/P/exg-skew) | tomfaulkenberry | 2023-04-21 |
 | P409 | exp-skew | [Skewness of the exponential distribution](/P/exp-skew) | tomfaulkenberry | 2023-04-24 |
+| P410 | duni-ent | [Entropy of the discrete uniform distribution](/P/duni-ent) | JoramSoch | 2023-08-11 |

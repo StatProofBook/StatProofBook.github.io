@@ -15,7 +15,7 @@ theorem: "Shannon entropy"
 
 sources:
 
-proof_id: "P140"
+proof_id: "P410"
 shortcut: "duni-ent"
 username: "JoramSoch"
 ---
