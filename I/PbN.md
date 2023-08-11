@@ -400,3 +400,18 @@ title: "Proof by Number"
 | P392 | mlr-f | [F-test for multiple linear regression using contrast-based inference](/P/mlr-f) | JoramSoch | 2022-12-13 |
 | P393 | mlr-ind | [Independence of estimated parameters and residuals in multiple linear regression](/P/mlr-ind) | JoramSoch | 2022-12-13 |
 | P394 | mvn-indprod | [Independence of products of multivariate normal random vector](/P/mvn-indprod) | JoramSoch | 2022-12-13 |
+| P395 | mvn-chi2 | [Relationship between multivariate normal distribution and chi-squared distribution](/P/mvn-chi2) | JoramSoch | 2022-12-20 |
+| P396 | cuni-var | [Variance of the continuous uniform distribution](/P/cuni-var) | JoramSoch | 2022-12-20 |
+| P397 | cuni-dent | [Differential entropy of the continuous uniform distribution](/P/cuni-dent) | JoramSoch | 2022-12-20 |
+| P398 | resvar-biasp | [Maximum likelihood estimator of variance in multiple linear regression is biased](/P/resvar-biasp) | JoramSoch | 2022-12-21 |
+| P399 | mlr-symm | [Projection matrix and residual-forming matrix are symmetric](/P/mlr-symm) | JoramSoch | 2022-12-22 |
+| P400 | mlr-olsdist | [Distributions of estimated parameters, fitted signal and residuals in multiple linear regression upon ordinary least squares](/P/mlr-olsdist) | JoramSoch | 2022-12-23 |
+| P401 | exp-var | [Variance of the exponential distribution](/P/exp-var) | majapavlo | 2023-01-23 |
+| P402 | exg-pdf | [Probability density function of the ex-Gaussian distribution](/P/exg-pdf) | tomfaulkenberry | 2023-04-18 |
+| P403 | exp-mgf | [Moment-generating function of the exponential distribution](/P/exp-mgf) | tomfaulkenberry | 2023-04-19 |
+| P404 | exg-mgf | [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf) | tomfaulkenberry | 2023-04-19 |
+| P405 | exg-mean | [Mean of the ex-Gaussian distribution](/P/exg-mean) | tomfaulkenberry | 2023-04-19 |
+| P406 | exg-var | [Variance of the ex-Gaussian distribution](/P/exg-var) | tomfaulkenberry | 2023-04-19 |
+| P407 | skew-mean | [Partition of skewness into expected values ](/P/skew-mean) | tomfaulkenberry | 2023-04-20 |
+| P408 | exg-skew | [Skewness of the ex-Gaussian distribution](/P/exg-skew) | tomfaulkenberry | 2023-04-21 |
+| P409 | exp-skew | [Skewness of the exponential distribution](/P/exp-skew) | tomfaulkenberry | 2023-04-24 |

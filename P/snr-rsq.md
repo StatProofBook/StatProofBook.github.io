@@ -48,7 +48,7 @@ $$
 if the predicted signal mean is equal to the actual signal mean.
 
 
-**Proof:** The signal-to-noise ratio (SNR) [is defined as](/D/snr)
+**Proof:** The [signal-to-noise ratio](/D/snr) (SNR) is defined as
 
 $$ \label{eq:SNR}
 \mathrm{SNR} = \frac{\mathrm{Var}(X\hat{\beta})}{\hat{\sigma}^2} = \frac{\mathrm{Var}(\hat{y})}{\hat{\sigma}^2} \; .

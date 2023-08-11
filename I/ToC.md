@@ -128,58 +128,62 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.11. **[Law of total variance](/P/var-tot)** <br>
    &emsp;&ensp; 1.8.12. *[Precision](/D/prec)* <br>
    
-   1.9. Covariance <br>
-   &emsp;&ensp; 1.9.1. *[Definition](/D/cov)* <br>
-   &emsp;&ensp; 1.9.2. *[Sample covariance](/D/cov-samp)* <br>
-   &emsp;&ensp; 1.9.3. **[Partition into expected values](/P/cov-mean)** <br>
-   &emsp;&ensp; 1.9.4. **[Symmetry](/P/cov-symm)** <br>
-   &emsp;&ensp; 1.9.5. **[Self-covariance](/P/cov-var)** <br>
-   &emsp;&ensp; 1.9.6. **[Covariance under independence](/P/cov-ind)** <br>
-   &emsp;&ensp; 1.9.7. **[Relationship to correlation](/P/cov-corr)** <br>
-   &emsp;&ensp; 1.9.8. **[Law of total covariance](/P/cov-tot)** <br>
-   &emsp;&ensp; 1.9.9. *[Covariance matrix](/D/covmat)* <br>
-   &emsp;&ensp; 1.9.10. *[Sample covariance matrix](/D/covmat-samp)* <br>
-   &emsp;&ensp; 1.9.11. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.9.12. **[Symmetry](/P/covmat-symm)** <br>
-   &emsp;&ensp; 1.9.13. **[Positive semi-definiteness](/P/covmat-psd)** <br>
-   &emsp;&ensp; 1.9.14. **[Invariance under addition of vector](/P/covmat-inv)** <br>
-   &emsp;&ensp; 1.9.15. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
-   &emsp;&ensp; 1.9.16. *[Cross-covariance matrix](/D/covmat-cross)* <br>
-   &emsp;&ensp; 1.9.17. **[Covariance matrix of a sum](/P/covmat-sum)** <br>
-   &emsp;&ensp; 1.9.18. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.9.19. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.9.20. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   1.9. Skewness <br>
+   &emsp;&ensp; 1.9.1. *[Definition](/D/skew)* <br>
+   &emsp;&ensp; 1.9.2. **[Partition into expected values](/P/skew-mean)** <br>
    
-   1.10. Correlation <br>
-   &emsp;&ensp; 1.10.1. *[Definition](/D/corr)* <br>
-   &emsp;&ensp; 1.10.2. **[Range](/P/corr-range)** <br>
-   &emsp;&ensp; 1.10.3. *[Sample correlation coefficient](/D/corr-samp)* <br>
-   &emsp;&ensp; 1.10.4. **[Relationship to standard scores](/P/corr-z)** <br>
-   &emsp;&ensp; 1.10.5. *[Correlation matrix](/D/corrmat)* <br>
-   &emsp;&ensp; 1.10.6. *[Sample correlation matrix](/D/corrmat-samp)* <br>
+   1.10. Covariance <br>
+   &emsp;&ensp; 1.10.1. *[Definition](/D/cov)* <br>
+   &emsp;&ensp; 1.10.2. *[Sample covariance](/D/cov-samp)* <br>
+   &emsp;&ensp; 1.10.3. **[Partition into expected values](/P/cov-mean)** <br>
+   &emsp;&ensp; 1.10.4. **[Symmetry](/P/cov-symm)** <br>
+   &emsp;&ensp; 1.10.5. **[Self-covariance](/P/cov-var)** <br>
+   &emsp;&ensp; 1.10.6. **[Covariance under independence](/P/cov-ind)** <br>
+   &emsp;&ensp; 1.10.7. **[Relationship to correlation](/P/cov-corr)** <br>
+   &emsp;&ensp; 1.10.8. **[Law of total covariance](/P/cov-tot)** <br>
+   &emsp;&ensp; 1.10.9. *[Covariance matrix](/D/covmat)* <br>
+   &emsp;&ensp; 1.10.10. *[Sample covariance matrix](/D/covmat-samp)* <br>
+   &emsp;&ensp; 1.10.11. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.10.12. **[Symmetry](/P/covmat-symm)** <br>
+   &emsp;&ensp; 1.10.13. **[Positive semi-definiteness](/P/covmat-psd)** <br>
+   &emsp;&ensp; 1.10.14. **[Invariance under addition of vector](/P/covmat-inv)** <br>
+   &emsp;&ensp; 1.10.15. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
+   &emsp;&ensp; 1.10.16. *[Cross-covariance matrix](/D/covmat-cross)* <br>
+   &emsp;&ensp; 1.10.17. **[Covariance matrix of a sum](/P/covmat-sum)** <br>
+   &emsp;&ensp; 1.10.18. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.10.19. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.10.20. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
-   1.11. Measures of central tendency <br>
-   &emsp;&ensp; 1.11.1. *[Median](/D/med)* <br>
-   &emsp;&ensp; 1.11.2. *[Mode](/D/mode)* <br>
+   1.11. Correlation <br>
+   &emsp;&ensp; 1.11.1. *[Definition](/D/corr)* <br>
+   &emsp;&ensp; 1.11.2. **[Range](/P/corr-range)** <br>
+   &emsp;&ensp; 1.11.3. *[Sample correlation coefficient](/D/corr-samp)* <br>
+   &emsp;&ensp; 1.11.4. **[Relationship to standard scores](/P/corr-z)** <br>
+   &emsp;&ensp; 1.11.5. *[Correlation matrix](/D/corrmat)* <br>
+   &emsp;&ensp; 1.11.6. *[Sample correlation matrix](/D/corrmat-samp)* <br>
    
-   1.12. Measures of statistical dispersion <br>
-   &emsp;&ensp; 1.12.1. *[Standard deviation](/D/std)* <br>
-   &emsp;&ensp; 1.12.2. *[Full width at half maximum](/D/fwhm)* <br>
+   1.12. Measures of central tendency <br>
+   &emsp;&ensp; 1.12.1. *[Median](/D/med)* <br>
+   &emsp;&ensp; 1.12.2. *[Mode](/D/mode)* <br>
    
-   1.13. Further summary statistics <br>
-   &emsp;&ensp; 1.13.1. *[Minimum](/D/min)* <br>
-   &emsp;&ensp; 1.13.2. *[Maximum](/D/max)* <br>
+   1.13. Measures of statistical dispersion <br>
+   &emsp;&ensp; 1.13.1. *[Standard deviation](/D/std)* <br>
+   &emsp;&ensp; 1.13.2. *[Full width at half maximum](/D/fwhm)* <br>
    
-   1.14. Further moments <br>
-   &emsp;&ensp; 1.14.1. *[Moment](/D/mom)* <br>
-   &emsp;&ensp; 1.14.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-   &emsp;&ensp; 1.14.3. *[Raw moment](/D/mom-raw)* <br>
-   &emsp;&ensp; 1.14.4. **[First raw moment is mean](/P/momraw-1st)** <br>
-   &emsp;&ensp; 1.14.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
-   &emsp;&ensp; 1.14.6. *[Central moment](/D/mom-cent)* <br>
-   &emsp;&ensp; 1.14.7. **[First central moment is zero](/P/momcent-1st)** <br>
-   &emsp;&ensp; 1.14.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
-   &emsp;&ensp; 1.14.9. *[Standardized moment](/D/mom-stand)* <br>
+   1.14. Further summary statistics <br>
+   &emsp;&ensp; 1.14.1. *[Minimum](/D/min)* <br>
+   &emsp;&ensp; 1.14.2. *[Maximum](/D/max)* <br>
+   
+   1.15. Further moments <br>
+   &emsp;&ensp; 1.15.1. *[Moment](/D/mom)* <br>
+   &emsp;&ensp; 1.15.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+   &emsp;&ensp; 1.15.3. *[Raw moment](/D/mom-raw)* <br>
+   &emsp;&ensp; 1.15.4. **[First raw moment is mean](/P/momraw-1st)** <br>
+   &emsp;&ensp; 1.15.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
+   &emsp;&ensp; 1.15.6. *[Central moment](/D/mom-cent)* <br>
+   &emsp;&ensp; 1.15.7. **[First central moment is zero](/P/momcent-1st)** <br>
+   &emsp;&ensp; 1.15.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
+   &emsp;&ensp; 1.15.9. *[Standardized moment](/D/mom-stand)* <br>
 
 2. Information theory
    
@@ -426,12 +430,15 @@ title: "Table of Contents"
    &emsp;&ensp; 3.5.1. *[Definition](/D/exp)* <br>
    &emsp;&ensp; 3.5.2. **[Special case of gamma distribution](/P/exp-gam)** <br>
    &emsp;&ensp; 3.5.3. **[Probability density function](/P/exp-pdf)** <br>
-   &emsp;&ensp; 3.5.4. **[Cumulative distribution function](/P/exp-cdf)** <br>
-   &emsp;&ensp; 3.5.5. **[Quantile function](/P/exp-qf)** <br>
-   &emsp;&ensp; 3.5.6. **[Mean](/P/exp-mean)** <br>
-   &emsp;&ensp; 3.5.7. **[Median](/P/exp-med)** <br>
-   &emsp;&ensp; 3.5.8. **[Mode](/P/exp-mode)** <br>
-   
+   &emsp;&ensp; 3.5.4. **[Moment-generating function](/P/exp-mgf)** <br>
+   &emsp;&ensp; 3.5.5. **[Cumulative distribution function](/P/exp-cdf)** <br>
+   &emsp;&ensp; 3.5.6. **[Quantile function](/P/exp-qf)** <br>
+   &emsp;&ensp; 3.5.7. **[Mean](/P/exp-mean)** <br>
+   &emsp;&ensp; 3.5.8. **[Median](/P/exp-med)** <br>
+   &emsp;&ensp; 3.5.9. **[Mode](/P/exp-mode)** <br>
+   &emsp;&ensp; 3.5.10. **[Variance](/P/exp-var)** <br>
+   &emsp;&ensp; 3.5.11. **[Skewness](/P/exp-skew)** <br>
+
    3.6. Log-normal distribution <br>
    &emsp;&ensp; 3.6.1. *[Definition](/D/lognorm)* <br>
    &emsp;&ensp; 3.6.2. **[Probability density function](/P/lognorm-pdf)** <br>
@@ -441,7 +448,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.6.6. **[Median](/P/lognorm-med)** <br>
    &emsp;&ensp; 3.6.7. **[Mode](/P/lognorm-mode)** <br>
    &emsp;&ensp; 3.6.8. **[Variance](/P/lognorm-var)** <br>
-   
+
    3.7. Chi-squared distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/chi2)* <br>
    &emsp;&ensp; 3.7.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
@@ -467,6 +474,14 @@ title: "Table of Contents"
    &emsp;&ensp; 3.10.3. **[Moment-generating function](/P/wald-mgf)** <br>
    &emsp;&ensp; 3.10.4. **[Mean](/P/wald-mean)** <br>
    &emsp;&ensp; 3.10.5. **[Variance](/P/wald-var)** <br>
+   
+   3.11. ex-Gaussian distribution <br>
+   &emsp;&ensp; 3.11.1. *[Definition](/D/exg)* <br>
+   &emsp;&ensp; 3.11.2. **[Probability density function](/P/exg-pdf)** <br>
+   &emsp;&ensp; 3.11.3. **[Moment-generating function](/P/exg-mgf)** <br>
+   &emsp;&ensp; 3.11.4. **[Mean](/P/exg-mean)** <br>
+   &emsp;&ensp; 3.11.5. **[Variance](/P/exg-var)** <br>
+   &emsp;&ensp; 3.11.6. **[Skewness](/P/exg-skew)** <br>
 
 4. Multivariate continuous distributions
 

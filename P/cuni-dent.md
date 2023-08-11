@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 20221-12-20 18:21:00
+date: 2022-12-20 18:21:00
 
 title: "Differential entropy of the continuous uniform distribution"
 chapter: "Probability Distributions"

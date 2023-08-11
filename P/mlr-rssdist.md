@@ -33,6 +33,12 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2022-12-13"
     url: "https://en.wikipedia.org/wiki/Ordinary_least_squares#Estimation"
+  - authors: "ocram"
+    year: 2022
+    title: "Why is RSS distributed chi square times n-p?"
+    in: "StackExchange CrossValidated"
+    pages: "retrieved on 2022-12-21"
+    url: "https://stats.stackexchange.com/a/20230"
 
 proof_id: "P390"
 shortcut: "mlr-rssdist"
@@ -85,7 +91,7 @@ $$ \label{eq:mvn-cochran}
 x \sim \mathcal{N}(\mu, \sigma^2 I_n) \quad \Rightarrow \quad y = x^\mathrm{T} A x /\sigma^2 \sim \chi^2\left( \mathrm{tr}(A), \mu^\mathrm{T} A \mu \right) \; .
 $$
 
-First, we formulate the residuals in terms of transformed measurements $\tilde{y}$:
+First, we [formulate the residuals](/P/mlr-mat) in terms of transformed measurements $\tilde{y}$:
 
 $$ \label{eq:rss-y-s1}
 \begin{array}{rlcl}

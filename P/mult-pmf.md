@@ -34,7 +34,7 @@ f_X(x) = {n \choose {x_1, \ldots, x_k}} \, \prod_{i=1}^k {p_i}^{x_i} \; .
 $$
 
 
-**Proof:** A multinomial variable [is defined as](/D/mult) a vector of the numbers of observations belonging to $k$ distinct categories in $n$ [independent](/D/ind) trials, where each trial has [$k$ possible outcomes](/D/cat) and the category [probabilities](/D/prob) are identical across trials.
+**Proof:** A [multinomial variable](/D/mult) is defined as a vector of the numbers of observations belonging to $k$ distinct categories in $n$ [independent](/D/ind) trials, where each trial has [$k$ possible outcomes](/D/cat) and the category [probabilities](/D/prob) are identical across trials.
 
 The probability of a particular series of $x_1$ observations for category $1$, $x_2$ observations for category $2$ etc., when order does matter, is
 

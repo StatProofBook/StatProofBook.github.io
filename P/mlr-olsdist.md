@@ -11,7 +11,7 @@ title: "Distributions of estimated parameters, fitted signal and residuals in mu
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Multiple linear regression"
-theorem: "Distribution of OLS estimates, fitted signal and residuals"
+theorem: "Distribution of OLS estimates, signal and residuals"
 
 sources:
   - authors: "Koch, Karl-Rudolf"

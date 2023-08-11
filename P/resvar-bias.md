@@ -11,7 +11,7 @@ title: "Maximum likelihood estimator of variance is biased"
 chapter: "Model Selection"
 section: "Goodness-of-fit measures"
 topic: "Residual variance"
-theorem: "Maximum likelihood estimator is biased"
+theorem: "Maximum likelihood estimator is biased (p = 1)"
 
 sources:
   - authors: "Liang, Dawen"
