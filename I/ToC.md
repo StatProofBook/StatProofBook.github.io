@@ -314,6 +314,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.2. **[Probability mass function](/P/duni-pmf)** <br>
    &emsp;&ensp; 1.1.3. **[Cumulative distribution function](/P/duni-cdf)** <br>
    &emsp;&ensp; 1.1.4. **[Quantile function](/P/duni-qf)** <br>
+   &emsp;&ensp; 1.1.5. **[Shannon entropy](/P/duni-ent)** <br>
 
    1.2. Bernoulli distribution <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/bern)* <br>
