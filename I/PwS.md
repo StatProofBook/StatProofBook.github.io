@@ -34,6 +34,7 @@ title: "Proofs without Source"
 - [Effects of mean-centering on parameter estimates for simple linear regression](/P/slr-meancent)
 - [Entropy of the binomial distribution](/P/bin-ent)
 - [Entropy of the categorical distribution](/P/cat-ent)
+- [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
