@@ -66,7 +66,7 @@ $$ \label{eq:mean-X}
 \end{split}
 $$
 
-and with the [expected value of the gamma distribution](/P/gam-mean), $\mathrm{E}(Y)$ becomes
+and with the [expected value of the Wishart distribution](/P/wish-mean), $\mathrm{E}(Y)$ becomes
 
 $$ \label{eq:mean-Y}
 \begin{split}

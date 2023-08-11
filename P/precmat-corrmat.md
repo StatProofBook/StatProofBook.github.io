@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a [random vector](/D/rvec). Then, the [precision matrix](/D/precmat) of $X$ can be expressed in terms of its [correlation matrix](/D/corrmat) as follows
+**Theorem:** Let $X$ be a [random vector](/D/rvec). Then, the [precision matrix](/D/precmat) $\Lambda_{XX}$ of $X$ can be expressed in terms of its [correlation matrix](/D/corrmat) $\mathrm{C}_{XX}$ as follows
 
 $$ \label{eq:precmat-corrmat}
 \Lambda_{XX} = \mathrm{D}_X^{-1} \cdot \mathrm{C}_{XX}^{-1} \cdot \mathrm{D}_X^{-1} \; ,

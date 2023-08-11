@@ -24,7 +24,7 @@ username: "JoramSoch"
 **Definition:** Let $X$ and $Y$ be continuous [random variables](/D/rvar) with possible outcomes $\mathcal{X}$ and $\mathcal{Y}$ and [probability density functions](/D/pdf) $p(x)$ and $p(y)$. Then, the conditional differential entropy of $Y$ given $X$ or, differential entropy of $Y$ conditioned on $X$, is defined as
 
 $$ \label{eq:dent-cond}
-\mathrm{h}(Y|X) = \int_{x \in \mathcal{X}} p(x) \cdot \mathrm{h}(Y|X=x)
+\mathrm{h}(Y|X) = \int_{x \in \mathcal{X}} p(x) \cdot \mathrm{h}(Y|X=x) \, \mathrm{d}x
 $$
 
 where $\mathrm{h}(Y \vert X=x)$ is the [(marginal) differential entropy](/D/dent) of $Y$, evaluated at $x$.
