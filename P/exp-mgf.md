@@ -11,7 +11,7 @@ title: "Moment-generating function of the exponential distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Exponential distribution"
-theorem: "Moment generating function"
+theorem: "Moment-generating function"
 
 sources: 
 

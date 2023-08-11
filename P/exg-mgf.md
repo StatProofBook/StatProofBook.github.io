@@ -11,7 +11,7 @@ title: "Moment-generating function of the ex-Gaussian distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "ex-Gaussian distribution"
-theorem: "Moment generating function"
+theorem: "Moment-generating function"
 
 sources:
 
