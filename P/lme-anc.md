@@ -14,6 +14,12 @@ topic: "Model evidence"
 theorem: "Partition into accuracy and complexity"
 
 sources:
+  - authors: "Beal & Ghahramani"
+    year: 2003
+    title: "The variational Bayesian EM algorithm for incomplete data: with application to scoring graphical model structures"
+    in: "Bayesian Statistics"
+    pages: "vol. 7"
+    url: "https://mlg.eng.cam.ac.uk/zoubin/papers/valencia02.pdf"
   - authors: "Penny et al."
     year: 2007
     title: "Bayesian Comparison of Spatially Regularised General Linear Models"

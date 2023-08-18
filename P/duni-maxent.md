@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2023-08-18 16:43:00
 
-title: "Discrete uniform distribution maximizes differential entropy for finite support"
+title: "Discrete uniform distribution maximizes entropy for finite support"
 chapter: "Probability Distributions"
 section: "Univariate discrete distributions"
 topic: "Discrete uniform distribution"

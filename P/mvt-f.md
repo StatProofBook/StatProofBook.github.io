@@ -73,7 +73,7 @@ Y &\sim t(\Sigma^{-1/2} \mu - \Sigma^{-1/2} \mu, \Sigma^{-1/2} \Sigma \, \Sigma^
 \end{split}
 $$
 
-i.e. $Y$ is an $n \times 1$ vector of [independent and identically distributed](/D/iid) [random variables](/D/rvar) following a [univariate t-distribution](/D/t) with $\nu$ degrees of freedom:
+i.e. the [marginal distributions](/D/dist-marg) of the individual entries of $Y$ are [univariate t-distributions](/D/t) with $\nu$ degrees of freedom:
 
 $$ \label{eq:yi-dist}
 Y_i \sim t(\nu), \; i = 1,\ldots,n \; .

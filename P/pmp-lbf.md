@@ -21,6 +21,13 @@ sources:
     pages: "vol. 306, pp. 19-31, eq. 21"
     url: "https://www.sciencedirect.com/science/article/pii/S0165027018301468"
     doi: "10.1016/j.jneumeth.2018.05.017"
+  - authors: "Zeidman P, Silson EH, Schwarzkopf DS, Baker CI, Penny W"
+    year: 2018
+    title: "Bayesian population receptive field modelling"
+    in: "NeuroImage"
+    pages: "vol. 180, pp. 173-187, eq. 11"
+    url: "https://www.sciencedirect.com/science/article/pii/S1053811917307462"
+    doi: "10.1016/j.neuroimage.2017.09.008"
 
 proof_id: "P73"
 shortcut: "pmp-lbf"
