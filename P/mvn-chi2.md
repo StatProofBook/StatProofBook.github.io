@@ -69,10 +69,10 @@ $$ \label{eq:y-z}
 y = x^\mathrm{T} \Sigma^{-1} x = \left( x^\mathrm{T} \Sigma^{-1/2} \right) \left( \Sigma^{-1/2} x \right) = z^\mathrm{T} z \; ,
 $$
 
-thus $z$ is a sum of $n$ standard normally distributed [random variables](/D/rvar)
+thus $z$ is a sum of $n$ squared [standard normally distributed](/D/snorm) [random variables](/D/rvar)
 
 $$ \label{eq:y-z-sum}
-y = \sum_{i=1}^{n} z_i \quad \text{where all} \quad z_i \sim \mathcal{N}(0, 1)
+y = \sum_{i=1}^{n} z_i^2 \quad \text{where all} \quad z_i \sim \mathcal{N}(0, 1)
 $$
 
 which, [by definition, is chi-squared distributed](/D/chi2) with $n$ degrees of freedom:

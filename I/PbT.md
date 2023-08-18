@@ -106,6 +106,7 @@ title: "Proof by Topic"
 - [Entropy of the Bernoulli distribution](/P/bern-ent)
 - [Entropy of the binomial distribution](/P/bin-ent)
 - [Entropy of the categorical distribution](/P/cat-ent)
+- [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)

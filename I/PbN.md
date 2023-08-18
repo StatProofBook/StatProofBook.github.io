@@ -415,3 +415,4 @@ title: "Proof by Number"
 | P407 | skew-mean | [Partition of skewness into expected values ](/P/skew-mean) | tomfaulkenberry | 2023-04-20 |
 | P408 | exg-skew | [Skewness of the ex-Gaussian distribution](/P/exg-skew) | tomfaulkenberry | 2023-04-21 |
 | P409 | exp-skew | [Skewness of the exponential distribution](/P/exp-skew) | tomfaulkenberry | 2023-04-24 |
+| P410 | duni-ent | [Entropy of the discrete uniform distribution](/P/duni-ent) | JoramSoch | 2023-08-11 |

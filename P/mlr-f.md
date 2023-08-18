@@ -97,7 +97,7 @@ $$ \label{eq:b-est-dist}
 \hat{\beta} \sim \mathcal{N}\left( \beta, \, \sigma^2 (X^\mathrm{T} V^{-1} X)^{-1} \right) \; .
 $$
 
-Thus, the [estimated contrast vector](/D/tcon) $\hat{\gamma} = C^\mathrm{T} \hat{\beta}$ is also [distributed according to a multivariate normal distribution](/P/mvn-ltt):
+Thus, the [estimated contrast vector](/D/fcon) $\hat{\gamma} = C^\mathrm{T} \hat{\beta}$ is also [distributed according to a multivariate normal distribution](/P/mvn-ltt):
 
 $$ \label{eq:g-est-dist-cond}
 \hat{\gamma} \sim \mathcal{N}\left( C^\mathrm{T} \beta, \, \sigma^2 C^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} C \right) \; .

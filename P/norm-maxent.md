@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Theorem:** The [normal distribution](/D/norm) maximizes [differential entropy](/D/dent) for a [random variable](/D/rvar) with fixed [variance](/D/var).
 
 
-**Proof:** For a [random variable](/D/rvar) $X$ with set of possible values with [probability density function](/D/pdf) $f(x)$, the [differential entropy](/D/dent) is defined as:
+**Proof:** For a [random variable](/D/rvar) $X$ with set of possible values $\mathcal{X}$ and [probability density function](/D/pdf) $f(x)$, the [differential entropy](/D/dent) is defined as:
 
 $$ \label{eq:dent}
 \mathrm{h}(X) = - \int_{\mathcal{X}} p(x) \log p(x) \, \mathrm{d}x
@@ -78,8 +78,9 @@ Combining \eqref{eq:kl-fg} with \eqref{eq:int-fg-s3}, we can show that
 
 $$ \label{eq:norm-maxent}
 \begin{split}
+0 &\leq \mathrm{KL}[f||g] \\
 0 &\leq - \mathrm{h}[f(x)] - \left( -\mathrm{h}[g(x)] \right) \\
-\mathrm{h}[g(x)] - \mathrm{h}[f(x)] &\geq 0
+\mathrm{h}[g(x)] &\geq \mathrm{h}[f(x)]
 \end{split}
 $$
 

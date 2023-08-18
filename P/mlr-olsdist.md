@@ -63,7 +63,7 @@ $$ \label{eq:mvn-ltt}
 x \sim \mathcal{N}(\mu, \Sigma) \quad \Rightarrow \quad y = Ax + b \sim \mathcal{N}(A\mu + b, A \Sigma A^\mathrm{T}) \; .
 $$
 
-The distributional assumption in \eqref{eq:mlr} [is equivalent to](/D/mvn-ind):
+The distributional assumption in \eqref{eq:mlr} [is equivalent to](/P/mvn-ind):
 
 $$ \label{eq:mlr-vect}
 y = X\beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \sigma^2 I_n) \; .
