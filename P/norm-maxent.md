@@ -71,7 +71,7 @@ $$
 This is actually the negative of the [differential entropy of the normal distribution](/P/norm-dent), such that:
 
 $$ \label{eq:int-fg-s3}
-\int_{\mathcal{X}} f(x) \log g(x) \, \mathrm{d}x = -\mathrm{h}[g(x)] \; .
+\int_{\mathcal{X}} f(x) \log g(x) \, \mathrm{d}x = -\mathrm{h}[\mathcal{N}(\mu,\sigma^2)] = -\mathrm{h}[g(x)] \; .
 $$
 
 Combining \eqref{eq:kl-fg} with \eqref{eq:int-fg-s3}, we can show that
