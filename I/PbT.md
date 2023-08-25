@@ -41,6 +41,7 @@ title: "Proof by Topic"
 - [Conjugate prior distribution for the univariate Gaussian with known variance](/P/ugkv-prior)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
+- [Continuous uniform distribution maximizes differential entropy for fixed range](/P/cuni-maxent)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Corrected Akaike information criterion converges to uncorrected Akaike information criterion when infinite data are available](/P/aicc-aic)
