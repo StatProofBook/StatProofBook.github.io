@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (382 proofs)
+### JoramSoch (383 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -83,6 +83,7 @@ title: "Proof by Author"
 - [Differential entropy of the multivariate normal distribution](/P/mvn-dent)
 - [Differential entropy of the normal distribution](/P/norm-dent)
 - [Differential entropy of the normal-gamma distribution](/P/ng-dent)
+- [Discrete uniform distribution maximizes entropy for finite support](/P/duni-maxent)
 - [Distribution of parameter estimates for simple linear regression](/P/slr-olsdist)
 - [Distribution of residual sum of squares in multiple linear regression with weighted least squares](/P/mlr-rssdist)
 - [Distribution of the inverse general linear model](/P/iglm-dist)

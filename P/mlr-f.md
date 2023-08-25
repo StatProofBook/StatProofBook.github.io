@@ -160,14 +160,14 @@ $$
 the following quantity [is, by definition, F-distributed](/D/f)
 
 $$ \label{eq:mlr-f-s1}
-F = \left( \hat{\gamma} -  C^\mathrm{T} \hat{\beta} \right)^\mathrm{T} \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) \left( \hat{\gamma} -  C^\mathrm{T} \hat{\beta} \right) / q
+F = \left( \hat{\gamma} -  C^\mathrm{T} \beta \right)^\mathrm{T} \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) \left( \hat{\gamma} -  C^\mathrm{T} \beta \right) / q  \sim \mathrm{F}(q, n-p)
 $$
 
 and under the [null hypothesis](/D/h0) \eqref{eq:mlr-f-h0}, it can be evaluated as:
 
 $$ \label{eq:mlr-t-s2}
 \begin{split}
-F &\overset{\eqref{eq:mlr-f-s1}}{=} \left( \hat{\gamma} -  C^\mathrm{T} \hat{\beta} \right)^\mathrm{T} \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) \left( \hat{\gamma} -  C^\mathrm{T} \hat{\beta} \right) / q \\
+F &\overset{\eqref{eq:mlr-f-s1}}{=} \left( \hat{\gamma} -  C^\mathrm{T} \beta \right)^\mathrm{T} \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) \left( \hat{\gamma} -  C^\mathrm{T} \beta \right) / q \\
 &\overset{\eqref{eq:mlr-f-h0}}{=} \hat{\gamma}^\mathrm{T} \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) \hat{\gamma} / q \\
 &\overset{\eqref{eq:fcon}}{=} \hat{\beta}^\mathrm{T} C \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) C^\mathrm{T} \hat{\beta} / q \\
 &\overset{\eqref{eq:g-est-tau-dist-cond}}{=} \hat{\beta}^\mathrm{T} C \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} \left( C^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} C \right)^{-1} \right) C^\mathrm{T} \hat{\beta} / q \\
