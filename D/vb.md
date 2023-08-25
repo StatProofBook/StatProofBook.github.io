@@ -57,4 +57,4 @@ $$ \label{eq:VB}
 \hat{q}(\theta) = \operatorname*{arg\,max}_{q} F_q(m) \; .
 $$
 
-for Bayesian inference, i.e. obtaining the posterior distribution (from eq. \eqref{eq:VB}) and approximating the marginal likelihood (by plugging eq. \eqref{eq:VB} into eq. \eqref{eq:FE}).
+for [Bayesian inference](/P/bayes-th), i.e. obtaining the [posterior distribution](/D/post) (from eq. \eqref{eq:VB}) and approximating the [marginal likelihood](/D/ml) (by plugging eq. \eqref{eq:VB} into eq. \eqref{eq:FE}).
