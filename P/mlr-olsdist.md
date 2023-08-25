@@ -120,7 +120,7 @@ $$ \label{eq:e-est-dist-s1}
 \end{split}
 $$
 
-Because the [residual-forming matrix](/D/rfm) is [symmetric](/P/mlr-symm) and [idempotent](/P/mlr-idem), this becomes:
+Because the [residual-forming matrix](/D/rfmat) is [symmetric](/P/mlr-symm) and [idempotent](/P/mlr-idem), this becomes:
 
 $$ \label{eq:e-est-dist-s2}
 \hat{\varepsilon} \sim \mathcal{N}\left( 0, \sigma^2 (I_n - P) \right) \; .

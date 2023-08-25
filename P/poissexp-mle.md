@@ -33,7 +33,7 @@ $$ \label{eq:Poiss-exp-MLE}
 \hat{\lambda} = \frac{\bar{y}}{\bar{x}}
 $$
 
-where $\bar{y}$ and $\bar{x}$ are the [sample means](/D/mean-sample)
+where $\bar{y}$ and $\bar{x}$ are the [sample means](/D/mean-samp)
 
 $$ \label{eq:xy-mean}
 \begin{split}

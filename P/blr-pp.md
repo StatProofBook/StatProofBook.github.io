@@ -52,7 +52,7 @@ $$ \label{eq:GLM-NG-PP}
 \mathrm{Pr}\left( \mathrm{H}_1 | y \right) = 1 - \mathrm{T}\left( -\frac{c^\mathrm{T} \mu}{\sqrt{c^\mathrm{T} \Sigma c}}; \nu \right)
 $$
 
-where $c$ is a $p \times 1$ [contrast vector](/D/con), $\mathrm{T}(x; \nu)$ is the [cumulative distribution function](/D/cdf) of the [t-distribution](/D/t) with $\nu$ [degrees of freedom](/D/dof) and $\mu$, $\Sigma$ and $\nu$ can be obtained from the [posterior hyperparameters](/D/post) of Bayesian linear regression.
+where $c$ is a $p \times 1$ [contrast vector](/D/tcon), $\mathrm{T}(x; \nu)$ is the [cumulative distribution function](/D/cdf) of the [t-distribution](/D/t) with $\nu$ [degrees of freedom](/D/dof) and $\mu$, $\Sigma$ and $\nu$ can be obtained from the [posterior hyperparameters](/D/post) of Bayesian linear regression.
 
 
 **Proof:** The [posterior distribution for Bayesian linear regression](/P/blr-post) is given by a [normal-gamma distribution](/D/ng) over $\beta$ and $\tau = 1/\sigma^2$
