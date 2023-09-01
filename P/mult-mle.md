@@ -27,7 +27,7 @@ $$ \label{eq:Mult}
 y \sim \mathrm{Mult}(n,p) \; .
 $$
 
-Then, the [maximum likelihood estimator](/P/mle) of $p$ is
+Then, the [maximum likelihood estimator](/D/mle) of $p$ is
 
 $$ \label{eq:Mult-MLE}
 \hat{p} = \frac{1}{n} y , \quad \text{i.e.} \quad \hat{p}_j = \frac{y_j}{n} \quad \text{for all} \quad j = 1, \ldots, k \; .

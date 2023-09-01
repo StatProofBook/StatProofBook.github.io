@@ -52,7 +52,7 @@ $$ \label{eq:GLM-NG-PCR}
 (1-\alpha) = \mathrm{F}\left( \left[ \mu^\mathrm{T} C (C^\mathrm{T} \Sigma \, C)^{-1} C^\mathrm{T} \mu \right]/q; q, \nu \right)
 $$
 
-where $C$ is a $p \times q$ [contrast matrix](/D/con), $\mathrm{F}(x; v, w)$ is the [cumulative distribution function](/D/cdf) of the [F-distribution](/D/f) with $v$ numerator [degrees of freedom](/D/dof), $w$ denominator [degrees of freedom](/D/dof) and $\mu$, $\Sigma$ and $\nu$ can be obtained from the [posterior hyperparameters](/D/post) of Bayesian linear regression.
+where $C$ is a $p \times q$ [contrast matrix](/D/fcon), $\mathrm{F}(x; v, w)$ is the [cumulative distribution function](/D/cdf) of the [F-distribution](/D/f) with $v$ numerator [degrees of freedom](/D/dof), $w$ denominator [degrees of freedom](/D/dof) and $\mu$, $\Sigma$ and $\nu$ can be obtained from the [posterior hyperparameters](/D/post) of Bayesian linear regression.
 
 
 **Proof:** The [posterior distribution for Bayesian linear regression](/P/blr-post) is given by a [normal-gamma distribution](/D/ng) over $\beta$ and $\tau = 1/\sigma^2$

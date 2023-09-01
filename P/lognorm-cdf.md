@@ -33,7 +33,7 @@ $$ \label{eq:norm}
 X \sim \ln \mathcal{N}(\mu, \sigma^2) \; .
 $$
 
-Then, the [cumulative distribution function](/D/lognorm-cdf) of $X$ is
+Then, the [cumulative distribution function](/D/cdf) of $X$ is
 
 $$ \label{eq:lognorm-cdf}
 F_X(x) = \frac{1}{2} \left[ 1 + \mathrm{erf}\left( \frac{\ln x-\mu}{\sqrt{2} \sigma} \right) \right]
@@ -52,7 +52,7 @@ $$ \label{eq:lognorm-pdf}
 f_X(x) = \frac{1}{x \sigma \sqrt{2 \pi}} \cdot \exp \left[ - \left( \frac{\ln x-\mu}{\sqrt{2} \sigma} \right)^2 \right] \; .
 $$
 
-Thus, the [cumulative distribution function](/D/lognorm-cdf) is:
+Thus, the [cumulative distribution function](/D/cdf) is:
 
 $$ \label{eq:lognorm-cdf-s1}
 \begin{split}

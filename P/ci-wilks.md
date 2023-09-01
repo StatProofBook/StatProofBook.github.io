@@ -39,7 +39,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $m$ be a [generative model](/D/gm) for measured data $y$ with model parameters $\theta$, consisting of a parameter of interest $\phi$ and nuisance parameters $\lambda$:
+**Theorem:** Let $m$ be a [generative model](/D/gm) for measured data $y$ with model parameters $\theta \in \Theta$, consisting of a parameter of interest $\phi \in \Phi$ and nuisance parameters $\lambda \in \Lambda$:
 
 $$ \label{eq:mod-par}
 m: p(y|\theta) = \mathcal{D}(y; \theta), \quad \theta = \left\lbrace \phi, \lambda \right\rbrace \; .
@@ -65,7 +65,7 @@ where $1-\alpha$ is the confidence level and $\chi^2_{1,1-\alpha}$ is the $(1-\a
 Let us define the [likelihood ratio](/D/lr)
 
 $$ \label{eq:lr}
-\Lambda(\phi) = \frac{p(y|\phi,\hat{\lambda})}{p(y|\hat{\phi},\hat{\lambda})}
+\Lambda(\phi) = \frac{p(y|\phi,\hat{\lambda})}{p(y|\hat{\phi},\hat{\lambda})} \quad \text{for all} \quad \phi \in \Phi
 $$
 
 and compute the [log-likelihood ratio](/D/llr)
@@ -77,7 +77,7 @@ $$
 [Wilks' theorem](/P/llr-wilks) states that, when comparing two statistical models with parameter spaces $\Theta_1$ and $\Theta_0 \subset \Theta_1$, as the sample size approaches infinity, the quantity calculated as $-2$ times the log-ratio of maximum likelihoods follows a [chi-squared distribution](/D/chi2), if the null hypothesis is true:
 
 $$ \label{eq:wilks}
-H_0: \theta \in \Theta_0 \quad \Rightarrow \quad -2 \log \frac{\operatorname*{max}_{\theta \in \Theta_0} p(y|\theta)}{\operatorname*{max}_{\theta \in \Theta_1} p(y|\theta)} \sim \chi^2_{\Delta k}
+H_0: \theta \in \Theta_0 \quad \Rightarrow \quad -2 \log \frac{\operatorname*{max}_{\theta \in \Theta_0} p(y|\theta)}{\operatorname*{max}_{\theta \in \Theta_1} p(y|\theta)} \sim \chi^2_{\Delta k}  \quad \text{as} \quad n \rightarrow \infty
 $$
 
 where $\Delta k$ is the difference in dimensionality between $\Theta_0$ and $\Theta_1$. Applied to our example in \eqref{eq:llr}, we note that $\Theta_1 = \left\lbrace \phi, \hat{\phi} \right\rbrace$ and $\Theta_0 = \left\lbrace \phi \right\rbrace$, such that $\Delta k = 1$ and Wilks' theorem implies:

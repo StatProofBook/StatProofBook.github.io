@@ -417,3 +417,4 @@ title: "Proof by Number"
 | P409 | exp-skew | [Skewness of the exponential distribution](/P/exp-skew) | tomfaulkenberry | 2023-04-24 |
 | P410 | duni-ent | [Entropy of the discrete uniform distribution](/P/duni-ent) | JoramSoch | 2023-08-11 |
 | P411 | duni-maxent | [Discrete uniform distribution maximizes entropy for finite support](/P/duni-maxent) | JoramSoch | 2023-08-18 |
+| P412 | cuni-maxent | [Continuous uniform distribution maximizes differential entropy for fixed range](/P/cuni-maxent) | JoramSoch | 2023-08-25 |

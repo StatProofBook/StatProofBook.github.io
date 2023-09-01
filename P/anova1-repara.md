@@ -71,7 +71,7 @@ $$ \label{eq:anova1-repara-c4}
 F = \frac{\frac{1}{k-1} \sum_{i=1}^{k} n_i \hat{\delta}_i^2}{\frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2} \sim \mathrm{F}(k-1, n-k)
 $$
 
-under the [null hypothesis for the main effect](/D/anova1-f)
+under the [null hypothesis for the main effect](/P/anova1-f)
 
 $$ \label{eq:anova1-repara-c4-h0}
 H_0: \; \delta_1 = \ldots = \delta_k = 0 \; .
