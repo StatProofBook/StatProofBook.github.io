@@ -418,3 +418,4 @@ title: "Proof by Number"
 | P410 | duni-ent | [Entropy of the discrete uniform distribution](/P/duni-ent) | JoramSoch | 2023-08-11 |
 | P411 | duni-maxent | [Discrete uniform distribution maximizes entropy for finite support](/P/duni-maxent) | JoramSoch | 2023-08-18 |
 | P412 | cuni-maxent | [Continuous uniform distribution maximizes differential entropy for fixed range](/P/cuni-maxent) | JoramSoch | 2023-08-25 |
+| P413 | post-ind | [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind) | JoramSoch | 2023-09-01 |

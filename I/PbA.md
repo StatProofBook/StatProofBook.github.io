@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (384 proofs)
+### JoramSoch (385 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -25,6 +25,7 @@ title: "Proof by Author"
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
 - [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
 - [Characteristic function of a function of a random variable](/P/cf-fct)
+- [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind)
 - [Concavity of the Shannon entropy](/P/ent-conc)
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
