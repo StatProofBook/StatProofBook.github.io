@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let there be a [generative model](/D/gm) $m$ describing measured data $y$ using model parameters $\theta$ and a [prior distribution](/D/prior) on $\theta$. Then, the [joint probability](/D/prob-joint) [density function](/D/pdf) of $y$ and $\theta$ is called the joint likelihood:
+**Definition:** Let there be a [generative model](/D/gm) $m$ describing measured data $y$ using model parameters $\theta$ and a [prior distribution](/D/prior) on $\theta$. Then, the [joint probability](/D/prob-joint) [distribution](/D/dist) of $y$ and $\theta$ is called the joint likelihood:
 
 $$ \label{eq:jl}
 p(y,\theta|m) = p(y|\theta,m) \, p(\theta|m) \; .

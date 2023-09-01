@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Consider measured data $y$ and some unknown latent parameters $\theta$. The distribution of $\theta$ conditional on $y$ is called the posterior distribution:
+**Definition:** Consider measured data $y$ and some unknown latent parameters $\theta$. The [distribution](/D/dist) of $\theta$ [conditional](/D/dist-cond) on $y$ is called the posterior distribution:
 
 $$ \label{eq:post}
 \theta|y \sim \mathcal{D}(\phi) \; .

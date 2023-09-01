@@ -28,7 +28,7 @@ p(y,\theta|m) = p(y|\theta,m) \, p(\theta|m) \; .
 $$
 
 
-**Proof:** The [joint likelihood](/D/jl) is defined as the [joint probability](/D/prob-joint) [density function](/D/pdf) of data $y$ and parameters $\theta$:
+**Proof:** The [joint likelihood](/D/jl) is defined as the [joint probability](/D/prob-joint) [distribution](/D/dist) of data $y$ and parameters $\theta$:
 
 $$ \label{eq:jl-def}
 p(y,\theta|m) \; .

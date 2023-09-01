@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let there be a [generative model](/D/gm) $m$ describing measured data $y$ using model parameters $\theta$ and a [prior distribution](/D/prior) on $\theta$. Then, the [marginal probability](/D/prob-marg) [density function](/D/pdf) of $y$ across the parameter space $\Theta$ is called the marginal likelihood:
+**Definition:** Let there be a [generative model](/D/gm) $m$ describing measured data $y$ using model parameters $\theta$ and a [prior distribution](/D/prior) on $\theta$. Then, the [marginal probability](/D/prob-marg) [distribution](/D/dist) of $y$ across the parameter space $\Theta$ is called the marginal likelihood:
 
 $$ \label{eq:ml}
 p(y|m) = \int_{\Theta} p(y,\theta|m) \, \mathrm{d}\theta \; .
