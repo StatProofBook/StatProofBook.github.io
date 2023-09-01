@@ -282,8 +282,9 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.6. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
    &emsp;&ensp; 5.1.7. *[Posterior distribution](/D/post)* <br>
    &emsp;&ensp; 5.1.8. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
-   &emsp;&ensp; 5.1.9. *[Marginal likelihood](/D/ml)* <br>
-   &emsp;&ensp; 5.1.10. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
+   &emsp;&ensp; 5.1.9. **[Combined posterior distribution from independent data](/P/post-ind)** <br>
+   &emsp;&ensp; 5.1.10. *[Marginal likelihood](/D/ml)* <br>
+   &emsp;&ensp; 5.1.11. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
    5.2. Prior distributions <br>
    &emsp;&ensp; 5.2.1. *[Flat vs. hard vs. soft](/D/prior-flat)* <br>
