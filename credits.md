@@ -5,7 +5,6 @@ permalink: /credits/
 ---
 
 
-<br>
 ### Credit 1: Fame
 
 If you have [submitted a proof via GitHub](/contribute/) and entered your username [into the metadata](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Metadata-Fields), this proof's page will automatically link to your GitHub profile. Here's [an example](/P/mvn-ltt):
@@ -13,6 +12,7 @@ If you have [submitted a proof via GitHub](/contribute/) and entered your userna
 > **Metadata:** ID: P1 \| shortcut: mvn-ltt \| author: [JoramSoch](https://github.com/JoramSoch) \| date: 2019-08-27, 12:14.
 
 Your username will also appear on the [Proof by Number](/I/PbN) and [Proof by Author](/I/PbA) index pages.
+
 
 <br>
 ### Credit 2: Money
