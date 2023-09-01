@@ -7,15 +7,15 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2023-09-01 13:46:43
 
-title: "___"
+title: "Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data"
 chapter: "General Theorems"
 section: "Bayesian statistics"
 topic: "Probabilistic modeling"
-theorem: "___"
+theorem: "Combined posterior distribution from independent data"
 
 sources:
 
-proof_id: "___"
+proof_id: "P413"
 shortcut: "post-ind"
 username: "JoramSoch"
 ---
