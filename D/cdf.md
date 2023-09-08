@@ -10,8 +10,8 @@ date: 2020-02-17 22:07:00
 title: "Cumulative distribution function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
-definition: "Cumulative distribution function"
+topic: "Cumulative distribution function"
+definition: "Definition"
 
 sources:
   - authors: "Wikipedia"

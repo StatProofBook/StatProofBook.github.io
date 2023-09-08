@@ -10,7 +10,7 @@ date: 2022-10-11 02:01:00
 title: "Probability-generating function is expectation of function of random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Other probability functions"
 theorem: "Probability-generating function in terms of expected value"
 
 sources:

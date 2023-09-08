@@ -10,7 +10,7 @@ date: 2020-08-19 08:36:00
 title: "Moment-generating function of linear combination of independent random variables"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Other probability functions"
 theorem: "Moment-generating function of linear combination"
 
 sources:

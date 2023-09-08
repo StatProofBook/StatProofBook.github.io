@@ -10,7 +10,7 @@ date: 2021-08-30 05:13:00
 title: "Probability mass function of an invertible function of a random vector"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Probability mass function"
 theorem: "Probability mass function of invertible function"
 
 sources:

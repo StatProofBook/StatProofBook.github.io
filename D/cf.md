@@ -10,7 +10,7 @@ date: 2021-09-22 09:20:00
 title: "Characteristic function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Other probability functions"
 definition: "Characteristic function"
 
 sources:

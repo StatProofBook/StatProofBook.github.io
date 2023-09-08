@@ -10,7 +10,7 @@ date: 2021-04-07 08:47:00
 title: "Inverse transformation method using cumulative distribution function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Cumulative distribution function"
 theorem: "Inverse transformation method"
 
 sources:

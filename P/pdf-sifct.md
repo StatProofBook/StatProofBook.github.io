@@ -10,7 +10,7 @@ date: 2020-10-29 06:21:00
 title: "Probability density function of a strictly increasing function of a continuous random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Probability density function"
 theorem: "Probability density function of strictly increasing function"
 
 sources:

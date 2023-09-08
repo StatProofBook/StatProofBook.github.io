@@ -10,7 +10,7 @@ date: 2021-04-07 08:47:00
 title: "Probability integral transform using cumulative distribution function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Cumulative distribution function"
 theorem: "Probability integral transform"
 
 sources:

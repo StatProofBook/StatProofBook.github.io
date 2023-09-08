@@ -10,7 +10,7 @@ date: 2020-10-29 05:35:00
 title: "Cumulative distribution function of a strictly increasing function of a random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Cumulative distribution function"
 theorem: "Cumulative distribution function of strictly increasing function"
 
 sources:

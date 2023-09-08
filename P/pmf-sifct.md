@@ -10,7 +10,7 @@ date: 2020-10-29 05:55:00
 title: "Probability mass function of a strictly increasing function of a discrete random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Probability mass function"
 theorem: "Probability mass function of strictly increasing function"
 
 sources:
