@@ -800,10 +800,11 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.4. **[Derivation of the LME](/P/lme-der)** <br>
    &emsp;&ensp; 3.1.5. **[Expression using prior and posterior](/P/lme-pnp)** <br>
    &emsp;&ensp; 3.1.6. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
-   &emsp;&ensp; 3.1.7. *[Uniform-prior log model evidence](/D/uplme)* <br>
-   &emsp;&ensp; 3.1.8. *[Cross-validated log model evidence](/D/cvlme)* <br>
-   &emsp;&ensp; 3.1.9. *[Empirical Bayesian log model evidence](/D/eblme)* <br>
-   &emsp;&ensp; 3.1.10. *[Variational Bayesian log model evidence](/D/vblme)* <br>
+   &emsp;&ensp; 3.1.7. **[Subtraction of mean from LMEs](/P/lme-mean)** <br>
+   &emsp;&ensp; 3.1.8. *[Uniform-prior log model evidence](/D/uplme)* <br>
+   &emsp;&ensp; 3.1.9. *[Cross-validated log model evidence](/D/cvlme)* <br>
+   &emsp;&ensp; 3.1.10. *[Empirical Bayesian log model evidence](/D/eblme)* <br>
+   &emsp;&ensp; 3.1.11. *[Variational Bayesian log model evidence](/D/vblme)* <br>
    
    3.2. Family evidence <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/fe)* <br>
