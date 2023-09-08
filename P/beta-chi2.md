@@ -33,7 +33,7 @@ $$ \label{eq:chi2}
 X \sim \chi^2(m) \quad \text{and} \quad Y \sim \chi^2(n) \; .
 $$
 
-Then, the quantity $X/(X+Y)$ follows a [beta distributiob](/D/beta):
+Then, the quantity $X/(X+Y)$ follows a [beta distribution](/D/beta):
 
 $$ \label{eq:beta-chi2}
 \frac{X}{X+Y} \sim \mathrm{Bet}\left( \frac{m}{2}, \frac{n}{2} \right) \; .

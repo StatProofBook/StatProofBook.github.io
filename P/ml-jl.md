@@ -27,14 +27,14 @@ $$ \label{eq:ml-jl}
 p(y|m) = \int_{\Theta} p(y,\theta|m) \, \mathrm{d}\theta
 $$
 
-and related to [likelihood function](/D/lf) and [prior distribution](/D/post) as follows:
+and related to [likelihood function](/D/lf) and [prior distribution](/D/prior) as follows:
 
 $$ \label{eq:ml-lf}
 p(y|m) = \int_{\Theta} p(y|\theta,m) \, p(\theta|m) \, \mathrm{d}\theta \; .
 $$
 
 
-**Proof:** In a [full probability model](/D/fpm), the [marginal likelihood](/D/ml) is defined as the [marginal probability](/D/prob-marg) of the data $y$, given only the model $m$:
+**Proof:** In a [full probability model](/D/fpm), the [marginal likelihood](/D/ml) is defined as the marginal probability of the data $y$, given only the model $m$:
 
 $$ \label{eq:ml-def}
 p(y|m) \; .
