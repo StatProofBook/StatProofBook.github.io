@@ -419,3 +419,4 @@ title: "Proof by Number"
 | P411 | duni-maxent | [Discrete uniform distribution maximizes entropy for finite support](/P/duni-maxent) | JoramSoch | 2023-08-18 |
 | P412 | cuni-maxent | [Continuous uniform distribution maximizes differential entropy for fixed range](/P/cuni-maxent) | JoramSoch | 2023-08-25 |
 | P413 | post-ind | [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind) | JoramSoch | 2023-09-01 |
+| P414 | lme-mean | [Equivalence of operations for model evidence and log model evidence](/P/lme-mean) | JoramSoch | 2023-09-08 |
