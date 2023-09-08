@@ -797,7 +797,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.1. *[Definition](/D/me)* <br>
    &emsp;&ensp; 3.1.2. **[Derivation](/P/me-der)** <br>
    &emsp;&ensp; 3.1.3. *[Log model evidence](/D/lme)* <br>
-   &emsp;&ensp; 3.1.4. **[Derivation of the LME](/P/lme-der)** <br>
+   &emsp;&ensp; 3.1.4. **[Derivation of the log model evidence](/P/lme-der)** <br>
    &emsp;&ensp; 3.1.5. **[Expression using prior and posterior](/P/lme-pnp)** <br>
    &emsp;&ensp; 3.1.6. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
    &emsp;&ensp; 3.1.7. **[Subtraction of mean from LMEs](/P/lme-mean)** <br>
@@ -810,7 +810,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.1. *[Definition](/D/fe)* <br>
    &emsp;&ensp; 3.2.2. **[Derivation](/P/fe-der)** <br>
    &emsp;&ensp; 3.2.3. *[Log family evidence](/D/lfe)* <br>
-   &emsp;&ensp; 3.2.4. **[Derivation of the LFE](/P/lfe-der)** <br>
+   &emsp;&ensp; 3.2.4. **[Derivation of the log family evidence](/P/lfe-der)** <br>
    &emsp;&ensp; 3.2.5. **[Calculation from log model evidences](/P/lfe-lme)** <br>
    
    3.3. Bayes factor <br>
@@ -820,7 +820,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.3.4. **[Computation using encompassing prior method](/P/bf-ep)** <br>
    &emsp;&ensp; 3.3.5. *[Encompassing model](/D/encm)* <br>
    &emsp;&ensp; 3.3.6. *[Log Bayes factor](/D/lbf)* <br>
-   &emsp;&ensp; 3.3.7. **[Derivation of the LBF](/P/lbf-der)** <br>
+   &emsp;&ensp; 3.3.7. **[Derivation of the log Bayes factor](/P/lbf-der)** <br>
    &emsp;&ensp; 3.3.8. **[Calculation from log model evidences](/P/lbf-lme)** <br>
    
    3.4. Posterior model probability <br>

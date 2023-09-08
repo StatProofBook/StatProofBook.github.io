@@ -42,7 +42,7 @@ $$
 Then, the [cumulative distribution function](/D/cdf) of $X$ can be expressed as
 
 $$ \label{eq:norm-cdf}
-f_X(x) = \Phi_{\mu,\sigma}(x) = \varphi\left( \frac{x-\mu}{\sigma} \right) \cdot \sum_{i=1}^{\infty} \frac{\left( \frac{x-\mu}{\sigma} \right)^{2i-1}}{(2i-1)!!} + \frac{1}{2}
+F_X(x) = \Phi_{\mu,\sigma}(x) = \varphi\left( \frac{x-\mu}{\sigma} \right) \cdot \sum_{i=1}^{\infty} \frac{\left( \frac{x-\mu}{\sigma} \right)^{2i-1}}{(2i-1)!!} + \frac{1}{2}
 $$
 
 where $\varphi(x)$ is the [probability density function](/D/pdf) of the [standard normal distribution](/D/snorm) and $n!!$ is a double factorial.

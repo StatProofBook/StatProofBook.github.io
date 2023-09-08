@@ -103,7 +103,7 @@ f_{Z,W}(z,w) &= f_X\left( \frac{zw}{1-z} \right) \cdot f_Y(w) \cdot \lvert J \rv
 \end{split}
 $$
 
-The [marginal density](/D/dist-marg) of $Z$ can now be [obtained by integrating out](/D/dist-marg) $W$:
+The [marginal density](/D/dist-marg) of $Z$ can now be [obtained by integrating out](/D/prob-marg) $W$:
 
 $$ \label{eq:f-Z-s1}
 \begin{split}

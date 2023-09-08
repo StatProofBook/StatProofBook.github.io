@@ -11,7 +11,7 @@ title: "Derivation of the log model evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
 topic: "Model evidence"
-theorem: "Derivation of the LME"
+theorem: "Derivation of the log model evidence"
 
 sources:
 

@@ -11,7 +11,7 @@ title: "Derivation of the log Bayes factor"
 chapter: "Model Selection"
 section: "Bayesian model selection"
 topic: "Bayes factor"
-theorem: "Derivation of the LBF"
+theorem: "Derivation of the log Bayes factor"
 
 sources:
 

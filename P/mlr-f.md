@@ -121,13 +121,19 @@ $$ \label{eq:mlr-rss-dist}
 \frac{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}}{\sigma^2} = \tau \, \hat{\varepsilon}^\mathrm{T} \hat{\varepsilon} \sim \chi^2(n-p) \; .
 $$
 
-The [chi-squared distribution is related to the gamma distribution](/P/chi2-gam) in the following way:
+The [chi-squared distribution is a special case of the gamma distribution](/P/chi2-gam)
 
-$$ \label{eq:gam-chi2}
-X \sim \chi^2(k) \quad \Rightarrow \quad cX \sim \mathrm{Gam}\left( \frac{k}{2}, \frac{1}{2c} \right) \; .
+$$ \label{eq:chi2-gam}
+X \sim \chi^2(k) \quad \Rightarrow \quad X \sim \mathrm{Gam}\left( \frac{k}{2}, \frac{1}{2} \right)
 $$
 
-Thus, applying \eqref{eq:gam-chi2} to \eqref{eq:mlr-rss-dist}, we obtain the [marginal distribution](/D/dist-marg) of $\tau$ as:
+and the [gamma distribution changes under multiplication](/P/gam-scal) in the following way:
+
+$$ \label{eq:gam-scal}
+X \sim \mathrm{Gam}\left( a, b \right) \quad \Rightarrow \quad cX \sim \mathrm{Gam}\left( a, \frac{b}{c} \right) \; .
+$$
+
+Thus, combining \eqref{eq:chi2-gam} and \eqref{eq:gam-scal} with \eqref{eq:mlr-rss-dist}, we obtain the [marginal distribution](/D/dist-marg) of $\tau$ as:
 
 $$ \label{eq:tau-dist}
 \frac{1}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} \left( \tau \, \hat{\varepsilon}^\mathrm{T} \hat{\varepsilon} \right) = \tau \sim \mathrm{Gam}\left( \frac{n-p}{2}, \frac{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}}{2} \right) \; .
