@@ -818,6 +818,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.3. *[Log family evidence](/D/lfe)* <br>
    &emsp;&ensp; 3.2.4. **[Derivation of the log family evidence](/P/lfe-der)** <br>
    &emsp;&ensp; 3.2.5. **[Calculation from log model evidences](/P/lfe-lme)** <br>
+   &emsp;&ensp; 3.2.6. **[Approximation of log family evidences](/P/lfe-approx)** <br>
    
    3.3. Bayes factor <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/bf)* <br>
