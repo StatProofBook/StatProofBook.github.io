@@ -420,3 +420,4 @@ title: "Proof by Number"
 | P412 | cuni-maxent | [Continuous uniform distribution maximizes differential entropy for fixed range](/P/cuni-maxent) | JoramSoch | 2023-08-25 |
 | P413 | post-ind | [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind) | JoramSoch | 2023-09-01 |
 | P414 | lme-mean | [Equivalence of operations for model evidence and log model evidence](/P/lme-mean) | JoramSoch | 2023-09-08 |
+| P415 | lfe-approx | [Approximation of log family evidences based on log model evidences](/P/lfe-approx) | JoramSoch | 2023-09-15 |

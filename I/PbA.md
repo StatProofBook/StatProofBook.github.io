@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (386 proofs)
+### JoramSoch (387 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -19,6 +19,7 @@ title: "Proof by Author"
 - [Additivity of the variance for independent random variables](/P/var-add)
 - [Akaike information criterion for multiple linear regression](/P/mlr-aic)
 - [Application of Cochran's theorem to two-way analysis of variance](/P/anova2-cochran)
+- [Approximation of log family evidences based on log model evidences](/P/lfe-approx)
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
 - [Bayesian information criterion for multiple linear regression](/P/mlr-bic)
