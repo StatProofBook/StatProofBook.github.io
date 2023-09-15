@@ -10,7 +10,7 @@ date: 2020-04-07 08:17:00
 title: "Joint cumulative distribution function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Cumulative distribution function"
 definition: "Joint cumulative distribution function"
 
 sources:

@@ -112,6 +112,7 @@ title: "Proof by Topic"
 - [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
+- [Equivalence of operations for model evidence and log model evidence](/P/lme-mean)
 - [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)
 - [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep)
 - [Existence of a corresponding forward model](/P/cfm-exist)

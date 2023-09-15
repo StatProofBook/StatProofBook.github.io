@@ -10,7 +10,7 @@ date: 2021-09-22 09:12:00
 title: "Characteristic function of a function of a random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Other probability functions"
 theorem: "Characteristic function of arbitrary function"
 
 sources:

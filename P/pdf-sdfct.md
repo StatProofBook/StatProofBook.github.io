@@ -10,7 +10,7 @@ date: 2020-11-06 05:30:00
 title: "Probability density function of a strictly decreasing function of a continuous random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Probability density function"
 theorem: "Probability density function of strictly decreasing function"
 
 sources:

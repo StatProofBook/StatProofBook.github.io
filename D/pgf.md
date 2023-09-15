@@ -10,7 +10,7 @@ date: 2020-05-31 23:59:00
 title: "Probability-generating function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Other probability functions"
 definition: "Probability-generating function"
 
 sources:

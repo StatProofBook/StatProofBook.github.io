@@ -10,7 +10,7 @@ date: 2020-11-12 06:03:00
 title: "Cumulative distribution function in terms of probability mass function of a discrete random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Cumulative distribution function"
 theorem: "Cumulative distribution function of discrete random variable"
 
 sources:

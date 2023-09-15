@@ -10,7 +10,7 @@ date: 2020-11-12 07:48:00
 title: "Quantile function is inverse of strictly monotonically increasing cumulative distribution function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Other probability functions"
 theorem: "Quantile function in terms of cumulative distribution function"
 
 sources:

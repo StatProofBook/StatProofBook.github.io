@@ -10,8 +10,8 @@ date: 2020-02-13 19:26:00
 title: "Probability density function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
-definition: "Probability density function"
+topic: "Probability density function"
+definition: "Definition"
 
 sources:
   - authors: "Wikipedia"

@@ -11,7 +11,7 @@ title: "Derivation of the log family evidence"
 chapter: "Model Selection"
 section: "Bayesian model selection"
 topic: "Family evidence"
-theorem: "Derivation of the LFE"
+theorem: "Derivation of the log family evidence"
 
 sources:
 

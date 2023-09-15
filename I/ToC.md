@@ -61,129 +61,135 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.4. *[Conditional distribution](/D/dist-cond)* <br>
    &emsp;&ensp; 1.5.5. *[Sampling distribution](/D/dist-samp)* <br>
    
-   1.6. Probability functions <br>
-   &emsp;&ensp; 1.6.1. *[Probability mass function](/D/pmf)* <br>
+   1.6. Probability mass function <br>
+   &emsp;&ensp; 1.6.1. *[Definition](/D/pmf)* <br>
    &emsp;&ensp; 1.6.2. **[Probability mass function of sum of independents](/P/pmf-sumind)** <br>
    &emsp;&ensp; 1.6.3. **[Probability mass function of strictly increasing function](/P/pmf-sifct)** <br>
    &emsp;&ensp; 1.6.4. **[Probability mass function of strictly decreasing function](/P/pmf-sdfct)** <br>
    &emsp;&ensp; 1.6.5. **[Probability mass function of invertible function](/P/pmf-invfct)** <br>
-   &emsp;&ensp; 1.6.6. *[Probability density function](/D/pdf)* <br>
-   &emsp;&ensp; 1.6.7. **[Probability density function of sum of independents](/P/pdf-sumind)** <br>
-   &emsp;&ensp; 1.6.8. **[Probability density function of strictly increasing function](/P/pdf-sifct)** <br>
-   &emsp;&ensp; 1.6.9. **[Probability density function of strictly decreasing function](/P/pdf-sdfct)** <br>
-   &emsp;&ensp; 1.6.10. **[Probability density function of invertible function](/P/pdf-invfct)** <br>
-   &emsp;&ensp; 1.6.11. **[Probability density function of linear transformation](/P/pdf-linfct)** <br>
-   &emsp;&ensp; 1.6.12. **[Probability density function in terms of cumulative distribution function](/P/pdf-cdf)** <br>
-   &emsp;&ensp; 1.6.13. *[Cumulative distribution function](/D/cdf)* <br>
-   &emsp;&ensp; 1.6.14. **[Cumulative distribution function of sum of independents](/P/cdf-sumind)** <br>
-   &emsp;&ensp; 1.6.15. **[Cumulative distribution function of strictly increasing function](/P/cdf-sifct)** <br>
-   &emsp;&ensp; 1.6.16. **[Cumulative distribution function of strictly decreasing function](/P/cdf-sdfct)** <br>
-   &emsp;&ensp; 1.6.17. **[Cumulative distribution function of discrete random variable](/P/cdf-pmf)** <br>
-   &emsp;&ensp; 1.6.18. **[Cumulative distribution function of continuous random variable](/P/cdf-pdf)** <br>
-   &emsp;&ensp; 1.6.19. **[Probability integral transform](/P/cdf-pit)** <br>
-   &emsp;&ensp; 1.6.20. **[Inverse transformation method](/P/cdf-itm)** <br>
-   &emsp;&ensp; 1.6.21. **[Distributional transformation](/P/cdf-dt)** <br>
-   &emsp;&ensp; 1.6.22. *[Joint cumulative distribution function](/D/cdf-joint)* <br>
-   &emsp;&ensp; 1.6.23. *[Quantile function](/D/qf)* <br>
-   &emsp;&ensp; 1.6.24. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
-   &emsp;&ensp; 1.6.25. *[Characteristic function](/D/cf)* <br>
-   &emsp;&ensp; 1.6.26. **[Characteristic function of arbitrary function](/P/cf-fct)** <br>
-   &emsp;&ensp; 1.6.27. *[Moment-generating function](/D/mgf)* <br>
-   &emsp;&ensp; 1.6.28. **[Moment-generating function of arbitrary function](/P/mgf-fct)** <br>
-   &emsp;&ensp; 1.6.29. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
-   &emsp;&ensp; 1.6.30. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
-   &emsp;&ensp; 1.6.31. *[Probability-generating function](/D/pgf)* <br>
-   &emsp;&ensp; 1.6.32. **[Probability-generating function in terms of expected value](/P/pgf-mean)** <br>
-   &emsp;&ensp; 1.6.33. **[Probability-generating function of zero](/P/pgf-zero)** <br>
-   &emsp;&ensp; 1.6.34. **[Probability-generating function of one](/P/pgf-one)** <br>
-   &emsp;&ensp; 1.6.35. *[Cumulant-generating function](/D/cgf)* <br>
    
-   1.7. Expected value <br>
-   &emsp;&ensp; 1.7.1. *[Definition](/D/mean)* <br>
-   &emsp;&ensp; 1.7.2. *[Sample mean](/D/mean-samp)* <br>
-   &emsp;&ensp; 1.7.3. **[Non-negative random variable](/P/mean-nnrvar)** <br>
-   &emsp;&ensp; 1.7.4. **[Non-negativity](/P/mean-nonneg)** <br>
-   &emsp;&ensp; 1.7.5. **[Linearity](/P/mean-lin)** <br>
-   &emsp;&ensp; 1.7.6. **[Monotonicity](/P/mean-mono)** <br>
-   &emsp;&ensp; 1.7.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
-   &emsp;&ensp; 1.7.8. **[Expectation of a trace](/P/mean-tr)** <br>
-   &emsp;&ensp; 1.7.9. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.7.10. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
-   &emsp;&ensp; 1.7.11. **[Law of total expectation](/P/mean-tot)** <br>
-   &emsp;&ensp; 1.7.12. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
-   &emsp;&ensp; 1.7.13. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.7.14. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   1.7. Probability density function <br>
+   &emsp;&ensp; 1.7.1. *[Definition](/D/pdf)* <br>
+   &emsp;&ensp; 1.7.2. **[Probability density function of sum of independents](/P/pdf-sumind)** <br>
+   &emsp;&ensp; 1.7.3. **[Probability density function of strictly increasing function](/P/pdf-sifct)** <br>
+   &emsp;&ensp; 1.7.4. **[Probability density function of strictly decreasing function](/P/pdf-sdfct)** <br>
+   &emsp;&ensp; 1.7.5. **[Probability density function of invertible function](/P/pdf-invfct)** <br>
+   &emsp;&ensp; 1.7.6. **[Probability density function of linear transformation](/P/pdf-linfct)** <br>
+   &emsp;&ensp; 1.7.7. **[Probability density function in terms of cumulative distribution function](/P/pdf-cdf)** <br>
    
-   1.8. Variance <br>
-   &emsp;&ensp; 1.8.1. *[Definition](/D/var)* <br>
-   &emsp;&ensp; 1.8.2. *[Sample variance](/D/var-samp)* <br>
-   &emsp;&ensp; 1.8.3. **[Partition into expected values](/P/var-mean)** <br>
-   &emsp;&ensp; 1.8.4. **[Non-negativity](/P/var-nonneg)** <br>
-   &emsp;&ensp; 1.8.5. **[Variance of a constant](/P/var-const)** <br>
-   &emsp;&ensp; 1.8.6. **[Invariance under addition](/P/var-inv)** <br>
-   &emsp;&ensp; 1.8.7. **[Scaling upon multiplication](/P/var-scal)** <br>
-   &emsp;&ensp; 1.8.8. **[Variance of a sum](/P/var-sum)** <br>
-   &emsp;&ensp; 1.8.9. **[Variance of linear combination](/P/var-lincomb)** <br>
-   &emsp;&ensp; 1.8.10. **[Additivity under independence](/P/var-add)** <br>
-   &emsp;&ensp; 1.8.11. **[Law of total variance](/P/var-tot)** <br>
-   &emsp;&ensp; 1.8.12. *[Precision](/D/prec)* <br>
+   1.8. Cumulative distribution function <br>
+   &emsp;&ensp; 1.8.1. *[Definition](/D/cdf)* <br>
+   &emsp;&ensp; 1.8.2. **[Cumulative distribution function of sum of independents](/P/cdf-sumind)** <br>
+   &emsp;&ensp; 1.8.3. **[Cumulative distribution function of strictly increasing function](/P/cdf-sifct)** <br>
+   &emsp;&ensp; 1.8.4. **[Cumulative distribution function of strictly decreasing function](/P/cdf-sdfct)** <br>
+   &emsp;&ensp; 1.8.5. **[Cumulative distribution function of discrete random variable](/P/cdf-pmf)** <br>
+   &emsp;&ensp; 1.8.6. **[Cumulative distribution function of continuous random variable](/P/cdf-pdf)** <br>
+   &emsp;&ensp; 1.8.7. **[Probability integral transform](/P/cdf-pit)** <br>
+   &emsp;&ensp; 1.8.8. **[Inverse transformation method](/P/cdf-itm)** <br>
+   &emsp;&ensp; 1.8.9. **[Distributional transformation](/P/cdf-dt)** <br>
+   &emsp;&ensp; 1.8.10. *[Joint cumulative distribution function](/D/cdf-joint)* <br>
    
-   1.9. Skewness <br>
-   &emsp;&ensp; 1.9.1. *[Definition](/D/skew)* <br>
-   &emsp;&ensp; 1.9.2. **[Partition into expected values](/P/skew-mean)** <br>
+   1.9. Other probability functions <br>
+   &emsp;&ensp; 1.9.1. *[Quantile function](/D/qf)* <br>
+   &emsp;&ensp; 1.9.2. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
+   &emsp;&ensp; 1.9.3. *[Characteristic function](/D/cf)* <br>
+   &emsp;&ensp; 1.9.4. **[Characteristic function of arbitrary function](/P/cf-fct)** <br>
+   &emsp;&ensp; 1.9.5. *[Moment-generating function](/D/mgf)* <br>
+   &emsp;&ensp; 1.9.6. **[Moment-generating function of arbitrary function](/P/mgf-fct)** <br>
+   &emsp;&ensp; 1.9.7. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
+   &emsp;&ensp; 1.9.8. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
+   &emsp;&ensp; 1.9.9. *[Probability-generating function](/D/pgf)* <br>
+   &emsp;&ensp; 1.9.10. **[Probability-generating function in terms of expected value](/P/pgf-mean)** <br>
+   &emsp;&ensp; 1.9.11. **[Probability-generating function of zero](/P/pgf-zero)** <br>
+   &emsp;&ensp; 1.9.12. **[Probability-generating function of one](/P/pgf-one)** <br>
+   &emsp;&ensp; 1.9.13. *[Cumulant-generating function](/D/cgf)* <br>
    
-   1.10. Covariance <br>
-   &emsp;&ensp; 1.10.1. *[Definition](/D/cov)* <br>
-   &emsp;&ensp; 1.10.2. *[Sample covariance](/D/cov-samp)* <br>
-   &emsp;&ensp; 1.10.3. **[Partition into expected values](/P/cov-mean)** <br>
-   &emsp;&ensp; 1.10.4. **[Symmetry](/P/cov-symm)** <br>
-   &emsp;&ensp; 1.10.5. **[Self-covariance](/P/cov-var)** <br>
-   &emsp;&ensp; 1.10.6. **[Covariance under independence](/P/cov-ind)** <br>
-   &emsp;&ensp; 1.10.7. **[Relationship to correlation](/P/cov-corr)** <br>
-   &emsp;&ensp; 1.10.8. **[Law of total covariance](/P/cov-tot)** <br>
-   &emsp;&ensp; 1.10.9. *[Covariance matrix](/D/covmat)* <br>
-   &emsp;&ensp; 1.10.10. *[Sample covariance matrix](/D/covmat-samp)* <br>
-   &emsp;&ensp; 1.10.11. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.10.12. **[Symmetry](/P/covmat-symm)** <br>
-   &emsp;&ensp; 1.10.13. **[Positive semi-definiteness](/P/covmat-psd)** <br>
-   &emsp;&ensp; 1.10.14. **[Invariance under addition of vector](/P/covmat-inv)** <br>
-   &emsp;&ensp; 1.10.15. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
-   &emsp;&ensp; 1.10.16. *[Cross-covariance matrix](/D/covmat-cross)* <br>
-   &emsp;&ensp; 1.10.17. **[Covariance matrix of a sum](/P/covmat-sum)** <br>
-   &emsp;&ensp; 1.10.18. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.10.19. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.10.20. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   1.10. Expected value <br>
+   &emsp;&ensp; 1.10.1. *[Definition](/D/mean)* <br>
+   &emsp;&ensp; 1.10.2. *[Sample mean](/D/mean-samp)* <br>
+   &emsp;&ensp; 1.10.3. **[Non-negative random variable](/P/mean-nnrvar)** <br>
+   &emsp;&ensp; 1.10.4. **[Non-negativity](/P/mean-nonneg)** <br>
+   &emsp;&ensp; 1.10.5. **[Linearity](/P/mean-lin)** <br>
+   &emsp;&ensp; 1.10.6. **[Monotonicity](/P/mean-mono)** <br>
+   &emsp;&ensp; 1.10.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
+   &emsp;&ensp; 1.10.8. **[Expectation of a trace](/P/mean-tr)** <br>
+   &emsp;&ensp; 1.10.9. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.10.10. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
+   &emsp;&ensp; 1.10.11. **[Law of total expectation](/P/mean-tot)** <br>
+   &emsp;&ensp; 1.10.12. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.10.13. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.10.14. *[Expected value of a random matrix](/D/mean-rmat)* <br>
    
-   1.11. Correlation <br>
-   &emsp;&ensp; 1.11.1. *[Definition](/D/corr)* <br>
-   &emsp;&ensp; 1.11.2. **[Range](/P/corr-range)** <br>
-   &emsp;&ensp; 1.11.3. *[Sample correlation coefficient](/D/corr-samp)* <br>
-   &emsp;&ensp; 1.11.4. **[Relationship to standard scores](/P/corr-z)** <br>
-   &emsp;&ensp; 1.11.5. *[Correlation matrix](/D/corrmat)* <br>
-   &emsp;&ensp; 1.11.6. *[Sample correlation matrix](/D/corrmat-samp)* <br>
+   1.11. Variance <br>
+   &emsp;&ensp; 1.11.1. *[Definition](/D/var)* <br>
+   &emsp;&ensp; 1.11.2. *[Sample variance](/D/var-samp)* <br>
+   &emsp;&ensp; 1.11.3. **[Partition into expected values](/P/var-mean)** <br>
+   &emsp;&ensp; 1.11.4. **[Non-negativity](/P/var-nonneg)** <br>
+   &emsp;&ensp; 1.11.5. **[Variance of a constant](/P/var-const)** <br>
+   &emsp;&ensp; 1.11.6. **[Invariance under addition](/P/var-inv)** <br>
+   &emsp;&ensp; 1.11.7. **[Scaling upon multiplication](/P/var-scal)** <br>
+   &emsp;&ensp; 1.11.8. **[Variance of a sum](/P/var-sum)** <br>
+   &emsp;&ensp; 1.11.9. **[Variance of linear combination](/P/var-lincomb)** <br>
+   &emsp;&ensp; 1.11.10. **[Additivity under independence](/P/var-add)** <br>
+   &emsp;&ensp; 1.11.11. **[Law of total variance](/P/var-tot)** <br>
+   &emsp;&ensp; 1.11.12. *[Precision](/D/prec)* <br>
    
-   1.12. Measures of central tendency <br>
-   &emsp;&ensp; 1.12.1. *[Median](/D/med)* <br>
-   &emsp;&ensp; 1.12.2. *[Mode](/D/mode)* <br>
+   1.12. Skewness <br>
+   &emsp;&ensp; 1.12.1. *[Definition](/D/skew)* <br>
+   &emsp;&ensp; 1.12.2. **[Partition into expected values](/P/skew-mean)** <br>
    
-   1.13. Measures of statistical dispersion <br>
-   &emsp;&ensp; 1.13.1. *[Standard deviation](/D/std)* <br>
-   &emsp;&ensp; 1.13.2. *[Full width at half maximum](/D/fwhm)* <br>
+   1.13. Covariance <br>
+   &emsp;&ensp; 1.13.1. *[Definition](/D/cov)* <br>
+   &emsp;&ensp; 1.13.2. *[Sample covariance](/D/cov-samp)* <br>
+   &emsp;&ensp; 1.13.3. **[Partition into expected values](/P/cov-mean)** <br>
+   &emsp;&ensp; 1.13.4. **[Symmetry](/P/cov-symm)** <br>
+   &emsp;&ensp; 1.13.5. **[Self-covariance](/P/cov-var)** <br>
+   &emsp;&ensp; 1.13.6. **[Covariance under independence](/P/cov-ind)** <br>
+   &emsp;&ensp; 1.13.7. **[Relationship to correlation](/P/cov-corr)** <br>
+   &emsp;&ensp; 1.13.8. **[Law of total covariance](/P/cov-tot)** <br>
+   &emsp;&ensp; 1.13.9. *[Covariance matrix](/D/covmat)* <br>
+   &emsp;&ensp; 1.13.10. *[Sample covariance matrix](/D/covmat-samp)* <br>
+   &emsp;&ensp; 1.13.11. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.13.12. **[Symmetry](/P/covmat-symm)** <br>
+   &emsp;&ensp; 1.13.13. **[Positive semi-definiteness](/P/covmat-psd)** <br>
+   &emsp;&ensp; 1.13.14. **[Invariance under addition of vector](/P/covmat-inv)** <br>
+   &emsp;&ensp; 1.13.15. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
+   &emsp;&ensp; 1.13.16. *[Cross-covariance matrix](/D/covmat-cross)* <br>
+   &emsp;&ensp; 1.13.17. **[Covariance matrix of a sum](/P/covmat-sum)** <br>
+   &emsp;&ensp; 1.13.18. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.13.19. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.13.20. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
-   1.14. Further summary statistics <br>
-   &emsp;&ensp; 1.14.1. *[Minimum](/D/min)* <br>
-   &emsp;&ensp; 1.14.2. *[Maximum](/D/max)* <br>
+   1.14. Correlation <br>
+   &emsp;&ensp; 1.14.1. *[Definition](/D/corr)* <br>
+   &emsp;&ensp; 1.14.2. **[Range](/P/corr-range)** <br>
+   &emsp;&ensp; 1.14.3. *[Sample correlation coefficient](/D/corr-samp)* <br>
+   &emsp;&ensp; 1.14.4. **[Relationship to standard scores](/P/corr-z)** <br>
+   &emsp;&ensp; 1.14.5. *[Correlation matrix](/D/corrmat)* <br>
+   &emsp;&ensp; 1.14.6. *[Sample correlation matrix](/D/corrmat-samp)* <br>
    
-   1.15. Further moments <br>
-   &emsp;&ensp; 1.15.1. *[Moment](/D/mom)* <br>
-   &emsp;&ensp; 1.15.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-   &emsp;&ensp; 1.15.3. *[Raw moment](/D/mom-raw)* <br>
-   &emsp;&ensp; 1.15.4. **[First raw moment is mean](/P/momraw-1st)** <br>
-   &emsp;&ensp; 1.15.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
-   &emsp;&ensp; 1.15.6. *[Central moment](/D/mom-cent)* <br>
-   &emsp;&ensp; 1.15.7. **[First central moment is zero](/P/momcent-1st)** <br>
-   &emsp;&ensp; 1.15.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
-   &emsp;&ensp; 1.15.9. *[Standardized moment](/D/mom-stand)* <br>
+   1.15. Measures of central tendency <br>
+   &emsp;&ensp; 1.15.1. *[Median](/D/med)* <br>
+   &emsp;&ensp; 1.15.2. *[Mode](/D/mode)* <br>
+   
+   1.16. Measures of statistical dispersion <br>
+   &emsp;&ensp; 1.16.1. *[Standard deviation](/D/std)* <br>
+   &emsp;&ensp; 1.16.2. *[Full width at half maximum](/D/fwhm)* <br>
+   
+   1.17. Further summary statistics <br>
+   &emsp;&ensp; 1.17.1. *[Minimum](/D/min)* <br>
+   &emsp;&ensp; 1.17.2. *[Maximum](/D/max)* <br>
+   
+   1.18. Further moments <br>
+   &emsp;&ensp; 1.18.1. *[Moment](/D/mom)* <br>
+   &emsp;&ensp; 1.18.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+   &emsp;&ensp; 1.18.3. *[Raw moment](/D/mom-raw)* <br>
+   &emsp;&ensp; 1.18.4. **[First raw moment is mean](/P/momraw-1st)** <br>
+   &emsp;&ensp; 1.18.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
+   &emsp;&ensp; 1.18.6. *[Central moment](/D/mom-cent)* <br>
+   &emsp;&ensp; 1.18.7. **[First central moment is zero](/P/momcent-1st)** <br>
+   &emsp;&ensp; 1.18.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
+   &emsp;&ensp; 1.18.9. *[Standardized moment](/D/mom-stand)* <br>
 
 2. Information theory
    
@@ -797,7 +803,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.1. *[Definition](/D/me)* <br>
    &emsp;&ensp; 3.1.2. **[Derivation](/P/me-der)** <br>
    &emsp;&ensp; 3.1.3. *[Log model evidence](/D/lme)* <br>
-   &emsp;&ensp; 3.1.4. **[Derivation of the LME](/P/lme-der)** <br>
+   &emsp;&ensp; 3.1.4. **[Derivation of the log model evidence](/P/lme-der)** <br>
    &emsp;&ensp; 3.1.5. **[Expression using prior and posterior](/P/lme-pnp)** <br>
    &emsp;&ensp; 3.1.6. **[Partition into accuracy and complexity](/P/lme-anc)** <br>
    &emsp;&ensp; 3.1.7. **[Subtraction of mean from LMEs](/P/lme-mean)** <br>
@@ -810,7 +816,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.1. *[Definition](/D/fe)* <br>
    &emsp;&ensp; 3.2.2. **[Derivation](/P/fe-der)** <br>
    &emsp;&ensp; 3.2.3. *[Log family evidence](/D/lfe)* <br>
-   &emsp;&ensp; 3.2.4. **[Derivation of the LFE](/P/lfe-der)** <br>
+   &emsp;&ensp; 3.2.4. **[Derivation of the log family evidence](/P/lfe-der)** <br>
    &emsp;&ensp; 3.2.5. **[Calculation from log model evidences](/P/lfe-lme)** <br>
    
    3.3. Bayes factor <br>
@@ -820,7 +826,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.3.4. **[Computation using encompassing prior method](/P/bf-ep)** <br>
    &emsp;&ensp; 3.3.5. *[Encompassing model](/D/encm)* <br>
    &emsp;&ensp; 3.3.6. *[Log Bayes factor](/D/lbf)* <br>
-   &emsp;&ensp; 3.3.7. **[Derivation of the LBF](/P/lbf-der)** <br>
+   &emsp;&ensp; 3.3.7. **[Derivation of the log Bayes factor](/P/lbf-der)** <br>
    &emsp;&ensp; 3.3.8. **[Calculation from log model evidences](/P/lbf-lme)** <br>
    
    3.4. Posterior model probability <br>

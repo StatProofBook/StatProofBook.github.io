@@ -10,7 +10,7 @@ date: 2020-05-31 23:46:00
 title: "Cumulant-generating function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Other probability functions"
 definition: "Cumulant-generating function"
 
 sources:

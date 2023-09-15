@@ -10,7 +10,7 @@ date: 2021-08-30 09:14:00
 title: "Probability mass function of a sum of independent discrete random variables"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Probability mass function"
 theorem: "Probability mass function of sum of independents"
 
 sources:

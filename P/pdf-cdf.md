@@ -10,7 +10,7 @@ date: 2020-11-12 07:19:00
 title: "Probability density function is first derivative of cumulative distribution function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Probability density function"
 theorem: "Probability density function in terms of cumulative distribution function"
 
 sources:

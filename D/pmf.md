@@ -10,8 +10,8 @@ date: 2020-02-13 19:09:00
 title: "Probability mass function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
-definition: "Probability mass function"
+topic: "Probability mass function"
+definition: "Definition"
 
 sources:
   - authors: "Wikipedia"

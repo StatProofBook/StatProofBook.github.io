@@ -10,7 +10,7 @@ date: 2021-04-07 09:19:00
 title: "Distributional transformation using cumulative distribution function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Cumulative distribution function"
 theorem: "Distributional transformation"
 
 sources:

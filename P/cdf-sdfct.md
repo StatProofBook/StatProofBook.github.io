@@ -10,7 +10,7 @@ date: 2020-11-06 04:12:00
 title: "Cumulative distribution function of a strictly decreasing function of a random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Cumulative distribution function"
 theorem: "Cumulative distribution function of strictly decreasing function"
 
 sources:

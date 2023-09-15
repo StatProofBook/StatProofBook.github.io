@@ -10,7 +10,7 @@ date: 2021-08-30 07:05:00
 title: "Probability density function of an invertible function of a continuous random vector"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Probability density function"
 theorem: "Probability density function of invertible function"
 
 sources:

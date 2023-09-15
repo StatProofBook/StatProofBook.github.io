@@ -10,7 +10,7 @@ date: 2021-08-30 09:31:00
 title: "Probability density function of a sum of independent discrete random variables"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Probability density function"
 theorem: "Probability density function of sum of independents"
 
 sources:

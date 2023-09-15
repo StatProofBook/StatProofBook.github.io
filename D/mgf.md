@@ -10,7 +10,7 @@ date: 2020-01-22 10:58:00
 title: "Moment-generating function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Other probability functions"
 definition: "Moment-generating function"
 
 sources:

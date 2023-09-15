@@ -10,7 +10,7 @@ date: 2021-08-30 08:53:00
 title: "Cumulative distribution function of a sum of independent random variables"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Cumulative distribution function"
 theorem: "Cumulative distribution function of sum of independents"
 
 sources:

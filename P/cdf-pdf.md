@@ -10,7 +10,7 @@ date: 2020-11-12 06:33:00
 title: "Cumulative distribution function in terms of probability density function of a continuous random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability functions"
+topic: "Cumulative distribution function"
 theorem: "Cumulative distribution function of continuous random variable"
 
 sources:
