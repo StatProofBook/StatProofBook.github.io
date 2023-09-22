@@ -21,13 +21,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X = \left[ \begin{matrix} X_1 \\ X_2 \end{matrix} \right]$ follow a bivariate normal distribution:
+**Theorem:** Let $X = \left[ \begin{matrix} X_1 & X_2 \end{matrix} \right]^\mathrm{T}$ follow a [bivariate normal distribution](/D/bvn):
 
 $$ \label{eq:bvn}
 X \sim \mathcal{N}\left( \mu = \left[ \begin{matrix} \mu_1 \\ \mu_2 \end{matrix} \right], \Sigma = \left[ \begin{matrix} \sigma_1^2 & \sigma_{12} \\ \sigma_{12} & \sigma_2^2 \end{matrix} \right] \right) \; .
 $$
 
-Then, the probability density function of $X$ is:
+Then, the [probability density function](/D/pdf) of $X$ is:
 
 $$ \label{eq:bvn-pdf}
 f_X(x) = \frac{1}{2 \pi \sqrt{\sigma_1^2 \sigma_2^2 - \sigma_{12}^2}} \cdot \exp \left[ -\frac{1}{2} \frac{\sigma_2^2 (x_1-\mu_1)^2 - 2 \sigma_{12} (x_1-\mu_1)(x_2-\mu_2) + \sigma_1^2 (x_2-\mu_2)^2}{\sigma_1^2 \sigma_2^2 - \sigma_{12}^2} \right] \; .
@@ -40,7 +40,7 @@ $$ \label{eq:mvn-pdf}
 f_X(x) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \; .
 $$
 
-Plugging in $n = 2$, $\mu = \left[ \begin{matrix} \mu_1 \\ \mu_2 \end{matrix} \right]$ and $\Sigma = \left[ \begin{matrix} \sigma_1^2 & \sigma_{12} \\ \sigma_{12} & \sigma_2^2 \end{matrix} \right]$, we obtain:
+Plugging in $n = 2$ as well as $\mu$ and $\Sigma$ from equation \eqref{eq:bvn}, we obtain:
 
 $$ \label{eq:bvn-pdf-s1}
 \begin{split}
@@ -61,7 +61,7 @@ $$ \label{eq:inv-2x2}
 \left[ \begin{matrix} a & b \\ c & d \end{matrix} \right]^{-1} = \frac{1}{a d - b c} \left[ \begin{matrix} d & -b \\ -c & a \end{matrix} \right] \; ,
 $$
 
-the probability density function becomes:
+the [probability density function](/D/pdf) becomes:
 
 $$ \label{eq:bvn-pdf-s2}
 \begin{split}

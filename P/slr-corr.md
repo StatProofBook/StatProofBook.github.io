@@ -39,7 +39,7 @@ $$ \label{eq:slr}
 y = \beta_0 + \beta_1 x + \varepsilon, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n
 $$
 
-and consider estimation using [ordinary least squares](/P/slr-ols). Then, [correlation coefficient](/D/corr) and the estimated value of the [slope parameter](/D/slr) are related to each other via the sample [standard deviations](/D/std):
+and consider estimation using [ordinary least squares](/P/slr-ols). Then, [correlation coefficient](/D/corr-samp) and the estimated value of the [slope parameter](/D/slr) are related to each other via the [sample](/D/var-samp) [standard deviations](/D/std):
 
 $$ \label{eq:slr-corr}
 r_{xy} = \frac{s_x}{s_y} \, \hat{\beta}_1 \; .
@@ -58,7 +58,7 @@ $$ \label{eq:cov-corr}
 \mathrm{Cov}(X,Y) = \sigma_X \, \mathrm{Corr}(X,Y) \, \sigma_Y
 $$
 
-which also holds for sample [correlation](/D/corr) and [sample covariance](/D/cov-samp)
+which also holds for [sample correlation](/D/corr-samp) and [sample covariance](/D/cov-samp)
 
 $$ \label{eq:cov-corr-samp}
 s_{xy} = s_x \, r_{xy} \, s_y \; ,
