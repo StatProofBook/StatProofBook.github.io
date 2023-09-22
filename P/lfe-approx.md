@@ -18,7 +18,7 @@ sources:
     year: 2018
     title: "cvBMS and cvBMA: filling in the gaps"
     in: "arXiv stat.ME"
-    pages: "1807.01585"
+    pages: "1807.01585, sect. 2.3, pp. 6-7, eq. 32"
     url: "https://arxiv.org/abs/1807.01585"
 
 proof_id: "P415"
@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $m_1, \ldots, m_M$ be $M$ statistical models with [log model evidences](/D/lme) $\mathrm{LME}(m_1), \ldots, \mathrm{LME}(m_M)$ and belonging to $F$ mutually exclusive model families $f_1, \ldots, f_F$.
+**Theorem:** Let $m_1, \ldots, m_M$ be $M$ statistical models with [log model evidences](/D/lme) $\mathrm{LME}(m_1), \ldots, \mathrm{LME}(m_M)$ and belonging to $F$ [mutually exclusive](/D/exc) [model families](/D/fe) $f_1, \ldots, f_F$.
 
 1) Then, the [log family evidences](/D/lfe) can be approximated as
 
@@ -73,8 +73,7 @@ Using the relation \eqref{eq:LME-diff}, equation \eqref{eq:LFE-LME} can be rewor
 
 $$ \label{eq:LFE-approx-v1-qed}
 \begin{split}
-\mathrm{LFE}(f_j) &= \log \sum_{m_i \in f_j} \exp[\mathrm{LME}(m_i)] \cdot p(m_i|f_j) \\
-&= \log \sum_{m_i \in f_j} \exp[\mathrm{L}'(m_i) + \mathrm{L}^{*}(f_j)] \cdot p(m_i|f_j) \\
+\mathrm{LFE}(f_j) &= \log \sum_{m_i \in f_j} \exp[\mathrm{L}'(m_i) + \mathrm{L}^{*}(f_j)] \cdot p(m_i|f_j) \\
 &= \log \sum_{m_i \in f_j} \exp[\mathrm{L}'(m_i)] \cdot \exp[\mathrm{L}^{*}(f_j)] \cdot p(m_i|f_j) \\
 &= \log \left[ \exp[\mathrm{L}^{*}(f_j)] \cdot \sum_{m_i \in f_j} \exp[\mathrm{L}'(m_i)] \cdot p(m_i|f_j) \right] \\
 &= \mathrm{L}^{*}(f_j) + \log \left[ \sum_{m_i \in f_j} \exp[\mathrm{L}'(m_i)] \cdot p(m_i|f_j) \right] \; .

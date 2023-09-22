@@ -15,6 +15,7 @@ title: "Proof by Topic"
 - [Additivity of the variance for independent random variables](/P/var-add)
 - [Akaike information criterion for multiple linear regression](/P/mlr-aic)
 - [Application of Cochran's theorem to two-way analysis of variance](/P/anova2-cochran)
+- [Approximation of log family evidences based on log model evidences](/P/lfe-approx)
 
 ### B
 
