@@ -497,18 +497,20 @@ title: "Table of Contents"
 
    4.1. Multivariate normal distribution <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn)* <br>
-   &emsp;&ensp; 4.1.2. **[Relationship to chi-squared distribution](/P/mvn-chi2)** <br>
-   &emsp;&ensp; 4.1.3. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
-   &emsp;&ensp; 4.1.4. **[Probability density function](/P/mvn-pdf)** <br>
-   &emsp;&ensp; 4.1.5. **[Mean](/P/mvn-mean)** <br>
-   &emsp;&ensp; 4.1.6. **[Covariance](/P/mvn-cov)** <br>
-   &emsp;&ensp; 4.1.7. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.8. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.9. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.10. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.11. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.12. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.13. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.2. *[Bivariate normal distribution](/D/bvn)* <br>
+   &emsp;&ensp; 4.1.3. **[Relationship to chi-squared distribution](/P/mvn-chi2)** <br>
+   &emsp;&ensp; 4.1.4. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
+   &emsp;&ensp; 4.1.5. **[Probability density function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.6. **[Probability density function of the bivariate normal distribution](/P/bvn-pdf)** <br>
+   &emsp;&ensp; 4.1.7. **[Mean](/P/mvn-mean)** <br>
+   &emsp;&ensp; 4.1.8. **[Covariance](/P/mvn-cov)** <br>
+   &emsp;&ensp; 4.1.9. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.10. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.11. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.12. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.13. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.14. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.15. **[Independence of products](/P/mvn-indprod)** <br>
    
    4.2. Multivariate t-distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
