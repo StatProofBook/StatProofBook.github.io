@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (388 proofs)
+### JoramSoch (389 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -283,6 +283,7 @@ title: "Proof by Author"
 - [Probability density function of an invertible function of a continuous random vector](/P/pdf-invfct)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the bivariate normal distribution](/P/bvn-pdf)
+- [Probability density function of the bivariate normal distribution in terms of correlation coefficient](/P/bvn-pdfcorr)
 - [Probability density function of the chi-squared distribution](/P/chi2-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)

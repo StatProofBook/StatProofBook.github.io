@@ -422,3 +422,4 @@ title: "Proof by Number"
 | P414 | lme-mean | [Equivalence of operations for model evidence and log model evidence](/P/lme-mean) | JoramSoch | 2023-09-08 |
 | P415 | lfe-approx | [Approximation of log family evidences based on log model evidences](/P/lfe-approx) | JoramSoch | 2023-09-15 |
 | P416 | bvn-pdf | [Probability density function of the bivariate normal distribution](/P/bvn-pdf) | JoramSoch | 2023-09-22 |
+| P417 | bvn-pdfcorr | [Probability density function of the bivariate normal distribution in terms of correlation coefficient](/P/bvn-pdfcorr) | JoramSoch | 2023-09-29 |
