@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be an $2 \times 1$ [random vector](/D/rvec). Then, $X$ is said to have a bivariate normal distribution, if $X$ follows a [multivariate normal distribution](/D/mvn) with mean $\mu$ and covariance $\Sigma$
+**Definition:** Let $X$ be an $2 \times 1$ [random vector](/D/rvec). Then, $X$ is said to have a bivariate normal distribution, if $X$ follows a [multivariate normal distribution](/D/mvn)
 
 $$ \label{eq:mvn}
 X \sim \mathcal{N}(\mu, \Sigma)

@@ -21,6 +21,7 @@ title: "Definition by Topic"
 - [Beta-distributed data](/D/beta-data)
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
+- [Bivariate normal distribution](/D/bvn)
 
 ### C
 

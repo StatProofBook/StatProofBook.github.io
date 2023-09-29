@@ -195,3 +195,4 @@ title: "Definition by Number"
 | D186 | fcon | [F-contrast for contrast-based inference in multiple linear regression](/D/fcon) | JoramSoch | 2022-12-16 |
 | D187 | exg | [ex-Gaussian distribution](/D/exg) | tomfaulkenberry | 2023-04-18 |
 | D188 | skew | [Skewness](/D/skew) | tomfaulkenberry | 2023-04-20 |
+| D189 | bvn | [Bivariate normal distribution](/D/bvn) | JoramSoch | 2023-09-22 |

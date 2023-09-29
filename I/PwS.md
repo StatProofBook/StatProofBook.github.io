@@ -98,6 +98,7 @@ title: "Proofs without Source"
 - [Posterior probability of the alternative model for binomial observations](/P/bin-pp)
 - [Posterior probability of the alternative model for multinomial observations](/P/mult-pp)
 - [Probability density function of the beta distribution](/P/beta-pdf)
+- [Probability density function of the bivariate normal distribution](/P/bvn-pdf)
 - [Probability density function of the continuous uniform distribution](/P/cuni-pdf)
 - [Probability density function of the Dirichlet distribution](/P/dir-pdf)
 - [Probability density function of the ex-Gaussian distribution](/P/exg-pdf)

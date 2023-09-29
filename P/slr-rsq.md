@@ -45,7 +45,7 @@ $$ \label{eq:slr}
 y = \beta_0 + \beta_1 x + \varepsilon, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n
 $$
 
-and consider estimation using [ordinary least squares](/P/slr-ols). Then, the [coefficient of determination](/D/rsq) is equal to the squared [correlation coefficient](/D/corr) between $x$ and $y$:
+and consider estimation using [ordinary least squares](/P/slr-ols). Then, the [coefficient of determination](/D/rsq) is equal to the squared [correlation coefficient](/D/corr-samp) between $x$ and $y$:
 
 $$ \label{eq:slr-R2}
 R^2 = r_{xy}^2 \; .

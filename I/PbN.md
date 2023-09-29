@@ -421,3 +421,4 @@ title: "Proof by Number"
 | P413 | post-ind | [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind) | JoramSoch | 2023-09-01 |
 | P414 | lme-mean | [Equivalence of operations for model evidence and log model evidence](/P/lme-mean) | JoramSoch | 2023-09-08 |
 | P415 | lfe-approx | [Approximation of log family evidences based on log model evidences](/P/lfe-approx) | JoramSoch | 2023-09-15 |
+| P416 | bvn-pdf | [Probability density function of the bivariate normal distribution](/P/bvn-pdf) | JoramSoch | 2023-09-22 |
