@@ -643,32 +643,33 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.2. **[Special case of general linear model](/P/mlr-glm)** <br>
    &emsp;&ensp; 1.5.3. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
    &emsp;&ensp; 1.5.4. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
-   &emsp;&ensp; 1.5.5. *[Total sum of squares](/D/tss)* <br>
-   &emsp;&ensp; 1.5.6. *[Explained sum of squares](/D/ess)* <br>
-   &emsp;&ensp; 1.5.7. *[Residual sum of squares](/D/rss)* <br>
-   &emsp;&ensp; 1.5.8. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
-   &emsp;&ensp; 1.5.9. *[Estimation matrix](/D/emat)* <br>
-   &emsp;&ensp; 1.5.10. *[Projection matrix](/D/pmat)* <br>
-   &emsp;&ensp; 1.5.11. *[Residual-forming matrix](/D/rfmat)* <br>
-   &emsp;&ensp; 1.5.12. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
-   &emsp;&ensp; 1.5.13. **[Symmetry of projection and residual-forming matrix](/P/mlr-symm)** <br>
-   &emsp;&ensp; 1.5.14. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
-   &emsp;&ensp; 1.5.15. **[Independence of estimated parameters and residuals](/P/mlr-ind)** <br>
-   &emsp;&ensp; 1.5.16. **[Distribution of OLS estimates, signal and residuals](/P/mlr-olsdist)** <br>
-   &emsp;&ensp; 1.5.17. **[Distribution of WLS estimates, signal and residuals](/P/mlr-wlsdist)** <br>
-   &emsp;&ensp; 1.5.18. **[Distribution of residual sum of squares](/P/mlr-rssdist)** <br>
-   &emsp;&ensp; 1.5.19. **[Weighted least squares](/P/mlr-wls)** (1) <br>
-   &emsp;&ensp; 1.5.20. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
-   &emsp;&ensp; 1.5.21. *[t-contrast](/D/tcon)* <br>
-   &emsp;&ensp; 1.5.22. *[F-contrast](/D/fcon)* <br>
-   &emsp;&ensp; 1.5.23. **[Contrast-based t-test](/P/mlr-t)** <br>
-   &emsp;&ensp; 1.5.24. **[Contrast-based F-test](/P/mlr-f)** <br>
-   &emsp;&ensp; 1.5.25. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
-   &emsp;&ensp; 1.5.26. **[Maximum log-likelihood](/P/mlr-mll)** <br>
-   &emsp;&ensp; 1.5.27. **[Deviance function](/P/mlr-dev)** <br>
-   &emsp;&ensp; 1.5.28. **[Akaike information criterion](/P/mlr-aic)** <br>
-   &emsp;&ensp; 1.5.29. **[Bayesian information criterion](/P/mlr-bic)** <br>
-   &emsp;&ensp; 1.5.30. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
+   &emsp;&ensp; 1.5.5. **[Ordinary least squares for two regressors](/P/mlr-olstr)** (2) <br>
+   &emsp;&ensp; 1.5.6. *[Total sum of squares](/D/tss)* <br>
+   &emsp;&ensp; 1.5.7. *[Explained sum of squares](/D/ess)* <br>
+   &emsp;&ensp; 1.5.8. *[Residual sum of squares](/D/rss)* <br>
+   &emsp;&ensp; 1.5.9. **[Total, explained and residual sum of squares](/P/mlr-pss)** <br>
+   &emsp;&ensp; 1.5.10. *[Estimation matrix](/D/emat)* <br>
+   &emsp;&ensp; 1.5.11. *[Projection matrix](/D/pmat)* <br>
+   &emsp;&ensp; 1.5.12. *[Residual-forming matrix](/D/rfmat)* <br>
+   &emsp;&ensp; 1.5.13. **[Estimation, projection and residual-forming matrix](/P/mlr-mat)** <br>
+   &emsp;&ensp; 1.5.14. **[Symmetry of projection and residual-forming matrix](/P/mlr-symm)** <br>
+   &emsp;&ensp; 1.5.15. **[Idempotence of projection and residual-forming matrix](/P/mlr-idem)** <br>
+   &emsp;&ensp; 1.5.16. **[Independence of estimated parameters and residuals](/P/mlr-ind)** <br>
+   &emsp;&ensp; 1.5.17. **[Distribution of OLS estimates, signal and residuals](/P/mlr-olsdist)** <br>
+   &emsp;&ensp; 1.5.18. **[Distribution of WLS estimates, signal and residuals](/P/mlr-wlsdist)** <br>
+   &emsp;&ensp; 1.5.19. **[Distribution of residual sum of squares](/P/mlr-rssdist)** <br>
+   &emsp;&ensp; 1.5.20. **[Weighted least squares](/P/mlr-wls)** (1) <br>
+   &emsp;&ensp; 1.5.21. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
+   &emsp;&ensp; 1.5.22. *[t-contrast](/D/tcon)* <br>
+   &emsp;&ensp; 1.5.23. *[F-contrast](/D/fcon)* <br>
+   &emsp;&ensp; 1.5.24. **[Contrast-based t-test](/P/mlr-t)** <br>
+   &emsp;&ensp; 1.5.25. **[Contrast-based F-test](/P/mlr-f)** <br>
+   &emsp;&ensp; 1.5.26. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   &emsp;&ensp; 1.5.27. **[Maximum log-likelihood](/P/mlr-mll)** <br>
+   &emsp;&ensp; 1.5.28. **[Deviance function](/P/mlr-dev)** <br>
+   &emsp;&ensp; 1.5.29. **[Akaike information criterion](/P/mlr-aic)** <br>
+   &emsp;&ensp; 1.5.30. **[Bayesian information criterion](/P/mlr-bic)** <br>
+   &emsp;&ensp; 1.5.31. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
    1.6. Bayesian linear regression <br>
    &emsp;&ensp; 1.6.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
