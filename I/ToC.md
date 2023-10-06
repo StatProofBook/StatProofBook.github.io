@@ -643,7 +643,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.2. **[Special case of general linear model](/P/mlr-glm)** <br>
    &emsp;&ensp; 1.5.3. **[Ordinary least squares](/P/mlr-ols)** (1) <br>
    &emsp;&ensp; 1.5.4. **[Ordinary least squares](/P/mlr-ols2)** (2) <br>
-   &emsp;&ensp; 1.5.5. **[Ordinary least squares for two regressors](/P/mlr-olstr)** (2) <br>
+   &emsp;&ensp; 1.5.5. **[Ordinary least squares for two regressors](/P/mlr-olstr)** <br>
    &emsp;&ensp; 1.5.6. *[Total sum of squares](/D/tss)* <br>
    &emsp;&ensp; 1.5.7. *[Explained sum of squares](/D/ess)* <br>
    &emsp;&ensp; 1.5.8. *[Residual sum of squares](/D/rss)* <br>
