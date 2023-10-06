@@ -90,6 +90,7 @@ title: "Proofs without Source"
 - [Moment-generating function of the exponential distribution](/P/exp-mgf)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
+- [Ordinary least squares for multiple linear regression with two regressors](/P/mlr-olstr)
 - [Ordinary least squares for one-way analysis of variance](/P/anova1-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols2)
 - [Ordinary least squares for the general linear model](/P/glm-ols)
