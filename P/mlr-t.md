@@ -162,3 +162,5 @@ t &\overset{\eqref{eq:mlr-t-s1}}{=} \frac{z}{\sqrt{v/(n-p)}} \\
 &\overset{\eqref{eq:mlr-est}}{=} \frac{c^\mathrm{T} \hat{\beta}}{\sqrt{\hat{\sigma}^2 c^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} c}} \; .
 \end{split}
 $$
+
+This means that the [null hypothesis](/D/h0) in \eqref{eq:mlr-t-h0} can be rejected when $t$ from \eqref{eq:mlr-t-s2} is as extreme or more extreme than the [critical value](/D/cval) obtained from [Student's t-distribution](/D/t) with $n-p$ [degrees of freedom](/D/dof) using a [significance level](/D/alpha) $\alpha$.

@@ -171,7 +171,7 @@ $$
 
 and under the [null hypothesis](/D/h0) \eqref{eq:mlr-f-h0}, it can be evaluated as:
 
-$$ \label{eq:mlr-t-s2}
+$$ \label{eq:mlr-f-s2}
 \begin{split}
 F &\overset{\eqref{eq:mlr-f-s1}}{=} \left( \hat{\gamma} -  C^\mathrm{T} \beta \right)^\mathrm{T} \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) \left( \hat{\gamma} -  C^\mathrm{T} \beta \right) / q \\
 &\overset{\eqref{eq:mlr-f-h0}}{=} \hat{\gamma}^\mathrm{T} \left( \frac{n-p}{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}} Q \right) \hat{\gamma} / q \\
@@ -182,3 +182,5 @@ F &\overset{\eqref{eq:mlr-f-s1}}{=} \left( \hat{\gamma} -  C^\mathrm{T} \beta \r
 &= \hat{\beta}^\mathrm{T} C \left( \hat{\sigma}^2 C^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} C \right)^{-1} C^\mathrm{T} \hat{\beta} / q \; .
 \end{split}
 $$
+
+This means that the [null hypothesis](/D/h0) in \eqref{eq:mlr-f-h0} can be rejected when $F$ from \eqref{eq:mlr-f-s2} is as extreme or more extreme than the [critical value](/D/cval) obtained from [Fisher's F-distribution](/D/f) with $q$ numerator and $n-p$ denominator [degrees of freedom](/D/dof) using a [significance level](/D/alpha) $\alpha$.
