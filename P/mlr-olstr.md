@@ -43,7 +43,7 @@ $$ \label{eq:mlr-ols-tr-orth}
 $$
 
 
-**Proof:** The model in \eqref{eq:mlr-tr} is a special case of [multiple linear regression](/D/mlr) and the [ordinary least squares solution for multiple linear regression] is:
+**Proof:** The model in \eqref{eq:mlr-tr} is a special case of [multiple linear regression](/D/mlr) and the [ordinary least squares solution for multiple linear regression](/P/mlr-ols) is:
 
 $$ \label{eq:mlr-ols}
 \hat{\beta} = (X^\mathrm{T} X)^{-1} X^\mathrm{T} y \; .

@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (389 proofs)
+### JoramSoch (390 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -240,6 +240,7 @@ title: "Proof by Author"
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
+- [Ordinary least squares for multiple linear regression with two regressors](/P/mlr-olstr)
 - [Ordinary least squares for one-way analysis of variance](/P/anova1-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols2)
