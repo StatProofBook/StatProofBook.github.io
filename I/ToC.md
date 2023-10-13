@@ -331,6 +331,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.4. **[Variance](/P/bern-var)** <br>
    &emsp;&ensp; 1.2.5. **[Range of variance](/P/bern-varrange)** <br>
    &emsp;&ensp; 1.2.6. **[Shannon entropy](/P/bern-ent)** <br>
+   &emsp;&ensp; 1.2.7. **[Kullback-Leibler divergence](/P/bern-kl)** <br>
 
    1.3. Binomial distribution <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/bin)* <br>
