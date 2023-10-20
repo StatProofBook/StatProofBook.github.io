@@ -165,6 +165,7 @@ title: "Proof by Topic"
 
 ### K
 
+- [Kullback-Leibler divergence for the Bernoulli distribution](/P/bern-kl)
 - [Kullback-Leibler divergence for the Dirichlet distribution](/P/dir-kl)
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
 - [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl)
