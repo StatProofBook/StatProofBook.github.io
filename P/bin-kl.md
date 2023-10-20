@@ -62,7 +62,7 @@ Using the [probability mass function of the binomial distribution](/P/bin-pmf), 
 
 $$ \label{eq:bin-KL-s2}
 \begin{split}
-\mathrm{KL}[P\,||\,Q] &= \sum_{x=0}^{n} {n \choose x} \, p_1^x \, (1-p_1)^{n-x} \cdot \ln \frac{{n \choose x} \, p_1^x \, (1-p_1)^{n-x}}{{n \choose x} \, p_2^x \, (1-p_2)^{n-x}} \\
+\mathrm{KL}[P\,||\,Q] &= \sum_{x=0}^{n} {n \choose x} \, p_1^x \, (1-p_1)^{n-x} \cdot \ln \frac{ {n \choose x} \, p_1^x \, (1-p_1)^{n-x} }{ {n \choose x} \, p_2^x \, (1-p_2)^{n-x} } \\
 &= \sum_{x=0}^{n} {n \choose x} \, p_1^x \, (1-p_1)^{n-x} \cdot \left[ x \cdot \ln \frac{p_1}{p_2} + (n-x) \cdot \ln \frac{1-p_1}{1-p_2} \right] \\
 &= \ln \frac{p_1}{p_2} \cdot \sum_{x=0}^{n} {n \choose x} \, p_1^x \, (1-p_1)^{n-x} x + \ln \frac{1-p_1}{1-p_2} \cdot \sum_{x=0}^{n} {n \choose x} \, p_1^x \, (1-p_1)^{n-x} (n-x) \; .
 \end{split}
