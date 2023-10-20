@@ -341,7 +341,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.5. **[Variance](/P/bin-var)** <br>
    &emsp;&ensp; 1.3.6. **[Range of variance](/P/bin-varrange)** <br>
    &emsp;&ensp; 1.3.7. **[Shannon entropy](/P/bin-ent)** <br>
-   &emsp;&ensp; 1.3.8. **[Conditional binomial](/P/bin-margcond)** <br>
+   &emsp;&ensp; 1.3.8. **[Kullback-Leibler divergence](/P/bin-kl)** <br>
+   &emsp;&ensp; 1.3.9. **[Conditional binomial](/P/bin-margcond)** <br>
    
    1.4. Beta-binomial distribution <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/betabin)* <br>
