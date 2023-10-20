@@ -54,7 +54,7 @@ which, applied to the [binomial distributions](/D/bin) in \eqref{eq:bins}, yield
 $$ \label{eq:bin-KL-s1}
 \begin{split}
 \mathrm{KL}[P\,||\,Q] &= \sum_{x=0}^{n} p(x) \, \ln \frac{p(x)}{q(x)} \\
-&= p(X=0) \cdot \ln \frac{p(X=0)}{q(X=0)} + \ldots + p(X=0) \cdot \ln \frac{p(X=0)}{q(X=0)} \; .
+&= p(X=0) \cdot \ln \frac{p(X=0)}{q(X=0)} + \ldots + p(X=n) \cdot \ln \frac{p(X=n)}{q(X=n)} \; .
 \end{split}
 $$
 
