@@ -40,7 +40,7 @@ $$ \label{eq:prob-exh}
 $$
 
 
-**Proof:** The [addition law of probability](/P/prob-add) states that for two [events](/D/reve) $A$ and $B$, the [probability](/D/prob) of at least one of them occuring is:
+**Proof:** The [addition law of probability](/P/prob-add) states that for two [events](/D/reve) $A$ and $B$, the [probability](/D/prob) of at least one of them occurring is:
 
 $$ \label{eq:prob-add}
 P(A \cup B) = P(A) + P(B) - P(A \cap B) \; .
