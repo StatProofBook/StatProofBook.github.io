@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Consider measurements $y_{ij} \in \mathbb{R}$ from disctinct objects $j = 1, \ldots, n_i$ in separate groups $i = 1, \ldots, k$.
+**Definition:** Consider measurements $y_{ij} \in \mathbb{R}$ from distinct objects $j = 1, \ldots, n_i$ in separate groups $i = 1, \ldots, k$.
 
 Then, in one-way analysis of variance (ANOVA), these measurements are assumed to come from [normal distributions](/D/norm)
 
