@@ -21,4 +21,4 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** An ordered pair $(n,y)$ with $n \in \mathbb{N}$ and $y = \left[ y_1, \ldots, y_k \right] \in \mathbb{N}_0^{1 \times k}$, where $y_i$ is the number of observations for the $i$-th out of $k$ categories obtained in $n$ trials, $i = 1, \ldots, k$, consititutes a set of multinomial observations.
+**Definition:** An ordered pair $(n,y)$ with $n \in \mathbb{N}$ and $y = \left[ y_1, \ldots, y_k \right] \in \mathbb{N}_0^{1 \times k}$, where $y_i$ is the number of observations for the $i$-th out of $k$ categories obtained in $n$ trials, $i = 1, \ldots, k$, constitutes a set of multinomial observations.
