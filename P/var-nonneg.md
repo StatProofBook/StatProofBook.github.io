@@ -41,7 +41,7 @@ $$ \label{eq:var}
 $$
 
 <br>
-1) If $X$ is a discrete [random variable](/D/rvar), then, because squares and probabilities are stricly non-negative, all the addends in
+1) If $X$ is a discrete [random variable](/D/rvar), then, because squares and probabilities are strictly non-negative, all the addends in
 
 $$ \label{eq:var-disc}
 \mathrm{Var}(X) = \sum_{x \in \mathcal{X}} (x-\mathrm{E}(X))^2 \cdot f_X(x)
