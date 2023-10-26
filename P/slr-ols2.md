@@ -45,7 +45,7 @@ $$ \label{eq:slr-mlr}
 X = \left[ \begin{matrix} 1_n & x \end{matrix} \right] \quad \text{and} \quad \beta = \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right]
 $$
 
-and [ordinary least sqaures estimates](/P/mlr-ols) are given by
+and [ordinary least squares estimates](/P/mlr-ols) are given by
 
 $$ \label{eq:mlr-ols}
 \hat{\beta} = (X^\mathrm{T} X)^{-1} X^\mathrm{T} y \; .
