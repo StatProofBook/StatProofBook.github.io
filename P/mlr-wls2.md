@@ -80,7 +80,7 @@ $$ \label{eq:wRSS-der}
 \frac{\mathrm{d}\mathrm{wRSS}(\beta)}{\mathrm{d}\beta} = - 2 X^\mathrm{T} V^{-1} y + 2 X^\mathrm{T} V^{-1} X \beta
 $$
 
-and setting this deriative to zero, we obtain:
+and setting this derivative to zero, we obtain:
 
 $$ \label{eq:WLS-qed}
 \begin{split}
