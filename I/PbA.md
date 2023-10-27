@@ -427,7 +427,7 @@ title: "Proof by Author"
 
 - [Proof Template](/P/-temp-)
 
-### tomfaulkenberry (15 proofs)
+### tomfaulkenberry (16 proofs)
 
 - [Encompassing prior method for computing Bayes factors](/P/bf-ep)
 - [Mean of the ex-Gaussian distribution](/P/exg-mean)
@@ -441,6 +441,7 @@ title: "Proof by Author"
 - [Savage-Dickey density ratio for computing Bayes factors](/P/bf-sddr)
 - [Skewness of the ex-Gaussian distribution](/P/exg-skew)
 - [Skewness of the exponential distribution](/P/exp-skew)
+- [Skewness of the Wald distribution](/P/wald-skew)
 - [Transitivity of Bayes Factors](/P/bf-trans)
 - [Variance of the ex-Gaussian distribution](/P/exg-var)
 - [Variance of the Wald distribution](/P/wald-var)

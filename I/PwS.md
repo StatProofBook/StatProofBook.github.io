@@ -136,6 +136,7 @@ title: "Proofs without Source"
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Skewness of the ex-Gaussian distribution](/P/exg-skew)
 - [Skewness of the exponential distribution](/P/exp-skew)
+- [Skewness of the Wald distribution](/P/wald-skew)
 - [Sums of squares for simple linear regression](/P/slr-sss)
 - [Transformation matrices for simple linear regression](/P/slr-mat)
 - [Transitivity of Bayes Factors](/P/bf-trans)

@@ -439,6 +439,7 @@ title: "Proof by Topic"
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Skewness of the ex-Gaussian distribution](/P/exg-skew)
 - [Skewness of the exponential distribution](/P/exp-skew)
+- [Skewness of the Wald distribution](/P/wald-skew)
 - [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr)
 - [Sums of squares for simple linear regression](/P/slr-sss)
 - [Symmetry of the covariance](/P/cov-symm)
