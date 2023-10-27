@@ -385,7 +385,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.8. **[Mode](/P/cuni-mode)** <br>
    &emsp;&ensp; 3.1.9. **[Variance](/P/cuni-var)** <br>
    &emsp;&ensp; 3.1.10. **[Differential entropy](/P/cuni-dent)** <br>
-   &emsp;&ensp; 3.1.11. **[Maximum entropy distribution](/P/cuni-maxent)** <br>
+   &emsp;&ensp; 3.1.11. **[Kullback-Leibler divergence](/P/cuni-kl)** <br>
+   &emsp;&ensp; 3.1.12. **[Maximum entropy distribution](/P/cuni-maxent)** <br>
 
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
