@@ -21,4 +21,4 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** An ordered pair $(n,y)$ with $n \in \mathbb{N}$ and $y \in \mathbb{N}_0$, where $y$ is the number of successes in $n$ trials, consititutes a set of binomial observations.
+**Definition:** An ordered pair $(n,y)$ with $n \in \mathbb{N}$ and $y \in \mathbb{N}_0$, where $y$ is the number of successes in $n$ trials, constitutes a set of binomial observations.

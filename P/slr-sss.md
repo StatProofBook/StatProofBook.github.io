@@ -64,7 +64,7 @@ $$ \label{eq:ESS}
 \mathrm{ESS} = \sum_{i=1}^n (\hat{y}_i - \bar{y})^2 \quad \text{where} \quad \hat{y}_i = \hat{\beta}_0 + \hat{\beta}_1 x_i
 $$
 
-which, with the OLS parameter estimats, becomes:
+which, with the OLS parameter estimates, becomes:
 
 $$ \label{eq:ESS-qed}
 \begin{split}
@@ -86,7 +86,7 @@ $$ \label{eq:RSS}
 \mathrm{RSS} = \sum_{i=1}^n (y_i - \hat{y}_i)^2 \quad \text{where} \quad \hat{y}_i = \hat{\beta}_0 + \hat{\beta}_1 x_i
 $$
 
-which, with the OLS parameter estimats, becomes:
+which, with the OLS parameter estimates, becomes:
 
 $$ \label{eq:RSS-qed}
 \begin{split}

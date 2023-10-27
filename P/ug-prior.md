@@ -67,7 +67,7 @@ $$
 using the inverse variance or precision $\tau = 1/\sigma^2$.
 
 <br>
-Seperating constant and variable terms, we have:
+Separating constant and variable terms, we have:
 
 $$ \label{eq:UG-LF-s1}
 p(y|\mu,\tau) = \sqrt{\frac{1}{(2 \pi)^n}} \cdot \tau^{n/2} \cdot \exp\left[ -\frac{\tau}{2} \sum_{i=1}^{n} \left( y_i-\mu \right)^2 \right] \; .

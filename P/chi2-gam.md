@@ -28,7 +28,7 @@ X \sim \mathrm{Gam}\left( \frac{k}{2}, \frac{1}{2} \right) \Rightarrow X \sim \c
 $$
 
 
-**Proof:** The [probability density function of the gamma distribution](/P/gam-pdf) for $x > 0$, where $\alpha$ is the shape parameter and $\beta$ is the rate paramete, is as follows:
+**Proof:** The [probability density function of the gamma distribution](/P/gam-pdf) for $x > 0$, where $\alpha$ is the shape parameter and $\beta$ is the rate parameter, is as follows:
 
 $$ \label{eq:gam-pdf}
 \mathrm{Gam}(x; \alpha, \beta) = \frac{\beta^{\alpha}}{\Gamma(\alpha)} \, x^{\alpha-1} \, e^{-\beta x}
