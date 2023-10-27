@@ -70,15 +70,13 @@ $$ \label{eq:wald-moment}
 \mathrm{E}(X^3) = M_X'''(0)
 $$
 
-based on the [relationship between raw moment and moment-generating function](/P/mom-mgf).
-
-First we differentiate
+based on the [relationship between raw moment and moment-generating function](/P/mom-mgf). First, we differentiate the moment-generating function
 
 $$ \label{eq:wald-mgf}
 M_X(t) = \exp\left[\alpha \gamma - \sqrt{\alpha^2(\gamma^2-2t)}\right]
 $$
 
-with respect to $t$. Using the chain rule gives
+with respect to $t$. Using the chain rule, we have:
 
 $$ \label{eq:wald-skew-s1}
 \begin{split}
@@ -118,7 +116,7 @@ $$ \label{eq:wald-skew-split2}
 g(t) = \frac{\alpha}{(\gamma^2-2t)^{3/2}}\exp\left[\alpha\gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right] \; .
 $$
 
-With this decomposition, $M'''(t) = f'(t) + g'(t)$. Applying the product rule to $f$ gives:
+With this decomposition, $M_X'''(t) = f'(t) + g'(t)$. Applying the product rule to $f$ gives:
 
 $$ \label{eq:wald-skew-f}
 \begin{split}
