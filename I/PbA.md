@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (391 proofs)
+### JoramSoch (392 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -139,6 +139,7 @@ title: "Proof by Author"
 - [Inverse transformation method using cumulative distribution function](/P/cdf-itm)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the Bernoulli distribution](/P/bern-kl)
+- [Kullback-Leibler divergence for the binomial distribution](/P/bin-kl)
 - [Kullback-Leibler divergence for the Dirichlet distribution](/P/dir-kl)
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
 - [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl)
@@ -426,7 +427,7 @@ title: "Proof by Author"
 
 - [Proof Template](/P/-temp-)
 
-### tomfaulkenberry (15 proofs)
+### tomfaulkenberry (16 proofs)
 
 - [Encompassing prior method for computing Bayes factors](/P/bf-ep)
 - [Mean of the ex-Gaussian distribution](/P/exg-mean)
@@ -440,6 +441,7 @@ title: "Proof by Author"
 - [Savage-Dickey density ratio for computing Bayes factors](/P/bf-sddr)
 - [Skewness of the ex-Gaussian distribution](/P/exg-skew)
 - [Skewness of the exponential distribution](/P/exp-skew)
+- [Skewness of the Wald distribution](/P/wald-skew)
 - [Transitivity of Bayes Factors](/P/bf-trans)
 - [Variance of the ex-Gaussian distribution](/P/exg-var)
 - [Variance of the Wald distribution](/P/wald-var)

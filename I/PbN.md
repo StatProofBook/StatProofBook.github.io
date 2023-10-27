@@ -425,3 +425,5 @@ title: "Proof by Number"
 | P417 | bvn-pdfcorr | [Probability density function of the bivariate normal distribution in terms of correlation coefficient](/P/bvn-pdfcorr) | JoramSoch | 2023-09-29 |
 | P418 | mlr-olstr | [Ordinary least squares for multiple linear regression with two regressors](/P/mlr-olstr) | JoramSoch | 2023-10-06 |
 | P419 | bern-kl | [Kullback-Leibler divergence for the Bernoulli distribution](/P/bern-kl) | JoramSoch | 2023-10-13 |
+| P420 | bin-kl | [Kullback-Leibler divergence for the binomial distribution](/P/bin-kl) | JoramSoch | 2023-10-20 |
+| P421 | wald-skew | [Skewness of the Wald distribution](/P/wald-skew) | tomfaulkenberry | 2023-10-24 |

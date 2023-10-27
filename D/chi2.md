@@ -45,7 +45,7 @@ $$\label{eq:chi2}
 Y = \sum_{i=1}^{k} X_{i}^{2} \sim \chi^{2}(k) \quad \text{where} \quad k > 0 \; .
 $$
 
-The [probability density function of the chi-squared distribution](/P/chi2-pdf) with $k$ degress of freedom is
+The [probability density function of the chi-squared distribution](/P/chi2-pdf) with $k$ degrees of freedom is
 
 $$ \label{eq:chi2-pdf}
 \chi^{2}(x; k) = \frac{1}{2^{k/2}\Gamma (k/2)} \, x^{k/2-1} \, e^{-x/2}

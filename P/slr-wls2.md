@@ -45,7 +45,7 @@ $$ \label{eq:slr-mlr}
 X = \left[ \begin{matrix} 1_n & x \end{matrix} \right] \quad \text{and} \quad \beta = \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right]
 $$
 
-and [weighted least sqaures estimates](/P/mlr-wls) are given by
+and [weighted least squares estimates](/P/mlr-wls) are given by
 
 $$ \label{eq:mlr-wls}
 \hat{\beta} = (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} y \; .

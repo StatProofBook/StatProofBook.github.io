@@ -21,7 +21,7 @@ username: "tomfaulkenberry"
 ---
 
 
-**Theorem:** Consider three competing [models](/D/gm) $m_1$, $m_2$, and $m3$ for observed data $y$. Then the [Bayes factor](/D/bf) for $m_1$ over $m_3$ can be written as:
+**Theorem:** Consider three competing [models](/D/gm) $m_1$, $m_2$, and $m_33$ for observed data $y$. Then the [Bayes factor](/D/bf) for $m_1$ over $m_3$ can be written as:
 
 $$ \label{eq:bf-trans}
 \text{BF}_{13} = \text{BF}_{12}\cdot \text{BF}_{23}.
