@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (392 proofs)
+### JoramSoch (393 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -140,6 +140,7 @@ title: "Proof by Author"
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the Bernoulli distribution](/P/bern-kl)
 - [Kullback-Leibler divergence for the binomial distribution](/P/bin-kl)
+- [Kullback-Leibler divergence for the continuous uniform distribution](/P/cuni-kl)
 - [Kullback-Leibler divergence for the Dirichlet distribution](/P/dir-kl)
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
 - [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl)
