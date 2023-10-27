@@ -42,7 +42,7 @@ $$
 where $\rho$ is the [correlation](/D/corr) between $X_1$ and $X_2$.
 
 
-**Proof:** Since $X$ follows a special case of the [multivariate normal distribution, its covariance matrix is](/P/mvn-corr)
+**Proof:** Since $X$ follows a special case of the [multivariate normal distribution, its covariance matrix is](/P/mvn-cov)
 
 $$ \label{eq:cov-X}
 \mathrm{Cov}(X) = \Sigma = \left[ \begin{matrix} \sigma_1^2 & \sigma_{12} \\ \sigma_{12} & \sigma_2^2 \end{matrix} \right]

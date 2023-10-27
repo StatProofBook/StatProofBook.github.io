@@ -40,7 +40,7 @@ $$ \label{eq:mvn-pdf}
 f_X(x) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \; .
 $$
 
-Plugging in $n = 2$, $\mu = \left[ \begin{matrix} \mu_1 \\\\ \mu_2 \end{matrix} \right]$ and $\Sigma = \left[ \begin{matrix} \sigma_1^2 \& \sigma_{12} \\\\ \sigma_{12} \& \sigma_2^2 \end{matrix} \right]$, we obtain:
+Plugging in $n = 2$, $\mu = \left[ \begin{matrix} \mu_1 \\\\ \mu_2 \end{matrix} \right]$ and $\Sigma = \left[ \begin{matrix} \sigma_1^2 & \sigma_{12} \\\\ \sigma_{12} & \sigma_2^2 \end{matrix} \right]$, we obtain:
 
 $$ \label{eq:bvn-pdf-s1}
 \begin{split}
