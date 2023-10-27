@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Theorem:** Let $F$ be a [random variable](/D/rvar) following an [F-distribution](/D/f):
 
 $$ \label{eq:f}
-F \sim F(u,v) \; .
+F \sim \mathrm{F}(u,v) \; .
 $$
 
 Then, the [probability density function](/D/pdf) of $F$ is
@@ -43,7 +43,7 @@ $$
 **Proof:** An [F-distributed random variable](/D/f) is defined as the ratio of two [chi-squared random variables](/D/chi2), divided by their [degrees of freedom](/D/dof)
 
 $$ \label{eq:f-def}
-X \sim \chi^2(u), \; Y \sim \chi^2(v) \quad \Rightarrow \quad F = \frac{X/u}{Y/v} \sim F(u,v)
+X \sim \chi^2(u), \; Y \sim \chi^2(v) \quad \Rightarrow \quad F = \frac{X/u}{Y/v} \sim \mathrm{F}(u,v)
 $$
 
 where $X$ and $Y$ are [independent of each other](/D/ind).

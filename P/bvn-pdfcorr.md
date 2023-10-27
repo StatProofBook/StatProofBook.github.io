@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X = \left[ \begin{matrix} X_1 & X_2 \end{matrix} \right]^\mathrm{T}$ follow a bivariate normal distribution:
+**Theorem:** Let $X = \left[ \begin{matrix} X_1 \\\\ X_2 \end{matrix} \right]$ follow a bivariate normal distribution:
 
 $$ \label{eq:bvn}
 X \sim \mathcal{N}\left( \mu = \left[ \begin{matrix} \mu_1 \\ \mu_2 \end{matrix} \right], \Sigma = \left[ \begin{matrix} \sigma_1^2 & \sigma_{12} \\ \sigma_{12} & \sigma_2^2 \end{matrix} \right] \right) \; .

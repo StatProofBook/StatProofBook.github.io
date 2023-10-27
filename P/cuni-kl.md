@@ -57,7 +57,7 @@ $$ \label{eq:cuni-KL-s2}
 \mathrm{KL}[P\,||\,Q] = \int_{-\infty}^{a_1} 0 \cdot \ln \frac{0}{q(x)} \, \mathrm{d}x + \int_{a_1}^{b_1} p(x) \, \ln \frac{p(x)}{q(x)} \, \mathrm{d}x + \int_{b_1}^{+\infty} 0 \cdot \ln \frac{0}{q(x)} \, \mathrm{d}x \; .
 $$
 
-Now, $(0 \cdot \ln 0)$ is taken to be $0$ [by convention](/D/ent), such that
+Now, $(0 \cdot \ln 0)$ is taken to be [zero by convention](/D/ent), such that
 
 $$ \label{eq:cuni-KL-s3}
 \mathrm{KL}[P\,||\,Q] = \int_{a_1}^{b_1} p(x) \, \ln \frac{p(x)}{q(x)} \, \mathrm{d}x
