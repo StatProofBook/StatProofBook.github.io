@@ -5,7 +5,7 @@ mathjax: true
 author: "Thomas J. Faulkenberry"
 affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
-date: 2023-10-23 12:00:00
+date: 2023-10-30 12:00:00
 
 title: "Method of moments for ex-Gaussian distributed data"
 chapter: "Probability Distributions"
