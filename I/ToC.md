@@ -136,7 +136,8 @@ title: "Table of Contents"
    
    1.12. Skewness <br>
    &emsp;&ensp; 1.12.1. *[Definition](/D/skew)* <br>
-   &emsp;&ensp; 1.12.2. **[Partition into expected values](/P/skew-mean)** <br>
+   &emsp;&ensp; 1.12.2. *[Sample skewness](/D/skew-samp)* <br>
+   &emsp;&ensp; 1.12.3. **[Partition into expected values](/P/skew-mean)** <br>
    
    1.13. Covariance <br>
    &emsp;&ensp; 1.13.1. *[Definition](/D/cov)* <br>
@@ -488,6 +489,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.10.4. **[Mean](/P/wald-mean)** <br>
    &emsp;&ensp; 3.10.5. **[Variance](/P/wald-var)** <br>
    &emsp;&ensp; 3.10.6. **[Skewness](/P/wald-skew)** <br>
+   &emsp;&ensp; 3.10.7. **[Method of moments](/P/wald-mome)** <br>
    
    3.11. ex-Gaussian distribution <br>
    &emsp;&ensp; 3.11.1. *[Definition](/D/exg)* <br>
@@ -496,6 +498,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.11.4. **[Mean](/P/exg-mean)** <br>
    &emsp;&ensp; 3.11.5. **[Variance](/P/exg-var)** <br>
    &emsp;&ensp; 3.11.6. **[Skewness](/P/exg-skew)** <br>
+   &emsp;&ensp; 3.11.7. **[Method of moments](/P/exg-mome)** <br>
 
 4. Multivariate continuous distributions
 

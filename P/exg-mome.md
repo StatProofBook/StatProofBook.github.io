@@ -38,7 +38,7 @@ $$ \label{eq:exg-MoM}
 \end{split}
 $$
 
-where $\bar{y}$ is the [sample mean](/D/mean-samp) and $\bar{v}$ is the [sample variance](/D/var-samp), and $\bar{s}$ is the [sample skewness](/D/skew-samp)
+where $\bar{y}$ is the [sample mean](/D/mean-samp), $\bar{v}$ is the [sample variance](/D/var-samp) and $\bar{s}$ is the [sample skewness](/D/skew-samp)
 
 $$ \label{eq:y-mean-var-skew}
 \begin{split}
