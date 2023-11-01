@@ -253,6 +253,8 @@ title: "Proof by Topic"
 - [Median of the normal distribution](/P/norm-med)
 - [Method of moments for beta-binomial data](/P/betabin-mome)
 - [Method of moments for beta-distributed data](/P/beta-mome)
+- [Method of moments for ex-Gaussian distributed data](/P/exg-mome)
+- [Method of moments for Wald distributed data](/P/wald-mome)
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
 - [Mode of the log-normal distribution](/P/lognorm-mode)

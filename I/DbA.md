@@ -204,10 +204,11 @@ title: "Definition by Author"
 
 - [Definition Template](/D/-temp-)
 
-### tomfaulkenberry (5 definitions)
+### tomfaulkenberry (6 definitions)
 
 - [Bayes factor](/D/bf)
 - [Encompassing model](/D/encm)
 - [ex-Gaussian distribution](/D/exg)
+- [Sample skewness](/D/skew-samp)
 - [Skewness](/D/skew)
 - [Wald distribution](/D/wald)

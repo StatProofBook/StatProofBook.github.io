@@ -196,3 +196,4 @@ title: "Definition by Number"
 | D187 | exg | [ex-Gaussian distribution](/D/exg) | tomfaulkenberry | 2023-04-18 |
 | D188 | skew | [Skewness](/D/skew) | tomfaulkenberry | 2023-04-20 |
 | D189 | bvn | [Bivariate normal distribution](/D/bvn) | JoramSoch | 2023-09-22 |
+| D190 | skew-samp | [Sample skewness](/D/skew-samp) | tomfaulkenberry | 2023-10-30 |

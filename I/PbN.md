@@ -428,3 +428,5 @@ title: "Proof by Number"
 | P420 | bin-kl | [Kullback-Leibler divergence for the binomial distribution](/P/bin-kl) | JoramSoch | 2023-10-20 |
 | P421 | wald-skew | [Skewness of the Wald distribution](/P/wald-skew) | tomfaulkenberry | 2023-10-24 |
 | P422 | cuni-kl | [Kullback-Leibler divergence for the continuous uniform distribution](/P/cuni-kl) | JoramSoch | 2023-10-27 |
+| P423 | wald-mome | [Method of moments for Wald distributed data](/P/wald-mome) | tomfaulkenberry | 2023-10-30 |
+| P424 | exg-mome | [Method of moments for ex-Gaussian distributed data](/P/exg-mome) | tomfaulkenberry | 2023-10-30 |

@@ -428,11 +428,13 @@ title: "Proof by Author"
 
 - [Proof Template](/P/-temp-)
 
-### tomfaulkenberry (16 proofs)
+### tomfaulkenberry (18 proofs)
 
 - [Encompassing prior method for computing Bayes factors](/P/bf-ep)
 - [Mean of the ex-Gaussian distribution](/P/exg-mean)
 - [Mean of the Wald distribution](/P/wald-mean)
+- [Method of moments for ex-Gaussian distributed data](/P/exg-mome)
+- [Method of moments for Wald distributed data](/P/wald-mome)
 - [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf)
 - [Moment-generating function of the exponential distribution](/P/exp-mgf)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
