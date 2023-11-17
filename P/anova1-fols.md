@@ -40,7 +40,7 @@ F = \frac{\frac{1}{k-1} \sum_{i=1}^{k} n_i \hat{\delta}_i^2}{\frac{1}{n-k} \sum_
 $$
 
 
-**Theorem:** The [F-statistic for the main effect in one-way ANOVA](/P/anova1-f) is given in terms of the [sample means](/D/mean-samp) as
+**Proof:** The [F-statistic for the main effect in one-way ANOVA](/P/anova1-f) is given in terms of the [sample means](/D/mean-samp) as
 
 $$ \label{eq:anova1-f}
 F = \frac{\frac{1}{k-1} \sum_{i=1}^{k} n_i (\bar{y}_i - \bar{y})^2}{\frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2}

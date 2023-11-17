@@ -7,7 +7,7 @@ affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
 date: 2023-10-30 12:00:00
 
-title: "Method of moments for ex-Gaussian distributed data"
+title: "Method of moments for ex-Gaussian-distributed data"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "ex-Gaussian distribution"

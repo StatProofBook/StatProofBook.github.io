@@ -7,7 +7,7 @@ affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
 date: 2023-10-30 12:00:00
 
-title: "Method of moments for Wald distributed data"
+title: "Method of moments for Wald-distributed data"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Wald distribution"
