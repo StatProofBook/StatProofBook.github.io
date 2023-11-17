@@ -45,7 +45,7 @@ $$ \label{eq:anova2-pss}
 \mathrm{SS}_\mathrm{tot} = \mathrm{SS}_{A} + \mathrm{SS}_{B} + \mathrm{SS}_{A \times B} + \mathrm{SS}_\mathrm{res}
 $$
 
-where $\mathrm{SS} _\mathrm{tot}$ is the [total sum of squares](/D/tss), $\mathrm{SS} _{A}$, $\mathrm{SS} _{B}$ and $\mathrm{SS} _{A \times B}$ are [treatment](/D/trss) and [interaction sum of squares](/D/iass) (summing into the [explained sum of squares](/D/ess)) and $\mathrm{SS} _\mathrm{res}$ is the [residual sum of squares](/D/rss).
+where $\mathrm{SS}\_\mathrm{tot}$ is the [total sum of squares](/D/tss), $\mathrm{SS}\_{A}$, $\mathrm{SS}\_{B}$ and $\mathrm{SS}\_{A \times B}$ are [treatment](/D/trss) and [interaction sum of squares](/D/iass) (summing into the [explained sum of squares](/D/ess)) and $\mathrm{SS}\_\mathrm{res}$ is the [residual sum of squares](/D/rss).
 
 
 **Proof:** The [total sum of squares](/D/tss) for [two-way ANOVA](/D/anova2) is given by

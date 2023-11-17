@@ -46,7 +46,7 @@ $$ \label{eq:anova1-f}
 F = \frac{\frac{1}{k-1} \sum_{i=1}^{k} n_i (\bar{y}_i - \bar{y})^2}{\frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2}
 $$
 
-where $\bar{y} _i$ is the average of all values $y_{ij}$ from category $i$ and $\bar{y}$ is the grand mean of all values $y_{ij}$ from all categories $i = 1, \ldots, k$.
+where $\bar{y}\_i$ is the average of all values $y\_{ij}$ from category $i$ and $\bar{y}$ is the grand mean of all values $y\_{ij}$ from all categories $i = 1, \ldots, k$.
 
 1) The [ordinary least squares estimates for one-way ANOVA](/P/anova1-ols) are
 

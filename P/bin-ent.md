@@ -87,4 +87,4 @@ $$ \label{eq:bin-ent-s4}
 \mathrm{H}(X) = n \cdot \mathrm{H}_\mathrm{bern}(p) - \mathrm{E}_\mathrm{lbc}(n,p) \; .
 $$
 
-Note that, because $0 \leq \mathrm{H}_\mathrm{bern}(p) \leq 1$, we have $0 \leq n \cdot \mathrm{H}_\mathrm{bern}(p) \leq n$, and because the [entropy is non-negative](/P/ent-nonneg), it must hold that $n \geq \mathrm{E}_\mathrm{lbc}(n,p) \geq 0$.
+Note that, because $0 \leq \mathrm{H}\_\mathrm{bern}(p) \leq 1$, we have $0 \leq n \cdot \mathrm{H}\_\mathrm{bern}(p) \leq n$, and because the [entropy is non-negative](/P/ent-nonneg), it must hold that $n \geq \mathrm{E}\_\mathrm{lbc}(n,p) \geq 0$.

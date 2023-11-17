@@ -33,7 +33,7 @@ $$ \label{eq:anova}
 y_{ijk} = \mu + \alpha_i + \beta_j + \gamma_{ij} + \varepsilon_{ijk}, \; \varepsilon_{ijk} \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; .
 $$
 
-Then, the interaction sum of squares is defined as the [explained sum of squares] (ESS) for each interaction, i.e. as the sum of squared deviations of the average for each cell from the average across all observations, controlling for the [treatment sums of squares](/D/trss) of the corresponding factors:
+Then, the interaction sum of squares is defined as the [explained sum of squares](/D/ess) (ESS) for each interaction, i.e. as the sum of squared deviations of the average for each cell from the average across all observations, controlling for the [treatment sums of squares](/D/trss) of the corresponding factors:
 
 $$ \label{eq:iass}
 \begin{split}
@@ -42,4 +42,4 @@ $$ \label{eq:iass}
 \end{split}
 $$
 
-Here, $\bar{y} _{i j \bullet}$ is the mean for the $(i,j)$-th cell (out of $a \times b$ cells), computed from $n_{ij}$ values $y_{ijk}$, $\bar{y} _{i \bullet \bullet}$ and $\bar{y} _{\bullet j \bullet}$ are the level means for the two factors and and $\bar{y} _{\bullet \bullet \bullet}$ is the mean across all values $y_{ijk}$.
+Here, $\bar{y}\_{i j \bullet}$ is the mean for the $(i,j)$-th cell (out of $a \times b$ cells), computed from $n\_{ij}$ values $y\_{ijk}$, $\bar{y}\_{i \bullet \bullet}$ and $\bar{y}\_{\bullet j \bullet}$ are the level means for the two factors and and $\bar{y}\_{\bullet \bullet \bullet}$ is the mean across all values $y\_{ijk}$.
