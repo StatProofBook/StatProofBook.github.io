@@ -212,6 +212,7 @@ title: "Definition by Topic"
 - [Sample covariance](/D/cov-samp)
 - [Sample covariance matrix](/D/covmat-samp)
 - [Sample mean](/D/mean-samp)
+- [Sample skewness](/D/skew-samp)
 - [Sample space](/D/samp-spc)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)

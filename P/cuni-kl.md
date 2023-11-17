@@ -43,7 +43,7 @@ $$ \label{eq:KL-cont}
 \mathrm{KL}[P\,||\,Q] = \int_{\mathcal{X}} p(x) \, \ln \frac{p(x)}{q(x)} \, \mathrm{d}x \; .
 $$
 
-This means that the KL divergence of $P$ from $Q$ is only defined, if for all $x \in \mathcal{X}$, $q(x) = 0$ implies $p(x) = 0$. Thus, $\mathrm{KL}[P\,||\,Q]$ only exists, if $a_2 \leq a_1$ and $b_1 \leq b_2$, i.e. if $P$ only places non-zero probability where $Q$ also places non-zero probability, such that $q(x)$ is not zero for any $x \in \mathcal{X}$ where $p(x)$ is positive.
+This means that the KL divergence of $P$ from $Q$ is only defined, if for all $x \in \mathcal{X}$, $q(x) = 0$ implies $p(x) = 0$. Thus, $\mathrm{KL}[P\,\vert\vert\,Q]$ only exists, if $a_2 \leq a_1$ and $b_1 \leq b_2$, i.e. if $P$ only places non-zero probability where $Q$ also places non-zero probability, such that $q(x)$ is not zero for any $x \in \mathcal{X}$ where $p(x)$ is positive.
 
 If this requirement is fulfilled, we can write
 
@@ -57,7 +57,7 @@ $$ \label{eq:cuni-KL-s2}
 \mathrm{KL}[P\,||\,Q] = \int_{-\infty}^{a_1} 0 \cdot \ln \frac{0}{q(x)} \, \mathrm{d}x + \int_{a_1}^{b_1} p(x) \, \ln \frac{p(x)}{q(x)} \, \mathrm{d}x + \int_{b_1}^{+\infty} 0 \cdot \ln \frac{0}{q(x)} \, \mathrm{d}x \; .
 $$
 
-Now, $(0 \cdot \ln 0)$ is taken to be $0$ [by convention](/D/ent), such that
+Now, $(0 \cdot \ln 0)$ is taken to be [zero by convention](/D/ent), such that
 
 $$ \label{eq:cuni-KL-s3}
 \mathrm{KL}[P\,||\,Q] = \int_{a_1}^{b_1} p(x) \, \ln \frac{p(x)}{q(x)} \, \mathrm{d}x

@@ -34,4 +34,4 @@ $$ \label{eq:ent}
 \mathrm{H}(X) = - \sum_{x \in \mathcal{X}} p(x) \cdot \log_b p(x)
 $$
 
-where $b$ is the base of the logarithm specifying in which unit the entropy is determined.
+where $b$ is the base of the logarithm specifying in which unit the entropy is determined. By convention, $0 \cdot \log 0$ is taken to be zero when calculating the entropy of $X$.

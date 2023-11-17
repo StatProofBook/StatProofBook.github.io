@@ -44,3 +44,5 @@ $$ \label{eq:KL-cont}
 $$
 
 where $p(x)$ and $q(x)$ are the [probability density functions](/D/pdf) of $P$ and $Q$.
+
+[By convention](/D/ent), $0 \cdot \log 0$ is taken to be zero when calculating the divergence between $P$ and $Q$.
