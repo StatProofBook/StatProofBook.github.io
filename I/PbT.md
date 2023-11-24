@@ -436,6 +436,7 @@ title: "Proof by Topic"
 - [Sampling from the matrix-normal distribution](/P/matn-samp)
 - [Sampling from the normal-gamma distribution](/P/ng-samp)
 - [Savage-Dickey density ratio for computing Bayes factors](/P/bf-sddr)
+- [Scaling of a random variable following the gamma distribution](/P/gam-scal)
 - [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)

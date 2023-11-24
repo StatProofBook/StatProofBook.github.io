@@ -431,3 +431,4 @@ title: "Proof by Number"
 | P423 | wald-mome | [Method of moments for Wald-distributed data](/P/wald-mome) | tomfaulkenberry | 2023-10-30 |
 | P424 | exg-mome | [Method of moments for ex-Gaussian-distributed data](/P/exg-mome) | tomfaulkenberry | 2023-10-30 |
 | P425 | duni-kl | [Kullback-Leibler divergence for the discrete uniform distribution](/P/duni-kl) | JoramSoch | 2023-11-17 |
+| P426 | gam-scal | [Scaling of a random variable following the gamma distribution](/P/gam-scal) | JoramSoch | 2023-11-24 |

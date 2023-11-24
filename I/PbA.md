@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (394 proofs)
+### JoramSoch (395 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -366,6 +366,7 @@ title: "Proof by Author"
 - [Reparametrization for one-way analysis of variance](/P/anova1-repara)
 - [Sampling from the matrix-normal distribution](/P/matn-samp)
 - [Sampling from the normal-gamma distribution](/P/ng-samp)
+- [Scaling of a random variable following the gamma distribution](/P/gam-scal)
 - [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)
