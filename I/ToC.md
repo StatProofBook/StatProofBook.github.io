@@ -430,16 +430,17 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.2. *[Standard gamma distribution](/D/sgam)* <br>
    &emsp;&ensp; 3.4.3. **[Relationship to standard gamma distribution](/P/gam-sgam)** (1) <br>
    &emsp;&ensp; 3.4.4. **[Relationship to standard gamma distribution](/P/gam-sgam2)** (2) <br>
-   &emsp;&ensp; 3.4.5. **[Special case of Wishart distribution](/P/gam-wish)** <br>
-   &emsp;&ensp; 3.4.6. **[Probability density function](/P/gam-pdf)** <br>
-   &emsp;&ensp; 3.4.7. **[Cumulative distribution function](/P/gam-cdf)** <br>
-   &emsp;&ensp; 3.4.8. **[Quantile function](/P/gam-qf)** <br>
-   &emsp;&ensp; 3.4.9. **[Mean](/P/gam-mean)** <br>
-   &emsp;&ensp; 3.4.10. **[Variance](/P/gam-var)** <br>
-   &emsp;&ensp; 3.4.11. **[Logarithmic expectation](/P/gam-logmean)** <br>
-   &emsp;&ensp; 3.4.12. **[Expectation of x ln x](/P/gam-xlogx)** <br>
-   &emsp;&ensp; 3.4.13. **[Differential entropy](/P/gam-dent)** <br>
-   &emsp;&ensp; 3.4.14. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.4.5. **[Scaling of a gamma random variable](/P/gam-scal)** <br>
+   &emsp;&ensp; 3.4.6. **[Special case of Wishart distribution](/P/gam-wish)** <br>
+   &emsp;&ensp; 3.4.7. **[Probability density function](/P/gam-pdf)** <br>
+   &emsp;&ensp; 3.4.8. **[Cumulative distribution function](/P/gam-cdf)** <br>
+   &emsp;&ensp; 3.4.9. **[Quantile function](/P/gam-qf)** <br>
+   &emsp;&ensp; 3.4.10. **[Mean](/P/gam-mean)** <br>
+   &emsp;&ensp; 3.4.11. **[Variance](/P/gam-var)** <br>
+   &emsp;&ensp; 3.4.12. **[Logarithmic expectation](/P/gam-logmean)** <br>
+   &emsp;&ensp; 3.4.13. **[Expectation of x ln x](/P/gam-xlogx)** <br>
+   &emsp;&ensp; 3.4.14. **[Differential entropy](/P/gam-dent)** <br>
+   &emsp;&ensp; 3.4.15. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
    3.5. Exponential distribution <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/exp)* <br>
