@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (393 proofs)
+### JoramSoch (394 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -142,6 +142,7 @@ title: "Proof by Author"
 - [Kullback-Leibler divergence for the binomial distribution](/P/bin-kl)
 - [Kullback-Leibler divergence for the continuous uniform distribution](/P/cuni-kl)
 - [Kullback-Leibler divergence for the Dirichlet distribution](/P/dir-kl)
+- [Kullback-Leibler divergence for the discrete uniform distribution](/P/duni-kl)
 - [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl)
 - [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl)
 - [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl)
@@ -433,8 +434,8 @@ title: "Proof by Author"
 - [Encompassing prior method for computing Bayes factors](/P/bf-ep)
 - [Mean of the ex-Gaussian distribution](/P/exg-mean)
 - [Mean of the Wald distribution](/P/wald-mean)
-- [Method of moments for ex-Gaussian distributed data](/P/exg-mome)
-- [Method of moments for Wald distributed data](/P/wald-mome)
+- [Method of moments for ex-Gaussian-distributed data](/P/exg-mome)
+- [Method of moments for Wald-distributed data](/P/wald-mome)
 - [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf)
 - [Moment-generating function of the exponential distribution](/P/exp-mgf)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)

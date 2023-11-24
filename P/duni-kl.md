@@ -43,7 +43,7 @@ $$ \label{eq:KL-disc}
 \mathrm{KL}[P\,||\,Q] = \sum_{x \in \mathcal{X}} p(x) \, \ln \frac{p(x)}{q(x)} \; .
 $$
 
-This means that the KL divergence of $P$ from $Q$ is only defined, if for all $x \in \mathcal{X}$, $q(x) = 0$ implies $p(x) = 0$. Thus, $\mathrm{KL}[P\,||\,Q]$ only exists, if $a_2 \leq a_1$ and $b_1 \leq b_2$, i.e. if $P$ only places non-zero probability where $Q$ also places non-zero probability, such that $q(x)$ is not zero for any $x \in \mathcal{X}$ where $p(x)$ is positive.
+This means that the KL divergence of $P$ from $Q$ is only defined, if for all $x \in \mathcal{X}$, $q(x) = 0$ implies $p(x) = 0$. Thus, $\mathrm{KL}[P\,\vert\vert\,Q]$ only exists, if $a_2 \leq a_1$ and $b_1 \leq b_2$, i.e. if $P$ only places non-zero probability where $Q$ also places non-zero probability, such that $q(x)$ is not zero for any $x \in \mathcal{X}$ where $p(x)$ is positive.
 
 If this requirement is fulfilled, we can write
 

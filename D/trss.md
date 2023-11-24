@@ -33,10 +33,10 @@ $$ \label{eq:anova}
 y_{ij} = \mu + \delta_i + \varepsilon_{ij}, \; \varepsilon_{ij} \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; .
 $$
 
-Then, the treatment sum of squares is defined as the [explained sum of squares] (ESS) for each main effect, i.e. as the sum of squared deviations of the average for each level of the factor, from the average across all observations:
+Then, the treatment sum of squares is defined as the [explained sum of squares](/D/ess) (ESS) for each main effect, i.e. as the sum of squared deviations of the average for each level of the factor, from the average across all observations:
 
 $$ \label{eq:trss}
 \mathrm{SS}_\mathrm{treat} = \sum_{i=1}^{k} \sum_{j=1}^{n_i} (\bar{y}_i - \bar{y})^2 \; .
 $$
 
-Here, $\bar{y}_i$ is the mean for the $i$-th level of the factor (out of $k$ levels), computed from $n_i$ values $y_{ij}$, and $\bar{y}$ is the mean across all values $y_{ij}$.
+Here, $\bar{y}\_i$ is the mean for the $i$-th level of the factor (out of $k$ levels), computed from $n_i$ values $y\_{ij}$, and $\bar{y}$ is the mean across all values $y\_{ij}$.
