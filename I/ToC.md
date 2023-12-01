@@ -392,13 +392,13 @@ title: "Table of Contents"
 
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
-   &emsp;&ensp; 3.2.2. *[Standard normal distribution](/D/snorm)* <br>
-   &emsp;&ensp; 3.2.3. **[Relationship to standard normal distribution](/P/norm-snorm)** (1) <br>
-   &emsp;&ensp; 3.2.4. **[Relationship to standard normal distribution](/P/norm-snorm2)** (2) <br>
-   &emsp;&ensp; 3.2.5. **[Relationship to standard normal distribution](/P/norm-snorm3)** (3) <br>
-   &emsp;&ensp; 3.2.6. **[Relationship to chi-squared distribution](/P/norm-chi2)** <br>
-   &emsp;&ensp; 3.2.7. **[Relationship to t-distribution](/P/norm-t)** <br>
-   &emsp;&ensp; 3.2.8. **[Special case of multivariate normal distribution](/P/norm-mvn)** <br>
+   &emsp;&ensp; 3.2.2. **[Special case of multivariate normal distribution](/P/norm-mvn)** <br>
+   &emsp;&ensp; 3.2.3. *[Standard normal distribution](/D/snorm)* <br>
+   &emsp;&ensp; 3.2.4. **[Relationship to standard normal distribution](/P/norm-snorm)** (1) <br>
+   &emsp;&ensp; 3.2.5. **[Relationship to standard normal distribution](/P/norm-snorm2)** (2) <br>
+   &emsp;&ensp; 3.2.6. **[Relationship to standard normal distribution](/P/norm-snorm3)** (3) <br>
+   &emsp;&ensp; 3.2.7. **[Relationship to chi-squared distribution](/P/norm-chi2)** <br>
+   &emsp;&ensp; 3.2.8. **[Relationship to t-distribution](/P/norm-t)** <br>
    &emsp;&ensp; 3.2.9. **[Gaussian integral](/P/norm-gi)** <br>
    &emsp;&ensp; 3.2.10. **[Probability density function](/P/norm-pdf)** <br>
    &emsp;&ensp; 3.2.11. **[Moment-generating function](/P/norm-mgf)** <br>
@@ -420,27 +420,26 @@ title: "Table of Contents"
    
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
-   &emsp;&ensp; 3.3.2. *[Non-standardized t-distribution](/D/nst)* <br>
-   &emsp;&ensp; 3.3.3. **[Relationship to non-standardized t-distribution](/P/nst-t)** <br>
-   &emsp;&ensp; 3.3.4. **[Special case of multivariate t-distribution](/P/t-mvt)** <br>
+   &emsp;&ensp; 3.3.2. **[Special case of multivariate t-distribution](/P/t-mvt)** <br>
+   &emsp;&ensp; 3.3.3. *[Non-standardized t-distribution](/D/nst)* <br>
+   &emsp;&ensp; 3.3.4. **[Relationship to non-standardized t-distribution](/P/nst-t)** <br>
    &emsp;&ensp; 3.3.5. **[Probability density function](/P/t-pdf)** <br>
 
    3.4. Gamma distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/gam)* <br>
-   &emsp;&ensp; 3.4.2. *[Standard gamma distribution](/D/sgam)* <br>
-   &emsp;&ensp; 3.4.3. **[Relationship to standard gamma distribution](/P/gam-sgam)** (1) <br>
-   &emsp;&ensp; 3.4.4. **[Relationship to standard gamma distribution](/P/gam-sgam2)** (2) <br>
-   &emsp;&ensp; 3.4.5. **[Scaling of a gamma random variable](/P/gam-scal)** <br>
-   &emsp;&ensp; 3.4.6. **[Special case of Wishart distribution](/P/gam-wish)** <br>
-   &emsp;&ensp; 3.4.7. **[Probability density function](/P/gam-pdf)** <br>
-   &emsp;&ensp; 3.4.8. **[Cumulative distribution function](/P/gam-cdf)** <br>
-   &emsp;&ensp; 3.4.9. **[Quantile function](/P/gam-qf)** <br>
-   &emsp;&ensp; 3.4.10. **[Mean](/P/gam-mean)** <br>
-   &emsp;&ensp; 3.4.11. **[Variance](/P/gam-var)** <br>
-   &emsp;&ensp; 3.4.12. **[Logarithmic expectation](/P/gam-logmean)** <br>
-   &emsp;&ensp; 3.4.13. **[Expectation of x ln x](/P/gam-xlogx)** <br>
-   &emsp;&ensp; 3.4.14. **[Differential entropy](/P/gam-dent)** <br>
-   &emsp;&ensp; 3.4.15. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.4.2. **[Special case of Wishart distribution](/P/gam-wish)** <br>
+   &emsp;&ensp; 3.4.3. *[Standard gamma distribution](/D/sgam)* <br>
+   &emsp;&ensp; 3.4.4. **[Relationship to standard gamma distribution](/P/gam-sgam)** (1) <br>
+   &emsp;&ensp; 3.4.5. **[Relationship to standard gamma distribution](/P/gam-sgam2)** (2) <br>
+   &emsp;&ensp; 3.4.6. **[Probability density function](/P/gam-pdf)** <br>
+   &emsp;&ensp; 3.4.7. **[Cumulative distribution function](/P/gam-cdf)** <br>
+   &emsp;&ensp; 3.4.8. **[Quantile function](/P/gam-qf)** <br>
+   &emsp;&ensp; 3.4.9. **[Mean](/P/gam-mean)** <br>
+   &emsp;&ensp; 3.4.10. **[Variance](/P/gam-var)** <br>
+   &emsp;&ensp; 3.4.11. **[Logarithmic expectation](/P/gam-logmean)** <br>
+   &emsp;&ensp; 3.4.12. **[Expectation of x ln x](/P/gam-xlogx)** <br>
+   &emsp;&ensp; 3.4.13. **[Differential entropy](/P/gam-dent)** <br>
+   &emsp;&ensp; 3.4.14. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
 
    3.5. Exponential distribution <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/exp)* <br>
@@ -506,10 +505,10 @@ title: "Table of Contents"
 
    4.1. Multivariate normal distribution <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn)* <br>
-   &emsp;&ensp; 4.1.2. *[Bivariate normal distribution](/D/bvn)* <br>
+   &emsp;&ensp; 4.1.2. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
    &emsp;&ensp; 4.1.3. **[Relationship to chi-squared distribution](/P/mvn-chi2)** <br>
-   &emsp;&ensp; 4.1.4. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
-   &emsp;&ensp; 4.1.5. **[Probability density function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.4. **[Probability density function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.5. *[Bivariate normal distribution](/D/bvn)* <br>
    &emsp;&ensp; 4.1.6. **[Probability density function of the bivariate normal distribution](/P/bvn-pdf)** <br>
    &emsp;&ensp; 4.1.7. **[Probability density function in terms of correlation coefficient](/P/bvn-pdfcorr)** <br>
    &emsp;&ensp; 4.1.8. **[Mean](/P/mvn-mean)** <br>

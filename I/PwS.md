@@ -137,6 +137,7 @@ title: "Proofs without Source"
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
 - [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
+- [Scaling of a random variable following the gamma distribution](/P/gam-scal)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Skewness of the ex-Gaussian distribution](/P/exg-skew)
 - [Skewness of the exponential distribution](/P/exp-skew)
