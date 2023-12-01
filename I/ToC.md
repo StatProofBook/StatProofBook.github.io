@@ -288,10 +288,11 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.5. *[Joint likelihood](/D/jl)* <br>
    &emsp;&ensp; 5.1.6. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
    &emsp;&ensp; 5.1.7. *[Posterior distribution](/D/post)* <br>
-   &emsp;&ensp; 5.1.8. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
-   &emsp;&ensp; 5.1.9. **[Combined posterior distribution from independent data](/P/post-ind)** <br>
-   &emsp;&ensp; 5.1.10. *[Marginal likelihood](/D/ml)* <br>
-   &emsp;&ensp; 5.1.11. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
+   &emsp;&ensp; 5.1.8. *[Maximum-a-posteriori estimation](/D/map)* <br>
+   &emsp;&ensp; 5.1.9. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
+   &emsp;&ensp; 5.1.10. **[Combined posterior distribution from independent data](/P/post-ind)** <br>
+   &emsp;&ensp; 5.1.11. *[Marginal likelihood](/D/ml)* <br>
+   &emsp;&ensp; 5.1.12. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
    5.2. Prior distributions <br>
    &emsp;&ensp; 5.2.1. *[Flat vs. hard vs. soft](/D/prior-flat)* <br>
@@ -719,11 +720,12 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.1. *[Definition](/D/bin-data)* <br>
    &emsp;&ensp; 3.1.2. **[Maximum likelihood estimation](/P/bin-mle)** <br>
    &emsp;&ensp; 3.1.3. **[Maximum log-likelihood](/P/bin-mll)** <br>
-   &emsp;&ensp; 3.1.4. **[Conjugate prior distribution](/P/bin-prior)** <br>
-   &emsp;&ensp; 3.1.5. **[Posterior distribution](/P/bin-post)** <br>
-   &emsp;&ensp; 3.1.6. **[Log model evidence](/P/bin-lme)** <br>
-   &emsp;&ensp; 3.1.7. **[Log Bayes factor](/P/bin-lbf)** <br>
-   &emsp;&ensp; 3.1.8. **[Posterior probability](/P/bin-pp)** <br>
+   &emsp;&ensp; 3.1.4. **[Maximum-a-posteriori estimation](/P/bin-map)** <br>
+   &emsp;&ensp; 3.1.5. **[Conjugate prior distribution](/P/bin-prior)** <br>
+   &emsp;&ensp; 3.1.6. **[Posterior distribution](/P/bin-post)** <br>
+   &emsp;&ensp; 3.1.7. **[Log model evidence](/P/bin-lme)** <br>
+   &emsp;&ensp; 3.1.8. **[Log Bayes factor](/P/bin-lbf)** <br>
+   &emsp;&ensp; 3.1.9. **[Posterior probability](/P/bin-pp)** <br>
    
    3.2. Multinomial observations <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/mult-data)* <br>
