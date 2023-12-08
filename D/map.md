@@ -33,7 +33,7 @@ $$ \label{eq:post}
 \theta|y \sim \mathcal{D}(\phi) \; .
 $$
 
-Then, the value of $\theta$ at which the [posterior density](/D/post) attains its maximum is called the "maximum-a-posteriori estimate" or "MAP estimate" of $\theta$:
+Then, the value of $\theta$ at which the [posterior density](/D/post) attains its maximum is called the "maximum-a-posteriori estimate", "MAP estimate" or "posterior mode" of $\theta$:
 
 $$ \label{eq:prior-pdf}
 \hat{\theta}_\mathrm{MAP} = \operatorname*{arg\,max}_\theta \mathcal{D}(\theta; \phi) \; .
