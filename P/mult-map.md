@@ -76,6 +76,6 @@ $$
 
 which, using the $1 \times k$ [vectors](/D/mult-data) $y$, $p$ and $\alpha_0$, can be written as:
 
-\begin{equation} \label{eq:Mult-MAP-qed}
+$$ \label{eq:Mult-MAP-qed}
 \hat{p}_\mathrm{MAP} = \frac{\alpha_0+y-1}{\sum_{j=1}^k \alpha_{0j} + n - k} \; .
 $$
