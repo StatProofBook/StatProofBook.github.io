@@ -76,6 +76,7 @@ title: "Proofs without Source"
 - [Maximum log-likelihood for binomial observations](/P/bin-mll)
 - [Maximum log-likelihood for multinomial observations](/P/mult-mll)
 - [Maximum-a-posteriori estimation for binomial observations](/P/bin-map)
+- [Maximum-a-posteriori estimation for multinomial observations](/P/mult-map)
 - [Mean of the categorical distribution](/P/cat-mean)
 - [Mean of the continuous uniform distribution](/P/cuni-mean)
 - [Mean of the ex-Gaussian distribution](/P/exg-mean)
