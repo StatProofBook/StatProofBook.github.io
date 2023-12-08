@@ -197,3 +197,4 @@ title: "Definition by Number"
 | D188 | skew | [Skewness](/D/skew) | tomfaulkenberry | 2023-04-20 |
 | D189 | bvn | [Bivariate normal distribution](/D/bvn) | JoramSoch | 2023-09-22 |
 | D190 | skew-samp | [Sample skewness](/D/skew-samp) | tomfaulkenberry | 2023-10-30 |
+| D191 | map | [Maximum-a-posteriori estimation](/D/map) | JoramSoch | 2023-12-01 |

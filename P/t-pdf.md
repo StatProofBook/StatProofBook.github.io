@@ -87,7 +87,7 @@ J &= \left[ \begin{matrix}
 \frac{\mathrm{d}Y}{\mathrm{d}T} & \frac{\mathrm{d}Y}{\mathrm{d}W}
 \end{matrix} \right]
 = \left[ \begin{matrix}
-\sqrt{\frac{W}{\nu}} & \frac{T}{2 \sqrt{W/\nu}} \\
+\sqrt{\frac{W}{\nu}} & \frac{T}{2 \nu \sqrt{W/\nu}} \\
 0 & 1
 \end{matrix} \right] \\
 \lvert J \rvert  &= \sqrt{\frac{W}{\nu}} \; .

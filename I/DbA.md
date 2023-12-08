@@ -8,7 +8,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (181 definitions)
+### JoramSoch (182 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -101,6 +101,7 @@ title: "Definition by Author"
 - [Maximum entropy prior distribution](/D/prior-maxent)
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
+- [Maximum-a-posteriori estimation](/D/map)
 - [Mean squared error](/D/mse)
 - [Median](/D/med)
 - [Method-of-moments estimation](/D/mome)

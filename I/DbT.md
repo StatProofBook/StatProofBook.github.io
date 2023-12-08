@@ -136,6 +136,7 @@ title: "Definition by Topic"
 - [Maximum entropy prior distribution](/D/prior-maxent)
 - [Maximum likelihood estimation](/D/mle)
 - [Maximum log-likelihood](/D/mll)
+- [Maximum-a-posteriori estimation](/D/map)
 - [Mean squared error](/D/mse)
 - [Median](/D/med)
 - [Method-of-moments estimation](/D/mome)

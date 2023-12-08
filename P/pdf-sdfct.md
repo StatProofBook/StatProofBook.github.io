@@ -45,7 +45,7 @@ $$ \label{eq:Y-range}
 $$
 
 
-**Proof:** The [cumulative distribution function of a strictly decreasing function](/P/cdf-sifct) is
+**Proof:** The [cumulative distribution function of a strictly decreasing function](/P/cdf-sdfct) is
 
 $$ \label{eq:cdf-sdfct}
 F_Y(y) = \left\{
