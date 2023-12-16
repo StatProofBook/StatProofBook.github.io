@@ -92,7 +92,7 @@ $$ \label{eq:y-cvals}
 \end{split}
 $$
 
-Given the test statistic's CDF in \eqref{eq:y-cdf}, this is fulfilled by the values $c_1$ and $c_2$ defined in \eqref{eq:bin-test-c1} and \eqref{eq:bin-test-c2}. Thus, the null hypothesis $H_0$ [can be rejected](/D/cval), if the [observed test statistic](/D/test) is inside the rejection region:
+Given the test statistic's CDF in \eqref{eq:y-cdf}, this is fulfilled by the values $c_1$ and $c_2$ defined in \eqref{eq:bin-test-c1} and \eqref{eq:bin-test-c2}. Thus, the null hypothesis $H_0$ [can be rejected](/D/cval), if the [observed test statistic is inside the rejection region](/D/test):
 
 $$ \label{eq:bin-test-rej-qed}
 y \in \left\lbrace 0, \ldots, c_1 \right\rbrace \cup \left\lbrace c_2, \ldots, n \right\rbrace \; .
