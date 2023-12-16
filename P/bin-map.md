@@ -35,7 +35,7 @@ $$
 
 Then, the [maximum-a-posteriori estimate](/D/map) of $p$ is
 
-$$ \label{eq:Bin-MLE}
+$$ \label{eq:Bin-MAP}
 \hat{p}_\mathrm{MAP} = \frac{\alpha_0+y-1}{\alpha_0+\beta_0+n-2} \; .
 $$
 
@@ -57,13 +57,13 @@ $$
 
 The [mode of the beta distribution](/P/beta-mode) is given by:
 
-$$ \label{eq:beta-mode}
+$$ \label{eq:Beta-mode}
 X \sim \mathrm{Bet}(\alpha, \beta) \quad \Rightarrow \quad \mathrm{mode}(X) = \frac{\alpha-1}{\alpha+\beta-2} \; .
 $$
 
-Applying \eqref{eq:beta-mode} to \eqref{eq:Bin-post} with \eqref{eq:Bin-post-par}, the [maximum-a-posteriori estimate](/D/map) of $p$ follows as:
+Applying \eqref{eq:Beta-mode} to \eqref{eq:Bin-post} with \eqref{eq:Bin-post-par}, the [maximum-a-posteriori estimate](/D/map) of $p$ follows as:
 
-$$ \label{eq:Bin-MAP}
+$$ \label{eq:Bin-MAP-qed}
 \begin{split}
 \hat{p}_\mathrm{MAP} &= \frac{\alpha_n-1}{\alpha_n+\beta_n-2} \\
 &\overset{\eqref{eq:Bin-post-par}}{=} \frac{\alpha_0+y-1}{\alpha_0+y+\beta_0+(n-y)-2} \\

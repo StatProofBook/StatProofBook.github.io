@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let there be a [generative model](/D/gm) $m$ describing measured data $y$ using model parameters $\theta$. Then, the parameter values maximizing the [likelihood function](/D/lf) or [log-likelihood function](/D/llf) are called maximum likelihood estimates of $\theta$:
+**Definition:** Let there be a [generative model](/D/gm) $m$ describing measured data $y$ using model parameters $\theta$. Then, the parameter values maximizing the [likelihood function](/D/lf) or [log-likelihood function](/D/llf) are called "maximum likelihood estimates" of $\theta$:
 
 $$ \label{eq:mle}
 \hat{\theta} = \operatorname*{arg\,max}_\theta \mathcal{L}_m(\theta) = \operatorname*{arg\,max}_\theta \mathrm{LL}_m(\theta) \; .

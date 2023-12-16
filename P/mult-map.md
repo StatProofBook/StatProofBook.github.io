@@ -71,10 +71,11 @@ $$
 Since $y_1 + \ldots + y_k = n$ [by definition](/D/mult-data), this becomes
 
 $$ \label{eq:Mult-MAP-s2}
-\hat{p}_{i,\mathrm{MAP}} = \frac{\alpha_{0i} + y_i - 1}{\sum_j \alpha_{0j} + n - k} \end{equation}
+\hat{p}_{i,\mathrm{MAP}} = \frac{\alpha_{0i} + y_i - 1}{\sum_j \alpha_{0j} + n - k}
+$$
 
 which, using the $1 \times k$ [vectors](/D/mult-data) $y$, $p$ and $\alpha_0$, can be written as:
 
-\begin{equation} \label{eq:Mult-MAP-qed}
+$$ \label{eq:Mult-MAP-qed}
 \hat{p}_\mathrm{MAP} = \frac{\alpha_0+y-1}{\sum_{j=1}^k \alpha_{0j} + n - k} \; .
 $$
