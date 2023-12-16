@@ -24,6 +24,7 @@ title: "Proof by Topic"
 - [Bayesian information criterion for multiple linear regression](/P/mlr-bic)
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
 - [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
+- [Binomial test](/P/bin-test)
 
 ### C
 
