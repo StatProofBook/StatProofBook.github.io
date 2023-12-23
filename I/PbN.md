@@ -434,3 +434,4 @@ title: "Proof by Number"
 | P426 | gam-scal | [Scaling of a random variable following the gamma distribution](/P/gam-scal) | JoramSoch | 2023-11-24 |
 | P427 | bin-map | [Maximum-a-posteriori estimation for binomial observations](/P/bin-map) | JoramSoch | 2023-12-01 |
 | P428 | mult-map | [Maximum-a-posteriori estimation for multinomial observations](/P/mult-map) | JoramSoch | 2023-12-08 |
+| P429 | bin-test | [Binomial test](/P/bin-test) | JoramSoch | 2023-12-16 |

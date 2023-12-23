@@ -14,6 +14,12 @@ topic: "Differential entropy"
 theorem: "Addition upon matrix multiplication"
 
 sources:
+  - authors: "Cover, Thomas M. & Thomas, Joy A."
+    year: 1991
+    title: "Properties of Differential Entropy, Relative Entropy, and Mutual Information"
+    in: "Elements of Information Theory"
+    pages: "sect. 8.6, p. 253"
+    url: "https://www.google.de/books/edition/Elements_of_Information_Theory/j0DBDwAAQBAJ"
   - authors: "Wikipedia"
     year: 2021
     title: "Differential entropy"
