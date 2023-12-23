@@ -274,6 +274,7 @@ title: "Proof by Topic"
 - [Moments of the chi-squared distribution](/P/chi2-mom)
 - [Monotonicity of probability](/P/prob-mon)
 - [Monotonicity of the expected value](/P/mean-mono)
+- [Multinomial test](/P/mult-test)
 - [Multiple linear regression is a special case of the general linear model](/P/mlr-glm)
 - [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn)
 
