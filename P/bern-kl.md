@@ -48,7 +48,7 @@ which, applied to the [Bernoulli distributions](/D/bern) in \eqref{eq:berns}, yi
 $$ \label{eq:bern-KL-s1}
 \begin{split}
 \mathrm{KL}[P\,||\,Q] &= \sum_{x \in \left\lbrace 0,1 \right\rbrace} p(x) \, \ln \frac{p(x)}{q(x)} \\
-&= p(X=0) \cdot \ln \frac{p(X=0)}{q(X=0)} + p(X=0) \cdot \ln \frac{p(X=0)}{q(X=0)} \; .
+&= p(X=0) \cdot \ln \frac{p(X=0)}{q(X=0)} + p(X=1) \cdot \ln \frac{p(X=1)}{q(X=1)} \; .
 \end{split}
 $$
 
