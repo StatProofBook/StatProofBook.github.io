@@ -135,7 +135,7 @@ $$ \label{eq:wald-skew-g}
   &+ \alpha(\gamma^2-2t)^{-3/2}\exp\left[\alpha\gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right]\cdot -\frac{1}{2}\left[\alpha^2(\gamma^2-2t)\right]^{-1/2}\cdot -2\alpha^2\\
 &= \frac{3\alpha}{(\gamma^2-2t)^{5/2}}\exp\left[\alpha\gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right] \\
 &+ \frac{\alpha^2}{(\gamma^2-2t)^2}\exp\left[\alpha\gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right] \; .
-\end{split}\\
+\end{split}
 $$
 
 Applying \eqref{eq:wald-moment}, together with \eqref{eq:wald-skew-f} and \eqref{eq:wald-skew-g}, yields
