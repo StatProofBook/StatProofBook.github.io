@@ -685,9 +685,10 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
    &emsp;&ensp; 1.6.2. **[Posterior distribution](/P/blr-post)** <br>
    &emsp;&ensp; 1.6.3. **[Log model evidence](/P/blr-lme)** <br>
-   &emsp;&ensp; 1.6.4. **[Deviance information criterion](/P/blr-dic)** <br>
-   &emsp;&ensp; 1.6.5. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
-   &emsp;&ensp; 1.6.6. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
+   &emsp;&ensp; 1.6.4. **[Accuracy and complexity](/P/blr-anc)** <br>
+   &emsp;&ensp; 1.6.5. **[Deviance information criterion](/P/blr-dic)** <br>
+   &emsp;&ensp; 1.6.6. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
+   &emsp;&ensp; 1.6.7. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
    
 2. Multivariate normal data
    
