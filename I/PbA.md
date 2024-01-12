@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (398 proofs)
+### JoramSoch (399 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -229,6 +229,7 @@ title: "Proof by Author"
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Monotonicity of probability](/P/prob-mon)
 - [Monotonicity of the expected value](/P/mean-mono)
+- [Multinomial test](/P/mult-test)
 - [Multiple linear regression is a special case of the general linear model](/P/mlr-glm)
 - [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
