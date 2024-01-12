@@ -436,3 +436,4 @@ title: "Proof by Number"
 | P428 | mult-map | [Maximum-a-posteriori estimation for multinomial observations](/P/mult-map) | JoramSoch | 2023-12-08 |
 | P429 | bin-test | [Binomial test](/P/bin-test) | JoramSoch | 2023-12-16 |
 | P430 | mult-test | [Multinomial test](/P/mult-test) | JoramSoch | 2023-12-23 |
+| P431 | blr-anc | [Accuracy and complexity for Bayesian linear regression](/P/blr-anc) | JoramSoch | 2024-01-12 |
