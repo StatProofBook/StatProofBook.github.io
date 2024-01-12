@@ -27,7 +27,7 @@ sources:
     in: "arXiv stat.ME"
     pages: "sect. 2.2, eqs. 8-24"
     url: "https://arxiv.org/abs/1807.01585"
-	doi: "10.48550/arXiv.1807.01585"
+    doi: "10.48550/arXiv.1807.01585"
 
 proof_id: "P431"
 shortcut: "blr-anc"

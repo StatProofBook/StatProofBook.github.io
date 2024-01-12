@@ -39,7 +39,7 @@ sources:
     year: 2018
     title: "cvBMS and cvBMA: filling in the gaps"
     in: "arXiv stat.ME"
-    pages: "arXiv:1807.01585"
+    pages: "1807.01585, eq. 1"
     url: "https://arxiv.org/abs/1807.01585"
 
 def_id: "D111"
