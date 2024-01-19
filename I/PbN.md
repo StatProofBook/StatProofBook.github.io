@@ -437,3 +437,7 @@ title: "Proof by Number"
 | P429 | bin-test | [Binomial test](/P/bin-test) | JoramSoch | 2023-12-16 |
 | P430 | mult-test | [Multinomial test](/P/mult-test) | JoramSoch | 2023-12-23 |
 | P431 | blr-anc | [Accuracy and complexity for Bayesian linear regression](/P/blr-anc) | JoramSoch | 2024-01-12 |
+| P432 | blrkc-prior | [Conjugate prior distribution for Bayesian linear regression with known covariance](/P/blrkc-prior) | JoramSoch | 2024-01-19 |
+| P433 | blrkc-post | [Posterior distribution for Bayesian linear regression with known covariance](/P/blrkc-post) | JoramSoch | 2024-01-19 |
+| P434 | blrkc-lme | [Log model evidence for Bayesian linear regression with known covariance](/P/blrkc-lme) | JoramSoch | 2024-01-19 |
+| P435 | blrkc-anc | [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc) | JoramSoch | 2024-01-19 |
