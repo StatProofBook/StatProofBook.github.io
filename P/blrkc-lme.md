@@ -92,12 +92,12 @@ $$ \label{eq:GLM-LF}
 p(y|\beta) = \mathcal{N}(y; X \beta, \Sigma) = \sqrt{\frac{1}{(2 \pi)^n |\Sigma|}} \, \exp\left[ -\frac{1}{2} (y-X\beta)^\mathrm{T} \Sigma^{-1} (y-X\beta) \right] \; .
 $$
 
-When [deriving the posterior distribution](/P/blrkc-post) $p(\beta|y)$, the joint likelihood $p(y,\beta)$ is obtained as
+When [deriving the posterior distribution](/P/blrkc-post) $p(\beta \vert y)$, the joint likelihood $p(y,\beta)$ is obtained as
 
 $$ \label{eq:GLM-N-LME-s1}
 \begin{split}
 p(y,\beta) = \; & \sqrt{\frac{1}{(2 \pi)^{n+p} |\Sigma| |\Sigma_0|}} \cdot \\
-& \exp\left[ -\frac{1}{2} \left( (\beta-\mu_n)^\mathrm{T} \Sigma_n^{-1} (\beta-\mu_n) + (y^\mathrm{T} \Sigma^{-1} y + \mu_0^\mathrm{T} \Sigma_0^{-1} \mu_0 - \mu_n^\mathrm{T} \Sigma_n^{-1} \mu_n) \right) \right]
+& \exp\left[ -\frac{1}{2} \left( (\beta-\mu_n)^\mathrm{T} \Sigma_n^{-1} (\beta-\mu_n) + (y^\mathrm{T} \Sigma^{-1} y + \mu_0^\mathrm{T} \Sigma_0^{-1} \mu_0 - \mu_n^\mathrm{T} \Sigma_n^{-1} \mu_n) \right) \right] \; .
 \end{split}
 $$
 
@@ -106,7 +106,7 @@ Using the [probability density function of the multivariate normal distribution]
 $$ \label{eq:GLM-N-LME-s2}
 \begin{split}
 p(y,\beta) = \; & \sqrt{\frac{1}{(2 \pi)^n |\Sigma|}} \, \sqrt{\frac{1}{(2 \pi)^p |\Sigma_0|}} \, \sqrt{\frac{(2 \pi)^p |\Sigma_n|}{1}} \cdot \mathcal{N}(\beta; \mu_n, \Sigma_n) \cdot \\
-& \exp\left[ -\frac{1}{2} \left( y^\mathrm{T} \Sigma^{-1} y + \mu_0^\mathrm{T} \Sigma_0^{-1} \mu_0 - \mu_n^\mathrm{T} \Sigma_n^{-1} \mu_n \right) \right]
+& \exp\left[ -\frac{1}{2} \left( y^\mathrm{T} \Sigma^{-1} y + \mu_0^\mathrm{T} \Sigma_0^{-1} \mu_0 - \mu_n^\mathrm{T} \Sigma_n^{-1} \mu_n \right) \right] \; .
 \end{split}
 $$
 

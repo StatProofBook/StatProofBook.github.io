@@ -52,13 +52,20 @@ $$
 
 With the [probability density function of the normal distribution](/P/norm-pdf), the differential entropy of $X$ is:
 
-$$ \label{eq:norm-dent-qed}
+$$ \label{eq:norm-dent-s1}
 \begin{split}
 \mathrm{h}(X) &= - \mathrm{E}\left[ \ln \left( \frac{1}{\sqrt{2 \pi} \sigma} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] \right) \right] \\
 &= - \mathrm{E}\left[ - \frac{1}{2} \ln(2\pi\sigma^2) - \frac{1}{2} \left( \frac{x-\mu}{\sigma} \right)^2 \right] \\
 &= \frac{1}{2} \ln(2 \pi \sigma^2) + \frac{1}{2} \, \mathrm{E}\left[ \left( \frac{x-\mu}{\sigma} \right)^2 \right] \\
-&= \frac{1}{2} \ln(2 \pi \sigma^2) + \frac{1}{2} \cdot \frac{1}{\sigma^2} \cdot \mathrm{E}\left[ (x-\mu)^2 \right] \\
-&= \frac{1}{2} \ln(2 \pi \sigma^2) + \frac{1}{2} \cdot \frac{1}{\sigma^2} \cdot \sigma^2 \\
+&= \frac{1}{2} \ln(2 \pi \sigma^2) + \frac{1}{2} \cdot \frac{1}{\sigma^2} \cdot \mathrm{E}\left[ (x-\mu)^2 \right] \; .
+\end{split}
+$$
+
+Note that $\mathrm{E}\left[ (x-\mu)^2 \right]$ [corresponds to the variance](/D/var) of $X$ and the [variance of the normal distribution](/P/norm-var) is $\sigma^2%. Thus, we can proceed:
+
+$$ \label{eq:norm-dent-s2}
+\begin{split}
+\mathrm{h}(X) &= \frac{1}{2} \ln(2 \pi \sigma^2) + \frac{1}{2} \cdot \frac{1}{\sigma^2} \cdot \sigma^2 \\
 &= \frac{1}{2} \ln(2 \pi \sigma^2) + \frac{1}{2} \\
 &= \frac{1}{2} \ln(2 \pi \sigma^2 e) \; .
 \end{split}
