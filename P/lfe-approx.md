@@ -18,7 +18,7 @@ sources:
     year: 2018
     title: "cvBMS and cvBMA: filling in the gaps"
     in: "arXiv stat.ME"
-    pages: "1807.01585, sect. 2.3, pp. 6-7, eq. 32"
+    pages: "1807.01585, sect. 2.3, eq. 32"
     url: "https://arxiv.org/abs/1807.01585"
 
 proof_id: "P415"

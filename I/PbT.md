@@ -6,6 +6,7 @@ title: "Proof by Topic"
 
 ### A
 
+- [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
 - [Addition law of probability](/P/prob-add)

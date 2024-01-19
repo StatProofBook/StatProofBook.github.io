@@ -18,7 +18,7 @@ sources:
     year: 2015
     title: "Solution for the Indefinite Integral of the Standard Normal Probability Density Function"
     in: "arXiv stat.OT"
-    pages: "arXiv:1512.04858"
+    pages: "1512.04858"
     url: "https://arxiv.org/abs/1512.04858"
   - authors: "Wikipedia"
     year: 2020

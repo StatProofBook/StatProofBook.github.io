@@ -51,8 +51,8 @@ where $\mu_n$ and $\lambda_n$ as well as $a_n$ and $b_n$ are the [posterior hype
 $$ \label{eq:lme-anc}
 \begin{split}
 \mathrm{LME}(m) &= \mathrm{Acc}(m) - \mathrm{Com}(m) \\
-\mathrm{Acc}(m) &= \left\langle \log p(y|\mu,m) \right\rangle_{p(\mu|y,m)} \\
-\mathrm{Com}(m) &= \mathrm{KL} \left[ p(\mu|y,m) \, || \, p(\mu|m) \right] \; .
+\mathrm{Acc}(m) &= \left\langle \log p(y|\mu,\tau,m) \right\rangle_{p(\mu,\tau|y,m)} \\
+\mathrm{Com}(m) &= \mathrm{KL} \left[ p(\mu,\tau|y,m) \, || \, p(\mu,\tau|m) \right] \; .
 \end{split}
 $$
 
