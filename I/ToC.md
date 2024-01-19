@@ -690,6 +690,12 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.6. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
    &emsp;&ensp; 1.6.7. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
    
+   1.7. Bayesian linear regression with known covariance <br>
+   &emsp;&ensp; 1.7.1. **[Conjugate prior distribution](/P/blrkc-prior)** <br>
+   &emsp;&ensp; 1.7.2. **[Posterior distribution](/P/blrkc-post)** <br>
+   &emsp;&ensp; 1.7.3. **[Log model evidence](/P/blrkc-lme)** <br>
+   &emsp;&ensp; 1.7.4. **[Accuracy and complexity](/P/blrkc-anc)** <br>
+   
 2. Multivariate normal data
    
    2.1. General linear model <br>
