@@ -18,7 +18,7 @@ shortcut: "ChIV"
 | Bayesian information criterion | *[bic](/D/bic)* | **[bic-der](/P/bic-der)** |  |  |
 | Deviance information criterion | *[dev](/D/dev)*<br>*[dic](/D/dic)* |  |  |  |
 | **Bayesian<br>model selection** |  |  |  |  |
-| Model evidence | *[me](/D/me)*<br>*[lme](/D/lme)*<br>*[uplme](/D/uplme)*<br>*[cvlme](/D/cvlme)*<br>*[eblme](/D/eblme)*<br>*[vblme](/D/vblme)* | **[me-der](/P/me-der)**<br>**[lme-der](/P/lme-der)** | *[lme-pnp](/P/lme-pnp)** | **[lme-anc](/P/lme-anc)**<br>**[lme-mean](/P/lme-mean)** |
+| Model evidence | *[me](/D/me)*<br>*[lme](/D/lme)*<br>*[uplme](/D/uplme)*<br>*[cvlme](/D/cvlme)*<br>*[eblme](/D/eblme)*<br>*[vblme](/D/vblme)* | **[me-der](/P/me-der)**<br>**[lme-der](/P/lme-der)** | **[lme-pnp](/P/lme-pnp)** | **[lme-anc](/P/lme-anc)**<br>**[lme-mean](/P/lme-mean)** |
 | Family evidence | *[fe](/D/fe)*<br>*[lfe](/D/lfe)* | **[fe-der](/P/fe-der)**<br>**[lfe-der](/P/lfe-der)** | **[lfe-lme](/P/lfe-lme)** | **[lfe-approx](/P/lfe-approx)** |
 | Bayes factor | *[bf](/D/bf)*<br>*[lbf](/D/lbf)* | **[lbf-der](/P/lbf-der)** | **[lbf-lme](/P/lbf-lme)** | **[bf-trans](/P/bf-trans)**<br>**[bf-sddr](/P/bf-sddr)**<br>**[bf-ep](/P/bf-ep)** |
 | Posterior model probability | *[pmp](/D/pmp)* | **[pmp-der](/P/pmp-der)** | **[pmp-bf](/P/pmp-bf)**<br>**[pmp-lbf](/P/pmp-lbf)**<br>**[pmp-lme](/P/pmp-lme)** |  |
