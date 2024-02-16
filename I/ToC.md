@@ -513,7 +513,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.5. **[Probability density function of the bivariate normal distribution](/P/bvn-pdf)** <br>
    &emsp;&ensp; 4.1.6. **[Probability density function in terms of correlation coefficient](/P/bvn-pdfcorr)** <br>
    &emsp;&ensp; 4.1.7. **[Probability density function](/P/mvn-pdf)** <br>
-   &emsp;&ensp; 4.1.8. **[Moment-generating function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.8. **[Moment-generating function](/P/mvn-mgf)** <br>
    &emsp;&ensp; 4.1.9. **[Mean](/P/mvn-mean)** <br>
    &emsp;&ensp; 4.1.10. **[Covariance](/P/mvn-cov)** <br>
    &emsp;&ensp; 4.1.11. **[Differential entropy](/P/mvn-dent)** <br>
