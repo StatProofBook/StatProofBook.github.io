@@ -54,8 +54,14 @@ $$ \label{eq:vec-Y-s1}
 \begin{split}
 \mathrm{vec}(Y) &= \mathrm{vec}(AXB + C) \\
 &= \mathrm{vec}(AXB) + \mathrm{vec}(C) \\
-&= (B^\mathrm{T} \otimes A)\mathrm{vec}(X) + \mathrm{vec}(C) \; .
+&= (B^\mathrm{T} \otimes A)\mathrm{vec}(X) + \mathrm{vec}(C)
 \end{split}
+$$
+
+and the Kronecker product obeys
+
+$$ \label{eq:kron-prod}
+(A \otimes B) (C \otimes D) = (AC) \otimes (BD) \; .
 $$
 
 Using \eqref{eq:matn-mvn} and \eqref{eq:mvn-ltt}, we have

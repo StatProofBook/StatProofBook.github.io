@@ -111,11 +111,11 @@ $$ \label{eq:sum-Uijk-s2}
 &\left. (\bar{y}_{\bullet \bullet \bullet} - \mu) + ([\bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \alpha_i) + ([\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \beta_j) \right. + \\
 &\left. ([\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet}] - \gamma_{ij}) \right]^2 \\
 = \frac{1}{\sigma^2} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} & \left[ (y_{ijk} - \bar{y}_{i j \bullet}) + (\bar{y}_{\bullet \bullet \bullet} - \mu) + ([\bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \alpha_i) + \right. \\
-&\left. ([\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \beta_j) + ([\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet}] - \gamma_{ij}) \right]^2
+&\left. ([\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \beta_j) + ([\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet}] - \gamma_{ij}) \right]^2 \; .
 \end{split}
 $$
 
-Note that the following sums are all zero
+Note that the following sums are all zero:
 
 $$ \label{eq:sum-Uijk-s3a}
 \begin{split}
@@ -159,7 +159,7 @@ $$
 Note further that $\bar{y}_{\bullet \bullet \bullet}$ and $\mu$ are not dependent on $i$, $j$ and $k$:
 
 $$ \label{eq:yb-mu-const}
-\bar{y}_{\bullet \bullet \bullet} = \text{const.} \quad \text{and} \quad \mu = \text{const.} \; .
+\bar{y}_{\bullet \bullet \bullet} = \text{const.} \quad \text{and} \quad \mu = \text{const.}
 $$
 
 Thus, all the non-square products in \eqref{eq:sum-Uijk-s2} disappear and the sum reduces to
@@ -170,7 +170,7 @@ $$ \label{eq:sum-Uijk-s4}
 &\left. ([\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \beta_j)^2 + ([\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet}] - \gamma_{ij})^2 \right] \\
 = \frac{1}{\sigma^2} \left[ \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} \right. & (y_{ijk} - \bar{y}_{i j \bullet})^2 + \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (\bar{y}_{\bullet \bullet \bullet} - \mu)^2 + \\
 \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} &\left. ([\bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \alpha_i)^2 + \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} ([\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \beta_j)^2 + \right. \\
-\sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} &\left. ([\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet}] - \gamma_{ij})^2 \right]
+\sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} &\left. ([\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet}] - \gamma_{ij})^2 \right] \; .
 \end{split}
 $$
 
