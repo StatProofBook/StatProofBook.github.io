@@ -8,9 +8,10 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (400 proofs)
+### JoramSoch (404 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
+- [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
 - [Addition law of probability](/P/prob-add)
@@ -33,6 +34,7 @@ title: "Proof by Author"
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
 - [Conjugate prior distribution for Bayesian linear regression](/P/blr-prior)
+- [Conjugate prior distribution for Bayesian linear regression with known covariance](/P/blrkc-prior)
 - [Conjugate prior distribution for binomial observations](/P/bin-prior)
 - [Conjugate prior distribution for multinomial observations](/P/mult-prior)
 - [Conjugate prior distribution for multivariate Bayesian linear regression](/P/mblr-prior)
@@ -167,6 +169,7 @@ title: "Proof by Author"
 - [Log Bayes factor in terms of log model evidences](/P/lbf-lme)
 - [Log family evidences in terms of log model evidences](/P/lfe-lme)
 - [Log model evidence for Bayesian linear regression](/P/blr-lme)
+- [Log model evidence for Bayesian linear regression with known covariance](/P/blrkc-lme)
 - [Log model evidence for binomial observations](/P/bin-lme)
 - [Log model evidence for multinomial observations](/P/mult-lme)
 - [Log model evidence for multivariate Bayesian linear regression](/P/mblr-lme)
@@ -271,6 +274,7 @@ title: "Proof by Author"
 - [Posterior credibility region against the omnibus null hypothesis for Bayesian linear regression](/P/blr-pcr)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)
 - [Posterior distribution for Bayesian linear regression](/P/blr-post)
+- [Posterior distribution for Bayesian linear regression with known covariance](/P/blrkc-post)
 - [Posterior distribution for binomial observations](/P/bin-post)
 - [Posterior distribution for multinomial observations](/P/mult-post)
 - [Posterior distribution for multivariate Bayesian linear regression](/P/mblr-post)

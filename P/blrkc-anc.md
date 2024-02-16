@@ -51,7 +51,7 @@ Then, [accuracy and complexity](/P/lme-anc) of this model are
 $$ \label{eq:GLM-N-AnC}
 \begin{split}
 \mathrm{Acc}(m) &= - \frac{1}{2} e_y^\mathrm{T} \Sigma^{-1} e_y - \frac{1}{2} \log |\Sigma| - \frac{n}{2} \log (2 \pi) - \frac{1}{2} \mathrm{tr}(X^\mathrm{T} \Sigma^{-1} X \Sigma_n) \\
-\mathrm{Com}(m) &= \hphantom{-} \frac{1}{2} e_\beta^\mathrm{T} \Sigma_0^{-1} e_\beta + \frac{1}{2} \log |\Sigma_0| - \frac{1}{2} \log |\Sigma_n| + \frac{1}{2} \mathrm{tr}(\Sigma_0^{-1} \Sigma_n) - \frac{p}{2}
+\mathrm{Com}(m) &= \hphantom{+} \frac{1}{2} e_\beta^\mathrm{T} \Sigma_0^{-1} e_\beta + \frac{1}{2} \log |\Sigma_0| - \frac{1}{2} \log |\Sigma_n| + \frac{1}{2} \mathrm{tr}(\Sigma_0^{-1} \Sigma_n) - \frac{p}{2}
 \end{split}
 $$
 
@@ -139,7 +139,7 @@ $$ \label{eq:GLM-N-Com-s1}
 \mathrm{Com}(m) = \mathrm{KL} \left[ p(\beta|y) \, || \, p(\beta) \right] \; .
 $$
 
-With the [prior distribution](/P/blrkv-prior) given by \eqref{eq:GLM-N-prior} and the [posterior distribution for Bayesian linear regression with known covariance](/P/blrkc-post), this becomes:
+With the [prior distribution](/P/blrkc-prior) given by \eqref{eq:GLM-N-prior} and the [posterior distribution for Bayesian linear regression with known covariance](/P/blrkc-post), this becomes:
 
 $$ \label{eq:GLM-N-Com-s2}
 \mathrm{Com}(m) = \mathrm{KL} \left[ \mathcal{N}(\beta; \mu_n, \Sigma_n)\,||\,\mathcal{N}(\beta; \mu_0, \Sigma_0) \right] \; .

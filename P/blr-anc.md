@@ -14,6 +14,12 @@ topic: "Bayesian linear regression"
 theorem: "Accuracy and complexity"
 
 sources:
+  - authors: "Soch J, Allefeld A"
+    year: 2016
+    title: "Kullback-Leibler Divergence for the Normal-Gamma Distribution"
+    in: "arXiv math.ST"
+    pages: "1611.01437, eqs. 23/30"
+    url: "https://arxiv.org/abs/1611.01437"
   - authors: "Soch J, Allefeld C, Haynes JD"
     year: 2016
     title: "How to avoid mismodelling in GLM-based fMRI data analysis: cross-validated Bayesian model selection"
@@ -51,10 +57,10 @@ Then, [accuracy and complexity](/P/lme-anc) of this model are
 
 $$ \label{eq:GLM-NG-AnC}
 \begin{split}
-\mathrm{Acc}(m) = & - \frac{1}{2} \frac{a_n}{b_n} (y-X\mu_n)^\mathrm{T} P (y-X\mu_n) - \frac{1}{2} \mathrm{tr}(X^\mathrm{T} P X \Lambda_n^{-1}) \\
-& + \frac{1}{2} \log |P| - \frac{n}{2} \log (2 \pi) + \frac{n}{2} (\psi(a_n) - \log(b_n)) \\
-\mathrm{Com}(m) &= \frac{1}{2} \frac{a_n}{b_n} \left[(\mu_0-\mu_n)^\mathrm{T} \Lambda_0 (\mu_0-\mu_n) - 2(b_n-b_0)\right] + \frac{1}{2} \mathrm{tr}(\Lambda_0 \Lambda_n^{-1}) - \frac{1}{2} \log \frac{|\Lambda_0|}{|\Lambda_n|} - \frac{p}{2} \\
-&+ a_0 \log \frac{b_n}{b_0} - \log \frac{\Gamma(a_n)}{\Gamma(a_0)} + (a_n - a_0) \psi(a_n) \; .
+\mathrm{Acc}(m) = - &\frac{1}{2} \frac{a_n}{b_n} (y-X\mu_n)^\mathrm{T} P (y-X\mu_n) - \frac{1}{2} \mathrm{tr}(X^\mathrm{T} P X \Lambda_n^{-1}) \\
++ &\frac{1}{2} \log |P| - \frac{n}{2} \log (2 \pi) + \frac{n}{2} (\psi(a_n) - \log(b_n)) \\
+\mathrm{Com}(m) = \hphantom{+} &\frac{1}{2} \frac{a_n}{b_n} \left[(\mu_0-\mu_n)^\mathrm{T} \Lambda_0 (\mu_0-\mu_n) - 2(b_n-b_0)\right] + \frac{1}{2} \mathrm{tr}(\Lambda_0 \Lambda_n^{-1}) - \frac{1}{2} \log \frac{|\Lambda_0|}{|\Lambda_n|} - \frac{p}{2} \\
++ & \, a_0 \log \frac{b_n}{b_0} - \log \frac{\Gamma(a_n)}{\Gamma(a_0)} + (a_n - a_0) \psi(a_n) \; .
 \end{split}
 $$
 
@@ -225,7 +231,7 @@ $$
 This requires to recognize that
 
 $$ \label{eq:GLM-NG-AnC-LME-a1}
--\frac{1}{2} \mathrm{tr}(X^\mathrm{T} P X \Lambda_n^{-1}) - \mathrm{tr}(\Lambda_0 \Lambda_n^{-1}) + \frac{p}{2} = 0
+-\frac{1}{2} \mathrm{tr}(X^\mathrm{T} P X \Lambda_n^{-1}) - \frac{1}{2} \mathrm{tr}(\Lambda_0 \Lambda_n^{-1}) + \frac{p}{2} = 0
 $$
 
 and 
