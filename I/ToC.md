@@ -509,19 +509,20 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn)* <br>
    &emsp;&ensp; 4.1.2. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
    &emsp;&ensp; 4.1.3. **[Relationship to chi-squared distribution](/P/mvn-chi2)** <br>
-   &emsp;&ensp; 4.1.4. **[Probability density function](/P/mvn-pdf)** <br>
-   &emsp;&ensp; 4.1.5. *[Bivariate normal distribution](/D/bvn)* <br>
-   &emsp;&ensp; 4.1.6. **[Probability density function of the bivariate normal distribution](/P/bvn-pdf)** <br>
-   &emsp;&ensp; 4.1.7. **[Probability density function in terms of correlation coefficient](/P/bvn-pdfcorr)** <br>
-   &emsp;&ensp; 4.1.8. **[Mean](/P/mvn-mean)** <br>
-   &emsp;&ensp; 4.1.9. **[Covariance](/P/mvn-cov)** <br>
-   &emsp;&ensp; 4.1.10. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.11. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.12. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.13. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.14. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.15. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.16. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.4. *[Bivariate normal distribution](/D/bvn)* <br>
+   &emsp;&ensp; 4.1.5. **[Probability density function of the bivariate normal distribution](/P/bvn-pdf)** <br>
+   &emsp;&ensp; 4.1.6. **[Probability density function in terms of correlation coefficient](/P/bvn-pdfcorr)** <br>
+   &emsp;&ensp; 4.1.7. **[Probability density function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.8. **[Moment-generating function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.9. **[Mean](/P/mvn-mean)** <br>
+   &emsp;&ensp; 4.1.10. **[Covariance](/P/mvn-cov)** <br>
+   &emsp;&ensp; 4.1.11. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.12. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.13. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.14. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.15. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.16. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.17. **[Independence of products](/P/mvn-indprod)** <br>
    
    4.2. Multivariate t-distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
