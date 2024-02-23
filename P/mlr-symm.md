@@ -61,7 +61,8 @@ $$ \label{eq:P-symm}
 \begin{split}
 P^\mathrm{T} &= \left( X (X^\mathrm{T} X)^{-1} X^\mathrm{T} \right)^\mathrm{T} \\
 &= {X^\mathrm{T}}^\mathrm{T} \left((X^\mathrm{T} X)^{-1}\right)^\mathrm{T} X^\mathrm{T} \\
-&= X (X^\mathrm{T} X)^{-1} X^\mathrm{T} \; .
+&= X (X^\mathrm{T} X)^{-1} X^\mathrm{T} \\
+&\overset{\eqref{eq:P}}{=} P \; .
 \end{split}
 $$
 

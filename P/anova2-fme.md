@@ -112,7 +112,7 @@ $$ \label{eq:anova2-fme-A-ss}
 F_A &= \frac{(\mathrm{SS}_A/\sigma^2)/(a-1)}{(\mathrm{SS}_\mathrm{res}/\sigma^2)/(n-ab)} \\
 &= \frac{\mathrm{SS}_A/(a-1)}{\mathrm{SS}_\mathrm{res}/(n-ab)} \\
 &\overset{\eqref{eq:anova2-ss-dist}}{=} \frac{\frac{1}{a-1} \sum_{i=1}^{a} n_{i \bullet} ([\bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \alpha_i)^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2} \\
-&\overset{\eqref{eq:anova2-fme-h0-A}}{=} \frac{\frac{1}{a-1} \sum_{i=1}^{a} n_{i \bullet} (\bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2}
+&\overset{\eqref{eq:anova2-h0-A}}{=} \frac{\frac{1}{a-1} \sum_{i=1}^{a} n_{i \bullet} (\bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2}
 \end{split}
 $$
 
@@ -131,7 +131,7 @@ $$ \label{eq:anova2-fme-B-ss}
 F_B &= \frac{(\mathrm{SS}_B/\sigma^2)/(b-1)}{(\mathrm{SS}_\mathrm{res}/\sigma^2)/(n-ab)} \\
 &= \frac{\mathrm{SS}_B/(b-1)}{\mathrm{SS}_\mathrm{res}/(n-ab)} \\
 &\overset{\eqref{eq:anova2-ss-dist}}{=} \frac{\frac{1}{b-1} \sum_{j=1}^{b} n_{\bullet j} ([\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet}] - \beta_j)^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2} \\
-&\overset{\eqref{eq:anova2-fme-h0-B}}{=} \frac{\frac{1}{b-1} \sum_{j=1}^{b} n_{\bullet j} (\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2}
+&\overset{\eqref{eq:anova2-h0-B}}{=} \frac{\frac{1}{b-1} \sum_{j=1}^{b} n_{\bullet j} (\bar{y}_{\bullet j \bullet} - \bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2}
 \end{split}
 $$
 

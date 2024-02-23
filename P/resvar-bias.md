@@ -26,10 +26,10 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ be a set of independent [normally distributed](/D/norm) observations with unknown [mean](/D/mean) $\mu$ and [variance](/D/var) $\sigma^2$:
+**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a set of independent [normally distributed](/D/norm) observations with unknown [mean](/D/mean) $\mu$ and [variance](/D/var) $\sigma^2$:
 
 $$ \label{eq:ug}
-x_i \overset{\text{i.i.d.}}{\sim} \mathcal{N}(\mu, \sigma^2), \quad i = 1,\ldots,n \; .
+y_i \overset{\text{i.i.d.}}{\sim} \mathcal{N}(\mu, \sigma^2), \quad i = 1,\ldots,n \; .
 $$
 
 Then,
@@ -37,13 +37,13 @@ Then,
 1) the [maximum likelihood estimator](/D/mle) of $\sigma^2$ is
 
 $$ \label{eq:resvar-mle}
-\hat{\sigma}^2 = \frac{1}{n} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2
+\hat{\sigma}^2 = \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2
 $$
 
 where
 
 $$ \label{eq:mean-mle}
-\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i
 $$
 
 2) and $\hat{\sigma}^2$ is a [biased estimator](/D/est-unb) of $\sigma^2$
@@ -61,13 +61,13 @@ $$
 
 **Proof:**
 
-1) This is equivalent to the [maximum likelihood estimator for the univariate Gaussian with unknown variance](/P/ug-mle) and a special case of the [maximum likelihood estimator for multiple linear regression](/P/mlr-mle) in which $y = x$, $X = 1_n$ and $\hat{\beta} = \bar{x}$:
+1) This is equivalent to the [maximum likelihood estimator for the univariate Gaussian with unknown variance](/P/ug-mle) and a special case of the [maximum likelihood estimator for multiple linear regression](/P/mlr-mle) in which $X = 1_n$ and $\hat{\beta} = \bar{y}$:
 
 $$ \label{eq:resvar-mle-qed}
 \begin{split}
 \hat{\sigma}^2 &= \frac{1}{n} (y-X\hat{\beta})^\mathrm{T} (y-X\hat{\beta}) \\
-&= \frac{1}{n} (x - 1_n \bar{x})^\mathrm{T} (x - 1_n \bar{x}) \\
-&= \frac{1}{n} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \; .
+&= \frac{1}{n} (y - 1_n \bar{y})^\mathrm{T} (y - 1_n \bar{y}) \\
+&= \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2 \; .
 \end{split}
 $$
 
@@ -75,14 +75,14 @@ $$
 
 $$ \label{eq:E-resvar-mle-s1}
 \begin{split}
-\mathrm{E}\left[ \hat{\sigma}^2 \right] &= \mathrm{E}\left[ \frac{1}{n} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \right] \\
-&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \right] \\
-&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} \left( x_i^2 - 2 x_i \bar{x} + \bar{x}^2 \right) \right] \\
-&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} x_i^2 - 2 \sum_{i=1}^{n} x_i \bar{x} + \sum_{i=1}^{n} \bar{x}^2 \right] \\
-&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} x_i^2 - 2 n \bar{x}^2 + n \bar{x}^2 \right] \\
-&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} x_i^2 - n \bar{x}^2 \right] \\
-&= \frac{1}{n} \left( \sum_{i=1}^{n} \mathrm{E} \left[ x_i^2 \right] - n \mathrm{E}\left[ \bar{x}^2 \right] \right) \\
-&= \frac{1}{n} \sum_{i=1}^{n} \mathrm{E} \left[ x_i^2 \right] - \mathrm{E}\left[ \bar{x}^2 \right] \\
+\mathrm{E}\left[ \hat{\sigma}^2 \right] &= \mathrm{E}\left[ \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2 \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2 \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} \left( y_i^2 - 2 y_i \bar{y} + \bar{y}^2 \right) \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} y_i^2 - 2 \sum_{i=1}^{n} y_i \bar{y} + \sum_{i=1}^{n} \bar{y}^2 \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} y_i^2 - 2 n \bar{y}^2 + n \bar{y}^2 \right] \\
+&= \frac{1}{n} \mathrm{E}\left[ \sum_{i=1}^{n} y_i^2 - n \bar{y}^2 \right] \\
+&= \frac{1}{n} \left( \sum_{i=1}^{n} \mathrm{E} \left[ y_i^2 \right] - n \mathrm{E}\left[ \bar{y}^2 \right] \right) \\
+&= \frac{1}{n} \sum_{i=1}^{n} \mathrm{E} \left[ y_i^2 \right] - \mathrm{E}\left[ \bar{y}^2 \right] \\
 \end{split}
 $$
 
@@ -94,46 +94,46 @@ $$
 
 we have
 
-$$ \label{eq:Var-xi-xb}
+$$ \label{eq:Var-yi-yb}
 \begin{split}
-\mathrm{Var}(x_i) &= \mathrm{E}(x_i^2) - \mathrm{E}(x_i)^2 \\
-\mathrm{Var}(\bar{x}) &= \mathrm{E}(\bar{x}^2) - \mathrm{E}(\bar{x})^2 \; ,
+\mathrm{Var}(y_i) &= \mathrm{E}(y_i^2) - \mathrm{E}(y_i)^2 \\
+\mathrm{Var}(\bar{y}) &= \mathrm{E}(\bar{y}^2) - \mathrm{E}(\bar{y})^2 \; ,
 \end{split}
 $$
 
 such that \eqref{eq:E-resvar-mle-s1} becomes
 
 $$ \label{eq:E-resvar-mle-s2}
-\mathrm{E}\left[ \hat{\sigma}^2 \right] = \frac{1}{n} \sum_{i=1}^{n} \left( \mathrm{Var}(x_i) + \mathrm{E}(x_i)^2 \right) - \left( \mathrm{Var}(\bar{x}) + \mathrm{E}(\bar{x})^2 \right) \; .
+\mathrm{E}\left[ \hat{\sigma}^2 \right] = \frac{1}{n} \sum_{i=1}^{n} \left( \mathrm{Var}(y_i) + \mathrm{E}(y_i)^2 \right) - \left( \mathrm{Var}(\bar{y}) + \mathrm{E}(\bar{y})^2 \right) \; .
 $$
 
 From \eqref{eq:ug}, it follows that
 
-$$ \label{eq:E-Var-xi}
-\mathrm{E}(x_i) = \mu \quad \text{and} \quad \mathrm{Var}(x_i) = \sigma^2 \; .
+$$ \label{eq:E-Var-yi}
+\mathrm{E}(y_i) = \mu \quad \text{and} \quad \mathrm{Var}(y_i) = \sigma^2 \; .
 $$
 
-The [expectation](/D/mean) of $\bar{x}$ given by \eqref{eq:mean-mle} is
+The [expectation](/D/mean) of $\bar{y}$ given by \eqref{eq:mean-mle} is
 
 $$ \label{eq:E-mean-mle}
 \begin{split}
-\mathrm{E}\left[ \bar{x} \right] &= \mathrm{E}\left[ \frac{1}{n} \sum_{i=1}^{n} x_i \right] = \frac{1}{n} \sum_{i=1}^{n} \mathrm{E}\left[ x_i \right] \\
-&\overset{\eqref{eq:E-Var-xi}}{=} \frac{1}{n} \sum_{i=1}^{n} \mu = \frac{1}{n} \cdot n \cdot \mu \\
+\mathrm{E}\left[ \bar{y} \right] &= \mathrm{E}\left[ \frac{1}{n} \sum_{i=1}^{n} y_i \right] = \frac{1}{n} \sum_{i=1}^{n} \mathrm{E}\left[ y_i \right] \\
+&\overset{\eqref{eq:E-Var-yi}}{=} \frac{1}{n} \sum_{i=1}^{n} \mu = \frac{1}{n} \cdot n \cdot \mu \\
 &= \mu \; .
 \end{split}
 $$
 
-The variance of $\bar{x}$ given by \eqref{eq:mean-mle} is
+The variance of $\bar{y}$ given by \eqref{eq:mean-mle} is
 
 $$ \label{eq:Var-mean-mle}
 \begin{split}
-\mathrm{Var}\left[ \bar{x} \right] &= \mathrm{Var}\left[ \frac{1}{n} \sum_{i=1}^{n} x_i \right] = \frac{1}{n^2} \sum_{i=1}^{n} \mathrm{Var}\left[ x_i \right] \\
-&\overset{\eqref{eq:E-Var-xi}}{=} \frac{1}{n^2} \sum_{i=1}^{n} \sigma^2 = \frac{1}{n^2} \cdot n \cdot \sigma^2 \\
+\mathrm{Var}\left[ \bar{y} \right] &= \mathrm{Var}\left[ \frac{1}{n} \sum_{i=1}^{n} y_i \right] = \frac{1}{n^2} \sum_{i=1}^{n} \mathrm{Var}\left[ y_i \right] \\
+&\overset{\eqref{eq:E-Var-yi}}{=} \frac{1}{n^2} \sum_{i=1}^{n} \sigma^2 = \frac{1}{n^2} \cdot n \cdot \sigma^2 \\
 &= \frac{1}{n} \sigma^2 \; .
 \end{split}
 $$
 
-Plugging \eqref{eq:E-Var-xi}, \eqref{eq:E-mean-mle} and \eqref{eq:Var-mean-mle} into \eqref{eq:E-resvar-mle-s2}, we have
+Plugging \eqref{eq:E-Var-yi}, \eqref{eq:E-mean-mle} and \eqref{eq:Var-mean-mle} into \eqref{eq:E-resvar-mle-s2}, we have
 
 $$ \label{eq:E-resvar-mle-s3}
 \begin{split}
