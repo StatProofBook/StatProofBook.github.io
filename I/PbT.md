@@ -273,6 +273,7 @@ title: "Proof by Topic"
 - [Moment-generating function of the beta distribution](/P/beta-mgf)
 - [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf)
 - [Moment-generating function of the exponential distribution](/P/exp-mgf)
+- [Moment-generating function of the gamma distribution](/P/gam-mgf)
 - [Moment-generating function of the multivariate normal distribution](/P/mvn-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)

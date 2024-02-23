@@ -442,3 +442,4 @@ title: "Proof by Number"
 | P434 | blrkc-lme | [Log model evidence for Bayesian linear regression with known covariance](/P/blrkc-lme) | JoramSoch | 2024-01-19 |
 | P435 | blrkc-anc | [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc) | JoramSoch | 2024-01-19 |
 | P436 | mvn-mgf | [Moment-generating function of the multivariate normal distribution](/P/mvn-mgf) | JoramSoch | 2024-02-16 |
+| P437 | gam-mgf | [Moment-generating function of the gamma distribution](/P/gam-mgf) | JoramSoch | 2024-02-23 |

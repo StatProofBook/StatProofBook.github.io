@@ -95,6 +95,7 @@ title: "Proofs without Source"
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf)
 - [Moment-generating function of the exponential distribution](/P/exp-mgf)
+- [Moment-generating function of the gamma distribution](/P/gam-mgf)
 - [Moment-generating function of the multivariate normal distribution](/P/mvn-mgf)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
