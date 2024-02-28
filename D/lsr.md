@@ -19,7 +19,7 @@ sources:
     title: "Proper/Strictly Proper Scoring Rule"
     in: "Trustworthy Machine Learning"
     url: "https://trustworthyml.io/"
-    doi: " 10.48550/arXiv.2310.08215"
+    doi: "10.48550/arXiv.2310.08215"
 
 def_id: "D195"
 shortcut: "spsr"
