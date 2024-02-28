@@ -27,7 +27,7 @@ username: "KarahanS"
 ---
 
 
-**Definition:** A scoring rule $\mathbf{S}$ is called a _proper_ scoring rule if and only if 
+**Definition:** A [scoring rule](/D/sr) $\mathbf{S}$ is called a _proper_ scoring rule if and only if 
 
 $$
 \max_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = \max_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(P, Y)]
