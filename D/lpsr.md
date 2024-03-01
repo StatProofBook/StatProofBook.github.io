@@ -9,8 +9,8 @@ date: 2024-02-28 20:50:00
 
 title: "Log probability scoring rule"
 chapter: "General Theorems"
-section: "Probability theory"
-topic: "Decision Theory"
+section: "Machine learning"
+topic: "Scoring rules"
 definition: "Log probability scoring rule"
 
 sources:
@@ -46,7 +46,7 @@ $$ \label{eq:binary-lpsr}
 S(q, y) = y \log q + (1-y) \log (1-q)
 $$
 
-Note that the expressions given above have slightly different domains. For the first equation, the domain is $D_1 = ([0,1) \times \{0\}) \cup ((0, 1] \times \{1\})$, while for the second equation, the domain is $D_2 = (0,1) \times \left\{ 0,1 \right\}$.
+Note that the expressions given above have slightly different domains. For the first equation, the domain is $D_1 = ([0,1) \times \left\lbrace 0 \right\rbrace) \cup ((0, 1] \times \left\lbrace 1 \right\rbrace)$, while for the second equation, the domain is $D_2 = (0,1) \times \left\lbrace 0,1 \right\rbrace$.
 
 2) Log scoring rule for multiclass classification:
 

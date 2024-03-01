@@ -9,8 +9,8 @@ date: 2024-02-28 20:50:00
 
 title: "Strictly proper scoring rule"
 chapter: "General Theorems"
-section: "Probability theory"
-topic: "Decision Theory"
+section: "Machine learning"
+topic: "Scoring rules"
 definition: "Strictly proper scoring rule"
 
 sources:
@@ -31,6 +31,6 @@ username: "KarahanS"
 
 * $\mathbf{S}$ is a [proper scoring rule](/D/psr), and
 
-* $\operatorname*{arg\,max}_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = P$ is the unique maximizer of $\mathbf{S}$ in $Q$.
+* $\operatorname*{arg\,max}\_{Q \in \mathcal{Q}} \mathbb{E}\_{Y \sim P}[\mathbf{S}(Q, Y)] = P$ is the unique maximizer of $\mathbf{S}$ in $Q$.
 
 In other words, a strictly proper scoring rule is maximized only when the the forecaster gives exactly the ground truth distribution $P(Y)$ as its probabilistic forecast $Q \in \mathcal{Q}$.

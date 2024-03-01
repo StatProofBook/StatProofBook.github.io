@@ -9,8 +9,8 @@ date: 2024-02-28 20:50:00
 
 title: "Scoring rule"
 chapter: "General Theorems"
-section: "Probability theory"
-topic: "Decision Theory"
+section: "Machine learning"
+topic: "Scoring rules"
 definition: "Scoring rule"
 
 sources:

@@ -9,8 +9,8 @@ date: 2024-02-28 17:40:00
 
 title: "The log probability scoring rule is a strictly proper scoring rule"
 chapter: "General Theorems"
-section: "Probability theory"
-topic: "Decision Theory"
+section: "Machine learning"
+topic: "Scoring rules"
 definition: "Log probability is strictly proper scoring rule"
 
 sources:
