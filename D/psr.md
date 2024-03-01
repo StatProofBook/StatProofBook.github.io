@@ -30,7 +30,7 @@ username: "KarahanS"
 **Definition:** A [scoring rule](/D/sr) $\mathbf{S}$ is called a proper scoring rule, if and only if 
 
 $$ \label{eq:psr}
-\max_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = \max_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(P, Y)] \; .
+\max_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] =  \mathbb{E}_{Y \sim P}[\mathbf{S}(P, Y)] \; .
 $$
 
 In other words, score function $\mathbf{S}$ is a proper scoring rule, if it is maximized when the forecaster gives exactly the ground truth distribution $P(Y)$ as its probabilistic forecast $Q \in \mathcal{Q}$.
