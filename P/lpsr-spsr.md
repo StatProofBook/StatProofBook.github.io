@@ -11,7 +11,7 @@ title: "The log probability scoring rule is a strictly proper scoring rule"
 chapter: "General Theorems"
 section: "Machine learning"
 topic: "Scoring rules"
-definition: "Log probability is strictly proper scoring rule"
+theorem: "Log probability is strictly proper scoring rule"
 
 sources:
   - authors: "Bálint Mucsányi, Michael Kirchhof, Elisa Nguyen, Alexander Rubinstein, Seong Joon Oh"
