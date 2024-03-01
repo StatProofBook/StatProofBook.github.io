@@ -193,6 +193,13 @@ title: "Definition by Author"
 - [Variational Bayesian log model evidence](/D/vblme)
 - [Wishart distribution](/D/wish)
 
+### KarahanS (4 definitions)
+
+- [Log probability scoring rule](/D/lpsr)
+- [Proper scoring rule](/D/psr)
+- [Scoring rule](/D/sr)
+- [Strictly proper scoring rule](/D/spsr)
+
 ### kjpetrykowski (1 definition)
 
 - [Chi-squared distribution](/D/chi2)

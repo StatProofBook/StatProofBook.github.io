@@ -465,6 +465,7 @@ title: "Proof by Topic"
 
 - [t-distribution is a special case of multivariate t-distribution](/P/t-mvt)
 - [t-test for multiple linear regression using contrast-based inference](/P/mlr-t)
+- [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)

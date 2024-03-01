@@ -421,6 +421,10 @@ title: "Proof by Author"
 
 - [Mode of the exponential distribution](/P/exp-mode)
 
+### KarahanS (1 proof)
+
+- [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr)
+
 ### kjpetrykowski (2 proofs)
 
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)

@@ -198,3 +198,7 @@ title: "Definition by Number"
 | D189 | bvn | [Bivariate normal distribution](/D/bvn) | JoramSoch | 2023-09-22 |
 | D190 | skew-samp | [Sample skewness](/D/skew-samp) | tomfaulkenberry | 2023-10-30 |
 | D191 | map | [Maximum-a-posteriori estimation](/D/map) | JoramSoch | 2023-12-01 |
+| D192 | sr | [Scoring rule](/D/sr) | KarahanS | 2024-02-28 |
+| D193 | psr | [Proper scoring rule](/D/psr) | KarahanS | 2024-02-28 |
+| D194 | spsr | [Strictly proper scoring rule](/D/spsr) | KarahanS | 2024-02-28 |
+| D195 | lpsr | [Log probability scoring rule](/D/lpsr) | KarahanS | 2024-02-28 |

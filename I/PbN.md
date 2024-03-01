@@ -443,3 +443,4 @@ title: "Proof by Number"
 | P435 | blrkc-anc | [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc) | JoramSoch | 2024-01-19 |
 | P436 | mvn-mgf | [Moment-generating function of the multivariate normal distribution](/P/mvn-mgf) | JoramSoch | 2024-02-16 |
 | P437 | gam-mgf | [Moment-generating function of the gamma distribution](/P/gam-mgf) | JoramSoch | 2024-02-23 |
+| P438 | lpsr-spsr | [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr) | KarahanS | 2024-02-28 |
