@@ -7,11 +7,11 @@ affiliation: "University of Tübingen"
 e_mail: "karahan.saritas@student.uni-tuebingen.de"
 date: 2024-02-28 20:50:00
 
-title: "Proper Scoring rule"
+title: "Proper scoring rule"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Decision Theory"
-definition: "Proper Scoring rule"
+definition: "Proper scoring rule"
 
 sources:
   - authors: "Bálint Mucsányi, Michael Kirchhof, Elisa Nguyen, Alexander Rubinstein, Seong Joon Oh"
@@ -27,9 +27,10 @@ username: "KarahanS"
 ---
 
 
-**Definition:** A [scoring rule](/D/sr) $\mathbf{S}$ is called a _proper_ scoring rule if and only if 
+**Definition:** A [scoring rule](/D/sr) $\mathbf{S}$ is called a proper scoring rule, if and only if 
 
+$$ \label{eq:psr}
+\max_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = \max_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(P, Y)] \; .
 $$
-\max_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = \max_{Q \in \mathcal{Q}} \mathbb{E}_{Y \sim P}[\mathbf{S}(P, Y)]
-$$
-In other words, score function is a _proper_ scoring rule if it is maximized when the forecaster gives exactly the ground truth distribution $P(Y)$ as its probabilistic forecast $Q \in \mathcal{Q}$.
+
+In other words, score function $\mathbf{S}$ is a proper scoring rule, if it is maximized when the forecaster gives exactly the ground truth distribution $P(Y)$ as its probabilistic forecast $Q \in \mathcal{Q}$.

@@ -33,4 +33,4 @@ username: "KarahanS"
 ---
 
 
-**Definition:** A scoring rule is any extended real-valued function $\mathbf{S}: \mathcal{Q}  \times \Omega \rightarrow \mathbb {R}$ where $\mathcal{Q}$ is a family of probability distributions over the space $\Omega$, such that $\mathbf{S}(Q, \cdot) $ is $\mathcal{Q}$-quasi-integrable for all $Q \in \mathcal{Q}$. Output of the function $\mathbf{S}(Q, y)$ represents the loss or penalty when the forecast $Q \in \mathcal{Q}$ is issued and the observation $y \in \Omega$ is realized.
+**Definition:** A scoring rule is any extended real-valued function $\mathbf{S}: \mathcal{Q} \times \Omega \rightarrow \mathbb {R}$ where $\mathcal{Q}$ is a family of probability distributions over the space $\Omega$, such that $\mathbf{S}(Q, \cdot) $ is $\mathcal{Q}$-quasi-integrable for all $Q \in \mathcal{Q}$. Output of the function $\mathbf{S}(Q, y)$ represents the loss or penalty when the forecast $Q \in \mathcal{Q}$ is issued and the observation $y \in \Omega$ is realized.
