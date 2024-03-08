@@ -806,12 +806,15 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.1. *[Definition](/D/resvar)* <br>
    &emsp;&ensp; 1.1.2. **[Maximum likelihood estimator is biased (p = 1)](/P/resvar-bias)** <br>
    &emsp;&ensp; 1.1.3. **[Maximum likelihood estimator is biased (p > 1)](/P/resvar-biasp)** <br>
-   &emsp;&ensp; 1.1.4. **[Construction of unbiased estimator](/P/resvar-unb)** <br>
+   &emsp;&ensp; 1.1.4. **[Construction of unbiased estimator (p = 1)](/P/resvar-unb)** <br>
+   &emsp;&ensp; 1.1.5. **[Construction of unbiased estimator (p > 1)](/P/resvar-unbp)** <br>
    
    1.2. R-squared <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/rsq)* <br>
    &emsp;&ensp; 1.2.2. **[Derivation of R² and adjusted R²](/P/rsq-der)** <br>
-   &emsp;&ensp; 1.2.3. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
+   &emsp;&ensp; 1.2.3. **[Relationship to resivual variances](/P/rsq-resvar)** <br>
+   &emsp;&ensp; 1.2.4. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
+   &emsp;&ensp; 1.2.5. **[Statistical significance test for R²](/P/rsq-test)** <br>
    
    1.3. Signal-to-noise ratio <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/snr)* <br>
