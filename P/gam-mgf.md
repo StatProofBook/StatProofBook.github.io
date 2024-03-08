@@ -30,7 +30,7 @@ $$
 Then, the [moment-generating function](/D/mgf) of $X$ is
 
 $$ \label{eq:gam-mgf}
-M_X(t) = \left( \frac{b}{b-t} \right)^a \; .
+M_X(t) = \left( 1 - \frac{t}{b} \right)^{-a} \; .
 $$
 
 

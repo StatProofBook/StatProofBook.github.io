@@ -123,6 +123,7 @@ title: "Definition by Topic"
 - [Log Bayes factor](/D/lbf)
 - [Log family evidence](/D/lfe)
 - [Log model evidence](/D/lme)
+- [Log probability scoring rule](/D/lpsr)
 - [Log-likelihood function](/D/llf)
 - [Log-normal distribution](/D/lognorm)
 - [Logistic regression](/D/logreg)
@@ -187,6 +188,7 @@ title: "Definition by Topic"
 - [Probability space](/D/prob-spc)
 - [Probability-generating function](/D/pgf)
 - [Projection matrix](/D/pmat)
+- [Proper scoring rule](/D/psr)
 
 ### Q
 
@@ -217,6 +219,7 @@ title: "Definition by Topic"
 - [Sample space](/D/samp-spc)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
+- [Scoring rule](/D/sr)
 - [Shannon entropy](/D/ent)
 - [Signal-to-noise ratio](/D/snr)
 - [Significance level](/D/alpha)
@@ -232,6 +235,7 @@ title: "Definition by Topic"
 - [Statistical hypothesis](/D/hyp)
 - [Statistical hypothesis test](/D/test)
 - [Statistical independence](/D/ind)
+- [Strictly proper scoring rule](/D/spsr)
 
 ### T
 

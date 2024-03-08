@@ -309,6 +309,15 @@ title: "Table of Contents"
    &emsp;&ensp; 5.3.2. **[Bayes' rule](/P/bayes-rule)** <br>
    &emsp;&ensp; 5.3.3. *[Empirical Bayes](/D/eb)* <br>
    &emsp;&ensp; 5.3.4. *[Variational Bayes](/D/vb)* <br>
+   
+6. Machine learning
+   
+   6.1. Scoring rules <br>
+   &emsp;&ensp; 6.1.1. *[Scoring rule](/D/sr)* <br>
+   &emsp;&ensp; 6.1.2. *[Proper scoring rule](/D/psr)* <br>
+   &emsp;&ensp; 6.1.3. *[Strictly proper scoring rule](/D/spsr)* <br>
+   &emsp;&ensp; 6.1.4. *[Log probability scoring rule](/D/lpsr)* <br>
+   &emsp;&ensp; 6.1.5. **[Log probability is strictly proper scoring rule](/P/lpsr-spsr)** <br>
 
 
 <br>

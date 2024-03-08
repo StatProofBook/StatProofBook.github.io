@@ -43,7 +43,7 @@ $$
 Applying the [law of the unconscious statistician](/P/mean-lotus), we have:
 
 $$ \label{eq:mvn-mgf-s1}
-M_X(t) = \int_{\mathcal{X}} e^{t^\mathrm{T}X} \cdot f_X(x) \, \mathrm{d}x \; .
+M_x(t) = \int_{\mathcal{X}} e^{t^\mathrm{T}x} \cdot f_X(x) \, \mathrm{d}x \; .
 $$
 
 With the [probability density function of the multivariate normal distribution](/P/mvn-pdf), we have:

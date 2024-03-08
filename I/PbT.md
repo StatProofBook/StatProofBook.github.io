@@ -273,6 +273,7 @@ title: "Proof by Topic"
 - [Moment-generating function of the beta distribution](/P/beta-mgf)
 - [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf)
 - [Moment-generating function of the exponential distribution](/P/exp-mgf)
+- [Moment-generating function of the gamma distribution](/P/gam-mgf)
 - [Moment-generating function of the multivariate normal distribution](/P/mvn-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
@@ -464,6 +465,7 @@ title: "Proof by Topic"
 
 - [t-distribution is a special case of multivariate t-distribution](/P/t-mvt)
 - [t-test for multiple linear regression using contrast-based inference](/P/mlr-t)
+- [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
