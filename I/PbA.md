@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (406 proofs)
+### JoramSoch (409 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -44,6 +44,7 @@ title: "Proof by Author"
 - [Conjugate prior distribution for the univariate Gaussian with known variance](/P/ugkv-prior)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
+- [Construction of unbiased estimator for variance in multiple linear regression](/P/resvar-unbp)
 - [Continuous uniform distribution maximizes differential entropy for fixed range](/P/cuni-maxent)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
@@ -117,6 +118,7 @@ title: "Proof by Author"
 - [Expected value of the trace of a matrix](/P/mean-tr)
 - [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx)
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
+- [Expression of R² in terms of residual variances](/P/rsq-resvar)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
 - [Expression of the probability mass function of the beta-binomial distribution using only the gamma function](/P/betabin-pmfitogf)
 - [Extreme points of the probability density function of the normal distribution](/P/norm-extr)
@@ -384,6 +386,7 @@ title: "Proof by Author"
 - [Self-covariance equals variance](/P/cov-var)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr)
+- [Statistical significance test for the coefficient of determinantion based on an omnibus F-test](/P/rsq-test)
 - [Sums of squares for simple linear regression](/P/slr-sss)
 - [Symmetry of the covariance](/P/cov-symm)
 - [Symmetry of the covariance matrix](/P/covmat-symm)

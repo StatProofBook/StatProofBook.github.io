@@ -11,7 +11,7 @@ title: "Construction of unbiased estimator for variance"
 chapter: "Model Selection"
 section: "Goodness-of-fit measures"
 topic: "Residual variance"
-theorem: "Construction of unbiased estimator"
+theorem: "Construction of unbiased estimator (p = 1)"
 
 sources:
   - authors: "Liang, Dawen"
