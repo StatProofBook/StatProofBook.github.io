@@ -14,6 +14,12 @@ topic: "F-statistic"
 theorem: "Relationship to coefficient of determination"
 
 sources:
+  - authors: "Alecos Papadopoulos"
+    year: 2014
+    title: "What is the distribution of R² in linear regression under the null hypothesis?"
+    in: "StackExchange CrossValidated"
+    pages: "retrieved on 2024-03-15"
+    url: "https://stats.stackexchange.com/a/130082"
 
 proof_id: "P442"
 shortcut: "fstat-rsq"
