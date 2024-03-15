@@ -26,23 +26,23 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ be a set of independent [normally distributed](/D/norm) observations with unknown [mean](/D/mean) $\mu$ and [variance](/D/var) $\sigma^2$:
+**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a set of independent [normally distributed](/D/norm) observations with unknown [mean](/D/mean) $\mu$ and [variance](/D/var) $\sigma^2$:
 
 $$ \label{eq:ug}
-x_i \overset{\text{i.i.d.}}{\sim} \mathcal{N}(\mu, \sigma^2), \quad i = 1,\ldots,n \; .
+y_i \overset{\text{i.i.d.}}{\sim} \mathcal{N}(\mu, \sigma^2), \quad i = 1,\ldots,n \; .
 $$
 
 An [unbiased estimator](/D/est-unb) of $\sigma^2$ is given by
 
 $$ \label{eq:resvar-unb}
-\hat{\sigma}^2_{\mathrm{unb}} = \frac{1}{n-1} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \; .
+\hat{\sigma}^2_{\mathrm{unb}} = \frac{1}{n-1} \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2 \; .
 $$
 
 
 **Proof:** [It can be shown that](/P/resvar-bias) the [maximum likelihood estimator](/D/mle) of $\sigma^2$
 
 $$ \label{eq:resvar-mle}
-\hat{\sigma}^2_{\mathrm{MLE}} = \frac{1}{n} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2
+\hat{\sigma}^2_{\mathrm{MLE}} = \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2
 $$
 
 is a [biased estimator](/D/est-unb) in the sense that
@@ -66,7 +66,7 @@ such that an [unbiased estimator](/D/est-unb) can be constructed as
 $$ \label{eq:resvar-unb-qed}
 \begin{split}
 \hat{\sigma}^2_{\mathrm{unb}} &= \frac{n}{n-1} \hat{\sigma}^2_{\mathrm{MLE}} \\
-&\overset{\eqref{eq:resvar-mle}}{=} \frac{n}{n-1} \cdot \frac{1}{n} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \\
-&= \frac{1}{n-1} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \; .
+&\overset{\eqref{eq:resvar-mle}}{=} \frac{n}{n-1} \cdot \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2 \\
+&= \frac{1}{n-1} \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2 \; .
 \end{split}
 $$

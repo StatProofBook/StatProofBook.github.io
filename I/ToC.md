@@ -681,12 +681,12 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.19. **[Distribution of residual sum of squares](/P/mlr-rssdist)** <br>
    &emsp;&ensp; 1.5.20. **[Weighted least squares](/P/mlr-wls)** (1) <br>
    &emsp;&ensp; 1.5.21. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
-   &emsp;&ensp; 1.5.22. *[t-contrast](/D/tcon)* <br>
-   &emsp;&ensp; 1.5.23. *[F-contrast](/D/fcon)* <br>
-   &emsp;&ensp; 1.5.24. **[Contrast-based t-test](/P/mlr-t)** <br>
-   &emsp;&ensp; 1.5.25. **[Contrast-based F-test](/P/mlr-f)** <br>
-   &emsp;&ensp; 1.5.26. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
-   &emsp;&ensp; 1.5.27. **[Maximum log-likelihood](/P/mlr-mll)** <br>
+   &emsp;&ensp; 1.5.22. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
+   &emsp;&ensp; 1.5.23. **[Maximum log-likelihood](/P/mlr-mll)** <br>
+   &emsp;&ensp; 1.5.24. *[t-contrast](/D/tcon)* <br>
+   &emsp;&ensp; 1.5.25. *[F-contrast](/D/fcon)* <br>
+   &emsp;&ensp; 1.5.26. **[Contrast-based t-test](/P/mlr-t)** <br>
+   &emsp;&ensp; 1.5.27. **[Contrast-based F-test](/P/mlr-f)** <br>
    &emsp;&ensp; 1.5.28. **[Deviance function](/P/mlr-dev)** <br>
    &emsp;&ensp; 1.5.29. **[Akaike information criterion](/P/mlr-aic)** <br>
    &emsp;&ensp; 1.5.30. **[Bayesian information criterion](/P/mlr-bic)** <br>

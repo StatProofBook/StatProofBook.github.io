@@ -38,7 +38,7 @@ username: "JoramSoch"
 Then, in two-way analysis of variance (ANOVA), these measurements are assumed to come from [normal distributions](/D/norm)
 
 $$ \label{eq:anova2-p1}
-y_{ij} \sim \mathcal{N}(\mu_{ij}, \sigma^2) \quad \text{for all} \quad i = 1, \ldots, a, \quad j = 1, \ldots, b, \quad \text{and} \quad k = 1, \dots, n_{ij}
+y_{ijk} \sim \mathcal{N}(\mu_{ij}, \sigma^2) \quad \text{for all} \quad i = 1, \ldots, a, \quad j = 1, \ldots, b, \quad \text{and} \quad k = 1, \dots, n_{ij}
 $$
 
 with

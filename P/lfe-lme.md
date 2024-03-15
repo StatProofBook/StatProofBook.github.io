@@ -28,16 +28,16 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $m_1, \ldots, m_M$ be $M$ statistical models with [log model evidences](/D/lme) $\mathrm{LME}(m_1), \ldots, \mathrm{LME}(m_M)$ and belonging to $F$ mutually exclusive model families $f_1, \ldots, f_F$. Then, the [log family evidences](/D/lfe) are given by:
+**Theorem:** Let $m_1, \ldots, m_M$ be $M$ statistical models with [log model evidences](/D/lme) $\mathrm{LME}(m_1), \ldots, \mathrm{LME}(m_M)$ and belonging to $F$ mutually exclusive [model families](/D/fe) $f_1, \ldots, f_F$. Then, the [log family evidences](/D/lfe) are given by:
 
 $$ \label{eq:LFE-LME}
 \mathrm{LFE}(f_j) = \log \sum_{m_i \in f_j} \left[ \exp[\mathrm{LME}(m_i)] \cdot p(m_i|f_j) \right], \quad j = 1, \ldots, F,
 $$
 
-where $p(m_i \vert f_j)$ are within-[family](/D/lfe) [prior](/D/prior) [model](/D/gm) [probabilities](/D/prob).
+where $p(m_i \vert f_j)$ are within-[family](/D/fe) [prior](/D/prior) [model](/D/gm) [probabilities](/D/prob).
 
 
-**Proof:** Let us consider the (unlogarithmized) family evidence $p(y \vert f_j)$. According to the [law of marginal probability](/D/prob-marg), this conditional probability is given by
+**Proof:** Let us consider the (unlogarithmized) [family evidence](/D/fe) $p(y \vert f_j)$. According to the [law of marginal probability](/D/prob-marg), this conditional probability is given by
 
 $$ \label{eq:FE-ME-s1}
 p(y|f_j) = \sum_{m_i \in f_j} \left[ p(y|m_i,f_j) \cdot p(m_i|f_j) \right] \; .
@@ -49,7 +49,7 @@ $$ \label{eq:FE-ME-s2}
 p(y|f_j) = \sum_{m_i \in f_j} \left[ p(y|m_i) \cdot p(m_i|f_j) \right] \; .
 $$
 
-Logarithmizing transforms the family evidence $p(y \vert f_j)$ into the log family evidence $\mathrm{LFE}(f_j)$:
+Logarithmizing transforms the family evidence $p(y \vert f_j)$ into the [log family evidence](/D/lfe) $\mathrm{LFE}(f_j)$:
 
 $$ \label{eq:LFE-LME-s1}
 \mathrm{LFE}(f_j) = \log \sum_{m_i \in f_j} \left[ p(y|m_i) \cdot p(m_i|f_j) \right] \; .
