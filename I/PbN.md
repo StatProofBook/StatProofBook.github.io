@@ -444,3 +444,6 @@ title: "Proof by Number"
 | P436 | mvn-mgf | [Moment-generating function of the multivariate normal distribution](/P/mvn-mgf) | JoramSoch | 2024-02-16 |
 | P437 | gam-mgf | [Moment-generating function of the gamma distribution](/P/gam-mgf) | JoramSoch | 2024-02-23 |
 | P438 | lpsr-spsr | [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr) | KarahanS | 2024-02-28 |
+| P439 | resvar-unbp | [Construction of unbiased estimator for variance in multiple linear regression](/P/resvar-unbp) | JoramSoch | 2024-03-08 |
+| P440 | rsq-resvar | [Expression of R² in terms of residual variances](/P/rsq-resvar) | JoramSoch | 2024-03-08 |
+| P441 | rsq-test | [Statistical significance test for the coefficient of determinantion based on an omnibus F-test](/P/rsq-test) | JoramSoch | 2024-03-08 |
