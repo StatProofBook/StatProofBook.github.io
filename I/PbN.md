@@ -447,3 +447,4 @@ title: "Proof by Number"
 | P439 | resvar-unbp | [Construction of unbiased estimator for variance in multiple linear regression](/P/resvar-unbp) | JoramSoch | 2024-03-08 |
 | P440 | rsq-resvar | [Expression of R² in terms of residual variances](/P/rsq-resvar) | JoramSoch | 2024-03-08 |
 | P441 | rsq-test | [Statistical significance test for the coefficient of determinantion based on an omnibus F-test](/P/rsq-test) | JoramSoch | 2024-03-08 |
+| P442 | fstat-rsq | [Relationship between F-statistic and R²](/P/fstat-rsq) | JoramSoch | 2024-03-15 |

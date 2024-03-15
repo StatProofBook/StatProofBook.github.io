@@ -8,7 +8,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (182 definitions)
+### JoramSoch (183 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -68,6 +68,7 @@ title: "Definition by Author"
 - [Exponential distribution](/D/exp)
 - [F-contrast for contrast-based inference in multiple linear regression](/D/fcon)
 - [F-distribution](/D/f)
+- [F-statistic](/D/fstat)
 - [Family evidence](/D/fe)
 - [Flat, hard and soft prior distribution](/D/prior-flat)
 - [Full probability model](/D/fpm)
