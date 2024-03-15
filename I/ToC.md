@@ -812,15 +812,19 @@ title: "Table of Contents"
    1.2. R-squared <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/rsq)* <br>
    &emsp;&ensp; 1.2.2. **[Derivation of R² and adjusted R²](/P/rsq-der)** <br>
-   &emsp;&ensp; 1.2.3. **[Relationship to resivual variances](/P/rsq-resvar)** <br>
+   &emsp;&ensp; 1.2.3. **[Relationship to residual variance](/P/rsq-resvar)** <br>
    &emsp;&ensp; 1.2.4. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
    &emsp;&ensp; 1.2.5. **[Statistical significance test for R²](/P/rsq-test)** <br>
    
-   1.3. Signal-to-noise ratio <br>
-   &emsp;&ensp; 1.3.1. *[Definition](/D/snr)* <br>
-   &emsp;&ensp; 1.3.2. **[Relationship with R²](/P/snr-rsq)** <br>
+   1.3. F-statistic <br>
+   &emsp;&ensp; 1.3.1. *[Definition](/D/fstat)* <br>
+   &emsp;&ensp; 1.3.2. **[Relationship to coefficient of determination](/P/fstat-rsq)** <br>
+   
+   1.4. Signal-to-noise ratio <br>
+   &emsp;&ensp; 1.4.1. *[Definition](/D/snr)* <br>
+   &emsp;&ensp; 1.4.2. **[Relationship to coefficient of determination](/P/snr-rsq)** <br>
 
-2. Classical information criteria
+1. Classical information criteria
 
    2.1. Akaike information criterion <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/aic)* <br>
@@ -836,7 +840,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.3.1. *[Definition](/D/dic)* <br>
    &emsp;&ensp; 2.3.2. *[Deviance](/D/dev)* <br>
 
-3. Bayesian model selection
+2. Bayesian model selection
 
    3.1. Model evidence <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/me)* <br>
