@@ -819,10 +819,12 @@ title: "Table of Contents"
    1.3. F-statistic <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/fstat)* <br>
    &emsp;&ensp; 1.3.2. **[Relationship to coefficient of determination](/P/fstat-rsq)** <br>
+   &emsp;&ensp; 1.3.3. **[Relationship to maximum log-likelihood](/P/fstat-mll)** <br>
    
    1.4. Signal-to-noise ratio <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/snr)* <br>
    &emsp;&ensp; 1.4.2. **[Relationship to coefficient of determination](/P/snr-rsq)** <br>
+   &emsp;&ensp; 1.4.3. **[Relationship to maximum log-likelihood](/P/snr-mll)** <br>
 
 1. Classical information criteria
 
