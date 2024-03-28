@@ -33,7 +33,7 @@ $$ \label{eq:mlr}
 y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; .
 $$
 
-Then, the [F-statistic](/D/fstat) for comparing this model against a null model containg only a [constant regressor](/D/mlr) $x_0 = 1_n$ can be expressed in terms of the [coefficient of determination](/D/rsq)
+Then, the [F-statistic](/D/fstat) for comparing this model against a null model containing only a [constant regressor](/D/mlr) $x_0 = 1_n$ can be expressed in terms of the [coefficient of determination](/D/rsq)
 
 $$ \label{eq:F-R2}
 F = \frac{R^2/(p-1)}{(1-R^2)/(n-p)}

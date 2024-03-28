@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Given a [linear regression model](/D/mlr) with independent observations
+**Theorem:** Given a [linear regression model with independent observations](/D/mlr)
 
 $$ \label{eq:MLR}
 y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; ,
