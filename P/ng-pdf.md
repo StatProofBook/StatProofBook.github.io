@@ -67,7 +67,7 @@ $$ \label{eq:prob-cond}
 p(x,y) = p(x \vert y) \, p(y) \; ,
 $$
 
-such that the normal-Wishart density function becomes:
+such that the normal-gamma density function becomes:
 
 $$ \label{eq:ng-pdf-prod}
 p(x,y) = \sqrt{\frac{|y \Lambda|}{(2 \pi)^n}} \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} (y \Lambda) (x-\mu) \right] \cdot \frac{b^a}{\Gamma(a)} y^{a-1} \exp\left[-by\right] \; .

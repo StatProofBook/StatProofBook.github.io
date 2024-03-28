@@ -11,7 +11,7 @@ title: "Relationship between signal-to-noise ratio and R²"
 chapter: "Model Selection"
 section: "Goodness-of-fit measures"
 topic: "Signal-to-noise ratio"
-theorem: "Relationship with R²"
+theorem: "Relationship to coefficient of determination"
 
 sources:
 

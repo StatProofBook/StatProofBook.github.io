@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (409 proofs)
+### JoramSoch (410 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -361,6 +361,7 @@ title: "Proof by Author"
 - [Relationship between correlation coefficient and slope estimate in simple linear regression](/P/slr-corr)
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
+- [Relationship between F-statistic and R²](/P/fstat-rsq)
 - [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam)
 - [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam2)
 - [Relationship between multivariate normal distribution and chi-squared distribution](/P/mvn-chi2)

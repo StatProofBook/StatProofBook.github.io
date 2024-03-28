@@ -32,7 +32,7 @@ username: "JoramSoch"
 $$ \label{eq:m0-m1}
 \begin{split}
 m_1: \; y &= X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \\
-m_0: \; y &= X_0\beta_0 + \varepsilon_0, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma_0^2)
+m_0: \; y &= X_0\beta_0 + \varepsilon_0, \; \varepsilon_{0i} \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma_0^2)
 \end{split}
 $$
 

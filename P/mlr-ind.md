@@ -71,7 +71,7 @@ $$ \label{eq:e-proj}
 \end{split}
 $$
 
-Two projections $AZ$ and $BZ$ from the same [multivariate normal](/D/mvn) [random vector](/D/rvec) $Z \sim \mathcal{N}(\mu, \Sigma)$ [are independent, if and only if the following condition holds](/P/mlr-ind):
+Two projections $AZ$ and $BZ$ from the same [multivariate normal](/D/mvn) [random vector](/D/rvec) $Z \sim \mathcal{N}(\mu, \Sigma)$ [are independent, if and only if the following condition holds](/P/mvn-ind):
 
 $$ \label{eq:mvn-ind}
 A \Sigma B^\mathrm{T} = 0 \; .

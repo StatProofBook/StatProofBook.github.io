@@ -89,7 +89,7 @@ $$ \label{eq:anova2-fgm-ess-tss}
 F_M &= \frac{(\mathrm{SS}_M/\sigma^2)/(1)}{(\mathrm{SS}_\mathrm{res}/\sigma^2)/(n-ab)} \\
 &= \frac{\mathrm{SS}_M/(1)}{\mathrm{SS}_\mathrm{res}/(n-ab)} \\
 &\overset{\eqref{eq:anova2-ss-dist}}{=} \frac{n (\bar{y}_{\bullet \bullet \bullet} - \mu)^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2} \\
-&\overset{\eqref{eq:anova2-fgm}}{=} \frac{n (\bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2}
+&\overset{\eqref{eq:anova2-h0}}{=} \frac{n (\bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2}
 \end{split}
 $$
 

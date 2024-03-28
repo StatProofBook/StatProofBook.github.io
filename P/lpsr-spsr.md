@@ -29,7 +29,7 @@ username: "KarahanS"
 
 **Theorem:** The [log (probability) scoring rule](/D/lpsr) is a [strictly proper scoring rule](/D/spsr).
 
-**Proof:** We will show that all versions of the log probability scoring rule (binary/multiclass/refression) are strictly proper scoring rules.
+**Proof:** We will show that all versions of the log probability scoring rule (binary/multiclass/regression) are strictly proper scoring rules.
 
 1) Binary log probability scoring rule:
 

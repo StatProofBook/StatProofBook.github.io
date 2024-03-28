@@ -133,6 +133,7 @@ title: "Proofs without Source"
 - [Quantile function of the exponential distribution](/P/exp-qf)
 - [Range of the variance of the binomial distribution](/P/bin-varrange)
 - [Relationship between covariance and correlation](/P/cov-corr)
+- [Relationship between F-statistic and R²](/P/fstat-rsq)
 - [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam)
 - [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam2)
 - [Relationship between non-standardized t-distribution and t-distribution](/P/nst-t)
