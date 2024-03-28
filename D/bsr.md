@@ -31,7 +31,7 @@ username: "KarahanS"
 
 1) Brier scoring rule for binary classification:
 
-$$ \label{eq:binary-bsr-cases}
+$$ \label{eq:binary-bsr}
 S(q, y) = -(q - y)^2
 $$
 
@@ -39,10 +39,12 @@ $q$ represents the predicted probability of the positive class ($Y = 1$) and $y$
 
 2) Brier scoring rule for multiclass classification:
 
-$$ \label{eq:multiclass-lpsr}
+$$ \label{eq:multiclass-bsr}
 S(q, y) = -\sum_k (q_k - y_k)^2 = -(q_{y^*} - 1)^2 -\sum_{k \neq y^*} q_k^2
 $$
 
-where $q_k$ is the predicted probability of the class $y^*$ is the true class label. Similar to the log probability score, we have $y_k = 1$, if the true class is $k$ and $y_k = 0$ otherwise.
+where $q_k$ is the predicted probability class $k$ and $y^*$ is the true class label. Similar to the log probability scoring rule, we have $y_k = 1$, if the true class is $k$ and $y_k = 0$ otherwise.
 
-Although there is no direct version of Brier score for regression, we can use the squared error loss as a scoring rule for regression problems.
+3) Regression (continuous case):
+
+Although there is no direct version of Brier score for regression, we can use the squared error loss as a scoring rule for regression problems as well.

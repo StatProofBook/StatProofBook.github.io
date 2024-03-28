@@ -318,6 +318,7 @@ title: "Table of Contents"
    &emsp;&ensp; 6.1.3. *[Strictly proper scoring rule](/D/spsr)* <br>
    &emsp;&ensp; 6.1.4. *[Log probability scoring rule](/D/lpsr)* <br>
    &emsp;&ensp; 6.1.5. **[Log probability is strictly proper scoring rule](/P/lpsr-spsr)** <br>
+   &emsp;&ensp; 6.1.6. *[Brier scoring rule](/D/bsr)* <br>
 
 
 <br>
@@ -819,10 +820,12 @@ title: "Table of Contents"
    1.3. F-statistic <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/fstat)* <br>
    &emsp;&ensp; 1.3.2. **[Relationship to coefficient of determination](/P/fstat-rsq)** <br>
+   &emsp;&ensp; 1.3.3. **[Relationship to maximum log-likelihood](/P/fstat-mll)** <br>
    
    1.4. Signal-to-noise ratio <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/snr)* <br>
    &emsp;&ensp; 1.4.2. **[Relationship to coefficient of determination](/P/snr-rsq)** <br>
+   &emsp;&ensp; 1.4.3. **[Relationship to maximum log-likelihood](/P/snr-mll)** <br>
 
 1. Classical information criteria
 

@@ -203,3 +203,4 @@ title: "Definition by Number"
 | D194 | spsr | [Strictly proper scoring rule](/D/spsr) | KarahanS | 2024-02-28 |
 | D195 | lpsr | [Log probability scoring rule](/D/lpsr) | KarahanS | 2024-02-28 |
 | D196 | fstat | [F-statistic](/D/fstat) | JoramSoch | 2024-03-15 |
+| D197 | bsr | [Brier scoring rule](/D/bsr) | KarahanS | 2024-03-23 |

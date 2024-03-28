@@ -54,7 +54,7 @@ $$ \label{eq:SNR}
 \mathrm{SNR} = \frac{\mathrm{Var}(X\hat{\beta})}{\hat{\sigma}^2} = \frac{\mathrm{Var}(\hat{y})}{\hat{\sigma}^2} \; .
 $$
 
-Writing out the variances, we have
+Writing out the [sample variances](/D/var-samp), we have
 
 $$ \label{eq:SNR-s1}
 \mathrm{SNR} = \frac{\frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2}{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} = \frac{\sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2}{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2} \; .

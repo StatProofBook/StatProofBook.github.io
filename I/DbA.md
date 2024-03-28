@@ -194,8 +194,9 @@ title: "Definition by Author"
 - [Variational Bayesian log model evidence](/D/vblme)
 - [Wishart distribution](/D/wish)
 
-### KarahanS (4 definitions)
+### KarahanS (5 definitions)
 
+- [Brier scoring rule](/D/bsr)
 - [Log probability scoring rule](/D/lpsr)
 - [Proper scoring rule](/D/psr)
 - [Scoring rule](/D/sr)
