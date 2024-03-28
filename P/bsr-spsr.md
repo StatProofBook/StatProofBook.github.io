@@ -32,14 +32,14 @@ username: "KarahanS"
 **Proof:** We will show that both versions of the brier scoring rule (binary/multiclass) are strictly proper scoring rules.
 1) Binary Brier Scoring rule:
 
-$$
+$$ \label{eq:binary-bsr-s1}
 \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = - P(Y = 1) (q - 1)^2 + P(Y = 0) -q^2
 $$
 
 Let $p$ be the true probability of the event $Y = 1$. Then, the expected score is:
 
 
-$$
+$$ \label{eq:binary-bsr-s2}
 \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = - p (q - 1)^2 - (1 - p) q^2
 $$
 
@@ -103,3 +103,24 @@ $$
 \end{split}
 $$
 
+
+We know that $\sum_i q_i = 1$ and $\sum_i p_i = 1$, therefore:
+
+$$
+\begin{split}
+p_1 - q_1 = p_2 - q_2 &= ... = p_K - q_K = \lambda \\
+\sum_i p_i - q_i &= K \cdot \lambda = 0 \\  
+\Rightarrow \lambda &= 0  \;\;\;\text{since}\; K \neq 0 \\
+\Rightarrow p_i &= q_i
+\end{split}
+$$
+
+Now, we need to check the second derivative to see, if it is a maximum for the properness condition and if it is the only maximizer for the strictness condition:
+
+$$
+\begin{split}
+\frac{\partial^2}{\partial q_j^2}\mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &=   - 2 - 2 < 0 \\
+\end{split}
+$$
+
+The second derivative is always negative, which means that the function is concave and the maximum is unique. Therefore, $p = q$ is the only maximizer and the Brier scoring rule for multiclass classification is strictly proper.
