@@ -66,7 +66,7 @@ $$
 The second derivative is always negative which means that the function is concave and the maximum is unique. Therefore, $p = q$ is the only maximizer and the Brier scoring rule for binary classification is strictly proper.
 
 
-2) Multiclass Brier Scoring rule:
+2) Brier scoring rule for multiclass classification:
 
 $$
 \begin{split}
