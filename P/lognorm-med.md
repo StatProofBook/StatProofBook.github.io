@@ -46,7 +46,13 @@ $$ \label{eq:lognorm-cdf}
 F_X(x) = \frac{1}{2} \left[ 1 + \mathrm{erf} \left( \frac{\ln (x)-\mu}{\sigma \sqrt{2}} \right) \right]
 $$
 
-where $\mathrm{erf}(x)$ is the error function. Thus, the inverse CDF is
+where $\mathrm{erf}(x)$ is the error function defined as
+
+$$ \label{eq:erf}
+\mathrm{erf}(x) = \frac{2}{\sqrt{\pi}} \int_{0}^{x} \exp(-t^2) \, \mathrm{d}t \; .
+$$
+
+Thus, the inverse CDF is
 
 $$ \label{eq:lognorm-cdf-inv}
 \begin{split}

@@ -43,7 +43,7 @@ $$ \label{eq:multiclass-bsr}
 S(q, y) = -\sum_k (q_k - y_k)^2 = -(q_{y^*} - 1)^2 -\sum_{k \neq y^*} q_k^2
 $$
 
-where $q_k$ is the predicted probability class $k$ and $y^*$ is the true class label. Similar to the log probability scoring rule, we have $y_k = 1$, if the true class is $k$ and $y_k = 0$ otherwise.
+where $q_k$ is the predicted probability of class $k$ and $y^*$ is the true class label. Similar to the log probability scoring rule, we have $y_k = 1$, if the true class is $k$ and $y_k = 0$ otherwise.
 
 3) Regression (continuous case):
 
