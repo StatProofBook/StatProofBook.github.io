@@ -9,7 +9,7 @@ permalink: /citations/
 
 If you cite **The Book of Statistical Proofs** in your scientific work, it is best practice to reference the Zenodo DOI (10.5281/zenodo.4305949) which always resolves the latest version of the **StatProofBook**. This could e.g. look as follows:
 
-* Soch, Joram, et al. (2023). StatProofBook/StatProofBook.github.io: StatProofBook 2022 (Version 2022). Zenodo. <https://doi.org/10.5281/ZENODO.4305949>
+* Soch, Joram, et al. (2024). StatProofBook/StatProofBook.github.io: The Book of Statistical Proofs (Version 2023). Zenodo. <https://doi.org/10.5281/ZENODO.4305949>
 
 Alternatively, you can also directly cite a proof from the archive in your article:
 
