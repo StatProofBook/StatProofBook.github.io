@@ -318,6 +318,7 @@ title: "Table of Contents"
    &emsp;&ensp; 6.1.3. *[Strictly proper scoring rule](/D/spsr)* <br>
    &emsp;&ensp; 6.1.4. *[Log probability scoring rule](/D/lpsr)* <br>
    &emsp;&ensp; 6.1.5. **[Log probability is strictly proper scoring rule](/P/lpsr-spsr)** <br>
+   &emsp;&ensp; 6.1.6. *[Brier scoring rule](/D/bsr)* <br>
 
 
 <br>

@@ -22,6 +22,7 @@ title: "Definition by Topic"
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
 - [Bivariate normal distribution](/D/bvn)
+- [Brier scoring rule](/D/bsr)
 
 ### C
 
