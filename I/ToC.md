@@ -703,6 +703,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.6. **[Expression of posterior parameters using error terms](/P/blr-posterr)** <br>
    &emsp;&ensp; 1.6.7. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
    &emsp;&ensp; 1.6.8. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
+   &emsp;&ensp; 1.6.9. **[Combined posterior distribution from independent data sets](/P/blr-postind)** <br>
    
    1.7. Bayesian linear regression with known covariance <br>
    &emsp;&ensp; 1.7.1. **[Conjugate prior distribution](/P/blrkc-prior)** <br>
