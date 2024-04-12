@@ -41,7 +41,7 @@ where $f_X(x)$, $f_Y(y)$ and $f_Z(z)$ are the [probability mass functions](/D/pm
 
 **Proof:** Using the definition of the [probability mass function](/D/pmf) and the [expected value](/D/mean), the first equation can be derived as follows:
 
-$$ \label{eq:pmf-sumind-qed}
+$$ \label{eq:pmf-sumind-s1}
 \begin{split}
 f_Z(z) &= \mathrm{Pr}(Z = z) \\
 &= \mathrm{Pr}(X + Y = z) \\
@@ -52,7 +52,7 @@ $$
 
 By construction, $X$ and $Y$ are [independent](/D/ind), such that [conditional probabilities are equal to marginal probabilities](/P/prob-ind), i.e. $\mathrm{Pr}(X = z - Y \vert Y = y) = \mathrm{Pr}(X = z - Y)$ and we have:
 
-$$ \label{eq:pmf-sumind-qed}
+$$ \label{eq:pmf-sumind-s2}
 \begin{split}
 f_Z(z) &= \mathrm{E} \left[ \mathrm{Pr}(X = z - Y) \right] \\
 &= \mathrm{E} \left[ f_X(z-Y) \right] \\
