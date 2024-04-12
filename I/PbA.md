@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (412 proofs)
+### JoramSoch (413 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -120,6 +120,7 @@ title: "Proof by Author"
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of R² in terms of residual variances](/P/rsq-resvar)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
+- [Expression of the noise precision posterior for Bayesian linear regression using prediction and parameter errors](/P/blr-posterr)
 - [Expression of the probability mass function of the beta-binomial distribution using only the gamma function](/P/betabin-pmfitogf)
 - [Extreme points of the probability density function of the normal distribution](/P/norm-extr)
 - [F-statistic in terms of ordinary least squares estimates in one-way analysis of variance](/P/anova1-fols)
@@ -427,8 +428,9 @@ title: "Proof by Author"
 
 - [Mode of the exponential distribution](/P/exp-mode)
 
-### KarahanS (1 proof)
+### KarahanS (2 proofs)
 
+- [Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr)
 - [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr)
 
 ### kjpetrykowski (2 proofs)

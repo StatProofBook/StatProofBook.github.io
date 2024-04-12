@@ -66,6 +66,7 @@ $$
 
 Except for the cases $q=0$ and $q=1$, the second derivative is always negative, which means that the function is concave and the maximum is unique. For $q = 1$, maximum is achieved only if $p = 1$, and similarly for $q = 0$, maximum is achieved only if $p = 0$. Therefore, $p = q$ is the only maximizer and the log probability scoring rule for binary classification is strictly proper. 
 
+
 2a) Multiclass log probability scoring rule (Proof #1):
 
 $$
@@ -120,6 +121,7 @@ $$
 
 Except for the cases $q_j=0$ and $q_j=1$, the second derivative is always negative, which means that the function is concave and the maximum is unique. For $q_j = 1$, maximum is achieved only if $p_j = 1$, and similarly for $q_j = 0$ maximum is achieved only if $p_j = 0$. Therefore, $p_j = q_j$ is the only maximizer and the log probability scoring rule for multiclass classification is strictly proper.
 
+
 2b) Multiclass log probability scoring rule (Proof #2):
 
 Alternatively, we can solve the optimization problem with Lagrange multipliers. The Lagrangian is:
@@ -139,6 +141,7 @@ $$
 $$
 
 The rest of the proof follows as in the first proof.
+
 
 3) Continuous log probability scoring rule:
 

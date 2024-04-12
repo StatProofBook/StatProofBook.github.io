@@ -27,6 +27,7 @@ title: "Proof by Topic"
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
 - [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
 - [Binomial test](/P/bin-test)
+- [Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr)
 
 ### C
 
@@ -132,6 +133,7 @@ title: "Proof by Topic"
 - [Exponential distribution is a special case of gamma distribution](/P/exp-gam)
 - [Expression of R² in terms of residual variances](/P/rsq-resvar)
 - [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf)
+- [Expression of the noise precision posterior for Bayesian linear regression using prediction and parameter errors](/P/blr-posterr)
 - [Expression of the probability mass function of the beta-binomial distribution using only the gamma function](/P/betabin-pmfitogf)
 - [Extreme points of the probability density function of the normal distribution](/P/norm-extr)
 

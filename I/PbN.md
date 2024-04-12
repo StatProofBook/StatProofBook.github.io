@@ -450,3 +450,5 @@ title: "Proof by Number"
 | P442 | fstat-rsq | [Relationship between F-statistic and R²](/P/fstat-rsq) | JoramSoch | 2024-03-15 |
 | P443 | fstat-mll | [Relationship between F-statistic and maximum log-likelihood](/P/fstat-mll) | JoramSoch | 2024-03-28 |
 | P444 | snr-mll | [Relationship between signal-to-noise ratio and maximum log-likelihood](/P/snr-mll) | JoramSoch | 2024-03-28 |
+| P445 | bsr-spsr | [Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr) | KarahanS | 2024-03-28 |
+| P446 | blr-posterr | [Expression of the noise precision posterior for Bayesian linear regression using prediction and parameter errors](/P/blr-posterr) | JoramSoch | 2024-04-05 |
