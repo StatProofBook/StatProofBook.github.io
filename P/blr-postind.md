@@ -26,7 +26,7 @@ username: "JoramSoch"
 $$ \label{eq:GLM-NG-S}
 \begin{split}
 y_1 &= X_1 \beta + \varepsilon_1, \; \varepsilon_1 \sim \mathcal{N}(0, \sigma^2 V_1), \; \sigma^2 V_1 = (\tau P_1)^{-1} \\
-&\vdots \\
+&\;\;\vdots \\
 y_S &= X_S \beta + \varepsilon_S, \; \varepsilon_S \sim \mathcal{N}(0, \sigma^2 V_S), \; \sigma^2 V_S = (\tau P_S)^{-1} \; .
 \end{split}
 $$

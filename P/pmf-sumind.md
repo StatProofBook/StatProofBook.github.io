@@ -46,11 +46,18 @@ $$ \label{eq:pmf-sumind-qed}
 f_Z(z) &= \mathrm{Pr}(Z = z) \\
 &= \mathrm{Pr}(X + Y = z) \\
 &= \mathrm{Pr}(X = z - Y) \\
-&= \mathrm{E} \left[ \mathrm{Pr}(X = z - Y \vert Y = y) \right] \\
-&= \mathrm{E} \left[ \mathrm{Pr}(X = z - Y) \right] \\
+&= \mathrm{E} \left[ \mathrm{Pr}(X = z - Y \vert Y = y) \right] \; .
+\end{split}
+$$
+
+By construction, $X$ and $Y$ are [independent](/D/ind), such that [conditional probabilities are equal to marginal probabilities](/P/prob-ind), i.e. $\mathrm{Pr}(X = z - Y \vert Y = y) = \mathrm{Pr}(X = z - Y)$ and we have:
+
+$$ \label{eq:pmf-sumind-qed}
+\begin{split}
+f_Z(z) &= \mathrm{E} \left[ \mathrm{Pr}(X = z - Y) \right] \\
 &= \mathrm{E} \left[ f_X(z-Y) \right] \\
 &= \sum_{y \in \mathcal{Y}} f_X(z-y) f_Y(y) \; .
 \end{split}
 $$
 
-Note that the third-last transition is justified by the fact that $X$ and $Y$ are [independent](/D/ind), such that [conditional probabilities are equal to marginal probabilities](/P/prob-ind). The second equation can be derived by switching $X$ and $Y$.
+The second equation can be derived by switching $X$ and $Y$.

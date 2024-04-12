@@ -37,7 +37,7 @@ Then, the [log model evidence](/D/lme) for this model is
 
 $$ \label{eq:Mult-LME}
 \begin{split}
-\log \mathrm{p}(y|m) &= \log \Gamma(n+1) - \sum_{j=1}^{k} \log \Gamma(k_j+1) \\
+\log \mathrm{p}(y|m) &= \log \Gamma(n+1) - \sum_{j=1}^{k} \log \Gamma(y_j+1) \\
 &+ \log \Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right) - \log \Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right) \\
 &+ \sum_{j=1}^k \log \Gamma(\alpha_{nj}) - \sum_{j=1}^k \log \Gamma(\alpha_{0j}) \; .
 \end{split}
@@ -113,7 +113,7 @@ the LME finally becomes
 
 $$ \label{eq:Mult-LME-s2}
 \begin{split}
-\log \mathrm{p}(y|m) &= \log \Gamma(n+1) - \sum_{j=1}^{k} \log \Gamma(k_j+1) \\
+\log \mathrm{p}(y|m) &= \log \Gamma(n+1) - \sum_{j=1}^{k} \log \Gamma(y_j+1) \\
 &+ \log \Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right) - \log \Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right) \\
 &+ \sum_{j=1}^k \log \Gamma(\alpha_{nj}) - \sum_{j=1}^k \log \Gamma(\alpha_{0j}) \; .
 \end{split}
