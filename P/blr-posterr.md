@@ -39,7 +39,7 @@ $$ \label{eq:GLM-NG-post}
 p(\beta,\tau|y) = \mathcal{N}(\beta; \mu_n, (\tau \Lambda_n)^{-1}) \cdot \mathrm{Gam}(\tau; a_n, b_n) \; .
 $$
 
-Then, the [posterior hyperparameters](/D/post) for the [noise precision](/P/blr-prior) $\tau = 1/\sigma^2$ can be expressed as
+Then, the [posterior hyperparameters](/D/post) for the [noise precision](/P/blr-prior) $\tau$ can be expressed as
 
 $$ \label{eq:GLM-NG-post-tau}
 \begin{split}
