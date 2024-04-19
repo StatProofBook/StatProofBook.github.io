@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (413 proofs)
+### JoramSoch (414 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -29,6 +29,7 @@ title: "Proof by Author"
 - [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
 - [Binomial test](/P/bin-test)
 - [Characteristic function of a function of a random variable](/P/cf-fct)
+- [Combined posterior distribution for Bayesian linear regression when analyzing conditionally independent data sets](/P/blr-postind)
 - [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind)
 - [Concavity of the Shannon entropy](/P/ent-conc)
 - [Conditional distributions of the multivariate normal distribution](/P/mvn-cond)

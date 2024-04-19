@@ -58,7 +58,7 @@ The LME of the alternative $m_1$ is equal to the [log model evidence for multino
 
 $$ \label{eq:Mult-LME-m1}
 \begin{split}
-\mathrm{LME}(m_1) = \log p(y|m_1) &= \log \Gamma(n+1) - \sum_{j=1}^{k} \log \Gamma(k_j+1) \\
+\mathrm{LME}(m_1) = \log p(y|m_1) &= \log \Gamma(n+1) - \sum_{j=1}^{k} \log \Gamma(y_j+1) \\
 &+ \log \Gamma \left( \sum_{j=1}^{k} \alpha_{0j} \right) - \log \Gamma \left( \sum_{j=1}^{k} \alpha_{nj} \right) \\
 &+ \sum_{j=1}^k \log \Gamma(\alpha_{nj}) - \sum_{j=1}^k \log \Gamma(\alpha_{0j}) \; .
 \end{split}

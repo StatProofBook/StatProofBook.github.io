@@ -8,6 +8,7 @@ title: "Proofs without Source"
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
 - [Bayesian information criterion for multiple linear regression](/P/mlr-bic)
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
+- [Combined posterior distribution for Bayesian linear regression when analyzing conditionally independent data sets](/P/blr-postind)
 - [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
 - [Construction of unbiased estimator for variance in multiple linear regression](/P/resvar-unbp)
