@@ -700,10 +700,11 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.3. **[Log model evidence](/P/blr-lme)** <br>
    &emsp;&ensp; 1.6.4. **[Accuracy and complexity](/P/blr-anc)** <br>
    &emsp;&ensp; 1.6.5. **[Deviance information criterion](/P/blr-dic)** <br>
-   &emsp;&ensp; 1.6.6. **[Expression of posterior parameters using error terms](/P/blr-posterr)** <br>
-   &emsp;&ensp; 1.6.7. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
-   &emsp;&ensp; 1.6.8. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
-   &emsp;&ensp; 1.6.9. **[Combined posterior distribution from independent data sets](/P/blr-postind)** <br>
+   &emsp;&ensp; 1.6.6. **[Maximum-a-posteriori estimation](/P/blr-map)** <br>
+   &emsp;&ensp; 1.6.7. **[Expression of posterior parameters using error terms](/P/blr-posterr)** <br>
+   &emsp;&ensp; 1.6.8. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
+   &emsp;&ensp; 1.6.9. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
+   &emsp;&ensp; 1.6.10. **[Combined posterior distribution from independent data sets](/P/blr-postind)** <br>
    
    1.7. Bayesian linear regression with known covariance <br>
    &emsp;&ensp; 1.7.1. **[Conjugate prior distribution](/P/blrkc-prior)** <br>
