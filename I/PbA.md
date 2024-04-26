@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (414 proofs)
+### JoramSoch (415 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -207,6 +207,7 @@ title: "Proof by Author"
 - [Maximum log-likelihood for binomial observations](/P/bin-mll)
 - [Maximum log-likelihood for multinomial observations](/P/mult-mll)
 - [Maximum log-likelihood for multiple linear regression](/P/mlr-mll)
+- [Maximum-a-posteriori estimation for Bayesian linear regression](/P/blr-map)
 - [Maximum-a-posteriori estimation for binomial observations](/P/bin-map)
 - [Maximum-a-posteriori estimation for multinomial observations](/P/mult-map)
 - [Mean of the Bernoulli distribution](/P/bern-mean)

@@ -453,3 +453,4 @@ title: "Proof by Number"
 | P445 | bsr-spsr | [Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr) | KarahanS | 2024-03-28 |
 | P446 | blr-posterr | [Expression of the noise precision posterior for Bayesian linear regression using prediction and parameter errors](/P/blr-posterr) | JoramSoch | 2024-04-05 |
 | P447 | blr-postind | [Combined posterior distribution for Bayesian linear regression when analyzing conditionally independent data sets](/P/blr-postind) | JoramSoch | 2024-04-12 |
+| P448 | blr-map | [Maximum-a-posteriori estimation for Bayesian linear regression](/P/blr-map) | JoramSoch | 2024-04-19 |
