@@ -56,6 +56,7 @@ title: "Proofs without Source"
 - [Kullback-Leibler divergence for the normal distribution](/P/norm-kl)
 - [Linear combination of independent normal random variables](/P/norm-lincomb)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
+- [Log Bayes factor for Bayesian linear regression](/P/blr-lbf)
 - [Log Bayes factor for binomial observations](/P/bin-lbf)
 - [Log Bayes factor for multinomial observations](/P/mult-lbf)
 - [Log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbf)
