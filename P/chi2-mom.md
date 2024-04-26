@@ -27,29 +27,42 @@ username: "kjpetrykowski"
 ---
 
 
-**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [chi-squared distribution](/D/chi2):
+**Theorem:** Let $X$ be a [random variable](/D/rvar) following a [chi-squared distribution](/D/chi2) with $k$ degrees of freedom:
 
 $$ \label{eq:chi2}
 X \sim \chi^{2}(k) \; .
 $$
 
-If $m > -k/2$, then $E(X^{m})$ exists and is equal to:
+Then, if $m > -k/2$, the moment $\mathrm{E}(X^{m})$ exists and is equal to:
 
 $$ \label{eq:chi2-mom}
-\mathrm{E}(X^{m}) = \frac{2^{m} \Gamma\left( \frac{k}{2}+m \right)}{\Gamma\left( \frac{k}{2} \right)} \; .
+\mathrm{E}(X^{m}) = 2^m \frac{\Gamma\left( \frac{k}{2}+m \right)}{\Gamma\left( \frac{k}{2} \right)} \; .
 $$
 
 
-**Proof:** Combining the [definition of the $m$-th raw moment](/D/mom-raw) with the [probability density function of the chi-squared distribution](/P/chi2-pdf), we have:
+**Proof:** Combining the [definition of the raw moment](/D/mom-raw) with the [probability density function of the chi-squared distribution](/P/chi2-pdf), we have:
 
 $$ \label{eq:chi2-mom-int}
-\mathrm{E}(X^{m}) = \int_{0}^{\infty} \frac{1}{\Gamma\left( \frac{k}{2} \right) 2^{k/2}} \, x^{(k/2)+m-1} \, e^{-x/2} \mathrm{d}x \; . 
+\begin{split}
+\mathrm{E}(X^{m}) &= \int_{0}^{\infty} x^m \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \, x^{k/2-1} \, e^{-x/2} \, \mathrm{d}x \\
+&= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} x^{(k/2)+m-1} \, e^{-x/2} \, \mathrm{d}x \; .
+\end{split}
 $$
 
-Now define a new variable $u = x/2$. As a result, we obtain:
+Now, we substitute $u = x/2$, such that $x = 2u$. As a result, we obtain:
 
-$$ \label{eq:chi-2-mom-int-u}
-\mathrm{E}(X^{m}) = \int_{0}^{\infty} \frac{1}{\Gamma\left( \frac{k}{2} \right) 2^{(k/2)-1}} \, 2^{(k/2)+m-1} \, u^{(k/2)+m-1} \, e^{-u} \mathrm{d}u \; .
+$$ \label{eq:chi2-mom-int-u}
+\begin{split}
+\mathrm{E}(X^{m}) &= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} 2^{(k/2)+m-1} \, u^{(k/2)+m-1} \, e^{-u} \, \mathrm{d}(2u) \\
+&= \frac{2^{(k/2)+m}}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \, e^{-u} \, \mathrm{d}u \\
+&= \frac{2^m}{\Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \, e^{-u} \, \mathrm{d}u \; .
+\end{split}
 $$
 
-This leads to the desired result when $m > -k/2$. Observe that, if $m$ is a nonnegative integer, then $m > -k/2$ is always true. Therefore, all [moments](/D/mom) of a [chi-squared distribution](/D/chi2) exist and the $m$-th raw moment is given by the foregoing equation.
+With the definition of the gamma function as
+
+$$ \label{eq:gam-fct}
+\Gamma(x) = \int_{0}^{\infty} t^{x-1} \, e^{-t} \, \mathrm{d}t, \; z > 0 \; ,
+$$
+
+this leads to the desired result when $m > -k/2$. Observe that, if $m$ is a nonnegative integer, then $m > -k/2$ is always true. Therefore, all [moments](/D/mom) of a [chi-squared distribution](/D/chi2) exist and the $m$-th raw moment is given by the equation above.
