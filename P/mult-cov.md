@@ -14,10 +14,13 @@ topic: "Multinomial distribution"
 theorem: "Covariance"
 
 sources:
-  - authors: "Tutz"
+  - authors: "Tutz G"
     year: 2012
-    title: "Regression for Categorical Data"
+    title: "Multinomial Response Models"
+    in: "Regression for Categorical Data"
     pages: "pp. 209ff."
+    url: "https://www.cambridge.org/core/books/regression-for-categorical-data/B71F71F2A484E2DF88256C8DF004108C"
+    doi: "10.1017/CBO9780511842061"
 
 proof_id: P322
 shortcut: "mult-cov"
