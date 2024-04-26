@@ -705,6 +705,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.8. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
    &emsp;&ensp; 1.6.9. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
    &emsp;&ensp; 1.6.10. **[Combined posterior distribution from independent data sets](/P/blr-postind)** <br>
+   &emsp;&ensp; 1.6.11. **[Log Bayes factor for comparison of two regression models](/P/blr-lbf)** <br>
    
    1.7. Bayesian linear regression with known covariance <br>
    &emsp;&ensp; 1.7.1. **[Conjugate prior distribution](/P/blrkc-prior)** <br>
