@@ -454,3 +454,4 @@ title: "Proof by Number"
 | P446 | blr-posterr | [Expression of the noise precision posterior for Bayesian linear regression using prediction and parameter errors](/P/blr-posterr) | JoramSoch | 2024-04-05 |
 | P447 | blr-postind | [Combined posterior distribution for Bayesian linear regression when analyzing conditionally independent data sets](/P/blr-postind) | JoramSoch | 2024-04-12 |
 | P448 | blr-map | [Maximum-a-posteriori estimation for Bayesian linear regression](/P/blr-map) | JoramSoch | 2024-04-19 |
+| P449 | blr-lbf | [Log Bayes factor for Bayesian linear regression](/P/blr-lbf) | JoramSoch | 2024-04-26 |

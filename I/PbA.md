@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (415 proofs)
+### JoramSoch (416 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -167,6 +167,7 @@ title: "Proof by Author"
 - [Linear transformation theorem for the moment-generating function](/P/mgf-ltt)
 - [Linear transformation theorem for the multivariate normal distribution](/P/mvn-ltt)
 - [Linearity of the expected value](/P/mean-lin)
+- [Log Bayes factor for Bayesian linear regression](/P/blr-lbf)
 - [Log Bayes factor for binomial observations](/P/bin-lbf)
 - [Log Bayes factor for multinomial observations](/P/mult-lbf)
 - [Log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbf)
