@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Theorem:** Assume a [simple linear regression model](/D/slr) with independent observations
 
 $$ \label{eq:slr}
-y = \beta_0 + \beta_1 x + \varepsilon, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2)
+y = \beta_0 + \beta_1 x + \varepsilon, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2), \; i = 1,\ldots,n
 $$
 
 and consider estimation using [ordinary least squares](/P/slr-ols). Then, the estimated parameters are [normally distributed](/D/mvn) as

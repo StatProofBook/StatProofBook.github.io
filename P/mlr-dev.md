@@ -55,8 +55,8 @@ such that, with $\lvert \sigma^2 V \rvert = (\sigma^2)^n \lvert V \rvert$, the [
 
 $$ \label{eq:mlr-llf}
 \begin{split}
-\mathrm{LL}(\beta,\sigma^2) = &\log p(y|\beta,\sigma^2) \\
-= &- \frac{n}{2} \log(2\pi) - \frac{n}{2} \log (\sigma^2) - \frac{1}{2} \log |V| - \frac{1}{2 \sigma^2} (y - X\beta)^\mathrm{T} V^{-1} (y - X\beta) \; .
+\mathrm{LL}(\beta,\sigma^2) &= \log p(y|\beta,\sigma^2) \\
+&= - \frac{n}{2} \log(2\pi) - \frac{n}{2} \log (\sigma^2) - \frac{1}{2} \log |V| - \frac{1}{2 \sigma^2} (y - X\beta)^\mathrm{T} V^{-1} (y - X\beta) \; .
 \end{split}
 $$
 

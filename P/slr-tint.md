@@ -87,13 +87,13 @@ $$
 Thus, we have the null hypothesis
 
 $$ \label{eq:slr-t-int-h0-qed}
-H_0: \; c^\mathrm{T} \beta = \left[ \begin{matrix} 1 \\ 0 \end{matrix} \right]^\mathrm{T} \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right] = \beta_0 = 0
+H_0: \; c_0^\mathrm{T} \beta = \left[ \begin{matrix} 1 \\ 0 \end{matrix} \right]^\mathrm{T} \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right] = \beta_0 = 0
 $$
 
 and the contrast estimate
 
 $$ \label{eq:slr-t-int-cTb}
-c^\mathrm{T} \hat{\beta} = \left[ \begin{matrix} 1 \\ 0 \end{matrix} \right]^\mathrm{T} \left[ \begin{matrix} \hat{\beta}_0 \\ \hat{\beta}_1 \end{matrix} \right] = \hat{\beta}_0 = \bar{y} - \hat{\beta}_1 \bar{x} \; .
+c_0^\mathrm{T} \hat{\beta} = \left[ \begin{matrix} 1 \\ 0 \end{matrix} \right]^\mathrm{T} \left[ \begin{matrix} \hat{\beta}_0 \\ \hat{\beta}_1 \end{matrix} \right] = \hat{\beta}_0 = \bar{y} - \hat{\beta}_1 \bar{x} \; .
 $$
 
 Moreover, when [deriving the distribution of ordinary least squares parameter estimates for simple linear regression with independent observations](/P/slr-olsdist), we have identified the parameter covariance matrix as
@@ -114,7 +114,7 @@ t_0 &= \frac{c_0^\mathrm{T} \hat{\beta}}{\sqrt{\hat{\sigma}^2 \; c_0^\mathrm{T} 
 \end{split}
 $$
 
-Finally, because $X = \left[ \begin{matrix} 1_n & x \end{matrix} \right]$ is an $n \times 2$ matrix, we have $p = 2$, such that from \eqref{eq:mlr-t-dist-h0} it follows that
+Finally, because $X = \left[ \begin{matrix} 1_n & x \end{matrix} \right]$ is an $n \times 2$ matrix, we have $p = 2$, such that from \eqref{eq:mlr-t-dist-h0}, it follows that
 
 $$ \label{eq:slr-t-int-dist-qed}
 \begin{split}
