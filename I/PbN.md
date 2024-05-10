@@ -456,3 +456,4 @@ title: "Proof by Number"
 | P448 | blr-map | [Maximum-a-posteriori estimation for Bayesian linear regression](/P/blr-map) | JoramSoch | 2024-04-19 |
 | P449 | blr-lbf | [Log Bayes factor for Bayesian linear regression](/P/blr-lbf) | JoramSoch | 2024-04-26 |
 | P450 | mlr-tsingle | [Specific t-test for single regressor in multiple linear regression](/P/mlr-tsingle) | JoramSoch | 2024-05-03 |
+| P451 | slr-tint | [Statistical test for intercept parameter in simple linear regression model](/P/slr-tint) | JoramSoch | 2024-05-10 |
