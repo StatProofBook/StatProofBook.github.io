@@ -73,7 +73,7 @@ H_0: \; \beta_j = 0 \; .
 $$
 
 
-**Proof:** This is a special case of the [contrast-based t-test for multiple linear regression](/P/mlr-t) based on the [t-statistic](/D/t):
+**Proof:** This is a special case of the [contrast-based t-test for multiple linear regression](/P/mlr-t) based on the following [t-statistic](/D/t):
 
 $$ \label{eq:mlr-t}
 t = \frac{c^\mathrm{T} \hat{\beta}}{\sqrt{\hat{\sigma}^2 c^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} c}} \sim \mathrm{t}(n-p) \; .

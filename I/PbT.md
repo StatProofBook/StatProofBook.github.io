@@ -466,6 +466,7 @@ title: "Proof by Topic"
 - [Skewness of the ex-Gaussian distribution](/P/exg-skew)
 - [Skewness of the exponential distribution](/P/exp-skew)
 - [Skewness of the Wald distribution](/P/wald-skew)
+- [Specific t-test for single regressor in multiple linear regression](/P/mlr-tsingle)
 - [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr)
 - [Statistical significance test for the coefficient of determinantion based on an omnibus F-test](/P/rsq-test)
 - [Sums of squares for simple linear regression](/P/slr-sss)

@@ -455,3 +455,4 @@ title: "Proof by Number"
 | P447 | blr-postind | [Combined posterior distribution for Bayesian linear regression when analyzing conditionally independent data sets](/P/blr-postind) | JoramSoch | 2024-04-12 |
 | P448 | blr-map | [Maximum-a-posteriori estimation for Bayesian linear regression](/P/blr-map) | JoramSoch | 2024-04-19 |
 | P449 | blr-lbf | [Log Bayes factor for Bayesian linear regression](/P/blr-lbf) | JoramSoch | 2024-04-26 |
+| P450 | mlr-tsingle | [Specific t-test for single regressor in multiple linear regression](/P/mlr-tsingle) | JoramSoch | 2024-05-03 |
