@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (418 proofs)
+### JoramSoch (419 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -396,6 +396,7 @@ title: "Proof by Author"
 - [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr)
 - [Statistical significance test for the coefficient of determinantion based on an omnibus F-test](/P/rsq-test)
 - [Statistical test for intercept parameter in simple linear regression model](/P/slr-tint)
+- [Statistical test for slope parameter in simple linear regression model](/P/slr-tslo)
 - [Sums of squares for simple linear regression](/P/slr-sss)
 - [Symmetry of the covariance](/P/cov-symm)
 - [Symmetry of the covariance matrix](/P/covmat-symm)
@@ -468,7 +469,7 @@ title: "Proof by Author"
 - [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf)
 - [Moment-generating function of the exponential distribution](/P/exp-mgf)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
-- [Partition of skewness into expected values ](/P/skew-mean)
+- [Partition of skewness into expected values](/P/skew-mean)
 - [Probability density function of the ex-Gaussian distribution](/P/exg-pdf)
 - [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Savage-Dickey density ratio for computing Bayes factors](/P/bf-sddr)

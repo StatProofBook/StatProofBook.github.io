@@ -15,7 +15,7 @@ theorem: "t-test for slope parameter"
 
 sources:
 
-proof_id: "451"
+proof_id: "P452"
 shortcut: "slr-tslo"
 username: "JoramSoch"
 ---
