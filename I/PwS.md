@@ -154,6 +154,7 @@ title: "Proofs without Source"
 - [Skewness of the ex-Gaussian distribution](/P/exg-skew)
 - [Skewness of the exponential distribution](/P/exp-skew)
 - [Skewness of the Wald distribution](/P/wald-skew)
+- [Statistical test for intercept parameter in simple linear regression model](/P/slr-tint)
 - [Sums of squares for simple linear regression](/P/slr-sss)
 - [Transformation matrices for simple linear regression](/P/slr-mat)
 - [Transitivity of Bayes Factors](/P/bf-trans)

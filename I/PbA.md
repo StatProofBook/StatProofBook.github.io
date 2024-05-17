@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (417 proofs)
+### JoramSoch (418 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -395,6 +395,7 @@ title: "Proof by Author"
 - [Specific t-test for single regressor in multiple linear regression](/P/mlr-tsingle)
 - [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr)
 - [Statistical significance test for the coefficient of determinantion based on an omnibus F-test](/P/rsq-test)
+- [Statistical test for intercept parameter in simple linear regression model](/P/slr-tint)
 - [Sums of squares for simple linear regression](/P/slr-sss)
 - [Symmetry of the covariance](/P/cov-symm)
 - [Symmetry of the covariance matrix](/P/covmat-symm)

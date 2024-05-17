@@ -48,7 +48,7 @@ $$ \label{eq:mlr-t-single}
 t_j = \frac{\hat{\beta}_j}{\sqrt{\left( \hat{\varepsilon}^\mathrm{T} V^{-1} \hat{\varepsilon} \right)/(n-p) \; \sigma_{jj}}}
 $$
 
-with the $n \times 1$ [vector of residuals](/P/mlr-wlsdist)
+with the $n \times 1$ [vector of residuals](/P/mlr-mat)
 
 $$ \label{eq:mlr-eps-est}
 \hat{\varepsilon} = y - X\hat{\beta}
