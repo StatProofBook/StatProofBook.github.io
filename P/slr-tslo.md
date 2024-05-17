@@ -46,7 +46,7 @@ $$
 with $\sigma_1$ equal to the first diagonal element of the [parameter covariance matrix](/P/slr-olsdist)
 
 $$ \label{eq:slr-t-slo-sig}
-\sigma_1 = \frac{1}{\sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2} \; .
+\sigma_1 = \frac{1}{\sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2}
 $$
 
 follows a [t-distribution](/D/t)

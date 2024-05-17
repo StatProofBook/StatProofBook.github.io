@@ -46,7 +46,7 @@ $$
 with $\sigma_0$ equal to the first diagonal element of the [parameter covariance matrix](/P/slr-olsdist)
 
 $$ \label{eq:slr-t-int-sig}
-\sigma_0 = \frac{x^\mathrm{T}x/n}{(n-1) \, s_x^2} \quad \text{where} \quad s_x^2 = \frac{1}{n-1} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2 \; .
+\sigma_0 = \frac{x^\mathrm{T}x/n}{(n-1) \, s_x^2} \quad \text{where} \quad s_x^2 = \frac{1}{n-1} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2
 $$
 
 follows a [t-distribution](/D/t)
@@ -55,7 +55,7 @@ $$ \label{eq:slr-t-int-dist}
 t_0 \sim \mathrm{t}(n-2)
 $$
 
-under the [null hypothesis](/D/h0) that the [intercept parameter](/D/mlr) is zero:
+under the [null hypothesis](/D/h0) that the [intercept parameter](/D/slr) is zero:
 
 $$ \label{eq:slr-t-int-h0}
 H_0: \; \beta_0 = 0 \; .
