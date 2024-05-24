@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2024-05-24 13:19:05
 
-title: "Statistical test for comparing simple linear regression model with and without slope parameter"
+title: "Statistical test for comparing simple linear regression models with and without slope parameter"
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Simple linear regression"
