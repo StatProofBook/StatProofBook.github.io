@@ -37,6 +37,8 @@ $$ \label{eq:slr-est}
 \end{split}
 $$
 
+where $\bar{x}$ and $\bar{y}$ are the [sample means](/D/mean-samp) of the $x_i$ and $y_i$, $s_{xy}$ is the [sample covariance](/D/cov-samp) of the $x_i$ and $y_i$ and $s_x^2$ is the [sample variance](/D/var-samp) of the $x_i$.
+
 Then, the [test statistic](/D/tstat)
 
 $$ \label{eq:slr-f-comp}
