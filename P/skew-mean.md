@@ -7,7 +7,7 @@ affiliation: "Tarleton State University"
 e_mail: "faulkenberry@tarleton.edu"
 date: 2023-04-20 12:00:00
 
-title: "Partition of skewness into expected values "
+title: "Partition of skewness into expected values"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Skewness"
@@ -33,9 +33,7 @@ $$ \label{eq:skew-partition}
 \mathrm{Skew}(X) = \frac{\mathrm{E}(X^3)-3\mu\sigma^2-\mu^3}{\sigma^3} \; .
 $$
 
-**Proof:** 
-
-The [skewness](/D/skew) of $X$ is defined as 
+**Proof:** The [skewness](/D/skew) of $X$ is defined as 
 
 $$ \label{eq:skew}
 \mathrm{Skew}(X) = \frac{\mathrm{E}[(X-\mu)^3]}{\sigma^3} \; .

@@ -412,7 +412,7 @@ title: "Proof by Number"
 | P404 | exg-mgf | [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf) | tomfaulkenberry | 2023-04-19 |
 | P405 | exg-mean | [Mean of the ex-Gaussian distribution](/P/exg-mean) | tomfaulkenberry | 2023-04-19 |
 | P406 | exg-var | [Variance of the ex-Gaussian distribution](/P/exg-var) | tomfaulkenberry | 2023-04-19 |
-| P407 | skew-mean | [Partition of skewness into expected values ](/P/skew-mean) | tomfaulkenberry | 2023-04-20 |
+| P407 | skew-mean | [Partition of skewness into expected values](/P/skew-mean) | tomfaulkenberry | 2023-04-20 |
 | P408 | exg-skew | [Skewness of the ex-Gaussian distribution](/P/exg-skew) | tomfaulkenberry | 2023-04-21 |
 | P409 | exp-skew | [Skewness of the exponential distribution](/P/exp-skew) | tomfaulkenberry | 2023-04-24 |
 | P410 | duni-ent | [Entropy of the discrete uniform distribution](/P/duni-ent) | JoramSoch | 2023-08-11 |
@@ -457,3 +457,4 @@ title: "Proof by Number"
 | P449 | blr-lbf | [Log Bayes factor for Bayesian linear regression](/P/blr-lbf) | JoramSoch | 2024-04-26 |
 | P450 | mlr-tsingle | [Specific t-test for single regressor in multiple linear regression](/P/mlr-tsingle) | JoramSoch | 2024-05-03 |
 | P451 | slr-tint | [Statistical test for intercept parameter in simple linear regression model](/P/slr-tint) | JoramSoch | 2024-05-10 |
+| P452 | slr-tslo | [Statistical test for slope parameter in simple linear regression model](/P/slr-tslo) | JoramSoch | 2024-05-17 |
