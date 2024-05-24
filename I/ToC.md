@@ -657,11 +657,12 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.18. **[Maximum likelihood estimation](/P/slr-mle2)** (2) <br>
    &emsp;&ensp; 1.4.19. **[t-test for intercept parameter](/P/slr-tint)** <br>
    &emsp;&ensp; 1.4.20. **[t-test for slope parameter](/P/slr-tslo)** <br>
-   &emsp;&ensp; 1.4.21. **[Sum of residuals is zero](/P/slr-ressum)** <br>
-   &emsp;&ensp; 1.4.22. **[Correlation with covariate is zero](/P/slr-rescorr)** <br>
-   &emsp;&ensp; 1.4.23. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
-   &emsp;&ensp; 1.4.24. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
-   &emsp;&ensp; 1.4.25. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
+   &emsp;&ensp; 1.4.21. **[F-test for model comparison](/P/slr-fcomp)** <br>
+   &emsp;&ensp; 1.4.22. **[Sum of residuals is zero](/P/slr-ressum)** <br>
+   &emsp;&ensp; 1.4.23. **[Correlation with covariate is zero](/P/slr-rescorr)** <br>
+   &emsp;&ensp; 1.4.24. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
+   &emsp;&ensp; 1.4.25. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
+   &emsp;&ensp; 1.4.26. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
 
    1.5. Multiple linear regression <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mlr)* <br>
