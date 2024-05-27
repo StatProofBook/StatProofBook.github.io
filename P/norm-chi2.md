@@ -77,7 +77,7 @@ $$ \label{eq:sum-Ui2-s1}
 \sum_{i=1}^{n} U_i^2 &= \sum_{i=1}^{n} \left( \frac{X_i - \mu}{\sigma} \right)^2 \\
 &= \sum_{i=1}^{n} \left( \frac{(X_i - \bar{X}) + (\bar{X} - \mu)}{\sigma} \right)^2 \\
 &= \sum_{i=1}^{n} \frac{(X_i - \bar{X})^2}{\sigma^2} + \sum_{i=1}^{n} \frac{(\bar{X} - \mu)^2}{\sigma^2} + 2 \sum_{i=1}^{n} \frac{(X_i - \bar{X})(\bar{X} - \mu)}{\sigma^2} \\
-&= \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma} \right)^2 + \frac{(\bar{X} - \mu)}{\sigma^2} \sum_{i=1}^{n} (X_i - \bar{X}) \; .
+&= \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma} \right)^2 + 2\frac{(\bar{X} - \mu)}{\sigma^2} \sum_{i=1}^{n} (X_i - \bar{X}) \; .
 \end{split}
 $$
 
@@ -95,7 +95,7 @@ $$
 the third term disappears, i.e.
 
 $$ \label{eq:sum-Ui2-s2}
-\sum_{i=1}^{n} U_i^2 = \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma^2} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma^2} \right)^2 \; .
+\sum_{i=1}^{n} U_i^2 = \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma} \right)^2 \; .
 $$
 
 [Cochran's theorem](/P/snorm-cochran) states that, if a sum of squared [standard normal](/D/snorm) [random variables](/D/rvar) can be written as a sum of squared forms
