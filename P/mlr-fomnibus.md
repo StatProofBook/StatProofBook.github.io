@@ -77,7 +77,7 @@ $$ \label{eq:mlr-e-e0}
 $$
 
 
-**Proof:** This is a special case of the [contrast-based F-test for multiple lienar regression](/P/mlr-f) based on the [F-statistic](/D/tstat)
+**Proof:** This is a special case of the [contrast-based F-test for multiple linear regression](/P/mlr-f) based on the [F-statistic](/D/tstat)
 
 $$ \label{eq:mlr-f}
 F = \hat{\beta}^\mathrm{T} C \left( \hat{\sigma}^2 C^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} C \right)^{-1} C^\mathrm{T} \hat{\beta} / q
