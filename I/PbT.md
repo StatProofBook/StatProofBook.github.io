@@ -308,6 +308,7 @@ title: "Proof by Topic"
 
 ### O
 
+- [Omnibus F-test for multiple regressors in multiple linear regression](/P/mlr-fomnibus)
 - [One-sample t-test for independent observations](/P/ug-ttest1)
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
