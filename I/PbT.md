@@ -469,6 +469,7 @@ title: "Proof by Topic"
 - [Specific t-test for single regressor in multiple linear regression](/P/mlr-tsingle)
 - [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr)
 - [Statistical significance test for the coefficient of determinantion based on an omnibus F-test](/P/rsq-test)
+- [Statistical test for comparing simple linear regression models with and without slope parameter](/P/slr-fcomp)
 - [Statistical test for intercept parameter in simple linear regression model](/P/slr-tint)
 - [Statistical test for slope parameter in simple linear regression model](/P/slr-tslo)
 - [Sums of squares for simple linear regression](/P/slr-sss)

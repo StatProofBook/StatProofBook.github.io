@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2024-05-24 13:19:05
 
-title: "Statistical test for comparing simple linear regression model with and without slope parameter"
+title: "Statistical test for comparing simple linear regression models with and without slope parameter"
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Simple linear regression"
@@ -36,6 +36,8 @@ $$ \label{eq:slr-est}
 \hat{\sigma}^2 &= \frac{1}{n-2} \sum_{i=1}^{n} (y_i - \hat{\beta}_0 - \hat{\beta}_1 x_i)^2 \; .
 \end{split}
 $$
+
+where $\bar{x}$ and $\bar{y}$ are the [sample means](/D/mean-samp) of the $x_i$ and $y_i$, $s_{xy}$ is the [sample covariance](/D/cov-samp) of the $x_i$ and $y_i$ and $s_x^2$ is the [sample variance](/D/var-samp) of the $x_i$.
 
 Then, the [test statistic](/D/tstat)
 

@@ -458,3 +458,4 @@ title: "Proof by Number"
 | P450 | mlr-tsingle | [Specific t-test for single regressor in multiple linear regression](/P/mlr-tsingle) | JoramSoch | 2024-05-03 |
 | P451 | slr-tint | [Statistical test for intercept parameter in simple linear regression model](/P/slr-tint) | JoramSoch | 2024-05-10 |
 | P452 | slr-tslo | [Statistical test for slope parameter in simple linear regression model](/P/slr-tslo) | JoramSoch | 2024-05-17 |
+| P453 | slr-fcomp | [Statistical test for comparing simple linear regression models with and without slope parameter](/P/slr-fcomp) | JoramSoch | 2024-05-24 |

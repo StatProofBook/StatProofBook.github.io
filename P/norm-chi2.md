@@ -77,7 +77,7 @@ $$ \label{eq:sum-Ui2-s1}
 \sum_{i=1}^{n} U_i^2 &= \sum_{i=1}^{n} \left( \frac{X_i - \mu}{\sigma} \right)^2 \\
 &= \sum_{i=1}^{n} \left( \frac{(X_i - \bar{X}) + (\bar{X} - \mu)}{\sigma} \right)^2 \\
 &= \sum_{i=1}^{n} \frac{(X_i - \bar{X})^2}{\sigma^2} + \sum_{i=1}^{n} \frac{(\bar{X} - \mu)^2}{\sigma^2} + 2 \sum_{i=1}^{n} \frac{(X_i - \bar{X})(\bar{X} - \mu)}{\sigma^2} \\
-&= \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma} \right)^2 + \frac{(\bar{X} - \mu)}{\sigma^2} \sum_{i=1}^{n} (X_i - \bar{X}) \; .
+&= \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma} \right)^2 + 2\frac{(\bar{X} - \mu)}{\sigma^2} \sum_{i=1}^{n} (X_i - \bar{X}) \; .
 \end{split}
 $$
 
@@ -95,7 +95,7 @@ $$
 the third term disappears, i.e.
 
 $$ \label{eq:sum-Ui2-s2}
-\sum_{i=1}^{n} U_i^2 = \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma^2} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma^2} \right)^2 \; .
+\sum_{i=1}^{n} U_i^2 = \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma} \right)^2 \; .
 $$
 
 [Cochran's theorem](/P/snorm-cochran) states that, if a sum of squared [standard normal](/D/snorm) [random variables](/D/rvar) can be written as a sum of squared forms
@@ -118,7 +118,7 @@ We observe that \eqref{eq:sum-Ui2-s2} can be represented as
 
 $$ \label{eq:sum-Ui2-s3}
 \begin{split}
-\sum_{i=1}^{n} U_i^2 &= \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma^2} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma^2} \right)^2 \\
+\sum_{i=1}^{n} U_i^2 &= \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma} \right)^2 + \sum_{i=1}^{n} \left( \frac{\bar{X} - \mu}{\sigma} \right)^2 \\
 = Q_1 + Q_2 &= \sum_{i=1}^{n} \left( U_i - \frac{1}{n} \sum_{j=1}^n U_j \right)^2 + \frac{1}{n} \left( \sum_{i=1}^{n} U_i \right)^2
 \end{split}
 $$
@@ -132,7 +132,7 @@ $$
 Because all columns of $B^{(2)}$ are identical, it has rank $r_2 = 1$. Because the $n$ columns of $B^{(1)}$ add up to zero, it has rank $r_1 = n-1$. Thus, the conditions of [Cochran's theorem](/P/snorm-cochran) are met and the squared form
 
 $$ \label{eq:Q1}
-Q_1 = \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma^2} \right)^2 = (n-1) \, \frac{1}{\sigma^2} \, \frac{1}{n-1} \sum_{i=1}^{n} \left( X_i - \bar{X} \right)^2 = (n-1) \, \frac{s^2}{\sigma^2}
+Q_1 = \sum_{i=1}^{n} \left( \frac{X_i - \bar{X}}{\sigma} \right)^2 = (n-1) \, \frac{1}{\sigma^2} \, \frac{1}{n-1} \sum_{i=1}^{n} \left( X_i - \bar{X} \right)^2 = (n-1) \, \frac{s^2}{\sigma^2}
 $$
 
 follows a [chi-squared distribution](/D/chi2) with $n-1$ degrees of freedom:
