@@ -693,10 +693,11 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.26. **[Contrast-based t-test](/P/mlr-t)** <br>
    &emsp;&ensp; 1.5.27. **[Contrast-based F-test](/P/mlr-f)** <br>
    &emsp;&ensp; 1.5.28. **[t-test for single regressor](/P/mlr-tsingle)** <br>
-   &emsp;&ensp; 1.5.29. **[Deviance function](/P/mlr-dev)** <br>
-   &emsp;&ensp; 1.5.30. **[Akaike information criterion](/P/mlr-aic)** <br>
-   &emsp;&ensp; 1.5.31. **[Bayesian information criterion](/P/mlr-bic)** <br>
-   &emsp;&ensp; 1.5.32. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
+   &emsp;&ensp; 1.5.29. **[F-test for multiple regressors](/P/mlr-tomnibus)** <br>
+   &emsp;&ensp; 1.5.30. **[Deviance function](/P/mlr-dev)** <br>
+   &emsp;&ensp; 1.5.31. **[Akaike information criterion](/P/mlr-aic)** <br>
+   &emsp;&ensp; 1.5.32. **[Bayesian information criterion](/P/mlr-bic)** <br>
+   &emsp;&ensp; 1.5.33. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
    1.6. Bayesian linear regression <br>
    &emsp;&ensp; 1.6.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
