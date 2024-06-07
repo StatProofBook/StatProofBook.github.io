@@ -725,6 +725,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.1.2. **[Ordinary least squares](/P/glm-ols)** <br>
    &emsp;&ensp; 2.1.3. **[Weighted least squares](/P/glm-wls)** <br>
    &emsp;&ensp; 2.1.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
+   &emsp;&ensp; 2.1.5. **[Log-likelihood ratio](/P/glm-llr)** <br>
    
    2.2. Transformed general linear model <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/tglm)* <br>
