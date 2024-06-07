@@ -278,7 +278,7 @@ $$ \label{eq:mlr-f-s8}
 \end{split}
 $$
 
-In the next transformations, we will make use the [weighted least squares parameter estimates](/P/mlr-wls)
+In the next transformations, we will make use of the [weighted least squares parameter estimates](/P/mlr-wls)
 
 $$ \label{eq:mlr-b-b0}
 \begin{split}

@@ -100,7 +100,7 @@ $$
 
 Evaluating \eqref{eq:glm-mll} for $m_1$ and $m_2$ and plugging into \eqref{eq:llr}, we obtain:
 
-$$ \label{eq:glm-llr-s1}
+$$ \label{eq:glm-llr-m1-m2}
 \begin{split}
 \ln \Lambda_{12}
 &= \ln p(Y|\hat{B}_1,\hat{\Sigma}_1,m_1) - \ln p(Y|\hat{B}_2,\hat{\Sigma}_2,m_2) \\
@@ -111,7 +111,7 @@ $$ \label{eq:glm-llr-s1}
 \end{split}
 $$
 
-Thus, if $V_1 = V_2$, such that $\ln(|V_2|/|V_1|) = \ln(1) = 0$, the log-likelihood ratio is equal to
+Thus, if $V_1 = V_2$, such that $\ln(\vert V_2 \vert / \vert V_1 \vert) = \ln(1) = 0$, the log-likelihood ratio is equal to
 
 $$ \label{eq:glm-llr-qed}
 \ln \Lambda_{12} = \frac{n}{2} \ln \frac{|\hat{\Sigma}_2|}{|\hat{\Sigma}_1|} \; .
