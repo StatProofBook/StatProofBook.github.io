@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (420 proofs)
+### JoramSoch (421 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -256,6 +256,7 @@ title: "Proof by Author"
 - [Normal distribution is a special case of multivariate normal distribution](/P/norm-mvn)
 - [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
+- [Omnibus F-test for multiple regressors in multiple linear regression](/P/mlr-fomnibus)
 - [One-sample t-test for independent observations](/P/ug-ttest1)
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
