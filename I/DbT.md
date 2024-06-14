@@ -122,11 +122,13 @@ title: "Definition by Topic"
 - [Law of conditional probability](/D/prob-cond)
 - [Law of marginal probability](/D/prob-marg)
 - [Likelihood function](/D/lf)
+- [Likelihood ratio](/D/lr)
 - [Log Bayes factor](/D/lbf)
 - [Log family evidence](/D/lfe)
 - [Log model evidence](/D/lme)
 - [Log probability scoring rule](/D/lpsr)
 - [Log-likelihood function](/D/llf)
+- [Log-likelihood ratio](/D/llr)
 - [Log-normal distribution](/D/lognorm)
 - [Logistic regression](/D/logreg)
 

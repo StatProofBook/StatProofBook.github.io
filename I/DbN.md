@@ -204,3 +204,5 @@ title: "Definition by Number"
 | D195 | lpsr | [Log probability scoring rule](/D/lpsr) | KarahanS | 2024-02-28 |
 | D196 | fstat | [F-statistic](/D/fstat) | JoramSoch | 2024-03-15 |
 | D197 | bsr | [Brier scoring rule](/D/bsr) | KarahanS | 2024-03-23 |
+| D198 | lr | [Likelihood ratio](/D/lr) | JoramSoch | 2024-06-14 |
+| D199 | llr | [Log-likelihood ratio](/D/llr) | JoramSoch | 2024-06-14 |

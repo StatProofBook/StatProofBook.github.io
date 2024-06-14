@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2024-06-14 14:46:09
 
-title: "Maximum log-likelihood for general linear model"
+title: "Maximum log-likelihood for the general linear model"
 chapter: "Statistical Models"
 section: "Multivariate normal data"
 topic: "General linear model"
