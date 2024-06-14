@@ -51,7 +51,7 @@ $$ \label{eq:norm-pdf}
 f_X(x) = \frac{1}{\sigma \sqrt{2 \pi}} \cdot \mathrm{exp} \left[ -\frac{\left( x -\mu \right)^2}{2 \sigma^2} \right] \; .
 $$
 
-Writing $X$ as a function of $Y$ we have
+Writing $X$ as a function of $Y$, we have
 
 $$ \label{eq:X-Y}
 X = g(Y) = \mathrm{exp} (Y) \;

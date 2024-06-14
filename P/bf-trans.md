@@ -21,13 +21,13 @@ username: "tomfaulkenberry"
 ---
 
 
-**Theorem:** Consider three competing [models](/D/gm) $m_1$, $m_2$, and $m_33$ for observed data $y$. Then the [Bayes factor](/D/bf) for $m_1$ over $m_3$ can be written as:
+**Theorem:** Consider three competing [models](/D/gm) $m_1$, $m_2$, and $m_3$ for observed data $y$. Then, the [Bayes factor](/D/bf) in favor of $m_1$ against $m_3$ can be written as:
 
 $$ \label{eq:bf-trans}
 \text{BF}_{13} = \text{BF}_{12}\cdot \text{BF}_{23}.
 $$
 
-**Proof:** By [definition](/D/bf), the Bayes factor $\text{BF}_{13}$ is the ratio of marginal likelihoods of data $y$ over $m_1$ and $m_3$, respectively. That is,
+**Proof:** By [definition](/D/bf), the Bayes factor $\text{BF}_{13}$ is the ratio of marginal likelihoods of data $y$ under $m_1$ and $m_3$, respectively. That is,
 
 $$ \label{eq:bf}
 \text{BF}_{13}=\frac{p(y \mid m_1)}{p(y \mid m_3)}.

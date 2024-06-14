@@ -42,7 +42,7 @@ $$
 $$ \label{eq:GLM-LF}
 \begin{split}
 p(Y|B,\Sigma) &= \mathcal{MN}(Y; XB, V, \Sigma) \\
-&= \sqrt{\frac{1}{(2\pi)^{nv} |\Sigma|^n |V|^v}} \cdot \exp\left[ -\frac{1}{2} \, \mathrm{tr}\left( \Sigma^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \right)  \right] \\
+&= \sqrt{\frac{1}{(2\pi)^{nv} |\Sigma|^n |V|^v}} \cdot \exp\left[ -\frac{1}{2} \, \mathrm{tr}\left( \Sigma^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \right) \right] \\
 \end{split}
 $$
 

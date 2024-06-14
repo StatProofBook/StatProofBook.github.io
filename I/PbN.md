@@ -460,3 +460,4 @@ title: "Proof by Number"
 | P452 | slr-tslo | [Statistical test for slope parameter in simple linear regression model](/P/slr-tslo) | JoramSoch | 2024-05-17 |
 | P453 | slr-fcomp | [Statistical test for comparing simple linear regression models with and without slope parameter](/P/slr-fcomp) | JoramSoch | 2024-05-24 |
 | P454 | mlr-fomnibus | [Omnibus F-test for multiple regressors in multiple linear regression](/P/mlr-fomnibus) | JoramSoch | 2024-05-31 |
+| P455 | glm-llr | [Log-likelihood ratio for the general linear model](/P/glm-llr) | JoramSoch | 2024-06-07 |

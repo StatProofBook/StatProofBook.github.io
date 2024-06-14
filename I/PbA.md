@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (421 proofs)
+### JoramSoch (422 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -184,6 +184,7 @@ title: "Proof by Author"
 - [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
 - [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp)
 - [Log sum inequality](/P/logsum-ineq)
+- [Log-likelihood ratio for the general linear model](/P/glm-llr)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
 - [Marginal distribution of a conditional binomial distribution](/P/bin-margcond)
