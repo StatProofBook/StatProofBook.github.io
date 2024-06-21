@@ -8,7 +8,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (183 definitions)
+### JoramSoch (185 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -90,10 +90,12 @@ title: "Definition by Author"
 - [Law of conditional probability](/D/prob-cond)
 - [Law of marginal probability](/D/prob-marg)
 - [Likelihood function](/D/lf)
+- [Likelihood ratio](/D/lr)
 - [Log Bayes factor](/D/lbf)
 - [Log family evidence](/D/lfe)
 - [Log model evidence](/D/lme)
 - [Log-likelihood function](/D/llf)
+- [Log-likelihood ratio](/D/llr)
 - [Logistic regression](/D/logreg)
 - [Marginal likelihood](/D/ml)
 - [Marginal probability distribution](/D/dist-marg)
