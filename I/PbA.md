@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (423 proofs)
+### JoramSoch (425 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -106,6 +106,7 @@ title: "Proof by Author"
 - [Entropy of the categorical distribution](/P/cat-ent)
 - [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
+- [Equivalence of log-likelihood ratio and mutual information for the general linear model](/P/glm-llrmi)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Equivalence of operations for model evidence and log model evidence](/P/lme-mean)
 - [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)
@@ -246,6 +247,7 @@ title: "Proof by Author"
 - [Multinomial test](/P/mult-test)
 - [Multiple linear regression is a special case of the general linear model](/P/mlr-glm)
 - [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn)
+- [Mutual information of dependent and independent variables in the general linear model](/P/glm-mi)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Non-invariance of the differential entropy under change of variables](/P/dent-noninv)
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
