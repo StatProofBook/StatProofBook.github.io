@@ -730,7 +730,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.1.5. **[Maximum log-likelihood](/P/glm-mll)** <br>
    &emsp;&ensp; 2.1.6. **[Log-likelihood ratio](/P/glm-llr)** <br>
    &emsp;&ensp; 2.1.7. **[Mutual information](/P/glm-mi)** <br>
-   &emsp;&ensp; 2.1.8. **[Equivalence of log-likelihood ratio and mutual information](/P/glm-llrmi)** <br>
+   &emsp;&ensp; 2.1.8. **[Log-likelihood ratio and estimated mutual information](/P/glm-llrmi)** <br>
    
    2.2. Transformed general linear model <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/tglm)* <br>

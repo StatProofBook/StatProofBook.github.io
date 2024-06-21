@@ -106,13 +106,12 @@ $$ \label{eq:glm-llr-m1-m2}
 &= \ln p(Y|\hat{B}_1,\hat{\Sigma}_1,m_1) - \ln p(Y|\hat{B}_2,\hat{\Sigma}_2,m_2) \\
 &= \left( - \frac{nv}{2} \ln(2\pi) - \frac{n}{2} \ln |\hat{\Sigma}_1| - \frac{v}{2} \ln |V_1| - \frac{nv}{2} \right) \\
 &- \left( - \frac{nv}{2} \ln(2\pi) - \frac{n}{2} \ln |\hat{\Sigma}_2| - \frac{v}{2} \ln |V_2| - \frac{nv}{2} \right) \\
-&= - \frac{n}{2} \ln \frac{|\hat{\Sigma}_1|}{|\hat{\Sigma}_2|} - \frac{v}{2} \ln \frac{|V_1|}{|V_2|} \\
-&= + \frac{n}{2} \ln \frac{|\hat{\Sigma}_2|}{|\hat{\Sigma}_1|} + \frac{v}{2} \ln \frac{|V_2|}{|V_1|} \; .
+&= - \frac{n}{2} \ln \frac{|\hat{\Sigma}_1|}{|\hat{\Sigma}_2|} - \frac{v}{2} \ln \frac{|V_1|}{|V_2|} \; .
 \end{split}
 $$
 
 Thus, if $V_1 = V_2$, such that $\ln(\vert V_2 \vert / \vert V_1 \vert) = \ln(1) = 0$, the log-likelihood ratio is equal to
 
 $$ \label{eq:glm-llr-qed}
-\ln \Lambda_{12} = \frac{n}{2} \ln \frac{|\hat{\Sigma}_2|}{|\hat{\Sigma}_1|} \; .
+\ln \Lambda_{12} = - \frac{n}{2} \ln \frac{|\hat{\Sigma}_1|}{|\hat{\Sigma}_2|} \; .
 $$

@@ -11,7 +11,7 @@ title: "Equivalence of log-likelihood ratio and mutual information for the gener
 chapter: "Statistical Models"
 section: "Multivariate normal data"
 topic: "General linear model"
-theorem: "Equivalence of log-likelihood ratio and mutual information"
+theorem: "Log-likelihood ratio and estimated mutual information"
 
 sources:
   - authors: "Friston K, Chu C, Mourão-Miranda J, Hulme O, Rees G, Penny W, Ashburner J"
