@@ -120,6 +120,7 @@ title: "Proof by Topic"
 - [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
 - [Equivalence of log-likelihood ratio and mutual information for the general linear model](/P/glm-llrmi)
+- [Equivalence of log-likelihood ratios for regular and inverse general linear model](/P/iglm-llrs)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Equivalence of operations for model evidence and log model evidence](/P/lme-mean)
 - [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)
