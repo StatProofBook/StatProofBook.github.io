@@ -741,9 +741,10 @@ title: "Table of Contents"
    &emsp;&ensp; 2.3.1. *[Definition](/D/iglm)* <br>
    &emsp;&ensp; 2.3.2. **[Derivation of the distribution](/P/iglm-dist)** <br>
    &emsp;&ensp; 2.3.3. **[Best linear unbiased estimator](/P/iglm-blue)** <br>
-   &emsp;&ensp; 2.3.4. *[Corresponding forward model](/D/cfm)* <br>
-   &emsp;&ensp; 2.3.5. **[Derivation of parameters](/P/cfm-para)** <br>
-   &emsp;&ensp; 2.3.6. **[Proof of existence](/P/cfm-exist)** <br>
+   &emsp;&ensp; 2.3.4. **[Equivalence of log-likelihood ratios](/P/iglm-llrs)** <br>
+   &emsp;&ensp; 2.3.5. *[Corresponding forward model](/D/cfm)* <br>
+   &emsp;&ensp; 2.3.6. **[Derivation of parameters](/P/cfm-para)** <br>
+   &emsp;&ensp; 2.3.7. **[Proof of existence](/P/cfm-exist)** <br>
    
    2.4. Multivariate Bayesian linear regression <br>
    &emsp;&ensp; 2.4.1. **[Conjugate prior distribution](/P/mblr-prior)** <br>
