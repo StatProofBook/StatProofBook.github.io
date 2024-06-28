@@ -462,3 +462,5 @@ title: "Proof by Number"
 | P454 | mlr-fomnibus | [Omnibus F-test for multiple regressors in multiple linear regression](/P/mlr-fomnibus) | JoramSoch | 2024-05-31 |
 | P455 | glm-llr | [Log-likelihood ratio for the general linear model](/P/glm-llr) | JoramSoch | 2024-06-07 |
 | P456 | glm-mll | [Maximum log-likelihood for the general linear model](/P/glm-mll) | JoramSoch | 2024-06-14 |
+| P457 | glm-mi | [Mutual information of dependent and independent variables in the general linear model](/P/glm-mi) | JoramSoch | 2024-06-21 |
+| P458 | glm-llrmi | [Equivalence of log-likelihood ratio and mutual information for the general linear model](/P/glm-llrmi) | JoramSoch | 2024-06-21 |

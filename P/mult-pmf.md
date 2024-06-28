@@ -36,19 +36,19 @@ $$
 
 **Proof:** A [multinomial variable](/D/mult) is defined as a vector of the numbers of observations belonging to $k$ distinct categories in $n$ [independent](/D/ind) trials, where each trial has [$k$ possible outcomes](/D/cat) and the category [probabilities](/D/prob) are identical across trials.
 
-Since [the individual trials are independent](/D/mult) and [joint probability factorizes under independence](/P/prob-ind), the probability of a particular series of $x_1$ observations for category $1$, $x_2$ observations for category $2$ etc., when order does matter, is
+Since [the individual trials are independent](/D/mult) and [joint probability factorizes under independence](/P/prob-ind), the probability of a particular series of $x_1$ observations for category $1$, $x_2$ observations for category $2$, ... etc., when order does matter, is
 
 $$ \label{eq:mult-prob}
 \prod_{i=1}^k {p_i}^{x_i} \; .
 $$
 
-When order does not matter, there is a number of series consisting of $x_1$ observations for category $1$, ..., $x_k$ observations for category $k$. This number is equal to the number of possibilities in which $x_1$ category $1$ objects, ..., $x_k$ category $k$ objects can be distributed in a sequence of $n$ objects which is given by the multinomial coefficient that can be expressed in terms of factorials:
+When order does not matter, there is a number of series consisting of $x_1$ observations for category $1$, $x_2$ observations for category $2$, ... etc. This number is equal to the number of possibilities in which $x_1$ category $1$ objects, $x_2$ category $2$ objects, ... etc. can be distributed in a sequence of $n$ objects which is given by the multinomial coefficient that can be expressed in terms of factorials:
 
 $$ \label{eq:mult-coeff}
 {n \choose {x_1, \ldots, x_k}} = \frac{n!}{x_1! \cdot \ldots \cdot x_k!} \; .
 $$
 
-In order to obtain the probability of $x_1$ observations for category $1$, ..., $x_k$ observations for category $k$, when order does not matter, the probability in \eqref{eq:mult-prob} has to be multiplied with the number of possibilities in \eqref{eq:mult-coeff} which gives
+In order to obtain the probability of $x_1$ observations for category $1$, $x_2$ observations for category $2$, ... etc., when order does not matter, the probability in \eqref{eq:mult-prob} has to be multiplied with the number of possibilities in \eqref{eq:mult-coeff} which gives
 
 $$ \label{eq:mult-pmf-qed}
 p(X=x|n,\left[p_1, \ldots, p_k \right]) = {n \choose {x_1, \ldots, x_k}} \, \prod_{i=1}^k {p_i}^{x_i}

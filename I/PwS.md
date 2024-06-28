@@ -105,6 +105,7 @@ title: "Proofs without Source"
 - [Moment-generating function of the exponential distribution](/P/exp-mgf)
 - [Moment-generating function of the gamma distribution](/P/gam-mgf)
 - [Moment-generating function of the multivariate normal distribution](/P/mvn-mgf)
+- [Mutual information of dependent and independent variables in the general linear model](/P/glm-mi)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
 - [Ordinary least squares for multiple linear regression with two regressors](/P/mlr-olstr)

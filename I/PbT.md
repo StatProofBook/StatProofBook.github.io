@@ -119,6 +119,7 @@ title: "Proof by Topic"
 - [Entropy of the categorical distribution](/P/cat-ent)
 - [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
+- [Equivalence of log-likelihood ratio and mutual information for the general linear model](/P/glm-llrmi)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Equivalence of operations for model evidence and log model evidence](/P/lme-mean)
 - [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)
@@ -292,6 +293,7 @@ title: "Proof by Topic"
 - [Multinomial test](/P/mult-test)
 - [Multiple linear regression is a special case of the general linear model](/P/mlr-glm)
 - [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn)
+- [Mutual information of dependent and independent variables in the general linear model](/P/glm-mi)
 
 ### N
 
