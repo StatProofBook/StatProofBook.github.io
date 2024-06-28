@@ -43,7 +43,7 @@ $$
 Then, the [log-likelihood ratio](/D/llr) of $m_1$ vs. $m_0$ is equal to the estimated [mutual information](/D/mi) of $X$ and $Y$:
 
 $$ \label{eq:glm-llrmi}
-\ln \Lambda_{10} = I(X,Y) \; .
+\ln \Lambda_{10} = \hat{I}(X,Y) \; .
 $$
 
 
@@ -87,11 +87,11 @@ $$
 such that with \eqref{eq:m1-m0-mle}, the estimated mutual information is:
 
 $$ \label{eq:Y-X-mi}
-I(X,Y) = - \frac{n}{2} \ln \frac{|\hat{\Sigma}_1|}{|\hat{\Sigma}_0|} \; ,
+\hat{I}(X,Y) = - \frac{n}{2} \ln \frac{|\hat{\Sigma}_1|}{|\hat{\Sigma}_0|} \; ,
 $$
 
 Together, \eqref{eq:m1-m0-llr} and \eqref{eq:Y-X-mi} show that
 
 $$ \label{eq:glm-llrmi-qed}
-\ln \Lambda_{10} = I(X,Y) \; .
+\ln \Lambda_{10} = \hat{I}(X,Y) \; .
 $$
