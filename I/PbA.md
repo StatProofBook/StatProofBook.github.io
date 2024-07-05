@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (426 proofs)
+### JoramSoch (427 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -128,6 +128,7 @@ title: "Proof by Author"
 - [Extreme points of the probability density function of the normal distribution](/P/norm-extr)
 - [F-statistic in terms of ordinary least squares estimates in one-way analysis of variance](/P/anova1-fols)
 - [F-statistics in terms of ordinary least squares estimates in two-way analysis of variance](/P/anova2-fols)
+- [F-test for equality of variances in two independent samples](/P/ug-fev)
 - [F-test for grand mean in two-way analysis of variance](/P/anova2-fgm)
 - [F-test for interaction in two-way analysis of variance](/P/anova2-fia)
 - [F-test for main effect in one-way analysis of variance](/P/anova1-f)
