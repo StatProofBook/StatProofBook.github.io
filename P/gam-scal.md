@@ -30,7 +30,7 @@ $$
 Then, the quantity $Y = c X$ will also be gamma-distributed with shape $a$ and rate $b/c$:
 
 $$ \label{eq:gam-scal}
-Y = b X \sim \mathrm{Gam}\left( a, \frac{b}{c} \right) \; .
+Y = c X \sim \mathrm{Gam}\left( a, \frac{b}{c} \right) \; .
 $$
 
 
@@ -70,7 +70,7 @@ $$ \label{eq:Y-pdf}
 f_Y(y) &= \frac{b^a}{\Gamma(a)} [g^{-1}(y)]^{a-1} \exp[-b g^{-1}(y)] \, \frac{\mathrm{d}g^{-1}(y)}{\mathrm{d}y} \\
 &= \frac{b^a}{\Gamma(a)} \left( \frac{1}{c} y \right)^{a-1} \exp\left[-b \left( \frac{1}{c} y \right) \right] \, \frac{\mathrm{d}\left( \frac{1}{c} y \right)}{\mathrm{d}y} \\
 &= \frac{b^a}{\Gamma(a)} \left( \frac{1}{c} \right)^{a} \left( \frac{1}{c} \right)^{-1} y^{a-1} \exp\left[- \frac{b}{c} y \right] \, \frac{1}{c} \\
-&= \frac{(b/a)^a}{\Gamma(a)} y^{a-1} \exp\left[- \frac{b}{c} y \right]
+&= \frac{(b/c)^a}{\Gamma(a)} y^{a-1} \exp\left[- \frac{b}{c} y \right]
 \end{split}
 $$
 

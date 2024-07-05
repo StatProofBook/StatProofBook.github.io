@@ -464,3 +464,4 @@ title: "Proof by Number"
 | P456 | glm-mll | [Maximum log-likelihood for the general linear model](/P/glm-mll) | JoramSoch | 2024-06-14 |
 | P457 | glm-mi | [Mutual information of dependent and independent variables in the general linear model](/P/glm-mi) | JoramSoch | 2024-06-21 |
 | P458 | glm-llrmi | [Equivalence of log-likelihood ratio and mutual information for the general linear model](/P/glm-llrmi) | JoramSoch | 2024-06-21 |
+| P459 | iglm-llrs | [Equivalence of log-likelihood ratios for regular and inverse general linear model](/P/iglm-llrs) | JoramSoch | 2024-06-28 |

@@ -28,7 +28,7 @@ sources:
     pages: "retrieved on 2024-06-28"
     url: "https://en.wikipedia.org/wiki/Weinstein%E2%80%93Aronszajn_identity"
 
-proof_id: "P458"
+proof_id: "P459"
 shortcut: "iglm-llrs"
 username: "JoramSoch"
 ---
@@ -122,7 +122,7 @@ $$ \label{eq:iglms-llr}
 \end{split}
 $$
 
-Sylvester's determinant theorem states that, for two matrices $A \in \mathbb{R}^{m \times n}$ and $B \in \mathbb{R}^{n \times m}$, the following identity holds:
+Sylvester's determinant theorem (also known as the "Weinstein–Aronszajn identity") states that, for two matrices $A \in \mathbb{R}^{m \times n}$ and $B \in \mathbb{R}^{n \times m}$, the following identity holds:
 
 $$ \label{eq:sdt}
 \left| I_m + AB \right| = \left| I_n + BA \right| \; .
