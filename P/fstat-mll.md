@@ -36,7 +36,7 @@ $$ \label{eq:F-MLL}
 F = \left[ \left( \exp[\Delta\mathrm{MLL}] \right)^{2/n} - 1 \right] \cdot \frac{n-p}{p-p_0}
 $$
 
-where $n$, $p$ and $p_0$ are the dimensions of the design matrices $X = \left[ X_0, X_1 \right] \in \mathbb{R}^{n \times p}$ and $X_0 \in \mathbb{R}^{n \times p_0}$ and $\Delta\mathrm{MLL}$ is the difference in maximum log-likelihood between the two model given by \eqref{eq:m0-m1}
+where $n$, $p$ and $p_0$ are the dimensions of the design matrices $X = \left[ X_0, X_1 \right] \in \mathbb{R}^{n \times p}$ and $X_0 \in \mathbb{R}^{n \times p_0}$ and $\Delta\mathrm{MLL}$ is the difference in maximum log-likelihood between the two models given by \eqref{eq:m0-m1}
 
 
 **Proof:** Under the conditions mentioned in the theorem, the [F-statistic is defined in terms of the residual sum of squares](/D/fstat) as

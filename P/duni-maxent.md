@@ -32,7 +32,7 @@ username: "JoramSoch"
 
 **Proof:** A random variable with finite support is a [discrete random variable](/D/rvar-disc). Let $X$ be such a random variable. Without loss of generality, we can assume that the possible values of the $X$ can be enumerated from $1$ to $n$.
 
-Let $g(x)$ be the discrete uniform distribution with $a=1$ and maximum $b=n$ which assigns to equal probability to all $n$ possible values and let $f(x)$ be an arbitrary [discrete](/D/rvar-disc) [probability distribution](/D/dist) on the set $\left\lbrace 1, 2, \ldots, n-1, n \right\rbrace$.
+Let $g(x)$ be the discrete uniform distribution with minimum $a=1$ and maximum $b=n$ which assigns to equal probability to all $n$ possible values and let $f(x)$ be an arbitrary [discrete](/D/rvar-disc) [probability distribution](/D/dist) on the set $\left\lbrace 1, 2, \ldots, n-1, n \right\rbrace$.
 
 For a [discrete random variable](/D/rvar-disc) $X$ with set of possible values $\mathcal{X}$ and [probability mass function](/D/pmf) $p(x)$, the [Shannon entropy](/D/ent) is defined as:
 
