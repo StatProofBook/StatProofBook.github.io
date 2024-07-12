@@ -653,19 +653,20 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.11. **[Regression line includes center of mass](/P/slr-comp)** <br>
    &emsp;&ensp; 1.4.12. **[Projection of data point to regression line](/P/slr-proj)** <br>
    &emsp;&ensp; 1.4.13. **[Sums of squares](/P/slr-sss)** <br>
-   &emsp;&ensp; 1.4.14. **[Transformation matrices](/P/slr-mat)** <br>
-   &emsp;&ensp; 1.4.15. **[Weighted least squares](/P/slr-wls)** (1) <br>
-   &emsp;&ensp; 1.4.16. **[Weighted least squares](/P/slr-wls2)** (2) <br>
-   &emsp;&ensp; 1.4.17. **[Maximum likelihood estimation](/P/slr-mle)** (1) <br>
-   &emsp;&ensp; 1.4.18. **[Maximum likelihood estimation](/P/slr-mle2)** (2) <br>
-   &emsp;&ensp; 1.4.19. **[t-test for intercept parameter](/P/slr-tint)** <br>
-   &emsp;&ensp; 1.4.20. **[t-test for slope parameter](/P/slr-tslo)** <br>
-   &emsp;&ensp; 1.4.21. **[F-test for model comparison](/P/slr-fcomp)** <br>
-   &emsp;&ensp; 1.4.22. **[Sum of residuals is zero](/P/slr-ressum)** <br>
-   &emsp;&ensp; 1.4.23. **[Correlation with covariate is zero](/P/slr-rescorr)** <br>
-   &emsp;&ensp; 1.4.24. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
-   &emsp;&ensp; 1.4.25. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
-   &emsp;&ensp; 1.4.26. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
+   &emsp;&ensp; 1.4.14. **[Partition of sums of squares](/P/slr-pss)** <br>
+   &emsp;&ensp; 1.4.15. **[Transformation matrices](/P/slr-mat)** <br>
+   &emsp;&ensp; 1.4.16. **[Weighted least squares](/P/slr-wls)** (1) <br>
+   &emsp;&ensp; 1.4.17. **[Weighted least squares](/P/slr-wls2)** (2) <br>
+   &emsp;&ensp; 1.4.18. **[Maximum likelihood estimation](/P/slr-mle)** (1) <br>
+   &emsp;&ensp; 1.4.19. **[Maximum likelihood estimation](/P/slr-mle2)** (2) <br>
+   &emsp;&ensp; 1.4.20. **[t-test for intercept parameter](/P/slr-tint)** <br>
+   &emsp;&ensp; 1.4.21. **[t-test for slope parameter](/P/slr-tslo)** <br>
+   &emsp;&ensp; 1.4.22. **[F-test for model comparison](/P/slr-fcomp)** <br>
+   &emsp;&ensp; 1.4.23. **[Sum of residuals is zero](/P/slr-ressum)** <br>
+   &emsp;&ensp; 1.4.24. **[Correlation with covariate is zero](/P/slr-rescorr)** <br>
+   &emsp;&ensp; 1.4.25. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
+   &emsp;&ensp; 1.4.26. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
+   &emsp;&ensp; 1.4.27. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
 
    1.5. Multiple linear regression <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mlr)* <br>
