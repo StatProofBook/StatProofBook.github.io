@@ -82,7 +82,7 @@ title: "Proof by Number"
 | P73 | pmp-lbf | [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf) | JoramSoch | 2020-03-03 |
 | P74 | pmp-bf | [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf) | JoramSoch | 2020-03-03 |
 | P75 | mlr-mat | [Transformation matrices for ordinary least squares](/P/mlr-mat) | JoramSoch | 2020-03-09 |
-| P76 | mlr-pss | [Partition of sums of squares in ordinary least squares](/P/mlr-pss) | JoramSoch | 2020-03-09 |
+| P76 | mlr-pss | [Partition of sums of squares for multiple linear regression](/P/mlr-pss) | JoramSoch | 2020-03-09 |
 | P77 | mlr-wls | [Weighted least squares for multiple linear regression](/P/mlr-wls) | JoramSoch | 2020-03-11 |
 | P78 | mlr-mle | [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle) | JoramSoch | 2020-03-11 |
 | P79 | mult-prior | [Conjugate prior distribution for multinomial observations](/P/mult-prior) | JoramSoch | 2020-03-11 |
@@ -466,3 +466,4 @@ title: "Proof by Number"
 | P458 | glm-llrmi | [Equivalence of log-likelihood ratio and mutual information for the general linear model](/P/glm-llrmi) | JoramSoch | 2024-06-21 |
 | P459 | iglm-llrs | [Equivalence of log-likelihood ratios for regular and inverse general linear model](/P/iglm-llrs) | JoramSoch | 2024-06-28 |
 | P460 | ug-fev | [F-test for equality of variances in two independent samples](/P/ug-fev) | JoramSoch | 2024-07-05 |
+| P461 | slr-pss | [Partition of sums of squares for simple linear regression](/P/slr-pss) | JoramSoch | 2024-07-12 |
