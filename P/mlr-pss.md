@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-03-09 22:18:00
 
-title: "Partition of sums of squares in ordinary least squares"
+title: "Partition of sums of squares for multiple linear regression"
 chapter: "Statistical Models"
 section: "Univariate normal data"
 topic: "Multiple linear regression"
@@ -30,12 +30,12 @@ username: "JoramSoch"
 **Theorem:** Assume a [linear regression model](/D/mlr) with independent observations
 
 $$ \label{eq:mlr}
-y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; ,
+y = X\beta + \varepsilon, \; \varepsilon_i \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2)
 $$
 
 and let $X$ contain a constant regressor $1_n$ modelling the intercept term. Then, it holds that
 
-$$ \label{eq:pss}
+$$ \label{eq:mlr-pss}
 \mathrm{TSS} = \mathrm{ESS} + \mathrm{RSS}
 $$
 
