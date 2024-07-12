@@ -144,6 +144,7 @@ title: "Proof by Topic"
 
 - [F-statistic in terms of ordinary least squares estimates in one-way analysis of variance](/P/anova1-fols)
 - [F-statistics in terms of ordinary least squares estimates in two-way analysis of variance](/P/anova2-fols)
+- [F-test for equality of variances in two independent samples](/P/ug-fev)
 - [F-test for grand mean in two-way analysis of variance](/P/anova2-fgm)
 - [F-test for interaction in two-way analysis of variance](/P/anova2-fia)
 - [F-test for main effect in one-way analysis of variance](/P/anova1-f)
