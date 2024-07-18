@@ -43,8 +43,7 @@ $$
 **Proof:** We consider the sum of squared differences between $y$ and $X\beta$:
 
 $$ \label{eq:mlr-rss}
-\mathrm{RSS}(\beta)
-= \sum_{i=1}^n \varepsilon_i^2
+\sum_{i=1}^n \varepsilon_i^2
 = \varepsilon^\mathrm{T} \varepsilon
 = (y - X\beta)^\mathrm{T} (y - X\beta) \; .
 $$
@@ -107,5 +106,5 @@ $$
 Thus, the residual sum of squares is minimized when $\beta = \hat{\beta}$:
 
 $$ \label{eq:mlr-ols-qed}
-\hat{\beta} = (X^\mathrm{T} X)^{-1} X^\mathrm{T} y = \operatorname*{arg\,min}_\beta (y - X\beta)^\mathrm{T} (y - X\beta) \; .
+\hat{\beta} = (X^\mathrm{T} X)^{-1} X^\mathrm{T} y = \operatorname*{arg\,min\,}_\beta (y - X\beta)^\mathrm{T} (y - X\beta) \; .
 $$
