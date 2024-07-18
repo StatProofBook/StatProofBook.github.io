@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (427 proofs)
+### JoramSoch (428 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -279,8 +279,9 @@ title: "Proof by Author"
 - [Parameters of the corresponding forward model](/P/cfm-para)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
 - [Partition of covariance into expected values](/P/cov-mean)
+- [Partition of sums of squares for multiple linear regression](/P/mlr-pss)
+- [Partition of sums of squares for simple linear regression](/P/slr-pss)
 - [Partition of sums of squares in one-way analysis of variance](/P/anova1-pss)
-- [Partition of sums of squares in ordinary least squares](/P/mlr-pss)
 - [Partition of sums of squares in two-way analysis of variance](/P/anova2-pss)
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
