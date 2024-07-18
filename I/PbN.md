@@ -467,3 +467,4 @@ title: "Proof by Number"
 | P459 | iglm-llrs | [Equivalence of log-likelihood ratios for regular and inverse general linear model](/P/iglm-llrs) | JoramSoch | 2024-06-28 |
 | P460 | ug-fev | [F-test for equality of variances in two independent samples](/P/ug-fev) | JoramSoch | 2024-07-05 |
 | P461 | slr-pss | [Partition of sums of squares for simple linear regression](/P/slr-pss) | JoramSoch | 2024-07-12 |
+| P462 | mlr-ols3 | [Ordinary least squares for multiple linear regression](/P/mlr-ols3) | JoramSoch | 2024-07-18 |

@@ -319,6 +319,7 @@ title: "Proof by Topic"
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols)
 - [Ordinary least squares for multiple linear regression](/P/mlr-ols2)
+- [Ordinary least squares for multiple linear regression](/P/mlr-ols3)
 - [Ordinary least squares for multiple linear regression with two regressors](/P/mlr-olstr)
 - [Ordinary least squares for one-way analysis of variance](/P/anova1-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols)
