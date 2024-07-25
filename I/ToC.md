@@ -693,16 +693,17 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.22. **[Weighted least squares](/P/mlr-wls2)** (2) <br>
    &emsp;&ensp; 1.5.23. **[Maximum likelihood estimation](/P/mlr-mle)** <br>
    &emsp;&ensp; 1.5.24. **[Maximum log-likelihood](/P/mlr-mll)** <br>
-   &emsp;&ensp; 1.5.25. *[t-contrast](/D/tcon)* <br>
-   &emsp;&ensp; 1.5.26. *[F-contrast](/D/fcon)* <br>
-   &emsp;&ensp; 1.5.27. **[Contrast-based t-test](/P/mlr-t)** <br>
-   &emsp;&ensp; 1.5.28. **[Contrast-based F-test](/P/mlr-f)** <br>
-   &emsp;&ensp; 1.5.29. **[t-test for single regressor](/P/mlr-tsingle)** <br>
-   &emsp;&ensp; 1.5.30. **[F-test for multiple regressors](/P/mlr-fomnibus)** <br>
-   &emsp;&ensp; 1.5.31. **[Deviance function](/P/mlr-dev)** <br>
-   &emsp;&ensp; 1.5.32. **[Akaike information criterion](/P/mlr-aic)** <br>
-   &emsp;&ensp; 1.5.33. **[Bayesian information criterion](/P/mlr-bic)** <br>
-   &emsp;&ensp; 1.5.34. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
+   &emsp;&ensp; 1.5.25. **[Log-likelihood ratio](/P/mlr-llr)** <br>
+   &emsp;&ensp; 1.5.26. *[t-contrast](/D/tcon)* <br>
+   &emsp;&ensp; 1.5.27. *[F-contrast](/D/fcon)* <br>
+   &emsp;&ensp; 1.5.28. **[Contrast-based t-test](/P/mlr-t)** <br>
+   &emsp;&ensp; 1.5.29. **[Contrast-based F-test](/P/mlr-f)** <br>
+   &emsp;&ensp; 1.5.30. **[t-test for single regressor](/P/mlr-tsingle)** <br>
+   &emsp;&ensp; 1.5.31. **[F-test for multiple regressors](/P/mlr-fomnibus)** <br>
+   &emsp;&ensp; 1.5.32. **[Deviance function](/P/mlr-dev)** <br>
+   &emsp;&ensp; 1.5.33. **[Akaike information criterion](/P/mlr-aic)** <br>
+   &emsp;&ensp; 1.5.34. **[Bayesian information criterion](/P/mlr-bic)** <br>
+   &emsp;&ensp; 1.5.35. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
    1.6. Bayesian linear regression <br>
    &emsp;&ensp; 1.6.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
