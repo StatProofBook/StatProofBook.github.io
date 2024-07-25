@@ -29,7 +29,7 @@ username: "JoramSoch"
 
 **Theorem:** Let $X \in \mathbb{R}^{n \times p}$ be a [random matrix](/D/rmat) with all entries independently following a [standard normal distribution](/D/snorm). Moreover, let $A \in \mathbb{R}^{n \times n}$ and $B \in \mathbb{R}^{p \times p}$, such that $A A^\mathrm{T} = U$ and $B^\mathrm{T} B = V$.
 
-Then, $Y = M + A X B$ follows a [matrix-normal distribution](/D/matn) with [mean](/D/mean-rmat) $M$, [covariance](/D/covmat) across rows $U$ and [covariance](/D/covmat) across rows $U$:
+Then, $Y = M + A X B$ follows a [matrix-normal distribution](/D/matn) with [mean](/D/mean-rmat) $M$, [covariance](/D/covmat) across rows $U$ and [covariance](/D/covmat) across columns $V$:
 
 $$ \label{eq:matn-samp}
 Y = M + A X B \sim \mathcal{MN}(M, U, V) \; .
