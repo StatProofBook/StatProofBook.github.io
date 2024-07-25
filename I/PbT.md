@@ -218,6 +218,7 @@ title: "Proof by Topic"
 - [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
 - [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp)
 - [Log sum inequality](/P/logsum-ineq)
+- [Log-likelihood ratio for multiple linear regression](/P/mlr-llr)
 - [Log-likelihood ratio for the general linear model](/P/glm-llr)
 - [Log-odds and probability in logistic regression](/P/logreg-lonp)
 - [Logarithmic expectation of the gamma distribution](/P/gam-logmean)
