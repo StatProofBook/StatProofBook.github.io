@@ -33,19 +33,19 @@ username: "KarahanS"
 
 1) Binary log probability scoring rule:
 
-$$
+$$ \label{eq:binary-lpsr-s1}
 \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = P(Y = 1) \log q + P(Y = 0) \log (1 - q)
 $$
 
 Let $p$ be the true probability of the event $Y = 1$. Then, the expected score is:
 
-$$
+$$ \label{eq:binary-lpsr-s2}
 \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = p \log q + (1 - p) \log (1 - q)
 $$
 
 To find the maxima, take the derivative with respect to $q$ and set it to zero:
 
-$$
+$$ \label{eq:d-bin-lpsr}
 \begin{split}
 \frac{\partial}{\partial q}\mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= \frac{p}{q} - \frac{1-p}{1 - q} \\
 0 &= \frac{p  - pq - q + pq}{q (1-q)} \\
@@ -57,7 +57,7 @@ $$
 
 Now, we need to check the second derivative to see, if it is a maximum for the properness condition and if it is the only maximizer for the strictness condition:
 
-$$
+$$ \label{eq:dd-bin-lpsr}
 \begin{split}
 \frac{\partial^2}{\partial q^2}\mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= -\frac{p}{q^2} - \frac{1-p}{(1 - q)^2} \\
 &= - \left( \underbrace{\frac{p}{q^2}}_\textrm{> 0} + \underbrace{\frac{1-p}{(1 - q)^2}}_\textrm{> 0} \right) < 0
@@ -67,15 +67,15 @@ $$
 Except for the cases $q=0$ and $q=1$, the second derivative is always negative, which means that the function is concave and the maximum is unique. For $q = 1$, maximum is achieved only if $p = 1$, and similarly for $q = 0$, maximum is achieved only if $p = 0$. Therefore, $p = q$ is the only maximizer and the log probability scoring rule for binary classification is strictly proper. 
 
 
-2a) Multiclass log probability scoring rule (Proof #1):
+2a) Multiclass log probability scoring rule (Proof 1):
 
-$$
+$$ \label{eq:multiclass-lpsr-s1}
 S(q, y) = \sum_k^K y_k \log q_k(x)
 $$
 
 Let $p_k$ be the true probability of the event $Y = k$. Since $q_k$ is the predicted probability for class $k$, we know that $\sum_i q_i = 1$. Then, the expected score is:
 
-$$
+$$ \label{eq:multiclass-lpsr-s2}
 \begin{split}
 \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= \sum_k P(Y = k|x) \log(q_k(x)) \\
 &= p_1 \log(q_1(x)) + p_2\log(q_2(x)) + ... + p_K \log(q_K(x)) \\
@@ -85,7 +85,7 @@ $$
 
 Taking the derivative with respect to $q_j$ and setting it to zero:
 
-$$
+$$ \label{eq:d-mult-lpsr}
 \begin{split}
 \frac{\partial}{\partial q_j}\mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= \frac{p_j}{q_j} -\frac{p_K}{1- \sum_{i \neq K} q_i(x)} \\
 0 &= \frac{p_j}{q_j} - \frac{p_K}{q_K} \\
@@ -95,13 +95,13 @@ $$
 
 This equality holds for any $j$:
 
-$$
+$$ \label{eq:d-mult-lpsr-sol-s1}
 \frac{p_1}{q_1} = \frac{p_2}{q_2} = ... = \frac{p_K}{q_K} = \lambda
 $$
 
 Each $q_i$ can be represented as a constant multiple of $p_i$ as follows: $q_i = \lambda \ p_i$
 
-$$
+$$ \label{eq:d-mult-lpsr-sol-s2}
 \begin{split}
 \sum_i q_i &= 1 \\
 \sum_i \lambda \ p_i &= 1 \\
@@ -112,7 +112,7 @@ $$
 
 Since $\lambda = 1$, we have $p_i = q_i$ for all $i$. Now, we need to check the second derivative to see, if it is a maximum for the properness condition and if it is the only maximizer for the strictness condition:
 
-$$
+$$ \label{eq:dd-mult-lpsr}
 \begin{split}
 \frac{\partial^2}{\partial q_j^2}\mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= -\frac{p_j}{q_j^2} - \frac{p_K}{(1- \sum_{i \neq K} q_i(x))^2}  \\
 &= - \left( \underbrace{\frac{p_j}{q_j^2}}_\textrm{> 0} + \underbrace{\frac{p_K}{(1- \sum_{i \neq K} q_i(x))^2}}_\textrm{> 0} \right) < 0
@@ -122,17 +122,17 @@ $$
 Except for the cases $q_j=0$ and $q_j=1$, the second derivative is always negative, which means that the function is concave and the maximum is unique. For $q_j = 1$, maximum is achieved only if $p_j = 1$, and similarly for $q_j = 0$ maximum is achieved only if $p_j = 0$. Therefore, $p_j = q_j$ is the only maximizer and the log probability scoring rule for multiclass classification is strictly proper.
 
 
-2b) Multiclass log probability scoring rule (Proof #2):
+2b) Multiclass log probability scoring rule (Proof 2):
 
 Alternatively, we can solve the optimization problem with Lagrange multipliers. The Lagrangian is:
 
-$$
+$$ \label{eq:lag-mult-lpsr}
 \mathcal{L}(q, \lambda) = \sum_k P(Y = k|x) \log(q_k(x)) + \lambda \left(1 - \sum_k q_k(x)\right)
 $$
 
 Taking the derivative with respect to $q_j$ and setting it to zero:
 
-$$
+$$ \label{eq:d-lag-mult-lpsr}
 \begin{split}
 \frac{\partial}{\partial q_j}\mathcal{L}(q, \lambda) &= \frac{p_j}{q_j} - \lambda \\
 0 &= \frac{p_j}{q_j} - \lambda \\
@@ -145,19 +145,19 @@ The rest of the proof follows as in the first proof.
 
 3) Continuous log probability scoring rule:
 
-$$
+$$ \label{eq:continuous-lpsr-s1}
 S(q, y) = \log q(y)
 $$
 
 Let $p(y)$ be the true [probability density function](/D/pdf) of the event $Y = y$. Then, the [expected](/D/mean) [score](/D/sf) is:
 
-$$
+$$ \label{eq:continuous-lpsr-s2}
 \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = \int p(y) \log q(y) dy
 $$
 
 Let $X = \frac{q(y)}{p(y)}$ and $\phi = \log(\cdot)$ (a concave function). By Jensen's inequality, we know that $f(\mathbb{E}[X]) \leq \mathbb{E}[f(X)]$, if $f$ is concave. Therefore, we have:
 
-$$
+$$ \label{eq:cont-lpsr-sol}
 \begin{split}
 \int p(y) \log \frac{q(y)}{p(y)} dy &\leq \log \int p(y)\frac{q(y)}{p(y)} dy \\
 \int p(y) \log \frac{q(y)}{p(y)} dy &\leq \log \int q(y) dy \\

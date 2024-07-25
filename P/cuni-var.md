@@ -54,7 +54,7 @@ $$ \label{eq:cuni-var-qed}
 &= \frac{1}{24(b-a)} \cdot \left[ ( b-a )^3 - ( a-b )^3 \right] \\
 &= \frac{1}{24(b-a)} \cdot \left[ ( b-a )^3 + (-1)^3 ( a-b )^3 \right] \\
 &= \frac{1}{24(b-a)} \cdot \left[ ( b-a )^3 + ( b-a )^3 \right] \\
-&= \frac{2}{24(b-a)} (b-a)^3 \\
+&= \frac{2(b-a)^3}{24(b-a)} \\
 &= \frac{1}{12} (b-a)^2 \; .
 \end{split}
 $$

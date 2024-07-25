@@ -75,7 +75,7 @@ $$ \label{eq:matn-dent}
 \begin{split}
 &X \sim \mathcal{MN}(M, U, V) \quad \text{where} \quad X \in \mathbb{R}^{n \times p} \\
 \Rightarrow \quad 
-&\mathrm{h}(X) = \frac{np}{2} \ln(2\pi) + \frac{n}{2} \ln|V| + \frac{p}{2} \ln|U| + \frac{np}{2}
+&\mathrm{h}(X) = \frac{np}{2} \ln(2\pi) + \frac{n}{2} \ln|V| + \frac{p}{2} \ln|U| + \frac{np}{2} \; ,
 \end{split}
 $$
 
