@@ -82,7 +82,7 @@ $$ \label{eq:Pr0-x}
 \mathrm{Pr}(x \vert H_0) = n! \prod_{j=1}^k \frac{p_{0i}^{x_j}}{x_j!} \; .
 $$
 
-The [p-value](/D/pval) is the probability of observing a value of the [test statistic](/D/tstat) that is as extreme or more extreme then the actually observed test statistic. Any set of counts $x$ might be considered as extreme or more extreme than the actually observed counts $y$, if the former is equally probable or less probably than the latter:
+The [p-value](/D/pval) is the probability of observing a value of the [test statistic](/D/tstat) that is as extreme or more extreme then the actually observed test statistic. Any set of counts $x$ might be considered as extreme or more extreme than the actually observed counts $y$, if the former is equally probable or less probably than the latter according to the PMF:
 
 $$ \label{eq:mult-test-cond}
 \mathrm{Pr}_0(x) \leq \mathrm{Pr}_0(y) \; .

@@ -51,7 +51,7 @@ $$
 
 where $\mathrm{AIC}(m)$ is the [Akaike information criterion](/D/aic), $k$ is the number of free parameters in $m$ and $n$ is the number of observations.
 
-The [Akaike information criterion for multiple linear regression](/P/mlr-mll) is given by
+The [Akaike information criterion for multiple linear regression](/P/mlr-aic) is given by
 
 $$ \label{eq:mlr-aic}
 \mathrm{AIC}(m) = n \log\left( \frac{\mathrm{wRSS}}{n} \right) + n \left[ 1 + \log(2\pi) \right] + \log|V| + 2 (p + 1)

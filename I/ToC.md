@@ -30,6 +30,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.5. *[Constant](/D/const)* <br>
    &emsp;&ensp; 1.2.6. *[Discrete vs. continuous](/D/rvar-disc)* <br>
    &emsp;&ensp; 1.2.7. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
+   &emsp;&ensp; 1.2.8. *[independent and identically distributed](/D/iid)* <br>
    
    1.3. Probability <br>
    &emsp;&ensp; 1.3.1. *[Probability](/D/prob)* <br>
@@ -62,7 +63,6 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.3. *[Marginal distribution](/D/dist-marg)* <br>
    &emsp;&ensp; 1.5.4. *[Conditional distribution](/D/dist-cond)* <br>
    &emsp;&ensp; 1.5.5. *[Sampling distribution](/D/dist-samp)* <br>
-   &emsp;&ensp; 1.5.6. *[independent and identically distributed](/D/iid)* <br>
    
    1.6. Probability mass function <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/pmf)* <br>
