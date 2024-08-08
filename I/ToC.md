@@ -45,14 +45,16 @@ title: "Table of Contents"
    
    1.4. Probability axioms <br>
    &emsp;&ensp; 1.4.1. *[Axioms of probability](/D/prob-ax)* <br>
-   &emsp;&ensp; 1.4.2. **[Monotonicity of probability](/P/prob-mon)** <br>
-   &emsp;&ensp; 1.4.3. **[Probability of the empty set](/P/prob-emp)** <br>
-   &emsp;&ensp; 1.4.4. **[Probability of the complement](/P/prob-comp)** <br>
-   &emsp;&ensp; 1.4.5. **[Range of probability](/P/prob-range)** <br>
-   &emsp;&ensp; 1.4.6. **[Addition law of probability](/P/prob-add)** <br>
-   &emsp;&ensp; 1.4.7. **[Law of total probability](/P/prob-tot)** <br>
-   &emsp;&ensp; 1.4.8. **[Probability of exhaustive events](/P/prob-exh)** (1) <br>
-   &emsp;&ensp; 1.4.9. **[Probability of exhaustive events](/P/prob-exh2)** (2) <br>
+   &emsp;&ensp; 1.4.2. **[Monotonicity of probability](/P/prob-mon)** (1) <br>
+   &emsp;&ensp; 1.4.3. **[Monotonicity of probability](/P/prob-mon2)** (2) <br>
+   &emsp;&ensp; 1.4.4. **[Probability of the empty set](/P/prob-emp)** (1) <br>
+   &emsp;&ensp; 1.4.5. **[Probability of the empty set](/P/prob-emp2)** (2) <br>
+   &emsp;&ensp; 1.4.6. **[Probability of the complement](/P/prob-comp)** <br>
+   &emsp;&ensp; 1.4.7. **[Range of probability](/P/prob-range)** <br>
+   &emsp;&ensp; 1.4.8. **[Addition law of probability](/P/prob-add)** <br>
+   &emsp;&ensp; 1.4.9. **[Law of total probability](/P/prob-tot)** <br>
+   &emsp;&ensp; 1.4.10. **[Probability of exhaustive events](/P/prob-exh)** (1) <br>
+   &emsp;&ensp; 1.4.11. **[Probability of exhaustive events](/P/prob-exh2)** (2) <br>
    
    1.5. Probability distributions <br>
    &emsp;&ensp; 1.5.1. *[Probability distribution](/D/dist)* <br>
@@ -60,6 +62,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.3. *[Marginal distribution](/D/dist-marg)* <br>
    &emsp;&ensp; 1.5.4. *[Conditional distribution](/D/dist-cond)* <br>
    &emsp;&ensp; 1.5.5. *[Sampling distribution](/D/dist-samp)* <br>
+   &emsp;&ensp; 1.5.6. *[independent and identically distributed](/D/iid)* <br>
    
    1.6. Probability mass function <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/pmf)* <br>
