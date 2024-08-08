@@ -99,6 +99,7 @@ title: "Definition by Topic"
 
 ### I
 
+- [independent and identically distributed](/D/iid)
 - [Informative and non-informative prior distribution](/D/prior-inf)
 - [Interaction sum of squares](/D/iass)
 - [Inverse general linear model](/D/iglm)
