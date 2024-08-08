@@ -468,3 +468,4 @@ title: "Proof by Number"
 | P460 | ug-fev | [F-test for equality of variances in two independent samples](/P/ug-fev) | JoramSoch | 2024-07-05 |
 | P461 | slr-pss | [Partition of sums of squares for simple linear regression](/P/slr-pss) | JoramSoch | 2024-07-12 |
 | P462 | mlr-ols3 | [Ordinary least squares for multiple linear regression](/P/mlr-ols3) | JoramSoch | 2024-07-18 |
+| P463 | mlr-llr | [Log-likelihood ratio for multiple linear regression](/P/mlr-llr) | JoramSoch | 2024-07-25 |

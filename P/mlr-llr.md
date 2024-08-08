@@ -51,12 +51,6 @@ $$ \label{eq:lr}
 \Lambda_{12} = \frac{\operatorname*{max}_{\theta_1 \in \Theta_1} p(y|\theta_1,m_1)}{\operatorname*{max}_{\theta_2 \in \Theta_2} p(y|\theta_2,m_2)} \; .
 $$
 
-%Thus, the [log-likelihood ratio](/D/llr) is equal to the difference of the [maximum log-likelihoods](/D/mll) of the two models:
-%
-%\begin{equation} \label{eq:llr}
-%\ln \Lambda_{12} = \ln p(y|\hat{\theta}_1,m_1) - \ln p(y|\hat{\theta}_2,m_2) \; .
-%\end{equation}
-%
 The [likelihood function](/D/lf) of [multiple linear regression](/D/mlr) is a [multivariate normal probability density function](/P/mvn-pdf):
 
 $$ \label{eq:mlr-lf}
@@ -68,16 +62,6 @@ p(y|\beta,\sigma^2)
 \end{split}
 $$
 
-%Thus, the [log-likelihood function](/D/llf) is equal to a logarithmized [multivariate](/D/matn) [density](/D/pdf):
-%
-%\begin{equation} \label{eq:glm-llf}
-%\begin{split}
-%\ln p(Y|B,\Sigma)
-%&= \ln \mathcal{MN}(Y; XB, V, \Sigma) \\
-%&= - \frac{nv}{2} \ln(2\pi) - \frac{n}{2} \ln |\Sigma| - \frac{v}{2} \ln |V| - \frac{1}{2} \, \mathrm{tr}\left[ \Sigma^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \right] \; .
-%\end{split}
-%\end{equation}
-%
 and the [maximum likelihood estimates for multiple linear regression](/P/mlr-mle) are given by
 
 $$ \label{eq:mlr-mle}
@@ -106,6 +90,6 @@ Logarithmizing both sides, the log-likelihood ratio is obtained as
 $$ \label{eq:mlr-llr-qed}
 \ln \Lambda_{01}
 = \ln \left( \frac{\hat{\sigma}_0^2}{\hat{\sigma}^2} \right)^{-n/2}
-=-\frac{n}{2} \ln \left( \frac{\hat{\sigma}_0^2}{\hat{\sigma}^2} \right) \\
+=-\frac{n}{2} \ln \left( \frac{\hat{\sigma}_0^2}{\hat{\sigma}^2} \right)
 = \frac{n}{2} \ln \left( \frac{\hat{\sigma}^2}{\hat{\sigma}_0^2} \right) \; .
 $$

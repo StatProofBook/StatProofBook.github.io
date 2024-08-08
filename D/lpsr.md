@@ -31,7 +31,7 @@ username: "KarahanS"
 
 1) Log scoring rule for binary classification:
 
-$$ % \label{eq:binary-lpsr-cases}
+$$ \label{eq:binary-lpsr-cases}
 S(q, y) = \left\{
 \begin{array}{rl}
 \log q \; , & \text{if} \; y = 1 \\

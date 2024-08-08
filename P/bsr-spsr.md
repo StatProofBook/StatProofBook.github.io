@@ -45,7 +45,7 @@ $$
 
 To find the maxima, take the derivative with respect to $q$ and set it to zero:
 
-$$
+$$ \label{eq:d-bin-bsr}
 \begin{split}
 \frac{\partial}{\partial q}\mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= -2p(q - 1) - 2(1 - p)q \\
 &= -2pq + 2p - 2q + 2pq \\
@@ -57,7 +57,7 @@ $$
 
 We need to check the second derivative to see if it is a maximum (for the properness condition) and if it is the only maximizer (for the strictness condition):
 
-$$
+$$ \label{eq:dd-bin-bsr}
 \begin{split}
 \frac{\partial^2}{\partial q^2}\mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= -2 < 0 \\
 \end{split}
@@ -68,7 +68,7 @@ The second derivative is always negative which means that the function is concav
 
 2) Brier scoring rule for multiclass classification:
 
-$$
+$$ \label{eq:multiclass-bsr-s1}
 \begin{split}
 \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= \sum_k P(Y = k) \bigg[ -\sum_i (q_i - y_i)^2 \bigg]\\
 &= \sum_k P(Y = k) \bigg[  -(q_{k} - 1)^2 -\sum_{i \neq k} q_i^2 \bigg] \\
@@ -82,9 +82,9 @@ $$
 \end{split}
 $$
 
-Similar to [what we did for log probability](/P/lpsr-spsr), this expression can be expressed as follows (replacing $q_K$ with $1 - \sum_{i \neq K} q_i$):
+Similar to [what we did for log probability](/P/lpsr-spsr), this expression can be rewritten as follows (replacing $q_K$ with $1 - \sum_{i \neq K} q_i$):
 
-$$
+$$ \label{eq:multiclass-bsr-s2}
 \begin{split}
 \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= p_1(2q_1 - 1) - q_1^2 + p_2(2q_2 - 1) - q_2^2 + \ldots + p_K(2q_K - 1) - q_K^2 \\
 &= p_1(2q_1 - 1) -q_1^2 + p_2(2q_2 - 1) -q_2^2 + \ldots + p_K \left( 1 - 2\sum_{i \neq K} q_i \right) - \left( 1 - \sum_{i \neq K} q_i \right)^2
@@ -93,7 +93,7 @@ $$
 
 Taking the derivative with respect to $q_j$ and setting it to zero, we obtain:
 
-$$
+$$ \label{eq:d-mult-bsr}
 \begin{split}
 \frac{\partial}{\partial q_j}\mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] &= 2p_j - 2q_j - 2p_K + 2 \left( 1 - \sum_{i \neq K} q_i \right) \\
 &= 2p_j - 2q_j - 2p_K + 2 q_K \\
@@ -104,7 +104,7 @@ $$
 
 We know that $\sum_i p_i = 1$ and $\sum_i q_i = 1$, therefore:
 
-$$
+$$ \label{eq:d-mult-bsr-sol}
 \begin{split}
 p_1 - q_1 = p_2 - q_2 &= \ldots = p_K - q_K = \lambda \\
 \sum_i p_i - q_i &= K \cdot \lambda = 0 \\  
@@ -115,7 +115,7 @@ $$
 
 Now, we need to check the second derivative to see, if it is a maximum for the properness condition and if it is the only maximizer for the strictness condition:
 
-$$
+$$ \label{eq:dd-mult-bsr}
 \frac{\partial^2}{\partial q_j^2}\mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = - 2 - 2 = -4 < 0 \\
 $$
 

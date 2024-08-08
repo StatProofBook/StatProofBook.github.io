@@ -25,8 +25,8 @@ username: "JoramSoch"
 
 $$ \label{eq:m1-m2}
 \begin{split}
-m_1: \; Y &= X_1 B_1 + E_1, \; E_1 \sim \mathcal{N}(0, V_1, \Sigma_1) \\
-m_2: \; Y &= X_2 B_2 + E_2, \; E_2 \sim \mathcal{N}(0, V_2, \Sigma_2) \; .
+m_1: \; Y &= X_1 B_1 + E_1, \; E_1 \sim \mathcal{MN}(0, V_1, \Sigma_1) \\
+m_2: \; Y &= X_2 B_2 + E_2, \; E_2 \sim \mathcal{MN}(0, V_2, \Sigma_2) \; .
 \end{split}
 $$
 
