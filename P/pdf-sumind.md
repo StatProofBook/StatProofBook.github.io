@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2021-08-30 09:31:00
 
-title: "Probability density function of a sum of independent discrete random variables"
+title: "Probability density function of a sum of independent continuous random variables"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Probability density function"

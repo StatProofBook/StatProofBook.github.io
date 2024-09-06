@@ -27,8 +27,8 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Consider measured data $y$ and some unknown latent parameters $\theta$. The combination of a [generative model](/D/gm) for $y$ and a [prior distribution](/D/prior) on $\theta$ is called a full probability model $m$:
+**Definition:** Consider measured data $y$ and some unknown latent parameters $\theta$. The combination of a [generative model](/D/gm) for $y$ in terms of the parameters $\theta$ and a [prior distribution](/D/prior) on $\theta$ in terms of hyperparameters $\lambda$ is called a full probability model $m$:
 
 $$ \label{eq:fpm}
-m: \, y \sim \mathcal{D}(\theta), \, \theta \sim \mathcal{D}(\lambda) \; .
+m: \, y \sim \mathcal{D}_1(\theta), \, \theta \sim \mathcal{D}_1(\lambda) \; .
 $$

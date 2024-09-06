@@ -13,7 +13,14 @@ section: "Multivariate normal data"
 topic: "General linear model"
 theorem: "Maximum likelihood estimation"
 
+Kaare Brandt Petersen, Michael Syskind Pedersen
 sources:
+  - authors: "Petersen, Kaare Brandt; Pedersen, Michael Syskind"
+    year: 2012
+    title: "Derivatives"
+    in: "The Matrix Cookbook"
+    pages: "Section 2, eqs. (100), (117), (57), (124)"
+    url: "https://www2.imm.dtu.dk/pubdb/edoc/imm3274.pdf"
 
 proof_id: "P7"
 shortcut: "glm-mle"

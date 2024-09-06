@@ -27,13 +27,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X = \left[ \begin{matrix} X_1 \\\\ X_2 \end{matrix} \right]$ follow a bivariate normal distribution:
+**Theorem:** Let $X = \left[ \begin{matrix} X_1 \\\\ X_2 \end{matrix} \right]$ follow a [bivariate normal distribution](/D/bvn):
 
 $$ \label{eq:bvn}
 X \sim \mathcal{N}\left( \mu = \left[ \begin{matrix} \mu_1 \\ \mu_2 \end{matrix} \right], \Sigma = \left[ \begin{matrix} \sigma_1^2 & \sigma_{12} \\ \sigma_{12} & \sigma_2^2 \end{matrix} \right] \right) \; .
 $$
 
-Then, the probability density function of $X$ is
+Then, the [probability density function](/D/pdf) of $X$ is
 
 $$ \label{eq:bvn-pdf}
 f_X(x) = \frac{1}{2 \pi \, \sigma_1 \sigma_2 \sqrt{1 - \rho^2}} \cdot \exp \left[ -\frac{1}{2 (1 - \rho^2)} \left( \left( \frac{x_1-\mu_1}{\sigma_1} \right)^2 - 2 \rho \frac{(x_1-\mu_1) (x_2-\mu_2)}{\sigma_1 \sigma_2} + \left( \frac{x_2-\mu_2}{\sigma_2} \right)^2 \right) \right]

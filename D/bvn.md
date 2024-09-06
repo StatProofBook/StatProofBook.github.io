@@ -33,8 +33,10 @@ $$ \label{eq:mvn}
 X \sim \mathcal{N}(\mu, \Sigma)
 $$
 
-with [means](/D/mean) $x_1$ and $x_2$, [variances](/D/var) $\sigma_1^2$ and $\sigma_2^2$ and [covariance](/D/cov) $\sigma_{12}$:
+with [means](/D/mean) $\mu_1$ and $\mu_2$, [variances](/D/var) $\sigma_1^2$ and $\sigma_2^2$ and [covariance](/D/cov) $\sigma_{12}$:
 
 $$ \label{eq:bvn}
-\mu = \left[ \begin{matrix} x_1 \\ x_2 \end{matrix} \right] \quad \text{and} \quad \Sigma = \left[ \begin{matrix} \sigma_1^2 & \sigma_{12} \\ \sigma_{12} & \sigma_2^2 \end{matrix} \right] \; .
+\mu = \left[ \begin{matrix} \mu_1 \\ \mu_2 \end{matrix} \right]
+\quad \text{and} \quad
+\Sigma = \left[ \begin{matrix} \sigma_1^2 & \sigma_{12} \\ \sigma_{12} & \sigma_2^2 \end{matrix} \right] \; .
 $$
