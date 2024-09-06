@@ -13,7 +13,6 @@ section: "Multivariate normal data"
 topic: "General linear model"
 theorem: "Maximum likelihood estimation"
 
-Kaare Brandt Petersen, Michael Syskind Pedersen
 sources:
   - authors: "Petersen, Kaare Brandt; Pedersen, Michael Syskind"
     year: 2012
