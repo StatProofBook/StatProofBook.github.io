@@ -77,7 +77,6 @@ title: "Proofs without Source"
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for simple linear regression](/P/slr-mle)
 - [Maximum likelihood estimation for simple linear regression](/P/slr-mle2)
-- [Maximum likelihood estimation for the general linear model](/P/glm-mle)
 - [Maximum likelihood estimation for the Poisson distribution with exposure values](/P/poissexp-mle)
 - [Maximum log-likelihood for binomial observations](/P/bin-mll)
 - [Maximum log-likelihood for multinomial observations](/P/mult-mll)

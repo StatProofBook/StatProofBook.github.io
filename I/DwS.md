@@ -20,6 +20,8 @@ title: "Definitions without Source"
 - [Multinomial observations](/D/mult-data)
 - [Normal-Wishart distribution](/D/nw)
 - [Posterior distribution](/D/post)
+- [Posterior predictive distribution](/D/post-pred)
 - [Prior distribution](/D/prior)
+- [Prior predictive distribution](/D/prior-pred)
 - [Residual variance](/D/resvar)
 - [Sample correlation matrix](/D/corrmat-samp)

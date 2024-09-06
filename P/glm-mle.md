@@ -20,7 +20,7 @@ sources:
     title: "Derivatives"
     in: "The Matrix Cookbook"
     pages: "Section 2, eqs. (100), (117), (57), (124)"
-    url: "https://www2.imm.dtu.dk/pubdb/edoc/imm3274.pdf"
+    url: "https://www2.imm.dtu.dk/pubdb/pubs/3274-full.html"
 
 proof_id: "P7"
 shortcut: "glm-mle"

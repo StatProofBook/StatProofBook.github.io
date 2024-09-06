@@ -207,3 +207,5 @@ title: "Definition by Number"
 | D198 | lr | [Likelihood ratio](/D/lr) | JoramSoch | 2024-06-14 |
 | D199 | llr | [Log-likelihood ratio](/D/llr) | JoramSoch | 2024-06-14 |
 | D200 | iid | [independent and identically distributed](/D/iid) | JoramSoch | 2024-08-08 |
+| D201 | post-pred | [Posterior predictive distribution](/D/post-pred) | aloctavodia | 2024-08-18 |
+| D202 | prior-pred | [Prior predictive distribution](/D/prior-pred) | aloctavodia | 2024-08-19 |

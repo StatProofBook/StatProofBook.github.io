@@ -263,7 +263,7 @@ title: "Proof by Number"
 | P255 | pdf-linfct | [Probability density function of a linear function of a continuous random vector](/P/pdf-linfct) | JoramSoch | 2021-08-30 |
 | P256 | cdf-sumind | [Cumulative distribution function of a sum of independent random variables](/P/cdf-sumind) | JoramSoch | 2021-08-30 |
 | P257 | pmf-sumind | [Probability mass function of a sum of independent discrete random variables](/P/pmf-sumind) | JoramSoch | 2021-08-30 |
-| P258 | pdf-sumind | [Probability density function of a sum of independent discrete random variables](/P/pdf-sumind) | JoramSoch | 2021-08-30 |
+| P258 | pdf-sumind | [Probability density function of a sum of independent continuous random variables](/P/pdf-sumind) | JoramSoch | 2021-08-30 |
 | P259 | cf-fct | [Characteristic function of a function of a random variable](/P/cf-fct) | JoramSoch | 2021-09-22 |
 | P260 | mgf-fct | [Moment-generating function of a function of a random variable](/P/mgf-fct) | JoramSoch | 2021-09-22 |
 | P261 | dent-addvec | [Addition of the differential entropy upon multiplication with invertible matrix](/P/dent-addvec) | JoramSoch | 2021-10-07 |
@@ -471,3 +471,4 @@ title: "Proof by Number"
 | P463 | mlr-llr | [Log-likelihood ratio for multiple linear regression](/P/mlr-llr) | JoramSoch | 2024-07-25 |
 | P464 | prob-emp2 | [Probability of the empty set](/P/prob-emp2) | JoramSoch | 2024-08-08 |
 | P465 | prob-mon2 | [Monotonicity of probability](/P/prob-mon2) | JoramSoch | 2024-08-08 |
+| P466 | cdf-probexc | [Exceedance probability for a random variable in terms of cumulative distribution function](/P/cdf-probexc) | JoramSoch | 2024-09-06 |
