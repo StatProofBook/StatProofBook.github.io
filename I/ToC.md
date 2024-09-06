@@ -87,6 +87,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.4. **[Cumulative distribution function of strictly decreasing function](/P/cdf-sdfct)** <br>
    &emsp;&ensp; 1.8.5. **[Cumulative distribution function of discrete random variable](/P/cdf-pmf)** <br>
    &emsp;&ensp; 1.8.6. **[Cumulative distribution function of continuous random variable](/P/cdf-pdf)** <br>
+   &emsp;&ensp; 1.8.7. **[Exceedance probability based on cumulative distribution function](/P/cdf-probexc)** <br>
    &emsp;&ensp; 1.8.7. **[Probability integral transform](/P/cdf-pit)** <br>
    &emsp;&ensp; 1.8.8. **[Inverse transformation method](/P/cdf-itm)** <br>
    &emsp;&ensp; 1.8.9. **[Distributional transformation](/P/cdf-dt)** <br>
