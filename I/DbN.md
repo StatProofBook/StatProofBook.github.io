@@ -206,3 +206,4 @@ title: "Definition by Number"
 | D197 | bsr | [Brier scoring rule](/D/bsr) | KarahanS | 2024-03-23 |
 | D198 | lr | [Likelihood ratio](/D/lr) | JoramSoch | 2024-06-14 |
 | D199 | llr | [Log-likelihood ratio](/D/llr) | JoramSoch | 2024-06-14 |
+| D200 | iid | [independent and identically distributed](/D/iid) | JoramSoch | 2024-08-08 |

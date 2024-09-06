@@ -8,7 +8,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (185 definitions)
+### JoramSoch (186 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -76,6 +76,7 @@ title: "Definition by Author"
 - [Gamma distribution](/D/gam)
 - [General linear model](/D/glm)
 - [Generative model](/D/gm)
+- [independent and identically distributed](/D/iid)
 - [Informative and non-informative prior distribution](/D/prior-inf)
 - [Interaction sum of squares](/D/iass)
 - [Inverse general linear model](/D/iglm)

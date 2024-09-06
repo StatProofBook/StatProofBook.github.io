@@ -469,3 +469,5 @@ title: "Proof by Number"
 | P461 | slr-pss | [Partition of sums of squares for simple linear regression](/P/slr-pss) | JoramSoch | 2024-07-12 |
 | P462 | mlr-ols3 | [Ordinary least squares for multiple linear regression](/P/mlr-ols3) | JoramSoch | 2024-07-18 |
 | P463 | mlr-llr | [Log-likelihood ratio for multiple linear regression](/P/mlr-llr) | JoramSoch | 2024-07-25 |
+| P464 | prob-emp2 | [Probability of the empty set](/P/prob-emp2) | JoramSoch | 2024-08-08 |
+| P465 | prob-mon2 | [Monotonicity of probability](/P/prob-mon2) | JoramSoch | 2024-08-08 |

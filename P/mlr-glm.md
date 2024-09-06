@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** [Multiple linear regression](/D/mlr) is a special case of the [general linear model](/D/mlr) with number of measurements $v = 1$, such that data matrix $Y$, regression coefficients $B$, noise matrix $E$ and noise covariance $\Sigma$ equate as
+**Theorem:** [Multiple linear regression](/D/mlr) is a special case of the [general linear model](/D/glm) with number of measurements $v = 1$, such that data matrix $Y$, regression coefficients $B$, noise matrix $E$ and noise covariance $\Sigma$ equate as
 
 $$ \label{eq:mlr-glm}
 Y = y, \quad B = \beta, \quad E = \varepsilon \quad \text{and} \quad \Sigma = \sigma^2

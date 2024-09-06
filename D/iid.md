@@ -10,7 +10,7 @@ date: 2024-08-08 11:37:05
 title: "independent and identically distributed"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Probability distributions"
+topic: "Random variables"
 definition: "independent and identically distributed"
 
 sources:

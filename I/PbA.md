@@ -8,7 +8,7 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (430 proofs)
+### JoramSoch (432 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -246,6 +246,7 @@ title: "Proof by Author"
 - [Moment-generating function of the multivariate normal distribution](/P/mvn-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Monotonicity of probability](/P/prob-mon)
+- [Monotonicity of probability](/P/prob-mon2)
 - [Monotonicity of the expected value](/P/mean-mono)
 - [Multinomial test](/P/mult-test)
 - [Multiple linear regression is a special case of the general linear model](/P/mlr-glm)
@@ -346,6 +347,7 @@ title: "Proof by Author"
 - [Probability of normal random variable being within standard deviations from its mean](/P/norm-probstd)
 - [Probability of the complement](/P/prob-comp)
 - [Probability of the empty set](/P/prob-emp)
+- [Probability of the empty set](/P/prob-emp2)
 - [Probability under mutual exclusivity](/P/prob-exc)
 - [Probability under statistical independence](/P/prob-ind)
 - [Probability-generating function is expectation of function of random variable](/P/pgf-mean)
