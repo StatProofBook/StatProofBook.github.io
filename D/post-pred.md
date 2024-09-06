@@ -20,10 +20,9 @@ shortcut: "post-pred"
 username: "aloctavodia"
 ---
 
-**Definition:** Consider measured data $y$, if the posterior distribution is $p(\theta | y)$ and the likelihood function is $p(y | \theta)$ then the distribution that predicts new data $y_{\text{new}}$ is: 
+
+**Definition:** Consider a [full probability model](/D/fpm) with [likelihood function](/D/lf) $p(y \vert \theta)$ and [posterior distribution](/D/post) $p(\theta \vert y)$ based on [measured data](/D/data) $y$. Then, the [marginal distribution](/D/dist-marg) of new data, predicted based on the posterior distribution, is called the posterior predictive distribution:
 
 $$ \label{eq:post-pred}
-p(y_{\text{new}}|y) = \int p(y_{\text{new}}|\theta) \, p(\theta|y) \, d\theta \; ,
+p(y_{\mathrm{new}} \vert y) = \int p(y_{\mathrm{new}} \vert \theta) \, p(\theta \vert y) \, \mathrm{d}\theta \; .
 $$
-
-This is the **posterior predictive distribution** 
