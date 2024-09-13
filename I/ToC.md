@@ -14,7 +14,9 @@ title: "Table of Contents"
 <h3>Chapter I: General Theorems</h3>
 </section>
 
+<section class="chapter" id="Probability theory">
 1. Probability theory
+</section>
    
    1.1. Random experiments <br>
    &emsp;&ensp; 1.1.1. *[Random experiment](/D/rexp)* <br>
@@ -197,7 +199,9 @@ title: "Table of Contents"
    &emsp;&ensp; 1.18.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
    &emsp;&ensp; 1.18.9. *[Standardized moment](/D/mom-stand)* <br>
 
+<section class="chapter" id="Information theory">
 2. Information theory
+</section>
    
    2.1. Shannon entropy <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/ent)* <br>
@@ -244,7 +248,9 @@ title: "Table of Contents"
    &emsp;&ensp; 2.5.8. **[Relation to discrete entropy](/P/kl-ent)** <br>
    &emsp;&ensp; 2.5.9. **[Relation to differential entropy](/P/kl-dent)** <br>
 
+<section class="chapter" id="Estimation theory">
 3. Estimation theory
+</section>
    
    3.1. Point estimates <br>
    &emsp;&ensp; 3.1.1. *[Mean squared error](/D/mse)* <br>
@@ -254,7 +260,9 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.1. *[Confidence interval](/D/ci)* <br>
    &emsp;&ensp; 3.2.2. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
 
+<section class="chapter" id="Frequentist statistics">
 4. Frequentist statistics
+</section>
    
    4.1. Likelihood theory <br>
    &emsp;&ensp; 4.1.1. *[Likelihood function](/D/lf)* <br>
@@ -285,7 +293,9 @@ title: "Table of Contents"
    &emsp;&ensp; 4.3.10. *[p-value](/D/pval)* <br>
    &emsp;&ensp; 4.3.11. **[Distribution of p-value under null hypothesis](/P/pval-h0)** <br>
 
+<section class="chapter" id="Bayesian statistics">
 5. Bayesian statistics
+</section>
    
    5.1. Probabilistic modeling <br>
    &emsp;&ensp; 5.1.1. *[Generative model](/D/gm)* <br>
@@ -319,8 +329,10 @@ title: "Table of Contents"
    &emsp;&ensp; 5.3.2. **[Bayes' rule](/P/bayes-rule)** <br>
    &emsp;&ensp; 5.3.3. *[Empirical Bayes](/D/eb)* <br>
    &emsp;&ensp; 5.3.4. *[Variational Bayes](/D/vb)* <br>
-   
+
+<section class="chapter" id="Machine learning">
 6. Machine learning
+</section>
    
    6.1. Scoring rules <br>
    &emsp;&ensp; 6.1.1. *[Scoring rule](/D/sr)* <br>
