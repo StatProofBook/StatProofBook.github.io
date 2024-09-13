@@ -8,7 +8,11 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
-### JoramSoch (433 proofs)
+### aloctavodia (1 proof)
+
+- [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
+
+### JoramSoch (434 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -196,7 +200,7 @@ title: "Proof by Author"
 - [Marginal distributions for the matrix-normal distribution](/P/matn-marg)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
-- [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
+- [Marginal likelihood is a definite integral of the joint likelihood](/P/ml-jl)
 - [Maximum likelihood estimation can result in biased estimates](/P/mle-bias)
 - [Maximum likelihood estimation for binomial observations](/P/bin-mle)
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
@@ -438,6 +442,7 @@ title: "Proof by Author"
 - [Variance of the normal distribution](/P/norm-var)
 - [Variance of the Poisson distribution](/P/poiss-var)
 - [Variance of the sum of two random variables](/P/var-sum)
+- [Weak law of large numbers](/P/mean-wlln)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for simple linear regression](/P/slr-wls)

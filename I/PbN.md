@@ -97,7 +97,7 @@ title: "Proof by Number"
 | P88 | mvn-cond | [Conditional distributions of the multivariate normal distribution](/P/mvn-cond) | JoramSoch | 2020-03-20 |
 | P89 | jl-lfnprior | [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior) | JoramSoch | 2020-05-05 |
 | P90 | post-jl | [Posterior density is proportional to joint likelihood](/P/post-jl) | JoramSoch | 2020-05-05 |
-| P91 | ml-jl | [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl) | JoramSoch | 2020-05-05 |
+| P91 | ml-jl | [Marginal likelihood is a definite integral of the joint likelihood](/P/ml-jl) | JoramSoch | 2020-05-05 |
 | P92 | mvn-kl | [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl) | JoramSoch | 2020-05-05 |
 | P93 | gam-kl | [Kullback-Leibler divergence for the gamma distribution](/P/gam-kl) | JoramSoch | 2020-05-05 |
 | P94 | beta-pdf | [Probability density function of the beta distribution](/P/beta-pdf) | JoramSoch | 2020-05-05 |
@@ -472,3 +472,5 @@ title: "Proof by Number"
 | P464 | prob-emp2 | [Probability of the empty set](/P/prob-emp2) | JoramSoch | 2024-08-08 |
 | P465 | prob-mon2 | [Monotonicity of probability](/P/prob-mon2) | JoramSoch | 2024-08-08 |
 | P466 | cdf-probexc | [Exceedance probability for a random variable in terms of cumulative distribution function](/P/cdf-probexc) | JoramSoch | 2024-09-06 |
+| P467 | postpred-jl | [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl) | aloctavodia | 2024-09-11 |
+| P468 | mean-wlln | [Weak law of large numbers](/P/mean-wlln) | JoramSoch | 2024-09-13 |
