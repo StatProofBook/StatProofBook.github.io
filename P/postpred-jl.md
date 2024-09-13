@@ -45,7 +45,7 @@ $$ \label{eq:jl-post}
 p(y_{\text{new}} \vert \theta, y) \, p(\theta \vert y) = p(y_{\text{new}}, \theta \vert y)
 $$
 
-This is the [posterior](/D/post) [joint likelihood](/D/jl). Thus, expression \eqref{eq:postpred-marg} can be written as:
+This is the [posterior](/D/post) [joint likelihood](/D/jl). Thus, expression \eqref{eq:postpred-jl} can be written as:
 
 $$ \label{eq:postpred-marg-qed}
 p(y_{\mathrm{new}} \vert y) = \int p(y_{\mathrm{new}}, \theta \vert y) \, \mathrm{d}\theta \; .
