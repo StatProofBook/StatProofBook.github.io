@@ -298,7 +298,7 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.9. *[Posterior predictive distribution](/D/post-pred)* <br>
    &emsp;&ensp; 5.1.10. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
    &emsp;&ensp; 5.1.11. **[Combined posterior distribution from independent data](/P/post-ind)** <br>
-   &emsp;&ensp; 5.1.12. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-marg)** <br>
+   &emsp;&ensp; 5.1.12. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
    &emsp;&ensp; 5.1.13. *[Maximum-a-posteriori estimation](/D/map)* <br>
    &emsp;&ensp; 5.1.14. *[Marginal likelihood](/D/ml)* <br>
    &emsp;&ensp; 5.1.15. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
