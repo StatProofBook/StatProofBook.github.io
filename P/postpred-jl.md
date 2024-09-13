@@ -16,14 +16,14 @@ theorem: "Posterior predictive distribution is marginal of joint likelihood"
 sources:
 
 proof_id: "P467"
-shortcut: "postpred-marg"
+shortcut: "postpred-jl"
 username: "aloctavodia"
 ---
 
 
 **Theorem:**  The [posterior predictive distribution](/D/post-pred) is the [marginal distribution](/D/dist-marg) of the [joint likelihood](/D/ml) of the [new data](/D/data) $y_{\mathrm{new}}$, conditional on the measured data $y$:
 
-$$ \label{eq:postpred-marg}
+$$ \label{eq:postpred-jl}
 p(y_{\mathrm{new}} \vert y) = \int p(y_{\mathrm{new}}, \theta \vert y) \, \mathrm{d}\theta
 $$
 
@@ -33,7 +33,7 @@ $$ \label{eq:post-pred-s1}
 p(y_{\mathrm{new}} \vert y) = \int p(y_{\mathrm{new}} \vert \theta) \, p(\theta \vert y) \, \mathrm{d}\theta \; .
 $$
 
-We notice that $y_{\text{new}}$ is conditionally independent of $y$, so wen can write:
+We notice that $y_{\text{new}}$ is [independent](/P/prob-ind) of $y$, so we can write:
 
 $$ \label{eq:post-pred-s2}
 p(y_{\mathrm{new}} \vert y) = \int p(y_{\mathrm{new}} \vert \theta, y) \, p(\theta \vert y) \, \mathrm{d}\theta \; .
@@ -45,8 +45,8 @@ $$ \label{eq:jl-post}
 p(y_{\text{new}} \vert \theta, y) \, p(\theta \vert y) = p(y_{\text{new}}, \theta \vert y)
 $$
 
-Thus, expression \eqref{eq:postpred-marg} can be written as:
+This is the [posterior](/D/post) [joint likelihood](/D/jl). Thus, expression \eqref{eq:postpred-marg} can be written as:
 
-$$ \label{eq:postpred-marg}
+$$ \label{eq:postpred-marg-qed}
 p(y_{\mathrm{new}} \vert y) = \int p(y_{\mathrm{new}}, \theta \vert y) \, \mathrm{d}\theta \; .
 $$
