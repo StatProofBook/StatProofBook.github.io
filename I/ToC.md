@@ -10,9 +10,7 @@ title: "Table of Contents"
 
 
 <br>
-<section class="chapter" id="General Theorems">
-<h3>Chapter I: General Theorems</h3>
-</section>
+<h3 id="General Theorems">Chapter I: General Theorems</h3>
 
 1. <p id="Probability theory">Probability theory</p>
    
@@ -333,11 +331,9 @@ title: "Table of Contents"
 
 
 <br>
-<section class="chapter" id="Probability Distributions">
-<h3>Chapter II: Probability Distributions</h3>
-</section>
+<h3 id="Probability Distributions">Chapter II: Probability Distributions</h3>
 
-1. Univariate discrete distributions
+1. <p id="Univariate discrete distributions">Univariate discrete distributions</p>
 
    1.1. Discrete uniform distribution <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/duni)* <br>
@@ -380,7 +376,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.3. **[Mean](/P/poiss-mean)** <br>
    &emsp;&ensp; 1.5.4. **[Variance](/P/poiss-var)** <br>
 
-2. Multivariate discrete distributions
+2. <p id="Multivariate discrete distributions">Multivariate discrete distributions</p>
 
    2.1. Categorical distribution <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/cat)* <br>
@@ -396,7 +392,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.2.4. **[Covariance](/P/mult-cov)** <br>
    &emsp;&ensp; 2.2.5. **[Shannon entropy](/P/mult-ent)** <br>
 
-3. Univariate continuous distributions
+3. <p id="Univariate continuous distributions">Univariate continuous distributions</p>
 
    3.1. Continuous uniform distribution <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/cuni)* <br>
@@ -525,7 +521,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.11.6. **[Skewness](/P/exg-skew)** <br>
    &emsp;&ensp; 3.11.7. **[Method of moments](/P/exg-mome)** <br>
 
-4. Multivariate continuous distributions
+4. <p id="Multivariate continuous distributions">Multivariate continuous distributions</p>
 
    4.1. Multivariate normal distribution <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn)* <br>
@@ -569,7 +565,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.4.3. **[Kullback-Leibler divergence](/P/dir-kl)** <br>
    &emsp;&ensp; 4.4.4. **[Exceedance probabilities](/P/dir-ep)** <br>
 
-5. Matrix-variate continuous distributions
+5. <p id="Matrix-variate continuous distributions">Matrix-variate continuous distributions</p>
 
    5.1. Matrix-normal distribution <br>
    &emsp;&ensp; 5.1.1. *[Definition](/D/matn)* <br>
@@ -595,11 +591,9 @@ title: "Table of Contents"
 
 
 <br>
-<section class="chapter" id="Statistical Models">
-<h3>Chapter III: Statistical Models</h3>
-</section>
+<h3 id="Statistical Models">Chapter III: Statistical Models</h3>
 
-1. Univariate normal data
+1. <p id="Univariate normal data">Univariate normal data</p>
    
    1.1. Univariate Gaussian <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/ug)* <br>
@@ -732,7 +726,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.7.3. **[Log model evidence](/P/blrkc-lme)** <br>
    &emsp;&ensp; 1.7.4. **[Accuracy and complexity](/P/blrkc-anc)** <br>
    
-2. Multivariate normal data
+2. <p id="Multivariate normal data">Multivariate normal data</p>
    
    2.1. General linear model <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/glm)* <br>
@@ -763,7 +757,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.4.2. **[Posterior distribution](/P/mblr-post)** <br>
    &emsp;&ensp; 2.4.3. **[Log model evidence](/P/mblr-lme)** <br>
 
-3. Count data
+3. <p id="Count data">Count data</p>
    
    3.1. Binomial observations <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/bin-data)* <br>
@@ -803,7 +797,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.4. **[Posterior distribution](/P/poissexp-post)** <br>
    &emsp;&ensp; 3.4.5. **[Log model evidence](/P/poissexp-lme)** <br>
 
-4. Frequency data
+4. <p id="Frequency data">Frequency data</p>
    
    4.1. Beta-distributed data <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/beta-data)* <br>
@@ -817,7 +811,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.3.1. *[Definition](/D/betabin-data)* <br>
    &emsp;&ensp; 4.3.2. **[Method of moments](/P/betabin-mome)** <br>
 
-5. Categorical data
+5. <p id="Categorical data">Categorical data</p>
    
    5.1. Logistic regression <br>
    &emsp;&ensp; 5.1.1. *[Definition](/D/logreg)* <br>
@@ -826,11 +820,9 @@ title: "Table of Contents"
 
 
 <br>
-<section class="chapter" id="Model Selection">
-<h3>Chapter IV: Model Selection</h3>
-</section>
+<h3 id="Model Selection">Chapter IV: Model Selection</h3>
 
-1. Goodness-of-fit measures
+1. <p id="Goodness-of-fit measures">Goodness-of-fit measures</p>
 
    1.1. Residual variance <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/resvar)* <br>
@@ -856,7 +848,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.2. **[Relationship to coefficient of determination](/P/snr-rsq)** <br>
    &emsp;&ensp; 1.4.3. **[Relationship to maximum log-likelihood](/P/snr-mll)** <br>
 
-1. Classical information criteria
+2. <p id="Classical information criteria">Classical information criteria</p>
 
    2.1. Akaike information criterion <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/aic)* <br>
@@ -872,7 +864,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.3.1. *[Definition](/D/dic)* <br>
    &emsp;&ensp; 2.3.2. *[Deviance](/D/dev)* <br>
 
-2. Bayesian model selection
+3. <p id="Bayesian model selection">Bayesian model selection</p>
 
    3.1. Model evidence <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/me)* <br>
