@@ -4,6 +4,11 @@ title: "Definition by Author"
 ---
 
 
+### aloctavodia (2 definitions)
+
+- [Posterior predictive distribution](/D/post-pred)
+- [Prior predictive distribution](/D/prior-pred)
+
 ### ciaranmci (1 definition)
 
 - [Sample covariance](/D/cov-samp)
