@@ -50,7 +50,7 @@ username: "JoramSoch"
 
 **Definition:** Let there be a [data set](/D/data) $y$ with mutually exclusive and collectively exhaustive subsets $y_1, \ldots, y_S$. Assume a [generative model](/D/gm) $m$ with model parameters $\theta$ implying a [likelihood function](/D/lf) $p(y \vert \theta, m)$ and a [non-informative](/D/prior-inf) [prior density](/D/prior) $p_{\mathrm{ni}}(\theta \vert m)$.
 
-Then, the cross-validated log model evidence of $m$ is given by
+Then, the cross-validated log model evidence (cvLME) of $m$ is given by
 
 $$ \label{eq:cvLME}
 \mathrm{cvLME}(m) = \sum_{i=1}^{S} \log \int p( y_i \vert \theta, m ) \, p( \theta \vert y_{\neg i}, m ) \, \mathrm{d}\theta
@@ -60,4 +60,10 @@ where $y_{\neg i} = \bigcup_{j \neq i} y_j$ is the union of all data subsets exc
 
 $$ \label{eq:post}
 p( \theta \vert y_{\neg i}, m ) = \frac{p( y_{\neg i} \vert \theta, m ) \, p_{\mathrm{ni}}(\theta \vert m)}{p( y_{\neg i} \vert m )} \; .
+$$
+
+One addend of the cvLME is referred to as the out-of-sample log model evidence (oosLME) of $m$ for the $i$-th data subset:
+
+$$ \label{eq:oosLME}
+\mathrm{oosLME}_i(m) = \log \int p( y_i \vert \theta, m ) \, p( \theta \vert y_{\neg i}, m ) \, \mathrm{d}\theta \; .
 $$

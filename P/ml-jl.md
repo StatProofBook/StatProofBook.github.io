@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-05-05 04:59:00
 
-title: "Marginal likelihood is a definite integral of joint likelihood"
+title: "Marginal likelihood is a definite integral of the joint likelihood"
 chapter: "General Theorems"
 section: "Bayesian statistics"
 topic: "Probabilistic modeling"

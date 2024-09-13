@@ -149,7 +149,7 @@ $$ \label{eq:continuous-lpsr-s1}
 S(q, y) = \log q(y)
 $$
 
-Let $p(y)$ be the true [probability density function](/D/pdf) of the event $Y = y$. Then, the [expected](/D/mean) [score](/D/sf) is:
+Let $p(y)$ be the true [probability density function](/D/pdf) of the event $Y = y$. Then, the [expected](/D/mean) [score](/D/sr) is:
 
 $$ \label{eq:continuous-lpsr-s2}
 \mathbb{E}_{Y \sim P}[\mathbf{S}(Q, Y)] = \int p(y) \log q(y) dy

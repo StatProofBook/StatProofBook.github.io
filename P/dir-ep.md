@@ -49,7 +49,7 @@ $$ \label{eq:Dir-EP}
 \varphi_i = \int_0^\infty \prod_{j \neq i} \left( \frac{\gamma(\alpha_j,q_i)}{\Gamma(\alpha_j)} \right) \, \frac{q_i^{\alpha_i-1} \exp[-q_i]}{\Gamma(\alpha_i)} \, \mathrm{d}q_i \; .
 $$
 
-where $\Gamma(x)$ is the gamma function and $\gamma(s,x)$ is the lowerr incomplete gamma function.
+where $\Gamma(x)$ is the gamma function and $\gamma(s,x)$ is the lower incomplete gamma function.
 
 
 **Proof:** In the context of the [Dirichlet distribution](/D/dir), the [exceedance probability](/D/prob-exc) for a particular $r_i$ is defined as:
