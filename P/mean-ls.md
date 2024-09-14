@@ -15,7 +15,7 @@ theorem: "Expected value minimizes expected squared error"
 
 sources:
 
-proof_id: "P0"
+proof_id: "P468"
 shortcut: "mean-ls"
 username: "salbalkus"
 ---
