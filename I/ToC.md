@@ -19,6 +19,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.2. *[Sample space](/D/samp-spc)* <br>
    &emsp;&ensp; 1.1.3. *[Event space](/D/eve-spc)* <br>
    &emsp;&ensp; 1.1.4. *[Probability space](/D/prob-spc)* <br>
+   &emsp;&ensp; 1.1.5. *[Measured data](/D/data)* <br>
    
    1.2. Random variables <br>
    &emsp;&ensp; 1.2.1. *[Random event](/D/reve)* <br>
@@ -38,9 +39,10 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.5. *[Exceedance probability](/D/prob-exc)* <br>
    &emsp;&ensp; 1.3.6. *[Statistical independence](/D/ind)* <br>
    &emsp;&ensp; 1.3.7. *[Conditional independence](/D/ind-cond)* <br>
-   &emsp;&ensp; 1.3.8. **[Probability under independence](/P/prob-ind)** <br>
-   &emsp;&ensp; 1.3.9. *[Mutual exclusivity](/D/exc)* <br>
-   &emsp;&ensp; 1.3.10. **[Probability under exclusivity](/P/prob-exc)** <br>
+   &emsp;&ensp; 1.3.8. **[Self-independence](/P/ind-self)** <br>
+   &emsp;&ensp; 1.3.9. **[Probability under independence](/P/prob-ind)** <br>
+   &emsp;&ensp; 1.3.10. *[Mutual exclusivity](/D/exc)* <br>
+   &emsp;&ensp; 1.3.11. **[Probability under exclusivity](/P/prob-exc)** <br>
    
    1.4. Probability axioms <br>
    &emsp;&ensp; 1.4.1. *[Axioms of probability](/D/prob-ax)* <br>
