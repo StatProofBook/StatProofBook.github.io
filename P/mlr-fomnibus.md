@@ -62,7 +62,7 @@ under the [null hypothesis](/D/h0) that all [regression coefficients](/D/mlr) $\
 
 $$ \label{eq:mlr-f-omnibus-h0}
 H_0: \; \beta_1 = 0_{p_1} \quad \Leftrightarrow \quad
-\beta_j = 0 \quad \text{for all} \quad j = (p_0+1),\ldots,p \; .
+\beta_{1j} = 0 \quad \text{for all} \quad j=1,\ldots,p_1 \; .
 $$
 
 In \eqref{eq:mlr-f-omnibus}, $\hat{\varepsilon}$ and $\hat{\varepsilon}_0$ are the [residual vectors](/P/mlr-mat) when using either the full design matrix $X$ or the reduced design matrix $X_0$:

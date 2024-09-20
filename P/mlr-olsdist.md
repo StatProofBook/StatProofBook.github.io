@@ -27,6 +27,18 @@ sources:
     in: "Mathematics for Brain Imaging"
     pages: "ch. 1.5, pp. 39-41, eqs. 1.106-1.110"
     url: "https://ueapsylabs.co.uk/sites/wpenny/mbi/mbi_course.pdf"
+  - authors: "Ostwald, Dirk"
+    year: 2023
+    title: "Modellformulierung"
+    in: "Allgemeines Lineares Modell"
+    pages: "Einheit (5), Folie 14"
+    url: "https://www.ipsy.ovgu.de/ipsy_media/Methodenlehre+I/Sommersemester+2023/Allgemeines+Lineares+Modell/5_Modellformulierung.pdf"
+  - authors: "Ostwald, Dirk"
+    year: 2023
+    title: "Parameterschätzung"
+    in: "Allgemeines Lineares Modell"
+    pages: "Einheit (6), Folien 10-12"
+    url: "https://www.ipsy.ovgu.de/ipsy_media/Methodenlehre+I/Sommersemester+2023/Allgemeines+Lineares+Modell/6_Parametersch%C3%A4tzung.pdf"
 
 proof_id: "P400"
 shortcut: "mlr-olsdist"

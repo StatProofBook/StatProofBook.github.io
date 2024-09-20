@@ -49,7 +49,7 @@ P(E)   &= \left( P(E) \right)^2 \; .
 \end{split}
 $$
 
-This is only fulfilled, if
+For $0 \leq P(E) \leq 1$, this is only fulfilled, if
 
 $$ \label{eq:ind-self-qed}
 P(E) = 0 \quad \text{or} \quad P(E) = 1 \; .
