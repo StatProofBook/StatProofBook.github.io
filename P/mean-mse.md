@@ -27,23 +27,23 @@ username: "salbalkus"
 ---
 
 
-**Theorem:** Let $X_1, \ldots, X_n$ be a collection of [random variables](/D/rvar) with common [mean](/D/mean) $E(X_i) = \mu$. Then, $\mu$ minimizes the mean squared error:
+**Theorem:** Let $X_1, \ldots, X_n$ be a collection of [random variables](/D/rvar) with common [mean](/D/mean) $\mathrm{E}(X_i) = \mu$, $i = 1,\ldots,n$. Then, $\mu$ minimizes the mean squared error:
 
 $$ \label{eq:mean-mse}
-\mu = \operatorname*{arg\,min}_{a \in \mathbb{R}} E\left[ (X_i - a)^2 \right] \; .
+\mu = \operatorname*{arg\,min}_{a \in \mathbb{R}} \mathrm{E}\left[ (X_i - a)^2 \right] \; .
 $$
 
 
 **Proof:** Using the [linearity of expectation](/P/mean-lin), we can simplify the objective function:
 
 $$ \label{eq:mse}
-E\left[ (X_i - a)^2 \right] = E\left[ X_i^2 - 2aX_i + a^2 \right] = a^2 - 2a\mu + E(X_i^2) \; .
+\mathrm{E}\left[ (X_i - a)^2 \right] = \mathrm{E}\left[ X_i^2 - 2aX_i + a^2 \right] = a^2 - 2a\mu + \mathrm{E}(X_i^2) \; .
 $$
 
 Setting the first derivative
 
 $$ \label{eq:dmse-da}
-\frac{d}{da} \left[ a^2 - 2a\mu + E(X_i^2) \right] = 2a - 2\mu
+\frac{d}{da} \left[ a^2 - 2a\mu + \mathrm{E}(X_i^2) \right] = 2a - 2\mu
 $$
 
 to zero to perform a derivative test, we obtain:
