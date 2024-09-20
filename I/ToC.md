@@ -122,6 +122,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.10.13. **[Weak law of large numbers](/P/mean-wlln)** <br>
    &emsp;&ensp; 1.10.14. *[Expected value of a random vector](/D/mean-rvec)* <br>
    &emsp;&ensp; 1.10.15. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.10.16. **[Expected value minimizes expected squared error](/P/mean-ls)** <br>
    
    1.11. Variance <br>
    &emsp;&ensp; 1.11.1. *[Definition](/D/var)* <br>
