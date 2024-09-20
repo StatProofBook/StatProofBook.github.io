@@ -69,7 +69,7 @@ y_2^{(i)} &= \left\lbrace y_{(i-1) \cdot n_2 + 1}, \ldots, y_{i \cdot n_2} \righ
 $$
 
 <br>
-First, we consider the null model $m_0$ assuming $\mu = 0$. Because this model has no free parameter, nothing is estimated from the training data and the assumed parameter value is applied to the test data. Consequently, the [out-of-sample log model evidence](/D/ooslme) (oosLME) is equal to the [log-likelihood function](/P/ugkv-mle) of the test data at $\mu = 0$:
+First, we consider the null model $m_0$ assuming $\mu = 0$. Because this model has no free parameter, nothing is estimated from the training data and the assumed parameter value is applied to the test data. Consequently, the [out-of-sample log model evidence](/D/cvlme) (oosLME) is equal to the [log-likelihood function](/P/ugkv-mle) of the test data at $\mu = 0$:
 
 $$ \label{eq:UGkv-m0-oosLME}
 \mathrm{oosLME}_i(m_0) = \log p\left( \left. y_2^{(i)} \right| \mu=0 \right) = \frac{n_2}{2} \log \left( \frac{\tau}{2 \pi} \right) - \frac{1}{2} \left[ \tau {y_2^{(i)}}^\mathrm{T} y_2^{(i)} \right] \; .
@@ -108,7 +108,7 @@ $$ \label{eq:UGkv-m1-y2}
 \end{split}
 $$
 
-In the test data, we now have a prior characterized by $\mu_0^{(2)}$/$\lambda_0^{(2)}$ and a posterior characterized $\mu_n^{(2)}$/$\lambda_n^{(2)}$. Applying the [log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme), the [out-of-sample log model evidence](/D/ooslme) (oosLME) therefore follows as
+In the test data, we now have a prior characterized by $\mu_0^{(2)}$/$\lambda_0^{(2)}$ and a posterior characterized $\mu_n^{(2)}$/$\lambda_n^{(2)}$. Applying the [log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme), the [out-of-sample log model evidence](/D/cvlme) (oosLME) therefore follows as
 
 $$ \label{eq:UGkv-m1-oosLME}
 \begin{split}

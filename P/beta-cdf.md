@@ -42,10 +42,10 @@ $$
 Then, the [cumulative distribution function](/D/cdf) of $X$ is
 
 $$ \label{eq:beta-cdf}
-F_X(x) = \frac{B(x; \alpha, \beta)}{B(\alpha, \beta)}
+F_X(x) = \frac{\mathrm{B}(x; \alpha, \beta)}{\mathrm{B}(\alpha, \beta)}
 $$
 
-where $B(a,b)$ is the beta function and $B(x;a,b)$ is the incomplete gamma function.
+where $\mathrm{B}(a,b)$ is the beta function and $\mathrm{B}(x;a,b)$ is the incomplete gamma function.
 
 
 **Proof:** The [probability density function of the beta distribution](/P/beta-pdf) is:
@@ -67,11 +67,11 @@ $$
 With the definition of the incomplete beta function
 
 $$ \label{eq:inc-beta-fct}
-B(x;a,b) = \int_{0}^{x} t^{a-1} \, (1-t)^{b-1} \, \mathrm{d}t \; ,
+\mathrm{B}(x;a,b) = \int_{0}^{x} t^{a-1} \, (1-t)^{b-1} \, \mathrm{d}t \; ,
 $$
 
 we arrive at the final result given by equation \eqref{eq:beta-cdf}:
 
 $$ \label{eq:beta-cdf-qed}
-F_X(x) = \frac{B(x; \alpha, \beta)}{B(\alpha, \beta)} \; .
+F_X(x) = \frac{\mathrm{B}(x; \alpha, \beta)}{\mathrm{B}(\alpha, \beta)} \; .
 $$

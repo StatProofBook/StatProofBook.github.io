@@ -20,8 +20,14 @@ sources:
     in: "Wahrscheinlichkeitstheorie und Frequentistische Inferenz"
     pages: "Einheit (6), Folie 19-20"
     url: "https://www.ipsy.ovgu.de/ipsy_media/Methodenlehre+I/Wintersemester+2324/Wahrscheinlichkeitstheorie+und+Frequentistische+Inferenz/6_Ungleichungen_und_Grenzwerte.pdf"
+  - authors: "Wikipedia"
+    year: 2024
+    title: "Law of large numbers"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2024-09-13"
+    url: "https://en.wikipedia.org/wiki/Law_of_large_numbers#Proof_of_the_weak_law"
 
-proof_id: "P467"
+proof_id: "P468"
 shortcut: "mean-wlln"
 username: "JoramSoch"
 ---
@@ -33,7 +39,7 @@ $$ \label{eq:mean-samp}
 \bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i \; .
 $$
 
-Then, for any positive number $\epsilon > 0$, the probability that the absolute difference of the [sample mean](/D/mean-samp) from the [expected value](/D/mean) $\mu$ is smaller than $\epsilon$ will approach one, as $n$ goes to infinity:
+Then, for any positive number $\epsilon > 0$, the probability that the absolute difference of the [sample mean](/D/mean-samp) from the [expected value](/D/mean) $\mu$ is smaller than $\epsilon$ will approach one, as [sample size](/D/samp-size) goes to infinity:
 
 $$ \label{eq:mean-wlln}
 \lim_{n \rightarrow \infty} \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) = 1 \; .

@@ -34,7 +34,7 @@ $$ \label{eq:cdf-prob-exc}
 $$
 
 
-**Theorem:** Note that $\left\lbrace X \mid X > x \right\rbrace$ and $\left\lbrace X \mid X \leq x \right\rbrace$ are disjoint sets
+**Proof:** Note that $\left\lbrace X \mid X > x \right\rbrace$ and $\left\lbrace X \mid X \leq x \right\rbrace$ are disjoint sets
 
 $$ \label{eq:intersection}
 \left\lbrace X \mid X > x \right\rbrace \cap \left\lbrace X \mid X \leq x \right\rbrace = \emptyset

@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = \left[ y_1, \ldots, y_n \right]^\mathrm{T}$ be an $n \times 1$ vector of a [measured univariate signal](/D/data) and consider two [linear regression models](/D/mlr) with [design matrices](/D/mlr) $X_1, X_2$ and [precision matrices](/P/blr-prior) $P_1, P_2$, entailing potentially different [regression coefficients](/D/mlr) $\beta_1, \beta_2$ and [noise precisions](/D/blr-prior) $\tau_1, \tau_2$:
+**Theorem:** Let $y = \left[ y_1, \ldots, y_n \right]^\mathrm{T}$ be an $n \times 1$ vector of a [measured univariate signal](/D/data) and consider two [linear regression models](/D/mlr) with [design matrices](/D/mlr) $X_1, X_2$ and [precision matrices](/P/blr-prior) $P_1, P_2$, entailing potentially different [regression coefficients](/D/mlr) $\beta_1, \beta_2$ and [noise precisions](/P/blr-prior) $\tau_1, \tau_2$:
 
 $$ \label{eq:GLM-NG-12}
 \begin{split}

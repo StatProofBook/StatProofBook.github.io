@@ -230,7 +230,7 @@ title: "Proof by Topic"
 - [Marginal distributions for the matrix-normal distribution](/P/matn-marg)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
-- [Marginal likelihood is a definite integral of joint likelihood](/P/ml-jl)
+- [Marginal likelihood is a definite integral of the joint likelihood](/P/ml-jl)
 - [Maximum likelihood estimation can result in biased estimates](/P/mle-bias)
 - [Maximum likelihood estimation for binomial observations](/P/bin-mle)
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
@@ -361,6 +361,7 @@ title: "Proof by Topic"
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
+- [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 - [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Posterior probability of the alternative model for binomial observations](/P/bin-pp)
 - [Posterior probability of the alternative model for multinomial observations](/P/mult-pp)
@@ -493,6 +494,7 @@ title: "Proof by Topic"
 
 - [t-distribution is a special case of multivariate t-distribution](/P/t-mvt)
 - [t-test for multiple linear regression using contrast-based inference](/P/mlr-t)
+- [The expected value minimizes the mean squared error](/P/mean-mse)
 - [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
 - [The regression line goes through the center of mass point](/P/slr-comp)
@@ -527,6 +529,7 @@ title: "Proof by Topic"
 
 ### W
 
+- [Weak law of large numbers](/P/mean-wlln)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls)
 - [Weighted least squares for multiple linear regression](/P/mlr-wls2)
 - [Weighted least squares for simple linear regression](/P/slr-wls)

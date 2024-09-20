@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_S \right\rbrace$ be a set of $S$ [conditionally independent data sets](/D/ind-cond) assumed to follow [linear regression models](/D/mlr) with [design matrices](/D/mlr) $X_1, \ldots, X_S$, [number of data points](/D/mlr) $n_1, \ldots, n_S$ and [precision matrices](/P/blr-prior) $P_1, \ldots, P_n$, governed by identical [regression coefficients](/D/mlr) $\beta$ and identical [noise precision](/D/blr-prior) $\tau$:
+**Theorem:** Let $y = \left\lbrace y_1, \ldots, y_S \right\rbrace$ be a set of $S$ [conditionally independent data sets](/D/ind-cond) assumed to follow [linear regression models](/D/mlr) with [design matrices](/D/mlr) $X_1, \ldots, X_S$, [number of data points](/D/mlr) $n_1, \ldots, n_S$ and [precision matrices](/P/blr-prior) $P_1, \ldots, P_n$, governed by identical [regression coefficients](/D/mlr) $\beta$ and identical [noise precision](/P/blr-prior) $\tau$:
 
 $$ \label{eq:GLM-NG-S}
 \begin{split}

@@ -33,7 +33,7 @@ $$ \label{eq:rsq-resvar}
 R^2 = 1 - \frac{(n-p) \cdot \hat{\sigma}^2}{(n-1) \cdot s^2}
 $$
 
-where $n$ is the number of observations, $p$ is the number of predictors, $\hat{\sigma}^2$ is an [unbiased estimate of the noise variance](/P/resvar-unbp) $\sigma^2$ and $s^2$ is the [unbiased sample variance](/P/var-samp) of $y$.
+where $n$ is the number of observations, $p$ is the number of predictors, $\hat{\sigma}^2$ is an [unbiased estimate of the noise variance](/P/resvar-unbp) $\sigma^2$ and $s^2$ is the [unbiased sample variance](/D/var-samp) of $y$.
 
 
 **Proof:** The [coefficient of determination](/P/rsq-der) is given by
@@ -66,7 +66,7 @@ $$ \label{eq:sigma-unb}
 \hat{\sigma}^2 = \frac{1}{n-p} (y-X\hat{\beta})^\mathrm{T} (y-X\hat{\beta})
 $$
 
-and the [unbiased sample variance of the dependent variable](/P/var-samp) is
+and the [unbiased sample variance of the dependent variable](/D/var-samp) is
 
 $$ \label{eq:var-samp-unb}
 s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (y_i - \bar{y})^2 \; ,
