@@ -209,3 +209,4 @@ title: "Definition by Number"
 | D200 | iid | [independent and identically distributed](/D/iid) | JoramSoch | 2024-08-08 |
 | D201 | post-pred | [Posterior predictive distribution](/D/post-pred) | aloctavodia | 2024-08-18 |
 | D202 | prior-pred | [Prior predictive distribution](/D/prior-pred) | aloctavodia | 2024-08-19 |
+| D203 | data | [Data](/D/data) | JoramSoch | 2024-09-20 |

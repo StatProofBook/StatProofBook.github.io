@@ -476,6 +476,7 @@ title: "Proof by Topic"
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)
 - [Self-covariance equals variance](/P/cov-var)
+- [Self-independence of random event](/P/ind-self)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Skewness of the ex-Gaussian distribution](/P/exg-skew)
 - [Skewness of the exponential distribution](/P/exp-skew)

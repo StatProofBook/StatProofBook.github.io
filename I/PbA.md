@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (434 proofs)
+### JoramSoch (435 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -408,6 +408,7 @@ title: "Proof by Author"
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)
 - [Self-covariance equals variance](/P/cov-var)
+- [Self-independence of random event](/P/ind-self)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Specific t-test for single regressor in multiple linear regression](/P/mlr-tsingle)
 - [Square of expectation of product is less than or equal to product of expectation of squares](/P/mean-prodsqr)

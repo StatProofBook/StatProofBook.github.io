@@ -20,7 +20,7 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2024-09-20"
     url: "https://en.wikipedia.org/wiki/Independence_(probability_theory)#Self-independence"
-  - authors: "JoramSoch"
+  - authors: "Soch, Joram"
     year: 2023
     title: "Suppose A is an event. Can A be independent of itself?"
     in: "X"

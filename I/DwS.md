@@ -8,6 +8,7 @@ title: "Definitions without Source"
 - [Beta-distributed data](/D/beta-data)
 - [Binomial observations](/D/bin-data)
 - [Conditional differential entropy](/D/dent-cond)
+- [Data](/D/data)
 - [Dirichlet-distributed data](/D/dir-data)
 - [Estimation matrix](/D/emat)
 - [Joint differential entropy](/D/dent-joint)
