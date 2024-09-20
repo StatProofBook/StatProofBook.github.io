@@ -31,6 +31,7 @@ username: "salbalkus"
 
 $$ \label{eq:mean-mse}
 \mu = \operatorname*{arg\,min}_{a \in \mathbb{R}} E\left[ (X_i - a)^2 \right] \; .
+$$
 
 
 **Proof:** Using the [linearity of expectation](/P/mean-lin), we can simplify the objective function:
@@ -42,7 +43,7 @@ $$
 Setting the first derivative
 
 $$ \label{eq:dmse-da}
-\frac{d}{da} \left[ a^2 - 2a\mu + E(X_i^2) ] = 2a - 2\mu
+\frac{d}{da} \left[ a^2 - 2a\mu + E(X_i^2) \right] = 2a - 2\mu
 $$
 
 to zero to perform a derivative test, we obtain:
