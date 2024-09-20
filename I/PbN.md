@@ -474,3 +474,4 @@ title: "Proof by Number"
 | P466 | cdf-probexc | [Exceedance probability for a random variable in terms of cumulative distribution function](/P/cdf-probexc) | JoramSoch | 2024-09-06 |
 | P467 | postpred-jl | [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl) | aloctavodia | 2024-09-11 |
 | P468 | mean-wlln | [Weak law of large numbers](/P/mean-wlln) | JoramSoch | 2024-09-13 |
+| P469 | mean-mse | [The expected value minimizes the mean squared error](/P/mean-mse) | salbalkus | 2024-09-13 |

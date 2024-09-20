@@ -117,12 +117,12 @@ title: "Table of Contents"
    &emsp;&ensp; 1.10.8. **[Expectation of a trace](/P/mean-tr)** <br>
    &emsp;&ensp; 1.10.9. **[Expectation of a quadratic form](/P/mean-qf)** <br>
    &emsp;&ensp; 1.10.10. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
-   &emsp;&ensp; 1.10.11. **[Law of total expectation](/P/mean-tot)** <br>
-   &emsp;&ensp; 1.10.12. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
-   &emsp;&ensp; 1.10.13. **[Weak law of large numbers](/P/mean-wlln)** <br>
-   &emsp;&ensp; 1.10.14. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.10.15. *[Expected value of a random matrix](/D/mean-rmat)* <br>
-   &emsp;&ensp; 1.10.16. **[Expected value minimizes expected squared error](/P/mean-ls)** <br>
+   &emsp;&ensp; 1.10.11. **[Expected value minimizes squared error](/P/mean-mse)** <br>
+   &emsp;&ensp; 1.10.12. **[Law of total expectation](/P/mean-tot)** <br>
+   &emsp;&ensp; 1.10.13. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.10.14. **[Weak law of large numbers](/P/mean-wlln)** <br>
+   &emsp;&ensp; 1.10.15. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.10.16. *[Expected value of a random matrix](/D/mean-rmat)* <br>
    
    1.11. Variance <br>
    &emsp;&ensp; 1.11.1. *[Definition](/D/var)* <br>

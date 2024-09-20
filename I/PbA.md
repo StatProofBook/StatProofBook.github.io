@@ -474,6 +474,10 @@ title: "Proof by Author"
 - [Variance of the exponential distribution](/P/exp-var)
 - [Variance of the log-normal distribution](/P/lognorm-var)
 
+### salbalkus (1 proof)
+
+- [The expected value minimizes the mean squared error](/P/mean-mse)
+
 ### StatProofBook (1 proof)
 
 - [Proof Template](/P/-temp-)
