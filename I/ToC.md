@@ -14,14 +14,14 @@ title: "Table of Contents"
 
 1. <p id="Probability theory">Probability theory</p>
    
-   1.1. Random experiments <br>
+   1.1. <p id="Random experiments">Random experiments</p> <br>
    &emsp;&ensp; 1.1.1. *[Random experiment](/D/rexp)* <br>
    &emsp;&ensp; 1.1.2. *[Sample space](/D/samp-spc)* <br>
    &emsp;&ensp; 1.1.3. *[Event space](/D/eve-spc)* <br>
    &emsp;&ensp; 1.1.4. *[Probability space](/D/prob-spc)* <br>
    &emsp;&ensp; 1.1.5. *[Measured data](/D/data)* <br>
    
-   1.2. Random variables <br>
+   1.2. <p id="Random variables">Random variables</p> <br>
    &emsp;&ensp; 1.2.1. *[Random event](/D/reve)* <br>
    &emsp;&ensp; 1.2.2. *[Random variable](/D/rvar)* <br>
    &emsp;&ensp; 1.2.3. *[Random vector](/D/rvec)* <br>
@@ -31,7 +31,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.7. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
    &emsp;&ensp; 1.2.8. *[independent and identically distributed](/D/iid)* <br>
    
-   1.3. Probability <br>
+   1.3. <p id="Probability">Probability</p> <br>
    &emsp;&ensp; 1.3.1. *[Probability](/D/prob)* <br>
    &emsp;&ensp; 1.3.2. *[Joint probability](/D/prob-joint)* <br>
    &emsp;&ensp; 1.3.3. *[Marginal probability](/D/prob-marg)* <br>
