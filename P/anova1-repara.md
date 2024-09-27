@@ -132,7 +132,7 @@ $$ \label{eq:anova1-repara-rss-der-delta-zero}
 \begin{split}
 0 &= 2 n_i \hat{\mu} + 2 n_i \hat{\delta}_i - 2 \sum_{j=1}^{n_i} y_{ij} \\
 \hat{\delta}_i &= \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} - \hat{\mu} \\
-&\overset{\eqref{eq:rss-der-mu-zero}}{=} \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} - \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \\
+&\overset{\eqref{eq:anova1-repara-rss-der-mu-zero}}{=} \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} - \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \\
 &= \bar{y}_i - \bar{y} \; .
 \end{split}
 $$
