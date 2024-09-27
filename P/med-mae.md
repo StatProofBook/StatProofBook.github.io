@@ -58,12 +58,15 @@ $$ \label{eq:med-mae-s1}
 E(\lvert X_i - a \rvert) = \int_{-\infty}^a (a - x) f(x) \, \mathrm{d}x + \int_{a}^\infty (x - a) f(x) \, \mathrm{d}x \; .
 $$
 
-Now note that $\lvert\frac{\partial}{\partial a}(a - x)f(x)\rvert = \lvert\frac{\partial}{\partial a}(x - a)f(x)\rvert = f(x)$. Consequently, $\int_{-\infty}^af(x) = P(X_i < a)$ and $\int_{a}^\infty f(x) = P(X_i > a)$, both of which must be finite by the [axioms of probability](/D/prob-ax). Therefore, these integrals meet the conditions for application of Leibniz's integral rule.
+Now note that $\lvert\frac{\partial}{\partial a}(a - x)f(x)\rvert = \lvert\frac{\partial}{\partial a}(x - a)f(x)\rvert = f(x)$. Consequently, $\int_{-\infty}^af(x) = P(X_i < a)$ and $\int_{a}^\infty f(x) = P(X_i > a)$, both of which must be finite by the [axioms of probability](/D/prob-ax). Therefore, these integrals meet the conditions for application of Leibniz's rule.
 
 Applying Leibniz's rule, we can differentiate the objective function as follows:
 
 $$ \label{eq:med-mae-s2}
-\frac{\partial}{\partial a} \left( \int_{-\infty}^a (a - x) f(x) \, \mathrm{d}x + \int_{a}^\infty (x - a) f(x) \, \mathrm{d}x \right) = (a - x) f(x) + \int_{-\infty}^a f(x) \, \mathrm{d}x - (x - a) f(x) - \int_{a}^\infty f(x) \, \mathrm{d}x \; .
+\begin{split}
+  & \frac{\partial}{\partial a} \left( \int_{-\infty}^a (a - x) f(x) \, \mathrm{d}x + \int_{a}^\infty (x - a) f(x) \, \mathrm{d}x \right) \\
+= & (a - x) f(x) + \int_{-\infty}^a f(x) \, \mathrm{d}x - (x - a) f(x) - \int_{a}^\infty f(x) \, \mathrm{d}x \; .
+\end{split}
 $$
 
 Canceling terms and setting this derivative to 0, it must be true that
