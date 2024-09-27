@@ -68,6 +68,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.3. *[Marginal distribution](/D/dist-marg)* <br>
    &emsp;&ensp; 1.5.4. *[Conditional distribution](/D/dist-cond)* <br>
    &emsp;&ensp; 1.5.5. *[Sampling distribution](/D/dist-samp)* <br>
+   &emsp;&ensp; 1.5.6. *[Statistical parameter](/D/para)* <br>
    
    <p id="Probability mass function"></p>
    1.6. Probability mass function <br>
@@ -184,10 +185,11 @@ title: "Table of Contents"
    1.14. Correlation <br>
    &emsp;&ensp; 1.14.1. *[Definition](/D/corr)* <br>
    &emsp;&ensp; 1.14.2. **[Range](/P/corr-range)** <br>
-   &emsp;&ensp; 1.14.3. *[Sample correlation coefficient](/D/corr-samp)* <br>
-   &emsp;&ensp; 1.14.4. **[Relationship to standard scores](/P/corr-z)** <br>
-   &emsp;&ensp; 1.14.5. *[Correlation matrix](/D/corrmat)* <br>
-   &emsp;&ensp; 1.14.6. *[Sample correlation matrix](/D/corrmat-samp)* <br>
+   &emsp;&ensp; 1.14.3. **[Correlation under independence](/P/corr-ind)** <br>
+   &emsp;&ensp; 1.14.4. *[Sample correlation coefficient](/D/corr-samp)* <br>
+   &emsp;&ensp; 1.14.5. **[Relationship to standard scores](/P/corr-z)** <br>
+   &emsp;&ensp; 1.14.6. *[Correlation matrix](/D/corrmat)* <br>
+   &emsp;&ensp; 1.14.7. *[Sample correlation matrix](/D/corrmat-samp)* <br>
    
    <p id="Measures of central tendency"></p>
    1.15. Measures of central tendency <br>
