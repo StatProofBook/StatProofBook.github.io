@@ -54,6 +54,7 @@ title: "Definition by Topic"
 
 ### D
 
+- [Data](/D/data)
 - [Definition Template](/D/-temp-)
 - [Deviance](/D/dev)
 - [Deviance information criterion](/D/dic)

@@ -15,7 +15,7 @@ theorem: "Log-likelihood ratio"
 
 sources:
   - authors: "Ostwald, Dirk"
-    year: 2024
+    year: 2023
     title: "F-Statistiken"
     in: "Allgemeines Lineares Modell"
     pages: "Einheit (8), Folien 20-22"

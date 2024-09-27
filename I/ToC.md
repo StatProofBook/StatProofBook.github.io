@@ -14,6 +14,7 @@ title: "Table of Contents"
 
 1. <p id="Probability theory">Probability theory</p>
    
+   <p id="Random experiments"></p>
    1.1. Random experiments <br>
    &emsp;&ensp; 1.1.1. *[Random experiment](/D/rexp)* <br>
    &emsp;&ensp; 1.1.2. *[Sample space](/D/samp-spc)* <br>
@@ -21,6 +22,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.4. *[Probability space](/D/prob-spc)* <br>
    &emsp;&ensp; 1.1.5. *[Measured data](/D/data)* <br>
    
+   <p id="Random variables"></p>
    1.2. Random variables <br>
    &emsp;&ensp; 1.2.1. *[Random event](/D/reve)* <br>
    &emsp;&ensp; 1.2.2. *[Random variable](/D/rvar)* <br>
@@ -31,6 +33,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.7. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
    &emsp;&ensp; 1.2.8. *[independent and identically distributed](/D/iid)* <br>
    
+   <p id="Probability"></p>
    1.3. Probability <br>
    &emsp;&ensp; 1.3.1. *[Probability](/D/prob)* <br>
    &emsp;&ensp; 1.3.2. *[Joint probability](/D/prob-joint)* <br>
@@ -44,6 +47,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.10. *[Mutual exclusivity](/D/exc)* <br>
    &emsp;&ensp; 1.3.11. **[Probability under exclusivity](/P/prob-exc)** <br>
    
+   <p id="Probability axioms"></p>
    1.4. Probability axioms <br>
    &emsp;&ensp; 1.4.1. *[Axioms of probability](/D/prob-ax)* <br>
    &emsp;&ensp; 1.4.2. **[Monotonicity of probability](/P/prob-mon)** (1) <br>
@@ -57,6 +61,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.10. **[Probability of exhaustive events](/P/prob-exh)** (1) <br>
    &emsp;&ensp; 1.4.11. **[Probability of exhaustive events](/P/prob-exh2)** (2) <br>
    
+   <p id="Probability distributions"></p>
    1.5. Probability distributions <br>
    &emsp;&ensp; 1.5.1. *[Probability distribution](/D/dist)* <br>
    &emsp;&ensp; 1.5.2. *[Joint distribution](/D/dist-joint)* <br>
@@ -64,6 +69,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.4. *[Conditional distribution](/D/dist-cond)* <br>
    &emsp;&ensp; 1.5.5. *[Sampling distribution](/D/dist-samp)* <br>
    
+   <p id="Probability mass function"></p>
    1.6. Probability mass function <br>
    &emsp;&ensp; 1.6.1. *[Definition](/D/pmf)* <br>
    &emsp;&ensp; 1.6.2. **[Probability mass function of sum of independents](/P/pmf-sumind)** <br>
@@ -71,6 +77,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.4. **[Probability mass function of strictly decreasing function](/P/pmf-sdfct)** <br>
    &emsp;&ensp; 1.6.5. **[Probability mass function of invertible function](/P/pmf-invfct)** <br>
    
+   <p id="Probability density function"></p>
    1.7. Probability density function <br>
    &emsp;&ensp; 1.7.1. *[Definition](/D/pdf)* <br>
    &emsp;&ensp; 1.7.2. **[Probability density function of sum of independents](/P/pdf-sumind)** <br>
@@ -80,6 +87,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.7.6. **[Probability density function of linear transformation](/P/pdf-linfct)** <br>
    &emsp;&ensp; 1.7.7. **[Probability density function in terms of cumulative distribution function](/P/pdf-cdf)** <br>
    
+   <p id="Cumulative distribution function"></p>
    1.8. Cumulative distribution function <br>
    &emsp;&ensp; 1.8.1. *[Definition](/D/cdf)* <br>
    &emsp;&ensp; 1.8.2. **[Cumulative distribution function of sum of independents](/P/cdf-sumind)** <br>
@@ -93,6 +101,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.9. **[Distributional transformation](/P/cdf-dt)** <br>
    &emsp;&ensp; 1.8.10. *[Joint cumulative distribution function](/D/cdf-joint)* <br>
    
+   <p id="Other probability functions"></p>
    1.9. Other probability functions <br>
    &emsp;&ensp; 1.9.1. *[Quantile function](/D/qf)* <br>
    &emsp;&ensp; 1.9.2. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
@@ -108,6 +117,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.9.12. **[Probability-generating function of one](/P/pgf-one)** <br>
    &emsp;&ensp; 1.9.13. *[Cumulant-generating function](/D/cgf)* <br>
    
+   <p id="Expected value"></p>
    1.10. Expected value <br>
    &emsp;&ensp; 1.10.1. *[Definition](/D/mean)* <br>
    &emsp;&ensp; 1.10.2. *[Sample mean](/D/mean-samp)* <br>
@@ -126,6 +136,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.10.15. *[Expected value of a random vector](/D/mean-rvec)* <br>
    &emsp;&ensp; 1.10.16. *[Expected value of a random matrix](/D/mean-rmat)* <br>
    
+   <p id="Variance"></p>
    1.11. Variance <br>
    &emsp;&ensp; 1.11.1. *[Definition](/D/var)* <br>
    &emsp;&ensp; 1.11.2. *[Sample variance](/D/var-samp)* <br>
@@ -140,11 +151,13 @@ title: "Table of Contents"
    &emsp;&ensp; 1.11.11. **[Law of total variance](/P/var-tot)** <br>
    &emsp;&ensp; 1.11.12. *[Precision](/D/prec)* <br>
    
+   <p id="Skewness"></p>
    1.12. Skewness <br>
    &emsp;&ensp; 1.12.1. *[Definition](/D/skew)* <br>
    &emsp;&ensp; 1.12.2. *[Sample skewness](/D/skew-samp)* <br>
    &emsp;&ensp; 1.12.3. **[Partition into expected values](/P/skew-mean)** <br>
    
+   <p id="Covariance"></p>
    1.13. Covariance <br>
    &emsp;&ensp; 1.13.1. *[Definition](/D/cov)* <br>
    &emsp;&ensp; 1.13.2. *[Sample covariance](/D/cov-samp)* <br>
@@ -167,6 +180,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.13.19. *[Precision matrix](/D/precmat)* <br>
    &emsp;&ensp; 1.13.20. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
+   <p id="Correlation"></p>
    1.14. Correlation <br>
    &emsp;&ensp; 1.14.1. *[Definition](/D/corr)* <br>
    &emsp;&ensp; 1.14.2. **[Range](/P/corr-range)** <br>
@@ -175,18 +189,23 @@ title: "Table of Contents"
    &emsp;&ensp; 1.14.5. *[Correlation matrix](/D/corrmat)* <br>
    &emsp;&ensp; 1.14.6. *[Sample correlation matrix](/D/corrmat-samp)* <br>
    
+   <p id="Measures of central tendency"></p>
    1.15. Measures of central tendency <br>
    &emsp;&ensp; 1.15.1. *[Median](/D/med)* <br>
-   &emsp;&ensp; 1.15.2. *[Mode](/D/mode)* <br>
+   &emsp;&ensp; 1.15.2. **[Median minimizes mean absolute error](/P/med-mae)** <br>
+   &emsp;&ensp; 1.15.3. *[Mode](/D/mode)* <br>
    
+   <p id="Measures of statistical dispersion"></p>
    1.16. Measures of statistical dispersion <br>
    &emsp;&ensp; 1.16.1. *[Standard deviation](/D/std)* <br>
    &emsp;&ensp; 1.16.2. *[Full width at half maximum](/D/fwhm)* <br>
    
+   <p id="Further summary statistics"></p>
    1.17. Further summary statistics <br>
    &emsp;&ensp; 1.17.1. *[Minimum](/D/min)* <br>
    &emsp;&ensp; 1.17.2. *[Maximum](/D/max)* <br>
    
+   <p id="Further moments"></p>
    1.18. Further moments <br>
    &emsp;&ensp; 1.18.1. *[Moment](/D/mom)* <br>
    &emsp;&ensp; 1.18.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
@@ -200,6 +219,7 @@ title: "Table of Contents"
 
 2. <p id="Information theory">Information theory</p>
    
+   <p id="Shannon entropy"></p>
    2.1. Shannon entropy <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/ent)* <br>
    &emsp;&ensp; 2.1.2. **[Non-negativity](/P/ent-nonneg)** <br>
@@ -211,6 +231,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.1.8. **[Gibbs' inequality](/P/gibbs-ineq)** <br>
    &emsp;&ensp; 2.1.9. **[Log sum inequality](/P/logsum-ineq)** <br>
    
+   <p id="Differential entropy"></p>
    2.2. Differential entropy <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/dent)* <br>
    &emsp;&ensp; 2.2.2. **[Negativity](/P/dent-neg)** <br>
@@ -222,18 +243,21 @@ title: "Table of Contents"
    &emsp;&ensp; 2.2.8. *[Joint differential entropy](/D/dent-joint)* <br>
    &emsp;&ensp; 2.2.9. *[Differential cross-entropy](/D/dent-cross)* <br>
    
+   <p id="Discrete mutual information"></p>
    2.3. Discrete mutual information <br>
    &emsp;&ensp; 2.3.1. *[Definition](/D/mi)* <br>
    &emsp;&ensp; 2.3.2. **[Relation to marginal and conditional entropy](/P/dmi-mce)** <br>
    &emsp;&ensp; 2.3.3. **[Relation to marginal and joint entropy](/P/dmi-mje)** <br>
    &emsp;&ensp; 2.3.4. **[Relation to joint and conditional entropy](/P/dmi-jce)** <br>
    
+   <p id="Continuous mutual information"></p>
    2.4. Continuous mutual information <br>
    &emsp;&ensp; 2.4.1. *[Definition](/D/mi)* <br>
    &emsp;&ensp; 2.4.2. **[Relation to marginal and conditional differential entropy](/P/cmi-mcde)** <br>
    &emsp;&ensp; 2.4.3. **[Relation to marginal and joint differential entropy](/P/cmi-mjde)** <br>
    &emsp;&ensp; 2.4.4. **[Relation to joint and conditional differential entropy](/P/cmi-jcde)** <br>
    
+   <p id="Kullback-Leibler divergence"></p>
    2.5. Kullback-Leibler divergence <br>
    &emsp;&ensp; 2.5.1. *[Definition](/D/kl)* <br>
    &emsp;&ensp; 2.5.2. **[Non-negativity](/P/kl-nonneg)** (1) <br>
@@ -247,16 +271,19 @@ title: "Table of Contents"
 
 3. <p id="Estimation theory">Estimation theory</p>
    
+   <p id="Point estimates"></p>
    3.1. Point estimates <br>
    &emsp;&ensp; 3.1.1. *[Mean squared error](/D/mse)* <br>
    &emsp;&ensp; 3.1.2. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
    
+   <p id="Interval estimates"></p>
    3.2. Interval estimates <br>
    &emsp;&ensp; 3.2.1. *[Confidence interval](/D/ci)* <br>
    &emsp;&ensp; 3.2.2. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
 
 4. <p id="Frequentist statistics">Frequentist statistics</p>
    
+   <p id="Likelihood theory"></p>
    4.1. Likelihood theory <br>
    &emsp;&ensp; 4.1.1. *[Likelihood function](/D/lf)* <br>
    &emsp;&ensp; 4.1.2. *[Log-likelihood function](/D/llf)* <br>
@@ -267,12 +294,14 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.7. *[Log-likelihood ratio](/D/llr)* <br>
    &emsp;&ensp; 4.1.8. *[Method of moments](/D/mome)* <br>
    
+   <p id="Statistical hypotheses"></p>
    4.2. Statistical hypotheses <br>
    &emsp;&ensp; 4.2.1. *[Statistical hypothesis](/D/hyp)* <br>
    &emsp;&ensp; 4.2.2. *[Simple vs. composite](/D/hyp-simp)* <br>
    &emsp;&ensp; 4.2.3. *[Point/exact vs. set/inexact](/D/hyp-point)* <br>
    &emsp;&ensp; 4.2.4. *[One-tailed vs. two-tailed](/D/hyp-tail)* <br>
    
+   <p id="Hypothesis testing"></p>
    4.3. Hypothesis testing <br>
    &emsp;&ensp; 4.3.1. *[Statistical test](/D/test)* <br>
    &emsp;&ensp; 4.3.2. *[Null hypothesis](/D/h0)* <br>
@@ -288,6 +317,7 @@ title: "Table of Contents"
 
 5. <p id="Bayesian statistics">Bayesian statistics</p>
    
+   <p id="Probabilistic modeling"></p>
    5.1. Probabilistic modeling <br>
    &emsp;&ensp; 5.1.1. *[Generative model](/D/gm)* <br>
    &emsp;&ensp; 5.1.2. *[Likelihood function](/D/lf)* <br>
@@ -305,6 +335,7 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.14. *[Marginal likelihood](/D/ml)* <br>
    &emsp;&ensp; 5.1.15. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
+   <p id="Prior distributions"></p>
    5.2. Prior distributions <br>
    &emsp;&ensp; 5.2.1. *[Flat vs. hard vs. soft](/D/prior-flat)* <br>
    &emsp;&ensp; 5.2.2. *[Uniform vs. non-uniform](/D/prior-uni)* <br>
@@ -315,6 +346,7 @@ title: "Table of Contents"
    &emsp;&ensp; 5.2.7. *[Empirical Bayes priors](/D/prior-eb)* <br>
    &emsp;&ensp; 5.2.8. *[Reference priors](/D/prior-ref)* <br>
    
+   <p id="Bayesian inference"></p>
    5.3. Bayesian inference <br>
    &emsp;&ensp; 5.3.1. **[Bayes' theorem](/P/bayes-th)** <br>
    &emsp;&ensp; 5.3.2. **[Bayes' rule](/P/bayes-rule)** <br>
@@ -323,6 +355,7 @@ title: "Table of Contents"
 
 6. <p id="Machine learning">Machine learning</p>
    
+   <p id="Scoring rules"></p>
    6.1. Scoring rules <br>
    &emsp;&ensp; 6.1.1. *[Scoring rule](/D/sr)* <br>
    &emsp;&ensp; 6.1.2. *[Proper scoring rule](/D/psr)* <br>
@@ -337,7 +370,8 @@ title: "Table of Contents"
 <h3 id="Probability Distributions">Chapter II: Probability Distributions</h3>
 
 1. <p id="Univariate discrete distributions">Univariate discrete distributions</p>
-
+   
+   <p id="Discrete uniform distribution"></p>
    1.1. Discrete uniform distribution <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/duni)* <br>
    &emsp;&ensp; 1.1.2. **[Probability mass function](/P/duni-pmf)** <br>
@@ -346,7 +380,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.5. **[Shannon entropy](/P/duni-ent)** <br>
    &emsp;&ensp; 1.1.6. **[Kullback-Leibler divergence](/P/duni-kl)** <br>
    &emsp;&ensp; 1.1.7. **[Maximum entropy distribution](/P/duni-maxent)** <br>
-
+   
+   <p id="Bernoulli distribution"></p>
    1.2. Bernoulli distribution <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/bern)* <br>
    &emsp;&ensp; 1.2.2. **[Probability mass function](/P/bern-pmf)** <br>
@@ -355,7 +390,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.5. **[Range of variance](/P/bern-varrange)** <br>
    &emsp;&ensp; 1.2.6. **[Shannon entropy](/P/bern-ent)** <br>
    &emsp;&ensp; 1.2.7. **[Kullback-Leibler divergence](/P/bern-kl)** <br>
-
+   
+   <p id="Binomial distribution"></p>
    1.3. Binomial distribution <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/bin)* <br>
    &emsp;&ensp; 1.3.2. **[Probability mass function](/P/bin-pmf)** <br>
@@ -367,12 +403,14 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.8. **[Kullback-Leibler divergence](/P/bin-kl)** <br>
    &emsp;&ensp; 1.3.9. **[Conditional binomial](/P/bin-margcond)** <br>
    
+   <p id="Beta-binomial distribution"></p>
    1.4. Beta-binomial distribution <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/betabin)* <br>
    &emsp;&ensp; 1.4.2. **[Probability mass function](/P/betabin-pmf)** <br>
    &emsp;&ensp; 1.4.3. **[Probability mass function in terms of gamma function](/P/betabin-pmfitogf)** <br>
    &emsp;&ensp; 1.4.4. **[Cumulative distribution function](/P/betabin-cdf)** <br>
    
+   <p id="Poisson distribution"></p>
    1.5. Poisson distribution <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/poiss)* <br>
    &emsp;&ensp; 1.5.2. **[Probability mass function](/P/poiss-pmf)** <br>
@@ -380,14 +418,16 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.4. **[Variance](/P/poiss-var)** <br>
 
 2. <p id="Multivariate discrete distributions">Multivariate discrete distributions</p>
-
+   
+   <p id="Categorical distribution"></p>
    2.1. Categorical distribution <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/cat)* <br>
    &emsp;&ensp; 2.1.2. **[Probability mass function](/P/cat-pmf)** <br>
    &emsp;&ensp; 2.1.3. **[Mean](/P/cat-mean)** <br>
    &emsp;&ensp; 2.1.4. **[Covariance](/P/cat-cov)** <br>
    &emsp;&ensp; 2.1.5. **[Shannon entropy](/P/cat-ent)** <br>
-
+   
+   <p id="Multinomial distribution"></p>
    2.2. Multinomial distribution <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/mult)* <br>
    &emsp;&ensp; 2.2.2. **[Probability mass function](/P/mult-pmf)** <br>
@@ -396,7 +436,8 @@ title: "Table of Contents"
    &emsp;&ensp; 2.2.5. **[Shannon entropy](/P/mult-ent)** <br>
 
 3. <p id="Univariate continuous distributions">Univariate continuous distributions</p>
-
+   
+   <p id="Continuous uniform distribution"></p>
    3.1. Continuous uniform distribution <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/cuni)* <br>
    &emsp;&ensp; 3.1.2. *[Standard uniform distribution](/D/suni)* <br>
@@ -410,7 +451,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.10. **[Differential entropy](/P/cuni-dent)** <br>
    &emsp;&ensp; 3.1.11. **[Kullback-Leibler divergence](/P/cuni-kl)** <br>
    &emsp;&ensp; 3.1.12. **[Maximum entropy distribution](/P/cuni-maxent)** <br>
-
+   
+   <p id="Normal distribution"></p>
    3.2. Normal distribution <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/norm)* <br>
    &emsp;&ensp; 3.2.2. **[Special case of multivariate normal distribution](/P/norm-mvn)** <br>
@@ -439,13 +481,15 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.25. **[Maximum entropy distribution](/P/norm-maxent)** <br>
    &emsp;&ensp; 3.2.26. **[Linear combination](/P/norm-lincomb)** <br>
    
+   <p id="t-distribution"></p>
    3.3. t-distribution <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/t)* <br>
    &emsp;&ensp; 3.3.2. **[Special case of multivariate t-distribution](/P/t-mvt)** <br>
    &emsp;&ensp; 3.3.3. *[Non-standardized t-distribution](/D/nst)* <br>
    &emsp;&ensp; 3.3.4. **[Relationship to non-standardized t-distribution](/P/nst-t)** <br>
    &emsp;&ensp; 3.3.5. **[Probability density function](/P/t-pdf)** <br>
-
+   
+   <p id="Gamma distribution"></p>
    3.4. Gamma distribution <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/gam)* <br>
    &emsp;&ensp; 3.4.2. **[Special case of Wishart distribution](/P/gam-wish)** <br>
@@ -463,7 +507,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.14. **[Expectation of x ln x](/P/gam-xlogx)** <br>
    &emsp;&ensp; 3.4.15. **[Differential entropy](/P/gam-dent)** <br>
    &emsp;&ensp; 3.4.16. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
-
+   
+   <p id="Exponential distribution"></p>
    3.5. Exponential distribution <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/exp)* <br>
    &emsp;&ensp; 3.5.2. **[Special case of gamma distribution](/P/exp-gam)** <br>
@@ -476,7 +521,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.5.9. **[Mode](/P/exp-mode)** <br>
    &emsp;&ensp; 3.5.10. **[Variance](/P/exp-var)** <br>
    &emsp;&ensp; 3.5.11. **[Skewness](/P/exp-skew)** <br>
-
+   
+   <p id="Log-normal distribution"></p>
    3.6. Log-normal distribution <br>
    &emsp;&ensp; 3.6.1. *[Definition](/D/lognorm)* <br>
    &emsp;&ensp; 3.6.2. **[Probability density function](/P/lognorm-pdf)** <br>
@@ -486,17 +532,20 @@ title: "Table of Contents"
    &emsp;&ensp; 3.6.6. **[Median](/P/lognorm-med)** <br>
    &emsp;&ensp; 3.6.7. **[Mode](/P/lognorm-mode)** <br>
    &emsp;&ensp; 3.6.8. **[Variance](/P/lognorm-var)** <br>
-
+   
+   <p id="Chi-squared distribution"></p>
    3.7. Chi-squared distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/chi2)* <br>
    &emsp;&ensp; 3.7.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
    &emsp;&ensp; 3.7.3. **[Probability density function](/P/chi2-pdf)** <br>
    &emsp;&ensp; 3.7.4. **[Moments](/P/chi2-mom)** <br>
    
+   <p id="F-distribution"></p>
    3.8. F-distribution <br>
    &emsp;&ensp; 3.8.1. *[Definition](/D/f)* <br>
    &emsp;&ensp; 3.8.2. **[Probability density function](/P/f-pdf)** <br>
    
+   <p id="Beta distribution"></p>
    3.9. Beta distribution <br>
    &emsp;&ensp; 3.9.1. *[Definition](/D/beta)* <br>
    &emsp;&ensp; 3.9.2. **[Relationship to chi-squared distribution](/P/beta-chi2)** <br>
@@ -506,6 +555,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.9.6. **[Mean](/P/beta-mean)** <br>
    &emsp;&ensp; 3.9.7. **[Variance](/P/beta-var)** <br>
    
+   <p id="Wald distribution"></p>
    3.10. Wald distribution <br>
    &emsp;&ensp; 3.10.1. *[Definition](/D/wald)* <br>
    &emsp;&ensp; 3.10.2. **[Probability density function](/P/wald-pdf)** <br>
@@ -515,6 +565,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.10.6. **[Skewness](/P/wald-skew)** <br>
    &emsp;&ensp; 3.10.7. **[Method of moments](/P/wald-mome)** <br>
    
+   <p id="ex-Gaussian distribution"></p>
    3.11. ex-Gaussian distribution <br>
    &emsp;&ensp; 3.11.1. *[Definition](/D/exg)* <br>
    &emsp;&ensp; 3.11.2. **[Probability density function](/P/exg-pdf)** <br>
@@ -525,7 +576,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.11.7. **[Method of moments](/P/exg-mome)** <br>
 
 4. <p id="Multivariate continuous distributions">Multivariate continuous distributions</p>
-
+   
+   <p id="Multivariate normal distribution"></p>
    4.1. Multivariate normal distribution <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn)* <br>
    &emsp;&ensp; 4.1.2. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
@@ -545,11 +597,13 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.16. **[Conditions for independence](/P/mvn-ind)** <br>
    &emsp;&ensp; 4.1.17. **[Independence of products](/P/mvn-indprod)** <br>
    
+   <p id="Multivariate t-distribution"></p>
    4.2. Multivariate t-distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
    &emsp;&ensp; 4.2.2. **[Probability density function](/P/mvt-pdf)** <br>
    &emsp;&ensp; 4.2.3. **[Relationship to F-distribution](/P/mvt-f)** <br>
    
+   <p id="Normal-gamma distribution"></p>
    4.3. Normal-gamma distribution <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/ng)* <br>
    &emsp;&ensp; 4.3.2. **[Special case of normal-Wishart distribution](/P/ng-nw)** <br>
@@ -562,6 +616,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.3.9. **[Conditional distributions](/P/ng-cond)** <br>
    &emsp;&ensp; 4.3.10. **[Drawing samples](/P/ng-samp)** <br>
    
+   <p id="Dirichlet distribution"></p>
    4.4. Dirichlet distribution <br>
    &emsp;&ensp; 4.4.1. *[Definition](/D/dir)* <br>
    &emsp;&ensp; 4.4.2. **[Probability density function](/P/dir-pdf)** <br>
@@ -569,7 +624,8 @@ title: "Table of Contents"
    &emsp;&ensp; 4.4.4. **[Exceedance probabilities](/P/dir-ep)** <br>
 
 5. <p id="Matrix-variate continuous distributions">Matrix-variate continuous distributions</p>
-
+   
+   <p id="Matrix-normal distribution"></p>
    5.1. Matrix-normal distribution <br>
    &emsp;&ensp; 5.1.1. *[Definition](/D/matn)* <br>
    &emsp;&ensp; 5.1.2. **[Equivalence to multivariate normal distribution](/P/matn-mvn)** <br>
@@ -583,10 +639,12 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.10. **[Marginal distributions](/P/matn-marg)** <br>
    &emsp;&ensp; 5.1.11. **[Drawing samples](/P/matn-samp)** <br>
    
+   <p id="Wishart distribution"></p>
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
    &emsp;&ensp; 5.2.2. **[Kullback-Leibler divergence](/P/wish-kl)** <br>
    
+   <p id="Normal-Wishart distribution"></p>
    5.3. Normal-Wishart distribution <br>
    &emsp;&ensp; 5.3.1. *[Definition](/D/nw)* <br>
    &emsp;&ensp; 5.3.2. **[Probability density function](/P/nw-pdf)** <br>
@@ -598,6 +656,7 @@ title: "Table of Contents"
 
 1. <p id="Univariate normal data">Univariate normal data</p>
    
+   <p id="Univariate Gaussian"></p>
    1.1. Univariate Gaussian <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/ug)* <br>
    &emsp;&ensp; 1.1.2. **[Maximum likelihood estimation](/P/ug-mle)** <br>
@@ -609,8 +668,9 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.8. **[Posterior distribution](/P/ug-post)** <br>
    &emsp;&ensp; 1.1.9. **[Log model evidence](/P/ug-lme)** <br>
    &emsp;&ensp; 1.1.10. **[Accuracy and complexity](/P/ug-anc)** <br>
-
-   1.2. Univariate Gaussian with known variance<br>
+   
+   <p id="Univariate Gaussian with known variance"></p>
+   1.2. Univariate Gaussian with known variance <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/ugkv)* <br>
    &emsp;&ensp; 1.2.2. **[Maximum likelihood estimation](/P/ugkv-mle)** <br>
    &emsp;&ensp; 1.2.3. **[One-sample z-test](/P/ugkv-ztest1)** <br>
@@ -626,6 +686,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.13. **[Cross-validated log Bayes factor](/P/ugkv-cvlbf)** <br>
    &emsp;&ensp; 1.2.14. **[Expectation of cross-validated log Bayes factor](/P/ugkv-cvlbfmean)** <br>
    
+   <p id="Analysis of variance"></p>
    1.3. Analysis of variance <br>
    &emsp;&ensp; 1.3.1. *[One-way ANOVA](/D/anova1)* <br>
    &emsp;&ensp; 1.3.2. *[Treatment sum of squares](/D/trss)* <br>
@@ -644,6 +705,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.15. **[F-test for grand mean in two-way ANOVA](/P/anova2-fgm)** <br>
    &emsp;&ensp; 1.3.16. **[F-statistics in terms of OLS estimates](/P/anova2-fols)** <br>
    
+   <p id="Simple linear regression"></p>
    1.4. Simple linear regression <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/slr)* <br>
    &emsp;&ensp; 1.4.2. **[Special case of multiple linear regression](/P/slr-mlr)** <br>
@@ -672,7 +734,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.25. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
    &emsp;&ensp; 1.4.26. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
    &emsp;&ensp; 1.4.27. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
-
+   
+   <p id="Multiple linear regression"></p>
    1.5. Multiple linear regression <br>
    &emsp;&ensp; 1.5.1. *[Definition](/D/mlr)* <br>
    &emsp;&ensp; 1.5.2. **[Special case of general linear model](/P/mlr-glm)** <br>
@@ -710,6 +773,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.34. **[Bayesian information criterion](/P/mlr-bic)** <br>
    &emsp;&ensp; 1.5.35. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
+   <p id="Bayesian linear regression"></p>
    1.6. Bayesian linear regression <br>
    &emsp;&ensp; 1.6.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
    &emsp;&ensp; 1.6.2. **[Posterior distribution](/P/blr-post)** <br>
@@ -723,6 +787,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.10. **[Combined posterior distribution from independent data sets](/P/blr-postind)** <br>
    &emsp;&ensp; 1.6.11. **[Log Bayes factor for comparison of two regression models](/P/blr-lbf)** <br>
    
+   <p id="Bayesian linear regression with known covariance"></p>
    1.7. Bayesian linear regression with known covariance <br>
    &emsp;&ensp; 1.7.1. **[Conjugate prior distribution](/P/blrkc-prior)** <br>
    &emsp;&ensp; 1.7.2. **[Posterior distribution](/P/blrkc-post)** <br>
@@ -731,6 +796,7 @@ title: "Table of Contents"
    
 2. <p id="Multivariate normal data">Multivariate normal data</p>
    
+   <p id="General linear model"></p>
    2.1. General linear model <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/glm)* <br>
    &emsp;&ensp; 2.1.2. **[Ordinary least squares](/P/glm-ols)** <br>
@@ -741,11 +807,13 @@ title: "Table of Contents"
    &emsp;&ensp; 2.1.7. **[Mutual information](/P/glm-mi)** <br>
    &emsp;&ensp; 2.1.8. **[Log-likelihood ratio and estimated mutual information](/P/glm-llrmi)** <br>
    
+   <p id="Transformed general linear model"></p>
    2.2. Transformed general linear model <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/tglm)* <br>
    &emsp;&ensp; 2.2.2. **[Derivation of the distribution](/P/tglm-dist)** <br>
    &emsp;&ensp; 2.2.3. **[Equivalence of parameter estimates](/P/tglm-para)** <br>
    
+   <p id="Inverse general linear model"></p>
    2.3. Inverse general linear model <br>
    &emsp;&ensp; 2.3.1. *[Definition](/D/iglm)* <br>
    &emsp;&ensp; 2.3.2. **[Derivation of the distribution](/P/iglm-dist)** <br>
@@ -755,6 +823,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.3.6. **[Derivation of parameters](/P/cfm-para)** <br>
    &emsp;&ensp; 2.3.7. **[Proof of existence](/P/cfm-exist)** <br>
    
+   <p id="Multivariate Bayesian linear regression"></p>
    2.4. Multivariate Bayesian linear regression <br>
    &emsp;&ensp; 2.4.1. **[Conjugate prior distribution](/P/mblr-prior)** <br>
    &emsp;&ensp; 2.4.2. **[Posterior distribution](/P/mblr-post)** <br>
@@ -762,6 +831,7 @@ title: "Table of Contents"
 
 3. <p id="Count data">Count data</p>
    
+   <p id="Binomial observations"></p>
    3.1. Binomial observations <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/bin-data)* <br>
    &emsp;&ensp; 3.1.2. **[Binomial test](/P/bin-test)** <br>
@@ -774,6 +844,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.9. **[Log Bayes factor](/P/bin-lbf)** <br>
    &emsp;&ensp; 3.1.10. **[Posterior probability](/P/bin-pp)** <br>
    
+   <p id="Multinomial observations"></p>
    3.2. Multinomial observations <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/mult-data)* <br>
    &emsp;&ensp; 3.2.2. **[Multinomial test](/P/mult-test)** <br>
@@ -785,7 +856,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.8. **[Log model evidence](/P/mult-lme)** <br>
    &emsp;&ensp; 3.2.9. **[Log Bayes factor](/P/mult-lbf)** <br>
    &emsp;&ensp; 3.2.10. **[Posterior probability](/P/mult-pp)** <br>
-
+   
+   <p id="Poisson-distributed data"></p>
    3.3. Poisson-distributed data <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/poiss-data)* <br>
    &emsp;&ensp; 3.3.2. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
@@ -793,6 +865,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.3.4. **[Posterior distribution](/P/poiss-post)** <br>
    &emsp;&ensp; 3.3.5. **[Log model evidence](/P/poiss-lme)** <br>
    
+   <p id="Poisson distribution with exposure values"></p>
    3.4. Poisson distribution with exposure values <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/poissexp)* <br>
    &emsp;&ensp; 3.4.2. **[Maximum likelihood estimation](/P/poissexp-mle)** <br>
@@ -802,20 +875,24 @@ title: "Table of Contents"
 
 4. <p id="Frequency data">Frequency data</p>
    
+   <p id="Beta-distributed data"></p>
    4.1. Beta-distributed data <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/beta-data)* <br>
    &emsp;&ensp; 4.1.2. **[Method of moments](/P/beta-mome)** <br>
    
+   <p id="Dirichlet-distributed data"></p>
    4.2. Dirichlet-distributed data <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/dir-data)* <br>
    &emsp;&ensp; 4.2.2. **[Maximum likelihood estimation](/P/dir-mle)** <br>
    
+   <p id="Beta-binomial data"></p>
    4.3. Beta-binomial data <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/betabin-data)* <br>
    &emsp;&ensp; 4.3.2. **[Method of moments](/P/betabin-mome)** <br>
 
 5. <p id="Categorical data">Categorical data</p>
    
+   <p id="Logistic regression"></p>
    5.1. Logistic regression <br>
    &emsp;&ensp; 5.1.1. *[Definition](/D/logreg)* <br>
    &emsp;&ensp; 5.1.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
@@ -826,7 +903,8 @@ title: "Table of Contents"
 <h3 id="Model Selection">Chapter IV: Model Selection</h3>
 
 1. <p id="Goodness-of-fit measures">Goodness-of-fit measures</p>
-
+   
+   <p id="Residual variance"></p>
    1.1. Residual variance <br>
    &emsp;&ensp; 1.1.1. *[Definition](/D/resvar)* <br>
    &emsp;&ensp; 1.1.2. **[Maximum likelihood estimator is biased (p = 1)](/P/resvar-bias)** <br>
@@ -834,6 +912,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.4. **[Construction of unbiased estimator (p = 1)](/P/resvar-unb)** <br>
    &emsp;&ensp; 1.1.5. **[Construction of unbiased estimator (p > 1)](/P/resvar-unbp)** <br>
    
+   <p id="R-squared"></p>
    1.2. R-squared <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/rsq)* <br>
    &emsp;&ensp; 1.2.2. **[Derivation of R² and adjusted R²](/P/rsq-der)** <br>
@@ -841,34 +920,40 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.4. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
    &emsp;&ensp; 1.2.5. **[Statistical significance test for R²](/P/rsq-test)** <br>
    
+   <p id="F-statistic"></p>
    1.3. F-statistic <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/fstat)* <br>
    &emsp;&ensp; 1.3.2. **[Relationship to coefficient of determination](/P/fstat-rsq)** <br>
    &emsp;&ensp; 1.3.3. **[Relationship to maximum log-likelihood](/P/fstat-mll)** <br>
    
+   <p id="Signal-to-noise ratio"></p>
    1.4. Signal-to-noise ratio <br>
    &emsp;&ensp; 1.4.1. *[Definition](/D/snr)* <br>
    &emsp;&ensp; 1.4.2. **[Relationship to coefficient of determination](/P/snr-rsq)** <br>
    &emsp;&ensp; 1.4.3. **[Relationship to maximum log-likelihood](/P/snr-mll)** <br>
 
 2. <p id="Classical information criteria">Classical information criteria</p>
-
+   
+   <p id="Akaike information criterion"></p>
    2.1. Akaike information criterion <br>
    &emsp;&ensp; 2.1.1. *[Definition](/D/aic)* <br>
    &emsp;&ensp; 2.1.2. *[Corrected AIC](/D/aicc)* <br>
    &emsp;&ensp; 2.1.3. **[Corrected AIC and uncorrected AIC](/P/aicc-aic)** <br>
    &emsp;&ensp; 2.1.4. **[Corrected AIC and maximum log-likelihood](/P/aicc-mll)** <br>
    
+   <p id="Bayesian information criterion"></p>
    2.2. Bayesian information criterion <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/bic)* <br>
    &emsp;&ensp; 2.2.2. **[Derivation](/P/bic-der)** <br>
    
+   <p id="Deviance information criterion"></p>
    2.3. Deviance information criterion <br>
    &emsp;&ensp; 2.3.1. *[Definition](/D/dic)* <br>
    &emsp;&ensp; 2.3.2. *[Deviance](/D/dev)* <br>
 
 3. <p id="Bayesian model selection">Bayesian model selection</p>
-
+   
+   <p id="Model evidence"></p>
    3.1. Model evidence <br>
    &emsp;&ensp; 3.1.1. *[Definition](/D/me)* <br>
    &emsp;&ensp; 3.1.2. **[Derivation](/P/me-der)** <br>
@@ -882,6 +967,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.10. *[Empirical Bayesian log model evidence](/D/eblme)* <br>
    &emsp;&ensp; 3.1.11. *[Variational Bayesian log model evidence](/D/vblme)* <br>
    
+   <p id="Family evidence"></p>
    3.2. Family evidence <br>
    &emsp;&ensp; 3.2.1. *[Definition](/D/fe)* <br>
    &emsp;&ensp; 3.2.2. **[Derivation](/P/fe-der)** <br>
@@ -890,6 +976,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.5. **[Calculation from log model evidences](/P/lfe-lme)** <br>
    &emsp;&ensp; 3.2.6. **[Approximation of log family evidences](/P/lfe-approx)** <br>
    
+   <p id="Bayes factor"></p>
    3.3. Bayes factor <br>
    &emsp;&ensp; 3.3.1. *[Definition](/D/bf)* <br>
    &emsp;&ensp; 3.3.2. **[Transitivity](/P/bf-trans)** <br>
@@ -900,6 +987,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.3.7. **[Derivation of the log Bayes factor](/P/lbf-der)** <br>
    &emsp;&ensp; 3.3.8. **[Calculation from log model evidences](/P/lbf-lme)** <br>
    
+   <p id="Posterior model probability"></p>
    3.4. Posterior model probability <br>
    &emsp;&ensp; 3.4.1. *[Definition](/D/pmp)* <br>
    &emsp;&ensp; 3.4.2. **[Derivation](/P/pmp-der)** <br>
@@ -907,6 +995,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.4. **[Calculation from log Bayes factor](/P/pmp-lbf)** <br>
    &emsp;&ensp; 3.4.5. **[Calculation from log model evidences](/P/pmp-lme)** <br>
    
+   <p id="Bayesian model averaging"></p>
    3.5. Bayesian model averaging <br>
    &emsp;&ensp; 3.5.1. *[Definition](/D/bma)* <br>
    &emsp;&ensp; 3.5.2. **[Derivation](/P/bma-der)** <br>

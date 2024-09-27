@@ -43,7 +43,7 @@ $$
 Setting the first derivative
 
 $$ \label{eq:dmse-da}
-\frac{d}{da} \left[ a^2 - 2a\mu + \mathrm{E}(X_i^2) \right] = 2a - 2\mu
+\frac{\mathrm{d}}{\mathrm{d}a} \left[ a^2 - 2a\mu + \mathrm{E}(X_i^2) \right] = 2a - 2\mu
 $$
 
 to zero to perform a derivative test, we obtain:
