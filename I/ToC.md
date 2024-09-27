@@ -192,7 +192,7 @@ title: "Table of Contents"
    <p id="Measures of central tendency"></p>
    1.15. Measures of central tendency <br>
    &emsp;&ensp; 1.15.1. *[Median](/D/med)* <br>
-   &emsp;&ensp; 1.15.2. **[The median minimizes mean absolute error](/P/med-mae)** <br>
+   &emsp;&ensp; 1.15.2. **[Median minimizes mean absolute error](/P/med-mae)** <br>
    &emsp;&ensp; 1.15.3. *[Mode](/D/mode)* <br>
    
    <p id="Measures of statistical dispersion"></p>
