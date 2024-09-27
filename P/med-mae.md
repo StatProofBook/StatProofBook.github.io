@@ -64,8 +64,8 @@ Applying Leibniz's rule, we can differentiate the objective function as follows:
 
 $$ \label{eq:med-mae-s2}
 \begin{split}
-  & \frac{\partial}{\partial a} \left( \int_{-\infty}^a (a - x) f(x) \, \mathrm{d}x + \int_{a}^\infty (x - a) f(x) \, \mathrm{d}x \right) \\
-= & (a - x) f(x) + \int_{-\infty}^a f(x) \, \mathrm{d}x - (x - a) f(x) - \int_{a}^\infty f(x) \, \mathrm{d}x \; .
+    &\frac{\partial}{\partial a} \left( \int_{-\infty}^a (a - x) f(x) \, \mathrm{d}x + \int_{a}^\infty (x - a) f(x) \, \mathrm{d}x \right) \\
+=\; &(a - x) f(x) + \int_{-\infty}^a f(x) \, \mathrm{d}x - (x - a) f(x) - \int_{a}^\infty f(x) \, \mathrm{d}x \; .
 \end{split}
 $$
 
