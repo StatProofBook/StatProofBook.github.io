@@ -13,10 +13,10 @@ layout: default
 	
 	<!-- Index -->
 	<b>Index:</b>
-	<a href="https://StatProofBook.github.io">The Book of Statistical Proofs</a> &#x25B7;
-	<a href="https://statproofbook.github.io/I/ToC#{{ page.chapter }}">{{ page.chapter }}</a> &#x25B7;
-	<a href="https://statproofbook.github.io/I/ToC#{{ page.section }}">{{ page.section }}</a> &#x25B7;
-	<a href="https://statproofbook.github.io/I/ToC#{{ page.topic }}">{{ page.topic }}</a> &#x25B7;
+	<a href="/I/ToC">The Book of Statistical Proofs</a> &#x25B7;
+	<a href="/I/ToC#{{ page.chapter }}">{{ page.chapter }}</a> &#x25B7;
+	<a href="/I/ToC#{{ page.section }}">{{ page.section }}</a> &#x25B7;
+	<a href="/I/ToC#{{ page.topic }}">{{ page.topic }}</a> &#x25B7;
 	{{ page.definition }} <br><br>
 	
 	<!-- Definition -->
@@ -40,19 +40,22 @@ layout: default
     {% endif %}
 	
 	<!-- Metadata -->
+	<b>Metadata:</b> ID: <a href="/I/DbN">{{ page.def_id }}</a> | shortcut: <a href="/I/DbT">{{ page.shortcut }}</a> |
 	{% if page.username %}
-	  <b>Metadata:</b> ID: {{ page.def_id }} | shortcut: {{ page.shortcut }} | author: <a href="https://github.com/{{ page.username }}">{{ page.username }}</a> | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
+	  author: <a href="https://github.com/{{ page.username }}">{{ page.username }}</a> |
 	{% elsif page.author %}
-	  <b>Metadata:</b> ID: {{ page.def_id }} | shortcut: {{ page.shortcut }} | author: {{ page.author }} | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
+	  author: {{ page.author }} |
 	{% else %}
-	  <b>Metadata:</b> ID: {{ page.def_id }} | shortcut: {{ page.shortcut }} | author: unknown | date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
+	  author: unknown |
 	{% endif %}
+	date: {{ page.date | date: "%Y-%m-%d, %H:%M" }}.
 	
   </div>
 
   <!-- "edit this definition" -->
   <div style="text-align:right">
     <small><a href="https://github.com/StatProofBook/StatProofBook.github.io/blob/master/D/{{ page.shortcut }}.md">view/edit this definition</a></small>
+	<small><a href="/citations/">cite this definition</a></small>
   </div>
 
 </article>
