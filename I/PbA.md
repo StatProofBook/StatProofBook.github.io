@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (435 proofs)
+### JoramSoch (436 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -147,6 +147,7 @@ title: "Proof by Author"
 - [Gibbs' inequality](/P/gibbs-ineq)
 - [Independence of estimated parameters and residuals in multiple linear regression](/P/mlr-ind)
 - [Independence of products of multivariate normal random vector](/P/mvn-indprod)
+- [Independent random variables are uncorrelated](/P/corr-ind)
 - [Inflection points of the probability density function of the normal distribution](/P/norm-infl)
 - [Invariance of the covariance matrix under addition of constant vector](/P/covmat-inv)
 - [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
@@ -475,9 +476,10 @@ title: "Proof by Author"
 - [Variance of the exponential distribution](/P/exp-var)
 - [Variance of the log-normal distribution](/P/lognorm-var)
 
-### salbalkus (1 proof)
+### salbalkus (2 proofs)
 
 - [The expected value minimizes the mean squared error](/P/mean-mse)
+- [The median minimizes the mean absolute error](/P/med-mae)
 
 ### StatProofBook (1 proof)
 

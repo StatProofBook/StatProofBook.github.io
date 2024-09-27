@@ -165,6 +165,7 @@ title: "Proof by Topic"
 
 - [Independence of estimated parameters and residuals in multiple linear regression](/P/mlr-ind)
 - [Independence of products of multivariate normal random vector](/P/mvn-indprod)
+- [Independent random variables are uncorrelated](/P/corr-ind)
 - [Inflection points of the probability density function of the normal distribution](/P/norm-infl)
 - [Invariance of the covariance matrix under addition of constant vector](/P/covmat-inv)
 - [Invariance of the differential entropy under addition of a constant](/P/dent-inv)
@@ -497,6 +498,7 @@ title: "Proof by Topic"
 - [t-test for multiple linear regression using contrast-based inference](/P/mlr-t)
 - [The expected value minimizes the mean squared error](/P/mean-mse)
 - [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr)
+- [The median minimizes the mean absolute error](/P/med-mae)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
