@@ -11,7 +11,7 @@ title: "Linear combination of independent normal random variables"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Normal distribution"
-theorem: "Linear combination"
+theorem: "Linear combination of independent normals"
 
 sources:
 

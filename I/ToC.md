@@ -483,7 +483,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.24. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
    &emsp;&ensp; 3.2.25. **[Maximum entropy distribution](/P/norm-maxent)** <br>
    &emsp;&ensp; 3.2.26. **[Linear combination of independent normals](/P/norm-lincomb)** <br>
-   &emsp;&ensp; 3.2.27. **[Normal and uncorrelated does not imply independent](/P/norm-indcorr)** <br>
+   &emsp;&ensp; 3.2.27. **[Normal and uncorrelated does not imply independent](/P/norm-corrind)** <br>
    
    <p id="t-distribution"></p>
    3.3. t-distribution <br>
