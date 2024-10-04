@@ -211,3 +211,4 @@ title: "Definition by Number"
 | D202 | prior-pred | [Prior predictive distribution](/D/prior-pred) | aloctavodia | 2024-08-19 |
 | D203 | data | [Data](/D/data) | JoramSoch | 2024-09-20 |
 | D204 | para | [Parameter](/D/para) | JoramSoch | 2024-09-27 |
+| D205 | stat | [Statistic](/D/stat) | JoramSoch | 2024-10-04 |

@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (436 proofs)
+### JoramSoch (437 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -270,6 +270,7 @@ title: "Proof by Author"
 - [Normal distribution is a special case of multivariate normal distribution](/P/norm-mvn)
 - [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
+- [Normally distributed and uncorrelated does not imply independent](/P/norm-corrind)
 - [Omnibus F-test for multiple regressors in multiple linear regression](/P/mlr-fomnibus)
 - [One-sample t-test for independent observations](/P/ug-ttest1)
 - [One-sample z-test for independent observations](/P/ugkv-ztest1)

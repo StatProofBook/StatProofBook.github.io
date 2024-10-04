@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (188 definitions)
+### JoramSoch (189 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -184,6 +184,7 @@ title: "Definition by Author"
 - [Standard normal distribution](/D/snorm)
 - [Standard uniform distribution](/D/suni)
 - [Standardized moment](/D/mom-stand)
+- [Statistic](/D/stat)
 - [Statistical hypothesis](/D/hyp)
 - [Statistical hypothesis test](/D/test)
 - [Statistical independence](/D/ind)

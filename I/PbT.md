@@ -315,6 +315,7 @@ title: "Proof by Topic"
 - [Normal distribution is a special case of multivariate normal distribution](/P/norm-mvn)
 - [Normal distribution maximizes differential entropy for fixed variance](/P/norm-maxent)
 - [Normal-gamma distribution is a special case of normal-Wishart distribution](/P/ng-nw)
+- [Normally distributed and uncorrelated does not imply independent](/P/norm-corrind)
 
 ### O
 

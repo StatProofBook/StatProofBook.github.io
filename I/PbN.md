@@ -478,3 +478,4 @@ title: "Proof by Number"
 | P470 | ind-self | [Self-independence of random event](/P/ind-self) | JoramSoch | 2024-09-20 |
 | P471 | med-mae | [The median minimizes the mean absolute error](/P/med-mae) | salbalkus | 2024-09-23 |
 | P472 | corr-ind | [Independent random variables are uncorrelated](/P/corr-ind) | JoramSoch | 2024-09-27 |
+| P473 | norm-corrind | [Normally distributed and uncorrelated does not imply independent](/P/norm-corrind) | JoramSoch | 2024-10-04 |
