@@ -21,6 +21,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.3. *[Event space](/D/eve-spc)* <br>
    &emsp;&ensp; 1.1.4. *[Probability space](/D/prob-spc)* <br>
    &emsp;&ensp; 1.1.5. *[Measured data](/D/data)* <br>
+   &emsp;&ensp; 1.1.6. *[Sample statistic](/D/stat)* <br>
    
    <p id="Random variables"></p>
    1.2. Random variables <br>
@@ -481,7 +482,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.23. **[Differential entropy](/P/norm-dent)** <br>
    &emsp;&ensp; 3.2.24. **[Kullback-Leibler divergence](/P/norm-kl)** <br>
    &emsp;&ensp; 3.2.25. **[Maximum entropy distribution](/P/norm-maxent)** <br>
-   &emsp;&ensp; 3.2.26. **[Linear combination](/P/norm-lincomb)** <br>
+   &emsp;&ensp; 3.2.26. **[Linear combination of independent normals](/P/norm-lincomb)** <br>
+   &emsp;&ensp; 3.2.27. **[Normal and uncorrelated does not imply independent](/P/norm-indcorr)** <br>
    
    <p id="t-distribution"></p>
    3.3. t-distribution <br>
