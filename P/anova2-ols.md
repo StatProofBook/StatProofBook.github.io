@@ -122,7 +122,7 @@ $$ \label{eq:rss-der-gamma}
 \end{split}
 $$
 
-Setting these derivatives to zero, we obtain the estimates of $\mu_i$, $\alpha_i$, $\beta_j$ and $\gamma_{ij}$:
+Setting these derivatives to zero, we obtain the estimates of $\mu$, $\alpha_i$, $\beta_j$ and $\gamma_{ij}$:
 
 $$ \label{eq:rss-der-mu-zero}
 \begin{split}

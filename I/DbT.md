@@ -177,6 +177,7 @@ title: "Definition by Topic"
 ### P
 
 - [p-value](/D/pval)
+- [Parameter](/D/para)
 - [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)

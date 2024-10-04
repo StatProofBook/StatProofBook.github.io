@@ -90,12 +90,50 @@ y_{ij} = \mu + \delta_i + \varepsilon_{ij} &= \mu_i + \varepsilon_{ij} = y_{ij} 
 \end{split}
 $$
 
-2) Equation \eqref{eq:anova1-repara} is a special case of the [two-way analysis of variance](/D/anova2) with (i) just one factor $A$ and (ii) no interaction term. Thus, OLS estimates are identical to [that of two-way ANOVA](/P/anova2-ols), i.e. given by
+2) The [residual sum of squares](/D/rss) for the reparametrized model is
 
-$$ \label{eq:anova1-repara-c2-qed}
+$$ \label{eq:anova1-repara-rss}
+\mathrm{RSS}(\mu,\delta) = \sum_{i=1}^{k} \sum_{j=1}^{n_i} \varepsilon_{ijk}^2 = \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \mu - \delta_i)^2
+$$
+
+and the derivatives of $\mathrm{RSS}$ with respect to $\mu$, $\delta$ are
+
+$$ \label{eq:anova1-repara-rss-der-mu}
 \begin{split}
-\hat{\mu} &= \bar{y}_{\bullet \bullet} = \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \\
-\hat{\delta}_i &= \bar{y}_{i \bullet} - \bar{y}_{\bullet \bullet} = \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} - \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \; .
+\frac{\mathrm{d}\mathrm{RSS}}{\mathrm{d}\mu}
+&= \sum_{i=1}^{k} \sum_{j=1}^{n_i} \frac{\mathrm{d}}{\mathrm{d}\mu} (y_{ij} - \mu - \delta_i)^2 \\
+&= \sum_{i=1}^{k} \sum_{j=1}^{n_i} -2 (y_{ij} - \mu - \delta_i) \\
+&= \sum_{i=1}^{k} \left( 2 n_i \mu + 2 n_i \delta_i - 2 \sum_{j=1}^{n_i} y_{ij} \right) \\
+&= 2 n \mu + 2 \sum_{i=1}^{k} n_i \delta_i - 2 \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij}
+\end{split}
+$$
+
+$$ \label{eq:anova1-repara-rss-der-delta}
+\begin{split}
+\frac{\mathrm{d}\mathrm{RSS}}{\mathrm{d}\delta_i}
+&= \sum_{j=1}^{n_i} \frac{\mathrm{d}}{\mathrm{d}\delta_i} (y_{ij} - \mu - \delta_i)^2 \\
+&= \sum_{j=1}^{n_i} -2 (y_{ij} - \mu - \delta_i) \\
+&= 2 n_i \mu + 2 n_i \delta_i - 2 \sum_{j=1}^{n_i} y_{ij} \; .
+\end{split}
+$$
+
+Setting these derivatives to zero, we obtain the estimates of $\mu$ and $\delta_i$:
+
+$$ \label{eq:anova1-repara-rss-der-mu-zero}
+\begin{split}
+0 &= 2 n \hat{\mu} + 2 \sum_{i=1}^{k} n_i \delta_i - 2 \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \\
+\hat{\mu} &= \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} - \sum_{i=1}^{k} \frac{n_i}{n} \delta_i \\
+&\overset{\eqref{eq:anova1-constr}}{=} \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \\
+&= \bar{y}
+\end{split}
+$$
+
+$$ \label{eq:anova1-repara-rss-der-delta-zero}
+\begin{split}
+0 &= 2 n_i \hat{\mu} + 2 n_i \hat{\delta}_i - 2 \sum_{j=1}^{n_i} y_{ij} \\
+\hat{\delta}_i &= \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} - \hat{\mu} \\
+&\overset{\eqref{eq:anova1-repara-rss-der-mu-zero}}{=} \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} - \frac{1}{n} \sum_{i=1}^{k} \sum_{j=1}^{n_i} y_{ij} \\
+&= \bar{y}_i - \bar{y} \; .
 \end{split}
 $$
 

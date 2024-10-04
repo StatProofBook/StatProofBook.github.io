@@ -476,3 +476,5 @@ title: "Proof by Number"
 | P468 | mean-wlln | [Weak law of large numbers](/P/mean-wlln) | JoramSoch | 2024-09-13 |
 | P469 | mean-mse | [The expected value minimizes the mean squared error](/P/mean-mse) | salbalkus | 2024-09-13 |
 | P470 | ind-self | [Self-independence of random event](/P/ind-self) | JoramSoch | 2024-09-20 |
+| P471 | med-mae | [The median minimizes the mean absolute error](/P/med-mae) | salbalkus | 2024-09-23 |
+| P472 | corr-ind | [Independent random variables are uncorrelated](/P/corr-ind) | JoramSoch | 2024-09-27 |

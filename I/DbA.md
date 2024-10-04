@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (187 definitions)
+### JoramSoch (188 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -136,6 +136,7 @@ title: "Definition by Author"
 - [One-tailed and two-tailed test](/D/test-tail)
 - [One-way analysis of variance](/D/anova1)
 - [p-value](/D/pval)
+- [Parameter](/D/para)
 - [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
