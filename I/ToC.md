@@ -70,6 +70,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.4. *[Conditional distribution](/D/dist-cond)* <br>
    &emsp;&ensp; 1.5.5. *[Sampling distribution](/D/dist-samp)* <br>
    &emsp;&ensp; 1.5.6. *[Statistical parameter](/D/para)* <br>
+   &emsp;&ensp; 1.5.7. *[Degrees of freedom](/D/dof)* <br>
    
    <p id="Probability mass function"></p>
    1.6. Probability mass function <br>
@@ -484,6 +485,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.25. **[Maximum entropy distribution](/P/norm-maxent)** <br>
    &emsp;&ensp; 3.2.26. **[Linear combination of independent normals](/P/norm-lincomb)** <br>
    &emsp;&ensp; 3.2.27. **[Normal and uncorrelated does not imply independent](/P/norm-corrind)** <br>
+   &emsp;&ensp; 3.2.28. **[Marginally normal does not imply jointly normal](/P/norm-margjoint)** <br>
    
    <p id="t-distribution"></p>
    3.3. t-distribution <br>
