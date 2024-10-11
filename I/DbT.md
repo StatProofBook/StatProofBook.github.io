@@ -241,6 +241,7 @@ title: "Definition by Topic"
 - [Standard normal distribution](/D/snorm)
 - [Standard uniform distribution](/D/suni)
 - [Standardized moment](/D/mom-stand)
+- [Statistic](/D/stat)
 - [Statistical hypothesis](/D/hyp)
 - [Statistical hypothesis test](/D/test)
 - [Statistical independence](/D/ind)

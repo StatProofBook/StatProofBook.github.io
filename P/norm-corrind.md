@@ -47,7 +47,7 @@ p(V=0)  = p(V=1)  = \frac{1}{2}
 p(W=-1) = p(W=+1) = \frac{1}{2} \; .
 $$
 
-Moreover, let $X$ follow a [standard normal distribution](/D/snorm) and let $Y$ be defined as a transformation of $X$ and $W$:
+Moreover, let $X$ follow a [standard normal distribution](/D/snorm) and let $Y$ be defined as a combination of $X$ and $W$:
 
 $$ \label{eq:X-Y}
 \begin{split}
