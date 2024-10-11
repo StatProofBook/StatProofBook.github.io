@@ -81,7 +81,7 @@ $$
 [follows a univariate normal distribution](/P/bvn-lincomb):
 
 $$ \label{eq:bvn-lincomb}
-Z \sim \mathcal{N}\left( a \mu_1 + b \mu_2, a^2 \sigma_1^2 + 2 a b \sigma_{12} + b^2 + \sigma_2^2 \right) \; .
+Z \sim \mathcal{N}\left( a \mu_1 + b \mu_2, a^2 \sigma_1^2 + 2 a b \sigma_{12} + b^2 \sigma_2^2 \right) \; .
 $$
 
 Consider the sum of $X$ and $Y$ defined by \eqref{eq:X-Y}:
