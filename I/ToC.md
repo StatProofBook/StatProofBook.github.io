@@ -68,9 +68,10 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.2. *[Joint distribution](/D/dist-joint)* <br>
    &emsp;&ensp; 1.5.3. *[Marginal distribution](/D/dist-marg)* <br>
    &emsp;&ensp; 1.5.4. *[Conditional distribution](/D/dist-cond)* <br>
-   &emsp;&ensp; 1.5.5. *[Sampling distribution](/D/dist-samp)* <br>
-   &emsp;&ensp; 1.5.6. *[Statistical parameter](/D/para)* <br>
-   &emsp;&ensp; 1.5.7. *[Degrees of freedom](/D/dof)* <br>
+   &emsp;&ensp; 1.5.5. *[Unimodal vs. multimodal distribution](/D/dist-uni)* <br>
+   &emsp;&ensp; 1.5.6. *[Sampling distribution](/D/dist-samp)* <br>
+   &emsp;&ensp; 1.5.7. *[Statistical parameter](/D/para)* <br>
+   &emsp;&ensp; 1.5.8. *[Degrees of freedom](/D/dof)* <br>
    
    <p id="Probability mass function"></p>
    1.6. Probability mass function <br>
@@ -591,17 +592,18 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.4. *[Bivariate normal distribution](/D/bvn)* <br>
    &emsp;&ensp; 4.1.5. **[Probability density function of the bivariate normal distribution](/P/bvn-pdf)** <br>
    &emsp;&ensp; 4.1.6. **[Probability density function in terms of correlation coefficient](/P/bvn-pdfcorr)** <br>
-   &emsp;&ensp; 4.1.7. **[Probability density function](/P/mvn-pdf)** <br>
-   &emsp;&ensp; 4.1.8. **[Moment-generating function](/P/mvn-mgf)** <br>
-   &emsp;&ensp; 4.1.9. **[Mean](/P/mvn-mean)** <br>
-   &emsp;&ensp; 4.1.10. **[Covariance](/P/mvn-cov)** <br>
-   &emsp;&ensp; 4.1.11. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.12. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.13. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.14. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.15. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.16. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.17. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.7. **[Linear combination of bivariate normal random variables](/P/bvn-lincomb)** <br>
+   &emsp;&ensp; 4.1.8. **[Probability density function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.9. **[Moment-generating function](/P/mvn-mgf)** <br>
+   &emsp;&ensp; 4.1.10. **[Mean](/P/mvn-mean)** <br>
+   &emsp;&ensp; 4.1.11. **[Covariance](/P/mvn-cov)** <br>
+   &emsp;&ensp; 4.1.12. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.13. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.14. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.15. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.16. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.17. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.18. **[Independence of products](/P/mvn-indprod)** <br>
    
    <p id="Multivariate t-distribution"></p>
    4.2. Multivariate t-distribution <br>
