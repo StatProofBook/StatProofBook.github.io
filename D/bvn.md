@@ -10,8 +10,8 @@ date: 2023-09-22 10:56:27
 title: "Bivariate normal distribution"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
-topic: "Multivariate normal distribution"
-definition: "Bivariate normal distribution"
+topic: "Bivariate normal distribution"
+definition: "Definition"
 
 sources:
   - authors: "Wikipedia"

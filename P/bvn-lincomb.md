@@ -10,8 +10,8 @@ date: 2024-10-25 11:59:37
 title: "Linear combination of bivariate normal random variables"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
-topic: "Multivariate normal distribution"
-theorem: "Linear combination of bivariate normal random variables"
+topic: "Bivariate normal distribution"
+theorem: "Linear combination"
 
 sources:
   - authors: "Wikipedia"

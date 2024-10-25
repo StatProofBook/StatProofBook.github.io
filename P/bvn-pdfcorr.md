@@ -10,7 +10,7 @@ date: 2023-09-29 09:45:10
 title: "Probability density function of the bivariate normal distribution in terms of correlation coefficient"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
-topic: "Multivariate normal distribution"
+topic: "Bivariate normal distribution"
 theorem: "Probability density function in terms of correlation coefficient"
 
 sources:
