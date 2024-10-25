@@ -68,9 +68,10 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.2. *[Joint distribution](/D/dist-joint)* <br>
    &emsp;&ensp; 1.5.3. *[Marginal distribution](/D/dist-marg)* <br>
    &emsp;&ensp; 1.5.4. *[Conditional distribution](/D/dist-cond)* <br>
-   &emsp;&ensp; 1.5.5. *[Sampling distribution](/D/dist-samp)* <br>
-   &emsp;&ensp; 1.5.6. *[Statistical parameter](/D/para)* <br>
-   &emsp;&ensp; 1.5.7. *[Degrees of freedom](/D/dof)* <br>
+   &emsp;&ensp; 1.5.5. *[Unimodal vs. multimodal distribution](/D/dist-uni)* <br>
+   &emsp;&ensp; 1.5.6. *[Sampling distribution](/D/dist-samp)* <br>
+   &emsp;&ensp; 1.5.7. *[Statistical parameter](/D/para)* <br>
+   &emsp;&ensp; 1.5.8. *[Degrees of freedom](/D/dof)* <br>
    
    <p id="Probability mass function"></p>
    1.6. Probability mass function <br>
