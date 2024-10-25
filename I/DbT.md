@@ -56,6 +56,7 @@ title: "Definition by Topic"
 
 - [Data](/D/data)
 - [Definition Template](/D/-temp-)
+- [Degrees of freedom](/D/dof)
 - [Deviance](/D/dev)
 - [Deviance information criterion](/D/dic)
 - [Differential cross-entropy](/D/dent-cross)

@@ -232,6 +232,7 @@ title: "Proof by Topic"
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of the joint likelihood](/P/ml-jl)
+- [Marginally normal does not imply jointly normal](/P/norm-margjoint)
 - [Maximum likelihood estimation can result in biased estimates](/P/mle-bias)
 - [Maximum likelihood estimation for binomial observations](/P/bin-mle)
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)

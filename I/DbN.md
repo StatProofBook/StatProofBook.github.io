@@ -212,3 +212,4 @@ title: "Definition by Number"
 | D203 | data | [Data](/D/data) | JoramSoch | 2024-09-20 |
 | D204 | para | [Parameter](/D/para) | JoramSoch | 2024-09-27 |
 | D205 | stat | [Statistic](/D/stat) | JoramSoch | 2024-10-04 |
+| D206 | dof | [Degrees of freedom](/D/dof) | JoramSoch | 2024-10-11 |
