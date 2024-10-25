@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (190 definitions)
+### JoramSoch (191 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -198,6 +198,7 @@ title: "Definition by Author"
 - [Two-way analysis of variance](/D/anova2)
 - [Uniform and non-uniform prior distribution](/D/prior-uni)
 - [Uniform-prior log model evidence](/D/uplme)
+- [Unimodal and multimodal probability distribution](/D/dist-uni)
 - [Univariate and multivariate random variable](/D/rvar-uni)
 - [Univariate Gaussian](/D/ug)
 - [Univariate Gaussian with known variance](/D/ugkv)

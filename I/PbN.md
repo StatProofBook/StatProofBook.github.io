@@ -480,3 +480,4 @@ title: "Proof by Number"
 | P472 | corr-ind | [Independent random variables are uncorrelated](/P/corr-ind) | JoramSoch | 2024-09-27 |
 | P473 | norm-corrind | [Normally distributed and uncorrelated does not imply independent](/P/norm-corrind) | JoramSoch | 2024-10-04 |
 | P474 | norm-margjoint | [Marginally normal does not imply jointly normal](/P/norm-margjoint) | JoramSoch | 2024-10-11 |
+| P475 | bvn-lincomb | [Linear combination of bivariate normal random variables](/P/bvn-lincomb) | JoramSoch | 2024-10-25 |
