@@ -481,3 +481,5 @@ title: "Proof by Number"
 | P473 | norm-corrind | [Normally distributed and uncorrelated does not imply independent](/P/norm-corrind) | JoramSoch | 2024-10-04 |
 | P474 | norm-margjoint | [Marginally normal does not imply jointly normal](/P/norm-margjoint) | JoramSoch | 2024-10-11 |
 | P475 | bvn-lincomb | [Linear combination of bivariate normal random variables](/P/bvn-lincomb) | JoramSoch | 2024-10-25 |
+| P476 | bvn-mi | [Mutual information of the bivariate normal distribution](/P/bvn-mi) | JoramSoch | 2024-11-01 |
+| P477 | mvn-mi | [Mutual information of the multivariate normal distribution](/P/mvn-mi) | JoramSoch | 2024-11-01 |

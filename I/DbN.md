@@ -214,3 +214,4 @@ title: "Definition by Number"
 | D205 | stat | [Statistic](/D/stat) | JoramSoch | 2024-10-04 |
 | D206 | dof | [Degrees of freedom](/D/dof) | JoramSoch | 2024-10-11 |
 | D207 | dist-uni | [Unimodal and multimodal probability distribution](/D/dist-uni) | JoramSoch | 2024-10-25 |
+| D208 | est | [Estimand, estimator and estimate](/D/est) | JoramSoch | 2024-11-01 |

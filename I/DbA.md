@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (191 definitions)
+### JoramSoch (192 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -65,6 +65,7 @@ title: "Definition by Author"
 - [Empirical Bayes](/D/eb)
 - [Empirical Bayes prior distribution](/D/prior-eb)
 - [Empirical Bayesian log model evidence](/D/eblme)
+- [Estimand, estimator and estimate](/D/est)
 - [Estimation matrix](/D/emat)
 - [Event space](/D/eve-spc)
 - [Exceedance probability](/D/prob-exc)

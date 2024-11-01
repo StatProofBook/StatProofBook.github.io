@@ -302,6 +302,8 @@ title: "Proof by Topic"
 - [Multiple linear regression is a special case of the general linear model](/P/mlr-glm)
 - [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn)
 - [Mutual information of dependent and independent variables in the general linear model](/P/glm-mi)
+- [Mutual information of the bivariate normal distribution](/P/bvn-mi)
+- [Mutual information of the multivariate normal distribution](/P/mvn-mi)
 
 ### N
 

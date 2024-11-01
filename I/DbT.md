@@ -73,6 +73,7 @@ title: "Definition by Topic"
 - [Empirical Bayes prior distribution](/D/prior-eb)
 - [Empirical Bayesian log model evidence](/D/eblme)
 - [Encompassing model](/D/encm)
+- [Estimand, estimator and estimate](/D/est)
 - [Estimation matrix](/D/emat)
 - [Event space](/D/eve-spc)
 - [ex-Gaussian distribution](/D/exg)
