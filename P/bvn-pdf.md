@@ -10,8 +10,8 @@ date: 2023-09-22 12:59:11
 title: "Probability density function of the bivariate normal distribution"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
-topic: "Multivariate normal distribution"
-theorem: "Probability density function of the bivariate normal distribution"
+topic: "Bivariate normal distribution"
+theorem: "Probability density function"
 
 sources:
 

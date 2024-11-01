@@ -79,7 +79,7 @@ $$ \label{eq:mean-samp-dist}
 \end{split}
 $$
 
-Again employing the linear combination theorem, the distribution of $z = [(\bar{y}_1-\bar{y}_2)-\mu_\Delta]/\sigma_\Delta$ becomes
+Again employing the linear combination theorem, the distribution of $z = \left[ (\bar{y}\_1-\bar{y}\_2) - \mu_{\Delta} \right] / \sigma_{\Delta}$ becomes
 
 $$ \label{eq:z-dist-s1}
 z = \frac{(\bar{y}_1-\bar{y}_2)-\mu_\Delta}{\sigma_\Delta} \sim \mathcal{N}\left( \frac{(\mu_1-\mu_2)-\mu_\Delta}{\sigma_\Delta}, \left(\frac{1}{\sigma_\Delta}\right)^2 \sigma_\Delta^2 \right) = \mathcal{N}\left( \frac{(\mu_1-\mu_2)-\mu_\Delta}{\sigma_\Delta}, 1 \right)

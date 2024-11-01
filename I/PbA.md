@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (438 proofs)
+### JoramSoch (439 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -171,6 +171,7 @@ title: "Proof by Author"
 - [Law of total expectation](/P/mean-tot)
 - [Law of total probability](/P/prob-tot)
 - [Law of total variance](/P/var-tot)
+- [Linear combination of bivariate normal random variables](/P/bvn-lincomb)
 - [Linear combination of independent normal random variables](/P/norm-lincomb)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Linear transformation theorem for the moment-generating function](/P/mgf-ltt)

@@ -88,7 +88,7 @@ $$ \label{eq:y-cvals}
 \begin{split}
 \alpha &\geq \mathrm{Pr}(y \in \left\lbrace 0, \ldots, y_1 \right\rbrace \cup \left\lbrace y_2, \ldots, n \right\rbrace \vert H_0) \\
 &= \mathrm{Pr}(y \leq y_1 \vert H_0) + \mathrm{Pr}(y \geq y_2 \vert H_0) \\
-&= \mathrm{Pr}(y \leq y_1 \vert H_0) + (1-\mathrm{Pr}(y \leq (y_2-1) \vert H_0) \; .
+&= \mathrm{Pr}(y \leq y_1 \vert H_0) + \left( 1 - \mathrm{Pr}(y \leq (y_2-1) \vert H_0) \right) \; .
 \end{split}
 $$
 

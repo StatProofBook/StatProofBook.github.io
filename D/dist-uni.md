@@ -11,7 +11,7 @@ title: "Unimodal and multimodal probability distribution"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Probability distributions"
-definition: "Unimodal vs. multimodal"
+definition: "Unimodal vs. multimodal distribution"
 
 sources:
   - authors: "Weisstein, Eric W."

@@ -589,47 +589,50 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.1. *[Definition](/D/mvn)* <br>
    &emsp;&ensp; 4.1.2. **[Special case of matrix-normal distribution](/P/mvn-matn)** <br>
    &emsp;&ensp; 4.1.3. **[Relationship to chi-squared distribution](/P/mvn-chi2)** <br>
-   &emsp;&ensp; 4.1.4. *[Bivariate normal distribution](/D/bvn)* <br>
-   &emsp;&ensp; 4.1.5. **[Probability density function of the bivariate normal distribution](/P/bvn-pdf)** <br>
-   &emsp;&ensp; 4.1.6. **[Probability density function in terms of correlation coefficient](/P/bvn-pdfcorr)** <br>
-   &emsp;&ensp; 4.1.7. **[Linear combination of bivariate normal random variables](/P/bvn-lincomb)** <br>
-   &emsp;&ensp; 4.1.8. **[Probability density function](/P/mvn-pdf)** <br>
-   &emsp;&ensp; 4.1.9. **[Moment-generating function](/P/mvn-mgf)** <br>
-   &emsp;&ensp; 4.1.10. **[Mean](/P/mvn-mean)** <br>
-   &emsp;&ensp; 4.1.11. **[Covariance](/P/mvn-cov)** <br>
-   &emsp;&ensp; 4.1.12. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.13. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.14. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.15. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.16. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.17. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.18. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.4. **[Probability density function](/P/mvn-pdf)** <br>
+   &emsp;&ensp; 4.1.5. **[Moment-generating function](/P/mvn-mgf)** <br>
+   &emsp;&ensp; 4.1.6. **[Mean](/P/mvn-mean)** <br>
+   &emsp;&ensp; 4.1.7. **[Covariance](/P/mvn-cov)** <br>
+   &emsp;&ensp; 4.1.8. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.9. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.10. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.11. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.12. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.13. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.14. **[Independence of products](/P/mvn-indprod)** <br>
+   
+   <p id="Bivariate normal distribution"></p>
+   4.2. Bivariate normal distribution <br>
+   &emsp;&ensp; 4.2.1. *[Definition](/D/bvn)* <br>
+   &emsp;&ensp; 4.2.2. **[Probability density function](/P/bvn-pdf)** <br>
+   &emsp;&ensp; 4.2.3. **[Probability density function in terms of correlation coefficient](/P/bvn-pdfcorr)** <br>
+   &emsp;&ensp; 4.2.4. **[Linear combination](/P/bvn-lincomb)** <br>
    
    <p id="Multivariate t-distribution"></p>
-   4.2. Multivariate t-distribution <br>
-   &emsp;&ensp; 4.2.1. *[Definition](/D/mvt)* <br>
-   &emsp;&ensp; 4.2.2. **[Probability density function](/P/mvt-pdf)** <br>
-   &emsp;&ensp; 4.2.3. **[Relationship to F-distribution](/P/mvt-f)** <br>
+   4.3. Multivariate t-distribution <br>
+   &emsp;&ensp; 4.3.1. *[Definition](/D/mvt)* <br>
+   &emsp;&ensp; 4.3.2. **[Probability density function](/P/mvt-pdf)** <br>
+   &emsp;&ensp; 4.3.3. **[Relationship to F-distribution](/P/mvt-f)** <br>
    
    <p id="Normal-gamma distribution"></p>
-   4.3. Normal-gamma distribution <br>
-   &emsp;&ensp; 4.3.1. *[Definition](/D/ng)* <br>
-   &emsp;&ensp; 4.3.2. **[Special case of normal-Wishart distribution](/P/ng-nw)** <br>
-   &emsp;&ensp; 4.3.3. **[Probability density function](/P/ng-pdf)** <br>
-   &emsp;&ensp; 4.3.4. **[Mean](/P/ng-mean)** <br>
-   &emsp;&ensp; 4.3.5. **[Covariance](/P/ng-cov)** <br>
-   &emsp;&ensp; 4.3.6. **[Differential entropy](/P/ng-dent)** <br>
-   &emsp;&ensp; 4.3.7. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
-   &emsp;&ensp; 4.3.8. **[Marginal distributions](/P/ng-marg)** <br>
-   &emsp;&ensp; 4.3.9. **[Conditional distributions](/P/ng-cond)** <br>
-   &emsp;&ensp; 4.3.10. **[Drawing samples](/P/ng-samp)** <br>
+   4.4. Normal-gamma distribution <br>
+   &emsp;&ensp; 4.4.1. *[Definition](/D/ng)* <br>
+   &emsp;&ensp; 4.4.2. **[Special case of normal-Wishart distribution](/P/ng-nw)** <br>
+   &emsp;&ensp; 4.4.3. **[Probability density function](/P/ng-pdf)** <br>
+   &emsp;&ensp; 4.4.4. **[Mean](/P/ng-mean)** <br>
+   &emsp;&ensp; 4.4.5. **[Covariance](/P/ng-cov)** <br>
+   &emsp;&ensp; 4.4.6. **[Differential entropy](/P/ng-dent)** <br>
+   &emsp;&ensp; 4.4.7. **[Kullback-Leibler divergence](/P/ng-kl)** <br>
+   &emsp;&ensp; 4.4.8. **[Marginal distributions](/P/ng-marg)** <br>
+   &emsp;&ensp; 4.4.9. **[Conditional distributions](/P/ng-cond)** <br>
+   &emsp;&ensp; 4.4.10. **[Drawing samples](/P/ng-samp)** <br>
    
    <p id="Dirichlet distribution"></p>
-   4.4. Dirichlet distribution <br>
-   &emsp;&ensp; 4.4.1. *[Definition](/D/dir)* <br>
-   &emsp;&ensp; 4.4.2. **[Probability density function](/P/dir-pdf)** <br>
-   &emsp;&ensp; 4.4.3. **[Kullback-Leibler divergence](/P/dir-kl)** <br>
-   &emsp;&ensp; 4.4.4. **[Exceedance probabilities](/P/dir-ep)** <br>
+   4.5. Dirichlet distribution <br>
+   &emsp;&ensp; 4.5.1. *[Definition](/D/dir)* <br>
+   &emsp;&ensp; 4.5.2. **[Probability density function](/P/dir-pdf)** <br>
+   &emsp;&ensp; 4.5.3. **[Kullback-Leibler divergence](/P/dir-kl)** <br>
+   &emsp;&ensp; 4.5.4. **[Exceedance probabilities](/P/dir-ep)** <br>
 
 5. <p id="Matrix-variate continuous distributions">Matrix-variate continuous distributions</p>
    

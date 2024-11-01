@@ -40,7 +40,7 @@ $$ \label{eq:exc}
 p(A,B) = 0 \; .
 $$
 
-The [addition law of probability](/D/prob-marg) states that
+The [addition law of probability](/D/prob-add) states that
 
 $$ \label{eq:prob-add-set}
 p(A \cup B) = p(A) + p(B) - p(A \cap B)
