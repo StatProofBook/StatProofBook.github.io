@@ -276,15 +276,19 @@ title: "Table of Contents"
 
 3. <p id="Estimation theory">Estimation theory</p>
    
+   <p id="Basic concepts of estimation"></p>
+   3.1. Basic concepts of estimation <br>
+   &emsp;&ensp; 3.1.1. *[Estimator](/D/est)* <br>
+   
    <p id="Point estimates"></p>
-   3.1. Point estimates <br>
-   &emsp;&ensp; 3.1.1. *[Mean squared error](/D/mse)* <br>
-   &emsp;&ensp; 3.1.2. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
+   3.2. Point estimates <br>
+   &emsp;&ensp; 3.2.1. *[Mean squared error](/D/mse)* <br>
+   &emsp;&ensp; 3.2.2. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
    
    <p id="Interval estimates"></p>
-   3.2. Interval estimates <br>
-   &emsp;&ensp; 3.2.1. *[Confidence interval](/D/ci)* <br>
-   &emsp;&ensp; 3.2.2. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
+   3.3. Interval estimates <br>
+   &emsp;&ensp; 3.3.1. *[Confidence interval](/D/ci)* <br>
+   &emsp;&ensp; 3.3.2. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
 
 4. <p id="Frequentist statistics">Frequentist statistics</p>
    
@@ -594,19 +598,21 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.6. **[Mean](/P/mvn-mean)** <br>
    &emsp;&ensp; 4.1.7. **[Covariance](/P/mvn-cov)** <br>
    &emsp;&ensp; 4.1.8. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.9. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.10. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.11. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.12. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.13. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.14. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.9. **[Mutual information](/P/mvn-mi)** <br>
+   &emsp;&ensp; 4.1.10. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.11. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.12. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.13. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.14. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.15. **[Independence of products](/P/mvn-indprod)** <br>
    
    <p id="Bivariate normal distribution"></p>
    4.2. Bivariate normal distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/bvn)* <br>
    &emsp;&ensp; 4.2.2. **[Probability density function](/P/bvn-pdf)** <br>
    &emsp;&ensp; 4.2.3. **[Probability density function in terms of correlation coefficient](/P/bvn-pdfcorr)** <br>
-   &emsp;&ensp; 4.2.4. **[Linear combination](/P/bvn-lincomb)** <br>
+   &emsp;&ensp; 4.2.4. **[Mutual information](/P/bvn-mi)** <br>
+   &emsp;&ensp; 4.2.5. **[Linear combination](/P/bvn-lincomb)** <br>
    
    <p id="Multivariate t-distribution"></p>
    4.3. Multivariate t-distribution <br>
