@@ -104,6 +104,6 @@ $$ \label{eq:bvn-mi}
 &= \frac{1}{2} \ln \left[ \frac{\sigma_1^2 \sigma_2^2}{\sigma_1^2 \sigma_2^2 - (\rho \, \sigma_1 \sigma_2)^2} \right] \\
 &= \frac{1}{2} \ln \left[ \frac{\sigma_1^2 \sigma_2^2}{\sigma_1^2 \sigma_2^2 (1-\rho^2)} \right] \\
 &= \frac{1}{2} \ln \left[ \frac{1}{1-\rho^2} \right] \\
-&= -\frac{1}{2} \ln \ln \left( 1-\rho^2 \right) \; .
+&= -\frac{1}{2} \ln \left( 1-\rho^2 \right) \; .
 \end{split}
 $$
