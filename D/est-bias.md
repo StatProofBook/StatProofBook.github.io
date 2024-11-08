@@ -29,6 +29,6 @@ username: "JoramSoch"
 
 **Definition:** Let $\hat{\theta}: \mathcal{Y} \rightarrow \Theta$ be an [estimator](/D/est) of a [parameter](/D/para) $\theta \in \Theta$ from [data](/D/data) $y \in \mathcal{Y}$. Then,
 
-* $\hat{\theta}$ is called an unbiased estimator when its [expected value](/D/mean) is equal to the parameter that it is estimating: $\mathrm{E}_{\hat{\theta}}\left[ \hat{\theta} \right] = \theta$, where the expectation is calculated over all possible samples $y$ leading to values of $\hat{\theta}$.
+* $\hat{\theta}$ is called an unbiased estimator when its [expected value](/D/mean) is equal to the parameter that it is estimating: $\mathrm{E}_{\hat{\theta}}(\hat{\theta}) = \theta$, where the expectation is calculated over all possible samples $y$ leading to values of $\hat{\theta}$.
 
-* $\hat{\theta}$ is called a biased estimator otherwise, i.e. when $\mathrm{E}_{\hat{\theta}}\left[ \hat{\theta} \right] \neq \theta$.
+* $\hat{\theta}$ is called a biased estimator otherwise, i.e. when $\mathrm{E}_{\hat{\theta}}(\hat{\theta}) \neq \theta$.

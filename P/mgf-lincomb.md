@@ -38,7 +38,7 @@ where $a_1, \ldots, a_n$ are $n$ real numbers.
 
 **Proof:** The [moment-generating function of a random variable](/D/mgf) $X_i$ is
 
-$$ \label{eq:mfg-vect}
+$$ \label{eq:mfg}
 M_{X_i}(t) = \mathrm{E} \left( \exp \left[ t X_i \right] \right)
 $$
 
