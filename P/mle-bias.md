@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** [Maximum likelihood estimation](/D/mle) can result in [biased estimates](/D/est-unb) of model parameters, i.e. estimates whose long-term expected value is unequal to the quantities they estimate:
+**Theorem:** [Maximum likelihood estimation](/D/mle) can result in [biased estimates](/D/est-bias) of model parameters, i.e. estimates whose long-term expected value is unequal to the quantities they estimate:
 
 $$ \label{eq:aicc-aic}
 \mathrm{E}\left[ \hat{\theta}_\mathrm{MLE} \right] = \mathrm{E}\left[ \operatorname*{arg\,max}_\theta \mathrm{LL}_m(\theta) \right] \neq \theta \; .

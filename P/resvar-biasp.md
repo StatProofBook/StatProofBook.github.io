@@ -47,7 +47,7 @@ $$ \label{eq:beta-mle}
 \hat{\beta} = (X^\mathrm{T} V^{-1} X)^{-1} X^\mathrm{T} V^{-1} y
 $$
 
-2) and $\hat{\sigma}^2$ is a [biased estimator](/D/est-unb) of $\sigma^2$
+2) and $\hat{\sigma}^2$ is a [biased estimator](/D/est-bias) of $\sigma^2$
 
 $$ \label{eq:resvar-var}
 \mathrm{E}\left[ \hat{\sigma}^2 \right] \neq \sigma^2 \; ,
