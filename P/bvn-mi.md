@@ -37,7 +37,7 @@ $$
 Then, the [mutual information](/D/mi) of $X$ and $Y$ is
 
 $$ \label{eq:bvn-lincomb}
-\mathrm{I}(X,Y) = -\frac{1}{2} \ln (1-\rho^2)
+\mathrm{I}(X,Y) = -\frac{1}{2} \ln \left( 1-\rho^2 \right)
 $$
 
 where $\rho$ is the [correlation](/D/corr) of $X$ and $Y$.
@@ -49,7 +49,7 @@ $$ \label{eq:cmi-mjde}
 \mathrm{I}(X,Y) = \mathrm{h}(X) + \mathrm{h}(Y) - \mathrm{h}(X,Y) \; .
 $$
 
-The [marginal distributions of the multivariate normal distribution are also multivariate normal]
+The [marginal distributions of the multivariate normal distribution are also multivariate normal](/P/mvn-marg)
 
 $$ \label{eq:mvn-marg}
 \left[ \begin{matrix} X_1 \\ X_2 \end{matrix} \right] \sim
@@ -104,6 +104,6 @@ $$ \label{eq:bvn-mi}
 &= \frac{1}{2} \ln \left[ \frac{\sigma_1^2 \sigma_2^2}{\sigma_1^2 \sigma_2^2 - (\rho \, \sigma_1 \sigma_2)^2} \right] \\
 &= \frac{1}{2} \ln \left[ \frac{\sigma_1^2 \sigma_2^2}{\sigma_1^2 \sigma_2^2 (1-\rho^2)} \right] \\
 &= \frac{1}{2} \ln \left[ \frac{1}{1-\rho^2} \right] \\
-&= -\frac{1}{2} \ln (1-\rho^2) \; .
+&= -\frac{1}{2} \ln \left( 1-\rho^2 \right) \; .
 \end{split}
 $$

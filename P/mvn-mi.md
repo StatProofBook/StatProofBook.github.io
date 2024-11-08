@@ -49,7 +49,7 @@ $$ \label{eq:cmi-mjde}
 \mathrm{I}(X,Y) = \mathrm{h}(X) + \mathrm{h}(Y) - \mathrm{h}(X,Y) \; .
 $$
 
-The [marginal distributions of the multivariate normal distribution are also multivariate normal]
+The [marginal distributions of the multivariate normal distribution are also multivariate normal](/P/mvn-marg)
 
 $$ \label{eq:mvn-marg}
 \left[ \begin{matrix} X_1 \\ X_2 \end{matrix} \right] \sim

@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (439 proofs)
+### JoramSoch (441 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -260,6 +260,8 @@ title: "Proof by Author"
 - [Multiple linear regression is a special case of the general linear model](/P/mlr-glm)
 - [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn)
 - [Mutual information of dependent and independent variables in the general linear model](/P/glm-mi)
+- [Mutual information of the bivariate normal distribution](/P/bvn-mi)
+- [Mutual information of the multivariate normal distribution](/P/mvn-mi)
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
 - [Non-invariance of the differential entropy under change of variables](/P/dent-noninv)
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
