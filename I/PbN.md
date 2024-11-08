@@ -483,3 +483,4 @@ title: "Proof by Number"
 | P475 | bvn-lincomb | [Linear combination of bivariate normal random variables](/P/bvn-lincomb) | JoramSoch | 2024-10-25 |
 | P476 | bvn-mi | [Mutual information of the bivariate normal distribution](/P/bvn-mi) | JoramSoch | 2024-11-01 |
 | P477 | mvn-mi | [Mutual information of the multivariate normal distribution](/P/mvn-mi) | JoramSoch | 2024-11-01 |
+| P478 | mgf-sumind | [Moment-generating function of a sum of independent random variables](/P/mgf-sumind) | JoramSoch | 2024-11-08 |

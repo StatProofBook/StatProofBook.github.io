@@ -127,7 +127,6 @@ title: "Proofs without Source"
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the multivariate t-distribution](/P/mvt-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
-- [Probability density function of the normal-Wishart distribution](/P/nw-pdf)
 - [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Probability mass function of the Bernoulli distribution](/P/bern-pmf)
 - [Probability mass function of the binomial distribution](/P/bin-pmf)

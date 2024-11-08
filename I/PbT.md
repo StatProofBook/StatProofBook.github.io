@@ -286,6 +286,7 @@ title: "Proof by Topic"
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)
 - [Moment-generating function of a function of a random variable](/P/mgf-fct)
+- [Moment-generating function of a sum of independent random variables](/P/mgf-sumind)
 - [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
 - [Moment-generating function of the beta distribution](/P/beta-mgf)
 - [Moment-generating function of the ex-Gaussian distribution](/P/exg-mgf)
