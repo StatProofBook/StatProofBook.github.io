@@ -112,14 +112,15 @@ title: "Table of Contents"
    &emsp;&ensp; 1.9.3. *[Characteristic function](/D/cf)* <br>
    &emsp;&ensp; 1.9.4. **[Characteristic function of arbitrary function](/P/cf-fct)** <br>
    &emsp;&ensp; 1.9.5. *[Moment-generating function](/D/mgf)* <br>
-   &emsp;&ensp; 1.9.6. **[Moment-generating function of arbitrary function](/P/mgf-fct)** <br>
-   &emsp;&ensp; 1.9.7. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
-   &emsp;&ensp; 1.9.8. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
-   &emsp;&ensp; 1.9.9. *[Probability-generating function](/D/pgf)* <br>
-   &emsp;&ensp; 1.9.10. **[Probability-generating function in terms of expected value](/P/pgf-mean)** <br>
-   &emsp;&ensp; 1.9.11. **[Probability-generating function of zero](/P/pgf-zero)** <br>
-   &emsp;&ensp; 1.9.12. **[Probability-generating function of one](/P/pgf-one)** <br>
-   &emsp;&ensp; 1.9.13. *[Cumulant-generating function](/D/cgf)* <br>
+   &emsp;&ensp; 1.9.6. **[Moment-generating function of sum of independents](/P/mgf-sumind)** <br>
+   &emsp;&ensp; 1.9.7. **[Moment-generating function of arbitrary function](/P/mgf-fct)** <br>
+   &emsp;&ensp; 1.9.8. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
+   &emsp;&ensp; 1.9.9. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
+   &emsp;&ensp; 1.9.10. *[Probability-generating function](/D/pgf)* <br>
+   &emsp;&ensp; 1.9.11. **[Probability-generating function in terms of expected value](/P/pgf-mean)** <br>
+   &emsp;&ensp; 1.9.12. **[Probability-generating function of zero](/P/pgf-zero)** <br>
+   &emsp;&ensp; 1.9.13. **[Probability-generating function of one](/P/pgf-one)** <br>
+   &emsp;&ensp; 1.9.14. *[Cumulant-generating function](/D/cgf)* <br>
    
    <p id="Expected value"></p>
    1.10. Expected value <br>
@@ -279,6 +280,7 @@ title: "Table of Contents"
    <p id="Basic concepts of estimation"></p>
    3.1. Basic concepts of estimation <br>
    &emsp;&ensp; 3.1.1. *[Estimator](/D/est)* <br>
+   &emsp;&ensp; 3.1.2. *[Biased vs. unbiased](/D/est-bias)* <br>
    
    <p id="Point estimates"></p>
    3.2. Point estimates <br>
