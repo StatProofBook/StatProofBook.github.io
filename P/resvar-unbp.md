@@ -27,7 +27,7 @@ $$ \label{eq:mlr}
 y = X\beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \sigma^2 V) \; .
 $$
 
-An [unbiased estimator](/D/est-unb) of $\sigma^2$ is given by
+An [unbiased estimator](/D/est-bias) of $\sigma^2$ is given by
 
 $$ \label{eq:sigma-unb}
 \hat{\sigma}^2 = \frac{1}{n-p} (y-X\hat{\beta})^\mathrm{T} V^{-1} (y-X\hat{\beta})
@@ -46,7 +46,7 @@ $$ \label{eq:resvar-mle}
 \hat{\sigma}^2_{\mathrm{MLE}} = \frac{1}{n} (y-X\hat{\beta})^\mathrm{T} V^{-1} (y-X\hat{\beta})
 $$
 
-is a [biased estimator](/D/est-unb) in the sense that
+is a [biased estimator](/D/est-bias) in the sense that
 
 $$ \label{eq:resvar-bias}
 \mathbb{E}\left[ \hat{\sigma}^2_{\mathrm{MLE}} \right] = \frac{n-p}{n} \sigma^2 \; .
@@ -62,7 +62,7 @@ $$ \label{eq:resvar-bias-adj}
 \end{split}
 $$
 
-such that an [unbiased estimator](/D/est-unb) can be constructed as
+such that an [unbiased estimator](/D/est-bias) can be constructed as
 
 $$ \label{eq:resvar-unb-qed}
 \begin{split}

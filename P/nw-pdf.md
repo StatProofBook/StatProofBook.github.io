@@ -14,6 +14,12 @@ topic: "Normal-Wishart distribution"
 theorem: "Probability density function"
 
 sources:
+  - authors: "Bishop, Christopher M."
+    year: 2006
+    title: "Appendix B. Probability Distributions"
+    in: "Pattern Recognition for Machine Learning"
+    pages: "p. 690, eq. B.53"
+    url: "http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf"
 
 proof_id: "P323"
 shortcut: "nw-pdf"

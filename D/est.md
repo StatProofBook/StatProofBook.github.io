@@ -14,6 +14,12 @@ topic: "Basic concepts of estimation"
 definition: "Estimator"
 
 sources:
+  - authors: "Ostwald, Dirk"
+    year: 2023
+    title: "Punktschätzung"
+    in: "Wahrscheinlichkeitstheorie und Frequentistische Inferenz"
+    pages: "Einheit (9), Folie 7"
+    url: "https://www.ipsy.ovgu.de/ipsy_media/Methodenlehre+I/Wintersemester+2324/Wahrscheinlichkeitstheorie+und+Frequentistische+Inferenz/9_Punktsch%C3%A4tzung.pdf"
   - authors: "Wikipedia"
     year: 2024
     title: "Estimator"

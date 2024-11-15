@@ -19,6 +19,7 @@ title: "Definition by Topic"
 - [Beta-binomial data](/D/betabin-data)
 - [Beta-binomial distribution](/D/betabin)
 - [Beta-distributed data](/D/beta-data)
+- [Biased vs. unbiased estimator](/D/est-bias)
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
 - [Bivariate normal distribution](/D/bvn)

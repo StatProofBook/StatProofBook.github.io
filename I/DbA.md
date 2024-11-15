@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (192 definitions)
+### JoramSoch (193 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -24,6 +24,7 @@ title: "Definition by Author"
 - [Beta-binomial data](/D/betabin-data)
 - [Beta-binomial distribution](/D/betabin)
 - [Beta-distributed data](/D/beta-data)
+- [Biased vs. unbiased estimator](/D/est-bias)
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
 - [Bivariate normal distribution](/D/bvn)

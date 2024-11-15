@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (441 proofs)
+### JoramSoch (442 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -248,6 +248,7 @@ title: "Proof by Author"
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)
 - [Moment-generating function of a function of a random variable](/P/mgf-fct)
+- [Moment-generating function of a sum of independent random variables](/P/mgf-sumind)
 - [Moment-generating function of linear combination of independent random variables](/P/mgf-lincomb)
 - [Moment-generating function of the beta distribution](/P/beta-mgf)
 - [Moment-generating function of the gamma distribution](/P/gam-mgf)

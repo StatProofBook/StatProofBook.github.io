@@ -46,7 +46,7 @@ $$ \label{eq:mean-mle}
 \bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i
 $$
 
-2) and $\hat{\sigma}^2$ is a [biased estimator](/D/est-unb) of $\sigma^2$
+2) and $\hat{\sigma}^2$ is a [biased estimator](/D/est-bias) of $\sigma^2$
 
 $$ \label{eq:resvar-var}
 \mathrm{E}\left[ \hat{\sigma}^2 \right] \neq \sigma^2 \; ,
@@ -144,4 +144,4 @@ $$ \label{eq:E-resvar-mle-s3}
 \end{split}
 $$
 
-which proves the [bias](/D/est-unb) given by \eqref{eq:resvar-bias}.
+which proves the [bias](/D/est-bias) given by \eqref{eq:resvar-bias}.

@@ -39,7 +39,7 @@ $$
 2) and, if the two regressors are orthogonal to each other, they simplify to
 
 $$ \label{eq:mlr-ols-tr-orth}
-\hat{\beta}_1 = \frac{x_1^\mathrm{T} y}{x_1^\mathrm{T} x_1} \quad \text{and} \quad \hat{\beta}_2 = \frac{x_2^\mathrm{T} y}{x_2^\mathrm{T} x_2}, \quad \text{if} \quad x_1 \perp x_2 \; .
+\hat{\beta}_1 = \frac{x_1^\mathrm{T} y}{x_1^\mathrm{T} x_1} \quad \text{and} \quad \hat{\beta}_2 = \frac{x_2^\mathrm{T} y}{x_2^\mathrm{T} x_2} \; .
 $$
 
 

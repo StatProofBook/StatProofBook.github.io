@@ -48,7 +48,7 @@ $$ \label{eq:slr-ols-mean}
 \end{split}
 $$
 
-which means that the [ordinary least squares solution](/P/slr-ols) produces [unbiased estimators](/D/est-unb).
+which means that the [ordinary least squares solution](/P/slr-ols) produces [unbiased estimators](/D/est-bias).
 
 
 **Proof:** According to the simple linear regression model in \eqref{eq:slr}, the expectation of a single data point is

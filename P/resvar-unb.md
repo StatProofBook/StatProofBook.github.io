@@ -32,7 +32,7 @@ $$ \label{eq:ug}
 y_i \overset{\text{i.i.d.}}{\sim} \mathcal{N}(\mu, \sigma^2), \quad i = 1,\ldots,n \; .
 $$
 
-An [unbiased estimator](/D/est-unb) of $\sigma^2$ is given by
+An [unbiased estimator](/D/est-bias) of $\sigma^2$ is given by
 
 $$ \label{eq:resvar-unb}
 \hat{\sigma}^2_{\mathrm{unb}} = \frac{1}{n-1} \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2 \; .
@@ -45,7 +45,7 @@ $$ \label{eq:resvar-mle}
 \hat{\sigma}^2_{\mathrm{MLE}} = \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2
 $$
 
-is a [biased estimator](/D/est-unb) in the sense that
+is a [biased estimator](/D/est-bias) in the sense that
 
 $$ \label{eq:resvar-bias}
 \mathbb{E}\left[ \hat{\sigma}^2_{\mathrm{MLE}} \right] = \frac{n-1}{n} \sigma^2 \; .
@@ -61,7 +61,7 @@ $$ \label{eq:resvar-bias-adj}
 \end{split}
 $$
 
-such that an [unbiased estimator](/D/est-unb) can be constructed as
+such that an [unbiased estimator](/D/est-bias) can be constructed as
 
 $$ \label{eq:resvar-unb-qed}
 \begin{split}
