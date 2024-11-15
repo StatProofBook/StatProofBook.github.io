@@ -21,7 +21,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.3. *[Event space](/D/eve-spc)* <br>
    &emsp;&ensp; 1.1.4. *[Probability space](/D/prob-spc)* <br>
    &emsp;&ensp; 1.1.5. *[Measured data](/D/data)* <br>
-   &emsp;&ensp; 1.1.6. *[Sample statistic](/D/stat)* <br>
+   &emsp;&ensp; 1.1.6. *[Statistical sample](/D/samp)* <br>
+   &emsp;&ensp; 1.1.7. *[Sample statistic](/D/stat)* <br>
    
    <p id="Random variables"></p>
    1.2. Random variables <br>
@@ -545,6 +546,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.6.6. **[Median](/P/lognorm-med)** <br>
    &emsp;&ensp; 3.6.7. **[Mode](/P/lognorm-mode)** <br>
    &emsp;&ensp; 3.6.8. **[Variance](/P/lognorm-var)** <br>
+   &emsp;&ensp; 3.6.9. **[Product of independent log-normals](/P/lognorm-prodind)** <br>
    
    <p id="Chi-squared distribution"></p>
    3.7. Chi-squared distribution <br>
