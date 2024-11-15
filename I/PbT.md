@@ -506,6 +506,7 @@ title: "Proof by Topic"
 - [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr)
 - [The median minimizes the mean absolute error](/P/med-mae)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
+- [The product of independent log-normal random variables is a log-normal random variable](/P/lognorm-prodind)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
 - [The sum of residuals is zero in simple linear regression](/P/slr-ressum)

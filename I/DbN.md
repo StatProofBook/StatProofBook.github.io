@@ -216,3 +216,4 @@ title: "Definition by Number"
 | D207 | dist-uni | [Unimodal and multimodal probability distribution](/D/dist-uni) | JoramSoch | 2024-10-25 |
 | D208 | est | [Estimand, estimator and estimate](/D/est) | JoramSoch | 2024-11-01 |
 | D209 | est-bias | [Biased vs. unbiased estimator](/D/est-bias) | JoramSoch | 2024-11-08 |
+| D210 | samp | [Sample](/D/samp) | JoramSoch | 2024-11-15 |

@@ -484,3 +484,4 @@ title: "Proof by Number"
 | P476 | bvn-mi | [Mutual information of the bivariate normal distribution](/P/bvn-mi) | JoramSoch | 2024-11-01 |
 | P477 | mvn-mi | [Mutual information of the multivariate normal distribution](/P/mvn-mi) | JoramSoch | 2024-11-01 |
 | P478 | mgf-sumind | [Moment-generating function of a sum of independent random variables](/P/mgf-sumind) | JoramSoch | 2024-11-08 |
+| P479 | lognorm-prodind | [The product of independent log-normal random variables is a log-normal random variable](/P/lognorm-prodind) | JoramSoch | 2024-11-15 |

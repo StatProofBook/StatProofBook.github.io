@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (442 proofs)
+### JoramSoch (443 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -429,6 +429,7 @@ title: "Proof by Author"
 - [t-distribution is a special case of multivariate t-distribution](/P/t-mvt)
 - [t-test for multiple linear regression using contrast-based inference](/P/mlr-t)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
+- [The product of independent log-normal random variables is a log-normal random variable](/P/lognorm-prodind)
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
 - [The sum of residuals is zero in simple linear regression](/P/slr-ressum)

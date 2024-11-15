@@ -222,6 +222,7 @@ title: "Definition by Topic"
 
 ### S
 
+- [Sample](/D/samp)
 - [Sample correlation coefficient](/D/corr-samp)
 - [Sample correlation matrix](/D/corrmat-samp)
 - [Sample covariance](/D/cov-samp)
