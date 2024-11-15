@@ -33,7 +33,7 @@ $$ \label{eq:X-lognorm}
 X_i \sim \ln \mathcal{N}(\mu_i, \sigma_i^2), \; i = 1, \ldots, n \; .
 $$
 
-Then, the product of these random variables also follows a [log-normal distribution](/D/lognorm):
+Then, the product of these random variables also follows a [log-normal distribution](/D/lognorm)
 
 $$ \label{eq:Z-lognorm}
 Z = \prod_{i=1}^n X_i \sim \mathcal{N}(\mu, \sigma^2)
@@ -76,7 +76,7 @@ This means that the logarithm of the product of independent [log-normal](/D/logn
 $$ \label{eq:ln-Z-norm}
      \ln Z
 =    \sum_{i=1}^n Y_i
-\sim \mathcal{N}\left( \sum_{i=1}^n \mu_i, \sum_{i=1}^n \sigma_i^2 \right) \; .
+\sim \mathcal{N}\left( \sum_{i=1}^n \mu_i, \, \sum_{i=1}^n \sigma_i^2 \right) \; .
 $$
 
 If a random variable [follows a normal distribution, then its exponential follows a log-normal distribution with the same parameters]:
@@ -92,7 +92,7 @@ Thus, from \eqref{eq:ln-Z-norm}, we have
 $$ \label{eq:Z-lognorm-qed}
      Z
 =    \exp(\ln Z) 
-\sim \ln \mathcal{N}\left( \sum_{i=1}^n \mu_i, \sum_{i=1}^n \sigma_i^2 \right)
+\sim \ln \mathcal{N}\left( \sum_{i=1}^n \mu_i, \, \sum_{i=1}^n \sigma_i^2 \right)
 $$
 
 which is equivalent to \eqref{eq:Z-lognorm} and \eqref{eq:Z-lognorm-para}.
