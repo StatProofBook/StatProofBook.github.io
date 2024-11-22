@@ -83,4 +83,4 @@ $$ \label{eq:anova2-cons}
 \end{split}
 $$
 
-where the weights are $w_{ij} = n_{ij}/n$ and the total sample size is $n = \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij}$.
+where the weights are $w_{ij} = n_{ij}/n$ and the total [sample size](/D/samp-size) is $n = \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij}$.

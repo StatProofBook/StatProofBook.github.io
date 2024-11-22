@@ -58,7 +58,7 @@ $$ \label{eq:mean-samp}
 \end{split}
 $$
 
-with the sample size numbers
+with the [sample size](/D/samp-size) numbers
 
 $$ \label{eq:samp-size}
 \begin{split}
