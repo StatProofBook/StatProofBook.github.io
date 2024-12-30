@@ -124,7 +124,7 @@ $$ \label{eq:slr-ols-sl-den}
 \begin{split}
 \sum_{i=1}^n x_i^2 - \bar{x} \sum_{i=1}^n x_i &= \sum_{i=1}^n x_i^2 - n \bar{x}^2 \\
 &= \sum_{i=1}^n x_i^2 - 2 n \bar{x} \bar{x} + n \bar{x}^2 \\
-&= \sum_{i=1}^n x_i^2 - 2 \bar{x} \sum_{i=1}^n x_i - \sum_{i=1}^n \bar{x}^2 \\
+&= \sum_{i=1}^n x_i^2 - 2 \bar{x} \sum_{i=1}^n x_i + \sum_{i=1}^n \bar{x}^2 \\
 &= \sum_{i=1}^n \left( x_i^2 - 2 \bar{x} x_i + \bar{x}^2 \right) \\
 &= \sum_{i=1}^n (x_i - \bar{x})^2 \; .
 \end{split}
