@@ -60,9 +60,11 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.6. **[Probability of the complement](/P/prob-comp)** <br>
    &emsp;&ensp; 1.4.7. **[Range of probability](/P/prob-range)** <br>
    &emsp;&ensp; 1.4.8. **[Addition law of probability](/P/prob-add)** <br>
-   &emsp;&ensp; 1.4.9. **[Law of total probability](/P/prob-tot)** <br>
-   &emsp;&ensp; 1.4.10. **[Probability of exhaustive events](/P/prob-exh)** (1) <br>
-   &emsp;&ensp; 1.4.11. **[Probability of exhaustive events](/P/prob-exh2)** (2) <br>
+   &emsp;&ensp; 1.4.9. **[Bonferroni's inequality](/P/bonf-ineq)** <br>
+   &emsp;&ensp; 1.4.10. **[Boole's inequality](/P/bool-ineq)** <br>
+   &emsp;&ensp; 1.4.11. **[Law of total probability](/P/prob-tot)** <br>
+   &emsp;&ensp; 1.4.12. **[Probability of exhaustive events](/P/prob-exh)** (1) <br>
+   &emsp;&ensp; 1.4.13. **[Probability of exhaustive events](/P/prob-exh2)** (2) <br>
    
    <p id="Probability distributions"></p>
    1.5. Probability distributions <br>
@@ -133,20 +135,23 @@ title: "Table of Contents"
    &emsp;&ensp; 1.10.5. **[Linearity](/P/mean-lin)** <br>
    &emsp;&ensp; 1.10.6. **[Monotonicity](/P/mean-mono)** <br>
    &emsp;&ensp; 1.10.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
-   &emsp;&ensp; 1.10.8. **[Expectation of a trace](/P/mean-tr)** <br>
-   &emsp;&ensp; 1.10.9. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.10.8. **[Law of total expectation](/P/mean-tot)** <br>
+   &emsp;&ensp; 1.10.9. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
    &emsp;&ensp; 1.10.10. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
-   &emsp;&ensp; 1.10.11. **[Expected value minimizes squared error](/P/mean-mse)** <br>
-   &emsp;&ensp; 1.10.12. **[Law of total expectation](/P/mean-tot)** <br>
-   &emsp;&ensp; 1.10.13. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
-   &emsp;&ensp; 1.10.14. **[Weak law of large numbers](/P/mean-wlln)** <br>
+   &emsp;&ensp; 1.10.11. **[Markov's inequality](/P/mark-ineq)** <br>
+   &emsp;&ensp; 1.10.12. **[Chebyshev's inequality](/P/cheb-ineq)** <br>
+   &emsp;&ensp; 1.10.13. **[Weak law of large numbers](/P/mean-wlln)** <br>
+   &emsp;&ensp; 1.10.14. **[Expected value minimizes squared error](/P/mean-mse)** <br>
    &emsp;&ensp; 1.10.15. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.10.16. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.10.16. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.10.17. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.10.18. **[Expectation of a trace](/P/mean-tr)** <br>
    
    <p id="Variance"></p>
    1.11. Variance <br>
    &emsp;&ensp; 1.11.1. *[Definition](/D/var)* <br>
    &emsp;&ensp; 1.11.2. *[Sample variance](/D/var-samp)* <br>
+   &emsp;&ensp; 1.11.3. *[Pooled sample variance](/D/var-pool)* <br>
    &emsp;&ensp; 1.11.3. **[Partition into expected values](/P/var-mean)** <br>
    &emsp;&ensp; 1.11.4. **[Non-negativity](/P/var-nonneg)** <br>
    &emsp;&ensp; 1.11.5. **[Variance of a constant](/P/var-const)** <br>
@@ -206,7 +211,9 @@ title: "Table of Contents"
    <p id="Measures of statistical dispersion"></p>
    1.16. Measures of statistical dispersion <br>
    &emsp;&ensp; 1.16.1. *[Standard deviation](/D/std)* <br>
-   &emsp;&ensp; 1.16.2. *[Full width at half maximum](/D/fwhm)* <br>
+   &emsp;&ensp; 1.16.2. *[Sample standard deviation](/D/std-samp)* <br>
+   &emsp;&ensp; 1.16.3. *[Pooled sample standard deviation](/D/std-pool)* <br>
+   &emsp;&ensp; 1.16.4. *[Full width at half maximum](/D/fwhm)* <br>
    
    <p id="Further summary statistics"></p>
    1.17. Further summary statistics <br>
