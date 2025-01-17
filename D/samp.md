@@ -32,5 +32,3 @@ username: "JoramSoch"
 $$ \label{eq:samp}
 x = \left\lbrace x_1, \ldots, x_n \right\rbrace \; .
 $$
-
-The number of elements in a sample is called "[sample size](/D/samp-size)".

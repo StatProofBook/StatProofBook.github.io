@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (194 definitions)
+### JoramSoch (195 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -174,6 +174,7 @@ title: "Definition by Author"
 - [Sample correlation matrix](/D/corrmat-samp)
 - [Sample covariance matrix](/D/covmat-samp)
 - [Sample mean](/D/mean-samp)
+- [Sample size](/D/samp-size)
 - [Sample space](/D/samp-spc)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)

@@ -217,3 +217,4 @@ title: "Definition by Number"
 | D208 | est | [Estimand, estimator and estimate](/D/est) | JoramSoch | 2024-11-01 |
 | D209 | est-bias | [Biased vs. unbiased estimator](/D/est-bias) | JoramSoch | 2024-11-08 |
 | D210 | samp | [Sample](/D/samp) | JoramSoch | 2024-11-15 |
+| D211 | samp-size | [Sample size](/D/samp-size) | JoramSoch | 2024-11-22 |

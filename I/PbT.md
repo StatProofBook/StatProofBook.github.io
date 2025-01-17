@@ -503,6 +503,7 @@ title: "Proof by Topic"
 - [t-distribution is a special case of multivariate t-distribution](/P/t-mvt)
 - [t-test for multiple linear regression using contrast-based inference](/P/mlr-t)
 - [The expected value minimizes the mean squared error](/P/mean-mse)
+- [The geometric mean of independent log-normal random variables is a log-normal random variable](/P/lognorm-geomind)
 - [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr)
 - [The median minimizes the mean absolute error](/P/med-mae)
 - [The p-value follows a uniform distribution under the null hypothesis](/P/pval-h0)
