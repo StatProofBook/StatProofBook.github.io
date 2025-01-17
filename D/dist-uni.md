@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a [continuous](/D/rvar-disc) [random variable](/D/rvar) with some [probability distribution](/D/dist) $P$ characterized by [probability density function](/P/pdf) $f_X(x)$. Then,
+**Definition:** Let $X$ be a [continuous](/D/rvar-disc) [random variable](/D/rvar) with some [probability distribution](/D/dist) $P$ characterized by [probability density function](/D/pdf) $f_X(x)$. Then,
 
 * $P$ is called a unimodal probability distribution, if $f_X(x)$ has exactly one maximum;
 

@@ -56,5 +56,5 @@ $$
 * Third axiom: The probability of any countable sequence of disjoint (i.e. [mutually exclusive](/D/exc)) events $E_1, E_2, E_3, \ldots$ is equal to the sum of the probabilities of the individual events:
 
 $$ \label{eq:prob-ax3}
-P\left(\bigcup_{i=1}^\infty E_i \right) = \sum_{i=1}^\infty P(E_i) \; .
+P\left( \bigcup_{i=1}^\infty E_i \right) = \sum_{i=1}^\infty P(E_i) \; .
 $$
