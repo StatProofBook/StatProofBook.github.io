@@ -486,3 +486,7 @@ title: "Proof by Number"
 | P478 | mgf-sumind | [Moment-generating function of a sum of independent random variables](/P/mgf-sumind) | JoramSoch | 2024-11-08 |
 | P479 | lognorm-prodind | [The product of independent log-normal random variables is a log-normal random variable](/P/lognorm-prodind) | JoramSoch | 2024-11-15 |
 | P480 | lognorm-geomind | [The geometric mean of independent log-normal random variables is a log-normal random variable](/P/lognorm-geomind) | JoramSoch | 2024-11-22 |
+| P481 | mark-ineq | [Markov's inequality](/P/mark-ineq) | JoramSoch | 2025-01-10 |
+| P482 | cheb-ineq | [Chebyshev's inequality](/P/cheb-ineq) | JoramSoch | 2025-01-10 |
+| P483 | bool-ineq | [Boole's inequality](/P/bool-ineq) | JoramSoch | 2025-01-10 |
+| P484 | bonf-ineq | [Bonferroni's inequality](/P/bonf-ineq) | JoramSoch | 2025-01-10 |

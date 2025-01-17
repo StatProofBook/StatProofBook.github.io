@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (195 definitions)
+### JoramSoch (198 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -144,6 +144,8 @@ title: "Definition by Author"
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
 - [Poisson-distributed data](/D/poiss-data)
+- [Pooled sample standard deviation](/D/std-pool)
+- [Pooled sample variance](/D/var-pool)
 - [Posterior distribution](/D/post)
 - [Posterior model probability](/D/pmp)
 - [Power of a statistical test](/D/power)
@@ -176,6 +178,7 @@ title: "Definition by Author"
 - [Sample mean](/D/mean-samp)
 - [Sample size](/D/samp-size)
 - [Sample space](/D/samp-spc)
+- [Sample standard deviation](/D/std-samp)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
 - [Shannon entropy](/D/ent)

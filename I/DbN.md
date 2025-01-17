@@ -218,3 +218,6 @@ title: "Definition by Number"
 | D209 | est-bias | [Biased vs. unbiased estimator](/D/est-bias) | JoramSoch | 2024-11-08 |
 | D210 | samp | [Sample](/D/samp) | JoramSoch | 2024-11-15 |
 | D211 | samp-size | [Sample size](/D/samp-size) | JoramSoch | 2024-11-22 |
+| D212 | var-pool | [Pooled sample variance](/D/var-pool) | JoramSoch | 2025-01-10 |
+| D213 | std-pool | [Pooled sample standard deviation](/D/std-pool) | JoramSoch | 2025-01-10 |
+| D214 | std-samp | [Sample standard deviation](/D/std-samp) | JoramSoch | 2025-01-10 |
