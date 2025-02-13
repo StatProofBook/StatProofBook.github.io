@@ -67,9 +67,7 @@ p(y|\mu) &= \left( \frac{1}{2 \pi \sigma^2} \right)^{n/2} \cdot \exp \left[ -\fr
 \end{split}
 $$
 
-where $\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i$ is the mean of data points and $y^\mathrm{T} y = \sum_{i=1}^{n} y_i^2$ is the sum of squared data points.
-
-Thus, the [log-likelihood function](/D/llf) is
+where $\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i$ is the [mean](/D/mean-samp) of [data points](/D/data) and $y^\mathrm{T} y = \sum_{i=1}^{n} y_i^2$ is the sum of squared [data points](/D/data). Thus, the [log-likelihood function](/D/llf) is
 
 $$ \label{eq:ugkv-LL}
 \mathrm{LL}(\mu) = \log p(y|\mu) = -\frac{n}{2} \log (2 \pi \sigma^2) - \frac{1}{2 \sigma^2} \left( y^\mathrm{T} y - 2 n \bar{y} \mu + n \mu^2 \right) \; .
@@ -101,4 +99,4 @@ $$ \label{eq:ugkv-d2LLdl2}
 \frac{\mathrm{d}^2\mathrm{LL}(\hat{\mu})}{\mathrm{d}\mu^2} = -\frac{n}{\sigma^2} < 0 \; .
 $$
 
-This demonstrates that the estimate $\hat{\mu} = \bar{y}$ maximizes the likelihood $p(y \vert \mu)$.
+This demonstrates that the [estimate](/D/est) $\hat{\mu} = \bar{y}$ maximizes the [likelihood](/D/lf) $p(y \vert \mu)$.

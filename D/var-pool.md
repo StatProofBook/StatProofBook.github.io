@@ -39,8 +39,14 @@ $$ \label{eq:var-pool}
 s^2_{1...k} = \frac{1}{n-k} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (x_{ij} - \bar{x}_i)^2
 $$
 
-where $\bar{x}_i$ is the [sample mean](/D/mean-samp) of the $i$-th sample:
+where $\bar{x}_i$ is the [sample mean](/D/mean-samp) of the $i$-th sample
 
 $$ \label{eq:mean-samp}
-\bar{x}_i = \frac{1}{n_i} \sum_{j=1}^{n_i} x_{ij} \; .
+\bar{x}_i = \frac{1}{n_i} \sum_{j=1}^{n_i} x_{ij}
+$$
+
+and $n$ is the [total sample size](/D/samp-size):
+
+$$ \label{eq:samp-size}
+n = \sum_{i=1}^{k} n_i \; .
 $$

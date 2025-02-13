@@ -46,7 +46,7 @@ $$ \label{eq:slr-mlr}
 X = \left[ \begin{matrix} 1_n & x \end{matrix} \right] \quad \text{and} \quad \beta = \left[ \begin{matrix} \beta_0 \\ \beta_1 \end{matrix} \right]
 $$
 
-and [weighted least sqaures estimates](/P/mlr-mle) are given by
+and [maximum likelihood estimates estimates](/P/mlr-mle) are given by
 
 $$ \label{eq:mlr-mle}
 \begin{split}

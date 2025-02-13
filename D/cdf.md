@@ -37,7 +37,7 @@ $$
 1) If $X$ is a [discrete](/D/rvar-disc) [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and the [probability mass function](/D/pmf) $f_X(x)$, then [the cumulative distribution function is the function](/P/cdf-pmf) $F_X(x): \mathbb{R} \to [0,1]$ with
 
 $$ \label{eq:cdf-disc}
-F_X(x) = \sum_{\overset{t \in \mathcal{X}}{t \leq x}} f_X(t) \; .
+F_X(x) = \sum_{\substack{t \in \mathcal{X} \\ t \leq x}} f_X(t) \; .
 $$
 
 <br>

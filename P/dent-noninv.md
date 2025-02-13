@@ -63,13 +63,13 @@ $$ \label{eq:dent-noninv}
 \mathrm{h}(Y) \neq \mathrm{h}(X) \; .
 $$
 
-In particular, for an invertible transformation $g: X \rightarrow Y$ from a random vector $X$ to another random vector of the same dimension $Y$, it holds that
+In particular, for an invertible transformation $g: \mathcal{X} \rightarrow \mathcal{Y}$ from a random vector $X$ to another random vector of the same dimension $Y$, it holds that
 
 $$ \label{eq:dent-trans}
 \mathrm{h}(Y) = \mathrm{h}(X) + \int_{\mathcal{X}} f_X(x) \log \left| J_g(x) \right| \, \mathrm{d}x \; .
 $$
 
-where $J_g(x)$ is the Jacobian matrix of the vector-valued function $g$ and $\mathcal{X}$ is the set of possible values of $X$.
+where $J_g(x)$ is the Jacobian matrix of the vector-valued function $g$ and $\mathcal{X}$ and $\mathcal{X}$ are the sets of possible values of $X$ of $Y$, respectively.
 
 
 **Proof:** By definition, the [differential entropy](/D/dent) of $X$ is
@@ -128,7 +128,7 @@ $$ \label{eq:Y-dent-s3}
 \end{split}
 $$
 
-Finally, employing [the fact](/D/pdf) that $\int_{\mathcal{X}} f_X(x) \, \mathrm{d}x = 1$ and the determinant property $\lvert A^{-1} \rvert = 1/\lvert A \rvert$, we can derive the [differential entropy](/D/dent) of $Y$ as
+Finally, [employing the fact](/D/pdf-joint) that $\int_{\mathcal{X}} f_X(x) \, \mathrm{d}x = 1$ and the determinant property $\lvert A^{-1} \rvert = 1/\lvert A \rvert$, we can derive the [differential entropy](/D/dent) of $Y$ as
 
 $$ \label{eq:Y-dent-s4}
 \begin{split}

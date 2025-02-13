@@ -86,7 +86,7 @@ p(X=1, Y=1) &= 1/2
 \end{split}
 $$
 
-and thus, the following marginal probabilities:
+and thus, the following [marginal probabilities](/D/prob-marg):
 
 $$ \label{eq:marg}
 \begin{split}

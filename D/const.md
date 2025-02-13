@@ -33,7 +33,7 @@ $$ \label{eq:EX}
 X = \mathrm{E}(X)
 $$
 
-or equivalently, whose [variance](/D/var) is zero
+or [equivalently, whose variance is zero](/P/var-const)
 
 $$ \label{eq:VarX}
 \mathrm{Var}(X) = 0 \; .

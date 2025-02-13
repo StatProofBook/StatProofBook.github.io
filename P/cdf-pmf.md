@@ -24,7 +24,7 @@ username: "JoramSoch"
 **Theorem:** Let $X$ be a [discrete](/D/rvar-disc) [random variable](/D/rvar) with possible values $\mathcal{X}$ and [probability mass function](/D/pmf) $f_X(x)$. Then, the [cumulative distribution function](/D/cdf) of $X$ is
 
 $$ \label{eq:cdf-pmf}
-F_X(x) = \sum_{\overset{t \in \mathcal{X}}{t \leq x}} f_X(t) \; .
+F_X(x) = \sum_{\substack{t \in \mathcal{X} \\ t \leq x}} f_X(t) \; .
 $$
 
 
@@ -44,7 +44,7 @@ Taking these two definitions together, we have:
 
 $$ \label{eq:cdf-pmf-qed}
 \begin{split}
-F_X(x) &\overset{\eqref{eq:cdf}}{=} \sum_{\overset{t \in \mathcal{X}}{t \leq x}} \mathrm{Pr}(X = t) \\
-&\overset{\eqref{eq:pmf}}{=} \sum_{\overset{t \in \mathcal{X}}{t \leq x}} f_X(t) \; .
+F_X(x) &\overset{\eqref{eq:cdf}}{=} \sum_{\substack{t \in \mathcal{X} \\ t \leq x}} \mathrm{Pr}(X = t) \\
+&\overset{\eqref{eq:pmf}}{=} \sum_{\substack{t \in \mathcal{X} \\ t \leq x}} f_X(t) \; .
 \end{split}
 $$

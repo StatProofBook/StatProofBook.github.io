@@ -80,6 +80,7 @@ Applying \eqref{eq:slr-mlr}, the [covariance matrix](/D/mvn) can be further deve
 $$ \label{eq:b-est-cov}
 \begin{split}
 \sigma^2 (X^\mathrm{T} X)^{-1} &= \sigma^2 \left( \left[ \begin{matrix} 1_n^\mathrm{T} \\ x^\mathrm{T} \end{matrix} \right] \left[ \begin{matrix} 1_n & x \end{matrix} \right] \right)^{-1} \\
+&= \sigma^2 \left( \left[ \begin{matrix} 1_n^\mathrm{T} 1_n & 1_n^\mathrm{T} \bar{x} \\ x^\mathrm{T} 1_n & x^\mathrm{T} x \end{matrix} \right] \right)^{-1} \\
 &= \sigma^2 \left( \left[ \begin{matrix} n & n\bar{x} \\ n\bar{x} & x^\mathrm{T} x \end{matrix} \right] \right)^{-1} \\
 &= \frac{\sigma^2}{n x^\mathrm{T} x - (n\bar{x})^2} \left[ \begin{matrix} x^\mathrm{T} x & -n\bar{x} \\ -n\bar{x} & n \end{matrix} \right] \\
 &= \frac{\sigma^2}{x^\mathrm{T} x - n\bar{x}^2} \left[ \begin{matrix} x^\mathrm{T} x/n & -\bar{x} \\ -\bar{x} & 1 \end{matrix} \right] \; .
