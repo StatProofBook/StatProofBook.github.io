@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (444 proofs)
+### JoramSoch (448 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -32,7 +32,10 @@ title: "Proof by Author"
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
 - [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
 - [Binomial test](/P/bin-test)
+- [Bonferroni's inequality](/P/bonf-ineq)
+- [Boole's inequality](/P/bool-ineq)
 - [Characteristic function of a function of a random variable](/P/cf-fct)
+- [Chebyshev's inequality](/P/cheb-ineq)
 - [Combined posterior distribution for Bayesian linear regression when analyzing conditionally independent data sets](/P/blr-postind)
 - [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind)
 - [Concavity of the Shannon entropy](/P/ent-conc)
@@ -204,6 +207,7 @@ title: "Proof by Author"
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of the joint likelihood](/P/ml-jl)
 - [Marginally normal does not imply jointly normal](/P/norm-margjoint)
+- [Markov's inequality](/P/mark-ineq)
 - [Maximum likelihood estimation can result in biased estimates](/P/mle-bias)
 - [Maximum likelihood estimation for binomial observations](/P/bin-mle)
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)

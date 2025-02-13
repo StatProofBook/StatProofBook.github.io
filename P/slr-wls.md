@@ -89,7 +89,7 @@ $$ \label{eq:slr-wls-s2}
 \end{split}
 $$
 
-Applying $\tilde{x}_0 = W 1_n$, $\tilde{x} = W x$ and $W^\mathrm{T} W = W W = V^{-1}$, we finally have
+Reinserting $\tilde{x}_0 = W 1_n$, $\tilde{x} = W x$ and $W^\mathrm{T} W = W W = V^{-1}$, we finally have
 
 $$ \label{eq:slr-wls-s3}
 \begin{split}
