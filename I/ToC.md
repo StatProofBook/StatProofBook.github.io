@@ -94,6 +94,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.7.5. **[Probability density function of invertible function](/P/pdf-invfct)** <br>
    &emsp;&ensp; 1.7.6. **[Probability density function of linear transformation](/P/pdf-linfct)** <br>
    &emsp;&ensp; 1.7.7. **[Probability density function in terms of cumulative distribution function](/P/pdf-cdf)** <br>
+   &emsp;&ensp; 1.7.8. *[Joint probability density function](/D/pdf-joint)* <br>
    
    <p id="Cumulative distribution function"></p>
    1.8. Cumulative distribution function <br>
@@ -368,10 +369,11 @@ title: "Table of Contents"
    
    <p id="Bayesian inference"></p>
    5.3. Bayesian inference <br>
-   &emsp;&ensp; 5.3.1. **[Bayes' theorem](/P/bayes-th)** <br>
-   &emsp;&ensp; 5.3.2. **[Bayes' rule](/P/bayes-rule)** <br>
-   &emsp;&ensp; 5.3.3. *[Empirical Bayes](/D/eb)* <br>
-   &emsp;&ensp; 5.3.4. *[Variational Bayes](/D/vb)* <br>
+   &emsp;&ensp; 5.3.1. *[Odds ratios](/D/odds)* <br>
+   &emsp;&ensp; 5.3.2. **[Bayes' theorem](/P/bayes-th)** <br>
+   &emsp;&ensp; 5.3.3. **[Bayes' rule](/P/bayes-rule)** <br>
+   &emsp;&ensp; 5.3.4. *[Empirical Bayes](/D/eb)* <br>
+   &emsp;&ensp; 5.3.5. *[Variational Bayes](/D/vb)* <br>
 
 6. <p id="Machine learning">Machine learning</p>
    
@@ -415,13 +417,14 @@ title: "Table of Contents"
    1.3. Binomial distribution <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/bin)* <br>
    &emsp;&ensp; 1.3.2. **[Probability mass function](/P/bin-pmf)** <br>
-   &emsp;&ensp; 1.3.3. **[Probability-generating function](/P/bin-pgf)** <br>
-   &emsp;&ensp; 1.3.4. **[Mean](/P/bin-mean)** <br>
-   &emsp;&ensp; 1.3.5. **[Variance](/P/bin-var)** <br>
-   &emsp;&ensp; 1.3.6. **[Range of variance](/P/bin-varrange)** <br>
-   &emsp;&ensp; 1.3.7. **[Shannon entropy](/P/bin-ent)** <br>
-   &emsp;&ensp; 1.3.8. **[Kullback-Leibler divergence](/P/bin-kl)** <br>
-   &emsp;&ensp; 1.3.9. **[Conditional binomial](/P/bin-margcond)** <br>
+   &emsp;&ensp; 1.3.3. **[Cumulative distribution function](/P/bin-cdf)** <br>
+   &emsp;&ensp; 1.3.4. **[Probability-generating function](/P/bin-pgf)** <br>
+   &emsp;&ensp; 1.3.5. **[Mean](/P/bin-mean)** <br>
+   &emsp;&ensp; 1.3.6. **[Variance](/P/bin-var)** <br>
+   &emsp;&ensp; 1.3.7. **[Range of variance](/P/bin-varrange)** <br>
+   &emsp;&ensp; 1.3.8. **[Shannon entropy](/P/bin-ent)** <br>
+   &emsp;&ensp; 1.3.9. **[Kullback-Leibler divergence](/P/bin-kl)** <br>
+   &emsp;&ensp; 1.3.10. **[Conditional binomial](/P/bin-margcond)** <br>
    
    <p id="Beta-binomial distribution"></p>
    1.4. Beta-binomial distribution <br>
@@ -436,6 +439,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.2. **[Probability mass function](/P/poiss-pmf)** <br>
    &emsp;&ensp; 1.5.3. **[Mean](/P/poiss-mean)** <br>
    &emsp;&ensp; 1.5.4. **[Variance](/P/poiss-var)** <br>
+   &emsp;&ensp; 1.5.5. **[Shannon entropy](/P/poiss-ent)** <br>
 
 2. <p id="Multivariate discrete distributions">Multivariate discrete distributions</p>
    
@@ -451,9 +455,11 @@ title: "Table of Contents"
    2.2. Multinomial distribution <br>
    &emsp;&ensp; 2.2.1. *[Definition](/D/mult)* <br>
    &emsp;&ensp; 2.2.2. **[Probability mass function](/P/mult-pmf)** <br>
-   &emsp;&ensp; 2.2.3. **[Mean](/P/mult-mean)** <br>
-   &emsp;&ensp; 2.2.4. **[Covariance](/P/mult-cov)** <br>
-   &emsp;&ensp; 2.2.5. **[Shannon entropy](/P/mult-ent)** <br>
+   &emsp;&ensp; 2.2.3. **[Cumulative distribution function](/P/mult-cdf)** <br>
+   &emsp;&ensp; 2.2.4. **[Mean](/P/mult-mean)** <br>
+   &emsp;&ensp; 2.2.5. **[Covariance](/P/mult-cov)** <br>
+   &emsp;&ensp; 2.2.6. **[Shannon entropy](/P/mult-ent)** <br>
+   &emsp;&ensp; 2.2.7. **[Marginal distributions](/P/mult-marg)** <br>
 
 3. <p id="Univariate continuous distributions">Univariate continuous distributions</p>
    
@@ -524,11 +530,12 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.9. **[Cumulative distribution function](/P/gam-cdf)** <br>
    &emsp;&ensp; 3.4.10. **[Quantile function](/P/gam-qf)** <br>
    &emsp;&ensp; 3.4.11. **[Mean](/P/gam-mean)** <br>
-   &emsp;&ensp; 3.4.12. **[Variance](/P/gam-var)** <br>
-   &emsp;&ensp; 3.4.13. **[Logarithmic expectation](/P/gam-logmean)** <br>
-   &emsp;&ensp; 3.4.14. **[Expectation of x ln x](/P/gam-xlogx)** <br>
-   &emsp;&ensp; 3.4.15. **[Differential entropy](/P/gam-dent)** <br>
-   &emsp;&ensp; 3.4.16. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.4.12. **[Mode](/P/gam-mode)** <br>
+   &emsp;&ensp; 3.4.13. **[Variance](/P/gam-var)** <br>
+   &emsp;&ensp; 3.4.14. **[Logarithmic expectation](/P/gam-logmean)** <br>
+   &emsp;&ensp; 3.4.15. **[Expectation of x ln x](/P/gam-xlogx)** <br>
+   &emsp;&ensp; 3.4.16. **[Differential entropy](/P/gam-dent)** <br>
+   &emsp;&ensp; 3.4.17. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
    
    <p id="Exponential distribution"></p>
    3.5. Exponential distribution <br>
