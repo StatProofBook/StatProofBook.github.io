@@ -94,7 +94,7 @@ $$ \label{eq:gam-mode-s2}
 \end{split}
 $$
 
-Thus, if $a \geq 1$, then ${f''}_X\left( (a-1)/b \right)$ is negative, such that $f_X(x)$ reaches its maximum at $x = (a-1)/b$. However, if $a < 1$, this value is negative and [not in the support of the random variable](/D/gam) $X$. In this case, the mode of $X$ is $0$, since $f_X(x)$ tends towards infinity at $x=0$:
+Thus, if $a \geq 1$, then ${f' '}_X\left( (a-1)/b \right)$ is negative, such that $f_X(x)$ reaches its maximum at $x = (a-1)/b$. However, if $a < 1$, this value is negative and [not in the support of the random variable](/D/gam) $X$. In this case, the mode of $X$ is $0$, since $f_X(x)$ tends towards infinity at $x=0$:
 
 $$ \label{eq:gam-mode-s3}
 \begin{split}

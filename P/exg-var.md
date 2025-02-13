@@ -24,7 +24,7 @@ username: "tomfaulkenberry"
 **Theorem:** Let $X$ be a [random variable](/D/rvar) following an [ex-Gaussian distribution](/D/exg):
 
 $$ \label{eq:exg}
-X \sim \text{ex-Gaussian}(\mu, \sigma, \lambda) \; .
+X \sim \mathrm{ex-Gaussian}(\mu, \sigma, \lambda) \; .
 $$
 
 Then, the [variance](/D/var) of $X$ is 

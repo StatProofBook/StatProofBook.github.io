@@ -19,8 +19,7 @@ proof_id: "P424"
 shortcut: "exg-mome"
 username: "tomfaulkenberry"
 ---
-  
-  
+
 
 **Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a set of observed data [independent and identically distributed](/D/iid) according to an [ex-Gaussian distribution](/D/exg) with parameters $\mu$, $\sigma$, and $\lambda$:
 
