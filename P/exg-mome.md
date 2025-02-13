@@ -24,7 +24,7 @@ username: "tomfaulkenberry"
 **Theorem:** Let $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be a set of observed data [independent and identically distributed](/D/iid) according to an [ex-Gaussian distribution](/D/exg) with parameters $\mu$, $\sigma$, and $\lambda$:
 
 $$ \label{eq:exq}
-y_i \sim \mathrm{ex-Gaussian}(\mu,\sigma,\lambda), \quad i = 1, \ldots, n \; .
+y_i \sim \text{ex-Gaussian}(\mu,\sigma,\lambda), \quad i = 1, \ldots, n \; .
 $$
 
 Then, the [method-of-moments estimates](/D/mome) for the parameters $\mu$, $\sigma$, and $\lambda$ are given by

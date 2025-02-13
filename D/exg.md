@@ -29,7 +29,7 @@ username: "tomfaulkenberry"
 **Definition:** Let $A$ be a [random variable](/D/rvar) that is [normally distributed](/D/norm) with mean $\mu$ and variance $\sigma^2$, and let $B$ be a random variable that is [exponentially distributed](/D/exp) with rate $\lambda$. Suppose further that $A$ and $B$ are [independent](/D/ind). Then the sum $X=A+B$ is said to have an exponentially-modified Gaussian (i.e., ex-Gaussian) distribution, with parameters $\mu$, $\sigma$, and $\lambda$; that is,
 
 $$ \label{eq:exg}
-X \sim \mathrm{ex-Gaussian}(\mu, \sigma, \lambda) \; ,
+X \sim \text{ex-Gaussian}(\mu, \sigma, \lambda) \; ,
 $$
 
 where $\mu \in \mathbb{R}$, $\sigma>0$, and $\lambda > 0$.
