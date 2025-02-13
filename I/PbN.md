@@ -490,3 +490,8 @@ title: "Proof by Number"
 | P482 | cheb-ineq | [Chebyshev's inequality](/P/cheb-ineq) | JoramSoch | 2025-01-10 |
 | P483 | bool-ineq | [Boole's inequality](/P/bool-ineq) | JoramSoch | 2025-01-10 |
 | P484 | bonf-ineq | [Bonferroni's inequality](/P/bonf-ineq) | JoramSoch | 2025-01-10 |
+| P485 | mult-marg | [Marginal distributions of the multinomial distribution](/P/mult-marg) | JoramSoch | 2025-02-06 |
+| P486 | poiss-ent | [Entropy of the Poisson distribution](/P/poiss-ent) | JoramSoch | 2025-02-06 |
+| P487 | gam-mode | [Mode of the gamma distribution](/P/gam-mode) | JoramSoch | 2025-02-06 |
+| P488 | bin-cdf | [Cumulative distribution function of the binomial distribution](/P/bin-cdf) | JoramSoch | 2025-02-06 |
+| P489 | mult-cdf | [Cumulative distribution function of the multinomial distribution](/P/mult-cdf) | JoramSoch | 2025-02-06 |

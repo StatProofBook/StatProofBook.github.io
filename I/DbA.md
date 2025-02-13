@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (198 definitions)
+### JoramSoch (200 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -94,6 +94,7 @@ title: "Definition by Author"
 - [Joint entropy](/D/ent-joint)
 - [Joint likelihood](/D/jl)
 - [Joint probability](/D/prob-joint)
+- [Joint probability density function](/D/pdf-joint)
 - [Joint probability distribution](/D/dist-joint)
 - [Kolmogorov axioms of probability](/D/prob-ax)
 - [Kullback-Leibler divergence](/D/kl)
@@ -135,6 +136,7 @@ title: "Definition by Author"
 - [Normal-gamma distribution](/D/ng)
 - [Normal-Wishart distribution](/D/nw)
 - [Null hypothesis](/D/h0)
+- [Odds ratio, prior and posterior odds](/D/odds)
 - [One-tailed and two-tailed hypothesis](/D/hyp-tail)
 - [One-tailed and two-tailed test](/D/test-tail)
 - [One-way analysis of variance](/D/anova1)

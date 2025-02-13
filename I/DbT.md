@@ -115,6 +115,7 @@ title: "Definition by Topic"
 - [Joint entropy](/D/ent-joint)
 - [Joint likelihood](/D/jl)
 - [Joint probability](/D/prob-joint)
+- [Joint probability density function](/D/pdf-joint)
 - [Joint probability distribution](/D/dist-joint)
 
 ### K
@@ -173,6 +174,7 @@ title: "Definition by Topic"
 
 ### O
 
+- [Odds ratio, prior and posterior odds](/D/odds)
 - [One-tailed and two-tailed hypothesis](/D/hyp-tail)
 - [One-tailed and two-tailed test](/D/test-tail)
 - [One-way analysis of variance](/D/anova1)
