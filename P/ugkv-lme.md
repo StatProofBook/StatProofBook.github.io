@@ -93,8 +93,8 @@ $$ \label{eq:UGkv-LME-s1}
 p(y,\mu) &= p(y|\mu) p(\mu) \\
 &= \left( \frac{\tau}{2 \pi} \right)^\frac{n}{2} \cdot \exp\left[ -\frac{\tau}{2} \sum_{i=1}^{n} \left( y_i-\mu \right)^2 \right] \cdot \sqrt{\frac{\lambda_0}{2 \pi}} \cdot \exp \left[ -\frac{\lambda_0}{2} (\mu - \mu_0)^2 \right] \\
 &= \left( \frac{\tau}{2 \pi} \right)^\frac{n}{2} \cdot \sqrt{\frac{\lambda_0}{2 \pi}} \cdot \exp \left[ -\frac{\lambda_0}{2} (\mu^2 - 2 \mu \mu_0 + \mu_0^2) -\frac{\tau}{2} \left( y^\mathrm{T} y - 2 \mu n \bar{y} + n \mu^2 \right) \right] \\
-&= \left( \frac{\tau}{2 \pi} \right)^\frac{n}{2} \cdot \sqrt{\frac{\lambda_0}{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left(\mu^2(\lambda_0 + n\tau) - 2 \mu(\lambda_0 \mu_0 + \tau n \bar{y}) + \lambda_0 \mu_0^2 + \tau y^\mathrm{T} y \right) \right] \\
-&= \left( \frac{\tau}{2 \pi} \right)^\frac{n}{2} \cdot \sqrt{\frac{\lambda_0}{2 \pi}} \cdot \exp \left[ -\frac{\lambda_0 + n \tau}{2} (\mu^2 - 2\mu\mu_n + \mu_n^2) -\frac{1}{2} \left( \tau y^\mathrm{T} y + \lambda_0 \mu_0^2 - (\lambda_0 + n \tau) \mu_n^2 \right) \right] \\
+&= \left( \frac{\tau}{2 \pi} \right)^\frac{n}{2} \cdot \sqrt{\frac{\lambda_0}{2 \pi}} \cdot \exp \left[ -\frac{1}{2} \left(\mu^2(\lambda_0 + \tau n) - 2 \mu(\lambda_0 \mu_0 + \tau n \bar{y}) + \lambda_0 \mu_0^2 + \tau y^\mathrm{T} y \right) \right] \\
+&= \left( \frac{\tau}{2 \pi} \right)^\frac{n}{2} \cdot \sqrt{\frac{\lambda_0}{2 \pi}} \cdot \exp \left[ -\frac{\lambda_0 + \tau n}{2} (\mu^2 - 2\mu\mu_n + \mu_n^2) -\frac{1}{2} \left( \tau y^\mathrm{T} y + \lambda_0 \mu_0^2 - (\lambda_0 + \tau n) \mu_n^2 \right) \right] \\
 &= \left( \frac{\tau}{2 \pi} \right)^\frac{n}{2} \cdot \sqrt{\frac{\lambda_0}{2 \pi}} \cdot \exp \left[ -\frac{\lambda_n}{2} (\mu - \mu_n)^2 -\frac{1}{2} \left( \tau y^\mathrm{T} y + \lambda_0 \mu_0^2 - \lambda_n \mu_n^2 \right) \right].
 \end{split}
 $$
