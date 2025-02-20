@@ -33,12 +33,10 @@ $$ \label{eq:exp-skew}
 \mathrm{Skew}(X) = 2 \; .
 $$
 
-**Proof:** 
-
-To compute the skewness of $X$, we [partition the skewness into expected values](/P/skew-mean):
+**Proof:** To compute the skewness of $X$, we [partition the skewness into expected values](/P/skew-mean)
 
 $$ \label{eq:skew-mean}
-\mathrm{Skew}(X) = \frac{\mathrm{E}(X^3)-3\mu\sigma^2-\mu^3}{\sigma^3} \; ,
+\mathrm{Skew}(X) = \frac{\mathrm{E}(X^3)-3\mu\sigma^2-\mu^3}{\sigma^3}
 $$
 
 where $\mu$ and $\sigma$ are the mean and standard deviation of $X$, respectively. Since $X$ follows an [exponential distribution](/D/exp), the [mean](/P/exp-mean) of $X$ is given by 
@@ -71,9 +69,7 @@ $$ \label{eq:exp-moment}
 \mathrm{E}(X^3) = M_X'''(0)
 $$
 
-based on the [relationship between raw moment and moment-generating function](/P/mom-mgf).
-
-First, we differentiate the [moment-generating function of the exponential distribution](/P/exp-mgf)
+based on the [relationship between raw moment and moment-generating function](/P/mom-mgf). First, we differentiate the [moment-generating function of the exponential distribution](/P/exp-mgf)
 
 $$ \label{eq:exp-mgf}
 M_X(t) = \frac{\lambda}{\lambda-t} = \lambda(\lambda-t)^{-1}
