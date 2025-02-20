@@ -65,7 +65,7 @@ $$ \label{eq:Sigma-diag-s1}
 \Sigma = \mathrm{diag}\left( \left[ \mathrm{Cov}(x_1,x_1), \ldots, \mathrm{Cov}(x_n,x_n) \right] \right) \; .
 $$
 
-Moreover, because the [diagonal entries of the covariance matrix are the element-wise variances](/P/cov-var) and the [variance of the univariate normal distribution](/P/norm-var) is equal to $\sigma^2$ and equating $\sigma^2_i = \sigma^2_{ii}$ from \eqref{eq:mvn-marg}, we get
+Moreover, because the [diagonal entries of the covariance matrix are the element-wise variances](/P/cov-var) and the [variance of the univariate normal distribution](/P/norm-var) is equal to $\sigma^2$ and equating $\sigma^2\_i = \sigma^2\_{ii}$ from \eqref{eq:mvn-marg}, we get
 
 $$ \label{eq:Sigma-diag-s2}
 \Sigma = \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right) \; .
