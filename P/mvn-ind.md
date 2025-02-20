@@ -59,38 +59,16 @@ $$ \label{eq:x-ind}
 p(x) = p(x_1) \cdot \ldots \cdot p(x_n) \; .
 $$
 
-Then, we have
+Then, because the [covariance is zero under independence](/P/cov-ind), the [entries of the covariance matrix are the pair-wise covariances](/D/covmat) and the [covariance matrix of the multivariate normal distribution](/P/mvn-cov) is equal to $\Sigma$, we have
 
-$$ \label{eq:x-ind-dev}
-\begin{split}
-\frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] &\overset{\eqref{eq:mvn-pdf},\eqref{eq:norm-pdf}}{=} \prod_{i=1}^{n} \frac{1}{\sqrt{2 \pi \sigma^2_i}} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x_i-\mu_i}{\sigma_i} \right)^2 \right] \\
-\frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] &= \frac{1}{\sqrt{(2 \pi)^n \prod_{i=1}^{n} \sigma^2_i}} \cdot \exp \left[ -\frac{1}{2} \sum_{i=1}^{n} (x_i-\mu_i) \frac{1}{\sigma^2_i} (x_i-\mu_i) \right] \\
-- \frac{1}{2} \log |\Sigma| - \frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) &= - \frac{1}{2} \sum_{i=1}^{n} \log \sigma^2_i - \frac{1}{2} \sum_{i=1}^{n} (x_i-\mu_i) \frac{1}{\sigma^2_i} (x_i-\mu_i)
-\end{split}
+$$ \label{eq:Sigma-diag-s1}
+\Sigma = \mathrm{diag}\left( \left[ \mathrm{Cov}(x_1,x_1), \ldots, \mathrm{Cov}(x_n,x_n) \right] \right) \; .
 $$
 
-which is only fulfilled by a diagonal covariance matrix
+Moreover, because the [diagonal entries of the covariance matrix are the element-wise variances](/P/cov-var) and the [variance of the univariate normal distribution](/P/norm-var) is equal to $\sigma^2$ and equating $\sigma^2_i = \sigma^2_{ii}$ from \eqref{eq:mvn-marg}, we get
 
-$$ \label{eq:Sigma-diag-qed}
-\Sigma = \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right) \; ,
-$$
-
-because the determinant of a diagonal matrix is a product
-
-$$ \label{eq:diag-det}
-| \mathrm{diag}\left( \left[ a_1, \ldots, a_n \right] \right) | = \prod_{i=1}^n a_i \; ,
-$$
-
-the inverse of a diagonal matrix is a diagonal matrix
-
-$$ \label{eq:diag-inv}
-\mathrm{diag}\left( \left[ a_1, \ldots, a_n \right] \right)^{-1} = \mathrm{diag}\left( \left[ 1/a_1, \ldots, 1/a_n \right] \right)
-$$
-
-and the squared form with a diagonal matrix is
-
-$$ \label{eq:diag-sqr}
-x^\mathrm{T} \mathrm{diag}\left( \left[ a_1, \ldots, a_n \right] \right) x = \sum_{i=1}^n a_i x_i^2 \; .
+$$ \label{eq:Sigma-diag-s2}
+\Sigma = \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right) \; .
 $$
 
 
