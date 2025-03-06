@@ -142,7 +142,7 @@ A & B \\
 C & D
 \end{bmatrix}^{-1} =
 \begin{bmatrix} 
-A-BD^{-1}C)^{-1}          & -(A-BD^{-1}C)^{-1}BD^{-1}              \\
+(A-BD^{-1}C)^{-1}          & -(A-BD^{-1}C)^{-1}BD^{-1}              \\
 -D^{-1}C(A-BD^{-1}C)^{-1} & D^{-1}+D^{-1}C(A-BD^{-1}C)^{-1}BD^{-1}
 \end{bmatrix} \; ,
 $$
