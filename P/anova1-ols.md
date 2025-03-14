@@ -36,7 +36,7 @@ $$
 where $\bar{y}_i$ is the [sample mean](/D/mean-samp) of all observations in [group](/D/anova1) $i$:
 
 $$ \label{eq:mean-samp}
-\hat{\mu}_i = \bar{y}_i = \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} \; .
+\bar{y}_i = \frac{1}{n_i} \sum_{j=1}^{n_i} y_{ij} \; .
 $$
 
 

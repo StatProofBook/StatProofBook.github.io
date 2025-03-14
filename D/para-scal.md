@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $\mathcal{D}(\lambda, \sigma)$ denote a family of [probability distributions](/D/dist) with [statistical parameters](/D/para) $\lambda$ and $\sigma$. Then, the parameter $\sigma$ is referred to as a "scale parameter", if and only if the following holds: When a [random variable](/D/rvar) $X$ is following the probability distribution $\mathcal{D}(\lambda^{*}, \sigma^{*})$, then the random variable $Y = X/\sigma^{*}$ is following the probability distribution $\mathcal{D}(\lambda^{*}, 1)$.
+**Definition:** Let $\mathcal{D}(\lambda, \sigma)$ denote a family of [probability distributions](/D/dist) with [statistical parameters](/D/para) $\lambda$ and $\sigma$. Then, the parameter $\sigma$ is referred to as a "scale parameter", if and only if the following holds: When a [random variable](/D/rvar) $X$ is following the probability distribution $\mathcal{D}(\lambda^{\*}, \sigma^{\*})$, then the random variable $Y = X/\sigma^{\*}$ is following the probability distribution $\mathcal{D}(\lambda^{\*}, 1)$.
 
 $$ \label{eq:para-scal}
 X \sim \mathcal{D}(\lambda^{*}, \sigma^{*})

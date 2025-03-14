@@ -117,4 +117,4 @@ $$ \label{eq:mean-lin-s2-cont}
 $$
 
 <br>
-Collectively, this shows that both requirements for linearity are fulfilled for the [expected value](/D/mean), for [discrete](/D/rvar-disc) as well as for [continuous](/D/rvar-disc) random variables.
+Collectively, this shows that both requirements for linearity are fulfilled for the [expected value](/D/mean), for [discrete](/D/rvar-disc) as well as for [continuous](/D/rvar-disc) random variables. The present derivation also holds for the [expected value of random vectors](/D/mean-rvec) as well as for the [expected value of random matrices](/D/mean-rmat).
