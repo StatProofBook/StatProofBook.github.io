@@ -75,7 +75,11 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.5. *[Unimodal vs. multimodal distribution](/D/dist-uni)* <br>
    &emsp;&ensp; 1.5.6. *[Sampling distribution](/D/dist-samp)* <br>
    &emsp;&ensp; 1.5.7. *[Statistical parameter](/D/para)* <br>
-   &emsp;&ensp; 1.5.8. *[Degrees of freedom](/D/dof)* <br>
+   &emsp;&ensp; 1.5.8. *[Location parameter](/D/para-loc)* <br>
+   &emsp;&ensp; 1.5.9. *[Scale parameter](/D/para-scal)* <br>
+   &emsp;&ensp; 1.5.10. *[Rate parameter](/D/para-rate)* <br>
+   &emsp;&ensp; 1.5.11. *[Shape parameter](/D/para-shape)* <br>
+   &emsp;&ensp; 1.5.12. *[Degrees of freedom](/D/dof)* <br>
    
    <p id="Probability mass function"></p>
    1.6. Probability mass function <br>
@@ -705,6 +709,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.8. **[Posterior distribution](/P/ug-post)** <br>
    &emsp;&ensp; 1.1.9. **[Log model evidence](/P/ug-lme)** <br>
    &emsp;&ensp; 1.1.10. **[Accuracy and complexity](/P/ug-anc)** <br>
+   &emsp;&ensp; 1.1.11. **[Cross-validated log model evidence](/P/ug-cvlme)** <br>
+   &emsp;&ensp; 1.1.12. **[Cross-validated log Bayes factor](/P/ug-cvlbf)** <br>
    
    <p id="Univariate Gaussian with known variance"></p>
    1.2. Univariate Gaussian with known variance <br>
@@ -880,6 +886,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.8. **[Log model evidence](/P/bin-lme)** <br>
    &emsp;&ensp; 3.1.9. **[Log Bayes factor](/P/bin-lbf)** <br>
    &emsp;&ensp; 3.1.10. **[Posterior probability](/P/bin-pp)** <br>
+   &emsp;&ensp; 3.1.11. **[Cross-validated log model evidence](/P/bin-cvlme)** <br>
    
    <p id="Multinomial observations"></p>
    3.2. Multinomial observations <br>
@@ -893,6 +900,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.8. **[Log model evidence](/P/mult-lme)** <br>
    &emsp;&ensp; 3.2.9. **[Log Bayes factor](/P/mult-lbf)** <br>
    &emsp;&ensp; 3.2.10. **[Posterior probability](/P/mult-pp)** <br>
+   &emsp;&ensp; 3.2.11. **[Cross-validated log model evidence](/P/mult-cvlme)** <br>
    
    <p id="Poisson-distributed data"></p>
    3.3. Poisson-distributed data <br>
