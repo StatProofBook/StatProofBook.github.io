@@ -66,7 +66,7 @@ $$ \label{eq:A-b}
 A = \left[ a_1, \ldots, a_n \right] \quad \text{and} \quad b = 0 \; .
 $$
 
-This implies the following distribution the linear combination given by equation \eqref{eq:lincomb}:
+This implies the following distribution for the linear combination given by equation \eqref{eq:lincomb}:
 
 $$ \label{eq:norm-lincomb-p1}
 Y = Ax + b \sim \mathcal{N}(A\mu, A \Sigma A^\mathrm{T}) \; .

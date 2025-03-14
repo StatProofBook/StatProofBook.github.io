@@ -60,7 +60,7 @@ $$ \label{eq:poiss-ent-s1}
 \end{split}
 $$
 
-The first term can be developped as follows
+Using the relation $x!/x = (x-1)!$, the first term can be developped as follows
 
 $$ \label{eq:poiss-ent-term1}
 \begin{split}

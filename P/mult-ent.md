@@ -58,7 +58,7 @@ $$ \label{eq:mult-pmf}
 f_X(x) = {n \choose {x_1, \ldots, x_k}} \, \prod_{i=1}^k {p_i}^{x_i}
 $$
 
-Let $\mathcal{X}_{n,k}$ be the set of all vectors $x \in \mathbb{N}^{1 \times k}$ satisfying $\sum_{i=1}^{k} x_i = n$. Then, we have:
+Let $\mathcal{X}\_{n,k}$ be the set of all vectors $x \in \mathbb{N}^{1 \times k}$ satisfying $\sum_{i=1}^{k} x_i = n$. Then, we have:
 
 $$ \label{eq:mult-ent-s1}
 \begin{split}

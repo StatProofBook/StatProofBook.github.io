@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X \in \mathbb{R}^{n \times 1}$ be an $n \times 1$ [random vector](/D/rvec). Then, the [joint](/D/dist-joint) [cumulative distribution function](/D/cdf) of $X$ is defined as the [probability](/D/prob) that each entry $X_i$ is smaller than a specific value $x_i$ for $i = 1, \ldots, n$:
+**Definition:** Let $X \in \mathbb{R}^n$ be an $n \times 1$ [random vector](/D/rvec). Then, the [joint](/D/dist-joint) [cumulative distribution function](/D/cdf) of $X$ is defined as the [probability](/D/prob) that each entry $X_i$ is smaller than a specific value $x_i$ for $i = 1, \ldots, n$:
 
 $$ \label{eq:cdf-joint}
 F_X(x) = \mathrm{Pr}(X_1 \leq x_1, \ldots, X_n \leq x_n) \; .

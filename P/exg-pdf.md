@@ -45,8 +45,8 @@ and the [probability density function](/P/exp-pdf) for $B$ is given by
 $$ \label{eq:exp-pdf}
 f_B(t) = \left\{
 \begin{array}{rl}
-\lambda\exp[-\lambda t] \;, & \text{if} \; t\geq 0\\
-0 \;, & \text{if} \; t <0 \; .
+\lambda\exp[-\lambda t] \; , & \text{if} \; t \geq 0\\
+0 \; , & \text{if} \; t < 0 \; .
 \end{array}
 \right.
 $$

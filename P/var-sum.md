@@ -40,7 +40,7 @@ $$ \label{eq:var}
 \mathrm{Var}(X) = \mathrm{E}\left[ (X-\mathrm{E}(X))^2 \right] \; .
 $$
 
-Using this and the [linearity of the expected value](/P/mean-lin), we can derive \eqref{eq:var-sum} as follows:
+Using the [linearity of the expected value](/P/mean-lin) and [the definition of the covariance](/D/cov), we can derive \eqref{eq:var-sum} as follows:
 
 $$ \label{eq:var-sum-qed}
 \begin{split}

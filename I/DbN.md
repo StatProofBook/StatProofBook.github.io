@@ -221,3 +221,5 @@ title: "Definition by Number"
 | D212 | var-pool | [Pooled sample variance](/D/var-pool) | JoramSoch | 2025-01-10 |
 | D213 | std-pool | [Pooled sample standard deviation](/D/std-pool) | JoramSoch | 2025-01-10 |
 | D214 | std-samp | [Sample standard deviation](/D/std-samp) | JoramSoch | 2025-01-10 |
+| D215 | odds | [Odds ratio, prior and posterior odds](/D/odds) | JoramSoch | 2025-02-06 |
+| D216 | pdf-joint | [Joint probability density function](/D/pdf-joint) | JoramSoch | 2025-02-06 |

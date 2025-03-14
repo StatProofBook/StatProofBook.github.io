@@ -77,11 +77,13 @@ title: "Proof by Topic"
 - [Cumulative distribution function of a sum of independent random variables](/P/cdf-sumind)
 - [Cumulative distribution function of the beta distribution](/P/beta-cdf)
 - [Cumulative distribution function of the beta-binomial distribution](/P/betabin-cdf)
+- [Cumulative distribution function of the binomial distribution](/P/bin-cdf)
 - [Cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf)
 - [Cumulative distribution function of the discrete uniform distribution](/P/duni-cdf)
 - [Cumulative distribution function of the exponential distribution](/P/exp-cdf)
 - [Cumulative distribution function of the gamma distribution](/P/gam-cdf)
 - [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf)
+- [Cumulative distribution function of the multinomial distribution](/P/mult-cdf)
 - [Cumulative distribution function of the normal distribution](/P/norm-cdf)
 
 ### D
@@ -122,6 +124,7 @@ title: "Proof by Topic"
 - [Entropy of the categorical distribution](/P/cat-ent)
 - [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
+- [Entropy of the Poisson distribution](/P/poiss-ent)
 - [Equivalence of log-likelihood ratio and mutual information for the general linear model](/P/glm-llrmi)
 - [Equivalence of log-likelihood ratios for regular and inverse general linear model](/P/iglm-llrs)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
@@ -233,6 +236,7 @@ title: "Proof by Topic"
 
 - [Marginal distribution of a conditional binomial distribution](/P/bin-margcond)
 - [Marginal distributions for the matrix-normal distribution](/P/matn-marg)
+- [Marginal distributions of the multinomial distribution](/P/mult-marg)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of the joint likelihood](/P/ml-jl)
@@ -286,6 +290,7 @@ title: "Proof by Topic"
 - [Method of moments for Wald-distributed data](/P/wald-mome)
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the exponential distribution](/P/exp-mode)
+- [Mode of the gamma distribution](/P/gam-mode)
 - [Mode of the log-normal distribution](/P/lognorm-mode)
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)

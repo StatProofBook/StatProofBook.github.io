@@ -48,9 +48,7 @@ $$ \label{eq:KL}
 \mathrm{KL}[p(x)||q(x)] = \int_{a}^{b} p(x) \cdot \log \frac{p(x)}{q(x)} \, \mathrm{d}x
 $$
 
-where $a = \mathrm{min}(\mathcal{X})$ and $b = \mathrm{max}(\mathcal{X})$ are the lower and upper bound of the possible outcomes $\mathcal{X}$ of $X$.
-
-Due to the identity of the differentials
+where $a = \mathrm{min}(\mathcal{X})$ and $b = \mathrm{max}(\mathcal{X})$ are the lower and upper bound of the possible outcomes $\mathcal{X}$ of $X$. Since $y(x) = mx + n$ is a [strictly increasing](/P/pdf-sifct) or [strictly decreasing](/P/pdf-sdfct) function, we have the identity of the differentials
 
 $$ \label{eq:diff}
 \begin{split}
