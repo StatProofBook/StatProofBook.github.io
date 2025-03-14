@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (200 definitions)
+### JoramSoch (204 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -102,6 +102,7 @@ title: "Definition by Author"
 - [Law of marginal probability](/D/prob-marg)
 - [Likelihood function](/D/lf)
 - [Likelihood ratio](/D/lr)
+- [Location parameter](/D/para-loc)
 - [Log Bayes factor](/D/lbf)
 - [Log family evidence](/D/lfe)
 - [Log model evidence](/D/lme)
@@ -167,6 +168,7 @@ title: "Definition by Author"
 - [Random matrix](/D/rmat)
 - [Random variable](/D/rvar)
 - [Random vector](/D/rvec)
+- [Rate parameter](/D/para-rate)
 - [Raw moment](/D/mom-raw)
 - [Reference prior distribution](/D/prior-ref)
 - [Regression line](/D/regline)
@@ -183,7 +185,9 @@ title: "Definition by Author"
 - [Sample standard deviation](/D/std-samp)
 - [Sample variance](/D/var-samp)
 - [Sampling distribution](/D/dist-samp)
+- [Scale parameter](/D/para-scal)
 - [Shannon entropy](/D/ent)
+- [Shape parameter](/D/para-shape)
 - [Signal-to-noise ratio](/D/snr)
 - [Significance level](/D/alpha)
 - [Simple and composite hypothesis](/D/hyp-simp)

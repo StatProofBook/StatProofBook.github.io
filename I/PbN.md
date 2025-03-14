@@ -495,3 +495,7 @@ title: "Proof by Number"
 | P487 | gam-mode | [Mode of the gamma distribution](/P/gam-mode) | JoramSoch | 2025-02-06 |
 | P488 | bin-cdf | [Cumulative distribution function of the binomial distribution](/P/bin-cdf) | JoramSoch | 2025-02-06 |
 | P489 | mult-cdf | [Cumulative distribution function of the multinomial distribution](/P/mult-cdf) | JoramSoch | 2025-02-06 |
+| P490 | ug-cvlme | [Cross-validated log model evidence for the univariate Gaussian](/P/ug-cvlme) | JoramSoch | 2025-03-06 |
+| P491 | ug-cvlbf | [Cross-validated log Bayes factor for the univariate Gaussian](/P/ug-cvlbf) | JoramSoch | 2025-03-07 |
+| P492 | bin-cvlme | [Cross-validated log model evidence for binomial observations](/P/bin-cvlme) | JoramSoch | 2025-03-07 |
+| P493 | mult-cvlme | [Cross-validated log model evidence for multinomial observations](/P/mult-cvlme) | JoramSoch | 2025-03-07 |
