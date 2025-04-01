@@ -109,5 +109,5 @@ $$
 Since $1 \leq \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right)$ for any $X$, this implies that: 
 
 $$
-\lim_{n \rightarrow \infty} \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) = 1.
+\lim_{n \rightarrow \infty} \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) = 1 \; .
 $$
