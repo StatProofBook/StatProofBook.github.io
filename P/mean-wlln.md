@@ -102,7 +102,7 @@ $$ \label{eq:mean-wlln-s3}
 \lim_{n \rightarrow \infty} \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right)
 &\geq \lim_{n \rightarrow \infty} \left( 1 - \frac{\sigma^2}{n \epsilon} \right) \\
 &\geq 1 - \lim_{n \rightarrow \infty} \frac{\sigma^2 / \epsilon}{n} \\
-&geq 1 \; .
+&\geq 1 \; .
 \end{split}
 $$
 
