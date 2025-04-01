@@ -74,15 +74,15 @@ $$
 [Chebyshev's inequality](/P/cheb-ineq) makes a statement about a random variable $X$ in relation to its mean and variance for any positive number $x > 0$:
 
 $$ \label{eq:cheb-ineq}
-\mathrm{Pr}\left( \left| X - \mathrm{E}(\bar{X}) \right| \geq x \right) \le \frac{\mathrm{Var}(X)}{x^2} \; .
+\mathrm{Pr}\left( \left| X - \mathrm{E}(\bar{X}) \right| \geq x \right) \leq \frac{\mathrm{Var}(X)}{x^2} \; .
 $$
 
 Applying this inequality to the [random variable](/D/rvar) $\bar{X}$, we have:
 
 $$ \label{eq:mean-wlln-s1}
 \begin{split}
-\mathrm{Pr}\left( \left| \bar{X} - \mathrm{E}(\bar{X}) \right| \geq x \right) &\le \frac{\mathrm{Var}(\bar{X})}{x^2} \\
-\mathrm{Pr}\left( \left| \bar{X} - \mu \right| \geq \epsilon \right) &le \frac{\sigma^2}{n \epsilon} \; .
+\mathrm{Pr}\left( \left| \bar{X} - \mathrm{E}(\bar{X}) \right| \geq x \right) &\leq \frac{\mathrm{Var}(\bar{X})}{x^2} \\
+\mathrm{Pr}\left( \left| \bar{X} - \mu \right| \geq \epsilon \right) &\leq \frac{\sigma^2}{n \epsilon} \; .
 \end{split}
 $$
 
@@ -90,8 +90,8 @@ Since [the cumulative distribution function can be used to relate probabilities 
 
 $$ \label{eq:mean-wlln-s2}
 \begin{split}
-1 - \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) &\le \frac{\sigma^2}{n \epsilon} \\
-\mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) &\ge 1 - \frac{\sigma^2}{n \epsilon} \; .
+1 - \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) &\leq \frac{\sigma^2}{n \epsilon} \\
+\mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) &\geq 1 - \frac{\sigma^2}{n \epsilon} \; .
 \end{split}
 $$
 
@@ -100,8 +100,8 @@ Now taking the limit for $n \rightarrow \infty$ on both sides, while considering
 $$ \label{eq:mean-wlln-s3}
 \begin{split}
 \lim_{n \rightarrow \infty} \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right)
-&\ge \lim_{n \rightarrow \infty} \left( 1 - \frac{\sigma^2}{n \epsilon} \right) \\
-&\ge 1 - \lim_{n \rightarrow \infty} \frac{\sigma^2 / \epsilon}{n} \\
-&\ge 1 \; .
+&\geq \lim_{n \rightarrow \infty} \left( 1 - \frac{\sigma^2}{n \epsilon} \right) \\
+&\geq 1 - \lim_{n \rightarrow \infty} \frac{\sigma^2 / \epsilon}{n} \\
+&\geq 1 \; .
 \end{split}
 $$
