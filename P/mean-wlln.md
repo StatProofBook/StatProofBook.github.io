@@ -71,18 +71,18 @@ $$ \label{eq:mean-samp-var}
 \end{split}
 $$
 
-[Chebyshev's inequality](/P/cheb-ineq) makes a statement about a random variable $X$ in relation to its mean and variance for any positive number $x > 0$:
+[Chebyshev's inequality](/P/cheb-ineq) makes a statement about a [random variable](/D/rvar) $X$ in relation to its mean $\mu$ and variance $\sigma^2$ for any positive number $k > 0$:
 
 $$ \label{eq:cheb-ineq}
-\mathrm{Pr}\left( \left| X - \mathrm{E}(\bar{X}) \right| \geq x \right) \leq \frac{\mathrm{Var}(X)}{x^2} \; .
+\mathrm{Pr}\left( |X-\mu| \geq k \sigma \right) \leq \frac{1}{k^2} \; .
 $$
 
-Applying this inequality to the [random variable](/D/rvar) $\bar{X}$, we have:
+Applying this inequality to the random variable $\bar{X}$, we have:
 
 $$ \label{eq:mean-wlln-s1}
 \begin{split}
 \mathrm{Pr}\left( \left| \bar{X} - \mathrm{E}(\bar{X}) \right| \geq x \right) &\leq \frac{\mathrm{Var}(\bar{X})}{x^2} \\
-\mathrm{Pr}\left( \left| \bar{X} - \mu \right| \geq \epsilon \right) &\leq \frac{\sigma^2}{n \epsilon} \; .
+\mathrm{Pr}\left( \left| \bar{X} - \mu \right| \geq \epsilon \right) &\leq \frac{\sigma^2}{n \epsilon^2} \; .
 \end{split}
 $$
 
@@ -90,8 +90,8 @@ Since [the cumulative distribution function can be used to relate probabilities 
 
 $$ \label{eq:mean-wlln-s2}
 \begin{split}
-1 - \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) &\leq \frac{\sigma^2}{n \epsilon} \\
-\mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) &\geq 1 - \frac{\sigma^2}{n \epsilon} \; .
+1 - \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) &\leq \frac{\sigma^2}{n \epsilon^2} \\
+\mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) &\geq 1 - \frac{\sigma^2}{n \epsilon^2} \; .
 \end{split}
 $$
 
@@ -100,13 +100,13 @@ Now taking the limit for $n \rightarrow \infty$ on both sides, while considering
 $$ \label{eq:mean-wlln-s3}
 \begin{split}
 \lim_{n \rightarrow \infty} \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right)
-&\geq \lim_{n \rightarrow \infty} \left( 1 - \frac{\sigma^2}{n \epsilon} \right) \\
-&\geq 1 - \lim_{n \rightarrow \infty} \frac{\sigma^2 / \epsilon}{n} \\
+&\geq \lim_{n \rightarrow \infty} \left( 1 - \frac{\sigma^2}{n \epsilon^2} \right) \\
+&\geq 1 - \lim_{n \rightarrow \infty} \frac{\sigma^2 / \epsilon^2}{n} \\
 &\geq 1 \; .
 \end{split}
 $$
 
-Since $1 \leq \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right)$ for any $X$, this implies that: 
+Since [the upper limit of probability is one](/P/prob-range), this implies that:
 
 $$
 \lim_{n \rightarrow \infty} \mathrm{Pr}\left( \left| \bar{X} - \mu \right| < \epsilon \right) = 1 \; .
