@@ -35,6 +35,6 @@ username: "JoramSoch"
 
 **Definition:** A [statistic](/D/stat) may be called
 
-* a "descriptive statistic", if it quantitatively describes or summarizes properties of a [statistical sample](/D/samp) or [estimates](/D/est) aspects of the [probability distribution](/D/dist) from which the sample is drawn, e.g. [sample mean](/D/mean-samp);
+* a descriptive statistic, if it quantitatively describes or summarizes a [statistical sample](/D/samp) or [estimates](/D/est) aspects of the [probability distribution](/D/dist) from which the sample is drawn, e.g. [sample mean](/D/mean-samp);
 
-* an "inferential statistic", if its [sampling distribution](/D/dist-samp) under the [null hypothesis](/D/h0) can be used for [testing hypotheses](/D/test) about [parameters](/D/para) of the [distribution](/D/dist) from which the sample is drawn, e.g. [F-statistic](/D/fstat).
+* an inferential statistic, if its [sampling distribution](/D/dist-samp) under the [null hypothesis](/D/h0) can be used for [testing hypotheses](/D/test) about [parameters](/D/para) of the [distribution](/D/dist) from which the sample is drawn, e.g. [F-statistic](/D/fstat).

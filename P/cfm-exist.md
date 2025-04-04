@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let there be observations $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W = f(Y,X) \in \mathbb{R}^{v \times p}$ predicting $X$ from $Y$:
+**Theorem:** Let there be [observations](/D/data) $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W = f(Y,X) \in \mathbb{R}^{v \times p}$ predicting $X$ from $Y$:
 
 $$ \label{eq:bda}
 \hat{X} = Y W \; .
@@ -53,7 +53,7 @@ $$
 1) Because the columns of $\hat{X}$ are assumed to be linearly independent [by definition of the corresponding forward model](/D/cfm), the matrix $\Sigma_x = \hat{X}^\mathrm{T} \hat{X}$ is invertible, such that $A$ in \eqref{eq:cfm-para} is well-defined.
 
 <br>
-2) Moreover, the solution for the matrix $A$ satisfies the [constraint of the corresponding forward model](/D/cfm) for predicted $X$ and errors $E$ to be uncorrelated which can be shown as follows:
+2) Moreover, the solution for the matrix $A$ satisfies the [constraint of the corresponding forward model](/D/cfm) for predicted $X$ and errors $E$ to be [uncorrelated](/D/corr) which can be shown as follows:
 
 $$ \label{eq:X-E-0}
 \begin{split}

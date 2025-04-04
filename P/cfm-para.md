@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let there be observations $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W = f(Y,X) \in \mathbb{R}^{v \times p}$ predicting $X$ from $Y$:
+**Theorem:** Let there be [observations](/D/data) $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W = f(Y,X) \in \mathbb{R}^{v \times p}$ predicting $X$ from $Y$:
 
 $$ \label{eq:bda}
 \hat{X} = Y W \; .
@@ -56,7 +56,7 @@ $$ \label{eq:cfm}
 Y = \hat{X} A^\mathrm{T} + E \; ,
 $$
 
-subject to the constraint that predicted $X$ and errors $E$ are uncorrelated:
+subject to the constraint that predicted $X$ and errors $E$ are [uncorrelated](/D/corr):
 
 $$ \label{eq:cfm-con}
 \hat{X}^\mathrm{T} E = 0 \; .

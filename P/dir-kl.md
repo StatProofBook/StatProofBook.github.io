@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be an $k \times 1$ [random vector](/D/rvec). Assume two [Dirichlet distributions](/D/dir) $P$ and $Q$ specifying the probability distribution of $x$ as
+**Theorem:** Let $x$ be an $1 \times k$ [random vector](/D/rvec). Assume two [Dirichlet distributions](/D/dir) $P$ and $Q$ specifying the probability distribution of $x$ as
 
 $$ \label{eq:dirs}
 \begin{split}

@@ -52,7 +52,7 @@ Y \sim \mathrm{Bet}\left( \frac{d_1}{2}, \frac{d_2}{2} \right) \; .
 $$
 
 
-**Proof:** We denote $Y = g(X)$. The first derivative of the $g$ is
+**Proof:** We denote $Y = g(X)$. The first derivative of the $g$ is:
 
 $$ \label{eq:dg-dx}
 \begin{split}
@@ -74,9 +74,9 @@ f_X(g^{-1}(y)) \, \frac{\mathrm{d}g^{-1}(y)}{\mathrm{d}y} \; , & \text{if} \; y 
 \right.
 $$
 
-where $\mathcal{Y} = \left\lbrace y = g(x): x \in \mathcal{X} \right\rbrace$. Because $g: \, \mathbb{R}_{\geq 0} \rightarrow [0,1]$, we have $\mathcal{Y} = [0, 1]$, such that
+where $\mathcal{Y} = \left\lbrace y = g(x): x \in \mathcal{X} \right\rbrace$. Because $g: \, \mathbb{R}_{\geq 0} \rightarrow [0,1]$, we have $\mathcal{X} = \mathbb{R}_{\geq 0}$ and $\mathcal{Y} = [0, 1]$, such that
 
-$$ \label{eq:Y}
+$$ \label{eq:Y-pdf-zero}
 f_Y(y) = 0
 \quad \text{for} \quad
 y \notin [0,1] \; .
@@ -90,7 +90,7 @@ $$ \label{eq:g-inv}
 d_2 y + d_1 x y &= d_1 x \\
 d_1 x - d_1 x y &= d_2 y \\
 x (d_1 - d_1 y) &= d_2 y \\
-  g^{-1}(y) = x &= \frac{d_2 y}{d_1 - d_1 y} \; .
+              x &= \frac{d_2 y}{d_1 - d_1 y} = g^{-1}(y) \; .
 \end{split}
 $$
 
@@ -116,7 +116,7 @@ $$
 
 With that, we have everything that we need to derive the distribution of $Y$ for $y \in \mathcal{Y}$. Combining \eqref{eq:pdf-sifct}, \eqref{eq:f-pdf}, \eqref{eq:g-inv} and \eqref{eq:dg-inv-dy}, $f_Y(y)$ for $y \in [0,1]$ becomes:
 
-$$
+$$ \label{eq:Y-pdf-nonzero}
 \begin{split}
    f_Y(y)
 &= f_X(g^{-1}(y)) \, \frac{\mathrm{d}g^{-1}(y)}{\mathrm{d}y} \\
