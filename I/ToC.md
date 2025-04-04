@@ -24,6 +24,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.6. *[Statistical sample](/D/samp)* <br>
    &emsp;&ensp; 1.1.7. *[Sample size](/D/samp-size)* <br>
    &emsp;&ensp; 1.1.8. *[Sample statistic](/D/stat)* <br>
+   &emsp;&ensp; 1.1.9. *[Descriptive vs. inferential](/D/stat-desc)* <br>
    
    <p id="Random variables"></p>
    1.2. Random variables <br>
@@ -410,25 +411,27 @@ title: "Table of Contents"
    <p id="Bernoulli distribution"></p>
    1.2. Bernoulli distribution <br>
    &emsp;&ensp; 1.2.1. *[Definition](/D/bern)* <br>
-   &emsp;&ensp; 1.2.2. **[Probability mass function](/P/bern-pmf)** <br>
-   &emsp;&ensp; 1.2.3. **[Mean](/P/bern-mean)** <br>
-   &emsp;&ensp; 1.2.4. **[Variance](/P/bern-var)** <br>
-   &emsp;&ensp; 1.2.5. **[Range of variance](/P/bern-varrange)** <br>
-   &emsp;&ensp; 1.2.6. **[Shannon entropy](/P/bern-ent)** <br>
-   &emsp;&ensp; 1.2.7. **[Kullback-Leibler divergence](/P/bern-kl)** <br>
+   &emsp;&ensp; 1.2.2. **[Special case of categorical distribution](/P/bern-cat)** <br>
+   &emsp;&ensp; 1.2.3. **[Probability mass function](/P/bern-pmf)** <br>
+   &emsp;&ensp; 1.2.4. **[Mean](/P/bern-mean)** <br>
+   &emsp;&ensp; 1.2.5. **[Variance](/P/bern-var)** <br>
+   &emsp;&ensp; 1.2.6. **[Range of variance](/P/bern-varrange)** <br>
+   &emsp;&ensp; 1.2.7. **[Shannon entropy](/P/bern-ent)** <br>
+   &emsp;&ensp; 1.2.8. **[Kullback-Leibler divergence](/P/bern-kl)** <br>
    
    <p id="Binomial distribution"></p>
    1.3. Binomial distribution <br>
    &emsp;&ensp; 1.3.1. *[Definition](/D/bin)* <br>
-   &emsp;&ensp; 1.3.2. **[Probability mass function](/P/bin-pmf)** <br>
-   &emsp;&ensp; 1.3.3. **[Cumulative distribution function](/P/bin-cdf)** <br>
-   &emsp;&ensp; 1.3.4. **[Probability-generating function](/P/bin-pgf)** <br>
-   &emsp;&ensp; 1.3.5. **[Mean](/P/bin-mean)** <br>
-   &emsp;&ensp; 1.3.6. **[Variance](/P/bin-var)** <br>
-   &emsp;&ensp; 1.3.7. **[Range of variance](/P/bin-varrange)** <br>
-   &emsp;&ensp; 1.3.8. **[Shannon entropy](/P/bin-ent)** <br>
-   &emsp;&ensp; 1.3.9. **[Kullback-Leibler divergence](/P/bin-kl)** <br>
-   &emsp;&ensp; 1.3.10. **[Conditional binomial](/P/bin-margcond)** <br>
+   &emsp;&ensp; 1.3.2. **[Special case of multinomial distribution](/P/bin-mult)** <br>
+   &emsp;&ensp; 1.3.3. **[Probability mass function](/P/bin-pmf)** <br>
+   &emsp;&ensp; 1.3.4. **[Cumulative distribution function](/P/bin-cdf)** <br>
+   &emsp;&ensp; 1.3.5. **[Probability-generating function](/P/bin-pgf)** <br>
+   &emsp;&ensp; 1.3.6. **[Mean](/P/bin-mean)** <br>
+   &emsp;&ensp; 1.3.7. **[Variance](/P/bin-var)** <br>
+   &emsp;&ensp; 1.3.8. **[Range of variance](/P/bin-varrange)** <br>
+   &emsp;&ensp; 1.3.9. **[Shannon entropy](/P/bin-ent)** <br>
+   &emsp;&ensp; 1.3.10. **[Kullback-Leibler divergence](/P/bin-kl)** <br>
+   &emsp;&ensp; 1.3.11. **[Conditional binomial](/P/bin-margcond)** <br>
    
    <p id="Beta-binomial distribution"></p>
    1.4. Beta-binomial distribution <br>
@@ -583,12 +586,14 @@ title: "Table of Contents"
    <p id="Beta distribution"></p>
    3.9. Beta distribution <br>
    &emsp;&ensp; 3.9.1. *[Definition](/D/beta)* <br>
-   &emsp;&ensp; 3.9.2. **[Relationship to chi-squared distribution](/P/beta-chi2)** <br>
-   &emsp;&ensp; 3.9.3. **[Probability density function](/P/beta-pdf)** <br>
-   &emsp;&ensp; 3.9.4. **[Moment-generating function](/P/beta-mgf)** <br>
-   &emsp;&ensp; 3.9.5. **[Cumulative distribution function](/P/beta-cdf)** <br>
-   &emsp;&ensp; 3.9.6. **[Mean](/P/beta-mean)** <br>
-   &emsp;&ensp; 3.9.7. **[Variance](/P/beta-var)** <br>
+   &emsp;&ensp; 3.9.2. **[Special case of Dirichlet distribution](/P/beta-dir)** <br>
+   &emsp;&ensp; 3.9.3. **[Relationship to chi-squared distribution](/P/beta-chi2)** <br>
+   &emsp;&ensp; 3.9.4. **[Relationship to F-distribution](/P/beta-f)** <br>
+   &emsp;&ensp; 3.9.5. **[Probability density function](/P/beta-pdf)** <br>
+   &emsp;&ensp; 3.9.6. **[Moment-generating function](/P/beta-mgf)** <br>
+   &emsp;&ensp; 3.9.7. **[Cumulative distribution function](/P/beta-cdf)** <br>
+   &emsp;&ensp; 3.9.8. **[Mean](/P/beta-mean)** <br>
+   &emsp;&ensp; 3.9.9. **[Variance](/P/beta-var)** <br>
    
    <p id="Wald distribution"></p>
    3.10. Wald distribution <br>
