@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $\mathcal{D}(\mu, \lambda)$ denote a family of [probability distributions](/D/dist) with [statistical parameters](/D/para) $\mu$ and $\lambda$. Then, the parameter $\mu$ is referred to as a "location parameter", if and only if the following holds: When a [random variable](/D/rvar) $X$ is following the probability distribution $\mathcal{D}(\mu^{*}, \lambda^{*})$, then the random variable $Y = X-\mu^{*}$ is following the probability distribution $\mathcal{D}(0, \lambda^{*})$.
+**Definition:** Let $\mathcal{D}(\mu, \lambda)$ denote a family of [probability distributions](/D/dist) with [statistical parameters](/D/para) $\mu$ and $\lambda$. Then, the parameter $\mu$ is referred to as a "location parameter", if and only if the following holds: When a [random variable](/D/rvar) $X$ is following the probability distribution $\mathcal{D}(\mu^{\*}, \lambda^{\*})$, then the random variable $Y = X-\mu^{\*}$ is following the probability distribution $\mathcal{D}(0, \lambda^{\*})$.
 
 $$ \label{eq:para-loc}
 X \sim \mathcal{D}(\mu^{*}, \lambda^{*})

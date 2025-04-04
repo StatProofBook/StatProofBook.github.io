@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (453 proofs)
+### JoramSoch (457 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -67,7 +67,11 @@ title: "Proof by Author"
 - [Covariance matrix of the multivariate normal distribution](/P/mvn-cov)
 - [Covariance matrix of the sum of two random vectors](/P/covmat-sum)
 - [Covariance of independent random variables](/P/cov-ind)
+- [Cross-validated log Bayes factor for the univariate Gaussian](/P/ug-cvlbf)
 - [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf)
+- [Cross-validated log model evidence for binomial observations](/P/bin-cvlme)
+- [Cross-validated log model evidence for multinomial observations](/P/mult-cvlme)
+- [Cross-validated log model evidence for the univariate Gaussian](/P/ug-cvlme)
 - [Cross-validated log model evidence for the univariate Gaussian with known variance](/P/ugkv-cvlme)
 - [Cumulative distribution function in terms of probability density function of a continuous random variable](/P/cdf-pdf)
 - [Cumulative distribution function in terms of probability mass function of a discrete random variable](/P/cdf-pmf)

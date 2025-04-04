@@ -31,8 +31,8 @@ be a [univariate Gaussian data set](/D/ugkv) with unknown mean $\mu$ and known v
 
 $$\label{eq:UGkv-m01}
 \begin{split}
-m_0&: \; y_i \sim \mathcal{N}(\mu, \sigma^2), \; \mu = 0 \\
-m_1&: \; y_i \sim \mathcal{N}(\mu, \sigma^2), \; \mu \sim \mathcal{N}(\mu_0, \lambda_0^{-1}) \; .
+m_0 &: \; y_i \sim \mathcal{N}(\mu, \sigma^2), \; \mu = 0 \\
+m_1 &: \; y_i \sim \mathcal{N}(\mu, \sigma^2), \; \mu \sim \mathcal{N}(\mu_0, \lambda_0^{-1}) \; .
 \end{split}
 $$
 
@@ -45,7 +45,7 @@ $$ \label{eq:UGkv-cvLME-m01}
 \end{split}
 $$
 
-where $\bar{y}$ is the [sample mean](/D/mean-samp), $\tau = 1/\sigma^2$ is the [inverse variance or precision](/D/prec), $y_1^{(i)}$ are the training data in the $i$-th cross-validation fold and $S$ is the [number of data subsets](/D/cvlme).
+where $\bar{y}$ is the [sample mean](/D/mean-samp), $\tau = 1/\sigma^2$ is the [inverse variance or precision](/D/prec), $y_1^{(i)}$ are the training data in the $i$-th cross-validation fold with $n_1$ data points and $S$ is the [number of data subsets](/D/cvlme).
 
 
 **Proof:** For evaluation of the [cross-validated log model evidences](/D/cvlme) (cvLME), we assume that $n$ data points are divided into $S \mid n$ data subsets without remainder. Then, the number of training data points $n_1$ and test data points $n_2$ are given by

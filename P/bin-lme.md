@@ -43,7 +43,7 @@ Then, the [log model evidence](/D/lme) for this model is
 
 $$ \label{eq:Bin-LME}
 \begin{split}
-\log \mathrm{p}(y|m) = \log \Gamma(n+1) &- \log \Gamma(k+1) - \log \Gamma(n-k+1) \\
+\log \mathrm{p}(y|m) = \log \Gamma(n+1) &- \log \Gamma(y+1) - \log \Gamma(n-y+1) \\
 &+ \log B(\alpha_n,\beta_n) - \log B(\alpha_0,\beta_0) \; .
 \end{split}
 $$

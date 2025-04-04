@@ -223,3 +223,7 @@ title: "Definition by Number"
 | D214 | std-samp | [Sample standard deviation](/D/std-samp) | JoramSoch | 2025-01-10 |
 | D215 | odds | [Odds ratio, prior and posterior odds](/D/odds) | JoramSoch | 2025-02-06 |
 | D216 | pdf-joint | [Joint probability density function](/D/pdf-joint) | JoramSoch | 2025-02-06 |
+| D217 | para-loc | [Location parameter](/D/para-loc) | JoramSoch | 2025-03-14 |
+| D218 | para-scal | [Scale parameter](/D/para-scal) | JoramSoch | 2025-03-14 |
+| D219 | para-rate | [Rate parameter](/D/para-rate) | JoramSoch | 2025-03-14 |
+| D220 | para-shape | [Shape parameter](/D/para-shape) | JoramSoch | 2025-03-14 |

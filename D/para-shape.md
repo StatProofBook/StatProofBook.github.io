@@ -27,4 +27,4 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $\mathcal{D}(\lambda, \chi)$ denote a family of [probability distributions](/D/dist) with [statistical parameters](/D/para) $\lambda$ and $\chi$. Then, the parameter $\chi$ is referred to as a "shape parameter", if it is neither a [location parameter](/D/para-loc) nor a [scale parameter](/D/para-scal) nor a function of these (such as a [rate parameter](/D/para-rat)).
+**Definition:** Let $\mathcal{D}(\lambda, \chi)$ denote a family of [probability distributions](/D/dist) with [statistical parameters](/D/para) $\lambda$ and $\chi$. Then, the parameter $\chi$ is referred to as a "shape parameter", if it is neither a [location parameter](/D/para-loc) nor a [scale parameter](/D/para-scal) nor a function of these (such as a [rate parameter](/D/para-rate)).

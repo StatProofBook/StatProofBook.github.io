@@ -120,11 +120,11 @@ In the test data, we now have a prior characterized by $\alpha_0^{(2)}$ and a po
 $$ \label{eq:Mult-m1-oosLME}
 \begin{split}
    \mathrm{oosLME}_i(m_1)
-=& \log {n_2 \choose {y_{21}^{(i)}, \ldots, y_{2k}^{(i)}}} + \log \Gamma \left( \sum_{j=1}^{k} \alpha_{0j}^{(2)} \right) - \log \Gamma \left( \sum_{j=1}^{k} \alpha_{nj}^{(2)} \right) \\
- &+ \sum_{j=1}^k \log \Gamma(\alpha_{nj}^{(2)}) - \sum_{j=1}^k \log \Gamma(\alpha_{0j}^{(2)}) \\
-=& \log {n_2 \choose {y_{21}^{(i)}, \ldots, y_{2k}^{(i)}}} + \log \Gamma \left( \sum_{j=1}^{k} y_{1j}^{(i)} \right) - \log \Gamma \left( \sum_{j=1}^{k} y_j \right) \\
- &+ \sum_{j=1}^k \log \Gamma \left( y_j \right) - \sum_{j=1}^k \log \Gamma \left( y_{1j}^{(i)} \right) \\
-=& \log {n_2 \choose {y_{21}^{(i)}, \ldots, y_{2k}^{(i)}}} + \log \frac{\Gamma(n_1)}{\Gamma(y)} - \sum_{j=1}^k \log \left( \frac{y_{1j}^{(i)}}{y_j} \right) \; .
+=&\; \log {n_2 \choose {y_{21}^{(i)}, \ldots, y_{2k}^{(i)}}} + \log \Gamma \left( \sum_{j=1}^{k} \alpha_{0j}^{(2)} \right) - \log \Gamma \left( \sum_{j=1}^{k} \alpha_{nj}^{(2)} \right) \\
+ &+  \sum_{j=1}^k \log \Gamma(\alpha_{nj}^{(2)}) - \sum_{j=1}^k \log \Gamma(\alpha_{0j}^{(2)}) \\
+=&\; \log {n_2 \choose {y_{21}^{(i)}, \ldots, y_{2k}^{(i)}}} + \log \Gamma \left( \sum_{j=1}^{k} y_{1j}^{(i)} \right) - \log \Gamma \left( \sum_{j=1}^{k} y_j \right) \\
+ &+  \sum_{j=1}^k \log \Gamma \left( y_j \right) - \sum_{j=1}^k \log \Gamma \left( y_{1j}^{(i)} \right) \\
+=&\; \log {n_2 \choose {y_{21}^{(i)}, \ldots, y_{2k}^{(i)}}} + \log \frac{\Gamma(n_1)}{\Gamma(y)} - \sum_{j=1}^k \log \left( \frac{y_{1j}^{(i)}}{y_j} \right) \; .
 \end{split}
 $$
 

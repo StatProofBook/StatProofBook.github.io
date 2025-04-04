@@ -69,10 +69,10 @@ Subtracting the two cvLMEs from each other, the cvLBF emerges as
 $$ \label{eq:UG-cvLBF-qed}
 \begin{split}
   \mathrm{cvLBF}_{10}
-= & \mathrm{cvLME}(m_1) - \mathrm{LME}(m_0) \\
-= & + \frac{S}{2} \log \left( \frac{S-1}{S} \right) - \frac{S \cdot n}{2} \left[ \log \left( \frac{1}{2} \left( y^\mathrm{T} y - n {\bar{y}}^2 \right) \right) - \log \left( \frac{1}{2} \left( y^\mathrm{T} y \right) \right) \right] \\
-  & + \frac{n_1}{2} \sum_{i=1}^S \left[ \log \left( \frac{1}{2} \left( {y_1^{(i)}}^\mathrm{T} y_1^{(i)} - n_1 \bar{y}_1^{(i)} \right) \right) - \log \left( \frac{1}{2} \left( {y_1^{(i)}}^\mathrm{T} y_1^{(i)} \right) \right) \right] \\
-= & \frac{S}{2} \log \left( \frac{S-1}{S} \right) - \frac{S \cdot n}{2} \left[ \log \left( \frac{y^\mathrm{T} y - n {\bar{y}}^2}{y^\mathrm{T} y} \right) \right] + \frac{n_1}{2} \sum_{i=1}^S \left[ \log \left( \frac{ {y_1^{(i)}}^\mathrm{T} y_1^{(i)} - n_1 \bar{y}_1^{(i)} }{ {y_1^{(i)}}^\mathrm{T} y_1^{(i)} } \right) \right] \\
-= & \frac{S}{2} \log \left( \frac{S-1}{S} \right) - \frac{S \cdot n}{2} \left[ \log \left( 1 - \frac{n {\bar{y}}^2}{y^\mathrm{T} y} \right) \right] + \frac{n_1}{2} \sum_{i=1}^S \left[ \log \left( 1 - \frac{ n_1 \bar{y}_1^{(i)} }{ {y_1^{(i)}}^\mathrm{T} y_1^{(i)} } \right) \right] \; .
+= &\; \mathrm{cvLME}(m_1) - \mathrm{LME}(m_0) \\
+= &+  \frac{S}{2} \log \left( \frac{S-1}{S} \right) - \frac{S \cdot n}{2} \left[ \log \left( \frac{1}{2} \left( y^\mathrm{T} y - n {\bar{y}}^2 \right) \right) - \log \left( \frac{1}{2} \left( y^\mathrm{T} y \right) \right) \right] \\
+  &+  \frac{n_1}{2} \sum_{i=1}^S \left[ \log \left( \frac{1}{2} \left( {y_1^{(i)}}^\mathrm{T} y_1^{(i)} - n_1 \bar{y}_1^{(i)} \right) \right) - \log \left( \frac{1}{2} \left( {y_1^{(i)}}^\mathrm{T} y_1^{(i)} \right) \right) \right] \\
+= &\; \frac{S}{2} \log \left( \frac{S-1}{S} \right) - \frac{S \cdot n}{2} \left[ \log \left( \frac{y^\mathrm{T} y - n {\bar{y}}^2}{y^\mathrm{T} y} \right) \right] + \frac{n_1}{2} \sum_{i=1}^S \left[ \log \left( \frac{ {y_1^{(i)}}^\mathrm{T} y_1^{(i)} - n_1 \bar{y}_1^{(i)} }{ {y_1^{(i)}}^\mathrm{T} y_1^{(i)} } \right) \right] \\
+= &\; \frac{S}{2} \log \left( \frac{S-1}{S} \right) - \frac{S \cdot n}{2} \left[ \log \left( 1 - \frac{n {\bar{y}}^2}{y^\mathrm{T} y} \right) \right] + \frac{n_1}{2} \sum_{i=1}^S \left[ \log \left( 1 - \frac{ n_1 \bar{y}_1^{(i)} }{ {y_1^{(i)}}^\mathrm{T} y_1^{(i)} } \right) \right] \; .
 \end{split}
 $$

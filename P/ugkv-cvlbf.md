@@ -31,8 +31,8 @@ be a [univariate Gaussian data set](/D/ugkv) with unknown mean $\mu$ and known v
 
 $$ \label{eq:UGkv-m01}
 \begin{split}
-m_0&: \; y_i \sim \mathcal{N}(\mu, \sigma^2), \; \mu = 0 \\
-m_1&: \; y_i \sim \mathcal{N}(\mu, \sigma^2), \; \mu \sim \mathcal{N}(\mu_0, \lambda_0^{-1}) \; .
+m_0 &: \; y_i \sim \mathcal{N}(\mu, \sigma^2), \; \mu = 0 \\
+m_1 &: \; y_i \sim \mathcal{N}(\mu, \sigma^2), \; \mu \sim \mathcal{N}(\mu_0, \lambda_0^{-1}) \; .
 \end{split}
 $$
 
@@ -42,7 +42,7 @@ $$ \label{eq:UGkv-cvLBF}
 \mathrm{cvLBF}_{10} = \frac{S}{2} \log \left( \frac{S-1}{S} \right) - \frac{\tau}{2} \sum_{i=1}^S \left( \frac{\left(n_1 \bar{y}_1^{(i)}\right)^2}{n_1} - \frac{(n \bar{y})^2}{n} \right)
 $$
 
-where $\bar{y}$ is the [sample mean](/D/mean-samp), $\tau = 1/\sigma^2$ is the [inverse variance or precision](/D/prec), $y_1^{(i)}$ are the training data in the $i$-th cross-validation fold and $S$ is the [number of data subsets](/D/cvlme).
+where $\bar{y}$ is the [sample mean](/D/mean-samp), $\tau = 1/\sigma^2$ is the [inverse variance or precision](/D/prec), $y_1^{(i)}$ are the training data in the $i$-th cross-validation fold with $n_1$ data points and $S$ is the [number of data subsets](/D/cvlme).
 
 
 **Proof:** The [relationship between log Bayes factor and log model evidences](/P/lbf-lme) also holds for [cross-validated log bayes factor](/D/lbf) (cvLBF) and [cross-validated log model evidences](/D/cvlme) (cvLME):
