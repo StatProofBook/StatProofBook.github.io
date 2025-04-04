@@ -74,7 +74,7 @@ f_X(g^{-1}(y)) \, \frac{\mathrm{d}g^{-1}(y)}{\mathrm{d}y} \; , & \text{if} \; y 
 \right.
 $$
 
-where $\mathcal{Y} = \left\lbrace y = g(x): x \in \mathcal{X} \right\rbrace$. Because $g: \, \mathbb{R}_{\geq 0} \rightarrow [0,1]$, we have $\mathcal{X} = \mathbb{R}_{\geq 0}$ and $\mathcal{Y} = [0, 1]$, such that
+where $\mathcal{Y} = \left\lbrace y = g(x): x \in \mathcal{X} \right\rbrace$. Because $g: \, \mathbb{R}\_{\geq 0} \rightarrow [0,1]$, we have $\mathcal{X} = \mathbb{R}\_{\geq 0}$ and $\mathcal{Y} = [0, 1]$, such that
 
 $$ \label{eq:Y-pdf-zero}
 f_Y(y) = 0

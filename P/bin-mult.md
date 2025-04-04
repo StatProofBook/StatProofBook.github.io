@@ -30,7 +30,7 @@ X \sim \mathrm{Bin}(p) \; .
 $$
 
 
-**Proof:** The [probability mass function of the multinomial distribution](/P/mult-pmf), where $x$ is a $1 \times k$ vector with $x_i \in \left\lbrace 0, 1, \ldots, n \right\rbrace, is as follows:
+**Proof:** The [probability mass function of the multinomial distribution](/P/mult-pmf), where $x$ is a $1 \times k$ vector with $x_i \in \left\lbrace 0, 1, \ldots, n \right\rbrace$, is as follows:
 
 $$ \label{eq:mult-pmf}
 \mathrm{Mult}(x; n, \left[ p_1, \ldots, p_k \right]) = {n \choose {x_1, \ldots, x_k}} \, \prod_{i=1}^k {p_i}^{x_i} \; .
