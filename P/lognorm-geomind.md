@@ -11,7 +11,7 @@ title: "The geometric mean of independent log-normal random variables is a log-n
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Log-normal distribution"
-theorem: "Geometric mean of independent log-normals "
+theorem: "Geometric mean of independent log-normals"
 
 sources:
   - authors: "Probability Fact"

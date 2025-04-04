@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (204 definitions)
+### JoramSoch (205 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -54,6 +54,7 @@ title: "Definition by Author"
 - [Cumulative distribution function](/D/cdf)
 - [Data](/D/data)
 - [Degrees of freedom](/D/dof)
+- [Descriptive and inferential statistics](/D/stat-desc)
 - [Deviance](/D/dev)
 - [Deviance information criterion](/D/dic)
 - [Differential cross-entropy](/D/dent-cross)

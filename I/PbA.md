@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (457 proofs)
+### JoramSoch (461 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -30,7 +30,10 @@ title: "Proof by Author"
 - [Bayes' theorem](/P/bayes-th)
 - [Bayesian information criterion for multiple linear regression](/P/mlr-bic)
 - [Bayesian model averaging in terms of log model evidences](/P/bma-lme)
+- [Bernoulli distribution is a special case of categorical distribution](/P/bern-cat)
 - [Best linear unbiased estimator for the inverse general linear model](/P/iglm-blue)
+- [Beta distribution is a special case of Dirichlet distribution](/P/beta-dir)
+- [Binomial distribution is a special case of multinomial distribution](/P/bin-mult)
 - [Binomial test](/P/bin-test)
 - [Bonferroni's inequality](/P/bonf-ineq)
 - [Boole's inequality](/P/bool-ineq)
@@ -402,6 +405,7 @@ title: "Proof by Author"
 - [Relationship between correlation coefficient and slope estimate in simple linear regression](/P/slr-corr)
 - [Relationship between covariance and correlation](/P/cov-corr)
 - [Relationship between covariance matrix and correlation matrix](/P/covmat-corrmat)
+- [Relationship between F-distribution and beta distribution](/P/beta-f)
 - [Relationship between F-statistic and maximum log-likelihood](/P/fstat-mll)
 - [Relationship between F-statistic and R²](/P/fstat-rsq)
 - [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam)

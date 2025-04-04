@@ -499,3 +499,7 @@ title: "Proof by Number"
 | P491 | ug-cvlbf | [Cross-validated log Bayes factor for the univariate Gaussian](/P/ug-cvlbf) | JoramSoch | 2025-03-07 |
 | P492 | bin-cvlme | [Cross-validated log model evidence for binomial observations](/P/bin-cvlme) | JoramSoch | 2025-03-07 |
 | P493 | mult-cvlme | [Cross-validated log model evidence for multinomial observations](/P/mult-cvlme) | JoramSoch | 2025-03-07 |
+| P494 | bern-cat | [Bernoulli distribution is a special case of categorical distribution](/P/bern-cat) | JoramSoch | 2025-04-04 |
+| P495 | bin-mult | [Binomial distribution is a special case of multinomial distribution](/P/bin-mult) | JoramSoch | 2025-04-04 |
+| P496 | beta-dir | [Beta distribution is a special case of Dirichlet distribution](/P/beta-dir) | JoramSoch | 2025-04-04 |
+| P497 | beta-f | [Relationship between F-distribution and beta distribution](/P/beta-f) | JoramSoch | 2025-04-04 |

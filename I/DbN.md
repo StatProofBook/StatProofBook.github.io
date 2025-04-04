@@ -227,3 +227,4 @@ title: "Definition by Number"
 | D218 | para-scal | [Scale parameter](/D/para-scal) | JoramSoch | 2025-03-14 |
 | D219 | para-rate | [Rate parameter](/D/para-rate) | JoramSoch | 2025-03-14 |
 | D220 | para-shape | [Shape parameter](/D/para-shape) | JoramSoch | 2025-03-14 |
+| D221 | stat-desc | [Descriptive and inferential statistics](/D/stat-desc) | JoramSoch | 2025-04-04 |
