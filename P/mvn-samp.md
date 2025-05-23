@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2025-05-23 10:13:38
+date: 2025-05-21 16:14:00
 
 title: "Sampling from the matrix-normal distribution"
 chapter: "Probability Distributions"
