@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a [random vector](/D/rvec). Then, $X$ is said to follow a categorical distribution with success probability $p_1, \ldots, p_k$
+**Definition:** Let $X$ be a [random vector](/D/rvec). Then, $X$ is said to follow a categorical distribution with category probabilities $p_1, \ldots, p_k$
 
 $$ \label{eq:cat}
 X \sim \mathrm{Cat}(\left[p_1, \ldots, p_k \right]) \; ,

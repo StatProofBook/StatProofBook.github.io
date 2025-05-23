@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to follow a gamma distribution with shape $a$ and rate $b$
+**Definition:** Let $X$ be a [random variable](/D/rvar). Then, $X$ is said to follow a gamma distribution with [shape](/D/para-shape) $a$ and [rate](/D/para-rate) $b$
 
 $$ \label{eq:gam}
 X \sim \mathrm{Gam}(a, b) \; ,
@@ -40,4 +40,4 @@ $$ \label{eq:gam-pdf}
 \mathrm{Gam}(x; a, b) = \frac{b^a}{\Gamma(a)} x^{a-1} \exp[-b x], \quad x > 0
 $$
 
-where $a > 0$ and $b > 0$, and the density is zero, if $x \leq 0$.
+where $a > 0$ and $b > 0$, $\Gamma(x)$ is the gamma function and the density is zero, if $x \leq 0$.

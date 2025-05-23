@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a $k \times 1$ [random vector](/D/rvec). Then, $X$ is said to follow a Dirichlet distribution with concentration parameters $\alpha = \left[ \alpha_1, \ldots, \alpha_k \right]$
+**Definition:** Let $X$ be a $1 \times k$ [random vector](/D/rvec). Then, $X$ is said to follow a Dirichlet distribution with concentration parameters $\alpha = \left[ \alpha_1, \ldots, \alpha_k \right]$
 
 $$ \label{eq:Dir}
 X \sim \mathrm{Dir}(\alpha) \; ,

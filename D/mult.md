@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Definition:** Let $X$ be a [random vector](/D/rvec). Then, $X$ is said to follow a multinomial distribution with number of trials $n$ and category probabilities $p_1, \ldots, p_k$
 
 $$ \label{eq:mult}
-X \sim \mathrm{Mult}(n, \left[p_1, \ldots, p_k \right]) \; ,
+X \sim \mathrm{Mult}(n, \left[ p_1, \ldots, p_k \right]) \; ,
 $$
 
 if $X$ are the numbers of observations belonging to $k$ distinct categories in $n$ [independent](/D/ind) trials, where each trial has $k$ [possible outcomes](/D/cat) and the category probabilities are identical across trials.

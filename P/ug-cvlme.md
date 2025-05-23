@@ -94,7 +94,8 @@ $$ \label{eq:UG-m1-y2}
 \begin{split}
 \mu_0^{(2)} &= \mu_n^{(1)} = \bar{y}_1^{(i)} \\
 \Rightarrow \quad \mu_n^{(2)} &= \frac{\lambda_0^{(2)} \mu_0^{(2)} + n_2 \bar{y}_2^{(i)}}{\lambda_0^{(2)} + n_2} \\
-&= \frac{n_1 \bar{y}_1^{(i)} + n_2 \bar{y}_2^{(i)}}{n_1 + n_2} = \frac{n \bar{y}}{n} = \bar{y} \\
+&= \frac{n_1 \bar{y}_1^{(i)} + n_2 \bar{y}_2^{(i)}}{n_1 + n_2} \\
+&= \frac{n \bar{y}}{n} = \bar{y} \\
 \lambda_0^{(2)} &= \lambda_n^{(1)} = n_1 \\
 \Rightarrow \quad \lambda_n^{(2)} &= \lambda_0^{(2)} + n_2 = n_1 + n_2 = n \\
 a_0^{(2)} &= a_n^{(1)} = \frac{n_1}{2} \\

@@ -39,4 +39,4 @@ $$ \label{eq:beta-pdf}
 \mathrm{Bet}(x; \alpha, \beta) = \frac{1}{\mathrm{B}(\alpha, \beta)} \, x^{\alpha-1} \, (1-x)^{\beta-1}
 $$
 
-where $\alpha > 0$ and $\beta > 0$, and the density is zero, if $x \notin [0,1]$.
+where $\alpha > 0$ and $\beta > 0$, $\mathrm{B}(x,y)$ is the beta function and the density is zero, if $x \notin [0,1]$.

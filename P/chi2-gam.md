@@ -24,7 +24,7 @@ username: "kjpetrykowski"
 **Theorem:** The [chi-squared distribution](/D/chi2) with $k$ degrees of freedom is a special case of the [gamma distribution](/D/gam) with shape $\frac{k}{2}$ and rate $\frac{1}{2}$:
 
 $$ \label{eq:chi2-gam}
-X \sim \mathrm{Gam}\left( \frac{k}{2}, \frac{1}{2} \right) \Rightarrow X \sim \chi^{2}(k) \; .
+X \sim \mathrm{Gam}\left( \frac{k}{2}, \frac{1}{2} \right) \quad \Rightarrow \quad X \sim \chi^{2}(k) \; .
 $$
 
 

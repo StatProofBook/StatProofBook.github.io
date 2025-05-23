@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $\mathcal{D}(\lambda, \rho)$ denote a family of [probability distributions](/D/dist) with [statistical parameters](/D/para) $\lambda$ and $\rho$. Then, the parameter $\rho$ is referred to as a "rate parameter" or "inverse scale parameter", if it is the reciprocal inverse of a scale parameter with respect to this family of distributions.
+**Definition:** Let $\mathcal{D}(\lambda, \rho)$ denote a family of [probability distributions](/D/dist) with [statistical parameters](/D/para) $\lambda$ and $\rho$. Then, the parameter $\rho$ is referred to as a "rate parameter" or "inverse scale parameter", if it is the reciprocal inverse of a [scale parameter](/D/para-scal) with respect to this family of distributions.
 
 $$ \label{eq:para-scal}
 \rho \;\; \text{rate}

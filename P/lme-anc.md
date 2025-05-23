@@ -27,6 +27,13 @@ sources:
     pages: "vol. 28, pp. 275–293"
     url: "https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.20327"
     doi: "10.1002/hbm.20327"
+  - authors: "Ostwald et al."
+    year: 2014
+    title: "A tutorial on variational Bayes for latent linear stochastic time-series models"
+    in: "Journal of Mathematical Psychology"
+    pages: "vol. 60, pp. 1-19"
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S0022249614000352"
+    doi: "10.1016/j.jmp.2014.04.003"
   - authors: "Soch et al."
     year: 2016
     title: "How to avoid mismodelling in GLM-based fMRI data analysis: cross-validated Bayesian model selection"

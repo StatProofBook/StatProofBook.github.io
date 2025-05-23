@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let there be observations $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W = f(Y,X) \in \mathbb{R}^{v \times p}$ estimated from $Y$ and $X$, such that right-multiplying $Y$ with the weight matrix gives an estimate or prediction of $X$:
+**Definition:** Let there be [observations](/D/data) $Y \in \mathbb{R}^{n \times v}$ and $X \in \mathbb{R}^{n \times p}$ and consider a weight matrix $W = f(Y,X) \in \mathbb{R}^{v \times p}$ [estimated](/D/est) from $Y$ and $X$, such that right-multiplying $Y$ with the weight matrix gives an [estimate](/D/est) or prediction of $X$:
 
 $$ \label{eq:bda}
 \hat{X} = Y W \; .
