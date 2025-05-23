@@ -48,6 +48,12 @@ $$
 
 Together with \eqref{eq:mean-XYZ}, this yields
 
-$$ \label{eq:mean-mono-qed}
-\mathrm{E}(Y) - \mathrm{E}(X) \geq 0 \; .
+$$ \label{eq:mean-mono-s1}
+\mathrm{E}(Y) - \mathrm{E}(X) \geq 0
+$$
+
+and rearranging, we have
+
+$$ \label{eq:mean-mono-s2}
+\mathrm{E}(X) \leq \mathrm{E}(Y) \; .
 $$

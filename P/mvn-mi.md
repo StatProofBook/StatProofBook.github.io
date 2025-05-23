@@ -40,7 +40,7 @@ $$ \label{eq:bvn-lincomb}
 \mathrm{I}(X,Y) = \frac{1}{2} \ln \left[ \frac{|\Sigma_1| |\Sigma_2|}{|\Sigma|} \right]
 $$
 
-where $\mu \in \mathbb{R}^p$ and $\Sigma \in \mathbb{R}^{p \times p}$ are the [mean](/D/mean) and [covariance matrix](/D/covmat) of the [random vector](/D/rvec) $\left[ \begin{matrix} X \\\\ Y \end{matrix} \right] \in \mathbb{R}^p$, respectively, where $p = n + m$.
+where $\Sigma \in \mathbb{R}^{p \times p}$ is the [covariance matrix](/D/covmat) of the [random vector](/D/rvec) $\left[ \begin{matrix} X \\\\ Y \end{matrix} \right] \in \mathbb{R}^p$, with $p = n + m$.
 
 
 **Proof:** [Mutual information can be written in terms of marginal and joint differential entropy](/P/cmi-mjde):

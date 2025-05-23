@@ -90,7 +90,7 @@ F
 &= \frac{V_1/(n_1-1)}{V_2/(n_2-1)} \\
 &= \frac{\left. (n_1-1) \frac{s_1^2}{\sigma_1^2} \middle/ (n_1-1) \right.}{\left. (n_2-1) \frac{s_2^2}{\sigma_2^2} \middle/ (n_2-1) \right.} \\
 &= \frac{s_1^2 / \sigma_1^2}{s_2^2 / \sigma_2^2} \\
-&\overset{H_0}{=} \frac{s_1^2}{s_2^2} \; .
+&\overset{\eqref{eq:fev-h0}}{=} \frac{s_1^2}{s_2^2} \; .
 \end{split}
 $$
 

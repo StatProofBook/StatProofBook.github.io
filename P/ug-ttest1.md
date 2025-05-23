@@ -73,7 +73,7 @@ $$
 Again employing the linear combination theorem and applying the null hypothesis from \eqref{eq:ttest1-h0}, the distribution of $Z = \sqrt{n}(\bar{y}-\mu_0)/\sigma$ becomes [standard normal](/D/snorm)
 
 $$ \label{eq:Z-dist}
-Z = \frac{\sqrt{n}(\bar{y}-\mu_0)}{\sigma} \sim \mathcal{N}\left( \frac{\sqrt{n}}{\sigma} (\mu - \mu_0), \left(\frac{\sqrt{n}}{\sigma}\right)^2 \frac{\sigma^2}{n} \right) \overset{H_0}{=} \mathcal{N}\left( 0, 1 \right) \; .
+Z = \frac{\sqrt{n}(\bar{y}-\mu_0)}{\sigma} \sim \mathcal{N}\left( \frac{\sqrt{n}}{\sigma} (\mu - \mu_0), \left(\frac{\sqrt{n}}{\sigma}\right)^2 \frac{\sigma^2}{n} \right) \overset{\eqref{eq:ttest1-h0}}{=} \mathcal{N}\left( 0, 1 \right) \; .
 $$
 
 Because [sample variances calculated from independent normal random variables follow a chi-squared distribution](/P/norm-chi2), the distribution of $V = (n-1)\,s^2/\sigma^2$ is

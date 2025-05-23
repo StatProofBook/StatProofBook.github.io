@@ -42,7 +42,7 @@ $$ \label{eq:cdf-Pr-leq}
 F_X(x) = \mathrm{Pr}(X \leq x) \; ,
 $$
 
-we have
+[we have](/P/cdf-probexc)
 
 $$ \label{eq:cdf-Pr-geq}
 1 - F_X(x) = \mathrm{Pr}(X > x) \; ,

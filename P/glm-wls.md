@@ -40,7 +40,7 @@ $$ \label{eq:W-def}
 W V W^\mathrm{T} = I_n \; .
 $$
 
-Since $V$ is a covariance matrix and thus symmetric, $W$ is also symmetric and can be expressed as the matrix square root of the inverse of $V$:
+Since $V$ is a [covariance matrix and thus symmetric](/P/cov-symm), $W$ is also symmetric and can be expressed as the matrix square root of the inverse of $V$:
 
 $$ \label{eq:W-V}
 W W = V^{-1} \quad \Leftrightarrow \quad W = V^{-1/2} \; .

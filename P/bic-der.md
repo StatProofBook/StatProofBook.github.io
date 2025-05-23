@@ -28,9 +28,9 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $p(y \vert \theta, m)$ be the [likelihood function](/D/lf) of a [generative model](/D/gm) $m \in \mathcal{M}$ with model parameters $\theta \in \Theta$ describing measured data $y \in \mathbb{R}^n$. Let $p(\theta \vert m)$ be a [prior distribution](/D/prior) on the model parameters. Assume that likelihood function and prior density are twice differentiable.
+**Theorem:** Let $p(y \vert \theta, m)$ be the [likelihood function](/D/lf) of a [generative model](/D/gm) $m \in \mathcal{M}$ with [model parameters](/D/para) $\theta \in \Theta$ describing [measured data](/D/data) $y \in \mathbb{R}^n$. Let $p(\theta \vert m)$ be a [prior distribution](/D/prior) on the model parameters. Assume that likelihood function and prior density are twice differentiable.
 
-Then, as the number of data points goes to infinity, an approximation to the log-[marginal likelihood](/D/ml) $\log p(y \vert m)$, up to constant terms not depending on the model, is given by the [Bayesian information criterion](/D/bic) (BIC) as
+Then, as the [number of data points](/D/samp-size) goes to infinity, an approximation to the log-[marginal likelihood](/D/ml) $\log p(y \vert m)$, up to constant terms not depending on the model, is given by the [Bayesian information criterion](/D/bic) (BIC) as
 
 $$ \label{eq:BIC}
 -2 \log p(y|m) \approx \mathrm{BIC}(m) = -2 \log p(y|\hat{\theta}, m) + p \log n
