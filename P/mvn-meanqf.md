@@ -45,8 +45,8 @@ $$
 For a [multivariate normal random vector](/D/mvn) $X \sim \mathcal{N}(\mu, \Sigma)$, [mean](/P/mvn-mean) and [covariance](/P/mvn-cov) are
 
 $$ \label{eq:mvn-mean-cov}
-  \mathrm{E}(X) &= \mu \quad \text{and} \quad
-\mathrm{Cov}(X) &= \Sigma \; .
+  \mathrm{E}(X) = \mu \quad \text{and} \quad
+\mathrm{Cov}(X) = \Sigma \; .
 $$
 
 Combing \eqref{eq:mean-qf} with \eqref{eq:mvn-mean-cov}, we have:
