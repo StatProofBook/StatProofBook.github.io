@@ -625,23 +625,28 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.4. **[Probability density function](/P/mvn-pdf)** <br>
    &emsp;&ensp; 4.1.5. **[Moment-generating function](/P/mvn-mgf)** <br>
    &emsp;&ensp; 4.1.6. **[Mean](/P/mvn-mean)** <br>
-   &emsp;&ensp; 4.1.7. **[Covariance](/P/mvn-cov)** <br>
-   &emsp;&ensp; 4.1.8. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.9. **[Mutual information](/P/mvn-mi)** <br>
-   &emsp;&ensp; 4.1.10. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.11. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.12. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.13. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.14. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.15. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.7. **[Mode](/P/mode)** <br>
+   &emsp;&ensp; 4.1.8. **[Covariance](/P/mvn-cov)** <br>
+   &emsp;&ensp; 4.1.9. **[Expectation of a quadratic form](/P/mvn-meanqf)** <br>
+   &emsp;&ensp; 4.1.10. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.11. **[Mutual information](/P/mvn-mi)** <br>
+   &emsp;&ensp; 4.1.12. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.13. **[Maximum entropy distribution](/P/mvn-maxent)** <br>
+   &emsp;&ensp; 4.1.14. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.15. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.16. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.17. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.18. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.19. **[Drawing samples](/P/mvn-samp)** <br>
    
    <p id="Bivariate normal distribution"></p>
    4.2. Bivariate normal distribution <br>
    &emsp;&ensp; 4.2.1. *[Definition](/D/bvn)* <br>
    &emsp;&ensp; 4.2.2. **[Probability density function](/P/bvn-pdf)** <br>
    &emsp;&ensp; 4.2.3. **[Probability density function in terms of correlation coefficient](/P/bvn-pdfcorr)** <br>
-   &emsp;&ensp; 4.2.4. **[Mutual information](/P/bvn-mi)** <br>
-   &emsp;&ensp; 4.2.5. **[Linear combination](/P/bvn-lincomb)** <br>
+   &emsp;&ensp; 4.2.4. **[Construction from standard normal distributions](/P/bvn-snorm)** <br>
+   &emsp;&ensp; 4.2.5. **[Mutual information](/P/bvn-mi)** <br>
+   &emsp;&ensp; 4.2.6. **[Linear combination](/P/bvn-lincomb)** <br>
    
    <p id="Multivariate t-distribution"></p>
    4.3. Multivariate t-distribution <br>
