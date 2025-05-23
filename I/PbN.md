@@ -503,3 +503,8 @@ title: "Proof by Number"
 | P495 | bin-mult | [Binomial distribution is a special case of multinomial distribution](/P/bin-mult) | JoramSoch | 2025-04-04 |
 | P496 | beta-dir | [Beta distribution is a special case of Dirichlet distribution](/P/beta-dir) | JoramSoch | 2025-04-04 |
 | P497 | beta-f | [Relationship between F-distribution and beta distribution](/P/beta-f) | JoramSoch | 2025-04-04 |
+| P498 | mvn-mode | [Mode of the multivariate normal distribution](/P/mvn-mode) | JoramSoch | 2025-05-21 |
+| P499 | mvn-meanqf | [Expectation of a quadratic form for the multivariate normal distribution](/P/mvn-meanqf) | JoramSoch | 2025-05-21 |
+| P500 | mvn-maxent | [Multivariate normal distribution maximizes differential entropy for fixed covariance](/P/mvn-maxent) | JoramSoch | 2025-05-21 |
+| P501 | mvn-samp | [Sampling from the matrix-normal distribution](/P/mvn-samp) | JoramSoch | 2025-05-21 |
+| P502 | bvn-snorm | [Construction of a bivariate normal distribution from univariate standard normal random variables](/P/bvn-snorm) | JoramSoch | 2025-05-22 |

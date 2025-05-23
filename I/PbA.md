@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (461 proofs)
+### JoramSoch (466 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -53,6 +53,7 @@ title: "Proof by Author"
 - [Conjugate prior distribution for the Poisson distribution with exposure values](/P/poissexp-prior)
 - [Conjugate prior distribution for the univariate Gaussian](/P/ug-prior)
 - [Conjugate prior distribution for the univariate Gaussian with known variance](/P/ugkv-prior)
+- [Construction of a bivariate normal distribution from univariate standard normal random variables](/P/bvn-snorm)
 - [Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Construction of unbiased estimator for variance in multiple linear regression](/P/resvar-unbp)
@@ -132,6 +133,7 @@ title: "Proof by Author"
 - [Exceedance probability for a random variable in terms of cumulative distribution function](/P/cdf-probexc)
 - [Existence of a corresponding forward model](/P/cfm-exist)
 - [Expectation of a quadratic form](/P/mean-qf)
+- [Expectation of a quadratic form for the multivariate normal distribution](/P/mvn-meanqf)
 - [Expectation of parameter estimates for simple linear regression](/P/slr-olsmean)
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
@@ -261,6 +263,7 @@ title: "Proof by Author"
 - [Method of moments for beta-distributed data](/P/beta-mome)
 - [Mode of the continuous uniform distribution](/P/cuni-med)
 - [Mode of the gamma distribution](/P/gam-mode)
+- [Mode of the multivariate normal distribution](/P/mvn-mode)
 - [Mode of the normal distribution](/P/norm-mode)
 - [Moment in terms of moment-generating function](/P/mom-mgf)
 - [Moment-generating function of a function of a random variable](/P/mgf-fct)
@@ -276,6 +279,7 @@ title: "Proof by Author"
 - [Multinomial test](/P/mult-test)
 - [Multiple linear regression is a special case of the general linear model](/P/mlr-glm)
 - [Multivariate normal distribution is a special case of matrix-normal distribution](/P/mvn-matn)
+- [Multivariate normal distribution maximizes differential entropy for fixed covariance](/P/mvn-maxent)
 - [Mutual information of dependent and independent variables in the general linear model](/P/glm-mi)
 - [Mutual information of the bivariate normal distribution](/P/bvn-mi)
 - [Mutual information of the multivariate normal distribution](/P/mvn-mi)
@@ -426,6 +430,7 @@ title: "Proof by Author"
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Reparametrization for one-way analysis of variance](/P/anova1-repara)
 - [Sampling from the matrix-normal distribution](/P/matn-samp)
+- [Sampling from the matrix-normal distribution](/P/mvn-samp)
 - [Sampling from the normal-gamma distribution](/P/ng-samp)
 - [Scaling of a random variable following the gamma distribution](/P/gam-scal)
 - [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal)

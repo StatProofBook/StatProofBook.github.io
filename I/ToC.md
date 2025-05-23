@@ -625,7 +625,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.4. **[Probability density function](/P/mvn-pdf)** <br>
    &emsp;&ensp; 4.1.5. **[Moment-generating function](/P/mvn-mgf)** <br>
    &emsp;&ensp; 4.1.6. **[Mean](/P/mvn-mean)** <br>
-   &emsp;&ensp; 4.1.7. **[Mode](/P/mode)** <br>
+   &emsp;&ensp; 4.1.7. **[Mode](/P/mvn-mode)** <br>
    &emsp;&ensp; 4.1.8. **[Covariance](/P/mvn-cov)** <br>
    &emsp;&ensp; 4.1.9. **[Expectation of a quadratic form](/P/mvn-meanqf)** <br>
    &emsp;&ensp; 4.1.10. **[Differential entropy](/P/mvn-dent)** <br>
