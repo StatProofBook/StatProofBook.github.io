@@ -60,16 +60,16 @@ $$
 
 Now note that $\lvert\frac{\partial}{\partial a}(a - x)f(x)\rvert = \lvert\frac{\partial}{\partial a}(x - a)f(x)\rvert = f(x)$. Consequently, $\int_{-\infty}^af(x) = P(X_i < a)$ and $\int_{a}^\infty f(x) = P(X_i > a)$, both of which must be finite by the [axioms of probability](/D/prob-ax). Therefore, these integrals meet the conditions for application of Leibniz's rule.
 
-Applying Leibniz's rule, we can differentiate the objective function as follows:
+Applying Leibniz's integral rule, we can differentiate the objective function as follows:
 
 $$ \label{eq:med-mae-s2}
 \begin{split}
     &\frac{\partial}{\partial a} \left( \int_{-\infty}^a (a - x) f(x) \, \mathrm{d}x + \int_{a}^\infty (x - a) f(x) \, \mathrm{d}x \right) \\
-=\; &(a - x) f(x)\Big|_{x=a} + \int_{-\infty}^a f(x) \, \mathrm{d}x - (x - a) f(x)\Big|_{x=a} - \int_{a}^\infty f(x) \, \mathrm{d}x \; .
+=\; &(a - x) f(x) \Big|_{x=a} + \int_{-\infty}^a f(x) \, \mathrm{d}x - (x - a) f(x) \Big|_{x=a} - \int_{a}^\infty f(x) \, \mathrm{d}x \; .
 \end{split}
 $$
 
-Canceling terms and setting this derivative to 0, it must be true that
+Canceling non-integral terms and setting this derivative to 0, it must be true that
 
 $$\label{eq:dmed-da}
 \int_{-\infty}^a f(x) \, \mathrm{d}x - \int_{a}^\infty f(x) \, \mathrm{d}x = 0
@@ -77,7 +77,7 @@ $$\label{eq:dmed-da}
 P(X_i < a) = P(X_i > a) \; .
 $$
 
-This yields the implication
+Together with the [probability of the complement](/P/prob-comp), this yields the implication
 
 $$\label{eq:med-mae-qed}
 P(X_i < a) = P(X_i > a)
@@ -89,4 +89,4 @@ $$
 
 As a result, $a$ satisfies the [definition of a median](/D/med) at the critical point of the objective function.
 
-Finally, the absolute value is a convex function, and so is its expected value by Jensen's inequality. This implies, since the median is the sole critical point, it must be a global minimum. Therefore, the median must minimize the mean absolute error, completing the proof.
+Finally, the absolute value is a convex function. Thus, by Jensen's inequality, its expected value is also convex. This implies, since the median is the sole critical point, that it must be a global minimum. Therefore, the median must minimize the mean absolute error, completing the proof.
