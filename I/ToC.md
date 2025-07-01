@@ -688,7 +688,9 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.8. **[Transposition](/P/matn-trans)** <br>
    &emsp;&ensp; 5.1.9. **[Linear transformation](/P/matn-ltt)** <br>
    &emsp;&ensp; 5.1.10. **[Marginal distributions](/P/matn-marg)** <br>
-   &emsp;&ensp; 5.1.11. **[Drawing samples](/P/matn-samp)** <br>
+   &emsp;&ensp; 5.1.11. **[Redundancy of parameters](/P/matn-red)** (1) <br>
+   &emsp;&ensp; 5.1.12. **[Redundancy of parameters](/P/matn-red2)** (2) <br>
+   &emsp;&ensp; 5.1.13. **[Drawing samples](/P/matn-samp)** <br>
    
    <p id="Wishart distribution"></p>
    5.2. Wishart distribution <br>
@@ -848,39 +850,46 @@ title: "Table of Contents"
    &emsp;&ensp; 1.7.4. **[Accuracy and complexity](/P/blrkc-anc)** <br>
    
 2. <p id="Multivariate normal data">Multivariate normal data</p>
+
+   <p id="Multivariate Gaussian"></p>
+   2.1. Multivariate Gaussian <br>
+   &emsp;&ensp; 2.1.1. *[Bivariate normally distributed data](/D/bvn-data)* <br>
+   &emsp;&ensp; 2.1.2. *[Multivariate normally distributed data](/D/mvn-data)* <br>
+   &emsp;&ensp; 2.1.3. **[Maximum likelihood estimation (p = 2)](/P/bvn-mle)** <br>
+   &emsp;&ensp; 2.1.4. **[Maximum likelihood estimation (p > 2)](/P/mvn-mle)** <br>
    
    <p id="General linear model"></p>
-   2.1. General linear model <br>
-   &emsp;&ensp; 2.1.1. *[Definition](/D/glm)* <br>
-   &emsp;&ensp; 2.1.2. **[Ordinary least squares](/P/glm-ols)** <br>
-   &emsp;&ensp; 2.1.3. **[Weighted least squares](/P/glm-wls)** <br>
-   &emsp;&ensp; 2.1.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
-   &emsp;&ensp; 2.1.5. **[Maximum log-likelihood](/P/glm-mll)** <br>
-   &emsp;&ensp; 2.1.6. **[Log-likelihood ratio](/P/glm-llr)** <br>
-   &emsp;&ensp; 2.1.7. **[Mutual information](/P/glm-mi)** <br>
-   &emsp;&ensp; 2.1.8. **[Log-likelihood ratio and estimated mutual information](/P/glm-llrmi)** <br>
+   2.2. General linear model <br>
+   &emsp;&ensp; 2.2.1. *[Definition](/D/glm)* <br>
+   &emsp;&ensp; 2.2.2. **[Ordinary least squares](/P/glm-ols)** <br>
+   &emsp;&ensp; 2.2.3. **[Weighted least squares](/P/glm-wls)** <br>
+   &emsp;&ensp; 2.2.4. **[Maximum likelihood estimation](/P/glm-mle)** <br>
+   &emsp;&ensp; 2.2.5. **[Maximum log-likelihood](/P/glm-mll)** <br>
+   &emsp;&ensp; 2.2.6. **[Log-likelihood ratio](/P/glm-llr)** <br>
+   &emsp;&ensp; 2.2.7. **[Mutual information](/P/glm-mi)** <br>
+   &emsp;&ensp; 2.2.8. **[Log-likelihood ratio and estimated mutual information](/P/glm-llrmi)** <br>
    
    <p id="Transformed general linear model"></p>
-   2.2. Transformed general linear model <br>
-   &emsp;&ensp; 2.2.1. *[Definition](/D/tglm)* <br>
-   &emsp;&ensp; 2.2.2. **[Derivation of the distribution](/P/tglm-dist)** <br>
-   &emsp;&ensp; 2.2.3. **[Equivalence of parameter estimates](/P/tglm-para)** <br>
+   2.3. Transformed general linear model <br>
+   &emsp;&ensp; 2.3.1. *[Definition](/D/tglm)* <br>
+   &emsp;&ensp; 2.3.2. **[Derivation of the distribution](/P/tglm-dist)** <br>
+   &emsp;&ensp; 2.3.3. **[Equivalence of parameter estimates](/P/tglm-para)** <br>
    
    <p id="Inverse general linear model"></p>
-   2.3. Inverse general linear model <br>
-   &emsp;&ensp; 2.3.1. *[Definition](/D/iglm)* <br>
-   &emsp;&ensp; 2.3.2. **[Derivation of the distribution](/P/iglm-dist)** <br>
-   &emsp;&ensp; 2.3.3. **[Best linear unbiased estimator](/P/iglm-blue)** <br>
-   &emsp;&ensp; 2.3.4. **[Equivalence of log-likelihood ratios](/P/iglm-llrs)** <br>
-   &emsp;&ensp; 2.3.5. *[Corresponding forward model](/D/cfm)* <br>
-   &emsp;&ensp; 2.3.6. **[Derivation of parameters](/P/cfm-para)** <br>
-   &emsp;&ensp; 2.3.7. **[Proof of existence](/P/cfm-exist)** <br>
+   2.4. Inverse general linear model <br>
+   &emsp;&ensp; 2.4.1. *[Definition](/D/iglm)* <br>
+   &emsp;&ensp; 2.4.2. **[Derivation of the distribution](/P/iglm-dist)** <br>
+   &emsp;&ensp; 2.4.3. **[Best linear unbiased estimator](/P/iglm-blue)** <br>
+   &emsp;&ensp; 2.4.4. **[Equivalence of log-likelihood ratios](/P/iglm-llrs)** <br>
+   &emsp;&ensp; 2.4.5. *[Corresponding forward model](/D/cfm)* <br>
+   &emsp;&ensp; 2.4.6. **[Derivation of parameters](/P/cfm-para)** <br>
+   &emsp;&ensp; 2.4.7. **[Proof of existence](/P/cfm-exist)** <br>
    
    <p id="Multivariate Bayesian linear regression"></p>
-   2.4. Multivariate Bayesian linear regression <br>
-   &emsp;&ensp; 2.4.1. **[Conjugate prior distribution](/P/mblr-prior)** <br>
-   &emsp;&ensp; 2.4.2. **[Posterior distribution](/P/mblr-post)** <br>
-   &emsp;&ensp; 2.4.3. **[Log model evidence](/P/mblr-lme)** <br>
+   2.5. Multivariate Bayesian linear regression <br>
+   &emsp;&ensp; 2.5.1. **[Conjugate prior distribution](/P/mblr-prior)** <br>
+   &emsp;&ensp; 2.5.2. **[Posterior distribution](/P/mblr-post)** <br>
+   &emsp;&ensp; 2.5.3. **[Log model evidence](/P/mblr-lme)** <br>
 
 3. <p id="Count data">Count data</p>
    
