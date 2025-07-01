@@ -33,7 +33,7 @@ username: "JoramSoch"
 **Proof:** For a [random variable](/D/rvar) $X$ with set of possible values $\mathcal{X}$ and [probability density function](/D/pdf) $p(x)$, the [differential entropy](/D/dent) is defined as:
 
 $$ \label{eq:dent}
-\mathrm{h}(X) = - \int_{\mathcal{X}} p(x) \log p(x) \, \mathrm{d}x
+\mathrm{h}(X) = - \int_{\mathcal{X}} p(x) \log p(x) \, \mathrm{d}x \; .
 $$
 
 Let $g(x)$ be the [probability density function](/D/pdf) of a [normal distribution](/D/norm) with [mean](/D/mean) $\mu$ and [variance](/D/var) $\sigma^2$ and let $f(x)$ be an arbitrary [probability density function](/D/pdf) with the same [variance](/D/var). Since [differential entropy](/D/dent) is [translation-invariant](/P/dent-inv), we can assume that $f(x)$ has the same mean as $g(x)$.

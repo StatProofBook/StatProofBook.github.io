@@ -35,12 +35,12 @@ username: "JoramSoch"
 
 **Definition:** Let $X$ be a [continuous](/D/rvar-disc) [random variable](/D/rvar) with some [probability distribution](/D/dist) $P$ characterized by [probability density function](/D/pdf) $f_X(x)$. Then,
 
-* $P$ is called a unimodal probability distribution, if $f_X(x)$ has exactly one maximum;
+* $P$ is called a unimodal probability distribution, if $f_X(x)$ has exactly one local maximum;
 
-* $P$ is called a bimodal probability distribution, if $f_X(x)$ has exactly two maxima;
+* $P$ is called a bimodal probability distribution, if $f_X(x)$ has exactly two local maxima;
 
-* $P$ is called a trimodal probability distribution, if $f_X(x)$ has exactly three maxima;
+* $P$ is called a trimodal probability distribution, if $f_X(x)$ has exactly three local maxima;
 
-* $P$ is called a multimodal probability distribution, if $f_X(x)$ has more than one maximum.
+* $P$ is called a multimodal probability distribution, if $f_X(x)$ has more than one local maximum.
 
 Note that this definition of multimodality differs from the [strict definition of the mode](/D/mode) in which only the global maximum of $f_X(x)$ [would be considered the single mode](/D/mode).

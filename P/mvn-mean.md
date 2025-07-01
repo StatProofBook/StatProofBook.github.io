@@ -66,7 +66,7 @@ $$ \label{eq:z-mean}
 \mathrm{E}(z) = \left[ \begin{array}{c} \mathrm{E}(z_1) \\ \vdots \\ \mathrm{E}(z_n) \end{array} \right] = \left[ \begin{array}{c} 0 \\ \vdots \\ 0 \end{array} \right] = 0_n \; .
 $$
 
-2) Next, consider an $n \times n$ matrix $A$ solving the equation $A A^\mathrm{T} = \Sigma$. Such a matrix exists, because $\Sigma$ [is defined to be positive definite](/D/mvn). Then, $x$ [can be represented as a linear transformation of](/P/mvn-ltt) $z$:
+2) Next, consider an $n \times n$ matrix $A$ solving the equation $A A^\mathrm{T} = \Sigma$. Such a matrix exists, because $\Sigma$ [is defined to be positive definite](/D/mvn). Then, $x$ [can be represented as a linear transformation](/P/mvn-ltt) of $z$:
 
 $$ \label{eq:x-z}
 x = Az + \mu \sim \mathcal{N}(A 0_n + \mu, A I_n A^\mathrm{T}) = \mathcal{N}(\mu, \Sigma) \; .

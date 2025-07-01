@@ -88,7 +88,7 @@ $$
 With that, we have obtained a [linear regression model](/D/mlr) with independent observations. [Cochran's theorem for multivariate normal variables](/P/mvn-cochran) states that, for an $n \times 1$ [normal random vector](/D/mvn) whose [covariance matrix](/D/covmat) is a scalar multiple of the identity matrix, a specific squared form will follow a [non-central chi-squared distribution](/D/ncchi2) where the degrees of freedom and the non-centrality paramter depend on the matrix in the quadratic form:
 
 $$ \label{eq:mvn-cochran}
-x \sim \mathcal{N}(\mu, \sigma^2 I_n) \quad \Rightarrow \quad y = x^\mathrm{T} A x /\sigma^2 \sim \chi^2\left( \mathrm{tr}(A), \mu^\mathrm{T} A \mu \right) \; .
+x \sim \mathcal{N}(\mu, \sigma^2 I_n) \quad \Rightarrow \quad y = x^\mathrm{T} A x /\sigma^2 \sim \chi^2\left( \mathrm{rk}(A), \mu^\mathrm{T} A \mu \right) \; .
 $$
 
 First, we [formulate the residuals](/P/mlr-mat) in terms of transformed measurements $\tilde{y}$:
@@ -113,12 +113,19 @@ $$ \label{eq:rss-y-s3}
 \frac{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}}{\sigma^2} = \tilde{y}^\mathrm{T} \tilde{R} \tilde{y} / \sigma^2 \; .
 $$
 
+Since $\tilde{R}$ is idempotent, its rank is equal to its trace, such that:
+
+$$ \label{eq:R-rk-tr}
+\mathrm{rk}(\tilde{R}) = \mathrm{tr}(\tilde{R}) \; .
+$$
+
 With that, we can apply Cochran's theorem given by \eqref{eq:mvn-cochran} which yields
 
 $$ \label{eq:rss-dist}
 \begin{split}
-\frac{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}}{\sigma^2} &\sim \chi^2\left( \mathrm{tr}(I_n - \tilde{P}), \, \beta^\mathrm{T} \tilde{X}^\mathrm{T} \tilde{R} \tilde{X} \beta \right) \\
-&\sim \chi^2\left( \mathrm{tr}(I_n) - \mathrm{tr}( \tilde{P} ), \, \beta^\mathrm{T} \tilde{X}^\mathrm{T} (I_n - \tilde{P}) \tilde{X} \beta \right) \\
+      \frac{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}}{\sigma^2}
+&\sim \chi^2\left( \mathrm{rk}(\tilde{R}), \, \beta^\mathrm{T} \tilde{X}^\mathrm{T} \tilde{R} \tilde{X} \beta \right) \\
+&\sim \chi^2\left( \mathrm{tr}(I_n - \tilde{P}), \, \beta^\mathrm{T} \tilde{X}^\mathrm{T} (I_n - \tilde{P}) \tilde{X} \beta \right) \\
 &\sim \chi^2\left( \mathrm{tr}(I_n) - \mathrm{tr}( \tilde{X} (\tilde{X}^\mathrm{T} \tilde{X})^{-1} \tilde{X}^\mathrm{T} ), \, \beta^\mathrm{T} (\tilde{X}^\mathrm{T} \tilde{X} - \tilde{X}^\mathrm{T} \tilde{X} (\tilde{X}^\mathrm{T} \tilde{X})^{-1} \tilde{X}^\mathrm{T} \tilde{X}) \beta \right) \\
 &\sim \chi^2\left( \mathrm{tr}(I_n) - \mathrm{tr}( \tilde{X}^\mathrm{T} \tilde{X} (\tilde{X}^\mathrm{T} \tilde{X})^{-1} ), \, \beta^\mathrm{T} (\tilde{X}^\mathrm{T} \tilde{X} - \tilde{X}^\mathrm{T} \tilde{X}) \beta \right) \\
 &\sim \chi^2\left( \mathrm{tr}(I_n) - \mathrm{tr}(I_p), \, \beta^\mathrm{T} 0_{pp} \beta \right) \\
@@ -126,7 +133,7 @@ $$ \label{eq:rss-dist}
 \end{split}
 $$
 
-Because a [non-central chi-squared distribution with non-centrality parameter of zero reduces to the central chi-squared distribution](/P/ncchi2-chi2), we obtain our final result:
+Because a [non-central chi-squared distribution with non-centrality parameter of zero reduces to the central chi-squared distribution](/P/chi2-ncchi2), we obtain our final result:
 
 $$ \label{eq:rss-dist-qed}
 \frac{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}}{\sigma^2} \sim \chi^2(n-p) \; .

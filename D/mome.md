@@ -44,7 +44,7 @@ $$
 2) calculating the first $k$ sample [moments](/D/mom) from $y$
 
 $$ \label{eq:mom-samp}
-\hat{\mu}_1(y), \ldots, \hat{\mu}_k(y)
+\hat{\mu}_1(y), \; \ldots, \; \hat{\mu}_k(y)
 $$
 
 <br>

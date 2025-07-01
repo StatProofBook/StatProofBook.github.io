@@ -42,7 +42,7 @@ $$ \label{eq:xij-dist}
 x_{ij} \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, 1) \quad \text{for all} \quad i = 1,\ldots,n \quad \text{and} \quad j = 1,\ldots,p \; ,
 $$
 
-this [implies a multivariate normal distribution with diagonal covariance matrix](/P/mvn-ind):
+this [implies a multivariate normal distribution with diagonal covariance matrix](/P/mvn-ind)
 
 $$ \label{eq:vecX-dist}
 \begin{split}
@@ -59,13 +59,13 @@ $$ \label{eq:X-dist}
 X \sim \mathcal{MN}(0_{np}, I_n, I_p) \; .
 $$
 
-Thus, [with the linear transformation theorem for the matrix-normal distribution](/P/matn-ltt), it follows that
+Thus, with the [linear transformation theorem for the matrix-normal distribution](/P/matn-ltt), it follows that
 
 $$ \label{eq:matn-samp-qed}
 \begin{split}
-Y = M + AXB &\sim \mathcal{MN}\left(M + A 0_{np} B, A I_n A^\mathrm{T}, B^\mathrm{T} I_p B \right) \\
-&\sim \mathcal{MN}\left(M, A A^\mathrm{T}, B^\mathrm{T} B \right) \\
-&\sim \mathcal{MN}\left(M, U, V \right) \; .
+Y = M + AXB &\sim \mathcal{MN}\left( M + A 0_{np} B, A I_n A^\mathrm{T}, B^\mathrm{T} I_p B \right) \\
+&\sim \mathcal{MN}\left( M, A A^\mathrm{T}, B^\mathrm{T} B \right) \\
+&\sim \mathcal{MN}\left( M, U, V \right) \; .
 \end{split}
 $$
 

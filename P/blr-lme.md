@@ -16,7 +16,7 @@ theorem: "Log model evidence"
 sources:
   - authors: "Bishop CM"
     year: 2006
-    title: "Bayesian linear regression"
+    title: "Bayesian Linear Regression"
     in: "Pattern Recognition for Machine Learning"
     pages: "pp. 152-161, ex. 3.23, eq. 3.118"
     url: "https://www.springer.com/gp/book/9780387310732"

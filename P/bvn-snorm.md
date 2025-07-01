@@ -5,7 +5,7 @@ mathjax: true
 author: "Joram Soch"
 affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
-date: 2025-05-23 10:16:12
+date: 2025-05-22 15:59:00
 
 title: "Construction of a bivariate normal distribution from univariate standard normal random variables"
 chapter: "Probability Distributions"

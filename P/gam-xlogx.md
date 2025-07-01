@@ -36,7 +36,7 @@ $$
 Then, the [mean or expected value](/D/mean) of $(X \cdot \ln X)$ is
 
 $$ \label{eq:gam-xlogx}
-\mathrm{E}(X \ln X) = \frac{a}{b} \left[ \psi(a) - \ln(b) \right] \; .
+\mathrm{E}(X \ln X) = \frac{a}{b} \left[ \psi(a+1) - \ln(b) \right] \; .
 $$
 
 
@@ -71,5 +71,5 @@ $$
 the expression in equation \eqref{eq:gam-xlogx-s1} develops into:
 
 $$ \label{eq:gam-xlogx-qed}
-\mathrm{E}(X \ln X) = \frac{a}{b} \left[ \psi(a) - \ln(b) \right] \; .
+\mathrm{E}(X \ln X) = \frac{a}{b} \left[ \psi(a+1) - \ln(b) \right] \; .
 $$

@@ -28,6 +28,13 @@ sources:
     pages: "vol. 180, pp. 173-187, eq. 11"
     url: "https://www.sciencedirect.com/science/article/pii/S1053811917307462"
     doi: "10.1016/j.neuroimage.2017.09.008"
+  - authors: "Zeidman P, Friston K, Parr T"
+    year: 2023
+    title: "A primer on Variational Laplace (VL)"
+    in: "NeuroImage"
+    pages: "vol. 279, art. 120310, eq. 56"
+    url: "https://www.sciencedirect.com/science/article/pii/S1053811923004615"
+    doi: "10.1016/j.neuroimage.2023.120310"
 
 proof_id: "P73"
 shortcut: "pmp-lbf"

@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Consider measured data $y$ and some unknown latent parameters $\theta$. A distribution of $\theta$ unconditional on $y$ is called a prior distribution:
+**Definition:** Consider measured data $y$ and some unknown latent parameters $\theta$. A [distribution](/D/dist) of $\theta$ unconditional on $y$ is called a prior distribution:
 
 $$ \label{eq:prior}
 \theta \sim \mathcal{D}(\lambda) \; .

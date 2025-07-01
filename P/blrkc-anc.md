@@ -23,7 +23,7 @@ sources:
     doi: "10.1016/j.neuroimage.2011.07.039"
   - authors: "Bishop CM"
     year: 2006
-    title: "Bayesian linear regression"
+    title: "Bayesian Linear Regression"
     in: "Pattern Recognition for Machine Learning"
     pages: "pp. 152-161"
     url: "https://www.springer.com/gp/book/9780387310732"
