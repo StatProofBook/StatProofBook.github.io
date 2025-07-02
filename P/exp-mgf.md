@@ -51,11 +51,11 @@ Using the definition of [expected value for continuous random variables](/D/mean
 
 $$ \label{eq:exp-mgf-s1}
 \begin{split}
-M_X(t) &= \int_0^{\infty} e^{tx} \cdot f_X(x) dx\\
-&= \int_0^{\infty} e^{tx}\cdot \lambda e^{-\lambda x} dx\\
-&= \int_0^{\infty} \lambda e^{x(t-\lambda)} dx\\
-&= \frac{\lambda}{t-\lambda} e^{x(t-\lambda)} \Big|_{x = 0}^{x = \infty}\\
-&= \lim_{x\rightarrow \infty} \left[ \frac{\lambda}{t-\lambda} e^{x(t-\lambda)} - \frac{\lambda}{t-\lambda}\right]\\
+M_X(t) &= \int_0^{\infty} e^{tx} \cdot f_X(x) dx \\
+&= \int_0^{\infty} e^{tx}\cdot \lambda e^{-\lambda x} dx \\
+&= \int_0^{\infty} \lambda e^{x(t-\lambda)} dx \\
+&= \frac{\lambda}{t-\lambda} e^{x(t-\lambda)} \Big|_{x = 0}^{x = \infty} \\
+&= \lim_{x\rightarrow \infty} \left[ \frac{\lambda}{t-\lambda} e^{x(t-\lambda)} \right] - \frac{\lambda}{t-\lambda} \\
 &= \frac{\lambda}{t-\lambda} \left[ \lim_{x\rightarrow \infty} e^{x(t-\lambda)} -1 \right] \; .
 \end{split}
 $$

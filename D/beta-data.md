@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Beta-distributed data are defined as a set of proportions $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ with $y_i \in [0,1], \; i = 1,\ldots,n$, independent and identically distributed according to a [beta distribution](/D/beta) with shapes $\alpha$ and $\beta$:
+**Definition:** Beta-distributed data are defined as a set of proportions $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ with $y_i \in [0,1], \; i = 1,\ldots,n$, [independent and identically distributed](/D/iid) according to a [beta distribution](/D/beta) with shapes $\alpha$ and $\beta$:
 
 $$ \label{eq:beta-data}
 y_i \sim \mathrm{Bet}(\alpha,\beta), \quad i = 1, \ldots, n \; .

@@ -31,7 +31,7 @@ y_{ij} &\in [0,1] \quad \text{and} \\
 \end{split}
 $$
 
-for all $i = 1,\ldots,n$ (and $j = 1,\ldots,k$) and each $y_i$ is independent and identically distributed according to a [Dirichlet distribution](/D/dir) with concentration parameters $\alpha = [\alpha_1, \ldots, \alpha_k]$:
+for all $i = 1,\ldots,n$ (and $j = 1,\ldots,k$) and each $y_i$ is [independent and identically distributed](/D/iid) according to a [Dirichlet distribution](/D/dir) with concentration parameters $\alpha = [\alpha_1, \ldots, \alpha_k]$:
 
 $$ \label{eq:dir-data}
 y_i \sim \mathrm{Dir}(\alpha), \quad i = 1, \ldots, n \; .

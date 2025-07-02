@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $m_0, m_1, \ldots, m_M$ be $M+1$ statistical models with [model evidences](/D/lme) $p(y \vert m_0), p(y \vert m_1), \ldots, p(y \vert m_M)$. Then, the [posterior model probabilities](/D/pmp) of the models $m_1, \ldots, m_M$ are given by
+**Theorem:** Let $m_0, m_1, \ldots, m_M$ be $M+1$ [statistical models](/D/gm) with [model evidences](/D/lme) $p(y \vert m_0), p(y \vert m_1), \ldots, p(y \vert m_M)$. Then, the [posterior model probabilities](/D/pmp) of the models $m_1, \ldots, m_M$ are given by
 
 $$ \label{eq:PMP-BF}
 p(m_i|y) = \frac{\mathrm{BF}_{i,0} \cdot \alpha_i}{\sum_{j=1}^{M} \mathrm{BF}_{j,0} \cdot \alpha_j}, \quad i = 1,\ldots,M \; ,
@@ -43,7 +43,7 @@ $$ \label{eq:BF-i0}
 \mathrm{BF}_{i,0} = \frac{p(y|m_i)}{p(y|m_0)}
 $$
 
-and prior odds ratio of $m_i$ against $m_0$
+and [prior odds ratio](/D/odds) of $m_i$ against $m_0$
 
 $$ \label{eq:prior-i0}
 \alpha_i = \frac{p(m_i)}{p(m_0)} \; .

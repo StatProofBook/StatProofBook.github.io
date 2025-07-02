@@ -39,4 +39,4 @@ $$ \label{eq:matn-pdf}
 \mathcal{MN}(X; M, U, V) = \frac{1}{\sqrt{(2\pi)^{np} |V|^n |U|^p}} \cdot \exp\left[-\frac{1}{2} \mathrm{tr}\left( V^{-1} (X-M)^\mathrm{T} \, U^{-1} (X-M) \right) \right]
 $$
 
-where $M$ is an $n \times p$ real matrix, $U$ is an $n \times n$ positive definite matrix and $V$ is a $p \times p$ positive definite matrix.
+where $M$ is an $n \times p$ real matrix, $U$ is an $n \times n$ positive-definite matrix and $V$ is a $p \times p$ positive-definite matrix.
