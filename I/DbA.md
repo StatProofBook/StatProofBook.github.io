@@ -13,7 +13,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (205 definitions)
+### JoramSoch (207 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -28,6 +28,7 @@ title: "Definition by Author"
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
 - [Bivariate normal distribution](/D/bvn)
+- [Bivariate normally distributed data](/D/bvn-data)
 - [Categorical distribution](/D/cat)
 - [Central moment](/D/mom-cent)
 - [Characteristic function](/D/cf)
@@ -130,6 +131,7 @@ title: "Definition by Author"
 - [Multinomial observations](/D/mult-data)
 - [Multiple linear regression](/D/mlr)
 - [Multivariate normal distribution](/D/mvn)
+- [Multivariate normally distributed data](/D/mvn-data)
 - [Multivariate t-distribution](/D/mvt)
 - [Mutual exclusivity](/D/exc)
 - [Mutual information](/D/mi)

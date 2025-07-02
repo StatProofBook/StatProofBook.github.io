@@ -12,7 +12,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (466 proofs)
+### JoramSoch (470 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -223,9 +223,11 @@ title: "Proof by Author"
 - [Markov's inequality](/P/mark-ineq)
 - [Maximum likelihood estimation can result in biased estimates](/P/mle-bias)
 - [Maximum likelihood estimation for binomial observations](/P/bin-mle)
+- [Maximum likelihood estimation for bivariate normally distributed data](/P/bvn-mle)
 - [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle)
 - [Maximum likelihood estimation for multinomial observations](/P/mult-mle)
 - [Maximum likelihood estimation for multiple linear regression](/P/mlr-mle)
+- [Maximum likelihood estimation for multivariate normally distributed data](/P/mvn-mle)
 - [Maximum likelihood estimation for Poisson-distributed data](/P/poiss-mle)
 - [Maximum likelihood estimation for simple linear regression](/P/slr-mle)
 - [Maximum likelihood estimation for simple linear regression](/P/slr-mle2)
@@ -261,7 +263,7 @@ title: "Proof by Author"
 - [Median of the normal distribution](/P/norm-med)
 - [Method of moments for beta-binomial data](/P/betabin-mome)
 - [Method of moments for beta-distributed data](/P/beta-mome)
-- [Mode of the continuous uniform distribution](/P/cuni-med)
+- [Mode of the continuous uniform distribution](/P/cuni-mode)
 - [Mode of the gamma distribution](/P/gam-mode)
 - [Mode of the multivariate normal distribution](/P/mvn-mode)
 - [Mode of the normal distribution](/P/norm-mode)
@@ -396,6 +398,8 @@ title: "Proof by Author"
 - [Range of probability](/P/prob-range)
 - [Range of the variance of the Bernoulli distribution](/P/bern-varrange)
 - [Range of the variance of the binomial distribution](/P/bin-varrange)
+- [Redundancy of parameters describing the matrix-normal distribution](/P/matn-red)
+- [Redundancy of parameters describing the matrix-normal distribution](/P/matn-red2)
 - [Relation of continuous Kullback-Leibler divergence to differential entropy](/P/kl-dent)
 - [Relation of continuous mutual information to joint and conditional differential entropy](/P/cmi-jcde)
 - [Relation of continuous mutual information to marginal and conditional differential entropy](/P/cmi-mcde)

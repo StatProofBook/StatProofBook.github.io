@@ -23,6 +23,7 @@ title: "Definition by Topic"
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
 - [Bivariate normal distribution](/D/bvn)
+- [Bivariate normally distributed data](/D/bvn-data)
 - [Brier scoring rule](/D/bsr)
 
 ### C
@@ -162,6 +163,7 @@ title: "Definition by Topic"
 - [Multinomial observations](/D/mult-data)
 - [Multiple linear regression](/D/mlr)
 - [Multivariate normal distribution](/D/mvn)
+- [Multivariate normally distributed data](/D/mvn-data)
 - [Multivariate t-distribution](/D/mvt)
 - [Mutual exclusivity](/D/exc)
 - [Mutual information](/D/mi)
