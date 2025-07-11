@@ -506,9 +506,13 @@ title: "Proof by Number"
 | P498 | mvn-mode | [Mode of the multivariate normal distribution](/P/mvn-mode) | JoramSoch | 2025-05-21 |
 | P499 | mvn-meanqf | [Expectation of a quadratic form for the multivariate normal distribution](/P/mvn-meanqf) | JoramSoch | 2025-05-21 |
 | P500 | mvn-maxent | [Multivariate normal distribution maximizes differential entropy for fixed covariance](/P/mvn-maxent) | JoramSoch | 2025-05-21 |
-| P501 | mvn-samp | [Sampling from the matrix-normal distribution](/P/mvn-samp) | JoramSoch | 2025-05-21 |
+| P501 | mvn-samp | [Sampling from the multivariate normal distribution](/P/mvn-samp) | JoramSoch | 2025-05-21 |
 | P502 | bvn-snorm | [Construction of a bivariate normal distribution from univariate standard normal random variables](/P/bvn-snorm) | JoramSoch | 2025-05-22 |
 | P503 | bvn-mle | [Maximum likelihood estimation for bivariate normally distributed data](/P/bvn-mle) | JoramSoch | 2025-06-20 |
 | P504 | mvn-mle | [Maximum likelihood estimation for multivariate normally distributed data](/P/mvn-mle) | JoramSoch | 2025-06-20 |
 | P505 | matn-red | [Redundancy of parameters describing the matrix-normal distribution](/P/matn-red) | JoramSoch | 2025-06-24 |
 | P506 | matn-red2 | [Redundancy of parameters describing the matrix-normal distribution](/P/matn-red2) | JoramSoch | 2025-06-24 |
+| P507 | rsq-dist | [Distribution of the coefficient of determination under the null hypothesis](/P/rsq-dist) | JoramSoch | 2025-07-04 |
+| P508 | rsq-mmm | [Mean, mode and median of the coefficient of determination under the null hypothesis](/P/rsq-mmm) | JoramSoch | 2025-07-04 |
+| P509 | rsq-var | [Variance of the coefficient of determination under the null hypothesis](/P/rsq-var) | JoramSoch | 2025-07-04 |
+| P510 | priorpred-jl | [Prior predictive distribution is a marginal distribution of the joint likelihood](/P/priorpred-jl) | JoramSoch | 2025-07-04 |
