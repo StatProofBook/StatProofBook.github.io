@@ -985,8 +985,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.4. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
    &emsp;&ensp; 1.2.5. **[Statistical significance test for R²](/P/rsq-test)** <br>
    &emsp;&ensp; 1.2.6. **[Distribution under null hypothesis](/P/rsq-dist)** <br>
-   &emsp;&ensp; 1.2.7. **[Mean/mode/median under null hypothesis](/P/rsq-dist)** <br>
-   &emsp;&ensp; 1.2.8. **[Variance under null hypothesis](/P/rsq-dist)** <br>
+   &emsp;&ensp; 1.2.7. **[Mean/mode/median under null hypothesis](/P/rsq-mmm)** <br>
+   &emsp;&ensp; 1.2.8. **[Variance under null hypothesis](/P/rsq-var)** <br>
    
    <p id="F-statistic"></p>
    1.3. F-statistic <br>

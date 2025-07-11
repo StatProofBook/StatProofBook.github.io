@@ -40,7 +40,7 @@ $$ \label{eq:jl-post}
 p(y_{\text{new}} \vert \theta) \, p(\theta) = p(y_{\text{new}}, \theta)
 $$
 
-which is the [joint likelihood](/D/jl). Thus, expression \eqref{eq:priorpred-jl} can be written as:
+which is the [joint likelihood](/D/jl). Thus, expression \eqref{eq:prior-pred} can be written as:
 
 $$ \label{eq:priorpred-jl-qed}
 p(y_{\mathrm{new}}) = \int p(y_{\text{new}}, \theta) \, \mathrm{d}\theta \; .
