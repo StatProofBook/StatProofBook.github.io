@@ -59,7 +59,7 @@ is called a univariate simple regression model or simply, "simple linear regress
 
 * $n$ is the number of observations.
 
-When the covariance structure $V$ is equal to the $n \times n$ identity matrix, this is called simple linear regression with independent and identically distributed (i.i.d.) observations:
+When the covariance structure $V$ is equal to the $n \times n$ identity matrix, this is called simple linear regression with [independent and identically distributed](/D/iid) (i.i.d.) observations:
 
 $$ \label{eq:mlr-noise-iid}
 V = I_n \quad \Rightarrow \quad \varepsilon \sim \mathcal{N}(0, \sigma^2 I_n) \quad \Rightarrow \quad \varepsilon_i \overset{\text{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; .
@@ -71,4 +71,4 @@ $$ \label{eq:slr-model-sum}
 y_i = \beta_0 + \beta_1 x_i + \varepsilon_i, \; \varepsilon_i \sim \mathcal{N}(0, \sigma^2) \; .
 $$
 
-Otherwise, it is called simple linear regression with correlated observations.
+Otherwise, it is called simple linear regression with [correlated observations](/D/corr).

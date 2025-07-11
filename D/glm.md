@@ -55,10 +55,10 @@ is called a multivariate linear regression model or simply, "general linear mode
 
 When rows of $Y$ correspond to units of time, e.g. subsequent measurements, $V$ is called "temporal covariance". When columns of $Y$ correspond to units of space, e.g. measurement channels, $\Sigma$ is called "spatial covariance".
 
-When the covariance matrix $V$ is a scalar multiple of the $n \times n$ identity matrix, this is called a general linear model with independent and identically distributed (i.i.d.) observations:
+When the covariance matrix $V$ is a scalar multiple of the $n \times n$ identity matrix, this is called a general linear model with [independent and identically distributed](/D/iid) (i.i.d.) observations:
 
 $$ \label{eq:glm-iid}
 V = \lambda I_n \quad \Rightarrow \quad E \sim \mathcal{MN}(0, \lambda I_n, \Sigma) \quad \Rightarrow \quad \varepsilon_i \overset{\text{i.i.d.}}{\sim} \mathcal{N}(0, \lambda \Sigma) \; .
 $$
 
-Otherwise, it is called a general linear model with correlated observations.
+Otherwise, it is called a general linear model with [correlated observations](/D/corr).
