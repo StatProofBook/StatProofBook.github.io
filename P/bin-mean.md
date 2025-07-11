@@ -40,7 +40,7 @@ $$ \label{eq:bin-mean}
 $$
 
 
-**Proof:** By definition, [a binomial random variable](/D/bin) is the sum of $n$ [independent and identical](/D/iid) [Bernoulli trials](/D/bern) with success probability $p$. Therefore, the expected value is
+**Proof:** By definition, a [binomial random variable](/D/bin) is the sum of $n$ [independent and identical](/D/iid) [Bernoulli trials](/D/bern) with success probability $p$. Therefore, the expected value is
 
 $$ \label{eq:bin-mean-s1}
 \mathrm{E}(X) = \mathrm{E}(X_1 + \ldots + X_n)

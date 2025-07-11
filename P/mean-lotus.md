@@ -68,7 +68,7 @@ $$ \label{eq:mean-lotus-disc-s2}
 \end{split}
 $$
 
-Finally, noting that "for all $y$, then for all $x = g^{-1}(y)$" is equivalent to "for all $x$" if $g^{-1}$ is a monotonic function, we can conclude that
+Finally, noting that "for all $y$, then for all $x = g^{-1}(y)$" is equivalent to "for all $x$", if $g^{-1}$ is a monotonic function, we can conclude that
 
 $$ \label{eq:mean-lotus-disc-s3}
 \mathrm{E}[g(X)] = \sum_{x \in \mathcal{X}} g(x) f_X(x) \; .

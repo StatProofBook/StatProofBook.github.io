@@ -91,7 +91,7 @@ $$ \label{eq:anova2-fia-ess-tss}
 F_{A \times B} &= \frac{(\mathrm{SS}_{A \times B}/\sigma^2)/\left( (a-1)(b-1) \right)}{(\mathrm{SS}_\mathrm{res}/\sigma^2)/(n-ab)} \\
 &= \frac{\mathrm{SS}_{A \times B}/\left( (a-1)(b-1) \right)}{\mathrm{SS}_\mathrm{res}/(n-ab)} \\
 &\overset{\eqref{eq:anova2-ss-dist}}{=} \frac{\frac{1}{(a-1)(b-1)} \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} ([\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet}] - \gamma_{ij})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2} \\
-&\overset{\eqref{eq:anova2-fia-h0}}{=} \frac{\frac{1}{(a-1)(b-1)} \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} (\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2}
+&\overset{\eqref{eq:anova2-h0}}{=} \frac{\frac{1}{(a-1)(b-1)} \sum_{i=1}^{a} \sum_{j=1}^{b} n_{ij} (\bar{y}_{i j \bullet} - \bar{y}_{i \bullet \bullet} - \bar{y}_{\bullet j \bullet} + \bar{y}_{\bullet \bullet \bullet})^2}{\frac{1}{n-ab} \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{n_{ij}} (y_{ijk} - \bar{y}_{i j \bullet})^2}
 \end{split}
 $$
 

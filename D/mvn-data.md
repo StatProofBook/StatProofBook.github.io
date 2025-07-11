@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Multivariate normally distributed data are defined as a set of $p$-dimensional vectors $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$, independent and identically distributed according to a [multivariate normal distribution](/D/mvn) with mean vector $\mu \in \mathbb{R}^p$ and covariance matrix $\Sigma \in \mathbb{R}^{p \times p}$
+**Definition:** Multivariate normally distributed data are defined as a set of $p$-dimensional vectors $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ with $y_i \in \mathbb{R}^p, \; i = 1,\ldots,n$, [independent and identically distributed](/D/iid) according to a [multivariate normal distribution](/D/mvn) with mean vector $\mu \in \mathbb{R}^p$ and covariance matrix $\Sigma \in \mathbb{R}^{p \times p}$
 
 $$ \label{eq:mvn}
 y_i \sim \mathcal{N}(\mu, \Sigma), \quad i = 1, \ldots, n

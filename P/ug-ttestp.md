@@ -52,7 +52,7 @@ H_0: \; \mu = \mu_0 \; .
 $$
 
 
-**Proof:** Define the pair-wise difference $d_i = y_{i1} - y_{i2}$ which is, according to the [linearity of the expected value](/P/mean-lin) and the [invariance of the variance under addition](/P/var-inv), distributed as
+**Proof:** Define the pair-wise difference $d_i = y_{i1} - y_{i2}$ which, as a [linear transformation of a normal random variable](/P/mvn-ltt), is distributed as
 
 $$ \label{eq:d-dist}
 d_i = y_{i1} - y_{i2} \sim \mathcal{N}(\mu, \sigma^2), \quad i = 1, \ldots, n \; .

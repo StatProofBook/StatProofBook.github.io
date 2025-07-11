@@ -96,7 +96,7 @@ $$
 
 and we obtain an ML estimate for the correlation as:
 
-$$ \label{eq:mvn-mle-corr}
+$$ \label{eq:bvn-mle-corr}
 \begin{split}
 \hat{\rho} \hat{\sigma}_1 \hat{\sigma}_2 &= \frac{1}{n} \sum_{i=1}^n (y_{i1}-\hat{\mu}_1) (y_{i2}-\hat{\mu}_2) \\
 \hat{\rho} &= \frac{\frac{1}{n} \sum_{i=1}^n (y_{i1}-\hat{\mu}_1) (y_{i2}-\hat{\mu}_2)}{\hat{\sigma}_1 \hat{\sigma}_2} \\
@@ -104,3 +104,5 @@ $$ \label{eq:mvn-mle-corr}
 \hat{\rho} &= \frac{\frac{1}{n} \sum_{i=1}^n (y_{i1}-\hat{\mu}_1) (y_{i2}-\hat{\mu}_2)}{\sqrt{\frac{1}{n} \sum_{i=1}^n (y_{i1} - \hat{\mu}_1)^2} \sqrt{\frac{1}{n} \sum_{i=1}^n (y_{i2} - \hat{\mu}_2)^2}} \; .
 \end{split}
 $$
+
+Together, \eqref{eq:bvn-mle-mean}, \eqref{eq:bvn-mle-var} and \eqref{eq:bvn-mle-corr} constitute the [maximum likelihood estimates](/D/mle) for [bivariate normally distributed data](/D/bvn-data).

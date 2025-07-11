@@ -228,3 +228,5 @@ title: "Definition by Number"
 | D219 | para-rate | [Rate parameter](/D/para-rate) | JoramSoch | 2025-03-14 |
 | D220 | para-shape | [Shape parameter](/D/para-shape) | JoramSoch | 2025-03-14 |
 | D221 | stat-desc | [Descriptive and inferential statistics](/D/stat-desc) | JoramSoch | 2025-04-04 |
+| D222 | bvn-data | [Bivariate normally distributed data](/D/bvn-data) | JoramSoch | 2025-06-20 |
+| D223 | mvn-data | [Multivariate normally distributed data](/D/mvn-data) | JoramSoch | 2025-06-20 |

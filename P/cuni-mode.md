@@ -16,7 +16,7 @@ theorem: "Mode"
 sources:
 
 proof_id: "P84"
-shortcut: "cuni-med"
+shortcut: "cuni-mode"
 username: "JoramSoch"
 ---
 

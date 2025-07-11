@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Bivariate normally distributed data are defined as a set of two-dimensional vectors $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$, independent and identically distributed according to a [bivariate normal distribution](/D/bvn) with mean vector $\mu$ and covariance matrix $\Sigma$
+**Definition:** Bivariate normally distributed data are defined as a set of two-dimensional vectors $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ with $y_i \in \mathbb{R}^2, \; i = 1,\ldots,n$, [independent and identically distributed](/D/iid) according to a [bivariate normal distribution](/D/bvn) with mean vector $\mu$ and covariance matrix $\Sigma$
 
 $$ \label{eq:bvn}
 y_i \sim \mathcal{N}(\mu, \Sigma), \quad i = 1, \ldots, n

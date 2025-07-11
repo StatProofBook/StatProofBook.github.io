@@ -90,7 +90,7 @@ title: "Proof by Number"
 | P81 | mult-lme | [Log model evidence for multinomial observations](/P/mult-lme) | JoramSoch | 2020-03-11 |
 | P82 | cuni-mean | [Mean of the continuous uniform distribution](/P/cuni-mean) | JoramSoch | 2020-03-16 |
 | P83 | cuni-med | [Median of the continuous uniform distribution](/P/cuni-med) | JoramSoch | 2020-03-16 |
-| P84 | cuni-med | [Mode of the continuous uniform distribution](/P/cuni-med) | JoramSoch | 2020-03-16 |
+| P84 | cuni-mode | [Mode of the continuous uniform distribution](/P/cuni-mode) | JoramSoch | 2020-03-16 |
 | P85 | norm-cdf | [Cumulative distribution function of the normal distribution](/P/norm-cdf) | JoramSoch | 2020-03-20 |
 | P86 | norm-cdfwerf | [Expression of the cumulative distribution function of the normal distribution without the error function](/P/norm-cdfwerf) | JoramSoch | 2020-03-20 |
 | P87 | norm-qf | [Quantile function of the normal distribution](/P/norm-qf) | JoramSoch | 2020-03-20 |
@@ -508,3 +508,7 @@ title: "Proof by Number"
 | P500 | mvn-maxent | [Multivariate normal distribution maximizes differential entropy for fixed covariance](/P/mvn-maxent) | JoramSoch | 2025-05-21 |
 | P501 | mvn-samp | [Sampling from the matrix-normal distribution](/P/mvn-samp) | JoramSoch | 2025-05-21 |
 | P502 | bvn-snorm | [Construction of a bivariate normal distribution from univariate standard normal random variables](/P/bvn-snorm) | JoramSoch | 2025-05-22 |
+| P503 | bvn-mle | [Maximum likelihood estimation for bivariate normally distributed data](/P/bvn-mle) | JoramSoch | 2025-06-20 |
+| P504 | mvn-mle | [Maximum likelihood estimation for multivariate normally distributed data](/P/mvn-mle) | JoramSoch | 2025-06-20 |
+| P505 | matn-red | [Redundancy of parameters describing the matrix-normal distribution](/P/matn-red) | JoramSoch | 2025-06-24 |
+| P506 | matn-red2 | [Redundancy of parameters describing the matrix-normal distribution](/P/matn-red2) | JoramSoch | 2025-06-24 |
