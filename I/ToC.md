@@ -349,17 +349,18 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.2. *[Likelihood function](/D/lf)* <br>
    &emsp;&ensp; 5.1.3. *[Prior distribution](/D/prior)* <br>
    &emsp;&ensp; 5.1.4. *[Prior predictive distribution](/D/prior-pred)* <br>
-   &emsp;&ensp; 5.1.5. *[Full probability model](/D/fpm)* <br>
-   &emsp;&ensp; 5.1.6. *[Joint likelihood](/D/jl)* <br>
-   &emsp;&ensp; 5.1.7. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
-   &emsp;&ensp; 5.1.8. *[Posterior distribution](/D/post)* <br>
-   &emsp;&ensp; 5.1.9. *[Posterior predictive distribution](/D/post-pred)* <br>
+   &emsp;&ensp; 5.1.5. **[Prior predictive distribution is marginal of joint likelihood](/P/priorpred-jl)** <br>
+   &emsp;&ensp; 5.1.6. *[Full probability model](/D/fpm)* <br>
+   &emsp;&ensp; 5.1.7. *[Joint likelihood](/D/jl)* <br>
+   &emsp;&ensp; 5.1.8. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
+   &emsp;&ensp; 5.1.9. *[Posterior distribution](/D/post)* <br>
    &emsp;&ensp; 5.1.10. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
    &emsp;&ensp; 5.1.11. **[Combined posterior distribution from independent data](/P/post-ind)** <br>
-   &emsp;&ensp; 5.1.12. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
-   &emsp;&ensp; 5.1.13. *[Maximum-a-posteriori estimation](/D/map)* <br>
-   &emsp;&ensp; 5.1.14. *[Marginal likelihood](/D/ml)* <br>
-   &emsp;&ensp; 5.1.15. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
+   &emsp;&ensp; 5.1.12. *[Posterior predictive distribution](/D/post-pred)* <br>
+   &emsp;&ensp; 5.1.13. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
+   &emsp;&ensp; 5.1.14. *[Maximum-a-posteriori estimation](/D/map)* <br>
+   &emsp;&ensp; 5.1.15. *[Marginal likelihood](/D/ml)* <br>
+   &emsp;&ensp; 5.1.16. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
    <p id="Prior distributions"></p>
    5.2. Prior distributions <br>
@@ -983,6 +984,9 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.3. **[Relationship to residual variance](/P/rsq-resvar)** <br>
    &emsp;&ensp; 1.2.4. **[Relationship to maximum log-likelihood](/P/rsq-mll)** <br>
    &emsp;&ensp; 1.2.5. **[Statistical significance test for R²](/P/rsq-test)** <br>
+   &emsp;&ensp; 1.2.6. **[Distribution under null hypothesis](/P/rsq-dist)** <br>
+   &emsp;&ensp; 1.2.7. **[Mean/mode/median under null hypothesis](/P/rsq-dist)** <br>
+   &emsp;&ensp; 1.2.8. **[Variance under null hypothesis](/P/rsq-dist)** <br>
    
    <p id="F-statistic"></p>
    1.3. F-statistic <br>
