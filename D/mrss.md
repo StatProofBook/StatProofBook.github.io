@@ -51,7 +51,7 @@ Suppose that a researcher is testing the effect of an intervention on IQ scores.
 
 Let the (unknown) post-intervention mean of IQ scores be $\theta$, and assume that the post-intervention standard deviation is also $\sigma = 15$. The researcher wants to test the null hypothesis $H_0: \theta = 100$ against $H_1: \theta > 100$. The researcher will perform a one-sided [one-sample t-test](/P/ug-ttest1) to test the hypothesis. This satisfies the condition that the probability of type I error is at most $\alpha$. If the researcher is only interested in a positive result if the average IQ increases by at least 2 points, then we have $\delta = 2,  \Theta_{1, \delta} = \{\theta \in \mathbb{R} \mid \theta > \theta_0 + \delta\} = \{\theta \in \mathbb{R} \mid \theta > 100 + 2\}$.
 
-The researcher needs the probability of rejecting $H_0$ if $\theta > 102$ to be at least $1 - \beta$. How many subjects they will need to recruit in order to be able to detect an increase of at least $2$ points with power $1 - \beta$? Using the formula from [Power analysis, minimum detectable effect, minimum required sample size for a one-sample t-test](/P/ug-t1power), we have
+The researcher needs the probability of rejecting $H_0$ if $\theta > 102$ to be at least $1 - \beta$. How many subjects they will need to recruit in order to be able to detect an increase of at least $2$ points with power $1 - \beta$? Using the formula from [Power analysis, minimum detectable effect, minimum required sample size for a one-sample t-test](/P/ug-ttest1power), we have
 
 $$ \label{eq:mrss-one-sided}
 n_m \geq \frac{\sigma^2(z_\alpha + z_\beta)^2}{\delta^2}.
