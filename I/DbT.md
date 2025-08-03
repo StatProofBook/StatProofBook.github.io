@@ -155,6 +155,8 @@ title: "Definition by Topic"
 - [Median](/D/med)
 - [Method-of-moments estimation](/D/mome)
 - [Minimum](/D/min)
+- [Minimum detectable effect](/D/mde)
+- [Minimum required sample size](/D/mrss)
 - [Mode](/D/mode)
 - [Model evidence](/D/me)
 - [Moment](/D/mom)

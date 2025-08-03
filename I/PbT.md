@@ -396,6 +396,7 @@ title: "Proof by Topic"
 - [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Posterior probability of the alternative model for binomial observations](/P/bin-pp)
 - [Posterior probability of the alternative model for multinomial observations](/P/mult-pp)
+- [Power analysis, minimum detectable effect and minimum required sample size for a one-sample t-test](/P/ug-ttest1power)
 - [Prior predictive distribution is a marginal distribution of the joint likelihood](/P/priorpred-jl)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
 - [Probability density function is first derivative of cumulative distribution function](/P/pdf-cdf)

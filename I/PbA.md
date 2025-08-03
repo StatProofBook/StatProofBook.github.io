@@ -8,6 +8,10 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
+### alexanderdbolton (1 proof)
+
+- [Power analysis, minimum detectable effect and minimum required sample size for a one-sample t-test](/P/ug-ttest1power)
+
 ### aloctavodia (1 proof)
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)

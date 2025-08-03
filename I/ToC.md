@@ -340,6 +340,8 @@ title: "Table of Contents"
    &emsp;&ensp; 4.3.9. *[Critical value](/D/cval)* <br>
    &emsp;&ensp; 4.3.10. *[p-value](/D/pval)* <br>
    &emsp;&ensp; 4.3.11. **[Distribution of p-value under null hypothesis](/P/pval-h0)** <br>
+   &emsp;&ensp; 4.3.12. *[Minimum detectable effect](/D/mde)* <br>
+   &emsp;&ensp; 4.3.13. *[Minimum required sample size](/D/mrss)* <br>
 
 5. <p id="Bayesian statistics">Bayesian statistics</p>
    
@@ -718,12 +720,13 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.4. **[Two-sample t-test](/P/ug-ttest2)** <br>
    &emsp;&ensp; 1.1.5. **[Paired t-test](/P/ug-ttestp)** <br>
    &emsp;&ensp; 1.1.6. **[F-test for equality of variances](/P/ug-fev)** <br>
-   &emsp;&ensp; 1.1.7. **[Conjugate prior distribution](/P/ug-prior)** <br>
-   &emsp;&ensp; 1.1.8. **[Posterior distribution](/P/ug-post)** <br>
-   &emsp;&ensp; 1.1.9. **[Log model evidence](/P/ug-lme)** <br>
-   &emsp;&ensp; 1.1.10. **[Accuracy and complexity](/P/ug-anc)** <br>
-   &emsp;&ensp; 1.1.11. **[Cross-validated log model evidence](/P/ug-cvlme)** <br>
-   &emsp;&ensp; 1.1.12. **[Cross-validated log Bayes factor](/P/ug-cvlbf)** <br>
+   &emsp;&ensp; 1.1.7. **[Power analysis for one-sample t-test](/P/ug-ttest1power)** <br>
+   &emsp;&ensp; 1.1.8. **[Conjugate prior distribution](/P/ug-prior)** <br>
+   &emsp;&ensp; 1.1.9. **[Posterior distribution](/P/ug-post)** <br>
+   &emsp;&ensp; 1.1.10. **[Log model evidence](/P/ug-lme)** <br>
+   &emsp;&ensp; 1.1.11. **[Accuracy and complexity](/P/ug-anc)** <br>
+   &emsp;&ensp; 1.1.12. **[Cross-validated log model evidence](/P/ug-cvlme)** <br>
+   &emsp;&ensp; 1.1.13. **[Cross-validated log Bayes factor](/P/ug-cvlbf)** <br>
    
    <p id="Univariate Gaussian with known variance"></p>
    1.2. Univariate Gaussian with known variance <br>
