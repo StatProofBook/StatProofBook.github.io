@@ -60,18 +60,18 @@ M_x(t) &= \int_{\mathbb{R}^n} \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \le
 &= \int_{\mathbb{R}^n} \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} \left( x^\mathrm{T} \Sigma^{-1} x - 2 \mu^\mathrm{T} \Sigma^{-1} x + \mu^\mathrm{T} \Sigma^{-1} \mu - 2 t^\mathrm{T}x \right) \right] \, \mathrm{d}x \\
 &= \int_{\mathbb{R}^n} \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} \left( x^\mathrm{T} \Sigma^{-1} x - 2 (\mu + \Sigma t)^\mathrm{T} \Sigma^{-1} x + \mu^\mathrm{T} \Sigma^{-1} \mu \right) \right] \, \mathrm{d}x \\
 &= \int_{\mathbb{R}^n} \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} \left( (x - [\mu + \Sigma t])^\mathrm{T} \Sigma^{-1} (x - [\mu + \Sigma t]) - 2 t^\mathrm{T} \mu - t^\mathrm{T} \Sigma t \right) \right] \, \mathrm{d}x \\
-&= \exp \left[ t^\mathrm{T} \mu + t^\mathrm{T} \Sigma t \right] \int_{\mathbb{R}^n} \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x - [\mu + \Sigma t])^\mathrm{T} \Sigma^{-1} (x - [\mu + \Sigma t]) \right] \, \mathrm{d}x \; .
+&= \exp \left[ t^\mathrm{T} \mu + \frac{1}{2} t^\mathrm{T} \Sigma t \right] \int_{\mathbb{R}^n} \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x - [\mu + \Sigma t])^\mathrm{T} \Sigma^{-1} (x - [\mu + \Sigma t]) \right] \, \mathrm{d}x \; .
 \end{split}
 $$
 
 The integrand is equal to the [probability density function of a multivariate normal distribution](/P/mvn-pdf):
 
 $$ \label{eq:mvn-mgf-s4}
-M_x(t) = \exp \left[ t^\mathrm{T} \mu + t^\mathrm{T} \Sigma t \right] \int_{\mathbb{R}^n} \mathcal{N}(x; \mu + \Sigma t, \Sigma) \, \mathrm{d}x \; .
+M_x(t) = \exp \left[ t^\mathrm{T} \mu + \frac{1}{2} t^\mathrm{T} \Sigma t \right] \int_{\mathbb{R}^n} \mathcal{N}(x; \mu + \Sigma t, \Sigma) \, \mathrm{d}x \; .
 $$
 
 Because [the entire probability density integrates to one](/D/pdf), we finally have:
 
 $$ \label{eq:mvn-mgf-s5}
-M_x(t) = \exp \left[ t^\mathrm{T} \mu + t^\mathrm{T} \Sigma t \right] \; .
+M_x(t) = \exp \left[ t^\mathrm{T} \mu + \frac{1}{2} t^\mathrm{T} \Sigma t \right] \; .
 $$
