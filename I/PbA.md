@@ -8,11 +8,15 @@ title: "Proof by Author"
 
 - [Covariance matrix of the multinomial distribution](/P/mult-cov)
 
+### alexanderdbolton (1 proof)
+
+- [Power analysis, minimum detectable effect and minimum required sample size for a one-sample t-test](/P/ug-ttest1power)
+
 ### aloctavodia (1 proof)
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (470 proofs)
+### JoramSoch (474 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -112,6 +116,7 @@ title: "Proof by Author"
 - [Discrete uniform distribution maximizes entropy for finite support](/P/duni-maxent)
 - [Distribution of parameter estimates for simple linear regression](/P/slr-olsdist)
 - [Distribution of residual sum of squares in multiple linear regression with weighted least squares](/P/mlr-rssdist)
+- [Distribution of the coefficient of determination under the null hypothesis](/P/rsq-dist)
 - [Distribution of the inverse general linear model](/P/iglm-dist)
 - [Distribution of the transformed general linear model](/P/tglm-dist)
 - [Distributional transformation using cumulative distribution function](/P/cdf-dt)
@@ -244,6 +249,7 @@ title: "Proof by Author"
 - [Maximum-a-posteriori estimation for Bayesian linear regression](/P/blr-map)
 - [Maximum-a-posteriori estimation for binomial observations](/P/bin-map)
 - [Maximum-a-posteriori estimation for multinomial observations](/P/mult-map)
+- [Mean, mode and median of the coefficient of determination under the null hypothesis](/P/rsq-mmm)
 - [Mean of the Bernoulli distribution](/P/bern-mean)
 - [Mean of the beta distribution](/P/beta-mean)
 - [Mean of the binomial distribution](/P/bin-mean)
@@ -341,6 +347,7 @@ title: "Proof by Author"
 - [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Posterior probability of the alternative model for binomial observations](/P/bin-pp)
 - [Posterior probability of the alternative model for multinomial observations](/P/mult-pp)
+- [Prior predictive distribution is a marginal distribution of the joint likelihood](/P/priorpred-jl)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
 - [Probability density function is first derivative of cumulative distribution function](/P/pdf-cdf)
 - [Probability density function of a linear function of a continuous random vector](/P/pdf-linfct)
@@ -434,7 +441,7 @@ title: "Proof by Author"
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Reparametrization for one-way analysis of variance](/P/anova1-repara)
 - [Sampling from the matrix-normal distribution](/P/matn-samp)
-- [Sampling from the matrix-normal distribution](/P/mvn-samp)
+- [Sampling from the multivariate normal distribution](/P/mvn-samp)
 - [Sampling from the normal-gamma distribution](/P/ng-samp)
 - [Scaling of a random variable following the gamma distribution](/P/gam-scal)
 - [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal)
@@ -472,6 +479,7 @@ title: "Proof by Author"
 - [Variance of the Bernoulli distribution](/P/bern-var)
 - [Variance of the beta distribution](/P/beta-var)
 - [Variance of the binomial distribution](/P/bin-var)
+- [Variance of the coefficient of determination under the null hypothesis](/P/rsq-var)
 - [Variance of the continuous uniform distribution](/P/cuni-var)
 - [Variance of the gamma distribution](/P/gam-var)
 - [Variance of the linear combination of two random variables](/P/var-lincomb)

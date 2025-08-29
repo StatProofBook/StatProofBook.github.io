@@ -73,10 +73,10 @@ $$
 
 which is equivalent to adding a constant regressor $x_0 = 1_n$ to the design matrix $X$.
 
-When the covariance structure $V$ is equal to the $n \times n$ identity matrix, this is called multiple linear regression with independent and identically distributed (i.i.d.) observations:
+When the covariance structure $V$ is equal to the $n \times n$ identity matrix, this is called multiple linear regression with [independent and identically distributed](/D/iid) (i.i.d.) observations:
 
 $$ \label{eq:mlr-noise-iid}
 V = I_n \quad \Rightarrow \quad \varepsilon \sim \mathcal{N}(0, \sigma^2 I_n) \quad \Rightarrow \quad \varepsilon_i \overset{\text{i.i.d.}}{\sim} \mathcal{N}(0, \sigma^2) \; .
 $$
 
-Otherwise, it is called multiple linear regression with correlated observations.
+Otherwise, it is called multiple linear regression with [correlated observations](/D/corr).

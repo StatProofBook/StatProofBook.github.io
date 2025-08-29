@@ -45,7 +45,7 @@ $$ \label{eq:f-rsq-dist}
 F \sim \mathrm{F}(p-1, n-p)
 $$
 
-under the [null hypothesis](/D/h0) that the true [coefficient of determination](/D/rsq) is zero
+under the [null hypothesis](/D/h0) that the true [coefficient of determination](/D/rsq) is zero:
 
 $$ \label{eq:rsq-test-h0}
 H_0: \; R^2 = 0 \; .

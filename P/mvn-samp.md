@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2025-05-21 16:14:00
 
-title: "Sampling from the matrix-normal distribution"
+title: "Sampling from the multivariate normal distribution"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
 topic: "Multivariate normal distribution"

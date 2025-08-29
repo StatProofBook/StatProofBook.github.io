@@ -55,7 +55,8 @@ such that the [log-likelihood function](/D/llf) for this model [becomes](/P/glm-
 
 $$ \label{eq:glm-llf}
 \begin{split}
-\mathrm{LL}(B,\Sigma) = - \frac{nv}{2} \log(2\pi) - \frac{n}{2} \log |\Sigma| - \frac{v}{2} \log |V| - \frac{1}{2} \, \mathrm{tr}\left[ \Sigma^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \right] \; .
+\mathrm{LL}(B,\Sigma) &= \log p(Y|B,\Sigma) \\
+&= - \frac{nv}{2} \log(2\pi) - \frac{n}{2} \log |\Sigma| - \frac{v}{2} \log |V| - \frac{1}{2} \, \mathrm{tr}\left[ \Sigma^{-1} (Y - XB)^\mathrm{T} V^{-1} (Y - XB) \right] \; .
 \end{split}
 $$
 

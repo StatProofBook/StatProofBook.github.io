@@ -42,7 +42,7 @@ $$
 and vice versa
 
 $$ \label{eq:R2-F}
-R^2 = 1 - \frac{1}{F \cdot \frac{n-p}{p-1} + 1}
+R^2 = 1 - \frac{1}{F \cdot \frac{p-1}{n-p} + 1}
 $$
 
 where $n$ and $p$ are the dimensions of the design matrix $X \in \mathbb{R}^{n \times p}$.
@@ -80,15 +80,15 @@ $$
 $$ \label{eq:R2-F-qed}
 \begin{split}
 F &= \frac{\left(R^2\right)/(p-1)}{\left(1-R^2\right)/(n-p)} \\
-F \cdot \frac{n-p}{p-1} &= \frac{R^2}{\left(1-R^2\right)} \\
-F \cdot \frac{n-p}{p-1} \cdot (1-R^2) &= R^2 \\
-F \cdot \frac{n-p}{p-1} - F \cdot \frac{n-p}{p-1} \cdot R^2 &= R^2 \\
-F \cdot \frac{n-p}{p-1} \cdot R^2 + R^2 &= F \cdot \frac{n-p}{p-1} \\
-R^2 \left( F \cdot \frac{n-p}{p-1} \cdot + 1 \right) &= F \cdot \frac{n-p}{p-1} \\
-R^2 &= \frac{F \cdot \frac{n-p}{p-1}}{F \cdot \frac{n-p}{p-1} \cdot + 1} \\
-R^2 &= \frac{F \cdot \frac{n-p}{p-1} + 1 - 1}{F \cdot \frac{n-p}{p-1} \cdot + 1} \\
-R^2 &= \frac{F \cdot \frac{n-p}{p-1} + 1}{F \cdot \frac{n-p}{p-1} \cdot + 1} - \frac{1}{F \cdot \frac{n-p}{p-1} \cdot + 1} \\
-R^2 &= 1 - \frac{1}{F \cdot \frac{n-p}{p-1} \cdot + 1} \\
+F \cdot \frac{p-1}{n-p} &= \frac{R^2}{\left(1-R^2\right)} \\
+F \cdot \frac{p-1}{n-p} \cdot (1-R^2) &= R^2 \\
+F \cdot \frac{p-1}{n-p} - F \cdot \frac{p-1}{n-p} \cdot R^2 &= R^2 \\
+F \cdot \frac{p-1}{n-p} \cdot R^2 + R^2 &= F \cdot \frac{p-1}{n-p} \\
+R^2 \left( F \cdot \frac{p-1}{n-p} + 1 \right) &= F \cdot \frac{p-1}{n-p} \\
+R^2 &= \frac{F \cdot \frac{p-1}{n-p}}{F \cdot \frac{p-1}{n-p} + 1} \\
+R^2 &= \frac{F \cdot \frac{p-1}{n-p} + 1 - 1}{F \cdot \frac{p-1}{n-p} + 1} \\
+R^2 &= \frac{F \cdot \frac{p-1}{n-p} + 1}{F \cdot \frac{p-1}{n-p} + 1} - \frac{1}{F \cdot \frac{p-1}{n-p} + 1} \\
+R^2 &= 1 - \frac{1}{F \cdot \frac{p-1}{n-p} + 1} \\
 \end{split}
 $$
 

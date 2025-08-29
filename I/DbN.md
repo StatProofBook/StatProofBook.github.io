@@ -230,3 +230,5 @@ title: "Definition by Number"
 | D221 | stat-desc | [Descriptive and inferential statistics](/D/stat-desc) | JoramSoch | 2025-04-04 |
 | D222 | bvn-data | [Bivariate normally distributed data](/D/bvn-data) | JoramSoch | 2025-06-20 |
 | D223 | mvn-data | [Multivariate normally distributed data](/D/mvn-data) | JoramSoch | 2025-06-20 |
+| D224 | mde | [Minimum detectable effect](/D/mde) | alexanderdbolton | 2025-07-15 |
+| D225 | mrss | [Minimum required sample size](/D/mrss) | alexanderdbolton | 2025-07-15 |

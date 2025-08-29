@@ -4,6 +4,11 @@ title: "Definition by Author"
 ---
 
 
+### alexanderdbolton (2 definitions)
+
+- [Minimum detectable effect](/D/mde)
+- [Minimum required sample size](/D/mrss)
+
 ### aloctavodia (2 definitions)
 
 - [Posterior predictive distribution](/D/post-pred)

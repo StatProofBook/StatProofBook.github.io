@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** A Poisson distribution with exposure values is defined as a set of observed counts $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$, independently distributed according to a [Poisson distribution](/D/poiss) with common rate $\lambda$ and a set of concurrent exposures $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$:
+**Definition:** A Poisson distribution with exposure values is defined as a set of observed counts $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$, [independently](/D/ind) [distributed](/D/dist) according to a [Poisson distribution](/D/poiss) with common [rate](/D/para-rate) $\lambda$ and a set of concurrent exposures $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$:
 
 $$ \label{eq:Poiss-exp}
 y_i \sim \mathrm{Poiss}(\lambda x_i), \quad i = 1, \ldots, n \; .
