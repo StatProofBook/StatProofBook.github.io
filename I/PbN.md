@@ -517,3 +517,5 @@ title: "Proof by Number"
 | P509 | rsq-var | [Variance of the coefficient of determination under the null hypothesis](/P/rsq-var) | JoramSoch | 2025-07-04 |
 | P510 | priorpred-jl | [Prior predictive distribution is a marginal distribution of the joint likelihood](/P/priorpred-jl) | JoramSoch | 2025-07-04 |
 | P511 | ug-ttest1power | [Power analysis, minimum detectable effect and minimum required sample size for a one-sample t-test](/P/ug-ttest1power) | alexanderdbolton | 2025-07-23 |
+| P512 | covmatcross-mean | [Partition of a cross-covariance matrix into expected values](/P/covmatcross-mean) | JoramSoch | 2025-08-29 |
+| P513 | mean-blf | [Expectation of a bilinear form](/P/mean-blf) | JoramSoch | 2025-08-29 |
