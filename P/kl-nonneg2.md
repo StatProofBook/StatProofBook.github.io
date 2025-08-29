@@ -48,7 +48,7 @@ $$ \label{eq:logsum-ineq}
 \sum_{i=1}^n a_i \, \log_c \frac{a_i}{b_i} \geq a \, \log_c \frac{a}{b} \; .
 $$
 
-where $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$ be non-negative real numbers and $a = \sum_{i=1}^{n} a_i$ and $b = \sum_{i=1}^{n} b_i$. Because $p(x)$ and $q(x)$ are [probability mass functions](/D/pmf), such that
+where $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$ are non-negative real numbers as well as $a = \sum_{i=1}^{n} a_i$ and $b = \sum_{i=1}^{n} b_i$. Because $p(x)$ and $q(x)$ are [probability mass functions](/D/pmf), such that
 
 $$ \label{eq:p-q-pmf}
 \begin{split}

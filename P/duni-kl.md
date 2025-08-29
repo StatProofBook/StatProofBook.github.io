@@ -37,7 +37,7 @@ $$ \label{eq:duni-KL}
 $$
 
 
-**Proof:** The [KL divergence for a discrete random variable](/D/kl) is given by
+**Proof:** The [KL divergence for a discrete random variable](/D/kl) with possible values \mathcal{X} is given by
 
 $$ \label{eq:KL-disc}
 \mathrm{KL}[P\,||\,Q] = \sum_{x \in \mathcal{X}} p(x) \, \ln \frac{p(x)}{q(x)} \; .

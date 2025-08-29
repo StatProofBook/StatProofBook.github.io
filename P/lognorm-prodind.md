@@ -71,7 +71,7 @@ $$ \label{eq:ln-Z}
 = \sum_{i=1}^n Y_i \; .
 $$
 
-This means that the logarithm of the product of independent [log-normal](/D/lognorm) random variables is a sum of independent [normal](/D/norm) random variables. This sum, like any [linear combination of independent normal random variables, is again normally distributed](/P/norm-lincomb). Thus, combining \eqref{eq:ln-Z} and \eqref{eq:Y-norm}, we have:
+This means that the logarithm of the product of independent [log-normal](/D/lognorm) random variables is a sum of independent [normal](/D/norm) random variables. Because [any linear combination of independent normal random variables is again normally distributed](/P/norm-lincomb), this sum follows a normal distribution. Combining this with \eqref{eq:ln-Z} and \eqref{eq:Y-norm}, we have:
 
 $$ \label{eq:ln-Z-norm}
      \ln Z
@@ -79,7 +79,7 @@ $$ \label{eq:ln-Z-norm}
 \sim \mathcal{N}\left( \sum_{i=1}^n \mu_i, \, \sum_{i=1}^n \sigma_i^2 \right) \; .
 $$
 
-If a random variable [follows a normal distribution, then its exponential follows a log-normal distribution with the same parameters]:
+If a random variable [follows a normal distribution, then its exponential follows a log-normal distribution with the same parameters](/D/lognorm):
 
 $$ \label{eq:norm-lognorm}
 Y \sim \mathcal{N}(\mu, \sigma^2)
