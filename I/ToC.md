@@ -387,6 +387,7 @@ title: "Table of Contents"
    &emsp;&ensp; 5.3.4. *[Empirical Bayes](/D/eb)* <br>
    &emsp;&ensp; 5.3.5. *[Variational Bayes](/D/vb)* <br>
    &emsp;&ensp; 5.3.6. **[Decomposition of the free energy](/P/fren-dec)** <br>
+   &emsp;&ensp; 5.3.7. **[Free energy is lower bound on log model evidence](/P/fren-lme)** <br>
 
 6. <p id="Machine learning">Machine learning</p>
    
