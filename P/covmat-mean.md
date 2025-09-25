@@ -48,7 +48,7 @@ $$
 which can also be expressed using matrix multiplication as
 
 $$ \label{eq:covmat2}
-\Sigma_{XX} = \mathrm{E}\left[ (X-\mathrm{E}[X]) (X-\mathrm{E}[X])^\mathrm{T} \right]
+\Sigma_{XX} = \mathrm{E}\left[ (X-\mathrm{E}[X]) (X-\mathrm{E}[X])^\mathrm{T} \right] \; .
 $$
 
 Due to the [linearity of the expected value](/P/mean-lin), this can be rewritten as

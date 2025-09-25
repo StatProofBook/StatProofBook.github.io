@@ -62,7 +62,7 @@ $$ \label{eq:slr-wls-b}
 \end{split}
 $$
 
-Thus, the first entry of $\hat{\beta}$ is equal to:
+Thus, the first entry of $\hat{\beta}$ [is equal to](/P/slr-wls):
 
 $$ \label{eq:slr-wls-b1}
 \hat{\beta}_0 = \frac{x^\mathrm{T} V^{-1} x \, 1_n^\mathrm{T} V^{-1} y - 1_n^\mathrm{T} V^{-1} x \, x^\mathrm{T} V^{-1} y}{x^\mathrm{T} V^{-1} x \, 1_n^\mathrm{T} V^{-1} 1_n - 1_n^\mathrm{T} V^{-1} x \, x^\mathrm{T} V^{-1} 1_n} \; .

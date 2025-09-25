@@ -58,7 +58,7 @@ $$ \label{eq:mean-blf-s4}
 \mathrm{E}\left[ X^\mathrm{T} A Y \right] =  \mathrm{tr} \left( A \left[ \mathrm{Cov}(X,Y) + \mathrm{E}(X) \mathrm{E}(Y)^\mathrm{T} \right] \right) \; .
 $$
 
-Finally, applying [mean](/D/mean) and [covariance](/D/covmat) of $X$, we have
+Finally, applying the [means](/D/mean) and [cross-covariance](/D/covmat-cross) of $X$ and $Y$, we have
 
 $$ \label{eq:mean-blf-s5}
 \begin{split}

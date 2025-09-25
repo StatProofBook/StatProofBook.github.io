@@ -56,11 +56,11 @@ Thus, we can combine the [law of marginal probability](/D/prob-marg) and the [la
 $$ \label{eq:betabin-pmf-s1}
 \begin{split}
 p(x) &= \int_\mathcal{P} \mathrm{p}(x,p) \, \mathrm{d}p \\
-&= \int_\mathcal{P} \mathrm{p}(x \vert p) \, \mathrm{p}(p) \, \mathrm{d}p \; .
+&= \int_\mathcal{P} \mathrm{p}(x \vert p) \, \mathrm{p}(p) \, \mathrm{d}p
 \end{split}
 $$
 
-Now, we can plug in the [probability mass function of the binomial distribution](/P/bin-pmf) and the [probability density function of the beta distribution](/P/beta-pdf) to get
+where $\mathcal{P} = [0,1]$ is the set of possible values of $p$. Now, we can plug in the [probability mass function of the binomial distribution](/P/bin-pmf) and the [probability density function of the beta distribution](/P/beta-pdf) to get
 
 $$ \label{eq:betabin-pmf-s2}
 \begin{split}

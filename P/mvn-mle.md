@@ -11,7 +11,7 @@ title: "Maximum likelihood estimation for multivariate normally distributed data
 chapter: "Statistical Models"
 section: "Multivariate normal data"
 topic: "Multivariate Gaussian"
-definition: "Maximum likelihood estimation (p > 2)"
+theorem: "Maximum likelihood estimation (p > 2)"
 
 sources:
   - authors: "Alt"

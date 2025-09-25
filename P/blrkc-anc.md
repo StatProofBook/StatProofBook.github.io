@@ -148,7 +148,7 @@ $$
 With the [Kullback-Leibler divergence for the multivariate normal distribution](/P/mvn-kl)
 
 $$ \label{eq:mvn-kl}
-\mathrm{KL}[\mathcal{N}(\mu_1, \Sigma_1)\,||\,\mathcal{N}(\mu_2, \Sigma_2)] = \frac{1}{2} \left[ (\mu_2 - \mu_1)^\mathrm{T} \Sigma_2^{-1} (\mu_2 - \mu_1) + \mathrm{tr}(\Sigma_2^{-1} \Sigma_1) - \ln \frac{|\Sigma_1|}{|\Sigma_2|} - n \right]
+\mathrm{KL}[\mathcal{N}(\mu_1, \Sigma_1)\,||\,\mathcal{N}(\mu_2, \Sigma_2)] = \frac{1}{2} \left[ (\mu_2 - \mu_1)^\mathrm{T} \Sigma_2^{-1} (\mu_2 - \mu_1) + \mathrm{tr}(\Sigma_2^{-1} \Sigma_1) - \ln \frac{|\Sigma_1|}{|\Sigma_2|} - n \right] \; ,
 $$
 
 the model complexity of $m$ evaluates to

@@ -28,7 +28,7 @@ p(y_{\mathrm{new}}) = \int p(y_{\mathrm{new}}, \theta) \, \mathrm{d}\theta
 $$
 
 
-**Proof:** The [prior predictive distribution](/D/post-pred) is defined as the [marginal distribution](/D/dist-marg) of new data $y_{\mathrm{new}}$, predicted based on the [prior distribution](/D/prior) before seeing the measured data $y$:
+**Proof:** The [prior predictive distribution](/D/prior-pred) is defined as the [marginal distribution](/D/dist-marg) of new data $y_{\mathrm{new}}$, predicted based on the [prior distribution](/D/prior) before seeing the measured data $y$:
 
 $$ \label{eq:prior-pred}
 p(y_{\mathrm{new}}) = \int p(y_{\mathrm{new}} \vert \theta) \, p(\theta) \, \mathrm{d}\theta \; .
@@ -36,7 +36,7 @@ $$
 
 By using the [law of conditional probability](/D/prob-cond), we can write the integrand as
 
-$$ \label{eq:jl-post}
+$$ \label{eq:jl-prior}
 p(y_{\text{new}} \vert \theta) \, p(\theta) = p(y_{\text{new}}, \theta)
 $$
 

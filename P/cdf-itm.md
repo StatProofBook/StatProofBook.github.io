@@ -36,19 +36,20 @@ $$
 has a [probability distribution](/D/dist) characterized by the [invertible](/D/qf) [cumulative distribution function](/D/cdf) $F_X(x)$.
 
 
-**Proof:** The [cumulative distribution function](/D/cdf) of the transformation $X = F_X^{-1}(U)$ can be derived as
+**Proof:** With the [cumulative distribution function of the continuous uniform distribution](/P/cuni-cdf), the [cumulative distribution function](/D/cdf) of the [standard uniform distribution](/D/suni) is
+
+$$ \label{eq:suni-cdf}
+U \sim \mathcal{U}(0,1) \quad \Rightarrow \quad F_U(u) = \mathrm{Pr}(U \leq u) = u \; .
+$$
+
+Thus, the [cumulative distribution function](/D/cdf) of the transformation $X = F_X^{-1}(U)$ can be derived as
 
 $$ \label{eq:cdf-itm-qed}
 \begin{split}
 &\hphantom{=} \;\; \mathrm{Pr}(X \leq x) \\
 &= \mathrm{Pr}(F_X^{-1}(U) \leq x) \\
 &= \mathrm{Pr}(U \leq F_X(x)) \\
-&= F_X(x) \; ,
+&= F_U(F_X(x)) \\
+&= F_X(x) \; .
 \end{split}
-$$
-
-because the [cumulative distribution function](/D/cdf) of the [standard uniform distribution](/D/suni) $\mathcal{U}(0,1)$ is
-
-$$ \label{eq:suni-cdf}
-U \sim \mathcal{U}(0,1) \quad \Rightarrow \quad F_U(u) = \mathrm{Pr}(U \leq u) = u \; .
 $$

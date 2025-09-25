@@ -24,7 +24,7 @@ username: "JoramSoch"
 **Theorem:** Let $X$ and $Y$ be [random variables](/D/rvar). Then, the [covariance](/D/cov) of $X$ and $Y$ is equal to the product of their [correlation](/D/corr) and the [standard deviations](/D/std) of $X$ and $Y$:
 
 $$ \label{eq:cov-corr}
-\mathrm{Cov}(X,Y) = \sigma_X \, \mathrm{Corr}(X,Y) \, \sigma_Y \; .
+\mathrm{Cov}(X,Y) = \mathrm{Corr}(X,Y) \, \sigma_X \sigma_Y \; .
 $$
 
 
@@ -37,5 +37,5 @@ $$
 which can be rearranged for the [covariance](/D/cov) to give
 
 $$ \label{eq:cov-corr-qed}
-\mathrm{Cov}(X,Y) = \sigma_X \, \mathrm{Corr}(X,Y) \, \sigma_Y
+\mathrm{Cov}(X,Y) = \mathrm{Corr}(X,Y) \, \sigma_X \sigma_Y \; .
 $$

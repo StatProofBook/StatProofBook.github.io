@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (474 proofs)
+### JoramSoch (476 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -137,6 +137,7 @@ title: "Proof by Author"
 - [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep)
 - [Exceedance probability for a random variable in terms of cumulative distribution function](/P/cdf-probexc)
 - [Existence of a corresponding forward model](/P/cfm-exist)
+- [Expectation of a bilinear form](/P/mean-blf)
 - [Expectation of a quadratic form](/P/mean-qf)
 - [Expectation of a quadratic form for the multivariate normal distribution](/P/mvn-meanqf)
 - [Expectation of parameter estimates for simple linear regression](/P/slr-olsmean)
@@ -321,6 +322,7 @@ title: "Proof by Author"
 - [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr)
 - [Parameters of the corresponding forward model](/P/cfm-para)
 - [Partition of a covariance matrix into expected values](/P/covmat-mean)
+- [Partition of a cross-covariance matrix into expected values](/P/covmatcross-mean)
 - [Partition of covariance into expected values](/P/cov-mean)
 - [Partition of sums of squares for multiple linear regression](/P/mlr-pss)
 - [Partition of sums of squares for simple linear regression](/P/slr-pss)
