@@ -144,15 +144,16 @@ title: "Table of Contents"
    &emsp;&ensp; 1.10.8. **[Law of total expectation](/P/mean-tot)** <br>
    &emsp;&ensp; 1.10.9. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
    &emsp;&ensp; 1.10.10. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
-   &emsp;&ensp; 1.10.11. **[Markov's inequality](/P/mark-ineq)** <br>
-   &emsp;&ensp; 1.10.12. **[Chebyshev's inequality](/P/cheb-ineq)** <br>
-   &emsp;&ensp; 1.10.13. **[Weak law of large numbers](/P/mean-wlln)** <br>
-   &emsp;&ensp; 1.10.14. **[Expected value minimizes squared error](/P/mean-mse)** <br>
-   &emsp;&ensp; 1.10.15. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.10.16. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.10.17. **[Expectation of a bilinear form](/P/mean-blf)** <br>
-   &emsp;&ensp; 1.10.18. *[Expected value of a random matrix](/D/mean-rmat)* <br>
-   &emsp;&ensp; 1.10.19. **[Expectation of a trace](/P/mean-tr)** <br>
+   &emsp;&ensp; 1.10.11. **[Jensen's inequality](/P/jens-ineq)** <br>
+   &emsp;&ensp; 1.10.12. **[Markov's inequality](/P/mark-ineq)** <br>
+   &emsp;&ensp; 1.10.13. **[Chebyshev's inequality](/P/cheb-ineq)** <br>
+   &emsp;&ensp; 1.10.14. **[Weak law of large numbers](/P/mean-wlln)** <br>
+   &emsp;&ensp; 1.10.15. **[Expected value minimizes squared error](/P/mean-mse)** <br>
+   &emsp;&ensp; 1.10.16. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.10.17. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.10.18. **[Expectation of a bilinear form](/P/mean-blf)** <br>
+   &emsp;&ensp; 1.10.19. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.10.20. **[Expectation of a trace](/P/mean-tr)** <br>
    
    <p id="Variance"></p>
    1.11. Variance <br>
@@ -285,12 +286,13 @@ title: "Table of Contents"
    &emsp;&ensp; 2.5.1. *[Definition](/D/kl)* <br>
    &emsp;&ensp; 2.5.2. **[Non-negativity](/P/kl-nonneg)** (1) <br>
    &emsp;&ensp; 2.5.3. **[Non-negativity](/P/kl-nonneg2)** (2) <br>
-   &emsp;&ensp; 2.5.4. **[Non-symmetry](/P/kl-nonsymm)** <br>
-   &emsp;&ensp; 2.5.5. **[Convexity](/P/kl-conv)** <br>
-   &emsp;&ensp; 2.5.6. **[Additivity for independent distributions](/P/kl-add)** <br>
-   &emsp;&ensp; 2.5.7. **[Invariance under parameter transformation](/P/kl-inv)** <br>
-   &emsp;&ensp; 2.5.8. **[Relation to discrete entropy](/P/kl-ent)** <br>
-   &emsp;&ensp; 2.5.9. **[Relation to differential entropy](/P/kl-dent)** <br>
+   &emsp;&ensp; 2.5.4. **[Non-negativity](/P/kl-nonneg3)** (3) <br>
+   &emsp;&ensp; 2.5.5. **[Non-symmetry](/P/kl-nonsymm)** <br>
+   &emsp;&ensp; 2.5.6. **[Convexity](/P/kl-conv)** <br>
+   &emsp;&ensp; 2.5.7. **[Additivity for independent distributions](/P/kl-add)** <br>
+   &emsp;&ensp; 2.5.8. **[Invariance under parameter transformation](/P/kl-inv)** <br>
+   &emsp;&ensp; 2.5.9. **[Relation to discrete entropy](/P/kl-ent)** <br>
+   &emsp;&ensp; 2.5.10. **[Relation to differential entropy](/P/kl-dent)** <br>
 
 3. <p id="Estimation theory">Estimation theory</p>
    
