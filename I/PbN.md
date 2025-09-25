@@ -519,3 +519,5 @@ title: "Proof by Number"
 | P511 | ug-ttest1power | [Power analysis, minimum detectable effect and minimum required sample size for a one-sample t-test](/P/ug-ttest1power) | alexanderdbolton | 2025-07-23 |
 | P512 | covmatcross-mean | [Partition of a cross-covariance matrix into expected values](/P/covmatcross-mean) | JoramSoch | 2025-08-29 |
 | P513 | mean-blf | [Expectation of a bilinear form](/P/mean-blf) | JoramSoch | 2025-08-29 |
+| P514 | jens-ineq | [Jensen's inequality](/P/jens-ineq) | JoramSoch | 2025-09-25 |
+| P515 | kl-nonneg3 | [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg3) | JoramSoch | 2025-09-25 |
