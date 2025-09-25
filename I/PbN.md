@@ -521,3 +521,4 @@ title: "Proof by Number"
 | P513 | mean-blf | [Expectation of a bilinear form](/P/mean-blf) | JoramSoch | 2025-08-29 |
 | P514 | jens-ineq | [Jensen's inequality](/P/jens-ineq) | JoramSoch | 2025-09-25 |
 | P515 | kl-nonneg3 | [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg3) | JoramSoch | 2025-09-25 |
+| P516 | fren-dec | [Decompositions of the variational free energy](/P/fren-dec) | JoramSoch | 2025-09-25 |

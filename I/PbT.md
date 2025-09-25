@@ -96,6 +96,7 @@ title: "Proof by Topic"
 
 ### D
 
+- [Decompositions of the variational free energy](/P/fren-dec)
 - [Derivation of Bayesian model averaging](/P/bma-der)
 - [Derivation of R² and adjusted R²](/P/rsq-der)
 - [Derivation of the Bayesian information criterion](/P/bic-der)

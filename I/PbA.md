@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (478 proofs)
+### JoramSoch (479 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -95,6 +95,7 @@ title: "Proof by Author"
 - [Cumulative distribution function of the gamma distribution](/P/gam-cdf)
 - [Cumulative distribution function of the multinomial distribution](/P/mult-cdf)
 - [Cumulative distribution function of the normal distribution](/P/norm-cdf)
+- [Decompositions of the variational free energy](/P/fren-dec)
 - [Derivation of Bayesian model averaging](/P/bma-der)
 - [Derivation of R² and adjusted R²](/P/rsq-der)
 - [Derivation of the Bayesian information criterion](/P/bic-der)
