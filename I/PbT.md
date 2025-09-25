@@ -192,6 +192,7 @@ title: "Proof by Topic"
 
 ### J
 
+- [Jensen's inequality](/P/jens-ineq)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 
 ### K
@@ -339,6 +340,7 @@ title: "Proof by Topic"
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
+- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg3)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)

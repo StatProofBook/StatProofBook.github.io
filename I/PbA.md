@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (476 proofs)
+### JoramSoch (478 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -175,6 +175,7 @@ title: "Proof by Author"
 - [Invariance of the Kullback-Leibler divergence under parameter transformation](/P/kl-inv)
 - [Invariance of the variance under addition of a constant](/P/var-inv)
 - [Inverse transformation method using cumulative distribution function](/P/cdf-itm)
+- [Jensen's inequality](/P/jens-ineq)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the Bernoulli distribution](/P/bern-kl)
 - [Kullback-Leibler divergence for the binomial distribution](/P/bin-kl)
@@ -298,6 +299,7 @@ title: "Proof by Author"
 - [Non-negativity of the expected value](/P/mean-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg)
 - [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2)
+- [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg3)
 - [Non-negativity of the Shannon entropy](/P/ent-nonneg)
 - [Non-negativity of the variance](/P/var-nonneg)
 - [Non-symmetry of the Kullback-Leibler divergence](/P/kl-nonsymm)
