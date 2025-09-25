@@ -386,6 +386,7 @@ title: "Table of Contents"
    &emsp;&ensp; 5.3.3. **[Bayes' rule](/P/bayes-rule)** <br>
    &emsp;&ensp; 5.3.4. *[Empirical Bayes](/D/eb)* <br>
    &emsp;&ensp; 5.3.5. *[Variational Bayes](/D/vb)* <br>
+   &emsp;&ensp; 5.3.6. **[Decomposition of the free energy](/P/fren-dec)** <br>
 
 6. <p id="Machine learning">Machine learning</p>
    
