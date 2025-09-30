@@ -33,13 +33,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** The [cross-entropy](/D/ent-cross) is convex in the [probability distribution](/D/dist) $q$, i.e.
+**Theorem:** The [cross-entropy](/D/ent-cross) is convex in the second [probability distribution](/D/dist), i.e.
 
 $$ \label{eq:ent-cross-conv}
 \mathrm{H}[p,\lambda q_1 + (1-\lambda) q_2] \leq \lambda \mathrm{H}[p,q_1] + (1-\lambda) \mathrm{H}[p,q_2]
 $$
 
-where $p$ is a fixed and $q_1$ and $q_2$ are any two probability distributions and $0 \leq \lambda \leq 1$.
+where $p$ is a fixed and $q_1$ and $q_2$ are any two [probability mass functions](/D/pmf) and $0 \leq \lambda \leq 1$.
 
 
 **Proof:** The [relationship between Kullback-Leibler divergence, entropy and cross-entropy](/P/kl-ent) is:
@@ -51,7 +51,7 @@ $$
 Note that the [KL divergence is convex](/P/kl-conv) in the pair of [probability distributions](/D/dist) $(p,q)$:
 
 $$ \label{eq:kl-conv}
-\mathrm{KL}[\lambda p_1 + (1-\lambda) p_2||\lambda q_1 + (1-\lambda) q_2] \leq \lambda \mathrm{KL}[p_1||q_1] + (1-\lambda) \mathrm{KL}[p_2||q_2]
+\mathrm{KL}[\lambda p_1 + (1-\lambda) p_2||\lambda q_1 + (1-\lambda) q_2] \leq \lambda \mathrm{KL}[p_1||q_1] + (1-\lambda) \mathrm{KL}[p_2||q_2] \; .
 $$
 
 A special case of this is given by

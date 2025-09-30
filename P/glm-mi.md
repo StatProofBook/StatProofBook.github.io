@@ -63,7 +63,7 @@ Since $X$ is [constant](/D/const) and thus only has [one possible value](/D/samp
 $$ \label{eq:dent-cond-const}
 \begin{split}
 \mathrm{h}(Y|X)
-&= \int_{z \in \mathcal{X}} p(z) \cdot \mathrm{h}(Y|z) \, \mathrm{d}z \\
+&= \int_{x \in \mathcal{X}} p(x) \cdot \mathrm{h}(Y|x) \, \mathrm{d}x \\
 &= p(X) \cdot \mathrm{h}(Y|X) \\
 &= \mathrm{h}\left[ p(Y|X,B,\Sigma_1) \right] \; .
 \end{split}

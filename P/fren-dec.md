@@ -48,7 +48,7 @@ $$ \label{eq:vb-fe3}
 \mathrm{F}[q(\theta)] = \left\langle \log p(y,\theta) \right\rangle_{q(\theta)} - \mathrm{h}[q(\theta)]
 $$
 
-where $p(y \vert m) = p(y)$ is the [marginal likelihood](/D/ml), $\left\langle \cdot \right\rangle_{p(x)}$ denotes an [expectation](/D/mean) with respect to the []density](/D/pdf) $p(x)$, $\mathrm{KL}[\cdot \vert\vert \cdot]$ denotes the [Kullback-Leibler divergence](/D/kl) and $\mathrm{h}[\cdot]$ denotes the [differential entropy](/D/dent).
+where $p(y \vert m) = p(y)$ is the [marginal likelihood](/D/ml), $\left\langle \cdot \right\rangle_{p(x)}$ denotes an [expectation](/D/mean) with respect to the [density](/D/pdf) $p(x)$, $\mathrm{KL}[\cdot \vert\vert \cdot]$ denotes the [Kullback-Leibler divergence](/D/kl) and $\mathrm{h}[\cdot]$ denotes the [differential entropy](/D/dent).
 
 
 **Proof:** The [log model evidence](/D/lme) is defined as

@@ -47,4 +47,4 @@ $$ \label{eq:prob-marg-cont}
 p(A) = \int_{\mathcal{X}} p(A,x) \, \mathrm{d}x \; .
 $$
 
-The law of marginal probability can be motivated from the [law of total probability](/D/prob-tot) which follows from the [Kolmogorov axioms of probability](/D/prob-ax).
+The law of marginal probability can be motivated from the [law of total probability](/P/prob-tot) which follows from the [Kolmogorov axioms of probability](/D/prob-ax).

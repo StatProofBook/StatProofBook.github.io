@@ -20,12 +20,6 @@ sources:
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-09-09"
     url: "https://en.wikipedia.org/wiki/Log_sum_inequality#Proof"
-  - authors: "Wikipedia"
-    year: 2020
-    title: "Jensen's inequality"
-    in: "Wikipedia, the free encyclopedia"
-    pages: "retrieved on 2020-09-09"
-    url: "https://en.wikipedia.org/wiki/Jensen%27s_inequality#Statements"
 
 proof_id: "P165"
 shortcut: "logsum-ineq"
@@ -64,7 +58,7 @@ $$ \label{eq:sum-bi-b}
 \end{split}
 $$
 
-applying Jensen's inequality yields
+applying [Jensen's inequality](/P/jens-ineq) yields
 
 $$ \label{eq:logsum-ineq-s3}
 \begin{split}
