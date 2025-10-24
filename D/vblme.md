@@ -34,20 +34,10 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $m$ be a [generative model](/D/gm) with model parameters $\theta$ implying the [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Moreover, assume an [approximate](/D/vb) [posterior distribution](/D/post) $q(\theta)$. Then, the [Variational Bayesian](/D/vb) [log model evidence](/D/lme), also referred to as the "negative free energy", is the expectation of the [log-likelihood function](/D/llf) with respect to the approximate posterior, minus the [Kullback-Leibler divergence](/D/kl) between approximate posterior and the prior distribution:
+**Definition:** Let $m$ be a [generative model](/D/gm) with [model parameters](/D/para) $\theta \in \Theta$ implying the [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Moreover, assume an [approximate](/D/vb) [posterior distribution](/D/post) $q(\theta)$. Then, the [Variational Bayesian](/D/vb) [log model evidence](/D/lme), also referred to as the "variational free energy", is defined as the expected logarithm of the likelihood function, divided by the approximate posterior:
 
 $$ \label{eq:vbLME}
-\mathrm{vbLME}(m) = \left\langle \log p(y \vert \theta, m) \right\rangle_{q(\theta)} - \mathrm{KL}\left[q(\theta) || p(\theta \vert m)\right]
+\mathrm{vbLME}(m) = \mathrm{F}_m[q(\theta)] = \int_{\Theta} q(\theta) \log \frac{p(\theta \vert y, m)}{q(\theta)} \, \mathrm{d}\theta \; .
 $$
 
-where
-
-$$ \label{eq:ELL}
-\left\langle \log p(y \vert \theta, m) \right\rangle_{q(\theta)} = \int q(\theta) \log p(y \vert \theta, m) \, \mathrm{d}\theta
-$$
-
-and
-
-$$ \label{eq:KL}
-\mathrm{KL}\left[q(\theta) || p(\theta \vert m)\right] = \int q(\theta) \log \frac{q(\theta)}{p(\theta \vert m)} \, \mathrm{d}\theta  \; .
-$$
+The variational free energy can be decomposed into the [difference between log model evidence and KL divergence of approximate from true posterior](/P/fren-dec) or, alternatively, as the [difference of expected log-likelihood and KL divergence of approximate posterior from prior](/P/fren-dec).

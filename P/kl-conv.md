@@ -33,13 +33,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:**  The [Kullback-Leibler divergence](/D/kl) is convex in the pair of [probability distributions](/D/dist) $(p,q)$, i.e.
+**Theorem:**  The [Kullback-Leibler divergence](/D/kl) is convex in pairs of [probability distributions](/D/dist), i.e.
 
 $$ \label{eq:KL-conv}
 \mathrm{KL}[\lambda p_1 + (1-\lambda) p_2||\lambda q_1 + (1-\lambda) q_2] \leq \lambda \mathrm{KL}[p_1||q_1] + (1-\lambda) \mathrm{KL}[p_2||q_2]
 $$
 
-where $(p_1,q_1)$ and $(p_2,q_2)$ are two pairs of probability distributions and $0 \leq \lambda \leq 1$.
+where $(p_1,q_1)$ and $(p_2,q_2)$ are two pairs of [probability density functions](/D/pdf) and $0 \leq \lambda \leq 1$.
 
 
 **Proof:** The [Kullback-Leibler divergence](/D/kl) of $P$ from $Q$ is defined as
@@ -56,7 +56,7 @@ $$
 
 where $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$ are non-negative real numbers.
 
-Thus, we can rewrite the KL divergence of the mixture distribution as
+Thus, we can rewrite the KL divergence of the [mixture distribution](/D/dist-mixt) as
 
 $$ \label{eq:KL-conv-qed}
 \begin{split}

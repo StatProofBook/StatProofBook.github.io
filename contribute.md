@@ -9,6 +9,8 @@ Everyone can contribute to **The Book of Statistical Proofs**! Depending on your
 
 *Quick Access:* [GitHub Repository](https://github.com/StatProofBook/StatProofBook.github.io) – [Repository Wiki](https://github.com/StatProofBook/StatProofBook.github.io/wiki) – [Proof Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/P/-temp-.md) – [Definition Template](https://raw.githubusercontent.com/StatProofBook/StatProofBook.github.io/master/D/-temp-.md) – [Template Guidelines](https://github.com/StatProofBook/StatProofBook.github.io/wiki/Template-Files) – [Table of Contents](/I/ToC) – [Wanted Theorems](https://docs.google.com/spreadsheets/d/1MIqVvAgcQL72HCPZ9KDaCZXZRVxBhkrEiLX1Dr7p4Kg/edit?usp=sharing) – [Wanted Definitions](https://docs.google.com/spreadsheets/d/1jH173bODx8C1Hj8xhPNJDs4oLs00GsSbNC9BpwtZsoQ/edit?usp=sharing) – [Proofs without Source](/I/PwS) – [Definitions without Source](/I/DwS) – [Dead Links](https://github.com/StatProofBook/StatProofBookTools/blob/master/report_links/Dead_Links.txt) – [StatProofBookTools](https://github.com/StatProofBook/StatProofBookTools/)
 
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZMCHk_5sWXk?si=YAfNOV7yIP8-0ctk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br>
 ### Level 1: suggest a theorem to be proven

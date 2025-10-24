@@ -40,7 +40,7 @@ $$ \label{eq:m0}
 m_0: \; Y = E_0, \; E_0 \sim \mathcal{MN}(0, I_n, \Sigma_0) \; .
 $$
 
-Then, the [log-likelihood ratio](/D/llr) of $m_1$ vs. $m_0$ is equal to the estimated [mutual information](/D/mi) of $X$ and $Y$:
+Then, the [log-likelihood ratio](/D/llr) of $m_1$ vs. $m_0$ is equal to the [estimated](/D/est) [mutual information](/D/mi) of $X$ and $Y$:
 
 $$ \label{eq:glm-llrmi}
 \ln \Lambda_{10} = \hat{I}(X,Y) \; .

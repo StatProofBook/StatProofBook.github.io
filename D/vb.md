@@ -47,7 +47,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $m$ be a [generative model](/D/gm) with model parameters $\theta$ implying the [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Then, a Variational Bayes treatment of $m$, also referred to as "approximate inference" or "variational inference", consists in
+**Definition:** Let $m$ be a [generative model](/D/gm) with [model parameters](/D/para) $\theta \in \Theta$ implying the [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Then, a Variational Bayes treatment of $m$, also referred to as "approximate inference" or "variational inference", consists in
 
 <br>
 1) constructing an approximate [posterior distribution](/D/post)
@@ -60,14 +60,14 @@ $$
 2) evaluating the [variational free energy](/D/vblme)
 
 $$ \label{eq:FE}
-F_q(m) = \int q(\theta) \log p(y|\theta,m) \, \mathrm{d}\theta - \int q(\theta) \frac{q(\theta)}{p(\theta|m)} \, \mathrm{d}\theta
+\mathrm{F}_m[q(\theta)] = \int_{\Theta} q(\theta) \log \frac{p(\theta \vert y, m)}{q(\theta)} \, \mathrm{d}\theta
 $$
 
 <br>
 3) and maximizing this function with respect to $q(\theta)$
 
 $$ \label{eq:VB}
-\hat{q}(\theta) = \operatorname*{arg\,max}_{q} F_q(m) \; .
+\hat{q}(\theta) = \operatorname*{arg\,max}_{q} \mathrm{F}_m[q(\theta)]
 $$
 
 for [Bayesian inference](/P/bayes-th), i.e. obtaining the [posterior distribution](/D/post) (from eq. \eqref{eq:VB}) and approximating the [marginal likelihood](/D/ml) (by plugging eq. \eqref{eq:VB} into eq. \eqref{eq:FE}).

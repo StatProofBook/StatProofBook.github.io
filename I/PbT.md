@@ -546,6 +546,7 @@ title: "Proof by Topic"
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
 - [The sum of residuals is zero in simple linear regression](/P/slr-ressum)
+- [The variational free energy is a lower bound on the log model evidence](/P/fren-lme)
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
 - [Transformation matrices for simple linear regression](/P/slr-mat)
 - [Transitivity of Bayes Factors](/P/bf-trans)

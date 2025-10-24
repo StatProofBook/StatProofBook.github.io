@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (479 proofs)
+### JoramSoch (480 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -472,6 +472,7 @@ title: "Proof by Author"
 - [The regression line goes through the center of mass point](/P/slr-comp)
 - [The residuals and the covariate are uncorrelated in simple linear regression](/P/slr-rescorr)
 - [The sum of residuals is zero in simple linear regression](/P/slr-ressum)
+- [The variational free energy is a lower bound on the log model evidence](/P/fren-lme)
 - [Transformation matrices for ordinary least squares](/P/mlr-mat)
 - [Transformation matrices for simple linear regression](/P/slr-mat)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)

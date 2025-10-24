@@ -522,3 +522,4 @@ title: "Proof by Number"
 | P514 | jens-ineq | [Jensen's inequality](/P/jens-ineq) | JoramSoch | 2025-09-25 |
 | P515 | kl-nonneg3 | [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg3) | JoramSoch | 2025-09-25 |
 | P516 | fren-dec | [Decompositions of the variational free energy](/P/fren-dec) | JoramSoch | 2025-09-25 |
+| P517 | fren-lme | [The variational free energy is a lower bound on the log model evidence](/P/fren-lme) | JoramSoch | 2025-09-25 |
