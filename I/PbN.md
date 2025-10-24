@@ -180,7 +180,7 @@ title: "Proof by Number"
 | P172 | momraw-2nd | [Relationship between second raw moment, variance and mean](/P/momraw-2nd) | JoramSoch | 2020-10-08 |
 | P173 | momcent-2nd | [Second central moment is variance](/P/momcent-2nd) | JoramSoch | 2020-10-08 |
 | P174 | chi2-gam | [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam) | kjpetrykowski | 2020-10-12 |
-| P175 | chi2-mom | [Moments of the chi-squared distribution](/P/chi2-mom) | kjpetrykowski | 2020-10-13 |
+| P175 | chi2-momraw | [Raw moments of the chi-squared distribution](/P/chi2-momraw) | kjpetrykowski | 2020-10-13 |
 | P176 | norm-snorm2 | [Relationship between normal distribution and standard normal distribution](/P/norm-snorm2) | JoramSoch | 2020-10-15 |
 | P177 | gam-sgam2 | [Relationship between gamma distribution and standard gamma distribution](/P/gam-sgam2) | JoramSoch | 2020-10-15 |
 | P178 | gam-cdf | [Cumulative distribution function of the gamma distribution](/P/gam-cdf) | JoramSoch | 2020-10-15 |
@@ -523,3 +523,6 @@ title: "Proof by Number"
 | P515 | kl-nonneg3 | [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg3) | JoramSoch | 2025-09-25 |
 | P516 | fren-dec | [Decompositions of the variational free energy](/P/fren-dec) | JoramSoch | 2025-09-25 |
 | P517 | fren-lme | [The variational free energy is a lower bound on the log model evidence](/P/fren-lme) | JoramSoch | 2025-09-25 |
+| P518 | gam-med | [Median of the gamma distribution](/P/gam-med) | JoramSoch | 2025-10-24 |
+| P519 | beta-med | [Median of the beta distribution](/P/beta-med) | JoramSoch | 2025-10-24 |
+| P520 | beta-mode | [Mode of the beta distribution](/P/beta-mode) | JoramSoch | 2025-10-24 |

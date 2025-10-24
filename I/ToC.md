@@ -586,7 +586,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.7.1. *[Definition](/D/chi2)* <br>
    &emsp;&ensp; 3.7.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
    &emsp;&ensp; 3.7.3. **[Probability density function](/P/chi2-pdf)** <br>
-   &emsp;&ensp; 3.7.4. **[Moments](/P/chi2-mom)** <br>
+   &emsp;&ensp; 3.7.4. **[Raw moments](/P/chi2-momraw)** <br>
    
    <p id="F-distribution"></p>
    3.8. F-distribution <br>

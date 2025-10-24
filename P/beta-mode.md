@@ -225,4 +225,4 @@ Thus, $f'\'\_X(x)$ is negative for $x = \frac{\alpha-1}{\alpha+\beta-2}$, demons
 
 * If $\alpha = 1$ and $\beta = 1$, then $f_X(x)$ is constant and any value in the interval $\left[ 0,1 \right]$ can be seen as the mode of $X$.
 
-* If $\alpha \geq 1$ and $\beta \geq 1$ (but not $\alpha = 1$ and $\beta = 1$), then $0 < x =  < 1$ and $f'_X(x) = 0$ and $f'\'\_X(x) < 0$, such that $f_X(x)$ reaches its machimum at $\mathrm{mode}(X) = \frac{\alpha-1}{\alpha+\beta-2}$.
+* If $\alpha \geq 1$ and $\beta \geq 1$ (but not $\alpha = 1$ and $\beta = 1$), then $0 < x = \frac{\alpha-1}{\alpha+\beta-2} < 1$ and $f'_X(x) = 0$ and $f'\'\_X(x) < 0$, such that $f_X(x)$ reaches its machimum at $\frac{\alpha-1}{\alpha+\beta-2} = \mathrm{mode}(X)$.

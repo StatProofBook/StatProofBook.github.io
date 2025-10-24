@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (480 proofs)
+### JoramSoch (483 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -267,11 +267,14 @@ title: "Proof by Author"
 - [Mean of the normal-gamma distribution](/P/ng-mean)
 - [Mean of the normal-Wishart distribution](/P/nw-mean)
 - [Mean of the Poisson distribution](/P/poiss-mean)
+- [Median of the beta distribution](/P/beta-med)
 - [Median of the continuous uniform distribution](/P/cuni-med)
 - [Median of the exponential distribution](/P/exp-med)
+- [Median of the gamma distribution](/P/gam-med)
 - [Median of the normal distribution](/P/norm-med)
 - [Method of moments for beta-binomial data](/P/betabin-mome)
 - [Method of moments for beta-distributed data](/P/beta-mome)
+- [Mode of the beta distribution](/P/beta-mode)
 - [Mode of the continuous uniform distribution](/P/cuni-mode)
 - [Mode of the gamma distribution](/P/gam-mode)
 - [Mode of the multivariate normal distribution](/P/mvn-mode)
@@ -511,7 +514,7 @@ title: "Proof by Author"
 ### kjpetrykowski (2 proofs)
 
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
-- [Moments of the chi-squared distribution](/P/chi2-mom)
+- [Raw moments of the chi-squared distribution](/P/chi2-momraw)
 
 ### majapavlo (8 proofs)
 
