@@ -84,7 +84,7 @@ $$ \label{eq:second-moment-2}
 \end{split}
 $$
 
-Now multiplying by $\exp \left( 2 \sigma^2 \right)$ and $\exp \left(- 2 \sigma^2 \right)$, this becomes:
+Now multiplying the integrand by $\exp \left( 2 \sigma^2 \right)$ and $\exp \left(- 2 \sigma^2 \right)$, this becomes:
 
 $$ \label{eq:second-moment-3}
 \begin{split}

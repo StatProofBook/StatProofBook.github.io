@@ -7,11 +7,11 @@ affiliation: "KU Leuven"
 e_mail: "kenneth.petrykowski@gmail.com"
 date: 2020-10-13 01:30:00
 
-title: "Moments of the chi-squared distribution"
+title: "Raw moments of the chi-squared distribution"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
 topic: "Chi-squared distribution"
-theorem: "Moments"
+theorem: "Raw moments"
 
 sources:
   - authors: "Robert V. Hogg, Joseph W. McKean, Allen T. Craig"
@@ -22,7 +22,7 @@ sources:
     url: "https://www.pearson.com/store/p/introduction-to-mathematical-statistics/P100000843744"
 
 proof_id: "P175"
-shortcut: "chi2-mom"
+shortcut: "chi2-momraw"
 username: "kjpetrykowski"
 ---
 
@@ -33,16 +33,16 @@ $$ \label{eq:chi2}
 X \sim \chi^{2}(k) \; .
 $$
 
-Then, if $m > -k/2$, the moment $\mathrm{E}(X^{m})$ exists and is equal to:
+Then, if $m > -k/2$, the [raw moment](/D/mom-raw) $\mathrm{E}(X^{m})$ exists and is equal to:
 
-$$ \label{eq:chi2-mom}
+$$ \label{eq:chi2-momraw}
 \mathrm{E}(X^{m}) = 2^m \frac{\Gamma\left( \frac{k}{2}+m \right)}{\Gamma\left( \frac{k}{2} \right)} \; .
 $$
 
 
 **Proof:** Combining the [definition of the raw moment](/D/mom-raw) with the [probability density function of the chi-squared distribution](/P/chi2-pdf), we have:
 
-$$ \label{eq:chi2-mom-int}
+$$ \label{eq:chi2-momraw-int}
 \begin{split}
 \mathrm{E}(X^{m}) &= \int_{0}^{\infty} x^m \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \, x^{k/2-1} \, e^{-x/2} \, \mathrm{d}x \\
 &= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} x^{(k/2)+m-1} \, e^{-x/2} \, \mathrm{d}x \; .
@@ -51,7 +51,7 @@ $$
 
 Now, we substitute $u = x/2$, such that $x = 2u$. As a result, we obtain:
 
-$$ \label{eq:chi2-mom-int-u}
+$$ \label{eq:chi2-momraw-int-u}
 \begin{split}
 \mathrm{E}(X^{m}) &= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} 2^{(k/2)+m-1} \, u^{(k/2)+m-1} \, e^{-u} \, \mathrm{d}(2u) \\
 &= \frac{2^{(k/2)+m}}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \, e^{-u} \, \mathrm{d}u \\
@@ -65,4 +65,4 @@ $$ \label{eq:gam-fct}
 \Gamma(x) = \int_{0}^{\infty} t^{x-1} \, e^{-t} \, \mathrm{d}t, \; z > 0 \; ,
 $$
 
-this leads to the desired result when $m > -k/2$. Observe that, if $m$ is a nonnegative integer, then $m > -k/2$ is always true. Therefore, all [moments](/D/mom) of a [chi-squared distribution](/D/chi2) exist and the $m$-th raw moment is given by the equation above.
+this leads to the desired result when $m > -k/2$. Observe that, if $m$ is a non-negative integer, then $m > -k/2$ is always true. Therefore, all [moments](/D/mom) of a [chi-squared distribution](/D/chi2) exist and the $m$-th raw moment is given by the equation above.

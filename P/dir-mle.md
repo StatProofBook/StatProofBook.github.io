@@ -108,7 +108,7 @@ $$ \label{eq:Dir-dLLdaj-0}
 \end{split}
 $$
 
-In the following, we will use a fixed-point iteration to maximize $\mathrm{LL}(\alpha)$. Given an initial guess for $\alpha$, we construct a lower bound on the likelihood function \eqref{eq:Dir-LL-der} which is tight at $\alpha$. The maximum of this bound is computed and it becomes the new guess. Because the [Dirichlet distribution](/D/dir) belongs to the [exponential family](/D/dist-expfam), the log-likelihood function is convex in $\alpha$ ánd the maximum is the only stationary point, such that the procedure is guaranteed to converge to the maximum.
+In the following, we will use a fixed-point iteration to maximize $\mathrm{LL}(\alpha)$. Given an initial guess for $\alpha$, we construct a lower bound on the likelihood function \eqref{eq:Dir-LL-der} which is tight at $\alpha$. The maximum of this bound is computed and it becomes the new guess. Because the [Dirichlet distribution](/D/dir) belongs to the [exponential family](/D/dist-expfam), the log-likelihood function is convex in $\alpha$ and the maximum is the only stationary point, such that the procedure is guaranteed to converge to the maximum.
 
 In our case, we use a bound on the gamma function
 

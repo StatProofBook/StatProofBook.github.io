@@ -217,7 +217,7 @@ $$ \label{eq:beta-mode-p2b-s6}
 \end{split}
 $$
 
-Thus, $f''_X(x)$ is negative for $x = \frac{\alpha-1}{\alpha+\beta-2}$, demonstrating that this is a maximum. To summarize:
+Thus, $f'\'\_X(x)$ is negative for $x = \frac{\alpha-1}{\alpha+\beta-2}$, demonstrating that this is a maximum. To summarize:
 
 * If $\alpha < 1$ and $\beta < 1$, then $f_X(x)$ diverges at both ends and both values from the set $\left\lbrace 0, 1 \right\rbrace$ can be seen as the mode of $X$.
 
@@ -225,4 +225,4 @@ Thus, $f''_X(x)$ is negative for $x = \frac{\alpha-1}{\alpha+\beta-2}$, demonstr
 
 * If $\alpha = 1$ and $\beta = 1$, then $f_X(x)$ is constant and any value in the interval $\left[ 0,1 \right]$ can be seen as the mode of $X$.
 
-* If $\alpha \geq 1$ and $\beta \geq 1$ (but not $\alpha = 1$ and $\beta = 1$), then $0 < x =  < 1$ and $f'_X(x) = 0$ and $f''_X(x) < 0$, such that $f_X(x)$ reaches its machimum at $\mathrm{mode}(X) = \frac{\alpha-1}{\alpha+\beta-2}$.
+* If $\alpha \geq 1$ and $\beta \geq 1$ (but not $\alpha = 1$ and $\beta = 1$), then $0 < x =  < 1$ and $f'_X(x) = 0$ and $f'\'\_X(x) < 0$, such that $f_X(x)$ reaches its machimum at $\mathrm{mode}(X) = \frac{\alpha-1}{\alpha+\beta-2}$.
