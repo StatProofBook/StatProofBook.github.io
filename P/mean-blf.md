@@ -11,7 +11,7 @@ title: "Expectation of a bilinear form"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Expected value"
-theorem: "Expectation of a bilinear form "
+theorem: "Expectation of a bilinear form"
 
 sources:
 
