@@ -546,12 +546,13 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.9. **[Cumulative distribution function](/P/gam-cdf)** <br>
    &emsp;&ensp; 3.4.10. **[Quantile function](/P/gam-qf)** <br>
    &emsp;&ensp; 3.4.11. **[Mean](/P/gam-mean)** <br>
-   &emsp;&ensp; 3.4.12. **[Mode](/P/gam-mode)** <br>
-   &emsp;&ensp; 3.4.13. **[Variance](/P/gam-var)** <br>
-   &emsp;&ensp; 3.4.14. **[Logarithmic expectation](/P/gam-logmean)** <br>
-   &emsp;&ensp; 3.4.15. **[Expectation of x ln x](/P/gam-xlogx)** <br>
-   &emsp;&ensp; 3.4.16. **[Differential entropy](/P/gam-dent)** <br>
-   &emsp;&ensp; 3.4.17. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
+   &emsp;&ensp; 3.4.12. **[Median](/P/gam-med)** <br>
+   &emsp;&ensp; 3.4.13. **[Mode](/P/gam-mode)** <br>
+   &emsp;&ensp; 3.4.14. **[Variance](/P/gam-var)** <br>
+   &emsp;&ensp; 3.4.15. **[Logarithmic expectation](/P/gam-logmean)** <br>
+   &emsp;&ensp; 3.4.16. **[Expectation of x ln x](/P/gam-xlogx)** <br>
+   &emsp;&ensp; 3.4.17. **[Differential entropy](/P/gam-dent)** <br>
+   &emsp;&ensp; 3.4.18. **[Kullback-Leibler divergence](/P/gam-kl)** <br>
    
    <p id="Exponential distribution"></p>
    3.5. Exponential distribution <br>
@@ -602,7 +603,9 @@ title: "Table of Contents"
    &emsp;&ensp; 3.9.6. **[Moment-generating function](/P/beta-mgf)** <br>
    &emsp;&ensp; 3.9.7. **[Cumulative distribution function](/P/beta-cdf)** <br>
    &emsp;&ensp; 3.9.8. **[Mean](/P/beta-mean)** <br>
-   &emsp;&ensp; 3.9.9. **[Variance](/P/beta-var)** <br>
+   &emsp;&ensp; 3.9.9. **[Median](/P/beta-med)** <br>
+   &emsp;&ensp; 3.9.10. **[Mode](/P/beta-mode)** <br>
+   &emsp;&ensp; 3.9.11. **[Variance](/P/beta-var)** <br>
    
    <p id="Wald distribution"></p>
    3.10. Wald distribution <br>
