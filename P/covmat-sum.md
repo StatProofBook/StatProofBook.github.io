@@ -10,7 +10,7 @@ date: 2022-09-26 10:37:00
 title: "Covariance matrix of the sum of two random vectors"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
+topic: "Covariance matrix"
 theorem: "Covariance matrix of a sum"
 
 sources:

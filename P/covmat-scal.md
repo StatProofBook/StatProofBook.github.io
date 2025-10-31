@@ -10,7 +10,7 @@ date: 2022-09-22 11:45:00
 title: "Scaling of the covariance matrix upon multiplication with constant matrix"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
+topic: "Covariance matrix"
 theorem: "Scaling upon multiplication with matrix"
 
 sources:

@@ -10,8 +10,8 @@ date: 2020-06-06 05:31:00
 title: "Partition of a covariance matrix into expected values"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
-theorem: "Covariance matrix and expected values"
+topic: "Covariance matrix"
+theorem: "Partition into expected values"
 
 sources:
   - authors: "Taboga, Marco"

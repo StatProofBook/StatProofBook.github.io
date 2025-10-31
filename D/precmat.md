@@ -10,7 +10,7 @@ date: 2020-06-06 05:08:00
 title: "Precision matrix"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
+topic: "Covariance matrix"
 definition: "Precision matrix"
 
 sources:

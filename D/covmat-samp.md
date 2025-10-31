@@ -10,7 +10,7 @@ date: 2021-05-20 07:46:00
 title: "Sample covariance matrix"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
+topic: "Covariance matrix"
 definition: "Sample covariance matrix"
 
 sources:

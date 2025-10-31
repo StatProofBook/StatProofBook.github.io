@@ -10,7 +10,7 @@ date: 2022-09-26 09:45:00
 title: "Cross-covariance matrix"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
+topic: "Covariance matrix"
 definition: "Cross-covariance matrix"
 
 sources:

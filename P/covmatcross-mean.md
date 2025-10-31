@@ -10,8 +10,8 @@ date: 2025-08-29 13:44:11
 title: "Partition of a cross-covariance matrix into expected values"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
-theorem: "Cross-covariance matrix and expected values"
+topic: "Covariance matrix"
+theorem: "Cross-covariance and expected values"
 
 sources:
 

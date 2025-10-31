@@ -10,8 +10,8 @@ date: 2020-06-06 04:24:00
 title: "Covariance matrix"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
-definition: "Covariance matrix"
+topic: "Covariance matrix"
+definition: "Definition"
 
 sources:
   - authors: "Wikipedia"

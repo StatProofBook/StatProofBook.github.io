@@ -193,59 +193,62 @@ title: "Table of Contents"
    &emsp;&ensp; 1.15.6. **[Covariance under independence](/P/cov-ind)** <br>
    &emsp;&ensp; 1.15.7. **[Law of total covariance](/P/cov-tot)** <br>
    &emsp;&ensp; 1.15.8. **[Relationship to correlation](/P/cov-corr)** <br>
-   &emsp;&ensp; 1.15.9. *[Covariance matrix](/D/covmat)* <br>
-   &emsp;&ensp; 1.15.10. *[Sample covariance matrix](/D/covmat-samp)* <br>
-   &emsp;&ensp; 1.15.11. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.15.12. **[Symmetry](/P/covmat-symm)** <br>
-   &emsp;&ensp; 1.15.13. **[Positive semi-definiteness](/P/covmat-psd)** <br>
-   &emsp;&ensp; 1.15.14. **[Invariance under addition of vector](/P/covmat-inv)** <br>
-   &emsp;&ensp; 1.15.15. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
-   &emsp;&ensp; 1.15.16. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.15.17. *[Cross-covariance matrix](/D/covmat-cross)* <br>
-   &emsp;&ensp; 1.15.18. **[Cross-covariance matrix and expected values](/P/covmatcross-mean)** <br>
-   &emsp;&ensp; 1.15.19. **[Covariance matrix of a sum](/P/covmat-sum)** <br>
-   &emsp;&ensp; 1.15.20. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.15.21. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   
+   <p id="Covariance matrix"></p>
+   1.16. Covariance matrix <br>
+   &emsp;&ensp; 1.16.1. *[Definition](/D/covmat)* <br>
+   &emsp;&ensp; 1.16.2. *[Sample covariance matrix](/D/covmat-samp)* <br>
+   &emsp;&ensp; 1.16.3. **[Partition into expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.16.4. **[Symmetry](/P/covmat-symm)** <br>
+   &emsp;&ensp; 1.16.5. **[Positive semi-definiteness](/P/covmat-psd)** <br>
+   &emsp;&ensp; 1.16.6. **[Invariance under addition of vector](/P/covmat-inv)** <br>
+   &emsp;&ensp; 1.16.7. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
+   &emsp;&ensp; 1.16.8. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.16.9. *[Cross-covariance matrix](/D/covmat-cross)* <br>
+   &emsp;&ensp; 1.16.10. **[Cross-covariance and expected values](/P/covmatcross-mean)** <br>
+   &emsp;&ensp; 1.16.11. **[Covariance matrix of a sum](/P/covmat-sum)** <br>
+   &emsp;&ensp; 1.16.12. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.16.13. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
    <p id="Correlation"></p>
-   1.16. Correlation <br>
-   &emsp;&ensp; 1.16.1. *[Definition](/D/corr)* <br>
-   &emsp;&ensp; 1.16.2. **[Range](/P/corr-range)** <br>
-   &emsp;&ensp; 1.16.3. **[Correlation under independence](/P/corr-ind)** <br>
-   &emsp;&ensp; 1.16.4. *[Sample correlation coefficient](/D/corr-samp)* <br>
-   &emsp;&ensp; 1.16.5. **[Relationship to standard scores](/P/corr-z)** <br>
-   &emsp;&ensp; 1.16.6. *[Correlation matrix](/D/corrmat)* <br>
-   &emsp;&ensp; 1.16.7. *[Sample correlation matrix](/D/corrmat-samp)* <br>
+   1.17. Correlation <br>
+   &emsp;&ensp; 1.17.1. *[Definition](/D/corr)* <br>
+   &emsp;&ensp; 1.17.2. **[Range](/P/corr-range)** <br>
+   &emsp;&ensp; 1.17.3. **[Correlation under independence](/P/corr-ind)** <br>
+   &emsp;&ensp; 1.17.4. *[Sample correlation coefficient](/D/corr-samp)* <br>
+   &emsp;&ensp; 1.17.5. **[Relationship to standard scores](/P/corr-z)** <br>
+   &emsp;&ensp; 1.17.6. *[Correlation matrix](/D/corrmat)* <br>
+   &emsp;&ensp; 1.17.7. *[Sample correlation matrix](/D/corrmat-samp)* <br>
    
    <p id="Measures of central tendency"></p>
-   1.17. Measures of central tendency <br>
-   &emsp;&ensp; 1.17.1. *[Median](/D/med)* <br>
-   &emsp;&ensp; 1.17.2. **[Median minimizes mean absolute error](/P/med-mae)** <br>
-   &emsp;&ensp; 1.17.3. *[Mode](/D/mode)* <br>
+   1.18. Measures of central tendency <br>
+   &emsp;&ensp; 1.18.1. *[Median](/D/med)* <br>
+   &emsp;&ensp; 1.18.2. **[Median minimizes mean absolute error](/P/med-mae)** <br>
+   &emsp;&ensp; 1.18.3. *[Mode](/D/mode)* <br>
    
    <p id="Measures of statistical dispersion"></p>
-   1.18. Measures of statistical dispersion <br>
-   &emsp;&ensp; 1.18.1. *[Standard deviation](/D/std)* <br>
-   &emsp;&ensp; 1.18.2. *[Sample standard deviation](/D/std-samp)* <br>
-   &emsp;&ensp; 1.18.3. *[Pooled sample standard deviation](/D/std-pool)* <br>
-   &emsp;&ensp; 1.18.4. *[Full width at half maximum](/D/fwhm)* <br>
+   1.19. Measures of statistical dispersion <br>
+   &emsp;&ensp; 1.19.1. *[Standard deviation](/D/std)* <br>
+   &emsp;&ensp; 1.19.2. *[Sample standard deviation](/D/std-samp)* <br>
+   &emsp;&ensp; 1.19.3. *[Pooled sample standard deviation](/D/std-pool)* <br>
+   &emsp;&ensp; 1.19.4. *[Full width at half maximum](/D/fwhm)* <br>
    
    <p id="Further summary statistics"></p>
-   1.19. Further summary statistics <br>
-   &emsp;&ensp; 1.19.1. *[Minimum](/D/min)* <br>
-   &emsp;&ensp; 1.19.2. *[Maximum](/D/max)* <br>
+   1.20. Further summary statistics <br>
+   &emsp;&ensp; 1.20.1. *[Minimum](/D/min)* <br>
+   &emsp;&ensp; 1.20.2. *[Maximum](/D/max)* <br>
    
    <p id="Further moments"></p>
-   1.20. Further moments <br>
-   &emsp;&ensp; 1.20.1. *[Moment](/D/mom)* <br>
-   &emsp;&ensp; 1.20.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-   &emsp;&ensp; 1.20.3. *[Raw moment](/D/mom-raw)* <br>
-   &emsp;&ensp; 1.20.4. **[First raw moment is mean](/P/momraw-1st)** <br>
-   &emsp;&ensp; 1.20.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
-   &emsp;&ensp; 1.20.6. *[Central moment](/D/mom-cent)* <br>
-   &emsp;&ensp; 1.20.7. **[First central moment is zero](/P/momcent-1st)** <br>
-   &emsp;&ensp; 1.20.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
-   &emsp;&ensp; 1.20.9. *[Standardized moment](/D/mom-stand)* <br>
+   1.21. Further moments <br>
+   &emsp;&ensp; 1.21.1. *[Moment](/D/mom)* <br>
+   &emsp;&ensp; 1.21.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+   &emsp;&ensp; 1.21.3. *[Raw moment](/D/mom-raw)* <br>
+   &emsp;&ensp; 1.21.4. **[First raw moment is mean](/P/momraw-1st)** <br>
+   &emsp;&ensp; 1.21.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
+   &emsp;&ensp; 1.21.6. *[Central moment](/D/mom-cent)* <br>
+   &emsp;&ensp; 1.21.7. **[First central moment is zero](/P/momcent-1st)** <br>
+   &emsp;&ensp; 1.21.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
+   &emsp;&ensp; 1.21.9. *[Standardized moment](/D/mom-stand)* <br>
 
 2. <p id="Information theory">Information theory</p>
    

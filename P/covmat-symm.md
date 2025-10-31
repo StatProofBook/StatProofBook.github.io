@@ -10,7 +10,7 @@ date: 2022-09-26 10:54:00
 title: "Symmetry of the covariance matrix"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
+topic: "Covariance matrix"
 theorem: "Symmetry"
 
 sources:
