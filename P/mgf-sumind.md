@@ -10,7 +10,7 @@ date: 2024-11-08 10:46:00
 title: "Moment-generating function of a sum of independent random variables"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Other probability functions"
+topic: "Moment-generating function"
 theorem: "Moment-generating function of sum of independents"
 
 sources:

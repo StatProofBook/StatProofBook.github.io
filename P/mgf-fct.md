@@ -10,7 +10,7 @@ date: 2021-09-22 09:00:00
 title: "Moment-generating function of a function of a random variable"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Other probability functions"
+topic: "Moment-generating function"
 theorem: "Moment-generating function of arbitrary function"
 
 sources:

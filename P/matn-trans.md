@@ -45,7 +45,7 @@ f_X(g^{-1}(y)) \, \left| J_{g^{-1}}(y) \right| \; , & \text{if} \; y \in \mathca
 \right.
 $$
 
-where $\left| J_{g^{-1}}(y) \right|$ is the determinant of the Jacobian matrix
+where $\lvert J_{g^{-1}}(y) \rvert$ is the determinant of the Jacobian matrix
 
 $$ \label{eq:jac}
 J_{g^{-1}}(y) = \left[ \begin{matrix}
@@ -83,7 +83,7 @@ $$ \label{eq:dxij-dyji}
 \right.
 $$
 
-Thus, $J_{g^{-1}}(Y)$ is row-equivalent to $I_{np}$ and $\left| J_{g^{-1}}(Y) \right| = \left| I_{np} \right| = 1$. Therefore, we have:
+Thus, $J_{g^{-1}}(Y)$ is row-equivalent to $I_{np}$ and $\lvert J_{g^{-1}}(Y) \rvert = \lvert I_{np} \rvert = 1$. Therefore, we have:
 
 $$
 \begin{split}

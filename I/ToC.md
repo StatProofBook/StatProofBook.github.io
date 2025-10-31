@@ -115,131 +115,137 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.9. **[Distributional transformation](/P/cdf-dt)** <br>
    &emsp;&ensp; 1.8.10. *[Joint cumulative distribution function](/D/cdf-joint)* <br>
    
+   <p id="Moment-generating function"></p>
+   1.9. Moment-generating function <br>
+   &emsp;&ensp; 1.9.1. *[Definition](/D/mgf)* <br>
+   &emsp;&ensp; 1.9.2. **[Moment-generating function of sum of independents](/P/mgf-sumind)** <br>
+   &emsp;&ensp; 1.9.3. **[Moment-generating function of arbitrary function](/P/mgf-fct)** <br>
+   &emsp;&ensp; 1.9.4. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
+   &emsp;&ensp; 1.9.5. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
+   
+   <p id="Probability-generating function"></p>
+   1.10. Probability-generating function <br>
+   &emsp;&ensp; 1.10.1. *[Definition](/D/pgf)* <br>
+   &emsp;&ensp; 1.10.2. **[Probability-generating function in terms of expected value](/P/pgf-mean)** <br>
+   &emsp;&ensp; 1.10.3. **[Probability-generating function of zero](/P/pgf-zero)** <br>
+   &emsp;&ensp; 1.10.4. **[Probability-generating function of one](/P/pgf-one)** <br>
+   
    <p id="Other probability functions"></p>
-   1.9. Other probability functions <br>
-   &emsp;&ensp; 1.9.1. *[Quantile function](/D/qf)* <br>
-   &emsp;&ensp; 1.9.2. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
-   &emsp;&ensp; 1.9.3. *[Characteristic function](/D/cf)* <br>
-   &emsp;&ensp; 1.9.4. **[Characteristic function of arbitrary function](/P/cf-fct)** <br>
-   &emsp;&ensp; 1.9.5. *[Moment-generating function](/D/mgf)* <br>
-   &emsp;&ensp; 1.9.6. **[Moment-generating function of sum of independents](/P/mgf-sumind)** <br>
-   &emsp;&ensp; 1.9.7. **[Moment-generating function of arbitrary function](/P/mgf-fct)** <br>
-   &emsp;&ensp; 1.9.8. **[Moment-generating function of linear transformation](/P/mgf-ltt)** <br>
-   &emsp;&ensp; 1.9.9. **[Moment-generating function of linear combination](/P/mgf-lincomb)** <br>
-   &emsp;&ensp; 1.9.10. *[Probability-generating function](/D/pgf)* <br>
-   &emsp;&ensp; 1.9.11. **[Probability-generating function in terms of expected value](/P/pgf-mean)** <br>
-   &emsp;&ensp; 1.9.12. **[Probability-generating function of zero](/P/pgf-zero)** <br>
-   &emsp;&ensp; 1.9.13. **[Probability-generating function of one](/P/pgf-one)** <br>
-   &emsp;&ensp; 1.9.14. *[Cumulant-generating function](/D/cgf)* <br>
+   1.11. Other probability functions <br>
+   &emsp;&ensp; 1.11.1. *[Quantile function](/D/qf)* <br>
+   &emsp;&ensp; 1.11.2. **[Quantile function in terms of cumulative distribution function](/P/qf-cdf)** <br>
+   &emsp;&ensp; 1.11.3. *[Characteristic function](/D/cf)* <br>
+   &emsp;&ensp; 1.11.4. **[Characteristic function of arbitrary function](/P/cf-fct)** <br>
+   &emsp;&ensp; 1.11.5. *[Cumulant-generating function](/D/cgf)* <br>
    
    <p id="Expected value"></p>
-   1.10. Expected value <br>
-   &emsp;&ensp; 1.10.1. *[Definition](/D/mean)* <br>
-   &emsp;&ensp; 1.10.2. *[Sample mean](/D/mean-samp)* <br>
-   &emsp;&ensp; 1.10.3. **[Non-negative random variable](/P/mean-nnrvar)** <br>
-   &emsp;&ensp; 1.10.4. **[Non-negativity](/P/mean-nonneg)** <br>
-   &emsp;&ensp; 1.10.5. **[Linearity](/P/mean-lin)** <br>
-   &emsp;&ensp; 1.10.6. **[Monotonicity](/P/mean-mono)** <br>
-   &emsp;&ensp; 1.10.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
-   &emsp;&ensp; 1.10.8. **[Law of total expectation](/P/mean-tot)** <br>
-   &emsp;&ensp; 1.10.9. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
-   &emsp;&ensp; 1.10.10. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
-   &emsp;&ensp; 1.10.11. **[Jensen's inequality](/P/jens-ineq)** <br>
-   &emsp;&ensp; 1.10.12. **[Markov's inequality](/P/mark-ineq)** <br>
-   &emsp;&ensp; 1.10.13. **[Chebyshev's inequality](/P/cheb-ineq)** <br>
-   &emsp;&ensp; 1.10.14. **[Weak law of large numbers](/P/mean-wlln)** <br>
-   &emsp;&ensp; 1.10.15. **[Expected value minimizes squared error](/P/mean-mse)** <br>
-   &emsp;&ensp; 1.10.16. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.10.17. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.10.18. **[Expectation of a bilinear form](/P/mean-blf)** <br>
-   &emsp;&ensp; 1.10.19. *[Expected value of a random matrix](/D/mean-rmat)* <br>
-   &emsp;&ensp; 1.10.20. **[Expectation of a trace](/P/mean-tr)** <br>
+   1.12. Expected value <br>
+   &emsp;&ensp; 1.12.1. *[Definition](/D/mean)* <br>
+   &emsp;&ensp; 1.12.2. *[Sample mean](/D/mean-samp)* <br>
+   &emsp;&ensp; 1.12.3. **[Non-negative random variable](/P/mean-nnrvar)** <br>
+   &emsp;&ensp; 1.12.4. **[Non-negativity](/P/mean-nonneg)** <br>
+   &emsp;&ensp; 1.12.5. **[Linearity](/P/mean-lin)** <br>
+   &emsp;&ensp; 1.12.6. **[Monotonicity](/P/mean-mono)** <br>
+   &emsp;&ensp; 1.12.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
+   &emsp;&ensp; 1.12.8. **[Law of total expectation](/P/mean-tot)** <br>
+   &emsp;&ensp; 1.12.9. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.12.10. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
+   &emsp;&ensp; 1.12.11. **[Jensen's inequality](/P/jens-ineq)** <br>
+   &emsp;&ensp; 1.12.12. **[Markov's inequality](/P/mark-ineq)** <br>
+   &emsp;&ensp; 1.12.13. **[Chebyshev's inequality](/P/cheb-ineq)** <br>
+   &emsp;&ensp; 1.12.14. **[Weak law of large numbers](/P/mean-wlln)** <br>
+   &emsp;&ensp; 1.12.15. **[Expected value minimizes squared error](/P/mean-mse)** <br>
+   &emsp;&ensp; 1.12.16. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.12.17. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.12.18. **[Expectation of a bilinear form](/P/mean-blf)** <br>
+   &emsp;&ensp; 1.12.19. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.12.20. **[Expectation of a trace](/P/mean-tr)** <br>
    
    <p id="Variance"></p>
-   1.11. Variance <br>
-   &emsp;&ensp; 1.11.1. *[Definition](/D/var)* <br>
-   &emsp;&ensp; 1.11.2. *[Sample variance](/D/var-samp)* <br>
-   &emsp;&ensp; 1.11.3. *[Pooled sample variance](/D/var-pool)* <br>
-   &emsp;&ensp; 1.11.3. **[Partition into expected values](/P/var-mean)** <br>
-   &emsp;&ensp; 1.11.4. **[Non-negativity](/P/var-nonneg)** <br>
-   &emsp;&ensp; 1.11.5. **[Variance of a constant](/P/var-const)** <br>
-   &emsp;&ensp; 1.11.6. **[Invariance under addition](/P/var-inv)** <br>
-   &emsp;&ensp; 1.11.7. **[Scaling upon multiplication](/P/var-scal)** <br>
-   &emsp;&ensp; 1.11.8. **[Variance of a sum](/P/var-sum)** <br>
-   &emsp;&ensp; 1.11.9. **[Variance of linear combination](/P/var-lincomb)** <br>
-   &emsp;&ensp; 1.11.10. **[Additivity under independence](/P/var-add)** <br>
-   &emsp;&ensp; 1.11.11. **[Law of total variance](/P/var-tot)** <br>
-   &emsp;&ensp; 1.11.12. *[Precision](/D/prec)* <br>
+   1.13. Variance <br>
+   &emsp;&ensp; 1.13.1. *[Definition](/D/var)* <br>
+   &emsp;&ensp; 1.13.2. *[Sample variance](/D/var-samp)* <br>
+   &emsp;&ensp; 1.13.3. *[Pooled sample variance](/D/var-pool)* <br>
+   &emsp;&ensp; 1.13.3. **[Partition into expected values](/P/var-mean)** <br>
+   &emsp;&ensp; 1.13.4. **[Non-negativity](/P/var-nonneg)** <br>
+   &emsp;&ensp; 1.13.5. **[Variance of a constant](/P/var-const)** <br>
+   &emsp;&ensp; 1.13.6. **[Invariance under addition](/P/var-inv)** <br>
+   &emsp;&ensp; 1.13.7. **[Scaling upon multiplication](/P/var-scal)** <br>
+   &emsp;&ensp; 1.13.8. **[Variance of a sum](/P/var-sum)** <br>
+   &emsp;&ensp; 1.13.9. **[Variance of linear combination](/P/var-lincomb)** <br>
+   &emsp;&ensp; 1.13.10. **[Additivity under independence](/P/var-add)** <br>
+   &emsp;&ensp; 1.13.11. **[Law of total variance](/P/var-tot)** <br>
+   &emsp;&ensp; 1.13.12. *[Precision](/D/prec)* <br>
    
    <p id="Skewness"></p>
-   1.12. Skewness <br>
-   &emsp;&ensp; 1.12.1. *[Definition](/D/skew)* <br>
-   &emsp;&ensp; 1.12.2. *[Sample skewness](/D/skew-samp)* <br>
-   &emsp;&ensp; 1.12.3. **[Partition into expected values](/P/skew-mean)** <br>
+   1.14. Skewness <br>
+   &emsp;&ensp; 1.14.1. *[Definition](/D/skew)* <br>
+   &emsp;&ensp; 1.14.2. *[Sample skewness](/D/skew-samp)* <br>
+   &emsp;&ensp; 1.14.3. **[Partition into expected values](/P/skew-mean)** <br>
    
    <p id="Covariance"></p>
-   1.13. Covariance <br>
-   &emsp;&ensp; 1.13.1. *[Definition](/D/cov)* <br>
-   &emsp;&ensp; 1.13.2. *[Sample covariance](/D/cov-samp)* <br>
-   &emsp;&ensp; 1.13.3. **[Partition into expected values](/P/cov-mean)** <br>
-   &emsp;&ensp; 1.13.4. **[Symmetry](/P/cov-symm)** <br>
-   &emsp;&ensp; 1.13.5. **[Self-covariance](/P/cov-var)** <br>
-   &emsp;&ensp; 1.13.6. **[Covariance under independence](/P/cov-ind)** <br>
-   &emsp;&ensp; 1.13.7. **[Law of total covariance](/P/cov-tot)** <br>
-   &emsp;&ensp; 1.13.8. **[Relationship to correlation](/P/cov-corr)** <br>
-   &emsp;&ensp; 1.13.9. *[Covariance matrix](/D/covmat)* <br>
-   &emsp;&ensp; 1.13.10. *[Sample covariance matrix](/D/covmat-samp)* <br>
-   &emsp;&ensp; 1.13.11. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
-   &emsp;&ensp; 1.13.12. **[Symmetry](/P/covmat-symm)** <br>
-   &emsp;&ensp; 1.13.13. **[Positive semi-definiteness](/P/covmat-psd)** <br>
-   &emsp;&ensp; 1.13.14. **[Invariance under addition of vector](/P/covmat-inv)** <br>
-   &emsp;&ensp; 1.13.15. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
-   &emsp;&ensp; 1.13.16. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
-   &emsp;&ensp; 1.13.17. *[Cross-covariance matrix](/D/covmat-cross)* <br>
-   &emsp;&ensp; 1.13.18. **[Cross-covariance matrix and expected values](/P/covmatcross-mean)** <br>
-   &emsp;&ensp; 1.13.19. **[Covariance matrix of a sum](/P/covmat-sum)** <br>
-   &emsp;&ensp; 1.13.20. *[Precision matrix](/D/precmat)* <br>
-   &emsp;&ensp; 1.13.21. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
+   1.15. Covariance <br>
+   &emsp;&ensp; 1.15.1. *[Definition](/D/cov)* <br>
+   &emsp;&ensp; 1.15.2. *[Sample covariance](/D/cov-samp)* <br>
+   &emsp;&ensp; 1.15.3. **[Partition into expected values](/P/cov-mean)** <br>
+   &emsp;&ensp; 1.15.4. **[Symmetry](/P/cov-symm)** <br>
+   &emsp;&ensp; 1.15.5. **[Self-covariance](/P/cov-var)** <br>
+   &emsp;&ensp; 1.15.6. **[Covariance under independence](/P/cov-ind)** <br>
+   &emsp;&ensp; 1.15.7. **[Law of total covariance](/P/cov-tot)** <br>
+   &emsp;&ensp; 1.15.8. **[Relationship to correlation](/P/cov-corr)** <br>
+   &emsp;&ensp; 1.15.9. *[Covariance matrix](/D/covmat)* <br>
+   &emsp;&ensp; 1.15.10. *[Sample covariance matrix](/D/covmat-samp)* <br>
+   &emsp;&ensp; 1.15.11. **[Covariance matrix and expected values](/P/covmat-mean)** <br>
+   &emsp;&ensp; 1.15.12. **[Symmetry](/P/covmat-symm)** <br>
+   &emsp;&ensp; 1.15.13. **[Positive semi-definiteness](/P/covmat-psd)** <br>
+   &emsp;&ensp; 1.15.14. **[Invariance under addition of vector](/P/covmat-inv)** <br>
+   &emsp;&ensp; 1.15.15. **[Scaling upon multiplication with matrix](/P/covmat-scal)** <br>
+   &emsp;&ensp; 1.15.16. **[Covariance matrix and correlation matrix](/P/covmat-corrmat)** <br>
+   &emsp;&ensp; 1.15.17. *[Cross-covariance matrix](/D/covmat-cross)* <br>
+   &emsp;&ensp; 1.15.18. **[Cross-covariance matrix and expected values](/P/covmatcross-mean)** <br>
+   &emsp;&ensp; 1.15.19. **[Covariance matrix of a sum](/P/covmat-sum)** <br>
+   &emsp;&ensp; 1.15.20. *[Precision matrix](/D/precmat)* <br>
+   &emsp;&ensp; 1.15.21. **[Precision matrix and correlation matrix](/P/precmat-corrmat)** <br>
    
    <p id="Correlation"></p>
-   1.14. Correlation <br>
-   &emsp;&ensp; 1.14.1. *[Definition](/D/corr)* <br>
-   &emsp;&ensp; 1.14.2. **[Range](/P/corr-range)** <br>
-   &emsp;&ensp; 1.14.3. **[Correlation under independence](/P/corr-ind)** <br>
-   &emsp;&ensp; 1.14.4. *[Sample correlation coefficient](/D/corr-samp)* <br>
-   &emsp;&ensp; 1.14.5. **[Relationship to standard scores](/P/corr-z)** <br>
-   &emsp;&ensp; 1.14.6. *[Correlation matrix](/D/corrmat)* <br>
-   &emsp;&ensp; 1.14.7. *[Sample correlation matrix](/D/corrmat-samp)* <br>
+   1.16. Correlation <br>
+   &emsp;&ensp; 1.16.1. *[Definition](/D/corr)* <br>
+   &emsp;&ensp; 1.16.2. **[Range](/P/corr-range)** <br>
+   &emsp;&ensp; 1.16.3. **[Correlation under independence](/P/corr-ind)** <br>
+   &emsp;&ensp; 1.16.4. *[Sample correlation coefficient](/D/corr-samp)* <br>
+   &emsp;&ensp; 1.16.5. **[Relationship to standard scores](/P/corr-z)** <br>
+   &emsp;&ensp; 1.16.6. *[Correlation matrix](/D/corrmat)* <br>
+   &emsp;&ensp; 1.16.7. *[Sample correlation matrix](/D/corrmat-samp)* <br>
    
    <p id="Measures of central tendency"></p>
-   1.15. Measures of central tendency <br>
-   &emsp;&ensp; 1.15.1. *[Median](/D/med)* <br>
-   &emsp;&ensp; 1.15.2. **[Median minimizes mean absolute error](/P/med-mae)** <br>
-   &emsp;&ensp; 1.15.3. *[Mode](/D/mode)* <br>
+   1.17. Measures of central tendency <br>
+   &emsp;&ensp; 1.17.1. *[Median](/D/med)* <br>
+   &emsp;&ensp; 1.17.2. **[Median minimizes mean absolute error](/P/med-mae)** <br>
+   &emsp;&ensp; 1.17.3. *[Mode](/D/mode)* <br>
    
    <p id="Measures of statistical dispersion"></p>
-   1.16. Measures of statistical dispersion <br>
-   &emsp;&ensp; 1.16.1. *[Standard deviation](/D/std)* <br>
-   &emsp;&ensp; 1.16.2. *[Sample standard deviation](/D/std-samp)* <br>
-   &emsp;&ensp; 1.16.3. *[Pooled sample standard deviation](/D/std-pool)* <br>
-   &emsp;&ensp; 1.16.4. *[Full width at half maximum](/D/fwhm)* <br>
+   1.18. Measures of statistical dispersion <br>
+   &emsp;&ensp; 1.18.1. *[Standard deviation](/D/std)* <br>
+   &emsp;&ensp; 1.18.2. *[Sample standard deviation](/D/std-samp)* <br>
+   &emsp;&ensp; 1.18.3. *[Pooled sample standard deviation](/D/std-pool)* <br>
+   &emsp;&ensp; 1.18.4. *[Full width at half maximum](/D/fwhm)* <br>
    
    <p id="Further summary statistics"></p>
-   1.17. Further summary statistics <br>
-   &emsp;&ensp; 1.17.1. *[Minimum](/D/min)* <br>
-   &emsp;&ensp; 1.17.2. *[Maximum](/D/max)* <br>
+   1.19. Further summary statistics <br>
+   &emsp;&ensp; 1.19.1. *[Minimum](/D/min)* <br>
+   &emsp;&ensp; 1.19.2. *[Maximum](/D/max)* <br>
    
    <p id="Further moments"></p>
-   1.18. Further moments <br>
-   &emsp;&ensp; 1.18.1. *[Moment](/D/mom)* <br>
-   &emsp;&ensp; 1.18.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
-   &emsp;&ensp; 1.18.3. *[Raw moment](/D/mom-raw)* <br>
-   &emsp;&ensp; 1.18.4. **[First raw moment is mean](/P/momraw-1st)** <br>
-   &emsp;&ensp; 1.18.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
-   &emsp;&ensp; 1.18.6. *[Central moment](/D/mom-cent)* <br>
-   &emsp;&ensp; 1.18.7. **[First central moment is zero](/P/momcent-1st)** <br>
-   &emsp;&ensp; 1.18.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
-   &emsp;&ensp; 1.18.9. *[Standardized moment](/D/mom-stand)* <br>
+   1.20. Further moments <br>
+   &emsp;&ensp; 1.20.1. *[Moment](/D/mom)* <br>
+   &emsp;&ensp; 1.20.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
+   &emsp;&ensp; 1.20.3. *[Raw moment](/D/mom-raw)* <br>
+   &emsp;&ensp; 1.20.4. **[First raw moment is mean](/P/momraw-1st)** <br>
+   &emsp;&ensp; 1.20.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
+   &emsp;&ensp; 1.20.6. *[Central moment](/D/mom-cent)* <br>
+   &emsp;&ensp; 1.20.7. **[First central moment is zero](/P/momcent-1st)** <br>
+   &emsp;&ensp; 1.20.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
+   &emsp;&ensp; 1.20.9. *[Standardized moment](/D/mom-stand)* <br>
 
 2. <p id="Information theory">Information theory</p>
    

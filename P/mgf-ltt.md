@@ -10,7 +10,7 @@ date: 2020-08-19 08:09:00
 title: "Linear transformation theorem for the moment-generating function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Other probability functions"
+topic: "Moment-generating function"
 theorem: "Moment-generating function of linear transformation"
 
 sources:
