@@ -4,6 +4,8 @@ title: "Proofs without Source"
 ---
 
 
+### Missing source (185 proofs)
+
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
 - [Bayesian information criterion for multiple linear regression](/P/mlr-bic)
