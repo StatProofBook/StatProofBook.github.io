@@ -3,8 +3,8 @@ layout: definition
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-06-20 14:46:00
 
 title: "Multivariate normally distributed data"
