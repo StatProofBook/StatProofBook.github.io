@@ -42,18 +42,18 @@ username: "JoramSoch"
 **Theorem:** [Probability](/D/prob) is monotonic, i.e. if $A$ is a subset of or equal to $B$, then the probability of $A$ is smaller than or equal to $B$:
 
 $$ \label{eq:prob-mon}
-A \subseteq B \quad \Rightarrow \quad P(A) \leq P(B) \; .
+A \subseteq B \quad \Rightarrow \quad p(A) \leq p(B) \; .
 $$
 
 
 **Proof:** Set $E_1 = A$, $E_2 = B \setminus A$ and $E_i = \emptyset$ for $i \geq 3$. Then, the sets $E_i$ are pairwise disjoint and $E_1 \cup E_2 \cup \ldots = B$, because $A \subseteq B$. Thus, from the [third axiom of probability](/D/prob-ax), we have:
 
 $$ \label{eq:pB}
-P(B) = P(A) + P(B \setminus A) + \sum_{i=3}^\infty P(E_i) \; .
+p(B) = p(A) + p(B \setminus A) + \sum_{i=3}^\infty p(E_i) \; .
 $$
 
-Since, by the [first axiom of probability](/D/prob-ax), the right-hand side is a series of non-negative numbers converging to $P(B)$ on the left-hand side, it follows that
+Since, by the [first axiom of probability](/D/prob-ax), the right-hand side is a series of non-negative numbers converging to $p(B)$ on the left-hand side, it follows that
 
 $$ \label{eq:prob-mon-qed}
-P(A) \leq P(B) \; .
+p(A) \leq p(B) \; .
 $$

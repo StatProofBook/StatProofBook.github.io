@@ -30,29 +30,29 @@ username: "JoramSoch"
 **Theorem:** [Probability](/D/prob) is monotonic, i.e. if $A$ is a subset of or equal to $B$, then the probability of $A$ is smaller than or equal to $B$:
 
 $$ \label{eq:prob-mon}
-A \subseteq B \quad \Rightarrow \quad P(A) \leq P(B) \; .
+A \subseteq B \quad \Rightarrow \quad p(A) \leq p(B) \; .
 $$
 
 
-**Proof:** When $A \subseteq B$, then $B$ is equal to the union of $A$ and the intersection of $B$ with the complement of $A$:
+**Proof:** When $A \subseteq B$, then $B$ is equal to the union of $A$ and the intersection of $B$ with the [complement](/P/prob-comp) of $A$:
 
 $$ \label{eq:A-cup}
-B = A \cup (B \cap A^\mathrm{c}) \; .
+B = A \cup (B \cap \overline{A}) \; .
 $$
 
 Moreover, the intersection of A and the intersection of $B$ with the complement of $A$ is equal to the empty set:
 
 $$ \label{eq:A-cap}
-A \cap (B \cap A^\mathrm{c}) = \emptyset \; .
+A \cap (B \cap \overline{A}) = \emptyset \; .
 $$
 
 Thus, the [third axiom of probability](/D/prob-ax) implies:
 
 $$ \label{eq:prob-mon-qed}
 \begin{split}
-P(B) &= P(A) + P(B \cap A^\mathrm{c}) \\
-P(A) &= P(B) - P(B \cap A^\mathrm{c}) \; .
+p(B) &= p(A) + p(B \cap \overline{A}) \\
+p(A) &= p(B) - p(B \cap \overline{A}) \; .
 \end{split}
 $$
 
-Since $P(B \cap A^\mathrm{c}) \geq 0$ by the [first axiom of probability](/D/prob-ax), it must hold that $P(A) \leq P(B)$.
+Since $p(B \cap \overline{A}) \geq 0$ by the [first axiom of probability](/D/prob-ax), it must hold that $p(A) \leq p(B)$.

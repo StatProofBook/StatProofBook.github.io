@@ -42,7 +42,7 @@ username: "JoramSoch"
 **Theorem:** The [probability](/D/prob) of the union of $A$ and $B$ is the sum of the probabilities of $A$ and $B$ minus the probability of the intersection of $A$ and $B$:
 
 $$ \label{eq:prob-add}
-P(A \cup B) = P(A) + P(B) - P(A \cap B) \; .
+p(A \cup B) = p(A) + p(B) - p(A \cap B) \; .
 $$
 
 
@@ -50,8 +50,8 @@ $$
 
 $$ \label{eq:pAoB}
 \begin{split}
-P(A \cup B) &= P(A) + P(B \setminus A) \\
-P(A \cup B) &= P(A) + P(B \setminus [A \cap B]) \; .
+p(A \cup B) &= p(A) + p(B \setminus A) \\
+p(A \cup B) &= p(A) + p(B \setminus [A \cap B]) \; .
 \end{split}
 $$
 
@@ -59,13 +59,13 @@ Then, let $E_1 = B \setminus [A \cap B]$ and $E_2 = A \cap B$, such that $E_1 \c
 
 $$ \label{eq:pB}
 \begin{split}
-P(B) &= P(B \setminus [A \cap B]) + P(A \cap B) \\
-P(B \setminus [A \cap B]) &= P(B) - P(A \cap B) \; .
+p(B) &= p(B \setminus [A \cap B]) + p(A \cap B) \\
+p(B \setminus [A \cap B]) &= p(B) - p(A \cap B) \; .
 \end{split}
 $$
 
 Plugging \eqref{eq:pB} into \eqref{eq:pAoB}, we finally get:
 
 $$ \label{eq:prob-add-qed}
-P(A \cup B) = P(A) + P(B) - P(A \cap B) \; .
+p(A \cup B) = p(A) + p(B) - p(A \cap B) \; .
 $$

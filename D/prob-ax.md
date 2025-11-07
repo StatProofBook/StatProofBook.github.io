@@ -39,22 +39,22 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let there be a [sample space](/D/samp-spc) $\Omega$, an [event space](/D/eve-spc) $\mathcal{E}$ and a [probability measure](/D/prob-meas) $P$, such that $P(E)$ is the [probability](/D/prob) of some [event](/D/reve) $E \in \mathcal{E}$. Then, we introduce three axioms of probability:
+**Definition:** Let there be a [sample space](/D/samp-spc) $\Omega$, an [event space](/D/eve-spc) $\mathcal{E}$ and a [probability measure](/D/prob-meas) $P$, such that $p(E)$ is the [probability](/D/prob) of some [event](/D/reve) $E \in \mathcal{E}$. Then, we introduce three axioms of probability:
 
 * First axiom: The probability of an event is a non-negative real number:
 
 $$ \label{eq:prob-ax1}
-P(E) \in \mathbb{R}, \; P(E) \geq 0, \; \text{for all } E \in \mathcal{E} \; .
+p(E) \in \mathbb{R}, \; p(E) \geq 0, \; \text{for all } E \in \mathcal{E} \; .
 $$
 
 * Second axiom: The probability that at least one elementary event in the sample space will occur is one:
 
 $$ \label{eq:prob-ax2}
-P(\Omega) = 1 \; .
+p(\Omega) = 1 \; .
 $$
 
 * Third axiom: The probability of any countable sequence of disjoint (i.e. [mutually exclusive](/D/exc)) events $E_1, E_2, E_3, \ldots$ is equal to the sum of the probabilities of the individual events:
 
 $$ \label{eq:prob-ax3}
-P\left( \bigcup_{i=1}^\infty E_i \right) = \sum_{i=1}^\infty P(E_i) \; .
+p\left( \bigcup_{i=1}^\infty E_i \right) = \sum_{i=1}^\infty p(E_i) \; .
 $$

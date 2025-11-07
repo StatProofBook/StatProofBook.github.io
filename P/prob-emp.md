@@ -42,14 +42,14 @@ username: "JoramSoch"
 **Theorem:** The [probability](/D/prob) of the empty set is zero:
 
 $$ \label{eq:prob-emp}
-P(\emptyset) = 0 \; .
+p(\emptyset) = 0 \; .
 $$
 
 
 **Proof:** Let $A$ and $B$ be two events fulfilling $A \subseteq B$. Set $E_1 = A$, $E_2 = B \setminus A$ and $E_i = \emptyset$ for $i \geq 3$. Then, the sets $E_i$ are pairwise disjoint and $E_1 \cup E_2 \cup \ldots = B$. Thus, from the [third axiom of probability](/D/prob-ax), we have:
 
 $$ \label{eq:pB}
-P(B) = P(A) + P(B \setminus A) + \sum_{i=3}^\infty P(E_i) \; .
+p(B) = p(A) + p(B \setminus A) + \sum_{i=3}^\infty p(E_i) \; .
 $$
 
-Assume that the probability of the empty set is not zero, i.e. $P(\emptyset) > 0$. Then, the right-hand side of \eqref{eq:pB} would be infinite. However, by the [first axiom of probability](/D/prob-ax), the left-hand side must be finite. This is a contradiction. Therefore, $P(\emptyset) = 0$.
+Assume that the probability of the empty set is not zero, i.e. $p(\emptyset) > 0$. Then, the right-hand side of \eqref{eq:pB} would be infinite. However, by the [first axiom of probability](/D/prob-ax), the left-hand side must be finite. This is a contradiction. Therefore, $p(\emptyset) = 0$.

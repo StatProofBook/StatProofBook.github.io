@@ -42,24 +42,24 @@ username: "JoramSoch"
 **Theorem:** The [probability](/D/prob) of a complement of a set is one minus the probability of this set:
 
 $$ \label{eq:prob-comp}
-P(A^\mathrm{c}) = 1 - P(A)
+p(\overline{A}) = 1 - p(A)
 $$
 
-where $A^\mathrm{c} = \Omega \setminus A$ and $\Omega$ is the [sample space](/D/samp-spc).
+where $\overline{A} = \Omega \setminus A$ and $\Omega$ is the [sample space](/D/samp-spc).
 
 
-**Proof:** Since $A$ and $A^\mathrm{c}$ are [mutually exclusive](/D/exc) and $A \cup A^\mathrm{c} = \Omega$, the [third axiom of probability](/D/prob-ax) implies:
+**Proof:** Since $A$ and $\overline{A}$ are [mutually exclusive](/D/exc) and $A \cup \overline{A} = \Omega$, the [third axiom of probability](/D/prob-ax) implies:
 
 $$ \label{eq:pAAc}
 \begin{split}
-P(A \cup A^\mathrm{c}) &= P(A) + P(A^\mathrm{c}) \\
-P(\Omega) &= P(A) + P(A^\mathrm{c}) \\
-P(A^\mathrm{c}) &= P(\Omega) - P(A) \; .
+p(A \cup \overline{A}) &= p(A) + p(\overline{A}) \\
+p(\Omega) &= p(A) + p(\overline{A}) \\
+p(\overline{A}) &= p(\Omega) - p(A) \; .
 \end{split}
 $$
 
-The [second axiom of probability](/D/prob-ax) states that $P(\Omega) =1$, such that we obtain:
+The [second axiom of probability](/D/prob-ax) states that $p(\Omega) =1$, such that we obtain:
 
 $$ \label{eq:prob-comp-qed}
-P(A^\mathrm{c}) = 1 - P(A) \; .
+p(\overline{A}) = 1 - p(A) \; .
 $$

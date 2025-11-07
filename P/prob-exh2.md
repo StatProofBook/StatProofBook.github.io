@@ -36,26 +36,26 @@ username: "JoramSoch"
 **Theorem:** Let $B_1, \ldots, B_n$ be [mutually exclusive](/D/exc) and collectively exhaustive subsets of a [sample space](/D/samp-spc) $\Omega$. Then, their [total probability](/P/prob-tot) is one:
 
 $$ \label{eq:prob-exh}
-\sum_i P(B_i) = 1 \; .
+\sum_i p(B_i) = 1 \; .
 $$
 
 
 **Proof:** The [addition law of probability](/P/prob-add) states that for two [events](/D/reve) $A$ and $B$, the [probability](/D/prob) of at least one of them occurring is:
 
 $$ \label{eq:prob-add}
-P(A \cup B) = P(A) + P(B) - P(A \cap B) \; .
+p(A \cup B) = p(A) + p(B) - p(A \cap B) \; .
 $$
 
 Recursively applying this law to the events $B_1, \ldots, B_n$, we have:
 
 $$ \label{eq:prob-all-s1}
 \begin{split}
-P(B_1 \cup \ldots \cup B_n) &= P(B_1) + P(B_2 \cup \ldots \cup B_n) - P(B_1 \cap [B_2 \cup \ldots \cup B_n]) \\
-&= P(B_1) + P(B_2) + P(B_3 \cup \ldots \cup B_n) - P(B_2 \cap [B_3 \cup \ldots \cup B_n])- P(B_1 \cap [B_2 \cup \ldots \cup B_n]) \\
+p(B_1 \cup \ldots \cup B_n) &= p(B_1) + p(B_2 \cup \ldots \cup B_n) - p(B_1 \cap [B_2 \cup \ldots \cup B_n]) \\
+&= p(B_1) + p(B_2) + p(B_3 \cup \ldots \cup B_n) - p(B_2 \cap [B_3 \cup \ldots \cup B_n])- p(B_1 \cap [B_2 \cup \ldots \cup B_n]) \\
 &\;\; \vdots \\
-&= P(B_1) + \ldots + P(B_n) - P(B_1 \cap [B_2 \cup \ldots \cup B_n]) - \ldots - P(B_{n-1} \cap B_n) \\
-P(\cup_i^n \, B_i) &= \sum_i^n P(B_i) - \sum_i^{n-1} P(B_i \cap [\cup_{j=i+1}^n B_j]) \\
-&= \sum_i^n P(B_i) - \sum_i^{n-1} P(\cup_{j=i+1}^n [B_i \cap B_j]) \; .
+&= p(B_1) + \ldots + p(B_n) - p(B_1 \cap [B_2 \cup \ldots \cup B_n]) - \ldots - p(B_{n-1} \cap B_n) \\
+p(\cup_i^n \, B_i) &= \sum_i^n p(B_i) - \sum_i^{n-1} p(B_i \cap [\cup_{j=i+1}^n B_j]) \\
+&= \sum_i^n p(B_i) - \sum_i^{n-1} p(\cup_{j=i+1}^n [B_i \cap B_j]) \; .
 \end{split}
 $$
 
@@ -68,7 +68,7 @@ $$
 Since [the probability of the empty set is zero](/P/prob-emp), this means that the second sum on the right-hand side of \eqref{eq:prob-all-s1} disappears:
 
 $$ \label{eq:prob-all-s2}
-P(\cup_i^n \, B_i) = \sum_i^n P(B_i) \; .
+p(\cup_i^n \, B_i) = \sum_i^n p(B_i) \; .
 $$
 
 Because the $B_i$ are collectively exhaustive, we have:
@@ -80,7 +80,7 @@ $$
 Since [the probability of the sample space is one](/D/prob-ax), this means that the left-hand side of \eqref{eq:prob-all-s2} becomes equal to one:
 
 $$ \label{eq:prob-all-s3}
-1 = \sum_i^n P(B_i) \; .
+1 = \sum_i^n p(B_i) \; .
 $$
 
 This proofs the statement in \eqref{eq:prob-exh}.

@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Theorem:** The [probability](/D/prob) of the empty set is zero:
 
 $$ \label{eq:prob-emp}
-P(\emptyset) = 0 \; .
+p(\emptyset) = 0 \; .
 $$
 
 
@@ -38,9 +38,9 @@ $$
 
 $$ \label{eq:prob-emp-qed}
 \begin{split}
-P\left(\bigcup_{i=1}^\infty E_i \right) &= \sum_{i=1}^\infty P(E_i) \\
-P(\emptyset) &= \sum_{i=1}^\infty P(\emptyset) \; .
+p\left(\bigcup_{i=1}^\infty E_i \right) &= \sum_{i=1}^\infty p(E_i) \\
+p(\emptyset) &= \sum_{i=1}^\infty p(\emptyset) \; .
 \end{split}
 $$
 
-Since, by the [first axiom of probability](/D/prob-ax), probabilities are non-negative, i.e. $P(\emptyset) \geq 0$, we are searching for a non-negative number which, when added to itself infinitely, is equal to itself. The only such number is zero, i.e. $P(\emptyset) = 0$.
+Since, by the [first axiom of probability](/D/prob-ax), probabilities are non-negative, i.e. $p(\emptyset) \geq 0$, we are searching for a non-negative number which, when added to itself infinitely, is equal to itself. The only such number is zero, i.e. $p(\emptyset) = 0$.

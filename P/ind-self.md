@@ -36,7 +36,7 @@ username: "JoramSoch"
 **Theorem:** Let $E$ be a [random event](/D/reve). Then, $E$ is [independent of itself](/D/ind), if and only if its [probability](/D/prob) is zero or one:
 
 $$ \label{eq:ind-self}
-E \text{ self-independent} \quad \Leftrightarrow \quad P(E) = 0 \quad \text{or} \quad P(E) = 1 \; .
+E \text{ self-independent} \quad \Leftrightarrow \quad p(E) = 0 \quad \text{or} \quad p(E) = 1 \; .
 $$
 
 
@@ -44,15 +44,15 @@ $$
 
 $$ \label{eq:ind}
 \begin{split}
-P(E,E) &= P(E) \cdot P(E) \\
-P(E)   &= \left( P(E) \right)^2 \; .
+p(E,E) &= p(E) \cdot p(E) \\
+p(E)   &= \left( p(E) \right)^2 \; .
 \end{split}
 $$
 
-For $0 \leq P(E) \leq 1$, this is only fulfilled, if
+For $0 \leq p(E) \leq 1$, this is only fulfilled, if
 
 $$ \label{eq:ind-self-qed}
-P(E) = 0 \quad \text{or} \quad P(E) = 1 \; .
+p(E) = 0 \quad \text{or} \quad p(E) = 1 \; .
 $$
 
 Both is possible, since the [lower bound of probability is zero](/D/prob-ax) and the [upper bound of probability is one](/P/prob-range).

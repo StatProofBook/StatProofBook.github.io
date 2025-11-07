@@ -42,28 +42,28 @@ username: "JoramSoch"
 **Theorem:** The [probability](/D/prob) of an event is bounded between 0 and 1:
 
 $$ \label{eq:prob-range}
-0 \leq P(E) \leq 1 \; .
+0 \leq p(E) \leq 1 \; .
 $$
 
 
 **Proof:** From the [first axiom of probability](/D/prob-ax), we have:
 
 $$ \label{eq:pEg0}
-P(E) \geq 0 \; .
+p(E) \geq 0 \; .
 $$
 
 By combining the [first axiom of probability](/D/prob-ax) and the [probability of the complement](/P/prob-comp), we obtain:
 
 $$ \label{eq:pEl1}
 \begin{split}
-1- P(E) = P(E^\mathrm{c}) &\geq 0 \\
-1- P(E) &\geq 0 \\
-P(E) &\leq 1 \; .
+1- p(E) = p(\overline{E}) &\geq 0 \\
+1- p(E) &\geq 0 \\
+p(E) &\leq 1 \; .
 \end{split}
 $$
 
 Together, \eqref{eq:pEg0} and \eqref{eq:pEl1} imply that
 
 $$ \label{eq:prob-range-qed}
-0 \leq P(E) \leq 1 \; .
+0 \leq p(E) \leq 1 \; .
 $$

@@ -36,7 +36,7 @@ username: "JoramSoch"
 **Theorem:** Let $A$ be a subset of [sample space](/D/samp-spc) $\Omega$ and let $B_1, \ldots, B_n$ be finite or countably infinite partition of $\Omega$, such that $B_i \cap B_j = \emptyset$ for all $i \neq j$ and $\cup_i \, B_i = \Omega$. Then, the [probability](/D/prob) of the event $A$ is
 
 $$ \label{eq:prob-tot}
-P(A) = \sum_i P(A \cap B_i) \; .
+p(A) = \sum_i p(A \cap B_i) \; .
 $$
 
 
@@ -55,5 +55,5 @@ $$
 Thus, the [third axiom of probability](/D/prob-ax) implies that
 
 $$ \label{eq:prob-tot-qed}
-P(A) = \sum_i P(A \cap B_i) \; .
+p(A) = \sum_i p(A \cap B_i) \; .
 $$
