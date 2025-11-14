@@ -44,8 +44,8 @@ $$
 
 $$ \label{eq:chi2-momraw-int}
 \begin{split}
-\mathrm{E}(X^{m}) &= \int_{0}^{\infty} x^m \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \, x^{k/2-1} \, \exp \left[ -x/2 \right] \, \mathrm{d}x \\
-&= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} x^{(k/2)+m-1} \, \exp \left[ -x/2 \right] \, \mathrm{d}x \; .
+\mathrm{E}(X^{m}) &= \int_{0}^{\infty} x^m \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \, x^{k/2-1} \exp \left[ -x/2 \right] \, \mathrm{d}x \\
+&= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} x^{(k/2)+m-1} \exp \left[ -x/2 \right] \, \mathrm{d}x \; .
 \end{split}
 $$
 
@@ -53,9 +53,9 @@ Now, we substitute $u = x/2$, such that $x = 2u$. As a result, we obtain:
 
 $$ \label{eq:chi2-momraw-int-u}
 \begin{split}
-\mathrm{E}(X^{m}) &= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} 2^{(k/2)+m-1} \, u^{(k/2)+m-1} \, \exp[-u] \, \mathrm{d}(2u) \\
-&= \frac{2^{(k/2)+m}}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \, \exp[-u] \, \mathrm{d}u \\
-&= \frac{2^m}{\Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \, \exp[-u] \, \mathrm{d}u \; .
+\mathrm{E}(X^{m}) &= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} 2^{(k/2)+m-1} \, u^{(k/2)+m-1} \exp[-u] \, \mathrm{d}(2u) \\
+&= \frac{2^{(k/2)+m}}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \exp[-u] \, \mathrm{d}u \\
+&= \frac{2^m}{\Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \exp[-u] \, \mathrm{d}u \; .
 \end{split}
 $$
 

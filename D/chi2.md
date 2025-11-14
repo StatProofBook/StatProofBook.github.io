@@ -48,7 +48,7 @@ $$
 The [probability density function of the chi-squared distribution](/P/chi2-pdf) with $k$ degrees of freedom is
 
 $$ \label{eq:chi2-pdf}
-\chi^{2}(x; k) = \frac{1}{2^{k/2} \, \Gamma (k/2)} \, x^{k/2-1} \, \exp \left[ -x/2 \right]
+\chi^{2}(x; k) = \frac{1}{2^{k/2} \, \Gamma (k/2)} \, x^{k/2-1} \exp \left[ -x/2 \right]
 $$
 
 where $k > 0$ and the density is zero, if $x \leq 0$.
