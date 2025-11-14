@@ -35,7 +35,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a $n \times 1$ [random vector](/D/rvec) following a [multivariate t-distribution](/D/mvt) with mean $\mu$, scale matrix $\Sigma$ and degrees of freedom $\nu$:
+**Theorem:** Let $X$ be a $n$-dimensional [random vector](/D/rvec) following a [multivariate t-distribution](/D/mvt) with mean $\mu$, scale matrix $\Sigma$ and degrees of freedom $\nu$:
 
 $$ \label{eq:X}
 X \sim t(\mu, \Sigma, \nu) \; .
@@ -54,7 +54,7 @@ $$ \label{eq:mvt-ltt}
 x \sim t(\mu, \Sigma, \nu) \quad \Rightarrow \quad y = Ax + b \sim t(A\mu + b, A \Sigma A^\mathrm{T}, \nu)
 $$
 
-where $x$ is an $n \times 1$ [random vector](/D/rvec) following a [multivariate t-distribution](/D/mvt), $A$ is an $m \times n$ matrix and $b$ is an $m \times 1$ vector. Define the following quantities
+where $x$ is an $n$-dimensional [random vector](/D/rvec) following a [multivariate t-distribution](/D/mvt), $A$ is an $m \times n$ matrix and $b$ is an $m \times 1$ vector. Define the following quantities
 
 $$ \label{eq:YZ}
 \begin{split}

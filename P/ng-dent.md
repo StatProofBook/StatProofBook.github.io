@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be an $n \times 1$ [random vector](/D/rvec) and let $y$ be a positive [random variable](/D/rvar). Assume that $x$ and $y$ are jointly normal-gamma distributed:
+**Theorem:** Let $x$ be an $n$-dimensional [random vector](/D/rvec) and let $y$ be a positive [random variable](/D/rvar). Assume that $x$ and $y$ are jointly normal-gamma distributed:
 
 $$ \label{eq:NG}
 (x,y) \sim \mathrm{NG}(\mu, \Lambda^{-1}, a, b)

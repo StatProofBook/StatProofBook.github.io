@@ -78,7 +78,7 @@ $$ \label{eq:Sigma-inv}
 \end{split}
 $$
 
-The [probability density function of the multivariate normal distribution](/P/mvn-pdf) for an $n \times 1$ [random vector](/D/rvec) $x$ is:
+The [probability density function of the multivariate normal distribution](/P/mvn-pdf) for an $n$-dimensional [random vector](/D/rvec) $x$ is:
 
 $$ \label{eq:mvn-pdf}
 f_X(x) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \; .

@@ -40,7 +40,7 @@ $$ \label{eq:GLM}
 y = X \beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \Sigma)
 $$
 
-be a [linear regression model](/D/mlr) with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$ and known $n \times n$ covariance matrix $\Sigma$ as well as unknown $p \times 1$ regression coefficients $\beta$.
+be a [linear regression model](/D/mlr) with measured $n$-dimensional data vector $y$, known $n \times p$ design matrix $X$ and known $n \times n$ covariance matrix $\Sigma$ as well as unknown $p \times 1$ regression coefficients $\beta$.
 
 Then, the [conjugate prior](/D/prior-conj) for this model is a [multivariate normal distribution](/D/mvn)
 

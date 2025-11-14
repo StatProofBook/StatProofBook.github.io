@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be an $n \times 1$ [random vector](/D/rvec). Then, the [expected value](/D/mean) of $X$ is an $n \times 1$ vector whose entries correspond to the expected values of the entries of the random vector:
+**Definition:** Let $X$ be an $n$-dimensional [random vector](/D/rvec). Then, the [expected value](/D/mean) of $X$ is an $n$-dimensional vector whose entries correspond to the expected values of the entries of the random vector:
 
 $$ \label{eq:mean-rvec}
 \mathrm{E}(X) = \mathrm{E}\left( \left[ \begin{array}{c} X_1 \\ \vdots \\ X_n \end{array} \right] \right) = \left[ \begin{array}{c} \mathrm{E}(X_1) \\ \vdots \\ \mathrm{E}(X_n) \end{array} \right] \; .

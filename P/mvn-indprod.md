@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be an $n \times 1$ [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn):
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn):
 
 $$ \label{eq:mvn}
 X \sim \mathcal{N}(\mu, \Sigma)

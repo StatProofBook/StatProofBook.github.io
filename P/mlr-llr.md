@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $y = \left[ y_1, \ldots, y_n \right]^\mathrm{T}$ be an $n \times 1$ [data vector](/D/data) and consider a [linear regression model](/D/mlr) $m_1$ with [design matrix](/D/mlr) $X = \left[ X_0, X_1 \right] \in \mathbb{R}^{n \times p}$ as well as a reduced [linear regression model](/D/mlr) $m_0$ with [design matrix](/D/mlr) $X_0 \in \mathbb{R}^{n \times p_0}$:
+**Theorem:** Let $y = \left[ y_1, \ldots, y_n \right]^\mathrm{T}$ be an $n$-dimensional [data vector](/D/data) and consider a [linear regression model](/D/mlr) $m_1$ with [design matrix](/D/mlr) $X = \left[ X_0, X_1 \right] \in \mathbb{R}^{n \times p}$ as well as a reduced [linear regression model](/D/mlr) $m_0$ with [design matrix](/D/mlr) $X_0 \in \mathbb{R}^{n \times p_0}$:
 
 $$ \label{eq:m1-m0}
 \begin{split}

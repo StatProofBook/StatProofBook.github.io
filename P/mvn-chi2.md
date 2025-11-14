@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be an $n \times 1$ [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn) with [zero mean](/D/mean-rvec) and arbitrary [covariance matrix](/P/mvn-cov) $\Sigma$:
+**Theorem:** Let $x$ be an $n$-dimensional [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn) with [zero mean](/D/mean-rvec) and arbitrary [covariance matrix](/P/mvn-cov) $\Sigma$:
 
 $$ \label{eq:mvn}
 x \sim \mathcal{N}(0, \Sigma) \; .

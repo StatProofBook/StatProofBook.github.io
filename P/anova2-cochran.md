@@ -190,7 +190,7 @@ $$ \label{eq:cochran-p2}
 Q_j \sim \chi^2(r_j), \; j = 1, \ldots, m \; .
 $$
 
-First, we define the $n \times 1$ vector $U$:
+First, we define the $n$-dimensional vector $U$:
 
 $$ \label{eq:U}
 U = \left[ \begin{matrix} u_{1 \bullet} \\ \vdots \\ u_{a \bullet} \end{matrix} \right] \quad \text{where} \quad u_{i \bullet} = \left[ \begin{matrix} u_{i1} \\ \vdots \\ u_{ib} \end{matrix} \right] \quad \text{where} \quad u_{ij} = \left[ \begin{matrix} (y_{i,j,1} - \mu - \alpha_i - \beta_j - \gamma_{ij})/\sigma \\ \vdots \\ (y_{i,j,n_{ij}} - \mu - \alpha_i - \beta_j - \gamma_{ij})/\sigma \end{matrix} \right] \; .

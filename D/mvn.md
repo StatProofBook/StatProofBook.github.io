@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be an $n \times 1$ [random vector](/D/rvec). Then, $X$ is said to be multivariate normally distributed with mean $\mu$ and covariance $\Sigma$
+**Definition:** Let $X$ be an $n$-dimensional [random vector](/D/rvec). Then, $X$ is said to be multivariate normally distributed with mean $\mu$ and covariance $\Sigma$
 
 $$ \label{eq:mvn}
 X \sim \mathcal{N}(\mu, \Sigma) \; ,
@@ -40,4 +40,4 @@ $$ \label{eq:mvn-pdf}
 \mathcal{N}(x; \mu, \Sigma) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right]
 $$
 
-where $\mu$ is an $n \times 1$ real vector and $\Sigma$ is an $n \times n$ positive-definite matrix.
+where $\mu$ is an $n$-dimensional real vector and $\Sigma$ is an $n \times n$ positive-definite matrix.

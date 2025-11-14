@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be an $n \times 1$ [random vector](/D/rvec) of [continuous random variables](/D/rvar-disc) with possible outcomes $\mathcal{X} \subseteq \mathbb{R}^n$ and let $Y = \Sigma X + \mu$ be a linear transformation of this random variable with [constant](/D/const) $n \times 1$ vector $\mu$ and [constant](/D/const) $n \times n$ matrix $\Sigma$. Then, the [probability density function](/D/pdf) of $Y$ is
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) of [continuous random variables](/D/rvar-disc) with possible outcomes $\mathcal{X} \subseteq \mathbb{R}^n$ and let $Y = \Sigma X + \mu$ be a linear transformation of this random variable with [constant](/D/const) $n$-dimensional vector $\mu$ and [constant](/D/const) $n \times n$ matrix $\Sigma$. Then, the [probability density function](/D/pdf) of $Y$ is
 
 $$ \label{eq:pdf-linfct}
 f_Y(y) = \left\{

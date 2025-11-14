@@ -42,7 +42,7 @@ $$ \label{eq:mlr}
 y = X\beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \sigma^2 V) \; .
 $$
 
-Because $\varepsilon$ is an $n \times 1$ vector and $\sigma^2$ is scalar, we have the following identities:
+Because $\varepsilon$ is an $n$-dimensional vector and $\sigma^2$ is scalar, we have the following identities:
 
 $$
 \begin{split}
