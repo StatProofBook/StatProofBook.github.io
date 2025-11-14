@@ -64,7 +64,7 @@ $$ \label{eq:int-fg-s2}
 \int_{\mathcal{X}} f(x) \log g(x) \, \mathrm{d}x = - \frac{n}{2} \log (2 \pi) - \frac{1}{2} \log |\Sigma| - \frac{1}{2} \left\langle (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right\rangle_{f(x)} \; .
 $$
 
-Using the [expectation of a trace](/D/mean-tr) and the [definition of the covariance matrix](/D/covmat), the second term can be developed as follows:
+Using the [expectation of a trace](/P/mean-tr) and the [definition of the covariance matrix](/D/covmat), the second term can be developed as follows:
 
 $$ \label{eq:int-fg-s3}
 \begin{split}

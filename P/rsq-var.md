@@ -40,7 +40,7 @@ $$ \label{eq:rsq-dist}
 R^2 \sim \mathrm{Bet}\left( \frac{p-1}{2}, \frac{n-p}{2} \right) \; .
 $$
 
-Using the [variance of the beta distribution](/P/var-beta)
+Using the [variance of the beta distribution](/P/beta-var)
 
 $$ \label{eq:beta-var}
 X \sim \mathrm{Bet}(\alpha, \beta) \\

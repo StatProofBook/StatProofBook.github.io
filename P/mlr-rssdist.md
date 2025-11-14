@@ -133,7 +133,7 @@ $$ \label{eq:rss-dist}
 \end{split}
 $$
 
-Because a [non-central chi-squared distribution with non-centrality parameter of zero reduces to the central chi-squared distribution](/P/chi2-ncchi2), we obtain our final result:
+Because a [non-central chi-squared distribution with non-centrality parameter of zero reduces to the central chi-squared distribution](/P/ncchi2-chi2), we obtain our final result:
 
 $$ \label{eq:rss-dist-qed}
 \frac{\hat{\varepsilon}^\mathrm{T} \hat{\varepsilon}}{\sigma^2} \sim \chi^2(n-p) \; .

@@ -34,7 +34,7 @@ X^\mathrm{T} \sim \mathcal{MN}(M^\mathrm{T}, V, U) \; .
 $$
 
 
-**Proof:** For a [random vector](/P/rvec) $X \in \mathbb{R}^n$ with [probability density function](/D/pdf) $f_X(x)$, the [probability density function of the invertible function](/P/pdf-invfct) $Y = g(X)$ is
+**Proof:** For a [random vector](/D/rvec) $X \in \mathbb{R}^n$ with [probability density function](/D/pdf) $f_X(x)$, the [probability density function of the invertible function](/P/pdf-invfct) $Y = g(X)$ is
 
 $$ \label{eq:pdf-invfct}
 f_Y(y) = \left\{
