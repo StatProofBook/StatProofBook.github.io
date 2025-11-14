@@ -36,7 +36,7 @@ $$
 Then, if $m > -k/2$, the [raw moment](/D/mom-raw) $\mathrm{E}(X^{m})$ exists and is equal to:
 
 $$ \label{eq:chi2-momraw}
-\mathrm{E}(X^{m}) = 2^m \frac{\Gamma\left( \frac{k}{2}+m \right)}{\Gamma\left( \frac{k}{2} \right)} \; .
+\mathrm{E}(X^{m}) = 2^m \, \frac{\Gamma\left( \frac{k}{2}+m \right)}{\Gamma\left( \frac{k}{2} \right)} \; .
 $$
 
 
@@ -44,8 +44,8 @@ $$
 
 $$ \label{eq:chi2-momraw-int}
 \begin{split}
-\mathrm{E}(X^{m}) &= \int_{0}^{\infty} x^m \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \, x^{k/2-1} \, e^{-x/2} \, \mathrm{d}x \\
-&= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} x^{(k/2)+m-1} \, e^{-x/2} \, \mathrm{d}x \; .
+\mathrm{E}(X^{m}) &= \int_{0}^{\infty} x^m \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \, x^{k/2-1} \, \exp \left[ -x/2 \right] \, \mathrm{d}x \\
+&= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} x^{(k/2)+m-1} \, \exp \left[ -x/2 \right] \, \mathrm{d}x \; .
 \end{split}
 $$
 
@@ -53,16 +53,16 @@ Now, we substitute $u = x/2$, such that $x = 2u$. As a result, we obtain:
 
 $$ \label{eq:chi2-momraw-int-u}
 \begin{split}
-\mathrm{E}(X^{m}) &= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} 2^{(k/2)+m-1} \, u^{(k/2)+m-1} \, e^{-u} \, \mathrm{d}(2u) \\
-&= \frac{2^{(k/2)+m}}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \, e^{-u} \, \mathrm{d}u \\
-&= \frac{2^m}{\Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \, e^{-u} \, \mathrm{d}u \; .
+\mathrm{E}(X^{m}) &= \frac{1}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} 2^{(k/2)+m-1} \, u^{(k/2)+m-1} \, \exp[-u] \, \mathrm{d}(2u) \\
+&= \frac{2^{(k/2)+m}}{2^{k/2} \Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \, \exp[-u] \, \mathrm{d}u \\
+&= \frac{2^m}{\Gamma\left( \frac{k}{2} \right)} \int_{0}^{\infty} u^{(k/2)+m-1} \, \exp[-u] \, \mathrm{d}u \; .
 \end{split}
 $$
 
 With the definition of the gamma function as
 
 $$ \label{eq:gam-fct}
-\Gamma(x) = \int_{0}^{\infty} t^{x-1} \, e^{-t} \, \mathrm{d}t, \; z > 0 \; ,
+\Gamma(x) = \int_{0}^{\infty} t^{x-1} \, e^{-t} \, \mathrm{d}t, \; x > 0 \; ,
 $$
 
 this leads to the desired result when $m > -k/2$. Observe that, if $m$ is a non-negative integer, then $m > -k/2$ is always true. Therefore, all [moments](/D/mom) of a [chi-squared distribution](/D/chi2) exist and the $m$-th raw moment is given by the equation above.

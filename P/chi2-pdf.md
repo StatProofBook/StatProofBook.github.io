@@ -42,7 +42,7 @@ $$
 Then, the [probability density function](/D/pdf) of $Y$ is
 
 $$ \label{eq:chi2-pdf}
-f_Y(y) = \frac{1}{2^{k/2} \, \Gamma (k/2)} \, y^{k/2-1} \, e^{-y/2} \; .
+f_Y(y) = \frac{1}{2^{k/2} \, \Gamma (k/2)} \, y^{k/2-1} \, \exp \left[ -y/2 \right] \; .
 $$
 
 
@@ -112,5 +112,5 @@ $$
 From this, we get the final result in \eqref{eq:chi2-pdf}:
 
 $$ \label{eq:y-cdf-s5}
-f_Y(y) = \frac{1}{2^{k/2} \, \Gamma (k/2)} \, y^{k/2-1} \, e^{-y/2} \; .
+f_Y(y) = \frac{1}{2^{k/2} \, \Gamma (k/2)} \, y^{k/2-1} \, \exp \left[ -y/2 \right] \; .
 $$
