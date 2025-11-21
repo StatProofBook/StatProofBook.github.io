@@ -58,7 +58,7 @@ $$ \label{eq:med-mae-s1}
 E(\lvert X_i - a \rvert) = \int_{-\infty}^a (a - x) f(x) \, \mathrm{d}x + \int_{a}^\infty (x - a) f(x) \, \mathrm{d}x \; .
 $$
 
-Now note that $\lvert\frac{\partial}{\partial a}(a - x)f(x)\rvert = \lvert\frac{\partial}{\partial a}(x - a)f(x)\rvert = f(x)$. Consequently, $\int_{-\infty}^af(x) = P(X_i < a)$ and $\int_{a}^\infty f(x) = P(X_i > a)$, both of which must be finite by the [axioms of probability](/D/prob-ax). Therefore, these integrals meet the conditions for application of Leibniz's rule.
+Now note that $\lvert\frac{\partial}{\partial a}(a - x)f(x)\rvert = \lvert\frac{\partial}{\partial a}(x - a)f(x)\rvert = f(x)$. Consequently, $\int_{-\infty}^a f(x) = \mathrm{Pr}(X_i < a)$ and $\int_{a}^\infty f(x) = \mathrm{Pr}(X_i > a)$, both of which must be finite by the [axioms of probability](/D/prob-ax). Therefore, these integrals meet the conditions for application of Leibniz's rule.
 
 Applying Leibniz's integral rule, we can differentiate the objective function as follows:
 
@@ -74,17 +74,17 @@ Canceling non-integral terms and setting this derivative to 0, it must be true t
 $$\label{eq:dmed-da}
 \int_{-\infty}^a f(x) \, \mathrm{d}x - \int_{a}^\infty f(x) \, \mathrm{d}x = 0
 \quad \Rightarrow \quad
-P(X_i < a) = P(X_i > a) \; .
+\mathrm{Pr}(X_i < a) = \mathrm{Pr}(X_i > a) \; .
 $$
 
 Together with the [probability of the complement](/P/prob-comp), this yields the implication
 
 $$\label{eq:med-mae-qed}
-P(X_i < a) = P(X_i > a)
+\mathrm{Pr}(X_i < a) = \mathrm{Pr}(X_i > a)
 \quad \Rightarrow \quad 
-P(X_i < a) = 1 - P(X_i < a)
+\mathrm{Pr}(X_i < a) = 1 - \mathrm{Pr}(X_i < a)
 \quad \Rightarrow \quad
-P(X_i < a) = 0.5
+\mathrm{Pr}(X_i < a) = 0.5
 $$
 
 As a result, $a$ satisfies the [definition of a median](/D/med) at the critical point of the objective function.

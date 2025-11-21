@@ -21,7 +21,6 @@ username: "tomfaulkenberry"
 ---
   
 
-
 **Theorem:** Let $X$ be a [random variable](/D/rvar) following a [Wald distribution](/D/wald):
 
 $$ \label{eq:wald}
@@ -34,21 +33,20 @@ $$ \label{eq:wald-skew}
 \mathrm{Skew}(X) = \frac{3}{\sqrt{\alpha\gamma}} \; .
 $$
 
-**Proof:** 
 
-To compute the skewness of $X$, we [partition the skewness into expected values](/P/skew-mean):
+**Proof:** To compute the skewness of $X$, we [partition the skewness into expected values](/P/skew-mean):
 
 $$ \label{eq:skew-mean}
 \mathrm{Skew}(X) = \frac{\mathrm{E}(X^3)-3\mu\sigma^2-\mu^3}{\sigma^3} \; ,
 $$
 
-where $\mu$ and $\sigma$ are the mean and standard deviation of $X$, respectively. Since $X$ follows an [Wald distribution](/D/wald), the [mean](/P/wald-mean) of $X$ is given by 
+where $\mu$ and $\sigma$ are the mean and standard deviation of $X$, respectively. Since $X$ follows a [Wald distribution, the mean](/P/wald-mean) of $X$ is given by 
 
 $$ \label{eq:wald-mean}
 \mu = \mathrm{E}(X) = \frac{\alpha}{\gamma}
 $$
 
-and the [standard deviation](/P/wald-var) of $X$ is given by
+and [the standard deviation](/P/wald-var) of $X$ is given by
 
 $$ \label{eq:wald-var}
 \sigma = \sqrt{\mathrm{Var}(X)} = \sqrt{\frac{\alpha}{\gamma^3}}\; .
@@ -116,7 +114,7 @@ $$ \label{eq:wald-skew-split2}
 g(t) = \frac{\alpha}{(\gamma^2-2t)^{3/2}}\exp\left[\alpha\gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right] \; .
 $$
 
-With this decomposition, $M_X'''(t) = f'(t) + g'(t)$. Applying the product rule to $f$ gives:
+With this decomposition, $M_X''\'(t) = f'(t) + g'(t)$. Applying the product rule to $f$ gives:
 
 $$ \label{eq:wald-skew-f}
 \begin{split}
