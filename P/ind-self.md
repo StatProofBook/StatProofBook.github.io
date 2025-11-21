@@ -36,7 +36,7 @@ username: "JoramSoch"
 **Theorem:** Let $E$ be a [random event](/D/reve). Then, $E$ is [independent of itself](/D/ind), if and only if its [probability](/D/prob) is zero or one:
 
 $$ \label{eq:ind-self}
-E \; \text{self-independent} \quad \Leftrightarrow \quad p(E) = 0 \quad \text{or} \quad p(E) = 1 \; .
+E \;\; \text{self-independent} \quad \Leftrightarrow \quad p(E) = 0 \quad \text{or} \quad p(E) = 1 \; .
 $$
 
 

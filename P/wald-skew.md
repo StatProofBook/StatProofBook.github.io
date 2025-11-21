@@ -114,7 +114,7 @@ $$ \label{eq:wald-skew-split2}
 g(t) = \frac{\alpha}{(\gamma^2-2t)^{3/2}}\exp\left[\alpha\gamma-\sqrt{\alpha^2(\gamma^2-2t)}\right] \; .
 $$
 
-With this decomposition, $M_X''\'(t) = f'(t) + g'(t)$. Applying the product rule to $f$ gives:
+With this decomposition, $M_X'\'\'(t) = f'(t) + g'(t)$. Applying the product rule to $f$ gives:
 
 $$ \label{eq:wald-skew-f}
 \begin{split}
