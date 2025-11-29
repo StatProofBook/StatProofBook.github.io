@@ -33,18 +33,18 @@
 - **[Probability under exclusivity](/P/prob-exc)**
 ### Probability axioms
 - *[Axioms of probability](/D/prob-ax)*
-- **[Monotonicity of probability](/P/prob-mon)**
-- **[Monotonicity of probability](/P/prob-mon2)**
-- **[Probability of the empty set](/P/prob-emp)**
-- **[Probability of the empty set](/P/prob-emp2)**
+- **[Monotonicity of probability](/P/prob-mon)** (1) 
+- **[Monotonicity of probability](/P/prob-mon2)** (2) 
+- **[Probability of the empty set](/P/prob-emp)** (1) 
+- **[Probability of the empty set](/P/prob-emp2)** (2) 
 - **[Probability of the complement](/P/prob-comp)**
 - **[Range of probability](/P/prob-range)**
 - **[Addition law of probability](/P/prob-add)**
 - **[Bonferroni's inequality](/P/bonf-ineq)**
 - **[Boole's inequality](/P/bool-ineq)**
 - **[Law of total probability](/P/prob-tot)**
-- **[Probability of exhaustive events](/P/prob-exh)**
-- **[Probability of exhaustive events](/P/prob-exh2)**
+- **[Probability of exhaustive events](/P/prob-exh)** (1) 
+- **[Probability of exhaustive events](/P/prob-exh2)** (2) 
 ### Probability distributions
 - *[Probability distribution](/D/dist)*
 - *[Joint distribution](/D/dist-joint)*
@@ -227,9 +227,9 @@
 - **[Relation to joint and conditional differential entropy](/P/cmi-jcde)**
 ### Kullback-Leibler divergence
 - *[Definition](/D/kl)*
-- **[Non-negativity](/P/kl-nonneg)**
-- **[Non-negativity](/P/kl-nonneg2)**
-- **[Non-negativity](/P/kl-nonneg3)**
+- **[Non-negativity](/P/kl-nonneg)** (1) 
+- **[Non-negativity](/P/kl-nonneg2)** (2) 
+- **[Non-negativity](/P/kl-nonneg3)** (3) 
 - **[Non-symmetry](/P/kl-nonsymm)**
 - **[Convexity](/P/kl-conv)**
 - **[Additivity for independent distributions](/P/kl-add)**
@@ -395,9 +395,9 @@
 - *[Definition](/D/norm)*
 - **[Special case of multivariate normal distribution](/P/norm-mvn)**
 - *[Standard normal distribution](/D/snorm)*
-- **[Relationship to standard normal distribution](/P/norm-snorm)**
-- **[Relationship to standard normal distribution](/P/norm-snorm2)**
-- **[Relationship to standard normal distribution](/P/norm-snorm3)**
+- **[Relationship to standard normal distribution](/P/norm-snorm)** (1) 
+- **[Relationship to standard normal distribution](/P/norm-snorm2)** (2) 
+- **[Relationship to standard normal distribution](/P/norm-snorm3)** (3) 
 - **[Relationship to chi-squared distribution](/P/norm-chi2)**
 - **[Relationship to t-distribution](/P/norm-t)**
 - **[Gaussian integral](/P/norm-gi)**
@@ -430,8 +430,8 @@
 - *[Definition](/D/gam)*
 - **[Special case of Wishart distribution](/P/gam-wish)**
 - *[Standard gamma distribution](/D/sgam)*
-- **[Relationship to standard gamma distribution](/P/gam-sgam)**
-- **[Relationship to standard gamma distribution](/P/gam-sgam2)**
+- **[Relationship to standard gamma distribution](/P/gam-sgam)** (1) 
+- **[Relationship to standard gamma distribution](/P/gam-sgam2)** (2) 
 - **[Scaling of a gamma random variable](/P/gam-scal)**
 - **[Probability density function](/P/gam-pdf)**
 - **[Moment-generating function](/P/gam-mgf)**
@@ -564,8 +564,8 @@
 - **[Transposition](/P/matn-trans)**
 - **[Linear transformation](/P/matn-ltt)**
 - **[Marginal distributions](/P/matn-marg)**
-- **[Redundancy of parameters](/P/matn-red)**
-- **[Redundancy of parameters](/P/matn-red2)**
+- **[Redundancy of parameters](/P/matn-red)** (1) 
+- **[Redundancy of parameters](/P/matn-red2)** (2) 
 - **[Drawing samples](/P/matn-samp)**
 ### Wishart distribution
 - *[Definition](/D/wish)*
@@ -626,8 +626,8 @@
 ### Simple linear regression
 - *[Definition](/D/slr)*
 - **[Special case of multiple linear regression](/P/slr-mlr)**
-- **[Ordinary least squares](/P/slr-ols)**
-- **[Ordinary least squares](/P/slr-ols2)**
+- **[Ordinary least squares](/P/slr-ols)** (1) 
+- **[Ordinary least squares](/P/slr-ols2)** (2) 
 - **[Expectation of estimates](/P/slr-olsmean)**
 - **[Variance of estimates](/P/slr-olsvar)**
 - **[Distribution of estimates](/P/slr-olsdist)**
@@ -639,10 +639,10 @@
 - **[Sums of squares](/P/slr-sss)**
 - **[Partition of sums of squares](/P/slr-pss)**
 - **[Transformation matrices](/P/slr-mat)**
-- **[Weighted least squares](/P/slr-wls)**
-- **[Weighted least squares](/P/slr-wls2)**
-- **[Maximum likelihood estimation](/P/slr-mle)**
-- **[Maximum likelihood estimation](/P/slr-mle2)**
+- **[Weighted least squares](/P/slr-wls)** (1) 
+- **[Weighted least squares](/P/slr-wls2)** (2) 
+- **[Maximum likelihood estimation](/P/slr-mle)** (1) 
+- **[Maximum likelihood estimation](/P/slr-mle2)** (2) 
 - **[t-test for intercept parameter](/P/slr-tint)**
 - **[t-test for slope parameter](/P/slr-tslo)**
 - **[F-test for model comparison](/P/slr-fcomp)**
@@ -654,9 +654,9 @@
 ### Multiple linear regression
 - *[Definition](/D/mlr)*
 - **[Special case of general linear model](/P/mlr-glm)**
-- **[Ordinary least squares](/P/mlr-ols)**
-- **[Ordinary least squares](/P/mlr-ols2)**
-- **[Ordinary least squares](/P/mlr-ols3)**
+- **[Ordinary least squares](/P/mlr-ols)** (1) 
+- **[Ordinary least squares](/P/mlr-ols2)** (2) 
+- **[Ordinary least squares](/P/mlr-ols3)** (3) 
 - **[Ordinary least squares for two regressors](/P/mlr-olstr)**
 - *[Total sum of squares](/D/tss)*
 - *[Explained sum of squares](/D/ess)*
@@ -672,8 +672,8 @@
 - **[Distribution of OLS estimates, signal and residuals](/P/mlr-olsdist)**
 - **[Distribution of WLS estimates, signal and residuals](/P/mlr-wlsdist)**
 - **[Distribution of residual sum of squares](/P/mlr-rssdist)**
-- **[Weighted least squares](/P/mlr-wls)**
-- **[Weighted least squares](/P/mlr-wls2)**
+- **[Weighted least squares](/P/mlr-wls)** (1) 
+- **[Weighted least squares](/P/mlr-wls2)** (2) 
 - **[Maximum likelihood estimation](/P/mlr-mle)**
 - **[Maximum log-likelihood](/P/mlr-mll)**
 - **[Log-likelihood ratio](/P/mlr-llr)**

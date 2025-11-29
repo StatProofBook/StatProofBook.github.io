@@ -100,7 +100,7 @@ def reconstruct_toc(markdown_content):
 
 if __name__ == '__main__':
 
-    with open('./structure.md', 'r') as f:
+    with open('./book_content.md', 'r') as f:
         md = f.read()
 
     with open("./I/ToC.md", 'w') as f:
