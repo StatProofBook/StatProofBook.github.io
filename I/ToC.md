@@ -12,7 +12,7 @@ title: "Table of Contents"
 <br>
 <h3 id="General Theorems">Chapter I: General Theorems</h3>
 
-   
+
 1. <p id="Probability theory">Probability theory</p>
    
    <p id="Random experiments"></p>
@@ -250,7 +250,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.21.7. **[First central moment is zero](/P/momcent-1st)** <br>
    &emsp;&ensp; 1.21.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
    &emsp;&ensp; 1.21.9. *[Standardized moment](/D/mom-stand)* <br>
-   
+
 2. <p id="Information theory">Information theory</p>
    
    <p id="Shannon entropy"></p>
@@ -303,7 +303,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.5.8. **[Invariance under parameter transformation](/P/kl-inv)** <br>
    &emsp;&ensp; 2.5.9. **[Relation to discrete entropy](/P/kl-ent)** <br>
    &emsp;&ensp; 2.5.10. **[Relation to differential entropy](/P/kl-dent)** <br>
-   
+
 3. <p id="Estimation theory">Estimation theory</p>
    
    <p id="Basic concepts of estimation"></p>
@@ -320,7 +320,7 @@ title: "Table of Contents"
    3.3. Interval estimates <br>
    &emsp;&ensp; 3.3.1. *[Confidence interval](/D/ci)* <br>
    &emsp;&ensp; 3.3.2. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
-   
+
 4. <p id="Frequentist statistics">Frequentist statistics</p>
    
    <p id="Likelihood theory"></p>
@@ -356,7 +356,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.3.11. **[Distribution of p-value under null hypothesis](/P/pval-h0)** <br>
    &emsp;&ensp; 4.3.12. *[Minimum detectable effect](/D/mde)* <br>
    &emsp;&ensp; 4.3.13. *[Minimum required sample size](/D/mrss)* <br>
-   
+
 5. <p id="Bayesian statistics">Bayesian statistics</p>
    
    <p id="Probabilistic modeling"></p>
@@ -398,7 +398,7 @@ title: "Table of Contents"
    &emsp;&ensp; 5.3.5. *[Variational Bayes](/D/vb)* <br>
    &emsp;&ensp; 5.3.6. **[Decomposition of the free energy](/P/fren-dec)** <br>
    &emsp;&ensp; 5.3.7. **[Free energy is lower bound on log model evidence](/P/fren-lme)** <br>
-   
+
 6. <p id="Machine learning">Machine learning</p>
    
    <p id="Scoring rules"></p>
@@ -415,7 +415,7 @@ title: "Table of Contents"
 <br>
 <h3 id="Probability Distributions">Chapter II: Probability Distributions</h3>
 
-   
+
 1. <p id="Univariate discrete distributions">Univariate discrete distributions</p>
    
    <p id="Discrete uniform distribution"></p>
@@ -467,7 +467,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.3. **[Mean](/P/poiss-mean)** <br>
    &emsp;&ensp; 1.5.4. **[Variance](/P/poiss-var)** <br>
    &emsp;&ensp; 1.5.5. **[Shannon entropy](/P/poiss-ent)** <br>
-   
+
 2. <p id="Multivariate discrete distributions">Multivariate discrete distributions</p>
    
    <p id="Categorical distribution"></p>
@@ -487,7 +487,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.2.5. **[Covariance](/P/mult-cov)** <br>
    &emsp;&ensp; 2.2.6. **[Shannon entropy](/P/mult-ent)** <br>
    &emsp;&ensp; 2.2.7. **[Marginal distributions](/P/mult-marg)** <br>
-   
+
 3. <p id="Univariate continuous distributions">Univariate continuous distributions</p>
    
    <p id="Continuous uniform distribution"></p>
@@ -637,7 +637,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.11.5. **[Variance](/P/exg-var)** <br>
    &emsp;&ensp; 3.11.6. **[Skewness](/P/exg-skew)** <br>
    &emsp;&ensp; 3.11.7. **[Method of moments](/P/exg-mome)** <br>
-   
+
 4. <p id="Multivariate continuous distributions">Multivariate continuous distributions</p>
    
    <p id="Multivariate normal distribution"></p>
@@ -696,7 +696,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.5.2. **[Probability density function](/P/dir-pdf)** <br>
    &emsp;&ensp; 4.5.3. **[Kullback-Leibler divergence](/P/dir-kl)** <br>
    &emsp;&ensp; 4.5.4. **[Exceedance probabilities](/P/dir-ep)** <br>
-   
+
 5. <p id="Matrix-variate continuous distributions">Matrix-variate continuous distributions</p>
    
    <p id="Matrix-normal distribution"></p>
@@ -730,7 +730,7 @@ title: "Table of Contents"
 <br>
 <h3 id="Statistical Models">Chapter III: Statistical Models</h3>
 
-   
+
 1. <p id="Univariate normal data">Univariate normal data</p>
    
    <p id="Univariate Gaussian"></p>
@@ -873,7 +873,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.7.2. **[Posterior distribution](/P/blrkc-post)** <br>
    &emsp;&ensp; 1.7.3. **[Log model evidence](/P/blrkc-lme)** <br>
    &emsp;&ensp; 1.7.4. **[Accuracy and complexity](/P/blrkc-anc)** <br>
-   
+
 2. <p id="Multivariate normal data">Multivariate normal data</p>
    
    <p id="Multivariate Gaussian"></p>
@@ -915,7 +915,7 @@ title: "Table of Contents"
    &emsp;&ensp; 2.5.1. **[Conjugate prior distribution](/P/mblr-prior)** <br>
    &emsp;&ensp; 2.5.2. **[Posterior distribution](/P/mblr-post)** <br>
    &emsp;&ensp; 2.5.3. **[Log model evidence](/P/mblr-lme)** <br>
-   
+
 3. <p id="Count data">Count data</p>
    
    <p id="Binomial observations"></p>
@@ -961,7 +961,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.4.3. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
    &emsp;&ensp; 3.4.4. **[Posterior distribution](/P/poissexp-post)** <br>
    &emsp;&ensp; 3.4.5. **[Log model evidence](/P/poissexp-lme)** <br>
-   
+
 4. <p id="Frequency data">Frequency data</p>
    
    <p id="Beta-distributed data"></p>
@@ -978,7 +978,7 @@ title: "Table of Contents"
    4.3. Beta-binomial data <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/betabin-data)* <br>
    &emsp;&ensp; 4.3.2. **[Method of moments](/P/betabin-mome)** <br>
-   
+
 5. <p id="Categorical data">Categorical data</p>
    
    <p id="Logistic regression"></p>
@@ -991,7 +991,7 @@ title: "Table of Contents"
 <br>
 <h3 id="Model Selection">Chapter IV: Model Selection</h3>
 
-   
+
 1. <p id="Goodness-of-fit measures">Goodness-of-fit measures</p>
    
    <p id="Residual variance"></p>
@@ -1024,7 +1024,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.1. *[Definition](/D/snr)* <br>
    &emsp;&ensp; 1.4.2. **[Relationship to coefficient of determination](/P/snr-rsq)** <br>
    &emsp;&ensp; 1.4.3. **[Relationship to maximum log-likelihood](/P/snr-mll)** <br>
-   
+
 2. <p id="Classical information criteria">Classical information criteria</p>
    
    <p id="Akaike information criterion"></p>
@@ -1043,7 +1043,7 @@ title: "Table of Contents"
    2.3. Deviance information criterion <br>
    &emsp;&ensp; 2.3.1. *[Definition](/D/dic)* <br>
    &emsp;&ensp; 2.3.2. *[Deviance](/D/dev)* <br>
-   
+
 3. <p id="Bayesian model selection">Bayesian model selection</p>
    
    <p id="Model evidence"></p>

@@ -1,3 +1,12 @@
+---
+layout: page
+title: "List of Contents"
+---
+
+
+Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
+
+
 # Chapter I: General Theorems
 ## Probability theory
 ### Random experiments

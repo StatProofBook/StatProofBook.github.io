@@ -17,7 +17,7 @@ Author: Joram Soch, BCCN Berlin
 E-Mail: joram.soch@bccn-berlin.de
 
 First edit: 2019-09-27 12:55:00
- Last edit: 2025-10-31 15:35:00
+ Last edit: 2025-12-12 16:06:00
 """
 
 
@@ -141,36 +141,97 @@ print('   - ' + str(num_pr) + ' files found in proof directory!')
 print('   - ' + str(num_def) + ' files found in definition directory!')
 
 
-# Table of Contents: read index file
+# List of Contents: read index file
 #-----------------------------------------------------------------------------#
-print('\n1. Table of Contents:')
-f1   = open('I/ToC.md', 'r')
-ToCs = f1.readlines()
-f1.close()
+print('\n1a.List of Contents:')
+f1a  = open('I/LoC.md', 'r')
+LoCs = f1a.readlines()
+f1a.close()
 
-# Table of Contents: check for proof Shortcuts
+# List of Contents: check for proof shortcuts
 #-----------------------------------------------------------------------------#
 incl = np.zeros(num_pr, dtype=bool)
 for (i, proof) in enumerate(proofs):
-    for line in ToCs:
+    for line in LoCs:
         if line.find('(/P/' + proof['shortcut'] + ')') > -1:
             incl[i] = True
     if ~incl[i]:
-        print('   - WARNING: proof "' + proof['shortcut'] + '" is not in table of contents!')
-if all(incl):
-    print('   - ' + str(sum(incl)) + ' proofs found in table of contents!')
+        print('   - WARNING: proof "' + proof['shortcut'] + '" is not in list of contents!')
+print('   - ' + str(sum(incl)) + ' proofs found in list of contents!')
 
-# Table of Contents: check for definition Shortcuts
+# List of Contents: check for definition shortcuts
 #-----------------------------------------------------------------------------#
 incl = np.zeros(num_def, dtype=bool)
 for (i, definition) in enumerate(defs):
-    for line in ToCs:
+    for line in LoCs:
         if line.find('(/D/' + definition['shortcut'] + ')') > -1:
             incl[i] = True
     if ~incl[i]:
-        print('   - WARNING: definition "' + definition['shortcut'] + '" is not in table of contents!')
-if all(incl):
-    print('   - ' + str(sum(incl)) + ' definitions found in table of contents!')
+        print('   - WARNING: definition "' + definition['shortcut'] + '" is not in list of contents!')
+print('   - ' + str(sum(incl)) + ' definitions found in list of contents!')
+
+
+# Table of Contents: prepare index file
+#-----------------------------------------------------------------------------#
+print('\n1b.Table of Contents:')
+print('   - generating from list of contents ...')
+f1b = open('I/ToC.md', 'w')
+f1b.write('---\nlayout: page\ntitle: "Table of Contents"\n---\n\n\n')
+f1b.write('**[Proofs](/P/-temp-)** are printed in **bold** – *[Definitions](/D/-temp-)* are set in *italics* <br>\n')
+f1b.write('**Proofs**: [by Number](/I/PbN), [by Topic](/I/PbT) – *Definitions*:  [by Number](/I/DbN), [by Topic](/I/DbT) <br>\n')
+f1b.write('<u>Specials:</u> [General Theorems](/S/ChI), [Probability Distributions](/S/ChII), [Statistical Models](/S/ChIII), [Model Selection Criteria](/S/ChIV) <br>\n')
+
+# Table of Contents: write all chapters
+#-----------------------------------------------------------------------------#
+roman    = ['I', 'II', 'III', 'IV', 'V']
+num_chap = 0
+num_sect = 0
+num_ssec = 0
+num_item = 0
+
+# check list of contents
+for line in LoCs:
+    line = line.strip()
+    
+    # this is a new chapter
+    if line.startswith("# Chapter "):
+        num_sect  = 0
+        num_chap  = num_chap + 1
+        curr_chap = line[line.find(': ')+2:].strip()
+        f1b.write('\n\n<br>\n')
+        f1b.write('<h3 id="{}">Chapter {}: {}</h3>\n\n'. \
+                  format(curr_chap, roman[num_chap-1], curr_chap))
+    
+    # this is a new section
+    elif line.startswith('## '):
+        num_ssec  = 0
+        num_sect  = num_sect + 1
+        curr_sect = line[line.find('## ')+3:].strip()
+        f1b.write('\n')
+        f1b.write('{}. <p id="{}">{}</p>\n'. \
+                  format(num_sect, curr_sect, curr_sect))
+    
+    # this is a new subsection
+    elif line.startswith('### '):
+        num_item  = 0
+        num_ssec  = num_ssec + 1
+        curr_ssec = line[line.find('### ')+4:].strip()
+        f1b.write('   \n')
+        f1b.write('   <p id="{}"></p>\n'.format(curr_ssec))
+        f1b.write('   {}.{}. {} <br>\n'. \
+                  format(num_sect, num_ssec, curr_ssec))
+    
+    # this is a new item
+    elif line.startswith('- '):
+        num_item  = num_item + 1
+        curr_item = line[line.find('- ')+2:].strip()
+        f1b.write('   &emsp;&ensp; {}.{}.{}. {} <br>\n'. \
+                  format(num_sect, num_ssec, num_item, curr_item))
+
+f1b.close()
+del num_chap,  num_sect,  num_ssec,  num_item
+del curr_chap, curr_sect, curr_ssec, curr_item
+print('     successfully written to disk!')
 
 
 # Proof by Number: prepare index file
