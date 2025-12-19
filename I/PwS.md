@@ -4,7 +4,7 @@ title: "Proofs without Source"
 ---
 
 
-### Missing source (185 proofs)
+### Missing source (184 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -128,7 +128,6 @@ title: "Proofs without Source"
 - [Ordinary least squares for multiple linear regression with two regressors](/P/mlr-olstr)
 - [Ordinary least squares for one-way analysis of variance](/P/anova1-ols)
 - [Ordinary least squares for simple linear regression](/P/slr-ols2)
-- [Ordinary least squares for the general linear model](/P/glm-ols)
 - [Parameter estimates for simple linear regression are uncorrelated after mean-centering](/P/slr-olscorr)
 - [Partition of a cross-covariance matrix into expected values](/P/covmatcross-mean)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)

@@ -4,8 +4,8 @@ title: "Table of Contents"
 ---
 
 
-**[Proofs](/P/-temp-)** are printed in **bold** â€“ *[Definitions](/D/-temp-)* are set in *italics* <br>
-**Proofs**: [by Number](/I/PbN), [by Topic](/I/PbT) â€“ *Definitions*:  [by Number](/I/DbN), [by Topic](/I/DbT) <br>
+**[Proofs](/P/-temp-)** are printed in **bold** – *[Definitions](/D/-temp-)* are set in *italics* <br>
+**Proofs**: [by Number](/I/PbN), [by Topic](/I/PbT) – *Definitions*:  [by Number](/I/DbN), [by Topic](/I/DbT) <br>
 <u>Specials:</u> [General Theorems](/S/ChI), [Probability Distributions](/S/ChII), [Statistical Models](/S/ChIII), [Model Selection Criteria](/S/ChIV) <br>
 
 
