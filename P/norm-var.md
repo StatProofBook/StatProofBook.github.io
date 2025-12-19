@@ -20,6 +20,12 @@ sources:
     in: "StackExchange Mathematics"
     pages: "retrieved on 2020-01-09"
     url: "https://math.stackexchange.com/questions/518281/how-to-derive-the-mean-and-variance-of-a-gaussian-random-variable"
+  - authors: "Wikipedia"
+    year: 2025
+    title: "Particular values of the gamma function"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2025-12-19"
+    url: "https://en.wikipedia.org/wiki/Particular_values_of_the_gamma_function#Integers_and_half-integers"
 
 proof_id: "P18"
 shortcut: "norm-var"

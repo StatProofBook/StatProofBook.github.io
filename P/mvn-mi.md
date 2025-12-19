@@ -58,7 +58,7 @@ $$ \label{eq:mvn-marg}
 X_1 \sim \mathcal{N}\left( \mu_1, \Sigma_{11} \right) \; ,
 $$
 
-such that the [marginals](/D/marg) of $X$ and $Y$ are:
+such that the [marginals](/D/dist-marg) of $X$ and $Y$ are:
 
 $$ \label{eq:X-Y-marg}
 X \sim \mathcal{N}\left( \mu_1, \Sigma_1 \right)

@@ -14,6 +14,12 @@ topic: "General linear model"
 theorem: "Ordinary least squares"
 
 sources:
+  - authors: "Wikipedia"
+    year: 2025
+    title: "Ordinary least squares"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2025-12-19"
+    url: "https://en.wikipedia.org/wiki/Ordinary_least_squares#Assumptions"
 
 proof_id: "P106"
 shortcut: "glm-ols"

@@ -58,7 +58,7 @@ $$ \label{eq:mvn-marg}
 X_1 \sim \mathcal{N}\left( \mu_1, \Sigma_{11} \right) \; ,
 $$
 
-such that the [marginals](/D/marg) of the [bivariate normal distribution](/D/bvn) are [univariate normal distribution](/D/norm):
+such that the [marginals](/D/dist-marg) of the [bivariate normal distribution](/D/bvn) are [univariate normal distributions](/D/norm):
 
 $$ \label{eq:bvn-marg}
 \left[ \begin{matrix} X \\ Y \end{matrix} \right] \sim

@@ -77,8 +77,8 @@ Using the following anti-derivative
 
 $$ \label{eq:second-moment-s2}
 \begin{split}
-\int x^2 \cdot \exp(-\lambda x) \, \mathrm{d}x &= \left[ - \frac{1}{\lambda} x^2 \cdot \mathrm{exp}(-\lambda x) \right]_{0}^{+\infty} - \int 2x \left( - \frac{1}{\lambda} x \cdot \mathrm{exp}(-\lambda x) \right) \mathrm{d}x \\
-&= \left[ - \frac{1}{\lambda} x^2 \cdot \mathrm{exp}(-\lambda x) \right]_{0}^{+\infty} - \left( \left[ \frac{1}{\lambda^2} 2x \cdot \mathrm{exp}(-\lambda x) \right]_{0}^{+\infty} - \int 2 \left( \frac{1}{\lambda^2} \cdot \mathrm{exp}(-\lambda x) \right) \mathrm{d}x \right) \\
+\int_{0}^{+\infty} x^2 \cdot \exp(-\lambda x) \, \mathrm{d}x &= \left[ - \frac{1}{\lambda} x^2 \cdot \mathrm{exp}(-\lambda x) \right]_{0}^{+\infty} - \int_{0}^{+\infty} 2x \left( - \frac{1}{\lambda} x \cdot \mathrm{exp}(-\lambda x) \right) \mathrm{d}x \\
+&= \left[ - \frac{1}{\lambda} x^2 \cdot \mathrm{exp}(-\lambda x) \right]_{0}^{+\infty} - \left( \left[ \frac{1}{\lambda^2} 2x \cdot \mathrm{exp}(-\lambda x) \right]_{0}^{+\infty} - \int_{0}^{+\infty} 2 \left( \frac{1}{\lambda^2} \cdot \mathrm{exp}(-\lambda x) \right) \mathrm{d}x \right) \\
 &= \left[ - \frac{x^2}{\lambda} \cdot \mathrm{exp}(-\lambda x) \right]_{0}^{+\infty} - \left( \left[ \frac{2x}{\lambda^2} \cdot \mathrm{exp}(-\lambda x) \right]_{0}^{+\infty} - \left[ - \frac{2}{\lambda^3} \cdot \mathrm{exp}(-\lambda x) \right]_{0}^{+\infty} \right) \\
 &= \left[ \left( - \frac{x^2}{\lambda} - \frac{2x}{\lambda^2} - \frac{2}{\lambda^3} \right) \exp(-\lambda x) \right]_{0}^{+\infty} \; ,
 \end{split}
