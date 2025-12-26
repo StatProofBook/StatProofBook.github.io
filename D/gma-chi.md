@@ -10,7 +10,7 @@ date: 2024-12-26 12:00:00
 title: "Relationship Between Gamma and Chi-Squared Distributions"
 chapter: "Probability Distributions"
 section: "Univariate continuous distributions"
-topic: "Chi-squared distribution"
+topic: "Gamma distribution"
 theorem: "Relationship between Gamma and Chi-squared distributions"
 
 sources:
