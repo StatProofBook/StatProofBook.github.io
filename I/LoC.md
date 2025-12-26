@@ -454,6 +454,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Expectation of x ln x](/P/gam-xlogx)**
 - **[Differential entropy](/P/gam-dent)**
 - **[Kullback-Leibler divergence](/P/gam-kl)**
+- **[Relationship Between Gamma and Chi-Squared Distributions](/P/gma-chi.md)**
 ### Exponential distribution
 - *[Definition](/D/exp)*
 - **[Special case of gamma distribution](/P/exp-gam)**
