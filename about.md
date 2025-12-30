@@ -12,23 +12,31 @@ permalink: /about/
 
 Unless otherwise noted, all content on this website is licensed under the ![CC-BY-SA compact icon](https://licensebuttons.net/l/by-sa/4.0/80x15.png) [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Read the [license summary](https://creativecommons.org/licenses/by-sa/4.0/) for more details.
 
-<table style="border:none">
+<table style="border:none; width:100%">
   <tr>
     <td style="text-align:center">
-	  <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Content.png">
-	</td>
+      <a href="https://github.com/StatProofBook/StatProofBookTools/blob/master/display_content/Content.png">
+        <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Content.png">
+      </a>
+    </td>
     <td style="text-align:center">
-	  <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Development.png">
-	</td>
+      <a href="https://github.com/StatProofBook/StatProofBookTools/blob/master/display_content/Development.png">
+        <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Development.png">
+      </a>
+    </td>
   </tr>
   <tr>
-    <td style="text-align:center">
-	  <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Definitions.png">
-	</td>
+    <td colspan="2" style="text-align:center">
+      <a href="https://github.com/StatProofBook/StatProofBookTools/blob/master/display_content/Topic_Definitions.png">
+        <img style="width:100%" src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Definitions.png">
+      </a>
+    </td>
   </tr>
   <tr>
-    <td style="text-align:center">
-	  <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Proofs.png">
-	</td>
+    <td colspan="2" style="text-align:center">
+      <a href="https://github.com/StatProofBook/StatProofBookTools/blob/master/display_content/Topic_Proofs.png">
+        <img style="width:100%" src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Proofs.png">
+      </a>
+    </td>
   </tr>
 </table>
