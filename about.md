@@ -14,6 +14,6 @@ Unless otherwise noted, all content on this website is licensed under the ![CC-B
 
 <br>
 
-<img style="width:49%;" src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Content.png" alt="Content by Type"> <img style="width:49%;" src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Development.png" alt="Development over Time">
+<img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Content.png" alt="Content by Type" width=500> <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Development.png" alt="Development over Time" width=500>
 
-<img style="width:100%;" src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Definitions.png" alt="Definitions by Topic"> <img style="width:100%;" src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Proofs.png" alt="Proofs by Topic">
+<img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Definitions.png" alt="Definitions by Topic" width=1000> <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Proofs.png" alt="Proofs by Topic" width=1000>

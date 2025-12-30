@@ -12,6 +12,6 @@ Unless otherwise noted, all content in this repository is licensed under the ![C
 
 ### Gallery: StatProofBook Contents
 
-<img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Content.png" alt="Content by Type" width=500> <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Development.png" alt="Development over Time" width=500>
+<img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Content.png" alt="Content by Type" width=400> <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Development.png" alt="Development over Time" width=400>
 
 <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Definitions.png" alt="Definitions by Topic" width=1000> <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Proofs.png" alt="Proofs by Topic" width=1000>
