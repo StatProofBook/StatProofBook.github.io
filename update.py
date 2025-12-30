@@ -144,7 +144,7 @@ print('   - ' + str(num_def) + ' files found in definition directory!')
 # List of Contents: read index file
 #-----------------------------------------------------------------------------#
 print('\n1a.List of Contents:')
-f1a  = open('I/LoC.md', 'r')
+f1a  = open('I/LoC.md', 'r', encoding='utf-8')
 LoCs = f1a.readlines()
 f1a.close()
 
@@ -175,7 +175,7 @@ print('   - ' + str(sum(incl)) + ' definitions found in list of contents!')
 #-----------------------------------------------------------------------------#
 print('\n1b.Table of Contents:')
 print('   - generating from list of contents ...')
-f1b = open('I/ToC.md', 'w')
+f1b = open('I/ToC.md', 'w', encoding='utf-8')
 f1b.write('---\nlayout: page\ntitle: "Table of Contents"\n---\n\n\n')
 f1b.write('**[Proofs](/P/-temp-)** are printed in **bold** – *[Definitions](/D/-temp-)* are set in *italics* <br>\n')
 f1b.write('**Proofs**: [by Number](/I/PbN), [by Topic](/I/PbT) – *Definitions*:  [by Number](/I/DbN), [by Topic](/I/DbT) <br>\n')
