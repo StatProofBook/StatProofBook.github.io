@@ -12,8 +12,23 @@ permalink: /about/
 
 Unless otherwise noted, all content on this website is licensed under the ![CC-BY-SA compact icon](https://licensebuttons.net/l/by-sa/4.0/80x15.png) [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Read the [license summary](https://creativecommons.org/licenses/by-sa/4.0/) for more details.
 
-<br>
-
-<img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Content.png" alt="Content by Type" width=500> <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Development.png" alt="Development over Time" width=500>
-
-<img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Definitions.png" alt="Definitions by Topic" width=1000> <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Proofs.png" alt="Proofs by Topic" width=1000>
+<table style="border:none">
+  <tr>
+    <td style="text-align:center">
+	  <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Content.png">
+	</td>
+    <td style="text-align:center">
+	  <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Development.png">
+	</td>
+  </tr>
+  <tr>
+    <td style="text-align:center">
+	  <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Definitions.png">
+	</td>
+  </tr>
+  <tr>
+    <td style="text-align:center">
+	  <img src="https://raw.githubusercontent.com/StatProofBook/StatProofBookTools/master/display_content/Topic_Proofs.png">
+	</td>
+  </tr>
+</table>
