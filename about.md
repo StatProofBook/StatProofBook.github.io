@@ -12,6 +12,7 @@ permalink: /about/
 
 Unless otherwise noted, all content on this website is licensed under the ![CC-BY-SA compact icon](https://licensebuttons.net/l/by-sa/4.0/80x15.png) [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Read the [license summary](https://creativecommons.org/licenses/by-sa/4.0/) for more details.
 
+<br>
 <table style="border:none; width:100%; background:white">
   <tr style="background:white">
     <td style="text-align:center">
