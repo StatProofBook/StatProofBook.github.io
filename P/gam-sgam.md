@@ -46,7 +46,7 @@ $$ \label{eq:X-Y}
 X = g^{-1}(Y) = \frac{1}{b} Y \; .
 $$
 
-Because $b$ is positive, $g(X)$ is strictly increasing and we can calculate the [cumulative distribution function of a strictly increasing function](/P/cdf-sifct) as
+Because $b$ must be positive, $g(X)$ is strictly increasing and we can calculate the [cumulative distribution function of a strictly increasing function](/P/cdf-sifct) as
 
 $$ \label{eq:cdf-sifct}
 F_Y(y) = \left\{
