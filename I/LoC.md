@@ -454,7 +454,6 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Expectation of x ln x](/P/gam-xlogx)**
 - **[Differential entropy](/P/gam-dent)**
 - **[Kullback-Leibler divergence](/P/gam-kl)**
-- **[Relationship Between Gamma and Chi-Squared Distributions](/P/gma-chi.md)**
 ### Exponential distribution
 - *[Definition](/D/exp)*
 - **[Special case of gamma distribution](/P/exp-gam)**
@@ -481,6 +480,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 ### Chi-squared distribution
 - *[Definition](/D/chi2)*
 - **[Special case of gamma distribution](/P/chi2-gam)**
+- **[Special case of gamma distribution (2)](/P/chi2-gam2.md)**
 - **[Probability density function](/P/chi2-pdf)**
 - **[Raw moments](/P/chi2-momraw)**
 ### F-distribution
