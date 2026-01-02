@@ -46,7 +46,7 @@ $$ \label{eq:X-Y}
 X = g^{-1}(Y) = \frac{1}{b} Y \; .
 $$
 
-Because $b$ is positive, $g(X)$ is strictly increasing and we can calculate the [probability density function of a strictly increasing function](/P/pdf-sifct) as
+Because $b$ must be positive, $g(X)$ is strictly increasing and we can calculate the [probability density function of a strictly increasing function](/P/pdf-sifct) as
 
 $$ \label{eq:pdf-sifct}
 f_Y(y) = \left\{
