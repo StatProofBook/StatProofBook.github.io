@@ -479,8 +479,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Geometric mean of independent log-normals](/P/lognorm-geomind)**
 ### Chi-squared distribution
 - *[Definition](/D/chi2)*
-- **[Special case of gamma distribution](/P/chi2-gam)**
-- **[Special case of gamma distribution (2)](/P/chi2-gam2.md)**
+- **[Special case of gamma distribution](/P/chi2-gam)** (1)
+- **[Special case of gamma distribution](/P/chi2-gam2)** (2)
 - **[Probability density function](/P/chi2-pdf)**
 - **[Raw moments](/P/chi2-momraw)**
 ### F-distribution
