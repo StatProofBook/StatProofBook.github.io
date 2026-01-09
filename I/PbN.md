@@ -526,3 +526,4 @@ title: "Proof by Number"
 | P518 | gam-med | [Median of the gamma distribution](/P/gam-med) | JoramSoch | 2025-10-24 |
 | P519 | beta-med | [Median of the beta distribution](/P/beta-med) | JoramSoch | 2025-10-24 |
 | P520 | beta-mode | [Mode of the beta distribution](/P/beta-mode) | JoramSoch | 2025-10-24 |
+| P521 | chi2-gam2 | [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam2) | natrium-256 | 2026-01-02 |

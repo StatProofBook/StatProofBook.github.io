@@ -39,6 +39,7 @@ title: "Proof by Topic"
 - [Characteristic function of a function of a random variable](/P/cf-fct)
 - [Chebyshev's inequality](/P/cheb-ineq)
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
+- [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam2)
 - [Combined posterior distribution for Bayesian linear regression when analyzing conditionally independent data sets](/P/blr-postind)
 - [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind)
 - [Concavity of the Shannon entropy](/P/ent-conc)

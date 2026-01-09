@@ -527,6 +527,10 @@ title: "Proof by Author"
 - [Variance of the exponential distribution](/P/exp-var)
 - [Variance of the log-normal distribution](/P/lognorm-var)
 
+### natrium-256 (1 proof)
+
+- [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam2)
+
 ### salbalkus (2 proofs)
 
 - [The expected value minimizes the mean squared error](/P/mean-mse)

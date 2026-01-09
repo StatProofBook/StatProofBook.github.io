@@ -595,9 +595,10 @@ title: "Table of Contents"
    <p id="Chi-squared distribution"></p>
    3.7. Chi-squared distribution <br>
    &emsp;&ensp; 3.7.1. *[Definition](/D/chi2)* <br>
-   &emsp;&ensp; 3.7.2. **[Special case of gamma distribution](/P/chi2-gam)** <br>
-   &emsp;&ensp; 3.7.3. **[Probability density function](/P/chi2-pdf)** <br>
-   &emsp;&ensp; 3.7.4. **[Raw moments](/P/chi2-momraw)** <br>
+   &emsp;&ensp; 3.7.2. **[Special case of gamma distribution](/P/chi2-gam)** (1) <br>
+   &emsp;&ensp; 3.7.3. **[Special case of gamma distribution](/P/chi2-gam2)** (2) <br>
+   &emsp;&ensp; 3.7.4. **[Probability density function](/P/chi2-pdf)** <br>
+   &emsp;&ensp; 3.7.5. **[Raw moments](/P/chi2-momraw)** <br>
    
    <p id="F-distribution"></p>
    3.8. F-distribution <br>
