@@ -40,4 +40,5 @@ $$ \label{eq:resvar-bias}
 \mathrm{E}\left[ \hat{\sigma}^2_\mathrm{MLE} \right] = \frac{n-1}{n} \sigma^2 \neq \sigma^2 \; .
 $$
 
-This proofs the existence of cases such as those stated by the theorem.
+
+This proves the existence of cases such as those stated by the theorem.
