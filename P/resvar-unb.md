@@ -15,7 +15,7 @@ theorem: "Construction of unbiased estimator (p = 1)"
 
 sources:
   - authors: "Liang, Dawen"
-    year: "????"
+    year: 2020
     title: "Maximum Likelihood Estimator for Variance is Biased: Proof"
     pages: "retrieved on 2020-02-25"
     url: "https://dawenl.github.io/files/mle_biased.pdf"
