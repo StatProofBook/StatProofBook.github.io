@@ -94,4 +94,4 @@ F
 \end{split}
 $$
 
-This means that the [null hypothesis](/D/h0) of equal variances can be rejected when $F$ is as extreme or more extreme than the [critical value](/D/cval) obtained from the [F-distribution](/D/F) with [degrees of freedom](/D/dof) $n_1-1$ and $n_2-1$ using a [significance level](/D/alpha) $\alpha$.
+This means that the [null hypothesis](/D/h0) of equal variances can be rejected when $F$ is as extreme or more extreme than the [critical value](/D/cval) obtained from the [F-distribution](/D/f) with [degrees of freedom](/D/dof) $n_1-1$ and $n_2-1$ using a [significance level](/D/alpha) $\alpha$.

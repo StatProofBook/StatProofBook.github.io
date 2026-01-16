@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a [random variable](/D/rvar). Assume two [discrete uniform distributions](/D/Duni) $P$ and $Q$ specifying the probability distribution of $X$ as
+**Theorem:** Let $X$ be a [random variable](/D/rvar). Assume two [discrete uniform distributions](/D/duni) $P$ and $Q$ specifying the probability distribution of $X$ as
 
 $$ \label{eq:dunis}
 \begin{split}

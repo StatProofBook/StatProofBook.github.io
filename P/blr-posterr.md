@@ -89,4 +89,4 @@ b_n &\overset{\eqref{eq:GLM-NG-post-par}}{=} b_0 + \frac{1}{2} \left( y^\mathrm{
 \end{split}
 $$
 
-Together with equation (\ref{eq:GLM-NG-post-par}c), this completes the proof.
+Together with equation $a_n$ from \eqref{eq:GLM-NG-post-par}, this completes the proof.
