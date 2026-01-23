@@ -10,7 +10,7 @@ date: 2020-06-06 06:02:00
 title: "Relationship between covariance matrix and correlation matrix"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
+topic: "Covariance matrix"
 theorem: "Covariance matrix and correlation matrix"
 
 sources:

@@ -61,7 +61,7 @@ $$ \label{eq:norm-dent-s1}
 \end{split}
 $$
 
-Note that $\mathrm{E}\left[ (x-\mu)^2 \right]$ [corresponds to the variance](/D/var) of $X$ and the [variance of the normal distribution](/P/norm-var) is $\sigma^2$. Thus, we can proceed:
+Note that $\mathrm{E}\left[ (x-\mu)^2 \right]$ [corresponds to the variance](/P/momcent-2nd) of $X$ and the [variance of the normal distribution](/P/norm-var) is $\sigma^2$. Thus, we can proceed:
 
 $$ \label{eq:norm-dent-s2}
 \begin{split}

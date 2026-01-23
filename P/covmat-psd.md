@@ -10,7 +10,7 @@ date: 2022-09-26 11:26:00
 title: "Positive semi-definiteness of the covariance matrix"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
+topic: "Covariance matrix"
 theorem: "Positive semi-definiteness"
 
 sources:

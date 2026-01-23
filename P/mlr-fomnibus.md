@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2024-05-31 14:35:20
 
 title: "Omnibus F-test for multiple regressors in multiple linear regression"

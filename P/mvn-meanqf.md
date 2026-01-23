@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-05-21 13:24:00
 
 title: "Expectation of a quadratic form for the multivariate normal distribution"

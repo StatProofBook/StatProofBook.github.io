@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-03-06 16:43:00
 
 title: "Cross-validated log model evidence for the univariate Gaussian"

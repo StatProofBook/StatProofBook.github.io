@@ -59,7 +59,7 @@ $$
 Using the [relationship between covariance and correlation](/P/cov-corr), we have:
 
 $$ \label{eq:var-XY-s2}
-\mathrm{Var}\left( \frac{X}{\sigma_X} \pm \frac{Y}{\sigma_Y} \right) = 1 + 1 + \pm 2 \, \mathrm{Corr}(X,Y) \; .
+\mathrm{Var}\left( \frac{X}{\sigma_X} \pm \frac{Y}{\sigma_Y} \right) = 1 + 1 \pm 2 \, \mathrm{Corr}(X,Y) \; .
 $$
 
 Thus, the combination of \eqref{eq:var-XY-0} with \eqref{eq:var-XY-s2} yields

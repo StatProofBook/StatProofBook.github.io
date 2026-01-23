@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-06-20 17:22:00
 
 title: "Maximum likelihood estimation for multivariate normally distributed data"

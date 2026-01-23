@@ -39,7 +39,7 @@ $$ \label{eq:Poiss-LME}
 \log p(y|m) = - \sum_{i=1}^n \log y_i ! + \log \Gamma(a_n) - \log \Gamma(a_0) + a_0 \log b_0 - a_n \log b_n \; .
 $$
 
-and the [posterior hyperparameters](/D/post) are given by
+where the [posterior hyperparameters](/D/post) are given by
 
 $$ \label{eq:Poiss-post-par}
 \begin{split}

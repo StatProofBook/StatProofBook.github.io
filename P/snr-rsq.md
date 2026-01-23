@@ -83,5 +83,5 @@ $$
 Rearranging this equation for the [coefficient of determination](/D/rsq), we have
 
 $$ \label{eq:R2-SNR-qed}
-R^2 = \frac{\mathrm{SNR}}{\mathrm{1+\mathrm{SNR}}} \; ,
+R^2 = \frac{\mathrm{SNR}}{\mathrm{1+\mathrm{SNR}}} \; .
 $$

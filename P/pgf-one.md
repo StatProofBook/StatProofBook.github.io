@@ -10,7 +10,7 @@ date: 2022-10-11 08:17:00
 title: "Value of the probability-generating function for argument one"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Other probability functions"
+topic: "Probability-generating function"
 theorem: "Probability-generating function of one"
 
 sources:

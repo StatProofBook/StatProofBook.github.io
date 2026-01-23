@@ -26,7 +26,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be an $n \times 1$ [random vector](/D/rvec). Assume two [multivariate normal distributions](/D/mvn) $P$ and $Q$ specifying the probability distribution of $x$ as
+**Theorem:** Let $x$ be an $n$-dimensional [random vector](/D/rvec). Assume two [multivariate normal distributions](/D/mvn) $P$ and $Q$ specifying the probability distribution of $x$ as
 
 $$ \label{eq:mvns}
 \begin{split}

@@ -44,7 +44,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be an $n \times 1$ [random vector](/D/rvec) with [mean](/D/mean) $\mu$ and [covariance](/D/covmat) $\Sigma$ and let $A$ be a symmetric $n \times n$ matrix. Then, the expectation of the quadratic form $X^\mathrm{T} A X$ is
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) with [mean](/D/mean) $\mu$ and [covariance](/D/covmat) $\Sigma$ and let $A$ be a symmetric $n \times n$ matrix. Then, the expectation of the quadratic form $X^\mathrm{T} A X$ is
 
 $$ \label{eq:mean-qf}
 \mathrm{E}\left[ X^\mathrm{T} A X \right] = \mu^\mathrm{T} A \mu + \mathrm{tr}(A \Sigma) \; .

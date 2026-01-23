@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2024-04-19 14:45:38
 
 title: "Maximum-a-posteriori estimation for Bayesian linear regression"
@@ -45,7 +45,7 @@ $$
 where $n$ is the [number of data points](/D/mlr).
 
 
-**Proof:** Given the [prior distribution](/D/prior) in \eqref{eq:GLM-NG-prior}, the [posterior distribution](/D/post) for [multiple linear regression](/D/mlr) [is also a normal-gamma distribution](/P/blr-post)
+**Proof:** Given the [generative model](/D/gm) in \eqref{eq:GLM} and the [prior distribution](/D/prior) in \eqref{eq:GLM-NG-prior}, the [posterior distribution](/D/post) for [multiple linear regression](/D/mlr) [is also a normal-gamma distribution](/P/blr-post)
 
 $$ \label{eq:GLM-NG-post}
 p(\beta,\tau|y) = \mathcal{N}(\beta; \mu_n, (\tau \Lambda_n)^{-1}) \cdot \mathrm{Gam}(\tau; a_n, b_n)

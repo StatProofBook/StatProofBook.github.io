@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be an $n \times 1$ [random vector](/D/rvec) and let $y$ be a positive [random variable](/D/rvar). Assume two [normal-gamma distributions](/D/ng) $P$ and $Q$ specifying the joint distribution of $x$ and $y$ as
+**Theorem:** Let $x$ be an $n$-dimensional [random vector](/D/rvec) and let $y$ be a positive [random variable](/D/rvar). Assume two [normal-gamma distributions](/D/ng) $P$ and $Q$ specifying the joint distribution of $x$ and $y$ as
 
 $$ \label{eq:NGs}
 \begin{split}

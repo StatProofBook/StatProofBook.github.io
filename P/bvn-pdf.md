@@ -34,7 +34,7 @@ f_X(x) = \frac{1}{2 \pi \sqrt{\sigma_1^2 \sigma_2^2 - \sigma_{12}^2}} \cdot \exp
 $$
 
 
-**Proof:** The [probability density function of the multivariate normal distribution](/P/mvn-pdf) for an $n \times 1$ [random vector](/D/rvec) $x$ is:
+**Proof:** The [probability density function of the multivariate normal distribution](/P/mvn-pdf) for an $n$-dimensional [random vector](/D/rvec) $x$ is:
 
 $$ \label{eq:mvn-pdf}
 f_X(x) = \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \; .

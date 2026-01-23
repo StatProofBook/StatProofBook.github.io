@@ -36,7 +36,7 @@ username: "JoramSoch"
 **Theorem:** Let $B_1, \ldots, B_n$ be [mutually exclusive](/D/exc) and collectively exhaustive subsets of a [sample space](/D/samp-spc) $\Omega$. Then, their [total probability](/P/prob-tot) is one:
 
 $$ \label{eq:prob-exh}
-\sum_i P(B_i) = 1 \; .
+\sum_i p(B_i) = 1 \; .
 $$
 
 
@@ -55,11 +55,11 @@ $$
 Thus, the [third axiom of probability](/D/prob-ax) implies that
 
 $$ \label{eq:prob-exh-s1}
-\sum_i P(B_i) = P(\Omega) \; .
+\sum_i p(B_i) = p(\Omega) \; .
 $$
 
 and the [second axiom of probability](/D/prob-ax) implies that
 
 $$ \label{eq:prob-exh-s2}
-\sum_i P(B_i) = 1 \; .
+\sum_i p(B_i) = 1 \; .
 $$

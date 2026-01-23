@@ -61,7 +61,6 @@ where $X$ is the $n \times p$ design matrix and $\hat{\beta}$ are the [ordinary 
 
 **Proof:** The [coefficient of determination](/D/rsq) $R^2$ is defined as the proportion of the variance explained by the independent variables, relative to the total variance in the data.
 
-<br>
 1) If we define the [explained sum of squares](/D/ess) as
 
 $$ \label{eq:ESS}
@@ -80,9 +79,12 @@ $$ \label{eq:R2-s2}
 R^2 = \frac{\mathrm{TSS}-\mathrm{RSS}}{\mathrm{TSS}} = 1 - \frac{\mathrm{RSS}}{\mathrm{TSS}} \; ,
 $$
 
-[because](/P/mlr-pss) $\mathrm{TSS} = \mathrm{ESS} + \mathrm{RSS}$.
+[because it holds that](/P/mlr-pss)
 
-<br>
+$$ \label{eq:TSS-ESS-RSS}
+\mathrm{TSS} = \mathrm{ESS} + \mathrm{RSS} \; .
+$$
+
 2) Using \eqref{eq:SS}, the coefficient of determination can be also written as:
 
 $$ \label{eq:R2'}
@@ -95,7 +97,4 @@ $$ \label{eq:R2-adj'}
 R^2_{\mathrm{adj}} = 1 - \frac{\frac{1}{n-p} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\frac{1}{n-1} \sum_{i=1}^{n} (y_i - \bar{y})^2} = 1 - \frac{\mathrm{RSS}/\mathrm{df}_r}{\mathrm{TSS}/\mathrm{df}_t}
 $$
 
-where $\mathrm{df}_r = n-p$ and $\mathrm{df}_t = n-1$ are the residual and total [degrees of freedom](/D/dof).
-
-<br>
-This gives the adjusted $R^2$ which adjusts $R^2$ for the number of explanatory variables.
+where $\mathrm{df}_r = n-p$ and $\mathrm{df}_t = n-1$ are the residual and total [degrees of freedom](/D/dof). This gives the adjusted $R^2$ which adjusts $R^2$ for the [number of explanatory variables](/D/mlr).

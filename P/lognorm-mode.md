@@ -65,9 +65,9 @@ $$
 
 $$ \label{eq:lognorm-pdf-der2}
 \begin{split}
-f''_X(x) &= \frac{1}{\sqrt{2\pi}\sigma^2x^3} \mathrm{exp} \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right] \cdot \left( \ln x -\mu \right) \cdot \left(1 + \frac{ \ln x -\mu}{\sigma^2}\right) \\
-&+ \frac{\sqrt{2}}{\sqrt{\pi}x^3}\mathrm{exp} \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right] \cdot \left(1 + \frac{ \ln x -\mu}{\sigma^2}\right) \\
-&- \frac{1}{\sqrt{2\pi}\sigma^2x^3} \mathrm{exp} \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right] \; .
+f''_X(x) &= \frac{1}{\sqrt{2\pi}\sigma^2 x^3} \cdot \mathrm{exp} \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right] \cdot \left( \ln x -\mu \right) \cdot \left(1 + \frac{ \ln x -\mu}{\sigma^2}\right) \\
+&+ \frac{\sqrt{2}}{\sqrt{\pi}x^3} \cdot \mathrm{exp} \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right] \cdot \left(1 + \frac{ \ln x -\mu}{\sigma^2}\right) \\
+&- \frac{1}{\sqrt{2\pi}\sigma^2 x^3} \cdot \mathrm{exp} \left[ -\frac{\left( \ln x -\mu \right)^2}{2 \sigma^2} \right] \; .
 \end{split}
 $$
 
@@ -85,10 +85,10 @@ By plugging this value into the second derivative \eqref{eq:lognorm-pdf-der2},
 
 $$ \label{eq:lognorm-mode-s2}
 \begin{split}
-f''_X(e^{(\mu-\sigma^2)}) &= \frac{1}{\sqrt{2\pi}\sigma^2(e^{(\mu-\sigma^2)})^3} \mathrm{exp} \left[ -\frac{\sigma^2}{2} \right] \cdot \left( \sigma^2 \right) \cdot \left(0\right) \\
-&+ \frac{\sqrt{2}}{\sqrt{\pi}(e^{(\mu-\sigma^2)})^3} \mathrm{exp} \left[ -\frac{\sigma^2}{2} \right] \cdot \left(0 \right) \\
-&- \frac{1}{\sqrt{2\pi}\sigma^2(e^{(\mu-\sigma^2)})^3} \mathrm{exp} \left[ -\frac{\sigma^2}{2} \right] \\
-&= - \frac{1}{\sqrt{2\pi}\sigma^2(e^{(\mu-\sigma^2)})^3} \mathrm{exp} \left[ -\frac{\sigma^2}{2} \right] < 0 \; ,
+f''_X(e^{(\mu-\sigma^2)}) &= \frac{1}{\sqrt{2\pi}\sigma^2(e^{(\mu-\sigma^2)})^3} \cdot \mathrm{exp} \left[ -\frac{\sigma^2}{2} \right] \cdot \left( \sigma^2 \right) \cdot \left(0\right) \\
+&+ \frac{\sqrt{2}}{\sqrt{\pi}(e^{(\mu-\sigma^2)})^3} \cdot \mathrm{exp} \left[ -\frac{\sigma^2}{2} \right] \cdot \left(0 \right) \\
+&- \frac{1}{\sqrt{2\pi}\sigma^2(e^{(\mu-\sigma^2)})^3} \cdot \mathrm{exp} \left[ -\frac{\sigma^2}{2} \right] \\
+&= - \frac{1}{\sqrt{2\pi}\sigma^2(e^{(\mu-\sigma^2)})^3} \cdot \mathrm{exp} \left[ -\frac{\sigma^2}{2} \right] < 0 \; ,
 \end{split}
 $$
 

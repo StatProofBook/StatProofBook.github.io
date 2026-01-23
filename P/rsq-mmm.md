@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-07-04 12:30:00
 
 title: "Mean, mode and median of the coefficient of determination under the null hypothesis"
@@ -46,7 +46,7 @@ $$ \label{eq:rsq-dist}
 R^2 \sim \mathrm{Bet}\left( \frac{p-1}{2}, \frac{n-p}{2} \right) \; .
 $$
 
-Using [mean](/D/beta-mean), [median](/D/beta-med) and [mode](/D/beta-mode) of the [beta distribution](/D/beta)
+Using [mean](/P/beta-mean), [median](/P/beta-med) and [mode](/P/beta-mode) of the [beta distribution](/D/beta)
 
 $$ \label{eq:beta-mmm}
 \begin{split}

@@ -3,8 +3,8 @@ layout: definition
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-02-06 16:14:14
 
 title: "Odds ratio, prior and posterior odds"

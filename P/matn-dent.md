@@ -46,7 +46,7 @@ $$ \label{eq:mvn-dent}
 X \sim \mathcal{N}(\mu, \Sigma) \quad \Rightarrow \quad \mathrm{h}(X) = \frac{n}{2} \ln(2\pi) + \frac{1}{2} \ln|\Sigma| + \frac{1}{2} n
 $$
 
-where $X$ is an $n \times 1$ [random vector](/D/rvec). Thus, we can plug the distribution parameters from \eqref{eq:matn} into the differential entropy in \eqref{eq:mvn-dent} using the relationship given by \eqref{eq:matn-mvn}:
+where $X$ is an $n$-dimensional [random vector](/D/rvec). Thus, we can plug the distribution parameters from \eqref{eq:matn} into the differential entropy in \eqref{eq:mvn-dent} using the relationship given by \eqref{eq:matn-mvn}:
 
 $$ \label{eq:matn-dent-s1}
 \mathrm{h}(X) = \frac{np}{2} \ln(2\pi) + \frac{1}{2} \ln|V \otimes U| + \frac{1}{2} np \; .

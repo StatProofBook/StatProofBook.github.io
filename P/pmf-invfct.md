@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be an $n \times 1$ [random vector](/D/rvec) of [discrete random variables](/D/rvar-disc) with possible outcomes $\mathcal{X}$ and let $g: \; \mathbb{R}^n \rightarrow \mathbb{R}^n$ be an invertible function on the support of $X$. Then, the [probability mass function](/D/pmf) of $Y = g(X)$ is given by
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) of [discrete random variables](/D/rvar-disc) with possible outcomes $\mathcal{X}$ and let $g: \; \mathbb{R}^n \rightarrow \mathbb{R}^n$ be an invertible function on the support of $X$. Then, the [probability mass function](/D/pmf) of $Y = g(X)$ is given by
 
 $$ \label{eq:pmf-invfct}
 f_Y(y) = \left\{

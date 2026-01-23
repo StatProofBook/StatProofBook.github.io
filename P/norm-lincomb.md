@@ -42,7 +42,7 @@ $$
 with mean and variance which are functions of the individual means and variances.
 
 
-**Proof:** A set of $n$ independent normal random variables $X_1, \ldots, X_n$ [is equivalent](/P/mvn-ind) to an $n \times 1$ [random vector](/D/rvec) $x$ following a [multivariate normal distribution](/D/mvn) with a diagonal [covariance matrix](/D/covmat). Therefore, we can write
+**Proof:** A set of $n$ independent normal random variables $X_1, \ldots, X_n$ [is equivalent](/P/mvn-ind) to an $n$-dimensional [random vector](/D/rvec) $x$ following a [multivariate normal distribution](/D/mvn) with a diagonal [covariance matrix](/D/covmat). Therefore, we can write
 
 $$ \label{eq:norm-mvn}
 X_i \sim \mathcal{N}(\mu_i, \sigma^2_i), \; i = 1, \ldots, n \quad \Rightarrow \quad x = \left[ \begin{array}{c} X_1 \\ \vdots \\ X_n \end{array} \right] \sim \mathcal{N}(\mu, \Sigma)

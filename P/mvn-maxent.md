@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-05-21 14:24:00
 
 title: "Multivariate normal distribution maximizes differential entropy for fixed covariance"
@@ -64,7 +64,7 @@ $$ \label{eq:int-fg-s2}
 \int_{\mathcal{X}} f(x) \log g(x) \, \mathrm{d}x = - \frac{n}{2} \log (2 \pi) - \frac{1}{2} \log |\Sigma| - \frac{1}{2} \left\langle (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right\rangle_{f(x)} \; .
 $$
 
-Using the [expectation of a trace](/D/mean-tr) and the [definition of the covariance matrix](/D/covmat), the second term can be developed as follows:
+Using the [expectation of a trace](/P/mean-tr) and the [definition of the covariance matrix](/D/covmat), the second term can be developed as follows:
 
 $$ \label{eq:int-fg-s3}
 \begin{split}

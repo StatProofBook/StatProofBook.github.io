@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-07-04 13:12:00
 
 title: "Variance of the coefficient of determination under the null hypothesis"
@@ -40,7 +40,7 @@ $$ \label{eq:rsq-dist}
 R^2 \sim \mathrm{Bet}\left( \frac{p-1}{2}, \frac{n-p}{2} \right) \; .
 $$
 
-Using the [variance of the beta distribution](/P/var-beta)
+Using the [variance of the beta distribution](/P/beta-var)
 
 $$ \label{eq:beta-var}
 X \sim \mathrm{Bet}(\alpha, \beta) \\

@@ -141,7 +141,7 @@ $$ \label{eq:cochran-p2}
 Q_j \sim \chi^2(r_j), \; j = 1, \ldots, m \; .
 $$
 
-Let $U$ be the $n \times 1$ column vector of all observations
+Let $U$ be the $n$-dimensional column vector of all observations
 
 $$ \label{eq:U}
 U = \left[ \begin{matrix} u_1 \\ \vdots \\ u_k \end{matrix} \right]

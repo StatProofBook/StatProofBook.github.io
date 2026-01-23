@@ -160,7 +160,7 @@ To this sum, [Cochran's theorem for one-way analysis of variance can be applied]
 $$ \label{eq:anova1-repara-c3-qed}
 \begin{split}
 \frac{1}{\sigma^2} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (y_{ij} - \bar{y}_i)^2 &\sim \chi^2(n-k) \\
-\frac{1}{\sigma^2} \sum_{i=1}^{k} \sum_{j=1}^{n_i} ([\bar{y}_i - \bar{y}] - \delta_i)^2 \overset{\eqref{eq:anova1-repara-c2-qed}}{=} \frac{1}{\sigma^2} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (\hat{\delta}_i - \delta_i)^2 &\sim \chi^2(k-1) \; .
+\frac{1}{\sigma^2} \sum_{i=1}^{k} \sum_{j=1}^{n_i} ([\bar{y}_i - \bar{y}] - \delta_i)^2 \overset{\eqref{eq:anova1-repara-rss-der-delta-zero}}{=} \frac{1}{\sigma^2} \sum_{i=1}^{k} \sum_{j=1}^{n_i} (\hat{\delta}_i - \delta_i)^2 &\sim \chi^2(k-1) \; .
 \end{split}
 $$
 

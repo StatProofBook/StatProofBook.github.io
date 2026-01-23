@@ -110,7 +110,7 @@ $$ \label{eq:vb-fe2-qed}
 \end{split}
 $$
 
-where the first term can be seen as an [accuracy term](/D/lme-anc) (= posterior expected log-likelihood) and the second term can be seen as a [complexity penalty](/D/lme-anc) (= divergence of posterior from prior distribution);
+where the first term can be seen as an [accuracy term](/P/lme-anc) (= posterior expected log-likelihood) and the second term can be seen as a [complexity penalty](/P/lme-anc) (= divergence of posterior from prior distribution);
 
 3) the sum of expected joint log-likelihood and approximate posterior entropy
 

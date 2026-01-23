@@ -52,7 +52,7 @@ $$ \label{eq:mvn-KL}
 \mathrm{KL}[P\,||\,Q] = \frac{1}{2} \left[ (\mu_2 - \mu_1)^T \Sigma_2^{-1} (\mu_2 - \mu_1) + \mathrm{tr}(\Sigma_2^{-1} \Sigma_1) - \ln \frac{|\Sigma_1|}{|\Sigma_2|} - n \right]
 $$
 
-where $X$ is an $n \times 1$ [random vector](/D/rvec).
+where $X$ is an $n$-dimensional [random vector](/D/rvec).
 
 Thus, we can plug the distribution parameters from \eqref{eq:matns} into the KL divergence in \eqref{eq:mvn-KL} using the relationship given by \eqref{eq:matn-mvn}
 

@@ -3,15 +3,15 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-08-29 13:44:11
 
 title: "Partition of a cross-covariance matrix into expected values"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
-theorem: "Cross-covariance matrix and expected values"
+topic: "Covariance matrix"
+theorem: "Cross-covariance and expected values"
 
 sources:
 

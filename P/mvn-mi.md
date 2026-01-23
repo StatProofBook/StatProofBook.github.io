@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2024-11-01 12:36:44
 
 title: "Mutual information of the multivariate normal distribution"
@@ -58,7 +58,7 @@ $$ \label{eq:mvn-marg}
 X_1 \sim \mathcal{N}\left( \mu_1, \Sigma_{11} \right) \; ,
 $$
 
-such that the [marginals](/D/marg) of $X$ and $Y$ are:
+such that the [marginals](/D/dist-marg) of $X$ and $Y$ are:
 
 $$ \label{eq:X-Y-marg}
 X \sim \mathcal{N}\left( \mu_1, \Sigma_1 \right)

@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2024-05-03 14:37:33
 
 title: "Specific t-test for single regressor in multiple linear regression"
@@ -48,7 +48,7 @@ $$ \label{eq:mlr-t-single}
 t_j = \frac{\hat{\beta}_j}{\sqrt{\left( \hat{\varepsilon}^\mathrm{T} V^{-1} \hat{\varepsilon} \right)/(n-p) \; \sigma_{jj}}}
 $$
 
-with the $n \times 1$ [vector of residuals](/P/mlr-mat)
+with the $n$-dimensional [vector of residuals](/P/mlr-mat)
 
 $$ \label{eq:mlr-eps-est}
 \hat{\varepsilon} = y - X\hat{\beta}

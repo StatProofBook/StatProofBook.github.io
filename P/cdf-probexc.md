@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2024-09-06 10:27:35
 
 title: "Exceedance probability for a random variable in terms of cumulative distribution function"
@@ -50,8 +50,8 @@ Using the [second axiom of probability](/D/prob-ax), we have:
 
 $$ \label{eq:cdf-prob-exc-s1}
 \begin{split}
-P(\Omega) &= 1 \\
-P\left( \left\lbrace X \mid X > x \right\rbrace \cup \left\lbrace X \mid X \leq x \right\rbrace \right) &= 1 \; .
+p(\Omega) &= 1 \\
+p\left( \left\lbrace X \mid X > x \right\rbrace \cup \left\lbrace X \mid X \leq x \right\rbrace \right) &= 1 \; .
 \end{split}
 $$
 
@@ -59,8 +59,8 @@ Using the [third axiom of probability](/D/prob-ax), we get:
 
 $$ \label{eq:cdf-prob-exc-s2}
 \begin{split}
-P\left( \left\lbrace X \mid X > x \right\rbrace \right) + P\left( \left\lbrace X \mid X \leq x \right\rbrace \right) &= 1 \\
-P\left( \left\lbrace X \mid X > x \right\rbrace \right) &= 1 - P\left( \left\lbrace X \mid X \leq x \right\rbrace \right) \\
+p\left( \left\lbrace X \mid X > x \right\rbrace \right) + p\left( \left\lbrace X \mid X \leq x \right\rbrace \right) &= 1 \\
+p\left( \left\lbrace X \mid X > x \right\rbrace \right) &= 1 - p\left( \left\lbrace X \mid X \leq x \right\rbrace \right) \\
 \mathrm{Pr}(X > x) &= 1 - \mathrm{Pr}(X \leq x) \; .
 \end{split}
 $$

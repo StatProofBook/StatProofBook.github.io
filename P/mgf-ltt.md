@@ -10,7 +10,7 @@ date: 2020-08-19 08:09:00
 title: "Linear transformation theorem for the moment-generating function"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Other probability functions"
+topic: "Moment-generating function"
 theorem: "Moment-generating function of linear transformation"
 
 sources:
@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be an $n \times 1$ [random vector](/D/rvec) with the [moment-generating function](/D/mgf) $M_X(t)$. Then, the moment-generating function of the linear transformation $Y = A X + b$ is given by
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) with the [moment-generating function](/D/mgf) $M_X(t)$. Then, the moment-generating function of the linear transformation $Y = A X + b$ is given by
 
 $$ \label{eq:mgf-ltt}
 M_Y(t) = \exp \left[ t^\mathrm{T} b \right] \cdot M_X(At)

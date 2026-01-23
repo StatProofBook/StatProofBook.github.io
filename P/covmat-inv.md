@@ -10,7 +10,7 @@ date: 2022-09-22 11:29:00
 title: "Invariance of the covariance matrix under addition of constant vector"
 chapter: "General Theorems"
 section: "Probability theory"
-topic: "Covariance"
+topic: "Covariance matrix"
 theorem: "Invariance under addition of vector"
 
 sources:

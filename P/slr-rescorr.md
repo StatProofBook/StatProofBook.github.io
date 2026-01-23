@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** In [simple linear regression](/D/slr), the [residuals](/D/rss) and the [covariate](/D/slr) are [uncorrelated](/D/corr) when estimated using [ordinary least squares](/P/slr-ols).
+**Theorem:** In [simple linear regression](/D/slr), the [residuals](/D/rss) and the [covariate](/D/slr) are [uncorrelated](/D/corr) when [estimated using ordinary least squares](/P/slr-ols).
 
 **Proof:** The residuals are defined as the estimated [error terms](/D/slr)
 
@@ -35,7 +35,7 @@ $$ \label{eq:slr-res}
 \hat{\varepsilon}_i = y_i - \hat{\beta}_0 - \hat{\beta}_1 x_i
 $$
 
-where $\hat{\beta}_0$ and $\hat{\beta}_1$ are parameter estimates obtained using [ordinary least squares](/P/slr-ols):
+where $\hat{\beta}_0$ and $\hat{\beta}_1$ are parameter estimates [obtained using ordinary least squares](/P/slr-ols):
 
 $$ \label{eq:slr-ols}
 \hat{\beta}_0 = \bar{y} - \hat{\beta}_1 \bar{x} \quad \text{and} \quad \hat{\beta}_1 = \frac{s_{xy}}{s_x^2} \; .
@@ -60,4 +60,4 @@ $$ \label{eq:slr-rescorr}
 \end{split}
 $$
 
-Because an inner product of zero also implies zero [correlation](/D/corr), this demonstrates that [residuals](/D/rss) and [covariate](/D/slr) values are uncorrelated under [ordinary least squares](/P/slr-ols).
+Because an inner product of zero also implies zero [correlation](/D/corr), this demonstrates that [residuals](/D/rss) and [covariate](/D/slr) values are uncorrelated [under ordinary least squares](/P/slr-ols).

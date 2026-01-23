@@ -27,12 +27,12 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be an $1 \times k$ [random vector](/D/rvec). Assume two [Dirichlet distributions](/D/dir) $P$ and $Q$ specifying the probability distribution of $x$ as
+**Theorem:** Let $X$ be an $1 \times k$ [random vector](/D/rvec). Assume two [Dirichlet distributions](/D/dir) $P$ and $Q$ specifying the probability distribution of $X$ as
 
 $$ \label{eq:dirs}
 \begin{split}
-P: \; x &\sim \mathrm{Dir}(\alpha_1) \\
-Q: \; x &\sim \mathrm{Dir}(\alpha_2) \; .
+P: \; X &\sim \mathrm{Dir}(\alpha_1) \\
+Q: \; X &\sim \mathrm{Dir}(\alpha_2) \; .
 \end{split}
 $$
 
@@ -74,7 +74,7 @@ $$
 Using the [expected value of a logarithmized Dirichlet variate](/P/dir-logmean)
 
 $$ \label{eq:dir-logmean}
-x \sim \mathrm{Dir}(\alpha) \quad \Rightarrow \quad \left\langle \ln x_i \right\rangle = \psi(\alpha_i) - \psi\left(\sum_{i=1}^{k} \alpha_i\right) \; ,
+X \sim \mathrm{Dir}(\alpha) \quad \Rightarrow \quad \left\langle \ln x_i \right\rangle = \psi(\alpha_i) - \psi\left(\sum_{i=1}^{k} \alpha_i\right) \; ,
 $$
 
 the Kullback-Leibler divergence from \eqref{eq:dir-KL-s2} becomes:

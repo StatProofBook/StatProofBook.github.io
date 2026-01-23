@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2024-01-19 08:42:32
 
 title: "Conjugate prior distribution for Bayesian linear regression with known covariance"
@@ -40,7 +40,7 @@ $$ \label{eq:GLM}
 y = X \beta + \varepsilon, \; \varepsilon \sim \mathcal{N}(0, \Sigma)
 $$
 
-be a [linear regression model](/D/mlr) with measured $n \times 1$ data vector $y$, known $n \times p$ design matrix $X$ and known $n \times n$ covariance matrix $\Sigma$ as well as unknown $p \times 1$ regression coefficients $\beta$.
+be a [linear regression model](/D/mlr) with measured $n$-dimensional data vector $y$, known $n \times p$ design matrix $X$ and known $n \times n$ covariance matrix $\Sigma$ as well as unknown $p \times 1$ regression coefficients $\beta$.
 
 Then, the [conjugate prior](/D/prior-conj) for this model is a [multivariate normal distribution](/D/mvn)
 

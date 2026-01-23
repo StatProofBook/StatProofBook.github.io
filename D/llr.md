@@ -3,8 +3,8 @@ layout: definition
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2024-06-14 14:45:06
 
 title: "Log-likelihood ratio"

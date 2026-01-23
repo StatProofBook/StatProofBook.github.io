@@ -108,7 +108,7 @@ m_2 &= \frac{\alpha \left( n + n m_1 - m_1 \right) + n m_1}{\alpha \frac{n}{m_1}
 m_2 \left( \frac{\alpha n}{m_1} + 1 \right) &= \alpha \left( n + n m_1 - m_1 \right) + n m_1 \\
 \alpha \left( n \frac{m_2}{m_1} - (n + n m_1 - m_1) \right) &= n m_1 - m_2 \\
 \alpha \left( n \left( \frac{m_2}{m_1} - m_1 - 1 \right) + m_1 \right) &= n m_1 - m_2 \\
-\alpha &= \frac{n m_1 - m_2}{n \left( \frac{m_2}{m_1} - m_1 - 1 \right) + m_1} \; .
+\hat{\alpha} &= \frac{n m_1 - m_2}{n \left( \frac{m_2}{m_1} - m_1 - 1 \right) + m_1} \; .
 \end{split}
 $$
 
@@ -116,7 +116,7 @@ Plugging this into equation \eqref{eq:beta-as-alpha}, one obtains for $\beta$:
 
 $$ \label{eq:binbeta-mome-beta}
 \begin{split}
-\beta &= \alpha \left( \frac{n}{m_1} - 1 \right) \\
+\beta &= \hat{\alpha} \left( \frac{n}{m_1} - 1 \right) \\
 \beta &= \left( \frac{n m_1 - m_2}{n \left( \frac{m_2}{m_1} - m_1 - 1 \right) + m_1} \right) \left( \frac{n}{m_1} - 1 \right) \\
 \beta &= \frac{n^2 - n m_1 - n \frac{m_2}{m_1} + m_2}{n \left( \frac{m_2}{m_1} - m_1 - 1 \right) + m_1} \\
 \hat{\beta} &= \frac{\left( n - m_1 \right)\left( n - \frac{m_2}{m_1} \right)}{n \left( \frac{m_2}{m_1} - m_1 - 1 \right) + m_1} \; .

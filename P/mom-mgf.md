@@ -39,7 +39,7 @@ where $n$ is a positive integer and $M_X^{(n)}(t)$ is the $n$-th derivative of $
 **Proof:** Using the [definition of the moment-generating function](/D/mgf), we can write:
 
 $$ \label{eq:mom-mgf-s1}
-M_X^{(n)}(t) = \frac{\mathrm{d}^n}{\mathrm{d}t^n} \mathrm{E}(e^{tX}) \; .
+M_X^{(n)}(t) = \frac{\mathrm{d}^n}{\mathrm{d}t^n} \mathrm{E}\left( e^{tX} \right) \; .
 $$
 
 Using the power series expansion of the exponential function

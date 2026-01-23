@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be an $n \times 1$ [random vector](/D/rvec) and let $Y$ be a positive [random variable](/D/rvar). Then, $X$ and $Y$ are said to follow a normal-gamma distribution
+**Definition:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) and let $Y$ be a positive [random variable](/D/rvar). Then, $X$ and $Y$ are said to follow a normal-gamma distribution
 
 $$ \label{eq:ng}
 X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; ,

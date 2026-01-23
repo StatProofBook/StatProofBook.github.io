@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be an $n \times 1$ [random vector](/D/rvec). Then, $X$ is said to follow a multivariate $t$-distribution with mean $\mu$, scale matrix $\Sigma$ and degrees of freedom $\nu$
+**Definition:** Let $X$ be an $n$-dimensional [random vector](/D/rvec). Then, $X$ is said to follow a multivariate $t$-distribution with mean $\mu$, scale matrix $\Sigma$ and degrees of freedom $\nu$
 
 $$ \label{eq:mvt}
 X \sim t(\mu, \Sigma, \nu) \; ,
@@ -40,4 +40,4 @@ $$ \label{eq:mvt-pdf}
 t(x; \mu, \Sigma, \nu) = \sqrt{\frac{1}{(\nu \pi)^{n} |\Sigma|}} \, \frac{\Gamma([\nu+n]/2)}{\Gamma(\nu/2)} \, \left[ 1 + \frac{1}{\nu} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right]^{-(\nu+n)/2}
 $$
 
-where $\mu$ is an $n \times 1$ real vector, $\Sigma$ is an $n \times n$ positive-definite matrix and $\nu > 0$.
+where $\mu$ is an $n$-dimensional real vector, $\Sigma$ is an $n \times n$ positive-definite matrix and $\nu > 0$.

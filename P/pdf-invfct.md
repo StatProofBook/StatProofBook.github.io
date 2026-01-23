@@ -57,7 +57,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be an $n \times 1$ [random vector](/D/rvec) of [continuous random variables](/D/rvar-disc) with possible outcomes $\mathcal{X} \subseteq \mathbb{R}^n$ and let $g: \; \mathbb{R}^n \rightarrow \mathbb{R}^n$ be an invertible and differentiable function on the support of $X$. Then, the [probability density function](/D/pdf) of $Y = g(X)$ is given by
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) of [continuous random variables](/D/rvar-disc) with possible outcomes $\mathcal{X} \subseteq \mathbb{R}^n$ and let $g: \; \mathbb{R}^n \rightarrow \mathbb{R}^n$ be an invertible and differentiable function on the support of $X$. Then, the [probability density function](/D/pdf) of $Y = g(X)$ is given by
 
 $$ \label{eq:pdf-invfct}
 f_Y(y) = \left\{

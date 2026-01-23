@@ -33,7 +33,7 @@ z_x = \Phi^{-1}(1 - x)
 \quad \Leftrightarrow \quad
 \Phi(z_x) = 1 - x
 \quad \Leftrightarrow \quad
-\mathbb{P}(Z \leq z_x) = 1 - x \Leftrightarrow \mathbb{P}(z_x \leq Z) = x \; .
+\mathrm{Pr}(Z \leq z_x) = 1 - x \Leftrightarrow \mathrm{Pr}(z_x \leq Z) = x \; .
 $$
 
 1) One-sided one-sample t-test:
@@ -97,20 +97,20 @@ $$
 So the [power](/D/power) of the test is
 
 $$ \label{eq:one-sided-power-prob}
-\mathbb{P}\left(\frac{\bar{Y} - \mu_0}{s/\sqrt{n}} > z_\alpha\right) \; .
+\mathrm{Pr}\left(\frac{\bar{Y} - \mu_0}{s/\sqrt{n}} > z_\alpha\right) \; .
 $$
 
 If the true mean is $\mu = \mu_0 + \delta$, where $\delta > 0$, then the power is
 
 $$ \label{eq:one-sided-power-shift}
-\mathbb{P}\left(\frac{\bar{Y} - \mu_0 - \delta}{s/\sqrt{n}} + \frac{\delta\sqrt{n}}{s} > z_\alpha\right) \; .
+\mathrm{Pr}\left(\frac{\bar{Y} - \mu_0 - \delta}{s/\sqrt{n}} + \frac{\delta\sqrt{n}}{s} > z_\alpha\right) \; .
 $$
 
 Now that we're subtracting the true mean, the first term in the sum has a [t-distribution](/D/t), which we approximate with a $\mathcal{N}(0,1)$ distribution, denoted as $Z$. We also approximate $s$ with $\sigma$, since it should be a good approximation, and the error here doesn't make much difference to the calculation. The power is therefore approximately
 
 $$ \label{eq:one-sided-power-final}
-  \mathbb{P}\left(Z > z_\alpha - \frac{\delta\sqrt{n}}{\sigma}\right)
-= \mathbb{P}\left(Z < \frac{\delta\sqrt{n}}{\sigma} - z_\alpha\right)
+  \mathrm{Pr}\left(Z > z_\alpha - \frac{\delta\sqrt{n}}{\sigma}\right)
+= \mathrm{Pr}\left(Z < \frac{\delta\sqrt{n}}{\sigma} - z_\alpha\right)
 = \Phi\left(\frac{\delta\sqrt{n}}{\sigma} - z_\alpha\right) \; .
 $$
 
@@ -151,13 +151,13 @@ $$
 So the [power](/D/power) of the test is
 
 $$ \label{eq:two-sided-power-prob}
-\mathbb{P}\left(\left(\frac{\bar{Y} - \mu_0}{s/\sqrt{n}} > z_{\alpha/2}\right) \wedge \left(\frac{\bar{Y} - \mu_0}{s/\sqrt{n}} < -z_{\alpha/2}\right)\right) \; .
+\mathrm{Pr}\left(\left(\frac{\bar{Y} - \mu_0}{s/\sqrt{n}} > z_{\alpha/2}\right) \wedge \left(\frac{\bar{Y} - \mu_0}{s/\sqrt{n}} < -z_{\alpha/2}\right)\right) \; .
 $$
 
 If the true mean is $\mu = \mu_0 + \delta$ (where $\delta > 0$ without loss of generality), then the power is
 
 $$ \label{eq:two-sided-power-shift}
-\mathbb{P}\left(\left(\frac{\bar{Y} - \mu_0 - \delta}{s/\sqrt{n}} + \frac{\delta\sqrt{n}}{\sigma} > z_{\alpha/2}\right) \wedge \left(\frac{\bar{Y} - \mu_0 - \delta}{s/\sqrt{n}} + \frac{\delta\sqrt{n}}{\sigma} < -z_{\alpha/2}\right)\right) \; .
+\mathrm{Pr}\left(\left(\frac{\bar{Y} - \mu_0 - \delta}{s/\sqrt{n}} + \frac{\delta\sqrt{n}}{\sigma} > z_{\alpha/2}\right) \wedge \left(\frac{\bar{Y} - \mu_0 - \delta}{s/\sqrt{n}} + \frac{\delta\sqrt{n}}{\sigma} < -z_{\alpha/2}\right)\right) \; .
 $$
 
 As before, we use a $\mathcal{N}(0,1)$ distribution and we approximate $s$ with $\sigma$. The power is therefore approximately

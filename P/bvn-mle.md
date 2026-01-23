@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-06-20 12:16:00
 
 title: "Maximum likelihood estimation for bivariate normally distributed data"
@@ -46,7 +46,7 @@ $$ \label{eq:mvn-data}
 y_i = \left[ \begin{matrix} y_{i1} \\ \vdots \\ y_{ip} \end{matrix} \right] \sim \mathcal{N}\left( \mu, \Sigma \right), \quad i = 1, \ldots, n
 $$
 
-for which [maximum likelihood estimates are given by](/D/mvn-mle)
+for which [maximum likelihood estimates are given by](/P/mvn-mle)
 
 $$ \label{eq:mvn-mle}
 \begin{split}

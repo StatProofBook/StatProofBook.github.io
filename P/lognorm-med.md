@@ -52,7 +52,7 @@ $$ \label{eq:erf}
 \mathrm{erf}(x) = \frac{2}{\sqrt{\pi}} \int_{0}^{x} \exp(-t^2) \, \mathrm{d}t \; .
 $$
 
-Thus, the inverse CDF is
+Thus, the inverse cumulative distribution function is
 
 $$ \label{eq:lognorm-cdf-inv}
 \begin{split}

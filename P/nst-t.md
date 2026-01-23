@@ -40,7 +40,7 @@ $$ \label{eq:nst-mvt}
 X \sim \mathrm{nst}(\mu, \sigma^2, \nu) \quad \Rightarrow \quad X \sim t(\mu, \sigma^2, \nu) \; .
 $$
 
-Therefore, we can apply the [linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt) for an $n \times 1$ random vector $x$:
+Therefore, we can apply the [linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt) for an $n$-dimensional random vector $x$:
 
 $$ \label{eq:mvt-ltt}
 x \sim t(\mu, \Sigma, \nu) \quad \Rightarrow \quad y = Ax + b \sim t(A\mu + b, A \Sigma A^\mathrm{T}, \nu) \; .

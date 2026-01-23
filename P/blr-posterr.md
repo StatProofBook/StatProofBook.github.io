@@ -3,8 +3,8 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2024-04-05 16:07:25
 
 title: "Expression of the noise precision posterior for Bayesian linear regression using prediction and parameter errors"
@@ -89,4 +89,4 @@ b_n &\overset{\eqref{eq:GLM-NG-post-par}}{=} b_0 + \frac{1}{2} \left( y^\mathrm{
 \end{split}
 $$
 
-Together with equation (\ref{eq:GLM-NG-post-par}c), this completes the proof.
+Together with equation $a_n$ from \eqref{eq:GLM-NG-post-par}, this completes the proof.

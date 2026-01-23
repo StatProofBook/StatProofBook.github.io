@@ -3,15 +3,15 @@ layout: proof
 mathjax: true
 
 author: "Joram Soch"
-affiliation: "BCCN Berlin"
-e_mail: "joram.soch@bccn-berlin.de"
+affiliation: "OvGU Magdeburg"
+e_mail: "joram.soch@ovgu.de"
 date: 2025-08-29 13:57:56
 
 title: "Expectation of a bilinear form"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Expected value"
-theorem: "Expectation of a bilinear form "
+theorem: "Expectation of a bilinear form"
 
 sources:
 
