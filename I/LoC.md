@@ -546,6 +546,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Definition](/D/mvt)*
 - **[Probability density function](/P/mvt-pdf)**
 - **[Relationship to F-distribution](/P/mvt-f)**
+- **[Marginal distributions](/P/mvt-marg)**
 ### Normal-gamma distribution
 - *[Definition](/D/ng)*
 - **[Special case of normal-Wishart distribution](/P/ng-nw)**
@@ -569,6 +570,9 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Probability density function](/P/matn-pdf)**
 - **[Mean](/P/matn-mean)**
 - **[Covariance](/P/matn-cov)**
+- **[Cross-covariances](/P/matn-ccm)**
+- **[Expectation of quadratic forms](/P/matn-meanqf)**
+- **[Second-order expectations](/P/matn-meanso)**
 - **[Differential entropy](/P/matn-dent)**
 - **[Kullback-Leibler divergence](/P/matn-kl)**
 - **[Transposition](/P/matn-trans)**
