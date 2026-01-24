@@ -3,7 +3,8 @@
 Index Generator for The Book of Statistical Proofs
 _
 This script loads all files from the proof/definition directories and
-- checks if they are in "Table of Contents" (structured overview)
+- checks if they are in the "List of Contents" (structured overview)
+- writes them into the "Table of Contents" (numerically structured)
 - writes them as a list into "Proof by Number" (chronological list)
 - writes them as a list into "Proof by Topic" (an alphabetical list)
 - writes them as a list into "Proof by Author" (sorted by contributor)
@@ -17,7 +18,7 @@ Author: Joram Soch, BCCN Berlin
 E-Mail: joram.soch@bccn-berlin.de
 
 First edit: 2019-09-27 12:55:00
- Last edit: 2025-12-12 16:06:00
+ Last edit: 2026-01-24 16:02:00
 """
 
 

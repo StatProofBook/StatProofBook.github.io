@@ -677,6 +677,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.3.1. *[Definition](/D/mvt)* <br>
    &emsp;&ensp; 4.3.2. **[Probability density function](/P/mvt-pdf)** <br>
    &emsp;&ensp; 4.3.3. **[Relationship to F-distribution](/P/mvt-f)** <br>
+   &emsp;&ensp; 4.3.4. **[Marginal distributions](/P/mvt-marg)** <br>
    
    <p id="Normal-gamma distribution"></p>
    4.4. Normal-gamma distribution <br>
@@ -707,14 +708,17 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.3. **[Probability density function](/P/matn-pdf)** <br>
    &emsp;&ensp; 5.1.4. **[Mean](/P/matn-mean)** <br>
    &emsp;&ensp; 5.1.5. **[Covariance](/P/matn-cov)** <br>
-   &emsp;&ensp; 5.1.6. **[Differential entropy](/P/matn-dent)** <br>
-   &emsp;&ensp; 5.1.7. **[Kullback-Leibler divergence](/P/matn-kl)** <br>
-   &emsp;&ensp; 5.1.8. **[Transposition](/P/matn-trans)** <br>
-   &emsp;&ensp; 5.1.9. **[Linear transformation](/P/matn-ltt)** <br>
-   &emsp;&ensp; 5.1.10. **[Marginal distributions](/P/matn-marg)** <br>
-   &emsp;&ensp; 5.1.11. **[Redundancy of parameters](/P/matn-red)** (1) <br>
-   &emsp;&ensp; 5.1.12. **[Redundancy of parameters](/P/matn-red2)** (2) <br>
-   &emsp;&ensp; 5.1.13. **[Drawing samples](/P/matn-samp)** <br>
+   &emsp;&ensp; 5.1.6. **[Cross-covariances](/P/matn-ccm)** <br>
+   &emsp;&ensp; 5.1.7. **[Expectation of quadratic forms](/P/matn-meanqf)** <br>
+   &emsp;&ensp; 5.1.8. **[Second-order expectations](/P/matn-meanso)** <br>
+   &emsp;&ensp; 5.1.9. **[Differential entropy](/P/matn-dent)** <br>
+   &emsp;&ensp; 5.1.10. **[Kullback-Leibler divergence](/P/matn-kl)** <br>
+   &emsp;&ensp; 5.1.11. **[Transposition](/P/matn-trans)** <br>
+   &emsp;&ensp; 5.1.12. **[Linear transformation](/P/matn-ltt)** <br>
+   &emsp;&ensp; 5.1.13. **[Marginal distributions](/P/matn-marg)** <br>
+   &emsp;&ensp; 5.1.14. **[Redundancy of parameters](/P/matn-red)** (1) <br>
+   &emsp;&ensp; 5.1.15. **[Redundancy of parameters](/P/matn-red2)** (2) <br>
+   &emsp;&ensp; 5.1.16. **[Drawing samples](/P/matn-samp)** <br>
    
    <p id="Wishart distribution"></p>
    5.2. Wishart distribution <br>
