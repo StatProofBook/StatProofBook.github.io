@@ -51,15 +51,15 @@ $$
 **Proof:** The [linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt) states
 
 $$ \label{eq:mvt-ltt}
-x \sim t(\mu, \Sigma, \nu) \quad \Rightarrow \quad y = Ax + b \sim t(A\mu + b, A \Sigma A^\mathrm{T}, \nu)
+X \sim t(\mu, \Sigma, \nu) \quad \Rightarrow \quad Y = A X + b \sim t(A\mu + b, A \Sigma A^\mathrm{T}, \nu)
 $$
 
 where $x$ is an $n$-dimensional [random vector](/D/rvec) following a [multivariate t-distribution](/D/mvt), $A$ is an $m \times n$ matrix and $b$ is an $m \times 1$ vector. Define the following quantities
 
 $$ \label{eq:YZ}
 \begin{split}
-Y = \Sigma^{-1/2} (X-\mu) = \Sigma^{-1/2} X - \Sigma^{-1/2} \mu \\
-Z = Y^\mathrm{T} Y / n = (X-\mu)^\mathrm{T} \, \Sigma^{-1} (X-\mu)/n
+Y &= \Sigma^{-1/2} (X-\mu) = \Sigma^{-1/2} X - \Sigma^{-1/2} \mu \\
+Z &= Y^\mathrm{T} Y / n = (X-\mu)^\mathrm{T} \, \Sigma^{-1} (X-\mu)/n
 \end{split}
 $$
 
@@ -67,9 +67,10 @@ where $\Sigma^{-1/2}$ is a matrix square root of the inverse of $\Sigma$. Then, 
 
 $$ \label{eq:Y-dist}
 \begin{split}
-Y &\sim t(\Sigma^{-1/2} \mu - \Sigma^{-1/2} \mu, \Sigma^{-1/2} \Sigma \, \Sigma^{-1/2}, \nu) \\
-&= t(0_n, \Sigma^{-1/2} \Sigma^{1/2} \Sigma^{1/2} \Sigma^{-1/2}, \nu) \\
-&= t(0_n, I_n, \nu) \; ,
+      Y
+&\sim t(\Sigma^{-1/2} \mu - \Sigma^{-1/2} \mu, \Sigma^{-1/2} \Sigma \, \Sigma^{-1/2}, \nu) \\
+&\sim t(0_n, \Sigma^{-1/2} \Sigma^{1/2} \Sigma^{1/2} \Sigma^{-1/2}, \nu) \\
+&\sim t(0_n, I_n, \nu) \; ,
 \end{split}
 $$
 

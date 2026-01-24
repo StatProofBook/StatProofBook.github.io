@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) follow a [multivariate t-distribution](/D/mvt):
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) following a [multivariate t-distribution](/D/mvt):
 
 $$ \label{eq:mvt}
 X \sim t(\mu, \Sigma, \nu) \; .
@@ -36,7 +36,7 @@ $$
 Then, the [marginal distribution](/D/dist-marg) of any $m$-dimensional subset vector $X_s$ is also a multivariate t-distribution
 
 $$ \label{eq:mvt-marg}
-X_s \sim \mathcal{N}(\mu_s, \Sigma_s, \nu)
+X_s \sim t(\mu_s, \Sigma_s, \nu)
 $$
 
 where $\mu_s$ drops the irrelevant variables (the ones not in the subset, i.e. marginalized out) from the mean vector $\mu$ and $\Sigma_s$ drops the corresponding rows and columns from the covariance matrix $\Sigma$.
@@ -51,7 +51,7 @@ $$
 and we can apply the [linear transformation theorem](/P/mvt-ltt) to give
 
 $$ \label{eq:mvt-marg-qed}
-X_s \sim \mathcal{N}(S \mu, S \Sigma S^\mathrm{T}, \nu) \; .
+X_s \sim t(S \mu, S \Sigma S^\mathrm{T}, \nu) \; .
 $$
 
 Finally, we see that $S \mu = \mu_s$ and $S \Sigma S^\mathrm{T} = \Sigma_s$.

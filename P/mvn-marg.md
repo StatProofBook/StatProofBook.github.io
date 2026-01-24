@@ -21,31 +21,31 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ follow a [multivariate normal distribution](/D/mvn):
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn):
 
 $$ \label{eq:mvn}
-x \sim \mathcal{N}(\mu, \Sigma) \; .
+X \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Then, the [marginal distribution](/D/dist-marg) of any subset vector $x_s$ is also a multivariate normal distribution
+Then, the [marginal distribution](/D/dist-marg) of any $m$-dimensional subset vector $X_s$ is also a multivariate normal distribution
 
 $$ \label{eq:mvn-marg}
-x_s \sim \mathcal{N}(\mu_s, \Sigma_s)
+X_s \sim \mathcal{N}(\mu_s, \Sigma_s)
 $$
 
 where $\mu_s$ drops the irrelevant variables (the ones not in the subset, i.e. marginalized out) from the mean vector $\mu$ and $\Sigma_s$ drops the corresponding rows and columns from the covariance matrix $\Sigma$.
 
 
-**Proof:** Define an $m \times n$ subset matrix $S$ such that $s_{ij} = 1$, if the $j$-th element in $x_s$ corresponds to the $i$-th element in $x$, and $s_{ij} = 0$ otherwise. Then,
+**Proof:** Define an $m \times n$ subset matrix $S$ such that $s_{ij} = 1$, if the $j$-th element in $X_s$ corresponds to the $i$-th element in $X$, and $s_{ij} = 0$ otherwise. Then,
 
 $$ \label{eq:xs}
-x_s = S x
+X_s = S X
 $$
 
 and we can apply the [linear transformation theorem](/P/mvn-ltt) to give
 
 $$ \label{eq:mvn-marg-qed}
-x_s \sim \mathcal{N}(S \mu, S \Sigma S^\mathrm{T}) \; .
+X_s \sim \mathcal{N}(S \mu, S \Sigma S^\mathrm{T}) \; .
 $$
 
 Finally, we see that $S \mu = \mu_s$ and $S \Sigma S^\mathrm{T} = \Sigma_s$.
