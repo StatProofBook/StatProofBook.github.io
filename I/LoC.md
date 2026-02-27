@@ -203,6 +203,9 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[First central moment is zero](/P/momcent-1st)**
 - **[Second central moment is variance](/P/momcent-2nd)**
 - *[Standardized moment](/D/mom-stand)*
+- **[First standardized moment is zero](/P/momstand-1st)**
+- **[Second standardized moment is one](/P/momstand-2nd)**
+- **[Third standardized moment is skewness](/P/momstand-3rd)**
 ## Information theory
 ### Shannon entropy
 - *[Definition](/D/ent)*
