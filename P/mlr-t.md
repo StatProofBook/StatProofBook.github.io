@@ -55,7 +55,7 @@ $$
 and a [t-contrast](/D/tcon) on the model parameters
 
 $$ \label{eq:tcon}
-\gamma = c^\mathrm{T} \beta \quad \text{where} \quad c \in \mathbb{R}^{p \times 1} \; .
+\gamma = c^\mathrm{T} \beta \quad \text{where} \quad c \in \mathbb{R}^p \; .
 $$
 
 Then, the [test statistic](/D/tstat)

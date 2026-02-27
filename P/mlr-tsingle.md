@@ -95,8 +95,9 @@ and the test statistic becomes
 
 $$ \label{eq:mlr-t-single-qed}
 \begin{split}
-t_j &= \frac{e_j^\mathrm{T} \hat{\beta}}{\sqrt{\hat{\sigma}^2 e_j^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} e_j}} \\
-&= \frac{\left[ 0, \ldots, 0, 1, 0, \ldots, 0 \right] \left[ \hat{\beta}_1, \ldots, \beta_{j-1}, \beta_j, \beta_{j+1}, \ldots, \hat{\beta}_p \right]^\mathrm{T}}{\sqrt{\frac{1}{n-p} (y-X\hat{\beta})^\mathrm{T} V^{-1} (y-X\hat{\beta}) \left[ 0, \ldots, 1, \ldots, 0 \right] (X^\mathrm{T} V^{-1} X)^{-1} \left[ 0, \ldots, 1, \ldots, 0 \right]^\mathrm{T}}} \\
+   t_j
+&= \frac{e_j^\mathrm{T} \hat{\beta}}{\sqrt{\hat{\sigma}^2 e_j^\mathrm{T} (X^\mathrm{T} V^{-1} X)^{-1} e_j}} \\
+&= \frac{\left[ 0, \ldots, 0, 1, 0, \ldots, 0 \right] \left[ \hat{\beta}_1, \ldots, \hat{\beta}_{j-1}, \hat{\beta}_j, \hat{\beta}_{j+1}, \ldots, \hat{\beta}_p \right]^\mathrm{T}}{\sqrt{\frac{1}{n-p} (y-X\hat{\beta})^\mathrm{T} V^{-1} (y-X\hat{\beta}) \left[ 0, \ldots, 1, \ldots, 0 \right] (X^\mathrm{T} V^{-1} X)^{-1} \left[ 0, \ldots, 1, \ldots, 0 \right]^\mathrm{T}}} \\
 &= \frac{\hat{\beta}_j}{\sqrt{\frac{1}{n-p} \left( \hat{\varepsilon}^\mathrm{T} V^{-1} \hat{\varepsilon} \right) \left[ \left( X^\mathrm{T} V^{-1} X \right)^{-1} \right]_{jj}}} \\
 &= \frac{\hat{\beta}_j}{\sqrt{\left( \hat{\varepsilon}^\mathrm{T} V^{-1} \hat{\varepsilon} \right)/(n-p) \; \sigma_{jj}}} \; .
 \end{split}

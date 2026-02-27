@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-10-08 05:13:00
 
-title: "Second central moment is variance"
+title: "The second central moment equals the variance"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Further moments"

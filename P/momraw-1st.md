@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-10-08 04:19:00
 
-title: "First raw moment is mean"
+title: "The first raw moment equals the mean"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Further moments"

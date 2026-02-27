@@ -69,7 +69,7 @@ J_{g^{-1}}(Y) = \left[ \begin{matrix}
 \frac{\mathrm{d}x_{21}}{\mathrm{d}y_{11}} & \frac{\mathrm{d}x_{21}}{\mathrm{d}y_{21}} & \ldots & \frac{\mathrm{d}x_{21}}{\mathrm{d}y_{pn}} \\
 \vdots                                    & \vdots                                    & \ddots & \vdots                                    \\
 \frac{\mathrm{d}x_{np}}{\mathrm{d}y_{11}} & \frac{\mathrm{d}x_{np}}{\mathrm{d}y_{21}} & \ldots & \frac{\mathrm{d}x_{np}}{\mathrm{d}y_{pn}}
-\end{matrix} \right] \in \mathbb{R}^{np} \; .
+\end{matrix} \right] \in \mathbb{R}^{np \times np} \; .
 $$
 
 Because by transposition, $y_{ji} = x_{ij}$, we have

@@ -18,13 +18,38 @@ sources:
     year: 2006
     title: "Marginal and conditional distributions of multivariate normal distribution"
     in: "Computer Image Processing and Analysis"
+    pages: "retrieved on 2020-03-20"
     url: "http://fourier.eng.hmc.edu/e161/lectures/gaussianprocess/node7.html"
+  - authors: "Dablander, Fabian"
+    year: 2019
+    title: "Two properties of the Gaussian distribution"
+    in: "Fabian Dablander: Blog"
+    pages: "retrieved on 2027-02-26"
+    url: "https://fabiandablander.com/statistics/Two-Properties.html"
+  - authors: "Hamilton, James D."
+    year: 1994
+    title: "The Kalman Filter"
+    in: "Time Series Analysis"
+    pages: "ch. 13, pp. 372ff."
+    url: "https://github.com/MatthewK84/Time-Series-Textbooks/blob/main/Hamilton%20Time%20Series%20Analysis.pdf"
   - authors: "Wikipedia"
     year: 2020
     title: "Multivariate normal distribution"
     in: "Wikipedia, the free encyclopedia"
     pages: "retrieved on 2020-03-20"
     url: "https://en.wikipedia.org/wiki/Multivariate_normal_distribution#Conditional_distributions"
+  - authors: "Wikipedia"
+    year: 2026
+    title: "Invertible matrix"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2026-02-27"
+    url: "https://en.wikipedia.org/wiki/Invertible_matrix#Blockwise_inversion"
+  - authors: "Wikipedia"
+    year: 2026
+    title: "Determinant"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2026-02-27"
+    url: "https://en.wikipedia.org/wiki/Determinant#Block_matrices"
 
 proof_id: "P88"
 shortcut: "mvn-cond"
@@ -194,7 +219,7 @@ p(x_1|x_2) = &\frac{1}{\sqrt{(2 \pi)^{n-n_2}}} \cdot \sqrt{\frac{|\Sigma_{22}|}{
 \end{split}
 $$
 
-where we have used the fact that $\Sigma_{21} = \Sigma_{12}^\mathrm{T}$, because $\Sigma$ is a [covariance matrix](/D/covmat).
+where we have used [the fact that](/P/covmat-symm) $\Sigma_{21} = \Sigma_{12}^\mathrm{T}$, because $\Sigma$ is a [covariance matrix](/D/covmat).
 
 <br>
 The determinant of a block matrix is

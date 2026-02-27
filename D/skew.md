@@ -27,7 +27,7 @@ username: "tomfaulkenberry"
 ---
 
 
-**Definition:** Let $X$ be a [random variable](/D/rvar) with [expected value](/D/mean) $\mu$ and [standard deviation](/D/std) $\sigma$. Then, the skewness of $X$ is defined as the third [standardized moment](/D/mom-stand) of $X$:
+**Definition:** Let $X$ be a [random variable](/D/rvar) with [expected value](/D/mean) $\mu$ and [standard deviation](/D/std) $\sigma$. Then, the skewness of $X$ is defined as the [expected value](/D/mean) of the cubed deviation from its [expected value](/D/mean), divided by its cubed [standard deviation](/D/std):
 
 $$ \label{eq:skew}
 \mathrm{Skew}(X) = \frac{\mathrm{E}[(X-\mu)^3]}{\sigma^3} \; .
