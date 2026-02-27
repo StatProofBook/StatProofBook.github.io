@@ -172,13 +172,13 @@ title: "Proof by Number"
 | P164 | gibbs-ineq | [Gibbs' inequality](/P/gibbs-ineq) | JoramSoch | 2020-09-09 |
 | P165 | logsum-ineq | [Log sum inequality](/P/logsum-ineq) | JoramSoch | 2020-09-09 |
 | P166 | kl-nonneg2 | [Non-negativity of the Kullback-Leibler divergence](/P/kl-nonneg2) | JoramSoch | 2020-09-09 |
-| P167 | momcent-1st | [First central moment is zero](/P/momcent-1st) | JoramSoch | 2020-09-09 |
+| P167 | momcent-1st | [The first central moment equals zero](/P/momcent-1st) | JoramSoch | 2020-09-09 |
 | P168 | wald-mgf | [Moment-generating function of the Wald distribution](/P/wald-mgf) | tomfaulkenberry | 2020-09-13 |
 | P169 | wald-mean | [Mean of the Wald distribution](/P/wald-mean) | tomfaulkenberry | 2020-09-13 |
 | P170 | wald-var | [Variance of the Wald distribution](/P/wald-var) | tomfaulkenberry | 2020-09-13 |
-| P171 | momraw-1st | [First raw moment is mean](/P/momraw-1st) | JoramSoch | 2020-10-08 |
+| P171 | momraw-1st | [The first raw moment equals the mean](/P/momraw-1st) | JoramSoch | 2020-10-08 |
 | P172 | momraw-2nd | [Relationship between second raw moment, variance and mean](/P/momraw-2nd) | JoramSoch | 2020-10-08 |
-| P173 | momcent-2nd | [Second central moment is variance](/P/momcent-2nd) | JoramSoch | 2020-10-08 |
+| P173 | momcent-2nd | [The second central moment equals the variance](/P/momcent-2nd) | JoramSoch | 2020-10-08 |
 | P174 | chi2-gam | [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam) | kjpetrykowski | 2020-10-12 |
 | P175 | chi2-momraw | [Raw moments of the chi-squared distribution](/P/chi2-momraw) | kjpetrykowski | 2020-10-13 |
 | P176 | norm-snorm2 | [Relationship between normal distribution and standard normal distribution](/P/norm-snorm2) | JoramSoch | 2020-10-15 |
@@ -531,3 +531,6 @@ title: "Proof by Number"
 | P523 | matn-meanqf | [Expectation of quadratic forms for the matrix-normal distribution](/P/matn-meanqf) | JoramSoch | 2026-01-23 |
 | P524 | matn-meanso | [Second-order expectations for the matrix-normal distribution](/P/matn-meanso) | JoramSoch | 2026-01-23 |
 | P525 | mvt-marg | [Marginal distributions of the multivariate t-distribution](/P/mvt-marg) | JoramSoch | 2026-01-23 |
+| P526 | momstand-1st | [The first standardized moment equals zero](/P/momstand-1st) | JoramSoch | 2026-02-27 |
+| P527 | momstand-2nd | [The second standardized moment equals one](/P/momstand-2nd) | JoramSoch | 2026-02-27 |
+| P528 | momstand-3rd | [The third standardized moment equals the skewness](/P/momstand-3rd) | JoramSoch | 2026-02-27 |

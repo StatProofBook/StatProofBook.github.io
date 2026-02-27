@@ -250,6 +250,9 @@ title: "Table of Contents"
    &emsp;&ensp; 1.21.7. **[First central moment is zero](/P/momcent-1st)** <br>
    &emsp;&ensp; 1.21.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
    &emsp;&ensp; 1.21.9. *[Standardized moment](/D/mom-stand)* <br>
+   &emsp;&ensp; 1.21.10. **[First standardized moment is zero](/P/momstand-1st)** <br>
+   &emsp;&ensp; 1.21.11. **[Second standardized moment is one](/P/momstand-2nd)** <br>
+   &emsp;&ensp; 1.21.12. **[Third standardized moment is skewness](/P/momstand-3rd)** <br>
 
 2. <p id="Information theory">Information theory</p>
    
