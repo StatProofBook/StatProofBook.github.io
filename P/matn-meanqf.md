@@ -54,7 +54,7 @@ $$ \label{eq:matn-mean-XCX}
 $$
 
 
-**Proof:** The [expected value of a random matrix is equal to the matrix of expected values of the random variables](/D/mean-rmat):
+**Proof:** The [expected value of a random matrix is equal to the matrix of expected values](/D/mean-rmat):
 
 $$ \label{eq:mean-rmat}
   \mathrm{E}\left( \left[ \begin{array}{ccc} X_{11} & \ldots & X_{1p} \\ \vdots & \ddots & \vdots \\ X_{n1} & \ldots & X_{np} \end{array} \right] \right)

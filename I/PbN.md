@@ -527,3 +527,7 @@ title: "Proof by Number"
 | P519 | beta-med | [Median of the beta distribution](/P/beta-med) | JoramSoch | 2025-10-24 |
 | P520 | beta-mode | [Mode of the beta distribution](/P/beta-mode) | JoramSoch | 2025-10-24 |
 | P521 | chi2-gam2 | [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam2) | natrium-256 | 2026-01-02 |
+| P522 | matn-ccm | [Cross-covariance matrices of the matrix-normal distribution](/P/matn-ccm) | JoramSoch | 2026-01-23 |
+| P523 | matn-meanqf | [Expectation of quadratic forms for the matrix-normal distribution](/P/matn-meanqf) | JoramSoch | 2026-01-23 |
+| P524 | matn-meanso | [Second-order expectations for the matrix-normal distribution](/P/matn-meanso) | JoramSoch | 2026-01-23 |
+| P525 | mvt-marg | [Marginal distributions of the multivariate t-distribution](/P/mvt-marg) | JoramSoch | 2026-01-23 |

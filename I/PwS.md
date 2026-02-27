@@ -4,7 +4,7 @@ title: "Proofs without Source"
 ---
 
 
-### Missing source (184 proofs)
+### Missing source (185 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -19,6 +19,7 @@ title: "Proofs without Source"
 - [Construction of unbiased estimator for variance in multiple linear regression](/P/resvar-unbp)
 - [Covariance and variance of the normal-gamma distribution](/P/ng-cov)
 - [Covariance matrix of the categorical distribution](/P/cat-cov)
+- [Cross-covariance matrices of the matrix-normal distribution](/P/matn-ccm)
 - [Cross-validated log Bayes factor for the univariate Gaussian](/P/ug-cvlbf)
 - [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf)
 - [Cross-validated log model evidence for binomial observations](/P/bin-cvlme)

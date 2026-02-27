@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (483 proofs)
+### JoramSoch (487 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -75,6 +75,7 @@ title: "Proof by Author"
 - [Covariance matrix of the multivariate normal distribution](/P/mvn-cov)
 - [Covariance matrix of the sum of two random vectors](/P/covmat-sum)
 - [Covariance of independent random variables](/P/cov-ind)
+- [Cross-covariance matrices of the matrix-normal distribution](/P/matn-ccm)
 - [Cross-validated log Bayes factor for the univariate Gaussian](/P/ug-cvlbf)
 - [Cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbf)
 - [Cross-validated log model evidence for binomial observations](/P/bin-cvlme)
@@ -142,6 +143,7 @@ title: "Proof by Author"
 - [Expectation of a quadratic form](/P/mean-qf)
 - [Expectation of a quadratic form for the multivariate normal distribution](/P/mvn-meanqf)
 - [Expectation of parameter estimates for simple linear regression](/P/slr-olsmean)
+- [Expectation of quadratic forms for the matrix-normal distribution](/P/matn-meanqf)
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)
 - [Expectation of the log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbfmean)
 - [Expected value of a non-negative random variable](/P/mean-nnrvar)
@@ -225,6 +227,7 @@ title: "Proof by Author"
 - [Marginal distributions for the matrix-normal distribution](/P/matn-marg)
 - [Marginal distributions of the multinomial distribution](/P/mult-marg)
 - [Marginal distributions of the multivariate normal distribution](/P/mvn-marg)
+- [Marginal distributions of the multivariate t-distribution](/P/mvt-marg)
 - [Marginal distributions of the normal-gamma distribution](/P/ng-marg)
 - [Marginal likelihood is a definite integral of the joint likelihood](/P/ml-jl)
 - [Marginally normal does not imply jointly normal](/P/norm-margjoint)
@@ -455,6 +458,7 @@ title: "Proof by Author"
 - [Scaling of the covariance matrix upon multiplication with constant matrix](/P/covmat-scal)
 - [Scaling of the variance upon multiplication with a constant](/P/var-scal)
 - [Second central moment is variance](/P/momcent-2nd)
+- [Second-order expectations for the matrix-normal distribution](/P/matn-meanso)
 - [Self-covariance equals variance](/P/cov-var)
 - [Self-independence of random event](/P/ind-self)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
