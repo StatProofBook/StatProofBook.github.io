@@ -33,12 +33,6 @@ sources:
     pages: "ch. 13, pp. 372ff."
     url: "https://github.com/MatthewK84/Time-Series-Textbooks/blob/main/Hamilton%20Time%20Series%20Analysis.pdf"
   - authors: "Wikipedia"
-    year: 2020
-    title: "Multivariate normal distribution"
-    in: "Wikipedia, the free encyclopedia"
-    pages: "retrieved on 2020-03-20"
-    url: "https://en.wikipedia.org/wiki/Multivariate_normal_distribution#Conditional_distributions"
-  - authors: "Wikipedia"
     year: 2026
     title: "Invertible matrix"
     in: "Wikipedia, the free encyclopedia"

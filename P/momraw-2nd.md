@@ -52,7 +52,7 @@ $$ \label{eq:momraw-2nd-qed}
 \begin{split}
 \mu_2'
 &\overset{\eqref{eq:momraw-2nd-def}}{=} \mathrm{E}(X^2) \\
-&\overset{\eqref{eq:var-mean}}{=} \mathrm{Var}(X) +  \\
+&\overset{\eqref{eq:var-mean}}{=} \mathrm{Var}(X) + \mathrm{E}(X)^2 \\
 &= \mathrm{E}(X)^2 + \sigma(X)^2 \; .
 \end{split}
 $$

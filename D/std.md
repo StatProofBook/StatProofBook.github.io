@@ -30,5 +30,5 @@ username: "JoramSoch"
 **Definition:** The standard deviation $\sigma$ of a [random variable](/D/rvar) $X$ with [expected value](/D/mean) $\mu$ is defined as the square root of the [variance](/D/var), i.e.
 
 $$ \label{eq:std}
-\sigma(X) = \sqrt{\mathrm{E}\left[ (X-\mu)^2 \right]} \; .
+\sigma(X) = \sqrt{\mathrm{Var}(X)} = \sqrt{\mathrm{E}\left[ (X-\mu)^2 \right]} \; .
 $$
