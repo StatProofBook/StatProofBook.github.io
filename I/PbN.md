@@ -177,7 +177,7 @@ title: "Proof by Number"
 | P169 | wald-mean | [Mean of the Wald distribution](/P/wald-mean) | tomfaulkenberry | 2020-09-13 |
 | P170 | wald-var | [Variance of the Wald distribution](/P/wald-var) | tomfaulkenberry | 2020-09-13 |
 | P171 | momraw-1st | [The first raw moment equals the mean](/P/momraw-1st) | JoramSoch | 2020-10-08 |
-| P172 | momraw-2nd | [Relationship between second raw moment, variance and mean](/P/momraw-2nd) | JoramSoch | 2020-10-08 |
+| P172 | momraw-2nd | [The second raw moment equals squared mean plus squared standard deviation](/P/momraw-2nd) | JoramSoch | 2020-10-08 |
 | P173 | momcent-2nd | [The second central moment equals the variance](/P/momcent-2nd) | JoramSoch | 2020-10-08 |
 | P174 | chi2-gam | [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam) | kjpetrykowski | 2020-10-12 |
 | P175 | chi2-momraw | [Raw moments of the chi-squared distribution](/P/chi2-momraw) | kjpetrykowski | 2020-10-13 |
