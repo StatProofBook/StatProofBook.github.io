@@ -38,5 +38,5 @@ $$
 Let the test have a given [significance level](/D/alpha) $\alpha$ and desired [power](/D/power) $1 - \beta$. The minimum detectable effect, $\delta$, is the smallest $\delta$ so that the hypothesis test simultaneously has [size](/D/size) less than or equal to $\alpha$ and power at least $1 - \beta$:
 
 $$ \label{eq:mdeconditions}
-\left(\sup_{\theta \in \Theta_0} \kappa_n(\theta) \leq \alpha\right) \wedge \left(\inf_{\theta: \, d(\theta, \Theta_0) \leq \delta} \kappa_n(\theta) \geq 1 - \beta\right) \; .
+\left(\sup_{\theta \in \Theta_0} \kappa_n(\theta) \leq \alpha\right) \wedge \left(\inf_{\theta: \, d(\theta, \Theta_0) \geq \delta} \kappa_n(\theta) \geq 1 - \beta\right) \; .
 $$
