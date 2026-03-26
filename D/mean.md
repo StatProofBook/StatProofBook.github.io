@@ -29,7 +29,7 @@ username: "JoramSoch"
 
 **Definition:**
 
-1) The expected value (or, mean) of a discrete [random variable](/D/rvar) $X$ with domain $\mathcal{X}$ is
+1) The expected value (or, mean) of a [discrete](/D/rvar-disc) [random variable](/D/rvar) $X$ with domain $\mathcal{X}$ is
 
 $$ \label{eq:mean-disc}
 \mathrm{E}(X) = \sum_{x \in \mathcal{X}} x \cdot f_X(x)
@@ -38,7 +38,7 @@ $$
 where $f_X(x)$ is the [probability mass function](/D/pmf) of $X$.
 
 <br>
-2) The expected value (or, mean) of a continuous [random variable](/D/rvar) $X$ with domain $\mathcal{X}$ is
+2) The expected value (or, mean) of a [continuous](/D/rvar-disc) [random variable](/D/rvar) $X$ with domain $\mathcal{X}$ is
 
 $$ \label{eq:mean-cont}
 \mathrm{E}(X) = \int_{\mathcal{X}} x \cdot f_X(x) \, \mathrm{d}x

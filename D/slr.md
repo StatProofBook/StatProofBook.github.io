@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $y$ and $x$ be two $n \times 1$ vectors.
+**Definition:** Let $y$ and $x$ be two $n$-dimensional vectors.
 
 Then, a statement asserting a linear relationship between $x$ and $y$
 

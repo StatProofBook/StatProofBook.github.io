@@ -44,7 +44,7 @@ where $\mu_s$ drops the irrelevant variables (the ones not in the subset, i.e. m
 
 **Proof:** Define an $m \times n$ subset matrix $S$ such that $s_{ij} = 1$, if the $j$-th element in $X_s$ corresponds to the $i$-th element in $X$, and $s_{ij} = 0$ otherwise. Then,
 
-$$ \label{eq:xs}
+$$ \label{eq:Xs}
 X_s = S X
 $$
 

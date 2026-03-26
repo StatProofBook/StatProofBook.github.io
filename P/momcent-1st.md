@@ -7,7 +7,7 @@ affiliation: "BCCN Berlin"
 e_mail: "joram.soch@bccn-berlin.de"
 date: 2020-09-09 07:51:00
 
-title: "First central moment is zero"
+title: "The first central moment equals zero"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Further moments"

@@ -4,7 +4,7 @@ title: "Proofs without Source"
 ---
 
 
-### Missing source (185 proofs)
+### Missing source (188 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -60,7 +60,6 @@ title: "Proofs without Source"
 - [Expression of the noise precision posterior for Bayesian linear regression using prediction and parameter errors](/P/blr-posterr)
 - [F-statistic in terms of ordinary least squares estimates in one-way analysis of variance](/P/anova1-fols)
 - [F-statistics in terms of ordinary least squares estimates in two-way analysis of variance](/P/anova2-fols)
-- [First raw moment is mean](/P/momraw-1st)
 - [Gamma distribution is a special case of Wishart distribution](/P/gam-wish)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the Bernoulli distribution](/P/bern-kl)
@@ -168,7 +167,6 @@ title: "Proofs without Source"
 - [Relationship between normal distribution and standard normal distribution](/P/norm-snorm3)
 - [Relationship between precision matrix and correlation matrix](/P/precmat-corrmat)
 - [Relationship between R² and maximum log-likelihood](/P/rsq-mll)
-- [Relationship between second raw moment, variance and mean](/P/momraw-2nd)
 - [Relationship between signal-to-noise ratio and maximum log-likelihood](/P/snr-mll)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Scaling of a random variable following the gamma distribution](/P/gam-scal)
@@ -180,6 +178,11 @@ title: "Proofs without Source"
 - [Statistical test for intercept parameter in simple linear regression model](/P/slr-tint)
 - [Statistical test for slope parameter in simple linear regression model](/P/slr-tslo)
 - [Sums of squares for simple linear regression](/P/slr-sss)
+- [The first raw moment equals the mean](/P/momraw-1st)
+- [The first standardized moment equals zero](/P/momstand-1st)
+- [The second raw moment equals squared mean plus squared standard deviation](/P/momraw-2nd)
+- [The second standardized moment equals one](/P/momstand-2nd)
+- [The third standardized moment equals the skewness](/P/momstand-3rd)
 - [Transformation matrices for simple linear regression](/P/slr-mat)
 - [Transitivity of Bayes Factors](/P/bf-trans)
 - [Transposition of a matrix-normal random variable](/P/matn-trans)
