@@ -73,6 +73,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Probability mass function of strictly increasing function](/P/pmf-sifct)**
 - **[Probability mass function of strictly decreasing function](/P/pmf-sdfct)**
 - **[Probability mass function of invertible function](/P/pmf-invfct)**
+- *[Joint probability mass function](/D/pmf-joint)*
 ### Probability density function
 - *[Definition](/D/pdf)*
 - **[Probability density function of sum of independents](/P/pdf-sumind)**
@@ -175,10 +176,12 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Precision matrix and correlation matrix](/P/precmat-corrmat)**
 ### Correlation
 - *[Definition](/D/corr)*
+- *[Sample correlation coefficient](/D/corr-samp)*
 - **[Range](/P/corr-range)**
 - **[Correlation under independence](/P/corr-ind)**
-- *[Sample correlation coefficient](/D/corr-samp)*
 - **[Relationship to standard scores](/P/corr-z)**
+- *[Conditional correlation](/D/corr-cond)*
+- *[Partial correlation](/D/corr-part)*
 - *[Correlation matrix](/D/corrmat)*
 - *[Sample correlation matrix](/D/corrmat-samp)*
 ### Measures of central tendency
@@ -528,6 +531,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Mode](/P/mvn-mode)**
 - **[Covariance](/P/mvn-cov)**
 - **[Expectation of a quadratic form](/P/mvn-meanqf)**
+- **[Conditional correlation](/P/mvn-corrcond)**
+- **[Partial correlation](/P/mvn-corrpart)**
 - **[Differential entropy](/P/mvn-dent)**
 - **[Mutual information](/P/mvn-mi)**
 - **[Kullback-Leibler divergence](/P/mvn-kl)**
@@ -765,6 +770,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Log Bayes factor](/P/bin-lbf)**
 - **[Posterior probability](/P/bin-pp)**
 - **[Cross-validated log model evidence](/P/bin-cvlme)**
+- **[Cross-validated log Bayes factor](/P/bin-cvlbf)**
 ### Multinomial observations
 - *[Definition](/D/mult-data)*
 - **[Multinomial test](/P/mult-test)**
@@ -777,6 +783,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Log Bayes factor](/P/mult-lbf)**
 - **[Posterior probability](/P/mult-pp)**
 - **[Cross-validated log model evidence](/P/mult-cvlme)**
+- **[Cross-validated log Bayes factor](/P/mult-cvlbf)**
 ### Poisson-distributed data
 - *[Definition](/D/poiss-data)*
 - **[Maximum likelihood estimation](/P/poiss-mle)**
