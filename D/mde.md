@@ -27,7 +27,7 @@ username: "alexanderdbolton"
 ---
 
 
-**Definition:** Consider a [hypothesis test](/D/test) concerning [parameter](/D/para) $\theta$. We have $H_0: \theta \in \Theta_0$ versus $H_1: \theta \in \Theta_1$, where $\{\Theta_0, \Theta_1\}$ is a partition of $\Theta$. Let the probability of rejecting the [null hypothesis](/D/h0) for the [test](/D/test) with $n$ [observations](/D/samp-size) be $\kappa_n(\theta)$. The [number of samples](/D/) $n$ is fixed.
+**Definition:** Consider a [hypothesis test](/D/test) concerning [parameter](/D/para) $\theta$. We have $H_0: \theta \in \Theta_0$ versus $H_1: \theta \in \Theta_1$, where $\{\Theta_0, \Theta_1\}$ is a partition of $\Theta$. Let the probability of rejecting the [null hypothesis](/D/h0) for the [test](/D/test) with $n$ [observations](/D/samp) be $\kappa_n(\theta)$. The [number of samples](/D/samp-size) $n$ is fixed.
 
 The effect size for a parameter $\theta \in \Theta_1$ is the distance of $\theta$ from the null parameter space $\Theta_0, d(\theta, \Theta_0)$. It can be defined as
 

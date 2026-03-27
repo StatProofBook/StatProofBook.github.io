@@ -33,6 +33,7 @@ title: "Definition by Topic"
 - [Characteristic function](/D/cf)
 - [Chi-squared distribution](/D/chi2)
 - [Coefficient of determination](/D/rsq)
+- [Conditional correlation](/D/corr-cond)
 - [Conditional differential entropy](/D/dent-cond)
 - [Conditional entropy](/D/ent-cond)
 - [Conditional independence](/D/ind-cond)
@@ -119,6 +120,7 @@ title: "Definition by Topic"
 - [Joint probability](/D/prob-joint)
 - [Joint probability density function](/D/pdf-joint)
 - [Joint probability distribution](/D/dist-joint)
+- [Joint probability mass function](/D/pmf-joint)
 
 ### K
 
@@ -189,6 +191,7 @@ title: "Definition by Topic"
 
 - [p-value](/D/pval)
 - [Parameter](/D/para)
+- [Partial correlation](/D/corr-part)
 - [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)
