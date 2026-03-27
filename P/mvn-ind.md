@@ -79,18 +79,18 @@ $$ \label{eq:Sigma-diag}
 \Sigma = \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right) \; .
 $$
 
-Then, we have
+Then, with \eqref{eq:mvn-pdf}, we have
 
 $$ \label{eq:Sigma-diag-dev}
 \begin{split}
-p(x) &\overset{\eqref{eq:mvn-pdf}}{=} \frac{1}{\sqrt{(2 \pi)^n |\mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right)|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right)^{-1} (x-\mu) \right] \\
+p(x) &= \frac{1}{\sqrt{(2 \pi)^n |\mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right)|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right)^{-1} (x-\mu) \right] \\
 &= \frac{1}{\sqrt{(2 \pi)^n \prod_{i=1}^{n} \sigma^2_i}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \mathrm{diag}\left( \left[ 1/\sigma^2_1, \ldots, 1/\sigma^2_n \right] \right) (x-\mu) \right] \\
 &= \frac{1}{\sqrt{(2 \pi)^n \prod_{i=1}^{n} \sigma^2_i}} \cdot \exp \left[ -\frac{1}{2} \sum_{i=1}^{n} \frac{(x_i-\mu_i)^2}{\sigma^2_i} \right] \\
 &= \prod_{i=1}^n \frac{1}{\sqrt{2 \pi \sigma^2_i}} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x_i-\mu_i}{\sigma_i} \right)^2 \right]
 \end{split}
 $$
 
-which implies that
+which, with \eqref{eq:norm-pdf}, implies that
 
 $$ \label{eq:x-ind-qed}
 p(x) = p(x_1) \cdot \ldots \cdot p(x_n) \; .

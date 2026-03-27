@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ be a [sample](/D/samp) from a [random vector](/D/rvec) $X \in \mathbb{R}^{p \times 1}$. Then, the sample correlation matrix of $x$ is the matrix whose entries are the [sample correlation coefficients](/D/corr-samp) between pairs of entries of $x_1, \ldots, x_n$:
+**Definition:** Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ be a [sample](/D/samp) from a [random vector](/D/rvec) $X \in \mathbb{R}^p$. Then, the sample correlation matrix of $x$ is the matrix whose entries are the [sample correlation coefficients](/D/corr-samp) between pairs of entries of $x_1, \ldots, x_n$:
 
 $$ \label{eq:corrmat-samp-v1}
 \mathrm{R}_{xx} =

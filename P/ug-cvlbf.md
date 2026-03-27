@@ -42,7 +42,7 @@ $$ \label{eq:UG-cvLBF}
 \mathrm{cvLBF}_{10} = \frac{S}{2} \log \left( \frac{S-1}{S} \right) - \frac{S \cdot n}{2} \left[ \log \left( 1 - \frac{n {\bar{y}}^2}{y^\mathrm{T} y} \right) \right] + \frac{n_1}{2} \sum_{i=1}^S \left[ \log \left( 1 - \frac{ n_1 \bar{y}_1^{(i)} }{ {y_1^{(i)}}^\mathrm{T} y_1^{(i)} } \right) \right]
 $$
 
-where $\bar{y}$ is the [sample mean](/D/mean-samp), $y_1^{(i)}$ are the training data in the $i$-th cross-validation fold with $n_1$ data points and $S$ is the [number of data subsets](/D/cvlme).
+where $\bar{y}$ is the [sample mean](/D/mean-samp), $y_1^{(i)}$ are the training data with $n_1$ data points in the $i$-th cross-validation fold and $S$ is the [number of data subsets](/D/cvlme).
 
 
 **Proof:** The [relationship between log Bayes factor and log model evidences](/P/lbf-lme) also holds for [cross-validated log bayes factor](/D/lbf) (cvLBF) and [cross-validated log model evidences](/D/cvlme) (cvLME):

@@ -27,13 +27,13 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a [discrete](/D/rvar-disc) [random variable](/D/rvar) with possible outcomes $\mathcal{X}$. Then, $f_X(x): \mathbb{R} \to [0,1]$ is the probability mass function (PMF) of $X$, if
+**Definition:** Let $X$ be a [discrete](/D/rvar-disc) [random variable](/D/rvar) with possible outcomes $\mathcal{X}$. Then, $f_X(x): \mathcal{X} \to \mathbb{R}$ is the probability mass function (PMF) of $X$, if
 
 $$ \label{eq:pmf-def-s0}
-f_X(x) = 0
+f_X(x) \in [0, 1]
 $$
 
-for all $x \notin \mathcal{X}$,
+for all $x \in \mathcal{X}$,
 
 $$ \label{eq:pmf-def-s1}
 \mathrm{Pr}(X = x) = f_X(x)

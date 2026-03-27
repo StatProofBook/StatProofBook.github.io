@@ -42,7 +42,7 @@ $$ \label{eq:Mult-cvLBF}
 \mathrm{cvLBF}_{10} = S \cdot \log \frac{\Gamma(n_1)}{\Gamma(y)} - \sum_{i=1}^S \sum_{j=1}^k \log \left( \frac{y_{1j}^{(i)}}{y_j} \right) + n \log(k)
 $$
 
-where $y_1^{(i)}$ and $y_2^{(i)}$ are the training and test data, respectively, in the $i$-th cross-validation fold with $n_1$ and $n_2$ data points, respectively, $S$ is the [number of data subsets](/D/cvlme) and $\Gamma(x)$ is the gamma function.
+where $y_1^{(i)}$ are the training data with $n_1$ data points in the $i$-th cross-validation fold, $S$ is the [number of data subsets](/D/cvlme) and $\Gamma(x)$ is the gamma function.
 
 
 **Proof:** The [relationship between log Bayes factor and log model evidences](/P/lbf-lme) also holds for [cross-validated log bayes factor](/D/lbf) (cvLBF) and [cross-validated log model evidences](/D/cvlme) (cvLME):
