@@ -28,13 +28,13 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ and $y$ follow a [normal-gamma distribution](/D/ng):
+**Theorem:** Let $X$ and $Y$ follow a [normal-gamma distribution](/D/ng):
 
 $$ \label{eq:ng}
-x,y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
+X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
 $$
 
-Then, the [joint probability](/D/prob-joint) [density function](/D/pdf) of $x$ and $y$ is
+Then, the [joint probability](/D/prob-joint) [density function](/D/pdf) of $X$ and $Y$ is
 
 $$ \label{eq:ng-pdf}
 p(x,y) = \sqrt{\frac{|\Lambda|}{(2 \pi)^n}} \frac{b^a}{\Gamma(a)} \cdot y^{a+\frac{n}{2}-1} \exp \left[ -\frac{y}{2} \left( (x-\mu)^\mathrm{T} \Lambda (x-\mu) + 2b \right) \right] \; .
@@ -73,7 +73,7 @@ $$ \label{eq:ng-pdf-prod}
 p(x,y) = \sqrt{\frac{|y \Lambda|}{(2 \pi)^n}} \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} (y \Lambda) (x-\mu) \right] \cdot \frac{b^a}{\Gamma(a)} y^{a-1} \exp\left[-by\right] \; .
 $$
 
-Using the relation $\lvert y A \rvert = y^n \lvert A \rvert$ for an $n \times n$ matrix $A$ and rearranging the terms, we have:
+Using the relation $\lvert c A \rvert = c^n \lvert A \rvert$ for an $n \times n$ matrix $A$ and rearranging the terms, we have:
 
 $$ \label{eq:ng-pdf-qed}
 p(x,y) = \sqrt{\frac{|\Lambda|}{(2 \pi)^n}} \frac{b^a}{\Gamma(a)} \cdot y^{a+\frac{n}{2}-1} \exp \left[ -\frac{y}{2} \left( (x-\mu)^\mathrm{T} \Lambda (x-\mu) + 2b \right) \right] \; .

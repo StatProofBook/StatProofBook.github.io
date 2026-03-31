@@ -32,14 +32,16 @@ username: "JoramSoch"
 Then, $X = \mu + A Z_1 / \sqrt{Z_2/b}$ and $Y = Z_2/b$ jointly follow a [normal-gamma distribution](/D/ng) with [mean vector](/D/mean-rvec) $\mu$, [precision matrix](/D/precmat) $\Lambda$, shape parameter $a$ and rate parameter $b$:
 
 $$ \label{eq:ng-samp}
-\left( X = \mu + A Z_1 / \sqrt{Z_2/b}, \; Y = Z_2/b \right) \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
+\left( X = \mu + \frac{A Z_1}{\sqrt{Z_2/b}}, \; Y = Z_2/b \right) \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
 $$
 
 
 **Proof:** If all entries of $Z_1$ are independent and [standard normally distributed](/D/snorm)
 
 $$ \label{eq:zi-dist}
-z_{1i} \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, 1) \quad \text{for all} \quad i = 1,\ldots,n \; ,
+Z_{1i} \overset{\mathrm{i.i.d.}}{\sim} \mathcal{N}(0, 1)
+\quad \text{for all} \quad
+i = 1,\ldots,n \; ,
 $$
 
 this [implies a multivariate normal distribution with diagonal covariance matrix](/P/mvn-ind):
@@ -78,7 +80,7 @@ Thus, $Y$ follows a [gamma distribution](/D/gam) and the distribution of $X$ con
 $$ \label{eq:mvn-gam}
 \begin{split}
 X \vert Y &\sim \mathcal{N}(\mu, (Y \Lambda)^{-1}) \\
-Y &\sim \mathrm{Gam}(a, b) \; .
+        Y &\sim \mathrm{Gam}(a, b) \; .
 \end{split}
 $$
 

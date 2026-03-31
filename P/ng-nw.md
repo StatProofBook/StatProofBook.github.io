@@ -39,7 +39,7 @@ p(X,Y) = \; & \frac{1}{\sqrt{(2\pi)^{np} |U|^p |V|^{\nu}}} \cdot \frac{\sqrt{2^{
 \end{split}
 $$
 
-where $\lvert A \rvert$ is a matrix determinant, $A^{-1}$ is a matrix inverse and $\Gamma_p(x)$ is the multivariate gamma function of order $p$. If $p = 1$, then $\Gamma_p(x) = \Gamma(x)$ is the ordinary gamma function, $x = X$ is a column vector and $y = Y$ is a real number. Thus, the [probability density function](/D/pdf) of $x$ and $y$ can be developed as
+where $\lvert A \rvert$ is a matrix determinant, $A^{-1}$ is a matrix inverse and $\Gamma_p(x)$ is the multivariate gamma function of order $p$. If $p = 1$, then $\Gamma_p(x) = \Gamma(x)$ is the ordinary gamma function, $X$ is a column vector and $Y$ is a real number. Thus, the [probability density function](/D/pdf) of $X$ and $Y$ can be developed as
 
 $$ \label{eq:ng-pdf-s1}
 \begin{split}
