@@ -7,7 +7,7 @@ affiliation: "OvGU Magdeburg"
 e_mail: "joram.soch@ovgu.de"
 date: 2026-03-26 17:37:00
 
-title: "Partial correlation of random variables which are jointly multivariate normal distributed"
+title: "Partial correlation of random variables which are jointly multivariate normally distributed"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
 topic: "Multivariate normal distribution"
@@ -158,7 +158,7 @@ With that, we can derive the [partial correlation](/D/corr-part) of $X$ and $Y$ 
 
 $$ \label{eq:mvn-corr-part-qed}
 \begin{split}
-   \mathrm{Corr}(X,Y|Z)
+   \mathrm{Corr}(X,Y \backslash Z)
 &= \mathrm{Corr}\left( E^{(X)}, E^{(Y)} \right) \\
 &= \frac{\sigma_{X,Y \backslash Z}}{\sigma_{X \backslash Z} \sigma_{Y \backslash Z}} \\
 &= \frac{\rho_{XY} - \rho_{XZ} \rho_{YZ}}{\sqrt{1-\rho_{XZ}^2} \sqrt{1-\rho_{YZ}^2}} \; .
