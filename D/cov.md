@@ -32,3 +32,5 @@ username: "JoramSoch"
 $$ \label{eq:cov}
 \mathrm{Cov}(X,Y) = \mathrm{E}\left[ (X-\mathrm{E}[X]) (Y-\mathrm{E}[Y]) \right] \; .
 $$
+
+Variables with a covariance of zero are called uncorrelated.
