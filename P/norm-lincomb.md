@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X_1, \ldots, X_n$ be [independent](/D/ind) [normally distributed](/D/norm) [random variables](/D/rvar) with [means](/D/mean) $\mu_1, \ldots, \mu_n$ and [variances](/D/var) $\sigma^2_1, \ldots, \sigma^2_n$:
+**Theorem:** Let $X_1, \ldots, X_n$ be [uncorrelated](D/cov) [normally distributed](/D/norm) [random variables](/D/rvar) with [means](/D/mean) $\mu_1, \ldots, \mu_n$ and [variances](/D/var) $\sigma^2_1, \ldots, \sigma^2_n$:
 
 $$ \label{eq:norm}
 X_i \sim \mathcal{N}(\mu_i, \sigma^2_i) \quad \text{for} \quad i = 1, \ldots, n \; .
