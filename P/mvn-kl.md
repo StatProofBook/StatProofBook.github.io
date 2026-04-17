@@ -26,12 +26,12 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be an $n$-dimensional [random vector](/D/rvec). Assume two [multivariate normal distributions](/D/mvn) $P$ and $Q$ specifying the probability distribution of $x$ as
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec). Assume two [multivariate normal distributions](/D/mvn) $P$ and $Q$ specifying the probability distribution of $X$ as
 
 $$ \label{eq:mvns}
 \begin{split}
-P: \; x &\sim \mathcal{N}(\mu_1, \Sigma_1) \\
-Q: \; x &\sim \mathcal{N}(\mu_2, \Sigma_2) \; .
+P: \; X &\sim \mathcal{N}(\mu_1, \Sigma_1) \\
+Q: \; X &\sim \mathcal{N}(\mu_2, \Sigma_2) \; .
 \end{split}
 $$
 
@@ -67,7 +67,7 @@ $$ \label{eq:mvn-KL-s2}
 \end{split}
 $$
 
-Now, using the fact that $x = \mathrm{tr}(x)$, if $a$ is scalar, and the trace property $\mathrm{tr}(ABC) = \mathrm{tr}(BCA)$, we have:
+Now, using the fact that $a = \mathrm{tr}(a)$, if $a$ is scalar, and the trace property $\mathrm{tr}(ABC) = \mathrm{tr}(BCA)$, we have:
 
 $$ \label{eq:mvn-KL-s3}
 \begin{split}
@@ -88,13 +88,17 @@ $$
 Using the [expectation of a linear form for the multivariate normal distribution](/P/mvn-ltt)
 
 $$ \label{eq:mvn-lfmean}
-x \sim \mathcal{N}(\mu, \Sigma) \quad \Rightarrow \quad \left\langle A x \right\rangle = A \mu
+X \sim \mathcal{N}(\mu, \Sigma)
+\quad \Rightarrow \quad
+\left\langle A X \right\rangle = A \mu
 $$
 
 and the [expectation of a quadratic form for the multivariate normal distribution](/P/mean-qf)
 
 $$ \label{eq:mvn-qfmean}
-x \sim \mathcal{N}(\mu, \Sigma) \quad \Rightarrow \quad \left\langle x^\mathrm{T} A x \right\rangle = \mu^\mathrm{T} A \mu + \mathrm{tr}(A \Sigma) \; ,
+X \sim \mathcal{N}(\mu, \Sigma)
+\quad \Rightarrow \quad
+\left\langle X^\mathrm{T} A X \right\rangle = \mu^\mathrm{T} A \mu + \mathrm{tr}(A \Sigma) \; ,
 $$
 
 the Kullback-Leibler divergence from \eqref{eq:mvn-KL-s4} becomes:

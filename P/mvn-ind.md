@@ -21,23 +21,27 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be an $n$-dimensional [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn):
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn):
 
 $$ \label{eq:mvn}
-x \sim \mathcal{N}(\mu, \Sigma) \; .
+X \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Then, the components of $x$ are [statistically independent](/D/ind), if and only if the [covariance matrix](/D/covmat) is a diagonal matrix:
+Then, the entries of $X$ are [statistically independent](/D/ind), if and only if the [covariance matrix](/D/covmat) is diagonal:
 
 $$ \label{eq:mvn-ind}
-p(x) = p(x_1) \cdot \ldots \cdot p(x_n) \quad \Leftrightarrow \quad \Sigma = \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right) \; .
+p(x) = p(x_1) \cdot \ldots \cdot p(x_n)
+\quad \Leftrightarrow \quad
+\Sigma = \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right) \; .
 $$
 
 
 **Proof:** The [marginal distribution of one entry from a multivariate normal random vector is a univariate normal distribution](/P/mvn-marg) where [mean](/D/mean) and [variance](/D/var) are equal to the corresponding entries of the mean vector and covariance matrix:
 
 $$ \label{eq:mvn-marg}
-x \sim \mathcal{N}(\mu, \Sigma) \quad \Rightarrow \quad x_i \sim \mathcal{N}(\mu_i, \sigma^2_{ii}) \; .
+X \sim \mathcal{N}(\mu, \Sigma)
+\quad \Rightarrow \quad
+X_i \sim \mathcal{N}(\mu_i, \sigma^2_{ii}) \; .
 $$
 
 The [probability density function of the multivariate normal distribution](/P/mvn-pdf) is
@@ -52,10 +56,9 @@ $$ \label{eq:norm-pdf}
 p(x_i) = \frac{1}{\sqrt{2 \pi \sigma^2_i}} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x_i-\mu_i}{\sigma_i} \right)^2 \right] \; .
 $$
 
-<br>
 1) Let
 
-$$ \label{eq:x-ind}
+$$ \label{eq:X-ind}
 p(x) = p(x_1) \cdot \ldots \cdot p(x_n) \; .
 $$
 
@@ -71,8 +74,6 @@ $$ \label{eq:Sigma-diag-s2}
 \Sigma = \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right) \; .
 $$
 
-
-<br>
 2) Let
 
 $$ \label{eq:Sigma-diag}
@@ -83,7 +84,8 @@ Then, with \eqref{eq:mvn-pdf}, we have
 
 $$ \label{eq:Sigma-diag-dev}
 \begin{split}
-p(x) &= \frac{1}{\sqrt{(2 \pi)^n |\mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right)|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right)^{-1} (x-\mu) \right] \\
+   p(x)
+&= \frac{1}{\sqrt{(2 \pi)^n |\mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right)|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \mathrm{diag}\left( \left[ \sigma^2_1, \ldots, \sigma^2_n \right] \right)^{-1} (x-\mu) \right] \\
 &= \frac{1}{\sqrt{(2 \pi)^n \prod_{i=1}^{n} \sigma^2_i}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \mathrm{diag}\left( \left[ 1/\sigma^2_1, \ldots, 1/\sigma^2_n \right] \right) (x-\mu) \right] \\
 &= \frac{1}{\sqrt{(2 \pi)^n \prod_{i=1}^{n} \sigma^2_i}} \cdot \exp \left[ -\frac{1}{2} \sum_{i=1}^{n} \frac{(x_i-\mu_i)^2}{\sigma^2_i} \right] \\
 &= \prod_{i=1}^n \frac{1}{\sqrt{2 \pi \sigma^2_i}} \cdot \exp \left[ -\frac{1}{2} \left( \frac{x_i-\mu_i}{\sigma_i} \right)^2 \right]
@@ -92,6 +94,6 @@ $$
 
 which, with \eqref{eq:norm-pdf}, implies that
 
-$$ \label{eq:x-ind-qed}
+$$ \label{eq:X-ind-qed}
 p(x) = p(x_1) \cdot \ldots \cdot p(x_n) \; .
 $$

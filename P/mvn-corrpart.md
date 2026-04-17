@@ -43,7 +43,7 @@ $$
 where $\rho_{XY}$, $\rho_{XZ}$ and $\rho_{YZ}$ are the [pairwise correlations](/D/corr) of the random variables $X$, $Y$ and $Z$.
 
 
-**Proof:** In the first part of the proof, we will justify that we can work with a simplified form for $\Sigma$. In the second part of the proof, we will compute the partial correlation, as implied by its definition, from $\Sigma$.
+**Proof:** In the first part of the proof, we will justify we can work with a simplified form for $\Sigma$. In the second part of the proof, we will compute the partial correlation, as implied by its definition, from $\Sigma$.
 
 1) We will denote the entries of $\Sigma$ as follows:
 
