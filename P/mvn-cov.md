@@ -104,7 +104,7 @@ $$ \label{eq:mvn-cov-qed}
 &= \mathrm{Cov}(AZ + \mu) \\
 &\overset{\eqref{eq:cov-inv}}{=} \mathrm{Cov}(AZ) \\
 &\overset{\eqref{eq:cov-scal}}{=} A \, \mathrm{Cov}(Z) A^\mathrm{T} \\
-&\overset{\eqref{eq:z-cov}}{=} A I_n A^\mathrm{T} \\
+&\overset{\eqref{eq:Z-cov}}{=} A I_n A^\mathrm{T} \\
 &= A A^\mathrm{T} \\
 &= \Sigma \; .
 \end{split}
