@@ -534,3 +534,7 @@ title: "Proof by Number"
 | P526 | momstand-1st | [The first standardized moment equals zero](/P/momstand-1st) | JoramSoch | 2026-02-27 |
 | P527 | momstand-2nd | [The second standardized moment equals one](/P/momstand-2nd) | JoramSoch | 2026-02-27 |
 | P528 | momstand-3rd | [The third standardized moment equals the skewness](/P/momstand-3rd) | JoramSoch | 2026-02-27 |
+| P529 | mvn-corrcond | [Conditional correlation of random variables which are jointly multivariate normal distributed](/P/mvn-corrcond) | JoramSoch | 2026-03-26 |
+| P530 | mvn-corrpart | [Partial correlation of random variables which are jointly multivariate normal distributed](/P/mvn-corrpart) | JoramSoch | 2026-03-26 |
+| P531 | bin-cvlbf | [Cross-validated log Bayes factor for binomial observations](/P/bin-cvlbf) | JoramSoch | 2026-03-26 |
+| P532 | mult-cvlbf | [Cross-validated log Bayes factor for multinomial observations](/P/mult-cvlbf) | JoramSoch | 2026-03-26 |

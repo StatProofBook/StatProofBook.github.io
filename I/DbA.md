@@ -18,7 +18,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (207 definitions)
+### JoramSoch (210 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -38,6 +38,7 @@ title: "Definition by Author"
 - [Central moment](/D/mom-cent)
 - [Characteristic function](/D/cf)
 - [Coefficient of determination](/D/rsq)
+- [Conditional correlation](/D/corr-cond)
 - [Conditional differential entropy](/D/dent-cond)
 - [Conditional entropy](/D/ent-cond)
 - [Conditional independence](/D/ind-cond)
@@ -103,6 +104,7 @@ title: "Definition by Author"
 - [Joint probability](/D/prob-joint)
 - [Joint probability density function](/D/pdf-joint)
 - [Joint probability distribution](/D/dist-joint)
+- [Joint probability mass function](/D/pmf-joint)
 - [Kolmogorov axioms of probability](/D/prob-ax)
 - [Kullback-Leibler divergence](/D/kl)
 - [Law of conditional probability](/D/prob-cond)
@@ -151,6 +153,7 @@ title: "Definition by Author"
 - [One-way analysis of variance](/D/anova1)
 - [p-value](/D/pval)
 - [Parameter](/D/para)
+- [Partial correlation](/D/corr-part)
 - [Point and set hypothesis](/D/hyp-point)
 - [Poisson distribution](/D/poiss)
 - [Poisson distribution with exposure values](/D/poissexp)

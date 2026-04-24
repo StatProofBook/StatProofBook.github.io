@@ -33,7 +33,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ be a [random variable](/D/rvar) and let $Y = g(X)$ be a function of this random variable.
+**Theorem:** Let $X$ be a [random variable](/D/rvar) and let $Y = g(X)$ be an invertible and differentiable function of this random variable.
 
 1) If $X$ is a discrete random variable with possible outcomes $\mathcal{X}$ and [probability mass function](/D/pmf) $f_X(x)$, the [expected value](/D/mean) of $g(X)$ is
 
@@ -48,7 +48,7 @@ $$ \label{eq:mean-lotus-cont}
 $$
 
 
-**Proof:** Suppose that $g$ is differentiable and that its inverse $g^{-1}$ is monotonic.
+**Proof:** Note that, if $g$ is differentiable, then its inverse $g^{-1}$ is monotonic.
 
 1) The [expected value](/D/mean) of $Y = g(X)$ is defined as
 
@@ -68,7 +68,7 @@ $$ \label{eq:mean-lotus-disc-s2}
 \end{split}
 $$
 
-Finally, noting that "for all $y$, then for all $x = g^{-1}(y)$" is equivalent to "for all $x$", if $g^{-1}$ is a monotonic function, we can conclude that
+Finally, noting that "for all $y$, then for all $x = g^{-1}(y)$" is equivalent to "for all $x$", if $g$ is an invertible function (and hence, $g^{-1}$ is a monotonic function), we can conclude that
 
 $$ \label{eq:mean-lotus-disc-s3}
 \mathrm{E}[g(X)] = \sum_{x \in \mathcal{X}} g(x) f_X(x) \; .
@@ -115,7 +115,7 @@ f_Y(y) &= \frac{\mathrm{d}}{\mathrm{d}y} F_Y(y) \\
 \end{split}
 $$
 
-Finally, substituing \eqref{eq:Y-pdf} into \eqref{eq:mean-lotus-cont-s1}, we have:
+Finally, substituting \eqref{eq:Y-pdf} into \eqref{eq:mean-lotus-cont-s1}, we have:
 
 $$ \label{eq:mean-lotus-cont-s2}
 \int_{\mathcal{X}} g(x) f_X(x) \, \mathrm{d}x = \int_{\mathcal{Y}} y \, f_Y(y) \, \mathrm{d}y = \mathrm{E}[Y] = \mathrm{E}[g(X)] \; .

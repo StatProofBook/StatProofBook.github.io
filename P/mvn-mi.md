@@ -69,14 +69,14 @@ $$
 The [differential entropy of the multivariate normal distribution](/P/mvn-dent) is
 
 $$ \label{eq:mvn-dent}
-\mathrm{h}(x) = \frac{n}{2} \ln(2\pi) + \frac{1}{2} \ln|\Sigma| + \frac{1}{2} n
+\mathrm{h}(X) = \frac{n}{2} \ln(2\pi) + \frac{1}{2} \ln|\Sigma| + \frac{1}{2} n
 $$
 
 where $\lvert \Sigma \rvert$ is the determinant of $\Sigma$. Combining \eqref{eq:cmi-mjde} with \eqref{eq:mvn-dent}, we get:
 
 $$ \label{eq:bvn-mi}
 \begin{split}
-\mathrm{I}(X,Y)
+   \mathrm{I}(X,Y)
 &\overset{\eqref{eq:cmi-mjde}}{=} \mathrm{h}(X) + \mathrm{h}(Y) - \mathrm{h}(X,Y) \\
 &\overset{\eqref{eq:X-Y-marg}}{=} \mathrm{h}\left[ \mathcal{N}\left( \mu_1, \Sigma_1 \right) \right] + \mathrm{h}\left[ \mathcal{N}\left( \mu_2, \Sigma_2 \right) \right] - \mathrm{h}\left[ \mathcal{N}\left( \mu, \Sigma \right) \right] \\
 &\overset{\eqref{eq:mvn-dent}}{=} \left[ \frac{n}{2} \ln(2\pi) + \frac{1}{2} \ln|\Sigma_1| + \frac{1}{2} n \right] + \left[ \frac{m}{2} \ln(2\pi) + \frac{1}{2} \ln|\Sigma_2| + \frac{1}{2} m \right] - \left[ \frac{p}{2} \ln(2\pi) + \frac{1}{2} \ln|\Sigma| + \frac{1}{2} p \right] \\

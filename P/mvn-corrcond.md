@@ -7,7 +7,7 @@ affiliation: "OvGU Magdeburg"
 e_mail: "joram.soch@ovgu.de"
 date: 2026-03-26 15:43:00
 
-title: "Conditional correlation of random variables which are jointly multivariate normal distributed"
+title: "Conditional correlation of random variables which are jointly multivariate normally distributed"
 chapter: "Probability Distributions"
 section: "Multivariate continuous distributions"
 topic: "Multivariate normal distribution"
@@ -43,7 +43,7 @@ $$
 where $\rho_{XY}$, $\rho_{XZ}$ and $\rho_{YZ}$ are the [pairwise correlations](/D/corr) of the random variables $X$, $Y$ and $Z$.
 
 
-**Proof:** In the first part of the proof, we will justify that we can work with a simplified form for $\Sigma$. In the second part of the proof, we will compute the conditional correlation, as implied by its definition, from $\Sigma$.
+**Proof:** In the first part of the proof, we will justify we can work with a simplified form for $\Sigma$. In the second part of the proof, we will compute the conditional correlation, as implied by its definition, from $\Sigma$.
 
 1) We will denote the entries of $\Sigma$ as follows:
 
@@ -110,11 +110,11 @@ $$ \label{eq:Sigma-cond}
    \Sigma_{X,Y|Z}
 &= \Sigma_{XY} - \Sigma_{XY,Z} \Sigma_{Z}^{-1} \Sigma_{Z,XY} \\
 &= \left[ \begin{matrix} 1 & \rho_{XY} \\ \rho_{YX} & 1 \end{matrix} \right]
- - \left[ \begin{matrix} \rho_{ZX} \\ \rho_{ZY} \end{matrix} \right]
+ - \left[ \begin{matrix} \rho_{XZ} \\ \rho_{YZ} \end{matrix} \right]
    \left[ \begin{matrix} 1 \end{matrix} \right]^{-1}
-   \left[ \begin{matrix} \rho_{XZ} & \rho_{YZ} \end{matrix} \right] \\
+   \left[ \begin{matrix} \rho_{ZX} & \rho_{ZY} \end{matrix} \right] \\
 &= \left[ \begin{matrix} 1 & \rho_{XY} \\ \rho_{YX} & 1 \end{matrix} \right]
- - \left[ \begin{matrix} \rho_{ZX} \rho_{XZ} & \rho_{ZX} \rho_{YZ} \\ \rho_{ZY} \rho_{XZ} & \rho_{ZY} \rho_{YZ} \end{matrix} \right] \\
+ - \left[ \begin{matrix} \rho_{XZ} \rho_{ZX} & \rho_{XZ} \rho_{ZY} \\ \rho_{YZ} \rho_{ZX} & \rho_{YZ} \rho_{ZY} \end{matrix} \right] \\
 &= \left[ \begin{matrix} 1 - \rho_{XZ}^2 & \rho_{XY} - \rho_{XZ} \rho_{YZ} \\ \rho_{XY} - \rho_{XZ} \rho_{YZ} & 1 - \rho_{YZ}^2 \end{matrix} \right]
  = \left[ \begin{matrix} \sigma_{X|Z}^2 & \sigma_{X,Y|Z} \\ \sigma_{X,Y|Z} & \sigma_{Y|Z}^2 \end{matrix} \right]
 \end{split}

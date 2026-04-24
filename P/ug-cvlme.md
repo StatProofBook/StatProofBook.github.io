@@ -49,7 +49,7 @@ $$ \label{eq:UG-cvLME-m01}
 \end{split}
 $$
 
-where $\bar{y}$ is the [sample mean](/D/mean-samp), $y_1^{(i)}$ are the training data in the $i$-th cross-validation fold with $n_1$ data points and $S$ is the [number of data subsets](/D/cvlme).
+where $\bar{y}$ is the [sample mean](/D/mean-samp), $y_1^{(i)}$ are the training data with $n_1$ data points in the $i$-th cross-validation fold and $S$ is the [number of data subsets](/D/cvlme).
 
 
 **Proof:** For evaluation of the [cross-validated log model evidences](/D/cvlme) (cvLME), we assume that $n$ data points are divided into $S \mid n$ data subsets without remainder. Then, the number of training data points $n_1$ and test data points $n_2$ are given by

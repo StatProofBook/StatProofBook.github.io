@@ -90,6 +90,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.6.3. **[Probability mass function of strictly increasing function](/P/pmf-sifct)** <br>
    &emsp;&ensp; 1.6.4. **[Probability mass function of strictly decreasing function](/P/pmf-sdfct)** <br>
    &emsp;&ensp; 1.6.5. **[Probability mass function of invertible function](/P/pmf-invfct)** <br>
+   &emsp;&ensp; 1.6.6. *[Joint probability mass function](/D/pmf-joint)* <br>
    
    <p id="Probability density function"></p>
    1.7. Probability density function <br>
@@ -214,12 +215,14 @@ title: "Table of Contents"
    <p id="Correlation"></p>
    1.17. Correlation <br>
    &emsp;&ensp; 1.17.1. *[Definition](/D/corr)* <br>
-   &emsp;&ensp; 1.17.2. **[Range](/P/corr-range)** <br>
-   &emsp;&ensp; 1.17.3. **[Correlation under independence](/P/corr-ind)** <br>
-   &emsp;&ensp; 1.17.4. *[Sample correlation coefficient](/D/corr-samp)* <br>
+   &emsp;&ensp; 1.17.2. *[Sample correlation coefficient](/D/corr-samp)* <br>
+   &emsp;&ensp; 1.17.3. **[Range](/P/corr-range)** <br>
+   &emsp;&ensp; 1.17.4. **[Correlation under independence](/P/corr-ind)** <br>
    &emsp;&ensp; 1.17.5. **[Relationship to standard scores](/P/corr-z)** <br>
-   &emsp;&ensp; 1.17.6. *[Correlation matrix](/D/corrmat)* <br>
-   &emsp;&ensp; 1.17.7. *[Sample correlation matrix](/D/corrmat-samp)* <br>
+   &emsp;&ensp; 1.17.6. *[Conditional correlation](/D/corr-cond)* <br>
+   &emsp;&ensp; 1.17.7. *[Partial correlation](/D/corr-part)* <br>
+   &emsp;&ensp; 1.17.8. *[Correlation matrix](/D/corrmat)* <br>
+   &emsp;&ensp; 1.17.9. *[Sample correlation matrix](/D/corrmat-samp)* <br>
    
    <p id="Measures of central tendency"></p>
    1.18. Measures of central tendency <br>
@@ -655,16 +658,18 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.7. **[Mode](/P/mvn-mode)** <br>
    &emsp;&ensp; 4.1.8. **[Covariance](/P/mvn-cov)** <br>
    &emsp;&ensp; 4.1.9. **[Expectation of a quadratic form](/P/mvn-meanqf)** <br>
-   &emsp;&ensp; 4.1.10. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.11. **[Mutual information](/P/mvn-mi)** <br>
-   &emsp;&ensp; 4.1.12. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.13. **[Maximum entropy distribution](/P/mvn-maxent)** <br>
-   &emsp;&ensp; 4.1.14. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.15. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.16. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.17. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.18. **[Independence of products](/P/mvn-indprod)** <br>
-   &emsp;&ensp; 4.1.19. **[Drawing samples](/P/mvn-samp)** <br>
+   &emsp;&ensp; 4.1.10. **[Conditional correlation](/P/mvn-corrcond)** <br>
+   &emsp;&ensp; 4.1.11. **[Partial correlation](/P/mvn-corrpart)** <br>
+   &emsp;&ensp; 4.1.12. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.13. **[Mutual information](/P/mvn-mi)** <br>
+   &emsp;&ensp; 4.1.14. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.15. **[Maximum entropy distribution](/P/mvn-maxent)** <br>
+   &emsp;&ensp; 4.1.16. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.17. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.18. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.19. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.20. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.21. **[Drawing samples](/P/mvn-samp)** <br>
    
    <p id="Bivariate normal distribution"></p>
    4.2. Bivariate normal distribution <br>
@@ -939,6 +944,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.9. **[Log Bayes factor](/P/bin-lbf)** <br>
    &emsp;&ensp; 3.1.10. **[Posterior probability](/P/bin-pp)** <br>
    &emsp;&ensp; 3.1.11. **[Cross-validated log model evidence](/P/bin-cvlme)** <br>
+   &emsp;&ensp; 3.1.12. **[Cross-validated log Bayes factor](/P/bin-cvlbf)** <br>
    
    <p id="Multinomial observations"></p>
    3.2. Multinomial observations <br>
@@ -953,6 +959,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.9. **[Log Bayes factor](/P/mult-lbf)** <br>
    &emsp;&ensp; 3.2.10. **[Posterior probability](/P/mult-pp)** <br>
    &emsp;&ensp; 3.2.11. **[Cross-validated log model evidence](/P/mult-cvlme)** <br>
+   &emsp;&ensp; 3.2.12. **[Cross-validated log Bayes factor](/P/mult-cvlbf)** <br>
    
    <p id="Poisson-distributed data"></p>
    3.3. Poisson-distributed data <br>

@@ -51,23 +51,23 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ follow a [multivariate normal distribution](/D/mvn)
+**Theorem:** Let $X$ follow a [multivariate normal distribution](/D/mvn)
 
 $$ \label{eq:mvn}
-x \sim \mathcal{N}(\mu, \Sigma) \; .
+X \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Then, the [conditional distribution](/D/dist-cond) of any subset vector $x_1$, given the complement vector $x_2$, is also a multivariate normal distribution
+Then, the [conditional distribution](/D/dist-cond) of any subset vector $X_1$, given the complement vector $X_2$, is also a multivariate normal distribution
 
 $$ \label{eq:mvn-cond}
-x_1|x_2 \sim \mathcal{N}(\mu_{1|2}, \Sigma_{1|2})
+X_1|X_2 \sim \mathcal{N}(\mu_{1|2}, \Sigma_{1|2})
 $$
 
 where the conditional [mean](/D/mean) and [covariance](/D/cov) are
 
 $$ \label{eq:mvn-cond-hyp}
 \begin{split}
-\mu_{1|2} &= \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (x_2 - \mu_2) \\
+\mu_{1|2}    &= \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (x_2 - \mu_2) \\
 \Sigma_{1|2} &= \Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21}
 \end{split}
 $$
@@ -76,7 +76,7 @@ with block-wise mean and covariance defined as
 
 $$ \label{eq:mvn-joint-hyp}
 \begin{split}
-\mu &= \begin{bmatrix} \mu_1 \\ \mu_2 \end{bmatrix} \\
+\mu    &= \begin{bmatrix} \mu_1 \\ \mu_2 \end{bmatrix} \\
 \Sigma &= \begin{bmatrix} \Sigma_{11} & \Sigma_{12} \\ \Sigma_{21} & \Sigma_{22} \end{bmatrix} \; .
 \end{split}
 $$
@@ -84,23 +84,22 @@ $$
 
 **Proof:** Without loss of generality, we assume that, in parallel to \eqref{eq:mvn-joint-hyp},
 
-$$ \label{eq:x}
-x = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
+$$ \label{eq:X}
+X = \begin{bmatrix} X_1 \\ X_2 \end{bmatrix}
 $$
 
-where $x_1$ is an $n_1 \times 1$ vector, $x_2$ is an $n_2 \times 1$ vector and $x$ is an $n_1 + n_2 = n \times 1$ vector.
+where $X_1$ is an $n_1$-dimensional vector, $X_2$ is an $n_2$-dimensional vector and $X$ is an $(n_1 + n_2)$-dimensional vector.
 
-<br>
-By construction, the [joint distribution](/D/dist-joint) of $x_1$ and $x_2$ is:
+By construction, the [joint distribution](/D/dist-joint) of $X_1$ and $X_2$ is:
 
 $$ \label{eq:mvn-joint}
-x_1,x_2 \sim \mathcal{N}(\mu, \Sigma) \; .
+X_1,X_2 \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Moreover, the [marginal distribution](/D/dist-marg) of $x_2$ [follows from](/P/mvn-marg) \eqref{eq:mvn} and \eqref{eq:mvn-joint-hyp} as
+Moreover, the [marginal distribution](/D/dist-marg) of $X_2$ [follows from](/P/mvn-marg) \eqref{eq:mvn} and \eqref{eq:mvn-joint-hyp} as
 
 $$ \label{eq:mvn-marg}
-x_2 \sim \mathcal{N}(\mu_2, \Sigma_{22}) \; .
+X_2 \sim \mathcal{N}(\mu_2, \Sigma_{22}) \; .
 $$
 
 According to the [law of conditional probability](/D/prob-cond), it holds that
@@ -152,7 +151,6 @@ $$
 
 where we have used the fact that ${\Sigma^{21}}^\mathrm{T} = \Sigma^{12}$, because $\Sigma^{-1}$ is a symmetric matrix.
 
-<br>
 The inverse of a block matrix is
 
 $$ \label{eq:block-inv}
@@ -215,7 +213,6 @@ $$
 
 where we have used [the fact that](/P/covmat-symm) $\Sigma_{21} = \Sigma_{12}^\mathrm{T}$, because $\Sigma$ is a [covariance matrix](/D/covmat).
 
-<br>
 The determinant of a block matrix is
 
 $$ \label{eq:Block-det}

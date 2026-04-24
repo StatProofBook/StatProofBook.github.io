@@ -21,22 +21,22 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ and $y$ follow a [normal-gamma distribution](/D/ng):
+**Theorem:** Let $X$ and $Y$ follow a [normal-gamma distribution](/D/ng):
 
 $$ \label{eq:ng}
-x,y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
+X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
 $$
 
-Then, the [marginal distribution](/D/dist-marg) of $y$ is a [gamma distribution](/D/gam)
+Then, the [marginal distribution](/D/dist-marg) of $Y$ is a [gamma distribution](/D/gam)
 
 $$ \label{eq:ng-marg-y}
-y \sim \mathrm{Gam}(a, b)
+Y \sim \mathrm{Gam}(a, b)
 $$
 
-and the [marginal distribution](/D/dist-marg) of $x$ is a [multivariate t-distribution](/D/mvt)
+and the [marginal distribution](/D/dist-marg) of $X$ is a [multivariate t-distribution](/D/mvt)
 
 $$ \label{eq:ng-marg-x}
-x \sim t\left( \mu, \left(\frac{a}{b} \Lambda \right)^{-1}, 2a \right) \; .
+X \sim t\left( \mu, \left(\frac{a}{b} \Lambda \right)^{-1}, 2a \right) \; .
 $$
 
 
@@ -50,7 +50,7 @@ p(x|y) &= \mathcal{N}(x; \mu, (y \Lambda)^{-1}) \\
 \end{split}
 $$
 
-1) Using the [law of marginal probability](/D/prob-marg), the marginal distribution of $y$ can be derived as
+1) Using the [law of marginal probability](/D/prob-marg), the marginal distribution of $Y$ can be derived as
 
 $$ \label{eq:ng-marg-y-qed}
 \begin{split}
@@ -89,7 +89,7 @@ $$ \label{eq:ng-marg-x-s2}
 \end{split}
 $$
 
-Using the exponentiation property $a^{m+n} = a^m \cdot a^n$ and some further algebraic manipulations, the marginal distribution of $x$ can be derived as
+Using the exponentiation property $a^{m+n} = a^m \cdot a^n$ and some further algebraic manipulations, the marginal distribution of $X$ can be derived as
 
 $$ \label{eq:ng-marg-x-s3}
 \begin{split}

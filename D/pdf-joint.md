@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X \in \mathbb{R}^{n}$ be a [continuous](/D/rvar-disc) [random vector](/D/rvec). Then, a function $f_X(x): \mathbb{R}^n \to \mathbb{R}$ is the [joint](/D/dist-joint) [probability density function](/D/pdf) of $X$, if
+**Definition:** Let $X \in \mathbb{R}^{n}$ be a [continuous](/D/rvar-disc) [random vector](/D/rvec) with possible outcomes $\mathcal{X}$. Then, a function $f_X(x): \mathbb{R}^n \to \mathbb{R}$ is the [joint](/D/dist-joint) [probability density function](/D/pdf) of $X$, if
 
 $$ \label{eq:pdf-joint-def-s0}
 f_X(x) \geq 0

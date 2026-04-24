@@ -232,3 +232,6 @@ title: "Definition by Number"
 | D223 | mvn-data | [Multivariate normally distributed data](/D/mvn-data) | JoramSoch | 2025-06-20 |
 | D224 | mde | [Minimum detectable effect](/D/mde) | alexanderdbolton | 2025-07-15 |
 | D225 | mrss | [Minimum required sample size](/D/mrss) | alexanderdbolton | 2025-07-15 |
+| D226 | corr-cond | [Conditional correlation](/D/corr-cond) | JoramSoch | 2026-03-26 |
+| D227 | corr-part | [Partial correlation](/D/corr-part) | JoramSoch | 2026-03-26 |
+| D228 | pmf-joint | [Joint probability mass function](/D/pmf-joint) | JoramSoch | 2026-03-26 |

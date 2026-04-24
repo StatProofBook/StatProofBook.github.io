@@ -28,55 +28,55 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ be an $n$-dimensional [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn) with [zero mean](/D/mean-rvec) and arbitrary [covariance matrix](/P/mvn-cov) $\Sigma$:
+**Theorem:** Let $X$ be an $n$-dimensional [random vector](/D/rvec) following a [multivariate normal distribution](/D/mvn) with [zero mean](/D/mean-rvec) and arbitrary [covariance matrix](/P/mvn-cov) $\Sigma$:
 
 $$ \label{eq:mvn}
-x \sim \mathcal{N}(0, \Sigma) \; .
+X \sim \mathcal{N}(0, \Sigma) \; .
 $$
 
-Then, the quadratic form of $x$, weighted by $\Sigma$, follows a [chi-squared distribution](/D/chi2) with $n$ [degrees of freedom](/D/dof):
+Then, the quadratic form of $X$, weighted by $\Sigma$, follows a [chi-squared distribution](/D/chi2) with $n$ [degrees of freedom](/D/dof):
 
 $$ \label{eq:mvn-chi2}
-y = x^\mathrm{T} \Sigma^{-1} x \sim \chi^2(n) \; .
+Y = X^\mathrm{T} \Sigma^{-1} X \sim \chi^2(n) \; .
 $$
 
 
-**Proof:** Define a new [random vector](/D/rvec) $z$ as
+**Proof:** Define a new [random vector](/D/rvec) $Z$ as
 
-$$ \label{eq:z}
-z = \Sigma^{-1/2} x \; .
+$$ \label{eq:Z}
+Z = \Sigma^{-1/2} X \; .
 $$
 
-where $\Sigma^{-1/2}$ is the matrix square root of $\Sigma$. This matrix must exist, because $\Sigma$ is a [covariance matrix](/D/covmat) and [thus positive semi-definite](/P/covmat-psd). Due to the [linear transformation theorem](/P/mvn-ltt), $z$ is distributed as
+where $\Sigma^{-1/2}$ is the matrix square root of $\Sigma$. This matrix must exist, because $\Sigma$ is a [covariance matrix](/D/covmat) and [thus positive semi-definite](/P/covmat-psd). Due to the [linear transformation theorem](/P/mvn-ltt), $Z$ is distributed as
 
-$$ \label{eq:z-dist}
+$$ \label{eq:Z-dist}
 \begin{split}
-z &\sim \mathcal{N}\left( \Sigma^{-1/2} 0, \, \Sigma^{-1/2} \Sigma \, {\Sigma^{-1/2}}^\mathrm{T} \right) \\
-&\sim \mathcal{N}\left( \Sigma^{-1/2} 0, \, \Sigma^{-1/2} \Sigma^{1/2} \Sigma^{1/2} \Sigma^{-1/2} \right) \\
-&\sim \mathcal{N}(0, I_n) \; ,
+Z &\sim \mathcal{N}\left( \Sigma^{-1/2} 0, \, \Sigma^{-1/2} \Sigma \, {\Sigma^{-1/2}}^\mathrm{T} \right) \\
+  &\sim \mathcal{N}\left( \Sigma^{-1/2} 0, \, \Sigma^{-1/2} \Sigma^{1/2} \Sigma^{1/2} \Sigma^{-1/2} \right) \\
+  &\sim \mathcal{N}(0, I_n) \; ,
 \end{split}
 $$
 
 i.e. [each entry of this vector follows](/P/mvn-marg) a [standard normal distribution](/D/snorm):
 
-$$ \label{eq:zi-dist}
-z_i \sim \mathcal{N}(0, 1) \quad \text{for all} \quad i = 1, \ldots, n \; .
+$$ \label{eq:Zi-dist}
+Z_i \sim \mathcal{N}(0, 1) \quad \text{for all} \quad i = 1, \ldots, n \; .
 $$
 
-We further observe that $y$ can be represented in terms of $z$
+We further observe that $Y$ can be represented in terms of $Z$
 
 $$ \label{eq:y-z}
-y = x^\mathrm{T} \Sigma^{-1} x = \left( x^\mathrm{T} \Sigma^{-1/2} \right) \left( \Sigma^{-1/2} x \right) = z^\mathrm{T} z \; ,
+Y = X^\mathrm{T} \Sigma^{-1} X = \left( X^\mathrm{T} \Sigma^{-1/2} \right) \left( \Sigma^{-1/2} X \right) = Z^\mathrm{T} Z \; ,
 $$
 
-thus $z$ is a sum of $n$ squared [standard normally distributed](/D/snorm) [random variables](/D/rvar)
+thus $Z$ is a sum of $n$ squared [standard normally distributed](/D/snorm) [random variables](/D/rvar)
 
 $$ \label{eq:y-z-sum}
-y = \sum_{i=1}^{n} z_i^2 \quad \text{where all} \quad z_i \sim \mathcal{N}(0, 1)
+Y = \sum_{i=1}^{n} Z_i^2 \quad \text{where all} \quad Z_i \sim \mathcal{N}(0, 1)
 $$
 
 which, [by definition, is chi-squared distributed](/D/chi2) with $n$ degrees of freedom:
 
 $$ \label{eq:mvn-chi2-qed}
-y \sim \chi^2(n) \; .
+Y \sim \chi^2(n) \; .
 $$

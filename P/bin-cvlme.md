@@ -45,7 +45,7 @@ $$ \label{eq:Bin-cvLME-m01}
 \end{split}
 $$
 
-where $y_1^{(i)}$ and $y_2^{(i)}$ are the training and test data, respectively, in the $i$-th cross-validation fold with $n_1$ and $n_2$ data points, respectively, $S$ is the [number of data subsets](/D/cvlme) and $B(x,y)$ is the beta function.
+where $y_1^{(i)}$ and $y_2^{(i)}$ are the training and test data, respectively, with $n_1$ and $n_2$ data points, respectively, in the $i$-th cross-validation fold, $S$ is the [number of data subsets](/D/cvlme) and $B(x,y)$ is the beta function.
 
 
 **Proof:** For evaluation of the [cross-validated log model evidences](/D/cvlme) (cvLME), we assume that $n$ data points are divided into $S \mid n$ data subsets without remainder. Then, the number of training data points $n_1$ and test data points $n_2$ are given by

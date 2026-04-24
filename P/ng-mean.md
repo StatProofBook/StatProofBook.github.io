@@ -21,42 +21,47 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x \in \mathbb{R}^n$ and $y > 0$ follow a [normal-gamma distribution](/D/ng):
+**Theorem:** Let $X \in \mathbb{R}^n$ and $Y > 0$ follow a [normal-gamma distribution](/D/ng):
 
 $$ \label{eq:ng}
-x,y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
+X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
 $$
 
-Then, the [expected value](/D/mean) of $x$ and $y$ is
+Then, the [expected value](/D/mean) of $X$ and $Y$ is
 
 $$ \label{eq:ng-mean}
-\mathrm{E}[(x,y)] = \left( \mu, \frac{a}{b} \right) \; .
+\mathrm{E}[(X,Y)] = \left( \mu, \frac{a}{b} \right) \; .
 $$
 
 
 **Proof:** Consider the [random vector](/D/rvec)
 
 $$ \label{eq:rvec}
-\left[ \begin{array}{c} x \\ y \end{array} \right] = \left[ \begin{array}{c} x_1 \\ \vdots \\ x_n \\ y \end{array} \right] \; .
+\left[ \begin{array}{c} X \\ Y \end{array} \right] = \left[ \begin{array}{c} X_1 \\ \vdots \\ X_n \\ Y \end{array} \right] \; .
 $$
 
 According to the [expected value of a random vector](/D/mean-rvec), its expected value is
 
 $$ \label{eq:mean-rvec}
-\mathrm{E}\left( \left[ \begin{array}{c} x \\ y \end{array} \right] \right) = \left[ \begin{array}{c} \mathrm{E}(x_1) \\ \vdots \\ \mathrm{E}(x_n) \\ \mathrm{E}(y) \end{array} \right] = \left[ \begin{array}{c} \mathrm{E}(x) \\ \mathrm{E}(y) \end{array} \right] \; .
+\mathrm{E}\left( \left[ \begin{array}{c} X \\ Y \end{array} \right] \right) = \left[ \begin{array}{c} \mathrm{E}(X_1) \\ \vdots \\ \mathrm{E}(X_n) \\ \mathrm{E}(Y) \end{array} \right] = \left[ \begin{array}{c} \mathrm{E}(X) \\ \mathrm{E}(Y) \end{array} \right] \; .
 $$
 
-When $x$ and $y$ are [jointly normal-gamma distributed, then](/D/ng) by definition $x$ follows a [multivariate normal distribution](/D/mvn) conditional on $y$ and $y$ follows a [univariate gamma distribution](/D/gam):
+When $X$ and $Y$ are [jointly normal-gamma distributed](/D/ng), then by definition $X$ follows a [multivariate normal distribution](/D/mvn) conditional on $Y$ and $Y$ follows a [univariate gamma distribution](/D/gam):
 
 $$ \label{eq:ng-def}
-x,y \sim \mathrm{NG}(\mu, \Lambda, a, b) \quad \Leftrightarrow \quad x \vert y \sim \mathcal{N}(\mu, (y \Lambda)^{-1}) \quad \wedge \quad y \sim \mathrm{Gam}(a,b) \; .
+X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b)
+\quad \Leftrightarrow \quad
+X \vert Y \sim \mathcal{N}(\mu, (y \Lambda)^{-1})
+\quad \wedge \quad
+Y \sim \mathrm{Gam}(a,b) \; .
 $$
 
-Thus, with the [expected value of the multivariate normal distribution](/P/mvn-mean) and the [law of conditional probability](/D/prob-cond), $\mathrm{E}(x)$ becomes
+Thus, with the [expected value of the multivariate normal distribution](/P/mvn-mean) and the [law of conditional probability](/D/prob-cond), $\mathrm{E}(X)$ becomes
 
 $$ \label{eq:mean-x}
 \begin{split}
-\mathrm{E}(x) &= \iint x \cdot p(x,y) \, \mathrm{d}x \, \mathrm{d}y \\
+   \mathrm{E}(X)
+&= \iint x \cdot p(x,y) \, \mathrm{d}x \, \mathrm{d}y \\
 &= \iint x \cdot p(x|y) \cdot p(y) \, \mathrm{d}x \, \mathrm{d}y \\
 &= \int p(y) \int x \cdot p(x|y) \, \mathrm{d}x \, \mathrm{d}y \\
 &= \int p(y) \left\langle x \right\rangle_{\mathcal{N}(\mu, (y \Lambda)^{-1})} \, \mathrm{d}y \\
@@ -66,11 +71,12 @@ $$ \label{eq:mean-x}
 \end{split}
 $$
 
-and with the [expected value of the gamma distribution](/P/gam-mean), $\mathrm{E}(y)$ becomes
+and with the [expected value of the gamma distribution](/P/gam-mean), $\mathrm{E}(Y)$ becomes
 
 $$ \label{eq:mean-y}
 \begin{split}
-\mathrm{E}(y) &= \int y \cdot p(y) \, \mathrm{d}y \\
+   \mathrm{E}(Y)
+&= \int y \cdot p(y) \, \mathrm{d}y \\
 &= \left\langle y \right\rangle_{\mathrm{Gam}(a,b)} \\
 &= \frac{a}{b} \; .
 \end{split}
@@ -79,7 +85,7 @@ $$
 Thus, the expectation of the random vector in equations \eqref{eq:rvec} and \eqref{eq:mean-rvec} is
 
 $$ \label{eq:ng-mean-qed}
-\mathrm{E}\left( \left[ \begin{array}{c} x \\ y \end{array} \right] \right) = \left[ \begin{array}{c} \mu \\ a/b \end{array} \right] \; ,
+\mathrm{E}\left( \left[ \begin{array}{c} X \\ Y \end{array} \right] \right) = \left[ \begin{array}{c} \mu \\ a/b \end{array} \right] \; ,
 $$
 
 as indicated by equation \eqref{eq:ng-mean}.

@@ -21,44 +21,44 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ and $y$ follow a [normal-gamma distribution](/D/ng):
+**Theorem:** Let $X$ and $Y$ follow a [normal-gamma distribution](/D/ng):
 
 $$ \label{eq:ng}
-x,y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
+X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; .
 $$
 
 Then,
 
-1) the [conditional distribution](/D/dist-cond) of $x$ given $y$ is a [multivariate normal distribution](/D/mvn)
+1) the [conditional distribution](/D/dist-cond) of $X$ given $Y$ is a [multivariate normal distribution](/D/mvn)
 
 $$ \label{eq:ng-cond-x-y}
-x|y \sim \mathcal{N}(\mu, (y \Lambda)^{-1}) \; ;
+X|Y \sim \mathcal{N}(\mu, (Y \Lambda)^{-1}) \; ;
 $$
 
-2) the [conditional distribution](/D/dist-cond) of a subset vector $x_1$, given the complement vector $x_2$ and $y$, is also a [multivariate normal distribution](/D/mvn)
+2) the [conditional distribution](/D/dist-cond) of a subset vector $X_1$, given the complement vector $X_2$ and $Y$, is also a [multivariate normal distribution](/D/mvn)
 
 $$ \label{eq:ng-cond-x1-x2-y}
-x_1|x_2,y \sim \mathcal{N}(\mu_{1|2}(y), \Sigma_{1|2}(y))
+X_1|X_2,Y \sim \mathcal{N}(\mu_{1|2}(Y), \Sigma_{1|2}(Y))
 $$
 
 with the conditional [mean](/D/mean) and [covariance](/D/cov)
 
 $$ \label{eq:ng-cond-x1-x2-y-hyp}
 \begin{split}
-\mu_{1|2}(y) &= \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (x_2 - \mu_2) \\
-\Sigma_{1|2}(y) &= \Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{12}
+\mu_{1|2}(Y)    &= \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (X_2 - \mu_2) \\
+\Sigma_{1|2}(Y) &= \Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{12}
 \end{split}
 $$
 
-where $\mu_1$, $\mu_2$ and $\Sigma_{11}$, $\Sigma_{12}$, $\Sigma_{22}$, $\Sigma_{21}$ are [block-wise components](/P/mvn-cond) of $\mu$ and $\Sigma(y) = (y \Lambda)^{-1}$;
+where $\mu_1$, $\mu_2$ and $\Sigma_{11}$, $\Sigma_{12}$, $\Sigma_{22}$, $\Sigma_{21}$ are [block-wise components](/P/mvn-cond) of $\mu$ and $\Sigma(Y) = (Y \Lambda)^{-1}$;
 
-3) the [conditional distribution](/D/dist-cond) of $y$ given $x$ is a [gamma distribution](/D/gam)
+3) the [conditional distribution](/D/dist-cond) of $Y$ given $X$ is a [gamma distribution](/D/gam)
 
 $$ \label{eq:ng-cond-y-x}
-y|x \sim \mathrm{Gam}\left( a + \frac{n}{2}, b + \frac{1}{2} (x-\mu)^\mathrm{T} \Lambda (x-\mu) \right)
+Y|X \sim \mathrm{Gam}\left( a + \frac{n}{2}, b + \frac{1}{2} (X-\mu)^\mathrm{T} \Lambda (X-\mu) \right)
 $$
 
-where $n$ is the dimensionality of $x$.
+where $n$ is the dimensionality of $X$.
 
 
 **Proof:**
@@ -76,32 +76,32 @@ $$
 
 $$ \label{eq:mvn-cond}
 \begin{split}
-x &\sim \mathcal{N}(\mu, \Sigma) \\
-\Rightarrow x_1|x_2 &\sim \mathcal{N}(\mu_{1|2}, \Sigma_{1|2}) \\
-\mu_{1|2} &= \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (x_2 - \mu_2) \\
-\Sigma_{1|2} &= \Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21} \; .
+X            &\sim \mathcal{N}(\mu, \Sigma) \\ \Rightarrow
+X_1|X_2      &\sim \mathcal{N}(\mu_{1|2}, \Sigma_{1|2}) \\
+\mu_{1|2}    &=    \mu_1 + \Sigma_{12} \Sigma_{22}^{-1} (X_2 - \mu_2) \\
+\Sigma_{1|2} &=    \Sigma_{11} - \Sigma_{12} \Sigma_{22}^{-1} \Sigma_{21} \; .
 \end{split}
 $$
 
-3) The conditional density of $y$ given $x$ follows from [Bayes' theorem](/P/bayes-th) as
+3) The conditional density of $Y$ given $X$ follows from [Bayes' theorem](/P/bayes-th) as
 
 $$ \label{eq:ng-cond-y-x-s1}
 p(y|x) = \frac{p(x|y) \cdot p(y)}{p(x)} \; .
 $$
 
-The [conditional distribution](/D/dist-cond) of $x$ given $y$ [is a multivariate normal distribution](/P/ng-pdf)
+The [conditional distribution](/D/dist-cond) of $X$ given $Y$ [is a multivariate normal distribution](/P/ng-pdf)
 
 $$ \label{eq:ng-x-y-pdf}
 p(x|y) = \mathcal{N}(x; \mu, (y \Lambda)^{-1}) = \sqrt{\frac{|y \Lambda|}{(2 \pi)^n}} \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} (y \Lambda) (x-\mu) \right] \; ,
 $$
 
-the [marginal distribution](/D/dist-marg) of $y$ [is a gamma distribution](/P/ng-marg)
+the [marginal distribution](/D/dist-marg) of $Y$ [is a gamma distribution](/P/ng-marg)
 
 $$ \label{eq:ng-y-pdf}
 p(y) = \mathrm{Gam}(y; a, b) = \frac{b^a}{\Gamma(a)} y^{a-1} \exp\left[ -by \right]
 $$
 
-and the [marginal distribution](/D/dist-marg) of $x$ [is a multivariate t-distribution](/P/ng-marg)
+and the [marginal distribution](/D/dist-marg) of $X$ [is a multivariate t-distribution](/P/ng-marg)
 
 $$ \label{eq:ng-x-pdf}
 \begin{split}

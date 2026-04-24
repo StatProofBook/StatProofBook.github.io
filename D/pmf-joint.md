@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X \in \mathcal{X} = \mathcal{X}_1 \times \ldots \times \mathcal{X}_n$ be a [discrete](/D/rvar-disc) [random vector](/D/rvec) where $\mathcal{X}_1, \ldots, \mathcal{X}_n$ are the sets of possible values of the entries $X_1, \ldots, X_n$. Then, a function $f_X(x): \mathcal{X} \to \mathbb{R}$ is the [joint](/D/dist-joint) [probability mass function](/D/pmf) of $X$, if
+**Definition:** Let $X$ be a [discrete](/D/rvar-disc) [random vector](/D/rvec) with possible outcomes $\mathcal{X} = \mathcal{X}_1 \times \ldots \times \mathcal{X}_n$ where $\mathcal{X}_1, \ldots, \mathcal{X}_n$ are the sets of possible values for the entries $X_1, \ldots, X_n$. Then, a function $f_X(x): \mathcal{X} \to \mathbb{R}$ is the [joint](/D/dist-joint) [probability mass function](/D/pmf) of $X$, if
 
 $$ \label{eq:pmf-joint-def-s0}
 f_X(x) \in [0, 1]

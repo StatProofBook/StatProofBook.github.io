@@ -27,16 +27,16 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x$ follow a [multivariate normal distribution](/D/mvn)
+**Theorem:** Let $X$ follow a [multivariate normal distribution](/D/mvn)
 
 $$ \label{eq:mvn}
-x \sim \mathcal{N}(\mu, \Sigma) \; .
+X \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Then, the [differential entropy](/D/dent) of $x$ in nats is
+Then, the [differential entropy](/D/dent) of $X$ in nats is
 
 $$ \label{eq:mvn-dent}
-\mathrm{h}(x) = \frac{n}{2} \ln(2\pi) + \frac{1}{2} \ln|\Sigma| + \frac{1}{2} n \; .
+\mathrm{h}(X) = \frac{n}{2} \ln(2\pi) + \frac{1}{2} \ln|\Sigma| + \frac{1}{2} n \; .
 $$
 
 
@@ -52,11 +52,12 @@ $$ \label{eq:dent-nats}
 \mathrm{h}(X) = - \mathrm{E}\left[ \ln p(x) \right] \; .
 $$
 
-With the [probability density function of the multivariate normal distribution](/P/mvn-pdf), the differential entropy of $x$ is:
+With the [probability density function of the multivariate normal distribution](/P/mvn-pdf), the differential entropy of $X$ is:
 
 $$ \label{eq:mvn-dent-s1}
 \begin{split}
-\mathrm{h}(x) &= - \mathrm{E}\left[ \ln \left( \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \right) \right] \\
+   \mathrm{h}(X)
+&= - \mathrm{E}\left[ \ln \left( \frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \cdot \exp \left[ -\frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \right) \right] \\
 &= - \mathrm{E}\left[ - \frac{n}{2} \ln(2\pi) - \frac{1}{2} \ln|\Sigma| - \frac{1}{2} (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \\
 &= \frac{n}{2} \ln(2\pi) + \frac{1}{2} \ln|\Sigma| + \frac{1}{2} \, \mathrm{E}\left[ (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] \; .
 \end{split}
@@ -66,7 +67,8 @@ The last term can be evaluted as
 
 $$ \label{eq:mvn-dent-t3}
 \begin{split}
-\mathrm{E}\left[ (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right] &= \mathrm{E}\left[ \mathrm{tr}\left( (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right) \right] \\
+   \mathrm{E}\left[ (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right]
+&= \mathrm{E}\left[ \mathrm{tr}\left( (x-\mu)^\mathrm{T} \Sigma^{-1} (x-\mu) \right) \right] \\
 &= \mathrm{E}\left[ \mathrm{tr}\left( \Sigma^{-1} (x-\mu) (x-\mu)^\mathrm{T} \right) \right] \\
 &= \mathrm{tr}\left( \Sigma^{-1} \mathrm{E}\left[ (x-\mu) (x-\mu)^\mathrm{T} \right] \right) \\
 &= \mathrm{tr}\left( \Sigma^{-1} \Sigma \right) \\

@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** The [multivariate normal distribution](/D/mvn) is a special case of the [matrix-normal distribution](/D/matn) with number of variables $p = 1$, i.e. [random matrix](/D/rvar) $X = x \in \mathbb{R}^{n \times 1}$, mean $M = \mu \in \mathbb{R}^{n \times 1}$, covariance across rows $U = \Sigma$ and covariance across columns $V = 1$.
+**Theorem:** The [multivariate normal distribution](/D/mvn) is a special case of the [matrix-normal distribution](/D/matn) with number of columns $p = 1$, i.e. random matrix $X \in \mathbb{R}^{n \times 1}$, mean $M = \mu \in \mathbb{R}^{n \times 1}$, covariance across rows $U = \Sigma$ and covariance across columns $V = 1$.
 
 
 **Proof:** The [probability density function of the matrix-normal distribution](/P/matn-pdf) is
