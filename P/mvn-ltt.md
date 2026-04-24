@@ -27,17 +27,19 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ follow a [multivariate normal distribution](/D/mvn):
+**Theorem:** Let $X \in \mathbb{R}^n$ follow a [multivariate normal distribution](/D/mvn):
 
 $$ \label{eq:mvn}
 X \sim \mathcal{N}(\mu, \Sigma) \; .
 $$
 
-Then, any linear transformation of $X$ is also multivariate normally distributed:
+Then, any linear transformation of $X$ is also multivariate normally distributed
 
 $$ \label{eq:mvn-lt}
-Y = AX + b \sim \mathcal{N}(A\mu + b, A \Sigma A^\mathrm{T}) \; .
+Y = AX + b \sim \mathcal{N}(A\mu + b, A \Sigma A^\mathrm{T})
 $$
+
+where $A$ is an $m \times n$ matrix and $b$ is an $m$-dimensional vector.
 
 
 **Proof:** The [moment-generating function of a random vector](/D/mgf) $X$ is

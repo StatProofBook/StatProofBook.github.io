@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $X$ follow a [multivariate normal distribution](/D/mvn):
+**Theorem:** Let $X \in \mathbb{R}^n$ follow a [multivariate normal distribution](/D/mvn):
 
 $$ \label{eq:mvn}
 X \sim \mathcal{N}(\mu, \Sigma) \; .

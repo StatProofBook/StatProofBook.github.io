@@ -130,7 +130,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Weak law of large numbers](/P/mean-wlln)**
 - **[Expected value minimizes squared error](/P/mean-mse)**
 - *[Circular expected value](/D/mean-circ)*
-- **[Circular sample mean](/D/meancirc-samp)**
+- **[Circular sample mean](/P/meancirc-samp)**
 - *[Expected value of a random vector](/D/mean-rvec)*
 - **[Expectation of a quadratic form](/P/mean-qf)**
 - **[Expectation of a bilinear form](/P/mean-blf)**

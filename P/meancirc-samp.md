@@ -39,7 +39,7 @@ where $\sin$ and $\cos$ are the sine and cosine function, respectively, and $\ar
 **Proof:** For observations of a [circular random variable](/D/rvar-circ) satisfying
 
 $$ \label{eq:rvar-circ-samp-x}
-0 \leq x_i < 2 \pi, \; i = 1,\ldots,n
+0 \leq x_i < 2 \pi, \; i = 1,\ldots,n \; ,
 $$
 
 calculating the [sample mean as the arithmetic mean](/D/mean-samp) is not appropriate as this does not preserve the periodic nature of the random variable.

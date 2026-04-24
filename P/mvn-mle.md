@@ -65,7 +65,7 @@ $$ \label{eq:mvn-lf-yi}
 \end{split}
 $$
 
-and all data points are [independent](/D/ind), the total likelihood function [is equal to the product](/P/prob-ind) of the individual likelihood functions:
+and because all data points are [independent](/D/ind), the total likelihood function [is equal to the product](/P/prob-ind) of the individual likelihood functions:
 
 $$ \label{eq:mvn-lf-y}
 \begin{split}

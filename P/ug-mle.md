@@ -46,13 +46,13 @@ $$
 **Proof:** The [likelihood function](/D/lf) for each observation is given by the [probability density function of the normal distribution](/P/norm-pdf)
 
 $$ \label{eq:ug-yi}
-p(y_i|\mu,\sigma^2) = \mathcal{N}(x; \mu, \sigma^2) = \frac{1}{\sqrt{2 \pi \sigma^2}} \cdot \exp \left[ -\frac{1}{2} \left( \frac{y_i-\mu}{\sigma} \right)^2 \right]
+p(y_i|\mu,\sigma^2) = \mathcal{N}(y_i; \mu, \sigma^2) = \frac{1}{\sqrt{2 \pi \sigma^2}} \cdot \exp \left[ -\frac{1}{2} \left( \frac{y_i-\mu}{\sigma} \right)^2 \right]
 $$
 
-and because observations are [independent](/D/ind), the likelihood function for all observations is the product of the individual ones:
+and because observations are [independent](/D/ind), the likelihood function for all observations [is equal to the product](/P/prob-ind) of the individual ones:
 
 $$ \label{eq:ug-LF-s1}
-p(y|\mu,\sigma^2) = \prod_{i=1}^n p(y_i|\mu) = \sqrt{ \frac{1}{(2 \pi \sigma^2)^n} } \cdot \exp \left[ -\frac{1}{2} \sum_{i=1}^{n} \left( \frac{y_i-\mu}{\sigma} \right)^2 \right] \; .
+p(y|\mu,\sigma^2) = \prod_{i=1}^n p(y_i|\mu,\sigma^2) = \sqrt{ \frac{1}{(2 \pi \sigma^2)^n} } \cdot \exp \left[ -\frac{1}{2} \sum_{i=1}^{n} \left( \frac{y_i-\mu}{\sigma} \right)^2 \right] \; .
 $$
 
 This can be developed into

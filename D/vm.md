@@ -14,6 +14,12 @@ topic: "von Mises distribution"
 definition: "Definition"
 
 sources:
+  - authors: "Wikipedia"
+    year: 2026
+    title: "von Mises distribution"
+    in: "Wikipedia, the free encyclopedia"
+    pages: "retrieved on 2026-04-24"
+    url: "https://en.wikipedia.org/wiki/Von_Mises_distribution#Definition"
   - authors: "Bishop CM"
     year: 2006
     title: "Probability Distributions"

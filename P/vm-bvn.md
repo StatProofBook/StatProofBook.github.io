@@ -34,11 +34,11 @@ username: "JoramSoch"
 **Theorem:** Let $Y_1$ and $Y_2$ follow a [bivariate normal distribution](/D/bvn) with means $\mu_1$ and $\mu_2$ and [spherical covariance matrix](/D/spher):
 
 $$ \label{eq:bvn}
-     \left[ \begin{matrix} Y_1 \\ Y_2 \end{matrix} \right]
+Y =  \left[ \begin{matrix} Y_1 \\ Y_2 \end{matrix} \right]
 \sim \mathcal{N}\left( \left[ \begin{matrix} \mu_1 \\ \mu_2 \end{matrix} \right], \sigma^2 \left[ \begin{matrix} 1 & 0 \\ 0 & 1 \end{matrix} \right] \right) \; .
 $$
 
-Consider the polar-coordinate representation of the complex numbers $Y_1 + i Y_2$ and $\mu_1 + i \mu_2$ using the [random variables](/D/rvar) $X$ and $R$ as well as the constants $x_0 \in [0, 2 \pi)$ and $r_0 \in [0, \inf)$:
+Consider the polar-coordinate representation of the complex numbers $Y_1 + i Y_2$ and $\mu_1 + i \mu_2$ using the [random variables](/D/rvar) $X$ and $R$ as well as the constants $x_0 \in [0, 2 \pi)$ and $r_0 \in [0, \infty)$:
 
 $$ \label{eq:Y12-mu12-rX-rX0}
 \begin{split}
@@ -49,7 +49,7 @@ Y_2    = R \cdot \sin X  \\
 \end{split}
 $$
 
-Then, the [circular random variable](/D/rvar-circ) $X$, i.e. the angular direction of the [random vector](/D/rvec) $(Y_1, Y_2)^\mathrm{T}$ follows a von Mises distribution with circular mean $\mu = x_0$ and reciprocal dispersion $\kappa = r_0 / \sigma^2$:
+Then, the [circular random variable](/D/rvar-circ) $X$, i.e. the angular direction of the [random vector](/D/rvec) $Y$ follows a von Mises distribution with circular mean $\mu = x_0$ and reciprocal dispersion $\kappa = r_0 / \sigma^2$:
 
 $$ \label{eq:vm}
 X \sim \mathrm{vM}(\mu, \kappa) \; .

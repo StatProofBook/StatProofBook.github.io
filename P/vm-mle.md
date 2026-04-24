@@ -64,7 +64,7 @@ $$ \label{eq:vm-yi}
 p(y_i|\mu,\kappa) = \mathrm{vM}(y_i; \mu, \kappa) = \frac{1}{\sqrt{2 \pi} I_0(\kappa)} \cdot \exp \left[ \kappa \cos(y_i-\mu) \right]
 $$
 
-and because observations are [independent](/D/ind), the likelihood function for all observations is the product of the individual ones:
+and because observations are [independent](/D/ind), the likelihood function for all observations [is equal to the product](/P/prob-ind) of the individual ones:
 
 $$ \label{eq:vm-LF}
 p(y|\mu,\kappa) = \prod_{i=1}^n p(y_i|\mu, \kappa) = \left( \frac{1}{\sqrt{2 \pi} I_0(\kappa)} \right)^n \cdot \exp \left[ \kappa \sum_{i=1}^n \cos(y_i-\mu) \right] \; .

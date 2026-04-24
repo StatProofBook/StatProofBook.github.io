@@ -93,7 +93,7 @@ X \sim \mathcal{N}(\mu, \Sigma)
 \left\langle A X \right\rangle = A \mu
 $$
 
-and the [expectation of a quadratic form for the multivariate normal distribution](/P/mean-qf)
+and the [expectation of a quadratic form for the multivariate normal distribution](/P/mvn-meanqf)
 
 $$ \label{eq:mvn-qfmean}
 X \sim \mathcal{N}(\mu, \Sigma)

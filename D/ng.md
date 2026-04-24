@@ -34,7 +34,7 @@ $$ \label{eq:ng}
 X,Y \sim \mathrm{NG}(\mu, \Lambda, a, b) \; ,
 $$
 
-if the distribution of $X$ conditional on $Y$ is a [multivariate normal distribution](/D/mvn) with mean vector $\mu$ and covariance matrix $(y \Lambda)^{-1}$ and $Y$ follows a [gamma distribution](/D/gam) with shape parameter $a$ and rate parameter $b$:
+if the distribution of $X$ conditional on $Y$ is a [multivariate normal distribution](/D/mvn) with mean vector $\mu$ and covariance matrix $(Y \Lambda)^{-1}$ and $Y$ follows a [gamma distribution](/D/gam) with shape parameter $a$ and rate parameter $b$:
 
 $$ \label{eq:mvn-gam}
 \begin{split}

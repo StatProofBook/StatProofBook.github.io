@@ -62,7 +62,7 @@ and using the approximate posterior density $q(\theta)$, this can be rewritten a
 $$ \label{eq:lme-eq}
 \begin{split}
    \log p(y)
-&= \log \int_{\Theta} \frac{q(\theta)}{q(\theta)}  \, \mathrm{d}\theta \\
+&= \log \int_{\Theta} p(y,\theta) \frac{q(\theta)}{q(\theta)}  \, \mathrm{d}\theta \\
 &= \log \left\langle \frac{p(y,\theta)}{q(\theta)} \right\rangle_{q(\theta)} \; .
 \end{split}
 $$
