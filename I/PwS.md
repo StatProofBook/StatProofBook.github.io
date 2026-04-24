@@ -4,7 +4,7 @@ title: "Proofs without Source"
 ---
 
 
-### Missing source (190 proofs)
+### Missing source (192 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -62,6 +62,7 @@ title: "Proofs without Source"
 - [Expression of the noise precision posterior for Bayesian linear regression using prediction and parameter errors](/P/blr-posterr)
 - [F-statistic in terms of ordinary least squares estimates in one-way analysis of variance](/P/anova1-fols)
 - [F-statistics in terms of ordinary least squares estimates in two-way analysis of variance](/P/anova2-fols)
+- [Full width at half maximum for the von Mises distribution](/P/vm-fwhm)
 - [Gamma distribution is a special case of Wishart distribution](/P/gam-wish)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the Bernoulli distribution](/P/bern-kl)
@@ -148,6 +149,7 @@ title: "Proofs without Source"
 - [Probability density function of the multivariate normal distribution](/P/mvn-pdf)
 - [Probability density function of the multivariate t-distribution](/P/mvt-pdf)
 - [Probability density function of the normal distribution](/P/norm-pdf)
+- [Probability density function of the von Mises distribution](/P/vm-pdf)
 - [Probability density function of the Wald distribution](/P/wald-pdf)
 - [Probability mass function of the Bernoulli distribution](/P/bern-pmf)
 - [Probability mass function of the binomial distribution](/P/bin-pmf)

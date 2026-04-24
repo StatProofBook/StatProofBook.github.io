@@ -32,6 +32,8 @@ title: "Definition by Topic"
 - [Central moment](/D/mom-cent)
 - [Characteristic function](/D/cf)
 - [Chi-squared distribution](/D/chi2)
+- [Circular expected value](/D/mean-circ)
+- [Circular random variable](/D/rvar-circ)
 - [Coefficient of determination](/D/rsq)
 - [Conditional correlation](/D/corr-cond)
 - [Conditional differential entropy](/D/dent-cond)
@@ -287,12 +289,14 @@ title: "Definition by Topic"
 - [Univariate and multivariate random variable](/D/rvar-uni)
 - [Univariate Gaussian](/D/ug)
 - [Univariate Gaussian with known variance](/D/ugkv)
+- [Univariate von Mises](/D/vm-data)
 
 ### V
 
 - [Variance](/D/var)
 - [Variational Bayes](/D/vb)
 - [Variational Bayesian log model evidence](/D/vblme)
+- [von Mises distribution](/D/vm)
 
 ### W
 

@@ -534,7 +534,12 @@ title: "Proof by Number"
 | P526 | momstand-1st | [The first standardized moment equals zero](/P/momstand-1st) | JoramSoch | 2026-02-27 |
 | P527 | momstand-2nd | [The second standardized moment equals one](/P/momstand-2nd) | JoramSoch | 2026-02-27 |
 | P528 | momstand-3rd | [The third standardized moment equals the skewness](/P/momstand-3rd) | JoramSoch | 2026-02-27 |
-| P529 | mvn-corrcond | [Conditional correlation of random variables which are jointly multivariate normal distributed](/P/mvn-corrcond) | JoramSoch | 2026-03-26 |
-| P530 | mvn-corrpart | [Partial correlation of random variables which are jointly multivariate normal distributed](/P/mvn-corrpart) | JoramSoch | 2026-03-26 |
+| P529 | mvn-corrcond | [Conditional correlation of random variables which are jointly multivariate normally distributed](/P/mvn-corrcond) | JoramSoch | 2026-03-26 |
+| P530 | mvn-corrpart | [Partial correlation of random variables which are jointly multivariate normally distributed](/P/mvn-corrpart) | JoramSoch | 2026-03-26 |
 | P531 | bin-cvlbf | [Cross-validated log Bayes factor for binomial observations](/P/bin-cvlbf) | JoramSoch | 2026-03-26 |
 | P532 | mult-cvlbf | [Cross-validated log Bayes factor for multinomial observations](/P/mult-cvlbf) | JoramSoch | 2026-03-26 |
+| P533 | meancirc-samp | [Circular sample mean](/P/meancirc-samp) | JoramSoch | 2026-04-20 |
+| P534 | vm-pdf | [Probability density function of the von Mises distribution](/P/vm-pdf) | JoramSoch | 2026-04-21 |
+| P535 | vm-fwhm | [Full width at half maximum for the von Mises distribution](/P/vm-fwhm) | JoramSoch | 2026-04-21 |
+| P536 | vm-bvn | [Relationship between bivariate normal distribution and von Mises distribution](/P/vm-bvn) | JoramSoch | 2026-04-22 |
+| P537 | vm-mle | [Maximum likelihood estimation for univariate von Mises data](/P/vm-mle) | JoramSoch | 2026-04-23 |

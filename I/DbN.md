@@ -235,3 +235,7 @@ title: "Definition by Number"
 | D226 | corr-cond | [Conditional correlation](/D/corr-cond) | JoramSoch | 2026-03-26 |
 | D227 | corr-part | [Partial correlation](/D/corr-part) | JoramSoch | 2026-03-26 |
 | D228 | pmf-joint | [Joint probability mass function](/D/pmf-joint) | JoramSoch | 2026-03-26 |
+| D229 | rvar-circ | [Circular random variable](/D/rvar-circ) | JoramSoch | 2026-04-20 |
+| D230 | mean-circ | [Circular expected value](/D/mean-circ) | JoramSoch | 2026-04-20 |
+| D231 | vm | [von Mises distribution](/D/vm) | JoramSoch | 2026-04-21 |
+| D232 | vm-data | [Univariate von Mises](/D/vm-data) | JoramSoch | 2026-04-23 |

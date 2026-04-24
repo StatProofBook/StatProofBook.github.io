@@ -53,7 +53,7 @@ with the [zeroth- and first-order modified Bessel function of the first kind](/D
 $$ \label{eq:I0-I1}
 \begin{split}
 I_0(\kappa) &= \frac{1}{2\pi} \int_0^{2\pi} \exp \left[ \kappa \cos(x) \right] \, \mathrm{d}x \\ \text{and} \quad
-I_1(\kappa) &= \frac{\mathrm{d}}{\mathrm{d}\kappa} I_0(\kappa)
+I_1(\kappa) &= \frac{\mathrm{d}}{\mathrm{d}\kappa} I_0(\kappa) \; .
 \end{split}
 $$
 

@@ -36,7 +36,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.2.5. *[Constant](/D/const)* <br>
    &emsp;&ensp; 1.2.6. *[Discrete vs. continuous](/D/rvar-disc)* <br>
    &emsp;&ensp; 1.2.7. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
-   &emsp;&ensp; 1.2.8. *[independent and identically distributed](/D/iid)* <br>
+   &emsp;&ensp; 1.2.8. *[Circular random variable](/D/rvar-circ)* <br>
+   &emsp;&ensp; 1.2.9. *[independent and identically distributed](/D/iid)* <br>
    
    <p id="Probability"></p>
    1.3. Probability <br>
@@ -157,11 +158,13 @@ title: "Table of Contents"
    &emsp;&ensp; 1.12.13. **[Chebyshev's inequality](/P/cheb-ineq)** <br>
    &emsp;&ensp; 1.12.14. **[Weak law of large numbers](/P/mean-wlln)** <br>
    &emsp;&ensp; 1.12.15. **[Expected value minimizes squared error](/P/mean-mse)** <br>
-   &emsp;&ensp; 1.12.16. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.12.17. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.12.18. **[Expectation of a bilinear form](/P/mean-blf)** <br>
-   &emsp;&ensp; 1.12.19. *[Expected value of a random matrix](/D/mean-rmat)* <br>
-   &emsp;&ensp; 1.12.20. **[Expectation of a trace](/P/mean-tr)** <br>
+   &emsp;&ensp; 1.12.16. *[Circular expected value](/D/mean-circ)* <br>
+   &emsp;&ensp; 1.12.17. **[Circular sample mean](/P/meancirc-samp)** <br>
+   &emsp;&ensp; 1.12.18. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.12.19. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.12.20. **[Expectation of a bilinear form](/P/mean-blf)** <br>
+   &emsp;&ensp; 1.12.21. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.12.22. **[Expectation of a trace](/P/mean-tr)** <br>
    
    <p id="Variance"></p>
    1.13. Variance <br>
@@ -644,6 +647,13 @@ title: "Table of Contents"
    &emsp;&ensp; 3.11.5. **[Variance](/P/exg-var)** <br>
    &emsp;&ensp; 3.11.6. **[Skewness](/P/exg-skew)** <br>
    &emsp;&ensp; 3.11.7. **[Method of moments](/P/exg-mome)** <br>
+   
+   <p id="von Mises distribution"></p>
+   3.12. von Mises distribution <br>
+   &emsp;&ensp; 3.12.1. *[Definition](/D/vm)* <br>
+   &emsp;&ensp; 3.12.2. **[Relationship to bivariate normal distribution](/P/vm-bvn)** <br>
+   &emsp;&ensp; 3.12.3. **[Probability density function](/P/vm-pdf)** <br>
+   &emsp;&ensp; 3.12.4. **[Full width at half maximum](/P/vm-fwhm)** <br>
 
 4. <p id="Multivariate continuous distributions">Multivariate continuous distributions</p>
    
@@ -994,13 +1004,20 @@ title: "Table of Contents"
    &emsp;&ensp; 4.3.1. *[Definition](/D/betabin-data)* <br>
    &emsp;&ensp; 4.3.2. **[Method of moments](/P/betabin-mome)** <br>
 
-5. <p id="Categorical data">Categorical data</p>
+5. <p id="Periodic data">Periodic data</p>
+   
+   <p id="Univariate von Mises"></p>
+   5.1. Univariate von Mises <br>
+   &emsp;&ensp; 5.1.1. *[Definition](/D/vm-data)* <br>
+   &emsp;&ensp; 5.1.2. **[Maximum likelihood estimation](/P/vm-mle)** <br>
+
+6. <p id="Categorical data">Categorical data</p>
    
    <p id="Logistic regression"></p>
-   5.1. Logistic regression <br>
-   &emsp;&ensp; 5.1.1. *[Definition](/D/logreg)* <br>
-   &emsp;&ensp; 5.1.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
-   &emsp;&ensp; 5.1.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
+   6.1. Logistic regression <br>
+   &emsp;&ensp; 6.1.1. *[Definition](/D/logreg)* <br>
+   &emsp;&ensp; 6.1.2. **[Probability and log-odds](/P/logreg-pnlo)** <br>
+   &emsp;&ensp; 6.1.3. **[Log-odds and probability](/P/logreg-lonp)** <br>
 
 
 <br>

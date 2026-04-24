@@ -18,7 +18,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (210 definitions)
+### JoramSoch (214 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -37,6 +37,8 @@ title: "Definition by Author"
 - [Categorical distribution](/D/cat)
 - [Central moment](/D/mom-cent)
 - [Characteristic function](/D/cf)
+- [Circular expected value](/D/mean-circ)
+- [Circular random variable](/D/rvar-circ)
 - [Coefficient of determination](/D/rsq)
 - [Conditional correlation](/D/corr-cond)
 - [Conditional differential entropy](/D/dent-cond)
@@ -226,9 +228,11 @@ title: "Definition by Author"
 - [Univariate and multivariate random variable](/D/rvar-uni)
 - [Univariate Gaussian](/D/ug)
 - [Univariate Gaussian with known variance](/D/ugkv)
+- [Univariate von Mises](/D/vm-data)
 - [Variance](/D/var)
 - [Variational Bayes](/D/vb)
 - [Variational Bayesian log model evidence](/D/vblme)
+- [von Mises distribution](/D/vm)
 - [Wishart distribution](/D/wish)
 
 ### KarahanS (5 definitions)
