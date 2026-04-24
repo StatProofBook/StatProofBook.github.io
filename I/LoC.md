@@ -27,6 +27,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Constant](/D/const)*
 - *[Discrete vs. continuous](/D/rvar-disc)*
 - *[Univariate vs. multivariate](/D/rvar-uni)*
+- *[Circular random variable](/D/rvar-circ)*
 - *[independent and identically distributed](/D/iid)*
 ### Probability
 - *[Probability](/D/prob)*
@@ -128,6 +129,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Chebyshev's inequality](/P/cheb-ineq)**
 - **[Weak law of large numbers](/P/mean-wlln)**
 - **[Expected value minimizes squared error](/P/mean-mse)**
+- *[Circular expected value](/D/mean-circ)*
+- **[Circular sample mean](/D/meancirc-samp)**
 - *[Expected value of a random vector](/D/mean-rvec)*
 - **[Expectation of a quadratic form](/P/mean-qf)**
 - **[Expectation of a bilinear form](/P/mean-blf)**
@@ -520,6 +523,11 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Variance](/P/exg-var)**
 - **[Skewness](/P/exg-skew)**
 - **[Method of moments](/P/exg-mome)**
+### von Mises distribution
+- *[Definition](/D/vm)*
+- **[Relationship to bivariate normal distribution](/P/vm-bvn)**
+- **[Probability density function](/P/vm-pdf)**
+- **[Full width at half maximum](/P/vm-fwhm)**
 ## Multivariate continuous distributions
 ### Multivariate normal distribution
 - *[Definition](/D/mvn)*
@@ -806,6 +814,10 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 ### Beta-binomial data
 - *[Definition](/D/betabin-data)*
 - **[Method of moments](/P/betabin-mome)**
+## Periodic data
+### Univariate von Mises
+- *[Definition](/D/vm-data)*
+- **[Maximum likelihood estimation](/P/vm-mle)**
 ## Categorical data
 ### Logistic regression
 - *[Definition](/D/logreg)*
