@@ -719,6 +719,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Contrast-based t-test](/P/mlr-t)**
 - **[Contrast-based F-test](/P/mlr-f)**
 - **[t-test for single regressor](/P/mlr-tsingle)**
+- **[t-test with null parameter](/P/mlr-t0)**
 - **[F-test for multiple regressors](/P/mlr-fomnibus)**
 - **[Deviance function](/P/mlr-dev)**
 - **[Akaike information criterion](/P/mlr-aic)**
