@@ -683,9 +683,10 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.17. **[Linear transformation](/P/mvn-ltt)** <br>
    &emsp;&ensp; 4.1.18. **[Marginal distributions](/P/mvn-marg)** <br>
    &emsp;&ensp; 4.1.19. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.20. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.21. **[Independence of products](/P/mvn-indprod)** <br>
-   &emsp;&ensp; 4.1.22. **[Drawing samples](/P/mvn-samp)** <br>
+   &emsp;&ensp; 4.1.20. **[Joint distribution](/P/mvn-jmc)** <br>
+   &emsp;&ensp; 4.1.21. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.22. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.23. **[Drawing samples](/P/mvn-samp)** <br>
    
    <p id="Bivariate normal distribution"></p>
    4.2. Bivariate normal distribution <br>
