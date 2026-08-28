@@ -546,6 +546,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Expectation of a quadratic form](/P/mvn-meanqf)**
 - **[Conditional correlation](/P/mvn-corrcond)**
 - **[Partial correlation](/P/mvn-corrpart)**
+- **[Conditional and partial correlation](/P/mvn-ecpc)**
 - **[Differential entropy](/P/mvn-dent)**
 - **[Mutual information](/P/mvn-mi)**
 - **[Kullback-Leibler divergence](/P/mvn-kl)**
