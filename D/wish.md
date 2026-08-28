@@ -27,22 +27,22 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be an $n \times p$ matrix following a [matrix-normal distribution](/D/matn) with mean zero, independence across rows and covariance across columns $V$:
+**Definition:** Let $Y$ be an $n \times p$ matrix following a [matrix-normal distribution](/D/matn) with mean zero, independence across rows and covariance across columns $V$:
 
 $$ \label{eq:matn}
-X \sim \mathcal{MN}(0, I_n, V) \; .
+Y \sim \mathcal{MN}(0, I_n, V) \; .
 $$
 
-Define the scatter matrix $S$ as the product of the transpose of $X$ with itself:
+Define the scatter matrix $X$ as the product of the transpose of $Y$ with itself:
 
 $$ \label{eq:scat-mat}
-S = X^T X = \sum_{i=1}^n x_i^\mathrm{T} x_i \; .
+X = Y^T Y = \sum_{i=1}^n x_i^\mathrm{T} x_i \; .
 $$
 
-Then, the matrix $S$ is said to follow a Wishart distribution with scale matrix $V$ and degrees of freedom $n$
+Then, the matrix $X$ is said to follow a Wishart distribution with scale matrix $V$ and [degrees of freedom](/D/dof) $n$
 
 $$ \label{eq:wish}
-S \sim \mathcal{W}(V, n)
+X \sim \mathcal{W}(V, n)
 $$
 
-where $n > p - 1$ and $V$ is a positive definite symmetric covariance matrix.
+where $n > p - 1$ and $V$ is a positive-definite symmetric covariance matrix.

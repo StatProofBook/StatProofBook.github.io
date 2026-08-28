@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Consider [model evidences](/D/ml) $p(y_i \vert m)$ from $K$ models describing $N$ data sets $y = \left\lbrace y_1, \ldots, y_N \right\rbrace$ and assume that those data follow the group-level [model](/D/fpm) specified by [random-effects Bayesian model selection](/D/bms-rfx) (RFX BMS):
+**Theorem:** Consider [model evidences](/D/ml) $p(y_i \vert m)$ from $K$ models describing $N$ data sets $y = \left\lbrace y_1, \ldots, y_N \right\rbrace$ and assume that those data follow the group-level [model](/D/fpm) specified by [random-effects Bayesian model selection](/D/bmsrfx) (RFX BMS):
 
 $$ \label{eq:bms-rfx}
 \begin{split}
@@ -45,7 +45,7 @@ r \sim \mathrm{Dir}(\alpha)
 \end{split}
 $$
 
-Furthermore, let $p(r \vert y)$ be a [Dirichlet](/D/dir) [posterior density](/D/post) over [model frequencies](/D/bms-rfx), e.g. obtained via [variational Bayes for RFX BMS](/P/bmsrfx-vb), parametrized by [concentration parameters](/D/dir) $\alpha_n$:
+Furthermore, let $p(r \vert y)$ be a [Dirichlet](/D/dir) [posterior density](/D/post) over [model frequencies](/D/bmsrfx), e.g. obtained via [variational Bayes for RFX BMS](/P/bmsrfx-vb), parametrized by [concentration parameters](/D/dir) $\alpha_n$:
 
 $$ \label{eq:bms-rfx-post}
 p(r|y) = \mathrm{Dir}(r; \alpha_n) \; .

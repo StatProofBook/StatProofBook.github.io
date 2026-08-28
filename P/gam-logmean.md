@@ -84,10 +84,19 @@ $$
 
 Now we can calculate the expected value of $Y = \ln(X)$:
 
-$$ \label{eq:E-Y-s1}
+$$ \label{eq:E-Y-s1a}
 \begin{split}
-\mathrm{E}(Y) &= \int_{\mathbb{R}} y \, f_Y(y) \, \mathrm{d}y \\
-&\overset{\eqref{eq:dfy-da}}{=} \frac{1}{\Gamma(a)} \int_{\mathbb{R}} \frac{\mathrm{d}}{\mathrm{d}a} \mathrm{exp}\left[ ay - e^y \right] \, \mathrm{d}y \\
+   \mathrm{E}(Y)
+&= \int_{\mathbb{R}} y \, f_Y(y) \, \mathrm{d}y \\
+&\overset{\eqref{eq:dfy-da}}{=} \frac{1}{\Gamma(a)} \int_{\mathbb{R}} \frac{\mathrm{d}}{\mathrm{d}a} \mathrm{exp}\left[ ay - e^y \right] \, \mathrm{d}y \; .
+\end{split}
+$$
+
+Since differentiation under the integral sign is justified for $a > 0$, we obtain:
+
+$$ \label{eq:E-Y-s1b}
+\begin{split}
+   \mathrm{E}(Y)
 &= \frac{1}{\Gamma(a)} \frac{\mathrm{d}}{\mathrm{d}a} \int_{\mathbb{R}} \mathrm{exp}\left[ ay - e^y \right] \, \mathrm{d}y \\
 &\overset{\eqref{eq:Y-pdf-s2}}{=} \frac{1}{\Gamma(a)} \frac{\mathrm{d}}{\mathrm{d}a} \Gamma(a) \\
 &= \frac{\Gamma'(a)}{\Gamma(a)} \; .

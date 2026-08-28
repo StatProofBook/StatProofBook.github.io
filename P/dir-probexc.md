@@ -33,7 +33,6 @@ $$ \label{eq:r-Dir}
 r \sim \mathrm{Dir}(\alpha) \; .
 $$
 
-<br>
 1) If $k = 2$, then the [exceedance probability](/D/prob-exc) for $r_1$ is
 
 $$ \label{eq:Dir2-EP}
@@ -42,7 +41,6 @@ $$
 
 where $\mathrm{B}(x,y)$ is the beta function and $\mathrm{B}(x;a,b)$ is the incomplete beta function.
 
-<br>
 2) If $k > 2$, then the [exceedance probability](/D/prob-exc) for $r_i$ is
 
 $$ \label{eq:Dir-EP}
@@ -75,7 +73,6 @@ $$
 
 and [defined to be zero otherwise](/D/dir).
 
-<br>
 1) If $k = 2$, the [probability density function of the Dirichlet distribution](/P/dir-pdf) reduces to
 
 $$ \label{eq:Dir2-pdf}
@@ -112,7 +109,6 @@ $$ \label{eq:inc-beta-fct}
 \mathrm{B}(x; a, b) = \int_0^x x^{a-1} \, (1-x)^{b-1} \, \mathrm{d}x \; .
 $$
 
-<br>
 2) If $k > 2$, there is no similarly simple expression, because in general
 
 $$ \label{eq:Dir-EP-ineq}
@@ -123,7 +119,8 @@ i.e. exceedance probabilities cannot be evaluated using a simple threshold on $r
 
 $$ \label{eq:Gam-Dir}
 \begin{split}
-& Y_1 \sim \mathrm{Gam}(\alpha_1,\beta), \, \ldots, \, Y_k \sim \mathrm{Gam}(\alpha_k,\beta), \, Y_s = \sum_{i=1}^k Y_j \\
+& Y_1 \sim \mathrm{Gam}(\alpha_1,\beta), \, \ldots, \, Y_k \sim \mathrm{Gam}(\alpha_k,\beta), \\
+& Y_1, \, \ldots, \, Y_k \quad \text{ind.}, \; Y_s = \sum_{j=1}^k Y_j, \\
 \Rightarrow \; & X = (X_1, \ldots, X_k) = \left( \frac{Y_1}{Y_s}, \ldots, \frac{Y_k}{Y_s} \right) \sim \mathrm{Dir}(\alpha_1, \ldots, \alpha_k) \; .
 \end{split}
 $$
@@ -137,7 +134,7 @@ $$
 Consider the [gamma random variables](/D/gam)
 
 $$ \label{eq:Gam-Dir-A}
-q_1 \sim \mathrm{Gam}(\alpha_1,1), \, \ldots, \, q_k \sim \mathrm{Gam}(\alpha_k,1), \, q_s = \sum_{j=1}^k q_j
+q_1 \sim \mathrm{Gam}(\alpha_1,1), \, \ldots, \, q_k \sim \mathrm{Gam}(\alpha_k,1), \; q_s = \sum_{j=1}^k q_j
 $$
 
 and the [Dirichlet random vector](/D/dir)
