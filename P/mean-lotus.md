@@ -48,7 +48,7 @@ $$ \label{eq:mean-lotus-cont}
 $$
 
 
-**Proof:** Note that, if $g$ is differentiable, then its inverse $g^{-1}$ is monotonic.
+**Proof:** Note that, if $g$ is invertible and differentiable, then its inverse $g^{-1}$ is monotonic.
 
 1) The [expected value](/D/mean) of $Y = g(X)$ is defined as
 

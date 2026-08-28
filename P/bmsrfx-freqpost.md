@@ -106,7 +106,7 @@ $$ \label{eq:bms-rfx-freq-lik}
 j = 1,\ldots,K \; .
 $$
 
-3) The [exceedance probabilities for the Dirichlet distribution](/P/dir-ep) are given by
+3) The [exceedance probabilities for the Dirichlet distribution](/P/dir-probexc) are given by
 
 $$ \label{eq:dir-prob-exc}
 \begin{split}

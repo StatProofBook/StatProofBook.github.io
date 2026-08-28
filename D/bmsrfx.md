@@ -68,4 +68,4 @@ $$ \label{eq:p-r-a}
 r \sim \mathrm{Dir}(\alpha) \; .
 $$
 
-Taken together, the probability distributions specified by \eqref{eq:p-y-m}, \eqref{eq:p-m-r} and \eqref{eq:p-r-a}, treating generating model as a [random effect](/D/rfx), are called random-effects Bayesian model selection (RFX BMS).
+Taken together, the probability distributions specified by \eqref{eq:p-y-m} and \eqref{eq:p-m-r} and \eqref{eq:p-r-a}, treating generative model as a [random effect](/D/rfx), are called random-effects Bayesian model selection (RFX BMS).

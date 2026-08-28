@@ -720,7 +720,7 @@ title: "Table of Contents"
    &emsp;&ensp; 4.5.1. *[Definition](/D/dir)* <br>
    &emsp;&ensp; 4.5.2. **[Probability density function](/P/dir-pdf)** <br>
    &emsp;&ensp; 4.5.3. **[Kullback-Leibler divergence](/P/dir-kl)** <br>
-   &emsp;&ensp; 4.5.4. **[Exceedance probabilities](/P/dir-ep)** <br>
+   &emsp;&ensp; 4.5.4. **[Exceedance probabilities](/P/dir-probexc)** <br>
 
 5. <p id="Matrix-variate continuous distributions">Matrix-variate continuous distributions</p>
    
@@ -1116,6 +1116,10 @@ title: "Table of Contents"
    &emsp;&ensp; 3.3.6. *[Log Bayes factor](/D/lbf)* <br>
    &emsp;&ensp; 3.3.7. **[Derivation of the log Bayes factor](/P/lbf-der)** <br>
    &emsp;&ensp; 3.3.8. **[Calculation from log model evidences](/P/lbf-lme)** <br>
+   &emsp;&ensp; 3.3.9. *[Group Bayes factor](/D/gbf)* <br>
+   &emsp;&ensp; 3.3.10. *[Group log Bayes factor](/D/glbf)* <br>
+   &emsp;&ensp; 3.3.11. **[Derivation of the group Bayes factor](/P/gbf-der)** <br>
+   &emsp;&ensp; 3.3.12. **[Derivation of the group log Bayes factor](/P/glbf-der)** <br>
    
    <p id="Posterior model probability"></p>
    3.4. Posterior model probability <br>
@@ -1130,3 +1134,12 @@ title: "Table of Contents"
    &emsp;&ensp; 3.5.1. *[Definition](/D/bma)* <br>
    &emsp;&ensp; 3.5.2. **[Derivation](/P/bma-der)** <br>
    &emsp;&ensp; 3.5.3. **[Calculation from log model evidences](/P/bma-lme)** <br>
+   
+   <p id="Random-effects Bayesian model selection"></p>
+   3.6. Random-effects Bayesian model selection <br>
+   &emsp;&ensp; 3.6.1. *[Definition](/D/bmsrfx)* <br>
+   &emsp;&ensp; 3.6.2. **[Variational Bayesian estimation](/P/bmsrfx-vb)** <br>
+   &emsp;&ensp; 3.6.3. *[Expected frequencies](/D/expfreq)* <br>
+   &emsp;&ensp; 3.6.4. *[Likeliest frequencies](/D/likfreq)* <br>
+   &emsp;&ensp; 3.6.5. *[Exceedance probabilities](/D/excprob)* <br>
+   &emsp;&ensp; 3.6.6. **[Posterior frequencies](/P/bmsrfx-freqpost)** <br>

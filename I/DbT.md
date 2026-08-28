@@ -84,6 +84,7 @@ title: "Definition by Topic"
 - [Event space](/D/eve-spc)
 - [ex-Gaussian distribution](/D/exg)
 - [Exceedance probability](/D/prob-exc)
+- [Expected model frequency](/D/expfreq)
 - [Expected value](/D/mean)
 - [Expected value of a random matrix](/D/mean-rmat)
 - [Expected value of a random vector](/D/mean-rvec)
@@ -105,6 +106,8 @@ title: "Definition by Topic"
 - [Gamma distribution](/D/gam)
 - [General linear model](/D/glm)
 - [Generative model](/D/gm)
+- [Group Bayes factor](/D/gbf)
+- [Group log Bayes factor](/D/glbf)
 
 ### I
 
@@ -133,6 +136,7 @@ title: "Definition by Topic"
 
 - [Law of conditional probability](/D/prob-cond)
 - [Law of marginal probability](/D/prob-marg)
+- [Likeliest model frequency](/D/likfreq)
 - [Likelihood function](/D/lf)
 - [Likelihood ratio](/D/lr)
 - [Location parameter](/D/para-loc)
@@ -163,6 +167,7 @@ title: "Definition by Topic"
 - [Minimum required sample size](/D/mrss)
 - [Mode](/D/mode)
 - [Model evidence](/D/me)
+- [Model exceedance probability](/D/excprob)
 - [Moment](/D/mom)
 - [Moment-generating function](/D/mgf)
 - [Multinomial distribution](/D/mult)
@@ -228,6 +233,7 @@ title: "Definition by Topic"
 - [Random matrix](/D/rmat)
 - [Random variable](/D/rvar)
 - [Random vector](/D/rvec)
+- [Random-effects Bayesian model selection](/D/bmsrfx)
 - [Rate parameter](/D/para-rate)
 - [Raw moment](/D/mom-raw)
 - [Reference prior distribution](/D/prior-ref)

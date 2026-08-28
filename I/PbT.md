@@ -106,6 +106,8 @@ title: "Proof by Topic"
 - [Derivation of R² and adjusted R²](/P/rsq-der)
 - [Derivation of the Bayesian information criterion](/P/bic-der)
 - [Derivation of the family evidence](/P/fe-der)
+- [Derivation of the group Bayes factor](/P/gbf-der)
+- [Derivation of the group log Bayes factor](/P/glbf-der)
 - [Derivation of the log Bayes factor](/P/lbf-der)
 - [Derivation of the log family evidence](/P/lfe-der)
 - [Derivation of the log model evidence](/P/lme-der)
@@ -145,7 +147,7 @@ title: "Proof by Topic"
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
 - [Equivalence of operations for model evidence and log model evidence](/P/lme-mean)
 - [Equivalence of parameter estimates from the transformed general linear model](/P/tglm-para)
-- [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep)
+- [Exceedance probabilities for the Dirichlet distribution](/P/dir-probexc)
 - [Exceedance probability for a random variable in terms of cumulative distribution function](/P/cdf-probexc)
 - [Existence of a corresponding forward model](/P/cfm-exist)
 - [Expectation of a bilinear form](/P/mean-blf)
@@ -408,6 +410,7 @@ title: "Proof by Topic"
 - [Posterior distribution for the Poisson distribution with exposure values](/P/poissexp-post)
 - [Posterior distribution for the univariate Gaussian](/P/ug-post)
 - [Posterior distribution for the univariate Gaussian with known variance](/P/ugkv-post)
+- [Posterior frequencies for random-effects Bayesian model selection using Dirichlet posterior distribution](/P/bmsrfx-freqpost)
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
@@ -599,6 +602,7 @@ title: "Proof by Topic"
 - [Variance of the Poisson distribution](/P/poiss-var)
 - [Variance of the sum of two random variables](/P/var-sum)
 - [Variance of the Wald distribution](/P/wald-var)
+- [Variational Bayesian estimation of random-effects Bayesian model selection using the mean-field approximation](/P/bmsrfx-vb)
 
 ### W
 

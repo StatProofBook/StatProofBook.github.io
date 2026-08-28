@@ -239,3 +239,9 @@ title: "Definition by Number"
 | D230 | mean-circ | [Circular expected value](/D/mean-circ) | JoramSoch | 2026-04-20 |
 | D231 | vm | [von Mises distribution](/D/vm) | JoramSoch | 2026-04-21 |
 | D232 | vm-data | [Univariate von Mises](/D/vm-data) | JoramSoch | 2026-04-23 |
+| D233 | gbf | [Group Bayes factor](/D/gbf) | JoramSoch | 2026-06-04 |
+| D234 | glbf | [Group log Bayes factor](/D/glbf) | JoramSoch | 2026-06-04 |
+| D235 | bmsrfx | [Random-effects Bayesian model selection](/D/bmsrfx) | JoramSoch | 2026-06-24 |
+| D236 | expfreq | [Expected model frequency](/D/expfreq) | JoramSoch | 2026-06-29 |
+| D237 | likfreq | [Likeliest model frequency](/D/likfreq) | JoramSoch | 2026-06-29 |
+| D238 | excprob | [Model exceedance probability](/D/excprob) | JoramSoch | 2026-06-29 |

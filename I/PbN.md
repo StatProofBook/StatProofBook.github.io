@@ -186,7 +186,7 @@ title: "Proof by Number"
 | P178 | gam-cdf | [Cumulative distribution function of the gamma distribution](/P/gam-cdf) | JoramSoch | 2020-10-15 |
 | P179 | gam-xlogx | [Expected value of x times ln(x) for a gamma distribution](/P/gam-xlogx) | JoramSoch | 2020-10-15 |
 | P180 | norm-snorm3 | [Relationship between normal distribution and standard normal distribution](/P/norm-snorm3) | JoramSoch | 2020-10-22 |
-| P181 | dir-ep | [Exceedance probabilities for the Dirichlet distribution](/P/dir-ep) | JoramSoch | 2020-10-22 |
+| P181 | dir-probexc | [Exceedance probabilities for the Dirichlet distribution](/P/dir-probexc) | JoramSoch | 2020-10-22 |
 | P182 | dir-mle | [Maximum likelihood estimation for Dirichlet-distributed data](/P/dir-mle) | JoramSoch | 2020-10-22 |
 | P183 | cdf-sifct | [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct) | JoramSoch | 2020-10-29 |
 | P184 | pmf-sifct | [Probability mass function of a strictly increasing function of a discrete random variable](/P/pmf-sifct) | JoramSoch | 2020-10-29 |
@@ -548,3 +548,7 @@ title: "Proof by Number"
 | P540 | cov-scal | [Scaling of the covariance upon multiplication with constants](/P/cov-scal) | JoramSoch | 2026-05-28 |
 | P541 | corr-inv | [Invariance of the correlation under linear transformation](/P/corr-inv) | JoramSoch | 2026-05-28 |
 | P542 | corrsamp-inv | [Invariance of the sample correlation under linear transformation](/P/corrsamp-inv) | JoramSoch | 2026-05-29 |
+| P543 | gbf-der | [Derivation of the group Bayes factor](/P/gbf-der) | JoramSoch | 2026-06-14 |
+| P544 | glbf-der | [Derivation of the group log Bayes factor](/P/glbf-der) | JoramSoch | 2026-06-14 |
+| P545 | bmsrfx-freqpost | [Posterior frequencies for random-effects Bayesian model selection using Dirichlet posterior distribution](/P/bmsrfx-freqpost) | JoramSoch | 2026-06-29 |
+| P545 | bmsrfx-vb | [Variational Bayesian estimation of random-effects Bayesian model selection using the mean-field approximation](/P/bmsrfx-vb) | JoramSoch | 2026-06-24 |

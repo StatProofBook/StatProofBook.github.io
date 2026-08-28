@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ and $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be [samples](/D/samp) from [random variables](/D/rvar) $X$ and $Y$. Further, let $\tilde{x} = \left\lbrace \tilde{x}_1, \ldots, \tilde{x}_n \right\rbrace$ and $\tilde{y} = \left\lbrace \tilde{y}_1, \ldots, \tilde{y}_n \right\rbrace$ be linearly versions of this sample with
+**Theorem:** Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ and $y = \left\lbrace y_1, \ldots, y_n \right\rbrace$ be [samples](/D/samp) from [random variables](/D/rvar) $X$ and $Y$. Further, let $\tilde{x} = \left\lbrace \tilde{x}_1, \ldots, \tilde{x}_n \right\rbrace$ and $\tilde{y} = \left\lbrace \tilde{y}_1, \ldots, \tilde{y}_n \right\rbrace$ be linearly transformed versions of this sample with
 
 $$ \label{eq:samp-lin}
 \begin{split}

@@ -583,7 +583,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Definition](/D/dir)*
 - **[Probability density function](/P/dir-pdf)**
 - **[Kullback-Leibler divergence](/P/dir-kl)**
-- **[Exceedance probabilities](/P/dir-ep)**
+- **[Exceedance probabilities](/P/dir-probexc)**
 ## Matrix-variate continuous distributions
 ### Matrix-normal distribution
 - *[Definition](/D/matn)*
@@ -913,6 +913,6 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Definition](/D/bmsrfx)*
 - **[Variational Bayesian estimation](/P/bmsrfx-vb)**
 - *[Expected frequencies](/D/expfreq)*
-- *[Likeliest frequencies](/D/expfreq)*
+- *[Likeliest frequencies](/D/likfreq)*
 - *[Exceedance probabilities](/D/excprob)*
 - **[Posterior frequencies](/P/bmsrfx-freqpost)**

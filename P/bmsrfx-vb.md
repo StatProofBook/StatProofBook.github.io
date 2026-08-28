@@ -67,7 +67,7 @@ $$ \label{eq:bms-rfx-vb}
 \end{split}
 $$
 
-Here, $\ln p(y_i|e_j)$ is the [log model evidence](/D/lme) of the $j$-model applied to the $i$-th data set, $\alpha_0$ and $\alpha_n$ are [prior](/D/prior) and [posterior](/D/post) concentration parameters, respectively, and $\psi(x)$ is the digamma function defined in terms of the gamma function $\Gamma(x)$:
+Here, $\ln p(y_i \vert e_j)$ is the [log model evidence](/D/lme) of the $j$-model applied to the $i$-th data set, $\alpha_0$ and $\alpha_n$ are [prior](/D/prior) and [posterior](/D/post) concentration parameters, respectively, and $\psi(x)$ is the digamma function defined in terms of the gamma function $\Gamma(x)$:
 
 $$ \label{eq:psi}
 \psi(x) = \frac{\mathrm{d}}{\mathrm{d}x} \ln \Gamma(x) \; .
@@ -133,7 +133,7 @@ I(r) &= \left\langle \ln p(y,m,r) \right\rangle_{q(m)} \; .
 \end{split}
 $$
 
-2) Inferring on $q(m) \approx p(m|y)$ gives the following result:
+2) Inferring on $q(m) \approx p(m \vert y)$ gives the following result:
 
 $$ \label{eq:I-m}
 \begin{split}
@@ -173,7 +173,7 @@ $$ \label{eq:p-m-y}
 p(m_i|y) = \mathrm{Cat}\left( m_i; \frac{u_{ij}}{u_i} \right) \; .
 $$
 
-3) Inferring on $q(r) \approx p(r|y)$ gives the following result:
+3) Inferring on $q(r) \approx p(r \vert y)$ gives the following result:
 
 $$ \label{eq:I-r}
 \begin{split}
