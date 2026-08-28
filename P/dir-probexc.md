@@ -120,7 +120,7 @@ i.e. exceedance probabilities cannot be evaluated using a simple threshold on $r
 $$ \label{eq:Gam-Dir}
 \begin{split}
 & Y_1 \sim \mathrm{Gam}(\alpha_1,\beta), \, \ldots, \, Y_k \sim \mathrm{Gam}(\alpha_k,\beta), \\
-& Y_1, \, \ldots, \, Y_k \quad \text{ind.}, \; Y_s = \sum_{j=1}^k Y_j, \\
+& Y_1, \, \ldots, \, Y_k \quad \text{ind.}, \; Y_s = \sum_{j=1}^k Y_j \\
 \Rightarrow \; & X = (X_1, \ldots, X_k) = \left( \frac{Y_1}{Y_s}, \ldots, \frac{Y_k}{Y_s} \right) \sim \mathrm{Dir}(\alpha_1, \ldots, \alpha_k) \; .
 \end{split}
 $$

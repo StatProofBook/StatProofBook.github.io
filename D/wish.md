@@ -36,7 +36,7 @@ $$
 Define the scatter matrix $X$ as the product of the transpose of $Y$ with itself:
 
 $$ \label{eq:scat-mat}
-X = Y^T Y = \sum_{i=1}^n x_i^\mathrm{T} x_i \; .
+X = Y^T Y = \sum_{i=1}^n y_i^\mathrm{T} y_i \; .
 $$
 
 Then, the matrix $X$ is said to follow a Wishart distribution with scale matrix $V$ and [degrees of freedom](/D/dof) $n$
