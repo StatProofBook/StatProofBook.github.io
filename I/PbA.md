@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (509 proofs)
+### JoramSoch (510 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -187,6 +187,7 @@ title: "Proof by Author"
 - [Invariance of the variance under addition of a constant](/P/var-inv)
 - [Inverse transformation method using cumulative distribution function](/P/cdf-itm)
 - [Jensen's inequality](/P/jens-ineq)
+- [Joint distribution of marginally and conditionally multivariate normal random vectors](/P/mvn-jmc)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the Bernoulli distribution](/P/bern-kl)
 - [Kullback-Leibler divergence for the binomial distribution](/P/bin-kl)
