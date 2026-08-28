@@ -554,3 +554,4 @@ title: "Proof by Number"
 | P545 | bmsrfx-vb | [Variational Bayesian estimation of random-effects Bayesian model selection using the mean-field approximation](/P/bmsrfx-vb) | JoramSoch | 2026-06-24 |
 | P546 | mvn-ecpc | [Equivalence of conditional and partial correlation for the multivariate normal distribution](/P/mvn-ecpc) | JoramSoch | 2026-08-28 |
 | P547 | mvn-jmc | [Joint distribution of marginally and conditionally multivariate normal random vectors](/P/mvn-jmc) | JoramSoch | 2026-08-28 |
+| P548 | mlr-t0 | [Contrast-based t-test with null hypothesis parameter for multiple linear regression](/P/mlr-t0) | JoramSoch | 2026-08-28 |

@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (510 proofs)
+### JoramSoch (511 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -64,6 +64,7 @@ title: "Proof by Author"
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Construction of unbiased estimator for variance in multiple linear regression](/P/resvar-unbp)
 - [Continuous uniform distribution maximizes differential entropy for fixed range](/P/cuni-maxent)
+- [Contrast-based t-test with null hypothesis parameter for multiple linear regression](/P/mlr-t0)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Corrected Akaike information criterion converges to uncorrected Akaike information criterion when infinite data are available](/P/aicc-aic)
