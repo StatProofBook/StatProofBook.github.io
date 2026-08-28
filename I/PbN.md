@@ -552,3 +552,4 @@ title: "Proof by Number"
 | P544 | glbf-der | [Derivation of the group log Bayes factor](/P/glbf-der) | JoramSoch | 2026-06-14 |
 | P545 | bmsrfx-freqpost | [Posterior frequencies for random-effects Bayesian model selection using Dirichlet posterior distribution](/P/bmsrfx-freqpost) | JoramSoch | 2026-06-29 |
 | P545 | bmsrfx-vb | [Variational Bayesian estimation of random-effects Bayesian model selection using the mean-field approximation](/P/bmsrfx-vb) | JoramSoch | 2026-06-24 |
+| P546 | mvn-ecpc | [Equivalence of conditional and partial correlation for the multivariate normal distribution](/P/mvn-ecpc) | JoramSoch | 2026-08-28 |

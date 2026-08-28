@@ -4,7 +4,7 @@ title: "Proofs without Source"
 ---
 
 
-### Missing source (195 proofs)
+### Missing source (196 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -53,6 +53,7 @@ title: "Proofs without Source"
 - [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
 - [Entropy of the Poisson distribution](/P/poiss-ent)
+- [Equivalence of conditional and partial correlation for the multivariate normal distribution](/P/mvn-ecpc)
 - [Expectation of a bilinear form](/P/mean-blf)
 - [Expectation of a quadratic form for the multivariate normal distribution](/P/mvn-meanqf)
 - [Expectation of the cross-validated log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-cvlbfmean)

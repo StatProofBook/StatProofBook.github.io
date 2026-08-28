@@ -675,16 +675,17 @@ title: "Table of Contents"
    &emsp;&ensp; 4.1.9. **[Expectation of a quadratic form](/P/mvn-meanqf)** <br>
    &emsp;&ensp; 4.1.10. **[Conditional correlation](/P/mvn-corrcond)** <br>
    &emsp;&ensp; 4.1.11. **[Partial correlation](/P/mvn-corrpart)** <br>
-   &emsp;&ensp; 4.1.12. **[Differential entropy](/P/mvn-dent)** <br>
-   &emsp;&ensp; 4.1.13. **[Mutual information](/P/mvn-mi)** <br>
-   &emsp;&ensp; 4.1.14. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
-   &emsp;&ensp; 4.1.15. **[Maximum entropy distribution](/P/mvn-maxent)** <br>
-   &emsp;&ensp; 4.1.16. **[Linear transformation](/P/mvn-ltt)** <br>
-   &emsp;&ensp; 4.1.17. **[Marginal distributions](/P/mvn-marg)** <br>
-   &emsp;&ensp; 4.1.18. **[Conditional distributions](/P/mvn-cond)** <br>
-   &emsp;&ensp; 4.1.19. **[Conditions for independence](/P/mvn-ind)** <br>
-   &emsp;&ensp; 4.1.20. **[Independence of products](/P/mvn-indprod)** <br>
-   &emsp;&ensp; 4.1.21. **[Drawing samples](/P/mvn-samp)** <br>
+   &emsp;&ensp; 4.1.12. **[Conditional and partial correlation](/P/mvn-ecpc)** <br>
+   &emsp;&ensp; 4.1.13. **[Differential entropy](/P/mvn-dent)** <br>
+   &emsp;&ensp; 4.1.14. **[Mutual information](/P/mvn-mi)** <br>
+   &emsp;&ensp; 4.1.15. **[Kullback-Leibler divergence](/P/mvn-kl)** <br>
+   &emsp;&ensp; 4.1.16. **[Maximum entropy distribution](/P/mvn-maxent)** <br>
+   &emsp;&ensp; 4.1.17. **[Linear transformation](/P/mvn-ltt)** <br>
+   &emsp;&ensp; 4.1.18. **[Marginal distributions](/P/mvn-marg)** <br>
+   &emsp;&ensp; 4.1.19. **[Conditional distributions](/P/mvn-cond)** <br>
+   &emsp;&ensp; 4.1.20. **[Conditions for independence](/P/mvn-ind)** <br>
+   &emsp;&ensp; 4.1.21. **[Independence of products](/P/mvn-indprod)** <br>
+   &emsp;&ensp; 4.1.22. **[Drawing samples](/P/mvn-samp)** <br>
    
    <p id="Bivariate normal distribution"></p>
    4.2. Bivariate normal distribution <br>
