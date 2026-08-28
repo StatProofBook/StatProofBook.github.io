@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (508 proofs)
+### JoramSoch (509 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -136,6 +136,7 @@ title: "Proof by Author"
 - [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
 - [Entropy of the Poisson distribution](/P/poiss-ent)
+- [Equivalence of conditional and partial correlation for the multivariate normal distribution](/P/mvn-ecpc)
 - [Equivalence of log-likelihood ratio and mutual information for the general linear model](/P/glm-llrmi)
 - [Equivalence of log-likelihood ratios for regular and inverse general linear model](/P/iglm-llrs)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)

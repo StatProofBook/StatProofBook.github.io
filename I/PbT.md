@@ -142,6 +142,7 @@ title: "Proof by Topic"
 - [Entropy of the discrete uniform distribution](/P/duni-ent)
 - [Entropy of the multinomial distribution](/P/mult-ent)
 - [Entropy of the Poisson distribution](/P/poiss-ent)
+- [Equivalence of conditional and partial correlation for the multivariate normal distribution](/P/mvn-ecpc)
 - [Equivalence of log-likelihood ratio and mutual information for the general linear model](/P/glm-llrmi)
 - [Equivalence of log-likelihood ratios for regular and inverse general linear model](/P/iglm-llrs)
 - [Equivalence of matrix-normal distribution and multivariate normal distribution](/P/matn-mvn)
