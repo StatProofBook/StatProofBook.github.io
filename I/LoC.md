@@ -554,6 +554,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Linear transformation](/P/mvn-ltt)**
 - **[Marginal distributions](/P/mvn-marg)**
 - **[Conditional distributions](/P/mvn-cond)**
+- **[Joint distribution](/P/mvn-jmc)**
 - **[Conditions for independence](/P/mvn-ind)**
 - **[Independence of products](/P/mvn-indprod)**
 - **[Drawing samples](/P/mvn-samp)**
