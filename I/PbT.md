@@ -205,6 +205,7 @@ title: "Proof by Topic"
 ### J
 
 - [Jensen's inequality](/P/jens-ineq)
+- [Joint distribution of marginally and conditionally multivariate normal random vectors](/P/mvn-jmc)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 
 ### K
