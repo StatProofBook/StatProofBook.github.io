@@ -21,7 +21,7 @@ sources:
     pages: "Einheit (7), Folien 20-22"
     url: "https://www.ipsy.ovgu.de/ipsy_media/Methodenlehre/Sommersemester+2026/Allgemeines+Lineares+Modell/07_T_Statistiken-p-13981.pdf"
 
-proof_id: "P548"
+proof_id: "P549"
 shortcut: "mlr-t0"
 username: "JoramSoch"
 ---

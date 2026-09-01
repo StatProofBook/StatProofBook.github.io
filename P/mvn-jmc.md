@@ -33,7 +33,7 @@ sources:
     pages: "retrieved on 2026-08-28"
     url: "https://en.wikipedia.org/wiki/Determinant#Block_matrices"
 
-proof_id: "P547"
+proof_id: "P548"
 shortcut: "mvn-jmc"
 username: "JoramSoch"
 ---
