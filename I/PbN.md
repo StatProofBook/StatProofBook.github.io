@@ -550,8 +550,8 @@ title: "Proof by Number"
 | P542 | corrsamp-inv | [Invariance of the sample correlation under linear transformation](/P/corrsamp-inv) | JoramSoch | 2026-05-29 |
 | P543 | gbf-der | [Derivation of the group Bayes factor](/P/gbf-der) | JoramSoch | 2026-06-14 |
 | P544 | glbf-der | [Derivation of the group log Bayes factor](/P/glbf-der) | JoramSoch | 2026-06-14 |
-| P545 | bmsrfx-freqpost | [Posterior frequencies for random-effects Bayesian model selection using Dirichlet posterior distribution](/P/bmsrfx-freqpost) | JoramSoch | 2026-06-29 |
 | P545 | bmsrfx-vb | [Variational Bayesian estimation of random-effects Bayesian model selection using the mean-field approximation](/P/bmsrfx-vb) | JoramSoch | 2026-06-24 |
-| P546 | mvn-ecpc | [Equivalence of conditional and partial correlation for the multivariate normal distribution](/P/mvn-ecpc) | JoramSoch | 2026-08-28 |
-| P547 | mvn-jmc | [Joint distribution of marginally and conditionally multivariate normal random vectors](/P/mvn-jmc) | JoramSoch | 2026-08-28 |
-| P548 | mlr-t0 | [Contrast-based t-test with null hypothesis parameter for multiple linear regression](/P/mlr-t0) | JoramSoch | 2026-08-28 |
+| P546 | bmsrfx-freqpost | [Posterior frequencies for random-effects Bayesian model selection using Dirichlet posterior distribution](/P/bmsrfx-freqpost) | JoramSoch | 2026-06-29 |
+| P547 | mvn-ecpc | [Equivalence of conditional and partial correlation for the multivariate normal distribution](/P/mvn-ecpc) | JoramSoch | 2026-08-28 |
+| P548 | mvn-jmc | [Joint distribution of marginally and conditionally multivariate normal random vectors](/P/mvn-jmc) | JoramSoch | 2026-08-28 |
+| P549 | mlr-t0 | [Contrast-based t-test with null hypothesis parameter for multiple linear regression](/P/mlr-t0) | JoramSoch | 2026-08-28 |
