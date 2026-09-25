@@ -61,6 +61,7 @@ title: "Proof by Topic"
 - [Construction of unbiased estimator for variance](/P/resvar-unb)
 - [Construction of unbiased estimator for variance in multiple linear regression](/P/resvar-unbp)
 - [Continuous uniform distribution maximizes differential entropy for fixed range](/P/cuni-maxent)
+- [Contrast-based t-test with null hypothesis parameter for multiple linear regression](/P/mlr-t0)
 - [Convexity of the cross-entropy](/P/entcross-conv)
 - [Convexity of the Kullback-Leibler divergence](/P/kl-conv)
 - [Corrected Akaike information criterion converges to uncorrected Akaike information criterion when infinite data are available](/P/aicc-aic)

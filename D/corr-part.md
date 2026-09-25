@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$, $Y$ and $Z$ be [random variables](/D/rvar), such that there are linear relationships
+**Definition:** Let $X$, $Y$ and $Z$ be [random variables](/D/rvar), such that there are [linear relationships](/D/slr)
 
 $$ \label{eq:xz-yz}
 \begin{split}
@@ -36,7 +36,7 @@ Y &= \beta_0^{(Y)} + \beta_1^{(Y)} Z + E^{(Y)}
 \end{split}
 $$
 
-with the [residual](/P/slr-ressum) [random variables](/D/rvar)
+with the [residual](/D/rss) [random variables](/D/rvar)
 
 $$ \label{eq:ex-ey}
 \begin{split}

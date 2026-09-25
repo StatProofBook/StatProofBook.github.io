@@ -33,22 +33,22 @@ username: "kjpetrykowski"
 ---
 
 
-**Definition:** Let $X_{1}, ..., X_{k}$ be [independent](/D/ind) [random variables](/D/rvar) where each of them is following a [standard normal distribution](/D/snorm):
+**Definition:** Let $Z_1, \ldots, Z_k$ be [independent](/D/ind) [random variables](/D/rvar) where each of them is following a [standard normal distribution](/D/snorm):
 
 $$ \label{eq:snorm}
-X_{i} \sim \mathcal{N}(0,1) \quad \text{for} \quad i = 1, \ldots, n \; .
+Z_i \sim \mathcal{N}(0,1) \quad \text{for} \quad i = 1, \ldots, n \; .
 $$
 
-Then, the sum of their squares follows a chi-squared distribution with $k$ degrees of freedom:
+Define the random variable $X$ as the sum of all squared $Z_i$:
 
-$$\label{eq:chi2}
-Y = \sum_{i=1}^{k} X_{i}^{2} \sim \chi^{2}(k) \quad \text{where} \quad k > 0 \; .
+$$ \label{eq:X}
+X = \sum_{i=1}^{k} Z_i^2 \; .
 $$
 
-The [probability density function of the chi-squared distribution](/P/chi2-pdf) with $k$ degrees of freedom is
+Then, the variable $X$ is said to follow a chi-squared distribution with $k$ [degrees of freedom](/D/dof):
 
-$$ \label{eq:chi2-pdf}
-\chi^{2}(x; k) = \frac{1}{2^{k/2} \, \Gamma (k/2)} \, x^{k/2-1} \exp \left[ -x/2 \right]
+$$ \label{eq:wish}
+X \sim \chi^{2}(k)
 $$
 
-where $k > 0$ and the density is zero, if $x \leq 0$.
+where $k > 0$.

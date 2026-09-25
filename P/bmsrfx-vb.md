@@ -35,7 +35,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Consider [model evidences](/D/ml) $p(y_i \vert m)$ from $K$ models describing $N$ data sets $y = \left\lbrace y_1, \ldots, y_N \right\rbrace$ and assume that those data follow the group-level model specified by [random-effects Bayesian model selection](/D/bms-rfx) (RFX BMS):
+**Theorem:** Consider [model evidences](/D/ml) $p(y_i \vert m)$ from $K$ models describing $N$ data sets $y = \left\lbrace y_1, \ldots, y_N \right\rbrace$ and assume that those data follow the group-level model specified by [random-effects Bayesian model selection](/D/bmsrfx) (RFX BMS):
 
 $$ \label{eq:bms-rfx}
 \begin{split}
@@ -202,6 +202,7 @@ $$ \label{eq:q-r}
    q(r)
 &\approx \exp \left[ I(r) \right] \\
 &= \prod_{j=1}^K r_j^{\alpha_j + \beta_j - 1} \cdot \mathrm{const.} \\
+&= \frac{1}{Z(\alpha+\beta)} \prod_{j=1}^K r_j^{\alpha_j + \beta_j - 1} \\
 \mathrm{where} \quad \beta_j &= \sum_{i=1}^N \frac{u_{ij}}{u_i} \; .
 \end{split}
 $$
@@ -212,7 +213,7 @@ $$ \label{eq:p-r-y}
 p(r|y) = \mathrm{Dir}(r; \alpha + \beta) \; .
 $$
 
-4) Taken together, \eqref{eq:q-m} and \eqref{eq:q-r} imply the following iterative scheme for the posterior distribution in [random-effects Bayesian model selection](/D/bms-rfx):
+4) Taken together, \eqref{eq:q-m} and \eqref{eq:q-r} imply the following iterative scheme for the posterior distribution in [random-effects Bayesian model selection](/D/bmsrfx):
 
 $$ \label{eq:bms-rfx-vb-qed}
 \begin{split}

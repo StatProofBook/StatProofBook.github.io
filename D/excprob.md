@@ -35,7 +35,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $p(y,m,r)$ with data sets $y = \left\lbrace y_1, \ldots, y_N \right\rbrace$, generative models $m \in \left\lbrace 0, 1 \right\rbrace^{N \times K}$ and model frequencies $r \in [0, 1]^K$ be the [joint likelihood function](/D/jl) of the [model](/D/fpm) specified by [random-effects Bayesian model selection](/D/bms-rfx) and let $p(r \vert y)$ be the [posterior distribution](/D/post) resulting from estimation of this model.
+**Definition:** Let $p(y,m,r)$ with data sets $y = \left\lbrace y_1, \ldots, y_N \right\rbrace$, generative models $m \in \left\lbrace 0, 1 \right\rbrace^{N \times K}$ and model frequencies $r \in [0, 1]^K$ be the [joint likelihood function](/D/jl) of the [model](/D/fpm) specified by [random-effects Bayesian model selection](/D/bmsrfx) and let $p(r \vert y)$ be the [posterior distribution](/D/post) resulting from estimation of this model.
 
 Then, the [posterior exceedance probability](/D/prob-exc) of the $j$-th model frequency $r_j$, i.e. the probability that, given the data, the $j$-th model is more frequent than any other model, is called the exceedance probability of model $j$:
 

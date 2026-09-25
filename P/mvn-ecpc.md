@@ -15,7 +15,7 @@ theorem: "Conditional and partial correlation"
 
 sources:
 
-proof_id: "P546"
+proof_id: "P547"
 shortcut: "mvn-ecpc"
 username: "JoramSoch"
 ---
