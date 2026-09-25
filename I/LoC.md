@@ -800,6 +800,18 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Posterior probability](/P/mult-pp)**
 - **[Cross-validated log model evidence](/P/mult-cvlme)**
 - **[Cross-validated log Bayes factor](/P/mult-cvlbf)**
+### $2 \times 2$ contingency table
+- *[Definition](/D/ct2x2)*
+- **[Log model evidences](/P/ct2x2-lme)**
+- **[Log Bayes factor](/P/ct2x2-lbf)**
+- **[Posterior probability](/P/ct2x2-pp)**
+- *[Odds ratio](/D/or)*
+- *[Relative risk](/D/rr)*
+### $k \times l$ contingency table
+- *[Definition](/D/ct)*
+- **[Log model evidences](/P/ct-lme)**
+- **[Log Bayes factor](/P/ct-lbf)**
+- **[Posterior probability](/P/ct-pp)**
 ### Poisson-distributed data
 - *[Definition](/D/poiss-data)*
 - **[Maximum likelihood estimation](/P/poiss-mle)**
