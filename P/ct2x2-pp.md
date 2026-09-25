@@ -7,10 +7,10 @@ affiliation: "OvGU Magdeburg"
 e_mail: "joram.soch@ovgu.de"
 date: 2026-09-11 16:22:32
 
-title: "Posterior probability of the alternative model for the $2 \times 2$ contigency table"
+title: "Posterior probability of the alternative model for the binary contigency table"
 chapter: "Statistical Models"
 section: "Count data"
-topic: "$2 \times 2$ contingency table"
+topic: "Binary contingency table"
 theorem: "Posterior probability"
 
 sources:
@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Consider a [2 $\times$ 2 contingency table](/D/ct2x2), denote observed counts as
+**Theorem:** Consider a [$2 \times 2$ contingency table](/D/ct2x2), denote observed counts as
 
 $$ \label{eq:y}
 \left\lbrace y_1, y_2, y_3, y_4 \right\rbrace

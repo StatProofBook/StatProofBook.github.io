@@ -7,10 +7,10 @@ affiliation: "OvGU Magdeburg"
 e_mail: "joram.soch@ovgu.de"
 date: 2026-09-18 13:29:41
 
-title: "Posterior probability of the alternative model for the $2 \times 2$ contigency table"
+title: "Posterior probability of the alternative model for the general contigency table"
 chapter: "Statistical Models"
 section: "Count data"
-topic: "$k \times l$ contingency table"
+topic: "General contingency table"
 theorem: "Posterior probability"
 
 sources:
@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Consider a [k $\times$ l contingency table](/D/ct), denote observed counts as
+**Theorem:** Consider a [$k \times l$ contingency table](/D/ct), denote observed counts as
 
 $$ \label{eq:y}
 \left\lbrace y_{ij} \, | \, i \in \left\lbrace 1,\ldots,k \right\rbrace, \, j \in \left\lbrace 1,\ldots,l \right\rbrace \right\rbrace

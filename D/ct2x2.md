@@ -7,10 +7,10 @@ affiliation: "OvGU Magdeburg"
 e_mail: "joram.soch@ovgu.de"
 date: 2026-09-11 09:58:43
 
-title: "$2 \times 2$ contingency table"
+title: "Binary contingency table"
 chapter: "Statistical Models"
 section: "Count data"
-topic: "$2 \times 2$ contingency table"
+topic: "Binary contingency table"
 definition: "Definition"
 
 sources:

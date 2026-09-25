@@ -10,7 +10,7 @@ date: 2026-09-11 10:47:52
 title: "Relative risk"
 chapter: "Statistical Models"
 section: "Count data"
-topic: "$2 \times 2$ contingency table"
+topic: "Binary contingency table"
 definition: "Relative risk"
 
 sources:
@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Consider a [2 $\times$ 2 contingency table](/D/ct2x2) characterized by [random events](/D/reve) $A$ and $B$. Then, the relative risk (RR) is defined as the ratio of the probability of $A$ happening in the presence of $B$, and the probability of $A$ happening in the absence of $B$:
+**Definition:** Consider a [$2 \times 2$ contingency table](/D/ct2x2) characterized by [random events](/D/reve) $A$ and $B$. Then, the relative risk (RR) is defined as the ratio of the probability of $A$ happening in the presence of $B$, and the probability of $A$ happening in the absence of $B$:
 
 $$ \label{eq:rr}
 \begin{split}
@@ -38,10 +38,12 @@ $$ \label{eq:rr}
 \end{split}
 $$
 
-Given observed data from a [2 $\times$ 2 contingency table](/D/ct2x2), its sample estimate is given by
+Given observed data from a [$2 \times 2$ contingency table](/D/ct2x2), its sample estimate is given by
 
 $$ \label{eq:or-samp}
-  \hat{\mathrm{RR}}
-= \frac{y_{11}/(y_{11} + y_{01})}{y_{10}/(y_{10} + y_{00})} \\
-= \frac{y_{11}\, (y_{10} + y_{00})}{y_{10} \, (y_{11} + y_{01})} \; .
+\begin{split}
+   \hat{\mathrm{RR}}
+&= \frac{y_{11}/(y_{11} + y_{01})}{y_{10}/(y_{10} + y_{00})} \\
+&= \frac{y_{11}\, (y_{10} + y_{00})}{y_{10} \, (y_{11} + y_{01})} \; .
+\end{split}
 $$

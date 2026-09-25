@@ -10,7 +10,7 @@ date: 2026-09-11 10:34:53
 title: "Odds ratio"
 chapter: "Statistical Models"
 section: "Count data"
-topic: "$2 \times 2$ contingency table"
+topic: "Binary contingency table"
 definition: "Odds ratio"
 
 sources:
@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Consider a [2 $\times$ 2 contingency table](/D/ct2x2) characterized by [random events](/D/reve) $A$ and $B$. Then, the odds ratio (OR) is defined as the ratio of the odds of event $A$ taking place in the presence of $B$, and the odds of $A$ taking place in the absence of $B$:
+**Definition:** Consider a [$2 \times 2$ contingency table](/D/ct2x2) characterized by [random events](/D/reve) $A$ and $B$. Then, the odds ratio (OR) is defined as the ratio of the odds of event $A$ taking place in the presence of $B$, and the odds of $A$ taking place in the absence of $B$:
 
 $$ \label{eq:or}
 \begin{split}
@@ -41,7 +41,7 @@ $$ \label{eq:or}
 \end{split}
 $$
 
-Given observed data from a [2 $\times$ 2 contingency table](/D/ct2x2), its sample estimate is given by
+Given observed data from a [$2 \times 2$ contingency table](/D/ct2x2), its sample estimate is given by
 
 $$ \label{eq:or-samp}
   \hat{\mathrm{OR}}

@@ -718,8 +718,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[F-contrast](/D/fcon)*
 - **[Contrast-based t-test](/P/mlr-t)**
 - **[Contrast-based F-test](/P/mlr-f)**
-- **[t-test for single regressor](/P/mlr-tsingle)**
 - **[t-test with null parameter](/P/mlr-t0)**
+- **[t-test for single regressor](/P/mlr-tsingle)**
 - **[F-test for multiple regressors](/P/mlr-fomnibus)**
 - **[Deviance function](/P/mlr-dev)**
 - **[Akaike information criterion](/P/mlr-aic)**
@@ -800,14 +800,14 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Posterior probability](/P/mult-pp)**
 - **[Cross-validated log model evidence](/P/mult-cvlme)**
 - **[Cross-validated log Bayes factor](/P/mult-cvlbf)**
-### $2 \times 2$ contingency table
+### Binary contingency table
 - *[Definition](/D/ct2x2)*
 - **[Log model evidences](/P/ct2x2-lme)**
 - **[Log Bayes factor](/P/ct2x2-lbf)**
 - **[Posterior probability](/P/ct2x2-pp)**
 - *[Odds ratio](/D/or)*
 - *[Relative risk](/D/rr)*
-### $k \times l$ contingency table
+### General contingency table
 - *[Definition](/D/ct)*
 - **[Log model evidences](/P/ct-lme)**
 - **[Log Bayes factor](/P/ct-lbf)**

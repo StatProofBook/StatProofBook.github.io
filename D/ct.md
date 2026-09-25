@@ -7,10 +7,10 @@ affiliation: "OvGU Magdeburg"
 e_mail: "joram.soch@ovgu.de"
 date: 2026-09-18 09:51:07
 
-title: "$k \times l$ contingency table"
+title: "General contingency table"
 chapter: "Statistical Models"
 section: "Count data"
-topic: "$k \times l$ contingency table"
+topic: "General contingency table"
 definition: "Definition"
 
 sources:

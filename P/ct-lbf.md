@@ -7,10 +7,10 @@ affiliation: "OvGU Magdeburg"
 e_mail: "joram.soch@ovgu.de"
 date: 2026-09-18 11:57:19
 
-title: "Log Bayes factor for $k \times l$ contigency table models"
+title: "Log Bayes factor for general contigency table models"
 chapter: "Statistical Models"
 section: "Count data"
-topic: "$k \times l$ contingency table"
+topic: "General contingency table"
 theorem: "Log Bayes factor"
 
 sources:
@@ -21,7 +21,7 @@ username: "JoramSoch"
 ---
 
 
-**Theorem:** Consider a [k $\times$ l contingency table](/D/ct), denote observed counts as
+**Theorem:** Consider a [$k \times l$ contingency table](/D/ct), denote observed counts as
 
 $$ \label{eq:y}
 \left\lbrace y_{ij} \, | \, i \in \left\lbrace 1,\ldots,k \right\rbrace, \, j \in \left\lbrace 1,\ldots,l \right\rbrace \right\rbrace
