@@ -41,9 +41,7 @@ $$
 Given observed data from a [$2 \times 2$ contingency table](/D/ct2x2), its sample estimate is given by
 
 $$ \label{eq:or-samp}
-\begin{split}
-   \hat{\mathrm{RR}}
-&= \frac{y_{11}/(y_{11} + y_{01})}{y_{10}/(y_{10} + y_{00})} \\
-&= \frac{y_{11}\, (y_{10} + y_{00})}{y_{10} \, (y_{11} + y_{01})} \; .
-\end{split}
+  \hat{\mathrm{RR}}
+= \frac{y_{11}/(y_{11} + y_{01})}{y_{10}/(y_{10} + y_{00})}
+= \frac{y_{11}\, (y_{10} + y_{00})}{y_{10} \, (y_{11} + y_{01})} \; .
 $$

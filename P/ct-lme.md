@@ -120,7 +120,7 @@ and $\Gamma(x)$ denotes the gamma function.
 
 $$ \label{eq:p-y-p}
 \begin{split}
-   \mahtrm{p}(y|p)
+   \mathrm{p}(y|p)
 &= \mathrm{Mult}(n; \left[ p_{11}, \ldots, p_{kl} \right]) \\
 &= {n \choose {y_{11}, \ldots, y_{kl}}} \prod_{i=1}^k \prod_{j=1}^l {p_{ij}}^{y_{ij}} \; .
 \end{split}
