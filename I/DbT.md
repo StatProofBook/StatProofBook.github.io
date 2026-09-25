@@ -20,6 +20,7 @@ title: "Definition by Topic"
 - [Beta-binomial distribution](/D/betabin)
 - [Beta-distributed data](/D/beta-data)
 - [Biased vs. unbiased estimator](/D/est-bias)
+- [Binary contingency table](/D/ct2x2)
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
 - [Bivariate normal distribution](/D/bvn)
@@ -104,6 +105,7 @@ title: "Definition by Topic"
 ### G
 
 - [Gamma distribution](/D/gam)
+- [General contingency table](/D/ct)
 - [General linear model](/D/glm)
 - [Generative model](/D/gm)
 - [Group Bayes factor](/D/gbf)
@@ -189,6 +191,7 @@ title: "Definition by Topic"
 
 ### O
 
+- [Odds ratio](/D/or)
 - [Odds ratio, prior and posterior odds](/D/odds)
 - [One-tailed and two-tailed hypothesis](/D/hyp-tail)
 - [One-tailed and two-tailed test](/D/test-tail)
@@ -238,6 +241,7 @@ title: "Definition by Topic"
 - [Raw moment](/D/mom-raw)
 - [Reference prior distribution](/D/prior-ref)
 - [Regression line](/D/regline)
+- [Relative risk](/D/rr)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)

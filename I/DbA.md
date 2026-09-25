@@ -18,7 +18,7 @@ title: "Definition by Author"
 
 - [Sample covariance](/D/cov-samp)
 
-### JoramSoch (220 definitions)
+### JoramSoch (224 definitions)
 
 - [Akaike information criterion](/D/aic)
 - [Alternative hypothesis](/D/h1)
@@ -30,6 +30,7 @@ title: "Definition by Author"
 - [Beta-binomial distribution](/D/betabin)
 - [Beta-distributed data](/D/beta-data)
 - [Biased vs. unbiased estimator](/D/est-bias)
+- [Binary contingency table](/D/ct2x2)
 - [Binomial distribution](/D/bin)
 - [Binomial observations](/D/bin-data)
 - [Bivariate normal distribution](/D/bvn)
@@ -94,6 +95,7 @@ title: "Definition by Author"
 - [Full probability model](/D/fpm)
 - [Full width at half maximum](/D/fwhm)
 - [Gamma distribution](/D/gam)
+- [General contingency table](/D/ct)
 - [General linear model](/D/glm)
 - [Generative model](/D/gm)
 - [Group Bayes factor](/D/gbf)
@@ -154,6 +156,7 @@ title: "Definition by Author"
 - [Normal-gamma distribution](/D/ng)
 - [Normal-Wishart distribution](/D/nw)
 - [Null hypothesis](/D/h0)
+- [Odds ratio](/D/or)
 - [Odds ratio, prior and posterior odds](/D/odds)
 - [One-tailed and two-tailed hypothesis](/D/hyp-tail)
 - [One-tailed and two-tailed test](/D/test-tail)
@@ -191,6 +194,7 @@ title: "Definition by Author"
 - [Raw moment](/D/mom-raw)
 - [Reference prior distribution](/D/prior-ref)
 - [Regression line](/D/regline)
+- [Relative risk](/D/rr)
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)

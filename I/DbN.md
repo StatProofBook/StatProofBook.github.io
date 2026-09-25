@@ -245,3 +245,7 @@ title: "Definition by Number"
 | D236 | expfreq | [Expected model frequency](/D/expfreq) | JoramSoch | 2026-06-29 |
 | D237 | likfreq | [Likeliest model frequency](/D/likfreq) | JoramSoch | 2026-06-29 |
 | D238 | excprob | [Model exceedance probability](/D/excprob) | JoramSoch | 2026-06-29 |
+| D239 | ct2x2 | [Binary contingency table](/D/ct2x2) | JoramSoch | 2026-09-11 |
+| D240 | or | [Odds ratio](/D/or) | JoramSoch | 2026-09-11 |
+| D241 | rr | [Relative risk](/D/rr) | JoramSoch | 2026-09-11 |
+| D242 | ct | [General contingency table](/D/ct) | JoramSoch | 2026-09-18 |

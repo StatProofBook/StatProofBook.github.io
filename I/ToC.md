@@ -876,8 +876,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.27. *[F-contrast](/D/fcon)* <br>
    &emsp;&ensp; 1.5.28. **[Contrast-based t-test](/P/mlr-t)** <br>
    &emsp;&ensp; 1.5.29. **[Contrast-based F-test](/P/mlr-f)** <br>
-   &emsp;&ensp; 1.5.30. **[t-test for single regressor](/P/mlr-tsingle)** <br>
-   &emsp;&ensp; 1.5.31. **[t-test with null parameter](/P/mlr-t0)** <br>
+   &emsp;&ensp; 1.5.30. **[t-test with null parameter](/P/mlr-t0)** <br>
+   &emsp;&ensp; 1.5.31. **[t-test for single regressor](/P/mlr-tsingle)** <br>
    &emsp;&ensp; 1.5.32. **[F-test for multiple regressors](/P/mlr-fomnibus)** <br>
    &emsp;&ensp; 1.5.33. **[Deviance function](/P/mlr-dev)** <br>
    &emsp;&ensp; 1.5.34. **[Akaike information criterion](/P/mlr-aic)** <br>
@@ -979,21 +979,37 @@ title: "Table of Contents"
    &emsp;&ensp; 3.2.11. **[Cross-validated log model evidence](/P/mult-cvlme)** <br>
    &emsp;&ensp; 3.2.12. **[Cross-validated log Bayes factor](/P/mult-cvlbf)** <br>
    
+   <p id="Binary contingency table"></p>
+   3.3. Binary contingency table <br>
+   &emsp;&ensp; 3.3.1. *[Definition](/D/ct2x2)* <br>
+   &emsp;&ensp; 3.3.2. **[Log model evidences](/P/ct2x2-lme)** <br>
+   &emsp;&ensp; 3.3.3. **[Log Bayes factor](/P/ct2x2-lbf)** <br>
+   &emsp;&ensp; 3.3.4. **[Posterior probability](/P/ct2x2-pp)** <br>
+   &emsp;&ensp; 3.3.5. *[Odds ratio](/D/or)* <br>
+   &emsp;&ensp; 3.3.6. *[Relative risk](/D/rr)* <br>
+   
+   <p id="General contingency table"></p>
+   3.4. General contingency table <br>
+   &emsp;&ensp; 3.4.1. *[Definition](/D/ct)* <br>
+   &emsp;&ensp; 3.4.2. **[Log model evidences](/P/ct-lme)** <br>
+   &emsp;&ensp; 3.4.3. **[Log Bayes factor](/P/ct-lbf)** <br>
+   &emsp;&ensp; 3.4.4. **[Posterior probability](/P/ct-pp)** <br>
+   
    <p id="Poisson-distributed data"></p>
-   3.3. Poisson-distributed data <br>
-   &emsp;&ensp; 3.3.1. *[Definition](/D/poiss-data)* <br>
-   &emsp;&ensp; 3.3.2. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
-   &emsp;&ensp; 3.3.3. **[Conjugate prior distribution](/P/poiss-prior)** <br>
-   &emsp;&ensp; 3.3.4. **[Posterior distribution](/P/poiss-post)** <br>
-   &emsp;&ensp; 3.3.5. **[Log model evidence](/P/poiss-lme)** <br>
+   3.5. Poisson-distributed data <br>
+   &emsp;&ensp; 3.5.1. *[Definition](/D/poiss-data)* <br>
+   &emsp;&ensp; 3.5.2. **[Maximum likelihood estimation](/P/poiss-mle)** <br>
+   &emsp;&ensp; 3.5.3. **[Conjugate prior distribution](/P/poiss-prior)** <br>
+   &emsp;&ensp; 3.5.4. **[Posterior distribution](/P/poiss-post)** <br>
+   &emsp;&ensp; 3.5.5. **[Log model evidence](/P/poiss-lme)** <br>
    
    <p id="Poisson distribution with exposure values"></p>
-   3.4. Poisson distribution with exposure values <br>
-   &emsp;&ensp; 3.4.1. *[Definition](/D/poissexp)* <br>
-   &emsp;&ensp; 3.4.2. **[Maximum likelihood estimation](/P/poissexp-mle)** <br>
-   &emsp;&ensp; 3.4.3. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
-   &emsp;&ensp; 3.4.4. **[Posterior distribution](/P/poissexp-post)** <br>
-   &emsp;&ensp; 3.4.5. **[Log model evidence](/P/poissexp-lme)** <br>
+   3.6. Poisson distribution with exposure values <br>
+   &emsp;&ensp; 3.6.1. *[Definition](/D/poissexp)* <br>
+   &emsp;&ensp; 3.6.2. **[Maximum likelihood estimation](/P/poissexp-mle)** <br>
+   &emsp;&ensp; 3.6.3. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
+   &emsp;&ensp; 3.6.4. **[Posterior distribution](/P/poissexp-post)** <br>
+   &emsp;&ensp; 3.6.5. **[Log model evidence](/P/poissexp-lme)** <br>
 
 4. <p id="Frequency data">Frequency data</p>
    

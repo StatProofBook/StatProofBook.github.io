@@ -16,7 +16,7 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
-### JoramSoch (511 proofs)
+### JoramSoch (517 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)
 - [Accuracy and complexity for Bayesian linear regression with known covariance](/P/blrkc-anc)
@@ -214,7 +214,9 @@ title: "Proof by Author"
 - [Linearity of the expected value](/P/mean-lin)
 - [Linearity of the sample mean](/P/meansamp-lin)
 - [Log Bayes factor for Bayesian linear regression](/P/blr-lbf)
+- [Log Bayes factor for binary contigency table models](/P/ct2x2-lbf)
 - [Log Bayes factor for binomial observations](/P/bin-lbf)
+- [Log Bayes factor for general contigency table models](/P/ct-lbf)
 - [Log Bayes factor for multinomial observations](/P/mult-lbf)
 - [Log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbf)
 - [Log Bayes factor in terms of log model evidences](/P/lbf-lme)
@@ -229,6 +231,8 @@ title: "Proof by Author"
 - [Log model evidence for the univariate Gaussian](/P/ug-lme)
 - [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
 - [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp)
+- [Log model evidences for binary contigency table models](/P/ct2x2-lme)
+- [Log model evidences for general contigency table models](/P/ct-lme)
 - [Log sum inequality](/P/logsum-ineq)
 - [Log-likelihood ratio for multiple linear regression](/P/mlr-llr)
 - [Log-likelihood ratio for the general linear model](/P/glm-llr)
@@ -372,6 +376,8 @@ title: "Proof by Author"
 - [Posterior probability of the alternative hypothesis for Bayesian linear regression](/P/blr-pp)
 - [Posterior probability of the alternative model for binomial observations](/P/bin-pp)
 - [Posterior probability of the alternative model for multinomial observations](/P/mult-pp)
+- [Posterior probability of the alternative model for the binary contigency table](/P/ct2x2-pp)
+- [Posterior probability of the alternative model for the general contigency table](/P/ct-pp)
 - [Prior predictive distribution is a marginal distribution of the joint likelihood](/P/priorpred-jl)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
 - [Probability density function is first derivative of cumulative distribution function](/P/pdf-cdf)

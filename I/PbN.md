@@ -555,3 +555,9 @@ title: "Proof by Number"
 | P547 | mvn-ecpc | [Equivalence of conditional and partial correlation for the multivariate normal distribution](/P/mvn-ecpc) | JoramSoch | 2026-08-28 |
 | P548 | mvn-jmc | [Joint distribution of marginally and conditionally multivariate normal random vectors](/P/mvn-jmc) | JoramSoch | 2026-08-28 |
 | P549 | mlr-t0 | [Contrast-based t-test with null hypothesis parameter for multiple linear regression](/P/mlr-t0) | JoramSoch | 2026-08-28 |
+| P550 | ct2x2-lme | [Log model evidences for binary contigency table models](/P/ct2x2-lme) | JoramSoch | 2026-09-11 |
+| P551 | ct2x2-lbf | [Log Bayes factor for binary contigency table models](/P/ct2x2-lbf) | JoramSoch | 2026-09-11 |
+| P552 | ct2x2-pp | [Posterior probability of the alternative model for the binary contigency table](/P/ct2x2-pp) | JoramSoch | 2026-09-11 |
+| P553 | ct-lme | [Log model evidences for general contigency table models](/P/ct-lme) | JoramSoch | 2026-09-18 |
+| P554 | ct-lbf | [Log Bayes factor for general contigency table models](/P/ct-lbf) | JoramSoch | 2026-09-18 |
+| P555 | ct-pp | [Posterior probability of the alternative model for the general contigency table](/P/ct-pp) | JoramSoch | 2026-09-18 |

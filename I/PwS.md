@@ -4,7 +4,7 @@ title: "Proofs without Source"
 ---
 
 
-### Missing source (196 proofs)
+### Missing source (202 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -76,7 +76,9 @@ title: "Proofs without Source"
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
 - [Linearity of the sample mean](/P/meansamp-lin)
 - [Log Bayes factor for Bayesian linear regression](/P/blr-lbf)
+- [Log Bayes factor for binary contigency table models](/P/ct2x2-lbf)
 - [Log Bayes factor for binomial observations](/P/bin-lbf)
+- [Log Bayes factor for general contigency table models](/P/ct-lbf)
 - [Log Bayes factor for multinomial observations](/P/mult-lbf)
 - [Log Bayes factor for the univariate Gaussian with known variance](/P/ugkv-lbf)
 - [Log model evidence for multinomial observations](/P/mult-lme)
@@ -85,6 +87,8 @@ title: "Proofs without Source"
 - [Log model evidence for the Poisson distribution with exposure values](/P/poissexp-lme)
 - [Log model evidence for the univariate Gaussian with known variance](/P/ugkv-lme)
 - [Log model evidence in terms of prior and posterior distribution](/P/lme-pnp)
+- [Log model evidences for binary contigency table models](/P/ct2x2-lme)
+- [Log model evidences for general contigency table models](/P/ct-lme)
 - [Log-likelihood ratio for the general linear model](/P/glm-llr)
 - [Marginal distributions for the matrix-normal distribution](/P/matn-marg)
 - [Marginal distributions of the multinomial distribution](/P/mult-marg)
@@ -140,6 +144,8 @@ title: "Proofs without Source"
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 - [Posterior probability of the alternative model for binomial observations](/P/bin-pp)
 - [Posterior probability of the alternative model for multinomial observations](/P/mult-pp)
+- [Posterior probability of the alternative model for the binary contigency table](/P/ct2x2-pp)
+- [Posterior probability of the alternative model for the general contigency table](/P/ct-pp)
 - [Prior predictive distribution is a marginal distribution of the joint likelihood](/P/priorpred-jl)
 - [Probability density function of the beta distribution](/P/beta-pdf)
 - [Probability density function of the bivariate normal distribution](/P/bvn-pdf)
