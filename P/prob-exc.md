@@ -40,7 +40,7 @@ $$ \label{eq:exc}
 p(A,B) = 0 \; .
 $$
 
-The [addition law of probability](/D/prob-add) states that
+The [addition law of probability](/P/prob-add) states that
 
 $$ \label{eq:prob-add-set}
 p(A \cup B) = p(A) + p(B) - p(A \cap B)
@@ -52,7 +52,7 @@ $$ \label{eq:prob-add-log}
 p(A \vee B) = p(A) + p(B) - p(A,B) \; .
 $$
 
-Because the [union of mutually exclusive events is the empty set](/D/exc) and the [probability of the empty set is zero](/P/prob-emp), the [joint probability](/D/prob-joint) term cancels out:
+Because the [intersection of mutually exclusive events is the empty set](/D/exc) and the [probability of the empty set is zero](/P/prob-emp), the [joint probability](/D/prob-joint) term cancels out:
 
 $$ \label{eq:prob-exc-qed}
 p(A \vee B) = p(A) + p(B) - p(A,B) \overset{\eqref{eq:exc}}{=} p(A) + p(B) \; .
