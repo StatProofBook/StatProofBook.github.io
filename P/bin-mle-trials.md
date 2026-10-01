@@ -57,17 +57,20 @@ $$ \label{eq:Bin-LL}
 \end{split}
 $$
 
-The derivative of the log-likelihood function \eqref{eq:Bin-LL} with respect to $n$ is
+Note that ${n \choose y} = \frac{n!}{y!(n-y)!} = \frac{\Gamma(n+1)}{\Gamma(y+1)\Gamma(n+1-y)}$ and that $\frac{\mathrm{d}}{\mathrm{d}n} \log \Gamma(n) = \psi(n)$ by definition. Now, since $\Gamma(n + 1) = n \Gamma(n)$, $\psi(n+1) = \psi(n) + \frac{1}{n}$, so $\psi(n+1)$ differs from the $n$th harmonic number $H_n = \sum_{k=1}^{n} \frac{1}{k}$ only by a constant.
+
+Thus, the derivative of the log-likelihood function \eqref{eq:Bin-LL} with respect to $n$ is
 
 $$ \label{eq:dLL-dn}
-\frac{\mathrm{d}\mathrm{LL}(p)}{\mathrm{d}n} = H_n - H_{n-y} + \log (1-p)
+\begin{split}
+\frac{\mathrm{d}\mathrm{LL}(n)}{\mathrm{d}n} &= \psi(n+1) - \psi(n+1-y) + \log (1-p) \\
+&= H_n - H_{n-y} + \log (1-p)
+\end{split}
 $$
-
-where $H_n$ is the nth harmonic number.
 
 \eqref{eq:dLL-dn} can be bounded below by $\log (\frac{n+1}{n+1-y}) + \log (1 - p)$ and above by $\log (\frac{n}{n-y}) + \log (1 - p)$ using the Hermite-Hadamard inequality.
 
-Since these bounding functions are continuous and monotone for $n > y$, setting them to zero and solving gives bounds for the MLE for $n$:
+Since these bounding functions are continuous and monotone for $n > y$, setting them to zero and solving gives bounds for the maximum likelihood estimate of $n$:
 
 $$ \label{eq:n-MLE}
 \begin{split}
