@@ -561,3 +561,4 @@ title: "Proof by Number"
 | P553 | ct-lme | [Log model evidences for general contigency table models](/P/ct-lme) | JoramSoch | 2026-09-18 |
 | P554 | ct-lbf | [Log Bayes factor for general contigency table models](/P/ct-lbf) | JoramSoch | 2026-09-18 |
 | P555 | ct-pp | [Posterior probability of the alternative model for the general contigency table](/P/ct-pp) | JoramSoch | 2026-09-18 |
+| P556 | bin-mlen | [Maximum likelihood estimation of number of trials from binomial observations](/P/bin-mlen) | jdonland | 2026-09-28 |

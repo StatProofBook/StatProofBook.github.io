@@ -778,6 +778,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Definition](/D/bin-data)*
 - **[Binomial test](/P/bin-test)**
 - **[Maximum likelihood estimation](/P/bin-mle)**
+- **[Maximum likelihood estimation (n)](/P/bin-mlen)**
 - **[Maximum log-likelihood](/P/bin-mll)**
 - **[Maximum-a-posteriori estimation](/P/bin-map)**
 - **[Conjugate prior distribution](/P/bin-prior)**

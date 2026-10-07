@@ -954,15 +954,16 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.1. *[Definition](/D/bin-data)* <br>
    &emsp;&ensp; 3.1.2. **[Binomial test](/P/bin-test)** <br>
    &emsp;&ensp; 3.1.3. **[Maximum likelihood estimation](/P/bin-mle)** <br>
-   &emsp;&ensp; 3.1.4. **[Maximum log-likelihood](/P/bin-mll)** <br>
-   &emsp;&ensp; 3.1.5. **[Maximum-a-posteriori estimation](/P/bin-map)** <br>
-   &emsp;&ensp; 3.1.6. **[Conjugate prior distribution](/P/bin-prior)** <br>
-   &emsp;&ensp; 3.1.7. **[Posterior distribution](/P/bin-post)** <br>
-   &emsp;&ensp; 3.1.8. **[Log model evidence](/P/bin-lme)** <br>
-   &emsp;&ensp; 3.1.9. **[Log Bayes factor](/P/bin-lbf)** <br>
-   &emsp;&ensp; 3.1.10. **[Posterior probability](/P/bin-pp)** <br>
-   &emsp;&ensp; 3.1.11. **[Cross-validated log model evidence](/P/bin-cvlme)** <br>
-   &emsp;&ensp; 3.1.12. **[Cross-validated log Bayes factor](/P/bin-cvlbf)** <br>
+   &emsp;&ensp; 3.1.4. **[Maximum likelihood estimation (n)](/P/bin-mlen)** <br>
+   &emsp;&ensp; 3.1.5. **[Maximum log-likelihood](/P/bin-mll)** <br>
+   &emsp;&ensp; 3.1.6. **[Maximum-a-posteriori estimation](/P/bin-map)** <br>
+   &emsp;&ensp; 3.1.7. **[Conjugate prior distribution](/P/bin-prior)** <br>
+   &emsp;&ensp; 3.1.8. **[Posterior distribution](/P/bin-post)** <br>
+   &emsp;&ensp; 3.1.9. **[Log model evidence](/P/bin-lme)** <br>
+   &emsp;&ensp; 3.1.10. **[Log Bayes factor](/P/bin-lbf)** <br>
+   &emsp;&ensp; 3.1.11. **[Posterior probability](/P/bin-pp)** <br>
+   &emsp;&ensp; 3.1.12. **[Cross-validated log model evidence](/P/bin-cvlme)** <br>
+   &emsp;&ensp; 3.1.13. **[Cross-validated log Bayes factor](/P/bin-cvlbf)** <br>
    
    <p id="Multinomial observations"></p>
    3.2. Multinomial observations <br>

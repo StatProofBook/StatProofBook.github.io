@@ -16,6 +16,10 @@ title: "Proof by Author"
 
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
+### jdonland (1 proof)
+
+- [Maximum likelihood estimation of number of trials from binomial observations](/P/bin-mlen)
+
 ### JoramSoch (517 proofs)
 
 - [Accuracy and complexity for Bayesian linear regression](/P/blr-anc)

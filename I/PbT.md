@@ -289,6 +289,7 @@ title: "Proof by Topic"
 - [Maximum likelihood estimation for the univariate Gaussian](/P/ug-mle)
 - [Maximum likelihood estimation for the univariate Gaussian with known variance](/P/ugkv-mle)
 - [Maximum likelihood estimation for univariate von Mises data](/P/vm-mle)
+- [Maximum likelihood estimation of number of trials from binomial observations](/P/bin-mlen)
 - [Maximum likelihood estimator of variance in multiple linear regression is biased](/P/resvar-biasp)
 - [Maximum likelihood estimator of variance is biased](/P/resvar-bias)
 - [Maximum log-likelihood for binomial observations](/P/bin-mll)

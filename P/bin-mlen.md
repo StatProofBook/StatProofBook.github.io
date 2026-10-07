@@ -5,24 +5,24 @@ mathjax: true
 author: "Jesse Onland"
 affiliation: ""
 e_mail: ""
-date: 2026-09-28 23:42:00 EDT
+date: 2026-09-28 23:42:00
 
 title: "Maximum likelihood estimation of number of trials from binomial observations"
 chapter: "Statistical Models"
 section: "Count data"
 topic: "Binomial observations"
-theorem: "Maximum likelihood estimation"
+theorem: "Maximum likelihood estimation (n)"
 
 sources:
-  - author: "fawadria"
+  - authors: "fawadria"
     year: 2020
-	title: "Maximum likelihood estimate of N (trials) in Binomial"
+    title: "Maximum likelihood estimate of N (trials) in Binomial"
     in: "Mathematics Stack Exchange"
     pages: "retrieved on 2026-09-24"
     url: https://math.stackexchange.com/a/3739034
 
 proof_id: "P556"
-shortcut: "bin-mle-trials"
+shortcut: "bin-mlen"
 username: "jdonland"
 ---
 
@@ -37,7 +37,7 @@ Suppose $0 < p < 1$. Then, the [maximum likelihood estimator](/D/mle) of $n$ is
 
 $$ \label{eq:Bin-MLE-Trials}
 \hat{n} = \begin{cases}
-  \lfloor \frac{y}{p} \rfloor \; ,              & \text{if } p \nmid y \\
+  \lfloor \frac{y}{p} \rfloor \; ,             & \text{if } p \nmid y \\
   \frac{y}{p} \text{ and } \frac{y}{p}-1, \; , & \text{otherwise} \; .
 \end{cases}
 $$
@@ -61,7 +61,7 @@ $$ \label{eq:Bin-LL}
 \end{split}
 $$
 
-Note that ${n \choose y} = \frac{n!}{y!(n-y)!} = \frac{\Gamma(n+1)}{\Gamma(y+1)\Gamma(n+1-y)}$ and that $\frac{\mathrm{d}}{\mathrm{d}n} \log \Gamma(n) = \psi(n)$ by definition. Now, since $\Gamma(n + 1) = n \Gamma(n)$, we have $\psi(n+1) = \psi(n) + \frac{1}{n}$, so $\psi(n+1)$ differs from the $n$th harmonic number $H_n = \sum_{k=1}^{n} \frac{1}{k}$ only by a constant.
+Note that ${n \choose y} = \frac{n!}{y!(n-y)!} = \frac{\Gamma(n+1)}{\Gamma(y+1)\Gamma(n+1-y)}$ and that $\frac{\mathrm{d}}{\mathrm{d}n} \log \Gamma(n) = \psi(n)$ by definition. Now, since $\Gamma(n + 1) = n \Gamma(n)$, we have $\psi(n+1) = \psi(n) + \frac{1}{n}$, so $\psi(n+1)$ differs from the $n$-th harmonic number $H_n = \sum_{k=1}^{n} \frac{1}{k}$ only by a constant.
 
 Thus, the derivative of the log-likelihood function \eqref{eq:Bin-LL} with respect to $n$ is
 
