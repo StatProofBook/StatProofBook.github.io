@@ -49,21 +49,18 @@ username: "JoramSoch"
 
 **Definition:** Let $m$ be a [generative model](/D/gm) with [model parameters](/D/para) $\theta \in \Theta$ implying the [likelihood function](/D/lf) $p(y \vert \theta, m)$ and [prior distribution](/D/prior) $p(\theta \vert m)$. Then, a Variational Bayes treatment of $m$, also referred to as "approximate inference" or "variational inference", consists in
 
-<br>
 1) constructing an approximate [posterior distribution](/D/post)
 
 $$ \label{eq:post-vb}
 q(\theta) \approx p(\theta \vert y, m) \; ,
 $$
 
-<br>
 2) evaluating the [variational free energy](/D/vblme)
 
 $$ \label{eq:FE}
 \mathrm{F}_m[q(\theta)] = \int_{\Theta} q(\theta) \log \frac{p(\theta \vert y, m)}{q(\theta)} \, \mathrm{d}\theta
 $$
 
-<br>
 3) and maximizing this function with respect to $q(\theta)$
 
 $$ \label{eq:VB}

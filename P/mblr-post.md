@@ -83,7 +83,6 @@ $$
 
 using the $v \times v$ [precision matrix](/D/precmat) $T = \Sigma^{-1}$ and the $n \times n$ [precision matrix](/D/precmat) $P = V^{-1}$.
 
-<br>
 Combining the [likelihood function](/D/lf) \eqref{eq:GLM-LF-Bayes} with the [prior distribution](/D/prior) \eqref{eq:GLM-NW-prior}, the [joint likelihood](/D/jl) of the model is given by
 
 $$ \label{eq:GLM-NW-JL-s1}

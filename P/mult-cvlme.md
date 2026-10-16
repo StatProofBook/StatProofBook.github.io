@@ -48,7 +48,9 @@ $$
 where $y_1^{(i)}$ and $y_2^{(i)}$ are the training and test data, respectively, with $n_1$ and $n_2$ data points, respectively, in the $i$-th cross-validation fold, $S$ is the [number of data subsets](/D/cvlme) and $\Gamma(x)$ is the gamma function.
 
 
-**Proof:** For evaluation of the [cross-validated log model evidences](/D/cvlme) (cvLME), we assume that $n$ data points are divided into $S \mid n$ data subsets without remainder. Then, the number of training data points $n_1$ and test data points $n_2$ are given by
+**Proof:**
+
+1) For evaluation of the [cross-validated log model evidences](/D/cvlme) (cvLME), we assume that $n$ data points are divided into $S \mid n$ data subsets without remainder. Then, the number of training data points $n_1$ and test data points $n_2$ are given by
 
 $$ \label{eq:CV-n12}
 \begin{split}
@@ -74,8 +76,7 @@ n_2 &= \sum_{j=1}^{k} y_{2j}^{(i)} \; .
 \end{split}
 $$
 
-<br>
-First, we consider the null model $m_0$ assuming $p_j = 1/k$ for each $j = 1,\ldots,k$. Because this model has no free parameter, nothing is estimated from the training data and the assumed parameter value is applied to the test data. Consequently, the [out-of-sample log model evidence](/D/cvlme) (oosLME) is equal to the [log-likelihood function](/P/mult-mle) of the test data at $p = [1/k, \ldots, 1/k]$:
+2) First, we consider the null model $m_0$ assuming $p_j = 1/k$ for each $j = 1,\ldots,k$. Because this model has no free parameter, nothing is estimated from the training data and the assumed parameter value is applied to the test data. Consequently, the [out-of-sample log model evidence](/D/cvlme) (oosLME) is equal to the [log-likelihood function](/P/mult-mle) of the test data at $p = [1/k, \ldots, 1/k]$:
 
 $$ \label{eq:Mult-m0-oosLME}
 \begin{split}
@@ -98,8 +99,7 @@ $$ \label{eq:Mult-m0-cvLME}
 \end{split}
 $$
 
-<br>
-Next, we have a look at the alternative $m_1$ assuming $p_j = 1/k$ for at least one $j = 1,\ldots,k$. First, the training data $y_1^{(i)}$ are analyzed [using a non-informative prior distribution](/D/prior-inf) and applying the [posterior distribution for multinomial observations](/P/mult-post):
+3) Next, we have a look at the alternative $m_1$ assuming $p_j = 1/k$ for at least one $j = 1,\ldots,k$. First, the training data $y_1^{(i)}$ are analyzed [using a non-informative prior distribution](/D/prior-inf) and applying the [posterior distribution for multinomial observations](/P/mult-post):
 
 $$ \label{eq:Mult-m1-y1}
 \alpha_0^{(1)} = 0_{1k} \quad \Rightarrow \quad

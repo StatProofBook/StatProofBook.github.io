@@ -64,15 +64,12 @@ p(y|\mu,\sigma^2) &= \left( \frac{1}{2 \pi \sigma^2} \right)^{n/2} \cdot \exp \l
 \end{split}
 $$
 
-where $\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i$ is the mean of data points and $y^\mathrm{T} y = \sum_{i=1}^{n} y_i^2$ is the sum of squared data points.
-
-Thus, the [log-likelihood function](/D/llf) is
+where $\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i$ is the mean of data points and $y^\mathrm{T} y = \sum_{i=1}^{n} y_i^2$ is the sum of squared data points. Thus, the [log-likelihood function](/D/llf) is
 
 $$ \label{eq:ug-LL}
 \mathrm{LL}(\mu,\sigma^2) = \log p(y|\mu,\sigma^2) = -\frac{n}{2} \log (2 \pi \sigma^2) - \frac{1}{2 \sigma^2} \left( y^\mathrm{T} y - 2 n \bar{y} \mu + n \mu^2 \right) \; .
 $$
 
-<br>
 The derivative of the log-likelihood function \eqref{eq:ug-LL} with respect to $\mu$ is
 
 $$ \label{eq:dLL-dmu}
@@ -91,7 +88,6 @@ $$ \label{eq:mu-MLE}
 \end{split}
 $$
 
-<br>
 The derivative of the log-likelihood function \eqref{eq:ug-LL} at $\hat{\mu}$ with respect to $\sigma^2$ is
 
 $$ \label{eq:dLL-ds2}
@@ -115,5 +111,4 @@ $$ \label{eq:s2-MLE}
 \end{split}
 $$
 
-<br>
 Together, \eqref{eq:mu-MLE} and \eqref{eq:s2-MLE} constitute the MLE for the univariate Gaussian.

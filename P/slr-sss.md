@@ -40,7 +40,6 @@ $$ \label{eq:slr-ols}
 \hat{\beta}_0 = \bar{y} - \hat{\beta}_1 \bar{x} \quad \text{and} \quad \hat{\beta}_1 = \frac{s_{xy}}{s_x^2} \; .
 $$
 
-<br>
 1) The [total sum of squares](/D/tss) is defined as
 
 $$ \label{eq:TSS}
@@ -57,7 +56,6 @@ $$ \label{eq:TSS-qed}
 \end{split}
 $$
 
-<br>
 2) The [explained sum of squares](/D/ess) is defined as
 
 $$ \label{eq:ESS}
@@ -79,7 +77,6 @@ $$ \label{eq:ESS-qed}
 \end{split}
 $$
 
-<br>
 3) The [residual sum of squares](/D/rss) is defined as
 
 $$ \label{eq:RSS}

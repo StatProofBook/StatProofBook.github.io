@@ -36,7 +36,6 @@ $$
 
 with [sample means](/D/mean-samp) $\bar{x}$ and $\bar{y}$, [sample variance](/D/var-samp) $s_x^2$ and [sample covariance](/D/cov-samp) $s_{xy}$, such that $\beta_0$ estimates "the mean $y$ at $x = 0$".
 
-<br>
 2) Let $\tilde{x}$ be the mean-centered [covariate vector](/D/slr):
 
 $$ \label{eq:slr-meancent-x}
@@ -56,8 +55,6 @@ $$
 
 and we can see that $\hat{\beta}_1(\tilde{x},y) = \hat{\beta}_1(x,y)$, but $\hat{\beta}_0(\tilde{x},y) \neq \hat{\beta}_0(x,y)$, specifically $\beta_0$ now estimates "the mean $y$ at the mean $x$".
 
-
-<br> 
 3) Let $\tilde{y}$ be the mean-centered [data vector](/D/slr):
 
 $$ \label{eq:slr-meancent-y}
@@ -77,7 +74,6 @@ $$
 
 and we can see that $\hat{\beta}_1(x,\tilde{y}) = \hat{\beta}_1(x,y)$, but $\hat{\beta}_0(x,\tilde{y}) \neq \hat{\beta}_0(x,y)$, specifically $\beta_0$ now estimates "the mean $x$, multiplied with the negative slope".
 
-<br> 
 4) Finally, consider mean-centering both $x$ and $y$::
 
 $$ \label{eq:slr-meancent-xy}

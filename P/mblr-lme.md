@@ -80,7 +80,6 @@ $$
 
 using the $v \times v$ [precision matrix](/D/precmat) $T = \Sigma^{-1}$ and the $n \times n$ [precision matrix](/D/precmat) $P = V^{-1}$.
 
-<br>
 When [deriving the posterior distribution](/P/mblr-post) $p(B,T|Y)$, the joint likelihood $p(Y,B,T)$ is obtained as
 
 $$ \label{eq:GLM-NW-LME-s1}

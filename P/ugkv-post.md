@@ -91,7 +91,6 @@ $$
 
 using the inverse variance or precision $\tau = 1/\sigma^2$.
 
-<br>
 Combining the [likelihood function](/D/lf) \eqref{eq:UGkv-LF-Bayes} with the [prior distribution](/D/prior) \eqref{eq:UGkv-prior}, the [joint likelihood](/D/jl) of the model is given by
 
 $$ \label{eq:UGkv-JL-s1}

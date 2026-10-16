@@ -63,10 +63,8 @@ $$
 
 The [best linear unbiased estimator](/D/blue) $\hat{\theta}$ of a certain quantity $\theta$ estimated from [measured data](/D/data) $y$ is 1) an estimator resulting from a linear operation $f(y)$, 2) whose expected value is equal to $\theta$ and 3) which has, among those satisfying 1) and 2), the minimum [variance](/D/var).
 
-<br>
 1) First, $\hat{W}$ is a linear estimator, because it is of the form $\tilde{W} = M X$ where $M$ is an arbitrary $v \times n$ matrix.
 
-<br>
 2) Second, $\hat{W}$ is an unbiased estimator, if $\left\langle \hat{W} \right\rangle = W$. By applying \eqref{eq:matn-ltt} to \eqref{eq:iglm}, the distribution of $\tilde{W}$ is
 
 $$ \label{eq:W-hat-dist}
@@ -81,7 +79,6 @@ $$
 
 where $D$ is a $v \times n$ matrix which satisfies $D Y = 0$.
 
-<br>
 3) Third, the [best linear unbiased estimator](/D/blue) is the one with minimum [variance](/D/var), i.e. the one that minimizes the expected Frobenius norm
 
 $$ \label{eq:Var-W}

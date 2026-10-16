@@ -50,7 +50,6 @@ where $n$ and $p$ are the dimensions of the design matrix $X \in \mathbb{R}^{n \
 
 **Proof:** Consider two [linear regression models](/D/mlr) for the same measured data $y$, one using design matrix $X$ from \eqref{eq:mlr} and the other with design matrix $X_0 = 1_n \in \mathbb{R}^{n \times 1}$. Then, $\mathrm{RSS}$ is the [residual sum of squares](/D/rss) of the model in \eqref{eq:mlr} and the residual sum of squares for the model using $X_0$ is equal to the [total sum of squares](/D/tss).
 
-<br>
 1) Thus, the [F-statistic](/D/fstat)
 
 $$ \label{eq:F}
@@ -74,7 +73,6 @@ F &= \frac{(\mathrm{TSS}-\mathrm{RSS})/(p-1)}{\mathrm{RSS}/(n-p)} \\
 \end{split}
 $$
 
-<br>
 2) Rearranging this equation, we can derive $R^2$ in terms of $F$:
 
 $$ \label{eq:R2-F-qed}

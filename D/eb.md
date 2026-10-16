@@ -35,21 +35,18 @@ username: "JoramSoch"
 
 **Definition:** Let $m$ be a [generative model](/D/gm) with model parameters $\theta$ and hyper-parameters $\lambda$ implying the [likelihood function](/D/lf) $p(y \vert \theta, \lambda, m)$ and [prior distribution](/D/prior) $p(\theta \vert \lambda, m)$. Then, an Empirical Bayes treatment of $m$, also referred to as "type II [maximum likelihood](/D/mle)" or "[evidence](/D/lme) approximation", consists in
 
-<br>
 1) evaluating the [marginal likelihood](/D/ml) of the model $m$
 
 $$ \label{eq:ML}
 p(y \vert \lambda, m) = \int p(y \vert \theta, \lambda, m) \, (\theta \vert \lambda, m) \, \mathrm{d}\theta \; ,
 $$
 
-<br>
 2) maximizing the [log model evidence](/D/lme) with respect to $\lambda$
 
 $$ \label{eq:EB}
 \hat{\lambda} = \operatorname*{arg\,max}_{\lambda} \log p(y \vert \lambda, m)
 $$
 
-<br>
 3) and using the [prior distribution](/D/prior) at this maximum
 
 $$ \label{eq:prior-eb}

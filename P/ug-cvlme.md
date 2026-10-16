@@ -52,7 +52,9 @@ $$
 where $\bar{y}$ is the [sample mean](/D/mean-samp), $y_1^{(i)}$ are the training data with $n_1$ data points in the $i$-th cross-validation fold and $S$ is the [number of data subsets](/D/cvlme).
 
 
-**Proof:** For evaluation of the [cross-validated log model evidences](/D/cvlme) (cvLME), we assume that $n$ data points are divided into $S \mid n$ data subsets without remainder. Then, the number of training data points $n_1$ and test data points $n_2$ are given by
+**Proof:**
+
+1) For evaluation of the [cross-validated log model evidences](/D/cvlme) (cvLME), we assume that $n$ data points are divided into $S \mid n$ data subsets without remainder. Then, the number of training data points $n_1$ and test data points $n_2$ are given by
 
 $$ \label{eq:CV-n12}
 \begin{split}
@@ -72,8 +74,7 @@ y_2^{(i)} &= \left\lbrace y_{(i-1) \cdot n_2 + 1}, \ldots, y_{i \cdot n_2} \righ
 \end{split}
 $$
 
-<br>
-First, we have a look at the alternative $m_1$ assuming $\mu \neq 0$. To begin, the training data $y_1^{(i)}$ are analyzed [using a non-informative prior distribution](/D/prior-inf) and applying the [posterior distribution for the univariate Gaussian](/P/ug-post):
+2) First, we have a look at the alternative $m_1$ assuming $\mu \neq 0$. To begin, the training data $y_1^{(i)}$ are analyzed [using a non-informative prior distribution](/D/prior-inf) and applying the [posterior distribution for the univariate Gaussian](/P/ug-post):
 
 $$ \label{eq:UG-m1-y1}
 \begin{split}
@@ -134,8 +135,7 @@ $$ \label{eq:UG-m1-cvLME}
 \end{split}
 $$
 
-<br>
-Next, we consider the null model $m_0$ assuming $\mu = 0$. Because this model has no parameter for $\mu$, there are no hyperparameters $\mu_0$ and $\lambda_0$, but only hyperparameters $a_0$ and $b_0$ for the parameter $\tau$. In the first step, the training data $y_1^{(i)}$ are analyzed [using a non-informative prior distribution](/D/prior-inf) and applying the [posterior distribution for the univariate Gaussian](/P/ug-post):
+3) Next, we consider the null model $m_0$ assuming $\mu = 0$. Because this model has no parameter for $\mu$, there are no hyperparameters $\mu_0$ and $\lambda_0$, but only hyperparameters $a_0$ and $b_0$ for the parameter $\tau$. In the first step, the training data $y_1^{(i)}$ are analyzed [using a non-informative prior distribution](/D/prior-inf) and applying the [posterior distribution for the univariate Gaussian](/P/ug-post):
 
 $$ \label{eq:UG-m0-y1}
 \begin{split}

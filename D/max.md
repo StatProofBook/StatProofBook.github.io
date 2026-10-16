@@ -29,7 +29,6 @@ username: "JoramSoch"
 
 **Definition:** The maximum of a sample or random variable is its highest observed or possible value.
 
-<br>
 1) Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ be a [sample](/D/samp) from a [random variable](/D/rvar) $X$. Then, the maximum of $x$ is
 
 $$ \label{eq:max-samp}
@@ -38,7 +37,6 @@ $$
 
 i.e. the maximum is the value which is larger than or equal to all other observed values.
 
-<br>
 2) Let $X$ be a [random variable](/D/rvar) with possible values $\mathcal{X}$. Then, the maximum of $X$ is
 
 $$ \label{eq:max-rvar}

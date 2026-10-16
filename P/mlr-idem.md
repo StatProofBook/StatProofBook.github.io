@@ -55,7 +55,6 @@ P^2 &= X (X^\mathrm{T} X)^{-1} X^\mathrm{T} X (X^\mathrm{T} X)^{-1} X^\mathrm{T}
 \end{split}
 $$
 
-<br>
 2) The [residual-forming matrix for ordinary least squares is given by](/P/mlr-mat)
 
 $$ \label{eq:R}

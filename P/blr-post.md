@@ -83,7 +83,6 @@ $$
 
 using the noise precision $\tau = 1/\sigma^2$ and the $n \times n$ [precision matrix](/D/precmat) $P = V^{-1}$.
 
-<br>
 Combining the [likelihood function](/D/lf) \eqref{eq:GLM-LF-Bayes} with the [prior distribution](/D/prior) \eqref{eq:GLM-NG-prior}, the [joint likelihood](/D/jl) of the model is given by
 
 $$ \label{eq:GLM-NG-JL-s1}

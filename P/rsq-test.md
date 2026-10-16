@@ -52,7 +52,9 @@ H_0: \; R^2 = 0 \; .
 $$
 
 
-**Proof:** Consider two [linear regression models](/D/mlr) for the same measured data $y$, with design matrices $X = X_0 \in \mathbb{R}^{n \times p_0}$ and $X = \left[ X_0, X_1 \right] \in \mathbb{R}^{n \times p}$ as well as regression coefficients $\beta = \beta_0 \in \mathbb{R}^{p_0 \times 1}$ and $\beta = \left[ \beta_0^\mathrm{T}, \beta_1^\mathrm{T} \right]^\mathrm{T} \in \mathbb{R}^{p \times 1}$.
+**Proof:**
+
+1) Consider two [linear regression models](/D/mlr) for the same measured data $y$, with design matrices $X = X_0 \in \mathbb{R}^{n \times p_0}$ and $X = \left[ X_0, X_1 \right] \in \mathbb{R}^{n \times p}$ as well as regression coefficients $\beta = \beta_0 \in \mathbb{R}^{p_0 \times 1}$ and $\beta = \left[ \beta_0^\mathrm{T}, \beta_1^\mathrm{T} \right]^\mathrm{T} \in \mathbb{R}^{p \times 1}$.
 
 Then, under the null hypothesis that all [regression coefficients](/D/mlr) $\beta_1$ associated with $X_1$ are zero
 
@@ -68,8 +70,7 @@ $$
 
 where $\mathrm{RSS}_0$ and $\mathrm{RSS}$ are the [residual sums of squares](/D/rss) of the null model with $X_0$ and the full model with $X_0$ nested in $X$, after regression coefficients have been estimated with [weighted least squares](/P/mlr-wls) or [maximum likelihood](/P/mlr-mle).
 
-<br>
-Since by the requirements of our theorem, $X$ contains a constant regressor, we can assume the following design matrices without loss of generality:
+2) Since by the requirements of our theorem, $X$ contains a constant regressor, we can assume the following design matrices without loss of generality:
 
 $$ \label{eq:f-rsq-X}
 X_0 = 1_n \in \mathbb{R}^{n \times 1} \quad \text{and} \quad X = \left[ 1_n, X_1 \right] \in \mathbb{R}^{n \times p} \; .
@@ -81,8 +82,7 @@ $$ \label{eq:rss0-p0}
 \mathrm{RSS}_0 = \mathrm{TSS} \quad \text{and} \quad p_0 = 1 \; .
 $$
 
-<br>
-The [coefficient of determination is given by](/P/rsq-der)
+3) The [coefficient of determination is given by](/P/rsq-der)
 
 $$ \label{eq:rsq-rss}
 R^2 = 1 - \frac{\mathrm{RSS}}{\mathrm{TSS}}
@@ -96,8 +96,7 @@ $$
 
 If all regression coefficients $\beta_1$ associated with $X_1$ are zero, then the true $R^2$ is zero, because there is no variance explained beyond the constant regressor, the [explained sum of squares](/D/ess) $\mathrm{ESS}$ is zero and the [residual sum of squares](/D/rss) $\mathrm{RSS}$ is equal to the [total sum of squares](/D/tss) $\mathrm{TSS}$.
 
-<br>
-Then, by virtue of \eqref{eq:mlr-fomnibus}, we get the following F-statistic:
+4) Then, by virtue of \eqref{eq:mlr-fomnibus}, we get the following F-statistic:
 
 $$ \label{eq:f-rsq-qed}
 \begin{split}

@@ -29,7 +29,6 @@ username: "JoramSoch"
 
 **Definition:** The minimum of a sample or random variable is its lowest observed or possible value.
 
-<br>
 1) Let $x = \left\lbrace x_1, \ldots, x_n \right\rbrace$ be a [sample](/D/samp) from a [random variable](/D/rvar) $X$. Then, the minimum of $x$ is
 
 $$ \label{eq:min-samp}
@@ -38,7 +37,6 @@ $$
 
 i.e. the minimum is the value which is smaller than or equal to all other observed values.
 
-<br>
 2) Let $X$ be a [random variable](/D/rvar) with possible values $\mathcal{X}$. Then, the minimum of $X$ is
 
 $$ \label{eq:min-rvar}

@@ -52,7 +52,6 @@ $$ \label{eq:b-est-cov-den}
 x^\mathrm{T} x - n\bar{x}^2 = (n-1) \, s_x^2 \; .
 $$
 
-<br>
 1) The [estimation matrix is given by](/P/mlr-mat)
 
 $$ \label{eq:E}
@@ -72,7 +71,6 @@ E &= (X^\mathrm{T} X)^{-1} X^\mathrm{T} \\
 \end{split}
 $$
 
-<br>
 2) The [projection matrix is given by](/P/mlr-mat)
 
 $$ \label{eq:P}
@@ -89,7 +87,6 @@ P &= X \, E = \left[ \begin{matrix} 1_n & x \end{matrix} \right] \left[ \begin{m
 \end{split}
 $$
 
-<br>
 3) The [residual-forming matrix is given by](/P/mlr-mat)
 
 $$ \label{eq:R}

@@ -91,7 +91,6 @@ $$
 
 using the inverse variance or precision $\tau = 1/\sigma^2$.
 
-<br>
 When [deriving the posterior distribution](/P/ug-post) $p(\mu,\tau|y)$, the joint likelihood $p(y,\mu,\tau)$ is obtained as
 
 $$ \label{eq:UG-NG-LME-s1}

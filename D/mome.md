@@ -29,7 +29,6 @@ username: "JoramSoch"
 
 **Definition:** Let measured data $y$ follow a [probability distribution](/D/dist) with [probability mass](/D/pmf) or [probability density](/D/pdf) $p(y \vert \theta)$ governed by unknown parameters $\theta_1, \ldots, \theta_k$. Then, method-of-moments estimation, also referred to as "method of moments" or "matching the moments", consists in
 
-<br>
 1) expressing the first $k$ [moments](/D/mom) of $y$ in terms of $\theta$
 
 $$ \label{eq:mom}
@@ -40,14 +39,12 @@ $$ \label{eq:mom}
 \end{split}
 $$
 
-<br>
 2) calculating the first $k$ sample [moments](/D/mom) from $y$
 
 $$ \label{eq:mom-samp}
 \hat{\mu}_1(y), \; \ldots, \; \hat{\mu}_k(y)
 $$
 
-<br>
 3) and solving the system of $k$ equations
 
 $$ \label{eq:mome}

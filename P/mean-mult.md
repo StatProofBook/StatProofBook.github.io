@@ -74,7 +74,6 @@ $$ \label{eq:mean-mult-cont}
 \end{split}
 $$
 
-<br>
 2) Let $X$ and $Y$ be [Bernoulli random variables](/D/bern) with the following [joint probability](/D/prob-joint) [mass function](/D/pmf)
 
 $$ \label{eq:joint}

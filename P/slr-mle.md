@@ -60,7 +60,6 @@ $$ \label{eq:slr-ll}
 \end{split}
 $$
 
-<br>
 The derivative of the log-likelihood function \eqref{eq:slr-ll} with respect to $\beta_0$ is
 
 $$ \label{eq:dLL-dbeta0}
@@ -79,7 +78,6 @@ $$ \label{eq:beta0-mle}
 \end{split}
 $$
 
-<br>
 The derivative of the log-likelihood function \eqref{eq:slr-ll} at $\hat{\beta}_0$ with respect to $\beta_1$ is
 
 $$ \label{eq:dLL-dbeta1}
@@ -102,7 +100,6 @@ $$ \label{eq:beta1-mle}
 \end{split}
 $$
 
-<br>
 The derivative of the log-likelihood function \eqref{eq:slr-ll} at $(\hat{\beta}_0,\hat{\beta}_1)$ with respect to $\sigma^2$ is
 
 $$ \label{eq:dLL-ds2}
@@ -120,5 +117,4 @@ $$ \label{eq:s2-mle}
 \end{split}
 $$
 
-<br>
 Together, \eqref{eq:beta0-mle}, \eqref{eq:beta1-mle} and \eqref{eq:s2-mle} constitute the MLE for simple linear regression.

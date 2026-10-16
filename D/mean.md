@@ -37,7 +37,6 @@ $$
 
 where $f_X(x)$ is the [probability mass function](/D/pmf) of $X$.
 
-<br>
 2) The expected value (or, mean) of a [continuous](/D/rvar-disc) [random variable](/D/rvar) $X$ with domain $\mathcal{X}$ is
 
 $$ \label{eq:mean-cont}

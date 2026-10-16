@@ -44,7 +44,6 @@ $$
 
 are non-negative, thus the entire sum must be non-negative.
 
-<br>
 2) If $X \geq 0$ is a continuous random variable, then, because the [probability density function](/D/pdf) is always non-negative, the integrand in
 
 $$ \label{eq:mean-cont}

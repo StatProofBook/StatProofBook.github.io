@@ -65,7 +65,6 @@ $$ \label{eq:MLR-LL2}
 \end{split}
 $$
 
-<br>
 The derivative of the log-likelihood function \eqref{eq:MLR-LL2} with respect to $\beta$ is
 
 $$ \label{eq:dLL-dbeta}
@@ -89,7 +88,6 @@ X^\mathrm{T} P X \hat{\beta} &= X^\mathrm{T} P y \\
 \end{split}
 $$
 
-<br>
 The derivative of the log-likelihood function \eqref{eq:MLR-LL1} at $\hat{\beta}$ with respect to $\sigma^2$ is
 
 $$ \label{eq:dLL-ds2}
@@ -112,5 +110,4 @@ $$ \label{eq:s2-MLE}
 \end{split}
 $$
 
-<br>
 Together, \eqref{eq:beta-MLE} and \eqref{eq:s2-MLE} constitute the MLE for multiple linear regression.

@@ -71,7 +71,6 @@ $$ \label{eq:GLM-LL2}
 \end{split}
 $$
 
-<br>
 The derivative of the log-likelihood function \eqref{eq:GLM-LL2} with respect to $B$ is
 
 $$ \label{eq:dLL-dB}
@@ -95,7 +94,6 @@ X^\mathrm{T} P X \hat{B} &= X^\mathrm{T} P Y \\
 \end{split}
 $$
 
-<br>
 The derivative of the log-likelihood function \eqref{eq:GLM-LL1} at $\hat{B}$ with respect to $\Sigma$ is
 
 $$ \label{eq:dLL-dS}
@@ -119,5 +117,4 @@ I_v &= \frac{1}{n} \, (Y - X\hat{B})^\mathrm{T} V^{-1} (Y - X\hat{B}) \, \hat{\S
 \end{split}
 $$
 
-<br>
 Together, \eqref{eq:B-MLE} and \eqref{eq:S-MLE} constitute the MLE for the GLM.

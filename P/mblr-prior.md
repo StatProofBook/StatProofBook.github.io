@@ -60,7 +60,6 @@ $$
 
 using the $v \times v$ [precision matrix](/D/precmat) $T = \Sigma^{-1}$ and the $n \times n$ [precision matrix](/D/precmat) $P = V^{-1}$.
 
-<br>
 Seperating constant and variable terms, we have:
 
 $$ \label{eq:GLM-LF-s1}
@@ -81,7 +80,6 @@ $$
 
 where $\tilde{X} = \left( X^\mathrm{T} P X \right)^{-1} X^\mathrm{T} P$ and $Q = \tilde{X}^\mathrm{T} \left( X^\mathrm{T} P X \right) \tilde{X}$.
 
-<br>
 In other words, the [likelihood function](/D/lf) is proportional to a power of the determinant of $T$, times an exponential of the trace of $T$ and an exponential of the trace of a squared form of $B$, weighted by $T$:
 
 $$ \label{eq:GLM-LF-s4}

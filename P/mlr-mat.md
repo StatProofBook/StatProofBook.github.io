@@ -73,7 +73,6 @@ $$ \label{eq:b-est-qed}
 \end{split}
 $$
 
-<br>
 2) The fitted signal is given by multiplying the design matrix with the estimated regression coefficients
 
 $$ \label{eq:y-est}
@@ -89,7 +88,6 @@ $$ \label{eq:y-est-qed}
 \end{split}
 $$
 
-<br>
 3) The residuals of the model are calculated by subtracting the fitted signal from the measured signal
 
 $$ \label{eq:e-est}

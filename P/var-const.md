@@ -66,8 +66,6 @@ $$
 
 Together, \eqref{eq:var-const-s1} and \eqref{eq:var-const-s2} imply \eqref{eq:var-const}.
 
-<br>
-
 2) The [variance](/D/var) is defined as
 
 $$ \label{eq:var}

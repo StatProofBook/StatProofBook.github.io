@@ -74,7 +74,6 @@ $$ \label{eq:mean-lotus-disc-s3}
 \mathrm{E}[g(X)] = \sum_{x \in \mathcal{X}} g(x) f_X(x) \; .
 $$
 
-<br>
 2) Let $y = g(x)$. The derivative of an inverse function is
 
 $$ \label{eq:der-inv}

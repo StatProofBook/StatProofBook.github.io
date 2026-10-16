@@ -66,7 +66,6 @@ $$
 
 using the inverse variance or precision $\tau = 1/\sigma^2$.
 
-<br>
 Separating constant and variable terms, we have:
 
 $$ \label{eq:UG-LF-s1}
@@ -84,15 +83,12 @@ p(y|\mu,\tau) &= \sqrt{\frac{1}{(2 \pi)^n}} \cdot \tau^{n/2} \cdot \exp\left[ -\
 \end{split}
 $$
 
-where $\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i$ is the mean of data points and $y^\mathrm{T} y = \sum_{i=1}^{n} y_i^2$ is the sum of squared data points.
-
-Completing the square over $\mu$, finally gives
+where $\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i$ is the mean of data points and $y^\mathrm{T} y = \sum_{i=1}^{n} y_i^2$ is the sum of squared data points. Completing the square over $\mu$, finally gives
 
 $$ \label{eq:UG-LF-s3}
 p(y|\mu,\tau) = \sqrt{\frac{1}{(2 \pi)^n}} \cdot \tau^{n/2} \cdot \exp\left[ -\frac{\tau n}{2} \left( (\mu-\bar{y})^2 - \bar{y}^2 + \frac{1}{n} y^\mathrm{T} y \right) \right]
 $$
 
-<br>
 In other words, the [likelihood function](/D/lf) is proportional to a power of $\tau$ times an exponential of $\tau$ and an exponential of a squared form of $\mu$, weighted by $\tau$:
 
 $$ \label{eq:UG-LF-s4}

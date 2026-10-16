@@ -33,14 +33,12 @@ $$ \label{eq:cdf}
 F_X(x) = \mathrm{Pr}(X \leq x) \; .
 $$
 
-<br>
 1) If $X$ is a [discrete](/D/rvar-disc) [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and the [probability mass function](/D/pmf) $f_X(x)$, then [the cumulative distribution function is the function](/P/cdf-pmf) $F_X(x): \mathbb{R} \to [0,1]$ with
 
 $$ \label{eq:cdf-disc}
 F_X(x) = \sum_{\substack{t \in \mathcal{X} \\ t \leq x}} f_X(t) \; .
 $$
 
-<br>
 2) If $X$ is a [continuous](/D/rvar-disc) [random variable](/D/rvar) with possible outcomes $\mathcal{X}$ and the [probability density function](/D/pdf) $f_X(x)$, then [the cumulative distribution function is the function](/P/cdf-pdf) $F_X(x): \mathbb{R} \to [0,1]$ with
 
 $$ \label{eq:cdf-cont}

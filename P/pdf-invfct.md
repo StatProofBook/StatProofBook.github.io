@@ -111,7 +111,6 @@ $$
 
 and $g_j(X)$ is the function which returns the $j$-th element of $Y$, given a vector $X$.
 
-<br>
 2) Next, we substitute $x = g^{-1}(y)$ into the integral which gives us
 
 $$ \label{eq:Y-cdf-s2}
@@ -127,7 +126,6 @@ $$ \label{eq:B-z}
 B(z) = \left\lbrace y \in \mathbb{R}^n: y \leq z_j \; \text{for all} \; j = 1, \ldots, n \right\rbrace \; .
 $$
 
-<br>
 3) The formula for change of variables in multivariable calculus states that
 
 $$ \label{eq:cov-multi}
@@ -143,7 +141,6 @@ F_Y(z) &= \int_{-\infty}^{z_n} \ldots \int_{-\infty}^{z_1} f_X(g^{-1}(y)) \, \le
 \end{split}
 $$
 
-<br>
 4) Finally, we obtain the [probability density function](/D/pdf) of $Y = g(X)$. Because [the PDF is the derivative of the CDF](/P/pdf-cdf), we can differentiate the joint CDF to get
 
 $$ \label{eq:Y-cdf-s4}

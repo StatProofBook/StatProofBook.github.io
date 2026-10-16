@@ -85,7 +85,6 @@ $$
 
 using the inverse variance or precision $\tau = 1/\sigma^2$.
 
-<br>
 When [deriving the posterior distribution](/P/ugkv-post) $p(\mu \vert y)$, the joint likelihood $p(y,\mu)$ is obtained as
 
 $$ \label{eq:UGkv-LME-s1}

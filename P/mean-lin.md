@@ -81,7 +81,6 @@ $$ \label{eq:mean-lin-s2-disc}
 \end{split}
 $$
 
-<br>
 2) If $X$ and $Y$ are [continuous random variables](/D/rvar-disc), the [expected value](/D/mean) is
 
 $$ \label{eq:mean-cont}
@@ -116,5 +115,4 @@ $$ \label{eq:mean-lin-s2-cont}
 \end{split}
 $$
 
-<br>
 Collectively, this shows that both requirements for linearity are fulfilled for the [expected value](/D/mean), for [discrete](/D/rvar-disc) as well as for [continuous](/D/rvar-disc) random variables. The present derivation also holds for the [expected value of random vectors](/D/mean-rvec) as well as for the [expected value of random matrices](/D/mean-rmat).

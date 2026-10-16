@@ -71,7 +71,6 @@ $$
 
 where $\tilde{X} = \left( X^\mathrm{T} \Sigma^{-1} X \right)^{-1} X^\mathrm{T} \Sigma^{-1}$ and $Q = \tilde{X}^\mathrm{T} \left( X^\mathrm{T} \Sigma^{-1} X \right) \tilde{X}$.
 
-<br>
 Separating constant and variable terms, we get:
 
 $$ \label{eq:GLM-LF-s3}

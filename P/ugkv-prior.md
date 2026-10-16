@@ -66,7 +66,6 @@ $$
 
 using the inverse variance or precision $\tau = 1/\sigma^2$.
 
-<br>
 Expanding the product in the exponent, we have
 
 $$ \label{eq:UGkv-LF-s2}
@@ -78,15 +77,12 @@ p(y|\mu) &= \left( \frac{\tau}{2 \pi} \right)^{n/2} \cdot \exp\left[ -\frac{\tau
 \end{split}
 $$
 
-where $\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i$ is the mean of data points and $y^\mathrm{T} y = \sum_{i=1}^{n} y_i^2$ is the sum of squared data points.
-
-Completing the square over $\mu$, finally gives
+where $\bar{y} = \frac{1}{n} \sum_{i=1}^{n} y_i$ is the mean of data points and $y^\mathrm{T} y = \sum_{i=1}^{n} y_i^2$ is the sum of squared data points. Completing the square over $\mu$, finally gives
 
 $$ \label{eq:UGkv-LF-s3}
 p(y|\mu) = \left( \frac{\tau}{2 \pi} \right)^{n/2} \cdot \exp\left[ -\frac{\tau n}{2} \left( (\mu-\bar{y})^2 - \bar{y}^2 + \frac{1}{n} y^\mathrm{T} y \right) \right]
 $$
 
-<br>
 In other words, the [likelihood function](/D/lf) is proportional to an exponential of a squared form of $\mu$, weighted by some constant:
 
 $$ \label{eq:UGkv-LF-s4}

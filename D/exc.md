@@ -29,7 +29,6 @@ username: "JoramSoch"
 
 **Definition:** Generally speaking, [random events](/D/reve) are mutually exclusive, if they cannot occur together, such that their intersection is equal to the [empty set](/P/prob-emp).
 
-<br>
 More precisely, a set of statements $A_1, \ldots, A_n$ is called mutually exclusive, if
 
 $$ \label{eq:exc}

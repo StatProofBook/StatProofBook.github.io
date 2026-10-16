@@ -29,7 +29,6 @@ username: "JoramSoch"
 
 **Definition:** Generally speaking, [random variables](/D/rvar) are conditionally independent given another random variable, if they are [statistically independent](/D/ind) in their [conditional probability distributions](/D/dist-cond) given this random variable.
 
-<br>
 1) A set of [discrete random variables](/D/rvar-disc) $X_1, \ldots, X_n$ with possible values $\mathcal{X}_1, \ldots, \mathcal{X}_n$ is called conditionally independent given the random variable $Y$ with possible values $\mathcal{Y}$, if
 
 $$ \label{eq:disc-ind}
@@ -38,7 +37,6 @@ $$
 
 where $p(x_1, \ldots, x_n \vert y)$ are the [joint (conditional) probabilities](/D/prob-joint) of $X_1, \ldots, X_n$ given $Y$ and $p(x_i \vert y)$ are the [marginal (conditional) probabilities](/D/prob-marg) of $X_i$ given $Y$.
 
-<br>
 2) A set of [continuous random variables](/D/rvar-disc) $X_1, \ldots, X_n$ with possible values $\mathcal{X}_1, \ldots, \mathcal{X}_n$ is called conditionally independent given the random variable $Y$ with possible values $\mathcal{Y}$, if
 
 $$ \label{eq:cond-ind-F}

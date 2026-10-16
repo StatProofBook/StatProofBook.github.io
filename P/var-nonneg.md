@@ -40,7 +40,6 @@ $$ \label{eq:var}
 \mathrm{Var}(X) = \mathrm{E}\left[ (X-\mathrm{E}(X))^2 \right] \; .
 $$
 
-<br>
 1) If $X$ is a discrete [random variable](/D/rvar), then, because squares and probabilities are strictly non-negative, all the addends in
 
 $$ \label{eq:var-disc}
@@ -49,7 +48,6 @@ $$
 
 are also non-negative, thus the entire sum must be non-negative.
 
-<br>
 2) If $X$ is a continuous [random variable](/D/rvar), then, because squares and probability densities are strictly non-negative, the integrand in
 
 $$ \label{eq:var-cont}

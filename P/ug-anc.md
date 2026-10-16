@@ -56,7 +56,6 @@ $$ \label{eq:lme-anc}
 \end{split}
 $$
 
-<br>
 The accuracy term is the [expectation](/D/mean) of the [log-likelihood function](/D/llf) $\log p(y|\mu,\tau)$ with respect to the [posterior distribution](/D/post) $p(\mu,\tau|y)$. With the [log-likelihood function for the univariate Gaussian](/P/ug-mle) and the [posterior distribution for the univariate Gaussian](/P/ug-post), the model accuracy of $m$ evaluates to:
 
 $$ \label{eq:UG-NG-Acc}
@@ -70,7 +69,6 @@ $$ \label{eq:UG-NG-Acc}
 \end{split}
 $$
 
-<br>
 The complexity penalty is the [Kullback-Leibler divergence](/D/kl) of the [posterior distribution](/D/post) $p(\mu,\tau|y)$ from the [prior distribution](/D/prior) $p(\mu,\tau)$. With the [prior distribution](/P/ug-prior) given by \eqref{eq:UG-NG-prior}, the [posterior distribution for the univariate Gaussian](/P/ug-post) and the [Kullback-Leibler divergence of the normal-gamma distribution](/P/ng-kl), the model complexity of $m$ evaluates to:
 
 $$ \label{eq:UG-NG-Com}

@@ -60,7 +60,6 @@ $$
 
 using the noise precision $\tau = 1/\sigma^2$ and the $n \times n$ precision matrix $P = V^{-1}$.
 
-<br>
 Seperating constant and variable terms, we have:
 
 $$ \label{eq:GLM-LF-s1}
@@ -81,7 +80,6 @@ $$
 
 where $\tilde{X} = \left( X^\mathrm{T} P X \right)^{-1} X^\mathrm{T} P$ and $Q = \tilde{X}^\mathrm{T} \left( X^\mathrm{T} P X \right) \tilde{X}$.
 
-<br>
 In other words, the [likelihood function](/D/lf) is proportional to a power of $\tau$, times an exponential of $\tau$ and an exponential of a squared form of $\beta$, weighted by $\tau$:
 
 $$ \label{eq:GLM-LF-s4}

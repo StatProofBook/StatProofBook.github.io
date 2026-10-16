@@ -48,7 +48,9 @@ $$
 where $\bar{y}$ is the [sample mean](/D/mean-samp), $\tau = 1/\sigma^2$ is the [inverse variance or precision](/D/prec), $y_1^{(i)}$ are the training data with $n_1$ data points in the $i$-th cross-validation fold and $S$ is the [number of data subsets](/D/cvlme).
 
 
-**Proof:** For evaluation of the [cross-validated log model evidences](/D/cvlme) (cvLME), we assume that $n$ data points are divided into $S \mid n$ data subsets without remainder. Then, the number of training data points $n_1$ and test data points $n_2$ are given by
+**Proof:**
+
+1) For evaluation of the [cross-validated log model evidences](/D/cvlme) (cvLME), we assume that $n$ data points are divided into $S \mid n$ data subsets without remainder. Then, the number of training data points $n_1$ and test data points $n_2$ are given by
 
 $$ \label{eq:CV-n12}
 \begin{split}
@@ -68,8 +70,7 @@ y_2^{(i)} &= \left\lbrace y_{(i-1) \cdot n_2 + 1}, \ldots, y_{i \cdot n_2} \righ
 \end{split}
 $$
 
-<br>
-First, we consider the null model $m_0$ assuming $\mu = 0$. Because this model has no free parameter, nothing is estimated from the training data and the assumed parameter value is applied to the test data. Consequently, the [out-of-sample log model evidence](/D/cvlme) (oosLME) is equal to the [log-likelihood function](/P/ugkv-mle) of the test data at $\mu = 0$:
+2) First, we consider the null model $m_0$ assuming $\mu = 0$. Because this model has no free parameter, nothing is estimated from the training data and the assumed parameter value is applied to the test data. Consequently, the [out-of-sample log model evidence](/D/cvlme) (oosLME) is equal to the [log-likelihood function](/P/ugkv-mle) of the test data at $\mu = 0$:
 
 $$ \label{eq:UGkv-m0-oosLME}
 \mathrm{oosLME}_i(m_0) = \log p\left( \left. y_2^{(i)} \right| \mu=0 \right) = \frac{n_2}{2} \log \left( \frac{\tau}{2 \pi} \right) - \frac{1}{2} \left[ \tau {y_2^{(i)}}^\mathrm{T} y_2^{(i)} \right] \; .
@@ -85,8 +86,7 @@ $$ \label{eq:UGkv-m0-cvLME}
 \end{split}
 $$
 
-<br>
-Next, we have a look at the alternative $m_1$ assuming $\mu \neq 0$. First, the training data $y_1^{(i)}$ are analyzed [using a non-informative prior distribution](/D/prior-inf) and applying the [posterior distribution for the univariate Gaussian with known variance](/P/ugkv-post):
+3) Next, we have a look at the alternative $m_1$ assuming $\mu \neq 0$. First, the training data $y_1^{(i)}$ are analyzed [using a non-informative prior distribution](/D/prior-inf) and applying the [posterior distribution for the univariate Gaussian with known variance](/P/ugkv-post):
 
 $$ \label{eq:UGkv-m1-y1}
 \begin{split}

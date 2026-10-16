@@ -75,7 +75,6 @@ $$
 
 where $\bar{x}$ and $\bar{y}$ are the sample means from equation \eqref{eq:xy-mean}.
 
-<br>
 The derivatives of the log-likelihood with respect to $\lambda$ are
 
 $$ \label{eq:Poiss-dLLdl-d2LLdl2}

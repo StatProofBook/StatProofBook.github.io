@@ -77,7 +77,6 @@ $$ \label{eq:lme-anc}
 \end{split}
 $$
 
-<br>
 1) The accuracy term is the [expectation](/D/mean) of the [log-likelihood function](/D/llf) $\log p(y|\beta,\tau)$ with respect to the [posterior distribution](/D/post) $p(\beta,\tau|y)$. This expectation can be rewritten as:
 
 $$ \label{eq:GLM-NG-Acc-s1}
@@ -150,7 +149,6 @@ $$
 
 which proofs the first part of \eqref{eq:GLM-NG-AnC}.
 
-<br>
 2) The complexity penalty is the [Kullback-Leibler divergence](/D/kl) of the [posterior distribution](/D/post) $p(\beta,\tau|y)$ from the [prior distribution](/D/prior) $p(\beta,\tau)$. This can be rewritten as follows:
 
 $$ \label{eq:GLM-NG-Com-s1}
@@ -212,7 +210,6 @@ $$
 
 which proofs the second part of \eqref{eq:GLM-NG-AnC}.
 
-<br>
 3) A control calculation confirms that
 
 $$ \label{eq:GLM-NG-AnC-LME}

@@ -29,7 +29,6 @@ username: "JoramSoch"
 
 **Definition:** Generally speaking, [random variables](/D/rvar) are statistically independent, if their [joint probability](/D/prob-joint) can be expressed in terms of their [marginal probabilities](/D/prob-marg).
 
-<br>
 1) A set of discrete [random variables](/D/rvar) $X_1, \ldots, X_n$ with possible values $\mathcal{X}_1, \ldots, \mathcal{X}_n$ is called statistically independent, if
 
 $$ \label{eq:disc-ind}
@@ -38,7 +37,6 @@ $$
 
 where $p(x_1, \ldots, x_n)$ are the [joint probabilities](/D/prob-joint) of $X_1, \ldots, X_n$ and $p(x_i)$ are the [marginal probabilities](/D/prob-marg) of $X_i$.
 
-<br>
 2) A set of continuous [random variables](/D/rvar) $X_1, \ldots, X_n$ defined on the domains $\mathcal{X}_1, \ldots, \mathcal{X}_n$ is called statistically independent, if
 
 $$ \label{eq:cont-ind-F}

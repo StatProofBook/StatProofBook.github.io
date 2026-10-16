@@ -86,7 +86,6 @@ $$
 
 using the noise precision $\tau = 1/\sigma^2$ and the $n \times n$ precision matrix $P = V^{-1}$.
 
-<br>
 When [deriving the posterior distribution](/P/blr-post) $p(\beta,\tau|y)$, the joint likelihood $p(y,\beta,\tau)$ is obtained as
 
 $$ \label{eq:GLM-NG-LME-s1}
