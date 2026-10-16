@@ -75,7 +75,7 @@ $$ \label{eq:ct-pp}
   \right)^{-1} \; .
 $$
 
-where $\alpha_n$ and $\beta_n$ are the [posterior hyperparameters of $m_0$](/P/ct-lme); $\gamma_{ij}^{(n)}$ are the [posterior hyperparameters of $m_1$](/P/ct-lme); and $Z(\alpha)$ is defined as
+where $\alpha_n$ and $\beta_n$ are the [posterior hyperparameters of $m_0$](/P/ct-lme); $\gamma^{(n)}$ are the [posterior hyperparameters of $m_1$](/P/ct-lme); and $Z(\alpha)$ is defined as
 
 $$ \label{eq:Z-alpha}
   Z(\alpha)

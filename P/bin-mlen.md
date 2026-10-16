@@ -37,8 +37,8 @@ Suppose $0 < p < 1$. Then, the [maximum likelihood estimator](/D/mle) of $n$ is
 
 $$ \label{eq:Bin-MLE-Trials}
 \hat{n} = \begin{cases}
-  \lfloor \frac{y}{p} \rfloor \; ,             & \text{if } p \nmid y \\
-  \frac{y}{p} \text{ and } \frac{y}{p}-1, \; , & \text{otherwise} \; .
+  \lfloor \frac{y}{p} \rfloor \; ,            & \text{if } p \nmid y \\
+  \frac{y}{p} \text{ and } \frac{y}{p}-1 \; , & \text{otherwise} \; .
 \end{cases}
 $$
 

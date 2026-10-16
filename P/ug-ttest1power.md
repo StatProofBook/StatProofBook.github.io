@@ -26,7 +26,7 @@ shortcut: "ug-ttest1power"
 username: "alexanderdbolton"
 ---
 
-**Theorem:** Let there be $n$ [i.i.d.](/D/iid) observations $Y_1, \dots, Y_n \sim N(\mu, \sigma^2)$ with both $\mu and \sigma^2$ unknown. Further, let $z_x = \Phi^{-1}(1 - x)$, where $\Phi$ is the [cumulative distribution function](/D/cdf) of a [standard normal distribution](/D/snorm). Equivalently, with $Z \sim \mathcal{N}(0,1)$, let
+**Theorem:** Let there be $n$ [i.i.d.](/D/iid) observations $Y_1, \dots, Y_n \sim N(\mu, \sigma^2)$ with both $\mu$ and $\sigma^2$ unknown. Further, let $z_x = \Phi^{-1}(1 - x)$, where $\Phi$ is the [cumulative distribution function](/D/cdf) of a [standard normal distribution](/D/snorm). Equivalently, with $Z \sim \mathcal{N}(0,1)$, let
 
 $$ \label{eq:zx-definition}
 z_x = \Phi^{-1}(1 - x)
