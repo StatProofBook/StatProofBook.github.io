@@ -117,6 +117,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.9. **[Inverse transformation method](/P/cdf-itm)** <br>
    &emsp;&ensp; 1.8.10. **[Distributional transformation](/P/cdf-dt)** <br>
    &emsp;&ensp; 1.8.11. *[Joint cumulative distribution function](/D/cdf-joint)* <br>
+   &emsp;&ensp; 1.8.12. **[Moments and pointwise consistency of the empirical distribution function](/P/ecdf-momcons)** <br>
    
    <p id="Moment-generating function"></p>
    1.9. Moment-generating function <br>
@@ -329,6 +330,7 @@ title: "Table of Contents"
    3.2. Point estimates <br>
    &emsp;&ensp; 3.2.1. *[Mean squared error](/D/mse)* <br>
    &emsp;&ensp; 3.2.2. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
+   &emsp;&ensp; 3.2.3. **[Finite population correction for the variance of a sample mean](/P/srs-meanvar)** <br>
    
    <p id="Interval estimates"></p>
    3.3. Interval estimates <br>
@@ -412,6 +414,9 @@ title: "Table of Contents"
    &emsp;&ensp; 5.3.5. *[Variational Bayes](/D/vb)* <br>
    &emsp;&ensp; 5.3.6. **[Decomposition of the free energy](/P/fren-dec)** <br>
    &emsp;&ensp; 5.3.7. **[Free energy is lower bound on log model evidence](/P/fren-lme)** <br>
+   &emsp;&ensp; 5.3.8. **[Bayes classification threshold under asymmetric error costs](/P/bayes-classify)** <br>
+   &emsp;&ensp; 5.3.9. **[Prior-averaged coverage of credible sets](/P/cred-calibration)** <br>
+   &emsp;&ensp; 5.3.10. **[Posterior mean optimality under squared error loss](/P/bayes-sqerr)** <br>
 
 6. <p id="Machine learning">Machine learning</p>
    
@@ -844,6 +849,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.25. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
    &emsp;&ensp; 1.4.26. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
    &emsp;&ensp; 1.4.27. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
+   &emsp;&ensp; 1.4.28. **[No slope attenuation under Berkson error in a linear regression](/P/berkson-slope)** <br>
    
    <p id="Multiple linear regression"></p>
    1.5. Multiple linear regression <br>
@@ -959,11 +965,12 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.6. **[Maximum-a-posteriori estimation](/P/bin-map)** <br>
    &emsp;&ensp; 3.1.7. **[Conjugate prior distribution](/P/bin-prior)** <br>
    &emsp;&ensp; 3.1.8. **[Posterior distribution](/P/bin-post)** <br>
-   &emsp;&ensp; 3.1.9. **[Log model evidence](/P/bin-lme)** <br>
-   &emsp;&ensp; 3.1.10. **[Log Bayes factor](/P/bin-lbf)** <br>
-   &emsp;&ensp; 3.1.11. **[Posterior probability](/P/bin-pp)** <br>
-   &emsp;&ensp; 3.1.12. **[Cross-validated log model evidence](/P/bin-cvlme)** <br>
-   &emsp;&ensp; 3.1.13. **[Cross-validated log Bayes factor](/P/bin-cvlbf)** <br>
+   &emsp;&ensp; 3.1.9. **[Posterior predictive covariance and correlation](/P/bern-postpredcorr)** <br>
+   &emsp;&ensp; 3.1.10. **[Log model evidence](/P/bin-lme)** <br>
+   &emsp;&ensp; 3.1.11. **[Log Bayes factor](/P/bin-lbf)** <br>
+   &emsp;&ensp; 3.1.12. **[Posterior probability](/P/bin-pp)** <br>
+   &emsp;&ensp; 3.1.13. **[Cross-validated log model evidence](/P/bin-cvlme)** <br>
+   &emsp;&ensp; 3.1.14. **[Cross-validated log Bayes factor](/P/bin-cvlbf)** <br>
    
    <p id="Multinomial observations"></p>
    3.2. Multinomial observations <br>
@@ -1010,7 +1017,8 @@ title: "Table of Contents"
    &emsp;&ensp; 3.6.2. **[Maximum likelihood estimation](/P/poissexp-mle)** <br>
    &emsp;&ensp; 3.6.3. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
    &emsp;&ensp; 3.6.4. **[Posterior distribution](/P/poissexp-post)** <br>
-   &emsp;&ensp; 3.6.5. **[Log model evidence](/P/poissexp-lme)** <br>
+   &emsp;&ensp; 3.6.5. **[Posterior predictive distribution](/P/poiss-postpred)** <br>
+   &emsp;&ensp; 3.6.6. **[Log model evidence](/P/poissexp-lme)** <br>
 
 4. <p id="Frequency data">Frequency data</p>
    

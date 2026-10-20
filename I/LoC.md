@@ -96,6 +96,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Inverse transformation method](/P/cdf-itm)**
 - **[Distributional transformation](/P/cdf-dt)**
 - *[Joint cumulative distribution function](/D/cdf-joint)*
+- **[Moments and pointwise consistency of the empirical distribution function](/P/ecdf-momcons)**
 ### Moment-generating function
 - *[Definition](/D/mgf)*
 - **[Moment-generating function of sum of independents](/P/mgf-sumind)**
@@ -266,6 +267,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 ### Point estimates
 - *[Mean squared error](/D/mse)*
 - **[Partition of the mean squared error into bias and variance](/P/mse-bnv)**
+- **[Finite population correction for the variance of a sample mean](/P/srs-meanvar)**
 ### Interval estimates
 - *[Confidence interval](/D/ci)*
 - **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)**
@@ -333,6 +335,9 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Variational Bayes](/D/vb)*
 - **[Decomposition of the free energy](/P/fren-dec)**
 - **[Free energy is lower bound on log model evidence](/P/fren-lme)**
+- **[Bayes classification threshold under asymmetric error costs](/P/bayes-classify)**
+- **[Prior-averaged coverage of credible sets](/P/cred-calibration)**
+- **[Posterior mean optimality under squared error loss](/P/bayes-sqerr)**
 ## Machine learning
 ### Scoring rules
 - *[Scoring rule](/D/sr)*
@@ -688,6 +693,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Residual variance in terms of sample variance](/P/slr-resvar)**
 - **[Correlation coefficient in terms of slope estimate](/P/slr-corr)**
 - **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)**
+- **[No slope attenuation under Berkson error in a linear regression](/P/berkson-slope)**
 ### Multiple linear regression
 - *[Definition](/D/mlr)*
 - **[Special case of general linear model](/P/mlr-glm)**
@@ -783,6 +789,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Maximum-a-posteriori estimation](/P/bin-map)**
 - **[Conjugate prior distribution](/P/bin-prior)**
 - **[Posterior distribution](/P/bin-post)**
+- **[Posterior predictive covariance and correlation](/P/bern-postpredcorr)**
 - **[Log model evidence](/P/bin-lme)**
 - **[Log Bayes factor](/P/bin-lbf)**
 - **[Posterior probability](/P/bin-pp)**
@@ -824,6 +831,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Maximum likelihood estimation](/P/poissexp-mle)**
 - **[Conjugate prior distribution](/P/poissexp-prior)**
 - **[Posterior distribution](/P/poissexp-post)**
+- **[Posterior predictive distribution](/P/poiss-postpred)**
 - **[Log model evidence](/P/poissexp-lme)**
 ## Frequency data
 ### Beta-distributed data

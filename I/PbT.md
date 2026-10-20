@@ -21,6 +21,7 @@ title: "Proof by Topic"
 
 ### B
 
+- [Bayes classification threshold under asymmetric error costs](/P/bayes-classify)
 - [Bayes' rule](/P/bayes-rule)
 - [Bayes' theorem](/P/bayes-th)
 - [Bayesian information criterion for multiple linear regression](/P/mlr-bic)
@@ -179,6 +180,7 @@ title: "Proof by Topic"
 - [F-test for main effect in one-way analysis of variance](/P/anova1-f)
 - [F-test for main effect in two-way analysis of variance](/P/anova2-fme)
 - [F-test for multiple linear regression using contrast-based inference](/P/mlr-f)
+- [Finite population correction for the variance of a sample mean](/P/srs-meanvar)
 - [Full width at half maximum for the normal distribution](/P/norm-fwhm)
 - [Full width at half maximum for the von Mises distribution](/P/vm-fwhm)
 
@@ -345,6 +347,7 @@ title: "Proof by Topic"
 - [Moment-generating function of the multivariate normal distribution](/P/mvn-mgf)
 - [Moment-generating function of the normal distribution](/P/norm-mgf)
 - [Moment-generating function of the Wald distribution](/P/wald-mgf)
+- [Moments and pointwise consistency of the empirical distribution function](/P/ecdf-momcons)
 - [Monotonicity of probability](/P/prob-mon)
 - [Monotonicity of probability](/P/prob-mon2)
 - [Monotonicity of the expected value](/P/mean-mono)
@@ -359,6 +362,8 @@ title: "Proof by Topic"
 ### N
 
 - [Necessary and sufficient condition for independence of multivariate normal random variables](/P/mvn-ind)
+- [Negative binomial posterior prediction from a gamma Poisson model](/P/poiss-postpred)
+- [No slope attenuation under Berkson error in a linear regression](/P/berkson-slope)
 - [Non-invariance of the differential entropy under change of variables](/P/dent-noninv)
 - [(Non-)Multiplicativity of the expected value](/P/mean-mult)
 - [Non-negativity of the expected value](/P/mean-nonneg)
@@ -406,6 +411,7 @@ title: "Proof by Topic"
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
 - [Partition of variance into expected values](/P/var-mean)
+- [Positive dependence between future Bernoulli observations after parameter integration](/P/bern-postpredcorr)
 - [Positive semi-definiteness of the covariance matrix](/P/covmat-psd)
 - [Posterior credibility region against the omnibus null hypothesis for Bayesian linear regression](/P/blr-pcr)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)
@@ -419,6 +425,7 @@ title: "Proof by Topic"
 - [Posterior distribution for the univariate Gaussian](/P/ug-post)
 - [Posterior distribution for the univariate Gaussian with known variance](/P/ugkv-post)
 - [Posterior frequencies for random-effects Bayesian model selection using Dirichlet posterior distribution](/P/bmsrfx-freqpost)
+- [Posterior mean optimality under squared error loss](/P/bayes-sqerr)
 - [Posterior model probabilities in terms of Bayes factors](/P/pmp-bf)
 - [Posterior model probabilities in terms of log model evidences](/P/pmp-lme)
 - [Posterior model probability in terms of log Bayes factor](/P/pmp-lbf)
@@ -429,6 +436,7 @@ title: "Proof by Topic"
 - [Posterior probability of the alternative model for the binary contigency table](/P/ct2x2-pp)
 - [Posterior probability of the alternative model for the general contigency table](/P/ct-pp)
 - [Power analysis, minimum detectable effect and minimum required sample size for a one-sample t-test](/P/ug-ttest1power)
+- [Prior predictive calibration of Bayesian credible sets](/P/cred-calibration)
 - [Prior predictive distribution is a marginal distribution of the joint likelihood](/P/priorpred-jl)
 - [Probability and log-odds in logistic regression](/P/logreg-pnlo)
 - [Probability density function is first derivative of cumulative distribution function](/P/pdf-cdf)

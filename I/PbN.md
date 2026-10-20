@@ -562,3 +562,11 @@ title: "Proof by Number"
 | P554 | ct-lbf | [Log Bayes factor for general contigency table models](/P/ct-lbf) | JoramSoch | 2026-09-18 |
 | P555 | ct-pp | [Posterior probability of the alternative model for the general contigency table](/P/ct-pp) | JoramSoch | 2026-09-18 |
 | P556 | bin-mlen | [Maximum likelihood estimation of number of trials from binomial observations](/P/bin-mlen) | jdonland | 2026-09-28 |
+| P557 | bayes-classify | [Bayes classification threshold under asymmetric error costs](/P/bayes-classify) | kjpetrykowski | 2026-10-17 |
+| P558 | poiss-postpred | [Negative binomial posterior prediction from a gamma Poisson model](/P/poiss-postpred) | kjpetrykowski | 2026-10-17 |
+| P559 | bern-postpredcorr | [Positive dependence between future Bernoulli observations after parameter integration](/P/bern-postpredcorr) | kjpetrykowski | 2026-10-17 |
+| P560 | cred-calibration | [Prior predictive calibration of Bayesian credible sets](/P/cred-calibration) | kjpetrykowski | 2026-10-18 |
+| P561 | bayes-sqerr | [Posterior mean optimality under squared error loss](/P/bayes-sqerr) | kjpetrykowski | 2026-10-18 |
+| P562 | ecdf-momcons | [Moments and pointwise consistency of the empirical distribution function](/P/ecdf-momcons) | kjpetrykowski | 2026-10-19 |
+| P563 | srs-meanvar | [Finite population correction for the variance of a sample mean](/P/srs-meanvar) | kjpetrykowski | 2026-10-19 |
+| P564 | berkson-slope | [No slope attenuation under Berkson error in a linear regression](/P/berkson-slope) | kjpetrykowski | 2026-10-20 |
