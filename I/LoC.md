@@ -517,6 +517,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Median](/P/beta-med)**
 - **[Mode](/P/beta-mode)**
 - **[Variance](/P/beta-var)**
+### Arcsine distribution
+- **[Cumulative distribution function](/P/arcsin-cdf)**
 ### Wald distribution
 - *[Definition](/D/wald)*
 - **[Probability density function](/P/wald-pdf)**

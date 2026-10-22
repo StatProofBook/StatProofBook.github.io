@@ -586,6 +586,10 @@ title: "Proof by Author"
 
 - [Proof Template](/P/-temp-)
 
+### syndexco (1 proof)
+
+- [Cumulative distribution function of the arcsine distribution](/P/arcsin-cdf)
+
 ### tomfaulkenberry (18 proofs)
 
 - [Encompassing prior method for computing Bayes factors](/P/bf-ep)

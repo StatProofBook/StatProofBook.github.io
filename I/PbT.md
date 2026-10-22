@@ -90,6 +90,7 @@ title: "Proof by Topic"
 - [Cumulative distribution function of a strictly decreasing function of a random variable](/P/cdf-sdfct)
 - [Cumulative distribution function of a strictly increasing function of a random variable](/P/cdf-sifct)
 - [Cumulative distribution function of a sum of independent random variables](/P/cdf-sumind)
+- [Cumulative distribution function of the arcsine distribution](/P/arcsin-cdf)
 - [Cumulative distribution function of the beta distribution](/P/beta-cdf)
 - [Cumulative distribution function of the beta-binomial distribution](/P/betabin-cdf)
 - [Cumulative distribution function of the binomial distribution](/P/bin-cdf)

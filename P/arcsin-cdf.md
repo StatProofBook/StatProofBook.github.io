@@ -22,7 +22,7 @@ sources:
     url: "https://www.randomservices.org/random/special/Arcsine.html"
 
 proof_id: "P565"
-shortcut: "arcsine-cdf"
+shortcut: "arcsin-cdf"
 username: "syndexco"
 ---
 

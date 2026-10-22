@@ -570,3 +570,4 @@ title: "Proof by Number"
 | P562 | ecdf-momcons | [Moments and pointwise consistency of the empirical distribution function](/P/ecdf-momcons) | kjpetrykowski | 2026-10-19 |
 | P563 | srs-meanvar | [Finite population correction for the variance of a sample mean](/P/srs-meanvar) | kjpetrykowski | 2026-10-19 |
 | P564 | berkson-slope | [No slope attenuation under Berkson error in a linear regression](/P/berkson-slope) | kjpetrykowski | 2026-10-20 |
+| P565 | arcsin-cdf | [Cumulative distribution function of the arcsine distribution](/P/arcsin-cdf) | syndexco | 2026-10-19 |

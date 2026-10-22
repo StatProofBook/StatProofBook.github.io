@@ -638,32 +638,36 @@ title: "Table of Contents"
    &emsp;&ensp; 3.9.10. **[Mode](/P/beta-mode)** <br>
    &emsp;&ensp; 3.9.11. **[Variance](/P/beta-var)** <br>
    
+   <p id="Arcsine distribution"></p>
+   3.10. Arcsine distribution <br>
+   &emsp;&ensp; 3.10.1. **[Cumulative distribution function](/P/arcsin-cdf)** <br>
+   
    <p id="Wald distribution"></p>
-   3.10. Wald distribution <br>
-   &emsp;&ensp; 3.10.1. *[Definition](/D/wald)* <br>
-   &emsp;&ensp; 3.10.2. **[Probability density function](/P/wald-pdf)** <br>
-   &emsp;&ensp; 3.10.3. **[Moment-generating function](/P/wald-mgf)** <br>
-   &emsp;&ensp; 3.10.4. **[Mean](/P/wald-mean)** <br>
-   &emsp;&ensp; 3.10.5. **[Variance](/P/wald-var)** <br>
-   &emsp;&ensp; 3.10.6. **[Skewness](/P/wald-skew)** <br>
-   &emsp;&ensp; 3.10.7. **[Method of moments](/P/wald-mome)** <br>
+   3.11. Wald distribution <br>
+   &emsp;&ensp; 3.11.1. *[Definition](/D/wald)* <br>
+   &emsp;&ensp; 3.11.2. **[Probability density function](/P/wald-pdf)** <br>
+   &emsp;&ensp; 3.11.3. **[Moment-generating function](/P/wald-mgf)** <br>
+   &emsp;&ensp; 3.11.4. **[Mean](/P/wald-mean)** <br>
+   &emsp;&ensp; 3.11.5. **[Variance](/P/wald-var)** <br>
+   &emsp;&ensp; 3.11.6. **[Skewness](/P/wald-skew)** <br>
+   &emsp;&ensp; 3.11.7. **[Method of moments](/P/wald-mome)** <br>
    
    <p id="ex-Gaussian distribution"></p>
-   3.11. ex-Gaussian distribution <br>
-   &emsp;&ensp; 3.11.1. *[Definition](/D/exg)* <br>
-   &emsp;&ensp; 3.11.2. **[Probability density function](/P/exg-pdf)** <br>
-   &emsp;&ensp; 3.11.3. **[Moment-generating function](/P/exg-mgf)** <br>
-   &emsp;&ensp; 3.11.4. **[Mean](/P/exg-mean)** <br>
-   &emsp;&ensp; 3.11.5. **[Variance](/P/exg-var)** <br>
-   &emsp;&ensp; 3.11.6. **[Skewness](/P/exg-skew)** <br>
-   &emsp;&ensp; 3.11.7. **[Method of moments](/P/exg-mome)** <br>
+   3.12. ex-Gaussian distribution <br>
+   &emsp;&ensp; 3.12.1. *[Definition](/D/exg)* <br>
+   &emsp;&ensp; 3.12.2. **[Probability density function](/P/exg-pdf)** <br>
+   &emsp;&ensp; 3.12.3. **[Moment-generating function](/P/exg-mgf)** <br>
+   &emsp;&ensp; 3.12.4. **[Mean](/P/exg-mean)** <br>
+   &emsp;&ensp; 3.12.5. **[Variance](/P/exg-var)** <br>
+   &emsp;&ensp; 3.12.6. **[Skewness](/P/exg-skew)** <br>
+   &emsp;&ensp; 3.12.7. **[Method of moments](/P/exg-mome)** <br>
    
    <p id="von Mises distribution"></p>
-   3.12. von Mises distribution <br>
-   &emsp;&ensp; 3.12.1. *[Definition](/D/vm)* <br>
-   &emsp;&ensp; 3.12.2. **[Relationship to bivariate normal distribution](/P/vm-bvn)** <br>
-   &emsp;&ensp; 3.12.3. **[Probability density function](/P/vm-pdf)** <br>
-   &emsp;&ensp; 3.12.4. **[Full width at half maximum](/P/vm-fwhm)** <br>
+   3.13. von Mises distribution <br>
+   &emsp;&ensp; 3.13.1. *[Definition](/D/vm)* <br>
+   &emsp;&ensp; 3.13.2. **[Relationship to bivariate normal distribution](/P/vm-bvn)** <br>
+   &emsp;&ensp; 3.13.3. **[Probability density function](/P/vm-pdf)** <br>
+   &emsp;&ensp; 3.13.4. **[Full width at half maximum](/P/vm-fwhm)** <br>
 
 4. <p id="Multivariate continuous distributions">Multivariate continuous distributions</p>
    
