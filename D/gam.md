@@ -40,4 +40,10 @@ $$ \label{eq:gam-pdf}
 \mathrm{Gam}(x; a, b) = \frac{b^a}{\Gamma(a)} x^{a-1} \exp[-b x], \quad x > 0
 $$
 
-where $a > 0$ and $b > 0$, $\Gamma(x)$ is the gamma function and the density is zero, if $x \leq 0$.
+where $a > 0$ and $b > 0$, $\Gamma(x)$ is the gamma function
+
+$$ \label{eq:gam-fct}
+\Gamma(x) = \int_0^\infty t^{x-1} \exp[-t] \, \mathrm{d}t
+$$
+
+and the density is zero, if $x \leq 0$.
