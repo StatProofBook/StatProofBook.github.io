@@ -10,8 +10,8 @@ date: 2026-10-18 22:15:00
 title: "Posterior mean optimality under squared error loss"
 chapter: "General Theorems"
 section: "Bayesian statistics"
-topic: "Bayesian inference"
-theorem: "Posterior mean optimality under squared error loss"
+topic: "Probabilistic modeling"
+theorem: "Posterior mean is optimal under squared error loss"
 
 sources:
   - authors: "Gary Koop, Dale J. Poirier, Justin L. Tobias"
@@ -21,16 +21,16 @@ sources:
     pages: "Exercise 3.1, p. 31"
 
 proof_id: "P561"
-shortcut: "bayes-sqerr"
+shortcut: "post-meansqr"
 username: "kjpetrykowski"
 ---
 
 
-**Theorem:** Let $\theta$ be a real [parameter](/D/para) treated as [random](/D/rvar) under a [proper prior and sampling model](/D/fpm), and let $X$ denote the [data](/D/data) which may be a vector. Assume $\mathrm{E}(\theta^2)<\infty$ under their [joint distribution](/D/dist-joint). Write the [posterior](/D/post) [mean](/D/mean) as $m(X)=\mathrm{E}(\theta \mid X)$.
+**Theorem:** Let $\theta$ be a real [parameter](/D/para) treated as [random](/D/rvar) under a [proper prior and sampling model](/D/fpm), and let $X$ denote the [data](/D/data) which may be a [vector](/D/rvec). Assume $\mathrm{E}(\theta^2)<\infty$ under their [joint distribution](/D/dist-joint). Write the [posterior](/D/post) [mean](/D/mean) as $m(X)=\mathrm{E}(\theta \mid X)$.
 
-An [estimator](/D/est) $\delta(X)$ is a [measurable](/D/meas-fct), real-valued function of the data. For any such estimator with $\mathrm{E}[\delta(X)^2]<\infty$,
+An [estimator](/D/est) $\delta(X)$ is a [measurable, real-valued function](/D/meas-fct) of the data. For any such estimator with $\mathrm{E}[\delta(X)^2]<\infty$,
 
-$$ \label{eq:bayes-sqerr-identity}
+$$ \label{eq:identity}
   \mathrm{E}\left[(\theta-\delta(X))^2\mid X\right]
 = \mathrm{Var}(\theta\mid X)+[m(X)-\delta(X)]^2 \; .
 $$
@@ -44,7 +44,7 @@ The [posterior](/D/post) [variance](/D/var) is $\mathrm{Var}(\theta \mid X)=\mat
 
 **Proof:** Add and subtract the posterior mean inside the estimation error:
 
-$$ \label{eq:bayes-sqerr-expand}
+$$ \label{eq:expand}
 \begin{split}
 \theta-\delta(X) &= [\theta-m(X)]+[m(X)-\delta(X)], \\
 (\theta-\delta(X))^2 &= [\theta-m(X)]^2 + 2[\theta-m(X)][m(X)-\delta(X)] + [m(X)-\delta(X)]^2 \; .
@@ -53,17 +53,17 @@ $$
 
 Once we condition on $X$, both $m(X)$ and $\delta(X)$ are fixed numbers. The cross-term has conditional expectation zero, because
 
-$$ \label{eq:bayes-sqerr-centered}
+$$ \label{eq:centered}
   \mathrm{E}[\theta-m(X) \mid X]
 = \mathrm{E}(\theta \mid X)-m(X)
 = 0 \; .
 $$
 
-The conditional expectation of the first squared term is equivalent to the definition of $\mathrm{Var}(\theta\mid X)$. The last squared term stays unchanged. This proves \eqref{eq:bayes-sqerr-identity}.
+The conditional expectation of the first squared term is equivalent to the definition of $\mathrm{Var}(\theta\mid X)$. The last squared term stays unchanged. This proves \eqref{eq:identity}.
 
 Only the nonnegative term $[m(X)-\delta(X)]^2$ depends on the choice of the [estimator](/D/est). It is zero, exactly when $\delta(X)=m(X)$. Taking expectations over $X$ gives
 
-$$ \label{eq:bayes-sqerr-risk}
+$$ \label{eq:risk}
 \begin{split}
 r(\delta) &= \mathrm{E}[\mathrm{Var}(\theta\mid X)] + \mathrm{E}\left([m(X)-\delta(X)]^2\right), \\
 r(\delta)-r(m) &= \mathrm{E}\left([m(X)-\delta(X)]^2\right)\ geq0 \; .

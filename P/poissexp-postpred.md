@@ -7,7 +7,7 @@ affiliation: "University of Warsaw"
 e_mail: "kenneth.petrykowski@gmail.com"
 date: 2026-10-17 21:51:05
 
-title: "Negative binomial posterior prediction from a gamma Poisson model"
+title: "Posterior predictive distribution of future data point based on observed Poisson data with exposures"
 chapter: "Statistical Models"
 section: "Count data"
 topic: "Poisson distribution with exposure values"
@@ -18,10 +18,10 @@ sources:
     year: 2007
     title: "Prediction"
     in: "Bayesian Econometric Methods"
-    pages: "Exercise 7.2, pp. 73-74 (gamma shape-scale parameterization)"
+    pages: "Exercise 7.2, pp. 73-74"
 
 proof_id: "P558"
-shortcut: "poiss-postpred"
+shortcut: "poissexp-postpred"
 username: "kjpetrykowski"
 ---
 
@@ -42,16 +42,16 @@ $$ \label{eq:poiss-postpred-pmf}
   \left(\frac{t}{b+t}\right)^k
 $$
 
-and the predictive moments of the future observation are
+and the predictive [moments](/D/mom) of the future [observation](/D/data) are
 
 $$ \label{eq:poiss-postpred-moments}
 \mathrm{E}(Y \mid y) = \frac{at}{b}, \qquad
 \mathrm{Var}(Y \mid y) = \frac{at}{b}+\frac{at^2}{b^2} \; .
 $$
 
-The [Poisson rate parameter](/D/poissexp) $\lambda$ is measured in events per exposure unit. The [gamma rate](/D/gam) $b$ has the same exposure units as $t$, so $b+t$ and $t/b$ are well defined. The [gamma shape](/D/gam) $a$ is dimensionless.
+The [Poisson rate parameter](/D/poissexp) $\lambda$ is measured in events per exposure unit. The [gamma rate](/D/gam) $b$ has the same exposure units as $t$, so $b+t$ and $t/b$ are well-defined. The [gamma shape](/D/gam) $a$ is dimensionless.
 
-The distribution of $Y$ given $y$ is thus a negative binomial, with PMF on $k=0,1,2,\ldots$ in \eqref{eq:poiss-postpred-pmf} parametrized by [shape](/D/para-shape) $a$ and [probability parameter](/D/bin) $b/(b+t)$. The shape may be any positive real number.
+The distribution of $Y$ given $y$ is thus a [negative binomial](/D/negbin), with PMF on $k=0,1,2,\ldots$ in \eqref{eq:poiss-postpred-pmf} parametrized by [shape](/D/para-shape) $a$ and [probability parameter](/D/bin) $b/(b+t)$. The shape may be any positive real number.
 
 
 **Proof:** Conditional on $\lambda$, the future [PMF is](/P/poiss-pdf) $\exp(-t\lambda)(t\lambda)^k/k!$. By the definition of a [posterior predictive distribution](/D/post-pred), we take the [expectation](/D/mean) over the gamma posterior:
@@ -79,7 +79,7 @@ $$ \label{eq:poiss-postpred-integral-dev}
 $$
 
 
-which is equivalent to \eqref{eq:poiss-postpred-pmf}. It is a [normalized PMF](/D/pmf), because it mixes normalized Poisson PMFs with a normalized gamma density. Exchanging the non-negative sum and integral preserves total probability one.
+which is equivalent to \eqref{eq:poiss-postpred-pmf}. It is a [normalized PMF](/D/pmf), because it mixes normalized [Poisson mass functions](/P/poiss-pmf) with a normalized [gamma density function](/P/gam-pdf). Exchanging the non-negative sum and integral preserves total probability one.
 
 To obtain the posterior moments, multiply the gamma density \eqref{eq:poiss-postpred-gamma} by $\lambda^r$ and apply \eqref{eq:poiss-postpred-gamma-integral} with $s=a+r$ and $c=b$:
 

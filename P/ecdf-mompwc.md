@@ -7,11 +7,11 @@ affiliation: "University of Warsaw"
 e_mail: "kenneth.petrykowski@gmail.com"
 date: 2026-10-19 20:30:00
 
-title: "Moments and pointwise consistency of the empirical distribution function"
+title: "Moments and point-wise consistency of the empirical cumulative distribution function"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Cumulative distribution function"
-theorem: "Empirical distribution moments and pointwise consistency"
+theorem: "Moments and point-wise consistency of the empirical CDF"
 
 sources:
   - authors: "John A. Rice"
@@ -21,19 +21,19 @@ sources:
     pages: "Third edition, Section 10.2.1, pp. 378-380"
 
 proof_id: "P562"
-shortcut: "ecdf-momcons"
+shortcut: "ecdf-mompwc"
 username: "kjpetrykowski"
 ---
 
 
-**Theorem:** Let $X_1, X_2, \ldots$ be an infinite sequence of [independent and identically distributed](/D/iid) [real observations](/D/data). For each integer $n \geq 1$, use its first $n$ observations. Their common [cumulative distribution function](/D/cdf) is $F(x)=\mathrm{Pr}(X_i \leq x)$, $x \in \mathbb{R}$. Define the empirical distribution function by
+**Theorem:** Let $X_1, X_2, \ldots$ be an infinite sequence of [independent and identically distributed](/D/iid) [real observations](/D/data). For each integer $n \geq 1$, use its first $n$ observations. Their common [cumulative distribution function](/D/cdf) is $F(x)=\mathrm{Pr}(X_i \leq x)$, $x \in \mathbb{R}$. Define the [empirical distribution function](/D/ecdf) by
 
 $$ \label{eq:ecdf-momcons-definition}
 F_n(x) = \frac{1}{n} \sum_{i=1}^n I_i(x), \qquad
 I_i(x) = \mathbf{1}_{X_i \leq x} \; .
 $$
 
-The indicator $I_i(x)$ is 1 when $X_i \leq x$ and 0 otherwise. For every fixed real $x$,
+The indicator $I_i(x)$ is 1 when $X_i \leq x$, and 0 otherwise. For every fixed real $x$,
 
 $$ \label{eq:ecdf-momcons-moments}
 \mathrm{E}[F_n(x)] = F(x), \qquad
@@ -81,4 +81,4 @@ $$
 
 Appyling [Chebyshev's inequality](/P/cheb-ineq) to the [unbiased estimator](/D/est-bias) $F_n(x)$ gives the first bound in \eqref{eq:ecdf-momcons-bound}. The identity $q(1-q) = 1/4-(q-1/2)^2 \leq 1/4$ for $q \in [0,1]$ gives the second bound. For fixed $\varepsilon > 0$, the resulting upper bound tends to zero as $n$ grows. Thus, $F_n(x)$ converges in probability to $F(x)$ at each fixed $x$.
 
-If $F(x)=0$ or $F(x)=1$, the indicators are constant almost surely and the [sampling variance](/D/var-samp) is [exactly zero](/P/var-const). No division by $F(x)[1-F(x)]$ was used, so these cases are included. Pointwise convergence proves the claim separately for each fixed threshold $x$.
+If $F(x)=0$ or $F(x)=1$, the indicators are constant almost surely and the [sampling variance](/D/var-samp) is [exactly zero](/P/var-const). There was no division by $F(x)[1-F(x)]$, so these cases are included. Point-wise convergence proves the claim separately for each fixed threshold $x$.

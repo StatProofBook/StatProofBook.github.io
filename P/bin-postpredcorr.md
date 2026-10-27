@@ -7,11 +7,11 @@ affiliation: "University of Warsaw"
 e_mail: "kenneth.petrykowski@gmail.com"
 date: 2026-10-17 23:10:00
 
-title: "Positive dependence between future Bernoulli observations after parameter integration"
+title: "Posterior predictive covariance and correlation of future Bernoulli observations based on observed binomial data"
 chapter: "Statistical Models"
 section: "Count data"
 topic: "Binomial observations"
-theorem: "Posterior predictive covariance and correlation"
+theorem: "Posterior predictive correlation"
 
 sources:
   - authors: "Gary Koop, Dale J. Poirier, Justin L. Tobias"
@@ -26,7 +26,7 @@ username: "kjpetrykowski"
 ---
 
 
-**Theorem:** Let $x$ be an [observed data set](/D/data). Suppose $\theta \mid x \sim \mathrm{Bet}(A,B)$, where $A,B>0$ are [posterior](/D/post) [shape parameters](/P/para-shape), with [density](/D/pdf)
+**Theorem:** Let $x$ be a [binomial data set](/D/bin-data). Suppose $\theta \mid x \sim \mathrm{Bet}(A,B)$, where $A,B>0$ are [posterior](/D/post) [shape parameters](/P/para-shape), with [density](/D/pdf)
 
 $$ \label{eq:bern-postpredcorr-beta}
 p(\theta \mid x) = \frac{\theta^{A-1}(1-\theta)^{B-1}}{\mathrm{B}(A,B)},
@@ -45,7 +45,7 @@ $$ \label{eq:bern-postpredcorr-result}
 $$
 
 
-**Proof:** All [probabilities](/D/prob) and [moments](/D/mom) in this proof condition on the same fixed data set $x$. Integrating $\theta$ and $\theta^2$ against the [posterior density](/D/post) increases its first [beta shape parameter](/D/beta) by one and two, respectively. The identity $\mathrm{B}(u,v)=\Gamma(u)\Gamma(v)/\Gamma(u+v)$ and the recurrence $\Gamma(z+1)=z\Gamma(z)$ simplify the resulting ratios:
+**Proof:** All [probabilities](/D/prob) and [moments](/D/mom) in this proof condition on the same [fixed data set](/D/data) $x$. Integrating $\theta$ and $\theta^2$ against the [posterior density](/D/post) increases its first [beta shape parameter](/D/beta) by one and two, respectively. The identity $\mathrm{B}(u,v)=\Gamma(u)\Gamma(v)/\Gamma(u+v)$ and the recurrence $\Gamma(z+1)=z\Gamma(z)$ simplify the resulting ratios:
 
 $$ \label{eq:bern-postpredcorr-beta-moments}
 \begin{split}
@@ -61,13 +61,13 @@ $$
 [Subtracting the squared expectation from the expectation of the square](/P/var-mean) shows that $\mathrm{Var}(\theta \mid x)=AB/[(A+B)^2(A+B+1)]$.
 
 $$ \label{eq:bern-postpredcorr-beta-var}
-  mathrm{Var}(\theta \mid x)
+  \mathrm{Var}(\theta \mid x)
 = \frac{AB}{(A+B)^2(A+B+1)} \; .
 $$
 
-The same results are obtained when computing [mean](/P/beta-mean) and [variance](/P/beta-var) of the beta distribution.
+The same results are obtained when [computing mean](/P/beta-mean) and [variance of the beta distribution](/P/beta-var).
 
-A Bernoulli variable with [success probability](/D/bern) $\theta$ [has mean](/P/bern-mean) $\theta$. Hence, for either future variable $Y_j$, $j \in \lbrace 1,2 \rbrace$, the [total expectation](/P/mean-tot) is
+A Bernoulli variable with [success probability](/D/bern) $\theta$ [has mean](/P/bern-mean) $\theta$. Hence, for either future variable $Y_j$, with $j \in \lbrace 1,2 \rbrace$, the [total expectation](/P/mean-tot) is
 
 $$ \label{eq:bern-postpredcorr-future-mean}
 \begin{split}
@@ -80,14 +80,13 @@ $$
 [Conditional independence](/D/ind-cond) makes the [conditional expectation of the product equal to the product of the conditional expectations](/P/mean-mult):
 
 $$ \label{eq:bern-postpredcorr-conditional-product}
-\begin{split}
-   \mathrm{E}(Y_1 Y_2 \mid \theta,x)
-&= \mathrm{E}(Y_1 \mid \theta,x) \mathrm{E}(Y_2 \mid \theta,x) \\
-&= \theta^2 \; .
+  \mathrm{E}(Y_1 Y_2 \mid \theta,x)
+= \mathrm{E}(Y_1 \mid \theta,x) \mathrm{E}(Y_2 \mid \theta,x)
+= \theta^2 \; .
 \end{split}
 $$
 
-Applying [total expectation again](/P/cov-mean), we have
+Applying [total expectation](/P/cov-mean) again, we have
 
 $$ \label{eq:bern-postpredcorr-covariance}
 \begin{split}
@@ -99,10 +98,10 @@ $$ \label{eq:bern-postpredcorr-covariance}
 \end{split}
 $$
 
-Each $Y_j$ [takes only the values zero and one](/D/bern). A zero-one variable with mean $q$ has variance $q(1-q)$, because its square equals itself. Using $q=A/(A+B)$ therefore gives
+Each $Y_j$ [takes only the values zero and one](/D/bern). A zero-one variable with mean $q$ [has variance](/P/bern-var) $q(1-q)$, because its square equals itself. Using $q=A/(A+B)$ therefore gives
 
 $$ \label{eq:bern-postpredcorr-future-variance}
-\mathrm{Var}(Y_j \mid x)=\frac{AB}{(A+B)^2},
+\mathrm{Var}(Y_j \mid x) = \frac{AB}{(A+B)^2},
 \qquad j \in \lbrace 1,2 \rbrace \; .
 $$
 

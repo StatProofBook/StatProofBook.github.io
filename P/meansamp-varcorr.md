@@ -7,11 +7,11 @@ affiliation: "University of Warsaw"
 e_mail: "kenneth.petrykowski@gmail.com"
 date: 2026-10-19 22:00:00
 
-title: "Finite population correction for the variance of a sample mean"
+title: "Expectation and variance of the sample mean obtained from a finite population"
 chapter: "General Theorems"
 section: "Estimation theory"
 topic: "Point estimates"
-theorem: "Sample mean moments under sampling without replacement"
+theorem: "Finite-population correction for the variance of a sample mean"
 
 sources:
   - authors: "John A. Rice"
@@ -21,7 +21,7 @@ sources:
     pages: "Third edition, Section 7.3.1, pp. 203-208"
 
 proof_id: "P563"
-shortcut: "srs-meanvar"
+shortcut: "meansamp-varcorr"
 username: "kjpetrykowski"
 ---
 
@@ -30,20 +30,20 @@ username: "kjpetrykowski"
 
 $$ \label{eq:srs-meanvar-population}
 \bar{y}_N = \frac{1}{N} \sum_{j=1}^N y_j, \qquad
-S_N^2 = \frac{1}{N-1} \sum_{j=1}^N (y_j-\bar y_N)^2 \; .
+S_N^2 = \frac{1}{N-1} \sum_{j=1}^N (y_j-\bar{y}_N)^2 \; .
 $$
 
-Take a [simple random sample](/D/samp) without replacement of size $1\leq n\leq N$. This means, each subset of $n$ labels has probability $1/\binom{N}{n}$. Let $\bar{Y}_s$ be the average of its values. Then,
+Take a [simple random sample](/D/samp) without replacement of size $1 \leq n \leq N$, i.e. $s \subset \lbrace 1,\ldots,N \rbrace$ with $\lvert s \rvert = n$. Let $\bar{Y}_s$ be the [sample mean](/D/mean-samp) of the $n$ data points included in this sample. Then,
 
 $$ \label{eq:srs-meanvar-result}
-\mathrm{E}(\bar Y_s)=\bar y_N,\qquad
-\mathrm{Var}(\bar Y_s)=\left(1-\frac{n}{N}\right)\frac{S_N^2}{n} \; .
+\mathrm{E}(\bar{Y}_s) = \bar{y}_N,\qquad
+\mathrm{Var}(\bar{Y}_s) = \left(1-\frac{n}{N}\right)\frac{S_N^2}{n} \; .
 $$
 
 
-**Proof:** Generate a uniformly random permutation $(J_1,\ldots,J_N)$ of all labels and define $Y_i=y_{J_i}$. Any specified subset of $n$ labels occupies the first $n$ positions in $n!(N-n)!$ of the $N!$ permutations, so it has [probability](/D/prob) $1/\binom{N}{n}$. Thus, the first $n$ labels form a simple random sample, and $\bar{Y}_s = 1/n \sum_{i=1}^n Y_i$.
+**Proof:** Generate a uniformly random permutation $(J_1,\ldots,J_N)$ of all labels and define $Y_i=y_{J_i}$. Any specified subset of $n$ labels occupies the first $n$ positions in $n!(N-n)!$ of the $N!$ permutations, so it has [probability](/D/prob) $1/\binom{N}{n}$. Thus, the first $n$ labels form a [simple random sample](/D/samp), and $\bar{Y}\_s = 1/n \sum\_{i=1}^n Y_i$.
 
-Each $J_i$ [is uniform](/D/duni) on $\lbrace 1,\ldots,N \rbrace $. Consequently,
+Each $J_i$ [is uniform](/D/duni) on $\lbrace 1,\ldots,N \rbrace$. Consequently,
 
 $$ \label{eq:srs-meanvar-one-draw}
 \mathrm{E}(Y_i) = \bar{y}_N, \qquad
@@ -62,7 +62,7 @@ $$ \label{eq:srs-meanvar-covariance}
 \end{split}
 $$
 
-This negative [covariance](/D/cov) is the effect of sampling without replacement. Using the [linearity of the expected value](/P/mean-lin) gives $\mathrm{E}(\bar Y_s)=\bar y_N$. Using the [variance of a sum](/P/var-sum) gives:
+This negative [covariance](/D/cov) is the effect of sampling without replacement. Using the [linearity of the expected value](/P/mean-lin) gives $\mathrm{E}(\bar{Y}_s)=\bar{y}_N$. Using the [variance of a sum](/P/var-sum) gives:
 
 $$ \label{eq:srs-meanvar-expand}
 \begin{split}
