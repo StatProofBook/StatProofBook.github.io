@@ -21,7 +21,7 @@ sources:
     pages: "Exercise 7.1, p. 73"
 
 proof_id: "P559"
-shortcut: "bern-postpredcorr"
+shortcut: "bin-postpredcorr"
 username: "kjpetrykowski"
 ---
 

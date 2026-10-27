@@ -117,7 +117,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.9. **[Inverse transformation method](/P/cdf-itm)** <br>
    &emsp;&ensp; 1.8.10. **[Distributional transformation](/P/cdf-dt)** <br>
    &emsp;&ensp; 1.8.11. *[Joint cumulative distribution function](/D/cdf-joint)* <br>
-   &emsp;&ensp; 1.8.12. **[Moments and pointwise consistency of the empirical distribution function](/P/ecdf-momcons)** <br>
+   &emsp;&ensp; 1.8.12. **[Moments and point-wise consistency of the empirical CDF](/P/ecdf-mompwc)** <br>
    
    <p id="Moment-generating function"></p>
    1.9. Moment-generating function <br>
@@ -257,7 +257,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.21.2. **[Moment in terms of moment-generating function](/P/mom-mgf)** <br>
    &emsp;&ensp; 1.21.3. *[Raw moment](/D/mom-raw)* <br>
    &emsp;&ensp; 1.21.4. **[First raw moment is mean](/P/momraw-1st)** <br>
-   &emsp;&ensp; 1.21.5. **[Second raw moment and variance](/P/momraw-2nd)** <br>
+   &emsp;&ensp; 1.21.5. **[Second raw moment as sum of squares](/P/momraw-2nd)** <br>
    &emsp;&ensp; 1.21.6. *[Central moment](/D/mom-cent)* <br>
    &emsp;&ensp; 1.21.7. **[First central moment is zero](/P/momcent-1st)** <br>
    &emsp;&ensp; 1.21.8. **[Second central moment is variance](/P/momcent-2nd)** <br>
@@ -330,12 +330,13 @@ title: "Table of Contents"
    3.2. Point estimates <br>
    &emsp;&ensp; 3.2.1. *[Mean squared error](/D/mse)* <br>
    &emsp;&ensp; 3.2.2. **[Partition of the mean squared error into bias and variance](/P/mse-bnv)** <br>
-   &emsp;&ensp; 3.2.3. **[Finite population correction for the variance of a sample mean](/P/srs-meanvar)** <br>
+   &emsp;&ensp; 3.2.3. **[Finite-population correction for the variance of a sample mean](/P/meansamp-varcorr)** <br>
    
    <p id="Interval estimates"></p>
    3.3. Interval estimates <br>
    &emsp;&ensp; 3.3.1. *[Confidence interval](/D/ci)* <br>
    &emsp;&ensp; 3.3.2. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
+   &emsp;&ensp; 3.3.3. **[Prior predictive calibration of Bayesian credible sets](/P/crs-priorpred)** <br>
 
 4. <p id="Frequentist statistics">Frequentist statistics</p>
    
@@ -387,12 +388,13 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.8. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
    &emsp;&ensp; 5.1.9. *[Posterior distribution](/D/post)* <br>
    &emsp;&ensp; 5.1.10. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
-   &emsp;&ensp; 5.1.11. **[Combined posterior distribution from independent data](/P/post-indcond)** <br>
-   &emsp;&ensp; 5.1.12. *[Posterior predictive distribution](/D/post-pred)* <br>
-   &emsp;&ensp; 5.1.13. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
-   &emsp;&ensp; 5.1.14. *[Maximum-a-posteriori estimation](/D/map)* <br>
-   &emsp;&ensp; 5.1.15. *[Marginal likelihood](/D/ml)* <br>
-   &emsp;&ensp; 5.1.16. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
+   &emsp;&ensp; 5.1.11. **[Posterior mean is optimal under squared error loss](/P/post-meansqr)** <br>
+   &emsp;&ensp; 5.1.12. **[Combined posterior distribution from independent data](/P/post-indcond)** <br>
+   &emsp;&ensp; 5.1.13. *[Posterior predictive distribution](/D/post-pred)* <br>
+   &emsp;&ensp; 5.1.14. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
+   &emsp;&ensp; 5.1.15. *[Maximum-a-posteriori estimation](/D/map)* <br>
+   &emsp;&ensp; 5.1.16. *[Marginal likelihood](/D/ml)* <br>
+   &emsp;&ensp; 5.1.17. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
    <p id="Prior distributions"></p>
    5.2. Prior distributions <br>
@@ -414,9 +416,6 @@ title: "Table of Contents"
    &emsp;&ensp; 5.3.5. *[Variational Bayes](/D/vb)* <br>
    &emsp;&ensp; 5.3.6. **[Decomposition of the free energy](/P/fren-dec)** <br>
    &emsp;&ensp; 5.3.7. **[Free energy is lower bound on log model evidence](/P/fren-lme)** <br>
-   &emsp;&ensp; 5.3.8. **[Bayes classification threshold under asymmetric error costs](/P/bayes-classify)** <br>
-   &emsp;&ensp; 5.3.9. **[Prior-averaged coverage of credible sets](/P/cred-calibration)** <br>
-   &emsp;&ensp; 5.3.10. **[Posterior mean optimality under squared error loss](/P/bayes-sqerr)** <br>
 
 6. <p id="Machine learning">Machine learning</p>
    
@@ -429,6 +428,10 @@ title: "Table of Contents"
    &emsp;&ensp; 6.1.5. **[Log probability is strictly proper scoring rule](/P/lpsr-spsr)** <br>
    &emsp;&ensp; 6.1.6. *[Brier scoring rule](/D/bsr)* <br>
    &emsp;&ensp; 6.1.7. **[Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr)** <br>
+   
+   <p id="Bayes classification"></p>
+   6.2. Bayes classification <br>
+   &emsp;&ensp; 6.2.1. **[Decision threshold under asymmetric error costs](/P/bc-thr)** <br>
 
 
 <br>
@@ -853,7 +856,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.25. **[Residual variance in terms of sample variance](/P/slr-resvar)** <br>
    &emsp;&ensp; 1.4.26. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
    &emsp;&ensp; 1.4.27. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
-   &emsp;&ensp; 1.4.28. **[No slope attenuation under Berkson error in a linear regression](/P/berkson-slope)** <br>
+   &emsp;&ensp; 1.4.28. **[Conditional expectation and variance under Berkson error model](/P/slrbem-meanvar)** <br>
    
    <p id="Multiple linear regression"></p>
    1.5. Multiple linear regression <br>
@@ -969,7 +972,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.1.6. **[Maximum-a-posteriori estimation](/P/bin-map)** <br>
    &emsp;&ensp; 3.1.7. **[Conjugate prior distribution](/P/bin-prior)** <br>
    &emsp;&ensp; 3.1.8. **[Posterior distribution](/P/bin-post)** <br>
-   &emsp;&ensp; 3.1.9. **[Posterior predictive covariance and correlation](/P/bern-postpredcorr)** <br>
+   &emsp;&ensp; 3.1.9. **[Posterior predictive correlation](/P/bin-postpredcorr)** <br>
    &emsp;&ensp; 3.1.10. **[Log model evidence](/P/bin-lme)** <br>
    &emsp;&ensp; 3.1.11. **[Log Bayes factor](/P/bin-lbf)** <br>
    &emsp;&ensp; 3.1.12. **[Posterior probability](/P/bin-pp)** <br>
@@ -1021,7 +1024,7 @@ title: "Table of Contents"
    &emsp;&ensp; 3.6.2. **[Maximum likelihood estimation](/P/poissexp-mle)** <br>
    &emsp;&ensp; 3.6.3. **[Conjugate prior distribution](/P/poissexp-prior)** <br>
    &emsp;&ensp; 3.6.4. **[Posterior distribution](/P/poissexp-post)** <br>
-   &emsp;&ensp; 3.6.5. **[Posterior predictive distribution](/P/poiss-postpred)** <br>
+   &emsp;&ensp; 3.6.5. **[Posterior predictive distribution](/P/poissexp-postpred)** <br>
    &emsp;&ensp; 3.6.6. **[Log model evidence](/P/poissexp-lme)** <br>
 
 4. <p id="Frequency data">Frequency data</p>

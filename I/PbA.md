@@ -551,15 +551,15 @@ title: "Proof by Author"
 
 ### kjpetrykowski (10 proofs)
 
-- [Bayes classification threshold under asymmetric error costs](/P/bayes-classify)
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
-- [Finite population correction for the variance of a sample mean](/P/srs-meanvar)
-- [Moments and pointwise consistency of the empirical distribution function](/P/ecdf-momcons)
-- [Negative binomial posterior prediction from a gamma Poisson model](/P/poiss-postpred)
-- [No slope attenuation under Berkson error in a linear regression](/P/berkson-slope)
-- [Positive dependence between future Bernoulli observations after parameter integration](/P/bern-postpredcorr)
-- [Posterior mean optimality under squared error loss](/P/bayes-sqerr)
-- [Prior predictive calibration of Bayesian credible sets](/P/cred-calibration)
+- [Conditional expectation and variance under Berkson error model in simple linear regression](/P/slrbem-meanvar)
+- [Coverage of Bayesian credible sets when averaging over the prior distribution](/P/crs-priorpred)
+- [Decision threshold for Bayes classification under asymmetric error costs](/P/bc-thr)
+- [Expectation and variance of the sample mean obtained from a finite population](/P/meansamp-varcorr)
+- [Moments and point-wise consistency of the empirical cumulative distribution function](/P/ecdf-mompwc)
+- [Posterior mean optimality under squared error loss](/P/post-meansqr)
+- [Posterior predictive covariance and correlation of future Bernoulli observations based on observed binomial data](/P/bin-postpredcorr)
+- [Posterior predictive distribution of future data point based on observed Poisson data with exposures](/P/poissexp-postpred)
 - [Raw moments of the chi-squared distribution](/P/chi2-momraw)
 
 ### majapavlo (8 proofs)

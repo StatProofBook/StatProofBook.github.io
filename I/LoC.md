@@ -96,7 +96,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Inverse transformation method](/P/cdf-itm)**
 - **[Distributional transformation](/P/cdf-dt)**
 - *[Joint cumulative distribution function](/D/cdf-joint)*
-- **[Moments and pointwise consistency of the empirical distribution function](/P/ecdf-mompwc)**
+- **[Moments and point-wise consistency of the empirical CDF](/P/ecdf-mompwc)**
 ### Moment-generating function
 - *[Definition](/D/mgf)*
 - **[Moment-generating function of sum of independents](/P/mgf-sumind)**
@@ -210,7 +210,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Moment in terms of moment-generating function](/P/mom-mgf)**
 - *[Raw moment](/D/mom-raw)*
 - **[First raw moment is mean](/P/momraw-1st)**
-- **[Second raw moment and variance](/P/momraw-2nd)**
+- **[Second raw moment as sum of squares](/P/momraw-2nd)**
 - *[Central moment](/D/mom-cent)*
 - **[First central moment is zero](/P/momcent-1st)**
 - **[Second central moment is variance](/P/momcent-2nd)**
