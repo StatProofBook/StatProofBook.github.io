@@ -141,6 +141,7 @@ title: "Definition by Topic"
 - [Likeliest model frequency](/D/likfreq)
 - [Likelihood function](/D/lf)
 - [Likelihood ratio](/D/lr)
+- [Linear mixed model](/D/lmm)
 - [Location parameter](/D/para-loc)
 - [Log Bayes factor](/D/lbf)
 - [Log family evidence](/D/lfe)

@@ -897,26 +897,30 @@ title: "Table of Contents"
    &emsp;&ensp; 1.5.35. **[Bayesian information criterion](/P/mlr-bic)** <br>
    &emsp;&ensp; 1.5.36. **[Corrected Akaike information criterion](/P/mlr-aicc)** <br>
    
+   <p id="Linear mixed model"></p>
+   1.6. Linear mixed model <br>
+   &emsp;&ensp; 1.6.1. *[Definition](/D/lmm)* <br>
+   
    <p id="Bayesian linear regression"></p>
-   1.6. Bayesian linear regression <br>
-   &emsp;&ensp; 1.6.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
-   &emsp;&ensp; 1.6.2. **[Posterior distribution](/P/blr-post)** <br>
-   &emsp;&ensp; 1.6.3. **[Log model evidence](/P/blr-lme)** <br>
-   &emsp;&ensp; 1.6.4. **[Accuracy and complexity](/P/blr-anc)** <br>
-   &emsp;&ensp; 1.6.5. **[Deviance information criterion](/P/blr-dic)** <br>
-   &emsp;&ensp; 1.6.6. **[Maximum-a-posteriori estimation](/P/blr-map)** <br>
-   &emsp;&ensp; 1.6.7. **[Expression of posterior parameters using error terms](/P/blr-posterr)** <br>
-   &emsp;&ensp; 1.6.8. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
-   &emsp;&ensp; 1.6.9. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
-   &emsp;&ensp; 1.6.10. **[Combined posterior distribution from independent data sets](/P/blr-postind)** <br>
-   &emsp;&ensp; 1.6.11. **[Log Bayes factor for comparison of two regression models](/P/blr-lbf)** <br>
+   1.7. Bayesian linear regression <br>
+   &emsp;&ensp; 1.7.1. **[Conjugate prior distribution](/P/blr-prior)** <br>
+   &emsp;&ensp; 1.7.2. **[Posterior distribution](/P/blr-post)** <br>
+   &emsp;&ensp; 1.7.3. **[Log model evidence](/P/blr-lme)** <br>
+   &emsp;&ensp; 1.7.4. **[Accuracy and complexity](/P/blr-anc)** <br>
+   &emsp;&ensp; 1.7.5. **[Deviance information criterion](/P/blr-dic)** <br>
+   &emsp;&ensp; 1.7.6. **[Maximum-a-posteriori estimation](/P/blr-map)** <br>
+   &emsp;&ensp; 1.7.7. **[Expression of posterior parameters using error terms](/P/blr-posterr)** <br>
+   &emsp;&ensp; 1.7.8. **[Posterior probability of alternative hypothesis](/P/blr-pp)** <br>
+   &emsp;&ensp; 1.7.9. **[Posterior credibility region excluding null hypothesis](/P/blr-pcr)** <br>
+   &emsp;&ensp; 1.7.10. **[Combined posterior distribution from independent data sets](/P/blr-postind)** <br>
+   &emsp;&ensp; 1.7.11. **[Log Bayes factor for comparison of two regression models](/P/blr-lbf)** <br>
    
    <p id="Bayesian linear regression with known covariance"></p>
-   1.7. Bayesian linear regression with known covariance <br>
-   &emsp;&ensp; 1.7.1. **[Conjugate prior distribution](/P/blrkc-prior)** <br>
-   &emsp;&ensp; 1.7.2. **[Posterior distribution](/P/blrkc-post)** <br>
-   &emsp;&ensp; 1.7.3. **[Log model evidence](/P/blrkc-lme)** <br>
-   &emsp;&ensp; 1.7.4. **[Accuracy and complexity](/P/blrkc-anc)** <br>
+   1.8. Bayesian linear regression with known covariance <br>
+   &emsp;&ensp; 1.8.1. **[Conjugate prior distribution](/P/blrkc-prior)** <br>
+   &emsp;&ensp; 1.8.2. **[Posterior distribution](/P/blrkc-post)** <br>
+   &emsp;&ensp; 1.8.3. **[Log model evidence](/P/blrkc-lme)** <br>
+   &emsp;&ensp; 1.8.4. **[Accuracy and complexity](/P/blrkc-anc)** <br>
 
 2. <p id="Multivariate normal data">Multivariate normal data</p>
    

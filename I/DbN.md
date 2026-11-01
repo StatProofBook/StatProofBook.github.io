@@ -249,3 +249,4 @@ title: "Definition by Number"
 | D240 | or | [Odds ratio](/D/or) | JoramSoch | 2026-09-11 |
 | D241 | rr | [Relative risk](/D/rr) | JoramSoch | 2026-09-11 |
 | D242 | ct | [General contingency table](/D/ct) | JoramSoch | 2026-09-18 |
+| D243 | lmm | [Linear mixed model](/D/lmm) | adkipnis | 2026-10-21 |
