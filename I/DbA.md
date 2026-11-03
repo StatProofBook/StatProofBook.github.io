@@ -4,6 +4,10 @@ title: "Definition by Author"
 ---
 
 
+### adkipnis (1 definition)
+
+- [Linear mixed model](/D/lmm)
+
 ### alexanderdbolton (2 definitions)
 
 - [Minimum detectable effect](/D/mde)
