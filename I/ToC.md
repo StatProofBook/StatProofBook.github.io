@@ -392,9 +392,10 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.12. **[Combined posterior distribution from independent data](/P/post-indcond)** <br>
    &emsp;&ensp; 5.1.13. *[Posterior predictive distribution](/D/post-pred)* <br>
    &emsp;&ensp; 5.1.14. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
-   &emsp;&ensp; 5.1.15. *[Maximum-a-posteriori estimation](/D/map)* <br>
-   &emsp;&ensp; 5.1.16. *[Marginal likelihood](/D/ml)* <br>
-   &emsp;&ensp; 5.1.17. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
+   &emsp;&ensp; 5.1.15. **[Importance weights for cross-validation](/P/cv-iw)** <br>
+   &emsp;&ensp; 5.1.16. *[Maximum-a-posteriori estimation](/D/map)* <br>
+   &emsp;&ensp; 5.1.17. *[Marginal likelihood](/D/ml)* <br>
+   &emsp;&ensp; 5.1.18. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
    <p id="Prior distributions"></p>
    5.2. Prior distributions <br>
