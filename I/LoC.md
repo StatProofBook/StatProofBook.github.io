@@ -317,6 +317,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Combined posterior distribution from independent data](/P/post-indcond)**
 - *[Posterior predictive distribution](/D/post-pred)*
 - **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)**
+- **[Importance weights for cross-validation](/P/cv-iw)**
 - *[Maximum-a-posteriori estimation](/D/map)*
 - *[Marginal likelihood](/D/ml)*
 - **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)**
