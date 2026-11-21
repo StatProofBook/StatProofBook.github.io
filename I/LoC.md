@@ -576,6 +576,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 ### Multivariate t-distribution
 - *[Definition](/D/mvt)*
 - **[Probability density function](/P/mvt-pdf)**
+- **[Linear transformation](/P/mvt-ltt)**
+- **[Mean and covariance](/P/mvt-cov)**
 - **[Relationship to F-distribution](/P/mvt-f)**
 - **[Marginal distributions](/P/mvt-marg)**
 ### Normal-gamma distribution
@@ -614,6 +616,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Drawing samples](/P/matn-samp)**
 ### Wishart distribution
 - *[Definition](/D/wish)*
+- **[Mean](/P/wish-mean)**
+- **[Expected log-determinant](/P/wish-logdetmean)**
 - **[Kullback-Leibler divergence](/P/wish-kl)**
 ### Normal-Wishart distribution
 - *[Definition](/D/nw)*
