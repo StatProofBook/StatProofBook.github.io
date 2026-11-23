@@ -392,10 +392,9 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.12. **[Combined posterior distribution from independent data](/P/post-indcond)** <br>
    &emsp;&ensp; 5.1.13. *[Posterior predictive distribution](/D/post-pred)* <br>
    &emsp;&ensp; 5.1.14. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
-   &emsp;&ensp; 5.1.15. **[Importance weights for cross-validation](/P/cv-iw)** <br>
-   &emsp;&ensp; 5.1.16. *[Maximum-a-posteriori estimation](/D/map)* <br>
-   &emsp;&ensp; 5.1.17. *[Marginal likelihood](/D/ml)* <br>
-   &emsp;&ensp; 5.1.18. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
+   &emsp;&ensp; 5.1.15. *[Maximum-a-posteriori estimation](/D/map)* <br>
+   &emsp;&ensp; 5.1.16. *[Marginal likelihood](/D/ml)* <br>
+   &emsp;&ensp; 5.1.17. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
    <p id="Prior distributions"></p>
    5.2. Prior distributions <br>
@@ -430,9 +429,13 @@ title: "Table of Contents"
    &emsp;&ensp; 6.1.6. *[Brier scoring rule](/D/bsr)* <br>
    &emsp;&ensp; 6.1.7. **[Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr)** <br>
    
+   <p id="Cross-validation"></p>
+   6.2. Cross-validation <br>
+   &emsp;&ensp; 6.2.1. **[Importance weights for cross-validation](/P/cv-iw)** <br>
+   
    <p id="Bayes classification"></p>
-   6.2. Bayes classification <br>
-   &emsp;&ensp; 6.2.1. **[Decision threshold under asymmetric error costs](/P/bc-thr)** <br>
+   6.3. Bayes classification <br>
+   &emsp;&ensp; 6.3.1. **[Decision threshold under asymmetric error costs](/P/bc-thr)** <br>
 
 
 <br>
