@@ -572,3 +572,4 @@ title: "Proof by Number"
 | P564 | slrbem-meanvar | [Conditional expectation and variance under Berkson error model in simple linear regression](/P/slrbem-meanvar) | kjpetrykowski | 2026-10-20 |
 | P565 | arcsin-cdf | [Cumulative distribution function of the arcsine distribution](/P/arcsin-cdf) | syndexco | 2026-10-19 |
 | P566 | cv-iw | [Importance weights for cross-validation](/P/cv-iw) | aloctavodia | 2026-11-21 |
+| P571 | cv-hm | [Leave-one-out predictive density as harmonic mean of the likelihood](/P/cv-hm) | aloctavodia | 2026-11-24 |

@@ -432,6 +432,7 @@ title: "Table of Contents"
    <p id="Cross-validation"></p>
    6.2. Cross-validation <br>
    &emsp;&ensp; 6.2.1. **[Importance weights for cross-validation](/P/cv-iw)** <br>
+   &emsp;&ensp; 6.2.2. **[Leave-one-out predictive density as harmonic mean of the likelihood](/P/cv-hm)** <br>
    
    <p id="Bayes classification"></p>
    6.3. Bayes classification <br>
