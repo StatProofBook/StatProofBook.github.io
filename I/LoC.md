@@ -457,6 +457,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Non-standardized t-distribution](/D/nst)*
 - **[Relationship to non-standardized t-distribution](/P/nst-t)**
 - **[Probability density function](/P/t-pdf)**
+- **[Differential entropy](/P/t-dent)**
 ### Gamma distribution
 - *[Definition](/D/gam)*
 - **[Special case of Wishart distribution](/P/gam-wish)**
