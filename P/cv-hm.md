@@ -1,7 +1,7 @@
 ---
 layout: proof
 mathjax: true
-validate-yaml: false
+
 
 author: "Osvaldo Martin"
 affiliation: "Aalto University"
