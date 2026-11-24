@@ -563,6 +563,13 @@ title: "Proof by Author"
 - [Posterior predictive distribution of future data point based on observed Poisson data with exposures](/P/poissexp-postpred)
 - [Raw moments of the chi-squared distribution](/P/chi2-momraw)
 
+### leecrossley (4 proofs)
+
+- [Expected log-determinant of a Wishart random matrix](/P/wish-logdetmean)
+- [Linear transformation of a multivariate t-distributed random vector](/P/mvt-ltt)
+- [Mean and covariance of the multivariate t-distribution](/P/mvt-cov)
+- [Mean of the Wishart distribution](/P/wish-mean)
+
 ### majapavlo (8 proofs)
 
 - [Cumulative distribution function of the log-normal distribution](/P/lognorm-cdf)

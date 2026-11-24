@@ -717,8 +717,10 @@ title: "Table of Contents"
    4.3. Multivariate t-distribution <br>
    &emsp;&ensp; 4.3.1. *[Definition](/D/mvt)* <br>
    &emsp;&ensp; 4.3.2. **[Probability density function](/P/mvt-pdf)** <br>
-   &emsp;&ensp; 4.3.3. **[Relationship to F-distribution](/P/mvt-f)** <br>
-   &emsp;&ensp; 4.3.4. **[Marginal distributions](/P/mvt-marg)** <br>
+   &emsp;&ensp; 4.3.3. **[Linear transformation](/P/mvt-ltt)** <br>
+   &emsp;&ensp; 4.3.4. **[Mean and covariance](/P/mvt-cov)** <br>
+   &emsp;&ensp; 4.3.5. **[Relationship to F-distribution](/P/mvt-f)** <br>
+   &emsp;&ensp; 4.3.6. **[Marginal distributions](/P/mvt-marg)** <br>
    
    <p id="Normal-gamma distribution"></p>
    4.4. Normal-gamma distribution <br>
@@ -764,7 +766,9 @@ title: "Table of Contents"
    <p id="Wishart distribution"></p>
    5.2. Wishart distribution <br>
    &emsp;&ensp; 5.2.1. *[Definition](/D/wish)* <br>
-   &emsp;&ensp; 5.2.2. **[Kullback-Leibler divergence](/P/wish-kl)** <br>
+   &emsp;&ensp; 5.2.2. **[Mean](/P/wish-mean)** <br>
+   &emsp;&ensp; 5.2.3. **[Expected log-determinant](/P/wish-logdetmean)** <br>
+   &emsp;&ensp; 5.2.4. **[Kullback-Leibler divergence](/P/wish-kl)** <br>
    
    <p id="Normal-Wishart distribution"></p>
    5.3. Normal-Wishart distribution <br>

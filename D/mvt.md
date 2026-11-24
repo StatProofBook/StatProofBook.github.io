@@ -28,7 +28,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be an $n$-dimensional [random vector](/D/rvec). Then, $X$ is said to follow a multivariate $t$-distribution with mean $\mu$, scale matrix $\Sigma$ and degrees of freedom $\nu$
+**Definition:** Let $X$ be an $n$-dimensional [random vector](/D/rvec). Then, $X$ is said to follow a multivariate $t$-distribution with location $\mu$, scale matrix $\Sigma$ and degrees of freedom $\nu$
 
 $$ \label{eq:mvt}
 X \sim t(\mu, \Sigma, \nu) \; ,
