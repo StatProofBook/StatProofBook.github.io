@@ -571,6 +571,7 @@ title: "Proof by Number"
 | P563 | meansamp-varcorr | [Expectation and variance of the sample mean obtained from a finite population](/P/meansamp-varcorr) | kjpetrykowski | 2026-10-19 |
 | P564 | slrbem-meanvar | [Conditional expectation and variance under Berkson error model in simple linear regression](/P/slrbem-meanvar) | kjpetrykowski | 2026-10-20 |
 | P565 | arcsin-cdf | [Cumulative distribution function of the arcsine distribution](/P/arcsin-cdf) | syndexco | 2026-10-19 |
+| P566 | cv-iw | [Importance weights for cross-validation](/P/cv-iw) | aloctavodia | 2026-11-21 |
 | P567 | wish-mean | [Mean of the Wishart distribution](/P/wish-mean) | leecrossley | 2026-11-21 |
 | P568 | wish-logdetmean | [Expected log-determinant of a Wishart random matrix](/P/wish-logdetmean) | leecrossley | 2026-11-21 |
 | P569 | mvt-ltt | [Linear transformation of a multivariate t-distributed random vector](/P/mvt-ltt) | leecrossley | 2026-11-21 |

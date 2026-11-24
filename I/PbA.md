@@ -12,8 +12,9 @@ title: "Proof by Author"
 
 - [Power analysis, minimum detectable effect and minimum required sample size for a one-sample t-test](/P/ug-ttest1power)
 
-### aloctavodia (1 proof)
+### aloctavodia (2 proofs)
 
+- [Importance weights for cross-validation](/P/cv-iw)
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
 ### jdonland (1 proof)

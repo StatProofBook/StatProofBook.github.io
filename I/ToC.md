@@ -429,9 +429,13 @@ title: "Table of Contents"
    &emsp;&ensp; 6.1.6. *[Brier scoring rule](/D/bsr)* <br>
    &emsp;&ensp; 6.1.7. **[Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr)** <br>
    
+   <p id="Cross-validation"></p>
+   6.2. Cross-validation <br>
+   &emsp;&ensp; 6.2.1. **[Importance weights for cross-validation](/P/cv-iw)** <br>
+   
    <p id="Bayes classification"></p>
-   6.2. Bayes classification <br>
-   &emsp;&ensp; 6.2.1. **[Decision threshold under asymmetric error costs](/P/bc-thr)** <br>
+   6.3. Bayes classification <br>
+   &emsp;&ensp; 6.3.1. **[Decision threshold under asymmetric error costs](/P/bc-thr)** <br>
 
 
 <br>

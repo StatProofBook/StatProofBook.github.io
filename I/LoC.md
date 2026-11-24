@@ -346,6 +346,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Log probability is strictly proper scoring rule](/P/lpsr-spsr)**
 - *[Brier scoring rule](/D/bsr)*
 - **[Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr)**
+### Cross-validation
+- **[Importance weights for cross-validation](/P/cv-iw)**
 ### Bayes classification
 - **[Decision threshold under asymmetric error costs](/P/bc-thr)**
 

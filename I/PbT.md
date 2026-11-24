@@ -196,6 +196,7 @@ title: "Proof by Topic"
 
 ### I
 
+- [Importance weights for cross-validation](/P/cv-iw)
 - [Independence of estimated parameters and residuals in multiple linear regression](/P/mlr-ind)
 - [Independence of products of multivariate normal random vector](/P/mvn-indprod)
 - [Independent random variables are uncorrelated](/P/corr-ind)
