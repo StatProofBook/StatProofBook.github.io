@@ -17,6 +17,11 @@ title: "Proof by Author"
 - [Importance weights for cross-validation](/P/cv-iw)
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
 
+### AtticKnight (2 proofs)
+
+- [Maximum likelihood estimation for beta-distributed data](/P/beta-mle)
+- [Normal approximation to the binomial distribution](/P/bin-normapprox)
+
 ### jdonland (1 proof)
 
 - [Maximum likelihood estimation of number of trials from binomial observations](/P/bin-mlen)

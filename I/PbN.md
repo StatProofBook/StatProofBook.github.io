@@ -576,3 +576,5 @@ title: "Proof by Number"
 | P568 | wish-logdetmean | [Expected log-determinant of a Wishart random matrix](/P/wish-logdetmean) | leecrossley | 2026-11-21 |
 | P569 | mvt-ltt | [Linear transformation of a multivariate t-distributed random vector](/P/mvt-ltt) | leecrossley | 2026-11-21 |
 | P570 | mvt-cov | [Mean and covariance of the multivariate t-distribution](/P/mvt-cov) | leecrossley | 2026-11-21 |
+| P577 | beta-mle | [Maximum likelihood estimation for beta-distributed data](/P/beta-mle) | AtticKnight | 2026-11-23 |
+| P578 | bin-normapprox | [Normal approximation to the binomial distribution](/P/bin-normapprox) | AtticKnight | 2026-11-23 |
