@@ -478,6 +478,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.3.9. **[Shannon entropy](/P/bin-ent)** <br>
    &emsp;&ensp; 1.3.10. **[Kullback-Leibler divergence](/P/bin-kl)** <br>
    &emsp;&ensp; 1.3.11. **[Conditional binomial](/P/bin-margcond)** <br>
+   &emsp;&ensp; 1.3.12. **[Normal approximation](/P/bin-normapprox)** <br>
    
    <p id="Beta-binomial distribution"></p>
    1.4. Beta-binomial distribution <br>
@@ -1045,6 +1046,7 @@ title: "Table of Contents"
    4.1. Beta-distributed data <br>
    &emsp;&ensp; 4.1.1. *[Definition](/D/beta-data)* <br>
    &emsp;&ensp; 4.1.2. **[Method of moments](/P/beta-mome)** <br>
+   &emsp;&ensp; 4.1.3. **[Maximum likelihood estimation](/P/beta-mle)** <br>
    
    <p id="Dirichlet-distributed data"></p>
    4.2. Dirichlet-distributed data <br>

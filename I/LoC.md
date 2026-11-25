@@ -382,6 +382,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Shannon entropy](/P/bin-ent)**
 - **[Kullback-Leibler divergence](/P/bin-kl)**
 - **[Conditional binomial](/P/bin-margcond)**
+- **[Normal approximation](/P/bin-normapprox)**
 ### Beta-binomial distribution
 - *[Definition](/D/betabin)*
 - **[Probability mass function](/P/betabin-pmf)**
@@ -848,6 +849,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 ### Beta-distributed data
 - *[Definition](/D/beta-data)*
 - **[Method of moments](/P/beta-mome)**
+- **[Maximum likelihood estimation](/P/beta-mle)**
 ### Dirichlet-distributed data
 - *[Definition](/D/dir-data)*
 - **[Maximum likelihood estimation](/P/dir-mle)**
