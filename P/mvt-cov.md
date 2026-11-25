@@ -36,7 +36,7 @@ $$ \label{eq:mvt-mean-cov}
 $$
 
 
-**Proof:** The [normal mixture representation](/P/mvt-mvn) gives $X$ the same distribution as $\mu+Y/\sqrt{U}$, where $Y \sim \mathcal \mathcal{N}(0,\Sigma)$ and $U \sim \mathrm{Gam}(\nu/2, \nu/2)$ and $U$ is independent of $Y$. For $s>0$, using the [gamma density](/D/gam-pdf) gives
+**Proof:** The [normal mixture representation](/P/mvt-mvn) gives $X$ the same distribution as $\mu+Y/\sqrt{U}$, where $Y \sim \mathcal{N}(0,\Sigma)$ and $U \sim \mathrm{Gam}(\nu/2, \nu/2)$ and $U$ is independent of $Y$. For $s>0$, using the [gamma density](/D/gam-pdf) gives
 
 $$ \label{eq:E-U-pow}
   \mathrm{E}[U^{-s}]

@@ -42,7 +42,7 @@ c(\nu,V)=2^{p\nu/2} \, |V|^{\nu/2} \, \Gamma_p(\nu/2),
 \Gamma_p(a) = \pi^{p(p-1)/4} \prod_{j=1}^{p} \Gamma\!\left(a + \frac{1-j}{2}\right) \; .
 $$
 
-The density is $\lvert S \rvert^{(\nu-p-1)/2} \, \exp\!\left[ -\frac{1}{2} \operatorname{tr}(V^{-1} S) \right]/c(\nu,V)$. Multiplication by $\lvert S \rvert^t$ increases the determinant exponent by $t$ and leaves the trace term fixed. When $\nu + 2t > p-1$, integrating this new density kernel gives
+The density is $\lvert S \rvert^{(\nu-p-1)/2} \, \exp \\! \left[ -\frac{1}{2} \operatorname{tr}(V^{-1} S) \right]/c(\nu,V)$. Multiplication by $\lvert S \rvert^t$ increases the determinant exponent by $t$ and leaves the trace term fixed. When $\nu + 2t > p-1$, integrating this new density kernel gives
 
 $$ \label{eq:wish-logdetmean-s2}
   M(t)
