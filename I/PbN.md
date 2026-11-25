@@ -574,5 +574,5 @@ title: "Proof by Number"
 | P566 | cv-iw | [Importance weights for cross-validation](/P/cv-iw) | aloctavodia | 2026-11-21 |
 | P567 | wish-mean | [Mean of the Wishart distribution](/P/wish-mean) | leecrossley | 2026-11-21 |
 | P568 | wish-logdetmean | [Expected log-determinant of a Wishart random matrix](/P/wish-logdetmean) | leecrossley | 2026-11-21 |
-| P569 | mvt-ltt | [Linear transformation of a multivariate t-distributed random vector](/P/mvt-ltt) | leecrossley | 2026-11-21 |
+| P569 | mvt-ltt | [Linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt) | leecrossley | 2026-11-21 |
 | P570 | mvt-cov | [Mean and covariance of the multivariate t-distribution](/P/mvt-cov) | leecrossley | 2026-11-21 |

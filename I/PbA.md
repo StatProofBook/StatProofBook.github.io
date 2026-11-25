@@ -566,7 +566,7 @@ title: "Proof by Author"
 ### leecrossley (4 proofs)
 
 - [Expected log-determinant of a Wishart random matrix](/P/wish-logdetmean)
-- [Linear transformation of a multivariate t-distributed random vector](/P/mvt-ltt)
+- [Linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt)
 - [Mean and covariance of the multivariate t-distribution](/P/mvt-cov)
 - [Mean of the Wishart distribution](/P/wish-mean)
 
