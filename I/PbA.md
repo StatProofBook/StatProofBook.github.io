@@ -550,7 +550,7 @@ title: "Proof by Author"
 - [Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr)
 - [The log probability scoring rule is a strictly proper scoring rule](/P/lpsr-spsr)
 
-### kjpetrykowski (10 proofs)
+### kjpetrykowski (11 proofs)
 
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Conditional expectation and variance under Berkson error model in simple linear regression](/P/slrbem-meanvar)
@@ -558,6 +558,7 @@ title: "Proof by Author"
 - [Decision threshold for Bayes classification under asymmetric error costs](/P/bc-thr)
 - [Expectation and variance of the sample mean obtained from a finite population](/P/meansamp-varcorr)
 - [Moments and point-wise consistency of the empirical cumulative distribution function](/P/ecdf-mompwc)
+- [Population least squares under the Berkson error model in simple linear regression](/P/slrbem-popls)
 - [Posterior mean optimality under squared error loss](/P/post-meansqr)
 - [Posterior predictive covariance and correlation of future Bernoulli observations based on observed binomial data](/P/bin-postpredcorr)
 - [Posterior predictive distribution of future data point based on observed Poisson data with exposures](/P/poissexp-postpred)

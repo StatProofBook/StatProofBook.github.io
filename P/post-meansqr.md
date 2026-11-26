@@ -25,51 +25,84 @@ shortcut: "post-meansqr"
 username: "kjpetrykowski"
 ---
 
+**Theorem:** In a [joint Bayesian model](/D/fpm), draw a real parameter $\theta$ from a [prior](/D/prior) of total probability one, then draw data $X$ given $\theta$. Assume $\mathrm{E}(\theta^2)<\infty$. The mean of the [posterior distribution](/D/post) is
 
-**Theorem:** Let $\theta$ be a real [parameter](/D/para) treated as [random](/D/rvar) under a [proper prior and sampling model](/D/fpm), and let $X$ denote the [data](/D/data) which may be a [vector](/D/rvec). Assume $\mathrm{E}(\theta^2)<\infty$ under their [joint distribution](/D/dist-joint). Write the [posterior](/D/post) [mean](/D/mean) as $m(X)=\mathrm{E}(\theta \mid X)$.
-
-An [estimator](/D/est) $\delta(X)$ is a [measurable, real-valued function](/D/meas-fct) of the data. For any such estimator with $\mathrm{E}[\delta(X)^2]<\infty$,
-
-$$ \label{eq:identity}
-  \mathrm{E}\left[(\theta-\delta(X))^2\mid X\right]
-= \mathrm{Var}(\theta\mid X)+[m(X)-\delta(X)]^2 \; .
+$$ \label{eq:posterior-mean}
+m(X)=\mathrm{E}(\theta\mid X) \; .
 $$
 
-Consequently, $m(X)$ uniquely minimizes posterior expected squared [loss](/D/loss-fct), apart from data outcomes having prior-predictive probability zero. It also minimizes the integrated Bayes [risk](/D/risk-fct) $r(\delta)=\mathrm{E}[(\theta-\delta(X))^2]$ over these estimators.
+Let $\delta$ be a rule that assigns a real-valued estimate $\delta(x)$ to each possible observation $x$. Assume the rule is [measurable](/D/meas-fct), meaning that for every real cutoff $c$, the data values $x$ for which $\delta(x)\leq c$ form an event. Assume also that $\mathrm{E}[\delta(X)^2]<\infty$.
 
-Here, the [prior predictive distribution](/D/prior-pred) is the distribution of $X$ obtained by first drawing $\theta$ from its prior and then drawing $X$ from the sampling model. All expectations in this theorem use this [joint Bayesian model](/D/fpm). The parameter and its estimates have the same units.
+The rule's [posterior expected loss](/D/post-loss) is the average of its squared error [loss](/D/loss-fct) given $X$. For each such rule, the following identity holds [with probability one](/D/almost-sure), meaning that the exceptional data values together have probability zero under the [prior predictive distribution](/D/prior-pred) of $X$:
 
-The [posterior](/D/post) [variance](/D/var) is $\mathrm{Var}(\theta \mid X)=\mathrm{E}([\theta-m(X)]^2 \mid X)$. Before observing the data, the posterior mean and variance are functions of the random data $X$: after observing $x$, they are fixed.
+$$ \label{eq:identity}
+\begin{split}
+&\mathrm{E}[(\theta-\delta(X))^2\mid X] \\
+&\qquad=\mathrm{Var}(\theta\mid X)+[m(X)-\delta(X)]^2 \; .
+\end{split}
+$$
+
+Thus the posterior mean minimizes posterior expected loss with probability one. It also minimizes the [Bayes risk](/D/risk-fct), the squared error averaged over both $\theta$ and $X$:
+
+$$ \label{eq:bayes-risk}
+r(\delta)=\mathrm{E}[(\theta-\delta(X))^2]
+$$
+
+Equality $r(\delta)=r(m)$ holds exactly when $\delta(X)=m(X)$ with probability one.
 
 
-**Proof:** Add and subtract the posterior mean inside the estimation error:
+**Proof:** First check that $m(X)$ has a finite second moment. By the [law of total expectation](/P/mean-tot), the nonnegative posterior second moment has average $\mathrm{E}(\theta^2)<\infty$, so it is finite with probability one. By the [variance identity](/P/var-mean),
+
+$$ \label{eq:posterior-variance-bound}
+0\leq\mathrm{Var}(\theta\mid X)
+=\mathrm{E}(\theta^2\mid X)-m(X)^2 \; .
+$$
+
+Rearranging and averaging over the data gives
+
+$$ \label{eq:finite-moment}
+\begin{split}
+m(X)^2&\leq\mathrm{E}(\theta^2\mid X),\\
+\mathrm{E}[m(X)^2]&\leq\mathrm{E}[\mathrm{E}(\theta^2\mid X)]
+=\mathrm{E}(\theta^2)<\infty \; .
+\end{split}
+$$
+
+To obtain the conditional counterpart of the [squared-error property of the ordinary mean](/P/mean-mse), add and subtract $m(X)$ and expand the square:
 
 $$ \label{eq:expand}
 \begin{split}
-\theta-\delta(X) &= [\theta-m(X)]+[m(X)-\delta(X)], \\
-(\theta-\delta(X))^2 &= [\theta-m(X)]^2 + 2[\theta-m(X)][m(X)-\delta(X)] + [m(X)-\delta(X)]^2 \; .
+\theta-\delta(X)&=[\theta-m(X)]+[m(X)-\delta(X)],\\
+(\theta-\delta(X))^2
+&=[\theta-m(X)]^2\\
+&\quad+2[\theta-m(X)][m(X)-\delta(X)]\\
+&\quad+[m(X)-\delta(X)]^2 \; .
 \end{split}
 $$
 
-Once we condition on $X$, both $m(X)$ and $\delta(X)$ are fixed numbers. The cross-term has conditional expectation zero, because
+When we condition on $X$, both $m(X)$ and $\delta(X)$ are fixed. The first term has conditional expectation $\mathrm{Var}(\theta\mid X)$. For the middle term,
 
 $$ \label{eq:centered}
-  \mathrm{E}[\theta-m(X) \mid X]
-= \mathrm{E}(\theta \mid X)-m(X)
-= 0 \; .
+\begin{split}
+&\mathrm{E}[\theta-m(X)\mid X]
+=\mathrm{E}(\theta\mid X)-m(X)=0,\\
+&\mathrm{E}\bigl[2[\theta-m(X)][m(X)-\delta(X)]\mid X\bigr]\\
+&\qquad=2[m(X)-\delta(X)]\cdot0=0 \; .
+\end{split}
 $$
 
-The conditional expectation of the first squared term is equivalent to the definition of $\mathrm{Var}(\theta\mid X)$. The last squared term stays unchanged. This proves \eqref{eq:identity}.
+The last term is fixed once $X$ is given. This proves \eqref{eq:identity}. Only $[m(X)-\delta(X)]^2$ depends on the chosen estimate. It is nonnegative and is zero exactly when $\delta(X)=m(X)$.
 
-Only the nonnegative term $[m(X)-\delta(X)]^2$ depends on the choice of the [estimator](/D/est). It is zero, exactly when $\delta(X)=m(X)$. Taking expectations over $X$ gives
+Taking expectations of \eqref{eq:identity} gives
 
 $$ \label{eq:risk}
 \begin{split}
-r(\delta) &= \mathrm{E}[\mathrm{Var}(\theta\mid X)] + \mathrm{E}\left([m(X)-\delta(X)]^2\right), \\
-r(\delta)-r(m) &= \mathrm{E}\left([m(X)-\delta(X)]^2\right)\ geq0 \; .
+r(\delta)
+&=\mathrm{E}[\mathrm{Var}(\theta\mid X)]
+ +\mathrm{E}([m(X)-\delta(X)]^2),\\
+r(m)&=\mathrm{E}[\mathrm{Var}(\theta\mid X)],\\
+r(\delta)-r(m)&=\mathrm{E}([m(X)-\delta(X)]^2)\geq0 \; .
 \end{split}
 $$
 
-The [posterior mean](/D/post) also has a finite second moment, as required. [Jensen's inequality](/P/jens-ineq), applied to the posterior distribution and the convex function $z \mapsto z^2$, gives $m(X)^2 \leq \mathrm{E}(\theta^2 \mid X)$; taking the expectation and applying the [law of total expectation](/P/mean-tot) gives $\mathrm{E}[m(X)^2] \leq \mathrm{E}(\theta^2)$. Equality of the risks occurs only when $\delta(X)=m(X)$ almost surely under the [prior predictive distribution](/D/prior-pred). This proves both conclusions.
-
-For each posterior distribution, this is the [mean-minimizes-squared-error property](/P/mean-mse). Averaging over the data also gives the integrated-risk conclusion.
+A nonnegative random variable has expectation zero only if it is zero with probability one. Thus equality of the risks is equivalent to $\delta(X)=m(X)$ with probability one.

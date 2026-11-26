@@ -417,6 +417,7 @@ title: "Proof by Topic"
 - [Partition of the log model evidence into accuracy and complexity](/P/lme-anc)
 - [Partition of the mean squared error into bias and variance](/P/mse-bnv)
 - [Partition of variance into expected values](/P/var-mean)
+- [Population least squares under the Berkson error model in simple linear regression](/P/slrbem-popls)
 - [Positive semi-definiteness of the covariance matrix](/P/covmat-psd)
 - [Posterior credibility region against the omnibus null hypothesis for Bayesian linear regression](/P/blr-pcr)
 - [Posterior density is proportional to joint likelihood](/P/post-jl)

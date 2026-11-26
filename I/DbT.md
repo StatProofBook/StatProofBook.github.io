@@ -7,11 +7,13 @@ title: "Definition by Topic"
 ### A
 
 - [Akaike information criterion](/D/aic)
+- [Almost sure statements](/D/almost-sure)
 - [Alternative hypothesis](/D/h1)
 
 ### B
 
 - [Bayes factor](/D/bf)
+- [Bayesian credible set](/D/crs)
 - [Bayesian information criterion](/D/bic)
 - [Bayesian model averaging](/D/bma)
 - [Bernoulli distribution](/D/bern)
@@ -45,6 +47,7 @@ title: "Definition by Topic"
 - [Conjugate and non-conjugate prior distribution](/D/prior-conj)
 - [Constant](/D/const)
 - [Continuous uniform distribution](/D/cuni)
+- [Convergence in probability](/D/conv-prob)
 - [Corrected Akaike information criterion](/D/aicc)
 - [Correlation](/D/corr)
 - [Correlation matrix](/D/corrmat)
@@ -79,6 +82,7 @@ title: "Definition by Topic"
 - [Empirical Bayes](/D/eb)
 - [Empirical Bayes prior distribution](/D/prior-eb)
 - [Empirical Bayesian log model evidence](/D/eblme)
+- [Empirical cumulative distribution function](/D/ecdf)
 - [Encompassing model](/D/encm)
 - [Estimand, estimator and estimate](/D/est)
 - [Estimation matrix](/D/emat)
@@ -114,6 +118,7 @@ title: "Definition by Topic"
 ### I
 
 - [independent and identically distributed](/D/iid)
+- [Indicator function and indicator random variable](/D/ind-fct)
 - [Informative and non-informative prior distribution](/D/prior-inf)
 - [Interaction sum of squares](/D/iass)
 - [Inverse general linear model](/D/iglm)
@@ -151,6 +156,7 @@ title: "Definition by Topic"
 - [Log-likelihood ratio](/D/llr)
 - [Log-normal distribution](/D/lognorm)
 - [Logistic regression](/D/logreg)
+- [Loss function](/D/loss-fct)
 
 ### M
 
@@ -163,6 +169,7 @@ title: "Definition by Topic"
 - [Maximum log-likelihood](/D/mll)
 - [Maximum-a-posteriori estimation](/D/map)
 - [Mean squared error](/D/mse)
+- [Measurable function](/D/meas-fct)
 - [Median](/D/med)
 - [Method-of-moments estimation](/D/mome)
 - [Minimum](/D/min)
@@ -210,6 +217,7 @@ title: "Definition by Topic"
 - [Pooled sample standard deviation](/D/std-pool)
 - [Pooled sample variance](/D/var-pool)
 - [Posterior distribution](/D/post)
+- [Posterior expected loss](/D/post-loss)
 - [Posterior model probability](/D/pmp)
 - [Posterior predictive distribution](/D/post-pred)
 - [Power of a statistical test](/D/power)
@@ -246,6 +254,7 @@ title: "Definition by Topic"
 - [Residual sum of squares](/D/rss)
 - [Residual variance](/D/resvar)
 - [Residual-forming matrix](/D/rfmat)
+- [Risk and Bayes risk](/D/risk-fct)
 
 ### S
 
@@ -265,10 +274,12 @@ title: "Definition by Topic"
 - [Scoring rule](/D/sr)
 - [Shannon entropy](/D/ent)
 - [Shape parameter](/D/para-shape)
+- [Sigma-algebra](/D/sig-alg)
 - [Signal-to-noise ratio](/D/snr)
 - [Significance level](/D/alpha)
 - [Simple and composite hypothesis](/D/hyp-simp)
 - [Simple linear regression](/D/slr)
+- [Simple random sampling without replacement](/D/samp-srs)
 - [Size of a statistical test](/D/size)
 - [Skewness](/D/skew)
 - [Standard deviation](/D/std)

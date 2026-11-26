@@ -25,41 +25,74 @@ shortcut: "crs-priorpred"
 username: "kjpetrykowski"
 ---
 
+**Theorem:** Draw the parameter $\theta$ from the [prior distribution](/D/prior) $\Pi$ of total probability one. Given the drawn value $\theta=\vartheta$, draw the data $X$ from $P\_\vartheta$. For each possible observation $x$, a procedure returns a set $C(x)$ of parameter values. Assume membership is measurable in the parameter and the data together, so we can assign a probability to the event that the set covers the parameter, $\theta\in C(X)$.
 
-**Theorem:** Let $\theta$ and $X$ have a proper [joint Bayesian distribution](/D/dist-joint): $\theta$ has [prior probability](/D/prior) measure $\Pi$, and $X$ given $\theta$ has [sampling law](/D/lf) $P_\theta$. Let $0<\alpha<1$. Suppose $C(X)$ is a data-dependent set for which the event $\lbrace \theta\in C(X)\rbrace$ is measurable and
+Fix $0<\alpha<1$. Suppose the procedure returns a [credible set](/D/crs) with [posterior probability](/D/post) exactly $1-\alpha$ [with probability one](/D/almost-sure), meaning that the exceptional data values together have probability zero under the [prior predictive distribution](/D/prior-pred) of $X$:
 
 $$ \label{eq:posterior}
-\begin{gathered}
-\mathrm{Pr}\left( \theta \in C(X) \mid X \right) = 1-\alpha \\
-\text{almost surely under the prior-predictive law of} \; X \; .
-\end{gathered}
+\mathrm{Pr}(\theta\in C(X)\mid X)=1-\alpha
+\quad\text{with probability one} \; .
 $$
 
-The [prior predictive law](/D/prior-pred) is the [marginal distribution](/D/dist-marg) of $X$ under the [joint Bayesian model](/D/fpm). Then, the joint coverage is $1-\alpha$. Equivalently, if $c(\vartheta) = P_\vartheta(\vartheta \in C(X))$ denotes frequentist coverage at the fixed parameter value $\vartheta$, then
+Then the joint probability of coverage is
 
 $$ \label{eq:result}
-  \mathrm{Pr}\left( \theta \in C(X) \right)
-= \int c(\vartheta) \, \Pi(\mathrm{d}\vartheta) = 1-\alpha \; .
+\mathrm{Pr}(\theta\in C(X))=1-\alpha \; .
 $$
 
-The integration variable $\vartheta$ distinguishes a fixed parameter value in a sampling experiment from the random parameter $\theta$ in the Bayesian joint model. The prior-weighted average $\int c(\vartheta)\Pi(\mathrm{d}\vartheta)$ means $\int c(\vartheta)\pi(\vartheta)\,\mathrm{d}\vartheta$ for a prior density $\pi$, or $\sum_\vartheta c(\vartheta)\Pi(\lbrace \vartheta\rbrace )$ for a countable prior. The theorem allows sets of any shape and requires the stated exact posterior probability.
+For a fixed parameter value $\vartheta$, write the coverage over repeated draws of $X$ as
+
+$$ \label{eq:fixed-coverage}
+c(\vartheta)=P_\vartheta\lbrace\vartheta\in C(X)\rbrace \; .
+$$
+
+Individual values of $c(\vartheta)$ may differ from $1-\alpha$. Their average over the prior satisfies
+
+$$ \label{eq:averaged-coverage}
+\int c(\vartheta)\,\Pi(\mathrm{d}\vartheta)=1-\alpha \; .
+$$
 
 
-**Proof:** Define the zero-one indicator $I = \mathbf{1}_{\lbrace \theta \in C(X) \rbrace}$. The [expectation of an event's indicator equals its probability](/P/bern-mean). Conditional on the data, $\mathrm{E}(I \mid X)$ is therefore the [posterior probability](/D/post) in \eqref{eq:posterior}. Applying the [law of total expectation](/P/mean-tot) gives
+**Proof:** Let $I$ be the [indicator](/D/ind-fct) of coverage, equal to 1 when the returned set contains the parameter and 0 otherwise:
+
+$$ \label{eq:indicator}
+I=\mathbf{1}_{\lbrace\theta\in C(X)\rbrace} \; .
+$$
+
+[The expectation of $I$ is the probability of coverage](/P/bern-mean). Conditioning on the data gives the posterior probability in \eqref{eq:posterior}:
+
+$$ \label{eq:indicator-mean}
+\mathrm{E}(I\mid X)
+=\mathrm{Pr}(\theta\in C(X)\mid X)
+=1-\alpha
+\quad\text{with probability one} \; .
+$$
+
+By the [law of total expectation](/P/mean-tot),
 
 $$ \label{eq:data-first}
-  \mathrm{Pr}\left( \theta \in C(X) \right)
-= \mathrm{E}(I)
-= \mathrm{E}[\mathrm{E}(I\ mid X)]
-= \mathrm{E}(1-\alpha)=1-\alpha \; .
+\begin{split}
+\mathrm{Pr}(\theta\in C(X))
+&=\mathrm{E}(I)\\
+&=\mathrm{E}[\mathrm{E}(I\mid X)]\\
+&=\mathrm{E}(1-\alpha)=1-\alpha \; .
+\end{split}
 $$
 
-Alternatively, apply [total expectation](/P/mean-tot) while conditioning first on the parameter. Once $\theta=\vartheta$ is fixed, only the [data](/D/data) vary, and the [expected](/D/mean) indicator is $c(\vartheta)$. Thus:
+Now condition on the parameter. Given $\theta=\vartheta$, the data have distribution $P\_\vartheta$, so the conditional expectation of $I$ is $c(\vartheta)$ except on a set of parameter values of prior probability zero:
+
+$$ \label{eq:conditional-coverage}
+\mathrm{E}(I\mid\theta=\vartheta)
+=P_\vartheta\lbrace\vartheta\in C(X)\rbrace
+=c(\vartheta) \; .
+$$
+
+Average over $\vartheta$ using the prior weights $\Pi(\mathrm{d}\vartheta)$. For a discrete prior this gives a weighted sum, and for a prior with density $\pi$ the weight is $\pi(\vartheta)\,\mathrm{d}\vartheta$:
 
 $$ \label{eq:parameter-first}
 \mathrm{E}(I)
-=\int \mathrm{E}(I\mid\theta=\vartheta)\,\Pi(\mathrm{d}\vartheta)
+=\int\mathrm{E}(I\mid\theta=\vartheta)\,\Pi(\mathrm{d}\vartheta)
 =\int c(\vartheta)\,\Pi(\mathrm{d}\vartheta) \; .
 $$
 
-Combining \eqref{eq:data-first} and \eqref{eq:parameter-first}, this proves \eqref{eq:result}.
+Both \eqref{eq:data-first} and \eqref{eq:parameter-first} equal $\mathrm{E}(I)$, which gives \eqref{eq:averaged-coverage}. If the posterior probability in \eqref{eq:posterior} is only known to be at least $1-\alpha$ with probability one, the same averaging gives joint coverage of at least $1-\alpha$.

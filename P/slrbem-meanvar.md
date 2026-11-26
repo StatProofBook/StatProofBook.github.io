@@ -25,70 +25,67 @@ shortcut: "slrbem-meanvar"
 username: "kjpetrykowski"
 ---
 
-
-**Theorem:** Let $W$ be an assigned or recorded exposure with $0<\mathrm{Var}(W)<\infty$. Let $U$ be the difference between true and assigned exposure, and let $\varepsilon$ be outcome noise. Assume $W,U,\varepsilon$ are [mutually independent](/D/ind) and
+**Theorem:** Let $W$ be the assigned exposure, $U$ the difference between true and assigned exposure, and $\varepsilon$ the outcome noise. Assume that $W,U,\varepsilon$ are mutually [independent](/D/ind) and have finite variances. The assigned exposure may be constant. Let the errors have means and variances
 
 $$ \label{eq:assumptions}
 \begin{gathered}
-\mathrm{E}(U) = \mathrm{E}(\varepsilon)=0, \\
-\mathrm{Var}(U) = \tau^2<\infty, \qquad
-\mathrm{Var}(\varepsilon) = \sigma^2<\infty \; .
+\mathrm{E}(U)=\mathrm{E}(\varepsilon)=0,\\
+\mathrm{Var}(U)=\tau^2,\qquad
+\mathrm{Var}(\varepsilon)=\sigma^2 \; .
 \end{gathered}
 $$
 
-For fixed real coefficients $\alpha$ and $\beta$, define true exposure $X$ and outcome $Y$ by
+For fixed real numbers $\alpha,\beta$, define the true exposure $X$ and outcome $Y$ by the Berkson error model:
 
 $$ \label{eq:model}
-X = W+U, \qquad
-Y = \alpha+\beta X+\varepsilon \; .
+X=W+U,\qquad Y=\alpha+\beta X+\varepsilon \; .
 $$
 
-Then,
+Here true exposure varies around the assigned value. In a classical measurement error model, the recorded exposure varies around the true value. The following conditional mean and variance hold [with probability one](/D/almost-sure) under the distribution of $W$. Any exceptional exposure values together have probability zero.
 
 $$ \label{eq:conditional}
-\mathrm{E}(Y\mid W) = \alpha+\beta W, \qquad
-\mathrm{Var}(Y\mid W) = \beta^2\tau^2+\sigma^2 \; .
+\mathrm{E}(Y\mid W)=\alpha+\beta W,\qquad
+\mathrm{Var}(Y\mid W)=\beta^2\tau^2+\sigma^2 \; .
 $$
 
-The population least-squares regression of $Y$ on an intercept and $W$ has [intercept $\alpha$ and slope $\beta$](/D/slr).
-
-The [variables](/D/rvar) $X,W,U$ have the same exposure units. The variables $Y,\alpha,\varepsilon$ have outcome units, and $\beta$ has outcome units per exposure unit. Thus, $\beta^2\tau^2$ and $\sigma^2$ both have squared outcome units. No [normality assumption](/D/slr) is required.
-
-
-**Proof:** Substitute the true-exposure equation into the outcome equation:
+**Proof:** Substitute $X=W+U$ into the outcome equation. Write $V=\beta U+\varepsilon$ for the combined error:
 
 $$ \label{eq:substitute}
-Y = \alpha+\beta W+\beta U+\varepsilon \; .
+Y=\alpha+\beta W+V,\qquad V=\beta U+\varepsilon \; .
 $$
 
-Because $U$ and $\varepsilon$ are [independent](/D/ind) of $W$ and have [mean](/D/mean) zero,
+Mutual independence implies that the pair $(U,\varepsilon)$, and therefore $V$, is independent of $W$. By [linearity of expectation](/P/mean-lin),
+
+$$ \label{eq:error-mean}
+\mathrm{E}(V)=\beta\mathrm{E}(U)+\mathrm{E}(\varepsilon)=0 \; .
+$$
+
+Independence of $U$ and $\varepsilon$ gives zero covariance. Thus the [variance-of-a-sum formula](/P/var-sum) yields
+
+$$ \label{eq:error-variance}
+\begin{split}
+\mathrm{Var}(V)
+&=\beta^2\mathrm{Var}(U)+\mathrm{Var}(\varepsilon)
+ +2\beta\mathrm{Cov}(U,\varepsilon)\\
+&=\beta^2\tau^2+\sigma^2 \; .
+\end{split}
+$$
+
+Conditioning on $W$ fixes $\alpha+\beta W$ and leaves the distribution of $V$ unchanged. Therefore,
 
 $$ \label{eq:mean}
-  \mathrm{E}(Y\mid W)
-= \alpha+\beta W+\beta\mathrm{E}(U\mid W) + \mathrm{E}(\varepsilon\mid W)
-= \alpha+\beta W \; .
+\mathrm{E}(Y\mid W)=\alpha+\beta W+\mathrm{E}(V\mid W)
+=\alpha+\beta W
 $$
 
-Mutual independence also makes the [conditional](/D/dist-cond) [joint distribution](/D/dist-joint) of $(U,\varepsilon)$ given $W$ equal to its [independent](/D/ind) [marginal distribution](/D/dist-marg). The random part after conditioning on $W$ is therefore $\beta U+\varepsilon$, with variance
+and
 
 $$ \label{eq:variance}
-\begin{split}
-   \mathrm{Var}(Y\mid W)
-&= \beta^2\mathrm{Var}(U) + \mathrm{Var}(\varepsilon) + 2\beta\mathrm{Cov}(U,\varepsilon) \\
-&= \beta^2\tau^2+\sigma^2 \; .
-\end{split}
+\mathrm{Var}(Y\mid W)=\mathrm{Var}(V\mid W)
+=\mathrm{Var}(V)=\beta^2\tau^2+\sigma^2 \; .
 $$
 
-Population [least squares](/P/slr-ols) chooses an [intercept and slope](/D/slr) to minimize expected squared prediction error. Let $a$ and $b$ denote trial values of those coefficients. Conditional centering, or expansion of the square, gives
+These two identities prove \eqref{eq:conditional}. They use independence and the first two error moments and hold also for nonnormal errors.
 
-$$ \label{eq:least-squares}
-\begin{split}
-   \mathrm{E}[(Y-a-bW)^2]
-&= \mathrm{E}[(\alpha-a+(\beta-b)W)^2] + \beta^2\tau^2 + \sigma^2 \\
-&= [\alpha-a+(\beta-b)\mathrm{E}(W)]^2 + (\beta-b)^2 \mathrm{Var}(W) + \beta^2\tau^2 + \sigma^2 \; .
-\end{split}
-$$
-
-The first two terms are nonnegative. Since $\mathrm{Var}(W)>0$, they are both zero, only when $b=\beta$ and $a=\alpha$. This proves the population regression claim. Equivalently, its slope is $\mathrm{Cov}(W,Y)/\mathrm{Var}(W) = \beta$.
-
-The model specifies $X=W+U$: true exposure varies around assigned exposure. Classical measurement error specifies the reverse direction, $W=X+U$, together with different independence assumptions, resulting in an attenuated slope. Consequently, the two models assume different joint distributions.
+<span id="mjx-eqn-eq:least-squares"></span>
+The [population least-squares proof](/P/slrbem-popls) explains why the minimizing line has a unique slope when $\mathrm{Var}(W)>0$.

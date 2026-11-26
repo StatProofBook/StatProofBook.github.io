@@ -257,9 +257,20 @@ title: "Definition by Author"
 - [Scoring rule](/D/sr)
 - [Strictly proper scoring rule](/D/spsr)
 
-### kjpetrykowski (1 definition)
+### kjpetrykowski (12 definitions)
 
+- [Almost sure statements](/D/almost-sure)
+- [Bayesian credible set](/D/crs)
 - [Chi-squared distribution](/D/chi2)
+- [Convergence in probability](/D/conv-prob)
+- [Empirical cumulative distribution function](/D/ecdf)
+- [Indicator function and indicator random variable](/D/ind-fct)
+- [Loss function](/D/loss-fct)
+- [Measurable function](/D/meas-fct)
+- [Posterior expected loss](/D/post-loss)
+- [Risk and Bayes risk](/D/risk-fct)
+- [Sigma-algebra](/D/sig-alg)
+- [Simple random sampling without replacement](/D/samp-srs)
 
 ### majapavlo (1 definition)
 

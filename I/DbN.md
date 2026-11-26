@@ -250,3 +250,14 @@ title: "Definition by Number"
 | D241 | rr | [Relative risk](/D/rr) | JoramSoch | 2026-09-11 |
 | D242 | ct | [General contingency table](/D/ct) | JoramSoch | 2026-09-18 |
 | D243 | lmm | [Linear mixed model](/D/lmm) | adkipnis | 2026-10-21 |
+| D244 | post-loss | [Posterior expected loss](/D/post-loss) | kjpetrykowski | 2026-10-28 |
+| D245 | risk-fct | [Risk and Bayes risk](/D/risk-fct) | kjpetrykowski | 2026-10-28 |
+| D246 | crs | [Bayesian credible set](/D/crs) | kjpetrykowski | 2026-10-28 |
+| D247 | ind-fct | [Indicator function and indicator random variable](/D/ind-fct) | kjpetrykowski | 2026-10-28 |
+| D248 | ecdf | [Empirical cumulative distribution function](/D/ecdf) | kjpetrykowski | 2026-11-07 |
+| D249 | conv-prob | [Convergence in probability](/D/conv-prob) | kjpetrykowski | 2026-11-07 |
+| D250 | samp-srs | [Simple random sampling without replacement](/D/samp-srs) | kjpetrykowski | 2026-11-07 |
+| D251 | almost-sure | [Almost sure statements](/D/almost-sure) | kjpetrykowski | 2026-11-07 |
+| D252 | loss-fct | [Loss function](/D/loss-fct) | kjpetrykowski | 2026-11-07 |
+| D253 | meas-fct | [Measurable function](/D/meas-fct) | kjpetrykowski | 2026-11-11 |
+| D254 | sig-alg | [Sigma-algebra](/D/sig-alg) | kjpetrykowski | 2026-11-11 |
