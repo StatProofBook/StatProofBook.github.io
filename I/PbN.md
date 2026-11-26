@@ -576,3 +576,4 @@ title: "Proof by Number"
 | P568 | wish-logdetmean | [Expected log-determinant of a Wishart random matrix](/P/wish-logdetmean) | leecrossley | 2026-11-21 |
 | P569 | mvt-ltt | [Linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt) | leecrossley | 2026-11-21 |
 | P570 | mvt-cov | [Mean and covariance of the multivariate t-distribution](/P/mvt-cov) | leecrossley | 2026-11-21 |
+| P581 | slrbem-popls | [Population least squares under the Berkson error model in simple linear regression](/P/slrbem-popls) | kjpetrykowski | 2026-11-24 |

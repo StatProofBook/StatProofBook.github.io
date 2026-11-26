@@ -13,15 +13,19 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Random experiment](/D/rexp)*
 - *[Sample space](/D/samp-spc)*
 - *[Event space](/D/eve-spc)*
+- *[Sigma-algebra](/D/sig-alg)*
 - *[Probability space](/D/prob-spc)*
 - *[Measured data](/D/data)*
 - *[Statistical sample](/D/samp)*
+- *[Simple random sampling without replacement](/D/samp-srs)*
 - *[Sample size](/D/samp-size)*
 - *[Sample statistic](/D/stat)*
 - *[Descriptive vs. inferential](/D/stat-desc)*
 ### Random variables
 - *[Random event](/D/reve)*
+- *[Measurable function](/D/meas-fct)*
 - *[Random variable](/D/rvar)*
+- *[Indicator function and indicator random variable](/D/ind-fct)*
 - *[Random vector](/D/rvec)*
 - *[Random matrix](/D/rmat)*
 - *[Constant](/D/const)*
@@ -29,8 +33,10 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Univariate vs. multivariate](/D/rvar-uni)*
 - *[Circular random variable](/D/rvar-circ)*
 - *[independent and identically distributed](/D/iid)*
+- *[Convergence in probability](/D/conv-prob)*
 ### Probability
 - *[Probability](/D/prob)*
+- *[Almost sure statements](/D/almost-sure)*
 - *[Joint probability](/D/prob-joint)*
 - *[Marginal probability](/D/prob-marg)*
 - *[Conditional probability](/D/prob-cond)*
@@ -96,6 +102,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Inverse transformation method](/P/cdf-itm)**
 - **[Distributional transformation](/P/cdf-dt)**
 - *[Joint cumulative distribution function](/D/cdf-joint)*
+- *[Empirical cumulative distribution function](/D/ecdf)*
 - **[Moments and point-wise consistency of the empirical CDF](/P/ecdf-mompwc)**
 ### Moment-generating function
 - *[Definition](/D/mgf)*
@@ -264,12 +271,15 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 ### Basic concepts of estimation
 - *[Estimator](/D/est)*
 - *[Biased vs. unbiased](/D/est-bias)*
+- *[Loss function](/D/loss-fct)*
+- *[Risk and Bayes risk](/D/risk-fct)*
 ### Point estimates
 - *[Mean squared error](/D/mse)*
 - **[Partition of the mean squared error into bias and variance](/P/mse-bnv)**
 - **[Finite-population correction for the variance of a sample mean](/P/meansamp-varcorr)**
 ### Interval estimates
 - *[Confidence interval](/D/ci)*
+- *[Bayesian credible set](/D/crs)*
 - **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)**
 - **[Prior predictive calibration of Bayesian credible sets](/P/crs-priorpred)**
 ## Frequentist statistics
@@ -313,6 +323,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)**
 - *[Posterior distribution](/D/post)*
 - **[Posterior density is proportional to joint likelihood](/P/post-jl)**
+- *[Posterior expected loss](/D/post-loss)*
 - **[Posterior mean is optimal under squared error loss](/P/post-meansqr)**
 - **[Combined posterior distribution from independent data](/P/post-indcond)**
 - *[Posterior predictive distribution](/D/post-pred)*
@@ -703,6 +714,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Correlation coefficient in terms of slope estimate](/P/slr-corr)**
 - **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)**
 - **[Conditional expectation and variance under Berkson error model](/P/slrbem-meanvar)**
+- **[Population least squares under the Berkson error model](/P/slrbem-popls)**
 ### Multiple linear regression
 - *[Definition](/D/mlr)*
 - **[Special case of general linear model](/P/mlr-glm)**

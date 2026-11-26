@@ -20,38 +20,44 @@ title: "Table of Contents"
    &emsp;&ensp; 1.1.1. *[Random experiment](/D/rexp)* <br>
    &emsp;&ensp; 1.1.2. *[Sample space](/D/samp-spc)* <br>
    &emsp;&ensp; 1.1.3. *[Event space](/D/eve-spc)* <br>
-   &emsp;&ensp; 1.1.4. *[Probability space](/D/prob-spc)* <br>
-   &emsp;&ensp; 1.1.5. *[Measured data](/D/data)* <br>
-   &emsp;&ensp; 1.1.6. *[Statistical sample](/D/samp)* <br>
-   &emsp;&ensp; 1.1.7. *[Sample size](/D/samp-size)* <br>
-   &emsp;&ensp; 1.1.8. *[Sample statistic](/D/stat)* <br>
-   &emsp;&ensp; 1.1.9. *[Descriptive vs. inferential](/D/stat-desc)* <br>
+   &emsp;&ensp; 1.1.4. *[Sigma-algebra](/D/sig-alg)* <br>
+   &emsp;&ensp; 1.1.5. *[Probability space](/D/prob-spc)* <br>
+   &emsp;&ensp; 1.1.6. *[Measured data](/D/data)* <br>
+   &emsp;&ensp; 1.1.7. *[Statistical sample](/D/samp)* <br>
+   &emsp;&ensp; 1.1.8. *[Simple random sampling without replacement](/D/samp-srs)* <br>
+   &emsp;&ensp; 1.1.9. *[Sample size](/D/samp-size)* <br>
+   &emsp;&ensp; 1.1.10. *[Sample statistic](/D/stat)* <br>
+   &emsp;&ensp; 1.1.11. *[Descriptive vs. inferential](/D/stat-desc)* <br>
    
    <p id="Random variables"></p>
    1.2. Random variables <br>
    &emsp;&ensp; 1.2.1. *[Random event](/D/reve)* <br>
-   &emsp;&ensp; 1.2.2. *[Random variable](/D/rvar)* <br>
-   &emsp;&ensp; 1.2.3. *[Random vector](/D/rvec)* <br>
-   &emsp;&ensp; 1.2.4. *[Random matrix](/D/rmat)* <br>
-   &emsp;&ensp; 1.2.5. *[Constant](/D/const)* <br>
-   &emsp;&ensp; 1.2.6. *[Discrete vs. continuous](/D/rvar-disc)* <br>
-   &emsp;&ensp; 1.2.7. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
-   &emsp;&ensp; 1.2.8. *[Circular random variable](/D/rvar-circ)* <br>
-   &emsp;&ensp; 1.2.9. *[independent and identically distributed](/D/iid)* <br>
+   &emsp;&ensp; 1.2.2. *[Measurable function](/D/meas-fct)* <br>
+   &emsp;&ensp; 1.2.3. *[Random variable](/D/rvar)* <br>
+   &emsp;&ensp; 1.2.4. *[Indicator function and indicator random variable](/D/ind-fct)* <br>
+   &emsp;&ensp; 1.2.5. *[Random vector](/D/rvec)* <br>
+   &emsp;&ensp; 1.2.6. *[Random matrix](/D/rmat)* <br>
+   &emsp;&ensp; 1.2.7. *[Constant](/D/const)* <br>
+   &emsp;&ensp; 1.2.8. *[Discrete vs. continuous](/D/rvar-disc)* <br>
+   &emsp;&ensp; 1.2.9. *[Univariate vs. multivariate](/D/rvar-uni)* <br>
+   &emsp;&ensp; 1.2.10. *[Circular random variable](/D/rvar-circ)* <br>
+   &emsp;&ensp; 1.2.11. *[independent and identically distributed](/D/iid)* <br>
+   &emsp;&ensp; 1.2.12. *[Convergence in probability](/D/conv-prob)* <br>
    
    <p id="Probability"></p>
    1.3. Probability <br>
    &emsp;&ensp; 1.3.1. *[Probability](/D/prob)* <br>
-   &emsp;&ensp; 1.3.2. *[Joint probability](/D/prob-joint)* <br>
-   &emsp;&ensp; 1.3.3. *[Marginal probability](/D/prob-marg)* <br>
-   &emsp;&ensp; 1.3.4. *[Conditional probability](/D/prob-cond)* <br>
-   &emsp;&ensp; 1.3.5. *[Exceedance probability](/D/prob-exc)* <br>
-   &emsp;&ensp; 1.3.6. *[Statistical independence](/D/ind)* <br>
-   &emsp;&ensp; 1.3.7. *[Conditional independence](/D/ind-cond)* <br>
-   &emsp;&ensp; 1.3.8. **[Self-independence](/P/ind-self)** <br>
-   &emsp;&ensp; 1.3.9. **[Probability under independence](/P/prob-ind)** <br>
-   &emsp;&ensp; 1.3.10. *[Mutual exclusivity](/D/exc)* <br>
-   &emsp;&ensp; 1.3.11. **[Probability under exclusivity](/P/prob-exc)** <br>
+   &emsp;&ensp; 1.3.2. *[Almost sure statements](/D/almost-sure)* <br>
+   &emsp;&ensp; 1.3.3. *[Joint probability](/D/prob-joint)* <br>
+   &emsp;&ensp; 1.3.4. *[Marginal probability](/D/prob-marg)* <br>
+   &emsp;&ensp; 1.3.5. *[Conditional probability](/D/prob-cond)* <br>
+   &emsp;&ensp; 1.3.6. *[Exceedance probability](/D/prob-exc)* <br>
+   &emsp;&ensp; 1.3.7. *[Statistical independence](/D/ind)* <br>
+   &emsp;&ensp; 1.3.8. *[Conditional independence](/D/ind-cond)* <br>
+   &emsp;&ensp; 1.3.9. **[Self-independence](/P/ind-self)** <br>
+   &emsp;&ensp; 1.3.10. **[Probability under independence](/P/prob-ind)** <br>
+   &emsp;&ensp; 1.3.11. *[Mutual exclusivity](/D/exc)* <br>
+   &emsp;&ensp; 1.3.12. **[Probability under exclusivity](/P/prob-exc)** <br>
    
    <p id="Probability axioms"></p>
    1.4. Probability axioms <br>
@@ -117,7 +123,8 @@ title: "Table of Contents"
    &emsp;&ensp; 1.8.9. **[Inverse transformation method](/P/cdf-itm)** <br>
    &emsp;&ensp; 1.8.10. **[Distributional transformation](/P/cdf-dt)** <br>
    &emsp;&ensp; 1.8.11. *[Joint cumulative distribution function](/D/cdf-joint)* <br>
-   &emsp;&ensp; 1.8.12. **[Moments and point-wise consistency of the empirical CDF](/P/ecdf-mompwc)** <br>
+   &emsp;&ensp; 1.8.12. *[Empirical cumulative distribution function](/D/ecdf)* <br>
+   &emsp;&ensp; 1.8.13. **[Moments and point-wise consistency of the empirical CDF](/P/ecdf-mompwc)** <br>
    
    <p id="Moment-generating function"></p>
    1.9. Moment-generating function <br>
@@ -325,6 +332,8 @@ title: "Table of Contents"
    3.1. Basic concepts of estimation <br>
    &emsp;&ensp; 3.1.1. *[Estimator](/D/est)* <br>
    &emsp;&ensp; 3.1.2. *[Biased vs. unbiased](/D/est-bias)* <br>
+   &emsp;&ensp; 3.1.3. *[Loss function](/D/loss-fct)* <br>
+   &emsp;&ensp; 3.1.4. *[Risk and Bayes risk](/D/risk-fct)* <br>
    
    <p id="Point estimates"></p>
    3.2. Point estimates <br>
@@ -335,8 +344,9 @@ title: "Table of Contents"
    <p id="Interval estimates"></p>
    3.3. Interval estimates <br>
    &emsp;&ensp; 3.3.1. *[Confidence interval](/D/ci)* <br>
-   &emsp;&ensp; 3.3.2. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
-   &emsp;&ensp; 3.3.3. **[Prior predictive calibration of Bayesian credible sets](/P/crs-priorpred)** <br>
+   &emsp;&ensp; 3.3.2. *[Bayesian credible set](/D/crs)* <br>
+   &emsp;&ensp; 3.3.3. **[Construction of confidence intervals using Wilks' theorem](/P/ci-wilks)** <br>
+   &emsp;&ensp; 3.3.4. **[Prior predictive calibration of Bayesian credible sets](/P/crs-priorpred)** <br>
 
 4. <p id="Frequentist statistics">Frequentist statistics</p>
    
@@ -388,13 +398,14 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.8. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
    &emsp;&ensp; 5.1.9. *[Posterior distribution](/D/post)* <br>
    &emsp;&ensp; 5.1.10. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
-   &emsp;&ensp; 5.1.11. **[Posterior mean is optimal under squared error loss](/P/post-meansqr)** <br>
-   &emsp;&ensp; 5.1.12. **[Combined posterior distribution from independent data](/P/post-indcond)** <br>
-   &emsp;&ensp; 5.1.13. *[Posterior predictive distribution](/D/post-pred)* <br>
-   &emsp;&ensp; 5.1.14. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
-   &emsp;&ensp; 5.1.15. *[Maximum-a-posteriori estimation](/D/map)* <br>
-   &emsp;&ensp; 5.1.16. *[Marginal likelihood](/D/ml)* <br>
-   &emsp;&ensp; 5.1.17. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
+   &emsp;&ensp; 5.1.11. *[Posterior expected loss](/D/post-loss)* <br>
+   &emsp;&ensp; 5.1.12. **[Posterior mean is optimal under squared error loss](/P/post-meansqr)** <br>
+   &emsp;&ensp; 5.1.13. **[Combined posterior distribution from independent data](/P/post-indcond)** <br>
+   &emsp;&ensp; 5.1.14. *[Posterior predictive distribution](/D/post-pred)* <br>
+   &emsp;&ensp; 5.1.15. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
+   &emsp;&ensp; 5.1.16. *[Maximum-a-posteriori estimation](/D/map)* <br>
+   &emsp;&ensp; 5.1.17. *[Marginal likelihood](/D/ml)* <br>
+   &emsp;&ensp; 5.1.18. **[Marginal likelihood is integral of joint likelihood](/P/ml-jl)** <br>
    
    <p id="Prior distributions"></p>
    5.2. Prior distributions <br>
@@ -865,6 +876,7 @@ title: "Table of Contents"
    &emsp;&ensp; 1.4.26. **[Correlation coefficient in terms of slope estimate](/P/slr-corr)** <br>
    &emsp;&ensp; 1.4.27. **[Coefficient of determination in terms of correlation coefficient](/P/slr-rsq)** <br>
    &emsp;&ensp; 1.4.28. **[Conditional expectation and variance under Berkson error model](/P/slrbem-meanvar)** <br>
+   &emsp;&ensp; 1.4.29. **[Population least squares under the Berkson error model](/P/slrbem-popls)** <br>
    
    <p id="Multiple linear regression"></p>
    1.5. Multiple linear regression <br>
