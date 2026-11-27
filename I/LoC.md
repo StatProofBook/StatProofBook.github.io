@@ -348,7 +348,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr)**
 ### Cross-validation
 - **[Importance weights for cross-validation](/P/cv-iw)**
-- **[Leave-one-out predictive density as harmonic mean of the likelihood](/P/cv-hm)**
+- **[Leave-one-out predictive density](/P/cv-loo)**
 ### Bayes classification
 - **[Decision threshold under asymmetric error costs](/P/bc-thr)**
 
@@ -523,6 +523,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Variance](/P/beta-var)**
 ### Arcsine distribution
 - **[Cumulative distribution function](/P/arcsin-cdf)**
+- **[Differential entropy](/P/arcsin-dent)**
 ### Wald distribution
 - *[Definition](/D/wald)*
 - **[Probability density function](/P/wald-pdf)**

@@ -576,4 +576,5 @@ title: "Proof by Number"
 | P568 | wish-logdetmean | [Expected log-determinant of a Wishart random matrix](/P/wish-logdetmean) | leecrossley | 2026-11-21 |
 | P569 | mvt-ltt | [Linear transformation theorem for the multivariate t-distribution](/P/mvt-ltt) | leecrossley | 2026-11-21 |
 | P570 | mvt-cov | [Mean and covariance of the multivariate t-distribution](/P/mvt-cov) | leecrossley | 2026-11-21 |
-| P572 | cv-hm | [Leave-one-out predictive density as harmonic mean of the likelihood](/P/cv-hm) | aloctavodia | 2026-11-24 |
+| P571 | arcsin-dent | [Differential entropy of the arcsine distribution](/P/arcsin-dent) | Emptybiu | 2026-11-21 |
+| P572 | cv-loo | [Leave-one-out posterior predictive density is harmonic mean of the likelihood](/P/cv-loo) | aloctavodia | 2026-11-24 |

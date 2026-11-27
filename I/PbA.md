@@ -15,8 +15,12 @@ title: "Proof by Author"
 ### aloctavodia (3 proofs)
 
 - [Importance weights for cross-validation](/P/cv-iw)
-- [Leave-one-out predictive density as harmonic mean of the likelihood](/P/cv-hm)
+- [Leave-one-out posterior predictive density is harmonic mean of the likelihood](/P/cv-loo)
 - [Posterior predictive distribution is a marginal distribution of the joint likelihood](/P/postpred-jl)
+
+### Emptybiu (1 proof)
+
+- [Differential entropy of the arcsine distribution](/P/arcsin-dent)
 
 ### jdonland (1 proof)
 

@@ -432,7 +432,7 @@ title: "Table of Contents"
    <p id="Cross-validation"></p>
    6.2. Cross-validation <br>
    &emsp;&ensp; 6.2.1. **[Importance weights for cross-validation](/P/cv-iw)** <br>
-   &emsp;&ensp; 6.2.2. **[Leave-one-out predictive density as harmonic mean of the likelihood](/P/cv-hm)** <br>
+   &emsp;&ensp; 6.2.2. **[Leave-one-out predictive density](/P/cv-loo)** <br>
    
    <p id="Bayes classification"></p>
    6.3. Bayes classification <br>
@@ -649,6 +649,7 @@ title: "Table of Contents"
    <p id="Arcsine distribution"></p>
    3.10. Arcsine distribution <br>
    &emsp;&ensp; 3.10.1. **[Cumulative distribution function](/P/arcsin-cdf)** <br>
+   &emsp;&ensp; 3.10.2. **[Differential entropy](/P/arcsin-dent)** <br>
    
    <p id="Wald distribution"></p>
    3.11. Wald distribution <br>
