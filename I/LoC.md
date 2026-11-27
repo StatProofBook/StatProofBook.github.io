@@ -741,6 +741,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Akaike information criterion](/P/mlr-aic)**
 - **[Bayesian information criterion](/P/mlr-bic)**
 - **[Corrected Akaike information criterion](/P/mlr-aicc)**
+- **[Frisch-Waugh-Lovell theorem](/P/mlr-fwl)**
+- **[Gauss-Markov theorem](/P/mlr-blue)**
 ### Linear mixed model
 - *[Definition](/D/lmm)*
 ### Bayesian linear regression
