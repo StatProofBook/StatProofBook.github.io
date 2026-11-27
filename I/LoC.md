@@ -348,6 +348,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Brier scoring rule is strictly proper scoring rule](/P/bsr-spsr)**
 ### Cross-validation
 - **[Importance weights for cross-validation](/P/cv-iw)**
+- **[Leave-one-out predictive density as harmonic mean of the likelihood](/P/cv-hm)**
 ### Bayes classification
 - **[Decision threshold under asymmetric error costs](/P/bc-thr)**
 

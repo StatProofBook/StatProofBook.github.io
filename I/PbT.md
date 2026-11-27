@@ -237,6 +237,7 @@ title: "Proof by Topic"
 - [Law of total expectation](/P/mean-tot)
 - [Law of total probability](/P/prob-tot)
 - [Law of total variance](/P/var-tot)
+- [Leave-one-out predictive density as harmonic mean of the likelihood](/P/cv-hm)
 - [Linear combination of bivariate normal random variables](/P/bvn-lincomb)
 - [Linear combination of independent normal random variables](/P/norm-lincomb)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
