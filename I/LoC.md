@@ -114,6 +114,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Characteristic function](/D/cf)*
 - **[Characteristic function of arbitrary function](/P/cf-fct)**
 - *[Cumulant-generating function](/D/cgf)*
+### Central limit theorems
+- **[Classical central limit theorem](/P/clt-iid)**
 ### Expected value
 - *[Definition](/D/mean)*
 - **[Non-negative random variable](/P/mean-nnrvar)**
@@ -189,6 +191,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Sample correlation coefficient](/D/corr-samp)*
 - **[Relationship to standard scores](/P/corrsamp-z)**
 - **[Invariance of the sample correlation](/P/corrsamp-inv)**
+- **[Fisher transformation](/P/corrsamp-fisher)**
 - *[Conditional correlation](/D/corr-cond)*
 - *[Partial correlation](/D/corr-part)*
 - *[Correlation matrix](/D/corrmat)*
